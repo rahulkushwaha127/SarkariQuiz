@@ -474,9 +474,48 @@ class EditQuizzes extends EditRecord
             }
 
             try {
-                $response = Http::withHeaders([
+                // Normalize values (avoid whitespace/newlines).
+                $geminiApiKey = is_string($geminiApiKey) ? trim($geminiApiKey) : $geminiApiKey;
+                $model = is_string($model) ? trim($model) : $model;
+
+                // Normalize model id to match Google API format (e.g. "gemini-2.5-flash").
+                // This protects against older saved values like "Gemini 2.5 Flash (Preview)"
+                // or values like "models/gemini-2.5-flash".
+                if (is_string($model)) {
+                    $modelLower = strtolower($model);
+                    $modelLower = trim($modelLower);
+                    if (str_starts_with($modelLower, 'models/')) {
+                        $modelLower = substr($modelLower, strlen('models/'));
+                    }
+                    if (str_contains($modelLower, 'gemini') && str_contains($modelLower, '2.5') && str_contains($modelLower, 'flash')) {
+                        $modelLower = 'gemini-2.5-flash';
+                    } elseif (str_contains($modelLower, 'gemini') && str_contains($modelLower, '2.5') && str_contains($modelLower, 'pro')) {
+                        $modelLower = 'gemini-2.5-pro';
+                    }
+                    $model = $modelLower;
+                }
+
+                if (! is_string($model) || $model === '') {
+                    Notification::make()
+                        ->danger()
+                        ->title('Gemini model is not set. Please select a Gemini model in AI Integration settings.')
+                        ->send();
+                    return;
+                }
+
+                $geminiHttp = Http::withHeaders([
                     'Content-Type' => 'application/json',
-                ])->post("https://generativelanguage.googleapis.com/v1beta/models/{$model}:generateContent?key={$geminiApiKey}", [
+                    // Match Postman style key usage.
+                    'x-goog-api-key' => $geminiApiKey,
+                ]);
+
+                // Local-only workaround for Windows SSL/cURL CA issues.
+                // Do NOT disable SSL verification in production.
+                if (app()->environment('local')) {
+                    $geminiHttp = $geminiHttp->withoutVerifying();
+                }
+
+                $response = $geminiHttp->post("https://generativelanguage.googleapis.com/v1beta/models/{$model}:generateContent", [
                     'contents' => [['parts' => [['text' => mb_convert_encoding($prompt, 'UTF-8', 'UTF-8')]]]]
                 ]);
 
@@ -498,16 +537,29 @@ class EditQuizzes extends EditRecord
             $openAiKey = ! empty($key) ? $key : config('services.open_ai.open_api_key');
             $model = getSetting()->open_ai_model;
 
+            // Normalize key (avoid pasting "Bearer ..." or whitespace/newlines).
+            $openAiKey = is_string($openAiKey) ? trim($openAiKey) : $openAiKey;
+            if (is_string($openAiKey) && str_starts_with($openAiKey, 'Bearer ')) {
+                $openAiKey = trim(substr($openAiKey, strlen('Bearer ')));
+            }
+
             if (!$openAiKey) {
                 Notification::make()->danger()->title(__('messages.quiz.set_openai_key_at_env'))->send();
                 return;
             }
 
             try {
-                $quizResponse = Http::withToken($openAiKey)
+                $openAiHttp = Http::withToken($openAiKey)
                     ->withHeaders(['Content-Type' => 'application/json'])
-                    ->timeout(90)
-                    ->post('https://api.openai.com/v1/chat/completions', [
+                    ->timeout(90);
+
+                // Local-only workaround for Windows SSL/cURL CA issues.
+                // Do NOT disable SSL verification in production.
+                if (app()->environment('local')) {
+                    $openAiHttp = $openAiHttp->withoutVerifying();
+                }
+
+                $quizResponse = $openAiHttp->post('https://api.openai.com/v1/chat/completions', [
                         'model' => $model,
                         'messages' => [['role' => 'user', 'content' => $prompt]]
                     ]);

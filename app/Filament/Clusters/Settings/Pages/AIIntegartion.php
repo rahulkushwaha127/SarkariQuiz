@@ -109,14 +109,10 @@ class AIIntegartion extends Page implements HasForms
                     Select::make('gemini_ai_model')
                         ->label(__('messages.setting.gemini_ai_model') . ':')
                         ->options([
-                            'Gemini 2.5 Pro (Preview)' => 'Gemini 2.5 Pro (Preview)',
-                            'Gemini 2.5 Flash (Preview)' => 'Gemini 2.5 Flash (Preview)',
-                            'gemini-2.0-flash' => 'gemini-2.0-flash',
-                            'Gemini 2.0 Flash-Lite' => 'Gemini 2.0 Flash-Lite',
-                            'Gemini 2.0 Flash Thinking (Experimental)' => 'Gemini 2.0 Flash Thinking (Experimental)',
-                            'Gemini 2.0 Flash Live (Preview)' => 'Gemini 2.0 Flash Live (Preview)',
-                            'Gemini Nano' => 'Gemini Nano',
-                            'Gemini Nano with Multimodality (Pixel 9 series)' => 'Gemini Nano with Multimodality (Pixel 9 series)',
+                            // Use actual API model IDs as values.
+                            // (You can add more models here as needed.)
+                            'Gemini 2.5 Flash' => 'gemini-2.5-flash',
+                            'Gemini 2.0 Flash' => 'gemini-2.0-flash',
                         ])
                         ->searchable()
                         ->native(false)
