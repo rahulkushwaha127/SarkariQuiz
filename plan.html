@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Platform – Product Plan | Indian Gov Job Aspirants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --surface-hover: #243044;
+      --border: #2d3a4f;
+      --text: #e6edf3;
+      --text-muted: #8b9cb3;
+      --accent: #3b82f6;
+      --accent-dim: #2563eb;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    header {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      background: rgba(59, 130, 246, 0.15);
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h2 .icon {
+      font-size: 1.25rem;
+    }
+
+    h3 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin: 1.25rem 0 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card.goal {
+      border-left: 3px solid var(--accent);
+    }
+
+    .card ul {
+      list-style: none;
+    }
+
+    .card li {
+      padding: 0.35rem 0;
+      padding-left: 1.25rem;
+      position: relative;
+    }
+
+    .card li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    .card li.sub {
+      padding-left: 2rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .card li.sub::before {
+      content: "◦";
+      color: var(--text-muted);
+    }
+
+    .mvp-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .mvp-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1rem;
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    .mvp-item::before {
+      content: "✓";
+      color: var(--success);
+      font-weight: 700;
+    }
+
+    .phase2 {
+      opacity: 0.85;
+    }
+
+    .phase2 li::before {
+      color: var(--text-muted);
+    }
+
+    .highlight {
+      background: rgba(245, 158, 11, 0.12);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-top: 2rem;
+    }
+
+    .highlight h3 {
+      color: var(--warning);
+      margin-top: 0;
+    }
+
+    .highlight ul {
+      list-style: none;
+    }
+
+    .highlight li {
+      padding: 0.25rem 0;
+      padding-left: 1.25rem;
+      position: relative;
+    }
+
+    .highlight li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--warning);
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Product Plan</span>
+      <h1>Quiz Platform for Indian Gov Job Aspirants</h1>
+      <p class="subtitle">Section-wise feature list · Login-based access · MVP freeze</p>
+    </header>
+
+    <section>
+      <h2><span class="icon">🔓</span> 0. Public (No Login Required)</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">Traffic + AdSense approval + SEO</p>
+
+      <div class="card">
+        <h3>Pages</h3>
+        <ul>
+          <li>Home page (exam-focused)</li>
+          <li>Exam listing (SSC, Banking, Railways, etc.)</li>
+          <li>Subject-wise quiz listing</li>
+          <li>Daily quiz page</li>
+          <li>Leaderboard (public)</li>
+          <li>About Us · Contact · Privacy Policy · Terms & Disclaimer</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Features</h3>
+        <ul>
+          <li>Browse quizzes</li>
+          <li>Attempt limited quizzes as guest</li>
+          <li>See sample questions</li>
+          <li>View leaderboard (top scorers)</li>
+          <li>Share quiz link</li>
+          <li>Ads visible</li>
+        </ul>
+      </div>
+
+      <div class="card goal">
+        <strong>Goal:</strong> SEO + trust + first-time engagement
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">👨‍🎓</span> 1. Student Features (Login / Guest)</h2>
+
+      <div class="card">
+        <h3>Account</h3>
+        <ul>
+          <li>Guest play (auto temp user)</li>
+          <li>Optional login (Google / Email)</li>
+          <li>Profile (name, avatar)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Quiz Playing</h3>
+        <ul>
+          <li>Start quiz</li>
+          <li>Timer-based MCQs</li>
+          <li>Auto submit on time end</li>
+          <li>Instant result</li>
+          <li>Correct / wrong answer review</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Practice</h3>
+        <ul>
+          <li>Topic-wise practice</li>
+          <li>Difficulty level (easy/medium/hard)</li>
+          <li>Unlimited free practice (with ads)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Revision</h3>
+        <ul>
+          <li>Mistake-based questions</li>
+          <li>Bookmarked questions</li>
+          <li>"Revise again" mode</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Engagement</h3>
+        <ul>
+          <li>Daily quiz streak</li>
+          <li>Leaderboard (daily/weekly)</li>
+          <li>Share result card (WhatsApp / Telegram)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Ads Interaction</h3>
+        <ul>
+          <li>Banner ads</li>
+          <li>Interstitial ads after quiz</li>
+          <li>Rewarded ad (optional)</li>
+          <li class="sub">Unlock next quiz</li>
+          <li class="sub">See full solution</li>
+          <li class="sub">Extra questions</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">🧑‍🏫</span> 2. Quiz Creator Features (Login Required)</h2>
+
+      <div class="card">
+        <h3>Creator Onboarding</h3>
+        <ul>
+          <li>Register as creator</li>
+          <li>Accept content rules</li>
+          <li>Profile verification (later)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Quiz Management</h3>
+        <ul>
+          <li>Create quiz · Select Exam, Subject, Topic, Difficulty</li>
+          <li>Add questions manually</li>
+          <li>Bulk upload (CSV later)</li>
+          <li>Edit / delete drafts</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Submission Flow</h3>
+        <ul>
+          <li>Submit quiz for review</li>
+          <li>Status: Draft · Pending · Approved · Rejected</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Analytics</h3>
+        <ul>
+          <li>Total plays · Average score</li>
+          <li>Completion rate · Engagement time</li>
+        </ul>
+      </div>
+
+      <div class="card phase2">
+        <h3>Earnings (Phase 2)</h3>
+        <ul>
+          <li>Estimated earnings (ads-based)</li>
+          <li>Revenue share % · Withdrawal request (future)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">🛡️</span> 3. Admin Features</h2>
+
+      <div class="card">
+        <h3>User Management</h3>
+        <ul>
+          <li>View all users</li>
+          <li>Change roles (student ↔ creator)</li>
+          <li>Block spam users</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Quiz Moderation</h3>
+        <ul>
+          <li>Approve / reject quizzes</li>
+          <li>Edit quizzes · Feature quizzes</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Content Control</h3>
+        <ul>
+          <li>Manage exams · subjects · topics</li>
+          <li>Daily quiz selection</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Ads Management</h3>
+        <ul>
+          <li>Ad placements · Enable/disable ad types</li>
+          <li>Frequency control · Rewarded ad rules</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Analytics & System</h3>
+        <ul>
+          <li>DAU/MAU · Quiz attempts · Top quizzes</li>
+          <li>Creator performance · Ad impressions</li>
+          <li>Site settings · SEO meta · Static pages · Cache</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">🔐</span> 4. Auth & Access Control</h2>
+      <div class="card">
+        <ul>
+          <li><strong>Roles:</strong> guest · student · creator · admin</li>
+          <li><strong>Students:</strong> play only</li>
+          <li><strong>Creators:</strong> create quizzes</li>
+          <li><strong>Admin:</strong> full access</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">🧠</span> 5. Ad-Specific Features</h2>
+      <div class="card">
+        <ul>
+          <li><strong>Types:</strong> Banner · Interstitial · Rewarded</li>
+          <li>Ad after quiz submit · Ad after X quizzes</li>
+          <li>Rewarded ads optional only</li>
+          <li><strong>Safety:</strong> No ad in question screen · No forced click · No misleading UI</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">📊</span> 6. Leaderboard & Gamification</h2>
+      <div class="card">
+        <ul>
+          <li>Daily · Weekly · Monthly leaderboard</li>
+          <li>Exam-wise leaderboard</li>
+          <li>Streaks (optional)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">🔄</span> 7. Phase 2+ (Not in MVP)</h2>
+      <div class="card phase2">
+        <ul>
+          <li>Payments / subscription</li>
+          <li>Mobile app</li>
+          <li>AI question generation</li>
+          <li>Paid test series</li>
+          <li>Institute white-label</li>
+          <li>Multi-language UI (Hindi, etc.)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="icon">🧠</span> MVP Feature Freeze</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">For first launch, only build:</p>
+      <div class="mvp-list">
+        <span class="mvp-item">Public browsing</span>
+        <span class="mvp-item">Student quiz play</span>
+        <span class="mvp-item">Creator quiz upload</span>
+        <span class="mvp-item">Admin moderation</span>
+        <span class="mvp-item">Ads system</span>
+        <span class="mvp-item">Leaderboards</span>
+      </div>
+    </section>
+
+    <div class="highlight">
+      <h3>India Gov Aspirant Additions (Recommended)</h3>
+      <ul>
+        <li>Previous Year Questions (PYQ) bank</li>
+        <li>Section-wise tests (QA, Reasoning, English, GA, Computer)</li>
+        <li>Full-length mock tests</li>
+        <li>Current Affairs category</li>
+        <li>Exam calendar / notification page</li>
+        <li>Mobile-first design</li>
+      </ul>
+    </div>
+
+    <footer>
+      Quiz Platform Plan · Target: Indian Government Job Aspirants (SSC, Banking, Railways, UPSC)
+    </footer>
+  </div>
+</body>
+</html>

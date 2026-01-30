@@ -1,256 +1,66 @@
-# Laravel SaaS Boilerplate - Blade Edition
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-A comprehensive, production-ready Laravel SaaS boilerplate with authentication, teams, billing, and multi-tenancy support.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## 🚀 Tech Stack
+## About Laravel
 
-### Backend
-- **Laravel 12** - Latest Laravel framework
-- **PHP 8.2+** - Modern PHP features
-- **MySQL/PostgreSQL** - Database support
-- **Laravel Breeze** - Authentication scaffolding
-- **Laravel Cashier** - Stripe subscription management
-- **Spatie Laravel Permission** - Roles & permissions
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-### Frontend
-- **Blade Templates** - Server-side rendering
-- **Tailwind CSS 3** - Utility-first CSS framework
-- **Alpine.js 3** - Lightweight JavaScript framework
-- **Vite** - Modern build tool for assets
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## 📦 Installed Packages
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-```bash
-# Authentication
-laravel/breeze
+## Learning Laravel
 
-# Billing
-laravel/cashier
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-# Permissions
-spatie/laravel-permission
-```
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-## 🗄️ Database Structure
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### Tables
-- `users` - User accounts
-- `teams` - Organizations/Teams
-- `team_user` - Team membership pivot
-- `permissions` - Permission definitions (Spatie)
-- `roles` - Role definitions (Spatie)
-- `model_has_permissions` - User permissions (Spatie)
-- `model_has_roles` - User roles (Spatie)
-- `subscriptions` - Stripe subscriptions (Cashier)
-- `subscription_items` - Subscription items (Cashier)
+## Laravel Sponsors
 
-## 📁 Project Structure
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-```
-app/
-├── Http/
-│   ├── Controllers/
-│   │   ├── Auth/              # Authentication controllers (Breeze)
-│   │   └── ProfileController.php
-│   └── Requests/
-├── Models/
-│   ├── User.php               # User model with teams & roles
-│   └── Team.php               # Team model
-└── Services/
-    ├── TeamService.php        # Team management logic
-    └── BillingService.php     # Subscription management logic
+### Premium Partners
 
-resources/
-├── views/
-│   ├── components/            # Blade components
-│   ├── layouts/               # Layout templates
-│   ├── auth/                  # Authentication views
-│   └── profile/               # Profile views
-├── css/
-│   └── app.css               # Tailwind CSS
-└── js/
-    └── app.js                # Alpine.js initialization
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
-database/
-└── migrations/
-    ├── create_users_table
-    ├── create_teams_table
-    ├── create_team_user_table
-    └── create_permission_tables
-```
+## Contributing
 
-## 🎯 Features
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-### ✅ Implemented
-- [x] User Authentication (Login, Register, Password Reset)
-- [x] Email Verification
-- [x] Profile Management
-- [x] Team/Organization System
-- [x] Team Roles (Owner, Admin, Member)
-- [x] Roles & Permissions (Spatie)
-- [x] Billing Service (Stripe integration ready)
-- [x] Service Layer Architecture
-- [x] Vite + Tailwind + Alpine.js setup
+## Code of Conduct
 
-### 🚧 Planned
-- [ ] Dashboard with analytics
-- [ ] Billing/Subscription pages
-- [ ] Team management UI
-- [ ] Settings pages
-- [ ] API routes
-- [ ] Multi-tenancy support
-- [ ] Admin panel
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## 🔧 Installation
+## Security Vulnerabilities
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd saas
-   ```
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-2. **Install dependencies**
-   ```bash
-   composer install
-   npm install
-   ```
+## License
 
-3. **Environment setup**
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   ```
-
-4. **Database setup**
-   ```bash
-   php artisan migrate
-   ```
-
-5. **Build assets**
-   ```bash
-   npm run dev    # Development
-   npm run build  # Production
-   ```
-
-6. **Run the server**
-   ```bash
-   php artisan serve
-   ```
-
-## 📝 Usage
-
-### Creating a Team
-
-```php
-use App\Services\TeamService;
-use App\Models\User;
-
-$teamService = new TeamService();
-$user = User::find(1);
-
-$team = $teamService->create([
-    'name' => 'Acme Corp',
-    'description' => 'My awesome company',
-    'website' => 'https://acme.com'
-], $user);
-```
-
-### Managing Subscriptions
-
-```php
-use App\Services\BillingService;
-
-$billingService = new BillingService();
-
-// Subscribe user to a plan
-$subscription = $billingService->subscribe(
-    $user,
-    'price_1234567890', // Stripe price ID
-    ['payment_method' => 'pm_xxxxx']
-);
-
-// Check subscription status
-$hasActive = $billingService->hasActiveSubscription($user);
-$status = $billingService->getSubscriptionStatus($user);
-```
-
-### Working with Permissions
-
-```php
-// Assign role to user
-$user->assignRole('admin');
-
-// Give permission
-$user->givePermissionTo('manage teams');
-
-// Check permission
-if ($user->can('manage teams')) {
-    // User has permission
-}
-```
-
-## 🔐 Environment Variables
-
-Add these to your `.env`:
-
-```env
-# Stripe (for billing)
-STRIPE_KEY=your_stripe_key
-STRIPE_SECRET=your_stripe_secret
-STRIPE_WEBHOOK_SECRET=your_webhook_secret
-
-# Application
-APP_NAME="Your SaaS Name"
-APP_URL=http://localhost:8000
-
-# Database
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-```
-
-## 🎨 Frontend Development
-
-### Vite Dev Server
-```bash
-npm run dev
-```
-
-This will start Vite's development server with hot module replacement.
-
-### Tailwind CSS
-Tailwind is configured in `tailwind.config.js`. All Blade views are scanned for classes.
-
-### Alpine.js
-Alpine is initialized in `resources/js/app.js`. Use Alpine directives in your Blade templates:
-
-```blade
-<div x-data="{ open: false }">
-    <button @click="open = !open">Toggle</button>
-    <div x-show="open">Content</div>
-</div>
-```
-
-## 📚 Next Steps
-
-1. **Dashboard Layout** - Create the main dashboard navigation and layout
-2. **Team Management UI** - Build team creation, member management pages
-3. **Billing Pages** - Create subscription management interface
-4. **Settings Pages** - User and team settings
-5. **API Endpoints** - For potential Vue.js/React frontends
-6. **Multi-tenancy** - Implement tenant isolation
-
-## 🤝 Contributing
-
-This is a boilerplate project. Feel free to customize it for your needs!
-
-## 📄 License
-
-MIT License - feel free to use this for your projects.
-
----
-
-**Built with ❤️ using Laravel, Tailwind CSS, and Alpine.js**
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
