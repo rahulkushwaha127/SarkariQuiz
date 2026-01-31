@@ -6,11 +6,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable;
+    use HasFactory, Notifiable, HasRoles;
 
     /**
      * The attributes that are mass assignable.
@@ -20,7 +21,15 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'username',
         'password',
+        'bio',
+        'avatar_path',
+        'social_links',
+        'coaching_center_name',
+        'coaching_city',
+        'coaching_contact',
+        'coaching_website',
     ];
 
     /**
@@ -43,6 +52,33 @@ class User extends Authenticatable
         return [
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
+            'social_links' => 'array',
+            'blocked_at' => 'datetime',
         ];
+    }
+
+    public function studentProfile()
+    {
+        return $this->hasOne(Student::class);
+    }
+
+    public function creatorProfile()
+    {
+        return $this->hasOne(Creator::class);
+    }
+
+    public function adminProfile()
+    {
+        return $this->hasOne(Admin::class);
+    }
+
+    public function fcmTokens()
+    {
+        return $this->hasMany(FcmToken::class);
+    }
+
+    public function contestsCreated()
+    {
+        return $this->hasMany(Contest::class, 'creator_user_id');
     }
 }
