@@ -46,6 +46,15 @@
                         <div class="text-sm text-slate-600">No code/link for this join mode.</div>
                     @endif
                 </div>
+
+                @if ($contest->join_mode === 'whitelist')
+                    <div class="mt-4">
+                        <a href="{{ route('creator.contests.whitelist.index', $contest) }}"
+                           class="inline-flex rounded-xl bg-indigo-600 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-500">
+                            Manage whitelist
+                        </a>
+                    </div>
+                @endif
             </div>
 
             <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
@@ -91,6 +100,7 @@
                             <table class="min-w-full divide-y divide-slate-200">
                                 <thead class="bg-slate-50">
                                     <tr>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Rank</th>
                                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">User</th>
                                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Status</th>
                                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Joined</th>
@@ -100,6 +110,9 @@
                                 <tbody class="divide-y divide-slate-100">
                                     @foreach ($contest->participants as $p)
                                         <tr class="hover:bg-slate-50">
+                                            <td class="px-4 py-3 text-sm font-semibold text-slate-900">
+                                                #{{ $loop->iteration }}
+                                            </td>
                                             <td class="px-4 py-3">
                                                 <div class="font-medium text-slate-900">{{ $p->user?->name ?? '—' }}</div>
                                                 <div class="text-xs text-slate-500">{{ $p->user?->email ?? '' }}</div>

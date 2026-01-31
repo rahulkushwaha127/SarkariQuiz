@@ -16,6 +16,15 @@
                class="rounded-xl border border-indigo-200 bg-indigo-50 px-3 py-2 text-sm font-semibold text-indigo-700 hover:bg-indigo-100">
                 AI Generate
             </a>
+            @if (in_array($quiz->status, ['draft','rejected'], true) && $quiz->questions->count() > 0)
+                <form method="POST" action="{{ route('creator.quizzes.submit', $quiz) }}">
+                    @csrf
+                    @method('PATCH')
+                    <button class="rounded-xl bg-emerald-600 px-3 py-2 text-sm font-semibold text-white hover:bg-emerald-500">
+                        Submit for review
+                    </button>
+                </form>
+            @endif
             <a href="{{ route('creator.quizzes.edit', $quiz) }}"
                class="rounded-xl bg-indigo-600 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-500">
                 Edit

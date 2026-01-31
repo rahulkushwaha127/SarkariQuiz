@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Creator\AiQuizGeneratorController;
 use App\Http\Controllers\Creator\ContestController;
+use App\Http\Controllers\Creator\ContestWhitelistController;
 use App\Http\Controllers\Creator\QuestionController;
 use App\Http\Controllers\Creator\QuizController;
 use App\Http\Controllers\Creator\TaxonomyController;
@@ -12,7 +13,11 @@ Route::middleware(['auth', 'role:creator|admin'])
     ->as('creator.')
     ->group(function () {
         Route::resource('quizzes', QuizController::class);
+        Route::patch('quizzes/{quiz}/submit', [QuizController::class, 'submit'])->name('quizzes.submit');
         Route::resource('contests', ContestController::class);
+        Route::get('contests/{contest}/whitelist', [ContestWhitelistController::class, 'index'])->name('contests.whitelist.index');
+        Route::post('contests/{contest}/whitelist', [ContestWhitelistController::class, 'store'])->name('contests.whitelist.store');
+        Route::delete('contests/{contest}/whitelist/{entry}', [ContestWhitelistController::class, 'destroy'])->name('contests.whitelist.destroy');
 
         Route::get('taxonomy/exams/{exam}/subjects', [TaxonomyController::class, 'subjects'])->name('taxonomy.subjects');
         Route::get('taxonomy/subjects/{subject}/topics', [TaxonomyController::class, 'topics'])->name('taxonomy.topics');

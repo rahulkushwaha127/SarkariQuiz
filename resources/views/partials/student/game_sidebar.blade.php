@@ -34,31 +34,47 @@
         Home
     </a>
 
+    <a href="{{ route('student.browse.exams.index') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.browse.exams.*') || request()->routeIs('student.browse.subjects.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6h16M4 10h16M4 14h10M4 18h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Exams
+    </a>
+
+    <a href="{{ route('student.browse.contests.index') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.browse.contests.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 21h8M12 17v4M7 4h10v7a5 5 0 0 1-10 0V4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+        Public Contests
+    </a>
+
     <a href="{{ route('student.contests.join') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.contests.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6 7h12M6 12h12M6 17h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
         </svg>
-        Games
+        Join Contest
     </a>
 
-    <a href="javascript:void(0)"
-       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/50 hover:bg-white/10">
+    <a href="{{ route('student.leaderboard', ['period' => 'daily']) }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.leaderboard') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-70" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 21h8M12 17v4M7 4h10v7a5 5 0 0 1-10 0V4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M4 20V10M10 20V4M16 20v-8M22 20H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        Winners (soon)
+        Leaderboard
     </a>
 </nav>
 
 <div class="mt-5 border-t border-white/10 pt-4">
     <div class="space-y-1">
-        <a href="javascript:void(0)" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
+        <a href="{{ route('student.pages.about') }}" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
             <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4 19V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 <path d="M8 10h8M8 14h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
-            Blog (soon)
+            About
         </a>
 
         <a href="javascript:void(0)" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
@@ -69,27 +85,27 @@
             FAQ (soon)
         </a>
 
-        <a href="javascript:void(0)" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
+        <a href="{{ route('student.pages.contact') }}" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
             <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10 13a5 5 0 1 1 8 4l-1 4-4-1a5 5 0 0 1-3-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
                 <path d="M6 13a4 4 0 0 1 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
-            Contact us (soon)
+            Contact
         </a>
 
-        <a href="javascript:void(0)" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
+        <a href="{{ route('student.pages.privacy') }}" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
             <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2l7 4v6c0 5-3 9-7 10-4-1-7-5-7-10V6l7-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
             </svg>
-            Privacy Policy (soon)
+            Privacy Policy
         </a>
 
-        <a href="javascript:void(0)" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
+        <a href="{{ route('student.pages.terms') }}" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
             <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 3h10v18H7z" stroke="currentColor" stroke-width="2"/>
                 <path d="M9 7h6M9 11h6M9 15h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
-            Terms of Use (soon)
+            Terms
         </a>
     </div>
 

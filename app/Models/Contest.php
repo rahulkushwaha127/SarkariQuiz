@@ -63,5 +63,33 @@ class Contest extends Model
     {
         return $this->hasMany(ContestParticipant::class);
     }
+
+    public function attempts()
+    {
+        return $this->hasMany(QuizAttempt::class);
+    }
+
+    /**
+     * Keep contest status consistent with starts/ends timestamps.
+     * - scheduled -> live (when starts_at passed)
+     * - live/scheduled -> ended (when ends_at passed)
+     */
+    public function syncStatusFromSchedule(): void
+    {
+        if (in_array($this->status, ['draft', 'cancelled', 'ended'], true)) {
+            return;
+        }
+
+        $now = now();
+
+        if ($this->ends_at && $now->greaterThanOrEqualTo($this->ends_at) && $this->status !== 'ended') {
+            $this->forceFill(['status' => 'ended'])->save();
+            return;
+        }
+
+        if ($this->status === 'scheduled' && $this->starts_at && $now->greaterThanOrEqualTo($this->starts_at)) {
+            $this->forceFill(['status' => 'live'])->save();
+        }
+    }
 }
 

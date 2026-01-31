@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Student;
 use App\Http\Controllers\Controller;
 use App\Models\Contest;
 use App\Models\ContestParticipant;
+use App\Models\ContestWhitelist;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -21,19 +22,35 @@ class ContestController extends Controller
             ->where('join_code', strtoupper($code))
             ->firstOrFail();
 
+        $contest->syncStatusFromSchedule();
+
         // Student-only: ensure the logged-in user has the student role (not creator/admin).
         abort_unless(Auth::user()?->hasRole('student'), 403);
 
-        if (in_array($contest->status, ['ended', 'cancelled'], true)) {
+        if (in_array($contest->status, ['draft', 'ended', 'cancelled'], true)) {
             return redirect()
                 ->route('student.contests.join')
                 ->withErrors(['code' => 'This contest is not accepting joins right now.']);
         }
 
-        if (! in_array($contest->join_mode, ['public', 'link', 'code'], true)) {
+        if ($contest->join_mode === 'whitelist') {
+            $email = strtolower((string) (Auth::user()?->email ?? ''));
+            $allowed = $email
+                ? ContestWhitelist::query()
+                    ->where('contest_id', $contest->id)
+                    ->where('email', $email)
+                    ->exists()
+                : false;
+
+            if (! $allowed) {
+                return redirect()
+                    ->route('student.contests.join')
+                    ->withErrors(['code' => 'You are not whitelisted for this contest.']);
+            }
+        } elseif (! in_array($contest->join_mode, ['public', 'link', 'code'], true)) {
             return redirect()
                 ->route('student.contests.join')
-                ->withErrors(['code' => 'This contest requires whitelist access.']);
+                ->withErrors(['code' => 'This contest is not joinable with a code.']);
         }
 
         ContestParticipant::query()->updateOrCreate(
@@ -64,6 +81,8 @@ class ContestController extends Controller
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);
 
+        $contest->syncStatusFromSchedule();
+
         $participant = ContestParticipant::query()
             ->where('contest_id', $contest->id)
             ->where('user_id', Auth::id())
@@ -73,7 +92,23 @@ class ContestController extends Controller
 
         $contest->load(['creator', 'quiz']);
 
-        return view('student.contests.show', compact('contest', 'participant'));
+        $leaderboard = ContestParticipant::query()
+            ->where('contest_id', $contest->id)
+            ->with('user')
+            ->orderByDesc('score')
+            ->orderBy('joined_at')
+            ->limit(50)
+            ->get();
+
+        $myRank = null;
+        foreach ($leaderboard as $idx => $row) {
+            if ((int) $row->user_id === (int) Auth::id()) {
+                $myRank = $idx + 1;
+                break;
+            }
+        }
+
+        return view('student.contests.show', compact('contest', 'participant', 'leaderboard', 'myRank'));
     }
 }
 

@@ -26,8 +26,6 @@
             @php
                 $badge = strtoupper($subject->exam?->slug ?? 'GK');
                 $publicCount = (int) ($subject->published_quizzes_count ?? 0);
-                $reward = max(50, min(500, $publicCount * 50));
-                $entry = 80;
                 $title = $subject->name;
                 $initial = strtoupper(mb_substr($title, 0, 1));
             @endphp
@@ -58,18 +56,13 @@
                                 <div class="min-w-0">
                                     <div class="truncate text-base font-semibold text-white">{{ $title }}</div>
                                     <div class="mt-1 flex items-center gap-2 text-sm text-slate-200/80">
-                                        <span class="inline-flex items-center gap-1">
-                                            <span class="text-amber-200">🪙</span>
-                                            <span class="font-semibold text-white/90">{{ $reward }}</span>
-                                        </span>
-                                        <span class="text-slate-500">•</span>
-                                        <span class="text-xs text-slate-300">Entry: 🪙 {{ $entry }}</span>
+                                        <span class="text-xs text-slate-300">Public quizzes: {{ $publicCount }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <a href="{{ route('student.contests.join') }}"
+                        <a href="{{ route('student.browse.subjects.show', $subject) }}"
                            class="shrink-0 bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
                             PLAY NOW
                         </a>

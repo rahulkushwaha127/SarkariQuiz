@@ -77,6 +77,11 @@ class User extends Authenticatable
         return $this->hasMany(FcmToken::class);
     }
 
+    public function quizAttempts()
+    {
+        return $this->hasMany(QuizAttempt::class);
+    }
+
     public function contestsCreated()
     {
         return $this->hasMany(Contest::class, 'creator_user_id');

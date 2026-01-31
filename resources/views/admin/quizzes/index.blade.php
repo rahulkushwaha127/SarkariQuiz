@@ -76,12 +76,12 @@
                             </td>
                             <td class="px-4 py-3">
                                 <div class="flex flex-wrap justify-end gap-2">
-                                    @if ($quiz->status !== 'approved' && $quiz->status !== 'published')
+                                    @if ($quiz->status !== 'published')
                                         <form method="POST" action="{{ route('admin.quizzes.approve', $quiz) }}">
                                             @csrf
                                             @method('PATCH')
                                             <button class="rounded-xl bg-emerald-600 px-3 py-2 text-xs font-semibold text-white hover:bg-emerald-500">
-                                                Approve
+                                                Publish
                                             </button>
                                         </form>
                                     @endif

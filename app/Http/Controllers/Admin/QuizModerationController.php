@@ -38,9 +38,9 @@ class QuizModerationController extends Controller
 
     public function approve(Quiz $quiz)
     {
-        $quiz->update(['status' => 'approved']);
+        $quiz->update(['status' => 'published']);
 
-        return back()->with('status', 'Quiz approved.');
+        return back()->with('status', 'Quiz published.');
     }
 
     public function reject(Request $request, Quiz $quiz)

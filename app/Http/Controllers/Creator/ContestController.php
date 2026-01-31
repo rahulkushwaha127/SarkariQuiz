@@ -69,7 +69,14 @@ class ContestController extends Controller
     {
         abort_unless($contest->creator_user_id === Auth::id(), 403);
 
-        $contest->load(['quiz', 'participants.user']);
+        $contest->load([
+            'quiz',
+            'participants' => function ($q) {
+                $q->with('user')
+                    ->orderByDesc('score')
+                    ->orderBy('joined_at');
+            },
+        ]);
 
         $joinLink = $contest->join_code
             ? url('/student/contests/join/' . $contest->join_code)

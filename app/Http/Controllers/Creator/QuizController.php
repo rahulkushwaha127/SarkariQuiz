@@ -20,6 +20,7 @@ class QuizController extends Controller
     {
         $quizzes = Quiz::query()
             ->where('user_id', Auth::id())
+            ->withCount('questions')
             ->latest()
             ->paginate(15);
 
@@ -135,5 +136,22 @@ class QuizController extends Controller
         return redirect()
             ->route('creator.quizzes.index')
             ->with('status', 'Quiz deleted.');
+    }
+
+    public function submit(Quiz $quiz)
+    {
+        abort_unless($quiz->user_id === Auth::id(), 403);
+
+        if (in_array($quiz->status, ['pending', 'published'], true)) {
+            return back()->with('status', 'Quiz already submitted.');
+        }
+
+        if ((int) $quiz->questions()->count() === 0) {
+            return back()->withErrors(['submit' => 'Add at least 1 question before submitting.']);
+        }
+
+        $quiz->update(['status' => 'pending']);
+
+        return back()->with('status', 'Quiz submitted for review.');
     }
 }

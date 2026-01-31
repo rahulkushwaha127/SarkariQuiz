@@ -68,12 +68,7 @@
 
                 <div class="text-base font-semibold tracking-tight">{{ config('app.name', 'QuizWhiz') }}</div>
 
-                <div class="flex items-center gap-2">
-                    <div class="inline-flex items-center gap-2 bg-white/5 px-3 py-2 text-sm">
-                        <span class="inline-flex h-7 w-7 items-center justify-center bg-amber-400/20 text-amber-200">+</span>
-                        <span class="font-semibold">300</span>
-                    </div>
-                </div>
+                <div class="flex items-center gap-2"></div>
             </div>
 
             {{-- Screen --}}
