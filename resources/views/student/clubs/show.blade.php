@@ -130,11 +130,44 @@
         </div>
 
         <div class="border border-white/10 bg-white/5">
-            <div class="border-b border-white/10 px-4 py-3 text-sm font-semibold text-white">Live scoreboard</div>
-
             @if(!$activeSession)
-                <div class="px-4 py-4 text-sm text-slate-300">Start a session to see live points.</div>
+                <details class="group">
+                    <summary class="cursor-pointer list-none border-b border-white/10 px-4 py-3">
+                        <div class="flex items-center justify-between gap-3">
+                            <div class="text-sm font-semibold text-white">Members</div>
+                            <div class="flex items-center gap-3 text-xs text-slate-400">
+                                <span>{{ ($members ?? collect())->count() }} total</span>
+                                <span class="inline-flex h-8 w-8 items-center justify-center bg-white/5 text-slate-100 group-open:rotate-180 transition-transform">
+                                    <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mt-1 text-xs text-slate-400">Turn order will follow member positions once a session starts.</div>
+                    </summary>
+
+                    <div class="divide-y divide-white/10">
+                        @foreach(($members ?? collect()) as $m)
+                            <div class="px-4 py-3">
+                                <div class="flex items-center justify-between gap-3">
+                                    <div class="min-w-0">
+                                        <div class="text-sm font-semibold text-white truncate">
+                                            {{ $m->user?->name ?? '—' }}
+                                            <span class="ml-2 text-xs text-slate-400">#{{ (int) $m->position }}</span>
+                                            @if($m->role === 'admin')
+                                                <span class="ml-2 text-xs font-semibold text-amber-200">(admin)</span>
+                                            @endif
+                                        </div>
+                                        <div class="mt-1 text-xs text-slate-400 truncate">{{ $m->user?->email ?? '' }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </details>
             @else
+                <div class="border-b border-white/10 px-4 py-3 text-sm font-semibold text-white">Live scoreboard</div>
                 @foreach($members as $m)
                     @php
                         $pts = (int) (($scores->get($m->user_id)?->points) ?? 0);
