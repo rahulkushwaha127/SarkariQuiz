@@ -51,6 +51,7 @@
                 $publicCount = (int) ($subject->published_quizzes_count ?? 0);
                 $title = $subject->name;
                 $initial = strtoupper(mb_substr($title, 0, 1));
+                $playQuiz = $subject->play_quiz ?? null;
             @endphp
 
             <div class="border border-white/10 bg-white/5 p-4">
@@ -85,10 +86,17 @@
                             </div>
                         </div>
 
-                        <a href="{{ route('public.subjects.show', $subject) }}"
-                           class="shrink-0 bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
-                            PLAY NOW
-                        </a>
+                        @if($playQuiz)
+                            <a href="{{ $isLoggedIn ? route('play.quiz', $playQuiz) : route('public.quizzes.play', $playQuiz) }}"
+                               class="shrink-0 bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
+                                PLAY NOW
+                            </a>
+                        @else
+                            <a href="{{ route('public.subjects.show', $subject) }}"
+                               class="shrink-0 bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                                OPEN
+                            </a>
+                        @endif
                     </div>
                 </div>
             </div>
