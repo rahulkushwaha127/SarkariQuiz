@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Student;
 
 use App\Http\Controllers\Controller;
 use App\Models\DailyChallenge;
+use App\Models\DailyStreak;
+use App\Models\DailyStreakDay;
 use App\Models\QuizAttempt;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -50,7 +52,13 @@ class DailyChallengeController extends Controller
             }
         }
 
-        return view('student.daily.show', compact('daily', 'rows', 'today', 'myRank'));
+        $streak = DailyStreak::query()->where('user_id', Auth::id())->first();
+        $completedToday = DailyStreakDay::query()
+            ->where('user_id', Auth::id())
+            ->where('streak_date', $today)
+            ->exists();
+
+        return view('student.daily.show', compact('daily', 'rows', 'today', 'myRank', 'streak', 'completedToday'));
     }
 }
 

@@ -7,6 +7,13 @@
         <div class="border border-white/10 bg-white/5 p-4">
             <div class="text-sm font-semibold text-white">Daily Challenge</div>
             <div class="mt-1 text-sm text-slate-300">Date: {{ $today }}</div>
+            <div class="mt-2 text-xs text-slate-300">
+                Streak: <span class="font-semibold text-white">{{ (int) (($streak?->current_streak) ?? 0) }}</span>
+                · Best: <span class="font-semibold text-white">{{ (int) (($streak?->best_streak) ?? 0) }}</span>
+                @if(($completedToday ?? false))
+                    · <span class="font-semibold text-emerald-200">Completed today</span>
+                @endif
+            </div>
         </div>
 
         @if(!$daily?->quiz)

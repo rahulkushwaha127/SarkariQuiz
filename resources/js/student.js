@@ -217,3 +217,9 @@ document.addEventListener('DOMContentLoaded', () => {
     initClubsRealtime().catch(() => {});
 });
 
+// Push notifications (FCM)
+import { wirePushEnableButtons } from './fcm_client.js';
+document.addEventListener('DOMContentLoaded', () => {
+    wirePushEnableButtons();
+});
+

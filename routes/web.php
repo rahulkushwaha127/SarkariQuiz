@@ -12,6 +12,24 @@ use App\Http\Controllers\Public\DailyChallengeController;
 use App\Http\Controllers\Public\ShareController;
 use App\Http\Controllers\Public\PagesController;
 
+// Firebase Messaging service worker (must be served from app root).
+Route::get('/firebase-messaging-sw.js', function () {
+    $config = [
+        'apiKey' => env('FIREBASE_API_KEY', ''),
+        'authDomain' => env('FIREBASE_AUTH_DOMAIN', ''),
+        'projectId' => env('FIREBASE_PROJECT_ID', ''),
+        'storageBucket' => env('FIREBASE_STORAGE_BUCKET', ''),
+        'messagingSenderId' => env('FIREBASE_MESSAGING_SENDER_ID', ''),
+        'appId' => env('FIREBASE_APP_ID', ''),
+    ];
+
+    return response()
+        ->view('firebase-messaging-sw', [
+            'firebaseConfigJson' => json_encode($config, JSON_UNESCAPED_SLASHES),
+        ])
+        ->header('Content-Type', 'application/javascript');
+});
+
 Route::get('/', [BrowseController::class, 'home'])->name('public.home');
 
 Route::get('/c/{username}', [CreatorPublicController::class, 'show'])->name('public.creators.show');

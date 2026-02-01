@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\FcmToken;
+use App\Models\InAppNotification;
 use App\Services\Notifications\FcmSender;
 use Illuminate\Http\Request;
 
@@ -24,12 +25,32 @@ class NotificationsController extends Controller
             'url' => ['nullable', 'string', 'max:500'],
         ]);
 
-        $tokens = FcmToken::query()
+        $tokenRows = FcmToken::query()
             ->whereNull('revoked_at')
-            ->pluck('token')
-            ->unique()
-            ->values()
-            ->all();
+            ->get(['user_id', 'token']);
+
+        $tokens = $tokenRows->pluck('token')->unique()->values()->all();
+        $userIds = $tokenRows->pluck('user_id')->unique()->values()->all();
+
+        // Create in-app notifications for all recipients (even if push fails).
+        $rows = [];
+        $now = now();
+        foreach ($userIds as $uid) {
+            $rows[] = [
+                'user_id' => (int) $uid,
+                'type' => 'admin_announcement',
+                'title' => $data['title'],
+                'body' => $data['body'],
+                'url' => $data['url'] ?? null,
+                'data_json' => json_encode(['source' => 'admin'], JSON_UNESCAPED_SLASHES),
+                'read_at' => null,
+                'created_at' => $now,
+                'updated_at' => $now,
+            ];
+        }
+        foreach (array_chunk($rows, 500) as $chunk) {
+            InAppNotification::query()->insert($chunk);
+        }
 
         $payload = [
             'priority' => 'high',

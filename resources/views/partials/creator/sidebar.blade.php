@@ -29,6 +29,23 @@
                 Analytics
             </a>
 
+            <a href="{{ route('creator.notifications.index') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('creator.notifications.*') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('creator.notifications.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Notifications
+                @if(($inAppUnreadCount ?? 0) > 0)
+                    <span class="ml-auto inline-flex min-w-6 justify-center rounded-full bg-rose-600 px-2 py-0.5 text-xs font-bold text-white">{{ (int) $inAppUnreadCount }}</span>
+                @endif
+            </a>
+
+            <a href="{{ route('creator.notifications.send_form') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('creator.notifications.send_form') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('creator.notifications.send_form') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Notify students
+            </a>
+
             <div class="pt-2">
                 <div class="px-3 pb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">Coming next</div>
                 <div class="space-y-1">

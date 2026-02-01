@@ -5,6 +5,8 @@ use App\Http\Controllers\Creator\AiQuizGeneratorController;
 use App\Http\Controllers\Creator\AnalyticsController;
 use App\Http\Controllers\Creator\ContestController;
 use App\Http\Controllers\Creator\ContestWhitelistController;
+use App\Http\Controllers\Creator\InAppNotificationsController;
+use App\Http\Controllers\Creator\OutboundNotificationsController;
 use App\Http\Controllers\Creator\QuestionController;
 use App\Http\Controllers\Creator\QuizController;
 use App\Http\Controllers\Creator\TaxonomyController;
@@ -14,6 +16,13 @@ Route::middleware(['auth', 'role:creator|admin'])
     ->as('creator.')
     ->group(function () {
         Route::get('analytics', [AnalyticsController::class, 'index'])->name('analytics');
+
+        // In-app notifications
+        Route::get('notifications', [InAppNotificationsController::class, 'index'])->name('notifications.index');
+        Route::patch('notifications/read-all', [InAppNotificationsController::class, 'markAllRead'])->name('notifications.read_all');
+        Route::patch('notifications/{notification}/read', [InAppNotificationsController::class, 'markRead'])->name('notifications.read');
+        Route::get('notifications/send', [OutboundNotificationsController::class, 'create'])->name('notifications.send_form');
+        Route::post('notifications/send', [OutboundNotificationsController::class, 'send'])->name('notifications.send');
 
         Route::resource('quizzes', QuizController::class);
         Route::patch('quizzes/{quiz}/submit', [QuizController::class, 'submit'])->name('quizzes.submit');

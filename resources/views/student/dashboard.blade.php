@@ -8,6 +8,11 @@
         <div class="text-sm text-slate-200">Welcome back</div>
         <div class="mt-1 text-xl font-semibold text-white">{{ auth()->user()->name }}</div>
 
+        <div class="mt-2 text-xs text-slate-300">
+            Daily streak: <span class="font-semibold text-white">{{ (int) (($streak?->current_streak) ?? 0) }}</span>
+            · Best: <span class="font-semibold text-white">{{ (int) (($streak?->best_streak) ?? 0) }}</span>
+        </div>
+
         <div class="mt-3 flex flex-wrap gap-2">
             <a href="{{ route('student.contests.join') }}"
                class="bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">

@@ -6,24 +6,46 @@
 <div class="space-y-4">
     <div class="border border-white/10 bg-white/5 p-4">
         <div class="text-sm font-semibold text-white">Leaderboard</div>
-        <div class="mt-1 text-sm text-slate-300">{{ $label }}</div>
+        <div class="mt-1 text-sm text-slate-300">
+            {{ $label }}@if(($exam ?? null)?->name) · {{ $exam->name }}@endif
+        </div>
     </div>
 
     <div class="border border-white/10 bg-white/5">
         <div class="flex items-center gap-2 px-4 py-3">
-            <a href="{{ route('student.leaderboard', ['period' => 'daily']) }}"
+            <a href="{{ route('student.leaderboard', ['period' => 'daily', 'exam_id' => $examId]) }}"
                class="px-3 py-2 text-sm font-semibold {{ $period === 'daily' ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/10' }}">
                 Daily
             </a>
-            <a href="{{ route('student.leaderboard', ['period' => 'weekly']) }}"
+            <a href="{{ route('student.leaderboard', ['period' => 'weekly', 'exam_id' => $examId]) }}"
                class="px-3 py-2 text-sm font-semibold {{ $period === 'weekly' ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/10' }}">
                 Weekly
             </a>
-            <a href="{{ route('student.leaderboard', ['period' => 'all']) }}"
+            <a href="{{ route('student.leaderboard', ['period' => 'monthly', 'exam_id' => $examId]) }}"
+               class="px-3 py-2 text-sm font-semibold {{ $period === 'monthly' ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/10' }}">
+                Monthly
+            </a>
+            <a href="{{ route('student.leaderboard', ['period' => 'all', 'exam_id' => $examId]) }}"
                class="px-3 py-2 text-sm font-semibold {{ $period === 'all' ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/10' }}">
                 All time
             </a>
         </div>
+    </div>
+
+    <div class="border border-white/10 bg-white/5 p-4">
+        <form method="GET" action="{{ route('student.leaderboard') }}" class="flex items-center gap-2">
+            <input type="hidden" name="period" value="{{ $period }}">
+            <select name="exam_id" class="flex-1 border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                <option value="">All exams</option>
+                @foreach(($exams ?? collect()) as $e)
+                    <option value="{{ $e->id }}" @selected((int)($examId ?? 0) === (int)$e->id)>{{ $e->name }}</option>
+                @endforeach
+            </select>
+            <button class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                Apply
+            </button>
+        </form>
+        <div class="mt-2 text-xs text-slate-400">Exam-wise leaderboard filters only quiz attempts linked to that exam.</div>
     </div>
 
     <div class="border border-white/10 bg-white/5">

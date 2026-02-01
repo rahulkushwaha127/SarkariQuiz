@@ -68,7 +68,21 @@
 
                 <div class="text-base font-semibold tracking-tight">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
 
-                <div class="flex items-center gap-2"></div>
+                <div class="flex items-center gap-2">
+                    <a href="{{ route('student.notifications.index') }}"
+                       class="relative inline-flex h-10 w-10 items-center justify-center bg-white/5 text-slate-100 hover:bg-white/10"
+                       aria-label="Notifications">
+                        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 7h18s-3 0-3-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M13.7 21a2 2 0 0 1-3.4 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        @if(($inAppUnreadCount ?? 0) > 0)
+                            <span class="absolute -right-1 -top-1 inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-extrabold text-white">
+                                {{ (int) $inAppUnreadCount }}
+                            </span>
+                        @endif
+                    </a>
+                </div>
             </div>
 
             {{-- Header banner slot (AdSense-safe: unique unit per slot) --}}

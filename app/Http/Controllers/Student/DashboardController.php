@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Student;
 
 use App\Http\Controllers\Controller;
 use App\Models\DailyChallenge;
+use App\Models\DailyStreak;
 use App\Models\Subject;
+use Illuminate\Support\Facades\Auth;
 
 class DashboardController extends Controller
 {
@@ -28,6 +30,8 @@ class DashboardController extends Controller
             ->limit(8)
             ->get();
 
-        return view('student.dashboard', compact('subjects', 'daily'));
+        $streak = DailyStreak::query()->where('user_id', Auth::id())->first();
+
+        return view('student.dashboard', compact('subjects', 'daily', 'streak'));
     }
 }

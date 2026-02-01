@@ -72,6 +72,18 @@
         Clubs
     </a>
 
+    <a href="{{ route('student.notifications.index') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.notifications.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 7h18s-3 0-3-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M13.7 21a2 2 0 0 1-3.4 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Notifications
+        @if(($inAppUnreadCount ?? 0) > 0)
+            <span class="ml-auto inline-flex min-w-6 justify-center bg-rose-500/80 px-2 py-0.5 text-xs font-bold text-white">{{ (int) $inAppUnreadCount }}</span>
+        @endif
+    </a>
+
     <a href="{{ route('student.browse.contests.index') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.browse.contests.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">

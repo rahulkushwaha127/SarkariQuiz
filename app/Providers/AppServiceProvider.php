@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Models\Setting;
+use App\Models\InAppNotification;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -56,6 +57,20 @@ class AppServiceProvider extends ServiceProvider
                 'rewarded_enabled' => false,
                 'interstitial_every_n_results' => 3,
             ]);
+        }
+
+        // In-app notifications unread count (safe + cheap).
+        try {
+            $count = 0;
+            if (auth()->check() && Schema::hasTable('in_app_notifications')) {
+                $count = InAppNotification::query()
+                    ->where('user_id', auth()->id())
+                    ->whereNull('read_at')
+                    ->count();
+            }
+            View::share('inAppUnreadCount', (int) $count);
+        } catch (\Throwable $e) {
+            View::share('inAppUnreadCount', 0);
         }
     }
 }

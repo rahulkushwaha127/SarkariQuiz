@@ -6,6 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Models\Answer;
 use App\Models\Contest;
 use App\Models\ContestParticipant;
+use App\Models\DailyChallenge;
+use App\Models\DailyStreak;
+use App\Models\DailyStreakDay;
 use App\Models\Question;
 use App\Models\Quiz;
 use App\Models\QuizAttempt;
@@ -13,6 +16,7 @@ use App\Models\QuizAttemptAnswer;
 use App\Models\QuestionBookmark;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 class QuizPlayController extends Controller
@@ -24,7 +28,11 @@ class QuizPlayController extends Controller
         abort_unless((bool) $quiz->is_public && $quiz->status === 'published', 404);
 
         $totalQuestions = (int) $quiz->questions()->count();
-        abort_unless($totalQuestions > 0, 422);
+        if ($totalQuestions <= 0) {
+            return redirect()
+                ->back()
+                ->withErrors(['quiz' => 'This quiz has no questions yet. Please try another quiz.']);
+        }
 
         $durationSeconds = max(60, $totalQuestions * 30); // MVP default: 30s per question
 
@@ -78,7 +86,11 @@ class QuizPlayController extends Controller
         }
 
         $totalQuestions = (int) $contest->quiz->questions()->count();
-        abort_unless($totalQuestions > 0, 422);
+        if ($totalQuestions <= 0) {
+            return redirect()
+                ->route('student.contests.show', $contest)
+                ->withErrors(['contest' => 'This contest quiz has no questions yet.']);
+        }
 
         $durationSeconds = max(60, $totalQuestions * 30); // MVP default: 30s per question
 
@@ -303,6 +315,8 @@ class QuizPlayController extends Controller
             'share_code' => $shareCode,
         ]);
 
+        $this->maybeUpdateDailyStreak($attempt->user_id, $attempt->quiz_id, $submittedAt);
+
         if ($attempt->contest_id) {
             ContestParticipant::query()
                 ->where('contest_id', $attempt->contest_id)
@@ -311,6 +325,62 @@ class QuizPlayController extends Controller
                     'score' => $score,
                     'time_taken_seconds' => $timeTaken,
                 ]);
+        }
+    }
+
+    private function maybeUpdateDailyStreak(int $userId, int $quizId, \Illuminate\Support\Carbon $submittedAt): void
+    {
+        // Only for "Daily Challenge" quiz (not contests).
+        $date = $submittedAt->toDateString();
+
+        try {
+            $daily = DailyChallenge::query()
+                ->where('challenge_date', $date)
+                ->where('is_active', true)
+                ->first();
+
+            if (! $daily || (int) $daily->quiz_id !== (int) $quizId) {
+                return;
+            }
+
+            DB::transaction(function () use ($userId, $date) {
+                $inserted = false;
+
+                try {
+                    DailyStreakDay::query()->create([
+                        'user_id' => $userId,
+                        'streak_date' => $date,
+                    ]);
+                    $inserted = true;
+                } catch (\Throwable $e) {
+                    // Duplicate day already recorded => no streak change.
+                    $inserted = false;
+                }
+
+                if (! $inserted) {
+                    return;
+                }
+
+                $row = DailyStreak::query()->firstOrNew(['user_id' => $userId]);
+
+                $prev = \Illuminate\Support\Carbon::parse($date)->subDay()->toDateString();
+                $current = (int) ($row->current_streak ?? 0);
+
+                if ($row->last_streak_date && $row->last_streak_date->toDateString() === $prev) {
+                    $current = $current + 1;
+                } else {
+                    $current = 1;
+                }
+
+                $best = max((int) ($row->best_streak ?? 0), $current);
+
+                $row->current_streak = $current;
+                $row->best_streak = $best;
+                $row->last_streak_date = $date;
+                $row->save();
+            });
+        } catch (\Throwable $e) {
+            // Never break quiz submit if streak fails.
         }
     }
 }

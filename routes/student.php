@@ -6,6 +6,7 @@ use App\Http\Controllers\Student\DashboardController;
 use App\Http\Controllers\Student\BrowseController;
 use App\Http\Controllers\Student\ClubsController;
 use App\Http\Controllers\Student\DailyChallengeController;
+use App\Http\Controllers\Student\InAppNotificationsController;
 use App\Http\Controllers\Student\LeaderboardController;
 use App\Http\Controllers\Student\PagesController;
 use App\Http\Controllers\Student\PracticeController;
@@ -28,6 +29,11 @@ Route::middleware(['auth', 'role:student|admin'])
 
             Route::get('/leaderboard', [LeaderboardController::class, 'index'])->name('leaderboard');
             Route::get('/daily', [DailyChallengeController::class, 'show'])->name('daily');
+
+            // In-app notifications
+            Route::get('/notifications', [InAppNotificationsController::class, 'index'])->name('notifications.index');
+            Route::patch('/notifications/read-all', [InAppNotificationsController::class, 'markAllRead'])->name('notifications.read_all');
+            Route::patch('/notifications/{notification}/read', [InAppNotificationsController::class, 'markRead'])->name('notifications.read');
 
             // Clubs (human-led practice sessions)
             Route::get('/clubs', [ClubsController::class, 'index'])->name('clubs.index');

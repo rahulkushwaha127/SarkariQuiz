@@ -202,3 +202,9 @@ document.addEventListener('keydown', (e) => {
     closeDeleteModal();
 });
 
+// Push notifications (FCM) - reuse same click wiring
+import { wirePushEnableButtons } from './fcm_client.js';
+document.addEventListener('DOMContentLoaded', () => {
+    wirePushEnableButtons();
+});
+
