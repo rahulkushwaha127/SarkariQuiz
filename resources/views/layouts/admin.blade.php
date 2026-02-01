@@ -52,14 +52,14 @@
     <div id="common-modal" class="fixed inset-0 z-50 hidden" aria-hidden="true">
         <div class="absolute inset-0 bg-slate-900/60" data-modal-close="true"></div>
         <div class="relative mx-auto flex min-h-full max-w-2xl items-center justify-center p-4">
-            <div class="w-full overflow-hidden rounded-2xl bg-white shadow-2xl ring-1 ring-black/5">
+            <div class="flex max-h-[90vh] w-full flex-col overflow-hidden rounded-2xl bg-white shadow-2xl ring-1 ring-black/5">
                 <div class="flex items-center justify-between gap-4 border-b border-slate-200 px-5 py-4">
                     <h2 class="modal-title text-base font-semibold text-slate-900">Modal</h2>
                     <button type="button" class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50" data-modal-close="true">
                         Close
                     </button>
                 </div>
-                <div class="modal-body px-5 py-4">
+                <div class="modal-body max-h-[calc(90vh-80px)] overflow-y-auto px-5 py-4">
                     <div class="text-sm text-slate-600">Loading…</div>
                 </div>
             </div>

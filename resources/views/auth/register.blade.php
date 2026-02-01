@@ -8,6 +8,12 @@
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
+                    <div class="mb-3">
+                        <a href="{{ route('auth.google.redirect') }}" class="btn btn-outline-dark w-100">
+                            Continue with Google
+                        </a>
+                    </div>
+
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 

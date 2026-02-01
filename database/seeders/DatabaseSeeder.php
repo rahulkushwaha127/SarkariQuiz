@@ -21,5 +21,6 @@ class DatabaseSeeder extends Seeder
         $this->call(DemoUsersSeeder::class);
         $this->call(DemoTaxonomySeeder::class);
         $this->call(DemoQuizzesSeeder::class);
+        $this->call(DemoPyqSeeder::class);
     }
 }

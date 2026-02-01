@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Broadcast;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\GoogleAuthController;
 use App\Http\Controllers\FcmTokenController;
 use App\Http\Controllers\Public\CreatorPublicController;
 use App\Http\Controllers\Public\BrowseController;
@@ -55,6 +56,10 @@ Route::get('/terms', [PagesController::class, 'terms'])->name('public.pages.term
 
 Auth::routes();
 
+// Google login (optional)
+Route::get('/auth/google/redirect', [GoogleAuthController::class, 'redirect'])->name('auth.google.redirect');
+Route::get('/auth/google/callback', [GoogleAuthController::class, 'callback'])->name('auth.google.callback');
+
 Route::middleware('auth')->group(function () {
     // WebSocket auth endpoint for private channels (pusher-js / reverb).
     Broadcast::routes();
@@ -71,7 +76,7 @@ Route::middleware('auth')->get('/dashboard', function () {
     }
 
     if ($user?->hasRole('creator')) {
-        return redirect()->route('creator.quizzes.index');
+        return redirect()->route('creator.dashboard');
     }
 
     return redirect()->route('student.dashboard');

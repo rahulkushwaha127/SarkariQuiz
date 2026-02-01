@@ -10,6 +10,7 @@ use App\Http\Controllers\Student\InAppNotificationsController;
 use App\Http\Controllers\Student\LeaderboardController;
 use App\Http\Controllers\Student\PagesController;
 use App\Http\Controllers\Student\PracticeController;
+use App\Http\Controllers\Student\PyqController;
 use App\Http\Controllers\Student\RevisionController;
 use App\Http\Controllers\Student\QuizPlayController;
 
@@ -54,6 +55,13 @@ Route::middleware(['auth', 'role:student|admin'])
             Route::get('/practice/{attempt}/q/{number}', [PracticeController::class, 'question'])->name('practice.question');
             Route::post('/practice/{attempt}/q/{number}', [PracticeController::class, 'answer'])->name('practice.answer');
             Route::get('/practice/{attempt}/result', [PracticeController::class, 'result'])->name('practice.result');
+
+            // PYQ (Previous Year Questions) practice
+            Route::get('/pyq', [PyqController::class, 'index'])->name('pyq.index');
+            Route::post('/pyq/start', [PyqController::class, 'start'])->name('pyq.start');
+            Route::get('/pyq/{attempt}/q/{number}', [PyqController::class, 'question'])->name('pyq.question');
+            Route::post('/pyq/{attempt}/q/{number}', [PyqController::class, 'answer'])->name('pyq.answer');
+            Route::get('/pyq/{attempt}/result', [PyqController::class, 'result'])->name('pyq.result');
 
             // Revision (bookmarks + mistakes)
             Route::get('/revision', [RevisionController::class, 'index'])->name('revision');

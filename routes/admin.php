@@ -10,6 +10,7 @@ use App\Http\Controllers\Admin\ClubsController;
 use App\Http\Controllers\Admin\ContestsController;
 use App\Http\Controllers\Admin\SettingsController;
 use App\Http\Controllers\Admin\QuizModerationController;
+use App\Http\Controllers\Admin\PyqQuestionsController;
 use App\Http\Controllers\Admin\Taxonomy\ExamsController;
 use App\Http\Controllers\Admin\Taxonomy\SubjectsController;
 use App\Http\Controllers\Admin\Taxonomy\TopicsController;
@@ -55,6 +56,16 @@ Route::middleware(['auth', 'role:admin|super_admin'])
         Route::patch('/ads/units/{unit}', [AdsController::class, 'updateUnit'])->name('ads.units.update');
         Route::delete('/ads/units/{unit}', [AdsController::class, 'destroyUnit'])->name('ads.units.destroy');
         Route::patch('/ads/slots/{slot}', [AdsController::class, 'updateSlot'])->name('ads.slots.update');
+
+        // PYQ Bank
+        Route::get('/pyq', [PyqQuestionsController::class, 'index'])->name('pyq.index');
+        Route::get('/pyq/create', [PyqQuestionsController::class, 'create'])->name('pyq.create');
+        Route::post('/pyq', [PyqQuestionsController::class, 'store'])->name('pyq.store');
+        Route::get('/pyq/{pyqQuestion}/edit', [PyqQuestionsController::class, 'edit'])->name('pyq.edit');
+        Route::patch('/pyq/{pyqQuestion}', [PyqQuestionsController::class, 'update'])->name('pyq.update');
+        Route::delete('/pyq/{pyqQuestion}', [PyqQuestionsController::class, 'destroy'])->name('pyq.destroy');
+        Route::get('/pyq/import', [PyqQuestionsController::class, 'importForm'])->name('pyq.import_form');
+        Route::post('/pyq/import', [PyqQuestionsController::class, 'import'])->name('pyq.import');
 
         Route::prefix('taxonomy')->as('taxonomy.')->group(function () {
             Route::get('/exams', [ExamsController::class, 'index'])->name('exams.index');
