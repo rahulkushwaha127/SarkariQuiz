@@ -35,6 +35,14 @@
     </style>
 </head>
 <body class="min-h-screen bg-slate-950 text-slate-100">
+    @php
+        $me = auth()->user();
+        $isLoggedIn = (bool) $me;
+        $isStudent = (bool) ($me && $me->hasRole('student'));
+        $authModalNext = (string) (session('auth_modal_next') ?: url()->full());
+        $autoShowAuthModal = (bool) session('auth_modal');
+    @endphp
+
     {{-- fixed background --}}
     <div class="pointer-events-none fixed inset-0 -z-10">
         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(99,102,241,0.22),transparent_50%),radial-gradient(circle_at_bottom,rgba(168,85,247,0.18),transparent_50%)]"></div>
@@ -69,14 +77,16 @@
                 <div class="text-base font-semibold tracking-tight">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
 
                 <div class="flex items-center gap-2">
-                    <a href="{{ route('student.notifications.index') }}"
+                    @php $notificationsUrl = route('notifications.index'); @endphp
+                    <a href="{{ $notificationsUrl }}"
+                       @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $notificationsUrl }}" @endif
                        class="relative inline-flex h-10 w-10 items-center justify-center bg-white/5 text-slate-100 hover:bg-white/10"
                        aria-label="Notifications">
                         <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 7h18s-3 0-3-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
                             <path d="M13.7 21a2 2 0 0 1-3.4 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                         </svg>
-                        @if(($inAppUnreadCount ?? 0) > 0)
+                        @if($isStudent && ($inAppUnreadCount ?? 0) > 0)
                             <span class="absolute -right-1 -top-1 inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-extrabold text-white">
                                 {{ (int) $inAppUnreadCount }}
                             </span>
@@ -89,8 +99,8 @@
             @php
                 $adsEnabled = (bool) (($ads['enabled'] ?? false) && ($ads['banner_enabled'] ?? false));
                 $hideForQuestionScreens =
-                    request()->routeIs('student.play.question') ||
-                    request()->routeIs('student.practice.question');
+                    request()->routeIs('play.question') ||
+                    request()->routeIs('practice.question');
             @endphp
             @if($adsEnabled && ! $hideForQuestionScreens)
                 <div class="border-b border-white/10 bg-slate-950/40 px-3 py-2">
@@ -125,6 +135,48 @@
             {{-- Ads banner (MVP scaffold) --}}
             @include('partials.ads.student_banner')
 
+        </div>
+    </div>
+
+    {{-- Auth modal --}}
+    <div data-auth-modal-autoshow="{{ $autoShowAuthModal ? '1' : '0' }}"></div>
+    <div data-auth-modal="true" class="fixed inset-0 z-[70] hidden">
+        <div class="absolute inset-0 bg-slate-950/80" data-auth-modal-close="true"></div>
+        <div class="absolute inset-x-0 bottom-0 mx-auto w-full max-w-[420px] p-4 sm:inset-0 sm:grid sm:place-items-center">
+            <div class="w-full border border-white/10 bg-slate-900/90 p-5 shadow-2xl ring-1 ring-white/10 backdrop-blur">
+                <div class="flex items-start justify-between gap-3">
+                    <div>
+                        <div class="text-base font-semibold text-white">Login to continue</div>
+                        <div class="mt-1 text-sm text-slate-300">Create an account or login to unlock all features.</div>
+                    </div>
+                    <button type="button"
+                            class="inline-flex h-9 w-9 items-center justify-center bg-white/5 text-slate-100 hover:bg-white/10"
+                            data-auth-modal-close="true"
+                            aria-label="Close">
+                        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="mt-4 space-y-2">
+                    <a data-auth-google-link="true" href="{{ route('auth.google.redirect', ['next' => $authModalNext]) }}"
+                       class="flex w-full items-center justify-center gap-2 bg-white px-4 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100">
+                        <svg viewBox="0 0 48 48" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303C33.651 32.657 29.194 36 24 36c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.963 3.037l5.657-5.657C34.047 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
+                            <path fill="#FF3D00" d="M6.306 14.691l6.571 4.819C14.655 16.108 18.961 12 24 12c3.059 0 5.842 1.154 7.963 3.037l5.657-5.657C34.047 6.053 29.268 4 24 4c-7.682 0-14.355 4.337-17.694 10.691z"/>
+                            <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238C29.211 35.091 26.715 36 24 36c-5.175 0-9.625-3.326-11.271-7.946l-6.52 5.02C9.505 39.556 16.227 44 24 44z"/>
+                            <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303c-.792 2.206-2.231 4.078-4.094 5.353l.003-.002 6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/>
+                        </svg>
+                        Continue with Google
+                    </a>
+
+                    <div class="grid grid-cols-2 gap-2">
+                        <a data-auth-login-link="true" href="{{ route('login') }}" class="bg-white/10 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-white/15">Login</a>
+                        <a data-auth-register-link="true" href="{{ route('register') }}" class="bg-indigo-500 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-indigo-400">Register</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

@@ -3,38 +3,45 @@
 @section('title', 'Dashboard')
 
 @section('content')
+@php
+    $me = auth()->user();
+    $isLoggedIn = (bool) $me;
+    $isStudent = (bool) ($me && $me->hasRole('student'));
+    $userName = $me?->name ?? 'Guest';
+    $joinContestUrl = route('contests.join');
+    $practiceUrl = route('practice');
+@endphp
 <div class="space-y-4">
     <div class="border border-white/10 bg-white/5 p-4">
-        <div class="text-sm text-slate-200">Welcome back</div>
-        <div class="mt-1 text-xl font-semibold text-white">{{ auth()->user()->name }}</div>
+        @if($isLoggedIn)
+            <div class="text-sm text-slate-200">Welcome back</div>
+            <div class="mt-1 text-xl font-semibold text-white">{{ $userName }}</div>
 
-        <div class="mt-2 text-xs text-slate-300">
-            Daily streak: <span class="font-semibold text-white">{{ (int) (($streak?->current_streak) ?? 0) }}</span>
-            · Best: <span class="font-semibold text-white">{{ (int) (($streak?->best_streak) ?? 0) }}</span>
-        </div>
+            <div class="mt-2 text-xs text-slate-300">
+                Daily streak: <span class="font-semibold text-white">{{ (int) (($streak?->current_streak) ?? 0) }}</span>
+                · Best: <span class="font-semibold text-white">{{ (int) (($streak?->best_streak) ?? 0) }}</span>
+            </div>
+        @else
+            <div class="text-sm text-slate-200">Welcome to {{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
+            <div class="mt-1 text-base font-semibold text-white">Practice quizzes, compete in contests, and track your progress.</div>
+        @endif
 
-        <div class="mt-3 flex flex-wrap gap-2">
-            <a href="{{ route('student.contests.join') }}"
-               class="bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
-                Join contest
-            </a>
-            <a href="{{ route('student.practice') }}"
-               class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
-                Practice
-            </a>
-            @if(($daily ?? null)?->quiz)
-                <a href="{{ route('student.daily') }}"
+        @if($isStudent)
+            <div class="mt-3 flex flex-wrap gap-2">
+                <a href="{{ $joinContestUrl }}"
+                   class="bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
+                    Join contest
+                </a>
+                <a href="{{ $practiceUrl }}"
+                   class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                    Practice
+                </a>
+                <a href="{{ route('public.daily') }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Daily challenge
                 </a>
-            @else
-                <button type="button"
-                        class="bg-white/10 px-4 py-2 text-sm font-semibold text-white/80"
-                        disabled>
-                    Daily challenge (soon)
-                </button>
-            @endif
-        </div>
+            </div>
+        @endif
     </div>
 
     <div class="space-y-3">
@@ -78,7 +85,7 @@
                             </div>
                         </div>
 
-                        <a href="{{ route('student.browse.subjects.show', $subject) }}"
+                        <a href="{{ route('public.subjects.show', $subject) }}"
                            class="shrink-0 bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
                             PLAY NOW
                         </a>
@@ -94,4 +101,5 @@
     </div>
 </div>
 @endsection
+
 

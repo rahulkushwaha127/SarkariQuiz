@@ -14,7 +14,7 @@
     @else
         <div class="border border-white/10 bg-white/5">
             @foreach($exams as $exam)
-                <a href="{{ route('student.browse.exams.show', $exam) }}"
+                <a href="{{ route('public.exams.show', $exam) }}"
                    class="flex items-center justify-between gap-3 border-b border-white/10 px-4 py-3 last:border-b-0 hover:bg-white/5">
                     <div class="text-sm font-semibold text-white">{{ $exam->name }}</div>
                     <div class="text-xs text-slate-400">View</div>
@@ -24,4 +24,5 @@
     @endif
 </div>
 @endsection
+
 

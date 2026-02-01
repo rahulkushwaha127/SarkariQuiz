@@ -14,7 +14,7 @@
     @else
         <div class="border border-white/10 bg-white/5">
             @foreach($contests as $contest)
-                <a href="{{ route('student.browse.contests.show', $contest) }}"
+                <a href="{{ route('public.contests.show', $contest) }}"
                    class="block border-b border-white/10 px-4 py-3 last:border-b-0 hover:bg-white/5">
                     <div class="flex items-start justify-between gap-3">
                         <div class="min-w-0">
@@ -38,4 +38,5 @@
     @endif
 </div>
 @endsection
+
 

@@ -16,7 +16,7 @@
         @enderror
 
         <div class="border border-white/10 bg-white/5 p-4">
-            <form method="GET" action="{{ route('student.practice') }}" class="space-y-3">
+            <form method="GET" action="{{ route('practice') }}" class="space-y-3">
                 <div>
                     <label class="text-sm font-semibold text-white/90">Exam</label>
                     <select name="exam_id"
@@ -71,7 +71,7 @@
             <div class="text-sm font-semibold text-white">Start</div>
             <div class="mt-1 text-sm text-slate-300">Default: 10 random questions.</div>
 
-            <form method="POST" action="{{ route('student.practice.start') }}" class="mt-3 space-y-3">
+            <form method="POST" action="{{ route('practice.start') }}" class="mt-3 space-y-3">
                 @csrf
                 <input type="hidden" name="topic_id" value="{{ $topicId }}">
                 <input type="hidden" name="difficulty" value="{{ $difficulty ?: '' }}">
@@ -89,4 +89,5 @@
         </div>
     </div>
 @endsection
+
 

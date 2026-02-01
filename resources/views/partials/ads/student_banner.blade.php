@@ -1,8 +1,8 @@
 @php
     $adsEnabled = (bool) (($ads['enabled'] ?? false) && ($ads['banner_enabled'] ?? false));
     $hideForQuestionScreens =
-        request()->routeIs('student.play.question') ||
-        request()->routeIs('student.practice.question');
+        request()->routeIs('play.question') ||
+        request()->routeIs('practice.question');
 @endphp
 
 @if($adsEnabled && ! $hideForQuestionScreens)

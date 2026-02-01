@@ -10,7 +10,7 @@
                 </svg>
             </button>
 
-            <a href="{{ route('student.dashboard') }}" class="flex items-center gap-2">
+            <a href="{{ route('public.home') }}" class="flex items-center gap-2">
                 <div class="grid h-9 w-9 place-items-center rounded-xl bg-indigo-600 text-white font-semibold">
                     S
                 </div>

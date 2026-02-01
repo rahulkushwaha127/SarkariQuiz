@@ -9,7 +9,7 @@
                 <div class="text-sm font-semibold text-white">
                     Practice · Question {{ $questionNumber }} / {{ $totalQuestions }}
                 </div>
-                <a href="{{ route('student.practice.result', $attempt) }}"
+                <a href="{{ route('practice.result', $attempt) }}"
                    class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
                     Finish
                 </a>
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <form method="POST" action="{{ route('student.practice.answer', [$attempt, $questionNumber]) }}" class="space-y-3">
+        <form method="POST" action="{{ route('practice.answer', [$attempt, $questionNumber]) }}" class="space-y-3">
             @csrf
 
             <div class="border border-white/10 bg-white/5">
@@ -44,4 +44,5 @@
         </form>
     </div>
 @endsection
+
 

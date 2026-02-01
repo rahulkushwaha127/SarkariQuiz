@@ -10,7 +10,7 @@
                     <div class="text-sm font-semibold text-white">Clubs</div>
                     <div class="mt-1 text-sm text-slate-300">Group practice with manual points and master rotation.</div>
                 </div>
-                <a href="{{ route('student.clubs.create') }}" class="bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
+                <a href="{{ route('clubs.create') }}" class="bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
                     Create club
                 </a>
             </div>
@@ -30,7 +30,7 @@
                                 <div class="text-sm font-semibold text-white">{{ $c->name }}</div>
                                 <div class="mt-1 text-xs text-slate-400">Role: {{ $c->my_role }}</div>
                             </div>
-                            <a href="{{ route('student.clubs.show', $c->id) }}"
+                            <a href="{{ route('clubs.show', $c->id) }}"
                                class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
                                 Open
                             </a>
@@ -46,4 +46,5 @@
         </div>
     </div>
 @endsection
+
 

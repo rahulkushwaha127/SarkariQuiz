@@ -29,7 +29,7 @@ class ContestController extends Controller
 
         if (in_array($contest->status, ['draft', 'ended', 'cancelled'], true)) {
             return redirect()
-                ->route('student.contests.join')
+                ->route('contests.join')
                 ->withErrors(['code' => 'This contest is not accepting joins right now.']);
         }
 
@@ -44,12 +44,12 @@ class ContestController extends Controller
 
             if (! $allowed) {
                 return redirect()
-                    ->route('student.contests.join')
+                    ->route('contests.join')
                     ->withErrors(['code' => 'You are not whitelisted for this contest.']);
             }
         } elseif (! in_array($contest->join_mode, ['public', 'link', 'code'], true)) {
             return redirect()
-                ->route('student.contests.join')
+                ->route('contests.join')
                 ->withErrors(['code' => 'This contest is not joinable with a code.']);
         }
 
@@ -62,7 +62,7 @@ class ContestController extends Controller
         );
 
         return redirect()
-            ->route('student.contests.show', $contest)
+            ->route('contests.show', $contest)
             ->with('status', 'Joined contest.');
     }
 
@@ -74,7 +74,7 @@ class ContestController extends Controller
             'code' => ['required', 'string', 'min:4', 'max:12'],
         ]);
 
-        return redirect()->route('student.contests.join.code', strtoupper($data['code']));
+        return redirect()->route('contests.join.code', strtoupper($data['code']));
     }
 
     public function show(Contest $contest)
@@ -111,4 +111,5 @@ class ContestController extends Controller
         return view('student.contests.show', compact('contest', 'participant', 'leaderboard', 'myRank'));
     }
 }
+
 

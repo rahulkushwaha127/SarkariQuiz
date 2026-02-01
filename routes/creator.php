@@ -12,7 +12,7 @@ use App\Http\Controllers\Creator\QuestionController;
 use App\Http\Controllers\Creator\QuizController;
 use App\Http\Controllers\Creator\TaxonomyController;
 
-Route::middleware(['auth', 'role:creator|admin'])
+Route::middleware(['auth', 'role:creator|super_admin'])
     ->prefix('creator')
     ->as('creator.')
     ->group(function () {

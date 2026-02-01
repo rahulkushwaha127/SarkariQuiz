@@ -29,7 +29,7 @@ class NotificationsController extends Controller
         // Recipients: all real users (exclude guest accounts)
         $recipientIds = User::query()
             ->where('is_guest', false)
-            ->whereHas('roles', fn ($q) => $q->whereIn('name', ['student', 'creator', 'admin', 'super_admin']))
+            ->whereHas('roles', fn ($q) => $q->whereIn('name', ['student', 'creator', 'super_admin']))
             ->pluck('id')
             ->map(fn ($v) => (int) $v)
             ->values()

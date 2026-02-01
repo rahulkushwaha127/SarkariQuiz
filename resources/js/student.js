@@ -20,9 +20,55 @@ function closeStudentSidebar() {
     document.documentElement.classList.remove('overflow-hidden');
 }
 
+function setAuthModalNext(nextUrl) {
+    const modal = document.querySelector('[data-auth-modal="true"]');
+    if (!modal) return;
+
+    const googleLink = modal.querySelector('[data-auth-google-link="true"]');
+    if (googleLink && nextUrl) {
+        try {
+            const u = new URL(googleLink.getAttribute('href') || '', window.location.origin);
+            u.searchParams.set('next', nextUrl);
+            googleLink.setAttribute('href', u.toString());
+        } catch {
+            // ignore
+        }
+    }
+}
+
+function openAuthModal(nextUrl) {
+    const modal = document.querySelector('[data-auth-modal="true"]');
+    if (!modal) return;
+    setAuthModalNext(nextUrl);
+    modal.classList.remove('hidden');
+    document.documentElement.classList.add('overflow-hidden');
+}
+
+function closeAuthModal() {
+    const modal = document.querySelector('[data-auth-modal="true"]');
+    if (!modal) return;
+    modal.classList.add('hidden');
+    document.documentElement.classList.remove('overflow-hidden');
+}
+
 document.addEventListener('click', (e) => {
     const target = e.target instanceof Element ? e.target : null;
     if (!target) return;
+
+    if (target.closest('[data-auth-modal-open="true"]')) {
+        e.preventDefault();
+        const opener = target.closest('[data-auth-modal-open="true"]');
+        const next = opener?.getAttribute('data-auth-next') || opener?.getAttribute('href') || window.location.href;
+        closeStudentSidebar();
+        openAuthModal(next);
+        return;
+    }
+
+    if (target.closest('[data-auth-modal-close="true"]')) {
+        e.preventDefault();
+        closeAuthModal();
+        return;
+    }
 
     if (target.closest('[data-student-sidebar-open="true"]')) {
         e.preventDefault();
@@ -39,7 +85,14 @@ document.addEventListener('click', (e) => {
 
 document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
+    closeAuthModal();
     closeStudentSidebar();
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const marker = document.querySelector('[data-auth-modal-autoshow]');
+    const shouldOpen = marker?.getAttribute('data-auth-modal-autoshow') === '1';
+    if (shouldOpen) openAuthModal(window.location.href);
 });
 
 // Quiz countdown timer (optional)

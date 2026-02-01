@@ -16,12 +16,14 @@ use App\Http\Controllers\Admin\Taxonomy\SubjectsController;
 use App\Http\Controllers\Admin\Taxonomy\TopicsController;
 use App\Http\Controllers\Admin\UsersController;
 
-Route::middleware(['auth', 'role:admin|super_admin'])
+Route::middleware(['auth', 'role:super_admin'])
     ->prefix('admin')
     ->as('admin.')
     ->group(function () {
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
         Route::get('/users', [UsersController::class, 'index'])->name('users.index');
+        Route::get('/users/create', [UsersController::class, 'create'])->name('users.create');
+        Route::post('/users', [UsersController::class, 'store'])->name('users.store');
         Route::get('/users/{user}/edit', [UsersController::class, 'edit'])->name('users.edit');
         Route::patch('/users/{user}', [UsersController::class, 'update'])->name('users.update');
         Route::get('/quizzes', [QuizModerationController::class, 'index'])->name('quizzes.index');

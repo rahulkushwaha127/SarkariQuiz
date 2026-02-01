@@ -10,7 +10,7 @@
     </div>
 
     <div class="border border-white/10 bg-white/5 p-4">
-        <form method="POST" action="{{ route('student.contests.join.submit') }}" class="space-y-3">
+        <form method="POST" action="{{ route('contests.join.submit') }}" class="space-y-3">
             @csrf
             <div>
                 <label class="block text-sm font-medium text-slate-200">Room code</label>
@@ -33,4 +33,5 @@
     </div>
 </div>
 @endsection
+
 

@@ -14,6 +14,11 @@ class GoogleAuthController extends Controller
 {
     public function redirect(Request $request)
     {
+        $next = (string) $request->query('next', '');
+        if ($next !== '') {
+            $request->session()->put('url.intended', $next);
+        }
+
         return Socialite::driver('google')->redirect();
     }
 
@@ -71,6 +76,6 @@ class GoogleAuthController extends Controller
         Auth::login($user, true);
         $request->session()->regenerate();
 
-        return redirect()->route('dashboard');
+        return redirect()->intended('/');
     }
 }

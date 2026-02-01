@@ -105,7 +105,7 @@ class PracticeController extends Controller
 
         if (count($questionIds) === 0) {
             return redirect()
-                ->route('student.practice')
+                ->route('practice')
                 ->withErrors(['practice' => 'No questions found for this topic/difficulty yet.']);
         }
 
@@ -135,7 +135,7 @@ class PracticeController extends Controller
         }
         PracticeAttemptAnswer::query()->insert($rows);
 
-        return redirect()->route('student.practice.question', [$attempt, 1]);
+        return redirect()->route('practice.question', [$attempt, 1]);
     }
 
     public function question(Request $request, PracticeAttempt $attempt, int $number)
@@ -144,7 +144,7 @@ class PracticeController extends Controller
         abort_unless((int) $attempt->user_id === (int) Auth::id(), 403);
 
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.practice.result', $attempt);
+            return redirect()->route('practice.result', $attempt);
         }
 
         $total = (int) ($attempt->total_questions ?: 0);
@@ -155,7 +155,7 @@ class PracticeController extends Controller
             $number = 1;
         }
         if ($number > $total) {
-            return redirect()->route('student.practice.question', [$attempt, $total]);
+            return redirect()->route('practice.question', [$attempt, $total]);
         }
 
         $slot = PracticeAttemptAnswer::query()
@@ -180,7 +180,7 @@ class PracticeController extends Controller
         abort_unless((int) $attempt->user_id === (int) Auth::id(), 403);
 
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.practice.result', $attempt);
+            return redirect()->route('practice.result', $attempt);
         }
 
         $total = (int) ($attempt->total_questions ?: 0);
@@ -227,10 +227,10 @@ class PracticeController extends Controller
 
         if ($action === 'finish' || $isLast) {
             $this->finishAttempt($attempt);
-            return redirect()->route('student.practice.result', $attempt);
+            return redirect()->route('practice.result', $attempt);
         }
 
-        return redirect()->route('student.practice.question', [$attempt, $number + 1]);
+        return redirect()->route('practice.question', [$attempt, $number + 1]);
     }
 
     public function result(Request $request, PracticeAttempt $attempt)
@@ -319,4 +319,5 @@ class PracticeController extends Controller
         ]);
     }
 }
+
 

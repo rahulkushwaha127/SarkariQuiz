@@ -19,7 +19,7 @@
     </div>
 
     <form method="POST"
-          action="{{ route('student.play.answer', [$attempt, $questionNumber]) }}"
+          action="{{ route('play.answer', [$attempt, $questionNumber]) }}"
           class="space-y-2"
           data-quiz-autosubmit="true">
         @csrf
@@ -64,4 +64,5 @@
     </form>
 </div>
 @endsection
+
 

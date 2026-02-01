@@ -74,13 +74,13 @@
         @endif
 
         <div class="mt-4 flex flex-wrap gap-2">
-            <form method="POST" action="{{ route('student.revision.from_quiz_attempt_incorrect', $attempt) }}">
+            <form method="POST" action="{{ route('revision.from_quiz_attempt_incorrect', $attempt) }}">
                 @csrf
                 <button type="submit" class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Revise incorrect again
                 </button>
             </form>
-            <a href="{{ route('student.revision', ['tab' => 'mistakes']) }}"
+            <a href="{{ route('revision', ['tab' => 'mistakes']) }}"
                class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                 Open Revision
             </a>
@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="mt-3 flex items-center justify-between gap-3">
-                        <form method="POST" action="{{ route('student.bookmarks.toggle', $q) }}">
+                        <form method="POST" action="{{ route('bookmarks.toggle', $q) }}">
                             @csrf
                             <button type="submit"
                                     class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
@@ -147,16 +147,17 @@
     </div>
 
     @if($attempt->contest_id)
-        <a href="{{ route('student.contests.show', $attempt->contest_id) }}"
+        <a href="{{ route('contests.show', $attempt->contest_id) }}"
            class="block bg-white/10 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-white/15">
             Back to contest
         </a>
     @else
-        <a href="{{ route('student.dashboard') }}"
+        <a href="{{ route('public.home') }}"
            class="block bg-white/10 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-white/15">
             Back to dashboard
         </a>
     @endif
 </div>
 @endsection
+
 

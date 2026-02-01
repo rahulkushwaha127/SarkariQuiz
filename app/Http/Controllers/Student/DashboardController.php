@@ -35,3 +35,4 @@ class DashboardController extends Controller
         return view('student.dashboard', compact('subjects', 'daily', 'streak'));
     }
 }
+

@@ -8,7 +8,7 @@
         <div class="text-sm font-semibold text-white">{{ $exam->name }}</div>
         <div class="mt-1 text-sm text-slate-300">Subjects</div>
         <div class="mt-2">
-            <a href="{{ route('student.browse.exams.index') }}" class="text-sm font-semibold text-indigo-200 hover:underline">← Back</a>
+            <a href="{{ route('public.exams.index') }}" class="text-sm font-semibold text-indigo-200 hover:underline">← Back</a>
         </div>
     </div>
 
@@ -23,7 +23,7 @@
                             <div class="truncate text-sm font-semibold text-white">{{ $subject->name }}</div>
                             <div class="mt-1 text-xs text-slate-300">Public quizzes: {{ $subject->public_quizzes_count ?? 0 }}</div>
                         </div>
-                        <a href="{{ route('student.browse.subjects.show', $subject) }}"
+                        <a href="{{ route('public.subjects.show', $subject) }}"
                            class="bg-white/10 px-3 py-2 text-sm font-semibold text-white/90 hover:bg-white/15">
                             Open
                         </a>
@@ -34,4 +34,5 @@
     @endif
 </div>
 @endsection
+
 

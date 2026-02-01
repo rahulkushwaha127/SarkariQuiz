@@ -66,7 +66,7 @@ class ClubsController extends Controller
             ]);
         });
 
-        return redirect()->route('student.clubs.show', $club)->with('status', 'Club created.');
+        return redirect()->route('clubs.show', $club)->with('status', 'Club created.');
     }
 
     public function joinByToken(Request $request, string $token)
@@ -105,7 +105,7 @@ class ClubsController extends Controller
             ->where('user_id', Auth::id())
             ->exists();
         if ($alreadyMember) {
-            return redirect()->route('student.clubs.show', $club);
+            return redirect()->route('clubs.show', $club);
         }
 
         // Approval required: always create/refresh a pending request.
@@ -439,4 +439,5 @@ class ClubsController extends Controller
         return $member;
     }
 }
+
 

@@ -3,6 +3,10 @@
 @section('title', 'Daily Challenge')
 
 @section('content')
+    @php
+        $me = auth()->user();
+        $isLoggedIn = (bool) $me;
+    @endphp
     <div class="space-y-4">
         <div class="border border-white/10 bg-white/5 p-4">
             <div class="text-sm font-semibold text-white">Daily Challenge</div>
@@ -25,7 +29,7 @@
                 <div class="text-base font-semibold text-white">{{ $daily->quiz->title }}</div>
                 <div class="mt-1 text-sm text-slate-300">By: {{ $daily->quiz->user?->name ?? '—' }}</div>
 
-                <a href="{{ route('student.quizzes.play', $daily->quiz) }}"
+                <a href="{{ $isLoggedIn ? route('play.quiz', $daily->quiz) : route('public.quizzes.play', $daily->quiz) }}"
                    class="mt-3 inline-block bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
                     PLAY NOW
                 </a>
@@ -64,4 +68,5 @@
         @endif
     </div>
 @endsection
+
 

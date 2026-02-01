@@ -14,7 +14,7 @@ class DashboardController extends Controller
 {
     public function index(Request $request)
     {
-        abort_unless(Auth::user()?->hasRole('creator'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['creator', 'super_admin']), 403);
 
         $creatorId = Auth::id();
 

@@ -84,5 +84,15 @@ class BrowseController extends Controller
 
         return view('student.browse.contest', compact('contest', 'leaderboard'));
     }
+
+    public function quiz(Request $request, Quiz $quiz)
+    {
+        abort_unless((bool) $quiz->is_public && $quiz->status === 'published', 404);
+
+        $quiz->load(['user', 'exam', 'subject', 'topic']);
+
+        return view('student.browse.quiz', compact('quiz'));
+    }
 }
+
 

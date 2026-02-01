@@ -18,7 +18,7 @@
             <div class="border border-white/10 bg-white/5 p-4">
                 <div class="text-sm font-semibold text-white">You are already a member.</div>
                 <div class="mt-3">
-                    <a href="{{ route('student.clubs.show', $club) }}" class="bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400 block text-center">
+                    <a href="{{ route('clubs.show', $club) }}" class="bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400 block text-center">
                         Open club
                     </a>
                 </div>
@@ -36,7 +36,7 @@
                 </div>
             @endif
 
-            <form method="POST" action="{{ route('student.clubs.request_join', $club) }}" class="border border-white/10 bg-white/5 p-4">
+            <form method="POST" action="{{ route('clubs.request_join', $club) }}" class="border border-white/10 bg-white/5 p-4">
                 @csrf
                 <button class="w-full bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
                     Request to join
@@ -45,4 +45,5 @@
         @endif
     </div>
 @endsection
+
 

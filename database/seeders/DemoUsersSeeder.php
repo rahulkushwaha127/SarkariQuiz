@@ -29,11 +29,6 @@ class DemoUsersSeeder extends Seeder
                 'coaching_website' => 'https://example.com',
                 'bio' => 'I create quizzes for aspirants.',
             ],
-            'admin' => [
-                'email' => 'admin@example.com',
-                'name' => 'Demo Admin',
-                'username' => 'demo-admin',
-            ],
             'super_admin' => [
                 'email' => 'superadmin@example.com',
                 'name' => 'Demo Super Admin',
@@ -86,13 +81,6 @@ class DemoUsersSeeder extends Seeder
                         'coaching_contact' => $data['coaching_contact'] ?? null,
                         'coaching_website' => $data['coaching_website'] ?? null,
                     ]
-                );
-            }
-
-            if ($roleName === 'admin') {
-                Admin::query()->updateOrCreate(
-                    ['user_id' => $user->id],
-                    ['notes' => 'Demo admin user']
                 );
             }
 

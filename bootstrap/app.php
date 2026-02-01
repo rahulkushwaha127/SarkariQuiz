@@ -6,6 +6,7 @@ use Illuminate\Foundation\Configuration\Middleware;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Facades\Schema;
 use App\Models\Setting;
+use App\Http\Middleware\RequireStudentRole;
 use Spatie\Permission\Middleware\PermissionMiddleware;
 use Spatie\Permission\Middleware\RoleMiddleware;
 use Spatie\Permission\Middleware\RoleOrPermissionMiddleware;
@@ -40,10 +41,23 @@ return Application::configure(basePath: dirname(__DIR__))
             ->withoutOverlapping();
     })
     ->withMiddleware(function (Middleware $middleware): void {
+        // Redirect unauthenticated users to role-specific login pages.
+        $middleware->redirectGuestsTo(function ($request) {
+            if ($request->is('admin/*')) {
+                return route('admin.login');
+            }
+            if ($request->is('creator/*') || $request->is('creater/*')) {
+                return route('creator.login');
+            }
+
+            return route('login');
+        });
+
         $middleware->alias([
             'role' => RoleMiddleware::class,
             'permission' => PermissionMiddleware::class,
             'role_or_permission' => RoleOrPermissionMiddleware::class,
+            'require_student' => RequireStudentRole::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {

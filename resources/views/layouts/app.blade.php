@@ -31,7 +31,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                         @auth
-                            @if (Auth::user()->hasRole('creator') || Auth::user()->hasRole('admin'))
+                            @if (Auth::user()->hasRole('creator') || Auth::user()->hasRole('super_admin'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('creator.quizzes.index') }}">Creator Quizzes</a>
                                 </li>

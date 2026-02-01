@@ -69,3 +69,4 @@ class LeaderboardController extends Controller
     }
 }
 
+

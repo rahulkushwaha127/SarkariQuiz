@@ -13,19 +13,19 @@
 
     <div class="border border-white/10 bg-white/5">
         <div class="flex items-center gap-2 px-4 py-3">
-            <a href="{{ route('student.leaderboard', ['period' => 'daily', 'exam_id' => $examId]) }}"
+            <a href="{{ route('public.leaderboard', ['period' => 'daily', 'exam_id' => $examId]) }}"
                class="px-3 py-2 text-sm font-semibold {{ $period === 'daily' ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/10' }}">
                 Daily
             </a>
-            <a href="{{ route('student.leaderboard', ['period' => 'weekly', 'exam_id' => $examId]) }}"
+            <a href="{{ route('public.leaderboard', ['period' => 'weekly', 'exam_id' => $examId]) }}"
                class="px-3 py-2 text-sm font-semibold {{ $period === 'weekly' ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/10' }}">
                 Weekly
             </a>
-            <a href="{{ route('student.leaderboard', ['period' => 'monthly', 'exam_id' => $examId]) }}"
+            <a href="{{ route('public.leaderboard', ['period' => 'monthly', 'exam_id' => $examId]) }}"
                class="px-3 py-2 text-sm font-semibold {{ $period === 'monthly' ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/10' }}">
                 Monthly
             </a>
-            <a href="{{ route('student.leaderboard', ['period' => 'all', 'exam_id' => $examId]) }}"
+            <a href="{{ route('public.leaderboard', ['period' => 'all', 'exam_id' => $examId]) }}"
                class="px-3 py-2 text-sm font-semibold {{ $period === 'all' ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/10' }}">
                 All time
             </a>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="border border-white/10 bg-white/5 p-4">
-        <form method="GET" action="{{ route('student.leaderboard') }}" class="flex items-center gap-2">
+        <form method="GET" action="{{ route('public.leaderboard') }}" class="flex items-center gap-2">
             <input type="hidden" name="period" value="{{ $period }}">
             <select name="exam_id" class="flex-1 border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
                 <option value="">All exams</option>
@@ -72,4 +72,5 @@
     </div>
 </div>
 @endsection
+
 

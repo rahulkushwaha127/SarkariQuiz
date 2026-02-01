@@ -7,16 +7,27 @@
     <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
             <h1 class="text-2xl font-semibold tracking-tight text-slate-900">Users</h1>
-            <p class="mt-1 text-sm text-slate-600">All registered accounts (students, creators, admins).</p>
+            <p class="mt-1 text-sm text-slate-600">All registered accounts (students, creators).</p>
         </div>
 
-        <form method="GET" action="{{ route('admin.users.index') }}" class="flex w-full gap-2 sm:w-auto">
-            <input name="q" value="{{ $q ?? '' }}" placeholder="Search name/email/username"
-                   class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none sm:w-80">
-            <button class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
-                Search
-            </button>
-        </form>
+        <div class="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:items-center">
+            <a href="#"
+               data-ajax-modal="true"
+               data-title="Create user"
+               data-size="md"
+               data-url="{{ route('admin.users.create') }}"
+               class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                Create user
+            </a>
+
+            <form method="GET" action="{{ route('admin.users.index') }}" class="flex w-full gap-2 sm:w-auto">
+                <input name="q" value="{{ $q ?? '' }}" placeholder="Search name/email/username"
+                       class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none sm:w-80">
+                <button class="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50">
+                    Search
+                </button>
+            </form>
+        </div>
     </div>
 
     <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">

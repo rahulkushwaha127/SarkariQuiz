@@ -11,7 +11,7 @@ class InAppNotificationsController extends Controller
 {
     public function index(Request $request)
     {
-        abort_unless(Auth::user()?->hasRole('creator'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['creator', 'super_admin']), 403);
 
         $items = InAppNotification::query()
             ->where('user_id', Auth::id())
@@ -23,7 +23,7 @@ class InAppNotificationsController extends Controller
 
     public function markRead(Request $request, InAppNotification $notification)
     {
-        abort_unless(Auth::user()?->hasRole('creator'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['creator', 'super_admin']), 403);
         abort_unless((int) $notification->user_id === (int) Auth::id(), 403);
 
         if (!$notification->read_at) {
@@ -39,7 +39,7 @@ class InAppNotificationsController extends Controller
 
     public function markAllRead(Request $request)
     {
-        abort_unless(Auth::user()?->hasRole('creator'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['creator', 'super_admin']), 403);
 
         InAppNotification::query()
             ->where('user_id', Auth::id())

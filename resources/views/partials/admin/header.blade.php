@@ -28,7 +28,7 @@
             </a>
 
             <div class="hidden sm:block text-sm text-slate-600">
-                {{ auth()->user()->name }}
+                {{ auth()->user()->name }} <span class="text-slate-400">(Super Admin)</span>
             </div>
 
             <form method="POST" action="{{ route('logout') }}">

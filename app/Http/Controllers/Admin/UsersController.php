@@ -29,12 +29,41 @@ class UsersController extends Controller
         return view('admin.users.index', compact('users', 'q'));
     }
 
+    public function create()
+    {
+        $roles = ['student', 'creator'];
+        return view('admin.users._create_modal', compact('roles'));
+    }
+
+    public function store(Request $request)
+    {
+        $data = $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users,email'],
+            'password' => ['required', 'string', 'min:8'],
+            'role' => ['required', 'string', 'in:student,creator'],
+        ]);
+
+        $user = User::query()->create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => $data['password'], // User model casts to hashed
+            'is_guest' => false,
+        ]);
+
+        $user->syncRoles([$data['role']]);
+
+        return redirect()
+            ->route('admin.users.index')
+            ->with('status', 'User created.');
+    }
+
     public function edit(User $user)
     {
         $user->load('roles');
 
         $roles = Role::query()
-            ->whereIn('name', ['student', 'creator', 'admin'])
+            ->whereIn('name', ['student', 'creator'])
             ->orderBy('name')
             ->pluck('name')
             ->all();
@@ -47,7 +76,7 @@ class UsersController extends Controller
     public function update(Request $request, User $user)
     {
         $data = $request->validate([
-            'role' => ['required', 'string', 'in:student,creator,admin'],
+            'role' => ['required', 'string', 'in:student,creator'],
             'is_blocked' => ['nullable', 'boolean'],
             'blocked_reason' => ['nullable', 'string', 'max:255'],
         ]);

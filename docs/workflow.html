@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Platform – Current System Workflow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --surface-hover: #243044;
+      --border: #2d3a4f;
+      --text: #e6edf3;
+      --text-muted: #8b9cb3;
+      --accent: #3b82f6;
+      --accent-dim: #2563eb;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      background: rgba(59, 130, 246, 0.15);
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
+    }
+    h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .subtitle { color: var(--text-muted); font-size: 1rem; }
+    section { margin-bottom: 2rem; }
+    h2 { font-size: 1.1rem; font-weight: 800; margin-bottom: 0.75rem; display: flex; gap: 0.55rem; align-items: center; }
+    h3 { font-size: 1rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      margin-top: 0.75rem;
+    }
+    .grid { display: grid; gap: 0.75rem; }
+    .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    @media (max-width: 860px) { .grid.two { grid-template-columns: 1fr; } }
+    ul { padding-left: 1.1rem; }
+    li { margin: 0.35rem 0; color: var(--text); }
+    .muted { color: var(--text-muted); }
+    code, .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; }
+    code {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 0.1rem 0.35rem;
+      border-radius: 6px;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.75rem;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      background: rgba(255, 255, 255, 0.05);
+    }
+    .pill.ok { border-color: rgba(34, 197, 94, 0.35); background: rgba(34, 197, 94, 0.10); }
+    .pill.warn { border-color: rgba(245, 158, 11, 0.35); background: rgba(245, 158, 11, 0.10); }
+    .pill.danger { border-color: rgba(239, 68, 68, 0.35); background: rgba(239, 68, 68, 0.10); }
+    .step {
+      border-left: 3px solid rgba(59, 130, 246, 0.5);
+      padding-left: 0.85rem;
+      margin: 0.6rem 0;
+    }
+    .small { font-size: 0.92rem; }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-dim); text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Current System</span>
+      <h1>Workflow of Current System</h1>
+      <p class="subtitle">This document describes what is already implemented in the app (Admin · Creator · Student · Contests · Clubs · Notifications · Practice · Daily · PYQ).</p>
+    </header>
+
+    <section>
+      <h2>🧩 Core Concepts</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Roles</h3>
+          <ul>
+            <li><span class="pill ok">student</span> main user who plays quizzes, joins contests, uses practice/revision, joins clubs</li>
+            <li><span class="pill ok">creator</span> creates quizzes, generates questions with AI, creates contests, analytics, notifies students</li>
+            <li><span class="pill ok">super_admin</span> moderates quizzes/contests, manages taxonomy, ads, settings, announcements</li>
+            <li><span class="pill warn">guest</span> auto-created temp users for limited public play (not for clubs)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Routing</h3>
+          <ul>
+            <li><strong>Public</strong>: homepage, browse exams/quizzes, daily, leaderboards, creator bio page</li>
+            <li><strong>Student</strong>: <code>/student/*</code> inside mobile-first UI + sidebar</li>
+            <li><strong>Creator</strong>: <code>/creator/*</code> modern Tailwind panel</li>
+            <li><strong>Admin</strong>: <code>/admin/*</code> modern Tailwind panel</li>
+            <li><strong>Post-login redirect</strong>: <code>/dashboard</code> routes to role dashboard</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🔐 Authentication</h2>
+      <div class="card">
+        <h3>Login methods</h3>
+        <ul>
+          <li>Email + password (Laravel UI)</li>
+          <li>Optional Google login (Socialite) via <code>/auth/google/redirect</code> → <code>/auth/google/callback</code></li>
+        </ul>
+        <div class="step small">
+          <div><strong>Google login behavior</strong>:</div>
+          <ul>
+            <li>Links user by <code>google_id</code>, else by <code>email</code></li>
+            <li>If user does not exist: creates new user with <span class="pill ok">student</span> role</li>
+            <li>Blocked users (<code>blocked_at</code>) cannot log in</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🌍 Public (No Login)</h2>
+      <div class="card">
+        <h3>Public browsing</h3>
+        <ul>
+          <li>Exam-focused homepage and browse pages</li>
+          <li>Public quizzes + public contests listing</li>
+          <li>Public leaderboards (daily/weekly/monthly/all-time + exam filter)</li>
+          <li>Daily challenge public page</li>
+          <li>Creator public bio page: <code>/c/{username}</code></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Guest play (no login)</h3>
+        <ul>
+          <li>Public quiz play auto-creates a temporary guest student user</li>
+          <li>Daily attempt limit is enforced</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>👨‍🎓 Student Workflows</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Student dashboard</h3>
+          <ul>
+            <li>Daily streak shown (current + best)</li>
+            <li>Quick access to daily, practice, revision, clubs, leaderboards</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Quiz play (student)</h3>
+          <div class="step">
+            <div><strong>Flow</strong></div>
+            <ul>
+              <li>Open a public/published quiz → Start → attempt created</li>
+              <li>Question-by-question answers</li>
+              <li>Auto submit when timer ends</li>
+              <li>Result screen: score + review + share card link</li>
+              <li>Bookmark/unbookmark questions (Revision)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Practice mode</h3>
+          <ul>
+            <li>Choose Exam → Subject → Topic + optional difficulty</li>
+            <li>System picks random questions from published + public quizzes</li>
+            <li>Result review + “Revise incorrect again”</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Revision</h3>
+          <ul>
+            <li>Bookmarks from quiz/practice result screens</li>
+            <li>Mistakes list (incorrect answers)</li>
+            <li>“Revise again” flow reuses practice engine style</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Daily challenge + streak</h3>
+        <ul>
+          <li>Admin selects daily quiz</li>
+          <li>When student submits that daily quiz → streak tables update</li>
+          <li>Daily leaderboard exists</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>🧾 PYQ Bank (Previous Year Questions)</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Student PYQ</h3>
+          <ul>
+            <li>Route: <code>/student/pyq</code></li>
+            <li>Filter by exam/subject/topic/year</li>
+            <li>Start timed PYQ test (total time or per-question time)</li>
+            <li>Result + review screen</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Admin PYQ</h3>
+          <ul>
+            <li>Route: <code>/admin/pyq</code></li>
+            <li>Create/edit questions via AJAX modal (4 options + correct)</li>
+            <li>CSV import via modal (<code>/admin/pyq/import</code>)</li>
+            <li>Import logs stored for summary / error preview</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card small">
+        <div class="muted"><strong>Data</strong>: <code>pyq_questions</code>, <code>pyq_answers</code>, <code>pyq_attempts</code>, <code>pyq_attempt_answers</code>, <code>pyq_import_logs</code></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🏆 Contests</h2>
+      <div class="card">
+        <h3>Contest join modes</h3>
+        <ul>
+          <li>Public listing</li>
+          <li>Invite link</li>
+          <li>Room code</li>
+          <li>Whitelist (email allowlist)</li>
+        </ul>
+      </div>
+      <div class="grid two">
+        <div class="card">
+          <h3>Student contest play</h3>
+          <ul>
+            <li>Join checks: whitelist + status + schedule windows</li>
+            <li>Contest play → attempt created under contest</li>
+            <li>Contest leaderboard shows ranked participants</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Creator contest</h3>
+          <ul>
+            <li>Create contest from a quiz</li>
+            <li>Schedule start/end, join modes, public listing toggle</li>
+            <li>Whitelist management page</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Admin contest moderation</h3>
+        <ul>
+          <li>Admin can filter contests, toggle public visibility, cancel contests</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>🧑‍🏫 Creator Workflows</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Creator dashboard</h3>
+          <ul>
+            <li>Quick overview: quizzes by status, plays, contests</li>
+            <li>Recent quizzes + recent contests + live/upcoming contests</li>
+            <li>Quick actions: create quiz/contest, notify students</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Quiz management</h3>
+          <ul>
+            <li>Create/edit quiz with exam/subject/topic taxonomy</li>
+            <li>Submit for review (status: pending)</li>
+            <li>Admin publishes/rejects</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <h3>AI question generation</h3>
+        <ul>
+          <li>Creator can generate MCQs via AI using text/URL/PDF/DOCX/images</li>
+          <li>Questions are inserted into quiz question bank</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Creator notifications</h3>
+        <ul>
+          <li>Creator can send in-app notifications (and optional push) to audience:</li>
+          <li class="muted mono">quiz_players · contest_participants · club_members</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Creator analytics</h3>
+        <ul>
+          <li>Quiz counts by status</li>
+          <li>Total plays + average score + completion rate</li>
+          <li>Top quizzes, contest summaries</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>🔔 Notifications (Push + In-app)</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>In-app notifications</h3>
+          <ul>
+            <li>Stored in <code>in_app_notifications</code></li>
+            <li>Bell icon + unread badge in Student / Creator / Admin headers</li>
+            <li>Pages: <code>/student/notifications</code>, <code>/creator/notifications</code>, <code>/admin/inbox</code></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>FCM push notifications</h3>
+          <ul>
+            <li>Web push token collection via Firebase Web SDK + service worker</li>
+            <li>Token API: <code>POST /fcm/token</code>, <code>DELETE /fcm/token</code></li>
+            <li>Admin announcements create in-app for all real users; push to token holders</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>📣 Ads (AdSense-safe slots)</h2>
+      <div class="card">
+        <ul>
+          <li>Ad units + slot mapping: ensures unique placement per slot (AdSense-safe)</li>
+          <li>Rendered via slots in public/student pages</li>
+          <li>Interstitial scaffold on result screens with frequency control</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>👥 Clubs (Current System)</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Join + approvals</h3>
+          <ul>
+            <li>Login-only</li>
+            <li>Approval-based joining</li>
+            <li>Invite token join flow</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Manual session (implemented)</h3>
+          <ul>
+            <li>Host starts session</li>
+            <li>Master rotation (only master can rotate)</li>
+            <li>Manual +1 points awarding</li>
+            <li>Realtime updates via Reverb + pusher-js (no Echo)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card small">
+        <div><strong>Recommended next</strong> (not yet implemented): Digital quiz session inside clubs (timed quiz for all participants + auto leaderboard + result declare).</div>
+      </div>
+    </section>
+
+    <footer>
+      <div>File: <code>docs/workflow.html</code></div>
+      <div class="muted">Update this file whenever the system changes.</div>
+    </footer>
+  </div>
+</body>
+</html>
+

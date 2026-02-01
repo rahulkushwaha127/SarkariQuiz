@@ -117,7 +117,7 @@ class PyqController extends Controller
 
         if (count($questionIds) === 0) {
             return redirect()
-                ->route('student.pyq.index')
+                ->route('pyq.index')
                 ->withErrors(['pyq' => 'No PYQ questions found for the selected filters yet.']);
         }
 
@@ -149,7 +149,7 @@ class PyqController extends Controller
         }
         PyqAttemptAnswer::query()->insert($rows);
 
-        return redirect()->route('student.pyq.question', [$attempt, 1]);
+        return redirect()->route('pyq.question', [$attempt, 1]);
     }
 
     public function question(Request $request, PyqAttempt $attempt, int $number)
@@ -158,12 +158,12 @@ class PyqController extends Controller
         abort_unless((int) $attempt->user_id === (int) Auth::id(), 403);
 
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.pyq.result', $attempt);
+            return redirect()->route('pyq.result', $attempt);
         }
 
         $this->autoFinishIfExpired($attempt);
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.pyq.result', $attempt);
+            return redirect()->route('pyq.result', $attempt);
         }
 
         $total = (int) ($attempt->total_questions ?: 0);
@@ -201,12 +201,12 @@ class PyqController extends Controller
         abort_unless((int) $attempt->user_id === (int) Auth::id(), 403);
 
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.pyq.result', $attempt);
+            return redirect()->route('pyq.result', $attempt);
         }
 
         $this->autoFinishIfExpired($attempt);
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.pyq.result', $attempt);
+            return redirect()->route('pyq.result', $attempt);
         }
 
         $total = (int) ($attempt->total_questions ?: 0);
@@ -251,10 +251,10 @@ class PyqController extends Controller
 
         if ($action === 'finish' || $isLast) {
             $this->finishAttempt($attempt);
-            return redirect()->route('student.pyq.result', $attempt);
+            return redirect()->route('pyq.result', $attempt);
         }
 
-        return redirect()->route('student.pyq.question', [$attempt, $number + 1]);
+        return redirect()->route('pyq.question', [$attempt, $number + 1]);
     }
 
     public function result(Request $request, PyqAttempt $attempt)
@@ -335,3 +335,4 @@ class PyqController extends Controller
         ]);
     }
 }
+

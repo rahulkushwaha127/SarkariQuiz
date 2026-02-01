@@ -107,7 +107,7 @@ class RevisionController extends Controller
         $questionIds = $this->normalizeIds($questionIds);
         if ($this->isEmptyIds($questionIds)) {
             return redirect()
-                ->route('student.revision', ['tab' => $data['source']])
+                ->route('revision', ['tab' => $data['source']])
                 ->withErrors(['revision' => 'No questions found for this revision mode yet.']);
         }
 
@@ -117,7 +117,7 @@ class RevisionController extends Controller
 
         $attempt = $this->createPracticeAttemptFromQuestionIds($userId, $questionIds);
 
-        return redirect()->route('student.practice.question', [$attempt, 1]);
+        return redirect()->route('practice.question', [$attempt, 1]);
     }
 
     public function startFromQuizAttemptIncorrect(Request $request, QuizAttempt $quizAttempt)
@@ -145,7 +145,7 @@ class RevisionController extends Controller
         }
 
         $attempt = $this->createPracticeAttemptFromQuestionIds(Auth::id(), $questionIds);
-        return redirect()->route('student.practice.question', [$attempt, 1]);
+        return redirect()->route('practice.question', [$attempt, 1]);
     }
 
     public function startFromPracticeAttemptIncorrect(Request $request, PracticeAttempt $practiceAttempt)
@@ -169,7 +169,7 @@ class RevisionController extends Controller
         }
 
         $attempt = $this->createPracticeAttemptFromQuestionIds(Auth::id(), $questionIds);
-        return redirect()->route('student.practice.question', [$attempt, 1]);
+        return redirect()->route('practice.question', [$attempt, 1]);
     }
 
     private function mistakeQuestionIds(int $userId, int $limit): array
@@ -251,4 +251,5 @@ class RevisionController extends Controller
         return count($ids) === 0;
     }
 }
+
 

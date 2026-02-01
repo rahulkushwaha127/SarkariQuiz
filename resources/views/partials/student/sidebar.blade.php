@@ -13,17 +13,17 @@
 
     <div class="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm">
         <nav class="space-y-1">
-            <a href="{{ route('student.dashboard') }}"
+            <a href="{{ route('public.home') }}"
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
-               {{ request()->routeIs('student.dashboard') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
-                <span class="h-2 w-2 rounded-full {{ request()->routeIs('student.dashboard') ? 'bg-white' : 'bg-slate-300' }}"></span>
+               {{ request()->routeIs('public.home') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('public.home') ? 'bg-white' : 'bg-slate-300' }}"></span>
                 Dashboard
             </a>
 
-            <a href="{{ route('student.contests.join') }}"
+            <a href="{{ route('contests.join') }}"
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
-               {{ request()->routeIs('student.contests.*') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
-                <span class="h-2 w-2 rounded-full {{ request()->routeIs('student.contests.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+               {{ request()->routeIs('contests.*') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('contests.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
                 Join Contest
             </a>
 

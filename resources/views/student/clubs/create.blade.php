@@ -9,7 +9,7 @@
             <div class="mt-1 text-sm text-slate-300">You will become the club admin.</div>
         </div>
 
-        <form method="POST" action="{{ route('student.clubs.store') }}" class="border border-white/10 bg-white/5 p-4 space-y-3">
+        <form method="POST" action="{{ route('clubs.store') }}" class="border border-white/10 bg-white/5 p-4 space-y-3">
             @csrf
             <div>
                 <label class="text-sm font-semibold text-white">Club name</label>
@@ -25,4 +25,5 @@
         </form>
     </div>
 @endsection
+
 

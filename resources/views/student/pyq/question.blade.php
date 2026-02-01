@@ -15,7 +15,7 @@
                             Time: <span data-quiz-deadline-iso="{{ $deadlineIso }}">--:--</span>
                         </div>
                     @endif
-                    <a href="{{ route('student.pyq.result', $attempt) }}"
+                    <a href="{{ route('pyq.result', $attempt) }}"
                        class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
                         Finish
                     </a>
@@ -32,7 +32,7 @@
         </div>
 
         <form method="POST"
-              action="{{ route('student.pyq.answer', [$attempt, $questionNumber]) }}"
+              action="{{ route('pyq.answer', [$attempt, $questionNumber]) }}"
               class="space-y-3"
               @if($deadlineIso) data-quiz-autosubmit="true" @endif>
             @csrf
@@ -59,4 +59,5 @@
         </form>
     </div>
 @endsection
+
 

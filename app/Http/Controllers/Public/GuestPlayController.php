@@ -9,6 +9,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
+use Spatie\Permission\Models\Role;
 
 class GuestPlayController extends Controller
 {
@@ -24,7 +25,8 @@ class GuestPlayController extends Controller
                 'is_guest' => true,
             ]);
 
-            $user->assignRole('student');
+            Role::findOrCreate('guest');
+            $user->assignRole('guest');
             Student::create(['user_id' => $user->id]);
 
             Auth::login($user);
@@ -45,7 +47,8 @@ class GuestPlayController extends Controller
             }
         }
 
-        return redirect()->route('student.quizzes.play', $quiz);
+        return redirect()->route('play.quiz', $quiz);
     }
 }
+
 

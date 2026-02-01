@@ -23,7 +23,7 @@ class QuizPlayController extends Controller
 {
     public function startFromQuiz(Request $request, Quiz $quiz)
     {
-        abort_unless(Auth::user()?->hasRole('student'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['student', 'guest']), 403);
 
         abort_unless((bool) $quiz->is_public && $quiz->status === 'published', 404);
 
@@ -46,7 +46,7 @@ class QuizPlayController extends Controller
             'total_questions' => $totalQuestions,
         ]);
 
-        return redirect()->route('student.play.question', [$attempt, 1]);
+        return redirect()->route('play.question', [$attempt, 1]);
     }
 
     public function startFromContest(Request $request, Contest $contest)
@@ -67,13 +67,13 @@ class QuizPlayController extends Controller
 
         if (in_array($contest->status, ['draft', 'ended', 'cancelled'], true)) {
             return redirect()
-                ->route('student.contests.show', $contest)
+                ->route('contests.show', $contest)
                 ->withErrors(['contest' => 'This contest is not playable right now.']);
         }
 
         if ($contest->starts_at && now()->lessThan($contest->starts_at)) {
             return redirect()
-                ->route('student.contests.show', $contest)
+                ->route('contests.show', $contest)
                 ->withErrors(['contest' => 'Contest has not started yet.']);
         }
 
@@ -81,14 +81,14 @@ class QuizPlayController extends Controller
             $contest->syncStatusFromSchedule();
 
             return redirect()
-                ->route('student.contests.show', $contest)
+                ->route('contests.show', $contest)
                 ->withErrors(['contest' => 'Contest has ended.']);
         }
 
         $totalQuestions = (int) $contest->quiz->questions()->count();
         if ($totalQuestions <= 0) {
             return redirect()
-                ->route('student.contests.show', $contest)
+                ->route('contests.show', $contest)
                 ->withErrors(['contest' => 'This contest quiz has no questions yet.']);
         }
 
@@ -104,24 +104,24 @@ class QuizPlayController extends Controller
             'total_questions' => $totalQuestions,
         ]);
 
-        return redirect()->route('student.play.question', [$attempt, 1]);
+        return redirect()->route('play.question', [$attempt, 1]);
     }
 
     public function question(Request $request, QuizAttempt $attempt, int $number)
     {
-        abort_unless(Auth::user()?->hasRole('student'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['student', 'guest']), 403);
         abort_unless((int) $attempt->user_id === (int) Auth::id(), 403);
 
         $attempt->load('quiz');
         abort_unless($attempt->quiz !== null, 404);
 
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.play.result', $attempt);
+            return redirect()->route('play.result', $attempt);
         }
 
         $this->autoFinishIfExpired($attempt);
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.play.result', $attempt);
+            return redirect()->route('play.result', $attempt);
         }
 
         $total = (int) ($attempt->total_questions ?: $attempt->quiz->questions()->count());
@@ -129,7 +129,7 @@ class QuizPlayController extends Controller
             $number = 1;
         }
         if ($number > $total) {
-            return redirect()->route('student.play.question', [$attempt, $total]);
+            return redirect()->route('play.question', [$attempt, $total]);
         }
 
         $question = Question::query()
@@ -158,19 +158,19 @@ class QuizPlayController extends Controller
 
     public function answer(Request $request, QuizAttempt $attempt, int $number)
     {
-        abort_unless(Auth::user()?->hasRole('student'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['student', 'guest']), 403);
         abort_unless((int) $attempt->user_id === (int) Auth::id(), 403);
 
         $attempt->load('quiz');
         abort_unless($attempt->quiz !== null, 404);
 
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.play.result', $attempt);
+            return redirect()->route('play.result', $attempt);
         }
 
         $this->autoFinishIfExpired($attempt);
         if ($attempt->status === 'submitted') {
-            return redirect()->route('student.play.result', $attempt);
+            return redirect()->route('play.result', $attempt);
         }
 
         $total = (int) ($attempt->total_questions ?: $attempt->quiz->questions()->count());
@@ -215,15 +215,15 @@ class QuizPlayController extends Controller
 
         if ($action === 'finish' || $isLast) {
             $this->finishAttempt($attempt);
-            return redirect()->route('student.play.result', $attempt);
+            return redirect()->route('play.result', $attempt);
         }
 
-        return redirect()->route('student.play.question', [$attempt, $number + 1]);
+        return redirect()->route('play.question', [$attempt, $number + 1]);
     }
 
     public function result(Request $request, QuizAttempt $attempt)
     {
-        abort_unless(Auth::user()?->hasRole('student'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['student', 'guest']), 403);
         abort_unless((int) $attempt->user_id === (int) Auth::id(), 403);
 
         $attempt->load(['quiz', 'contest']);
@@ -384,4 +384,5 @@ class QuizPlayController extends Controller
         }
     }
 }
+
 

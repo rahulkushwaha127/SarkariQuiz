@@ -48,21 +48,21 @@
             </div>
 
             <div class="mt-3 flex flex-wrap gap-2">
-                <a href="{{ route('student.practice') }}"
+                <a href="{{ route('practice') }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Practice again
                 </a>
-                <form method="POST" action="{{ route('student.revision.from_practice_attempt_incorrect', $attempt) }}">
+                <form method="POST" action="{{ route('revision.from_practice_attempt_incorrect', $attempt) }}">
                     @csrf
                     <button type="submit" class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                         Revise incorrect again
                     </button>
                 </form>
-                <a href="{{ route('student.revision', ['tab' => 'bookmarks']) }}"
+                <a href="{{ route('revision', ['tab' => 'bookmarks']) }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Revision
                 </a>
-                <a href="{{ route('student.dashboard') }}"
+                <a href="{{ route('public.home') }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Home
                 </a>
@@ -108,7 +108,7 @@
                     </div>
 
                     <div class="mt-3 flex items-center justify-between gap-3">
-                        <form method="POST" action="{{ route('student.bookmarks.toggle', $q) }}">
+                        <form method="POST" action="{{ route('bookmarks.toggle', $q) }}">
                             @csrf
                             <button type="submit"
                                     class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
@@ -149,4 +149,5 @@
         </div>
     </div>
 @endsection
+
 

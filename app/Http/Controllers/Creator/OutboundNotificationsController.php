@@ -17,14 +17,14 @@ class OutboundNotificationsController extends Controller
 {
     public function create()
     {
-        abort_unless(Auth::user()?->hasRole('creator'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['creator', 'super_admin']), 403);
 
         return view('creator.notifications.send');
     }
 
     public function send(Request $request, FcmSender $sender)
     {
-        abort_unless(Auth::user()?->hasRole('creator'), 403);
+        abort_unless(Auth::user()?->hasAnyRole(['creator', 'super_admin']), 403);
 
         $data = $request->validate([
             'title' => ['required', 'string', 'max:120'],

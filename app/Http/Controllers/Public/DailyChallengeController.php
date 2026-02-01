@@ -43,3 +43,4 @@ class DailyChallengeController extends Controller
     }
 }
 
+

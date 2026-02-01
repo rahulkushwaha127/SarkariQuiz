@@ -61,7 +61,7 @@
 
                 @if($myMember->role === 'admin')
                     @if(!$activeSession)
-                        <form method="POST" action="{{ route('student.clubs.sessions.start', $club) }}">
+                        <form method="POST" action="{{ route('clubs.sessions.start', $club) }}">
                             @csrf
                             <button class="bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
                                 Start session
@@ -69,14 +69,14 @@
                         </form>
                     @else
                         <div class="flex flex-wrap gap-2">
-                            <form method="POST" action="{{ route('student.clubs.sessions.next_master', [$club, $activeSession]) }}">
+                            <form method="POST" action="{{ route('clubs.sessions.next_master', [$club, $activeSession]) }}">
                                 @csrf
                                 @method('PATCH')
                                 <button class="bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15">
                                     Next master
                                 </button>
                             </form>
-                            <form method="POST" action="{{ route('student.clubs.sessions.end', [$club, $activeSession]) }}"
+                            <form method="POST" action="{{ route('clubs.sessions.end', [$club, $activeSession]) }}"
                                   onsubmit="return confirm('End session?')">
                                 @csrf
                                 @method('PATCH')
@@ -119,7 +119,7 @@
                                     {{ $pts }}
                                 </div>
                                 @if($canControl)
-                                    <form method="POST" action="{{ route('student.clubs.sessions.points', [$club, $activeSession]) }}">
+                                    <form method="POST" action="{{ route('clubs.sessions.points', [$club, $activeSession]) }}">
                                         @csrf
                                         <input type="hidden" name="user_id" value="{{ $m->user_id }}">
                                         <button class="bg-emerald-500/80 px-3 py-2 text-xs font-semibold text-white hover:bg-emerald-500">
@@ -148,14 +148,14 @@
                                     <div class="mt-1 text-xs text-slate-400">{{ $r->user?->email ?? '' }}</div>
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <form method="POST" action="{{ route('student.clubs.requests.approve', [$club, $r]) }}">
+                                    <form method="POST" action="{{ route('clubs.requests.approve', [$club, $r]) }}">
                                         @csrf
                                         @method('PATCH')
                                         <button class="bg-indigo-500 px-3 py-2 text-xs font-semibold text-white hover:bg-indigo-400">
                                             Approve
                                         </button>
                                     </form>
-                                    <form method="POST" action="{{ route('student.clubs.requests.reject', [$club, $r]) }}">
+                                    <form method="POST" action="{{ route('clubs.requests.reject', [$club, $r]) }}">
                                         @csrf
                                         @method('PATCH')
                                         <button class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
@@ -170,10 +170,11 @@
             </div>
         @endif
 
-        <a href="{{ route('student.clubs.index') }}"
+        <a href="{{ route('clubs.index') }}"
            class="block bg-white/10 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-white/15">
             Back
         </a>
     </div>
 @endsection
+
 

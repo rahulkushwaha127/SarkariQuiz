@@ -15,8 +15,9 @@ class RolesAndPermissionsSeeder extends Seeder
     {
         app(PermissionRegistrar::class)->forgetCachedPermissions();
 
+        Role::findOrCreate('super_admin');
         Role::findOrCreate('student');
         Role::findOrCreate('creator');
-        Role::findOrCreate('admin');
+        Role::findOrCreate('guest');
     }
 }

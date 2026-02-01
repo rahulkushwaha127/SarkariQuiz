@@ -93,16 +93,6 @@
                 <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.ads.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
                 Ads
             </a>
-
-            <div class="pt-2">
-                <div class="px-3 pb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">Coming next</div>
-                <div class="space-y-1">
-                    <div class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm text-slate-400">
-                        <span class="h-2 w-2 rounded-full bg-slate-200"></span>
-                        Contests
-                    </div>
-                </div>
-            </div>
         </nav>
     </div>
 </aside>

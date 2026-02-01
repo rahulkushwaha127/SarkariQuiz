@@ -19,7 +19,7 @@
             <div class="mt-1 text-xs text-slate-400">Quiz: {{ $contest->quiz->title }}</div>
         @endif
         <div class="mt-2">
-            <a href="{{ route('student.browse.contests.index') }}" class="text-sm font-semibold text-indigo-200 hover:underline">← Back</a>
+            <a href="{{ route('public.contests.index') }}" class="text-sm font-semibold text-indigo-200 hover:underline">← Back</a>
         </div>
     </div>
 
@@ -52,4 +52,5 @@
     </div>
 </div>
 @endsection
+
 

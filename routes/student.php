@@ -14,80 +14,61 @@ use App\Http\Controllers\Student\PyqController;
 use App\Http\Controllers\Student\RevisionController;
 use App\Http\Controllers\Student\QuizPlayController;
 
-Route::middleware(['auth', 'role:student|admin'])
-    ->prefix('student')
-    ->as('student.')
-    ->group(function () {
-        Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+// Quiz play routes (allowed for logged-in student + guest role)
+Route::middleware(['auth', 'role:student|guest'])->group(function () {
+    Route::get('/q/{quiz:unique_code}/play', [QuizPlayController::class, 'startFromQuiz'])->name('play.quiz');
+    Route::get('/c/{contest}/play', [QuizPlayController::class, 'startFromContest'])->name('play.contest');
+    Route::get('/play/{attempt}/q/{number}', [QuizPlayController::class, 'question'])->name('play.question');
+    Route::post('/play/{attempt}/q/{number}', [QuizPlayController::class, 'answer'])->name('play.answer');
+    Route::get('/play/{attempt}/result', [QuizPlayController::class, 'result'])->name('play.result');
+});
 
-        // Student-only contests flow
-        Route::middleware('role:student')->group(function () {
-            // Static pages (inside student UI)
-            Route::get('/about', [PagesController::class, 'about'])->name('pages.about');
-            Route::get('/contact', [PagesController::class, 'contact'])->name('pages.contact');
-            Route::get('/privacy', [PagesController::class, 'privacy'])->name('pages.privacy');
-            Route::get('/terms', [PagesController::class, 'terms'])->name('pages.terms');
+// Student-only routes (require logged-in student role)
+Route::middleware(['auth', 'require_student'])->group(function () {
+    // In-app notifications
+    Route::get('/notifications', [InAppNotificationsController::class, 'index'])->name('notifications.index');
+    Route::patch('/notifications/read-all', [InAppNotificationsController::class, 'markAllRead'])->name('notifications.read_all');
+    Route::patch('/notifications/{notification}/read', [InAppNotificationsController::class, 'markRead'])->name('notifications.read');
 
-            Route::get('/leaderboard', [LeaderboardController::class, 'index'])->name('leaderboard');
-            Route::get('/daily', [DailyChallengeController::class, 'show'])->name('daily');
+    // Clubs (human-led practice sessions)
+    Route::get('/clubs', [ClubsController::class, 'index'])->name('clubs.index');
+    Route::get('/clubs/create', [ClubsController::class, 'create'])->name('clubs.create');
+    Route::post('/clubs', [ClubsController::class, 'store'])->name('clubs.store');
+    Route::get('/clubs/join/{token}', [ClubsController::class, 'joinByToken'])->name('clubs.join');
+    Route::post('/clubs/{club}/request-join', [ClubsController::class, 'requestJoin'])->name('clubs.request_join');
+    Route::get('/clubs/{club}', [ClubsController::class, 'show'])->name('clubs.show');
+    Route::patch('/clubs/{club}/requests/{joinRequest}/approve', [ClubsController::class, 'approveRequest'])->name('clubs.requests.approve');
+    Route::patch('/clubs/{club}/requests/{joinRequest}/reject', [ClubsController::class, 'rejectRequest'])->name('clubs.requests.reject');
+    Route::post('/clubs/{club}/sessions/start', [ClubsController::class, 'startSession'])->name('clubs.sessions.start');
+    Route::patch('/clubs/{club}/sessions/{session}/next-master', [ClubsController::class, 'nextMaster'])->name('clubs.sessions.next_master');
+    Route::post('/clubs/{club}/sessions/{session}/points', [ClubsController::class, 'addPoint'])->name('clubs.sessions.points');
+    Route::patch('/clubs/{club}/sessions/{session}/end', [ClubsController::class, 'endSession'])->name('clubs.sessions.end');
 
-            // In-app notifications
-            Route::get('/notifications', [InAppNotificationsController::class, 'index'])->name('notifications.index');
-            Route::patch('/notifications/read-all', [InAppNotificationsController::class, 'markAllRead'])->name('notifications.read_all');
-            Route::patch('/notifications/{notification}/read', [InAppNotificationsController::class, 'markRead'])->name('notifications.read');
+    // Practice
+    Route::get('/practice', [PracticeController::class, 'index'])->name('practice');
+    Route::post('/practice/start', [PracticeController::class, 'start'])->name('practice.start');
+    Route::get('/practice/{attempt}/q/{number}', [PracticeController::class, 'question'])->name('practice.question');
+    Route::post('/practice/{attempt}/q/{number}', [PracticeController::class, 'answer'])->name('practice.answer');
+    Route::get('/practice/{attempt}/result', [PracticeController::class, 'result'])->name('practice.result');
 
-            // Clubs (human-led practice sessions)
-            Route::get('/clubs', [ClubsController::class, 'index'])->name('clubs.index');
-            Route::get('/clubs/create', [ClubsController::class, 'create'])->name('clubs.create');
-            Route::post('/clubs', [ClubsController::class, 'store'])->name('clubs.store');
-            Route::get('/clubs/join/{token}', [ClubsController::class, 'joinByToken'])->name('clubs.join');
-            Route::post('/clubs/{club}/request-join', [ClubsController::class, 'requestJoin'])->name('clubs.request_join');
-            Route::get('/clubs/{club}', [ClubsController::class, 'show'])->name('clubs.show');
-            Route::patch('/clubs/{club}/requests/{joinRequest}/approve', [ClubsController::class, 'approveRequest'])->name('clubs.requests.approve');
-            Route::patch('/clubs/{club}/requests/{joinRequest}/reject', [ClubsController::class, 'rejectRequest'])->name('clubs.requests.reject');
-            Route::post('/clubs/{club}/sessions/start', [ClubsController::class, 'startSession'])->name('clubs.sessions.start');
-            Route::patch('/clubs/{club}/sessions/{session}/next-master', [ClubsController::class, 'nextMaster'])->name('clubs.sessions.next_master');
-            Route::post('/clubs/{club}/sessions/{session}/points', [ClubsController::class, 'addPoint'])->name('clubs.sessions.points');
-            Route::patch('/clubs/{club}/sessions/{session}/end', [ClubsController::class, 'endSession'])->name('clubs.sessions.end');
+    // PYQ (Previous Year Questions) practice
+    Route::get('/pyq', [PyqController::class, 'index'])->name('pyq.index');
+    Route::post('/pyq/start', [PyqController::class, 'start'])->name('pyq.start');
+    Route::get('/pyq/{attempt}/q/{number}', [PyqController::class, 'question'])->name('pyq.question');
+    Route::post('/pyq/{attempt}/q/{number}', [PyqController::class, 'answer'])->name('pyq.answer');
+    Route::get('/pyq/{attempt}/result', [PyqController::class, 'result'])->name('pyq.result');
 
-            Route::get('/practice', [PracticeController::class, 'index'])->name('practice');
-            Route::post('/practice/start', [PracticeController::class, 'start'])->name('practice.start');
-            Route::get('/practice/{attempt}/q/{number}', [PracticeController::class, 'question'])->name('practice.question');
-            Route::post('/practice/{attempt}/q/{number}', [PracticeController::class, 'answer'])->name('practice.answer');
-            Route::get('/practice/{attempt}/result', [PracticeController::class, 'result'])->name('practice.result');
+    // Revision (bookmarks + mistakes)
+    Route::get('/revision', [RevisionController::class, 'index'])->name('revision');
+    Route::post('/revision/start', [RevisionController::class, 'start'])->name('revision.start');
+    Route::post('/revision/from-quiz-attempt/{quizAttempt}/incorrect', [RevisionController::class, 'startFromQuizAttemptIncorrect'])->name('revision.from_quiz_attempt_incorrect');
+    Route::post('/revision/from-practice-attempt/{practiceAttempt}/incorrect', [RevisionController::class, 'startFromPracticeAttemptIncorrect'])->name('revision.from_practice_attempt_incorrect');
+    Route::post('/bookmarks/{question}/toggle', [RevisionController::class, 'toggleBookmark'])->name('bookmarks.toggle');
 
-            // PYQ (Previous Year Questions) practice
-            Route::get('/pyq', [PyqController::class, 'index'])->name('pyq.index');
-            Route::post('/pyq/start', [PyqController::class, 'start'])->name('pyq.start');
-            Route::get('/pyq/{attempt}/q/{number}', [PyqController::class, 'question'])->name('pyq.question');
-            Route::post('/pyq/{attempt}/q/{number}', [PyqController::class, 'answer'])->name('pyq.answer');
-            Route::get('/pyq/{attempt}/result', [PyqController::class, 'result'])->name('pyq.result');
-
-            // Revision (bookmarks + mistakes)
-            Route::get('/revision', [RevisionController::class, 'index'])->name('revision');
-            Route::post('/revision/start', [RevisionController::class, 'start'])->name('revision.start');
-            Route::post('/revision/from-quiz-attempt/{quizAttempt}/incorrect', [RevisionController::class, 'startFromQuizAttemptIncorrect'])->name('revision.from_quiz_attempt_incorrect');
-            Route::post('/revision/from-practice-attempt/{practiceAttempt}/incorrect', [RevisionController::class, 'startFromPracticeAttemptIncorrect'])->name('revision.from_practice_attempt_incorrect');
-            Route::post('/bookmarks/{question}/toggle', [RevisionController::class, 'toggleBookmark'])->name('bookmarks.toggle');
-
-            // Browse (public content inside student UI)
-            Route::get('/exams', [BrowseController::class, 'exams'])->name('browse.exams.index');
-            Route::get('/exams/{exam:slug}', [BrowseController::class, 'exam'])->name('browse.exams.show');
-            Route::get('/subjects/{subject}', [BrowseController::class, 'subject'])->name('browse.subjects.show');
-            Route::get('/public-contests', [BrowseController::class, 'contests'])->name('browse.contests.index');
-            Route::get('/public-contests/{contest}', [BrowseController::class, 'contest'])->name('browse.contests.show');
-
-            Route::get('/contests/join', [ContestController::class, 'joinForm'])->name('contests.join');
-            Route::post('/contests/join', [ContestController::class, 'join'])->name('contests.join.submit');
-            Route::get('/contests/join/{code}', [ContestController::class, 'joinByCode'])->name('contests.join.code');
-            Route::get('/contests/{contest}', [ContestController::class, 'show'])->name('contests.show');
-
-            // Quiz play (MVP)
-            Route::get('/quizzes/{quiz:unique_code}/play', [QuizPlayController::class, 'startFromQuiz'])->name('quizzes.play');
-            Route::get('/contests/{contest}/play', [QuizPlayController::class, 'startFromContest'])->name('contests.play');
-            Route::get('/play/{attempt}/q/{number}', [QuizPlayController::class, 'question'])->name('play.question');
-            Route::post('/play/{attempt}/q/{number}', [QuizPlayController::class, 'answer'])->name('play.answer');
-            Route::get('/play/{attempt}/result', [QuizPlayController::class, 'result'])->name('play.result');
-        });
-    });
+    // Join contest (private)
+    Route::get('/join-contest', [ContestController::class, 'joinForm'])->name('contests.join');
+    Route::post('/join-contest', [ContestController::class, 'join'])->name('contests.join.submit');
+    Route::get('/join-contest/{code}', [ContestController::class, 'joinByCode'])->name('contests.join.code');
+    Route::get('/my-contests/{contest}', [ContestController::class, 'show'])->name('contests.show');
+});
 

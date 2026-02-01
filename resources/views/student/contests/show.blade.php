@@ -41,7 +41,7 @@
         @endphp
 
         @if ($contest->quiz && !$ended && !$notStarted)
-            <a href="{{ route('student.contests.play', $contest) }}"
+            <a href="{{ route('play.contest', $contest) }}"
                class="mt-4 block w-full bg-indigo-500 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-indigo-400">
                 PLAY NOW
             </a>
@@ -102,4 +102,5 @@
     </div>
 </div>
 @endsection
+
 
