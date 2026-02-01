@@ -405,6 +405,226 @@ function initClubMemberSearch() {
     setStatus('Type at least 2 characters to search.');
 }
 
+function initClubSessionSetup() {
+    const root = document.querySelector('[data-club-session-setup="true"]');
+    if (!root) return;
+
+    const allBtn = root.querySelector('[data-session-select-all="true"]');
+    const noneBtn = root.querySelector('[data-session-select-none="true"]');
+
+    const setAll = (checked) => {
+        const boxes = root.querySelectorAll('[data-session-member-checkbox="true"]');
+        boxes.forEach((b) => {
+            if (b instanceof HTMLInputElement) b.checked = checked;
+        });
+    };
+
+    if (allBtn) {
+        allBtn.addEventListener('click', () => setAll(true));
+    }
+    if (noneBtn) {
+        noneBtn.addEventListener('click', () => setAll(false));
+    }
+}
+
+function initClubSessionLobby() {
+    const root = document.querySelector('[data-club-session-lobby="true"]');
+    if (!root) return;
+
+    const lobbyEndpoint = root.getAttribute('data-lobby-endpoint') || '';
+    const joinEndpoint = root.getAttribute('data-join-endpoint') || '';
+    const leaveEndpoint = root.getAttribute('data-leave-endpoint') || '';
+    const kickEndpoint = root.getAttribute('data-kick-endpoint') || '';
+    const csrf = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+
+    const statusEl = root.querySelector('[data-session-lobby-status="true"]');
+    const joinBtn = root.querySelector('[data-session-join="true"]');
+    const leaveBtn = root.querySelector('[data-session-leave="true"]');
+    const listEl = root.querySelector('[data-session-joined-list="true"]');
+    const countEl = root.querySelector('[data-session-count="true"]');
+    const startBtn = root.querySelector('[data-session-start="true"]');
+
+    const setStatus = (t) => {
+        if (statusEl) statusEl.textContent = t || '';
+    };
+
+    const escapeHtml = (t) => String(t || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+
+    const render = (payload) => {
+        const active = !!payload?.active;
+        if (active) {
+            setStatus('Session already started.');
+            if (joinBtn) joinBtn.classList.add('hidden');
+            if (leaveBtn) leaveBtn.classList.add('hidden');
+            if (startBtn) startBtn.setAttribute('disabled', 'true');
+            if (listEl) listEl.innerHTML = `<div class="px-4 py-4 text-sm text-slate-300">Session already active.</div>`;
+            if (countEl) countEl.textContent = '';
+            return;
+        }
+
+        const joined = !!payload?.joined;
+        const isAdmin = !!payload?.is_admin;
+        const items = Array.isArray(payload?.items) ? payload.items : [];
+
+        setStatus(joined ? 'You have joined today’s session.' : 'You have not joined yet.');
+        if (joinBtn) joinBtn.classList.toggle('hidden', joined);
+        if (leaveBtn) leaveBtn.classList.toggle('hidden', !joined);
+
+        if (countEl) countEl.textContent = `(${items.length})`;
+
+        if (startBtn) {
+            if (isAdmin && items.length >= 2) startBtn.removeAttribute('disabled');
+            else startBtn.setAttribute('disabled', 'true');
+        }
+
+        if (!listEl) return;
+        if (items.length === 0) {
+            listEl.innerHTML = `<div class="px-4 py-4 text-sm text-slate-300">No one joined yet.</div>`;
+            return;
+        }
+
+        listEl.innerHTML = items.map((u) => {
+            const id = Number.parseInt(String(u.user_id || '0'), 10);
+            const name = escapeHtml(u.name);
+            const email = escapeHtml(u.email);
+            const kick = isAdmin ? `<button type="button" class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15" data-session-kick-user="${id}">Remove</button>` : '';
+            return `
+<div class="flex items-center justify-between gap-3 px-4 py-3" data-session-row="${id}">
+  <div class="min-w-0">
+    <div class="text-sm font-semibold text-white truncate">${name}</div>
+    <div class="mt-1 text-xs text-slate-400 truncate">${email}</div>
+  </div>
+  ${kick}
+</div>`;
+        }).join('');
+    };
+
+    const load = async () => {
+        if (!lobbyEndpoint) return;
+        try {
+            const res = await fetch(lobbyEndpoint, { headers: { Accept: 'application/json' } });
+            if (!res.ok) throw new Error('bad_status');
+            const data = await res.json();
+            render(data);
+        } catch {
+            setStatus('Failed to load lobby.');
+        }
+    };
+
+    const post = async (url, bodyObj) => {
+        const form = new FormData();
+        Object.entries(bodyObj || {}).forEach(([k, v]) => form.set(k, String(v)));
+        const res = await fetch(url, {
+            method: 'POST',
+            headers: { 'X-CSRF-TOKEN': csrf, Accept: 'application/json' },
+            body: form,
+        });
+        if (!res.ok) throw new Error('bad_status');
+        return res.json().catch(() => ({}));
+    };
+
+    if (joinBtn) {
+        joinBtn.addEventListener('click', async () => {
+            joinBtn.setAttribute('disabled', 'true');
+            try {
+                await post(joinEndpoint, {});
+                await load();
+            } catch {
+                setStatus('Failed to join.');
+            } finally {
+                joinBtn.removeAttribute('disabled');
+            }
+        });
+    }
+
+    if (leaveBtn) {
+        leaveBtn.addEventListener('click', async () => {
+            leaveBtn.setAttribute('disabled', 'true');
+            try {
+                await post(leaveEndpoint, {});
+                await load();
+            } catch {
+                setStatus('Failed to leave.');
+            } finally {
+                leaveBtn.removeAttribute('disabled');
+            }
+        });
+    }
+
+    if (listEl) {
+        listEl.addEventListener('click', async (e) => {
+            const target = e.target instanceof Element ? e.target : null;
+            if (!target) return;
+            const btn = target.closest('[data-session-kick-user]');
+            if (!btn) return;
+            const userId = btn.getAttribute('data-session-kick-user') || '';
+            const id = Number.parseInt(userId, 10);
+            if (!Number.isFinite(id) || id <= 0) return;
+            if (!kickEndpoint) return;
+
+            btn.setAttribute('disabled', 'true');
+            try {
+                await post(kickEndpoint, { user_id: id });
+                await load();
+            } catch {
+                setStatus('Failed to remove.');
+            } finally {
+                btn.removeAttribute('disabled');
+            }
+        });
+    }
+
+    load();
+}
+
+function initClubAddPointAjax() {
+    // Intercept +1 forms so page doesn't refresh
+    document.addEventListener('submit', async (e) => {
+        const form = e.target instanceof HTMLFormElement ? e.target : null;
+        if (!form) return;
+        if (!form.matches('[data-club-add-point-form="true"]')) return;
+
+        e.preventDefault();
+
+        const action = form.getAttribute('action') || '';
+        if (!action) return;
+
+        const csrf = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+        const btn = form.querySelector('button[type="submit"]');
+        if (btn) btn.setAttribute('disabled', 'true');
+
+        try {
+            const body = new FormData(form);
+            const res = await fetch(action, {
+                method: 'POST',
+                headers: {
+                    'X-CSRF-TOKEN': csrf,
+                    Accept: 'application/json',
+                },
+                body,
+            });
+            if (!res.ok) throw new Error('bad_status');
+            const data = await res.json();
+
+            const userId = Number.parseInt(String(data?.userId || form.getAttribute('data-club-add-point-user-id') || '0'), 10);
+            const points = Number.parseInt(String(data?.points || '0'), 10);
+            if (Number.isFinite(userId) && userId > 0 && Number.isFinite(points) && points >= 0) {
+                const el = document.querySelector(`[data-points-for-user-id="${userId}"]`);
+                if (el) el.textContent = String(points);
+            }
+        } catch {
+            // ignore (existing realtime may still update)
+        } finally {
+            if (btn) btn.removeAttribute('disabled');
+        }
+    });
+}
+
 // Clubs realtime (WebSockets via pusher-js, no Laravel Echo)
 async function initClubsRealtime() {
     const root = document.querySelector('[data-club-realtime]');
@@ -481,6 +701,9 @@ async function initClubsRealtime() {
 document.addEventListener('DOMContentLoaded', () => {
     initClubsRealtime().catch(() => {});
     initClubMemberSearch();
+    initClubSessionSetup();
+    initClubSessionLobby();
+    initClubAddPointAjax();
 });
 
 // Push notifications (FCM)

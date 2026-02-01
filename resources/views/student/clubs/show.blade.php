@@ -98,15 +98,13 @@
                     @endif
                 </div>
 
-                @if($myMember->role === 'admin')
-                    @if(!$activeSession)
-                        <form method="POST" action="{{ route('clubs.sessions.start', $club) }}">
-                            @csrf
-                            <button class="bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
-                                Start session
-                            </button>
-                        </form>
-                    @else
+                @if(!$activeSession)
+                    <a href="{{ route('clubs.session', $club) }}"
+                       class="{{ $myMember->role === 'admin' ? 'bg-indigo-500 hover:bg-indigo-400' : 'bg-white/10 hover:bg-white/15' }} px-4 py-3 text-sm font-semibold text-white">
+                        {{ $myMember->role === 'admin' ? 'Start session' : 'Join session' }}
+                    </a>
+                @else
+                    @if($myMember->role === 'admin')
                         <div class="flex flex-wrap gap-2">
                             <form method="POST" action="{{ route('clubs.sessions.next_master', [$club, $activeSession]) }}">
                                 @csrf
@@ -191,10 +189,14 @@
                                     {{ $pts }}
                                 </div>
                                 @if($canControl)
-                                    <form method="POST" action="{{ route('clubs.sessions.points', [$club, $activeSession]) }}">
+                                    <form method="POST"
+                                          action="{{ route('clubs.sessions.points', [$club, $activeSession]) }}"
+                                          data-club-add-point-form="true"
+                                          data-club-add-point-user-id="{{ (int) $m->user_id }}">
                                         @csrf
                                         <input type="hidden" name="user_id" value="{{ $m->user_id }}">
-                                        <button class="bg-emerald-500/80 px-3 py-2 text-xs font-semibold text-white hover:bg-emerald-500">
+                                        <button type="submit"
+                                                class="bg-emerald-500/80 px-3 py-2 text-xs font-semibold text-white hover:bg-emerald-500">
                                             +1
                                         </button>
                                     </form>

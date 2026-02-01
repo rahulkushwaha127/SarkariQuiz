@@ -11,6 +11,7 @@ use App\Models\Club;
 use App\Models\ClubJoinRequest;
 use App\Models\ClubMember;
 use App\Models\ClubSession;
+use App\Models\ClubSessionLobbyMember;
 use App\Models\ClubSessionScore;
 use App\Models\ClubSessionTurn;
 use App\Models\User;
@@ -63,6 +64,226 @@ class ClubsController extends Controller
 
         return response()->json(['items' => $items]);
     }
+
+    public function sessionSetup(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $myMember = $this->requireMember($club);
+
+        $club->load('owner');
+
+        $activeSession = ClubSession::query()
+            ->where('club_id', $club->id)
+            ->where('status', 'active')
+            ->latest('id')
+            ->first();
+
+        if ($activeSession) {
+            return redirect()
+                ->route('clubs.show', $club)
+                ->with('status', 'Session already active.');
+        }
+
+        // Admin should be auto-joined in lobby.
+        if ($myMember->role === 'admin') {
+            ClubSessionLobbyMember::query()->updateOrCreate(
+                ['club_id' => $club->id, 'user_id' => Auth::id()],
+                ['joined_at' => now()]
+            );
+        }
+
+        return view('student.clubs.session', compact('club', 'myMember'));
+    }
+
+    public function sessionLobby(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $myMember = $this->requireMember($club);
+
+        $activeSession = ClubSession::query()
+            ->where('club_id', $club->id)
+            ->where('status', 'active')
+            ->latest('id')
+            ->first();
+
+        if ($activeSession) {
+            return response()->json(['active' => true, 'items' => []]);
+        }
+
+        $items = ClubSessionLobbyMember::query()
+            ->where('club_session_lobby_members.club_id', $club->id)
+            ->join('club_members as cm', function ($join) use ($club) {
+                $join->on('cm.user_id', '=', 'club_session_lobby_members.user_id')
+                    ->where('cm.club_id', '=', $club->id);
+            })
+            ->join('users as u', 'u.id', '=', 'club_session_lobby_members.user_id')
+            ->orderBy('cm.position')
+            ->get([
+                'club_session_lobby_members.user_id as user_id',
+                'u.name as name',
+                'u.email as email',
+            ])
+            ->map(function ($row) {
+                return [
+                    'user_id' => (int) $row->user_id,
+                    'name' => (string) ($row->name ?? '—'),
+                    'email' => (string) ($row->email ?? ''),
+                    'position' => null, // not needed, ordering already applied
+                ];
+            })
+            ->values();
+
+        $joined = ClubSessionLobbyMember::query()
+            ->where('club_id', $club->id)
+            ->where('user_id', Auth::id())
+            ->exists();
+
+        return response()->json([
+            'active' => false,
+            'joined' => $joined,
+            'is_admin' => $myMember->role === 'admin',
+            'items' => $items,
+        ]);
+    }
+
+    public function sessionJoin(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $this->requireMember($club);
+
+        $activeSession = ClubSession::query()->where('club_id', $club->id)->where('status', 'active')->exists();
+        abort_unless(! $activeSession, 422);
+
+        ClubSessionLobbyMember::query()->updateOrCreate(
+            ['club_id' => $club->id, 'user_id' => Auth::id()],
+            ['joined_at' => now()]
+        );
+
+        return response()->json(['ok' => true]);
+    }
+
+    public function sessionLeave(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $this->requireMember($club);
+
+        $activeSession = ClubSession::query()->where('club_id', $club->id)->where('status', 'active')->exists();
+        abort_unless(! $activeSession, 422);
+
+        ClubSessionLobbyMember::query()
+            ->where('club_id', $club->id)
+            ->where('user_id', Auth::id())
+            ->delete();
+
+        return response()->json(['ok' => true]);
+    }
+
+    public function sessionKick(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $this->requireAdmin($club);
+
+        $activeSession = ClubSession::query()->where('club_id', $club->id)->where('status', 'active')->exists();
+        abort_unless(! $activeSession, 422);
+
+        $data = $request->validate([
+            'user_id' => ['required', 'integer'],
+        ]);
+
+        ClubSessionLobbyMember::query()
+            ->where('club_id', $club->id)
+            ->where('user_id', (int) $data['user_id'])
+            ->delete();
+
+        return response()->json(['ok' => true]);
+    }
+
+    public function startSessionSelected(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $this->requireAdmin($club);
+
+        if ($club->status !== 'active') {
+            return back()->withErrors(['club' => 'Club is disabled.']);
+        }
+
+        $existing = ClubSession::query()->where('club_id', $club->id)->where('status', 'active')->first();
+        if ($existing) {
+            return redirect()->route('clubs.show', $club)->with('status', 'Session already active.');
+        }
+
+        $lobbyIds = ClubSessionLobbyMember::query()
+            ->where('club_id', $club->id)
+            ->pluck('user_id')
+            ->all();
+
+        $members = ClubMember::query()
+            ->where('club_id', $club->id)
+            ->whereIn('user_id', $lobbyIds)
+            ->orderBy('position')
+            ->orderBy('joined_at')
+            ->get(['user_id']);
+
+        if ($members->count() < 2) {
+            return back()->withErrors(['club' => 'At least 2 members must join the session.']);
+        }
+
+        $session = null;
+
+        DB::transaction(function () use ($club, $members, &$session) {
+            $session = ClubSession::query()->create([
+                'club_id' => $club->id,
+                'status' => 'active',
+                'started_at' => now(),
+                'created_by_user_id' => Auth::id(),
+                'current_master_position' => 1,
+                'current_master_user_id' => (int) $members->first()->user_id,
+            ]);
+
+            $turnRows = [];
+            $scoreRows = [];
+            $now = now();
+            $pos = 1;
+            foreach ($members as $m) {
+                $turnRows[] = [
+                    'session_id' => $session->id,
+                    'user_id' => $m->user_id,
+                    'position' => $pos,
+                    'created_at' => $now,
+                    'updated_at' => $now,
+                ];
+                $scoreRows[] = [
+                    'session_id' => $session->id,
+                    'user_id' => $m->user_id,
+                    'points' => 0,
+                    'created_at' => $now,
+                    'updated_at' => $now,
+                ];
+                $pos++;
+            }
+
+            ClubSessionTurn::query()->insert($turnRows);
+            ClubSessionScore::query()->insert($scoreRows);
+
+            // Clear lobby for next day/session.
+            ClubSessionLobbyMember::query()->where('club_id', $club->id)->delete();
+        });
+
+        if ($session) {
+            $session->load('currentMaster');
+            DB::afterCommit(function () use ($club, $session) {
+                broadcast(new ClubSessionStarted(
+                    clubId: (int) $club->id,
+                    sessionId: (int) $session->id,
+                    currentMasterUserId: (int) $session->current_master_user_id,
+                    currentMasterName: (string) ($session->currentMaster?->name ?? 'Master'),
+                ));
+            });
+        }
+
+        return redirect()->route('clubs.show', $club)->with('status', 'Session started.');
+    }
+
     public function index()
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);
@@ -524,6 +745,14 @@ class ClubsController extends Controller
                 points: (int) $points,
             ));
         });
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'ok' => true,
+                'userId' => (int) $data['user_id'],
+                'points' => (int) $points,
+            ]);
+        }
 
         return back()->with('status', 'Point added.');
     }
