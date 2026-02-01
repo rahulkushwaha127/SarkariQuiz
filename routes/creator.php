@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Creator\AiQuizGeneratorController;
+use App\Http\Controllers\Creator\AnalyticsController;
 use App\Http\Controllers\Creator\ContestController;
 use App\Http\Controllers\Creator\ContestWhitelistController;
 use App\Http\Controllers\Creator\QuestionController;
@@ -12,6 +13,8 @@ Route::middleware(['auth', 'role:creator|admin'])
     ->prefix('creator')
     ->as('creator.')
     ->group(function () {
+        Route::get('analytics', [AnalyticsController::class, 'index'])->name('analytics');
+
         Route::resource('quizzes', QuizController::class);
         Route::patch('quizzes/{quiz}/submit', [QuizController::class, 'submit'])->name('quizzes.submit');
         Route::resource('contests', ContestController::class);

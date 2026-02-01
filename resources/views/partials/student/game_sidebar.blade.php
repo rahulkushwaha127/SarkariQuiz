@@ -21,7 +21,7 @@
 <div class="mt-4">
     <a href="javascript:void(0)"
        class="inline-flex items-center gap-2 border border-amber-300/30 bg-amber-400/10 px-3 py-2 text-xs font-semibold text-amber-100 hover:bg-amber-400/15">
-        Join {{ config('app.name', 'QuizWhiz') }}
+        Join {{ $siteName ?? config('app.name', 'QuizWhiz') }}
     </a>
 </div>
 
@@ -42,6 +42,36 @@
         Exams
     </a>
 
+    <a href="{{ route('student.practice') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.practice*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 19V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M8 8h8M8 12h6M8 16h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Practice
+    </a>
+
+    <a href="{{ route('student.revision') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.revision*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21 12a9 9 0 1 1-3-6.7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M21 3v6h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Revision
+    </a>
+
+    <a href="{{ route('student.clubs.index') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.clubs.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 11c1.7 0 3-1.3 3-3s-1.3-3-3-3-3 1.3-3 3 1.3 3 3 3z" stroke="currentColor" stroke-width="2"/>
+            <path d="M8 11c1.7 0 3-1.3 3-3S9.7 5 8 5 5 6.3 5 8s1.3 3 3 3z" stroke="currentColor" stroke-width="2"/>
+            <path d="M2 20c0-2.8 2.2-5 5-5h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M13 15h2c2.8 0 5 2.2 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Clubs
+    </a>
+
     <a href="{{ route('student.browse.contests.index') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.browse.contests.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,6 +86,15 @@
             <path d="M6 7h12M6 12h12M6 17h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
         </svg>
         Join Contest
+    </a>
+
+    <a href="{{ route('student.daily') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.daily') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 3h10v2H7V3zM6 7h12v14H6V7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M9 11h6M9 15h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Daily Challenge
     </a>
 
     <a href="{{ route('student.leaderboard', ['period' => 'daily']) }}"

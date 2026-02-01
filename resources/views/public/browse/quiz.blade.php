@@ -19,7 +19,9 @@
 </div>
 
 <p style="margin-top: 14px;">
-    <a href="{{ route('login') }}">Login to play</a>
+    <a href="{{ route('public.quizzes.play', $quiz) }}">Play as guest</a>
+    <span style="color:#777;"> · </span>
+    <a href="{{ route('login') }}">Login</a>
 </p>
 @endsection
 

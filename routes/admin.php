@@ -3,13 +3,18 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\NotificationsController;
+use App\Http\Controllers\Admin\DailyChallengeController;
+use App\Http\Controllers\Admin\AdsController;
+use App\Http\Controllers\Admin\ClubsController;
+use App\Http\Controllers\Admin\ContestsController;
+use App\Http\Controllers\Admin\SettingsController;
 use App\Http\Controllers\Admin\QuizModerationController;
 use App\Http\Controllers\Admin\Taxonomy\ExamsController;
 use App\Http\Controllers\Admin\Taxonomy\SubjectsController;
 use App\Http\Controllers\Admin\Taxonomy\TopicsController;
 use App\Http\Controllers\Admin\UsersController;
 
-Route::middleware(['auth', 'role:admin'])
+Route::middleware(['auth', 'role:admin|super_admin'])
     ->prefix('admin')
     ->as('admin.')
     ->group(function () {
@@ -23,6 +28,26 @@ Route::middleware(['auth', 'role:admin'])
         Route::patch('/quizzes/{quiz}/featured', [QuizModerationController::class, 'toggleFeatured'])->name('quizzes.featured');
         Route::get('/notifications', [NotificationsController::class, 'index'])->name('notifications.index');
         Route::post('/notifications', [NotificationsController::class, 'send'])->name('notifications.send');
+        Route::get('/daily-challenge', [DailyChallengeController::class, 'index'])->name('daily.index');
+        Route::post('/daily-challenge', [DailyChallengeController::class, 'store'])->name('daily.store');
+        Route::get('/settings', [SettingsController::class, 'edit'])->name('settings.edit');
+        Route::patch('/settings', [SettingsController::class, 'update'])->name('settings.update');
+
+        // Contests moderation
+        Route::get('/contests', [ContestsController::class, 'index'])->name('contests.index');
+        Route::patch('/contests/{contest}/public', [ContestsController::class, 'togglePublic'])->name('contests.toggle_public');
+        Route::patch('/contests/{contest}/cancel', [ContestsController::class, 'cancel'])->name('contests.cancel');
+
+        // Clubs (super admin)
+        Route::get('/clubs', [ClubsController::class, 'index'])->name('clubs.index');
+        Route::patch('/clubs/{club}/toggle', [ClubsController::class, 'toggleStatus'])->name('clubs.toggle');
+
+        // Ads (AdSense units + slot mapping)
+        Route::get('/ads', [AdsController::class, 'index'])->name('ads.index');
+        Route::post('/ads/units', [AdsController::class, 'storeUnit'])->name('ads.units.store');
+        Route::patch('/ads/units/{unit}', [AdsController::class, 'updateUnit'])->name('ads.units.update');
+        Route::delete('/ads/units/{unit}', [AdsController::class, 'destroyUnit'])->name('ads.units.destroy');
+        Route::patch('/ads/slots/{slot}', [AdsController::class, 'updateSlot'])->name('ads.slots.update');
 
         Route::prefix('taxonomy')->as('taxonomy.')->group(function () {
             Route::get('/exams', [ExamsController::class, 'index'])->name('exams.index');

@@ -3,12 +3,20 @@
 namespace App\Http\Controllers\Student;
 
 use App\Http\Controllers\Controller;
+use App\Models\DailyChallenge;
 use App\Models\Subject;
 
 class DashboardController extends Controller
 {
     public function index()
     {
+        $today = now()->toDateString();
+        $daily = DailyChallenge::query()
+            ->where('challenge_date', $today)
+            ->where('is_active', true)
+            ->with('quiz')
+            ->first();
+
         $subjects = Subject::query()
             ->where('is_active', true)
             ->with('exam')
@@ -20,6 +28,6 @@ class DashboardController extends Controller
             ->limit(8)
             ->get();
 
-        return view('student.dashboard', compact('subjects'));
+        return view('student.dashboard', compact('subjects', 'daily'));
     }
 }

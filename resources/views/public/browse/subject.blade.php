@@ -25,6 +25,7 @@
                 <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd;">Quiz</th>
                 <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd;">Questions</th>
                 <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd;">Mode</th>
+                <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd;">Play</th>
             </tr>
             </thead>
             <tbody>
@@ -35,6 +36,9 @@
                     </td>
                     <td style="padding:8px; border-bottom:1px solid #eee;">{{ $quiz->questions_count }}</td>
                     <td style="padding:8px; border-bottom:1px solid #eee;">{{ $quiz->mode }}</td>
+                    <td style="padding:8px; border-bottom:1px solid #eee;">
+                        <a href="{{ route('public.quizzes.play', $quiz) }}">Play</a>
+                    </td>
                 </tr>
             @endforeach
             </tbody>

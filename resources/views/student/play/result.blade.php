@@ -4,6 +4,28 @@
 
 @section('content')
 <div class="space-y-4">
+    @php
+        $adsEnabled = (bool) (($ads['enabled'] ?? false) && ($ads['interstitial_enabled'] ?? false));
+        $adEvery = (int) ($ads['interstitial_every_n_results'] ?? 3);
+        $adEvery = max(1, min(20, $adEvery));
+    @endphp
+
+    {{-- Interstitial ad (MVP scaffold) --}}
+    <div class="fixed inset-0 z-[90] hidden" data-ad-interstitial-modal="true" data-ad-enabled="{{ $adsEnabled ? '1' : '0' }}" data-ad-every="{{ $adEvery }}">
+        <div class="absolute inset-0 bg-black/70"></div>
+        <div class="relative mx-auto flex min-h-full max-w-md items-center justify-center p-4">
+            <div class="w-full border border-white/10 bg-slate-950/95 p-4">
+                <div class="text-sm font-semibold text-white">Ad</div>
+                <div class="mt-2 border border-white/10 bg-white/5 px-3 py-10 text-center text-xs font-semibold uppercase tracking-wider text-white/70">
+                    Interstitial ad placeholder
+                </div>
+                <button type="button" class="mt-4 w-full bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400" data-ad-close="true">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+
     <div class="border border-white/10 bg-white/5 p-4">
         <div class="text-sm font-semibold text-white">Result</div>
         <div class="mt-2 grid grid-cols-2 gap-3 text-sm">
@@ -28,6 +50,41 @@
         <div class="mt-3 text-xs text-slate-400">
             Unanswered: {{ $attempt->unanswered_count }} · Total: {{ $attempt->total_questions }}
         </div>
+
+        @if($attempt->share_code)
+            @php
+                $shareUrl = url('/s/' . $attempt->share_code);
+                $wa = 'https://wa.me/?text=' . urlencode($shareUrl);
+                $tg = 'https://t.me/share/url?url=' . urlencode($shareUrl);
+            @endphp
+            <div class="mt-4 flex flex-wrap gap-2">
+                <a href="{{ $wa }}" target="_blank" rel="noopener"
+                   class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                    Share on WhatsApp
+                </a>
+                <a href="{{ $tg }}" target="_blank" rel="noopener"
+                   class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                    Share on Telegram
+                </a>
+                <a href="{{ $shareUrl }}" target="_blank" rel="noopener"
+                   class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                    Copy link
+                </a>
+            </div>
+        @endif
+
+        <div class="mt-4 flex flex-wrap gap-2">
+            <form method="POST" action="{{ route('student.revision.from_quiz_attempt_incorrect', $attempt) }}">
+                @csrf
+                <button type="submit" class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                    Revise incorrect again
+                </button>
+            </form>
+            <a href="{{ route('student.revision', ['tab' => 'mistakes']) }}"
+               class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                Open Revision
+            </a>
+        </div>
     </div>
 
     <div class="border border-white/10 bg-white/5 p-4">
@@ -40,6 +97,7 @@
                     $selected = $row?->answer_id;
                     $correct = ($q->answers ?? collect())->firstWhere('is_correct', true);
                     $isCorrect = (bool)($row?->is_correct);
+                    $isBookmarked = in_array((int)$q->id, ($bookmarkedIds ?? []), true);
                 @endphp
 
                 <div class="border border-white/10 bg-slate-950/30 p-3">
@@ -53,6 +111,17 @@
                         <div class="shrink-0 text-xs font-semibold {{ $selected ? ($isCorrect ? 'text-emerald-200' : 'text-red-200') : 'text-slate-300' }}">
                             {{ $selected ? ($isCorrect ? 'CORRECT' : 'WRONG') : 'UNANSWERED' }}
                         </div>
+                    </div>
+
+                    <div class="mt-3 flex items-center justify-between gap-3">
+                        <form method="POST" action="{{ route('student.bookmarks.toggle', $q) }}">
+                            @csrf
+                            <button type="submit"
+                                    class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
+                                {{ $isBookmarked ? 'Unbookmark' : 'Bookmark' }}
+                            </button>
+                        </form>
+                        <div class="text-xs text-slate-400">Revision</div>
                     </div>
 
                     <div class="mt-2 space-y-1 text-sm">

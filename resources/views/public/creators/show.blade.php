@@ -30,7 +30,7 @@
             <a href="{{ url('/') }}" class="flex items-center gap-3">
                 <div class="grid h-10 w-10 place-items-center rounded-2xl bg-slate-900 text-white font-semibold">Q</div>
                 <div class="leading-tight">
-                    <div class="text-sm font-semibold text-slate-900">{{ config('app.name', 'QuizWhiz') }}</div>
+                    <div class="text-sm font-semibold text-slate-900">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
                     <div class="text-xs text-slate-500">Creator profile</div>
                 </div>
             </a>

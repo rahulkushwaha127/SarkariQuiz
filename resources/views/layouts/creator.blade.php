@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Creator') · {{ config('app.name', 'QuizWhiz') }}</title>
+    <title>@yield('title', 'Creator') · {{ $siteName ?? config('app.name', 'QuizWhiz') }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/admin.js', 'resources/js/creator.js'])
 </head>

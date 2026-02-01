@@ -10,8 +10,10 @@ use App\Models\Question;
 use App\Models\Quiz;
 use App\Models\QuizAttempt;
 use App\Models\QuizAttemptAnswer;
+use App\Models\QuestionBookmark;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 class QuizPlayController extends Controller
 {
@@ -229,7 +231,15 @@ class QuizPlayController extends Controller
             ->orderBy('position')
             ->get();
 
-        return view('student.play.result', compact('attempt', 'questions', 'answers'));
+        $questionIds = $questions->pluck('id')->all();
+        $bookmarkedIds = QuestionBookmark::query()
+            ->where('user_id', Auth::id())
+            ->whereIn('question_id', $questionIds)
+            ->pluck('question_id')
+            ->map(fn ($v) => (int) $v)
+            ->all();
+
+        return view('student.play.result', compact('attempt', 'questions', 'answers', 'bookmarkedIds'));
     }
 
     private function autoFinishIfExpired(QuizAttempt $attempt): void
@@ -279,6 +289,8 @@ class QuizPlayController extends Controller
         // MVP scoring: 1 point per correct answer
         $score = $correctCount;
 
+        $shareCode = $attempt->share_code ?: Str::uuid()->toString();
+
         $attempt->update([
             'status' => 'submitted',
             'submitted_at' => $submittedAt,
@@ -288,6 +300,7 @@ class QuizPlayController extends Controller
             'wrong_count' => $wrongCount,
             'unanswered_count' => $unanswered,
             'score' => $score,
+            'share_code' => $shareCode,
         ]);
 
         if ($attempt->contest_id) {

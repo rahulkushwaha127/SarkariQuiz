@@ -15,7 +15,7 @@
                     S
                 </div>
                 <div class="leading-tight">
-                    <div class="text-sm font-semibold text-slate-900">{{ config('app.name', 'QuizWhiz') }}</div>
+                    <div class="text-sm font-semibold text-slate-900">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
                     <div class="text-xs text-slate-500">Student</div>
                 </div>
             </a>

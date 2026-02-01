@@ -30,6 +30,7 @@ class User extends Authenticatable
         'coaching_city',
         'coaching_contact',
         'coaching_website',
+        'is_guest',
     ];
 
     /**
@@ -54,6 +55,7 @@ class User extends Authenticatable
             'password' => 'hashed',
             'social_links' => 'array',
             'blocked_at' => 'datetime',
+            'is_guest' => 'boolean',
         ];
     }
 

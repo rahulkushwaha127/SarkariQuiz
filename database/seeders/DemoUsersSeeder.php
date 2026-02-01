@@ -34,6 +34,11 @@ class DemoUsersSeeder extends Seeder
                 'name' => 'Demo Admin',
                 'username' => 'demo-admin',
             ],
+            'super_admin' => [
+                'email' => 'superadmin@example.com',
+                'name' => 'Demo Super Admin',
+                'username' => 'demo-superadmin',
+            ],
         ];
 
         foreach ($users as $roleName => $data) {
@@ -88,6 +93,13 @@ class DemoUsersSeeder extends Seeder
                 Admin::query()->updateOrCreate(
                     ['user_id' => $user->id],
                     ['notes' => 'Demo admin user']
+                );
+            }
+
+            if ($roleName === 'super_admin') {
+                Admin::query()->updateOrCreate(
+                    ['user_id' => $user->id],
+                    ['notes' => 'Demo super admin user']
                 );
             }
         }

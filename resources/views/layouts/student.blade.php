@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Play') · {{ config('app.name', 'QuizWhiz') }}</title>
+    <title>@yield('title', 'Play') · {{ $siteName ?? config('app.name', 'QuizWhiz') }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/student.js'])
 
@@ -66,10 +66,25 @@
                     </svg>
                 </button>
 
-                <div class="text-base font-semibold tracking-tight">{{ config('app.name', 'QuizWhiz') }}</div>
+                <div class="text-base font-semibold tracking-tight">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
 
                 <div class="flex items-center gap-2"></div>
             </div>
+
+            {{-- Header banner slot (AdSense-safe: unique unit per slot) --}}
+            @php
+                $adsEnabled = (bool) (($ads['enabled'] ?? false) && ($ads['banner_enabled'] ?? false));
+                $hideForQuestionScreens =
+                    request()->routeIs('student.play.question') ||
+                    request()->routeIs('student.practice.question');
+            @endphp
+            @if($adsEnabled && ! $hideForQuestionScreens)
+                <div class="border-b border-white/10 bg-slate-950/40 px-3 py-2">
+                    <div class="border border-white/10 bg-white/5 px-3 py-2">
+                        @include('partials.ads.slot', ['slot' => 'student_header', 'hide_on_question_screens' => true])
+                    </div>
+                </div>
+            @endif
 
             {{-- Screen --}}
             <div class="phone-scroll flex-1 overflow-y-auto p-4 pr-3">
@@ -92,6 +107,9 @@
 
                 @yield('content')
             </div>
+
+            {{-- Ads banner (MVP scaffold) --}}
+            @include('partials.ads.student_banner')
 
         </div>
     </div>

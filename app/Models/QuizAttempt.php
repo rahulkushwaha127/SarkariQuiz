@@ -13,6 +13,7 @@ class QuizAttempt extends Model
         'user_id',
         'quiz_id',
         'contest_id',
+        'share_code',
         'status',
         'started_at',
         'submitted_at',
@@ -35,6 +36,7 @@ class QuizAttempt extends Model
         'wrong_count' => 'integer',
         'unanswered_count' => 'integer',
         'score' => 'integer',
+        'share_code' => 'string',
     ];
 
     public function user()

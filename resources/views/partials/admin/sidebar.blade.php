@@ -22,6 +22,20 @@
                 Quizzes
             </a>
 
+            <a href="{{ route('admin.contests.index') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('admin.contests.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.contests.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Contests
+            </a>
+
+            <a href="{{ route('admin.clubs.index') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('admin.clubs.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.clubs.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Clubs
+            </a>
+
             <a href="{{ route('admin.taxonomy.exams.index') }}"
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
                {{ request()->routeIs('admin.taxonomy.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
@@ -40,6 +54,27 @@
                {{ request()->routeIs('admin.notifications.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
                 <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.notifications.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
                 Notifications
+            </a>
+
+            <a href="{{ route('admin.daily.index') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('admin.daily.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.daily.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Daily Challenge
+            </a>
+
+            <a href="{{ route('admin.settings.edit') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('admin.settings.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.settings.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Settings
+            </a>
+
+            <a href="{{ route('admin.ads.index') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('admin.ads.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.ads.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Ads
             </a>
 
             <div class="pt-2">

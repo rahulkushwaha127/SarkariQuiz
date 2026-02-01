@@ -104,3 +104,116 @@ function initCountdowns() {
 
 document.addEventListener('DOMContentLoaded', initCountdowns);
 
+// Interstitial ad (MVP scaffold): show only on result pages, every N results.
+function initInterstitialAd() {
+    const modal = document.querySelector('[data-ad-interstitial-modal="true"]');
+    if (!modal) return;
+
+    const enabled = modal.getAttribute('data-ad-enabled') === '1';
+    const every = Number.parseInt(modal.getAttribute('data-ad-every') || '0', 10);
+    if (!enabled || !Number.isFinite(every) || every <= 0) return;
+
+    const key = 'ad_result_counter_v1';
+    const raw = window.localStorage.getItem(key);
+    const current = Number.parseInt(raw || '0', 10);
+    const next = Number.isFinite(current) ? current + 1 : 1;
+    window.localStorage.setItem(key, String(next));
+
+    if (next % every !== 0) return;
+
+    modal.classList.remove('hidden');
+    document.documentElement.classList.add('overflow-hidden');
+}
+
+document.addEventListener('click', (e) => {
+    const target = e.target instanceof Element ? e.target : null;
+    if (!target) return;
+
+    if (target.closest('[data-ad-close="true"]')) {
+        e.preventDefault();
+        const modal = document.querySelector('[data-ad-interstitial-modal="true"]');
+        if (modal) modal.classList.add('hidden');
+        document.documentElement.classList.remove('overflow-hidden');
+        return;
+    }
+});
+
+document.addEventListener('DOMContentLoaded', initInterstitialAd);
+
+// Clubs realtime (WebSockets via pusher-js, no Laravel Echo)
+async function initClubsRealtime() {
+    const root = document.querySelector('[data-club-realtime]');
+    if (!root) return;
+
+    const enabled = root.getAttribute('data-club-realtime') === '1';
+    if (!enabled) return;
+
+    const clubId = Number.parseInt(root.getAttribute('data-club-id') || '0', 10);
+    if (!Number.isFinite(clubId) || clubId <= 0) return;
+
+    const csrf = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+
+    // Lazy import to avoid loading on non-club pages
+    const mod = await import('pusher-js');
+    const Pusher = mod.default;
+
+    const key = import.meta.env.VITE_REVERB_APP_KEY;
+    const wsHost = import.meta.env.VITE_REVERB_HOST || window.location.hostname;
+    const wsPort = Number.parseInt(import.meta.env.VITE_REVERB_PORT || '80', 10);
+    const scheme = import.meta.env.VITE_REVERB_SCHEME || 'http';
+
+    if (!key) return;
+
+    const pusher = new Pusher(key, {
+        wsHost,
+        wsPort: scheme === 'https' ? undefined : wsPort,
+        wssPort: scheme === 'https' ? wsPort : undefined,
+        forceTLS: scheme === 'https',
+        enabledTransports: ['ws', 'wss'],
+        disableStats: true,
+        authEndpoint: '/broadcasting/auth',
+        auth: {
+            headers: {
+                'X-CSRF-TOKEN': csrf,
+            },
+        },
+    });
+
+    const channel = pusher.subscribe(`private-club.${clubId}`);
+
+    // If session starts/ends, simplest and safest is to reload.
+    channel.bind('club.session_started', () => window.location.reload());
+    channel.bind('club.session_ended', () => window.location.reload());
+
+    channel.bind('club.master_changed', (payload) => {
+        const nameEl = document.querySelector('[data-current-master-name="true"]');
+        if (nameEl) {
+            nameEl.textContent = payload?.currentMasterName || 'Master';
+            if (payload?.currentMasterUserId) {
+                nameEl.setAttribute('data-current-master-user-id', String(payload.currentMasterUserId));
+            }
+        }
+
+        const badges = document.querySelectorAll('[data-master-badge-for-user-id]');
+        badges.forEach((b) => b.classList.add('hidden'));
+        if (payload?.currentMasterUserId) {
+            const active = document.querySelector(`[data-master-badge-for-user-id="${payload.currentMasterUserId}"]`);
+            if (active) active.classList.remove('hidden');
+        }
+    });
+
+    channel.bind('club.point_added', (payload) => {
+        const userId = Number.parseInt(payload?.userId || '0', 10);
+        const points = Number.parseInt(payload?.points || '0', 10);
+        if (!Number.isFinite(userId) || userId <= 0) return;
+        if (!Number.isFinite(points) || points < 0) return;
+
+        const el = document.querySelector(`[data-points-for-user-id="${userId}"]`);
+        if (el) el.textContent = String(points);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    initClubsRealtime().catch(() => {});
+});
+

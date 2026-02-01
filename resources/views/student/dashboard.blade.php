@@ -13,11 +13,22 @@
                class="bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
                 Join contest
             </a>
-            <button type="button"
-                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white/80"
-                    disabled>
-                Daily challenge (soon)
-            </button>
+            <a href="{{ route('student.practice') }}"
+               class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                Practice
+            </a>
+            @if(($daily ?? null)?->quiz)
+                <a href="{{ route('student.daily') }}"
+                   class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                    Daily challenge
+                </a>
+            @else
+                <button type="button"
+                        class="bg-white/10 px-4 py-2 text-sm font-semibold text-white/80"
+                        disabled>
+                    Daily challenge (soon)
+                </button>
+            @endif
         </div>
     </div>
 
