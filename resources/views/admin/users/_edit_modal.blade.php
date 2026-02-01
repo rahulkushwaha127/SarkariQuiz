@@ -18,14 +18,115 @@
         @csrf
         @method('PATCH')
 
+        <div class="grid gap-4 sm:grid-cols-2">
+            <div class="sm:col-span-2">
+                <label class="block text-sm font-medium text-slate-700">Name</label>
+                <input name="name" value="{{ old('name', $user->name) }}" required
+                       class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+            </div>
+
+            <div class="sm:col-span-2">
+                <label class="block text-sm font-medium text-slate-700">Email</label>
+                <input name="email" type="email" value="{{ old('email', $user->email) }}" required
+                       class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+            </div>
+
+            <div>
+                <label class="block text-sm font-medium text-slate-700">Username</label>
+                <input name="username" value="{{ old('username', $user->username) }}"
+                       class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none"
+                       placeholder="optional">
+            </div>
+
+            <div>
+                <label class="block text-sm font-medium text-slate-700">New password</label>
+                <input name="password" type="password"
+                       class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none"
+                       placeholder="leave blank to keep current">
+                <div class="mt-1 text-xs text-slate-500">Minimum 8 characters.</div>
+            </div>
+        </div>
+
         <div>
             <label class="block text-sm font-medium text-slate-700">Role</label>
             <select name="role" class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none" required>
-                @foreach ($roles as $role)
-                    <option value="{{ $role }}" @selected($currentRole === $role)>{{ ucfirst($role) }}</option>
+                @foreach ($roles as $roleValue => $roleLabel)
+                    <option value="{{ $roleValue }}" @selected($currentRole === $roleValue)>{{ $roleLabel }}</option>
                 @endforeach
             </select>
-            <div class="mt-1 text-xs text-slate-500">Switch between student/creator/admin.</div>
+            <div class="mt-1 text-xs text-slate-500">Switch between Student / Creator / Admin / Guest.</div>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white p-4">
+            <div class="flex items-center justify-between gap-3">
+                <div>
+                    <div class="text-sm font-semibold text-slate-900">Guest user</div>
+                    <div class="text-sm text-slate-600">Marks this user as a guest (limited).</div>
+                </div>
+                <label class="inline-flex items-center gap-2">
+                    <input type="hidden" name="is_guest" value="0">
+                    <input type="checkbox" name="is_guest" value="1"
+                           class="h-4 w-4 rounded border-slate-300 text-slate-900 focus:ring-slate-900"
+                           @checked((bool) $user->is_guest)>
+                    <span class="text-sm font-medium text-slate-700">Guest</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white p-4">
+            <div class="text-sm font-semibold text-slate-900">Profile</div>
+
+            <div class="mt-3 grid gap-4 sm:grid-cols-2">
+                <div class="sm:col-span-2">
+                    <label class="block text-sm font-medium text-slate-700">Bio</label>
+                    <textarea name="bio" rows="3"
+                              class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none"
+                              placeholder="optional">{{ old('bio', $user->bio) }}</textarea>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Coaching center</label>
+                    <input name="coaching_center_name" value="{{ old('coaching_center_name', $user->coaching_center_name) }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">City</label>
+                    <input name="coaching_city" value="{{ old('coaching_city', $user->coaching_city) }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Contact</label>
+                    <input name="coaching_contact" value="{{ old('coaching_contact', $user->coaching_contact) }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Website</label>
+                    <input name="coaching_website" value="{{ old('coaching_website', $user->coaching_website) }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+
+                @php $links = (array) ($user->social_links ?? []); @endphp
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Social: Website</label>
+                    <input name="social_links[website]" value="{{ old('social_links.website', $links['website'] ?? '') }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Social: YouTube</label>
+                    <input name="social_links[youtube]" value="{{ old('social_links.youtube', $links['youtube'] ?? '') }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Social: Instagram</label>
+                    <input name="social_links[instagram]" value="{{ old('social_links.instagram', $links['instagram'] ?? '') }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Social: Telegram</label>
+                    <input name="social_links[telegram]" value="{{ old('social_links.telegram', $links['telegram'] ?? '') }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+            </div>
         </div>
 
         <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
@@ -51,10 +152,34 @@
             </div>
         </div>
 
-        <div class="flex items-center justify-end gap-2">
-            <button type="submit" class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
-                Save
-            </button>
+        <div class="rounded-2xl border border-slate-200 bg-white p-4">
+            <div class="text-sm font-semibold text-slate-900">Advanced</div>
+            <div class="mt-3 grid gap-4 sm:grid-cols-2">
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Google ID</label>
+                    <input name="google_id" value="{{ old('google_id', $user->google_id) }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Google avatar URL</label>
+                    <input name="google_avatar_url" value="{{ old('google_avatar_url', $user->google_avatar_url) }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+                <div class="sm:col-span-2">
+                    <label class="block text-sm font-medium text-slate-700">Avatar path</label>
+                    <input name="avatar_path" value="{{ old('avatar_path', $user->avatar_path) }}"
+                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                </div>
+            </div>
+        </div>
+
+        {{-- Sticky action bar so Save is always reachable --}}
+        <div class="sticky bottom-0 -mx-5 -mb-4 mt-4 border-t border-slate-200 bg-white px-5 py-4">
+            <div class="flex items-center justify-end gap-2">
+                <button type="submit" class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                    Save
+                </button>
+            </div>
         </div>
     </form>
 </div>

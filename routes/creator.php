@@ -7,6 +7,7 @@ use App\Http\Controllers\Creator\ContestController;
 use App\Http\Controllers\Creator\ContestWhitelistController;
 use App\Http\Controllers\Creator\DashboardController;
 use App\Http\Controllers\Creator\InAppNotificationsController;
+use App\Http\Controllers\Creator\LeaderboardsController;
 use App\Http\Controllers\Creator\OutboundNotificationsController;
 use App\Http\Controllers\Creator\QuestionController;
 use App\Http\Controllers\Creator\QuizController;
@@ -18,6 +19,7 @@ Route::middleware(['auth', 'role:creator|super_admin'])
     ->group(function () {
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
         Route::get('analytics', [AnalyticsController::class, 'index'])->name('analytics');
+        Route::get('leaderboards', [LeaderboardsController::class, 'index'])->name('leaderboards.index');
 
         // In-app notifications
         Route::get('notifications', [InAppNotificationsController::class, 'index'])->name('notifications.index');
