@@ -53,7 +53,17 @@
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
                {{ request()->routeIs('admin.notifications.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
                 <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.notifications.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
-                Notifications
+                Announcements
+            </a>
+
+            <a href="{{ route('admin.inbox.index') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('admin.inbox.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.inbox.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Inbox
+                @if(($inAppUnreadCount ?? 0) > 0)
+                    <span class="ml-auto inline-flex min-w-6 justify-center rounded-full bg-rose-600 px-2 py-0.5 text-xs font-bold text-white">{{ (int) $inAppUnreadCount }}</span>
+                @endif
             </a>
 
             <a href="{{ route('admin.daily.index') }}"

@@ -13,7 +13,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-            <a href="{{ route('admin.notifications.index') }}"
+            <a href="{{ route('admin.inbox.index') }}"
                class="relative inline-flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
                aria-label="Notifications">
                 <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" xmlns="http://www.w3.org/2000/svg">

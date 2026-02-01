@@ -1,6 +1,13 @@
 <aside class="w-full lg:w-64 lg:shrink-0">
     <div class="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm">
         <nav class="space-y-1">
+            <a href="{{ route('creator.dashboard') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('creator.dashboard') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('creator.dashboard') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Dashboard
+            </a>
+
             <a href="{{ route('creator.quizzes.index') }}"
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
                {{ request()->routeIs('creator.quizzes.index') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">

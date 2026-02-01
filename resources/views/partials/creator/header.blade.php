@@ -1,7 +1,7 @@
 <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur">
     <div class="flex h-16 w-full items-center justify-between px-4 sm:px-6 lg:px-8">
         <div class="flex items-center gap-3">
-            <a href="{{ route('creator.quizzes.index') }}" class="flex items-center gap-2">
+            <a href="{{ route('creator.dashboard') }}" class="flex items-center gap-2">
                 <div class="grid h-9 w-9 place-items-center rounded-xl bg-indigo-600 text-white font-semibold">
                     Q
                 </div>

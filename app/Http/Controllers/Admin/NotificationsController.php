@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\FcmToken;
 use App\Models\InAppNotification;
+use App\Models\User;
 use App\Services\Notifications\FcmSender;
 use Illuminate\Http\Request;
 
@@ -25,19 +26,21 @@ class NotificationsController extends Controller
             'url' => ['nullable', 'string', 'max:500'],
         ]);
 
-        $tokenRows = FcmToken::query()
-            ->whereNull('revoked_at')
-            ->get(['user_id', 'token']);
+        // Recipients: all real users (exclude guest accounts)
+        $recipientIds = User::query()
+            ->where('is_guest', false)
+            ->whereHas('roles', fn ($q) => $q->whereIn('name', ['student', 'creator', 'admin', 'super_admin']))
+            ->pluck('id')
+            ->map(fn ($v) => (int) $v)
+            ->values()
+            ->all();
 
-        $tokens = $tokenRows->pluck('token')->unique()->values()->all();
-        $userIds = $tokenRows->pluck('user_id')->unique()->values()->all();
-
-        // Create in-app notifications for all recipients (even if push fails).
-        $rows = [];
+        // Create in-app notifications for all recipients (even if push fails / user disabled push).
         $now = now();
-        foreach ($userIds as $uid) {
+        $rows = [];
+        foreach ($recipientIds as $uid) {
             $rows[] = [
-                'user_id' => (int) $uid,
+                'user_id' => $uid,
                 'type' => 'admin_announcement',
                 'title' => $data['title'],
                 'body' => $data['body'],
@@ -51,6 +54,15 @@ class NotificationsController extends Controller
         foreach (array_chunk($rows, 500) as $chunk) {
             InAppNotification::query()->insert($chunk);
         }
+
+        // Push: only to users who enabled it (have active tokens).
+        $tokens = FcmToken::query()
+            ->whereNull('revoked_at')
+            ->whereIn('user_id', $recipientIds)
+            ->pluck('token')
+            ->unique()
+            ->values()
+            ->all();
 
         $payload = [
             'priority' => 'high',

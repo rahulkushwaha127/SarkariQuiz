@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\InAppNotificationsController as AdminInAppNotificationsController;
 use App\Http\Controllers\Admin\NotificationsController;
 use App\Http\Controllers\Admin\DailyChallengeController;
 use App\Http\Controllers\Admin\AdsController;
@@ -26,6 +27,12 @@ Route::middleware(['auth', 'role:admin|super_admin'])
         Route::patch('/quizzes/{quiz}/approve', [QuizModerationController::class, 'approve'])->name('quizzes.approve');
         Route::patch('/quizzes/{quiz}/reject', [QuizModerationController::class, 'reject'])->name('quizzes.reject');
         Route::patch('/quizzes/{quiz}/featured', [QuizModerationController::class, 'toggleFeatured'])->name('quizzes.featured');
+
+        // In-app inbox (for admin user)
+        Route::get('/inbox', [AdminInAppNotificationsController::class, 'index'])->name('inbox.index');
+        Route::patch('/inbox/read-all', [AdminInAppNotificationsController::class, 'markAllRead'])->name('inbox.read_all');
+        Route::patch('/inbox/{notification}/read', [AdminInAppNotificationsController::class, 'markRead'])->name('inbox.read');
+
         Route::get('/notifications', [NotificationsController::class, 'index'])->name('notifications.index');
         Route::post('/notifications', [NotificationsController::class, 'send'])->name('notifications.send');
         Route::get('/daily-challenge', [DailyChallengeController::class, 'index'])->name('daily.index');
