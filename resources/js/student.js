@@ -55,6 +55,52 @@ document.addEventListener('click', (e) => {
     const target = e.target instanceof Element ? e.target : null;
     if (!target) return;
 
+    // Copy-to-clipboard
+    const copyBtn = target.closest('[data-copy-text]');
+    if (copyBtn) {
+        e.preventDefault();
+        const text = copyBtn.getAttribute('data-copy-text') || '';
+        if (!text) return;
+
+        const done = () => {
+            const old = copyBtn.textContent || 'Copy';
+            copyBtn.textContent = 'Copied';
+            window.setTimeout(() => {
+                copyBtn.textContent = old;
+            }, 1200);
+        };
+
+        const fail = () => {
+            const old = copyBtn.textContent || 'Copy';
+            copyBtn.textContent = 'Failed';
+            window.setTimeout(() => {
+                copyBtn.textContent = old;
+            }, 1200);
+        };
+
+        if (navigator.clipboard?.writeText) {
+            navigator.clipboard.writeText(text).then(done).catch(fail);
+            return;
+        }
+
+        try {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.setAttribute('readonly', 'true');
+            ta.style.position = 'fixed';
+            ta.style.left = '-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            const ok = document.execCommand('copy');
+            document.body.removeChild(ta);
+            if (ok) done();
+            else fail();
+        } catch {
+            fail();
+        }
+        return;
+    }
+
     if (target.closest('[data-auth-modal-open="true"]')) {
         e.preventDefault();
         const opener = target.closest('[data-auth-modal-open="true"]');
@@ -193,6 +239,172 @@ document.addEventListener('click', (e) => {
 
 document.addEventListener('DOMContentLoaded', initInterstitialAd);
 
+// Club member search (admin-only) - AJAX, no refresh
+function debounce(fn, waitMs) {
+    let t = null;
+    return (...args) => {
+        if (t) window.clearTimeout(t);
+        t = window.setTimeout(() => fn(...args), waitMs);
+    };
+}
+
+function escapeHtml(text) {
+    return String(text)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+}
+
+function initClubMemberSearch() {
+    const root = document.querySelector('[data-club-member-search="true"]');
+    if (!root) return;
+
+    const input = root.querySelector('[data-club-member-search-input="true"]');
+    const clearBtn = root.querySelector('[data-club-member-search-clear="true"]');
+    const status = root.querySelector('[data-club-member-search-status="true"]');
+    const results = root.querySelector('[data-club-member-search-results="true"]');
+    if (!(input instanceof HTMLInputElement) || !(results instanceof HTMLElement)) return;
+
+    const searchEndpoint = root.getAttribute('data-search-endpoint') || '';
+    const addEndpoint = root.getAttribute('data-add-endpoint') || '';
+    const csrf = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+
+    let lastController = null;
+
+    const setStatus = (msg) => {
+        if (status) status.textContent = msg || '';
+    };
+
+    const setResultsHtml = (html) => {
+        results.innerHTML = html;
+        const has = html.trim().length > 0;
+        results.classList.toggle('hidden', !has);
+    };
+
+    const renderItems = (items) => {
+        if (!Array.isArray(items) || items.length === 0) {
+            setResultsHtml(`<div class="px-4 py-3 text-sm text-slate-300">No users found.</div>`);
+            return;
+        }
+
+        const rows = items
+            .map((u) => {
+                const name = escapeHtml(u?.name || '—');
+                const email = escapeHtml(u?.email || '');
+                const username = u?.username ? escapeHtml(u.username) : '';
+                const blocked = u?.blocked ? `<div class="mt-1 text-xs font-semibold text-red-200">Blocked</div>` : '';
+                const uId = Number.parseInt(String(u?.id || '0'), 10);
+
+                return `
+<div class="flex items-center justify-between gap-3 border-b border-white/10 px-4 py-3 last:border-b-0" data-member-row-id="${uId}">
+  <div class="min-w-0">
+    <div class="text-sm font-semibold text-white truncate">${name} <span class="ml-2 text-xs text-slate-400">#${uId}</span></div>
+    <div class="mt-1 text-xs text-slate-300 truncate">${email}</div>
+    ${username ? `<div class="mt-0.5 text-xs text-slate-400 truncate">@${username}</div>` : ''}
+    ${blocked}
+  </div>
+  <button type="button"
+          class="bg-emerald-500/80 px-3 py-2 text-xs font-semibold text-white hover:bg-emerald-500"
+          data-add-user-id="${uId}">
+    Add
+  </button>
+</div>`;
+            })
+            .join('');
+
+        setResultsHtml(rows);
+    };
+
+    const doSearch = async () => {
+        const q = input.value.trim();
+        if (q.length < 2) {
+            setStatus('Type at least 2 characters to search.');
+            setResultsHtml('');
+            return;
+        }
+
+        if (!searchEndpoint) return;
+
+        setStatus('Searching…');
+
+        if (lastController) lastController.abort();
+        lastController = new AbortController();
+
+        try {
+            const u = new URL(searchEndpoint, window.location.origin);
+            u.searchParams.set('q', q);
+
+            const res = await fetch(u.toString(), {
+                headers: { Accept: 'application/json' },
+                signal: lastController.signal,
+            });
+            if (!res.ok) throw new Error('bad_status');
+            const data = await res.json();
+            renderItems(data?.items || []);
+            setStatus('');
+        } catch (e) {
+            if (e?.name === 'AbortError') return;
+            setStatus('Search failed. Try again.');
+        }
+    };
+
+    const debounced = debounce(doSearch, 250);
+    input.addEventListener('input', debounced);
+
+    if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+            input.value = '';
+            setStatus('');
+            setResultsHtml('');
+            input.focus();
+        });
+    }
+
+    // AJAX add member
+    results.addEventListener('click', async (e) => {
+        const target = e.target instanceof Element ? e.target : null;
+        if (!target) return;
+        const btn = target.closest('[data-add-user-id]');
+        if (!btn) return;
+
+        const userId = btn.getAttribute('data-add-user-id') || '';
+        const idNum = Number.parseInt(userId, 10);
+        if (!Number.isFinite(idNum) || idNum <= 0) return;
+        if (!addEndpoint) return;
+
+        btn.setAttribute('disabled', 'true');
+        btn.textContent = 'Adding…';
+
+        try {
+            const form = new FormData();
+            form.set('user_id', String(idNum));
+
+            const res = await fetch(addEndpoint, {
+                method: 'POST',
+                headers: {
+                    'X-CSRF-TOKEN': csrf,
+                    Accept: 'application/json',
+                },
+                body: form,
+            });
+
+            if (!res.ok) throw new Error('bad_status');
+
+            const row = results.querySelector(`[data-member-row-id="${idNum}"]`);
+            if (row) row.remove();
+            setStatus('Member added.');
+        } catch {
+            btn.removeAttribute('disabled');
+            btn.textContent = 'Add';
+            setStatus('Failed to add member.');
+        }
+    });
+
+    setStatus('Type at least 2 characters to search.');
+}
+
 // Clubs realtime (WebSockets via pusher-js, no Laravel Echo)
 async function initClubsRealtime() {
     const root = document.querySelector('[data-club-realtime]');
@@ -268,6 +480,7 @@ async function initClubsRealtime() {
 
 document.addEventListener('DOMContentLoaded', () => {
     initClubsRealtime().catch(() => {});
+    initClubMemberSearch();
 });
 
 // Push notifications (FCM)

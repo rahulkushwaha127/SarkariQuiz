@@ -29,14 +29,53 @@
                 <div class="mt-4 border-t border-white/10 pt-4">
                     <div class="text-xs font-semibold uppercase tracking-wider text-slate-300">Invite link</div>
                     @php
-                        $inviteUrl = url('/student/clubs/join/' . $club->invite_token);
+                        $inviteUrl = route('clubs.join', $club->invite_token);
                     @endphp
-                    <div class="mt-2 border border-white/10 bg-slate-950/30 px-3 py-2 text-xs text-slate-200 break-all">
-                        {{ $inviteUrl }}
+                    <div class="mt-2 flex items-stretch gap-2">
+                        <div class="flex-1 border border-white/10 bg-slate-950/30 px-3 py-2 text-xs text-slate-200 break-all">
+                            {{ $inviteUrl }}
+                        </div>
+                        <button type="button"
+                                class="shrink-0 bg-white/10 px-4 py-2 text-xs font-semibold text-white hover:bg-white/15"
+                                data-copy-text="{{ $inviteUrl }}">
+                            Copy
+                        </button>
                     </div>
                 </div>
             @endif
         </div>
+
+        @if($myMember->role === 'admin')
+            <div class="border border-white/10 bg-white/5 p-4">
+                <div class="text-sm font-semibold text-white">Add member</div>
+                <div class="mt-1 text-xs text-slate-400">Search by name, email, username, or user id.</div>
+
+                <div class="mt-3"
+                     data-club-member-search="true"
+                     data-search-endpoint="{{ route('clubs.members.search', $club) }}"
+                     data-add-endpoint="{{ route('clubs.members.add', $club) }}">
+                    <div class="flex gap-2">
+                        <input
+                            type="text"
+                            inputmode="search"
+                            autocomplete="off"
+                            class="w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                            placeholder="Type to search…"
+                            data-club-member-search-input="true"
+                        >
+                        <button type="button"
+                                class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15"
+                                data-club-member-search-clear="true">
+                            Clear
+                        </button>
+                    </div>
+
+                    <div class="mt-2 text-xs text-slate-400" data-club-member-search-status="true"></div>
+
+                    <div class="mt-3 border border-white/10 bg-slate-950/30 hidden" data-club-member-search-results="true"></div>
+                </div>
+            </div>
+        @endif
 
         <div class="border border-white/10 bg-white/5 p-4">
             <div class="flex items-center justify-between gap-3">

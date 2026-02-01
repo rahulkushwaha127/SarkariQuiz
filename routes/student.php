@@ -37,6 +37,8 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     Route::get('/clubs/join/{token}', [ClubsController::class, 'joinByToken'])->name('clubs.join');
     Route::post('/clubs/{club}/request-join', [ClubsController::class, 'requestJoin'])->name('clubs.request_join');
     Route::get('/clubs/{club}', [ClubsController::class, 'show'])->name('clubs.show');
+    Route::get('/clubs/{club}/members/search', [ClubsController::class, 'searchMembers'])->name('clubs.members.search');
+    Route::post('/clubs/{club}/members/add', [ClubsController::class, 'addMember'])->name('clubs.members.add');
     Route::patch('/clubs/{club}/requests/{joinRequest}/approve', [ClubsController::class, 'approveRequest'])->name('clubs.requests.approve');
     Route::patch('/clubs/{club}/requests/{joinRequest}/reject', [ClubsController::class, 'rejectRequest'])->name('clubs.requests.reject');
     Route::post('/clubs/{club}/sessions/start', [ClubsController::class, 'startSession'])->name('clubs.sessions.start');

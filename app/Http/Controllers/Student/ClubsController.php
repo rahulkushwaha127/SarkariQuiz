@@ -13,12 +13,56 @@ use App\Models\ClubMember;
 use App\Models\ClubSession;
 use App\Models\ClubSessionScore;
 use App\Models\ClubSessionTurn;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class ClubsController extends Controller
 {
+    public function searchMembers(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $this->requireAdmin($club);
+
+        $q = $request->string('q')->toString();
+        $q = trim($q);
+
+        if ($q === '') {
+            return response()->json(['items' => []]);
+        }
+
+        $alreadyIds = ClubMember::query()
+            ->where('club_id', $club->id)
+            ->pluck('user_id')
+            ->all();
+
+        $items = User::query()
+            ->whereHas('roles', fn ($r) => $r->whereIn('name', ['student', 'guest']))
+            ->whereNotIn('id', $alreadyIds)
+            ->where(function ($sub) use ($q) {
+                if (is_numeric($q)) {
+                    $sub->orWhere('id', (int) $q);
+                }
+
+                $sub->orWhere('name', 'like', "%{$q}%")
+                    ->orWhere('email', 'like', "%{$q}%")
+                    ->orWhere('username', 'like', "%{$q}%");
+            })
+            ->orderByDesc('id')
+            ->limit(10)
+            ->get(['id', 'name', 'email', 'username', 'blocked_at'])
+            ->map(fn ($u) => [
+                'id' => (int) $u->id,
+                'name' => (string) $u->name,
+                'email' => (string) $u->email,
+                'username' => (string) ($u->username ?? ''),
+                'blocked' => (bool) $u->blocked_at,
+            ])
+            ->values();
+
+        return response()->json(['items' => $items]);
+    }
     public function index()
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);
@@ -166,7 +210,94 @@ class ClubsController extends Controller
 
         $canControl = $myMember->role === 'admin' || ($activeSession && (int)$activeSession->current_master_user_id === (int)Auth::id());
 
-        return view('student.clubs.show', compact('club', 'myMember', 'members', 'pendingRequests', 'activeSession', 'scores', 'canControl'));
+        $userQ = $request->string('user_q')->toString();
+        $searchResults = collect();
+        if ($myMember->role === 'admin' && $userQ !== '') {
+            $alreadyIds = ClubMember::query()
+                ->where('club_id', $club->id)
+                ->pluck('user_id')
+                ->all();
+
+            $searchResults = User::query()
+                ->whereHas('roles', fn ($q) => $q->whereIn('name', ['student', 'guest']))
+                ->whereNotIn('id', $alreadyIds)
+                ->where(function ($q) use ($userQ) {
+                    if (is_numeric($userQ)) {
+                        $q->orWhere('id', (int) $userQ);
+                    }
+
+                    $q->orWhere('name', 'like', "%{$userQ}%")
+                        ->orWhere('email', 'like', "%{$userQ}%")
+                        ->orWhere('username', 'like', "%{$userQ}%");
+                })
+                ->limit(10)
+                ->get(['id', 'name', 'email', 'username', 'blocked_at']);
+        }
+
+        return view('student.clubs.show', compact(
+            'club',
+            'myMember',
+            'members',
+            'pendingRequests',
+            'activeSession',
+            'scores',
+            'canControl',
+            'userQ',
+            'searchResults'
+        ));
+    }
+
+    public function addMember(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $this->requireAdmin($club);
+
+        $data = $request->validate([
+            'user_id' => ['required', 'integer', 'exists:users,id'],
+        ]);
+
+        $user = User::query()->findOrFail($data['user_id']);
+
+        // Only students/guests should be in clubs.
+        abort_unless($user->hasAnyRole(['student', 'guest']), 422);
+
+        $alreadyMember = ClubMember::query()
+            ->where('club_id', $club->id)
+            ->where('user_id', $user->id)
+            ->exists();
+        if ($alreadyMember) {
+            return back()->with('status', 'User already in club.');
+        }
+
+        DB::transaction(function () use ($club, $user) {
+            $maxPos = (int) ClubMember::query()->where('club_id', $club->id)->max('position');
+            $pos = max(1, $maxPos + 1);
+
+            ClubMember::query()->create([
+                'club_id' => $club->id,
+                'user_id' => $user->id,
+                'role' => 'member',
+                'joined_at' => now(),
+                'position' => $pos,
+            ]);
+
+            // If there was a pending request, mark it approved.
+            ClubJoinRequest::query()
+                ->where('club_id', $club->id)
+                ->where('user_id', $user->id)
+                ->where('status', 'pending')
+                ->update([
+                    'status' => 'approved',
+                    'decided_at' => now(),
+                    'decided_by_user_id' => Auth::id(),
+                ]);
+        });
+
+        if ($request->expectsJson()) {
+            return response()->json(['ok' => true]);
+        }
+
+        return back()->with('status', 'Member added.');
     }
 
     public function approveRequest(Request $request, Club $club, ClubJoinRequest $joinRequest)
