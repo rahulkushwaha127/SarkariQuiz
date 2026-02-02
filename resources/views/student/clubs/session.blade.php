@@ -8,6 +8,8 @@
 @endphp
 
 <div class="space-y-4"
+     data-club-realtime="1"
+     data-club-id="{{ (int) $club->id }}"
      data-club-session-lobby="true"
      data-lobby-endpoint="{{ route('clubs.session.lobby', $club) }}"
      data-join-endpoint="{{ route('clubs.session.join', $club) }}"
@@ -56,7 +58,12 @@
     </div>
 
     @if($isAdmin)
-        <form method="POST" action="{{ route('clubs.session.start', $club) }}" class="flex items-center justify-end">
+        <form method="POST"
+              action="{{ route('clubs.session.start', $club) }}"
+              class="flex items-center justify-end"
+              data-club-ajax-form="true"
+              data-club-ajax-success="redirect"
+              data-club-redirect-url="{{ route('clubs.show', $club) }}">
             @csrf
             <button type="submit"
                     class="bg-indigo-500 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-400"

@@ -516,6 +516,9 @@ function initClubSessionLobby() {
         }
     };
 
+    // Expose for websocket-driven refresh.
+    window.__clubLobbyReload = load;
+
     const post = async (url, bodyObj) => {
         const form = new FormData();
         Object.entries(bodyObj || {}).forEach(([k, v]) => form.set(k, String(v)));
@@ -582,6 +585,74 @@ function initClubSessionLobby() {
     load();
 }
 
+function initClubRoomState() {
+    const root = document.querySelector('[data-club-room="true"]');
+    if (!root) return;
+
+    const stateEndpoint = root.getAttribute('data-club-state-endpoint') || '';
+    if (!stateEndpoint) return;
+
+    const csrf = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+
+    const pendingList = root.querySelector('[data-pending-requests-list="true"]');
+
+    const escapeHtml = (t) => String(t || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+
+    const renderPending = (items) => {
+        if (!pendingList) return;
+        if (!Array.isArray(items) || items.length === 0) {
+            pendingList.innerHTML = `<div class="px-4 py-4 text-sm text-slate-300">No pending requests.</div>`;
+            return;
+        }
+
+        pendingList.innerHTML = items.map((r) => {
+            const name = escapeHtml(r?.name || '—');
+            const email = escapeHtml(r?.email || '');
+            const approveUrl = escapeHtml(r?.approve_url || '');
+            const rejectUrl = escapeHtml(r?.reject_url || '');
+            return `
+<div class="border-b border-white/10 px-4 py-3 last:border-b-0">
+  <div class="flex items-center justify-between gap-3">
+    <div class="min-w-0">
+      <div class="text-sm font-semibold text-white truncate">${name}</div>
+      <div class="mt-1 text-xs text-slate-400">${email}</div>
+    </div>
+    <div class="flex items-center gap-2">
+      <form method="POST" action="${approveUrl}" data-club-ajax-form="true">
+        <input type="hidden" name="_token" value="${escapeHtml(csrf)}">
+        <input type="hidden" name="_method" value="PATCH">
+        <button class="bg-indigo-500 px-3 py-2 text-xs font-semibold text-white hover:bg-indigo-400">Approve</button>
+      </form>
+      <form method="POST" action="${rejectUrl}" data-club-ajax-form="true">
+        <input type="hidden" name="_token" value="${escapeHtml(csrf)}">
+        <input type="hidden" name="_method" value="PATCH">
+        <button class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">Reject</button>
+      </form>
+    </div>
+  </div>
+</div>`;
+        }).join('');
+    };
+
+    const refresh = async () => {
+        try {
+            const res = await fetch(stateEndpoint, { headers: { Accept: 'application/json' } });
+            if (!res.ok) throw new Error('bad_status');
+            const data = await res.json();
+            renderPending(data?.pending_requests || []);
+        } catch {
+            // ignore
+        }
+    };
+
+    window.__clubRoomRefresh = refresh;
+}
+
 function initClubAddPointAjax() {
     // Intercept +1 forms so page doesn't refresh
     document.addEventListener('submit', async (e) => {
@@ -619,6 +690,52 @@ function initClubAddPointAjax() {
             }
         } catch {
             // ignore (existing realtime may still update)
+        } finally {
+            if (btn) btn.removeAttribute('disabled');
+        }
+    });
+}
+
+function initClubAjaxForms() {
+    document.addEventListener('submit', async (e) => {
+        const form = e.target instanceof HTMLFormElement ? e.target : null;
+        if (!form) return;
+        if (!form.matches('[data-club-ajax-form="true"]')) return;
+
+        e.preventDefault();
+
+        const msg = form.getAttribute('data-club-ajax-confirm');
+        if (msg && !window.confirm(msg)) return;
+
+        const action = form.getAttribute('action') || '';
+        if (!action) return;
+
+        const csrf = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+        const btn = form.querySelector('button');
+        if (btn) btn.setAttribute('disabled', 'true');
+
+        try {
+            const body = new FormData(form);
+            const res = await fetch(action, {
+                method: 'POST',
+                headers: { 'X-CSRF-TOKEN': csrf, Accept: 'application/json' },
+                body,
+            });
+            if (!res.ok) throw new Error('bad_status');
+            const data = await res.json().catch(() => ({}));
+
+            const success = form.getAttribute('data-club-ajax-success') || '';
+            if (success === 'redirect') {
+                const url = form.getAttribute('data-club-redirect-url') || data?.redirect || '';
+                if (url) window.location.href = url;
+                return;
+            }
+
+            if (typeof window.__clubRoomRefresh === 'function') {
+                window.__clubRoomRefresh();
+            }
+        } catch {
+            // ignore
         } finally {
             if (btn) btn.removeAttribute('disabled');
         }
@@ -666,9 +783,15 @@ async function initClubsRealtime() {
 
     const channel = pusher.subscribe(`private-club.${clubId}`);
 
-    // If session starts/ends, simplest and safest is to reload.
-    channel.bind('club.session_started', () => window.location.reload());
-    channel.bind('club.session_ended', () => window.location.reload());
+    // Refresh state without full page reload.
+    const refreshAll = () => {
+        if (typeof window.__clubLobbyReload === 'function') window.__clubLobbyReload();
+        if (typeof window.__clubRoomRefresh === 'function') window.__clubRoomRefresh();
+    };
+
+    channel.bind('club.session_started', refreshAll);
+    channel.bind('club.session_ended', refreshAll);
+    channel.bind('club.state_changed', refreshAll);
 
     channel.bind('club.master_changed', (payload) => {
         const nameEl = document.querySelector('[data-current-master-name="true"]');
@@ -704,6 +827,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initClubSessionSetup();
     initClubSessionLobby();
     initClubAddPointAjax();
+    initClubAjaxForms();
+    initClubRoomState();
 });
 
 // Push notifications (FCM)

@@ -37,6 +37,7 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     Route::get('/clubs/join/{token}', [ClubsController::class, 'joinByToken'])->name('clubs.join');
     Route::post('/clubs/{club}/request-join', [ClubsController::class, 'requestJoin'])->name('clubs.request_join');
     Route::get('/clubs/{club}', [ClubsController::class, 'show'])->name('clubs.show');
+    Route::get('/clubs/{club}/state', [ClubsController::class, 'state'])->name('clubs.state');
     Route::get('/clubs/{club}/session', [ClubsController::class, 'sessionSetup'])->name('clubs.session');
     Route::get('/clubs/{club}/session/lobby', [ClubsController::class, 'sessionLobby'])->name('clubs.session.lobby');
     Route::post('/clubs/{club}/session/join', [ClubsController::class, 'sessionJoin'])->name('clubs.session.join');

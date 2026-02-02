@@ -10,7 +10,9 @@
 
     <div class="space-y-4"
          data-club-realtime="{{ $realtimeEnabled ? '1' : '0' }}"
-         data-club-id="{{ (int) $club->id }}">
+         data-club-id="{{ (int) $club->id }}"
+         data-club-room="true"
+         data-club-state-endpoint="{{ route('clubs.state', $club) }}">
         <div class="border border-white/10 bg-white/5 p-4">
             <div class="flex items-start justify-between gap-3">
                 <div>
@@ -106,15 +108,19 @@
                 @else
                     @if($myMember->role === 'admin')
                         <div class="flex flex-wrap gap-2">
-                            <form method="POST" action="{{ route('clubs.sessions.next_master', [$club, $activeSession]) }}">
+                            <form method="POST"
+                                  action="{{ route('clubs.sessions.next_master', [$club, $activeSession]) }}"
+                                  data-club-ajax-form="true">
                                 @csrf
                                 @method('PATCH')
                                 <button class="bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15">
                                     Next master
                                 </button>
                             </form>
-                            <form method="POST" action="{{ route('clubs.sessions.end', [$club, $activeSession]) }}"
-                                  onsubmit="return confirm('End session?')">
+                            <form method="POST"
+                                  action="{{ route('clubs.sessions.end', [$club, $activeSession]) }}"
+                                  data-club-ajax-form="true"
+                                  data-club-ajax-confirm="End session?">
                                 @csrf
                                 @method('PATCH')
                                 <button class="bg-red-500/80 px-4 py-3 text-sm font-semibold text-white hover:bg-red-500">
@@ -211,6 +217,7 @@
         @if($myMember->role === 'admin')
             <div class="border border-white/10 bg-white/5">
                 <div class="border-b border-white/10 px-4 py-3 text-sm font-semibold text-white">Pending join requests</div>
+                <div data-pending-requests-list="true">
                 @if(($pendingRequests ?? collect())->isEmpty())
                     <div class="px-4 py-4 text-sm text-slate-300">No pending requests.</div>
                 @else
@@ -222,14 +229,18 @@
                                     <div class="mt-1 text-xs text-slate-400">{{ $r->user?->email ?? '' }}</div>
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    <form method="POST" action="{{ route('clubs.requests.approve', [$club, $r]) }}">
+                                    <form method="POST"
+                                          action="{{ route('clubs.requests.approve', [$club, $r]) }}"
+                                          data-club-ajax-form="true">
                                         @csrf
                                         @method('PATCH')
                                         <button class="bg-indigo-500 px-3 py-2 text-xs font-semibold text-white hover:bg-indigo-400">
                                             Approve
                                         </button>
                                     </form>
-                                    <form method="POST" action="{{ route('clubs.requests.reject', [$club, $r]) }}">
+                                    <form method="POST"
+                                          action="{{ route('clubs.requests.reject', [$club, $r]) }}"
+                                          data-club-ajax-form="true">
                                         @csrf
                                         @method('PATCH')
                                         <button class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
@@ -241,6 +252,7 @@
                         </div>
                     @endforeach
                 @endif
+                </div>
             </div>
         @endif
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Student;
 use App\Http\Controllers\Controller;
 use App\Events\Clubs\ClubMasterChanged;
 use App\Events\Clubs\ClubPointAdded;
+use App\Events\Clubs\ClubStateChanged;
 use App\Events\Clubs\ClubSessionEnded;
 use App\Events\Clubs\ClubSessionStarted;
 use App\Models\Club;
@@ -21,6 +22,106 @@ use Illuminate\Support\Facades\DB;
 
 class ClubsController extends Controller
 {
+    public function state(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $myMember = $this->requireMember($club);
+
+        $activeSession = ClubSession::query()
+            ->where('club_id', $club->id)
+            ->where('status', 'active')
+            ->with(['currentMaster'])
+            ->latest('id')
+            ->first();
+
+        $sessionId = $activeSession ? (int) $activeSession->id : 0;
+        $canControl = $myMember->role === 'admin'
+            || ($activeSession && (int) $activeSession->current_master_user_id === (int) Auth::id());
+
+        $scoreboard = [];
+        if ($activeSession) {
+            $turns = ClubSessionTurn::query()
+                ->where('session_id', $activeSession->id)
+                ->orderBy('position')
+                ->get(['user_id', 'position']);
+
+            $userIds = $turns->pluck('user_id')->map(fn ($id) => (int) $id)->values()->all();
+
+            $membersByUser = ClubMember::query()
+                ->where('club_id', $club->id)
+                ->whereIn('user_id', $userIds)
+                ->with('user')
+                ->get()
+                ->keyBy('user_id');
+
+            $scoresByUser = ClubSessionScore::query()
+                ->where('session_id', $activeSession->id)
+                ->get(['user_id', 'points'])
+                ->keyBy('user_id');
+
+            foreach ($turns as $t) {
+                $uid = (int) $t->user_id;
+                $m = $membersByUser->get($uid);
+                if (!$m) continue;
+                $pts = (int) (($scoresByUser->get($uid)?->points) ?? 0);
+
+                $scoreboard[] = [
+                    'user_id' => $uid,
+                    'name' => (string) ($m->user?->name ?? '—'),
+                    'email' => (string) ($m->user?->email ?? ''),
+                    'role' => (string) ($m->role ?? 'member'),
+                    'points' => $pts,
+                    'is_master' => (int) ($activeSession->current_master_user_id) === $uid,
+                ];
+            }
+        }
+
+        $pending = [];
+        if ($myMember->role === 'admin') {
+            $pending = ClubJoinRequest::query()
+                ->where('club_id', $club->id)
+                ->where('status', 'pending')
+                ->with('user')
+                ->orderBy('requested_at')
+                ->get()
+                ->map(function ($r) use ($club) {
+                    return [
+                        'id' => (int) $r->id,
+                        'user_id' => (int) $r->user_id,
+                        'name' => (string) ($r->user?->name ?? '—'),
+                        'email' => (string) ($r->user?->email ?? ''),
+                        'approve_url' => route('clubs.requests.approve', [$club, $r]),
+                        'reject_url' => route('clubs.requests.reject', [$club, $r]),
+                    ];
+                })
+                ->values()
+                ->all();
+        }
+
+        return response()->json([
+            'ok' => true,
+            'club_id' => (int) $club->id,
+            'my_role' => (string) $myMember->role,
+            'can_control' => (bool) $canControl,
+            'active' => (bool) $activeSession,
+            'session' => $activeSession ? [
+                'id' => $sessionId,
+                'started_at' => (string) ($activeSession->started_at?->toIso8601String() ?? ''),
+                'current_master_user_id' => (int) $activeSession->current_master_user_id,
+                'current_master_name' => (string) ($activeSession->currentMaster?->name ?? 'Master'),
+                'current_master_position' => (int) $activeSession->current_master_position,
+            ] : null,
+            'urls' => [
+                'lobby' => route('clubs.session', $club),
+                'next_master' => $activeSession ? route('clubs.sessions.next_master', [$club, $activeSession]) : null,
+                'end_session' => $activeSession ? route('clubs.sessions.end', [$club, $activeSession]) : null,
+                'add_point' => $activeSession ? route('clubs.sessions.points', [$club, $activeSession]) : null,
+            ],
+            'scoreboard' => $scoreboard,
+            'pending_requests' => $pending,
+        ]);
+    }
+
     public function searchMembers(Request $request, Club $club)
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);
@@ -90,6 +191,10 @@ class ClubsController extends Controller
                 ['club_id' => $club->id, 'user_id' => Auth::id()],
                 ['joined_at' => now()]
             );
+
+            DB::afterCommit(function () use ($club) {
+                broadcast(new ClubStateChanged(clubId: (int) $club->id));
+            });
         }
 
         return view('student.clubs.session', compact('club', 'myMember'));
@@ -159,6 +264,10 @@ class ClubsController extends Controller
             ['joined_at' => now()]
         );
 
+        DB::afterCommit(function () use ($club) {
+            broadcast(new ClubStateChanged(clubId: (int) $club->id));
+        });
+
         return response()->json(['ok' => true]);
     }
 
@@ -174,6 +283,10 @@ class ClubsController extends Controller
             ->where('club_id', $club->id)
             ->where('user_id', Auth::id())
             ->delete();
+
+        DB::afterCommit(function () use ($club) {
+            broadcast(new ClubStateChanged(clubId: (int) $club->id));
+        });
 
         return response()->json(['ok' => true]);
     }
@@ -194,6 +307,10 @@ class ClubsController extends Controller
             ->where('club_id', $club->id)
             ->where('user_id', (int) $data['user_id'])
             ->delete();
+
+        DB::afterCommit(function () use ($club) {
+            broadcast(new ClubStateChanged(clubId: (int) $club->id));
+        });
 
         return response()->json(['ok' => true]);
     }
@@ -278,7 +395,17 @@ class ClubsController extends Controller
                     currentMasterUserId: (int) $session->current_master_user_id,
                     currentMasterName: (string) ($session->currentMaster?->name ?? 'Master'),
                 ));
+
+                broadcast(new ClubStateChanged(clubId: (int) $club->id));
             });
+        }
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'ok' => true,
+                'sessionId' => (int) ($session?->id ?? 0),
+                'redirect' => route('clubs.show', $club),
+            ]);
         }
 
         return redirect()->route('clubs.show', $club)->with('status', 'Session started.');
@@ -514,6 +641,10 @@ class ClubsController extends Controller
                 ]);
         });
 
+        DB::afterCommit(function () use ($club) {
+            broadcast(new ClubStateChanged(clubId: (int) $club->id));
+        });
+
         if ($request->expectsJson()) {
             return response()->json(['ok' => true]);
         }
@@ -552,6 +683,14 @@ class ClubsController extends Controller
             ]);
         });
 
+        DB::afterCommit(function () use ($club) {
+            broadcast(new ClubStateChanged(clubId: (int) $club->id));
+        });
+
+        if ($request->expectsJson()) {
+            return response()->json(['ok' => true]);
+        }
+
         return back()->with('status', 'Member approved.');
     }
 
@@ -571,6 +710,14 @@ class ClubsController extends Controller
             'decided_at' => now(),
             'decided_by_user_id' => Auth::id(),
         ]);
+
+        DB::afterCommit(function () use ($club) {
+            broadcast(new ClubStateChanged(clubId: (int) $club->id));
+        });
+
+        if ($request->expectsJson()) {
+            return response()->json(['ok' => true]);
+        }
 
         return back()->with('status', 'Request rejected.');
     }
@@ -693,7 +840,18 @@ class ClubsController extends Controller
                 currentMasterName: (string) ($session->currentMaster?->name ?? 'Master'),
                 currentMasterPosition: (int) $session->current_master_position,
             ));
+
+            broadcast(new ClubStateChanged(clubId: (int) $club->id));
         });
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'ok' => true,
+                'currentMasterUserId' => (int) $session->current_master_user_id,
+                'currentMasterName' => (string) ($session->currentMaster?->name ?? 'Master'),
+                'currentMasterPosition' => (int) $session->current_master_position,
+            ]);
+        }
 
         return back()->with('status', 'Next master selected.');
     }
@@ -776,7 +934,13 @@ class ClubsController extends Controller
                 clubId: (int) $club->id,
                 sessionId: (int) $session->id,
             ));
+
+            broadcast(new ClubStateChanged(clubId: (int) $club->id));
         });
+
+        if ($request->expectsJson()) {
+            return response()->json(['ok' => true]);
+        }
 
         return back()->with('status', 'Session ended.');
     }
