@@ -133,6 +133,35 @@ function openCommonModal({ title, size, url }) {
             if (!bodyEl) return;
             bodyEl.innerHTML = html || '';
 
+            // Question form: cascade subject -> topics (scripts in innerHTML don't run)
+            const subjectSel = bodyEl.querySelector('#question_subject_id');
+            const topicSel = bodyEl.querySelector('#question_topic_id');
+            if (subjectSel && topicSel) {
+                const url = subjectSel.getAttribute('data-topics-url');
+                if (url) {
+                    subjectSel.addEventListener('change', function () {
+                        const subjectId = this.value;
+                        topicSel.innerHTML = '<option value="">— None —</option>';
+                        topicSel.value = '';
+                        if (!subjectId) return;
+                        const fullUrl = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'subject_id=' + encodeURIComponent(subjectId);
+                        fetch(fullUrl, {
+                            headers: { 'X-Requested-With': 'XMLHttpRequest', Accept: 'application/json' },
+                            credentials: 'same-origin',
+                        })
+                            .then((r) => r.json())
+                            .then((topics) => {
+                                topics.forEach((t) => {
+                                    const opt = document.createElement('option');
+                                    opt.value = t.id;
+                                    opt.textContent = t.name;
+                                    topicSel.appendChild(opt);
+                                });
+                            });
+                    });
+                }
+            }
+
             // Optional init hooks (like your snippet).
             safeCallGlobal('dataTable');
             safeCallGlobal('select2');
@@ -202,9 +231,38 @@ document.addEventListener('keydown', (e) => {
     closeDeleteModal();
 });
 
+// Questions index: cascade subject -> topic in filter form
+function wireQuestionFilterCascade() {
+    const subjectSel = document.getElementById('filter_subject_id');
+    const topicSel = document.getElementById('filter_topic_id');
+    const url = subjectSel?.getAttribute('data-topics-url');
+    if (!subjectSel || !topicSel || !url) return;
+    subjectSel.addEventListener('change', function () {
+        const subjectId = this.value;
+        topicSel.innerHTML = '<option value="">All</option>';
+        topicSel.value = '';
+        if (!subjectId) return;
+        const fullUrl = url + (url.indexOf('?') >= 0 ? '&' : '?') + 'subject_id=' + encodeURIComponent(subjectId);
+        fetch(fullUrl, {
+            headers: { 'X-Requested-With': 'XMLHttpRequest', Accept: 'application/json' },
+            credentials: 'same-origin',
+        })
+            .then((r) => r.json())
+            .then((topics) => {
+                topics.forEach((t) => {
+                    const opt = document.createElement('option');
+                    opt.value = t.id;
+                    opt.textContent = t.name;
+                    topicSel.appendChild(opt);
+                });
+            });
+    });
+}
+
 // Push notifications (FCM) - reuse same click wiring
 import { wirePushEnableButtons } from './fcm_client.js';
 document.addEventListener('DOMContentLoaded', () => {
     wirePushEnableButtons();
+    wireQuestionFilterCascade();
 });
 

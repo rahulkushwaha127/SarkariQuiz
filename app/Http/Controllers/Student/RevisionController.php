@@ -28,7 +28,7 @@ class RevisionController extends Controller
 
         $bookmarks = QuestionBookmark::query()
             ->where('user_id', $userId)
-            ->with(['question.quiz'])
+            ->with(['question.quizzes'])
             ->latest()
             ->limit(50)
             ->get();
@@ -36,7 +36,7 @@ class RevisionController extends Controller
         $mistakeQuestionIds = $this->mistakeQuestionIds($userId, 200);
         $mistakes = Question::query()
             ->whereIn('id', $mistakeQuestionIds)
-            ->with('quiz')
+            ->with('quizzes')
             ->limit(50)
             ->get();
 

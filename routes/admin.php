@@ -9,6 +9,7 @@ use App\Http\Controllers\Admin\AdsController;
 use App\Http\Controllers\Admin\ClubsController;
 use App\Http\Controllers\Admin\ContestsController;
 use App\Http\Controllers\Admin\SettingsController;
+use App\Http\Controllers\Admin\QuestionsController;
 use App\Http\Controllers\Admin\QuizModerationController;
 use App\Http\Controllers\Admin\PyqQuestionsController;
 use App\Http\Controllers\Admin\Taxonomy\ExamsController;
@@ -28,6 +29,8 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::patch('/users/{user}', [UsersController::class, 'update'])->name('users.update');
         Route::get('/quizzes', [QuizModerationController::class, 'index'])->name('quizzes.index');
         Route::patch('/quizzes/{quiz}/approve', [QuizModerationController::class, 'approve'])->name('quizzes.approve');
+        Route::get('questions/topics-by-subject', [QuestionsController::class, 'topicsBySubject'])->name('questions.topics_by_subject');
+        Route::resource('questions', QuestionsController::class)->names('questions');
         Route::patch('/quizzes/{quiz}/reject', [QuizModerationController::class, 'reject'])->name('quizzes.reject');
         Route::patch('/quizzes/{quiz}/featured', [QuizModerationController::class, 'toggleFeatured'])->name('quizzes.featured');
 

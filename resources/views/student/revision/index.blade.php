@@ -58,7 +58,7 @@
                     @foreach($bookmarks as $b)
                         @php
                             $q = $b->question;
-                            $quiz = $q?->quiz;
+                            $quiz = $q?->quizzes?->first();
                         @endphp
                         <div class="border-b border-white/10 px-4 py-3 last:border-b-0">
                             <div class="text-xs text-slate-400">
@@ -104,7 +104,7 @@
                         @endphp
                         <div class="border-b border-white/10 px-4 py-3 last:border-b-0">
                             <div class="text-xs text-slate-400">
-                                {{ $q->quiz?->title ?? 'Practice' }}
+                                {{ $q->quizzes->first()?->title ?? 'Practice' }}
                             </div>
                             <div class="mt-1 text-sm font-semibold text-white">
                                 {{ \Illuminate\Support\Str::limit((string) $q->prompt, 120) }}
@@ -119,8 +119,8 @@
                                     </button>
                                 </form>
 
-                                @if($q->quiz)
-                                    <a href="{{ route('play.quiz', $q->quiz) }}"
+                                @if($q->quizzes->first())
+                                    <a href="{{ route('play.quiz', $q->quizzes->first()) }}"
                                        class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
                                         Play quiz
                                     </a>

@@ -74,7 +74,7 @@ class DemoQuizzesSeeder extends Seeder
 
             // Ensure demo quiz has questions so play doesn't 422.
             if ($quiz->title === 'Daily GK (Demo)') {
-                $existingCount = (int) Question::query()->where('quiz_id', $quiz->id)->count();
+                $existingCount = (int) $quiz->questions()->count();
                 if ($existingCount <= 0) {
                     $demo = [
                         [
@@ -111,18 +111,20 @@ class DemoQuizzesSeeder extends Seeder
 
                     foreach ($demo as $i => $q) {
                         $question = Question::query()->create([
-                            'quiz_id' => $quiz->id,
                             'prompt' => $q['prompt'],
                             'explanation' => $q['explanation'] ?? null,
-                            'position' => $i + 1,
+                            'subject_id' => $gk?->id,
+                            'topic_id' => $ca?->id,
+                            'language' => 'en',
                         ]);
+                        $quiz->questions()->attach($question->id, ['position' => $i]);
 
                         foreach ($q['answers'] as $pos => $title) {
                             Answer::query()->create([
                                 'question_id' => $question->id,
                                 'title' => $title,
                                 'is_correct' => $pos === (int) $q['correct'],
-                                'position' => $pos + 1,
+                                'position' => $pos,
                             ]);
                         }
                     }

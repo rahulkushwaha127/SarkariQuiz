@@ -124,6 +124,7 @@ class QuizPlayController extends Controller
             return redirect()->route('play.result', $attempt);
         }
 
+        $attempt->load('quiz');
         $total = (int) ($attempt->total_questions ?: $attempt->quiz->questions()->count());
         if ($number < 1) {
             $number = 1;
@@ -132,11 +133,8 @@ class QuizPlayController extends Controller
             return redirect()->route('play.question', [$attempt, $total]);
         }
 
-        $question = Question::query()
-            ->where('quiz_id', $attempt->quiz_id)
-            ->orderBy('position')
-            ->skip($number - 1)
-            ->firstOrFail();
+        $question = $attempt->quiz->questions()->orderByPivot('position')->skip($number - 1)->first();
+        abort_unless($question !== null, 404);
         $question->load('answers');
 
         $existing = QuizAttemptAnswer::query()
@@ -173,12 +171,10 @@ class QuizPlayController extends Controller
             return redirect()->route('play.result', $attempt);
         }
 
+        $attempt->load('quiz');
         $total = (int) ($attempt->total_questions ?: $attempt->quiz->questions()->count());
-        $question = Question::query()
-            ->where('quiz_id', $attempt->quiz_id)
-            ->orderBy('position')
-            ->skip(max(0, $number - 1))
-            ->firstOrFail();
+        $question = $attempt->quiz->questions()->orderByPivot('position')->skip(max(0, $number - 1))->first();
+        abort_unless($question !== null, 404);
 
         $data = $request->validate([
             'answer_id' => ['nullable', 'integer'],
@@ -237,10 +233,10 @@ class QuizPlayController extends Controller
             ->get()
             ->keyBy('question_id');
 
-        $questions = Question::query()
-            ->where('quiz_id', $attempt->quiz_id)
+        $attempt->load('quiz');
+        $questions = $attempt->quiz->questions()
             ->with(['answers' => fn ($q) => $q->orderBy('position')])
-            ->orderBy('position')
+            ->orderByPivot('position')
             ->get();
 
         $questionIds = $questions->pluck('id')->all();
@@ -278,7 +274,8 @@ class QuizPlayController extends Controller
             return;
         }
 
-        $total = (int) ($attempt->total_questions ?: Question::query()->where('quiz_id', $attempt->quiz_id)->count());
+        $attempt->load('quiz');
+        $total = (int) ($attempt->total_questions ?: $attempt->quiz->questions()->count());
 
         $rows = QuizAttemptAnswer::query()
             ->where('attempt_id', $attempt->id)

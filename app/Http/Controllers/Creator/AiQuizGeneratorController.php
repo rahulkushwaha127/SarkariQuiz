@@ -70,18 +70,19 @@ class AiQuizGeneratorController extends Controller
         QuizJsonParser::validateSingleCorrect($questions, $num);
 
         if ($replace) {
-            $quiz->questions()->delete();
+            $ids = $quiz->questions()->pluck('questions.id')->all();
+            $quiz->questions()->detach();
+            Question::whereIn('id', $ids)->whereDoesntHave('quizzes')->delete();
         }
 
-        $position = (int) ($quiz->questions()->max('position') ?? 0);
+        $position = (int) \Illuminate\Support\Facades\DB::table('quiz_question')->where('quiz_id', $quiz->id)->max('position');
         foreach ($questions as $q) {
             $position++;
             $question = Question::create([
-                'quiz_id' => $quiz->id,
                 'prompt' => (string) $q['question'],
                 'explanation' => $q['explanation'] ?? null,
-                'position' => $position,
             ]);
+            $quiz->questions()->attach($question->id, ['position' => $position]);
 
             $correct = (string) $q['correct_answer_key'];
             foreach (array_values($q['answers']) as $i => $a) {

@@ -13,12 +13,19 @@ return new class extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('quiz_id')->constrained()->cascadeOnDelete();
-
             $table->text('prompt');
             $table->text('explanation')->nullable();
+            $table->timestamps();
+        });
+
+        Schema::create('quiz_question', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('quiz_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('question_id')->constrained()->cascadeOnDelete();
             $table->unsignedInteger('position')->default(0);
             $table->timestamps();
+
+            $table->unique(['quiz_id', 'question_id']);
         });
     }
 
@@ -27,6 +34,7 @@ return new class extends Migration
      */
     public function down(): void
     {
+        Schema::dropIfExists('quiz_question');
         Schema::dropIfExists('questions');
     }
 };

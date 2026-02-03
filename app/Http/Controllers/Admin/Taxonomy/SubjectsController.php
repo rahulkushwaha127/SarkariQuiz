@@ -44,14 +44,14 @@ class SubjectsController extends Controller
     public function store(Request $request)
     {
         $data = $request->validate([
-            'exam_id' => ['required', 'integer', 'exists:exams,id'],
+            'exam_id' => ['nullable', 'integer', 'exists:exams,id'],
             'name' => ['required', 'string', 'max:120'],
             'is_active' => ['nullable', 'boolean'],
             'position' => ['nullable', 'integer', 'min:0'],
         ]);
 
         Subject::create([
-            'exam_id' => (int) $data['exam_id'],
+            'exam_id' => ! empty($data['exam_id']) ? (int) $data['exam_id'] : null,
             'name' => $data['name'],
             'slug' => Slug::make($data['name']),
             'is_active' => (bool) ($data['is_active'] ?? true),
@@ -64,14 +64,14 @@ class SubjectsController extends Controller
     public function update(Request $request, Subject $subject)
     {
         $data = $request->validate([
-            'exam_id' => ['required', 'integer', 'exists:exams,id'],
+            'exam_id' => ['nullable', 'integer', 'exists:exams,id'],
             'name' => ['required', 'string', 'max:120'],
             'is_active' => ['nullable', 'boolean'],
             'position' => ['nullable', 'integer', 'min:0'],
         ]);
 
         $subject->update([
-            'exam_id' => (int) $data['exam_id'],
+            'exam_id' => ! empty($data['exam_id']) ? (int) $data['exam_id'] : null,
             'name' => $data['name'],
             'slug' => Slug::make($data['name']),
             'is_active' => (bool) ($data['is_active'] ?? true),

@@ -92,15 +92,15 @@ class PracticeController extends Controller
         $count = (int) ($data['count'] ?? 10);
 
         // Pick random questions from published + public quizzes in this topic (optionally filtered by difficulty).
-        $questionIds = DB::table('questions as qs')
-            ->join('quizzes as q', 'q.id', '=', 'qs.quiz_id')
+        $questionIds = DB::table('quiz_question as qq')
+            ->join('quizzes as q', 'q.id', '=', 'qq.quiz_id')
             ->where('q.status', 'published')
             ->where('q.is_public', true)
             ->where('q.topic_id', $topic->id)
-            ->when($difficulty, fn ($qq) => $qq->where('q.difficulty', $difficulty))
+            ->when($difficulty, fn ($q) => $q->where('q.difficulty', $difficulty))
             ->inRandomOrder()
             ->limit($count)
-            ->pluck('qs.id')
+            ->pluck('qq.question_id')
             ->all();
 
         if (count($questionIds) === 0) {

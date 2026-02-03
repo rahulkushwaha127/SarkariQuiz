@@ -5,9 +5,9 @@
     @endif
 
     <div>
-        <label class="block text-sm font-medium text-slate-700">Exam</label>
-        <select name="exam_id" class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none" required>
-            <option value="">Select an exam</option>
+        <label class="block text-sm font-medium text-slate-700">Exam (optional)</label>
+        <select name="exam_id" class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+            <option value="">— None (free subject) —</option>
             @foreach ($exams as $exam)
                 <option value="{{ $exam->id }}" @selected((int) old('exam_id', $subject->exam_id) === (int) $exam->id)>{{ $exam->name }}</option>
             @endforeach

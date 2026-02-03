@@ -10,19 +10,28 @@ class Question extends Model
     use HasFactory;
 
     protected $fillable = [
-        'quiz_id',
         'prompt',
         'explanation',
-        'position',
+        'subject_id',
+        'topic_id',
+        'language',
     ];
 
-    protected $casts = [
-        'position' => 'integer',
-    ];
-
-    public function quiz()
+    public function subject()
     {
-        return $this->belongsTo(Quiz::class);
+        return $this->belongsTo(Subject::class);
+    }
+
+    public function topic()
+    {
+        return $this->belongsTo(Topic::class);
+    }
+
+    public function quizzes()
+    {
+        return $this->belongsToMany(Quiz::class, 'quiz_question')
+            ->withPivot('position')
+            ->withTimestamps();
     }
 
     public function answers()

@@ -76,7 +76,10 @@ class Quiz extends Model
 
     public function questions()
     {
-        return $this->hasMany(Question::class)->orderBy('position');
+        return $this->belongsToMany(Question::class, 'quiz_question')
+            ->withPivot('position')
+            ->withTimestamps()
+            ->orderByPivot('position');
     }
 
     public function contests()

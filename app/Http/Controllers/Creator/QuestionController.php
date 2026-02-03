@@ -9,6 +9,7 @@ use App\Models\Answer;
 use App\Models\Question;
 use App\Models\Quiz;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class QuestionController extends Controller
 {
@@ -25,14 +26,14 @@ class QuestionController extends Controller
     {
         abort_unless($quiz->user_id === Auth::id(), 403);
 
-        $position = (int) ($quiz->questions()->max('position') ?? 0) + 1;
+        $position = (int) DB::table('quiz_question')->where('quiz_id', $quiz->id)->max('position') + 1;
 
         $question = Question::create([
-            'quiz_id' => $quiz->id,
             'prompt' => $request->validated('prompt'),
             'explanation' => $request->validated('explanation'),
-            'position' => $position,
         ]);
+
+        $quiz->questions()->attach($question->id, ['position' => $position]);
 
         $answers = $request->validated('answers');
         $correctIndex = (int) $request->validated('correct_index');
@@ -54,7 +55,7 @@ class QuestionController extends Controller
     public function edit(Quiz $quiz, Question $question)
     {
         abort_unless($quiz->user_id === Auth::id(), 403);
-        abort_unless($question->quiz_id === $quiz->id, 404);
+        abort_unless($quiz->questions()->where('questions.id', $question->id)->exists(), 404);
 
         $question->load('answers');
 
@@ -64,7 +65,7 @@ class QuestionController extends Controller
     public function update(UpdateQuestionRequest $request, Quiz $quiz, Question $question)
     {
         abort_unless($quiz->user_id === Auth::id(), 403);
-        abort_unless($question->quiz_id === $quiz->id, 404);
+        abort_unless($quiz->questions()->where('questions.id', $question->id)->exists(), 404);
 
         $question->update([
             'prompt' => $request->validated('prompt'),
@@ -92,8 +93,9 @@ class QuestionController extends Controller
     public function destroy(Quiz $quiz, Question $question)
     {
         abort_unless($quiz->user_id === Auth::id(), 403);
-        abort_unless($question->quiz_id === $quiz->id, 404);
+        abort_unless($quiz->questions()->where('questions.id', $question->id)->exists(), 404);
 
+        $quiz->questions()->detach($question->id);
         $question->delete();
 
         return redirect()
