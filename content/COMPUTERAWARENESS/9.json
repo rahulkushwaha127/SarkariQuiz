@@ -1,0 +1,152 @@
+[
+    {
+        "prompt": "कंप्यूटर में जो सॉफ्टवेयर हार्डवेयर को नियंत्रित करता है, उसे क्या कहते हैं?",
+        "answers": ["Device Driver", "Application Software", "Operating System", "Utility Software"],
+        "correct": 0,
+        "explanation": "Device Driver हार्डवेयर (जैसे प्रिंटर, स्कैनर) को OS से कनेक्ट करता है।"
+    },
+    {
+        "prompt": "MS Excel में क्या Ctrl + Shift + $ करता है?",
+        "answers": ["Apply Currency Format with $ symbol", "Apply Date Format", "Apply Percentage", "Apply Bold"],
+        "correct": 0,
+        "explanation": "सेलेक्टेड सेल्स को डॉलर करेंसी फॉर्मेट में बदलता है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Pointing Device है?",
+        "answers": ["Joystick", "Keyboard", "Printer", "Speaker"],
+        "correct": 0,
+        "explanation": "Joystick माउस की तरह पॉइंटिंग और कंट्रोल के लिए उपयोग होता है।"
+    },
+    {
+        "prompt": "Cyber Security में Tailgating क्या है?",
+        "answers": ["अनऑथराइज्ड व्यक्ति के पीछे-पीछे सिक्योर एरिया में घुसना", "पासवर्ड शेयरिंग", "ईमेल अटैक", "वायरस ट्रांसमिशन"],
+        "correct": 0,
+        "explanation": "फिजिकल सिक्योरिटी ब्रेक करने का तरीका, जैसे दरवाजे से किसी के साथ घुसना।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया के तहत 'Mobile Connectivity' पिलर का लक्ष्य क्या है?",
+        "answers": ["सभी गांवों तक मोबाइल कवरेज", "केवल शहरों में 5G", "केवल इंटरनेट स्पीड", "केवल सैटेलाइट"],
+        "correct": 0,
+        "explanation": "देश के हर हिस्से में मोबाइल नेटवर्क पहुंचाना।"
+    },
+    {
+        "prompt": "MS Word में क्या Ctrl + Shift + H करता है?",
+        "answers": ["Highlight Text", "Hidden Text", "Heading Style", "Hyperlink"],
+        "correct": 0,
+        "explanation": "सेलेक्टेड टेक्स्ट को हाइलाइट (पीला बैकग्राउंड) करता है।"
+    },
+    {
+        "prompt": "कौन सा डिवाइस नेटवर्क में Broadcast Domain को अलग करता है?",
+        "answers": ["Router", "Switch", "Hub", "Repeater"],
+        "correct": 0,
+        "explanation": "Router ब्रॉडकास्ट डोमेन को अलग करता है, जबकि स्विच नहीं।"
+    },
+    {
+        "prompt": "कंप्यूटर में Tablet Computer मुख्य रूप से किसके लिए डिज़ाइन किया जाता है?",
+        "answers": ["पोर्टेबल टच-बेस्ड यूज", "हाई-परफॉर्मेंस गेमिंग", "सर्वर होस्टिंग", "सुपरकंप्यूटिंग"],
+        "correct": 0,
+        "explanation": "टैबलेट टचस्क्रीन, मोबाइल और लाइट यूज के लिए होते हैं।"
+    },
+    {
+        "prompt": "Cyber Security में Biometric Authentication का उदाहरण क्या है?",
+        "answers": ["Fingerprint या Iris Scan", "पासवर्ड", "OTP", "Security Question"],
+        "correct": 0,
+        "explanation": "बायोमेट्रिक्स शरीर की विशेषताओं (उंगलियों के निशान, आंख) पर आधारित होता है।"
+    },
+    {
+        "prompt": "NEFT का पूरा नाम क्या है?",
+        "answers": ["National Electronic Funds Transfer", "National Electronic Finance Transfer", "New Electronic Funds Transfer", "National Efficient Funds Transfer"],
+        "correct": 0,
+        "explanation": "NEFT बैच प्रोसेस में बैंक ट्रांसफर करता है।"
+    },
+    {
+        "prompt": "कंप्यूटर में जो मेमोरी पावर ऑफ होने पर भी डेटा रखती है, उसे क्या कहते हैं?",
+        "answers": ["Non-Volatile Memory", "Volatile Memory", "Cache Memory", "Virtual Memory"],
+        "correct": 0,
+        "explanation": "Non-Volatile जैसे ROM, Hard Disk, Flash में डेटा रहता है।"
+    },
+    {
+        "prompt": "MS PowerPoint में क्या Ctrl + Shift + S करता है?",
+        "answers": ["Save As", "Save", "New Slide", "Slide Show"],
+        "correct": 0,
+        "explanation": "Save As से फाइल को नए नाम या फॉर्मेट में सेव किया जाता है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Network Device नहीं है?",
+        "answers": ["CPU", "Router", "Switch", "Modem"],
+        "correct": 0,
+        "explanation": "CPU प्रोसेसिंग के लिए है, नेटवर्क डिवाइस नहीं।"
+    },
+    {
+        "prompt": "Whaling Attack क्या है?",
+        "answers": ["उच्च पदाधिकारियों (CEO आदि) को टारगेट करके फिशिंग", "सामान्य यूजर फिशिंग", "DDoS अटैक", "वायरस"],
+        "correct": 0,
+        "explanation": "Whaling बड़े अधिकारी लक्षित स्पीयर फिशिंग है।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया में 'e-Sign' सुविधा किसके लिए है?",
+        "answers": ["डिजिटल दस्तावेज़ पर ऑनलाइन साइन", "फिजिकल साइन", "पेमेंट साइन", "ईमेल साइन"],
+        "correct": 0,
+        "explanation": "Aadhaar आधारित डिजिटल सिग्नेचर, IT Act के तहत वैध।"
+    },
+    {
+        "prompt": "कंप्यूटर में जो पहला इलेक्ट्रॉनिक कंप्यूटर माना जाता है, वह क्या था?",
+        "answers": ["ENIAC", "UNIVAC", "IBM PC", "Apple I"],
+        "correct": 0,
+        "explanation": "ENIAC (1945) पहला प्रोग्रामेबल इलेक्ट्रॉनिक कंप्यूटर था।"
+    },
+    {
+        "prompt": "MS Excel में क्या Ctrl + Shift + ( करता है?",
+        "answers": ["Unhide Rows", "Hide Rows", "Group Rows", "Sort Data"],
+        "correct": 0,
+        "explanation": "हिडन रो को अनहाइड करता है।"
+    },
+    {
+        "prompt": "कौन सा प्रोटोकॉल सुरक्षित रिमोट एक्सेस के लिए उपयोग होता है?",
+        "answers": ["SSH", "Telnet", "FTP", "HTTP"],
+        "correct": 0,
+        "explanation": "Secure Shell (SSH) एन्क्रिप्टेड रिमोट लॉगिन देता है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Cloud Storage Service है?",
+        "answers": ["Google Drive", "MS Word", "Notepad", "Paint"],
+        "correct": 0,
+        "explanation": "Google Drive क्लाउड पर फाइल स्टोरेज और शेयरिंग के लिए है।"
+    },
+    {
+        "prompt": "Indian Cyber Crime Coordination Centre (I4C) किस मिनिस्ट्री के अंतर्गत है?",
+        "answers": ["Ministry of Home Affairs", "MeitY", "RBI", "NPCI"],
+        "correct": 0,
+        "explanation": "साइबर क्राइम रिपोर्टिंग और कोऑर्डिनेशन के लिए।"
+    },
+    {
+        "prompt": "कंप्यूटर में 1 Gigabyte में कितने Megabytes होते हैं?",
+        "answers": ["1024", "1000", "512", "2048"],
+        "correct": 0,
+        "explanation": "1 GB = 1024 MB।"
+    },
+    {
+        "prompt": "MS Word में क्या Ctrl + Shift + W करता है?",
+        "answers": ["Word Underline", "Wave Underline", "Double Underline", "No Underline"],
+        "correct": 0,
+        "explanation": "सेलेक्टेड टेक्स्ट पर Word Underline (दो लाइन) लगाता है।"
+    },
+    {
+        "prompt": "नेटवर्क में NAT का पूरा नाम क्या है?",
+        "answers": ["Network Address Translation", "Network Access Translation", "New Address Translation", "Net Address Transfer"],
+        "correct": 0,
+        "explanation": "प्राइवेट IP को पब्लिक IP में बदलकर इंटरनेट एक्सेस देता है।"
+    },
+    {
+        "prompt": "Business Email Compromise (BEC) क्या है?",
+        "answers": ["CEO या अधिकारी की नकल करके फ्रॉड ईमेल भेजना", "सामान्य स्पैम", "वायरस ईमेल", "फिशिंग लिंक"],
+        "correct": 0,
+        "explanation": "BEC में फेक ईमेल से बड़े फाइनेंशियल फ्रॉड होते हैं।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया में 'Internet of Things (IoT)' को किस क्षेत्र में बढ़ावा दिया जा रहा है?",
+        "answers": ["स्मार्ट सिटी और इंडस्ट्री", "केवल गेमिंग", "केवल एजुकेशन", "केवल बैंकिंग"],
+        "correct": 0,
+        "explanation": "स्मार्ट डिवाइसेस और कनेक्टेड सिस्टम्स के लिए।"
+    }
+]

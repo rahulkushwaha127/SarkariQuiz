@@ -1,0 +1,152 @@
+[
+    {
+        "prompt": "कंप्यूटर में माइक्रोप्रोसेसर किस पीढ़ी में आया?",
+        "answers": ["पहली", "दूसरी", "तीसरी", "चौथी"],
+        "correct": 3,
+        "explanation": "चौथी पीढ़ी (1971 से अब तक) में माइक्रोप्रोसेसर का उपयोग शुरू हुआ।"
+    },
+    {
+        "prompt": "MS Word में हेडर और फूटर कहाँ से एडिट किया जाता है?",
+        "answers": ["Insert > Header & Footer", "View > Header", "Home > Header", "Design > Header"],
+        "correct": 0,
+        "explanation": "Insert टैब से Header और Footer डाला और एडिट किया जाता है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक वायरलेस नेटवर्क स्टैंडर्ड है?",
+        "answers": ["Bluetooth", "802.11", "Ethernet", "Coaxial"],
+        "correct": 1,
+        "explanation": "IEEE 802.11 Wi-Fi का स्टैंडर्ड है।"
+    },
+    {
+        "prompt": "कौन सा मैलवेयर यूजर को धोखा देकर इंस्टॉल होता है लेकिन उपयोगी लगता है?",
+        "answers": ["ट्रोजन हॉर्स", "वर्म", "एडवेयर", "रैनसमवेयर"],
+        "correct": 0,
+        "explanation": "ट्रोजन हॉर्स उपयोगी सॉफ्टवेयर बनकर घुसता है।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया का मुख्य उद्देश्य क्या है?",
+        "answers": ["डिजिटल सशक्तिकरण और ई-गवर्नेंस", "केवल इंटरनेट स्पीड बढ़ाना", "केवल मोबाइल ऐप बनाना", "केवल बैंकिंग डिजिटलाइजेशन"],
+        "correct": 0,
+        "explanation": "डिजिटल सशक्त समाज और ज्ञान अर्थव्यवस्था बनाना।"
+    },
+    {
+        "prompt": "MS Excel में फॉर्मूला बार कहाँ दिखता है?",
+        "answers": ["रीबन के नीचे", "स्टेटस बार में", "साइडबार में", "टास्क पेन में"],
+        "correct": 0,
+        "explanation": "फॉर्मूला बार सेल का कंटेंट और फॉर्मूला दिखाता है।"
+    },
+    {
+        "prompt": "किस प्रोटोकॉल का उपयोग वेब ब्राउजर और सर्वर के बीच होता है?",
+        "answers": ["HTTP/HTTPS", "FTP", "SMTP", "SNMP"],
+        "correct": 0,
+        "explanation": "HyperText Transfer Protocol (या Secure) वेब पेज लोड करने के लिए।"
+    },
+    {
+        "prompt": "कौन सा ऑपरेटिंग सिस्टम ओपन-सोर्स है?",
+        "answers": ["Windows", "macOS", "Linux", "iOS"],
+        "correct": 2,
+        "explanation": "Linux पूरी तरह ओपन-सोर्स ऑपरेटिंग सिस्टम है।"
+    },
+    {
+        "prompt": "क्रॉस-साइट स्क्रिप्टिंग (XSS) अटैक किसमें होता है?",
+        "answers": ["वेब एप्लिकेशन", "ऑपरेटिंग सिस्टम", "हार्ड डिस्क", "प्रिंटर"],
+        "correct": 0,
+        "explanation": "वेबसाइट में जावास्क्रिप्ट इंजेक्ट करके यूजर डेटा चुराना।"
+    },
+    {
+        "prompt": "NPCI का पूरा नाम क्या है?",
+        "answers": ["National Payments Corporation of India", "National Payment Council of India", "New Payment Corporation of India", "National Processing Corporation of India"],
+        "correct": 0,
+        "explanation": "NPCI UPI, BHIM, RuPay आदि चलाता है।"
+    },
+    {
+        "prompt": "कंप्यूटर में मेमोरी यूनिट का सबसे छोटा क्रम क्या है?",
+        "answers": ["Bit → Nibble → Byte → KB → MB", "Byte → Bit → KB → MB", "KB → MB → GB → Bit", "MB → GB → TB → Bit"],
+        "correct": 0,
+        "explanation": "Bit सबसे छोटी, फिर Nibble (4 bits), Byte (8 bits) आदि।"
+    },
+    {
+        "prompt": "MS PowerPoint में एनिमेशन कहाँ से लगाया जाता है?",
+        "answers": ["Animations टैब", "Transitions टैब", "Design टैब", "Slide Show टैब"],
+        "correct": 0,
+        "explanation": "Animations टैब से ऑब्जेक्ट पर एनिमेशन इफेक्ट्स लगते हैं।"
+    },
+    {
+        "prompt": "कौन सा डिवाइस नेटवर्क में डेटा पैकेट्स को एक सेगमेंट से दूसरे में फॉरवर्ड करता है?",
+        "answers": ["Switch", "Hub", "Repeater", "Bridge"],
+        "correct": 0,
+        "explanation": "स्विच MAC एड्रेस के आधार पर डेटा फॉरवर्ड करता है।"
+    },
+    {
+        "prompt": "Zero-day attack क्या है?",
+        "answers": ["जिस vulnerability का पैच अभी जारी नहीं हुआ", "पासवर्ड जीरो वाला अटैक", "सिस्टम जीरो होने पर अटैक", "फ्री अटैक"],
+        "correct": 0,
+        "explanation": "Zero-day vulnerability का मतलब ज्ञात लेकिन पैच न होने वाला छेद।"
+    },
+    {
+        "prompt": "डिजिटल लॉकर में कितने MB तक फ्री स्टोरेज मिलता है?",
+        "answers": ["1 GB", "5 GB", "10 GB", "Unlimited"],
+        "correct": 0,
+        "explanation": "DigiLocker में 1 GB फ्री क्लाउड स्टोरेज मिलता है।"
+    },
+    {
+        "prompt": "कंप्यूटर में हाइपरथ्रेडिंग क्या है?",
+        "answers": ["एक कोर को दो लॉजिकल कोर की तरह इस्तेमाल करना", "दो CPU इस्तेमाल करना", "RAM बढ़ाना", "हार्ड डिस्क स्पीड बढ़ाना"],
+        "correct": 0,
+        "explanation": "Intel का टेक्नोलॉजी जो एक फिजिकल कोर को दो थ्रेड्स चलाने देता है।"
+    },
+    {
+        "prompt": "MS Excel में क्या Ctrl + ; करता है?",
+        "answers": ["Current date डालता है", "Current time डालता है", "सेल फॉर्मेट", "सेल कॉपी"],
+        "correct": 0,
+        "explanation": "Ctrl + ; आज की तारीख डाल देता है।"
+    },
+    {
+        "prompt": "कौन सा प्रोटोकॉल ईमेल प्राप्त करने के लिए सुरक्षित है?",
+        "answers": ["IMAPS", "POP3", "SMTP", "FTP"],
+        "correct": 0,
+        "explanation": "IMAPS (IMAP over SSL) सुरक्षित ईमेल रिसीव करता है।"
+    },
+    {
+        "prompt": "Botnet क्या है?",
+        "answers": ["संक्रमित कंप्यूटरों का नेटवर्क जो हैकर कंट्रोल करता है", "एंटीवायरस नेटवर्क", "फास्ट नेटवर्क", "लोकल नेटवर्क"],
+        "correct": 0,
+        "explanation": "ज़ombi कंप्यूटर्स का ग्रुप जो DDoS आदि के लिए इस्तेमाल होता है।"
+    },
+    {
+        "prompt": "Standup India योजना डिजिटल इंडिया से कैसे जुड़ी है?",
+        "answers": ["SC/ST और महिलाओं को लोन और डिजिटल सपोर्ट", "केवल इंटरनेट", "केवल बैंकिंग", "केवल एजुकेशन"],
+        "correct": 0,
+        "explanation": "उद्यमिता और डिजिटल इंक्लूजन को बढ़ावा।"
+    },
+    {
+        "prompt": "कंप्यूटर में Virtual Memory क्या है?",
+        "answers": ["हार्ड डिस्क को RAM की तरह इस्तेमाल करना", "RAM बढ़ाना", "CPU स्पीड बढ़ाना", "इंटरनेट मेमोरी"],
+        "correct": 0,
+        "explanation": "RAM कम होने पर हार्ड डिस्क का हिस्सा RAM की तरह काम करता है।"
+    },
+    {
+        "prompt": "MS Word में Track Changes किस लिए होता है?",
+        "answers": ["डॉक्यूमेंट में बदलाव ट्रैक करना", "फाइल ट्रैक करना", "प्रिंट ट्रैक", "कॉपी ट्रैक"],
+        "correct": 0,
+        "explanation": "रिव्यू और एडिटिंग के दौरान बदलाव दिखाने के लिए।"
+    },
+    {
+        "prompt": "कौन सा नेटवर्क टोपोलॉजी सबसे विश्वसनीय माना जाता है?",
+        "answers": ["Mesh Topology", "Bus Topology", "Star Topology", "Ring Topology"],
+        "correct": 0,
+        "explanation": "Mesh में हर डिवाइस से हर डिवाइस कनेक्टेड होता है।"
+    },
+    {
+        "prompt": "Man-in-the-Middle attack में क्या होता है?",
+        "answers": ["दो पार्टियों के बीच कम्युनिकेशन में घुसना", "सिस्टम क्रैश करना", "फाइल डिलीट करना", "पासवर्ड क्रैक करना"],
+        "correct": 0,
+        "explanation": "अटैकर दो पार्टियों के बीच बैठकर डेटा चुराता या बदलता है।"
+    },
+    {
+        "prompt": "PRAGATI प्लेटफॉर्म किससे संबंधित है?",
+        "answers": ["प्रोजेक्ट मॉनिटरिंग (Pro-Active Governance and Timely Implementation)", "पेमेंट", "एजुकेशन", "हेल्थ"],
+        "correct": 0,
+        "explanation": "PM द्वारा प्रोजेक्ट्स की रिव्यू के लिए डिजिटल प्लेटफॉर्म।"
+    }
+]

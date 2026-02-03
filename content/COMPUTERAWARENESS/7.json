@@ -1,0 +1,152 @@
+[
+    {
+        "prompt": "कंप्यूटर में Operating System का मुख्य कार्य क्या है?",
+        "answers": ["हार्डवेयर और सॉफ्टवेयर के बीच इंटरफेस प्रदान करना", "केवल गेम चलाना", "केवल इंटरनेट कनेक्ट करना", "केवल प्रिंटिंग"],
+        "correct": 0,
+        "explanation": "ऑपरेटिंग सिस्टम रिसोर्स मैनेजमेंट, प्रोसेस शेड्यूलिंग और यूजर इंटरफेस प्रदान करता है।"
+    },
+    {
+        "prompt": "MS Excel में F4 की दबाने से क्या होता है?",
+        "answers": ["सेल रेफरेंस Absolute/Relative में टॉगल होता है", "फॉर्मूला एडिट", "सेल डिलीट", "चार्ट इंसर्ट"],
+        "correct": 0,
+        "explanation": "F4 सेल रेफरेंस को $A$1, A$1, $A1, A1 में बदलता है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Output Device है?",
+        "answers": ["Plotter", "Keyboard", "Mouse", "Scanner"],
+        "correct": 0,
+        "explanation": "Plotter ग्राफिक्स और बड़े ड्रॉइंग्स प्रिंट करने के लिए आउटपुट डिवाइस है।"
+    },
+    {
+        "prompt": "Cyber Security में Dictionary Attack किस प्रकार का होता है?",
+        "answers": ["सामान्य शब्दों की डिक्शनरी से पासवर्ड ट्राई करना", "रैंडम पासवर्ड", "बायोमेट्रिक अटैक", "फिशिंग"],
+        "correct": 0,
+        "explanation": "Dictionary Attack आम पासवर्ड लिस्ट (जैसे password123) से ट्राई करता है।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया के तहत 'e-Kranti' का मुख्य उद्देश्य क्या है?",
+        "answers": ["ई-गवर्नेंस सेवाओं को बढ़ावा", "केवल इंटरनेट", "केवल पेमेंट", "केवल एजुकेशन"],
+        "correct": 0,
+        "explanation": "e-Kranti विभिन्न सरकारी सेवाओं को डिजिटल बनाने की योजना है।"
+    },
+    {
+        "prompt": "MS Word में क्या Ctrl + Shift + V करता है?",
+        "answers": ["Paste Special", "Paste", "Cut", "Copy"],
+        "correct": 0,
+        "explanation": "Paste Special से फॉर्मेटिंग चुनकर पेस्ट किया जा सकता है।"
+    },
+    {
+        "prompt": "कौन सा डिवाइस OSI मॉडल की Physical Layer पर काम करता है?",
+        "answers": ["Hub", "Switch", "Router", "Firewall"],
+        "correct": 0,
+        "explanation": "Hub बिट लेवल पर सिग्नल को सभी पोर्ट्स पर ब्रॉडकास्ट करता है।"
+    },
+    {
+        "prompt": "कंप्यूटर में Minicomputer का उपयोग मुख्य रूप से कहाँ होता है?",
+        "answers": ["मध्यम आकार के संगठनों में", "घरेलू उपयोग", "सुपरकंप्यूटिंग", "मोबाइल"],
+        "correct": 0,
+        "explanation": "Minicomputer मल्टी-यूजर, मध्यम स्केल के लिए होते थे (अब PCs ने रिप्लेस कर लिया)।"
+    },
+    {
+        "prompt": "Cyber Security में CAPTCHA का उपयोग किस लिए होता है?",
+        "answers": ["बॉट्स से बचाव", "पासवर्ड स्ट्रेंथ", "डेटा एनक्रिप्शन", "फाइल कम्प्रेस"],
+        "correct": 0,
+        "explanation": "CAPTCHA इंसान और बॉट में अंतर करता है।"
+    },
+    {
+        "prompt": "NPCI द्वारा संचालित RuPay कार्ड का मुख्य लाभ क्या है?",
+        "answers": ["कम ट्रांजेक्शन चार्ज और डोमेस्टिक फोकस", "इंटरनेशनल उपयोग", "क्रिप्टो सपोर्ट", "गोल्ड बैकअप"],
+        "correct": 0,
+        "explanation": "RuPay भारत में सस्ता और सुरक्षित पेमेंट विकल्प है।"
+    },
+    {
+        "prompt": "कंप्यूटर में जो प्रोग्राम बूट होने पर ऑटोमैटिक चलता है, उसे क्या कहते हैं?",
+        "answers": ["Boot Loader", "Virus", "Antivirus", "Browser"],
+        "correct": 0,
+        "explanation": "Boot Loader (जैसे GRUB या Windows Boot Manager) OS लोड करता है।"
+    },
+    {
+        "prompt": "MS PowerPoint में क्या Shift + F5 करता है?",
+        "answers": ["Current Slide से Slide Show शुरू", "Full Slide Show", "New Slide", "Save"],
+        "correct": 0,
+        "explanation": "Shift + F5 से वर्तमान स्लाइड से प्रेजेंटेशन शुरू होती है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Network Topology नहीं है?",
+        "answers": ["Linear", "Bus", "Star", "Ring"],
+        "correct": 0,
+        "explanation": "Linear कोई स्टैंडर्ड टोपोलॉजी नहीं है।"
+    },
+    {
+        "prompt": "Session Hijacking Attack में क्या होता है?",
+        "answers": ["यूजर की सेशन ID चुराकर कंट्रोल लेना", "पासवर्ड चुराना", "फाइल डिलीट", "सर्वर क्रैश"],
+        "correct": 0,
+        "explanation": "अटैकर एक्टिव सेशन को हाईजैक करता है।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया में 'Information for All' पिलर का मतलब क्या है?",
+        "answers": ["सभी नागरिकों को डिजिटल जानकारी उपलब्ध कराना", "केवल सरकारी जानकारी", "केवल न्यूज", "केवल एंटरटेनमेंट"],
+        "correct": 0,
+        "explanation": "डिजिटल माध्यम से जानकारी का प्रसार।"
+    },
+    {
+        "prompt": "कंप्यूटर में जो सबसे तेज मेमोरी होती है, वह क्या है?",
+        "answers": ["Registers", "Cache", "RAM", "ROM"],
+        "correct": 0,
+        "explanation": "Registers CPU के अंदर होती हैं और सबसे तेज एक्सेस देती हैं।"
+    },
+    {
+        "prompt": "MS Excel में क्या Ctrl + Shift + ! करता है?",
+        "answers": ["Number Format with Comma", "Percentage", "Date", "Time"],
+        "correct": 0,
+        "explanation": "Number फॉर्मेट में थाउजेंड सेपरेटर और 2 डेसिमल प्लेस।"
+    },
+    {
+        "prompt": "कौन सा प्रोटोकॉल DNS रिक्वेस्ट के लिए उपयोग होता है?",
+        "answers": ["UDP Port 53", "TCP Port 80", "UDP Port 25", "TCP Port 443"],
+        "correct": 0,
+        "explanation": "DNS मुख्य रूप से UDP 53 पर काम करता है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Open Source Browser है?",
+        "answers": ["Mozilla Firefox", "Microsoft Edge", "Google Chrome (Core Chromium)", "Safari"],
+        "correct": 0,
+        "explanation": "Firefox पूरी तरह ओपन सोर्स है।"
+    },
+    {
+        "prompt": "CERT-In का पूरा नाम क्या है?",
+        "answers": ["Indian Computer Emergency Response Team", "Cyber Emergency Response Team India", "Central Emergency Response Team", "Computer Emergency Response Team"],
+        "correct": 0,
+        "explanation": "भारत का साइबर इंसिडेंट रिस्पॉन्स टीम।"
+    },
+    {
+        "prompt": "कंप्यूटर में 1 Kilobyte में कितने Bytes होते हैं?",
+        "answers": ["1024", "1000", "512", "2048"],
+        "correct": 0,
+        "explanation": "1 KB = 1024 Bytes (Binary system में)।"
+    },
+    {
+        "prompt": "MS Word में क्या Ctrl + Shift + K करता है?",
+        "answers": ["Small Caps", "All Caps", "Underline", "Strikethrough"],
+        "correct": 0,
+        "explanation": "सेलेक्टेड टेक्स्ट को Small Caps में बदलता है।"
+    },
+    {
+        "prompt": "नेटवर्क में IP Address किस क्लास में 192.168.x.x आता है?",
+        "answers": ["Class C (Private)", "Class A", "Class B", "Class D"],
+        "correct": 0,
+        "explanation": "Private IP रेंज Class C में आती है।"
+    },
+    {
+        "prompt": "Watering Hole Attack क्या है?",
+        "answers": ["पॉपुलर वेबसाइट पर मैलवेयर डालकर विजिटर्स को संक्रमित करना", "ईमेल अटैक", "USB अटैक", "पासवर्ड क्रैक"],
+        "correct": 0,
+        "explanation": "टारगेट ग्रुप के द्वारा इस्तेमाल होने वाली साइट्स को टारगेट करना।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया में 'e-Health' से क्या जुड़ा है?",
+        "answers": ["टेलीमेडिसिन और हेल्थ रिकॉर्ड डिजिटलाइजेशन", "पेमेंट", "एजुकेशन", "ट्रांसपोर्ट"],
+        "correct": 0,
+        "explanation": "स्वास्थ्य सेवाओं को डिजिटल बनाना।"
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "prompt": "कंप्यूटर में कितने प्रकार के सॉफ्टवेयर मुख्य रूप से होते हैं?",
+        "answers": ["दो (सिस्टम और एप्लीकेशन)", "तीन", "चार", "एक"],
+        "correct": 0,
+        "explanation": "मुख्य रूप से सिस्टम सॉफ्टवेयर (OS) और एप्लीकेशन सॉफ्टवेयर।"
+    },
+    {
+        "prompt": "MS Excel में क्या Ctrl + Shift + # करता है?",
+        "answers": ["Date Format", "Time Format", "Number Format", "Currency Format"],
+        "correct": 0,
+        "explanation": "सेलेक्टेड सेल्स को Date फॉर्मेट में बदलता है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Input Device नहीं है?",
+        "answers": ["Monitor", "Keyboard", "Mouse", "Scanner"],
+        "correct": 0,
+        "explanation": "Monitor आउटपुट डिवाइस है।"
+    },
+    {
+        "prompt": "Cyber Security में Brute Force Attack क्या है?",
+        "answers": ["सभी संभावित पासवर्ड ट्राई करना", "ईमेल फिशिंग", "DNS स्पूफिंग", "SQL इंजेक्शन"],
+        "correct": 0,
+        "explanation": "ट्रायल एंड एरर से पासवर्ड क्रैक करने का तरीका।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया के तहत 'Broadband Highways' पिलर का मुख्य फोकस क्या है?",
+        "answers": ["ऑप्टिकल फाइबर नेटवर्क", "मोबाइल टावर", "Wi-Fi हॉटस्पॉट", "सैटेलाइट इंटरनेट"],
+        "correct": 0,
+        "explanation": "भारतनेट के माध्यम से हाई-स्पीड ब्रॉडबैंड।"
+    },
+    {
+        "prompt": "MS Word में क्या Ctrl + Shift + < करता है?",
+        "answers": ["Font Size Decrease", "Font Size Increase", "Underline", "Strikethrough"],
+        "correct": 0,
+        "explanation": "सेलेक्टेड टेक्स्ट का फॉन्ट साइज घटाता है।"
+    },
+    {
+        "prompt": "कौन सा डिवाइस OSI Layer 3 पर काम करता है?",
+        "answers": ["Router", "Switch", "Hub", "Bridge"],
+        "correct": 0,
+        "explanation": "Router IP एड्रेस के आधार पर रूटिंग करता है (Network Layer)।"
+    },
+    {
+        "prompt": "कंप्यूटर में Mainframe Computer का उपयोग मुख्य रूप से कहाँ होता है?",
+        "answers": ["बड़े संगठनों और बैंकों में", "घरेलू उपयोग", "गेमिंग", "मोबाइल ऐप्स"],
+        "correct": 0,
+        "explanation": "हाई-वॉल्यूम ट्रांजेक्शन और बड़े डेटाबेस के लिए।"
+    },
+    {
+        "prompt": "Cyber Security में Two-Factor Authentication (2FA) का मुख्य लाभ क्या है?",
+        "answers": ["पासवर्ड के अलावा दूसरी लेयर सिक्योरिटी", "स्पीड बढ़ाना", "स्टोरेज बढ़ाना", "इंटरनेट स्पीड"],
+        "correct": 0,
+        "explanation": "OTP या बायोमेट्रिक्स से अतिरिक्त सुरक्षा।"
+    },
+    {
+        "prompt": "UPI का पूरा नाम क्या है?",
+        "answers": ["Unified Payments Interface", "Universal Payment Interface", "Unique Payment Interface", "United Payment Interface"],
+        "correct": 0,
+        "explanation": "भारत में इंस्टेंट मोबाइल पेमेंट सिस्टम।"
+    },
+    {
+        "prompt": "कंप्यूटर में Cache Memory कितने स्तरों में होती है?",
+        "answers": ["L1, L2, L3", "L1 केवल", "L1 और L2", "कोई स्तर नहीं"],
+        "correct": 0,
+        "explanation": "मल्टी-लेवल कैश (L1 सबसे फास्ट, L3 सबसे बड़ी)।"
+    },
+    {
+        "prompt": "MS PowerPoint में क्या Ctrl + M करता है?",
+        "answers": ["New Slide", "Slide Show", "Save", "Print"],
+        "correct": 0,
+        "explanation": "नई स्लाइड इंसर्ट करता है।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Transmission Media नहीं है?",
+        "answers": ["Twisted Pair", "Coaxial", "Fiber Optic", "Bluetooth"],
+        "correct": 3,
+        "explanation": "Bluetooth वायरलेस है, बाकी wired मीडिया हैं।"
+    },
+    {
+        "prompt": "Clickjacking Attack क्या है?",
+        "answers": ["ट्रांसपेरेंट लेयर से यूजर को क्लिक करवाना", "पासवर्ड चुराना", "फाइल डिलीट", "सर्वर अटैक"],
+        "correct": 0,
+        "explanation": "हिडन लेयर पर क्लिक करवाकर अनचाहे एक्शन करवाना।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया में 'Public Internet Access Programme' का उद्देश्य क्या है?",
+        "answers": ["CSCs के माध्यम से ग्रामीण क्षेत्रों में इंटरनेट", "शहरों में Wi-Fi", "स्कूलों में कंप्यूटर", "बैंकों में डिजिटल"],
+        "correct": 0,
+        "explanation": "Common Service Centres से पब्लिक एक्सेस।"
+    },
+    {
+        "prompt": "कंप्यूटर में Microprocessor का आविष्कार किसने किया?",
+        "answers": ["Intel", "IBM", "Microsoft", "Apple"],
+        "correct": 0,
+        "explanation": "Intel 4004 पहला माइक्रोप्रोसेसर (1971)।"
+    },
+    {
+        "prompt": "MS Excel में क्या Ctrl + Shift + @ करता है?",
+        "answers": ["Time Format", "Date Format", "Percentage", "Currency"],
+        "correct": 0,
+        "explanation": "सेलेक्टेड सेल्स को Time फॉर्मेट में बदलता है।"
+    },
+    {
+        "prompt": "कौन सा प्रोटोकॉल सुरक्षित ईमेल के लिए उपयोग होता है?",
+        "answers": ["SMTPS", "POP3", "IMAP", "FTP"],
+        "correct": 0,
+        "explanation": "SMTP over SSL/TLS।"
+    },
+    {
+        "prompt": "निम्न में से कौन सा एक प्रकार का Antivirus Software है?",
+        "answers": ["Kaspersky", "Google Chrome", "Notepad", "Paint"],
+        "correct": 0,
+        "explanation": "Kaspersky मैलवेयर से सुरक्षा देता है।"
+    },
+    {
+        "prompt": "Cyber Surakshit Bharat Initiative किसके द्वारा चलाया जाता है?",
+        "answers": ["MeitY और CERT-In", "RBI", "NPCI", "PMO"],
+        "correct": 0,
+        "explanation": "साइबर अवेयरनेस और सिक्योरिटी प्रमोशन के लिए।"
+    },
+    {
+        "prompt": "कंप्यूटर में Byte में कितने Bits होते हैं?",
+        "answers": ["8", "4", "16", "32"],
+        "correct": 0,
+        "explanation": "1 Byte = 8 Bits।"
+    },
+    {
+        "prompt": "MS Word में क्या Ctrl + Shift + C करता है?",
+        "answers": ["Format Painter", "Copy", "Paste", "Cut"],
+        "correct": 0,
+        "explanation": "Format Painter से फॉर्मेटिंग कॉपी करता है।"
+    },
+    {
+        "prompt": "नेटवर्क में Protocol Stack का मतलब क्या है?",
+        "answers": ["OSI या TCP/IP लेयर्स का सेट", "केबल का ढेर", "डिवाइस का ग्रुप", "सॉफ्टवेयर"],
+        "correct": 0,
+        "explanation": "डेटा कम्युनिकेशन के लिए लेयर्ड प्रोटोकॉल्स।"
+    },
+    {
+        "prompt": "Drive-by Download Attack क्या है?",
+        "answers": ["वेबसाइट विजिट करने पर ऑटो मैलवेयर डाउनलोड", "ईमेल अटैक", "USB अटैक", "पासवर्ड अटैक"],
+        "correct": 0,
+        "explanation": "बिना क्लिक के मैलवेयर इंस्टॉल हो जाता है।"
+    },
+    {
+        "prompt": "डिजिटल इंडिया में 'e-Education' पिलर का मुख्य लक्ष्य क्या है?",
+        "answers": ["ऑनलाइन लर्निंग और डिजिटल क्लासरूम", "पेमेंट", "हेल्थ", "ट्रांसपोर्ट"],
+        "correct": 0,
+        "explanation": "डिजिटल शिक्षा को बढ़ावा देना।"
+    }
+]

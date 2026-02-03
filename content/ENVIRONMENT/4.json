@@ -1,0 +1,182 @@
+[
+    {
+        "prompt": "भारत में कितने Elephant Reserves हैं (2025 तक लगभग)?",
+        "answers": ["50", "20", "10", "33 से अधिक"],
+        "correct": 3,
+        "explanation": "2025 तक भारत में 33+ Elephant Reserves हैं।"
+    },
+    {
+        "prompt": "Convention on Biological Diversity (CBD) कब हुआ?",
+        "answers": ["2015", "1971", "1987", "1992"],
+        "correct": 3,
+        "explanation": "CBD Earth Summit (Rio) 1992 में हुआ।"
+    },
+    {
+        "prompt": "भारत में Forest Conservation Act कब पारित हुआ?",
+        "answers": ["1986", "1972", "2002", "1980"],
+        "correct": 3,
+        "explanation": "Forest (Conservation) Act, 1980 वन भूमि के गैर-वन उपयोग पर नियंत्रण करता है।"
+    },
+    {
+        "prompt": "भारत का राष्ट्रीय जल पशु कौन सा है?",
+        "answers": ["मछली", "गंगा डॉल्फिन", "कछुआ", "मगरमच्छ"],
+        "correct": 1,
+        "explanation": "Ganges River Dolphin (Platanista gangetica) भारत का राष्ट्रीय जल पशु है।"
+    },
+    {
+        "prompt": "Basel Convention किससे संबंधित है?",
+        "answers": ["Ozone Depletion", "Hazardous Waste Movement", "Climate Change", "Biodiversity"],
+        "correct": 1,
+        "explanation": "Basel Convention 1989 में खतरनाक अपशिष्ट के अंतरराष्ट्रीय परिवहन पर है।"
+    },
+    {
+        "prompt": "भारत में E-Waste Management Rules कब लागू हुए?",
+        "answers": ["1990", "2000", "2022", "2016"],
+        "correct": 3,
+        "explanation": "E-Waste (Management) Rules 2016 (संशोधित) लागू हैं।"
+    },
+    {
+        "prompt": "Desertification से लड़ने के लिए UN Convention कौन सा है?",
+        "answers": ["UNFCCC", "CBD", "Ramsar", "UNCCD"],
+        "correct": 3,
+        "explanation": "United Nations Convention to Combat Desertification (UNCCD) 1994 में हुआ।"
+    },
+    {
+        "prompt": "भारत में कितने Tiger Reserves हैं (2025 तक)?",
+        "answers": ["70", "40", "55 से अधिक", "30"],
+        "correct": 2,
+        "explanation": "NTCA के अनुसार 2025 तक 55+ टाइगर रिजर्व हैं।"
+    },
+    {
+        "prompt": "भारत का राष्ट्रीय फूल कौन सा है?",
+        "answers": ["गुलाब", "कमल", "सूरजमुखी", "चमेली"],
+        "correct": 1,
+        "explanation": "Lotus (कमल) भारत का राष्ट्रीय फूल है।"
+    },
+    {
+        "prompt": "Noise Pollution (Regulation and Control) Rules कब लागू हुए?",
+        "answers": ["1986", "2016", "1974", "2000"],
+        "correct": 3,
+        "explanation": "Noise Pollution Rules 2000 में लागू हुए।"
+    },
+    {
+        "prompt": "भारत में कितने Wildlife Sanctuaries हैं (2025 तक लगभग)?",
+        "answers": ["300", "570 से अधिक", "200", "400"],
+        "correct": 1,
+        "explanation": "2025 तक भारत में 570+ Wildlife Sanctuaries हैं।"
+    },
+    {
+        "prompt": "Aichi Biodiversity Targets किससे संबंधित हैं?",
+        "answers": ["Kyoto Protocol", "CBD के तहत 2011-2020 लक्ष्य", "Paris Agreement", "Montreal Protocol"],
+        "correct": 1,
+        "explanation": "Aichi Targets CBD के Strategic Plan 2011-2020 के तहत थे।"
+    },
+    {
+        "prompt": "भारत में Coastal Regulation Zone (CRZ) Notification कब आया?",
+        "answers": ["2011 (संशोधित)", "1986", "2002", "1991"],
+        "correct": 0,
+        "explanation": "CRZ Notification 1991 में आया, बाद में 2011 और 2019 में संशोधित।"
+    },
+    {
+        "prompt": "भारत का राष्ट्रीय खेल कौन सा है?",
+        "answers": ["कबड्डी", "फुटबॉल", "हॉकी", "क्रिकेट"],
+        "correct": 2,
+        "explanation": "हॉकी भारत का राष्ट्रीय खेल है (आधिकारिक रूप से मान्यता प्राप्त)।"
+    },
+    {
+        "prompt": "Rotterdam Convention किससे संबंधित है?",
+        "answers": ["Climate", "POPs", "Prior Informed Consent for Hazardous Chemicals", "Ozone"],
+        "correct": 2,
+        "explanation": "Rotterdam Convention 1998 में खतरनाक रसायनों के व्यापार पर PIC प्रक्रिया है।"
+    },
+    {
+        "prompt": "भारत में Solid Waste Management Rules कब लागू हुए?",
+        "answers": ["2000", "2016", "1990", "2022"],
+        "correct": 1,
+        "explanation": "Solid Waste Management Rules 2016 लागू हैं।"
+    },
+    {
+        "prompt": "भारत में कितने Marine National Parks हैं?",
+        "answers": ["2", "4", "10", "8"],
+        "correct": 1,
+        "explanation": "भारत में मुख्य Marine National Parks जैसे Gulf of Kutch, Mahatma Gandhi Marine आदि हैं।"
+    },
+    {
+        "prompt": "Minamata Convention किससे संबंधित है?",
+        "answers": ["POPs", "Mercury Pollution", "Ozone", "Climate Change"],
+        "correct": 1,
+        "explanation": "Minamata Convention 2013 में पारा प्रदूषण पर है।"
+    },
+    {
+        "prompt": "भारत में National Green Tribunal (NGT) कब स्थापित हुआ?",
+        "answers": ["2000", "2010", "2020", "1990"],
+        "correct": 1,
+        "explanation": "NGT Act 2010 के तहत 2010 में स्थापित हुआ।"
+    },
+    {
+        "prompt": "भारत का राष्ट्रीय फल कौन सा है?",
+        "answers": ["केला", "सेब", "आम", "अनार"],
+        "correct": 2,
+        "explanation": "Mango (आम) भारत का राष्ट्रीय फल है।"
+    },
+    {
+        "prompt": "Nagoya Protocol किससे संबंधित है?",
+        "answers": ["Climate Change", "Ozone", "Access and Benefit Sharing (ABS) of Genetic Resources", "Wetlands"],
+        "correct": 2,
+        "explanation": "Nagoya Protocol 2010 में CBD के तहत आनुवंशिक संसाधनों के लाभ साझाकरण पर है।"
+    },
+    {
+        "prompt": "भारत में कितने Tiger Reserves हैं (2025 तक)?",
+        "answers": ["30", "70", "55 से अधिक", "40"],
+        "correct": 2,
+        "explanation": "NTCA के अनुसार 2025 तक 55+ टाइगर रिजर्व हैं।"
+    },
+    {
+        "prompt": "भारत का राष्ट्रीय गान कौन सा है?",
+        "answers": ["सारे जहाँ से अच्छा", "जन गण मन", "वंदे मातरम", "साईं वंदना"],
+        "correct": 1,
+        "explanation": "जन गण मन (रवींद्रनाथ टैगोर) भारत का राष्ट्रीय गान है।"
+    },
+    {
+        "prompt": "भारत में Hazardous and Other Wastes Rules कब लागू हुए?",
+        "answers": ["2008", "1990", "2016", "2000"],
+        "correct": 2,
+        "explanation": "Hazardous and Other Wastes (Management and Transboundary Movement) Rules 2016 लागू हैं।"
+    },
+    {
+        "prompt": "भारत में कितने Elephant Corridors हैं?",
+        "answers": ["100", "200", "50", "150 से अधिक"],
+        "correct": 3,
+        "explanation": "MoEFCC के अनुसार भारत में 150+ Elephant Corridors हैं।"
+    },
+    {
+        "prompt": "Kigali Amendment किससे संबंधित है?",
+        "answers": ["Mercury", "POPs", "HFCs under Montreal Protocol", "Climate Change"],
+        "correct": 2,
+        "explanation": "Kigali Amendment 2016 में HFCs पर चरणबद्ध कमी है।"
+    },
+    {
+        "prompt": "भारत में National Action Plan on Climate Change (NAPCC) में कितने मिशन हैं?",
+        "answers": ["10", "12", "5", "8"],
+        "correct": 3,
+        "explanation": "NAPCC में 8 राष्ट्रीय मिशन हैं (Solar, Energy Efficiency, Sustainable Habitat आदि)।"
+    },
+    {
+        "prompt": "भारत में कितने Project Tiger Reserves हैं (2025 तक)?",
+        "answers": ["40", "55 से अधिक", "70", "30"],
+        "correct": 1,
+        "explanation": "2025 तक भारत में 55+ Project Tiger Reserves हैं।"
+    },
+    {
+        "prompt": "भारत का राष्ट्रीय गीत कौन सा है?",
+        "answers": ["साईं वंदना", "वंदे मातरम", "जन गण मन", "सारे जहाँ से अच्छा"],
+        "correct": 1,
+        "explanation": "वंदे मातरम (बंकिम चंद्र चटर्जी) भारत का राष्ट्रीय गीत है।"
+    },
+    {
+        "prompt": "भारत में Coastal Aquaculture Authority Act कब पारित हुआ?",
+        "answers": ["1995", "2005", "2000", "2010"],
+        "correct": 1,
+        "explanation": "Coastal Aquaculture Authority Act 2005 में पारित हुआ।"
+    }
+]
