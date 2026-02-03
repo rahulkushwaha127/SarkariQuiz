@@ -52,6 +52,7 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     Route::patch('/clubs/{club}/sessions/{session}/next-master', [ClubsController::class, 'nextMaster'])->name('clubs.sessions.next_master');
     Route::post('/clubs/{club}/sessions/{session}/points', [ClubsController::class, 'addPoint'])->name('clubs.sessions.points');
     Route::patch('/clubs/{club}/sessions/{session}/end', [ClubsController::class, 'endSession'])->name('clubs.sessions.end');
+    Route::get('/clubs/{club}/sessions/{session}/result', [ClubsController::class, 'sessionResult'])->name('clubs.sessions.result');
 
     // Practice
     Route::get('/practice', [PracticeController::class, 'index'])->name('practice');

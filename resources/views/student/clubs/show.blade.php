@@ -96,15 +96,33 @@
                             </span>
                         </div>
                     @else
-                        <div class="mt-1 text-xs text-slate-400">No active session.</div>
+                        @if($lobbyOpen ?? false)
+                            <div class="mt-1 text-xs text-slate-400">Session lobby is open.</div>
+                            <div class="mt-0.5 text-xs text-slate-500">{{ $lobbyMembersCount }} {{ \Illuminate\Support\Str::plural('member', $lobbyMembersCount ?? 0) }} in lobby — join to be included.</div>
+                        @else
+                            <div class="mt-1 text-xs text-slate-400">No active session.</div>
+                        @endif
+                        @if($latestEndedSession ?? null)
+                            <a href="{{ route('clubs.sessions.result', [$club, $latestEndedSession]) }}"
+                               class="mt-2 inline-block text-sm font-medium text-indigo-400 hover:text-indigo-300">
+                                View last session result
+                            </a>
+                        @endif
                     @endif
                 </div>
 
                 @if(!$activeSession)
-                    <a href="{{ route('clubs.session', $club) }}"
-                       class="{{ $myMember->role === 'admin' ? 'bg-indigo-500 hover:bg-indigo-400' : 'bg-white/10 hover:bg-white/15' }} px-4 py-3 text-sm font-semibold text-white">
-                        {{ $myMember->role === 'admin' ? 'Start session' : 'Join session' }}
-                    </a>
+                    @if($myMember->role === 'admin')
+                        <a href="{{ route('clubs.session', $club) }}"
+                           class="bg-indigo-500 hover:bg-indigo-400 px-4 py-3 text-sm font-semibold text-white">
+                            Lobby
+                        </a>
+                    @else
+                        <a href="{{ route('clubs.session', $club) }}"
+                           class="bg-indigo-500 hover:bg-indigo-400 px-4 py-3 text-sm font-semibold text-white">
+                            Lobby
+                        </a>
+                    @endif
                 @else
                     @if($myMember->role === 'admin')
                         <div class="flex flex-wrap gap-2">
@@ -120,7 +138,8 @@
                             <form method="POST"
                                   action="{{ route('clubs.sessions.end', [$club, $activeSession]) }}"
                                   data-club-ajax-form="true"
-                                  data-club-ajax-confirm="End session?">
+                                  data-club-ajax-confirm="End session?"
+                                  data-club-ajax-success="redirect">
                                 @csrf
                                 @method('PATCH')
                                 <button class="bg-red-500/80 px-4 py-3 text-sm font-semibold text-white hover:bg-red-500">
@@ -128,6 +147,17 @@
                                 </button>
                             </form>
                         </div>
+                    @else
+                        @if($inActiveSession ?? false)
+                            <span class="bg-white/10 px-4 py-3 text-sm font-semibold text-white/80">
+                                You're in this session
+                            </span>
+                        @else
+                            <a href="{{ route('clubs.session', $club) }}"
+                               class="bg-indigo-500 hover:bg-indigo-400 px-4 py-3 text-sm font-semibold text-white">
+                                Lobby
+                            </a>
+                        @endif
                     @endif
                 @endif
             </div>

@@ -546,6 +546,7 @@ class ClubsController extends Controller
         }
 
         $scores = collect();
+        $inActiveSession = false;
         if ($activeSession) {
             $scores = ClubSessionScore::query()
                 ->where('session_id', $activeSession->id)
@@ -554,9 +555,26 @@ class ClubsController extends Controller
                 ->orderBy('user_id')
                 ->get()
                 ->keyBy('user_id');
+            $inActiveSession = $scores->has(Auth::id());
         }
 
         $canControl = $myMember->role === 'admin' || ($activeSession && (int)$activeSession->current_master_user_id === (int)Auth::id());
+
+        $latestEndedSession = null;
+        $lobbyOpen = false;
+        $lobbyMembersCount = 0;
+        if (! $activeSession) {
+            $latestEndedSession = ClubSession::query()
+                ->where('club_id', $club->id)
+                ->where('status', 'ended')
+                ->latest('id')
+                ->first();
+
+            $lobbyMembersCount = ClubSessionLobbyMember::query()
+                ->where('club_id', $club->id)
+                ->count();
+            $lobbyOpen = $lobbyMembersCount > 0;
+        }
 
         $userQ = $request->string('user_q')->toString();
         $searchResults = collect();
@@ -588,7 +606,11 @@ class ClubsController extends Controller
             'members',
             'pendingRequests',
             'activeSession',
+            'latestEndedSession',
+            'lobbyOpen',
+            'lobbyMembersCount',
             'scores',
+            'inActiveSession',
             'canControl',
             'userQ',
             'searchResults'
@@ -939,10 +961,34 @@ class ClubsController extends Controller
         });
 
         if ($request->expectsJson()) {
-            return response()->json(['ok' => true]);
+            return response()->json([
+                'ok' => true,
+                'redirect' => route('clubs.sessions.result', [$club, $session]),
+            ]);
         }
 
-        return back()->with('status', 'Session ended.');
+        return redirect()
+            ->route('clubs.sessions.result', [$club, $session])
+            ->with('status', 'Session ended.');
+    }
+
+    public function sessionResult(Request $request, Club $club, ClubSession $session)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $this->requireMember($club);
+
+        abort_unless((int) $session->club_id === (int) $club->id, 404);
+        abort_unless($session->status === 'ended', 404);
+
+        $session->load(['currentMaster', 'createdBy', 'endedBy']);
+        $scores = ClubSessionScore::query()
+            ->where('session_id', $session->id)
+            ->with('user')
+            ->orderByDesc('points')
+            ->orderBy('user_id')
+            ->get();
+
+        return view('student.clubs.session_result', compact('club', 'session', 'scores'));
     }
 
     private function requireMember(Club $club): ClubMember

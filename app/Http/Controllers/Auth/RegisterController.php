@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Spatie\Permission\Models\Role;
@@ -75,5 +76,13 @@ class RegisterController extends Controller
         $user->assignRole($studentRole);
 
         return $user;
+    }
+
+    /**
+     * Redirect after registration: prefer intended URL (e.g. club join link).
+     */
+    protected function registered(Request $request, $user)
+    {
+        return redirect()->intended($this->redirectTo ?? '/');
     }
 }
