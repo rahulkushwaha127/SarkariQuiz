@@ -46,6 +46,7 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     Route::post('/clubs/{club}/session/start', [ClubsController::class, 'startSessionSelected'])->name('clubs.session.start');
     Route::get('/clubs/{club}/members/search', [ClubsController::class, 'searchMembers'])->name('clubs.members.search');
     Route::post('/clubs/{club}/members/add', [ClubsController::class, 'addMember'])->name('clubs.members.add');
+    Route::patch('/clubs/{club}/point-master', [ClubsController::class, 'assignPointMaster'])->name('clubs.point_master');
     Route::patch('/clubs/{club}/requests/{joinRequest}/approve', [ClubsController::class, 'approveRequest'])->name('clubs.requests.approve');
     Route::patch('/clubs/{club}/requests/{joinRequest}/reject', [ClubsController::class, 'rejectRequest'])->name('clubs.requests.reject');
     Route::post('/clubs/{club}/sessions/start', [ClubsController::class, 'startSession'])->name('clubs.sessions.start');

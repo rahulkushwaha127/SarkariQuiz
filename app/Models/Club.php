@@ -15,6 +15,7 @@ class Club extends Model
         'owner_user_id',
         'status',
         'invite_token',
+        'point_master_user_id',
     ];
 
     protected static function booted(): void
@@ -29,6 +30,11 @@ class Club extends Model
     public function owner()
     {
         return $this->belongsTo(User::class, 'owner_user_id');
+    }
+
+    public function pointMaster()
+    {
+        return $this->belongsTo(User::class, 'point_master_user_id');
     }
 
     public function members()

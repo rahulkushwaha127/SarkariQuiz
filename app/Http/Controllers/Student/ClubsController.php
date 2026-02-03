@@ -35,8 +35,8 @@ class ClubsController extends Controller
             ->first();
 
         $sessionId = $activeSession ? (int) $activeSession->id : 0;
-        $canControl = $myMember->role === 'admin'
-            || ($activeSession && (int) $activeSession->current_master_user_id === (int) Auth::id());
+        $isPointMaster = (int) ($club->point_master_user_id ?? 0) === (int) Auth::id();
+        $canControl = $myMember->role === 'admin' || $isPointMaster;
 
         $scoreboard = [];
         if ($activeSession) {
@@ -519,7 +519,7 @@ class ClubsController extends Controller
         abort_unless(Auth::user()?->hasRole('student'), 403);
         $myMember = $this->requireMember($club);
 
-        $club->load('owner');
+        $club->load('owner', 'pointMaster');
 
         $activeSession = ClubSession::query()
             ->where('club_id', $club->id)
@@ -558,7 +558,9 @@ class ClubsController extends Controller
             $inActiveSession = $scores->has(Auth::id());
         }
 
-        $canControl = $myMember->role === 'admin' || ($activeSession && (int)$activeSession->current_master_user_id === (int)Auth::id());
+        $isPointMaster = (int) ($club->point_master_user_id ?? 0) === (int) Auth::id();
+        $canControl = $myMember->role === 'admin' || $isPointMaster;
+        $canEndSession = $myMember->role === 'admin' || $isPointMaster;
 
         $latestEndedSession = null;
         $lobbyOpen = false;
@@ -612,6 +614,7 @@ class ClubsController extends Controller
             'scores',
             'inActiveSession',
             'canControl',
+            'canEndSession',
             'userQ',
             'searchResults'
         ));
@@ -887,8 +890,8 @@ class ClubsController extends Controller
         abort_unless($session->status === 'active', 422);
 
         $isAdmin = $myMember->role === 'admin';
-        $isMaster = (int) $session->current_master_user_id === (int) Auth::id();
-        abort_unless($isAdmin || $isMaster, 403);
+        $isPointMaster = (int) ($club->point_master_user_id ?? 0) === (int) Auth::id();
+        abort_unless($isAdmin || $isPointMaster, 403);
 
         $data = $request->validate([
             'user_id' => ['required', 'integer'],
@@ -940,7 +943,9 @@ class ClubsController extends Controller
     public function endSession(Request $request, Club $club, ClubSession $session)
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);
-        $this->requireAdmin($club);
+        $myMember = $this->requireMember($club);
+        $isPointMaster = (int) ($club->point_master_user_id ?? 0) === (int) Auth::id();
+        abort_unless($myMember->role === 'admin' || $isPointMaster, 403);
 
         abort_unless((int) $session->club_id === (int) $club->id, 404);
         abort_unless($session->status === 'active', 422);
@@ -989,6 +994,40 @@ class ClubsController extends Controller
             ->get();
 
         return view('student.clubs.session_result', compact('club', 'session', 'scores'));
+    }
+
+    public function assignPointMaster(Request $request, Club $club)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+        $this->requireAdmin($club);
+
+        $request->merge(['user_id' => $request->input('user_id') ?: null]);
+
+        $data = $request->validate([
+            'user_id' => ['nullable', 'integer', 'exists:users,id'],
+        ]);
+
+        $userId = isset($data['user_id']) ? (int) $data['user_id'] : null;
+
+        if ($userId !== null) {
+            $isMember = ClubMember::query()
+                ->where('club_id', $club->id)
+                ->where('user_id', $userId)
+                ->exists();
+            abort_unless($isMember, 422, 'Selected user must be a club member.');
+        }
+
+        $club->update(['point_master_user_id' => $userId]);
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'ok' => true,
+                'point_master_user_id' => $userId,
+                'point_master_name' => $userId ? (User::find($userId)?->name ?? '—') : null,
+            ]);
+        }
+
+        return back()->with('status', $userId ? 'Point master assigned.' : 'Point master cleared.');
     }
 
     private function requireMember(Club $club): ClubMember

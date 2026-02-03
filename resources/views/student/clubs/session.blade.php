@@ -20,11 +20,11 @@
             <div>
                 <div class="text-sm font-semibold text-white">Session lobby</div>
                 <div class="mt-1 text-xs text-slate-400">
-                    Members must join to be included in today’s rotation. Admin can start the session once at least 2 members have joined.
+                    Tap <strong>Join session</strong> below to be in today’s round. Admin will start when at least 2 have joined.
                 </div>
             </div>
-            <a href="{{ route('clubs.show', $club) }}" class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
-                Back
+            <a href="{{ route('clubs.show', $club) }}" class="text-xs text-slate-400 hover:text-slate-200" aria-label="Back to club">
+                ← Back to club
             </a>
         </div>
     </div>

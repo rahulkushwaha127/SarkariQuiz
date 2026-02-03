@@ -28,8 +28,10 @@
             </div>
 
             @if($myMember->role === 'admin')
-                <div class="mt-4 border-t border-white/10 pt-4">
-                    <div class="text-xs font-semibold uppercase tracking-wider text-slate-300">Invite link</div>
+                <details class="mt-4 border-t border-white/10 pt-4 group">
+                    <summary class="cursor-pointer list-none select-none flex items-center gap-1 text-xs font-semibold uppercase tracking-wider text-slate-300 hover:text-slate-200">
+                        Invite members <span class="inline-block transition-transform group-open:rotate-180">▼</span>
+                    </summary>
                     @php
                         $inviteUrl = route('clubs.join', $club->invite_token);
                     @endphp
@@ -43,15 +45,43 @@
                             Copy
                         </button>
                     </div>
-                </div>
+                </details>
             @endif
         </div>
 
         @if($myMember->role === 'admin')
-            <div class="border border-white/10 bg-white/5 p-4">
-                <div class="text-sm font-semibold text-white">Add member</div>
-                <div class="mt-1 text-xs text-slate-400">Search by name, email, username, or user id.</div>
+            <details class="border border-white/10 bg-white/5 p-4 group">
+                <summary class="cursor-pointer list-none select-none flex items-center gap-1 text-sm font-semibold text-white hover:text-slate-200">
+                    Point master <span class="text-slate-400 font-normal">(can add points & end session)</span> <span class="inline-block transition-transform group-open:rotate-180">▼</span>
+                </summary>
+                <div class="mt-3 text-xs text-slate-400">
+                    Current: {{ $club->pointMaster?->name ?? 'Not set' }}. Assign a member to let them add +1 and end the session; you can change this anytime.
+                </div>
+                <form method="POST" action="{{ route('clubs.point_master', $club) }}" class="mt-3 flex flex-wrap items-end gap-2" data-club-ajax-form="true">
+                    @csrf
+                    @method('PATCH')
+                    <label class="flex-1 min-w-0">
+                        <span class="sr-only">Assign point master</span>
+                        <select name="user_id" class="w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <option value="">— None —</option>
+                            @foreach($members ?? [] as $m)
+                                <option value="{{ $m->user_id }}" {{ (int)($club->point_master_user_id ?? 0) === (int)$m->user_id ? 'selected' : '' }}>
+                                    {{ $m->user?->name ?? '—' }} {{ $m->role === 'admin' ? '(admin)' : '' }}
+                                </option>
+                            @endforeach
+                        </select>
+                    </label>
+                    <button type="submit" class="bg-indigo-500 hover:bg-indigo-400 px-4 py-2 text-sm font-semibold text-white">
+                        {{ $club->point_master_user_id ? 'Change' : 'Assign' }}
+                    </button>
+                </form>
+            </details>
 
+            <details class="border border-white/10 bg-white/5 p-4 group">
+                <summary class="cursor-pointer list-none select-none flex items-center gap-1 text-sm font-semibold text-white hover:text-slate-200">
+                    Add member <span class="inline-block transition-transform group-open:rotate-180">▼</span>
+                </summary>
+                <div class="mt-3 text-xs text-slate-400">Search by name, email, username, or user id.</div>
                 <div class="mt-3"
                      data-club-member-search="true"
                      data-search-endpoint="{{ route('clubs.members.search', $club) }}"
@@ -76,7 +106,7 @@
 
                     <div class="mt-3 border border-white/10 bg-slate-950/30 hidden" data-club-member-search-results="true"></div>
                 </div>
-            </div>
+            </details>
         @endif
 
         <div class="border border-white/10 bg-white/5 p-4">
@@ -100,7 +130,13 @@
                             <div class="mt-1 text-xs text-slate-400">Session lobby is open.</div>
                             <div class="mt-0.5 text-xs text-slate-500">{{ $lobbyMembersCount }} {{ \Illuminate\Support\Str::plural('member', $lobbyMembersCount ?? 0) }} in lobby — join to be included.</div>
                         @else
-                            <div class="mt-1 text-xs text-slate-400">No active session.</div>
+                            <div class="mt-1 text-xs text-slate-400">
+                                @if($myMember->role === 'admin')
+                                    No session. Tap <strong>Lobby</strong> to open the lobby so members can join, then start the session.
+                                @else
+                                    No session right now. When the admin opens the lobby, tap <strong>Lobby</strong> to join.
+                                @endif
+                            </div>
                         @endif
                         @if($latestEndedSession ?? null)
                             <a href="{{ route('clubs.sessions.result', [$club, $latestEndedSession]) }}"
@@ -124,17 +160,19 @@
                         </a>
                     @endif
                 @else
-                    @if($myMember->role === 'admin')
+                    @if($canEndSession ?? false)
                         <div class="flex flex-wrap gap-2">
-                            <form method="POST"
-                                  action="{{ route('clubs.sessions.next_master', [$club, $activeSession]) }}"
-                                  data-club-ajax-form="true">
-                                @csrf
-                                @method('PATCH')
-                                <button class="bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15">
-                                    Next master
-                                </button>
-                            </form>
+                            @if($myMember->role === 'admin')
+                                <form method="POST"
+                                      action="{{ route('clubs.sessions.next_master', [$club, $activeSession]) }}"
+                                      data-club-ajax-form="true">
+                                    @csrf
+                                    @method('PATCH')
+                                    <button class="bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15">
+                                        Next master
+                                    </button>
+                                </form>
+                            @endif
                             <form method="POST"
                                   action="{{ route('clubs.sessions.end', [$club, $activeSession]) }}"
                                   data-club-ajax-form="true"
@@ -192,6 +230,9 @@
                                             @if($m->role === 'admin')
                                                 <span class="ml-2 text-xs font-semibold text-amber-200">(admin)</span>
                                             @endif
+                                            @if((int)($club->point_master_user_id ?? 0) === (int)$m->user_id)
+                                                <span class="ml-2 text-xs font-semibold text-emerald-300">(point master)</span>
+                                            @endif
                                         </div>
                                         <div class="mt-1 text-xs text-slate-400 truncate">{{ $m->user?->email ?? '' }}</div>
                                     </div>
@@ -217,7 +258,12 @@
                                         (master)
                                     </span>
                                 </div>
-                                <div class="mt-1 text-xs text-slate-400">Role: {{ $m->role }}</div>
+                                <div class="mt-1 text-xs text-slate-400">
+                                    Role: {{ $m->role }}
+                                    @if((int)($club->point_master_user_id ?? 0) === (int)$m->user_id)
+                                        · <span class="text-emerald-300">Point master</span>
+                                    @endif
+                                </div>
                             </div>
                             <div class="flex items-center gap-2">
                                 <div class="border border-white/10 bg-slate-950/30 px-3 py-2 text-sm font-extrabold text-white"
@@ -245,11 +291,13 @@
         </div>
 
         @if($myMember->role === 'admin')
-            <div class="border border-white/10 bg-white/5">
-                <div class="border-b border-white/10 px-4 py-3 text-sm font-semibold text-white">Pending join requests</div>
+            <details class="border border-white/10 bg-white/5 group">
+                <summary class="cursor-pointer list-none select-none flex items-center gap-1 border-b border-white/10 px-4 py-3 text-sm font-semibold text-white hover:text-slate-200">
+                    Pending requests ({{ ($pendingRequests ?? collect())->count() }}) <span class="inline-block transition-transform group-open:rotate-180">▼</span>
+                </summary>
                 <div data-pending-requests-list="true">
                 @if(($pendingRequests ?? collect())->isEmpty())
-                    <div class="px-4 py-4 text-sm text-slate-300">No pending requests.</div>
+                    <div class="px-4 py-4 text-sm text-slate-400">No pending requests. New join requests will appear here.</div>
                 @else
                     @foreach($pendingRequests as $r)
                         <div class="border-b border-white/10 px-4 py-3 last:border-b-0">
@@ -283,12 +331,12 @@
                     @endforeach
                 @endif
                 </div>
-            </div>
+            </details>
         @endif
 
         <a href="{{ route('clubs.index') }}"
-           class="block bg-white/10 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-white/15">
-            Back
+           class="inline-block text-sm text-slate-400 hover:text-slate-200">
+            ← Back to clubs
         </a>
     </div>
 @endsection

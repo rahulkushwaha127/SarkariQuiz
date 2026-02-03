@@ -54,10 +54,14 @@
         </div>
     </div>
 
-    <div class="flex justify-start">
+    <div class="flex flex-wrap gap-2">
         <a href="{{ route('clubs.show', $club) }}"
-           class="bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15">
+           class="bg-indigo-500 hover:bg-indigo-400 px-4 py-3 text-sm font-semibold text-white">
             Back to club
+        </a>
+        <a href="{{ route('clubs.index') }}"
+           class="bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15">
+            Back to clubs
         </a>
     </div>
 </div>
