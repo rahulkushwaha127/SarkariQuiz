@@ -66,37 +66,39 @@ Route::get('/', function () {
 
 Route::get('/c/{username}', [CreatorPublicController::class, 'show'])->name('public.creators.show');
 
-// Public browsing (always use student UI)
+// Public browsing (always use student UI). Menu-enabled: direct URL access blocked when menu is disabled.
 Route::get('/exams', function () {
     return app(StudentBrowseController::class)->exams(request());
-})->name('public.exams.index');
+})->name('public.exams.index')->middleware('menu.enabled:exams');
 
 Route::get('/exams/{exam:slug}', function (\App\Models\Exam $exam) {
     return app(StudentBrowseController::class)->exam(request(), $exam);
-})->name('public.exams.show');
+})->name('public.exams.show')->middleware('menu.enabled:exams');
 
 Route::get('/subjects/{subject}', function (\App\Models\Subject $subject) {
     return app(StudentBrowseController::class)->subject(request(), $subject);
-})->name('public.subjects.show');
+})->name('public.subjects.show')->middleware('menu.enabled:exams');
+
 Route::get('/quizzes/{quiz:unique_code}', function (\App\Models\Quiz $quiz) {
     return app(StudentBrowseController::class)->quiz(request(), $quiz);
 })->name('public.quizzes.show');
 Route::get('/quizzes/{quiz:unique_code}/play', [GuestPlayController::class, 'play'])->name('public.quizzes.play');
+
 Route::get('/contests', function () {
     return app(StudentBrowseController::class)->contests(request());
-})->name('public.contests.index');
+})->name('public.contests.index')->middleware('menu.enabled:public_contests');
 
 Route::get('/contests/{contest}', function (\App\Models\Contest $contest) {
     return app(StudentBrowseController::class)->contest(request(), $contest);
-})->name('public.contests.show');
+})->name('public.contests.show')->middleware('menu.enabled:public_contests');
 
 Route::get('/leaderboard', function () {
     return app(StudentLeaderboardController::class)->index(request());
-})->name('public.leaderboard');
+})->name('public.leaderboard')->middleware('menu.enabled:leaderboard');
 
 Route::get('/daily', function () {
     return app(StudentDailyChallengeController::class)->show(request());
-})->name('public.daily');
+})->name('public.daily')->middleware('menu.enabled:daily_challenge');
 Route::get('/s/{code}', [ShareController::class, 'show'])->name('public.share.show');
 Route::get('/s/{code}.png', [ShareController::class, 'image'])->name('public.share.image');
 

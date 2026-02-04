@@ -31,6 +31,20 @@ class AppServiceProvider extends ServiceProvider
             if (Schema::hasTable('settings')) {
                 View::share('siteName', Setting::cachedGet('site_name', config('app.name', 'QuizWhiz')));
 
+                $rawMenu = Setting::cachedGet('frontend_menu', null);
+                $menu = $rawMenu ? (is_string($rawMenu) ? json_decode($rawMenu, true) : $rawMenu) : [];
+                $menu = is_array($menu) ? $menu : [];
+                $defaultMenu = [
+                    'home' => true, 'exams' => true, 'practice' => true, 'pyq' => true, 'revision' => true,
+                    'clubs' => true, 'notifications' => true, 'public_contests' => true, 'join_contest' => true,
+                    'daily_challenge' => true, 'leaderboard' => true,
+                ];
+                $frontendMenu = [];
+                foreach ($defaultMenu as $k => $v) {
+                    $frontendMenu[$k] = (bool) (isset($menu[$k]) ? $menu[$k] : $v);
+                }
+                View::share('frontendMenu', $frontendMenu);
+
                 View::share('ads', [
                     'enabled' => (string) Setting::cachedGet('ads_enabled', '0') === '1',
                     'banner_enabled' => (string) Setting::cachedGet('ads_banner_enabled', '1') === '1',
@@ -40,6 +54,11 @@ class AppServiceProvider extends ServiceProvider
                 ]);
             } else {
                 View::share('siteName', config('app.name', 'QuizWhiz'));
+                View::share('frontendMenu', [
+                    'home' => true, 'exams' => true, 'practice' => true, 'pyq' => true, 'revision' => true,
+                    'clubs' => true, 'notifications' => true, 'public_contests' => true, 'join_contest' => true,
+                    'daily_challenge' => true, 'leaderboard' => true,
+                ]);
                 View::share('ads', [
                     'enabled' => false,
                     'banner_enabled' => false,
@@ -50,6 +69,11 @@ class AppServiceProvider extends ServiceProvider
             }
         } catch (\Throwable $e) {
             View::share('siteName', config('app.name', 'QuizWhiz'));
+            View::share('frontendMenu', [
+                'home' => true, 'exams' => true, 'practice' => true, 'pyq' => true, 'revision' => true,
+                'clubs' => true, 'notifications' => true, 'public_contests' => true, 'join_contest' => true,
+                'daily_challenge' => true, 'leaderboard' => true,
+            ]);
             View::share('ads', [
                 'enabled' => false,
                 'banner_enabled' => false,

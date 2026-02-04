@@ -6,6 +6,7 @@ use Illuminate\Foundation\Configuration\Middleware;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Facades\Schema;
 use App\Models\Setting;
+use App\Http\Middleware\EnsureMenuEnabled;
 use App\Http\Middleware\RequireStudentRole;
 use Spatie\Permission\Middleware\PermissionMiddleware;
 use Spatie\Permission\Middleware\RoleMiddleware;
@@ -58,6 +59,7 @@ return Application::configure(basePath: dirname(__DIR__))
             'permission' => PermissionMiddleware::class,
             'role_or_permission' => RoleOrPermissionMiddleware::class,
             'require_student' => RequireStudentRole::class,
+            'menu.enabled' => EnsureMenuEnabled::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {

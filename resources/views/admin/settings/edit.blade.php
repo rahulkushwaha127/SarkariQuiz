@@ -6,26 +6,60 @@
     <div class="space-y-6">
         <div>
             <h1 class="text-2xl font-semibold tracking-tight text-slate-900">Settings</h1>
-            <p class="mt-1 text-sm text-slate-600">Basic app settings stored in database.</p>
+            <p class="mt-1 text-sm text-slate-600">Configure app and front-end visibility.</p>
         </div>
 
-        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <form method="POST" action="{{ route('admin.settings.update') }}" class="space-y-5">
-                @csrf
-                @method('PATCH')
+        {{-- Tabs --}}
+        <div class="border-b border-slate-200">
+            <nav class="-mb-px flex gap-6" aria-label="Settings sections">
+                <button type="button"
+                        class="settings-tab border-b-2 border-indigo-500 px-1 py-3 text-sm font-medium text-indigo-600"
+                        data-tab="general">
+                    General
+                </button>
+                <button type="button"
+                        class="settings-tab border-b-2 border-transparent px-1 py-3 text-sm font-medium text-slate-500 hover:border-slate-300 hover:text-slate-700"
+                        data-tab="ads">
+                    Ads
+                </button>
+                <button type="button"
+                        class="settings-tab border-b-2 border-transparent px-1 py-3 text-sm font-medium text-slate-500 hover:border-slate-300 hover:text-slate-700"
+                        data-tab="notifications">
+                    Notifications
+                </button>
+                <button type="button"
+                        class="settings-tab border-b-2 border-transparent px-1 py-3 text-sm font-medium text-slate-500 hover:border-slate-300 hover:text-slate-700"
+                        data-tab="menu">
+                    Front-end menu
+                </button>
+            </nav>
+        </div>
 
-                <div>
+        <form method="POST" action="{{ route('admin.settings.update') }}" class="space-y-6">
+            @csrf
+            @method('PATCH')
+
+            {{-- Tab: General --}}
+            <div id="panel-general" class="settings-panel rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <h2 class="text-lg font-semibold text-slate-900">General</h2>
+                <div class="mt-4">
                     <label class="text-sm font-medium text-slate-700">Site name</label>
                     <input name="site_name" value="{{ old('site_name', $values['site_name']) }}"
                            class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('site_name') border-red-300 @enderror"
                            placeholder="QuizWhiz">
                     @error('site_name') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
                 </div>
+            </div>
 
-                <div class="flex items-center justify-between gap-3 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
+            {{-- Tab: Ads --}}
+            <div id="panel-ads" class="settings-panel hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <h2 class="text-lg font-semibold text-slate-900">Ads</h2>
+                <p class="mt-1 text-xs text-slate-600">Scaffold only (placeholders now, real ads later).</p>
+
+                <div class="mt-4 flex items-center justify-between gap-3 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
                     <div>
                         <div class="text-sm font-semibold text-slate-900">Ads enabled</div>
-                        <div class="text-xs text-slate-600">Scaffold only (placeholders now, real ads later).</div>
+                        <div class="text-xs text-slate-600">Master switch for all ad placements.</div>
                     </div>
                     <label class="inline-flex items-center gap-2 text-sm text-slate-700">
                         <input type="checkbox" name="ads_enabled" value="1"
@@ -35,10 +69,9 @@
                     </label>
                 </div>
 
-                <div class="rounded-2xl border border-slate-200 bg-white p-4">
-                    <div class="text-sm font-semibold text-slate-900">Ad placements (MVP scaffold)</div>
+                <div class="mt-4 rounded-xl border border-slate-200 p-4">
+                    <div class="text-sm font-semibold text-slate-900">Ad placements</div>
                     <div class="mt-1 text-xs text-slate-600">No ads on question screens. Interstitial only on result screens.</div>
-
                     <div class="mt-4 grid gap-3 md:grid-cols-3">
                         <label class="flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" name="ads_banner_enabled" value="1"
@@ -46,14 +79,12 @@
                                    @checked(old('ads_banner_enabled', $values['ads_banner_enabled']) == '1')>
                             Banner
                         </label>
-
                         <label class="flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" name="ads_interstitial_enabled" value="1"
                                    class="h-4 w-4 rounded border-slate-300"
                                    @checked(old('ads_interstitial_enabled', $values['ads_interstitial_enabled']) == '1')>
                             Interstitial (after result)
                         </label>
-
                         <label class="flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" name="ads_rewarded_enabled" value="1"
                                    class="h-4 w-4 rounded border-slate-300"
@@ -61,18 +92,21 @@
                             Rewarded (optional)
                         </label>
                     </div>
-
                     <div class="mt-4">
                         <label class="text-sm font-medium text-slate-700">Show interstitial every N results</label>
                         <input type="number" min="1" max="20"
                                name="ads_interstitial_every_n_results"
                                value="{{ old('ads_interstitial_every_n_results', $values['ads_interstitial_every_n_results']) }}"
-                               class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('ads_interstitial_every_n_results') border-red-300 @enderror">
+                               class="mt-1 w-full max-w-xs rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('ads_interstitial_every_n_results') border-red-300 @enderror">
                         @error('ads_interstitial_every_n_results') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
                     </div>
                 </div>
+            </div>
 
-                <div class="grid gap-4 md:grid-cols-2">
+            {{-- Tab: Notifications --}}
+            <div id="panel-notifications" class="settings-panel hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <h2 class="text-lg font-semibold text-slate-900">Notifications</h2>
+                <div class="mt-4 grid gap-4 md:grid-cols-2">
                     <div>
                         <label class="text-sm font-medium text-slate-700">Daily reminder time (HH:MM)</label>
                         <input name="daily_reminder_time" value="{{ old('daily_reminder_time', $values['daily_reminder_time']) }}"
@@ -80,7 +114,6 @@
                                placeholder="07:00">
                         @error('daily_reminder_time') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
                     </div>
-
                     <div>
                         <label class="text-sm font-medium text-slate-700">Contest reminder lead (minutes)</label>
                         <input type="number" min="5" max="180"
@@ -89,12 +122,58 @@
                         @error('contest_reminder_lead_minutes') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
                     </div>
                 </div>
+            </div>
 
-                <button class="rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">
+            {{-- Tab: Front-end menu --}}
+            <div id="panel-menu" class="settings-panel hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <h2 class="text-lg font-semibold text-slate-900">Front-end menu</h2>
+                <p class="mt-1 text-sm text-slate-600">Enable or hide sidebar menu items for students and guests.</p>
+                <div class="mt-4 grid gap-2 sm:grid-cols-2">
+                    @foreach(array_keys($values['frontend_menu']) as $key)
+                        @php
+                            $label = ucfirst(str_replace('_', ' ', $key));
+                            $enabled = old('menu_' . $key, $values['frontend_menu'][$key] ?? true);
+                        @endphp
+                        <label class="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-3 text-sm text-slate-700 hover:bg-slate-50">
+                            <input type="hidden" name="menu_{{ $key }}" value="0">
+                            <input type="checkbox" name="menu_{{ $key }}" value="1"
+                                   class="h-4 w-4 rounded border-slate-300"
+                                   @checked($enabled)>
+                            {{ $label }}
+                        </label>
+                    @endforeach
+                </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <button type="submit" class="rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">
                     Save settings
                 </button>
-            </form>
-        </div>
+            </div>
+        </form>
     </div>
-@endsection
 
+    <script>
+        (function() {
+            var tabs = document.querySelectorAll('.settings-tab');
+            var panels = document.querySelectorAll('.settings-panel');
+            function showTab(tabId) {
+                tabs.forEach(function(t) {
+                    var isActive = t.getAttribute('data-tab') === tabId;
+                    t.classList.toggle('border-indigo-500', isActive);
+                    t.classList.toggle('text-indigo-600', isActive);
+                    t.classList.toggle('border-transparent', !isActive);
+                    t.classList.toggle('text-slate-500', !isActive);
+                });
+                panels.forEach(function(p) {
+                    p.classList.toggle('hidden', p.id !== 'panel-' + tabId);
+                });
+            }
+            tabs.forEach(function(t) {
+                t.addEventListener('click', function() {
+                    showTab(t.getAttribute('data-tab'));
+                });
+            });
+        })();
+    </script>
+@endsection

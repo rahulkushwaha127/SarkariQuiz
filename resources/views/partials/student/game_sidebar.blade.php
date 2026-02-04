@@ -28,7 +28,9 @@
     </button>
 </div>
 
+@php $frontendMenu = $frontendMenu ?? []; @endphp
 <nav class="mt-5 space-y-1">
+    @if($frontendMenu['home'] ?? true)
     <a href="{{ route('public.home') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('public.home') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +38,9 @@
         </svg>
         Home
     </a>
+    @endif
 
+    @if($frontendMenu['exams'] ?? true)
     <a href="{{ route('public.exams.index') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('public.exams.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +48,9 @@
         </svg>
         Exams
     </a>
+    @endif
 
+    @if($frontendMenu['practice'] ?? true)
     @php $practiceUrl = route('practice'); @endphp
     <a href="{{ $practiceUrl }}"
        @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $practiceUrl }}" @endif
@@ -55,7 +61,9 @@
         </svg>
         Practice
     </a>
+    @endif
 
+    @if($frontendMenu['pyq'] ?? true)
     @php $pyqUrl = route('pyq.index'); @endphp
     <a href="{{ $pyqUrl }}"
        @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $pyqUrl }}" @endif
@@ -66,7 +74,9 @@
         </svg>
         PYQ Bank
     </a>
+    @endif
 
+    @if($frontendMenu['revision'] ?? true)
     @php $revisionUrl = route('revision'); @endphp
     <a href="{{ $revisionUrl }}"
        @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $revisionUrl }}" @endif
@@ -78,7 +88,9 @@
         </svg>
         Revision
     </a>
+    @endif
 
+    @if($frontendMenu['clubs'] ?? true)
     @php $clubsUrl = route('clubs.index'); @endphp
     <a href="{{ $clubsUrl }}"
        @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $clubsUrl }}" @endif
@@ -91,7 +103,9 @@
         </svg>
         Clubs
     </a>
+    @endif
 
+    @if($frontendMenu['notifications'] ?? true)
     @php $notificationsUrl = route('notifications.index'); @endphp
     <a href="{{ $notificationsUrl }}"
        @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $notificationsUrl }}" @endif
@@ -105,7 +119,9 @@
             <span class="ml-auto inline-flex min-w-6 justify-center bg-rose-500/80 px-2 py-0.5 text-xs font-bold text-white">{{ (int) $inAppUnreadCount }}</span>
         @endif
     </a>
+    @endif
 
+    @if($frontendMenu['public_contests'] ?? true)
     <a href="{{ route('public.contests.index') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('public.contests.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +129,9 @@
         </svg>
         Public Contests
     </a>
+    @endif
 
+    @if($frontendMenu['join_contest'] ?? true)
     @php $joinContestUrl = route('contests.join'); @endphp
     <a href="{{ $joinContestUrl }}"
        @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $joinContestUrl }}" @endif
@@ -123,7 +141,9 @@
         </svg>
         Join Contest
     </a>
+    @endif
 
+    @if($frontendMenu['daily_challenge'] ?? true)
     <a href="{{ route('public.daily') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('public.daily') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -132,7 +152,9 @@
         </svg>
         Daily Challenge
     </a>
+    @endif
 
+    @if($frontendMenu['leaderboard'] ?? true)
     <a href="{{ route('public.leaderboard', ['period' => 'daily']) }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('public.leaderboard') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -140,6 +162,7 @@
         </svg>
         Leaderboard
     </a>
+    @endif
 </nav>
 
 <div class="mt-5 border-t border-white/10 pt-4">

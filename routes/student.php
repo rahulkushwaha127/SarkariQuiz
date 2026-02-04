@@ -23,14 +23,17 @@ Route::middleware(['auth', 'role:student|guest'])->group(function () {
     Route::get('/play/{attempt}/result', [QuizPlayController::class, 'result'])->name('play.result');
 });
 
-// Student-only routes (require logged-in student role)
+// Student-only routes (require logged-in student role). Menu-enabled: direct URL access blocked when menu is disabled.
 Route::middleware(['auth', 'require_student'])->group(function () {
     // In-app notifications
-    Route::get('/notifications', [InAppNotificationsController::class, 'index'])->name('notifications.index');
-    Route::patch('/notifications/read-all', [InAppNotificationsController::class, 'markAllRead'])->name('notifications.read_all');
-    Route::patch('/notifications/{notification}/read', [InAppNotificationsController::class, 'markRead'])->name('notifications.read');
+    Route::middleware(['menu.enabled:notifications'])->group(function () {
+        Route::get('/notifications', [InAppNotificationsController::class, 'index'])->name('notifications.index');
+        Route::patch('/notifications/read-all', [InAppNotificationsController::class, 'markAllRead'])->name('notifications.read_all');
+        Route::patch('/notifications/{notification}/read', [InAppNotificationsController::class, 'markRead'])->name('notifications.read');
+    });
 
     // Clubs (human-led practice sessions)
+    Route::middleware(['menu.enabled:clubs'])->group(function () {
     Route::get('/clubs', [ClubsController::class, 'index'])->name('clubs.index');
     Route::get('/clubs/create', [ClubsController::class, 'create'])->name('clubs.create');
     Route::post('/clubs', [ClubsController::class, 'store'])->name('clubs.store');
@@ -54,32 +57,41 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     Route::post('/clubs/{club}/sessions/{session}/points', [ClubsController::class, 'addPoint'])->name('clubs.sessions.points');
     Route::patch('/clubs/{club}/sessions/{session}/end', [ClubsController::class, 'endSession'])->name('clubs.sessions.end');
     Route::get('/clubs/{club}/sessions/{session}/result', [ClubsController::class, 'sessionResult'])->name('clubs.sessions.result');
+    });
 
     // Practice
+    Route::middleware(['menu.enabled:practice'])->group(function () {
     Route::get('/practice', [PracticeController::class, 'index'])->name('practice');
     Route::post('/practice/start', [PracticeController::class, 'start'])->name('practice.start');
     Route::get('/practice/{attempt}/q/{number}', [PracticeController::class, 'question'])->name('practice.question');
     Route::post('/practice/{attempt}/q/{number}', [PracticeController::class, 'answer'])->name('practice.answer');
     Route::get('/practice/{attempt}/result', [PracticeController::class, 'result'])->name('practice.result');
+    });
 
     // PYQ (Previous Year Questions) practice
+    Route::middleware(['menu.enabled:pyq'])->group(function () {
     Route::get('/pyq', [PyqController::class, 'index'])->name('pyq.index');
     Route::post('/pyq/start', [PyqController::class, 'start'])->name('pyq.start');
     Route::get('/pyq/{attempt}/q/{number}', [PyqController::class, 'question'])->name('pyq.question');
     Route::post('/pyq/{attempt}/q/{number}', [PyqController::class, 'answer'])->name('pyq.answer');
     Route::get('/pyq/{attempt}/result', [PyqController::class, 'result'])->name('pyq.result');
+    });
 
     // Revision (bookmarks + mistakes)
+    Route::middleware(['menu.enabled:revision'])->group(function () {
     Route::get('/revision', [RevisionController::class, 'index'])->name('revision');
     Route::post('/revision/start', [RevisionController::class, 'start'])->name('revision.start');
     Route::post('/revision/from-quiz-attempt/{quizAttempt}/incorrect', [RevisionController::class, 'startFromQuizAttemptIncorrect'])->name('revision.from_quiz_attempt_incorrect');
     Route::post('/revision/from-practice-attempt/{practiceAttempt}/incorrect', [RevisionController::class, 'startFromPracticeAttemptIncorrect'])->name('revision.from_practice_attempt_incorrect');
     Route::post('/bookmarks/{question}/toggle', [RevisionController::class, 'toggleBookmark'])->name('bookmarks.toggle');
+    });
 
     // Join contest (private)
-    Route::get('/join-contest', [ContestController::class, 'joinForm'])->name('contests.join');
-    Route::post('/join-contest', [ContestController::class, 'join'])->name('contests.join.submit');
-    Route::get('/join-contest/{code}', [ContestController::class, 'joinByCode'])->name('contests.join.code');
-    Route::get('/my-contests/{contest}', [ContestController::class, 'show'])->name('contests.show');
+    Route::middleware(['menu.enabled:join_contest'])->group(function () {
+        Route::get('/join-contest', [ContestController::class, 'joinForm'])->name('contests.join');
+        Route::post('/join-contest', [ContestController::class, 'join'])->name('contests.join.submit');
+        Route::get('/join-contest/{code}', [ContestController::class, 'joinByCode'])->name('contests.join.code');
+        Route::get('/my-contests/{contest}', [ContestController::class, 'show'])->name('contests.show');
+    });
 });
 
