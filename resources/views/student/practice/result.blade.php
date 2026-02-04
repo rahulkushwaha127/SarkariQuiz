@@ -48,10 +48,13 @@
             </div>
 
             <div class="mt-3 flex flex-wrap gap-2">
+                @if($frontendMenu['practice'] ?? true)
                 <a href="{{ route('practice') }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Practice again
                 </a>
+                @endif
+                @if($frontendMenu['revision'] ?? true)
                 <form method="POST" action="{{ route('revision.from_practice_attempt_incorrect', $attempt) }}">
                     @csrf
                     <button type="submit" class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
@@ -62,6 +65,7 @@
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Revision
                 </a>
+                @endif
                 <a href="{{ route('public.home') }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Home
@@ -83,10 +87,11 @@
                        class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                         Share on Telegram
                     </a>
-                    <a href="{{ $shareUrl }}" target="_blank" rel="noopener"
-                       class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                    <button type="button"
+                            data-copy-text="{{ $shareUrl }}"
+                            class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                         Copy link
-                    </a>
+                    </button>
                 </div>
             @endif
         </div>
@@ -108,13 +113,13 @@
                     </div>
 
                     <div class="mt-3 flex items-center justify-between gap-3">
-                        <form method="POST" action="{{ route('bookmarks.toggle', $q) }}">
-                            @csrf
-                            <button type="submit"
-                                    class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
-                                {{ $isBookmarked ? 'Unbookmark' : 'Bookmark' }}
-                            </button>
-                        </form>
+                                <form method="POST" action="{{ route('bookmarks.toggle', $q) }}" class="bookmark-toggle-form">
+                                    @csrf
+                                    <button type="submit"
+                                            class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
+                                        {{ $isBookmarked ? 'Unbookmark' : 'Bookmark' }}
+                                    </button>
+                                </form>
                         <div class="text-xs text-slate-400">Revision</div>
                     </div>
 

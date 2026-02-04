@@ -64,6 +64,8 @@ Route::get('/', function () {
     return app(DashboardController::class)->index();
 })->name('public.home');
 
+Route::get('/quizzes-load', [DashboardController::class, 'quizzesLoadMore'])->name('public.quizzes.load');
+
 Route::get('/c/{username}', [CreatorPublicController::class, 'show'])->name('public.creators.show');
 
 // Public browsing (always use student UI). Menu-enabled: direct URL access blocked when menu is disabled.

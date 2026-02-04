@@ -64,19 +64,27 @@ class RevisionController extends Controller
 
         if ($existing) {
             $existing->delete();
-            return back()->with('status', 'Removed bookmark.');
+            $nowBookmarked = false;
+        } else {
+            try {
+                QuestionBookmark::query()->create([
+                    'user_id' => $userId,
+                    'question_id' => $question->id,
+                ]);
+            } catch (\Throwable $e) {
+                // ignore duplicates/race
+            }
+            $nowBookmarked = true;
         }
 
-        try {
-            QuestionBookmark::query()->create([
-                'user_id' => $userId,
-                'question_id' => $question->id,
+        if ($request->header('X-Requested-With') === 'XMLHttpRequest') {
+            return response()->json([
+                'bookmarked' => $nowBookmarked,
+                'label' => $nowBookmarked ? 'Unbookmark' : 'Bookmark',
             ]);
-        } catch (\Throwable $e) {
-            // ignore duplicates/race
         }
 
-        return back()->with('status', 'Bookmarked.');
+        return back()->with('status', $nowBookmarked ? 'Bookmarked.' : 'Removed bookmark.');
     }
 
     public function start(Request $request)

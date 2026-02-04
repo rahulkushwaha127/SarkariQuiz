@@ -4,8 +4,13 @@ namespace App\Http\Controllers\Public;
 
 use App\Http\Controllers\Controller;
 use App\Models\PracticeAttempt;
+use App\Models\PracticeAttemptAnswer;
+use App\Models\Question;
+use App\Models\QuestionBookmark;
 use App\Models\QuizAttempt;
+use App\Models\QuizAttemptAnswer;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ShareController extends Controller
 {
@@ -17,10 +22,59 @@ class ShareController extends Controller
             abort(404);
         }
 
-        return view('public.share.show', [
+        $attempt->load('user');
+        $isOwner = Auth::check() && (int) $attempt->user_id === (int) Auth::id();
+
+        if ($type === 'quiz') {
+            $attempt->load(['quiz', 'contest']);
+            $answers = QuizAttemptAnswer::query()
+                ->where('attempt_id', $attempt->id)
+                ->get()
+                ->keyBy('question_id');
+            $questions = $attempt->quiz->questions()
+                ->with(['answers' => fn ($q) => $q->orderBy('position')])
+                ->orderByPivot('position')
+                ->get();
+        } else {
+            $attempt->load(['exam', 'subject', 'topic']);
+            $slots = PracticeAttemptAnswer::query()
+                ->where('attempt_id', $attempt->id)
+                ->orderBy('position')
+                ->get()
+                ->keyBy('question_id');
+            $questionIds = $slots->keys()->all();
+            $questions = Question::query()
+                ->whereIn('id', $questionIds)
+                ->with(['answers' => fn ($q) => $q->orderBy('position')])
+                ->get()
+                ->keyBy('id');
+            $orderedQuestions = collect();
+            foreach ($questionIds as $qid) {
+                if ($questions->has($qid)) {
+                    $orderedQuestions->push($questions->get($qid));
+                }
+            }
+            $questions = $orderedQuestions;
+            $answers = $slots;
+        }
+
+        $questionIds = $questions->pluck('id')->all();
+        $bookmarkedIds = Auth::check()
+            ? QuestionBookmark::query()
+                ->where('user_id', Auth::id())
+                ->whereIn('question_id', $questionIds)
+                ->pluck('question_id')
+                ->map(fn ($v) => (int) $v)
+                ->all()
+            : [];
+
+        return view('student.share.result', [
             'type' => $type,
             'attempt' => $attempt,
-            'code' => $code,
+            'questions' => $questions,
+            'answers' => $answers,
+            'bookmarkedIds' => $bookmarkedIds,
+            'isOwner' => $isOwner,
         ]);
     }
 

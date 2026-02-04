@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Student;
 
 use App\Http\Controllers\Controller;
 use App\Models\Answer;
-use App\Models\Exam;
 use App\Models\PracticeAttempt;
 use App\Models\PracticeAttemptAnswer;
 use App\Models\Question;
@@ -23,7 +22,6 @@ class PracticeController extends Controller
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);
 
-        $examId = $request->integer('exam_id') ?: null;
         $subjectId = $request->integer('subject_id') ?: null;
         $topicId = $request->integer('topic_id') ?: null;
         $difficulty = $request->string('difficulty')->toString();
@@ -31,25 +29,13 @@ class PracticeController extends Controller
             $difficulty = '';
         }
 
-        $exams = Exam::query()
+        $subjects = Subject::query()
             ->where('is_active', true)
             ->orderBy('position')
             ->orderBy('name')
             ->get(['id', 'name']);
 
-        $subjects = collect();
-        if ($examId) {
-            $subjects = Subject::query()
-                ->where('exam_id', $examId)
-                ->where('is_active', true)
-                ->orderBy('position')
-                ->orderBy('name')
-                ->get(['id', 'name']);
-
-            if ($subjectId && !$subjects->firstWhere('id', $subjectId)) {
-                $subjectId = null;
-            }
-        } else {
+        if ($subjectId && !$subjects->firstWhere('id', $subjectId)) {
             $subjectId = null;
         }
 
@@ -69,7 +55,26 @@ class PracticeController extends Controller
             $topicId = null;
         }
 
-        return view('student.practice.index', compact('exams', 'subjects', 'topics', 'examId', 'subjectId', 'topicId', 'difficulty'));
+        return view('student.practice.index', compact('subjects', 'topics', 'subjectId', 'topicId', 'difficulty'));
+    }
+
+    public function topicsBySubject(Request $request)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+
+        $subjectId = $request->integer('subject_id');
+        if (!$subjectId) {
+            return response()->json(['topics' => []]);
+        }
+
+        $topics = Topic::query()
+            ->where('subject_id', $subjectId)
+            ->where('is_active', true)
+            ->orderBy('position')
+            ->orderBy('name')
+            ->get(['id', 'name']);
+
+        return response()->json(['topics' => $topics]);
     }
 
     public function start(Request $request)
@@ -77,43 +82,46 @@ class PracticeController extends Controller
         abort_unless(Auth::user()?->hasRole('student'), 403);
 
         $data = $request->validate([
-            'topic_id' => ['required', 'integer', 'exists:topics,id'],
+            'topic_id' => ['nullable', 'integer', 'exists:topics,id'],
             'difficulty' => ['nullable', 'string', 'in:easy,medium,hard'],
             'count' => ['nullable', 'integer', 'min:5', 'max:25'],
         ]);
 
-        $topic = Topic::query()
-            ->where('id', $data['topic_id'])
-            ->where('is_active', true)
-            ->with('subject.exam')
-            ->firstOrFail();
-
+        $topicId = isset($data['topic_id']) && (int) $data['topic_id'] > 0 ? (int) $data['topic_id'] : null;
         $difficulty = $data['difficulty'] ?? null;
         $count = (int) ($data['count'] ?? 10);
 
-        // Pick random questions from published + public quizzes in this topic (optionally filtered by difficulty).
-        $questionIds = DB::table('quiz_question as qq')
-            ->join('quizzes as q', 'q.id', '=', 'qq.quiz_id')
-            ->where('q.status', 'published')
-            ->where('q.is_public', true)
-            ->where('q.topic_id', $topic->id)
-            ->when($difficulty, fn ($q) => $q->where('q.difficulty', $difficulty))
-            ->inRandomOrder()
+        // Practice uses the question bank directly: random from all questions, or filtered by topic when selected.
+        $query = Question::query()
+            ->whereExists(function ($q) {
+                $q->select(DB::raw(1))
+                    ->from('answers')
+                    ->whereColumn('answers.question_id', 'questions.id');
+            })
+            ->when($topicId, fn ($q) => $q->where('topic_id', $topicId));
+
+        $questionIds = $query->inRandomOrder()
             ->limit($count)
-            ->pluck('qq.question_id')
+            ->pluck('id')
             ->all();
 
         if (count($questionIds) === 0) {
             return redirect()
                 ->route('practice')
-                ->withErrors(['practice' => 'No questions found for this topic/difficulty yet.']);
+                ->withErrors(['practice' => $topicId
+                    ? 'No questions found for this topic yet.'
+                    : 'No questions in the question bank yet.']);
         }
+
+        $topic = $topicId
+            ? Topic::query()->where('id', $topicId)->where('is_active', true)->with('subject.exam')->first()
+            : null;
 
         $attempt = PracticeAttempt::create([
             'user_id' => Auth::id(),
-            'exam_id' => $topic->subject?->exam_id,
-            'subject_id' => $topic->subject_id,
-            'topic_id' => $topic->id,
+            'exam_id' => $topic?->subject?->exam_id,
+            'subject_id' => $topic?->subject_id,
+            'topic_id' => $topicId,
             'difficulty' => $difficulty,
             'status' => 'in_progress',
             'started_at' => now(),

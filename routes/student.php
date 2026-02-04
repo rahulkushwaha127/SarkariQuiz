@@ -62,6 +62,7 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     // Practice
     Route::middleware(['menu.enabled:practice'])->group(function () {
     Route::get('/practice', [PracticeController::class, 'index'])->name('practice');
+    Route::get('/practice/topics-by-subject', [PracticeController::class, 'topicsBySubject'])->name('practice.topics_by_subject');
     Route::post('/practice/start', [PracticeController::class, 'start'])->name('practice.start');
     Route::get('/practice/{attempt}/q/{number}', [PracticeController::class, 'question'])->name('practice.question');
     Route::post('/practice/{attempt}/q/{number}', [PracticeController::class, 'answer'])->name('practice.answer');

@@ -26,14 +26,18 @@
             </div>
 
             <div class="mt-3 flex flex-wrap gap-2">
+                @if($frontendMenu['pyq'] ?? true)
                 <a href="{{ route('pyq.index') }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     PYQ again
                 </a>
+                @endif
+                @if($frontendMenu['practice'] ?? true)
                 <a href="{{ route('practice') }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Practice
                 </a>
+                @endif
                 <a href="{{ route('public.home') }}"
                    class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
                     Home

@@ -211,10 +211,81 @@ class QuizPlayController extends Controller
 
         if ($action === 'finish' || $isLast) {
             $this->finishAttempt($attempt);
+            if ($request->header('X-Requested-With') === 'XMLHttpRequest') {
+                return $this->playResultFragment($attempt);
+            }
             return redirect()->route('play.result', $attempt);
         }
 
+        if ($request->header('X-Requested-With') === 'XMLHttpRequest') {
+            return $this->playQuestionFragment($attempt, $number + 1);
+        }
         return redirect()->route('play.question', [$attempt, $number + 1]);
+    }
+
+    /**
+     * Return HTML fragment for next question (for no-refresh play).
+     */
+    private function playQuestionFragment(QuizAttempt $attempt, int $number)
+    {
+        $attempt->load('quiz');
+        $total = (int) ($attempt->total_questions ?: $attempt->quiz->questions()->count());
+        if ($number < 1) {
+            $number = 1;
+        }
+        if ($number > $total) {
+            $number = $total;
+        }
+        $question = $attempt->quiz->questions()->orderByPivot('position')->skip($number - 1)->first();
+        abort_unless($question !== null, 404);
+        $question->load('answers');
+
+        $existing = QuizAttemptAnswer::query()
+            ->where('attempt_id', $attempt->id)
+            ->where('question_id', $question->id)
+            ->first();
+
+        $deadline = $attempt->started_at->copy()->addSeconds($attempt->duration_seconds);
+
+        $html = view('student.play._question_content', [
+            'attempt' => $attempt,
+            'questionNumber' => $number,
+            'totalQuestions' => $total,
+            'question' => $question,
+            'selectedAnswerId' => $existing?->answer_id,
+            'deadlineIso' => $deadline->toIso8601String(),
+        ])->render();
+
+        return response($html, 200, ['Content-Type' => 'text/html; charset=UTF-8']);
+    }
+
+    /**
+     * Return HTML fragment for result (for no-refresh play).
+     */
+    private function playResultFragment(QuizAttempt $attempt)
+    {
+        $attempt->load(['quiz', 'contest']);
+        $answers = QuizAttemptAnswer::query()
+            ->where('attempt_id', $attempt->id)
+            ->get()
+            ->keyBy('question_id');
+
+        $questions = $attempt->quiz->questions()
+            ->with(['answers' => fn ($q) => $q->orderBy('position')])
+            ->orderByPivot('position')
+            ->get();
+
+        $questionIds = $questions->pluck('id')->all();
+        $bookmarkedIds = QuestionBookmark::query()
+            ->where('user_id', Auth::id())
+            ->whereIn('question_id', $questionIds)
+            ->pluck('question_id')
+            ->map(fn ($v) => (int) $v)
+            ->all();
+
+        $html = view('student.play._result_content', compact('attempt', 'questions', 'answers', 'bookmarkedIds'))->render();
+
+        return response($html, 200, ['Content-Type' => 'text/html; charset=UTF-8']);
     }
 
     public function result(Request $request, QuizAttempt $attempt)

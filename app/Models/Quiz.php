@@ -25,6 +25,7 @@ class Quiz extends Model
         'language',
         'mode',
         'status',
+        'is_auto_generated',
     ];
 
     protected $casts = [
@@ -32,6 +33,7 @@ class Quiz extends Model
         'is_featured' => 'boolean',
         'featured_at' => 'datetime',
         'difficulty' => 'integer',
+        'is_auto_generated' => 'boolean',
     ];
 
     protected static function booted(): void

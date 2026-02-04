@@ -33,9 +33,10 @@
 <div style="max-width: 680px; margin: 0 auto; padding: 18px 14px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;">
     <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; border-bottom:1px solid #ddd; padding-bottom:10px;">
         <div><strong>{{ $siteName ?? config('app.name', 'QuizWhiz') }}</strong></div>
+        @php $frontendMenu = $frontendMenu ?? []; @endphp
         <div style="display:flex; gap:10px; flex-wrap:wrap;">
-            <a href="{{ route('public.daily') }}">Daily</a>
-            <a href="{{ route('public.leaderboard') }}">Leaderboard</a>
+            @if($frontendMenu['daily_challenge'] ?? true)<a href="{{ route('public.daily') }}">Daily</a>@endif
+            @if($frontendMenu['leaderboard'] ?? true)<a href="{{ route('public.leaderboard') }}">Leaderboard</a>@endif
             <a href="{{ route('login') }}">Login</a>
         </div>
     </div>

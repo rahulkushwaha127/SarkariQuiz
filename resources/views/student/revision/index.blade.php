@@ -60,7 +60,7 @@
                             $q = $b->question;
                             $quiz = $q?->quizzes?->first();
                         @endphp
-                        <div class="border-b border-white/10 px-4 py-3 last:border-b-0">
+                        <div class="revision-bookmark-card border-b border-white/10 px-4 py-3 last:border-b-0">
                             <div class="text-xs text-slate-400">
                                 {{ $quiz?->title ?? 'Quiz' }}
                             </div>
@@ -70,7 +70,7 @@
 
                             <div class="mt-3 flex flex-wrap gap-2">
                                 @if($q)
-                                    <form method="POST" action="{{ route('bookmarks.toggle', $q) }}">
+                                    <form method="POST" action="{{ route('bookmarks.toggle', $q) }}" class="bookmark-toggle-form" data-remove-on-unbookmark="1">
                                         @csrf
                                         <button type="submit"
                                                 class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
@@ -111,7 +111,7 @@
                             </div>
 
                             <div class="mt-3 flex flex-wrap gap-2">
-                                <form method="POST" action="{{ route('bookmarks.toggle', $q) }}">
+                                <form method="POST" action="{{ route('bookmarks.toggle', $q) }}" class="bookmark-toggle-form">
                                     @csrf
                                     <button type="submit"
                                             class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">

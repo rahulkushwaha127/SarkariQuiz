@@ -35,7 +35,7 @@
     <div class="border border-white/10 bg-white/5 p-4">
         <form method="GET" action="{{ route('public.leaderboard') }}" class="flex items-center gap-2">
             <input type="hidden" name="period" value="{{ $period }}">
-            <select name="exam_id" class="flex-1 border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+            <select name="exam_id" class="student-select flex-1 rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                 <option value="">All exams</option>
                 @foreach(($exams ?? collect()) as $e)
                     <option value="{{ $e->id }}" @selected((int)($examId ?? 0) === (int)$e->id)>{{ $e->name }}</option>

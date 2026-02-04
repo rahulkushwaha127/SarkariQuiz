@@ -141,6 +141,52 @@ document.addEventListener('DOMContentLoaded', () => {
     if (shouldOpen) openAuthModal(window.location.href);
 });
 
+// Bookmark toggle via AJAX (no page refresh)
+document.addEventListener('submit', (e) => {
+    const form = e.target;
+    if (!form || form.tagName !== 'FORM') return;
+    if (!form.classList.contains('bookmark-toggle-form') && !(form.getAttribute('action') || '').includes('bookmarks')) return;
+
+    e.preventDefault();
+    const btn = form.querySelector('button[type="submit"]');
+    const removeOnUnbookmark = form.getAttribute('data-remove-on-unbookmark') === '1' || form.getAttribute('data-remove-on-unbookmark') === 'true';
+    const card = removeOnUnbookmark ? form.closest('.revision-bookmark-card, .border-b') : null;
+    const originalText = btn ? btn.textContent : '';
+
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = '…';
+    }
+
+    fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: {
+            'X-Requested-With': 'XMLHttpRequest',
+            'Accept': 'application/json',
+        },
+    })
+        .then((r) => r.json())
+        .then((data) => {
+            if (btn) {
+                btn.disabled = false;
+                btn.textContent = data.label != null ? data.label : originalText;
+            }
+            if (removeOnUnbookmark && data.bookmarked === false && card) {
+                card.style.transition = 'opacity 0.2s';
+                card.style.opacity = '0';
+                setTimeout(() => card.remove(), 220);
+            }
+        })
+        .catch(() => {
+            if (btn) {
+                btn.disabled = false;
+                btn.textContent = originalText;
+            }
+            form.submit();
+        });
+});
+
 // Quiz countdown timer (optional)
 function formatTime(seconds) {
     const s = Math.max(0, Math.floor(seconds));
@@ -149,7 +195,14 @@ function formatTime(seconds) {
     return `${m}:${String(r).padStart(2, '0')}`;
 }
 
+let quizTimerIntervalId = null;
+
 function initQuizTimer() {
+    if (quizTimerIntervalId !== null) {
+        clearInterval(quizTimerIntervalId);
+        quizTimerIntervalId = null;
+    }
+
     const el = document.querySelector('[data-quiz-deadline-iso]');
     if (!el) return;
 
@@ -164,7 +217,6 @@ function initQuizTimer() {
         el.textContent = formatTime(left);
 
         if (left <= 0) {
-            // Auto-submit the page form if present (server will handle expiry too)
             const form = document.querySelector('[data-quiz-autosubmit="true"]');
             if (form && form instanceof HTMLFormElement) {
                 form.submit();
@@ -173,9 +225,10 @@ function initQuizTimer() {
     };
 
     tick();
-    window.setInterval(tick, 500);
+    quizTimerIntervalId = window.setInterval(tick, 500);
 }
 
+window.initQuizTimer = initQuizTimer;
 document.addEventListener('DOMContentLoaded', initQuizTimer);
 
 // Generic countdown (e.g., contest start)

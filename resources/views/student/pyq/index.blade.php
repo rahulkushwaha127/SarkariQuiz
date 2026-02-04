@@ -20,7 +20,7 @@
                 <div>
                     <label class="text-sm font-semibold text-white/90">Exam</label>
                     <select name="exam_id"
-                            class="mt-1 w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                            class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                         <option value="">Select exam…</option>
                         @foreach($exams as $e)
                             <option value="{{ $e->id }}" @selected((int)$examId === (int)$e->id)>{{ $e->name }}</option>
@@ -31,7 +31,7 @@
                 <div>
                     <label class="text-sm font-semibold text-white/90">Subject (optional)</label>
                     <select name="subject_id"
-                            class="mt-1 w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                            class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                         <option value="">All subjects…</option>
                         @foreach($subjects as $s)
                             <option value="{{ $s->id }}" @selected((int)$subjectId === (int)$s->id)>{{ $s->name }}</option>
@@ -42,7 +42,7 @@
                 <div>
                     <label class="text-sm font-semibold text-white/90">Topic (optional)</label>
                     <select name="topic_id"
-                            class="mt-1 w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                            class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                         <option value="">All topics…</option>
                         @foreach($topics as $t)
                             <option value="{{ $t->id }}" @selected((int)$topicId === (int)$t->id)>{{ $t->name }}</option>
@@ -53,7 +53,7 @@
                 <div>
                     <label class="text-sm font-semibold text-white/90">Year (optional)</label>
                     <select name="year"
-                            class="mt-1 w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                            class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                         <option value="">All years…</option>
                         @foreach(($years ?? []) as $y)
                             <option value="{{ (int) $y }}" @selected((int)$year === (int)$y)>{{ (int) $y }}</option>
@@ -84,7 +84,7 @@
                 <div class="grid grid-cols-2 gap-2">
                     <div>
                         <label class="text-sm font-semibold text-white/90">Questions</label>
-                        <select name="count" class="mt-1 w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                        <select name="count" class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                             @foreach([10, 15, 20, 25, 30] as $c)
                                 <option value="{{ $c }}">{{ $c }}</option>
                             @endforeach
@@ -92,7 +92,7 @@
                     </div>
                     <div>
                         <label class="text-sm font-semibold text-white/90">Timer</label>
-                        <select name="time_mode" class="mt-1 w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                        <select name="time_mode" class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                             <option value="per_question">Per question</option>
                             <option value="total">Total time</option>
                         </select>
@@ -102,7 +102,7 @@
                 <div class="grid grid-cols-2 gap-2">
                     <div>
                         <label class="text-sm font-semibold text-white/90">Seconds / question</label>
-                        <select name="per_question_seconds" class="mt-1 w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                        <select name="per_question_seconds" class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                             @foreach([20, 30, 45, 60] as $s)
                                 <option value="{{ $s }}" @selected($s === 30)>{{ $s }}s</option>
                             @endforeach
@@ -110,7 +110,7 @@
                     </div>
                     <div>
                         <label class="text-sm font-semibold text-white/90">Total minutes</label>
-                        <select name="total_minutes" class="mt-1 w-full border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-white">
+                        <select name="total_minutes" class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
                             @foreach([5, 10, 15, 20, 30] as $m)
                                 <option value="{{ $m }}">{{ $m }} min</option>
                             @endforeach

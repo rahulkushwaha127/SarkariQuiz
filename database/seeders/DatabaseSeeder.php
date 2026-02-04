@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         $this->call(RolesAndPermissionsSeeder::class);
         $this->call(DemoUsersSeeder::class);
         $this->call(DemoTaxonomySeeder::class);
-        $this->call(DemoQuizzesSeeder::class);
+        // $this->call(DemoQuizzesSeeder::class);
         $this->call(DemoPyqSeeder::class);
     }
 }

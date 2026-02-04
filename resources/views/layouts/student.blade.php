@@ -32,6 +32,17 @@
         .phone-scroll::-webkit-scrollbar-thumb:hover {
             background: rgba(148, 163, 184, 0.55);
         }
+
+        /* Dark dropdowns: high-contrast (same as practice page) */
+        .student-select {
+            color-scheme: dark;
+            background-color: rgb(30 41 59) !important;
+            color: rgb(241 245 249) !important;
+        }
+        .student-select option {
+            background-color: rgb(30 41 59);
+            color: rgb(241 245 249);
+        }
     </style>
 </head>
 <body class="min-h-screen bg-slate-950 text-slate-100">
@@ -77,6 +88,7 @@
                 <div class="text-base font-semibold tracking-tight">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
 
                 <div class="flex items-center gap-2">
+                    @if($frontendMenu['notifications'] ?? true)
                     @php $notificationsUrl = route('notifications.index'); @endphp
                     <a href="{{ $notificationsUrl }}"
                        @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $notificationsUrl }}" @endif
@@ -92,6 +104,7 @@
                             </span>
                         @endif
                     </a>
+                    @endif
                 </div>
             </div>
 

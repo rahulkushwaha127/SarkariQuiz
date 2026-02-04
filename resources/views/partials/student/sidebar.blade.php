@@ -1,3 +1,4 @@
+@php $frontendMenu = $frontendMenu ?? []; @endphp
 <aside class="w-full lg:w-64 lg:shrink-0">
     <div class="flex items-center justify-between px-3 pb-3 lg:hidden">
         <div class="text-sm font-semibold text-slate-900">Menu</div>
@@ -20,26 +21,36 @@
                 Dashboard
             </a>
 
+            @if($frontendMenu['join_contest'] ?? true)
             <a href="{{ route('contests.join') }}"
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
                {{ request()->routeIs('contests.*') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
                 <span class="h-2 w-2 rounded-full {{ request()->routeIs('contests.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
                 Join Contest
             </a>
+            @endif
 
+            @if(($frontendMenu['daily_challenge'] ?? true) || ($frontendMenu['leaderboard'] ?? true))
             <div class="pt-2">
-                <div class="px-3 pb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">Coming next</div>
+                <div class="px-3 pb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">More</div>
                 <div class="space-y-1">
-                    <div class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm text-slate-400">
-                        <span class="h-2 w-2 rounded-full bg-slate-200"></span>
+                    @if($frontendMenu['daily_challenge'] ?? true)
+                    <a href="{{ route('public.daily') }}"
+                       class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium {{ request()->routeIs('public.daily') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                        <span class="h-2 w-2 rounded-full {{ request()->routeIs('public.daily') ? 'bg-white' : 'bg-slate-300' }}"></span>
                         Daily Challenge
-                    </div>
-                    <div class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm text-slate-400">
-                        <span class="h-2 w-2 rounded-full bg-slate-200"></span>
-                        Leaderboards
-                    </div>
+                    </a>
+                    @endif
+                    @if($frontendMenu['leaderboard'] ?? true)
+                    <a href="{{ route('public.leaderboard', ['period' => 'daily']) }}"
+                       class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium {{ request()->routeIs('public.leaderboard') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                        <span class="h-2 w-2 rounded-full {{ request()->routeIs('public.leaderboard') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                        Leaderboard
+                    </a>
+                    @endif
                 </div>
             </div>
+            @endif
         </nav>
     </div>
 </aside>

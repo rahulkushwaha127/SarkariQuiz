@@ -3,66 +3,77 @@
 @section('title', 'Play')
 
 @section('content')
-<div class="space-y-4">
-    <div class="border border-white/10 bg-white/5 p-4">
-        <div class="flex items-center justify-between gap-3">
-            <div class="text-sm font-semibold text-white">
-                Question {{ $questionNumber }} / {{ $totalQuestions }}
-            </div>
-            <div class="text-sm font-semibold text-amber-200">
-                <span data-quiz-deadline-iso="{{ $deadlineIso }}">--:--</span>
-            </div>
-        </div>
-        <div class="mt-3 text-base font-semibold text-white">
-            {!! nl2br(e($question->prompt)) !!}
-        </div>
-    </div>
-
-    <form method="POST"
-          action="{{ route('play.answer', [$attempt, $questionNumber]) }}"
-          class="space-y-2"
-          data-quiz-autosubmit="true">
-        @csrf
-
-        <div class="border border-white/10 bg-white/5">
-            @foreach(($question->answers ?? collect()) as $ans)
-                @php $checked = (int)($selectedAnswerId ?? 0) === (int)$ans->id; @endphp
-                <label class="flex cursor-pointer items-start gap-3 border-b border-white/10 px-4 py-3 last:border-b-0 hover:bg-white/5">
-                    <input type="radio"
-                           name="answer_id"
-                           value="{{ $ans->id }}"
-                           class="mt-1 h-4 w-4"
-                           {{ $checked ? 'checked' : '' }}>
-                    <div class="text-sm text-slate-100">
-                        {{ $ans->title }}
-                    </div>
-                </label>
-            @endforeach
-        </div>
-
-        <div class="flex items-center justify-between gap-3">
-            <div class="text-xs text-slate-400">
-                Leaving blank counts as unanswered.
-            </div>
-
-            @if ($questionNumber >= $totalQuestions)
-                <button type="submit"
-                        name="action"
-                        value="finish"
-                        class="bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
-                    Finish
-                </button>
-            @else
-                <button type="submit"
-                        name="action"
-                        value="next"
-                        class="bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
-                    Next
-                </button>
-            @endif
-        </div>
-    </form>
+<div id="play-content" class="space-y-4">
+    @include('student.play._question_content', [
+        'attempt' => $attempt,
+        'questionNumber' => $questionNumber,
+        'totalQuestions' => $totalQuestions,
+        'question' => $question,
+        'selectedAnswerId' => $selectedAnswerId ?? null,
+        'deadlineIso' => $deadlineIso,
+    ])
 </div>
+
+<script>
+(function() {
+    var container = document.getElementById('play-content');
+    if (!container) return;
+
+    container.addEventListener('submit', function(e) {
+        var form = e.target;
+        if (!form || form.tagName !== 'FORM' || !form.classList.contains('play-answer-form')) return;
+
+        e.preventDefault();
+
+        var submitBtn = form.querySelector('button[type="submit"]');
+        if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.textContent = submitBtn.textContent.trim() === 'Finish' ? 'Submitting…' : 'Loading…';
+        }
+
+        var body = new FormData(form);
+        var url = form.getAttribute('action');
+        var nextUrl = form.getAttribute('data-next-url') || '';
+
+        fetch(url, {
+            method: 'POST',
+            body: body,
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'Accept': 'text/html'
+            },
+            redirect: 'manual'
+        })
+        .then(function(r) {
+            if (r.type === 'opaqueredirect' || r.status === 302) {
+                var loc = r.headers.get('Location');
+                window.location.href = loc || url;
+                return;
+            }
+            if (!r.ok) {
+                window.location.href = url;
+                return;
+            }
+            return r.text();
+        })
+        .then(function(html) {
+            if (!html) return;
+            container.innerHTML = html;
+            var nextUrlEl = container.querySelector('[data-play-next-url]');
+            if (nextUrlEl) {
+                var u = nextUrlEl.getAttribute('data-play-next-url');
+                if (u && window.history && window.history.pushState) {
+                    window.history.pushState({}, '', u);
+                }
+            }
+            if (container.querySelector('[data-quiz-deadline-iso]') && typeof window.initQuizTimer === 'function') {
+                window.initQuizTimer();
+            }
+        })
+        .catch(function() {
+            window.location.href = url;
+        });
+    });
+})();
+</script>
 @endsection
-
-
