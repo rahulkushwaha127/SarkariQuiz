@@ -7,6 +7,7 @@ use App\Http\Controllers\Auth\AdminLoginController;
 use App\Http\Controllers\Auth\CreatorLoginController;
 use App\Http\Controllers\Auth\GoogleAuthController;
 use App\Http\Controllers\FcmTokenController;
+use App\Http\Controllers\Public\ContactController;
 use App\Http\Controllers\Public\CreatorPublicController;
 use App\Http\Controllers\Public\GuestPlayController;
 use App\Http\Controllers\Public\ShareController;
@@ -112,6 +113,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return app(StudentPagesController::class)->contact(request());
 })->name('public.pages.contact');
+Route::post('/contact', [ContactController::class, 'store'])->name('public.contact.store');
 
 Route::get('/privacy', function () {
     return app(StudentPagesController::class)->privacy(request());
@@ -120,6 +122,10 @@ Route::get('/privacy', function () {
 Route::get('/terms', function () {
     return app(StudentPagesController::class)->terms(request());
 })->name('public.pages.terms');
+
+Route::get('/cookie-policy', function () {
+    return app(StudentPagesController::class)->cookie(request());
+})->name('public.pages.cookie');
 
 Auth::routes();
 

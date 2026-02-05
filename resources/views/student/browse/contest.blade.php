@@ -12,10 +12,10 @@
                     Status: {{ $contest->status }} · Host: {{ $contest->creator?->name ?? '—' }}
                 </div>
                 @if($contest->starts_at)
-                    <div class="mt-1 text-xs text-slate-400">Starts: {{ $contest->starts_at->format('d M Y, H:i') }}</div>
+                    <div class="mt-1 text-xs text-slate-400">Starts: {{ $contest->starts_at->setTimezone(config('app.timezone'))->format('d M Y, H:i') }}</div>
                 @endif
                 @if($contest->ends_at)
-                    <div class="mt-1 text-xs text-slate-400">Ends: {{ $contest->ends_at->format('d M Y, H:i') }}</div>
+                    <div class="mt-1 text-xs text-slate-400">Ends: {{ $contest->ends_at->setTimezone(config('app.timezone'))->format('d M Y, H:i') }}</div>
                 @endif
                 @if($contest->quiz)
                     <div class="mt-1 text-xs text-slate-400">Quiz: {{ $contest->quiz->title }}</div>

@@ -66,11 +66,11 @@
                     </div>
                     <div>
                         <dt class="text-slate-500">Starts at</dt>
-                        <dd class="font-medium text-slate-900">{{ $contest->starts_at?->format('d M Y, H:i') ?? '—' }}</dd>
+                        <dd class="font-medium text-slate-900">{{ $contest->starts_at ? $contest->starts_at->setTimezone(config('app.timezone'))->format('d M Y, H:i') : '—' }}</dd>
                     </div>
                     <div>
                         <dt class="text-slate-500">Ends at</dt>
-                        <dd class="font-medium text-slate-900">{{ $contest->ends_at?->format('d M Y, H:i') ?? '—' }}</dd>
+                        <dd class="font-medium text-slate-900">{{ $contest->ends_at ? $contest->ends_at->setTimezone(config('app.timezone'))->format('d M Y, H:i') : '—' }}</dd>
                     </div>
                     <div>
                         <dt class="text-slate-500">Public listed</dt>

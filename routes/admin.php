@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\Taxonomy\ExamsController;
 use App\Http\Controllers\Admin\Taxonomy\SubjectsController;
 use App\Http\Controllers\Admin\Taxonomy\TopicsController;
 use App\Http\Controllers\Admin\UsersController;
+use App\Http\Controllers\Admin\ContactSubmissionsController;
 
 Route::middleware(['auth', 'role:super_admin'])
     ->prefix('admin')
@@ -38,6 +39,11 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::get('/inbox', [AdminInAppNotificationsController::class, 'index'])->name('inbox.index');
         Route::patch('/inbox/read-all', [AdminInAppNotificationsController::class, 'markAllRead'])->name('inbox.read_all');
         Route::patch('/inbox/{notification}/read', [AdminInAppNotificationsController::class, 'markRead'])->name('inbox.read');
+
+        Route::get('/contact-submissions', [ContactSubmissionsController::class, 'index'])->name('contact-submissions.index');
+        Route::get('/contact-submissions/{contactSubmission}', [ContactSubmissionsController::class, 'show'])->name('contact-submissions.show');
+        Route::patch('/contact-submissions/{contactSubmission}/read', [ContactSubmissionsController::class, 'markRead'])->name('contact-submissions.read');
+        Route::delete('/contact-submissions/{contactSubmission}', [ContactSubmissionsController::class, 'destroy'])->name('contact-submissions.destroy');
 
         Route::get('/notifications', [NotificationsController::class, 'index'])->name('notifications.index');
         Route::post('/notifications', [NotificationsController::class, 'send'])->name('notifications.send');

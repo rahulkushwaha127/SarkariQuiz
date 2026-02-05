@@ -8,6 +8,7 @@ use App\Http\Requests\UpdateContestRequest;
 use App\Models\Contest;
 use App\Models\ContestParticipant;
 use App\Models\Quiz;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
 class ContestController extends Controller
@@ -56,8 +57,8 @@ class ContestController extends Controller
             'join_mode' => $request->validated('join_mode'),
             'is_public_listed' => (bool) $request->validated('is_public_listed', false),
             'status' => $request->validated('status', 'draft'),
-            'starts_at' => $request->validated('starts_at'),
-            'ends_at' => $request->validated('ends_at'),
+            'starts_at' => $this->parseContestDateTime($request->validated('starts_at')),
+            'ends_at' => $this->parseContestDateTime($request->validated('ends_at')),
         ]);
 
         return redirect()
@@ -79,7 +80,7 @@ class ContestController extends Controller
         ]);
 
         $joinLink = $contest->join_code
-            ? url('/student/contests/join/' . $contest->join_code)
+            ? route('contests.join.code', ['code' => $contest->join_code])
             : null;
 
         return view('creator.contests.show', compact('contest', 'joinLink'));
@@ -114,8 +115,8 @@ class ContestController extends Controller
             'join_mode' => $request->validated('join_mode'),
             'is_public_listed' => (bool) $request->validated('is_public_listed', false),
             'status' => $request->validated('status', 'draft'),
-            'starts_at' => $request->validated('starts_at'),
-            'ends_at' => $request->validated('ends_at'),
+            'starts_at' => $this->parseContestDateTime($request->validated('starts_at')),
+            'ends_at' => $this->parseContestDateTime($request->validated('ends_at')),
         ]);
 
         // Ensure join code exists for link/code modes.
@@ -141,6 +142,20 @@ class ContestController extends Controller
         return redirect()
             ->route('creator.contests.index')
             ->with('status', 'Contest deleted.');
+    }
+
+    /**
+     * Parse datetime from form (datetime-local) as application timezone for storage.
+     */
+    private function parseContestDateTime(?string $value): ?string
+    {
+        if ($value === null || $value === '') {
+            return null;
+        }
+
+        $tz = config('app.timezone', 'UTC');
+
+        return Carbon::parse($value, $tz)->utc()->format('Y-m-d H:i:s');
     }
 }
 

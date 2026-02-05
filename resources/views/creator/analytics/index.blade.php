@@ -109,8 +109,8 @@
                                 <td class="py-3 pr-4">
                                     <div class="font-semibold text-slate-900">{{ $c->title }}</div>
                                     <div class="text-xs text-slate-500">
-                                        @if($c->starts_at) Starts: {{ $c->starts_at->format('d M, H:i') }} · @endif
-                                        @if($c->ends_at) Ends: {{ $c->ends_at->format('d M, H:i') }} @endif
+                                        @if($c->starts_at) Starts: {{ $c->starts_at->setTimezone(config('app.timezone'))->format('d M, H:i') }} · @endif
+                                        @if($c->ends_at) Ends: {{ $c->ends_at->setTimezone(config('app.timezone'))->format('d M, H:i') }} @endif
                                     </div>
                                 </td>
                                 <td class="py-3 pr-4">

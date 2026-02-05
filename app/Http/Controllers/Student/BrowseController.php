@@ -78,6 +78,7 @@ class BrowseController extends Controller
             ->where('contest_id', $contest->id)
             ->with('user')
             ->orderByDesc('score')
+            ->orderByRaw('time_taken_seconds IS NULL')
             ->orderBy('time_taken_seconds')
             ->limit(50)
             ->get();

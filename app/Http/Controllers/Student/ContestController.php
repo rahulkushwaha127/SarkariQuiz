@@ -96,7 +96,8 @@ class ContestController extends Controller
             ->where('contest_id', $contest->id)
             ->with('user')
             ->orderByDesc('score')
-            ->orderBy('joined_at')
+            ->orderByRaw('time_taken_seconds IS NULL')
+            ->orderBy('time_taken_seconds')
             ->limit(50)
             ->get();
 

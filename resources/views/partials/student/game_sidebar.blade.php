@@ -205,6 +205,14 @@
             </svg>
             Terms
         </a>
+
+        <a href="{{ route('public.pages.cookie') }}" class="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white/60 hover:bg-white/10">
+            <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20z" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 6v4M12 14h.01M8 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            Cookie Policy
+        </a>
     </div>
 
     @if($isLoggedIn)

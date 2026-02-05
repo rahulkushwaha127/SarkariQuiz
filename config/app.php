@@ -15,6 +15,8 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'contact_email' => env('CONTACT_EMAIL', 'quizeking001@gmail.com'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -60,12 +62,12 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may specify the default timezone for your application, which
-    | will be used by the PHP date and date-time functions. The timezone
-    | is set to "UTC" by default as it is suitable for most use cases.
+    | will be used by the PHP date and date-time functions. Set APP_TIMEZONE
+    | in your .env to match your system/server timezone (e.g. Asia/Kolkata).
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------

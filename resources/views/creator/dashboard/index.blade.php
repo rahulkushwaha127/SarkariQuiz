@@ -90,8 +90,8 @@
                                             <span class="ml-2">Participants: <span class="font-semibold text-slate-900">{{ (int) $c->participants_count }}</span></span>
                                         </div>
                                         <div class="mt-2 text-xs text-slate-600">
-                                            Starts: {{ $c->starts_at ? $c->starts_at->format('d M, H:i') : '—' }}
-                                            · Ends: {{ $c->ends_at ? $c->ends_at->format('d M, H:i') : '—' }}
+                                            Starts: {{ $c->starts_at ? $c->starts_at->setTimezone(config('app.timezone'))->format('d M, H:i') : '—' }}
+                                            · Ends: {{ $c->ends_at ? $c->ends_at->setTimezone(config('app.timezone'))->format('d M, H:i') : '—' }}
                                         </div>
                                     </div>
                                     <div class="shrink-0">
@@ -175,8 +175,8 @@
                                         @endif
                                     </div>
                                     <div class="mt-2 text-xs text-slate-600">
-                                        Starts: {{ $c->starts_at ? $c->starts_at->format('d M, H:i') : '—' }}
-                                        · Ends: {{ $c->ends_at ? $c->ends_at->format('d M, H:i') : '—' }}
+                                        Starts: {{ $c->starts_at ? $c->starts_at->setTimezone(config('app.timezone'))->format('d M, H:i') : '—' }}
+                                        · Ends: {{ $c->ends_at ? $c->ends_at->setTimezone(config('app.timezone'))->format('d M, H:i') : '—' }}
                                     </div>
                                 </div>
                                 <div class="shrink-0">

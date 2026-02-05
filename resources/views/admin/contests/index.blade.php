@@ -87,8 +87,8 @@
                             </td>
                             <td class="py-3 pr-4">{{ (int) $c->participants_count }}</td>
                             <td class="py-3 pr-4 text-xs text-slate-600">
-                                @if($c->starts_at) Starts: {{ $c->starts_at->format('d M, H:i') }}<br>@endif
-                                @if($c->ends_at) Ends: {{ $c->ends_at->format('d M, H:i') }} @endif
+                                @if($c->starts_at) Starts: {{ $c->starts_at->setTimezone(config('app.timezone'))->format('d M, H:i') }}<br>@endif
+                                @if($c->ends_at) Ends: {{ $c->ends_at->setTimezone(config('app.timezone'))->format('d M, H:i') }} @endif
                             </td>
                             <td class="py-3 pr-5 text-right">
                                 <div class="flex flex-wrap justify-end gap-2">

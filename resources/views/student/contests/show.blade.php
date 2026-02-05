@@ -13,10 +13,10 @@
             Host: {{ $contest->creator?->name ?? '—' }}
         </div>
         @if($contest->starts_at)
-            <div class="mt-1 text-xs text-slate-400">Starts: {{ $contest->starts_at->format('d M Y, H:i') }}</div>
+            <div class="mt-1 text-xs text-slate-400">Starts: {{ $contest->starts_at->setTimezone(config('app.timezone'))->format('d M Y, H:i') }}</div>
         @endif
         @if($contest->ends_at)
-            <div class="mt-1 text-xs text-slate-400">Ends: {{ $contest->ends_at->format('d M Y, H:i') }}</div>
+            <div class="mt-1 text-xs text-slate-400">Ends: {{ $contest->ends_at->setTimezone(config('app.timezone'))->format('d M Y, H:i') }}</div>
         @endif
         @if ($contest->quiz)
             <div class="mt-1 text-xs text-slate-400">Quiz: {{ $contest->quiz->title }}</div>
@@ -47,7 +47,7 @@
             </a>
         @elseif($notStarted && $contest->starts_at)
             <div class="mt-4 border border-white/10 bg-slate-950/30 px-4 py-3 text-sm text-slate-200">
-                Starts in: <span class="font-semibold text-white" data-countdown-to-iso="{{ $contest->starts_at->toIso8601String() }}">--:--</span>
+                Starts in: <span class="font-semibold text-white" data-countdown-to-iso="{{ $contest->starts_at->setTimezone(config('app.timezone'))->toIso8601String() }}">--:--</span>
             </div>
             <button type="button"
                     class="mt-3 w-full bg-white/10 px-4 py-3 text-sm font-semibold text-white/70"
