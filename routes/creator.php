@@ -11,6 +11,7 @@ use App\Http\Controllers\Creator\LeaderboardsController;
 use App\Http\Controllers\Creator\OutboundNotificationsController;
 use App\Http\Controllers\Creator\QuestionController;
 use App\Http\Controllers\Creator\QuizController;
+use App\Http\Controllers\Creator\QuizJsonImportController;
 use App\Http\Controllers\Creator\SettingsController;
 use App\Http\Controllers\Creator\TaxonomyController;
 
@@ -50,6 +51,10 @@ Route::middleware(['auth', 'role:creator|super_admin'])
 
         Route::get('quizzes/{quiz}/ai', [AiQuizGeneratorController::class, 'form'])->name('quizzes.ai.form');
         Route::post('quizzes/{quiz}/ai', [AiQuizGeneratorController::class, 'generate'])->name('quizzes.ai.generate');
+
+        Route::get('quizzes/{quiz}/json', [QuizJsonImportController::class, 'form'])->name('quizzes.json.form');
+        Route::post('quizzes/{quiz}/json/validate', [QuizJsonImportController::class, 'validateJson'])->name('quizzes.json.validate');
+        Route::post('quizzes/{quiz}/json/import', [QuizJsonImportController::class, 'import'])->name('quizzes.json.import');
 
         Route::get('settings', [SettingsController::class, 'index'])->name('settings.index');
         Route::post('settings', [SettingsController::class, 'update'])->name('settings.update');

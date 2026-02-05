@@ -37,6 +37,8 @@
                 <a class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
                    href="{{ route('creator.quizzes.questions.create', $quiz) }}">Add Questions Manually</a>
                 <a class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+                   href="{{ route('creator.quizzes.json.form', $quiz) }}">Add with JSON</a>
+                <a class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
                    href="{{ route('creator.quizzes.show', $quiz) }}">View Quiz</a>
             </div>
         </div>
