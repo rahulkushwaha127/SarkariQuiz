@@ -7,7 +7,7 @@ use App\Http\Requests\GenerateAiQuestionsRequest;
 use App\Models\Answer;
 use App\Models\Question;
 use App\Models\Quiz;
-use App\Services\Ai\OpenAiQuizGenerator;
+use App\Services\Ai\AiQuizGeneratorResolver;
 use App\Services\Ai\QuizJsonParser;
 use App\Services\Content\TextExtractors;
 use Illuminate\Support\Facades\Auth;
@@ -57,13 +57,16 @@ class AiQuizGeneratorController extends Controller
             mode: $quiz->mode,
         );
 
-        $apiKey = (string) config('services.openai.api_key');
-        $model = (string) config('services.openai.model');
-        if (! $apiKey) {
-            return back()->withErrors(['openai' => 'OPENAI_API_KEY is not configured.'])->withInput();
+        $user = Auth::user();
+        $provider = $user->default_ai_provider ?? 'openai';
+        $resolved = AiQuizGeneratorResolver::resolve($user, $provider);
+        if (empty($resolved['api_key'])) {
+            return back()->withErrors([
+                'openai' => 'No API key for ' . ucfirst($provider) . '. Set one in Creator Settings or ask admin to set ' . strtoupper($provider) . '_API_KEY.',
+            ])->withInput();
         }
 
-        $generator = new OpenAiQuizGenerator($apiKey, $model);
+        $generator = AiQuizGeneratorResolver::makeGenerator($user, $provider);
         $raw = $generator->generate($prompt, $imageDataUrl);
 
         $questions = QuizJsonParser::parseQuestions($raw);

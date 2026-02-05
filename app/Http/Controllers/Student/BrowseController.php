@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Contest;
 use App\Models\ContestParticipant;
 use App\Models\Exam;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Quiz;
 use App\Models\Subject;
 use Illuminate\Http\Request;
@@ -83,7 +84,15 @@ class BrowseController extends Controller
             ->limit(50)
             ->get();
 
-        return view('student.browse.contest', compact('contest', 'leaderboard'));
+        $isStudent = Auth::user()?->hasRole('student') ?? false;
+        $participant = $isStudent
+            ? ContestParticipant::query()
+                ->where('contest_id', $contest->id)
+                ->where('user_id', Auth::id())
+                ->first()
+            : null;
+
+        return view('student.browse.contest', compact('contest', 'leaderboard', 'isStudent', 'participant'));
     }
 
     public function quiz(Request $request, Quiz $quiz)

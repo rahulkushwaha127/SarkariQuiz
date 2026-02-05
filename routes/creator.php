@@ -11,6 +11,7 @@ use App\Http\Controllers\Creator\LeaderboardsController;
 use App\Http\Controllers\Creator\OutboundNotificationsController;
 use App\Http\Controllers\Creator\QuestionController;
 use App\Http\Controllers\Creator\QuizController;
+use App\Http\Controllers\Creator\SettingsController;
 use App\Http\Controllers\Creator\TaxonomyController;
 
 Route::middleware(['auth', 'role:creator|super_admin'])
@@ -39,12 +40,18 @@ Route::middleware(['auth', 'role:creator|super_admin'])
         Route::get('taxonomy/subjects/{subject}/topics', [TaxonomyController::class, 'topics'])->name('taxonomy.topics');
 
         Route::get('quizzes/{quiz}/questions/create', [QuestionController::class, 'create'])->name('quizzes.questions.create');
+        Route::get('quizzes/{quiz}/questions/existing', [QuestionController::class, 'indexExisting'])->name('quizzes.questions.existing');
         Route::post('quizzes/{quiz}/questions', [QuestionController::class, 'store'])->name('quizzes.questions.store');
+        Route::post('quizzes/{quiz}/questions/attach/{question}', [QuestionController::class, 'attachExisting'])->name('quizzes.questions.attach');
+        Route::post('quizzes/{quiz}/questions/attach-batch', [QuestionController::class, 'attachBatch'])->name('quizzes.questions.attach.batch');
         Route::get('quizzes/{quiz}/questions/{question}/edit', [QuestionController::class, 'edit'])->name('quizzes.questions.edit');
         Route::put('quizzes/{quiz}/questions/{question}', [QuestionController::class, 'update'])->name('quizzes.questions.update');
         Route::delete('quizzes/{quiz}/questions/{question}', [QuestionController::class, 'destroy'])->name('quizzes.questions.destroy');
 
         Route::get('quizzes/{quiz}/ai', [AiQuizGeneratorController::class, 'form'])->name('quizzes.ai.form');
         Route::post('quizzes/{quiz}/ai', [AiQuizGeneratorController::class, 'generate'])->name('quizzes.ai.generate');
+
+        Route::get('settings', [SettingsController::class, 'index'])->name('settings.index');
+        Route::post('settings', [SettingsController::class, 'update'])->name('settings.update');
     });
 

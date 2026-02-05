@@ -58,7 +58,7 @@
     <div>
         <label class="block text-sm font-medium text-slate-700">Starts at (optional)</label>
         <input name="starts_at" type="datetime-local"
-               value="{{ old('starts_at', $contest->starts_at ? $contest->starts_at->setTimezone(config('app.timezone'))->format('Y-m-d\\TH:i') : '') }}"
+               value="{{ old('starts_at', app_time($contest->starts_at)?->format('Y-m-d\\TH:i') ?? '') }}"
                class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('starts_at') border-red-300 @enderror" />
         @error('starts_at') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
     </div>
@@ -66,7 +66,7 @@
     <div>
         <label class="block text-sm font-medium text-slate-700">Ends at (optional)</label>
         <input name="ends_at" type="datetime-local"
-               value="{{ old('ends_at', $contest->ends_at ? $contest->ends_at->setTimezone(config('app.timezone'))->format('Y-m-d\\TH:i') : '') }}"
+               value="{{ old('ends_at', app_time($contest->ends_at)?->format('Y-m-d\\TH:i') ?? '') }}"
                class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('ends_at') border-red-300 @enderror" />
         @error('ends_at') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
     </div>

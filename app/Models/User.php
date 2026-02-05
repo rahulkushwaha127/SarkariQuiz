@@ -33,6 +33,11 @@ class User extends Authenticatable
         'coaching_contact',
         'coaching_website',
         'is_guest',
+        'openai_api_key',
+        'openai_model',
+        'gemini_api_key',
+        'anthropic_api_key',
+        'default_ai_provider',
     ];
 
     /**
@@ -43,6 +48,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password',
         'remember_token',
+        'openai_api_key',
+        'gemini_api_key',
+        'anthropic_api_key',
     ];
 
     /**

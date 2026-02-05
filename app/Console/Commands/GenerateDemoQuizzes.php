@@ -22,9 +22,9 @@ class GenerateDemoQuizzes extends Command
         $perQuiz = max(5, min(50, (int) $this->option('questions-per-quiz')));
         $refresh = (bool) $this->option('refresh');
 
-        $owner = User::query()->orderBy('id')->first();
+        $owner = User::role('super_admin')->first();
         if (! $owner) {
-            $this->error('No user found. Create at least one user (e.g. run seeders) before generating demo quizzes.');
+            $this->error('No super admin user found. Create a user with super_admin role (e.g. run seeders) before generating demo quizzes.');
             return self::FAILURE;
         }
 

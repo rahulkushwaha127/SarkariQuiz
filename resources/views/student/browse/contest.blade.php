@@ -31,6 +31,39 @@
                 Back
             </a>
         </div>
+
+        @php
+            $joinable = in_array($contest->status, ['scheduled', 'live'], true);
+            $canJoinByPublic = $joinable && in_array($contest->join_mode, ['public', 'link', 'code', 'whitelist'], true);
+        @endphp
+        @if($participant && $isStudent)
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+                <a href="{{ route('contests.show', $contest) }}"
+                   class="inline-flex items-center gap-2 bg-white/10 px-4 py-2.5 text-sm font-semibold text-white/90 hover:bg-white/15">
+                    Go to My Contest
+                </a>
+                @if($contest->quiz && !in_array($contest->status, ['ended','cancelled'], true) && (!$contest->starts_at || now()->greaterThanOrEqualTo($contest->starts_at)))
+                    <a href="{{ route('play.contest', $contest) }}"
+                       class="inline-flex items-center gap-2 bg-indigo-500 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-400">
+                        Play Now
+                    </a>
+                @endif
+            </div>
+        @elseif($canJoinByPublic)
+            <div class="mt-4">
+                @auth
+                    <a href="{{ route('contests.join.public', $contest) }}"
+                       class="inline-flex items-center gap-2 bg-indigo-500 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-400">
+                        Join contest
+                    </a>
+                @else
+                    <a href="{{ route('contests.join.public', $contest) }}"
+                       class="inline-flex items-center gap-2 bg-indigo-500 px-4 py-2.5 text-sm font-semibold text-white hover:bg-indigo-400">
+                        Sign in to join
+                    </a>
+                @endauth
+            </div>
+        @endif
     </div>
 
     <div class="border border-white/10 bg-white/5 p-4">

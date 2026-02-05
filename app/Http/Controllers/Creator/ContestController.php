@@ -145,7 +145,8 @@ class ContestController extends Controller
     }
 
     /**
-     * Parse datetime from form (datetime-local) as application timezone for storage.
+     * Parse datetime from form (datetime-local) in application timezone and store in same timezone
+     * so Laravel's datetime cast displays the saved time correctly.
      */
     private function parseContestDateTime(?string $value): ?string
     {
@@ -153,9 +154,9 @@ class ContestController extends Controller
             return null;
         }
 
-        $tz = config('app.timezone', 'UTC');
+        $tz = config('app.timezone', 'Asia/Kolkata');
 
-        return Carbon::parse($value, $tz)->utc()->format('Y-m-d H:i:s');
+        return Carbon::parse($value, $tz)->format('Y-m-d H:i:s');
     }
 }
 

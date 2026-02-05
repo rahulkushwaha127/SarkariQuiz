@@ -77,6 +77,51 @@ class ContestController extends Controller
         return redirect()->route('contests.join.code', strtoupper($data['code']));
     }
 
+    /**
+     * Join a contest from the public contest detail page (by contest id).
+     * For public join_mode: join directly. For link/code: redirect to join by code.
+     */
+    public function joinPublic(Contest $contest)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+
+        abort_unless((bool) $contest->is_public_listed, 404);
+
+        $contest->syncStatusFromSchedule();
+
+        if (in_array($contest->status, ['draft', 'ended', 'cancelled'], true)) {
+            return redirect()
+                ->route('public.contests.show', $contest)
+                ->withErrors(['join' => 'This contest is not accepting joins right now.']);
+        }
+
+        if ($contest->join_mode === 'public') {
+            ContestParticipant::query()->updateOrCreate(
+                ['contest_id' => $contest->id, 'user_id' => Auth::id()],
+                [
+                    'status' => 'joined',
+                    'joined_at' => now(),
+                ]
+            );
+
+            return redirect()
+                ->route('contests.show', $contest)
+                ->with('status', 'Joined contest.');
+        }
+
+        if (in_array($contest->join_mode, ['link', 'code'], true) && $contest->join_code) {
+            return redirect()->route('contests.join.code', $contest->join_code);
+        }
+
+        if ($contest->join_mode === 'whitelist' && $contest->join_code) {
+            return redirect()->route('contests.join.code', $contest->join_code);
+        }
+
+        return redirect()
+            ->route('public.contests.show', $contest)
+            ->withErrors(['join' => 'This contest cannot be joined from this page.']);
+    }
+
     public function show(Contest $contest)
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);

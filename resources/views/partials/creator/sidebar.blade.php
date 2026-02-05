@@ -53,6 +53,13 @@
                 Notify students
             </a>
 
+            <a href="{{ route('creator.settings.index') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('creator.settings.*') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('creator.settings.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Settings
+            </a>
+
             <div class="pt-2">
                 <div class="px-3 pb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">Insights</div>
                 <div class="space-y-1">

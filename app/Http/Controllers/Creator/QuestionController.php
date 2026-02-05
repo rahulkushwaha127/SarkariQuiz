@@ -8,6 +8,9 @@ use App\Http\Requests\UpdateQuestionRequest;
 use App\Models\Answer;
 use App\Models\Question;
 use App\Models\Quiz;
+use App\Models\Subject;
+use App\Models\Topic;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -19,7 +22,135 @@ class QuestionController extends Controller
 
         $question = new Question();
 
-        return view('creator.questions.create', compact('quiz', 'question'));
+        $myQuizzesForFilter = Quiz::query()
+            ->where('user_id', Auth::id())
+            ->orderBy('title')
+            ->get(['id', 'title']);
+        $subjectsForFilter = Subject::query()
+            ->where('is_active', true)
+            ->orderBy('name')
+            ->get(['id', 'name', 'exam_id']);
+        $topicsForFilter = Topic::query()
+            ->where('is_active', true)
+            ->orderBy('position')
+            ->orderBy('name')
+            ->get(['id', 'name', 'subject_id']);
+
+        return view('creator.questions.create', compact(
+            'quiz', 'question',
+            'myQuizzesForFilter', 'subjectsForFilter', 'topicsForFilter'
+        ));
+    }
+
+    /**
+     * JSON: list existing questions for "Load more" (same filters as create, paginated).
+     */
+    public function indexExisting(Request $request, Quiz $quiz)
+    {
+        abort_unless($quiz->user_id === Auth::id(), 403);
+
+        $alreadyInQuiz = DB::table('quiz_question')->where('quiz_id', $quiz->id)->pluck('question_id');
+        $query = Question::query()
+            ->whereNotIn('id', $alreadyInQuiz)
+            ->withCount('answers');
+
+        if (! Auth::user()->hasRole('super_admin')) {
+            $query->whereHas('quizzes', fn ($q) => $q->where('quizzes.user_id', Auth::id()));
+        }
+        if ($request->filled('search')) {
+            $query->where('prompt', 'like', '%' . $request->get('search') . '%');
+        }
+        if ($request->filled('from_quiz')) {
+            $query->whereHas('quizzes', fn ($q) => $q->where('quizzes.id', $request->get('from_quiz')));
+        }
+        if ($request->filled('subject_id')) {
+            $query->where('subject_id', $request->get('subject_id'));
+        }
+        if ($request->filled('topic_id')) {
+            $query->where('topic_id', $request->get('topic_id'));
+        }
+
+        $page = max(1, (int) $request->get('page', 1));
+        $perPage = 10;
+        $items = $query->orderByDesc('id')->skip(($page - 1) * $perPage)->take($perPage + 1)->get();
+        $hasMore = $items->count() > $perPage;
+        if ($hasMore) {
+            $items = $items->take($perPage);
+        }
+
+        $questions = $items->map(fn (Question $q) => [
+            'id' => $q->id,
+            'prompt' => \Illuminate\Support\Str::limit($q->prompt, 120),
+            'answers_count' => $q->answers_count,
+            'attach_url' => route('creator.quizzes.questions.attach', [$quiz, $q]),
+        ]);
+
+        return response()->json([
+            'questions' => $questions,
+            'has_more' => $hasMore,
+            'next_page' => $page + 1,
+        ]);
+    }
+
+    /**
+     * Add an existing question to this quiz (attach with next position).
+     */
+    public function attachExisting(Quiz $quiz, Question $question)
+    {
+        abort_unless($quiz->user_id === Auth::id(), 403);
+
+        if (! Auth::user()->hasRole('super_admin')) {
+            $allowed = $question->quizzes()->where('quizzes.user_id', Auth::id())->exists();
+            abort_unless($allowed, 403);
+        }
+
+        if ($quiz->questions()->where('questions.id', $question->id)->exists()) {
+            return redirect()
+                ->route('creator.quizzes.questions.create', $quiz)
+                ->with('status', 'That question is already in this quiz.');
+        }
+
+        $position = (int) DB::table('quiz_question')->where('quiz_id', $quiz->id)->max('position') + 1;
+        $quiz->questions()->attach($question->id, ['position' => $position]);
+
+        return redirect()
+            ->route('creator.quizzes.questions.create', $quiz)
+            ->with('status', 'Question added to quiz.');
+    }
+
+    /**
+     * Attach multiple existing questions to the quiz in one go (for "Save" from selected list).
+     */
+    public function attachBatch(Request $request, Quiz $quiz)
+    {
+        abort_unless($quiz->user_id === Auth::id(), 403);
+
+        $ids = $request->input('question_ids', []);
+        if (! is_array($ids)) {
+            $ids = [];
+        }
+        $ids = array_values(array_unique(array_filter(array_map('intval', $ids))));
+
+        $query = Question::query()->whereIn('id', $ids);
+        if (! Auth::user()->hasRole('super_admin')) {
+            $query->whereHas('quizzes', fn ($q) => $q->where('quizzes.user_id', Auth::id()));
+        }
+        $questions = $query->get();
+        $allowedIds = $questions->pluck('id')->all();
+
+        $existingInQuiz = DB::table('quiz_question')->where('quiz_id', $quiz->id)->pluck('question_id')->all();
+        $toAttach = array_diff($allowedIds, $existingInQuiz);
+        $basePosition = (int) DB::table('quiz_question')->where('quiz_id', $quiz->id)->max('position');
+
+        foreach (array_values($toAttach) as $i => $questionId) {
+            $quiz->questions()->attach($questionId, ['position' => $basePosition + $i + 1]);
+        }
+
+        return response()->json([
+            'ok' => true,
+            'attached' => count($toAttach),
+            'message' => count($toAttach) > 0 ? 'Questions added to quiz.' : 'No new questions to add.',
+        ]);
     }
 
     public function store(StoreQuestionRequest $request, Quiz $quiz)
@@ -45,6 +176,14 @@ class QuestionController extends Controller
                 'is_correct' => $i === $correctIndex,
                 'position' => $i,
             ]);
+        }
+
+        if ($request->wantsJson()) {
+            return response()->json([
+                'ok' => true,
+                'question_id' => $question->id,
+                'message' => 'Question added.',
+            ], 201);
         }
 
         return redirect()

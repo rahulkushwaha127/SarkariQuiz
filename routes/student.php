@@ -94,5 +94,7 @@ Route::middleware(['auth', 'require_student'])->group(function () {
         Route::get('/join-contest/{code}', [ContestController::class, 'joinByCode'])->name('contests.join.code');
         Route::get('/my-contests/{contest}', [ContestController::class, 'show'])->name('contests.show');
     });
+    // Join public contest by id (from public contest detail page)
+    Route::get('/contests/{contest}/join', [ContestController::class, 'joinPublic'])->name('contests.join.public');
 });
 
