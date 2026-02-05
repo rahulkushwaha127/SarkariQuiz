@@ -15,7 +15,7 @@ class CreatorPublicController extends Controller
         $creator = User::query()
             ->with('creatorProfile')
             ->where('username', $username)
-            ->whereHas('roles', fn ($q) => $q->where('name', 'creator'))
+            ->whereHas('roles', fn ($q) => $q->whereIn('name', ['creator', 'super_admin']))
             ->firstOrFail();
 
         $publicQuizzes = Quiz::query()

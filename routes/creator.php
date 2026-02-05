@@ -56,6 +56,8 @@ Route::middleware(['auth', 'role:creator|super_admin'])
         Route::post('quizzes/{quiz}/json/validate', [QuizJsonImportController::class, 'validateJson'])->name('quizzes.json.validate');
         Route::post('quizzes/{quiz}/json/import', [QuizJsonImportController::class, 'import'])->name('quizzes.json.import');
 
+        Route::get('profile', [\App\Http\Controllers\Creator\ProfileController::class, 'edit'])->name('profile.edit');
+        Route::post('profile', [\App\Http\Controllers\Creator\ProfileController::class, 'update'])->name('profile.update');
         Route::get('settings', [SettingsController::class, 'index'])->name('settings.index');
         Route::post('settings', [SettingsController::class, 'update'])->name('settings.update');
     });
