@@ -23,6 +23,8 @@ return new class extends Migration
             $table->string('coaching_city')->nullable();
             $table->string('coaching_contact')->nullable();
             $table->string('coaching_website')->nullable();
+
+            $table->unsignedBigInteger('plan_id')->nullable();
         });
     }
 
@@ -43,6 +45,7 @@ return new class extends Migration
                 'coaching_city',
                 'coaching_contact',
                 'coaching_website',
+                'plan_id',
             ]);
         });
     }

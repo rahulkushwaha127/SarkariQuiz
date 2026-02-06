@@ -55,7 +55,14 @@ class QuestionController extends Controller
             ->withCount('answers');
 
         if (! Auth::user()->hasRole('super_admin')) {
-            $query->whereHas('quizzes', fn ($q) => $q->where('quizzes.user_id', Auth::id()));
+            $plan = Auth::user()->activePlan();
+            $canAccessBank = $plan && $plan->can_access_question_bank;
+
+            if (! $canAccessBank) {
+                // Free plan: only own questions
+                $query->whereHas('quizzes', fn ($q) => $q->where('quizzes.user_id', Auth::id()));
+            }
+            // If can_access_question_bank is true, show all questions (shared bank)
         }
         if ($request->filled('search')) {
             $query->where('prompt', 'like', '%' . $request->get('search') . '%');
@@ -100,8 +107,13 @@ class QuestionController extends Controller
         abort_unless($quiz->user_id === Auth::id(), 403);
 
         if (! Auth::user()->hasRole('super_admin')) {
-            $allowed = $question->quizzes()->where('quizzes.user_id', Auth::id())->exists();
-            abort_unless($allowed, 403);
+            $plan = Auth::user()->activePlan();
+            $canAccessBank = $plan && $plan->can_access_question_bank;
+
+            if (! $canAccessBank) {
+                $allowed = $question->quizzes()->where('quizzes.user_id', Auth::id())->exists();
+                abort_unless($allowed, 403);
+            }
         }
 
         if ($quiz->questions()->where('questions.id', $question->id)->exists()) {
@@ -133,7 +145,12 @@ class QuestionController extends Controller
 
         $query = Question::query()->whereIn('id', $ids);
         if (! Auth::user()->hasRole('super_admin')) {
-            $query->whereHas('quizzes', fn ($q) => $q->where('quizzes.user_id', Auth::id()));
+            $plan = Auth::user()->activePlan();
+            $canAccessBank = $plan && $plan->can_access_question_bank;
+
+            if (! $canAccessBank) {
+                $query->whereHas('quizzes', fn ($q) => $q->where('quizzes.user_id', Auth::id()));
+            }
         }
         $questions = $query->get();
         $allowedIds = $questions->pluck('id')->all();

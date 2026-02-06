@@ -3,17 +3,34 @@
 namespace App\Http\Controllers\Creator;
 
 use App\Http\Controllers\Controller;
+use App\Models\Batch;
+use App\Models\Quiz;
 use App\Services\Ai\AiQuizGeneratorResolver;
+use App\Services\PlanLimiter;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class SettingsController extends Controller
 {
     public function index()
     {
         $user = Auth::user();
+        $plan = $user->activePlan();
+
+        // Current usage counts
+        $usage = [
+            'quizzes' => Quiz::where('user_id', $user->id)->count(),
+            'batches' => Batch::where('creator_user_id', $user->id)->where('status', 'active')->count(),
+            'ai_this_month' => DB::table('ai_generation_logs')
+                ->where('user_id', $user->id)
+                ->where('generated_at', '>=', now()->startOfMonth())
+                ->count(),
+        ];
 
         return view('creator.settings.index', [
+            'plan' => $plan,
+            'usage' => $usage,
             'hasOpenaiKey' => ! empty($user->openai_api_key),
             'openaiModel' => $user->openai_model ?? config('services.openai.model', 'gpt-4o-mini'),
             'hasGeminiKey' => ! empty($user->gemini_api_key),

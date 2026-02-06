@@ -57,6 +57,19 @@
             <div class="mt-1 text-xs text-slate-500">Switch between Student / Creator / Admin / Guest.</div>
         </div>
 
+        <div>
+            <label class="block text-sm font-medium text-slate-700">Plan</label>
+            <select name="plan_id" class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                <option value="">No plan (default)</option>
+                @foreach ($plans ?? [] as $plan)
+                    <option value="{{ $plan->id }}" @selected(old('plan_id', $user->plan_id) == $plan->id)>
+                        {{ $plan->name }}{{ $plan->price_label ? ' — ' . $plan->price_label : '' }}{{ $plan->is_default ? ' (default)' : '' }}
+                    </option>
+                @endforeach
+            </select>
+            <div class="mt-1 text-xs text-slate-500">Subscription plan for creators. Limits quizzes, batches, AI usage, etc.</div>
+        </div>
+
         <div class="rounded-2xl border border-slate-200 bg-white p-4">
             <div class="flex items-center justify-between gap-3">
                 <div>

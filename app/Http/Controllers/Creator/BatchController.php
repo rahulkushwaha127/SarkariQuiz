@@ -12,6 +12,7 @@ use App\Models\Quiz;
 use App\Models\QuizAttempt;
 use App\Models\User;
 use App\Services\Notifications\FcmSender;
+use App\Services\PlanLimiter;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -39,6 +40,11 @@ class BatchController extends Controller
 
     public function store(Request $request)
     {
+        $check = PlanLimiter::check(Auth::user(), 'batches');
+        if (! $check['allowed']) {
+            return back()->with('error', $check['message'])->withInput();
+        }
+
         $data = $request->validate([
             'name' => ['required', 'string', 'max:150'],
             'description' => ['nullable', 'string', 'max:1000'],
@@ -159,6 +165,11 @@ class BatchController extends Controller
                 return back()->with('status', $user->name . ' has been re-added to the batch.');
             }
             return back()->with('error', $user->name . ' is already in this batch.');
+        }
+
+        $check = PlanLimiter::check(Auth::user(), 'students_per_batch', ['batch_id' => $batch->id]);
+        if (! $check['allowed']) {
+            return back()->with('error', $check['message']);
         }
 
         BatchStudent::create([

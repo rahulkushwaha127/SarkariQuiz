@@ -10,7 +10,9 @@ use App\Models\Quiz;
 use App\Services\Ai\AiQuizGeneratorResolver;
 use App\Services\Ai\QuizJsonParser;
 use App\Services\Content\TextExtractors;
+use App\Services\PlanLimiter;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 
 class AiQuizGeneratorController extends Controller
@@ -25,6 +27,11 @@ class AiQuizGeneratorController extends Controller
     public function generate(GenerateAiQuestionsRequest $request, Quiz $quiz)
     {
         abort_unless($quiz->user_id === Auth::id(), 403);
+
+        $check = PlanLimiter::check(Auth::user(), 'ai_generations');
+        if (! $check['allowed']) {
+            return back()->with('error', $check['message'])->withInput();
+        }
 
         $inputType = $request->validated('input_type');
         $num = (int) $request->validated('num_questions');
@@ -98,6 +105,14 @@ class AiQuizGeneratorController extends Controller
                 ]);
             }
         }
+
+        // Log AI generation for plan limit tracking
+        DB::table('ai_generation_logs')->insert([
+            'user_id'         => Auth::id(),
+            'generated_at'    => now(),
+            'questions_count' => count($questions),
+            'provider'        => $provider,
+        ]);
 
         return redirect()
             ->route('creator.quizzes.show', $quiz)

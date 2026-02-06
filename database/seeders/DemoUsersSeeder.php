@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Admin;
 use App\Models\Creator;
+use App\Models\Plan;
 use App\Models\Student;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -15,6 +16,41 @@ class DemoUsersSeeder extends Seeder
 {
     public function run(): void
     {
+        // Seed plans
+        $freePlan = Plan::query()->updateOrCreate(
+            ['slug' => 'free'],
+            [
+                'name'                         => 'Free',
+                'description'                  => 'Get started with basic limits.',
+                'price_label'                  => 'Free',
+                'max_quizzes'                  => 10,
+                'max_batches'                  => 2,
+                'max_students_per_batch'       => 10,
+                'max_ai_generations_per_month' => 2,
+                'can_access_question_bank'     => false,
+                'is_default'                   => true,
+                'sort_order'                   => 0,
+                'is_active'                    => true,
+            ]
+        );
+
+        $proPlan = Plan::query()->updateOrCreate(
+            ['slug' => 'pro'],
+            [
+                'name'                         => 'Pro',
+                'description'                  => 'Unlimited quizzes, batches, AI, and full question bank access.',
+                'price_label'                  => 'Pro',
+                'max_quizzes'                  => null,
+                'max_batches'                  => null,
+                'max_students_per_batch'       => null,
+                'max_ai_generations_per_month' => null,
+                'can_access_question_bank'     => true,
+                'is_default'                   => false,
+                'sort_order'                   => 1,
+                'is_active'                    => true,
+            ]
+        );
+
         $users = [
             'student' => [
                 'email' => 'student@example.com',
@@ -93,6 +129,12 @@ class DemoUsersSeeder extends Seeder
             }
 
             if ($roleName === 'creator') {
+                // Assign default (Free) plan to creator
+                if (! $user->plan_id) {
+                    $user->plan_id = $freePlan->id;
+                    $user->save();
+                }
+
                 $creatorData = [
                     'bio' => $data['bio'] ?? null,
                     'headline' => $data['headline'] ?? null,

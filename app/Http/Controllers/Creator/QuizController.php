@@ -9,6 +9,7 @@ use App\Models\Exam;
 use App\Models\Quiz;
 use App\Models\Subject;
 use App\Models\Topic;
+use App\Services\PlanLimiter;
 use Illuminate\Support\Facades\Auth;
 
 class QuizController extends Controller
@@ -52,6 +53,11 @@ class QuizController extends Controller
      */
     public function store(StoreQuizRequest $request)
     {
+        $check = PlanLimiter::check(Auth::user(), 'quizzes');
+        if (! $check['allowed']) {
+            return back()->with('error', $check['message'])->withInput();
+        }
+
         $quiz = Quiz::create([
             'user_id' => Auth::id(),
             'exam_id' => $request->validated('exam_id'),

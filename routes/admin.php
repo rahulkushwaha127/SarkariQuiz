@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\Taxonomy\ExamsController;
 use App\Http\Controllers\Admin\Taxonomy\SubjectsController;
 use App\Http\Controllers\Admin\Taxonomy\TopicsController;
 use App\Http\Controllers\Admin\UsersController;
+use App\Http\Controllers\Admin\PlansController;
 use App\Http\Controllers\Admin\ContactSubmissionsController;
 
 Route::middleware(['auth', 'role:super_admin'])
@@ -51,6 +52,14 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::post('/daily-challenge', [DailyChallengeController::class, 'store'])->name('daily.store');
         Route::get('/settings', [SettingsController::class, 'edit'])->name('settings.edit');
         Route::patch('/settings', [SettingsController::class, 'update'])->name('settings.update');
+
+        // Plans
+        Route::get('/plans', [PlansController::class, 'index'])->name('plans.index');
+        Route::get('/plans/create', [PlansController::class, 'create'])->name('plans.create');
+        Route::post('/plans', [PlansController::class, 'store'])->name('plans.store');
+        Route::get('/plans/{plan}/edit', [PlansController::class, 'edit'])->name('plans.edit');
+        Route::patch('/plans/{plan}', [PlansController::class, 'update'])->name('plans.update');
+        Route::delete('/plans/{plan}', [PlansController::class, 'destroy'])->name('plans.destroy');
 
         // Contests moderation
         Route::get('/contests', [ContestsController::class, 'index'])->name('contests.index');

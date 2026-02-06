@@ -38,6 +38,7 @@ class User extends Authenticatable
         'gemini_api_key',
         'anthropic_api_key',
         'default_ai_provider',
+        'plan_id',
     ];
 
     /**
@@ -107,5 +108,22 @@ class User extends Authenticatable
     public function batchMemberships()
     {
         return $this->hasMany(BatchStudent::class);
+    }
+
+    /* ------------------------------------------------------------------ */
+    /*  Plan                                                               */
+    /* ------------------------------------------------------------------ */
+
+    public function plan()
+    {
+        return $this->belongsTo(Plan::class);
+    }
+
+    /**
+     * Return the user's assigned plan, or the system default plan.
+     */
+    public function activePlan(): ?Plan
+    {
+        return $this->plan ?? Plan::defaultPlan();
     }
 }
