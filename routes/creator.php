@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Creator\AiQuizGeneratorController;
 use App\Http\Controllers\Creator\AnalyticsController;
+use App\Http\Controllers\Creator\BatchController;
 use App\Http\Controllers\Creator\ContestController;
 use App\Http\Controllers\Creator\ContestWhitelistController;
 use App\Http\Controllers\Creator\DashboardController;
@@ -36,6 +37,13 @@ Route::middleware(['auth', 'role:creator|super_admin'])
         Route::get('contests/{contest}/whitelist', [ContestWhitelistController::class, 'index'])->name('contests.whitelist.index');
         Route::post('contests/{contest}/whitelist', [ContestWhitelistController::class, 'store'])->name('contests.whitelist.store');
         Route::delete('contests/{contest}/whitelist/{entry}', [ContestWhitelistController::class, 'destroy'])->name('contests.whitelist.destroy');
+
+        // Batches
+        Route::resource('batches', BatchController::class);
+        Route::post('batches/{batch}/students', [BatchController::class, 'addStudent'])->name('batches.students.add');
+        Route::delete('batches/{batch}/students/{user}', [BatchController::class, 'removeStudent'])->name('batches.students.remove');
+        Route::post('batches/{batch}/quizzes', [BatchController::class, 'assignQuiz'])->name('batches.quizzes.assign');
+        Route::delete('batches/{batch}/quizzes/{batchQuiz}', [BatchController::class, 'unassignQuiz'])->name('batches.quizzes.unassign');
 
         Route::get('taxonomy/exams/{exam}/subjects', [TaxonomyController::class, 'subjects'])->name('taxonomy.subjects');
         Route::get('taxonomy/subjects/{subject}/topics', [TaxonomyController::class, 'topics'])->name('taxonomy.topics');

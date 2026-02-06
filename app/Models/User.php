@@ -98,4 +98,14 @@ class User extends Authenticatable
     {
         return $this->hasMany(Contest::class, 'creator_user_id');
     }
+
+    public function batchesCreated()
+    {
+        return $this->hasMany(Batch::class, 'creator_user_id');
+    }
+
+    public function batchMemberships()
+    {
+        return $this->hasMany(BatchStudent::class);
+    }
 }

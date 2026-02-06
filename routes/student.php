@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Student\BatchController;
 use App\Http\Controllers\Student\ContestController;
 use App\Http\Controllers\Student\DashboardController;
 use App\Http\Controllers\Student\BrowseController;
@@ -96,5 +97,12 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     });
     // Join public contest by id (from public contest detail page)
     Route::get('/contests/{contest}/join', [ContestController::class, 'joinPublic'])->name('contests.join.public');
+
+    // Batches
+    Route::get('/join-batch', [BatchController::class, 'joinForm'])->name('batches.join');
+    Route::post('/join-batch', [BatchController::class, 'join'])->name('batches.join.submit');
+    Route::get('/join-batch/{code}', [BatchController::class, 'joinByCode'])->name('batches.join.code');
+    Route::get('/my-batches', [BatchController::class, 'index'])->name('batches.index');
+    Route::get('/my-batches/{batch}', [BatchController::class, 'show'])->name('batches.show');
 });
 

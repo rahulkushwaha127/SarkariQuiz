@@ -29,6 +29,13 @@
                 Contests
             </a>
 
+            <a href="{{ route('creator.batches.index') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('creator.batches.*') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('creator.batches.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Batches
+            </a>
+
             <a href="{{ route('creator.analytics') }}"
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
                {{ request()->routeIs('creator.analytics') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
