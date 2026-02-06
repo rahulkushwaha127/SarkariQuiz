@@ -9,10 +9,6 @@
         <div class="mt-1 text-sm text-slate-300">Batches you've joined. Tap to see assigned quizzes.</div>
     </div>
 
-    @if(session('status'))
-        <div class="border border-green-400/30 bg-green-500/10 p-3 text-sm text-green-200">{{ session('status') }}</div>
-    @endif
-
     @if($memberships->isEmpty())
         <div class="border border-white/10 bg-white/5 p-6 text-center">
             <div class="text-sm font-semibold text-white">No batches yet</div>

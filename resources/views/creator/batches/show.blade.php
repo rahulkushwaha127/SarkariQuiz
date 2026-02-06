@@ -58,9 +58,48 @@
                 <button type="submit" class="rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">Add</button>
             </form>
 
-            {{-- Invite link --}}
-            <div class="mt-4 rounded-xl border border-slate-100 bg-slate-50 p-3 text-sm text-slate-600">
-                Share this link with students: <span class="font-mono font-semibold text-indigo-700">{{ url('/join-batch/' . $batch->join_code) }}</span>
+            {{-- Invite link & QR code --}}
+            @php $joinUrl = url('/join-batch/' . $batch->join_code); @endphp
+            <div class="mt-4 rounded-xl border border-slate-100 bg-slate-50 p-4">
+                <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                    {{-- Left: link + code --}}
+                    <div class="min-w-0 flex-1 space-y-2">
+                        <div class="text-sm font-semibold text-slate-700">Share with students</div>
+                        <div class="text-sm text-slate-600">
+                            Invite link:
+                            <span id="invite-link" class="break-all font-mono font-semibold text-indigo-700">{{ $joinUrl }}</span>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <button type="button" onclick="copyInviteLink()" id="copy-link-btn"
+                                    class="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 shadow-sm hover:bg-slate-50">
+                                <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                                </svg>
+                                Copy link
+                            </button>
+                            <button type="button" onclick="downloadQR()"
+                                    class="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 shadow-sm hover:bg-slate-50">
+                                <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                                </svg>
+                                Download QR
+                            </button>
+                        </div>
+                    </div>
+
+                    {{-- Right: QR code --}}
+                    <div class="flex flex-col items-center gap-2">
+                        <div class="rounded-xl border border-slate-200 bg-white p-2">
+                            <img id="batch-qr"
+                                 src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data={{ urlencode($joinUrl) }}&margin=8"
+                                 alt="QR code to join batch"
+                                 width="160" height="160"
+                                 class="block" />
+                        </div>
+                        <div class="text-center text-[11px] text-slate-400">Scan to join</div>
+                    </div>
+                </div>
             </div>
 
             {{-- Student list --}}
@@ -370,6 +409,42 @@
         });
     }
 })();
+
+// Copy invite link
+function copyInviteLink() {
+    var link = document.getElementById('invite-link').textContent.trim();
+    var btn = document.getElementById('copy-link-btn');
+    navigator.clipboard.writeText(link).then(function() {
+        var original = btn.innerHTML;
+        btn.innerHTML = '<svg class="h-3.5 w-3.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Copied!';
+        btn.classList.add('text-green-700', 'border-green-300');
+        setTimeout(function() {
+            btn.innerHTML = original;
+            btn.classList.remove('text-green-700', 'border-green-300');
+        }, 2000);
+    });
+}
+
+// Download QR as image
+function downloadQR() {
+    var img = document.getElementById('batch-qr');
+    var canvas = document.createElement('canvas');
+    canvas.width = 320;
+    canvas.height = 320;
+    var ctx = canvas.getContext('2d');
+    var tempImg = new Image();
+    tempImg.crossOrigin = 'anonymous';
+    tempImg.onload = function() {
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, 320, 320);
+        ctx.drawImage(tempImg, 0, 0, 320, 320);
+        var a = document.createElement('a');
+        a.download = 'batch-qr-{{ $batch->join_code }}.png';
+        a.href = canvas.toDataURL('image/png');
+        a.click();
+    };
+    tempImg.src = img.src.replace('160x160', '320x320');
+}
 </script>
 @endpush
 @endsection

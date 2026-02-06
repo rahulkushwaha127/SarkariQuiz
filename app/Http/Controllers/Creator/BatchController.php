@@ -6,9 +6,12 @@ use App\Http\Controllers\Controller;
 use App\Models\Batch;
 use App\Models\BatchQuiz;
 use App\Models\BatchStudent;
+use App\Models\FcmToken;
+use App\Models\InAppNotification;
 use App\Models\Quiz;
 use App\Models\QuizAttempt;
 use App\Models\User;
+use App\Services\Notifications\FcmSender;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -110,6 +113,18 @@ class BatchController extends Controller
     {
         abort_unless($batch->creator_user_id === Auth::id(), 403);
 
+        // Notify students before archiving
+        $studentIds = $batch->activeStudents()->pluck('user_id')->toArray();
+        if (count($studentIds) > 0) {
+            $this->notifyBatchStudents(
+                $studentIds,
+                'Batch archived: ' . $batch->name,
+                Auth::user()->name . ' archived the batch "' . $batch->name . '". No new quizzes will be assigned.',
+                null,
+                'batch_archived'
+            );
+        }
+
         $batch->update(['status' => 'archived']);
 
         return redirect()->route('creator.batches.index')
@@ -152,6 +167,15 @@ class BatchController extends Controller
             'status' => 'active',
             'joined_at' => now(),
         ]);
+
+        // Notify the added student
+        $this->notifyBatchStudents(
+            [$user->id],
+            'You were added to ' . $batch->name,
+            Auth::user()->name . ' added you to their batch "' . $batch->name . '".',
+            route('batches.show', $batch),
+            'batch_student_added'
+        );
 
         return back()->with('status', $user->name . ' added to the batch.');
     }
@@ -203,6 +227,16 @@ class BatchController extends Controller
             'ends_at' => $data['access_mode'] === 'scheduled' ? ($data['ends_at'] ?? null) : null,
         ]);
 
+        // Notify batch students
+        $studentIds = $batch->activeStudents()->pluck('user_id')->toArray();
+        $this->notifyBatchStudents(
+            $studentIds,
+            'New quiz in ' . $batch->name,
+            Auth::user()->name . ' assigned "' . $quiz->title . '" to your batch.',
+            route('batches.show', $batch),
+            'batch_quiz_assigned'
+        );
+
         return back()->with('status', 'Quiz assigned to batch.');
     }
 
@@ -214,6 +248,68 @@ class BatchController extends Controller
         $batchQuiz->delete();
 
         return back()->with('status', 'Quiz removed from batch.');
+    }
+
+    /* ------------------------------------------------------------------ */
+    /*  Batch notifications (in-app + FCM push)                           */
+    /* ------------------------------------------------------------------ */
+
+    private function notifyBatchStudents(array $userIds, string $title, string $body, ?string $url, string $type): void
+    {
+        if (empty($userIds)) {
+            return;
+        }
+
+        // 1. Create in-app notifications
+        $now = now();
+        $rows = [];
+        foreach ($userIds as $uid) {
+            $rows[] = [
+                'user_id'    => $uid,
+                'type'       => $type,
+                'title'      => $title,
+                'body'       => $body,
+                'url'        => $url,
+                'data_json'  => json_encode(['creator_user_id' => Auth::id()], JSON_UNESCAPED_SLASHES),
+                'read_at'    => null,
+                'created_at' => $now,
+                'updated_at' => $now,
+            ];
+        }
+
+        foreach (array_chunk($rows, 500) as $chunk) {
+            InAppNotification::query()->insert($chunk);
+        }
+
+        // 2. Send FCM push
+        $tokens = FcmToken::query()
+            ->whereNull('revoked_at')
+            ->whereIn('user_id', $userIds)
+            ->pluck('token')
+            ->unique()
+            ->values()
+            ->all();
+
+        if (count($tokens) === 0) {
+            return;
+        }
+
+        $payload = [
+            'priority'     => 'high',
+            'notification' => [
+                'title' => $title,
+                'body'  => $body,
+            ],
+            'data' => array_filter([
+                'url'  => $url,
+                'type' => $type,
+            ], function ($v) { return $v !== null && $v !== ''; }),
+        ];
+
+        $sender = app(FcmSender::class);
+        foreach (array_chunk($tokens, 500) as $chunk) {
+            $sender->sendToTokens($chunk, $payload);
+        }
     }
 
     /* ------------------------------------------------------------------ */

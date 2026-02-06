@@ -143,6 +143,18 @@
     </a>
     @endif
 
+    @if($isStudent && \App\Models\BatchStudent::where('user_id', $me->id)->where('status', 'active')->exists())
+    <a href="{{ route('batches.index') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('batches.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        My Batches
+    </a>
+    @endif
+
     @if($frontendMenu['daily_challenge'] ?? true)
     <a href="{{ route('public.daily') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('public.daily') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">

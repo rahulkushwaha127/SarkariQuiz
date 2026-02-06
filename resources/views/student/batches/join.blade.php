@@ -12,9 +12,6 @@
     @if(session('error'))
         <div class="border border-red-400/30 bg-red-500/10 p-3 text-sm text-red-200">{{ session('error') }}</div>
     @endif
-    @if(session('status'))
-        <div class="border border-green-400/30 bg-green-500/10 p-3 text-sm text-green-200">{{ session('status') }}</div>
-    @endif
 
     <div class="border border-white/10 bg-white/5 p-4">
         <form method="POST" action="{{ route('batches.join.submit') }}" class="space-y-3">
