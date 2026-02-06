@@ -26,15 +26,32 @@ class Creator extends Model
         'coaching_website',
         'courses_offered',
         'whatsapp_number',
+        'selected_students',
+        'faculty',
+        'section_visibility',
     ];
 
     protected $casts = [
-        'social_links' => 'array',
-        'gallery_images' => 'array',
+        'social_links'       => 'array',
+        'gallery_images'     => 'array',
+        'selected_students'  => 'array',
+        'faculty'            => 'array',
+        'section_visibility' => 'array',
     ];
 
     public function user()
     {
         return $this->belongsTo(User::class);
+    }
+
+    /**
+     * Check if a group or field is visible on the public page.
+     * Keys: "about", "about.headline", "institute.address", etc.
+     * Default is true (visible) when not explicitly set.
+     */
+    public function isVisible(string $key): bool
+    {
+        $vis = $this->section_visibility ?? [];
+        return (bool) ($vis[$key] ?? true);
     }
 }

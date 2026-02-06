@@ -34,6 +34,9 @@ class ProfileController extends Controller
             'coaching_website' => null,
             'courses_offered' => null,
             'whatsapp_number' => null,
+            'selected_students' => [],
+            'faculty' => [],
+            'section_visibility' => [],
         ]);
 
         return view('creator.profile.edit', [
@@ -60,9 +63,19 @@ class ProfileController extends Controller
             'coaching_website' => ['nullable', 'url', 'max:500'],
             'courses_offered' => ['nullable', 'string', 'max:2000'],
             'whatsapp_number' => ['nullable', 'string', 'max:30'],
+            'selected_students' => ['nullable', 'array'],
+            'selected_students.*.name' => ['nullable', 'string', 'max:120'],
+            'selected_students.*.year' => ['nullable', 'string', 'max:20'],
+            'selected_students.*.post' => ['nullable', 'string', 'max:120'],
+            'faculty' => ['nullable', 'array'],
+            'faculty.*.name' => ['nullable', 'string', 'max:120'],
+            'faculty.*.role' => ['nullable', 'string', 'max:120'],
+            'faculty.*.bio' => ['nullable', 'string', 'max:300'],
             'avatar' => ['nullable', File::types(['jpg', 'jpeg', 'png', 'webp'])->max(self::IMAGE_MAX_KB)],
             'cover_image' => ['nullable', File::types(['jpg', 'jpeg', 'png', 'webp'])->max(self::IMAGE_MAX_KB)],
             'gallery_images.*' => ['nullable', File::types(['jpg', 'jpeg', 'png', 'webp'])->max(self::IMAGE_MAX_KB)],
+            'visibility' => ['nullable', 'array'],
+            'visibility.*' => ['in:0,1'],
         ];
 
         $socialKeys = $request->input('social_labels', []);
@@ -74,6 +87,21 @@ class ProfileController extends Controller
 
         $data = $request->validate($rules);
 
+        // ---- Visibility toggles ----
+        $rawVis = $data['visibility'] ?? [];
+        $visibility = [];
+        foreach ($rawVis as $key => $val) {
+            $visibility[$key] = (bool) (int) $val;
+        }
+        $profile->section_visibility = $visibility;
+
+        // ---- Username ----
+        if (array_key_exists('username', $data) && (string) $data['username'] !== '') {
+            $user->username = trim($data['username']);
+            $user->save();
+        }
+
+        // ---- File uploads ----
         $dir = self::AVATAR_DIR . '/' . $user->id;
 
         if ($request->hasFile('avatar')) {
@@ -98,21 +126,21 @@ class ProfileController extends Controller
                 $newPaths[] = $file->store($dir . '/gallery', 'public');
             }
             $combined = array_slice(array_merge($newPaths, $current), 0, self::GALLERY_MAX);
-            $toDelete = array_values(array_filter($current, fn ($p) => ! in_array($p, $combined, true)));
+            $toDelete = array_values(array_filter($current, function ($p) use ($combined) {
+                return !in_array($p, $combined, true);
+            }));
             foreach ($toDelete as $old) {
                 Storage::disk('public')->delete($old);
             }
             $profile->gallery_images = $combined;
         }
 
-        $removeCover = $request->boolean('remove_cover_image');
-        if ($removeCover && $profile->cover_image_path) {
+        if ($request->boolean('remove_cover_image') && $profile->cover_image_path) {
             Storage::disk('public')->delete($profile->cover_image_path);
             $profile->cover_image_path = null;
         }
 
-        $removeAvatar = $request->boolean('remove_avatar');
-        if ($removeAvatar && $profile->avatar_path) {
+        if ($request->boolean('remove_avatar') && $profile->avatar_path) {
             Storage::disk('public')->delete($profile->avatar_path);
             $profile->avatar_path = null;
         }
@@ -130,6 +158,7 @@ class ProfileController extends Controller
             $profile->gallery_images = array_values(array_filter($gallery));
         }
 
+        // ---- Social links ----
         $social = [];
         foreach ($socialKeys as $i => $label) {
             $url = $socialUrls[$i] ?? '';
@@ -139,11 +168,7 @@ class ProfileController extends Controller
         }
         $profile->social_links = $social;
 
-        if (array_key_exists('username', $data) && (string) $data['username'] !== '') {
-            $user->username = trim($data['username']);
-            $user->save();
-        }
-
+        // ---- Text fields ----
         $profile->bio = $data['bio'] ?? null;
         $profile->headline = $data['headline'] ?? null;
         $profile->tagline = $data['tagline'] ?? null;
@@ -155,10 +180,48 @@ class ProfileController extends Controller
         $profile->coaching_website = $data['coaching_website'] ?? null;
         $profile->courses_offered = $data['courses_offered'] ?? null;
         $profile->whatsapp_number = $data['whatsapp_number'] ?? null;
+
+        // ---- Selected students ----
+        $rawStudents = $data['selected_students'] ?? [];
+        $profile->selected_students = collect($rawStudents)
+            ->filter(function ($row) {
+                return trim((string) ($row['name'] ?? '')) !== '';
+            })
+            ->map(function ($row) {
+                return [
+                    'name' => trim((string) ($row['name'] ?? '')),
+                    'year' => trim((string) ($row['year'] ?? '')),
+                    'post' => trim((string) ($row['post'] ?? '')),
+                ];
+            })
+            ->values()
+            ->all();
+
+        // ---- Faculty ----
+        $rawFaculty = $data['faculty'] ?? [];
+        $profile->faculty = collect($rawFaculty)
+            ->filter(function ($row) {
+                return trim((string) ($row['name'] ?? '')) !== '';
+            })
+            ->map(function ($row) {
+                return [
+                    'name' => trim((string) ($row['name'] ?? '')),
+                    'role' => trim((string) ($row['role'] ?? '')),
+                    'bio'  => trim((string) ($row['bio'] ?? '')),
+                ];
+            })
+            ->values()
+            ->all();
+
         $profile->save();
 
-        return redirect()
-            ->route('creator.profile.edit')
-            ->with('status', 'Profile updated. Your public page: ' . route('public.creators.show', $user->username));
+        $redirect = redirect()->route('creator.profile.edit');
+        if ($user->username) {
+            $redirect->with('status', 'Profile updated. Your public page: ' . route('public.creators.show', $user->username));
+        } else {
+            $redirect->with('status', 'Profile updated.');
+        }
+
+        return $redirect;
     }
 }

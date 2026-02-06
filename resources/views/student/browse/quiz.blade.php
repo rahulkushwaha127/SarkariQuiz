@@ -16,7 +16,8 @@
                     By: {{ $quiz->user?->name ?? '—' }}
                 </div>
             </div>
-            <a href="{{ route('public.subjects.show', $quiz->subject_id) }}"
+            @if($quiz->subject)
+            <a href="{{ route('public.subjects.show', $quiz->subject) }}"
                class="inline-flex shrink-0 items-center gap-2 bg-white/10 px-3 py-2 text-xs font-semibold text-white/90 hover:bg-white/15"
                aria-label="Back">
                 <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,6 +25,16 @@
                 </svg>
                 Back
             </a>
+            @else
+            <a href="{{ $quiz->user?->username ? route('public.creators.show', $quiz->user->username) : url('/') }}"
+               class="inline-flex shrink-0 items-center gap-2 bg-white/10 px-3 py-2 text-xs font-semibold text-white/90 hover:bg-white/15"
+               aria-label="Back">
+                <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Back
+            </a>
+            @endif
         </div>
         <div class="mt-3 text-sm text-slate-400">
             {{ $quiz->exam?->name ?? '—' }} · {{ $quiz->subject?->name ?? '—' }}

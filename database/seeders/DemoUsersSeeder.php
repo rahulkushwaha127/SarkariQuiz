@@ -41,6 +41,16 @@ class DemoUsersSeeder extends Seeder
                     'Telegram' => 'https://t.me',
                     'Instagram' => 'https://instagram.com',
                 ],
+                'selected_students' => [
+                    ['name' => 'Priya Sharma', 'year' => '2024', 'post' => 'IAS'],
+                    ['name' => 'Rahul Verma', 'year' => '2024', 'post' => 'SSC CGL'],
+                    ['name' => 'Anita Singh', 'year' => '2023', 'post' => 'State PSC'],
+                ],
+                'faculty' => [
+                    ['name' => 'Dr. Rajesh Kumar', 'role' => 'Founder & Director', 'bio' => 'Ex-IAS, 15+ years teaching experience.'],
+                    ['name' => 'Neha Gupta', 'role' => 'Senior Faculty – Polity & History', 'bio' => 'PhD in Political Science.'],
+                    ['name' => 'Amit Patel', 'role' => 'Faculty – Quantitative Aptitude', 'bio' => 'SSC topper, 8+ years in competitive exams.'],
+                ],
             ],
             'super_admin' => [
                 'email' => 'superadmin@example.com',
@@ -99,6 +109,8 @@ class DemoUsersSeeder extends Seeder
                     'coaching_website' => $data['coaching_website'] ?? null,
                     'courses_offered' => $data['courses_offered'] ?? null,
                     'whatsapp_number' => $data['whatsapp_number'] ?? null,
+                    'selected_students' => $data['selected_students'] ?? [],
+                    'faculty' => $data['faculty'] ?? [],
                 ];
 
                 /** @var \App\Models\Creator $creator */
