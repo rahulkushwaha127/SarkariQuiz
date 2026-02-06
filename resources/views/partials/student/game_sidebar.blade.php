@@ -155,6 +155,17 @@
     </a>
     @endif
 
+    @if($isStudent)
+    <a href="{{ route('student.profile') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.profile') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        My Profile
+    </a>
+    @endif
+
     @if($frontendMenu['daily_challenge'] ?? true)
     <a href="{{ route('public.daily') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('public.daily') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">

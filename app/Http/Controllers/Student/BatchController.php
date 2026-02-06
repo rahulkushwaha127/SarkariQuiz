@@ -5,8 +5,11 @@ namespace App\Http\Controllers\Student;
 use App\Http\Controllers\Controller;
 use App\Models\Batch;
 use App\Models\BatchStudent;
+use App\Models\QuizAttempt;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class BatchController extends Controller
 {
@@ -110,6 +113,52 @@ class BatchController extends Controller
             ->orderByDesc('id')
             ->get();
 
-        return view('student.batches.show', compact('batch', 'batchQuizzes'));
+        // --- Leaderboard ---
+        $studentIds = BatchStudent::where('batch_id', $batch->id)
+            ->where('status', 'active')
+            ->pluck('user_id')
+            ->toArray();
+
+        $quizIds = $batchQuizzes->pluck('quiz_id')->toArray();
+
+        $leaderboard = collect();
+        $myRank = null;
+
+        if (!empty($studentIds) && !empty($quizIds)) {
+            $leaderboard = QuizAttempt::query()
+                ->whereIn('user_id', $studentIds)
+                ->whereIn('quiz_id', $quizIds)
+                ->where('status', 'submitted')
+                ->select(
+                    'user_id',
+                    DB::raw('COUNT(DISTINCT quiz_id) as quizzes_done'),
+                    DB::raw('ROUND(AVG(score), 1) as avg_score'),
+                    DB::raw('SUM(correct_count) as total_correct'),
+                    DB::raw('SUM(total_questions) as total_questions')
+                )
+                ->groupBy('user_id')
+                ->orderByDesc('avg_score')
+                ->limit(50)
+                ->get();
+
+            // Attach user names
+            if ($leaderboard->isNotEmpty()) {
+                $users = User::whereIn('id', $leaderboard->pluck('user_id'))
+                    ->pluck('name', 'id');
+
+                $rank = 0;
+                $leaderboard->each(function ($row) use ($users, $userId, &$rank, &$myRank) {
+                    $rank++;
+                    $row->rank = $rank;
+                    $row->name = $users[$row->user_id] ?? '—';
+                    $row->is_me = ($row->user_id === $userId);
+                    if ($row->is_me) {
+                        $myRank = $rank;
+                    }
+                });
+            }
+        }
+
+        return view('student.batches.show', compact('batch', 'batchQuizzes', 'leaderboard', 'myRank'));
     }
 }

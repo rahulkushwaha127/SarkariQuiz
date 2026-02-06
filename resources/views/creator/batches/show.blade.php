@@ -41,6 +41,7 @@
             <nav class="flex overflow-x-auto -mb-px" id="batch-tabs">
                 <button type="button" data-tab="students" class="batch-tab whitespace-nowrap border-b-2 border-indigo-600 px-5 py-3 text-sm font-semibold text-indigo-700">Students ({{ $students->count() }})</button>
                 <button type="button" data-tab="quizzes" class="batch-tab whitespace-nowrap border-b-2 border-transparent px-5 py-3 text-sm font-medium text-slate-500 hover:text-slate-700">Quizzes ({{ $batchQuizzes->count() }})</button>
+                <button type="button" data-tab="announce" class="batch-tab whitespace-nowrap border-b-2 border-transparent px-5 py-3 text-sm font-medium text-slate-500 hover:text-slate-700">Announce</button>
                 <button type="button" data-tab="analytics" class="batch-tab whitespace-nowrap border-b-2 border-transparent px-5 py-3 text-sm font-medium text-slate-500 hover:text-slate-700">Analytics</button>
             </nav>
         </div>
@@ -213,6 +214,32 @@
                     @endforeach
                 </div>
             @endif
+        </div>
+
+        {{-- ==================== TAB: Announce ==================== --}}
+        <div class="batch-panel hidden p-5 sm:p-6" data-panel="announce">
+            <div class="max-w-lg">
+                <h3 class="text-base font-semibold text-slate-900">Send announcement</h3>
+                <p class="mt-1 text-sm text-slate-500">Post a message to all students in this batch. They'll receive an in-app notification and push notification.</p>
+
+                <form method="POST" action="{{ route('creator.batches.announce', $batch) }}" class="mt-4 space-y-3">
+                    @csrf
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700">Title</label>
+                        <input type="text" name="title" required maxlength="120" placeholder="e.g. Homework reminder"
+                               value="{{ old('title') }}"
+                               class="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500" />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700">Message</label>
+                        <textarea name="message" required maxlength="500" rows="3" placeholder="Write your announcement..."
+                                  class="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500">{{ old('message') }}</textarea>
+                    </div>
+                    <button type="submit" class="rounded-xl bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">
+                        Send to {{ $students->count() }} student{{ $students->count() !== 1 ? 's' : '' }}
+                    </button>
+                </form>
+            </div>
         </div>
 
         {{-- ==================== TAB: Analytics ==================== --}}

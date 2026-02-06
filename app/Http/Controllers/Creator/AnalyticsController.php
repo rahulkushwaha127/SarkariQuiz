@@ -3,9 +3,12 @@
 namespace App\Http\Controllers\Creator;
 
 use App\Http\Controllers\Controller;
+use App\Models\Batch;
+use App\Models\BatchStudent;
 use App\Models\Contest;
 use App\Models\Quiz;
 use App\Models\QuizAttempt;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -79,6 +82,63 @@ class AnalyticsController extends Controller
                 return $carry;
             }, ['contests' => 0, 'participants' => 0]);
 
+        // --- Batch stats ---
+        $batchIds = Batch::where('creator_user_id', $creatorId)->pluck('id')->all();
+        $totalBatches = count($batchIds);
+        $totalBatchStudents = 0;
+        $activeBatches = 0;
+
+        if ($totalBatches > 0) {
+            $totalBatchStudents = BatchStudent::whereIn('batch_id', $batchIds)
+                ->where('status', 'active')
+                ->distinct('user_id')
+                ->count('user_id');
+
+            $activeBatches = Batch::where('creator_user_id', $creatorId)
+                ->where('status', 'active')
+                ->count();
+        }
+
+        // --- Top students (across all quizzes by this creator) ---
+        $topStudents = QuizAttempt::query()
+            ->join('quizzes as q', 'q.id', '=', 'quiz_attempts.quiz_id')
+            ->where('q.user_id', $creatorId)
+            ->where('quiz_attempts.status', 'submitted')
+            ->select(
+                'quiz_attempts.user_id',
+                DB::raw('COUNT(DISTINCT quiz_attempts.quiz_id) as quizzes_played'),
+                DB::raw('ROUND(AVG(quiz_attempts.score), 1) as avg_score'),
+                DB::raw('SUM(quiz_attempts.correct_count) as total_correct'),
+                DB::raw('SUM(quiz_attempts.total_questions) as total_questions')
+            )
+            ->groupBy('quiz_attempts.user_id')
+            ->orderByDesc('avg_score')
+            ->limit(10)
+            ->get();
+
+        if ($topStudents->isNotEmpty()) {
+            $studentNames = User::whereIn('id', $topStudents->pluck('user_id'))
+                ->pluck('name', 'id');
+            $topStudents->each(function ($row) use ($studentNames) {
+                $row->name = $studentNames[$row->user_id] ?? '—';
+            });
+        }
+
+        // --- Weekly growth (plays per week, last 8 weeks) ---
+        $weeklyPlays = QuizAttempt::query()
+            ->join('quizzes as q', 'q.id', '=', 'quiz_attempts.quiz_id')
+            ->where('q.user_id', $creatorId)
+            ->where('quiz_attempts.status', 'submitted')
+            ->where('quiz_attempts.submitted_at', '>=', now()->subWeeks(8)->startOfWeek())
+            ->select(
+                DB::raw('YEARWEEK(quiz_attempts.submitted_at, 1) as yw'),
+                DB::raw('MIN(DATE(quiz_attempts.submitted_at)) as week_start'),
+                DB::raw('COUNT(*) as plays')
+            )
+            ->groupBy('yw')
+            ->orderBy('yw')
+            ->get();
+
         return view('creator.analytics.index', [
             'quizStatusCounts' => $quizStatusCounts,
             'totalQuizzes' => $totalQuizzes,
@@ -91,6 +151,11 @@ class AnalyticsController extends Controller
             'topQuizzes' => $topQuizzes,
             'contests' => $contests,
             'contestTotals' => $contestTotals,
+            'totalBatches' => $totalBatches,
+            'activeBatches' => $activeBatches,
+            'totalBatchStudents' => $totalBatchStudents,
+            'topStudents' => $topStudents,
+            'weeklyPlays' => $weeklyPlays,
         ]);
     }
 }

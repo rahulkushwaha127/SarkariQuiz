@@ -23,6 +23,8 @@ return new class extends Migration
             $table->unsignedInteger('current_streak')->default(0);
             $table->unsignedInteger('best_streak')->default(0);
             $table->date('last_streak_date')->nullable()->index();
+            $table->unsignedBigInteger('total_xp')->default(0);
+            $table->unsignedSmallInteger('level')->default(1);
             $table->timestamps();
         });
     }

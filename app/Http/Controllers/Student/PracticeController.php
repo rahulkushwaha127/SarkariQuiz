@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Student;
 
 use App\Http\Controllers\Controller;
 use App\Models\Answer;
+use App\Models\DailyStreak;
 use App\Models\PracticeAttempt;
 use App\Models\PracticeAttemptAnswer;
 use App\Models\Question;
@@ -325,6 +326,9 @@ class PracticeController extends Controller
             'score' => $score,
             'share_code' => $shareCode,
         ]);
+
+        $xpResult = DailyStreak::awardXp($attempt->user_id, $correctCount);
+        session(['xp_result' => $xpResult]);
     }
 }
 

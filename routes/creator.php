@@ -44,6 +44,7 @@ Route::middleware(['auth', 'role:creator|super_admin'])
         Route::delete('batches/{batch}/students/{user}', [BatchController::class, 'removeStudent'])->name('batches.students.remove');
         Route::post('batches/{batch}/quizzes', [BatchController::class, 'assignQuiz'])->name('batches.quizzes.assign');
         Route::delete('batches/{batch}/quizzes/{batchQuiz}', [BatchController::class, 'unassignQuiz'])->name('batches.quizzes.unassign');
+        Route::post('batches/{batch}/announce', [BatchController::class, 'announce'])->name('batches.announce');
 
         Route::get('taxonomy/exams/{exam}/subjects', [TaxonomyController::class, 'subjects'])->name('taxonomy.subjects');
         Route::get('taxonomy/subjects/{subject}/topics', [TaxonomyController::class, 'topics'])->name('taxonomy.topics');

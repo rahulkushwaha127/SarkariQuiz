@@ -98,6 +98,9 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     // Join public contest by id (from public contest detail page)
     Route::get('/contests/{contest}/join', [ContestController::class, 'joinPublic'])->name('contests.join.public');
 
+    // Student profile card
+    Route::get('/my-profile', [\App\Http\Controllers\Student\ProfileCardController::class, 'show'])->name('student.profile');
+
     // Batches
     Route::get('/join-batch', [BatchController::class, 'joinForm'])->name('batches.join');
     Route::post('/join-batch', [BatchController::class, 'join'])->name('batches.join.submit');

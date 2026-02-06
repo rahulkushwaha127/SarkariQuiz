@@ -383,7 +383,9 @@ class QuizPlayController extends Controller
             'share_code' => $shareCode,
         ]);
 
-        $this->maybeUpdateDailyStreak($attempt->user_id, $attempt->quiz_id, $submittedAt);
+        $xpResult = DailyStreak::awardXp($attempt->user_id, $correctCount);
+        session(['xp_result' => $xpResult]);
+        $this->maybeRecordDailyStreakDay($attempt->user_id, $attempt->quiz_id, $submittedAt);
 
         if ($attempt->contest_id) {
             ContestParticipant::query()
@@ -396,9 +398,11 @@ class QuizPlayController extends Controller
         }
     }
 
-    private function maybeUpdateDailyStreak(int $userId, int $quizId, \Illuminate\Support\Carbon $submittedAt): void
+    /**
+     * Record daily challenge streak day (for the calendar/badge tracking).
+     */
+    private function maybeRecordDailyStreakDay(int $userId, int $quizId, \Illuminate\Support\Carbon $submittedAt): void
     {
-        // Only for "Daily Challenge" quiz (not contests).
         $date = $submittedAt->toDateString();
 
         try {
@@ -411,44 +415,12 @@ class QuizPlayController extends Controller
                 return;
             }
 
-            DB::transaction(function () use ($userId, $date) {
-                $inserted = false;
-
-                try {
-                    DailyStreakDay::query()->create([
-                        'user_id' => $userId,
-                        'streak_date' => $date,
-                    ]);
-                    $inserted = true;
-                } catch (\Throwable $e) {
-                    // Duplicate day already recorded => no streak change.
-                    $inserted = false;
-                }
-
-                if (! $inserted) {
-                    return;
-                }
-
-                $row = DailyStreak::query()->firstOrNew(['user_id' => $userId]);
-
-                $prev = \Illuminate\Support\Carbon::parse($date)->subDay()->toDateString();
-                $current = (int) ($row->current_streak ?? 0);
-
-                if ($row->last_streak_date && $row->last_streak_date->toDateString() === $prev) {
-                    $current = $current + 1;
-                } else {
-                    $current = 1;
-                }
-
-                $best = max((int) ($row->best_streak ?? 0), $current);
-
-                $row->current_streak = $current;
-                $row->best_streak = $best;
-                $row->last_streak_date = $date;
-                $row->save();
-            });
+            DailyStreakDay::query()->firstOrCreate([
+                'user_id' => $userId,
+                'streak_date' => $date,
+            ]);
         } catch (\Throwable $e) {
-            // Never break quiz submit if streak fails.
+            // Silent — never break quiz flow.
         }
     }
 }

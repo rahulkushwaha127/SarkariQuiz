@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Creator;
 
 use App\Http\Controllers\Controller;
+use App\Models\Batch;
+use App\Models\BatchStudent;
 use App\Models\Club;
 use App\Models\ClubMember;
 use App\Models\ContestParticipant;
@@ -31,7 +33,7 @@ class OutboundNotificationsController extends Controller
             'body' => ['required', 'string', 'max:500'],
             'url' => ['nullable', 'string', 'max:500'],
             'audience' => ['required', 'array', 'min:1'],
-            'audience.*' => ['string', 'in:quiz_players,contest_participants,club_members'],
+            'audience.*' => ['string', 'in:quiz_players,contest_participants,club_members,batch_students'],
             'send_push' => ['nullable', 'in:0,1'],
         ]);
 
@@ -69,6 +71,20 @@ class OutboundNotificationsController extends Controller
             if (count($clubIds) > 0) {
                 $ids = ClubMember::query()
                     ->whereIn('club_id', $clubIds)
+                    ->select('user_id')
+                    ->distinct()
+                    ->pluck('user_id')
+                    ->all();
+                $userIds = array_merge($userIds, $ids);
+            }
+        }
+
+        if (in_array('batch_students', $data['audience'], true)) {
+            $batchIds = Batch::query()->where('creator_user_id', $creatorId)->where('status', 'active')->pluck('id')->all();
+            if (count($batchIds) > 0) {
+                $ids = BatchStudent::query()
+                    ->whereIn('batch_id', $batchIds)
+                    ->where('status', 'active')
                     ->select('user_id')
                     ->distinct()
                     ->pluck('user_id')

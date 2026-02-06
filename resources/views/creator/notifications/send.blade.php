@@ -39,7 +39,7 @@
 
                 <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
                     <div class="text-sm font-semibold text-slate-900">Audience</div>
-                    <div class="mt-3 grid gap-2 md:grid-cols-3">
+                    <div class="mt-3 grid gap-2 sm:grid-cols-2 md:grid-cols-4">
                         <label class="flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" name="audience[]" value="quiz_players" class="h-4 w-4 rounded border-slate-300"
                                    @checked(in_array('quiz_players', (array) old('audience', ['quiz_players']), true))>
@@ -54,6 +54,11 @@
                             <input type="checkbox" name="audience[]" value="club_members" class="h-4 w-4 rounded border-slate-300"
                                    @checked(in_array('club_members', (array) old('audience', []), true))>
                             Club members (clubs you own)
+                        </label>
+                        <label class="flex items-center gap-2 text-sm text-slate-700">
+                            <input type="checkbox" name="audience[]" value="batch_students" class="h-4 w-4 rounded border-slate-300"
+                                   @checked(in_array('batch_students', (array) old('audience', []), true))>
+                            Batch students (active batches)
                         </label>
                     </div>
                 </div>

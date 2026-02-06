@@ -26,6 +26,27 @@
             </div>
         </div>
 
+        {{-- XP earned --}}
+        @php
+            $xpData = session()->pull('xp_result', []);
+            $xpEarned = $xpData['xp_earned'] ?? (10 + ((int) $attempt->correct_count * 2));
+            $leveledUp = $xpData['leveled_up'] ?? false;
+            $newLevel = $xpData['new_level'] ?? 1;
+            $newLevelName = \App\Models\DailyStreak::LEVEL_NAMES[$newLevel] ?? 'Beginner';
+        @endphp
+        @if($leveledUp)
+            <div class="border border-yellow-400/40 bg-yellow-500/15 p-4 text-center">
+                <div class="text-xs text-yellow-300">LEVEL UP!</div>
+                <div class="mt-1 text-2xl font-bold text-yellow-200">Level {{ $newLevel }} — {{ $newLevelName }}</div>
+                <div class="mt-1 text-sm text-yellow-300/80">+{{ $xpEarned }} XP</div>
+            </div>
+        @else
+            <div class="border border-indigo-400/30 bg-indigo-500/10 p-3 text-center">
+                <div class="text-xs text-indigo-300">XP earned</div>
+                <div class="text-2xl font-bold text-white">+{{ $xpEarned }} XP</div>
+            </div>
+        @endif
+
         <div class="border border-white/10 bg-white/5 p-4">
             <div class="text-sm font-semibold text-white">Practice Result</div>
             <div class="mt-2 grid grid-cols-2 gap-2 text-sm text-slate-200">

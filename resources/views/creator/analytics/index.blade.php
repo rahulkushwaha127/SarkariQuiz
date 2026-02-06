@@ -9,38 +9,53 @@
             <p class="mt-1 text-sm text-slate-600">Overview of quiz plays and contest performance.</p>
         </div>
 
-        <div class="grid gap-4 md:grid-cols-4">
+        {{-- Row 1: Core stats --}}
+        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
             <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                 <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Total quizzes</div>
                 <div class="mt-1 text-2xl font-extrabold text-slate-900">{{ (int) $totalQuizzes }}</div>
                 <div class="mt-2 text-xs text-slate-600">
-                    Draft: {{ (int)($quizStatusCounts['draft'] ?? 0) }} ·
-                    Pending: {{ (int)($quizStatusCounts['pending'] ?? 0) }} ·
                     Published: {{ (int)($quizStatusCounts['published'] ?? 0) }} ·
-                    Rejected: {{ (int)($quizStatusCounts['rejected'] ?? 0) }}
+                    Draft: {{ (int)($quizStatusCounts['draft'] ?? 0) }}
                 </div>
             </div>
 
             <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                 <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Total plays</div>
                 <div class="mt-1 text-2xl font-extrabold text-slate-900">{{ (int) $plays }}</div>
-                <div class="mt-2 text-xs text-slate-600">Non-contest quiz attempts (submitted)</div>
+                <div class="mt-2 text-xs text-slate-600">Completion: {{ $completionRate !== null ? ($completionRate . '%') : '—' }}</div>
+            </div>
+
+            <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Batch students</div>
+                <div class="mt-1 text-2xl font-extrabold text-indigo-700">{{ (int) $totalBatchStudents }}</div>
+                <div class="mt-2 text-xs text-slate-600">{{ (int) $activeBatches }} active batch{{ $activeBatches !== 1 ? 'es' : '' }}</div>
             </div>
 
             <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                 <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Avg score</div>
                 <div class="mt-1 text-2xl font-extrabold text-slate-900">{{ $avgScore !== null ? $avgScore : '—' }}</div>
-                <div class="mt-2 text-xs text-slate-600">Across submitted plays</div>
-            </div>
-
-            <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <div class="text-xs font-semibold uppercase tracking-wider text-slate-500">Completion rate</div>
-                <div class="mt-1 text-2xl font-extrabold text-slate-900">{{ $completionRate !== null ? ($completionRate . '%') : '—' }}</div>
-                <div class="mt-2 text-xs text-slate-600">
-                    Submitted: {{ (int) $attemptsSubmitted }} / Total: {{ (int) $attemptsAll }}
-                </div>
+                <div class="mt-2 text-xs text-slate-600">Avg time: {{ $avgTime !== null ? ($avgTime . 's') : '—' }}</div>
             </div>
         </div>
+
+        {{-- Weekly plays chart --}}
+        @if($weeklyPlays->isNotEmpty())
+        <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <div class="text-base font-semibold text-slate-900">Weekly plays (last 8 weeks)</div>
+            <div class="mt-4 flex items-end gap-2" style="height: 120px">
+                @php $maxPlays = $weeklyPlays->max('plays') ?: 1; @endphp
+                @foreach($weeklyPlays as $w)
+                    @php $pct = round($w->plays * 100 / $maxPlays); @endphp
+                    <div class="flex flex-1 flex-col items-center gap-1">
+                        <div class="text-[10px] font-semibold text-slate-700">{{ $w->plays }}</div>
+                        <div class="w-full rounded-t bg-indigo-500" style="height: {{ max($pct, 4) }}%"></div>
+                        <div class="text-[9px] text-slate-400">{{ \Illuminate\Support\Carbon::parse($w->week_start)->format('d M') }}</div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+        @endif
 
         <div class="grid gap-6 lg:grid-cols-2">
             <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
@@ -135,14 +150,44 @@
             </div>
         </div>
 
+        {{-- Top students --}}
+        @if($topStudents->isNotEmpty())
         <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <div class="text-base font-semibold text-slate-900">Notes</div>
-            <div class="mt-2 text-sm text-slate-600">
-                - Plays/score are calculated from submitted quiz attempts (non-contest).<br>
-                - Contest metrics are based on joined participants.<br>
-                - Next upgrade: per-quiz charts (daily plays), question difficulty stats, and contest rank summaries.
+            <div class="text-base font-semibold text-slate-900">Top students</div>
+            <div class="mt-1 text-sm text-slate-600">Across all your quizzes and contests, ranked by avg score.</div>
+
+            <div class="mt-4 overflow-x-auto">
+                <table class="min-w-full text-sm">
+                    <thead>
+                    <tr class="border-b border-slate-200 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">
+                        <th class="py-2 pr-4">Rank</th>
+                        <th class="py-2 pr-4">Student</th>
+                        <th class="py-2 pr-4">Quizzes</th>
+                        <th class="py-2 pr-4">Avg score</th>
+                        <th class="py-2">Accuracy</th>
+                    </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100">
+                    @foreach($topStudents as $i => $s)
+                        <tr>
+                            <td class="py-3 pr-4 font-bold text-slate-700">{{ $i + 1 }}</td>
+                            <td class="py-3 pr-4 font-medium text-slate-900">{{ $s->name }}</td>
+                            <td class="py-3 pr-4 text-slate-600">{{ $s->quizzes_played }}</td>
+                            <td class="py-3 pr-4 font-semibold text-indigo-700">{{ $s->avg_score }}</td>
+                            <td class="py-3">
+                                @if($s->total_questions > 0)
+                                    {{ round($s->total_correct * 100 / $s->total_questions, 1) }}%
+                                @else
+                                    —
+                                @endif
+                            </td>
+                        </tr>
+                    @endforeach
+                    </tbody>
+                </table>
             </div>
         </div>
+        @endif
     </div>
 @endsection
 

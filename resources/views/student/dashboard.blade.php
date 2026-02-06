@@ -16,9 +16,47 @@
             <div class="text-sm text-slate-200">Welcome back</div>
             <div class="mt-1 text-xl font-semibold text-white">{{ $userName }}</div>
 
-            <div class="mt-2 text-xs text-slate-300">
-                Daily streak: <span class="font-semibold text-white">{{ (int) (($streak?->current_streak) ?? 0) }}</span>
-                · Best: <span class="font-semibold text-white">{{ (int) (($streak?->best_streak) ?? 0) }}</span>
+            {{-- Streak & XP row --}}
+            @php
+                $currentStreak = (int) ($streak?->current_streak ?? 0);
+                $bestStreak = (int) ($streak?->best_streak ?? 0);
+                $totalXp = (int) ($streak?->total_xp ?? 0);
+                $level = (int) ($streak?->level ?? 1);
+                $levelName = $streak ? $streak->levelName() : 'Beginner';
+                $xpProgress = $streak ? $streak->xpProgress() : 0;
+                $playedToday = $streak && $streak->last_streak_date && $streak->last_streak_date->toDateString() === now()->toDateString();
+                $streakAtRisk = $currentStreak > 0 && !$playedToday;
+            @endphp
+
+            @if($streakAtRisk)
+                <div class="mt-2 border border-orange-400/30 bg-orange-500/10 px-3 py-2 text-center text-sm">
+                    <span class="font-semibold text-orange-300">Your {{ $currentStreak }}-day streak is at risk!</span>
+                    <span class="text-orange-200/80">Complete a quiz today to keep it alive.</span>
+                </div>
+            @endif
+            <div class="mt-3 grid grid-cols-3 gap-2 text-center">
+                <div class="border border-white/10 bg-slate-950/30 p-2">
+                    <div class="text-lg font-bold text-orange-300">{{ $currentStreak }}</div>
+                    <div class="text-[10px] text-slate-400">Day streak</div>
+                </div>
+                <div class="border border-white/10 bg-slate-950/30 p-2">
+                    <div class="text-lg font-bold text-indigo-300">{{ number_format($totalXp) }}</div>
+                    <div class="text-[10px] text-slate-400">XP</div>
+                </div>
+                <div class="border border-white/10 bg-slate-950/30 p-2">
+                    <div class="text-lg font-bold text-emerald-300">Lv {{ $level }}</div>
+                    <div class="text-[10px] text-slate-400">{{ $levelName }}</div>
+                </div>
+            </div>
+            {{-- XP progress bar --}}
+            <div class="mt-2">
+                <div class="flex items-center justify-between text-[10px] text-slate-500">
+                    <span>Lv {{ $level }}</span>
+                    <span>Lv {{ min($level + 1, 10) }}</span>
+                </div>
+                <div class="mt-0.5 h-1.5 w-full overflow-hidden rounded-full bg-white/10">
+                    <div class="h-full rounded-full bg-indigo-500 transition-all" style="width: {{ $xpProgress }}%"></div>
+                </div>
             </div>
         @else
             <div class="text-sm text-slate-200">Welcome to {{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>

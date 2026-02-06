@@ -251,6 +251,36 @@ class BatchController extends Controller
     }
 
     /* ------------------------------------------------------------------ */
+    /*  Announcements                                                     */
+    /* ------------------------------------------------------------------ */
+
+    public function announce(Request $request, Batch $batch)
+    {
+        abort_unless($batch->creator_user_id === Auth::id(), 403);
+
+        $data = $request->validate([
+            'title' => ['required', 'string', 'max:120'],
+            'message' => ['required', 'string', 'max:500'],
+        ]);
+
+        $studentIds = $batch->activeStudents()->pluck('user_id')->toArray();
+
+        if (empty($studentIds)) {
+            return back()->with('error', 'No students in this batch to notify.');
+        }
+
+        $this->notifyBatchStudents(
+            $studentIds,
+            $data['title'],
+            $data['message'],
+            route('batches.show', $batch),
+            'batch_announcement'
+        );
+
+        return back()->with('status', 'Announcement sent to ' . count($studentIds) . ' students.');
+    }
+
+    /* ------------------------------------------------------------------ */
     /*  Batch notifications (in-app + FCM push)                           */
     /* ------------------------------------------------------------------ */
 
