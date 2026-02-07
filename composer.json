@@ -5,6 +5,22 @@
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "phonepe/pg-php-sdk-v2",
+                "version": "2.0.0",
+                "dist": {
+                    "url": "https://phonepe.mycloudrepo.io/public/repositories/phonepe-pg-php-sdk/v2-sdk.zip",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "classmap": ["/"]
+                }
+            }
+        }
+    ],
     "require": {
         "php": "^8.2",
         "fivefilters/readability.php": "^3.3",
@@ -12,9 +28,12 @@
         "laravel/reverb": "^1.7",
         "laravel/socialite": "^5.24",
         "laravel/tinker": "^2.10.1",
+        "netresearch/jsonmapper": "^4.4",
         "openai-php/client": "^0.18.0",
+        "phonepe/pg-php-sdk-v2": "^2.0",
         "phpoffice/phpword": "^1.4",
         "pusher/pusher-php-server": "^7.2",
+        "razorpay/razorpay": "2.*",
         "smalot/pdfparser": "^2.12",
         "spatie/laravel-permission": "^6.24"
     },

@@ -139,6 +139,13 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/fcm/token', [FcmTokenController::class, 'store'])->name('fcm.token.store');
     Route::delete('/fcm/token', [FcmTokenController::class, 'destroy'])->name('fcm.token.destroy');
+
+    // Payments
+    Route::post('/payments/initiate', [\App\Http\Controllers\PaymentController::class, 'initiate'])->name('payments.initiate');
+    Route::post('/payments/verify/razorpay', [\App\Http\Controllers\PaymentController::class, 'verifyRazorpay'])->name('payments.razorpay.verify');
+    Route::get('/payments/phonepe/callback/{payment}', [\App\Http\Controllers\PaymentController::class, 'phonePeCallback'])->name('payments.phonepe.callback');
+    Route::get('/payments/{payment}/success', [\App\Http\Controllers\PaymentController::class, 'success'])->name('payments.success');
+    Route::get('/payments/{payment}/failed', [\App\Http\Controllers\PaymentController::class, 'failed'])->name('payments.failed');
 });
 
 Route::middleware('auth')->get('/dashboard', function () {

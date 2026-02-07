@@ -22,6 +22,24 @@ class SettingsController extends Controller
         'leaderboard',
     ];
 
+    /** All payment-related setting keys. */
+    public const PAYMENT_KEYS = [
+        'payment_active_gateway',
+        'payment_mode',
+        // Razorpay
+        'razorpay_sandbox_key_id',
+        'razorpay_sandbox_key_secret',
+        'razorpay_live_key_id',
+        'razorpay_live_key_secret',
+        // PhonePe
+        'phonepe_sandbox_client_id',
+        'phonepe_sandbox_client_secret',
+        'phonepe_sandbox_client_version',
+        'phonepe_live_client_id',
+        'phonepe_live_client_secret',
+        'phonepe_live_client_version',
+    ];
+
     public function edit()
     {
         $rawMenu = Setting::cachedGet('frontend_menu', null);
@@ -34,6 +52,19 @@ class SettingsController extends Controller
             $frontendMenu[$key] = (bool) ($menu[$key] ?? true);
         }
 
+        // Payment settings
+        $paymentValues = [];
+        foreach (self::PAYMENT_KEYS as $pKey) {
+            $paymentValues[$pKey] = Setting::cachedGet($pKey, '');
+        }
+        // Defaults
+        if ($paymentValues['payment_active_gateway'] === '') {
+            $paymentValues['payment_active_gateway'] = 'razorpay';
+        }
+        if ($paymentValues['payment_mode'] === '') {
+            $paymentValues['payment_mode'] = 'sandbox';
+        }
+
         $values = [
             'site_name' => Setting::cachedGet('site_name', config('app.name', 'QuizWhiz')),
             'ads_enabled' => (string) Setting::cachedGet('ads_enabled', '0'),
@@ -44,6 +75,7 @@ class SettingsController extends Controller
             'daily_reminder_time' => Setting::cachedGet('daily_reminder_time', '07:00'),
             'contest_reminder_lead_minutes' => Setting::cachedGet('contest_reminder_lead_minutes', '30'),
             'frontend_menu' => $frontendMenu,
+            'payment' => $paymentValues,
         ];
 
         return view('admin.settings.edit', compact('values'));
@@ -65,6 +97,19 @@ class SettingsController extends Controller
             'ads_interstitial_every_n_results' => ['required', 'integer', 'min:1', 'max:20'],
             'daily_reminder_time' => ['required', 'regex:/^\d{2}:\d{2}$/'],
             'contest_reminder_lead_minutes' => ['required', 'integer', 'min:5', 'max:180'],
+            // Payment fields
+            'payment_active_gateway' => ['nullable', 'string', 'in:razorpay,phonepe'],
+            'payment_mode' => ['nullable', 'string', 'in:sandbox,live'],
+            'razorpay_sandbox_key_id' => ['nullable', 'string', 'max:255'],
+            'razorpay_sandbox_key_secret' => ['nullable', 'string', 'max:255'],
+            'razorpay_live_key_id' => ['nullable', 'string', 'max:255'],
+            'razorpay_live_key_secret' => ['nullable', 'string', 'max:255'],
+            'phonepe_sandbox_client_id' => ['nullable', 'string', 'max:255'],
+            'phonepe_sandbox_client_secret' => ['nullable', 'string', 'max:255'],
+            'phonepe_sandbox_client_version' => ['nullable', 'string', 'max:50'],
+            'phonepe_live_client_id' => ['nullable', 'string', 'max:255'],
+            'phonepe_live_client_secret' => ['nullable', 'string', 'max:255'],
+            'phonepe_live_client_version' => ['nullable', 'string', 'max:50'],
         ], $menuRules));
 
         Setting::set('site_name', $data['site_name']);
@@ -82,6 +127,30 @@ class SettingsController extends Controller
         }
         Setting::set('frontend_menu', json_encode($frontendMenu));
 
+        // Save payment settings (only overwrite secrets if non-empty)
+        Setting::set('payment_active_gateway', $data['payment_active_gateway'] ?? 'razorpay');
+        Setting::set('payment_mode', $data['payment_mode'] ?? 'sandbox');
+
+        $secretKeys = [
+            'razorpay_sandbox_key_secret',
+            'razorpay_live_key_secret',
+            'phonepe_sandbox_client_secret',
+            'phonepe_live_client_secret',
+        ];
+
+        foreach (self::PAYMENT_KEYS as $pKey) {
+            if ($pKey === 'payment_active_gateway' || $pKey === 'payment_mode') {
+                continue; // already saved
+            }
+            $val = $data[$pKey] ?? '';
+            // For secret fields: only overwrite if user typed something
+            if (in_array($pKey, $secretKeys) && $val === '') {
+                continue;
+            }
+            Setting::set($pKey, $val);
+        }
+
+        // Clear caches
         Setting::forget('site_name');
         Setting::forget('ads_enabled');
         Setting::forget('ads_banner_enabled');
@@ -91,6 +160,10 @@ class SettingsController extends Controller
         Setting::forget('daily_reminder_time');
         Setting::forget('contest_reminder_lead_minutes');
         Setting::forget('frontend_menu');
+
+        foreach (self::PAYMENT_KEYS as $pKey) {
+            Setting::forget($pKey);
+        }
 
         return redirect()->route('admin.settings.edit')->with('status', 'Settings saved.');
     }
