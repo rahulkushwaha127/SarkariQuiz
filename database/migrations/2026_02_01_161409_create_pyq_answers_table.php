@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('pyq_question_id')->constrained('pyq_questions')->cascadeOnDelete();
             $table->string('title');
+            $table->string('image_path')->nullable();
             $table->boolean('is_correct')->default(false)->index();
             $table->unsignedTinyInteger('position')->default(0);
             $table->timestamps();

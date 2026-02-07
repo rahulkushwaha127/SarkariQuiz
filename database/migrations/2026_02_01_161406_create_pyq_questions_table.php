@@ -22,6 +22,7 @@ return new class extends Migration
 
             $table->text('prompt');
             $table->text('explanation')->nullable();
+            $table->string('image_path')->nullable();
             $table->unsignedInteger('position')->default(0);
             $table->timestamps();
 

@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('question_id')->constrained()->cascadeOnDelete();
 
             $table->string('title');
+            $table->string('image_path')->nullable();
             $table->boolean('is_correct')->default(false)->index();
             $table->unsignedTinyInteger('position')->default(0);
             $table->timestamps();

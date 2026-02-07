@@ -92,14 +92,23 @@ class PracticeController extends Controller
         $difficulty = $data['difficulty'] ?? null;
         $count = (int) ($data['count'] ?? 10);
 
-        // Practice uses the question bank directly: random from all questions, or filtered by topic when selected.
+        // Map difficulty string to integer for query
+        $difficultyInt = match ($difficulty) {
+            'easy' => 0,
+            'medium' => 1,
+            'hard' => 2,
+            default => null,
+        };
+
+        // Practice uses the question bank directly: random from all questions, or filtered by topic/difficulty.
         $query = Question::query()
             ->whereExists(function ($q) {
                 $q->select(DB::raw(1))
                     ->from('answers')
                     ->whereColumn('answers.question_id', 'questions.id');
             })
-            ->when($topicId, fn ($q) => $q->where('topic_id', $topicId));
+            ->when($topicId, fn ($q) => $q->where('topic_id', $topicId))
+            ->when(! is_null($difficultyInt), fn ($q) => $q->where('difficulty', $difficultyInt));
 
         $questionIds = $query->inRandomOrder()
             ->limit($count)

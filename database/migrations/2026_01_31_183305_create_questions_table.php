@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->text('prompt');
             $table->text('explanation')->nullable();
+            $table->string('image_path')->nullable();
+            $table->unsignedTinyInteger('difficulty')->default(0); // 0=easy, 1=medium, 2=hard
             $table->timestamps();
         });
 

@@ -98,7 +98,7 @@ class QuizController extends Controller
 
         $exams = Exam::query()->where('is_active', true)->orderBy('position')->orderBy('name')->get();
         $subjects = $quiz->exam_id
-            ? Subject::query()->where('exam_id', $quiz->exam_id)->where('is_active', true)->orderBy('position')->orderBy('name')->get()
+            ? Exam::find($quiz->exam_id)?->subjects()->where('subjects.is_active', true)->get() ?? collect()
             : collect();
         $topics = $quiz->subject_id
             ? Topic::query()->where('subject_id', $quiz->subject_id)->where('is_active', true)->orderBy('position')->orderBy('name')->get()

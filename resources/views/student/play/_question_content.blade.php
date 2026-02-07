@@ -10,6 +10,11 @@
     <div class="mt-3 text-base font-semibold text-white">
         {!! nl2br(e($question->prompt)) !!}
     </div>
+    @if($question->image_path)
+        <div class="mt-3">
+            <img src="{{ asset('storage/' . $question->image_path) }}" alt="Question image" class="max-h-64 rounded-lg">
+        </div>
+    @endif
 </div>
 
 <span data-play-next-url="{{ route('play.question', [$attempt, $questionNumber]) }}" class="hidden" aria-hidden="true"></span>
@@ -30,6 +35,9 @@
                        {{ $checked ? 'checked' : '' }}>
                 <div class="text-sm text-slate-100">
                     {{ $ans->title }}
+                    @if($ans->image_path)
+                        <img src="{{ asset('storage/' . $ans->image_path) }}" alt="Option image" class="mt-1 max-h-24 rounded">
+                    @endif
                 </div>
             </label>
         @endforeach

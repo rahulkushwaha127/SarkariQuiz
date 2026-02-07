@@ -12,6 +12,7 @@ class PyqAnswer extends Model
     protected $fillable = [
         'pyq_question_id',
         'title',
+        'image_path',
         'is_correct',
         'position',
     ];

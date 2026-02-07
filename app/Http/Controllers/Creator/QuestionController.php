@@ -176,9 +176,15 @@ class QuestionController extends Controller
 
         $position = (int) DB::table('quiz_question')->where('quiz_id', $quiz->id)->max('position') + 1;
 
+        $imagePath = null;
+        if ($request->hasFile('question_image')) {
+            $imagePath = $request->file('question_image')->store('questions', 'public');
+        }
+
         $question = Question::create([
             'prompt' => $request->validated('prompt'),
             'explanation' => $request->validated('explanation'),
+            'image_path' => $imagePath,
         ]);
 
         $quiz->questions()->attach($question->id, ['position' => $position]);
@@ -187,9 +193,14 @@ class QuestionController extends Controller
         $correctIndex = (int) $request->validated('correct_index');
 
         foreach (array_values($answers) as $i => $answer) {
+            $ansImage = null;
+            if ($request->hasFile("answer_images.{$i}")) {
+                $ansImage = $request->file("answer_images.{$i}")->store('answers', 'public');
+            }
             Answer::create([
                 'question_id' => $question->id,
                 'title' => $answer['title'],
+                'image_path' => $ansImage,
                 'is_correct' => $i === $correctIndex,
                 'position' => $i,
             ]);
@@ -223,19 +234,30 @@ class QuestionController extends Controller
         abort_unless($quiz->user_id === Auth::id(), 403);
         abort_unless($quiz->questions()->where('questions.id', $question->id)->exists(), 404);
 
-        $question->update([
+        $updateData = [
             'prompt' => $request->validated('prompt'),
             'explanation' => $request->validated('explanation'),
-        ]);
+        ];
+
+        if ($request->hasFile('question_image')) {
+            $updateData['image_path'] = $request->file('question_image')->store('questions', 'public');
+        }
+
+        $question->update($updateData);
 
         $answers = $request->validated('answers');
         $correctIndex = (int) $request->validated('correct_index');
 
         $question->answers()->delete();
         foreach (array_values($answers) as $i => $answer) {
+            $ansImage = null;
+            if ($request->hasFile("answer_images.{$i}")) {
+                $ansImage = $request->file("answer_images.{$i}")->store('answers', 'public');
+            }
             Answer::create([
                 'question_id' => $question->id,
                 'title' => $answer['title'],
+                'image_path' => $ansImage,
                 'is_correct' => $i === $correctIndex,
                 'position' => $i,
             ]);

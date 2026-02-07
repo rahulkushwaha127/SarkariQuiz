@@ -3,11 +3,13 @@
 namespace App\Console\Commands;
 
 use App\Models\Answer;
+use App\Models\Exam;
 use App\Models\Question;
 use App\Models\Subject;
 use App\Models\Topic;
 use App\Support\Slug;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 class ImportContentQuestions extends Command
@@ -33,6 +35,9 @@ class ImportContentQuestions extends Command
         'STATICGK' => 'Static GK',
     ];
 
+    /** Cache of exam slugs => ids */
+    private array $examCache = [];
+
     public function handle(): int
     {
         $basePath = base_path($this->option('path'));
@@ -44,6 +49,9 @@ class ImportContentQuestions extends Command
         $dryRun = (bool) $this->option('dry-run');
         $flushSubject = $this->option('flush-subject');
 
+        // Pre-load exam slugs for pivot linking
+        $this->examCache = Exam::query()->pluck('id', 'slug')->all();
+
         if ($flushSubject && ! $dryRun) {
             $subject = Subject::query()->where('slug', $flushSubject)->first();
             if ($subject) {
@@ -53,14 +61,14 @@ class ImportContentQuestions extends Command
         }
 
         $files = $this->collectJsonFiles($basePath);
-        $this->info('Found '.count($files).' JSON file(s).');
+        $this->info('Found ' . count($files) . ' JSON file(s).');
 
         $totalQuestions = 0;
         $totalSkipped = 0;
         $errors = [];
 
         foreach ($files as $relativePath) {
-            $fullPath = $basePath.DIRECTORY_SEPARATOR.str_replace('/', DIRECTORY_SEPARATOR, $relativePath);
+            $fullPath = $basePath . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $relativePath);
             $content = @file_get_contents($fullPath);
             if ($content === false) {
                 $errors[] = "Read failed: {$relativePath}";
@@ -74,7 +82,7 @@ class ImportContentQuestions extends Command
 
             $segments = explode('/', str_replace('\\', '/', $relativePath));
             $subjectFolder = $segments[0] ?? '';
-            // e.g. HISTORY/ANCIENT/1.json or GENERALSCIENCE/Physics/chunk.json → topic = 2nd segment
+            // e.g. HISTORY/ANCIENT/1.json or GENERALSCIENCE/Physics/chunk.json -> topic = 2nd segment
             $topicFolder = count($segments) >= 3 ? ($segments[1] ?? null) : null;
 
             $subjectName = self::$subjectNameMap[$subjectFolder] ?? Str::title(str_replace('_', ' ', $subjectFolder));
@@ -91,14 +99,14 @@ class ImportContentQuestions extends Command
                     continue;
                 }
                 if (! $dryRun && $subject) {
-                    $this->createQuestion($item, $subject->id, $topic?->id, $this->option('language') ?: 'hi');
+                    $this->createQuestion($item, $subject, $topic?->id, $this->option('language') ?: 'hi');
                 }
                 $count++;
             }
 
             $totalQuestions += $count;
             $totalSkipped += $skipped;
-            $this->line("  {$relativePath}: {$count} questions".($skipped ? " ({$skipped} skipped)" : ''));
+            $this->line("  {$relativePath}: {$count} questions" . ($skipped ? " ({$skipped} skipped)" : ''));
         }
 
         foreach ($errors as $err) {
@@ -106,7 +114,7 @@ class ImportContentQuestions extends Command
         }
 
         $this->newLine();
-        $this->info('Total questions imported: '.$totalQuestions);
+        $this->info('Total questions imported: ' . $totalQuestions);
         if ($totalSkipped) {
             $this->warn("Total skipped (invalid format): {$totalSkipped}");
         }
@@ -137,10 +145,10 @@ class ImportContentQuestions extends Command
     {
         $slug = Slug::make($name);
         if ($dryRun) {
-            return Subject::query()->firstOrNew(['exam_id' => null, 'slug' => $slug], ['name' => $name]);
+            return Subject::query()->firstOrNew(['slug' => $slug], ['name' => $name]);
         }
         return Subject::firstOrCreate(
-            ['exam_id' => null, 'slug' => $slug],
+            ['slug' => $slug],
             ['name' => $name, 'is_active' => true, 'position' => 0]
         );
     }
@@ -158,6 +166,27 @@ class ImportContentQuestions extends Command
             ['subject_id' => $subject->id, 'slug' => $slug],
             ['name' => $name, 'is_active' => true, 'position' => 0]
         );
+    }
+
+    /**
+     * Link a subject to exams via the exam_subject pivot.
+     * Called when a question has an "exams" array in the JSON.
+     */
+    private function linkSubjectToExams(Subject $subject, array $examSlugs): void
+    {
+        foreach ($examSlugs as $slug) {
+            $slug = trim(strtolower((string) $slug));
+            $examId = $this->examCache[$slug] ?? null;
+            if (! $examId) {
+                continue;
+            }
+            // Insert-ignore: don't fail on duplicate
+            DB::table('exam_subject')->insertOrIgnore([
+                'exam_id' => $examId,
+                'subject_id' => $subject->id,
+                'position' => 0,
+            ]);
+        }
     }
 
     private function isValidQuestionItem(mixed $item): bool
@@ -178,28 +207,57 @@ class ImportContentQuestions extends Command
         return true;
     }
 
-    private function createQuestion(array $item, int $subjectId, ?int $topicId, string $language = 'en'): void
+    /**
+     * Parse difficulty from JSON item.
+     * Accepts: "easy"|"medium"|"hard" or 0|1|2. Defaults to 0 (easy).
+     */
+    private function parseDifficulty(mixed $raw): int
+    {
+        if (is_int($raw) && $raw >= 0 && $raw <= 2) {
+            return $raw;
+        }
+        return match (strtolower(trim((string) $raw))) {
+            'medium' => 1,
+            'hard' => 2,
+            default => 0,
+        };
+    }
+
+    private function createQuestion(array $item, Subject $subject, ?int $topicId, string $language = 'en'): void
     {
         $prompt = trim((string) $item['prompt']);
         $explanation = isset($item['explanation']) ? trim((string) $item['explanation']) : null;
         $answers = array_values($item['answers']);
         $correctIndex = (int) $item['correct'];
+        $difficulty = $this->parseDifficulty($item['difficulty'] ?? 0);
+        $imagePath = isset($item['image']) ? trim((string) $item['image']) : null;
+        $answerImages = $item['answer_images'] ?? [];
 
         $question = Question::create([
             'prompt' => $prompt,
             'explanation' => $explanation ?: null,
-            'subject_id' => $subjectId,
+            'image_path' => $imagePath ?: null,
+            'difficulty' => $difficulty,
+            'subject_id' => $subject->id,
             'topic_id' => $topicId,
             'language' => $language,
         ]);
 
         foreach (array_slice($answers, 0, 4) as $i => $title) {
+            $ansImage = isset($answerImages[$i]) ? trim((string) $answerImages[$i]) : null;
             Answer::create([
                 'question_id' => $question->id,
                 'title' => trim((string) $title),
+                'image_path' => $ansImage ?: null,
                 'is_correct' => $i === $correctIndex,
                 'position' => $i,
             ]);
+        }
+
+        // Link subject to exams if specified
+        $examSlugs = $item['exams'] ?? [];
+        if (is_array($examSlugs) && ! empty($examSlugs)) {
+            $this->linkSubjectToExams($subject, $examSlugs);
         }
     }
 }

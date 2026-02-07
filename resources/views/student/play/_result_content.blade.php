@@ -104,6 +104,11 @@
                         <div class="mt-1 text-sm font-semibold text-white">
                             {!! nl2br(e($q->prompt)) !!}
                         </div>
+                        @if($q->image_path)
+                            <div class="mt-2">
+                                <img src="{{ asset('storage/' . $q->image_path) }}" alt="Question image" class="max-h-40 rounded-lg">
+                            </div>
+                        @endif
                     </div>
                     <div class="shrink-0 text-xs font-semibold {{ $selected ? ($isCorrect ? 'text-emerald-200' : 'text-red-200') : 'text-slate-300' }}">
                         {{ $selected ? ($isCorrect ? 'CORRECT' : 'WRONG') : 'UNANSWERED' }}

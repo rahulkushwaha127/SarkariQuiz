@@ -35,7 +35,7 @@ class StoreQuizRequest extends FormRequest
             'subject_id' => [
                 'nullable',
                 'integer',
-                Rule::exists('subjects', 'id')->when($this->input('exam_id'), fn ($q) => $q->where('exam_id', $this->input('exam_id'))),
+                Rule::exists('subjects', 'id'),
             ],
             'topic_id' => [
                 'nullable',

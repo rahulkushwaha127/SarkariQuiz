@@ -22,9 +22,21 @@ class Subject extends Model
         'position' => 'integer',
     ];
 
+    /**
+     * Legacy single-exam relationship (nullable). Prefer exams() pivot.
+     */
     public function exam()
     {
         return $this->belongsTo(Exam::class);
+    }
+
+    /**
+     * All exams this subject belongs to via the pivot.
+     */
+    public function exams()
+    {
+        return $this->belongsToMany(Exam::class, 'exam_subject')
+            ->withPivot('position');
     }
 
     public function topics()

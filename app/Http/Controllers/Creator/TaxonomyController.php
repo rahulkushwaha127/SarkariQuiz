@@ -11,8 +11,8 @@ class TaxonomyController extends Controller
     public function subjects(Exam $exam)
     {
         $subjects = $exam->subjects()
-            ->where('is_active', true)
-            ->get(['id', 'name']);
+            ->where('subjects.is_active', true)
+            ->get(['subjects.id', 'subjects.name']);
 
         return response()->json([
             'ok' => true,

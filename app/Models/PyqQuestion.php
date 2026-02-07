@@ -17,6 +17,7 @@ class PyqQuestion extends Model
         'paper',
         'prompt',
         'explanation',
+        'image_path',
         'position',
     ];
 

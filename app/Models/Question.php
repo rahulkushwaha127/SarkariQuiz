@@ -12,9 +12,15 @@ class Question extends Model
     protected $fillable = [
         'prompt',
         'explanation',
+        'image_path',
+        'difficulty',
         'subject_id',
         'topic_id',
         'language',
+    ];
+
+    protected $casts = [
+        'difficulty' => 'integer',
     ];
 
     public function subject()

@@ -12,6 +12,7 @@ class Answer extends Model
     protected $fillable = [
         'question_id',
         'title',
+        'image_path',
         'is_correct',
         'position',
     ];

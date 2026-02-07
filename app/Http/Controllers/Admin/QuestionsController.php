@@ -110,9 +110,15 @@ class QuestionsController extends Controller
 
     public function store(StoreQuestionRequest $request)
     {
+        $imagePath = null;
+        if ($request->hasFile('question_image')) {
+            $imagePath = $request->file('question_image')->store('questions', 'public');
+        }
+
         $question = Question::create([
             'prompt' => $request->validated('prompt'),
             'explanation' => $request->validated('explanation'),
+            'image_path' => $imagePath,
             'subject_id' => $request->validated('subject_id') ?: null,
             'topic_id' => $request->validated('topic_id') ?: null,
             'language' => $request->validated('language') ?: 'en',
@@ -122,9 +128,14 @@ class QuestionsController extends Controller
         $correctIndex = (int) $request->validated('correct_index');
 
         foreach (array_values($answers) as $i => $answer) {
+            $ansImage = null;
+            if ($request->hasFile("answer_images.{$i}")) {
+                $ansImage = $request->file("answer_images.{$i}")->store('answers', 'public');
+            }
             Answer::create([
                 'question_id' => $question->id,
                 'title' => $answer['title'],
+                'image_path' => $ansImage,
                 'is_correct' => $i === $correctIndex,
                 'position' => $i,
             ]);
@@ -153,22 +164,33 @@ class QuestionsController extends Controller
 
     public function update(UpdateQuestionRequest $request, Question $question)
     {
-        $question->update([
+        $updateData = [
             'prompt' => $request->validated('prompt'),
             'explanation' => $request->validated('explanation'),
             'subject_id' => $request->validated('subject_id') ?: null,
             'topic_id' => $request->validated('topic_id') ?: null,
             'language' => $request->validated('language') ?: 'en',
-        ]);
+        ];
+
+        if ($request->hasFile('question_image')) {
+            $updateData['image_path'] = $request->file('question_image')->store('questions', 'public');
+        }
+
+        $question->update($updateData);
 
         $answers = $request->validated('answers');
         $correctIndex = (int) $request->validated('correct_index');
 
         $question->answers()->delete();
         foreach (array_values($answers) as $i => $answer) {
+            $ansImage = null;
+            if ($request->hasFile("answer_images.{$i}")) {
+                $ansImage = $request->file("answer_images.{$i}")->store('answers', 'public');
+            }
             Answer::create([
                 'question_id' => $question->id,
                 'title' => $answer['title'],
+                'image_path' => $ansImage,
                 'is_correct' => $i === $correctIndex,
                 'position' => $i,
             ]);

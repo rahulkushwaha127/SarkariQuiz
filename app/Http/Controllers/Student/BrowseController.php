@@ -29,7 +29,7 @@ class BrowseController extends Controller
         abort_unless((bool) $exam->is_active, 404);
 
         $subjects = $exam->subjects()
-            ->where('is_active', true)
+            ->where('subjects.is_active', true)
             ->withCount([
                 'quizzes as public_quizzes_count' => fn ($q) => $q->where('status', 'published')->where('is_public', true),
             ])
@@ -40,9 +40,7 @@ class BrowseController extends Controller
 
     public function subject(Request $request, Subject $subject)
     {
-        $subject->load('exam');
         abort_unless((bool) $subject->is_active, 404);
-        abort_unless($subject->exam && (bool) $subject->exam->is_active, 404);
 
         $quizzes = Quiz::query()
             ->where('subject_id', $subject->id)

@@ -4,14 +4,22 @@
         @method('PATCH')
     @endif
 
+    @php
+        $linkedExamIds = old('exam_ids', $subject->relationLoaded('exams') ? $subject->exams->pluck('id')->all() : []);
+        $linkedExamIds = array_map('intval', (array) $linkedExamIds);
+    @endphp
     <div>
-        <label class="block text-sm font-medium text-slate-700">Exam (optional)</label>
-        <select name="exam_id" class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
-            <option value="">— None (free subject) —</option>
+        <label class="block text-sm font-medium text-slate-700">Exams (select all that apply)</label>
+        <div class="mt-1 space-y-1">
             @foreach ($exams as $exam)
-                <option value="{{ $exam->id }}" @selected((int) old('exam_id', $subject->exam_id) === (int) $exam->id)>{{ $exam->name }}</option>
+                <label class="flex items-center gap-2">
+                    <input type="checkbox" name="exam_ids[]" value="{{ $exam->id }}"
+                           class="h-4 w-4 rounded border-slate-300 text-slate-900 focus:ring-slate-900"
+                           @checked(in_array((int) $exam->id, $linkedExamIds, true))>
+                    <span class="text-sm text-slate-700">{{ $exam->name }}</span>
+                </label>
             @endforeach
-        </select>
+        </div>
     </div>
 
     <div>

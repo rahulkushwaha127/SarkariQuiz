@@ -24,6 +24,11 @@
             <div class="mt-3 text-base font-semibold text-white">
                 {!! nl2br(e($question->prompt)) !!}
             </div>
+            @if($question->image_path)
+                <div class="mt-3">
+                    <img src="{{ asset('storage/' . $question->image_path) }}" alt="Question image" class="max-h-64 rounded-lg">
+                </div>
+            @endif
             @if($question->paper || $question->year)
                 <div class="mt-2 text-xs text-slate-400">
                     {{ trim(($question->paper ? $question->paper : '') . ($question->year ? (' · ' . $question->year) : '')) }}
@@ -43,7 +48,12 @@
                         <input type="radio" name="pyq_answer_id" value="{{ $ans->id }}"
                                class="mt-1 h-4 w-4"
                                @checked((int)$selectedAnswerId === (int)$ans->id)>
-                        <div class="text-sm text-white/90">{{ $ans->title }}</div>
+                        <div class="text-sm text-white/90">
+                            {{ $ans->title }}
+                            @if($ans->image_path)
+                                <img src="{{ asset('storage/' . $ans->image_path) }}" alt="Option image" class="mt-1 max-h-24 rounded">
+                            @endif
+                        </div>
                     </label>
                 @endforeach
             </div>

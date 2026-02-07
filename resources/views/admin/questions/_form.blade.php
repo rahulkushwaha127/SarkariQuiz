@@ -15,6 +15,18 @@
     @error('explanation') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
 </div>
 
+<div class="mb-3">
+    <label class="block text-sm font-medium text-slate-700">Question image (optional)</label>
+    @if($question->image_path)
+        <div class="mt-1 mb-2">
+            <img src="{{ asset('storage/' . $question->image_path) }}" alt="Question image" class="max-h-32 rounded-lg border border-slate-200">
+        </div>
+    @endif
+    <input type="file" name="question_image" accept="image/*"
+           class="mt-1 block w-full text-sm text-slate-600 file:mr-4 file:rounded-lg file:border-0 file:bg-indigo-50 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-indigo-700 hover:file:bg-indigo-100">
+    @error('question_image') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+</div>
+
 @php
     $languagesForFilter = $languagesForFilter ?? config('question.languages', ['en' => 'English', 'hi' => 'Hindi']);
     $oldLanguage = old('language', $question->language ?? 'en');
@@ -111,6 +123,8 @@
                            class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error("answers.$i.title") border-red-300 @enderror"
                            value="{{ $answers[$i]['title'] ?? '' }}" required />
                     @error("answers.$i.title") <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                    <input type="file" name="answer_images[{{ $i }}]" accept="image/*"
+                           class="mt-1 block w-full text-xs text-slate-500 file:mr-2 file:rounded file:border-0 file:bg-slate-100 file:px-2 file:py-1 file:text-xs file:text-slate-600">
                 </div>
             </div>
         </div>

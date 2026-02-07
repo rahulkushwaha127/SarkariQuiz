@@ -21,9 +21,15 @@ class Exam extends Model
         'position' => 'integer',
     ];
 
+    /**
+     * Subjects linked to this exam via the exam_subject pivot.
+     */
     public function subjects()
     {
-        return $this->hasMany(Subject::class)->orderBy('position')->orderBy('name');
+        return $this->belongsToMany(Subject::class, 'exam_subject')
+            ->withPivot('position')
+            ->orderByPivot('position')
+            ->orderBy('subjects.name');
     }
 }
 
