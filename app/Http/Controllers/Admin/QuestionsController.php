@@ -10,9 +10,26 @@ use App\Models\Question;
 use App\Models\Subject;
 use App\Models\Topic;
 use Illuminate\Http\Request;
+use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Str;
 
 class QuestionsController extends Controller
 {
+    /**
+     * Store an uploaded image with a safe extension (never use client filename).
+     */
+    private function storeImageSafe(UploadedFile $file, string $directory): string
+    {
+        $ext = match ($file->getMimeType()) {
+            'image/jpeg' => 'jpg',
+            'image/png' => 'png',
+            'image/gif' => 'gif',
+            'image/webp' => 'webp',
+            default => 'jpg',
+        };
+
+        return $file->storeAs($directory, Str::uuid() . '.' . $ext, 'public');
+    }
     public function index(Request $request)
     {
         $q = $request->string('q')->toString();
@@ -112,7 +129,7 @@ class QuestionsController extends Controller
     {
         $imagePath = null;
         if ($request->hasFile('question_image')) {
-            $imagePath = $request->file('question_image')->store('questions', 'public');
+            $imagePath = $this->storeImageSafe($request->file('question_image'), 'questions');
         }
 
         $question = Question::create([
@@ -130,7 +147,7 @@ class QuestionsController extends Controller
         foreach (array_values($answers) as $i => $answer) {
             $ansImage = null;
             if ($request->hasFile("answer_images.{$i}")) {
-                $ansImage = $request->file("answer_images.{$i}")->store('answers', 'public');
+                $ansImage = $this->storeImageSafe($request->file("answer_images.{$i}"), 'answers');
             }
             Answer::create([
                 'question_id' => $question->id,
@@ -173,7 +190,7 @@ class QuestionsController extends Controller
         ];
 
         if ($request->hasFile('question_image')) {
-            $updateData['image_path'] = $request->file('question_image')->store('questions', 'public');
+            $updateData['image_path'] = $this->storeImageSafe($request->file('question_image'), 'questions');
         }
 
         $question->update($updateData);
@@ -185,7 +202,7 @@ class QuestionsController extends Controller
         foreach (array_values($answers) as $i => $answer) {
             $ansImage = null;
             if ($request->hasFile("answer_images.{$i}")) {
-                $ansImage = $request->file("answer_images.{$i}")->store('answers', 'public');
+                $ansImage = $this->storeImageSafe($request->file("answer_images.{$i}"), 'answers');
             }
             Answer::create([
                 'question_id' => $question->id,

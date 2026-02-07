@@ -3,9 +3,13 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rules\File;
 
 class StoreQuestionRequest extends FormRequest
 {
+    /** Max size for question/answer images in KB (5MB). */
+    private const IMAGE_MAX_KB = 5120;
+
     /**
      * Determine if the user is authorized to make this request.
      */
@@ -21,6 +25,9 @@ class StoreQuestionRequest extends FormRequest
      */
     public function rules(): array
     {
+        $imageRule = File::types(['jpg', 'jpeg', 'png', 'webp', 'gif'])
+            ->max(self::IMAGE_MAX_KB);
+
         return [
             'prompt' => ['required', 'string'],
             'explanation' => ['nullable', 'string'],
@@ -35,6 +42,9 @@ class StoreQuestionRequest extends FormRequest
             'answers' => ['required', 'array', 'size:4'],
             'answers.*.title' => ['required', 'string', 'max:255'],
             'correct_index' => ['required', 'integer', 'min:0', 'max:3'],
+            'question_image' => ['nullable', $imageRule],
+            'answer_images' => ['nullable', 'array'],
+            'answer_images.*' => ['nullable', $imageRule],
         ];
     }
 }

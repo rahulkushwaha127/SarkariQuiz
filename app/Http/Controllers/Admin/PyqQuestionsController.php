@@ -94,7 +94,7 @@ class PyqQuestionsController extends Controller
     public function import(Request $request)
     {
         $request->validate([
-            'file' => ['required', 'file', 'max:20480'],
+            'file' => ['required', 'file', 'mimes:csv,txt', 'mimetypes:text/csv,text/plain', 'max:20480'],
         ]);
 
         $file = $request->file('file');
