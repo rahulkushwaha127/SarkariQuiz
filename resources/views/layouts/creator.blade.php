@@ -10,7 +10,8 @@
     @vite(['resources/css/app.css', 'resources/js/admin.js', 'resources/js/creator.js'])
 </head>
 <body class="min-h-screen bg-slate-50 text-slate-900">
-    <div class="min-h-screen">
+    @include('partials._impersonation_banner')
+    <div class="min-h-screen {{ app('impersonate')->isImpersonating() ? 'pt-10' : '' }}">
         @include('partials.creator.header')
 
         <div class="w-full px-4 sm:px-6 lg:px-8">

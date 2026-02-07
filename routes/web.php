@@ -129,6 +129,12 @@ Route::get('/cookie-policy', function () {
 
 Auth::routes();
 
+// Impersonation routes (lab404/laravel-impersonate)
+Route::middleware('auth')->group(function () {
+    Route::get('/impersonate/take/{id}/{guardName?}', [\Lab404\Impersonate\Controllers\ImpersonateController::class, 'take'])->name('impersonate');
+    Route::get('/impersonate/leave', [\Lab404\Impersonate\Controllers\ImpersonateController::class, 'leave'])->name('impersonate.leave');
+});
+
 // Google login (optional)
 Route::get('/auth/google/redirect', [GoogleAuthController::class, 'redirect'])->name('auth.google.redirect');
 Route::get('/auth/google/callback', [GoogleAuthController::class, 'callback'])->name('auth.google.callback');

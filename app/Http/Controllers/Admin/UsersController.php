@@ -12,7 +12,10 @@ class UsersController extends Controller
 {
     public function index(Request $request)
     {
-        $q = $request->string('q')->toString();
+        $q      = $request->string('q')->toString();
+        $role   = $request->string('role')->toString();
+        $status = $request->string('status')->toString();
+        $sort   = $request->string('sort')->toString();
 
         $users = User::query()
             ->with('roles')
@@ -23,11 +26,29 @@ class UsersController extends Controller
                         ->orWhere('username', 'like', "%{$q}%");
                 });
             })
-            ->latest()
+            ->when($role !== '', function ($query) use ($role) {
+                $query->whereHas('roles', fn ($r) => $r->where('name', $role));
+            })
+            ->when($status === 'active', fn ($query) => $query->whereNull('blocked_at'))
+            ->when($status === 'blocked', fn ($query) => $query->whereNotNull('blocked_at'))
+            ->when($status === 'guest', fn ($query) => $query->where('is_guest', true))
+            ->when($sort === 'oldest', fn ($q) => $q->oldest(), fn ($q) => $q->latest())
             ->paginate(20)
             ->withQueryString();
 
-        return view('admin.users.index', compact('users', 'q'));
+        $roles = Role::query()
+            ->whereIn('name', ['student', 'creator', 'guest', 'super_admin'])
+            ->pluck('name')
+            ->all();
+
+        $totalUsers   = User::count();
+        $activeUsers  = User::whereNull('blocked_at')->count();
+        $blockedUsers = User::whereNotNull('blocked_at')->count();
+
+        return view('admin.users.index', compact(
+            'users', 'q', 'role', 'status', 'sort', 'roles',
+            'totalUsers', 'activeUsers', 'blockedUsers',
+        ));
     }
 
     public function create()

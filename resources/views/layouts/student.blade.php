@@ -46,6 +46,7 @@
     </style>
 </head>
 <body class="min-h-screen bg-slate-950 text-slate-100">
+    @include('partials._impersonation_banner')
     @php
         $me = auth()->user();
         $isLoggedIn = (bool) $me;
@@ -60,9 +61,10 @@
         <div class="absolute inset-0 opacity-40 [background-image:linear-gradient(to_right,rgba(148,163,184,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(148,163,184,0.06)_1px,transparent_1px)] [background-size:32px_32px]"></div>
     </div>
 
-    <div class="mx-auto flex min-h-screen max-w-6xl items-stretch justify-center px-0 py-0 sm:px-4">
+    @php $isImpersonating = app('impersonate')->isImpersonating(); @endphp
+    <div class="mx-auto flex min-h-screen max-w-6xl items-stretch justify-center px-0 py-0 sm:px-4 {{ $isImpersonating ? 'pt-10' : '' }}">
         {{-- Phone frame --}}
-        <div class="relative flex w-full max-w-[420px] flex-col overflow-hidden border border-white/10 bg-slate-900/60 shadow-2xl ring-1 ring-white/10 backdrop-blur h-[100dvh]">
+        <div class="relative flex w-full max-w-[420px] flex-col overflow-hidden border border-white/10 bg-slate-900/60 shadow-2xl ring-1 ring-white/10 backdrop-blur {{ $isImpersonating ? 'h-[calc(100dvh-2.5rem)]' : 'h-[100dvh]' }}">
             {{-- Sidebar backdrop (inside phone) --}}
             <div id="student-game-sidebar-backdrop"
                  class="absolute inset-0 z-40 hidden bg-slate-950/70"
