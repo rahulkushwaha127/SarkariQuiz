@@ -37,6 +37,11 @@
                         data-tab="payments">
                     Payments
                 </button>
+                <button type="button"
+                        class="settings-tab border-b-2 border-transparent px-1 py-3 text-sm font-medium text-slate-500 hover:border-slate-300 hover:text-slate-700"
+                        data-tab="captcha">
+                    CAPTCHA
+                </button>
             </nav>
         </div>
 
@@ -147,6 +152,47 @@
                             {{ $label }}
                         </label>
                     @endforeach
+                </div>
+            </div>
+
+            {{-- Tab: CAPTCHA --}}
+            @php
+                $cv = $values['captcha'] ?? [];
+            @endphp
+            <div id="panel-captcha" class="settings-panel hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <h2 class="text-lg font-semibold text-slate-900">CAPTCHA (reCAPTCHA v2)</h2>
+                <p class="mt-1 text-sm text-slate-600">Protect login, register, and contact forms. Get keys at <a href="https://www.google.com/recaptcha/admin" target="_blank" rel="noopener" class="text-indigo-600 hover:underline">Google reCAPTCHA</a>.</p>
+
+                <div class="mt-4 flex items-center justify-between gap-3 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
+                    <div>
+                        <div class="text-sm font-semibold text-slate-900">CAPTCHA enabled</div>
+                        <div class="text-xs text-slate-600">Show reCAPTCHA on login, register, and contact forms.</div>
+                    </div>
+                    <label class="inline-flex items-center gap-2 text-sm text-slate-700">
+                        <input type="checkbox" name="captcha_enabled" value="1"
+                               class="h-4 w-4 rounded border-slate-300"
+                               @checked(old('captcha_enabled', $cv['captcha_enabled'] ?? '0') == '1')>
+                        Enabled
+                    </label>
+                </div>
+
+                <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                    <div>
+                        <label class="text-sm font-medium text-slate-700">Site key (public)</label>
+                        <input type="text" name="captcha_site_key"
+                               value="{{ old('captcha_site_key', $cv['captcha_site_key'] ?? '') }}"
+                               placeholder="6Lc..."
+                               class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('captcha_site_key') border-red-300 @enderror">
+                        @error('captcha_site_key') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                    </div>
+                    <div>
+                        <label class="text-sm font-medium text-slate-700">Secret key</label>
+                        <input type="password" name="captcha_secret_key"
+                               value=""
+                               placeholder="{{ ($cv['captcha_secret_key'] ?? '') !== '' ? 'Leave blank to keep current' : 'Enter secret' }}"
+                               class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                        <p class="mt-1 text-xs text-slate-500">Leave blank to keep existing secret.</p>
+                    </div>
                 </div>
             </div>
 

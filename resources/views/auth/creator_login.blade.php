@@ -37,10 +37,22 @@
                 Remember me
             </label>
 
+            @if(!empty($captchaEnabled) && !empty($captchaSiteKey))
+            <div class="g-recaptcha" data-sitekey="{{ $captchaSiteKey }}"></div>
+            @error('email')
+                @if($message === 'CAPTCHA verification failed. Please try again.')
+                <p class="mt-1 text-xs text-red-600">{{ $message }}</p>
+                @endif
+            @enderror
+            @endif
+
             <button type="submit" class="w-full rounded-xl bg-indigo-600 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-500">
                 Login
             </button>
         </form>
+        @if(!empty($captchaEnabled) && !empty($captchaSiteKey))
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        @endif
     </div>
 @endsection
 

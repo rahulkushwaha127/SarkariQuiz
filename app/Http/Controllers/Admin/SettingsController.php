@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Setting;
+use App\Services\CaptchaService;
 use Illuminate\Http\Request;
 
 class SettingsController extends Controller
@@ -20,6 +21,13 @@ class SettingsController extends Controller
         'join_contest',
         'daily_challenge',
         'leaderboard',
+    ];
+
+    /** CAPTCHA (reCAPTCHA v2) setting keys. */
+    public const CAPTCHA_KEYS = [
+        'captcha_enabled',
+        'captcha_site_key',
+        'captcha_secret_key',
     ];
 
     /** All payment-related setting keys. */
@@ -65,6 +73,11 @@ class SettingsController extends Controller
             $paymentValues['payment_mode'] = 'sandbox';
         }
 
+        $captchaValues = [];
+        foreach (self::CAPTCHA_KEYS as $cKey) {
+            $captchaValues[$cKey] = Setting::cachedGet($cKey, $cKey === 'captcha_enabled' ? '0' : '');
+        }
+
         $values = [
             'site_name' => Setting::cachedGet('site_name', config('app.name', 'QuizWhiz')),
             'ads_enabled' => (string) Setting::cachedGet('ads_enabled', '0'),
@@ -76,6 +89,7 @@ class SettingsController extends Controller
             'contest_reminder_lead_minutes' => Setting::cachedGet('contest_reminder_lead_minutes', '30'),
             'frontend_menu' => $frontendMenu,
             'payment' => $paymentValues,
+            'captcha' => $captchaValues,
         ];
 
         return view('admin.settings.edit', compact('values'));
@@ -110,6 +124,10 @@ class SettingsController extends Controller
             'phonepe_live_client_id' => ['nullable', 'string', 'max:255'],
             'phonepe_live_client_secret' => ['nullable', 'string', 'max:255'],
             'phonepe_live_client_version' => ['nullable', 'string', 'max:50'],
+            // CAPTCHA
+            'captcha_enabled' => ['nullable', 'in:0,1'],
+            'captcha_site_key' => ['nullable', 'string', 'max:255'],
+            'captcha_secret_key' => ['nullable', 'string', 'max:255'],
         ], $menuRules));
 
         Setting::set('site_name', $data['site_name']);
@@ -150,6 +168,13 @@ class SettingsController extends Controller
             Setting::set($pKey, $val);
         }
 
+        // CAPTCHA: only overwrite secret if non-empty
+        Setting::set('captcha_enabled', (string) ((int) ($data['captcha_enabled'] ?? 0)));
+        Setting::set('captcha_site_key', $data['captcha_site_key'] ?? '');
+        if (($data['captcha_secret_key'] ?? '') !== '') {
+            Setting::set('captcha_secret_key', $data['captcha_secret_key']);
+        }
+
         // Clear caches
         Setting::forget('site_name');
         Setting::forget('ads_enabled');
@@ -164,6 +189,7 @@ class SettingsController extends Controller
         foreach (self::PAYMENT_KEYS as $pKey) {
             Setting::forget($pKey);
         }
+        CaptchaService::clearCache();
 
         return redirect()->route('admin.settings.edit')->with('status', 'Settings saved.');
     }

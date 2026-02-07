@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use App\Services\CaptchaService;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -40,6 +41,7 @@ class RegisterController extends Controller
     public function __construct()
     {
         $this->middleware('guest');
+        $this->middleware('throttle:register')->only('register');
     }
 
     /**
@@ -50,11 +52,23 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
-        return Validator::make($data, [
+        $rules = [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-        ]);
+        ];
+        if (CaptchaService::isEnabled()) {
+            $rules['g-recaptcha-response'] = ['required', 'string'];
+        }
+        $validator = Validator::make($data, $rules);
+        if (CaptchaService::isEnabled()) {
+            $validator->after(function ($validator) use ($data) {
+                if (! CaptchaService::verify($data['g-recaptcha-response'] ?? null, request()->ip())) {
+                    $validator->errors()->add('email', 'CAPTCHA verification failed. Please try again.');
+                }
+            });
+        }
+        return $validator;
     }
 
     /**

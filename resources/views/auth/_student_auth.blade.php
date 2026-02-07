@@ -68,6 +68,10 @@
                 Remember me
             </label>
 
+            @if(!empty($captchaEnabled) && !empty($captchaSiteKey))
+            <div class="g-recaptcha" data-sitekey="{{ $captchaSiteKey }}"></div>
+            @endif
+
             <button type="submit" class="w-full bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
                 Login
             </button>
@@ -116,10 +120,18 @@
                        class="mt-1 w-full border border-white/10 bg-white/5 px-3 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             </div>
 
+            @if(!empty($captchaEnabled) && !empty($captchaSiteKey))
+            <div class="g-recaptcha" data-sitekey="{{ $captchaSiteKey }}"></div>
+            @endif
+
             <button type="submit" class="w-full bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
                 Create account
             </button>
         </form>
     </div>
+
+    @if(!empty($captchaEnabled) && !empty($captchaSiteKey))
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    @endif
 </div>
 

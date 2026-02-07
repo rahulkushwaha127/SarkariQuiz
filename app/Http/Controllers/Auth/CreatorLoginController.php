@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Services\CaptchaService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -26,11 +27,21 @@ class CreatorLoginController extends Controller
 
     public function login(Request $request)
     {
-        $data = $request->validate([
+        $rules = [
             'email' => ['required', 'string', 'email'],
             'password' => ['required', 'string'],
             'remember' => ['nullable'],
-        ]);
+        ];
+        if (CaptchaService::isEnabled()) {
+            $rules['g-recaptcha-response'] = ['required', 'string'];
+        }
+        $data = $request->validate($rules);
+
+        if (CaptchaService::isEnabled() && ! CaptchaService::verify($request->input('g-recaptcha-response'), $request->ip())) {
+            return back()
+                ->withInput($request->only('email', 'remember'))
+                ->withErrors(['email' => 'CAPTCHA verification failed. Please try again.']);
+        }
 
         $remember = (bool) ($data['remember'] ?? false);
 

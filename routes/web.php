@@ -35,17 +35,17 @@ Route::get('/firebase-messaging-sw.js', function () {
         ->header('Content-Type', 'application/javascript');
 });
 
-// Role-specific login pages
+// Role-specific login pages (rate limited)
 Route::middleware('guest')->group(function () {
     Route::prefix('admin')->as('admin.')->group(function () {
         Route::get('/login', [AdminLoginController::class, 'show'])->name('login');
-        Route::post('/login', [AdminLoginController::class, 'login'])->name('login.submit');
+        Route::post('/login', [AdminLoginController::class, 'login'])->name('login.submit')->middleware('throttle:login');
     });
 
     // Creator (and "creater" alias)
     Route::prefix('creator')->as('creator.')->group(function () {
         Route::get('/login', [CreatorLoginController::class, 'show'])->name('login');
-        Route::post('/login', [CreatorLoginController::class, 'login'])->name('login.submit');
+        Route::post('/login', [CreatorLoginController::class, 'login'])->name('login.submit')->middleware('throttle:login');
     });
     Route::get('/creater/login', fn () => redirect()->route('creator.login'))->name('creater.login');
 });
@@ -113,7 +113,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return app(StudentPagesController::class)->contact(request());
 })->name('public.pages.contact');
-Route::post('/contact', [ContactController::class, 'store'])->name('public.contact.store');
+Route::post('/contact', [ContactController::class, 'store'])->name('public.contact.store')->middleware('throttle:contact');
 
 Route::get('/privacy', function () {
     return app(StudentPagesController::class)->privacy(request());

@@ -4,6 +4,10 @@ namespace App\Providers;
 
 use App\Models\Setting;
 use App\Models\InAppNotification;
+use App\Services\CaptchaService;
+use Illuminate\Cache\RateLimiting\Limit;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -23,6 +27,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        $this->configureRateLimiting();
+
         // Fix for older MySQL/MariaDB key length limits with utf8mb4.
         Schema::defaultStringLength(191);
 
@@ -44,6 +50,9 @@ class AppServiceProvider extends ServiceProvider
                     $frontendMenu[$k] = (bool) (isset($menu[$k]) ? $menu[$k] : $v);
                 }
                 View::share('frontendMenu', $frontendMenu);
+
+                View::share('captchaEnabled', CaptchaService::isEnabled());
+                View::share('captchaSiteKey', CaptchaService::getSiteKey());
 
                 View::share('ads', [
                     'enabled' => (string) Setting::cachedGet('ads_enabled', '0') === '1',
@@ -96,5 +105,27 @@ class AppServiceProvider extends ServiceProvider
         } catch (\Throwable $e) {
             View::share('inAppUnreadCount', 0);
         }
+    }
+
+    /**
+     * Configure rate limiting for login, register, and contact.
+     */
+    protected function configureRateLimiting(): void
+    {
+        RateLimiter::for('login', function (Request $request) {
+            return Limit::perMinute(5)->by($request->ip())->response(function () {
+                return back()->withErrors(['email' => 'Too many login attempts. Please try again in a minute.'])->withInput(request()->only('email', 'remember'));
+            });
+        });
+
+        RateLimiter::for('register', function (Request $request) {
+            return Limit::perMinute(3)->by($request->ip())->response(function () {
+                return back()->withErrors(['email' => 'Too many registration attempts. Please try again in a minute.'])->withInput(request()->only('name', 'email'));
+            });
+        });
+
+        RateLimiter::for('contact', function (Request $request) {
+            return Limit::perMinute(3)->by($request->ip());
+        });
     }
 }

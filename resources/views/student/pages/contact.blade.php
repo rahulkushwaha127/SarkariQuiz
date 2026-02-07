@@ -36,6 +36,12 @@
                           placeholder="Your message">{{ old('message') }}</textarea>
                 <p id="contact-message-error" class="mt-1 text-xs text-rose-400 hidden"></p>
             </div>
+            @if(!empty($captchaEnabled) && !empty($captchaSiteKey))
+            <div>
+                <div class="g-recaptcha" data-sitekey="{{ $captchaSiteKey }}" id="contact-recaptcha"></div>
+                <p id="contact-recaptcha-error" class="mt-1 text-xs text-rose-400 hidden"></p>
+            </div>
+            @endif
             <p id="contact-form-error" class="text-sm text-rose-400 hidden"></p>
             <p id="contact-form-success" class="text-sm text-emerald-400 hidden"></p>
             <button type="submit" id="contact-submit" class="w-full rounded-xl bg-violet-600 px-4 py-3 text-sm font-semibold text-white hover:bg-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus:ring-offset-slate-950 disabled:opacity-60">
@@ -51,6 +57,9 @@
     </div>
 </div>
 
+@if(!empty($captchaEnabled) && !empty($captchaSiteKey))
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+@endif
 <script>
 (function () {
     const form = document.getElementById('contact-form');
@@ -60,12 +69,15 @@
     const fields = ['name', 'email', 'subject', 'message'];
     const successEl = document.getElementById('contact-form-success');
     const errorEl = document.getElementById('contact-form-error');
+    const hasCaptcha = !!document.getElementById('contact-recaptcha');
 
     function clearFieldErrors() {
         fields.forEach(function (f) {
             const el = document.getElementById('contact-' + f + '-error');
             if (el) { el.classList.add('hidden'); el.textContent = ''; }
         });
+        var recaptchaErr = document.getElementById('contact-recaptcha-error');
+        if (recaptchaErr) { recaptchaErr.classList.add('hidden'); recaptchaErr.textContent = ''; }
         if (errorEl) { errorEl.classList.add('hidden'); errorEl.textContent = ''; }
         if (successEl) { successEl.classList.add('hidden'); successEl.textContent = ''; }
     }
@@ -76,6 +88,9 @@
         if (submitBtn) submitBtn.disabled = true;
 
         const body = new FormData(form);
+        if (hasCaptcha && typeof grecaptcha !== 'undefined') {
+            body.append('g-recaptcha-response', grecaptcha.getResponse() || '');
+        }
         const token = document.querySelector('meta[name="csrf-token"]');
         const headers = { 'X-Requested-With': 'XMLHttpRequest', 'Accept': 'application/json' };
         if (token) headers['X-CSRF-TOKEN'] = token.getAttribute('content');
@@ -92,12 +107,15 @@
                 } else {
                     if (result.data.errors) {
                         Object.keys(result.data.errors).forEach(function (key) {
-                            const errEl = document.getElementById('contact-' + key + '-error');
+                            var errEl = document.getElementById('contact-' + key + '-error') || (key === 'g-recaptcha-response' ? document.getElementById('contact-recaptcha-error') : null);
                             if (errEl) {
                                 errEl.textContent = result.data.errors[key][0] || '';
                                 errEl.classList.remove('hidden');
                             }
                         });
+                    }
+                    if (hasCaptcha && typeof grecaptcha !== 'undefined') {
+                        grecaptcha.reset();
                     }
                     if (errorEl) {
                         errorEl.textContent = result.data.message || 'Something went wrong. Please try again.';
