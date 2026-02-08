@@ -15,6 +15,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->string('duration', 10)->default('monthly'); // weekly | monthly | yearly
             $table->string('price_label', 60)->nullable();
+            $table->unsignedInteger('price_paise')->nullable(); // amount in paise; null = free
 
             // Limits — null means unlimited
             $table->unsignedInteger('max_quizzes')->nullable();

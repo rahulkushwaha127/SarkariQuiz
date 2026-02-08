@@ -75,15 +75,21 @@ class StudentPlansController extends Controller
             'name'        => ['required', 'string', 'max:80'],
             'description' => ['nullable', 'string', 'max:500'],
             'duration'    => ['required', 'string', 'in:weekly,monthly,yearly'],
-            'price_label' => ['nullable', 'string', 'max:60'],
-            'price_paise' => ['nullable', 'integer', 'min:0'],
-            'sort_order'  => ['nullable', 'integer', 'min:0'],
+            'price_label'  => ['nullable', 'string', 'max:60'],
+            'price_rupees' => ['nullable', 'numeric', 'min:0'],
+            'sort_order'   => ['nullable', 'integer', 'min:0'],
             'is_active'   => ['nullable'],
         ]);
 
         $data['is_active'] = (bool) ($data['is_active'] ?? true);
         $data['sort_order'] = (int) ($data['sort_order'] ?? 0);
-        $data['price_paise'] = isset($data['price_paise']) && $data['price_paise'] !== '' ? (int) $data['price_paise'] : null;
+
+        // Convert rupees to paise for storage
+        $rupees = $data['price_rupees'] ?? null;
+        $data['price_paise'] = ($rupees !== null && $rupees !== '' && (float) $rupees > 0)
+            ? (int) round((float) $rupees * 100)
+            : null;
+        unset($data['price_rupees']);
 
         return $data;
     }

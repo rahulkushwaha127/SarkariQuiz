@@ -32,11 +32,11 @@
         </div>
 
         <div>
-            <label class="block text-sm font-medium text-slate-700">Price (paise)</label>
-            <input name="price_paise" type="number" min="0" value="{{ old('price_paise', $plan->price_paise) }}"
+            <label class="block text-sm font-medium text-slate-700">Price (₹)</label>
+            <input name="price_rupees" type="number" min="0" step="0.01" value="{{ old('price_rupees', $plan->price_paise !== null ? $plan->price_paise / 100 : '') }}"
                    class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none"
-                   placeholder="0 = free, e.g. 9900 = ₹99">
-            <div class="mt-1 text-xs text-slate-500">Leave 0 or blank for free. 100 paise = ₹1.</div>
+                   placeholder="0 = free, e.g. 99">
+            <div class="mt-1 text-xs text-slate-500">Leave 0 or blank for free. Enter amount in rupees (e.g. 99 for ₹99).</div>
         </div>
 
         <div>

@@ -14,6 +14,7 @@ use App\Http\Controllers\Creator\QuestionController;
 use App\Http\Controllers\Creator\QuizController;
 use App\Http\Controllers\Creator\QuizJsonImportController;
 use App\Http\Controllers\Creator\SettingsController;
+use App\Http\Controllers\Creator\SubscriptionController;
 use App\Http\Controllers\Creator\TaxonomyController;
 
 Route::middleware(['auth', 'role:creator|super_admin'])
@@ -69,5 +70,9 @@ Route::middleware(['auth', 'role:creator|super_admin'])
         Route::post('profile', [\App\Http\Controllers\Creator\ProfileController::class, 'update'])->name('profile.update');
         Route::get('settings', [SettingsController::class, 'index'])->name('settings.index');
         Route::post('settings', [SettingsController::class, 'update'])->name('settings.update');
+
+        // Subscription / Plans
+        Route::get('subscription', [SubscriptionController::class, 'index'])->name('subscription');
+        Route::post('subscription/activate-free', [SubscriptionController::class, 'activateFreePlan'])->name('subscription.activate_free');
     });
 

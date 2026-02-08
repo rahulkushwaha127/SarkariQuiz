@@ -67,6 +67,13 @@
                 My profile / Bio page
             </a>
 
+            <a href="{{ route('creator.subscription') }}"
+               class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+               {{ request()->routeIs('creator.subscription*') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('creator.subscription*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Subscription
+            </a>
+
             <a href="{{ route('creator.settings.index') }}"
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
                {{ request()->routeIs('creator.settings.*') ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-50' }}">

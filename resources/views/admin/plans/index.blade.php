@@ -36,6 +36,7 @@
                         <tr>
                             <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Plan</th>
                             <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Duration</th>
+                            <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Price</th>
                             <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Quizzes</th>
                             <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Batches</th>
                             <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Students/Batch</th>
@@ -66,6 +67,13 @@
                                 </td>
                                 <td class="px-4 py-3 text-sm text-slate-700">
                                     <span class="rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-semibold text-indigo-700">{{ $plan->durationLabel() }}</span>
+                                </td>
+                                <td class="px-4 py-3 text-sm text-slate-700">
+                                    @if($plan->isFree())
+                                        <span class="text-slate-500">Free</span>
+                                    @else
+                                        ₹{{ number_format($plan->priceInRupees(), 0) }}{{ $plan->durationSuffix() }}
+                                    @endif
                                 </td>
                                 <td class="px-4 py-3 text-sm text-slate-700">{{ $plan->limitLabel('max_quizzes') }}</td>
                                 <td class="px-4 py-3 text-sm text-slate-700">{{ $plan->limitLabel('max_batches') }}</td>

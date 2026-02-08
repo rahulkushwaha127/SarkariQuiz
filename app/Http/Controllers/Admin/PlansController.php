@@ -94,6 +94,7 @@ class PlansController extends Controller
             'description'                  => ['nullable', 'string', 'max:500'],
             'duration'                     => ['required', 'string', 'in:weekly,monthly,yearly'],
             'price_label'                  => ['nullable', 'string', 'max:60'],
+            'price_rupees'                 => ['nullable', 'numeric', 'min:0'],
             'max_quizzes'                  => ['nullable', 'integer', 'min:0'],
             'max_batches'                  => ['nullable', 'integer', 'min:0'],
             'max_students_per_batch'       => ['nullable', 'integer', 'min:0'],
@@ -109,6 +110,13 @@ class PlansController extends Controller
         $data['is_default'] = (bool) ($data['is_default'] ?? false);
         $data['is_active'] = (bool) ($data['is_active'] ?? true);
         $data['sort_order'] = (int) ($data['sort_order'] ?? 0);
+
+        // Convert rupees to paise for storage
+        $rupees = $data['price_rupees'] ?? null;
+        $data['price_paise'] = ($rupees !== null && $rupees !== '' && (float) $rupees > 0)
+            ? (int) round((float) $rupees * 100)
+            : null;
+        unset($data['price_rupees']);
 
         // Convert empty strings to null for nullable int fields
         foreach (['max_quizzes', 'max_batches', 'max_students_per_batch', 'max_ai_generations_per_month'] as $field) {

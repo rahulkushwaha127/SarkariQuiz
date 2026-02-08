@@ -27,8 +27,16 @@
             <label class="block text-sm font-medium text-slate-700">Price label</label>
             <input name="price_label" value="{{ old('price_label', $plan->price_label) }}"
                    class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none"
-                   placeholder="e.g. Free, Rs 499/mo">
-            <div class="mt-1 text-xs text-slate-500">For display only, not billing.</div>
+                   placeholder="e.g. Free, ₹499/mo">
+            <div class="mt-1 text-xs text-slate-500">Shown on pricing page.</div>
+        </div>
+
+        <div>
+            <label class="block text-sm font-medium text-slate-700">Price (₹)</label>
+            <input name="price_rupees" type="number" min="0" step="0.01" value="{{ old('price_rupees', $plan->price_paise !== null ? $plan->price_paise / 100 : '') }}"
+                   class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none"
+                   placeholder="0 = free, e.g. 499">
+            <div class="mt-1 text-xs text-slate-500">Leave 0 or blank for free. Enter amount in rupees (e.g. 499 for ₹499).</div>
         </div>
 
         <div>

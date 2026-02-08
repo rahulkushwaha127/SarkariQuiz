@@ -64,8 +64,7 @@
                                     @if($plan->isFree())
                                         <span class="text-slate-500">Free</span>
                                     @else
-                                        {{ $plan->price_label ?: '₹' . number_format($plan->priceInRupees(), 0) . $plan->durationSuffix() }}
-                                        <span class="text-slate-400">({{ $plan->price_paise }} paise)</span>
+                                        ₹{{ number_format($plan->priceInRupees(), 0) }}{{ $plan->durationSuffix() }}
                                     @endif
                                 </td>
                                 <td class="px-4 py-3 text-sm text-slate-700">

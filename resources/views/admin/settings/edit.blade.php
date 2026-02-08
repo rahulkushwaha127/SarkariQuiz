@@ -223,17 +223,19 @@
                         {{-- Sandbox / Live toggle --}}
                         <div>
                             <label class="text-sm font-medium text-slate-700">Environment</label>
-                            <div class="mt-2 flex items-center gap-3">
-                                <span class="text-sm text-slate-600" id="mode-label-sandbox">Sandbox</span>
-                                <label class="relative inline-flex cursor-pointer items-center">
-                                    <input type="hidden" name="payment_mode" value="sandbox" id="payment-mode-hidden">
-                                    <input type="checkbox" id="payment-mode-toggle" class="peer sr-only"
-                                           @checked($paymentMode === 'live')>
-                                    <div class="peer h-6 w-11 rounded-full bg-slate-300 after:absolute after:left-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-slate-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-emerald-500 peer-checked:after:translate-x-full peer-checked:after:border-white"></div>
-                                </label>
-                                <span class="text-sm text-slate-600" id="mode-label-live">Live</span>
+                            <input type="hidden" name="payment_mode" value="sandbox" id="payment-mode-hidden">
+                            <div class="mt-2 inline-flex overflow-hidden rounded-xl border border-slate-200 bg-slate-100" id="mode-toggle-wrap">
+                                <button type="button" id="mode-btn-sandbox"
+                                        class="mode-toggle-btn px-5 py-2.5 text-sm font-semibold transition-all {{ $paymentMode !== 'live' ? 'bg-white text-slate-900 shadow-sm' : 'bg-transparent text-slate-500 hover:text-slate-700' }}">
+                                    Sandbox
+                                </button>
+                                <button type="button" id="mode-btn-live"
+                                        class="mode-toggle-btn px-5 py-2.5 text-sm font-semibold transition-all {{ $paymentMode === 'live' ? 'bg-emerald-600 text-white shadow-sm' : 'bg-transparent text-slate-500 hover:text-slate-700' }}">
+                                    Live
+                                </button>
                             </div>
-                            <p class="mt-1 text-xs text-amber-600" id="live-warning" style="{{ $paymentMode === 'live' ? '' : 'display:none' }}">
+                            <p class="mt-2 text-xs text-amber-600" id="live-warning" style="{{ $paymentMode === 'live' ? '' : 'display:none' }}">
+                                <svg class="mr-1 inline h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/></svg>
                                 Live mode is active. Real transactions will be processed.
                             </p>
                         </div>
@@ -427,19 +429,28 @@
                 });
             });
 
-            /* ── Sandbox / Live toggle ── */
-            var modeToggle = document.getElementById('payment-mode-toggle');
+            /* ── Sandbox / Live toggle buttons ── */
             var modeHidden = document.getElementById('payment-mode-hidden');
             var liveWarning = document.getElementById('live-warning');
+            var btnSandbox = document.getElementById('mode-btn-sandbox');
+            var btnLive = document.getElementById('mode-btn-live');
 
-            function syncMode() {
-                var isLive = modeToggle.checked;
-                modeHidden.value = isLive ? 'live' : 'sandbox';
+            function setMode(mode) {
+                modeHidden.value = mode;
+                var isLive = mode === 'live';
                 liveWarning.style.display = isLive ? '' : 'none';
+
+                // Sandbox button
+                btnSandbox.className = 'mode-toggle-btn px-5 py-2.5 text-sm font-semibold transition-all '
+                    + (!isLive ? 'bg-white text-slate-900 shadow-sm' : 'bg-transparent text-slate-500 hover:text-slate-700');
+
+                // Live button
+                btnLive.className = 'mode-toggle-btn px-5 py-2.5 text-sm font-semibold transition-all '
+                    + (isLive ? 'bg-emerald-600 text-white shadow-sm' : 'bg-transparent text-slate-500 hover:text-slate-700');
             }
-            if (modeToggle) {
-                modeToggle.addEventListener('change', syncMode);
-                syncMode();
+            if (btnSandbox && btnLive) {
+                btnSandbox.addEventListener('click', function() { setMode('sandbox'); });
+                btnLive.addEventListener('click', function() { setMode('live'); });
             }
         })();
     </script>

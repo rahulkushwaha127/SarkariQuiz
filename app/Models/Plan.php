@@ -17,6 +17,7 @@ class Plan extends Model
         'description',
         'duration',
         'price_label',
+        'price_paise',
         'max_quizzes',
         'max_batches',
         'max_students_per_batch',
@@ -30,6 +31,7 @@ class Plan extends Model
     protected function casts(): array
     {
         return [
+            'price_paise' => 'integer',
             'max_quizzes' => 'integer',
             'max_batches' => 'integer',
             'max_students_per_batch' => 'integer',
@@ -43,6 +45,21 @@ class Plan extends Model
     /* ------------------------------------------------------------------ */
     /*  Helpers                                                            */
     /* ------------------------------------------------------------------ */
+
+    /** Whether this plan is free (no payment). */
+    public function isFree(): bool
+    {
+        return $this->price_paise === null || $this->price_paise <= 0;
+    }
+
+    /** Amount in rupees for display. */
+    public function priceInRupees(): ?float
+    {
+        if ($this->isFree()) {
+            return null;
+        }
+        return $this->price_paise / 100;
+    }
 
     /** Human-friendly duration label. */
     public function durationLabel(): string

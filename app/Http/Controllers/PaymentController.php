@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Payment;
+use App\Models\Plan;
 use App\Models\Setting;
 use App\Models\StudentPlan;
 use App\Services\Payment\PaymentGatewayFactory;
@@ -25,6 +26,20 @@ class PaymentController extends Controller
             'purpose_id' => ['nullable', 'integer'],
             'gateway'    => ['nullable', 'string', 'in:razorpay,phonepe'],
         ]);
+
+        // Creator plan purchase: validate purpose_id and amount
+        if ($data['purpose'] === 'plan_purchase') {
+            $creatorPlan = Plan::where('id', $data['purpose_id'] ?? 0)->where('is_active', true)->first();
+            if (! $creatorPlan) {
+                return response()->json(['ok' => false, 'error' => 'Invalid or inactive plan.'], 422);
+            }
+            if (! $creatorPlan->isFree() && ($creatorPlan->price_paise !== (int) round($data['amount'] * 100))) {
+                return response()->json(['ok' => false, 'error' => 'Amount does not match plan price.'], 422);
+            }
+            if ($creatorPlan->isFree()) {
+                return response()->json(['ok' => false, 'error' => 'This plan is free. Use Activate instead of payment.'], 422);
+            }
+        }
 
         // Student plan purchase: validate purpose_id and amount
         if ($data['purpose'] === 'student_plan_purchase') {
