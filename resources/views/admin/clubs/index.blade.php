@@ -28,43 +28,43 @@
             </form>
         </div>
 
-        <div class="rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
             <div class="overflow-x-auto">
-                <table class="min-w-full text-sm">
-                    <thead>
-                    <tr class="border-b border-slate-200 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">
-                        <th class="py-3 pl-5 pr-4">Club</th>
-                        <th class="py-3 pr-4">Owner</th>
-                        <th class="py-3 pr-4">Status</th>
-                        <th class="py-3 pr-4">Members</th>
-                        <th class="py-3 pr-4">Active sessions</th>
-                        <th class="py-3 pr-5 text-right">Actions</th>
+                <table class="min-w-full divide-y divide-slate-200">
+                    <thead class="bg-slate-50">
+                    <tr>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Club</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Owner</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Status</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Members</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Active sessions</th>
+                        <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500">Actions</th>
                     </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-100">
                     @forelse($clubs as $c)
-                        <tr>
-                            <td class="py-3 pl-5 pr-4">
-                                <div class="font-semibold text-slate-900">{{ $c->name }}</div>
+                        <tr class="hover:bg-slate-50">
+                            <td class="px-4 py-3">
+                                <div class="font-medium text-slate-900">{{ $c->name }}</div>
                                 <div class="text-xs text-slate-500">Invite token: {{ $c->invite_token }}</div>
                             </td>
-                            <td class="py-3 pr-4">
-                                <div class="text-slate-900">{{ $c->owner?->name ?? '—' }}</div>
+                            <td class="px-4 py-3">
+                                <div class="text-sm font-medium text-slate-900">{{ $c->owner?->name ?? '—' }}</div>
                                 <div class="text-xs text-slate-500">{{ $c->owner?->email ?? '' }}</div>
                             </td>
-                            <td class="py-3 pr-4">
-                                <span class="inline-flex rounded-full px-2 py-1 text-xs font-semibold
-                                    {{ $c->status === 'active' ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-100 text-slate-700' }}">
-                                    {{ $c->status }}
+                            <td class="px-4 py-3 text-sm">
+                                <span class="inline-flex rounded-full px-2 py-0.5 text-xs font-semibold
+                                    {{ $c->status === 'active' ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-600' }}">
+                                    {{ ucfirst($c->status) }}
                                 </span>
                             </td>
-                            <td class="py-3 pr-4">{{ (int) ($c->members_count ?? 0) }}</td>
-                            <td class="py-3 pr-4">{{ (int) ($c->active_sessions_count ?? 0) }}</td>
-                            <td class="py-3 pr-5 text-right">
+                            <td class="px-4 py-3 text-sm text-slate-700">{{ (int) ($c->members_count ?? 0) }}</td>
+                            <td class="px-4 py-3 text-sm text-slate-700">{{ (int) ($c->active_sessions_count ?? 0) }}</td>
+                            <td class="px-4 py-3 text-right">
                                 <form method="POST" action="{{ route('admin.clubs.toggle', $c) }}">
                                     @csrf
                                     @method('PATCH')
-                                    <button class="rounded-xl bg-slate-900 px-3 py-2 text-xs font-semibold text-white hover:bg-slate-800">
+                                    <button class="rounded-xl bg-slate-900 px-3 py-1.5 text-xs font-semibold text-white hover:bg-slate-800">
                                         {{ $c->status === 'active' ? 'Disable' : 'Enable' }}
                                     </button>
                                 </form>
@@ -72,14 +72,14 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="6" class="py-10 text-center text-sm text-slate-600">No clubs found.</td>
+                            <td colspan="6" class="px-4 py-10 text-center text-sm text-slate-600">No clubs found.</td>
                         </tr>
                     @endforelse
                     </tbody>
                 </table>
             </div>
 
-            <div class="border-t border-slate-200 px-5 py-4">
+            <div class="border-t border-slate-200 px-4 py-3">
                 {{ $clubs->links() }}
             </div>
         </div>

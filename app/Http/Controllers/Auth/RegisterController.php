@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Events\UserRegistered;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Services\CaptchaService;
@@ -88,6 +89,9 @@ class RegisterController extends Controller
         // Default role for all new users.
         $studentRole = Role::findOrCreate('student');
         $user->assignRole($studentRole);
+
+        // Fire welcome notification event
+        UserRegistered::dispatch($user);
 
         return $user;
     }

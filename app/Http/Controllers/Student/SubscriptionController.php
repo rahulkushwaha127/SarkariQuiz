@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Student;
 
+use App\Events\PlanActivated;
 use App\Http\Controllers\Controller;
 use App\Models\Setting;
 use App\Models\StudentPlan;
@@ -38,6 +39,8 @@ class SubscriptionController extends Controller
         $user = Auth::user();
         $user->student_plan_id = $plan->id;
         $user->save();
+
+        PlanActivated::dispatch($user, $plan->name, 'student');
 
         return redirect()
             ->route('student.subscription')

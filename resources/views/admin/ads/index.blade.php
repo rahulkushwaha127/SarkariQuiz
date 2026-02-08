@@ -15,53 +15,55 @@
             <div class="text-base font-semibold text-slate-900">Slot assignments</div>
             <div class="mt-1 text-sm text-slate-600">Map each slot to an Ad Unit. Enable only what you want to show.</div>
 
-            <div class="mt-4 overflow-x-auto">
-                <table class="min-w-full text-sm">
-                    <thead>
-                    <tr class="border-b border-slate-200 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">
-                        <th class="py-2 pr-4">Slot</th>
-                        <th class="py-2 pr-4">Unit</th>
-                        <th class="py-2 pr-4">Enabled</th>
-                        <th class="py-2 pr-4"></th>
-                    </tr>
-                    </thead>
-                    <tbody class="divide-y divide-slate-100">
-                    @foreach($slots as $slot)
+            <div class="mt-4 overflow-hidden rounded-xl border border-slate-200">
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-slate-200">
+                        <thead class="bg-slate-50">
                         <tr>
-                            <td class="py-3 pr-4">
-                                <div class="font-semibold text-slate-900">{{ $slot->name }}</div>
-                                <div class="text-xs text-slate-500">{{ $slot->key }} · {{ $slot->context }} · {{ $slot->type }}</div>
-                            </td>
-                            <td class="py-3 pr-4">
-                                <form method="POST" action="{{ route('admin.ads.slots.update', $slot) }}" class="flex items-center gap-2">
-                                    @csrf
-                                    @method('PATCH')
-                                    <select name="ad_unit_id" class="w-72 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
-                                        <option value="">— none —</option>
-                                        @foreach($units as $u)
-                                            <option value="{{ $u->id }}" @selected((int)($slot->assignment?->ad_unit_id) === (int)$u->id)>
-                                                {{ $u->name }} ({{ $u->key }}){{ $u->is_active ? '' : ' [inactive]' }}
-                                            </option>
-                                        @endforeach
-                                    </select>
-                            </td>
-                            <td class="py-3 pr-4">
-                                <label class="inline-flex items-center gap-2 text-sm text-slate-700">
-                                    <input type="checkbox" name="enabled" value="1" class="h-4 w-4 rounded border-slate-300"
-                                           @checked((bool)($slot->assignment?->enabled))>
-                                    Enabled
-                                </label>
-                            </td>
-                            <td class="py-3 pr-4">
-                                <button class="rounded-xl bg-slate-900 px-3 py-2 text-sm font-semibold text-white hover:bg-slate-800">
-                                    Save
-                                </button>
-                                </form>
-                            </td>
+                            <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Slot</th>
+                            <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Unit</th>
+                            <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Enabled</th>
+                            <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500"></th>
                         </tr>
-                    @endforeach
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                        @foreach($slots as $slot)
+                            <tr class="hover:bg-slate-50">
+                                <td class="px-4 py-3">
+                                    <div class="font-medium text-slate-900">{{ $slot->name }}</div>
+                                    <div class="text-xs text-slate-500">{{ $slot->key }} · {{ $slot->context }} · {{ $slot->type }}</div>
+                                </td>
+                                <td class="px-4 py-3">
+                                    <form method="POST" action="{{ route('admin.ads.slots.update', $slot) }}" class="flex items-center gap-2">
+                                        @csrf
+                                        @method('PATCH')
+                                        <select name="ad_unit_id" class="w-72 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                                            <option value="">— none —</option>
+                                            @foreach($units as $u)
+                                                <option value="{{ $u->id }}" @selected((int)($slot->assignment?->ad_unit_id) === (int)$u->id)>
+                                                    {{ $u->name }} ({{ $u->key }}){{ $u->is_active ? '' : ' [inactive]' }}
+                                                </option>
+                                            @endforeach
+                                        </select>
+                                </td>
+                                <td class="px-4 py-3">
+                                    <label class="inline-flex items-center gap-2 text-sm text-slate-700">
+                                        <input type="checkbox" name="enabled" value="1" class="h-4 w-4 rounded border-slate-300"
+                                               @checked((bool)($slot->assignment?->enabled))>
+                                        Enabled
+                                    </label>
+                                </td>
+                                <td class="px-4 py-3 text-right">
+                                    <button class="rounded-xl bg-slate-900 px-3 py-2 text-xs font-semibold text-white hover:bg-slate-800">
+                                        Save
+                                    </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 

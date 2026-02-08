@@ -170,35 +170,37 @@
             ->get();
     @endphp
     @if($payments->isNotEmpty())
-    <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-        <h2 class="text-sm font-semibold text-slate-900">Payment history</h2>
-        <div class="mt-3 overflow-x-auto">
-            <table class="min-w-full divide-y divide-slate-100 text-sm">
-                <thead>
-                    <tr class="text-left text-xs font-semibold uppercase tracking-wider text-slate-500">
-                        <th class="px-3 py-2">Date</th>
-                        <th class="px-3 py-2">Amount</th>
-                        <th class="px-3 py-2">Gateway</th>
-                        <th class="px-3 py-2">Status</th>
-                        <th class="px-3 py-2">Txn ID</th>
+    <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <div class="border-b border-slate-200 px-5 py-4">
+            <h2 class="text-sm font-semibold text-slate-900">Payment history</h2>
+        </div>
+        <div class="overflow-x-auto">
+            <table class="min-w-full divide-y divide-slate-200">
+                <thead class="bg-slate-50">
+                    <tr>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Date</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Amount</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Gateway</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Status</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Txn ID</th>
                     </tr>
                 </thead>
-                <tbody class="divide-y divide-slate-50">
+                <tbody class="divide-y divide-slate-100">
                     @foreach($payments as $p)
-                    <tr>
-                        <td class="px-3 py-2 text-slate-700">{{ $p->created_at->format('d M Y, h:i A') }}</td>
-                        <td class="px-3 py-2 font-semibold text-slate-900">₹{{ number_format($p->amountInRupees(), 2) }}</td>
-                        <td class="px-3 py-2 capitalize text-slate-600">{{ $p->gateway }}</td>
-                        <td class="px-3 py-2">
+                    <tr class="hover:bg-slate-50">
+                        <td class="px-4 py-3 text-sm text-slate-700">{{ $p->created_at->format('d M Y, h:i A') }}</td>
+                        <td class="px-4 py-3 text-sm font-semibold text-slate-900">₹{{ number_format($p->amountInRupees(), 2) }}</td>
+                        <td class="px-4 py-3 text-sm capitalize text-slate-600">{{ $p->gateway }}</td>
+                        <td class="px-4 py-3 text-sm">
                             @if($p->status === 'paid')
-                                <span class="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-700">Paid</span>
+                                <span class="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-800">Paid</span>
                             @elseif($p->status === 'failed')
-                                <span class="rounded-full bg-red-100 px-2 py-0.5 text-xs font-semibold text-red-700">Failed</span>
+                                <span class="rounded-full bg-red-100 px-2 py-0.5 text-xs font-semibold text-red-800">Failed</span>
                             @else
-                                <span class="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-700">{{ ucfirst($p->status) }}</span>
+                                <span class="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-800">{{ ucfirst($p->status) }}</span>
                             @endif
                         </td>
-                        <td class="px-3 py-2 font-mono text-xs text-slate-500">{{ $p->gateway_payment_id ?? $p->gateway_order_id ?? '—' }}</td>
+                        <td class="px-4 py-3 font-mono text-xs text-slate-500">{{ $p->gateway_payment_id ?? $p->gateway_order_id ?? '—' }}</td>
                     </tr>
                     @endforeach
                 </tbody>

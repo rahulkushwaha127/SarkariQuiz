@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Creator;
 
+use App\Events\PlanActivated;
 use App\Http\Controllers\Controller;
 use App\Models\Batch;
 use App\Models\Plan;
@@ -56,6 +57,8 @@ class SubscriptionController extends Controller
         $user = Auth::user();
         $user->plan_id = $plan->id;
         $user->save();
+
+        PlanActivated::dispatch($user, $plan->name, 'creator');
 
         return redirect()
             ->route('creator.subscription')

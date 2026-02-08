@@ -19,6 +19,7 @@ use App\Http\Controllers\Admin\UsersController;
 use App\Http\Controllers\Admin\PlansController;
 use App\Http\Controllers\Admin\StudentPlansController;
 use App\Http\Controllers\Admin\ContactSubmissionsController;
+use App\Http\Controllers\Admin\NotificationTemplatesController;
 
 Route::middleware(['auth', 'role:super_admin'])
     ->prefix('admin')
@@ -53,6 +54,13 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::post('/daily-challenge', [DailyChallengeController::class, 'store'])->name('daily.store');
         Route::get('/settings', [SettingsController::class, 'edit'])->name('settings.edit');
         Route::patch('/settings', [SettingsController::class, 'update'])->name('settings.update');
+
+        // Notification templates
+        Route::get('/notification-templates', [NotificationTemplatesController::class, 'index'])->name('notification-templates.index');
+        Route::get('/notification-templates/{notificationTemplate}/edit', [NotificationTemplatesController::class, 'edit'])->name('notification-templates.edit');
+        Route::patch('/notification-templates/{notificationTemplate}', [NotificationTemplatesController::class, 'update'])->name('notification-templates.update');
+        Route::get('/notification-templates/{notificationTemplate}/preview', [NotificationTemplatesController::class, 'preview'])->name('notification-templates.preview');
+        Route::post('/notification-templates/{notificationTemplate}/send-test', [NotificationTemplatesController::class, 'sendTest'])->name('notification-templates.send-test');
 
         // Creator plans (limits: quizzes, batches, AI, etc.)
         Route::get('/plans', [PlansController::class, 'index'])->name('plans.index');

@@ -16,7 +16,7 @@
     </div>
 
     <div class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-        @if ($contests->count() === 0)
+        @if ($contests->isEmpty())
             <div class="p-8 text-center">
                 <div class="text-sm font-semibold text-slate-900">No contests yet</div>
                 <div class="mt-1 text-sm text-slate-600">Create your first contest and share the join code.</div>

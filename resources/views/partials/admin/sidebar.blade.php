@@ -100,6 +100,12 @@
                     <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.contact-submissions.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
                     Contact messages
                 </a>
+                <a href="{{ route('admin.notification-templates.index') }}"
+                   class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+                   {{ request()->routeIs('admin.notification-templates.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                    <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.notification-templates.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                    Email & Templates
+                </a>
             </div>
 
             <div class="border-t border-slate-100 pt-2 mt-2">

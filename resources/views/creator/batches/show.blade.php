@@ -110,34 +110,36 @@
                     <p class="mt-1 text-xs text-slate-500">Add students by email or share the join code.</p>
                 </div>
             @else
-                <div class="mt-5 overflow-x-auto">
-                    <table class="w-full text-sm">
-                        <thead>
-                            <tr class="border-b border-slate-100 text-left text-xs font-semibold uppercase tracking-wider text-slate-400">
-                                <th class="pb-2 pr-4">Name</th>
-                                <th class="pb-2 pr-4">Email</th>
-                                <th class="pb-2 pr-4">Joined</th>
-                                <th class="pb-2"></th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-slate-50">
-                            @foreach($students as $bs)
+                <div class="mt-5 overflow-hidden rounded-xl border border-slate-200">
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-slate-200">
+                            <thead class="bg-slate-50">
                                 <tr>
-                                    <td class="py-2.5 pr-4 font-medium text-slate-800">{{ $bs->user->name ?? '—' }}</td>
-                                    <td class="py-2.5 pr-4 text-slate-500">{{ $bs->user->email ?? '—' }}</td>
-                                    <td class="py-2.5 pr-4 text-slate-500">{{ $bs->joined_at?->format('d M Y') ?? '—' }}</td>
-                                    <td class="py-2.5 text-right">
-                                        <form method="POST" action="{{ route('creator.batches.students.remove', [$batch, $bs->user_id]) }}" class="inline"
-                                              onsubmit="return confirm('Remove this student from the batch?')">
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit" class="text-xs font-medium text-red-600 hover:text-red-700">Remove</button>
-                                        </form>
-                                    </td>
+                                    <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Name</th>
+                                    <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Email</th>
+                                    <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Joined</th>
+                                    <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500"></th>
                                 </tr>
-                            @endforeach
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100">
+                                @foreach($students as $bs)
+                                    <tr class="hover:bg-slate-50">
+                                        <td class="px-4 py-3 text-sm font-medium text-slate-900">{{ $bs->user->name ?? '—' }}</td>
+                                        <td class="px-4 py-3 text-sm text-slate-600">{{ $bs->user->email ?? '—' }}</td>
+                                        <td class="px-4 py-3 text-sm text-slate-600">{{ $bs->joined_at?->format('d M Y') ?? '—' }}</td>
+                                        <td class="px-4 py-3 text-right">
+                                            <form method="POST" action="{{ route('creator.batches.students.remove', [$batch, $bs->user_id]) }}" class="inline"
+                                                  onsubmit="return confirm('Remove this student from the batch?')">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="rounded-lg border border-red-200 bg-red-50 px-2.5 py-1 text-xs font-semibold text-red-700 hover:bg-red-100">Remove</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             @endif
         </div>
@@ -270,30 +272,32 @@
             @if(count($analytics['per_quiz']) > 0)
                 <div class="mt-6">
                     <h3 class="text-sm font-semibold text-slate-700">Per-quiz performance</h3>
-                    <div class="mt-3 overflow-x-auto">
-                        <table class="w-full text-sm">
-                            <thead>
-                                <tr class="border-b border-slate-100 text-left text-xs font-semibold uppercase tracking-wider text-slate-400">
-                                    <th class="pb-2 pr-4">Quiz</th>
-                                    <th class="pb-2 pr-4">Attempted</th>
-                                    <th class="pb-2 pr-4">Avg Score</th>
-                                    <th class="pb-2 pr-4">Highest</th>
-                                    <th class="pb-2">Lowest</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-slate-50">
-                                @foreach($batchQuizzes as $bq)
-                                    @php $qs = $analytics['per_quiz'][$bq->quiz_id] ?? null; @endphp
+                    <div class="mt-3 overflow-hidden rounded-xl border border-slate-200">
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full divide-y divide-slate-200">
+                                <thead class="bg-slate-50">
                                     <tr>
-                                        <td class="py-2 pr-4 font-medium text-slate-800">{{ $bq->quiz->title ?? '—' }}</td>
-                                        <td class="py-2 pr-4 text-slate-600">{{ $qs->student_count ?? 0 }} / {{ $s['students'] }}</td>
-                                        <td class="py-2 pr-4 font-semibold text-indigo-700">{{ $qs->avg_score ?? '—' }}</td>
-                                        <td class="py-2 pr-4 text-green-700">{{ $qs->max_score ?? '—' }}</td>
-                                        <td class="py-2 text-red-600">{{ $qs->min_score ?? '—' }}</td>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Quiz</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Attempted</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Avg Score</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Highest</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Lowest</th>
                                     </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody class="divide-y divide-slate-100">
+                                    @foreach($batchQuizzes as $bq)
+                                        @php $qs = $analytics['per_quiz'][$bq->quiz_id] ?? null; @endphp
+                                        <tr class="hover:bg-slate-50">
+                                            <td class="px-4 py-3 text-sm font-medium text-slate-900">{{ $bq->quiz->title ?? '—' }}</td>
+                                            <td class="px-4 py-3 text-sm text-slate-600">{{ $qs->student_count ?? 0 }} / {{ $s['students'] }}</td>
+                                            <td class="px-4 py-3 text-sm font-semibold text-indigo-700">{{ $qs->avg_score ?? '—' }}</td>
+                                            <td class="px-4 py-3 text-sm text-green-700">{{ $qs->max_score ?? '—' }}</td>
+                                            <td class="px-4 py-3 text-sm text-red-600">{{ $qs->min_score ?? '—' }}</td>
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             @endif
@@ -302,52 +306,53 @@
             @if(count($analytics['per_student']) > 0)
                 <div class="mt-6">
                     <h3 class="text-sm font-semibold text-slate-700">Student ranking</h3>
-                    <div class="mt-3 overflow-x-auto">
-                        <table class="w-full text-sm">
-                            <thead>
-                                <tr class="border-b border-slate-100 text-left text-xs font-semibold uppercase tracking-wider text-slate-400">
-                                    <th class="pb-2 pr-4">Rank</th>
-                                    <th class="pb-2 pr-4">Student</th>
-                                    <th class="pb-2 pr-4">Quizzes Done</th>
-                                    <th class="pb-2 pr-4">Avg Score</th>
-                                    <th class="pb-2">Accuracy</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-slate-50">
-                                @php $rank = 1; @endphp
-                                @foreach($students as $bs)
-                                    @php $ps = $analytics['per_student'][$bs->user_id] ?? null; @endphp
-                                    @if($ps)
-                                        <tr>
-                                            <td class="py-2 pr-4 font-bold text-slate-700">{{ $rank++ }}</td>
-                                            <td class="py-2 pr-4 font-medium text-slate-800">{{ $bs->user->name ?? '—' }}</td>
-                                            <td class="py-2 pr-4 text-slate-600">{{ $ps->quizzes_attempted }} / {{ $s['quizzes'] }}</td>
-                                            <td class="py-2 pr-4 font-semibold text-indigo-700">{{ $ps->avg_score }}</td>
-                                            <td class="py-2 text-slate-600">
-                                                @if($ps->total_questions > 0)
-                                                    {{ round($ps->total_correct * 100 / $ps->total_questions, 1) }}%
-                                                @else
-                                                    —
-                                                @endif
-                                            </td>
-                                        </tr>
-                                    @endif
-                                @endforeach
-                                {{-- Students who haven't attempted anything --}}
-                                @foreach($students as $bs)
-                                    @php $ps = $analytics['per_student'][$bs->user_id] ?? null; @endphp
-                                    @if(!$ps)
-                                        <tr class="opacity-50">
-                                            <td class="py-2 pr-4 text-slate-400">—</td>
-                                            <td class="py-2 pr-4 text-slate-500">{{ $bs->user->name ?? '—' }}</td>
-                                            <td class="py-2 pr-4 text-slate-400">0 / {{ $s['quizzes'] }}</td>
-                                            <td class="py-2 pr-4 text-slate-400">—</td>
-                                            <td class="py-2 text-slate-400">—</td>
-                                        </tr>
-                                    @endif
-                                @endforeach
-                            </tbody>
-                        </table>
+                    <div class="mt-3 overflow-hidden rounded-xl border border-slate-200">
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full divide-y divide-slate-200">
+                                <thead class="bg-slate-50">
+                                    <tr>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Rank</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Student</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Quizzes Done</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Avg Score</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Accuracy</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-slate-100">
+                                    @php $rank = 1; @endphp
+                                    @foreach($students as $bs)
+                                        @php $ps = $analytics['per_student'][$bs->user_id] ?? null; @endphp
+                                        @if($ps)
+                                            <tr class="hover:bg-slate-50">
+                                                <td class="px-4 py-3 text-sm font-bold text-slate-700">{{ $rank++ }}</td>
+                                                <td class="px-4 py-3 text-sm font-medium text-slate-900">{{ $bs->user->name ?? '—' }}</td>
+                                                <td class="px-4 py-3 text-sm text-slate-600">{{ $ps->quizzes_attempted }} / {{ $s['quizzes'] }}</td>
+                                                <td class="px-4 py-3 text-sm font-semibold text-indigo-700">{{ $ps->avg_score }}</td>
+                                                <td class="px-4 py-3 text-sm text-slate-600">
+                                                    @if($ps->total_questions > 0)
+                                                        {{ round($ps->total_correct * 100 / $ps->total_questions, 1) }}%
+                                                    @else
+                                                        —
+                                                    @endif
+                                                </td>
+                                            </tr>
+                                        @endif
+                                    @endforeach
+                                    @foreach($students as $bs)
+                                        @php $ps = $analytics['per_student'][$bs->user_id] ?? null; @endphp
+                                        @if(!$ps)
+                                            <tr class="opacity-50">
+                                                <td class="px-4 py-3 text-sm text-slate-400">—</td>
+                                                <td class="px-4 py-3 text-sm text-slate-500">{{ $bs->user->name ?? '—' }}</td>
+                                                <td class="px-4 py-3 text-sm text-slate-400">0 / {{ $s['quizzes'] }}</td>
+                                                <td class="px-4 py-3 text-sm text-slate-400">—</td>
+                                                <td class="px-4 py-3 text-sm text-slate-400">—</td>
+                                            </tr>
+                                        @endif
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             @endif
@@ -356,37 +361,39 @@
             @if(count($analytics['topic_breakdown']) > 0)
                 <div class="mt-6">
                     <h3 class="text-sm font-semibold text-slate-700">Topic-wise accuracy</h3>
-                    <div class="mt-3 overflow-x-auto">
-                        <table class="w-full text-sm">
-                            <thead>
-                                <tr class="border-b border-slate-100 text-left text-xs font-semibold uppercase tracking-wider text-slate-400">
-                                    <th class="pb-2 pr-4">Subject</th>
-                                    <th class="pb-2 pr-4">Topic</th>
-                                    <th class="pb-2 pr-4">Questions</th>
-                                    <th class="pb-2 pr-4">Correct</th>
-                                    <th class="pb-2">Accuracy</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-slate-50">
-                                @foreach($analytics['topic_breakdown'] as $row)
+                    <div class="mt-3 overflow-hidden rounded-xl border border-slate-200">
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full divide-y divide-slate-200">
+                                <thead class="bg-slate-50">
                                     <tr>
-                                        <td class="py-2 pr-4 font-medium text-slate-800">{{ $row->subject_name }}</td>
-                                        <td class="py-2 pr-4 text-slate-600">{{ $row->topic_name }}</td>
-                                        <td class="py-2 pr-4 text-slate-600">{{ $row->total_answered }}</td>
-                                        <td class="py-2 pr-4 text-green-700">{{ $row->correct_count }}</td>
-                                        <td class="py-2">
-                                            <div class="flex items-center gap-2">
-                                                <div class="h-1.5 w-16 rounded-full bg-slate-100">
-                                                    <div class="h-1.5 rounded-full {{ $row->accuracy >= 70 ? 'bg-green-500' : ($row->accuracy >= 40 ? 'bg-amber-500' : 'bg-red-500') }}"
-                                                         style="width: {{ min($row->accuracy, 100) }}%"></div>
-                                                </div>
-                                                <span class="text-xs font-semibold {{ $row->accuracy >= 70 ? 'text-green-700' : ($row->accuracy >= 40 ? 'text-amber-700' : 'text-red-700') }}">{{ $row->accuracy }}%</span>
-                                            </div>
-                                        </td>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Subject</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Topic</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Questions</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Correct</th>
+                                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Accuracy</th>
                                     </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody class="divide-y divide-slate-100">
+                                    @foreach($analytics['topic_breakdown'] as $row)
+                                        <tr class="hover:bg-slate-50">
+                                            <td class="px-4 py-3 text-sm font-medium text-slate-900">{{ $row->subject_name }}</td>
+                                            <td class="px-4 py-3 text-sm text-slate-600">{{ $row->topic_name }}</td>
+                                            <td class="px-4 py-3 text-sm text-slate-600">{{ $row->total_answered }}</td>
+                                            <td class="px-4 py-3 text-sm text-green-700">{{ $row->correct_count }}</td>
+                                            <td class="px-4 py-3">
+                                                <div class="flex items-center gap-2">
+                                                    <div class="h-1.5 w-16 rounded-full bg-slate-100">
+                                                        <div class="h-1.5 rounded-full {{ $row->accuracy >= 70 ? 'bg-green-500' : ($row->accuracy >= 40 ? 'bg-amber-500' : 'bg-red-500') }}"
+                                                             style="width: {{ min($row->accuracy, 100) }}%"></div>
+                                                    </div>
+                                                    <span class="text-xs font-semibold {{ $row->accuracy >= 70 ? 'text-green-700' : ($row->accuracy >= 40 ? 'text-amber-700' : 'text-red-700') }}">{{ $row->accuracy }}%</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             @endif

@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\PaymentFailed;
+use App\Events\PaymentSucceeded;
+use App\Events\PlanActivated;
 use App\Models\Payment;
 use App\Models\Plan;
 use App\Models\Setting;
@@ -143,6 +146,9 @@ class PaymentController extends Controller
             // Dispatch any post-payment actions here
             $this->handlePostPayment($payment);
 
+            // Fire payment success event (email/FCM/in-app notifications)
+            PaymentSucceeded::dispatch($payment, $payment->user);
+
             return response()->json([
                 'ok'      => true,
                 'message' => 'Payment verified successfully.',
@@ -150,6 +156,9 @@ class PaymentController extends Controller
         }
 
         $payment->markFailed($result['meta']);
+
+        // Fire payment failed event
+        PaymentFailed::dispatch($payment, $payment->user);
 
         return response()->json([
             'ok'    => false,
@@ -178,11 +187,17 @@ class PaymentController extends Controller
 
             $this->handlePostPayment($payment);
 
+            // Fire payment success event
+            PaymentSucceeded::dispatch($payment, $payment->user);
+
             return redirect()->route('payments.success', ['payment' => $payment->id])
                 ->with('status', 'Payment successful!');
         }
 
         $payment->markFailed($result['meta']);
+
+        // Fire payment failed event
+        PaymentFailed::dispatch($payment, $payment->user);
 
         return redirect()->route('payments.failed', ['payment' => $payment->id])
             ->with('error', 'Payment could not be verified.');
