@@ -29,6 +29,7 @@
         "laravel/reverb": "^1.7",
         "laravel/socialite": "^5.24",
         "laravel/tinker": "^2.10.1",
+        "nativephp/mobile": "^3.0",
         "netresearch/jsonmapper": "^4.4",
         "openai-php/client": "^0.18.0",
         "phonepe/pg-php-sdk-v2": "^2.0",
