@@ -14,7 +14,7 @@
         <p class="mt-2 text-sm text-slate-600">
             Your payment of <strong>{{ number_format($payment->amountInRupees(), 2) }} INR</strong> has been processed.
         </p>
-        @if($payment->purpose === 'plan_purchase')
+        @if($payment->purpose === 'student_plan_purchase' || $payment->purpose === 'plan_purchase')
             <p class="mt-1 text-sm text-emerald-700">Your plan has been activated.</p>
         @endif
         <div class="mt-4 rounded-xl bg-slate-50 p-3 text-left text-xs text-slate-600">

@@ -56,6 +56,7 @@ class User extends Authenticatable
         'anthropic_api_key',
         'default_ai_provider',
         'plan_id',
+        'student_plan_id',
     ];
 
     /**
@@ -128,7 +129,7 @@ class User extends Authenticatable
     }
 
     /* ------------------------------------------------------------------ */
-    /*  Plan                                                               */
+    /*  Creator plan (limits: quizzes, batches, AI, etc.)                   */
     /* ------------------------------------------------------------------ */
 
     public function plan()
@@ -137,10 +138,27 @@ class User extends Authenticatable
     }
 
     /**
-     * Return the user's assigned plan, or the system default plan.
+     * Creator's effective plan, or the system default creator plan.
      */
     public function activePlan(): ?Plan
     {
         return $this->plan ?? Plan::defaultPlan();
+    }
+
+    /* ------------------------------------------------------------------ */
+    /*  Student plan (subscription tier: Free, Premium, etc.)              */
+    /* ------------------------------------------------------------------ */
+
+    public function studentPlan()
+    {
+        return $this->belongsTo(StudentPlan::class, 'student_plan_id');
+    }
+
+    /**
+     * Student's current subscription plan (what they bought or were assigned).
+     */
+    public function activeStudentPlan(): ?StudentPlan
+    {
+        return $this->studentPlan;
     }
 }

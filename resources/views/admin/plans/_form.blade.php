@@ -13,6 +13,17 @@
         </div>
 
         <div>
+            <label class="block text-sm font-medium text-slate-700">Duration <span class="text-red-500">*</span></label>
+            <select name="duration" required
+                    class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                <option value="weekly" @selected(old('duration', $plan->duration ?? 'monthly') === 'weekly')>Weekly</option>
+                <option value="monthly" @selected(old('duration', $plan->duration ?? 'monthly') === 'monthly')>Monthly</option>
+                <option value="yearly" @selected(old('duration', $plan->duration ?? 'monthly') === 'yearly')>Yearly</option>
+            </select>
+            <div class="mt-1 text-xs text-slate-500">Billing cycle for this plan.</div>
+        </div>
+
+        <div>
             <label class="block text-sm font-medium text-slate-700">Price label</label>
             <input name="price_label" value="{{ old('price_label', $plan->price_label) }}"
                    class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none"

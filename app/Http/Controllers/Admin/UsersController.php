@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Plan;
+use App\Models\StudentPlan;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
@@ -104,8 +105,9 @@ class UsersController extends Controller
         $currentRole = $user->roles->first()?->name ?? 'student';
 
         $plans = Plan::query()->active()->ordered()->get();
+        $studentPlans = StudentPlan::query()->active()->ordered()->get();
 
-        return view('admin.users._edit_modal', compact('user', 'roles', 'currentRole', 'plans'));
+        return view('admin.users._edit_modal', compact('user', 'roles', 'currentRole', 'plans', 'studentPlans'));
     }
 
     public function update(Request $request, User $user)
@@ -132,6 +134,7 @@ class UsersController extends Controller
             'is_guest' => ['nullable', 'boolean'],
 
             'plan_id' => ['nullable', 'integer', 'exists:plans,id'],
+            'student_plan_id' => ['nullable', 'integer', 'exists:student_plans,id'],
 
             'role' => ['required', 'string', 'in:student,creator,guest,super_admin'],
             'is_blocked' => ['nullable', 'boolean'],
@@ -153,6 +156,7 @@ class UsersController extends Controller
             'google_avatar_url' => $data['google_avatar_url'] ?? null,
             'is_guest' => (bool) ($data['is_guest'] ?? false),
             'plan_id' => $data['plan_id'] ?? null,
+            'student_plan_id' => $data['student_plan_id'] ?? null,
         ]);
 
         if (! empty($data['password'])) {

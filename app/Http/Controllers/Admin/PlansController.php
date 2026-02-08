@@ -92,6 +92,7 @@ class PlansController extends Controller
         $data = $request->validate([
             'name'                         => ['required', 'string', 'max:80'],
             'description'                  => ['nullable', 'string', 'max:500'],
+            'duration'                     => ['required', 'string', 'in:weekly,monthly,yearly'],
             'price_label'                  => ['nullable', 'string', 'max:60'],
             'max_quizzes'                  => ['nullable', 'integer', 'min:0'],
             'max_batches'                  => ['nullable', 'integer', 'min:0'],

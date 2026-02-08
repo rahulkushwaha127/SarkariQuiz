@@ -58,16 +58,29 @@
         </div>
 
         <div>
-            <label class="block text-sm font-medium text-slate-700">Plan</label>
+            <label class="block text-sm font-medium text-slate-700">Creator plan</label>
             <select name="plan_id" class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
                 <option value="">No plan (default)</option>
                 @foreach ($plans ?? [] as $plan)
                     <option value="{{ $plan->id }}" @selected(old('plan_id', $user->plan_id) == $plan->id)>
-                        {{ $plan->name }}{{ $plan->price_label ? ' — ' . $plan->price_label : '' }}{{ $plan->is_default ? ' (default)' : '' }}
+                        {{ $plan->name }} ({{ $plan->durationLabel() }}){{ $plan->price_label ? ' — ' . $plan->price_label : '' }}{{ $plan->is_default ? ' (default)' : '' }}
                     </option>
                 @endforeach
             </select>
-            <div class="mt-1 text-xs text-slate-500">Subscription plan for creators. Limits quizzes, batches, AI usage, etc.</div>
+            <div class="mt-1 text-xs text-slate-500">For creators: limits on quizzes, batches, AI usage.</div>
+        </div>
+
+        <div>
+            <label class="block text-sm font-medium text-slate-700">Student plan</label>
+            <select name="student_plan_id" class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                <option value="">No plan</option>
+                @foreach ($studentPlans ?? [] as $sp)
+                    <option value="{{ $sp->id }}" @selected(old('student_plan_id', $user->student_plan_id) == $sp->id)>
+                        {{ $sp->name }} ({{ $sp->durationLabel() }}){{ $sp->price_label ? ' — ' . $sp->price_label : '' }}
+                    </option>
+                @endforeach
+            </select>
+            <div class="mt-1 text-xs text-slate-500">Subscription tier for students (Free, Premium, etc.).</div>
         </div>
 
         <div class="rounded-2xl border border-slate-200 bg-white p-4">

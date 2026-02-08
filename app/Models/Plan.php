@@ -9,10 +9,13 @@ class Plan extends Model
 {
     use HasFactory;
 
+    public const DURATIONS = ['weekly', 'monthly', 'yearly'];
+
     protected $fillable = [
         'name',
         'slug',
         'description',
+        'duration',
         'price_label',
         'max_quizzes',
         'max_batches',
@@ -40,6 +43,26 @@ class Plan extends Model
     /* ------------------------------------------------------------------ */
     /*  Helpers                                                            */
     /* ------------------------------------------------------------------ */
+
+    /** Human-friendly duration label. */
+    public function durationLabel(): string
+    {
+        return match ($this->duration) {
+            'weekly'  => 'Weekly',
+            'yearly'  => 'Yearly',
+            default   => 'Monthly',
+        };
+    }
+
+    /** Duration suffix for price display (e.g. "/month"). */
+    public function durationSuffix(): string
+    {
+        return match ($this->duration) {
+            'weekly'  => '/week',
+            'yearly'  => '/year',
+            default   => '/month',
+        };
+    }
 
     /**
      * Check if a given limit field is unlimited (null).

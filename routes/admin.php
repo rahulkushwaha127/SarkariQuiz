@@ -17,6 +17,7 @@ use App\Http\Controllers\Admin\Taxonomy\SubjectsController;
 use App\Http\Controllers\Admin\Taxonomy\TopicsController;
 use App\Http\Controllers\Admin\UsersController;
 use App\Http\Controllers\Admin\PlansController;
+use App\Http\Controllers\Admin\StudentPlansController;
 use App\Http\Controllers\Admin\ContactSubmissionsController;
 
 Route::middleware(['auth', 'role:super_admin'])
@@ -53,13 +54,21 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::get('/settings', [SettingsController::class, 'edit'])->name('settings.edit');
         Route::patch('/settings', [SettingsController::class, 'update'])->name('settings.update');
 
-        // Plans
+        // Creator plans (limits: quizzes, batches, AI, etc.)
         Route::get('/plans', [PlansController::class, 'index'])->name('plans.index');
         Route::get('/plans/create', [PlansController::class, 'create'])->name('plans.create');
         Route::post('/plans', [PlansController::class, 'store'])->name('plans.store');
         Route::get('/plans/{plan}/edit', [PlansController::class, 'edit'])->name('plans.edit');
         Route::patch('/plans/{plan}', [PlansController::class, 'update'])->name('plans.update');
         Route::delete('/plans/{plan}', [PlansController::class, 'destroy'])->name('plans.destroy');
+
+        // Student plans (subscription tiers: Free, Premium, etc.)
+        Route::get('/student-plans', [StudentPlansController::class, 'index'])->name('student-plans.index');
+        Route::get('/student-plans/create', [StudentPlansController::class, 'create'])->name('student-plans.create');
+        Route::post('/student-plans', [StudentPlansController::class, 'store'])->name('student-plans.store');
+        Route::get('/student-plans/{student_plan}/edit', [StudentPlansController::class, 'edit'])->name('student-plans.edit');
+        Route::patch('/student-plans/{student_plan}', [StudentPlansController::class, 'update'])->name('student-plans.update');
+        Route::delete('/student-plans/{student_plan}', [StudentPlansController::class, 'destroy'])->name('student-plans.destroy');
 
         // Contests moderation
         Route::get('/contests', [ContestsController::class, 'index'])->name('contests.index');

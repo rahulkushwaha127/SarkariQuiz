@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Payment;
 use App\Models\Setting;
+use App\Models\StudentPlan;
 use App\Services\Payment\PaymentGatewayFactory;
 use App\Services\Payment\RazorpayGateway;
 use Illuminate\Http\Request;
@@ -19,14 +20,32 @@ class PaymentController extends Controller
     public function initiate(Request $request)
     {
         $data = $request->validate([
-            'amount'     => ['required', 'numeric', 'min:1'],
+            'amount'     => ['required', 'numeric', 'min:0'],
             'purpose'    => ['required', 'string', 'max:60'],
             'purpose_id' => ['nullable', 'integer'],
             'gateway'    => ['nullable', 'string', 'in:razorpay,phonepe'],
         ]);
 
+        // Student plan purchase: validate purpose_id and amount
+        if ($data['purpose'] === 'student_plan_purchase') {
+            $studentPlan = StudentPlan::where('id', $data['purpose_id'] ?? 0)->where('is_active', true)->first();
+            if (! $studentPlan) {
+                return response()->json(['ok' => false, 'error' => 'Invalid or inactive plan.'], 422);
+            }
+            if (! $studentPlan->isFree() && ($studentPlan->price_paise !== (int) round($data['amount'] * 100))) {
+                return response()->json(['ok' => false, 'error' => 'Amount does not match plan price.'], 422);
+            }
+            if ($studentPlan->isFree()) {
+                return response()->json(['ok' => false, 'error' => 'This plan is free. Use Activate instead of payment.'], 422);
+            }
+        }
+
         $gateway = $data['gateway'] ?? Setting::cachedGet('payment_active_gateway', 'razorpay');
         $amountPaise = (int) round($data['amount'] * 100);
+
+        if ($amountPaise < 1) {
+            return response()->json(['ok' => false, 'error' => 'Amount must be at least ₹1.'], 422);
+        }
 
         // Create the payment record
         $payment = Payment::create([
@@ -179,8 +198,16 @@ class PaymentController extends Controller
      */
     protected function handlePostPayment(Payment $payment): void
     {
+        $user = $payment->user;
+
+        // Student plan purchase (student_plans table)
+        if ($payment->purpose === 'student_plan_purchase' && $payment->purpose_id) {
+            $user->student_plan_id = $payment->purpose_id;
+            $user->save();
+        }
+
+        // Legacy: creator plan purchase (plans table) — kept for backward compatibility
         if ($payment->purpose === 'plan_purchase' && $payment->purpose_id) {
-            $user = $payment->user;
             $user->plan_id = $payment->purpose_id;
             $user->save();
         }

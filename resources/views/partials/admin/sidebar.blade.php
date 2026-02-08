@@ -112,9 +112,15 @@
                 </a>
                 <a href="{{ route('admin.plans.index') }}"
                    class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
-                   {{ request()->routeIs('admin.plans.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
-                    <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.plans.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
-                    Plans
+                   {{ request()->routeIs('admin.plans.*') && !request()->routeIs('admin.student-plans.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                    <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.plans.*') && !request()->routeIs('admin.student-plans.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                    Creator plans
+                </a>
+                <a href="{{ route('admin.student-plans.index') }}"
+                   class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+                   {{ request()->routeIs('admin.student-plans.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                    <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.student-plans.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                    Student plans
                 </a>
                 <a href="{{ route('admin.ads.index') }}"
                    class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
