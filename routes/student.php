@@ -13,6 +13,7 @@ use App\Http\Controllers\Student\PagesController;
 use App\Http\Controllers\Student\PracticeController;
 use App\Http\Controllers\Student\PyqController;
 use App\Http\Controllers\Student\RevisionController;
+use App\Http\Controllers\Student\SubscriptionController;
 use App\Http\Controllers\Student\QuizPlayController;
 
 // Quiz play routes (allowed for logged-in student + guest role)
@@ -100,6 +101,10 @@ Route::middleware(['auth', 'require_student'])->group(function () {
 
     // Student profile card
     Route::get('/my-profile', [\App\Http\Controllers\Student\ProfileCardController::class, 'show'])->name('student.profile');
+
+    // Subscription / Plans
+    Route::get('/plans', [SubscriptionController::class, 'index'])->name('student.subscription');
+    Route::post('/plans/activate-free', [SubscriptionController::class, 'activateFreePlan'])->name('student.subscription.activate_free');
 
     // Batches
     Route::get('/join-batch', [BatchController::class, 'joinForm'])->name('batches.join');

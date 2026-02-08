@@ -156,6 +156,16 @@
     @endif
 
     @if($isStudent)
+    <a href="{{ route('student.subscription') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.subscription*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2l2.4 7.2H22l-6 4.5 2.3 7.3L12 16.5 5.7 21l2.3-7.3-6-4.5h7.6L12 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+        Plans
+    </a>
+    @endif
+
+    @if($isStudent)
     <a href="{{ route('student.profile') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.profile') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
