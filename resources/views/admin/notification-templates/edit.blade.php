@@ -85,7 +85,7 @@
                     @forelse($template->available_variables ?? [] as $var)
                         <button type="button"
                                 class="var-copy-btn rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-mono font-medium text-slate-700 hover:bg-indigo-100 hover:text-indigo-700 transition-colors"
-                                data-var="{{{{$var}}}}">
+                                data-var="@php echo '{{' . $var . '}}'; @endphp">
                             @{{ $var }}
                         </button>
                     @empty
@@ -219,25 +219,44 @@
     </div>
 </div>
 
+@push('styles')
+{{-- Summernote CSS --}}
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote-lite.min.css" rel="stylesheet">
+<style>
+    .note-editor.note-frame { border: 1px solid #e2e8f0 !important; border-radius: 12px !important; overflow: hidden; }
+    .note-editor .note-toolbar { background: #f8fafc !important; border-bottom: 1px solid #e2e8f0 !important; padding: 6px 8px !important; }
+    .note-editor .note-editing-area .note-editable { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; line-height: 1.7; color: #334155; padding: 16px !important; }
+    .note-editor .note-statusbar { background: #f8fafc !important; border-top: 1px solid #e2e8f0 !important; }
+    .note-btn { border-radius: 6px !important; }
+</style>
+@endpush
+
 @push('scripts')
-{{-- TinyMCE CDN --}}
-<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+{{-- jQuery (required by Summernote) --}}
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+{{-- Summernote JS --}}
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote-lite.min.js"></script>
 <script>
 (function() {
-    /* ── TinyMCE ── */
-    tinymce.init({
-        selector: '#email-body-editor',
-        height: 400,
-        menubar: true,
-        plugins: 'advlist autolink lists link image charmap preview anchor searchreplace visualblocks code fullscreen insertdatetime media table help wordcount',
-        toolbar: 'undo redo | blocks | bold italic underline strikethrough | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | code | removeformat | help',
-        content_style: 'body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; line-height: 1.7; color: #334155; padding: 12px; }',
-        branding: false,
-        promotion: false,
-        setup: function(editor) {
-            editor.on('change keyup', function() {
-                editor.save(); // sync to textarea
-            });
+    /* ── Summernote ── */
+    var $editor = $('#email-body-editor');
+    $editor.summernote({
+        height: 350,
+        placeholder: 'Write your email body HTML here...',
+        toolbar: [
+            ['style', ['style']],
+            ['font', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
+            ['color', ['color']],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['table', ['table']],
+            ['insert', ['link', 'picture', 'hr']],
+            ['view', ['fullscreen', 'codeview', 'help']]
+        ],
+        callbacks: {
+            onChange: function(contents) {
+                // Keep textarea in sync for form submission
+                $editor.val(contents);
+            }
         }
     });
 
@@ -292,11 +311,12 @@
     /* ── Email preview in iframe ── */
     function updateEmailPreview() {
         var frame = document.getElementById('email-preview-frame');
-        var editor = tinymce.get('email-body-editor');
-        var bodyContent = editor ? editor.getContent() : document.getElementById('email-body-editor').value;
+        var bodyContent = $editor.summernote('code');
         var html = buildPreviewHtml(bodyContent);
         frame.srcdoc = html;
     }
+
+    var appName = @json(config('app.name', 'QuizWhiz'));
 
     function buildPreviewHtml(body) {
         return '<!DOCTYPE html><html><head><style>'
@@ -311,20 +331,16 @@
             + '.b .amount{font-size:22px;font-weight:700;color:#1e293b;}'
             + '.f{padding:16px 28px;text-align:center;border-top:1px solid #f1f5f9;font-size:11px;color:#94a3b8;}'
             + '</style></head><body><div class="c">'
-            + '<div class="h">' + @json(config('app.name', 'QuizWhiz')) + '</div>'
+            + '<div class="h">' + appName + '</div>'
             + '<div class="b">' + body + '</div>'
-            + '<div class="f">&copy; ' + new Date().getFullYear() + ' ' + @json(config('app.name', 'QuizWhiz')) + '. All rights reserved.</div>'
+            + '<div class="f">&copy; ' + new Date().getFullYear() + ' ' + appName + '. All rights reserved.</div>'
             + '</div></body></html>';
     }
 
     document.getElementById('refresh-preview-btn').addEventListener('click', updateEmailPreview);
 
-    // Auto-load preview after TinyMCE initializes
-    tinymce.on('AddEditor', function(e) {
-        e.editor.on('init', function() {
-            setTimeout(updateEmailPreview, 300);
-        });
-    });
+    // Auto-load preview on page load
+    setTimeout(updateEmailPreview, 500);
 })();
 </script>
 @endpush

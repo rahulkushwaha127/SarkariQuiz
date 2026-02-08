@@ -8,6 +8,7 @@
     <title>@yield('title', 'Admin') · {{ $siteName ?? config('app.name', 'QuizWhiz') }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/admin.js'])
+    @stack('styles')
 </head>
 <body class="min-h-screen bg-slate-50 text-slate-900">
     @include('partials._impersonation_banner')
