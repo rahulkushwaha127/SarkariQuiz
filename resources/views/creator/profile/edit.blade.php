@@ -397,6 +397,36 @@
         });
     });
 
+    /* ---- Toggle visual state sync ---- */
+    function syncToggleVisual(checkbox) {
+        var label = checkbox.closest('.toggle-label');
+        if (!label) return;
+        var track = label.querySelector('.toggle-track');
+        var text  = label.querySelector('.toggle-label-text');
+
+        if (checkbox.checked) {
+            track.classList.add('is-checked');
+            if (text) {
+                text.textContent = 'On';
+                text.classList.remove('text-slate-500');
+                text.classList.add('text-indigo-700');
+            }
+        } else {
+            track.classList.remove('is-checked');
+            if (text) {
+                text.textContent = 'Off';
+                text.classList.add('text-slate-500');
+                text.classList.remove('text-indigo-700');
+            }
+        }
+    }
+
+    document.querySelectorAll('.toggle-checkbox').forEach(function(cb) {
+        cb.addEventListener('change', function() {
+            syncToggleVisual(cb);
+        });
+    });
+
     /* ---- Group toggle: dim body when group is off ---- */
     document.querySelectorAll('.vis-toggle').forEach(function(cb) {
         cb.addEventListener('change', function() {
@@ -409,9 +439,10 @@
             fields.forEach(function(f) {
                 if (!cb.checked) {
                     f.checked = false;
-                    f.closest('label').classList.add('opacity-40', 'pointer-events-none');
+                    syncToggleVisual(f);
+                    f.closest('.toggle-label').classList.add('opacity-40', 'pointer-events-none');
                 } else {
-                    f.closest('label').classList.remove('opacity-40', 'pointer-events-none');
+                    f.closest('.toggle-label').classList.remove('opacity-40', 'pointer-events-none');
                 }
             });
         });

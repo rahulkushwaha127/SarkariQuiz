@@ -28,3 +28,51 @@
         cursor: not-allowed;
     }
 }
+
+/* ── Toggle switch ── */
+@layer components {
+    .toggle-track {
+        position: relative;
+        border-radius: 9999px;
+        background-color: #cbd5e1; /* slate-300 */
+        transition: background-color 0.2s ease;
+        flex-shrink: 0;
+    }
+    .toggle-track--lg {
+        width: 44px;
+        height: 24px;
+    }
+    .toggle-track--sm {
+        width: 36px;
+        height: 20px;
+    }
+
+    .toggle-knob {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        border-radius: 9999px;
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.06);
+        transition: transform 0.2s ease;
+    }
+    .toggle-track--lg .toggle-knob {
+        width: 20px;
+        height: 20px;
+    }
+    .toggle-track--sm .toggle-knob {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Checked state */
+    .toggle-track.is-checked {
+        background-color: #4f46e5; /* indigo-600 */
+    }
+    .toggle-track--lg.is-checked .toggle-knob {
+        transform: translateX(20px); /* 44 - 20 - 2*2 = 20 */
+    }
+    .toggle-track--sm.is-checked .toggle-knob {
+        transform: translateX(16px); /* 36 - 16 - 2*2 = 16 */
+    }
+}

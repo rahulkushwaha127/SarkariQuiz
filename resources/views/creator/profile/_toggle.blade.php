@@ -6,18 +6,17 @@
 --}}
 @php $small = $small ?? false; @endphp
 
-<label class="relative inline-flex shrink-0 cursor-pointer items-center{{ $small ? ' mt-6' : '' }}">
+<label class="inline-flex shrink-0 cursor-pointer items-center gap-2{{ $small ? ' mt-6' : '' }} toggle-label">
     {{-- hidden 0 so unchecked = 0 is sent --}}
     <input type="hidden" name="{{ $name }}" value="0" />
     <input type="checkbox" name="{{ $name }}" value="1"
-           class="peer sr-only vis-toggle{{ $small ? ' vis-toggle-sm' : '' }}"
+           class="sr-only toggle-checkbox vis-toggle{{ $small ? ' vis-toggle-sm' : '' }}"
            @if($checked) checked @endif />
-    <div class="{{ $small ? 'h-5 w-9 after:h-4 after:w-4' : 'h-6 w-11 after:h-5 after:w-5' }}
-                rounded-full bg-slate-300 after:absolute after:top-0.5 after:left-[2px] after:rounded-full after:border after:border-slate-300 after:bg-white after:transition-all after:content-['']
-                peer-checked:bg-indigo-600 peer-checked:after:translate-x-full peer-checked:after:border-white
-                peer-focus:ring-2 peer-focus:ring-indigo-300"></div>
+    <div class="toggle-track {{ $small ? 'toggle-track--sm' : 'toggle-track--lg' }}{{ $checked ? ' is-checked' : '' }}">
+        <span class="toggle-knob"></span>
+    </div>
     @if(!$small)
-        <span class="ml-2 text-xs font-medium text-slate-500 peer-checked:text-indigo-700">
+        <span class="text-xs font-medium {{ $checked ? 'text-indigo-700' : 'text-slate-500' }} toggle-label-text">
             {{ $checked ? 'On' : 'Off' }}
         </span>
     @endif
