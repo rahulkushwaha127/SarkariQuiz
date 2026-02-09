@@ -7,6 +7,25 @@
 
     <title>@yield('title', 'Play') · {{ $siteName ?? config('app.name', 'QuizWhiz') }}</title>
 
+    {{-- Firebase config (same shape as Firebase Console snippet) for FCM push --}}
+    @php
+        $fcm = config('services.fcm');
+        $firebaseConfig = [
+            'apiKey' => $fcm['api_key'] ?? '',
+            'authDomain' => $fcm['auth_domain'] ?? '',
+            'projectId' => $fcm['project_id'] ?? '',
+            'storageBucket' => $fcm['storage_bucket'] ?? '',
+            'messagingSenderId' => $fcm['messaging_sender_id'] ?? '',
+            'appId' => $fcm['app_id'] ?? '',
+            'vapidKey' => $fcm['vapid_key'] ?? '',
+        ];
+    @endphp
+    <script>
+        window.__FIREBASE_CONFIG__ = @json($firebaseConfig);
+    </script>
+    {{-- Scrap-style: script#firebase-config (optional for external scripts) --}}
+    <script id="firebase-config" type="application/json">@json(array_diff_key($firebaseConfig, array_flip(['vapidKey'])))</script>
+
     @vite(['resources/css/app.css', 'resources/js/student.js'])
 
     <style>
@@ -152,6 +171,9 @@
 
         </div>
     </div>
+
+    {{-- Notification popup (Scrap-style: Enable Notifications) --}}
+    @include('partials.student.notification_popup')
 
     {{-- Auth modal --}}
     <div data-auth-modal-autoshow="{{ $autoShowAuthModal ? '1' : '0' }}"></div>

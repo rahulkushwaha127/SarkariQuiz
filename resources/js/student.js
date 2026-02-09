@@ -884,9 +884,54 @@ document.addEventListener('DOMContentLoaded', () => {
     initClubRoomState();
 });
 
-// Push notifications (FCM)
-import { wirePushEnableButtons } from './fcm_client.js';
+// Push notifications (FCM) + notification popup (Scrap-style)
+import { wirePushEnableButtons, enablePushNotifications, postSavePermission } from './fcm_client.js';
 document.addEventListener('DOMContentLoaded', () => {
     wirePushEnableButtons();
+    initNotificationPopup();
 });
+
+function initNotificationPopup() {
+    const popup = document.getElementById('notificationPopup');
+    const allowBtn = document.getElementById('notificationAllowBtn');
+    const denyBtn = document.getElementById('notificationDenyBtn');
+    if (!popup || !allowBtn || !denyBtn) return;
+    if (!('Notification' in window) || !('serviceWorker' in navigator)) return;
+
+    const closePopup = () => popup.classList.add('hidden');
+    const showPopup = () => popup.classList.remove('hidden');
+
+    if (Notification.permission === 'default') {
+        window.setTimeout(showPopup, 2000);
+        window.setTimeout(() => {
+            if (popup.classList.contains('hidden')) return;
+            closePopup();
+            postSavePermission(null, 'default').catch(() => {});
+        }, 12000);
+    }
+
+    allowBtn.addEventListener('click', async () => {
+        allowBtn.setAttribute('disabled', 'true');
+        allowBtn.textContent = '…';
+        try {
+            await enablePushNotifications();
+            closePopup();
+            window.show_toaster?.('Notifications enabled', 'You’ll receive updates.', 'success');
+        } catch (err) {
+            window.show_toaster?.('Error', err?.message || 'Could not enable notifications', 'error');
+        } finally {
+            allowBtn.removeAttribute('disabled');
+            allowBtn.textContent = 'Allow';
+        }
+    });
+
+    denyBtn.addEventListener('click', async () => {
+        closePopup();
+        try {
+            await postSavePermission(null, 'denied');
+        } catch {
+            // ignore
+        }
+    });
+}
 

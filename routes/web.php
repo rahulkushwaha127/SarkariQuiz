@@ -10,6 +10,7 @@ use App\Http\Controllers\FcmTokenController;
 use App\Http\Controllers\Public\ContactController;
 use App\Http\Controllers\Public\CreatorPublicController;
 use App\Http\Controllers\Public\GuestPlayController;
+use App\Http\Controllers\Public\NotificationPermissionController;
 use App\Http\Controllers\Public\ShareController;
 use App\Http\Controllers\Student\DashboardController;
 use App\Http\Controllers\Student\BrowseController as StudentBrowseController;
@@ -18,14 +19,16 @@ use App\Http\Controllers\Student\LeaderboardController as StudentLeaderboardCont
 use App\Http\Controllers\Student\PagesController as StudentPagesController;
 
 // Firebase Messaging service worker (must be served from app root).
+// Uses same config shape as Firebase Console snippet (config/services.php fcm).
 Route::get('/firebase-messaging-sw.js', function () {
+    $fcm = config('services.fcm');
     $config = [
-        'apiKey' => env('FIREBASE_API_KEY', ''),
-        'authDomain' => env('FIREBASE_AUTH_DOMAIN', ''),
-        'projectId' => env('FIREBASE_PROJECT_ID', ''),
-        'storageBucket' => env('FIREBASE_STORAGE_BUCKET', ''),
-        'messagingSenderId' => env('FIREBASE_MESSAGING_SENDER_ID', ''),
-        'appId' => env('FIREBASE_APP_ID', ''),
+        'apiKey' => $fcm['api_key'] ?? '',
+        'authDomain' => $fcm['auth_domain'] ?? '',
+        'projectId' => $fcm['project_id'] ?? '',
+        'storageBucket' => $fcm['storage_bucket'] ?? '',
+        'messagingSenderId' => $fcm['messaging_sender_id'] ?? '',
+        'appId' => $fcm['app_id'] ?? '',
     ];
 
     return response()
@@ -34,6 +37,11 @@ Route::get('/firebase-messaging-sw.js', function () {
         ])
         ->header('Content-Type', 'application/javascript');
 });
+
+// Save FCM permission and token (guests or logged-in) – Scrap-style
+Route::post('/save-notification-permission', [NotificationPermissionController::class, 'save'])
+    ->middleware('throttle:10,1')
+    ->name('save.notification.permission');
 
 // Role-specific login pages (rate limited)
 Route::middleware('guest')->group(function () {

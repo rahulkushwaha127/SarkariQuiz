@@ -23,6 +23,7 @@
     ],
     "require": {
         "php": "^8.2",
+        "firebase/php-jwt": "*",
         "fivefilters/readability.php": "^3.3",
         "lab404/laravel-impersonate": "^1.7",
         "laravel/framework": "^12.0",

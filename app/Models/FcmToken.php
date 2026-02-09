@@ -17,6 +17,14 @@ class FcmToken extends Model
         'device_id',
         'last_seen_at',
         'revoked_at',
+        'permission',
+        'ip_address',
+        'user_agent',
+        'browser',
+        'os',
+        'device_type',
+        'timezone',
+        'language',
     ];
 
     protected $casts = [

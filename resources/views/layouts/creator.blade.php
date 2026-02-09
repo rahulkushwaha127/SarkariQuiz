@@ -8,6 +8,23 @@
     <title>@yield('title', 'Creator') · {{ $siteName ?? config('app.name', 'QuizWhiz') }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/admin.js', 'resources/js/creator.js'])
+    @php
+        $fcm = config('services.fcm');
+        $firebaseReady = !empty($fcm['api_key']) && !empty($fcm['project_id']) && !empty($fcm['messaging_sender_id']) && !empty($fcm['app_id']) && !empty($fcm['vapid_key']);
+    @endphp
+    @if($firebaseReady)
+    <script>
+        window.__FIREBASE_CONFIG__ = {
+            apiKey: @json($fcm['api_key']),
+            authDomain: @json($fcm['auth_domain'] ?? ''),
+            projectId: @json($fcm['project_id']),
+            storageBucket: @json($fcm['storage_bucket'] ?? ''),
+            messagingSenderId: @json($fcm['messaging_sender_id']),
+            appId: @json($fcm['app_id']),
+            vapidKey: @json($fcm['vapid_key']),
+        };
+    </script>
+    @endif
 </head>
 <body class="min-h-screen bg-slate-50 text-slate-900">
     @include('partials._impersonation_banner')

@@ -50,9 +50,31 @@ return [
         'model' => env('ANTHROPIC_MODEL', 'claude-3-haiku-20240307'),
     ],
 
+    // Alias for frontend Firebase config (Scrap-style: config('services.firebase'))
+    'firebase' => [
+        'api_key' => env('FCM_API_KEY', env('FIREBASE_API_KEY')),
+        'auth_domain' => env('FCM_AUTH_DOMAIN', env('FIREBASE_AUTH_DOMAIN')),
+        'project_id' => env('FCM_PROJECT_ID', env('FIREBASE_PROJECT_ID')),
+        'storage_bucket' => env('FCM_STORAGE_BUCKET', env('FIREBASE_STORAGE_BUCKET')),
+        'messaging_sender_id' => env('FCM_SENDER_ID', env('FIREBASE_MESSAGING_SENDER_ID', env('FIREBASE_SENDER_ID'))),
+        'app_id' => env('FCM_APP_ID', env('FIREBASE_APP_ID')),
+    ],
+
     'fcm' => [
-        // MVP: FCM legacy server key (Authorization: key=...)
+        // FCM HTTP v1: path to Firebase service account JSON (Project Settings → Service accounts → Generate new private key).
+        // Alternatively set GOOGLE_APPLICATION_CREDENTIALS in .env or environment.
+        'service_account_json' => env('FCM_SERVICE_ACCOUNT_JSON', env('GOOGLE_APPLICATION_CREDENTIALS')),
+        // Legacy server key (deprecated; no longer used; v1 uses OAuth2 from service account).
         'server_key' => env('FCM_SERVER_KEY'),
+        // Web SDK config (public, same shape as Firebase Console snippet)
+        'api_key' => env('FCM_API_KEY', env('FIREBASE_API_KEY')),
+        'auth_domain' => env('FCM_AUTH_DOMAIN', env('FIREBASE_AUTH_DOMAIN')),
+        'project_id' => env('FCM_PROJECT_ID', env('FIREBASE_PROJECT_ID')),
+        'storage_bucket' => env('FCM_STORAGE_BUCKET', env('FIREBASE_STORAGE_BUCKET')),
+        'messaging_sender_id' => env('FCM_SENDER_ID', env('FIREBASE_MESSAGING_SENDER_ID', env('FIREBASE_SENDER_ID'))),
+        'app_id' => env('FCM_APP_ID', env('FIREBASE_APP_ID')),
+        // Web Push VAPID key (Firebase Console → Project Settings → Cloud Messaging → Web Push certificates)
+        'vapid_key' => env('FCM_VAPID_KEY', env('FIREBASE_VAPID_KEY', env('VITE_FIREBASE_VAPID_KEY'))),
     ],
 
     'google' => [
