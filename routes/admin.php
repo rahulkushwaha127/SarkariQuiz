@@ -20,6 +20,7 @@ use App\Http\Controllers\Admin\PlansController;
 use App\Http\Controllers\Admin\StudentPlansController;
 use App\Http\Controllers\Admin\ContactSubmissionsController;
 use App\Http\Controllers\Admin\NotificationTemplatesController;
+use App\Http\Controllers\Admin\CreatorBioThemesController;
 
 Route::middleware(['auth', 'role:super_admin'])
     ->prefix('admin')
@@ -103,6 +104,10 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::delete('/pyq/{pyqQuestion}', [PyqQuestionsController::class, 'destroy'])->name('pyq.destroy');
         Route::get('/pyq/import', [PyqQuestionsController::class, 'importForm'])->name('pyq.import_form');
         Route::post('/pyq/import', [PyqQuestionsController::class, 'import'])->name('pyq.import');
+
+        // Creator Bio Themes (from Blade files; enable/disable in settings)
+        Route::get('/creator-bio-themes', [CreatorBioThemesController::class, 'index'])->name('creator-bio-themes.index');
+        Route::patch('/creator-bio-themes/{name}/toggle', [CreatorBioThemesController::class, 'toggle'])->name('creator-bio-themes.toggle');
 
         Route::prefix('taxonomy')->as('taxonomy.')->group(function () {
             Route::get('/exams', [ExamsController::class, 'index'])->name('exams.index');

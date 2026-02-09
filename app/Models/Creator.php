@@ -29,6 +29,7 @@ class Creator extends Model
         'selected_students',
         'faculty',
         'section_visibility',
+        'bio_theme',
     ];
 
     protected $casts = [

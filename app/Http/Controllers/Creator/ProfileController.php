@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Creator;
 
 use App\Http\Controllers\Controller;
+use App\Services\CreatorBioThemeService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
@@ -39,9 +40,13 @@ class ProfileController extends Controller
             'section_visibility' => [],
         ]);
 
+        $themeService = app(CreatorBioThemeService::class);
+        $enabledThemes = $themeService->listEnabledThemes();
+
         return view('creator.profile.edit', [
             'profile' => $profile,
             'user' => $user,
+            'enabledThemes' => $enabledThemes,
         ]);
     }
 
@@ -76,6 +81,7 @@ class ProfileController extends Controller
             'gallery_images.*' => ['nullable', File::types(['jpg', 'jpeg', 'png', 'webp'])->max(self::IMAGE_MAX_KB)],
             'visibility' => ['nullable', 'array'],
             'visibility.*' => ['in:0,1'],
+            'bio_theme' => ['nullable', 'string', 'max:80'],
         ];
 
         $socialKeys = $request->input('social_labels', []);
@@ -94,6 +100,16 @@ class ProfileController extends Controller
             $visibility[$key] = (bool) (int) $val;
         }
         $profile->section_visibility = $visibility;
+
+        // ---- Bio theme ----
+        $themeService = app(CreatorBioThemeService::class);
+        $bioTheme = isset($data['bio_theme']) && (string) $data['bio_theme'] !== ''
+            ? trim((string) $data['bio_theme'])
+            : null;
+        if ($bioTheme !== null && ! $themeService->isThemeEnabled($bioTheme)) {
+            $bioTheme = null;
+        }
+        $profile->bio_theme = $bioTheme;
 
         // ---- Username ----
         if (array_key_exists('username', $data) && (string) $data['username'] !== '') {

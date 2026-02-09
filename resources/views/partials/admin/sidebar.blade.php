@@ -53,6 +53,12 @@
                     <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.pyq.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
                     PYQ Bank
                 </a>
+                <a href="{{ route('admin.creator-bio-themes.index') }}"
+                   class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+                   {{ request()->routeIs('admin.creator-bio-themes.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                    <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.creator-bio-themes.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                    Creator Bio Themes
+                </a>
             </div>
 
             <div class="border-t border-slate-100 pt-2 mt-2">

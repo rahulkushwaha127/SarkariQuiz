@@ -45,6 +45,45 @@
             </div>
         </div>
 
+        {{-- Bio theme --}}
+        <div class="mt-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h2 class="text-base font-semibold text-slate-900">Bio page theme</h2>
+            <p class="mt-1 text-sm text-slate-600">Choose how your public bio page looks. Preview opens your page with that theme in a new tab.</p>
+            @if(count($enabledThemes ?? []) > 0)
+                <div class="mt-4 space-y-3">
+                    @foreach($enabledThemes as $themeName)
+                        <div class="flex flex-wrap items-center gap-3 rounded-xl border border-slate-100 bg-slate-50/50 p-3">
+                            <label class="flex cursor-pointer items-center gap-2">
+                                <input type="radio" name="bio_theme" value="{{ $themeName }}"
+                                       {{ old('bio_theme', $profile->bio_theme) === $themeName ? 'checked' : '' }}
+                                       class="h-4 w-4 border-slate-300 text-indigo-600 focus:ring-indigo-500" />
+                                <span class="font-medium capitalize text-slate-900">{{ str_replace('_', ' ', $themeName) }}</span>
+                            </label>
+                            @if($user->username)
+                                <a href="{{ route('public.creators.show', $user->username) }}?theme={{ urlencode($themeName) }}"
+                                   target="_blank" rel="noopener"
+                                   class="ml-auto rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50">
+                                    Preview
+                                </a>
+                            @else
+                                <span class="ml-auto text-sm text-slate-400">Set username above to preview</span>
+                            @endif
+                        </div>
+                    @endforeach
+                    <div class="flex flex-wrap items-center gap-3 rounded-xl border border-slate-100 bg-slate-50/50 p-3">
+                        <label class="flex cursor-pointer items-center gap-2">
+                            <input type="radio" name="bio_theme" value=""
+                                   {{ (old('bio_theme', $profile->bio_theme) ?? '') === '' ? 'checked' : '' }}
+                                   class="h-4 w-4 border-slate-300 text-indigo-600 focus:ring-indigo-500" />
+                            <span class="font-medium text-slate-900">Default (first enabled theme)</span>
+                        </label>
+                    </div>
+                </div>
+            @else
+                <p class="mt-3 text-sm text-slate-500">No themes are enabled. Ask an admin to enable themes in Creator Bio Themes.</p>
+            @endif
+        </div>
+
         {{-- Tabs --}}
         <div class="mt-6 rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
             {{-- Tab navigation --}}
