@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    @include('partials.pwa-meta')
 
     <title>@yield('title', 'Creator') · {{ $siteName ?? config('app.name', 'QuizWhiz') }}</title>
 
@@ -62,6 +63,7 @@
             </div>
         </div>
     </div>
+    @include('partials.pwa-register')
     @stack('scripts')
 </body>
 </html>

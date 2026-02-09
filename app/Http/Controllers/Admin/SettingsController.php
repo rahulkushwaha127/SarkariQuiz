@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\Setting;
 use App\Services\CaptchaService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Validation\Rules\File;
 
 class SettingsController extends Controller
 {
@@ -28,6 +30,18 @@ class SettingsController extends Controller
         'captcha_enabled',
         'captcha_site_key',
         'captcha_secret_key',
+    ];
+
+    /** PWA (Progressive Web App) manifest / meta keys. */
+    public const PWA_KEYS = [
+        'pwa_name',
+        'pwa_short_name',
+        'pwa_start_url',
+        'pwa_theme_color',
+        'pwa_background_color',
+        'pwa_display',
+        'pwa_icon_192',
+        'pwa_icon_512',
     ];
 
     /** All payment-related setting keys. */
@@ -78,6 +92,22 @@ class SettingsController extends Controller
             $captchaValues[$cKey] = Setting::cachedGet($cKey, $cKey === 'captcha_enabled' ? '0' : '');
         }
 
+        $siteName = Setting::cachedGet('site_name', config('app.name', 'QuizWhiz'));
+        $pwaDefaults = [
+            'pwa_name' => $siteName,
+            'pwa_short_name' => strlen($siteName) > 30 ? substr($siteName, 0, 27) . '…' : $siteName,
+            'pwa_start_url' => '/',
+            'pwa_theme_color' => '#4f46e5',
+            'pwa_background_color' => '#ffffff',
+            'pwa_display' => 'standalone',
+            'pwa_icon_192' => '',
+            'pwa_icon_512' => '',
+        ];
+        $pwaValues = [];
+        foreach (self::PWA_KEYS as $pKey) {
+            $pwaValues[$pKey] = Setting::cachedGet($pKey, $pwaDefaults[$pKey] ?? '');
+        }
+
         $values = [
             'site_name' => Setting::cachedGet('site_name', config('app.name', 'QuizWhiz')),
             'ads_enabled' => (string) Setting::cachedGet('ads_enabled', '0'),
@@ -90,6 +120,7 @@ class SettingsController extends Controller
             'frontend_menu' => $frontendMenu,
             'payment' => $paymentValues,
             'captcha' => $captchaValues,
+            'pwa' => $pwaValues,
         ];
 
         return view('admin.settings.edit', compact('values'));
@@ -128,6 +159,15 @@ class SettingsController extends Controller
             'captcha_enabled' => ['nullable', 'in:0,1'],
             'captcha_site_key' => ['nullable', 'string', 'max:255'],
             'captcha_secret_key' => ['nullable', 'string', 'max:255'],
+            // PWA
+            'pwa_name' => ['nullable', 'string', 'max:80'],
+            'pwa_short_name' => ['nullable', 'string', 'max:50'],
+            'pwa_start_url' => ['nullable', 'string', 'max:500'],
+            'pwa_theme_color' => ['nullable', 'string', 'max:20'],
+            'pwa_background_color' => ['nullable', 'string', 'max:20'],
+            'pwa_display' => ['nullable', 'string', 'in:standalone,fullscreen,browser,minimal-ui'],
+            'pwa_icon_192' => ['nullable', File::types(['png'])->max(512)],
+            'pwa_icon_512' => ['nullable', File::types(['png'])->max(1024)],
         ], $menuRules));
 
         Setting::set('site_name', $data['site_name']);
@@ -175,6 +215,24 @@ class SettingsController extends Controller
             Setting::set('captcha_secret_key', $data['captcha_secret_key']);
         }
 
+        // PWA: save non-file fields
+        foreach (self::PWA_KEYS as $pKey) {
+            if (in_array($pKey, ['pwa_icon_192', 'pwa_icon_512'], true)) {
+                continue;
+            }
+            Setting::set($pKey, $data[$pKey] ?? '');
+        }
+        // PWA: handle icon uploads (store in storage/app/public/pwa/)
+        $pwaIconDir = 'pwa';
+        if ($request->hasFile('pwa_icon_192')) {
+            $path = $request->file('pwa_icon_192')->store($pwaIconDir, 'public');
+            Setting::set('pwa_icon_192', 'storage/' . $path);
+        }
+        if ($request->hasFile('pwa_icon_512')) {
+            $path = $request->file('pwa_icon_512')->store($pwaIconDir, 'public');
+            Setting::set('pwa_icon_512', 'storage/' . $path);
+        }
+
         // Clear caches
         Setting::forget('site_name');
         Setting::forget('ads_enabled');
@@ -190,6 +248,9 @@ class SettingsController extends Controller
             Setting::forget($pKey);
         }
         CaptchaService::clearCache();
+        foreach (self::PWA_KEYS as $pKey) {
+            Setting::forget($pKey);
+        }
 
         return redirect()->route('admin.settings.edit')->with('status', 'Settings saved.');
     }

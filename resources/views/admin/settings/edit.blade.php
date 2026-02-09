@@ -42,10 +42,15 @@
                         data-tab="captcha">
                     CAPTCHA
                 </button>
+                <button type="button"
+                        class="settings-tab border-b-2 border-transparent px-1 py-3 text-sm font-medium text-slate-500 hover:border-slate-300 hover:text-slate-700"
+                        data-tab="pwa">
+                    PWA
+                </button>
             </nav>
         </div>
 
-        <form method="POST" action="{{ route('admin.settings.update') }}" class="space-y-6">
+        <form method="POST" action="{{ route('admin.settings.update') }}" enctype="multipart/form-data" class="space-y-6">
             @csrf
             @method('PATCH')
 
@@ -192,6 +197,107 @@
                                placeholder="{{ ($cv['captcha_secret_key'] ?? '') !== '' ? 'Leave blank to keep current' : 'Enter secret' }}"
                                class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
                         <p class="mt-1 text-xs text-slate-500">Leave blank to keep existing secret.</p>
+                    </div>
+                </div>
+            </div>
+
+            {{-- Tab: PWA --}}
+            @php
+                $pwa = $values['pwa'] ?? [];
+            @endphp
+            <div id="panel-pwa" class="settings-panel hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <h2 class="text-lg font-semibold text-slate-900">PWA (Progressive Web App)</h2>
+                <p class="mt-1 text-sm text-slate-600">Configure manifest and meta for "Add to Home Screen" and install prompt. Upload PNG icons (192×192 and 512×512).</p>
+
+                <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                    <div>
+                        <label class="text-sm font-medium text-slate-700">App name</label>
+                        <input type="text" name="pwa_name" value="{{ old('pwa_name', $pwa['pwa_name'] ?? '') }}"
+                               placeholder="QuizWhiz"
+                               class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('pwa_name') border-red-300 @enderror">
+                        @error('pwa_name') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                        <p class="mt-1 text-xs text-slate-500">Full name shown in install dialog and splash.</p>
+                    </div>
+                    <div>
+                        <label class="text-sm font-medium text-slate-700">Short name</label>
+                        <input type="text" name="pwa_short_name" value="{{ old('pwa_short_name', $pwa['pwa_short_name'] ?? '') }}"
+                               placeholder="QuizWhiz" maxlength="50"
+                               class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('pwa_short_name') border-red-300 @enderror">
+                        @error('pwa_short_name') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                        <p class="mt-1 text-xs text-slate-500">Label under home screen icon (keep short).</p>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <label class="text-sm font-medium text-slate-700">Start URL</label>
+                    <input type="text" name="pwa_start_url" value="{{ old('pwa_start_url', $pwa['pwa_start_url'] ?? '/') }}"
+                           placeholder="/"
+                           class="mt-1 w-full max-w-md rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none @error('pwa_start_url') border-red-300 @enderror">
+                    @error('pwa_start_url') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                    <p class="mt-1 text-xs text-slate-500">Path when user opens the app from home screen (e.g. <code>/</code> or <code>/dashboard</code>).</p>
+                </div>
+
+                <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                    <div>
+                        <label class="text-sm font-medium text-slate-700">Theme color</label>
+                        <div class="mt-1 flex items-center gap-3">
+                            <input type="color" name="pwa_theme_color" value="{{ old('pwa_theme_color', $pwa['pwa_theme_color'] ?? '#4f46e5') }}"
+                                   class="h-10 w-14 cursor-pointer rounded-lg border border-slate-200 bg-white p-1 @error('pwa_theme_color') border-red-300 @enderror">
+                            <span class="text-sm text-slate-600" id="pwa-theme-color-hex">{{ old('pwa_theme_color', $pwa['pwa_theme_color'] ?? '#4f46e5') }}</span>
+                        </div>
+                        @error('pwa_theme_color') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                        <p class="mt-1 text-xs text-slate-500">Status bar / browser chrome.</p>
+                    </div>
+                    <div>
+                        <label class="text-sm font-medium text-slate-700">Background color</label>
+                        <div class="mt-1 flex items-center gap-3">
+                            <input type="color" name="pwa_background_color" value="{{ old('pwa_background_color', $pwa['pwa_background_color'] ?? '#ffffff') }}"
+                                   class="h-10 w-14 cursor-pointer rounded-lg border border-slate-200 bg-white p-1 @error('pwa_background_color') border-red-300 @enderror">
+                            <span class="text-sm text-slate-600" id="pwa-bg-color-hex">{{ old('pwa_background_color', $pwa['pwa_background_color'] ?? '#ffffff') }}</span>
+                        </div>
+                        @error('pwa_background_color') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                        <p class="mt-1 text-xs text-slate-500">Splash screen and background.</p>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <label class="text-sm font-medium text-slate-700">Display</label>
+                    <select name="pwa_display"
+                            class="mt-1 w-full max-w-xs rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                        <option value="standalone" @selected(old('pwa_display', $pwa['pwa_display'] ?? 'standalone') === 'standalone')>Standalone (app-like, no browser UI)</option>
+                        <option value="fullscreen" @selected(old('pwa_display', $pwa['pwa_display'] ?? '') === 'fullscreen')>Fullscreen</option>
+                        <option value="minimal-ui" @selected(old('pwa_display', $pwa['pwa_display'] ?? '') === 'minimal-ui')>Minimal UI</option>
+                        <option value="browser" @selected(old('pwa_display', $pwa['pwa_display'] ?? '') === 'browser')>Browser</option>
+                    </select>
+                    <p class="mt-1 text-xs text-slate-500">How the app appears when launched from home screen.</p>
+                </div>
+
+                <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                    <div>
+                        <label class="text-sm font-medium text-slate-700">Icon 192×192</label>
+                        @if(!empty($pwa['pwa_icon_192']))
+                            <div class="mt-1 flex items-center gap-3">
+                                <img src="{{ asset($pwa['pwa_icon_192']) }}" alt="192" class="h-12 w-12 rounded-lg border border-slate-200 object-cover">
+                                <span class="text-xs text-slate-500">Current icon. Upload new to replace.</span>
+                            </div>
+                        @endif
+                        <input type="file" name="pwa_icon_192" accept="image/png"
+                               class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 file:mr-2 file:rounded-lg file:border-0 file:bg-indigo-50 file:px-3 file:py-1.5 file:text-sm file:font-medium file:text-indigo-700 focus:border-slate-400 focus:outline-none @error('pwa_icon_192') border-red-300 @enderror">
+                        @error('pwa_icon_192') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                        <p class="mt-1 text-xs text-slate-500">PNG, 192×192 px. Leave empty to keep current.</p>
+                    </div>
+                    <div>
+                        <label class="text-sm font-medium text-slate-700">Icon 512×512</label>
+                        @if(!empty($pwa['pwa_icon_512']))
+                            <div class="mt-1 flex items-center gap-3">
+                                <img src="{{ asset($pwa['pwa_icon_512']) }}" alt="512" class="h-12 w-12 rounded-lg border border-slate-200 object-cover">
+                                <span class="text-xs text-slate-500">Current icon. Upload new to replace.</span>
+                            </div>
+                        @endif
+                        <input type="file" name="pwa_icon_512" accept="image/png"
+                               class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 file:mr-2 file:rounded-lg file:border-0 file:bg-indigo-50 file:px-3 file:py-1.5 file:text-sm file:font-medium file:text-indigo-700 focus:border-slate-400 focus:outline-none @error('pwa_icon_512') border-red-300 @enderror">
+                        @error('pwa_icon_512') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
+                        <p class="mt-1 text-xs text-slate-500">PNG, 512×512 px (splash). Leave empty to keep current.</p>
                     </div>
                 </div>
             </div>
@@ -451,6 +557,18 @@
             if (btnSandbox && btnLive) {
                 btnSandbox.addEventListener('click', function() { setMode('sandbox'); });
                 btnLive.addEventListener('click', function() { setMode('live'); });
+            }
+
+            /* ── PWA color inputs: show hex next to picker ── */
+            var themeColorInput = document.querySelector('input[name="pwa_theme_color"]');
+            var themeColorHex = document.getElementById('pwa-theme-color-hex');
+            var bgColorInput = document.querySelector('input[name="pwa_background_color"]');
+            var bgColorHex = document.getElementById('pwa-bg-color-hex');
+            if (themeColorInput && themeColorHex) {
+                themeColorInput.addEventListener('input', function() { themeColorHex.textContent = this.value; });
+            }
+            if (bgColorInput && bgColorHex) {
+                bgColorInput.addEventListener('input', function() { bgColorHex.textContent = this.value; });
             }
         })();
     </script>

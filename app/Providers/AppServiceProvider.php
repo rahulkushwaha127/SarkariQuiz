@@ -71,6 +71,9 @@ class AppServiceProvider extends ServiceProvider
                     'rewarded_enabled' => (string) Setting::cachedGet('ads_rewarded_enabled', '0') === '1',
                     'interstitial_every_n_results' => (int) Setting::cachedGet('ads_interstitial_every_n_results', '3'),
                 ]);
+
+                View::share('pwaThemeColor', Setting::cachedGet('pwa_theme_color', '#4f46e5'));
+                View::share('pwaBackgroundColor', Setting::cachedGet('pwa_background_color', '#ffffff'));
             } else {
                 View::share('siteName', config('app.name', 'QuizWhiz'));
                 View::share('frontendMenu', [
@@ -100,6 +103,8 @@ class AppServiceProvider extends ServiceProvider
                 'rewarded_enabled' => false,
                 'interstitial_every_n_results' => 3,
             ]);
+            View::share('pwaThemeColor', '#4f46e5');
+            View::share('pwaBackgroundColor', '#ffffff');
         }
 
         // In-app notifications unread count (safe + cheap).

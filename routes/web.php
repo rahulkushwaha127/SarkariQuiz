@@ -18,6 +18,45 @@ use App\Http\Controllers\Student\DailyChallengeController as StudentDailyChallen
 use App\Http\Controllers\Student\LeaderboardController as StudentLeaderboardController;
 use App\Http\Controllers\Student\PagesController as StudentPagesController;
 
+// PWA default placeholder icons (used when admin has not uploaded icons).
+Route::get('/images/pwa/icon-{size}.png', App\Http\Controllers\PwaIconController::class)
+    ->where('size', '192|512')
+    ->name('pwa.icon');
+
+// PWA manifest (from admin settings).
+Route::get('/manifest.json', function () {
+    $name = \App\Models\Setting::cachedGet('pwa_name', config('app.name', 'QuizWhiz'));
+    $shortName = \App\Models\Setting::cachedGet('pwa_short_name', $name);
+    $startUrl = \App\Models\Setting::cachedGet('pwa_start_url', '/');
+    $themeColor = \App\Models\Setting::cachedGet('pwa_theme_color', '#4f46e5');
+    $backgroundColor = \App\Models\Setting::cachedGet('pwa_background_color', '#ffffff');
+    $display = \App\Models\Setting::cachedGet('pwa_display', 'standalone');
+    $icon192 = \App\Models\Setting::cachedGet('pwa_icon_192', '');
+    $icon512 = \App\Models\Setting::cachedGet('pwa_icon_512', '');
+    $icons = [];
+    if ($icon192 !== '') {
+        $icons[] = ['src' => asset($icon192), 'sizes' => '192x192', 'type' => 'image/png'];
+    } else {
+        $icons[] = ['src' => url('images/pwa/icon-192.png'), 'sizes' => '192x192', 'type' => 'image/png'];
+    }
+    if ($icon512 !== '') {
+        $icons[] = ['src' => asset($icon512), 'sizes' => '512x512', 'type' => 'image/png'];
+    } else {
+        $icons[] = ['src' => url('images/pwa/icon-512.png'), 'sizes' => '512x512', 'type' => 'image/png'];
+    }
+    $manifest = [
+        'name' => $name,
+        'short_name' => $shortName,
+        'start_url' => url($startUrl),
+        'display' => $display,
+        'theme_color' => $themeColor,
+        'background_color' => $backgroundColor,
+        'icons' => $icons,
+    ];
+    return response()->json($manifest)
+        ->header('Content-Type', 'application/manifest+json');
+})->name('manifest');
+
 // Firebase Messaging service worker (must be served from app root).
 // Uses same config shape as Firebase Console snippet (config/services.php fcm).
 Route::get('/firebase-messaging-sw.js', function () {
