@@ -35,6 +35,12 @@ class ImportContentQuestions extends Command
         'STATICGK' => 'Static GK',
     ];
 
+    /**
+     * Language codes recognized when used as a folder name under subject.
+     * e.g. STATICGK/en/CAPITALS_CURRENCIES/1.json → language=en, topic=Capitals Currencies
+     */
+    private static array $languageFolderCodes = ['en', 'hi', 'mr', 'ta', 'te', 'bn', 'gu', 'kn', 'ml', 'pa', 'ur'];
+
     /** Cache of exam slugs => ids */
     private array $examCache = [];
 
@@ -82,8 +88,28 @@ class ImportContentQuestions extends Command
 
             $segments = explode('/', str_replace('\\', '/', $relativePath));
             $subjectFolder = $segments[0] ?? '';
-            // e.g. HISTORY/ANCIENT/1.json or GENERALSCIENCE/Physics/chunk.json -> topic = 2nd segment
-            $topicFolder = count($segments) >= 3 ? ($segments[1] ?? null) : null;
+            $defaultLanguage = $this->option('language') ?: 'hi';
+
+            // Path patterns:
+            // SUBJECT/file.json           -> subject only, no topic, language = --language
+            // SUBJECT/TOPIC/file.json     -> subject + topic, language = --language
+            // SUBJECT/LANG/file.json      -> subject + language from folder, no topic
+            // SUBJECT/LANG/TOPIC/file.json -> subject + language from folder + topic
+            $topicFolder = null;
+            $fileLanguage = $defaultLanguage;
+            $secondSegment = $segments[1] ?? null;
+            $isLanguageSegment = $secondSegment && in_array(strtolower($secondSegment), self::$languageFolderCodes, true);
+
+            if (count($segments) >= 4 && $isLanguageSegment) {
+                $fileLanguage = strtolower($secondSegment);
+                $topicFolder = $segments[2] ?? null;
+            } elseif (count($segments) >= 3) {
+                if ($isLanguageSegment) {
+                    $fileLanguage = strtolower($secondSegment);
+                } else {
+                    $topicFolder = $secondSegment;
+                }
+            }
 
             $subjectName = self::$subjectNameMap[$subjectFolder] ?? Str::title(str_replace('_', ' ', $subjectFolder));
             $topicName = $topicFolder ? Str::title(str_replace(['_', '&'], [' ', ' & '], $topicFolder)) : null;
@@ -99,7 +125,7 @@ class ImportContentQuestions extends Command
                     continue;
                 }
                 if (! $dryRun && $subject) {
-                    $this->createQuestion($item, $subject, $topic?->id, $this->option('language') ?: 'hi');
+                    $this->createQuestion($item, $subject, $topic?->id, $fileLanguage);
                 }
                 $count++;
             }
@@ -189,22 +215,46 @@ class ImportContentQuestions extends Command
         }
     }
 
+    /**
+     * Old format: prompt, answers (string[]), correct (0-based index).
+     * New format: question, answers ([{ title, is_correct }]), one answer with is_correct true.
+     */
     private function isValidQuestionItem(mixed $item): bool
     {
         if (! is_array($item)) {
             return false;
         }
         $prompt = $item['prompt'] ?? null;
+        $question = $item['question'] ?? null;
         $answers = $item['answers'] ?? null;
+        if (! is_array($answers) || count($answers) < 2 || count($answers) > 10) {
+            return false;
+        }
+        // New format: question + answers with title & is_correct
+        if ($question !== null && $question !== '') {
+            $correctCount = 0;
+            foreach ($answers as $a) {
+                if (! is_array($a) || ! isset($a['title']) || $a['title'] === '' || $a['title'] === null) {
+                    return false;
+                }
+                if (! empty($a['is_correct'])) {
+                    $correctCount++;
+                }
+            }
+            return $correctCount === 1;
+        }
+        // Old format: prompt + answers strings + correct index
+        if ($prompt === null || $prompt === '') {
+            return false;
+        }
+        foreach ($answers as $a) {
+            if (! is_string($a)) {
+                return false;
+            }
+        }
         $correct = $item['correct'] ?? null;
-        if ($prompt === null || $prompt === '' || ! is_array($answers) || count($answers) < 4) {
-            return false;
-        }
         $idx = (int) $correct;
-        if ($idx < 0 || $idx > 3) {
-            return false;
-        }
-        return true;
+        return $idx >= 0 && $idx < count($answers);
     }
 
     /**
@@ -225,10 +275,21 @@ class ImportContentQuestions extends Command
 
     private function createQuestion(array $item, Subject $subject, ?int $topicId, string $language = 'en'): void
     {
-        $prompt = trim((string) $item['prompt']);
+        $isNewFormat = isset($item['question']) && $item['question'] !== '' && is_array($item['answers'] ?? null)
+            && isset($item['answers'][0]) && is_array($item['answers'][0]) && array_key_exists('is_correct', $item['answers'][0]);
+
+        if ($isNewFormat) {
+            $prompt = trim((string) $item['question']);
+            $answerRows = array_values($item['answers']);
+            $answerRows = array_slice($answerRows, 0, 10);
+        } else {
+            $prompt = trim((string) ($item['prompt'] ?? ''));
+            $answerRows = array_values($item['answers']);
+            $correctIndex = (int) ($item['correct'] ?? 0);
+            $answerRows = array_slice($answerRows, 0, 4);
+        }
+
         $explanation = isset($item['explanation']) ? trim((string) $item['explanation']) : null;
-        $answers = array_values($item['answers']);
-        $correctIndex = (int) $item['correct'];
         $difficulty = $this->parseDifficulty($item['difficulty'] ?? 0);
         $imagePath = isset($item['image']) ? trim((string) $item['image']) : null;
         $answerImages = $item['answer_images'] ?? [];
@@ -243,13 +304,20 @@ class ImportContentQuestions extends Command
             'language' => $language,
         ]);
 
-        foreach (array_slice($answers, 0, 4) as $i => $title) {
+        foreach ($answerRows as $i => $row) {
+            if ($isNewFormat) {
+                $title = trim((string) ($row['title'] ?? ''));
+                $isCorrect = ! empty($row['is_correct']);
+            } else {
+                $title = trim((string) $row);
+                $isCorrect = $i === $correctIndex;
+            }
             $ansImage = isset($answerImages[$i]) ? trim((string) $answerImages[$i]) : null;
             Answer::create([
                 'question_id' => $question->id,
-                'title' => trim((string) $title),
+                'title' => $title,
                 'image_path' => $ansImage ?: null,
-                'is_correct' => $i === $correctIndex,
+                'is_correct' => $isCorrect,
                 'position' => $i,
             ]);
         }

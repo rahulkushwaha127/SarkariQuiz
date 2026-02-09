@@ -22,12 +22,13 @@
         <p class="mb-4 text-sm text-slate-600">
             Paste a JSON array of questions. Each item must have <code class="rounded bg-slate-100 px-1">prompt</code>,
             <code class="rounded bg-slate-100 px-1">answers</code> (array of strings), <code class="rounded bg-slate-100 px-1">correct</code> (0-based index), and optional <code class="rounded bg-slate-100 px-1">explanation</code>.
+            You can also add optional <code class="rounded bg-slate-100 px-1">subject</code> and <code class="rounded bg-slate-100 px-1">topic</code> (name or slug) to tag the question in the question bank.
         </p>
 
         <div class="space-y-4">
             <div>
                 <label class="block text-sm font-medium text-slate-700">JSON</label>
-                <textarea id="json-input" rows="12" placeholder='[{"prompt":"Question text?","answers":["A","B","C","D"],"correct":0,"explanation":"Optional."}]'
+                <textarea id="json-input" rows="12" placeholder='[{"prompt":"Question text?","answers":["A","B","C","D"],"correct":0,"explanation":"Optional.","subject":"Static GK","topic":"Capitals &amp; Currencies"}]'
                           class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-mono text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none"></textarea>
             </div>
 

@@ -6,6 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Models\Answer;
 use App\Models\Question;
 use App\Models\Quiz;
+use App\Models\Subject;
+use App\Models\Topic;
+use App\Support\Slug;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -13,8 +16,9 @@ use Illuminate\Support\Facades\DB;
 class QuizJsonImportController extends Controller
 {
     /**
-     * Expected JSON structure: array of objects.
-     * Each object: prompt (string), answers (array of strings), correct (0-based index), explanation (optional string).
+     * Expected JSON: array of objects.
+     * Required: prompt, answers (array of strings), correct (0-based index).
+     * Optional: explanation, subject, topic (strings – name or slug; used to set question bank subject/topic).
      */
     private function validateQuestionItem(int $index, mixed $item): array
     {
@@ -49,6 +53,14 @@ class QuizJsonImportController extends Controller
         if ($explanation !== null && ! is_string($explanation)) {
             return ['valid' => false, 'error' => "Item at index {$index}: 'explanation' must be a string or omitted."];
         }
+        $subject = isset($item['subject']) && $item['subject'] !== '' ? trim((string) $item['subject']) : null;
+        $topic = isset($item['topic']) && $item['topic'] !== '' ? trim((string) $item['topic']) : null;
+        if ($subject !== null && ! is_string($subject)) {
+            return ['valid' => false, 'error' => "Item at index {$index}: 'subject' must be a string or omitted."];
+        }
+        if ($topic !== null && ! is_string($topic)) {
+            return ['valid' => false, 'error' => "Item at index {$index}: 'topic' must be a string or omitted."];
+        }
 
         return [
             'valid' => true,
@@ -56,6 +68,8 @@ class QuizJsonImportController extends Controller
             'answers' => array_map('trim', $answers),
             'correct' => $correct,
             'explanation' => $explanation !== null ? trim($explanation) : '',
+            'subject' => $subject,
+            'topic' => $topic,
         ];
     }
 
@@ -104,6 +118,8 @@ class QuizJsonImportController extends Controller
                 'answers' => $result['answers'],
                 'correct' => $result['correct'],
                 'explanation' => $result['explanation'],
+                'subject' => $result['subject'] ?? null,
+                'topic' => $result['topic'] ?? null,
             ];
         }
 
@@ -144,9 +160,25 @@ class QuizJsonImportController extends Controller
 
         DB::transaction(function () use ($quiz, $validated, $basePosition, &$created) {
             foreach ($validated as $i => $q) {
+                $subjectId = $quiz->subject_id;
+                $topicId = $quiz->topic_id;
+                if (! empty($q['subject']) || ! empty($q['topic'])) {
+                    $resolved = $this->resolveSubjectAndTopic($q['subject'] ?? null, $q['topic'] ?? null);
+                    if ($resolved['subject_id'] !== null) {
+                        $subjectId = $resolved['subject_id'];
+                    }
+                    if ($resolved['topic_id'] !== null) {
+                        $topicId = $resolved['topic_id'];
+                    }
+                }
+
                 $question = Question::create([
                     'prompt' => $q['prompt'],
                     'explanation' => $q['explanation'] ?? '',
+                    'subject_id' => $subjectId,
+                    'topic_id' => $topicId,
+                    'language' => $quiz->language ?? 'en',
+                    'difficulty' => $quiz->difficulty ?? 0,
                 ]);
                 foreach ($q['answers'] as $pos => $title) {
                     Answer::create([
@@ -167,5 +199,51 @@ class QuizJsonImportController extends Controller
             'message' => $created === 1 ? '1 question added.' : "{$created} questions added.",
             'redirect' => route('creator.quizzes.show', $quiz),
         ]);
+    }
+
+    /**
+     * Resolve optional subject and topic strings to subject_id and topic_id.
+     * Subject can be name or slug; topic is looked up under that subject.
+     *
+     * @return array{subject_id: int|null, topic_id: int|null}
+     */
+    private function resolveSubjectAndTopic(?string $subjectNameOrSlug, ?string $topicNameOrSlug): array
+    {
+        $subjectId = null;
+        $topicId = null;
+
+        if ($subjectNameOrSlug === null || $subjectNameOrSlug === '') {
+            return ['subject_id' => null, 'topic_id' => null];
+        }
+
+        $subjectSlug = Slug::make($subjectNameOrSlug);
+        $subject = Subject::query()->where('slug', $subjectSlug)->first();
+        if (! $subject) {
+            $subject = Subject::query()->where('name', 'like', $subjectNameOrSlug)->first();
+        }
+        if (! $subject) {
+            return ['subject_id' => null, 'topic_id' => null];
+        }
+
+        $subjectId = $subject->id;
+
+        if ($topicNameOrSlug !== null && $topicNameOrSlug !== '') {
+            $topicSlug = Slug::make($topicNameOrSlug);
+            $topic = Topic::query()
+                ->where('subject_id', $subject->id)
+                ->where('slug', $topicSlug)
+                ->first();
+            if (! $topic) {
+                $topic = Topic::query()
+                    ->where('subject_id', $subject->id)
+                    ->where('name', 'like', $topicNameOrSlug)
+                    ->first();
+            }
+            if ($topic) {
+                $topicId = $topic->id;
+            }
+        }
+
+        return ['subject_id' => $subjectId, 'topic_id' => $topicId];
     }
 }

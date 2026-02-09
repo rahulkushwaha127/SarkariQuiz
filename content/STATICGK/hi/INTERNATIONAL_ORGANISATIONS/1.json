@@ -1,0 +1,4402 @@
+[
+    {
+        "question": "UN का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "New York, USA",
+                "is_correct": true
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN headquarters is in New York."
+    },
+    {
+        "question": "UNESCO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Paris, France",
+                "is_correct": true
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO is based in Paris."
+    },
+    {
+        "question": "WHO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO is in Geneva."
+    },
+    {
+        "question": "IMF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": true
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IMF is in Washington D.C."
+    },
+    {
+        "question": "World Bank का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": true
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            }
+        ],
+        "explanation": "World Bank is in Washington D.C."
+    },
+    {
+        "question": "WTO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WTO is in Geneva."
+    },
+    {
+        "question": "NATO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": true
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            }
+        ],
+        "explanation": "NATO HQ is in Brussels."
+    },
+    {
+        "question": "EU का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": true
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "EU institutions are in Brussels."
+    },
+    {
+        "question": "ASEAN का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": true
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ASEAN secretariat is in Jakarta."
+    },
+    {
+        "question": "SAARC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": true
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SAARC secretariat is in Kathmandu."
+    },
+    {
+        "question": "BRICS का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": true
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BRICS is a grouping; NDB is in Shanghai."
+    },
+    {
+        "question": "G20 का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "No permanent HQ",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "G20 is a forum; presidency rotates."
+    },
+    {
+        "question": "OPEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Vienna, Austria",
+                "is_correct": true
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OPEC is in Vienna."
+    },
+    {
+        "question": "IAEA का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Vienna, Austria",
+                "is_correct": true
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAEA is in Vienna."
+    },
+    {
+        "question": "UNICEF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "New York, USA",
+                "is_correct": true
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNICEF is in New York."
+    },
+    {
+        "question": "FAO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Rome, Italy",
+                "is_correct": true
+            },
+            {
+                "title": "New York, USA",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO is in Rome."
+    },
+    {
+        "question": "ILO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO is in Geneva."
+    },
+    {
+        "question": "Red Cross का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ICRC is in Geneva."
+    },
+    {
+        "question": "Interpol का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Lyon, France",
+                "is_correct": true
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Interpol is in Lyon."
+    },
+    {
+        "question": "Amnesty International का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "London, UK",
+                "is_correct": true
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amnesty International is in London."
+    },
+    {
+        "question": "Greenpeace का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": true
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Greenpeace is in Amsterdam."
+    },
+    {
+        "question": "WWF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WWF is in Gland."
+    },
+    {
+        "question": "OECD का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Paris, France",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OECD is in Paris."
+    },
+    {
+        "question": "APEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Singapore",
+                "is_correct": true
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            }
+        ],
+        "explanation": "APEC secretariat is in Singapore."
+    },
+    {
+        "question": "Commonwealth का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "London, UK",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Commonwealth secretariat is in London."
+    },
+    {
+        "question": "African Union का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": true
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AU is in Addis Ababa."
+    },
+    {
+        "question": "Arab League का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": true
+            },
+            {
+                "title": "New York, USA",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Arab League is in Cairo."
+    },
+    {
+        "question": "SCO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Beijing, China",
+                "is_correct": true
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SCO secretariat is in Beijing."
+    },
+    {
+        "question": "BIMSTEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": true
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "New York, USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BIMSTEC secretariat is in Dhaka."
+    },
+    {
+        "question": "ADB का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Manila, Philippines",
+                "is_correct": true
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ADB is in Manila."
+    },
+    {
+        "question": "AIIB का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Beijing, China",
+                "is_correct": true
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AIIB is in Beijing."
+    },
+    {
+        "question": "UN का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "New York, USA",
+                "is_correct": true
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN headquarters is in New York."
+    },
+    {
+        "question": "UNESCO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Paris, France",
+                "is_correct": true
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO is based in Paris."
+    },
+    {
+        "question": "WHO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO is in Geneva."
+    },
+    {
+        "question": "IMF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": true
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IMF is in Washington D.C."
+    },
+    {
+        "question": "World Bank का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": true
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "World Bank is in Washington D.C."
+    },
+    {
+        "question": "WTO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WTO is in Geneva."
+    },
+    {
+        "question": "NATO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": true
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            }
+        ],
+        "explanation": "NATO HQ is in Brussels."
+    },
+    {
+        "question": "EU का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": true
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            }
+        ],
+        "explanation": "EU institutions are in Brussels."
+    },
+    {
+        "question": "ASEAN का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": true
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ASEAN secretariat is in Jakarta."
+    },
+    {
+        "question": "SAARC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "New York, USA",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SAARC secretariat is in Kathmandu."
+    },
+    {
+        "question": "BRICS का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": true
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BRICS is a grouping; NDB is in Shanghai."
+    },
+    {
+        "question": "G20 का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "No permanent HQ",
+                "is_correct": true
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "G20 is a forum; presidency rotates."
+    },
+    {
+        "question": "OPEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Vienna, Austria",
+                "is_correct": true
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OPEC is in Vienna."
+    },
+    {
+        "question": "IAEA का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Vienna, Austria",
+                "is_correct": true
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAEA is in Vienna."
+    },
+    {
+        "question": "UNICEF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "New York, USA",
+                "is_correct": true
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNICEF is in New York."
+    },
+    {
+        "question": "FAO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Rome, Italy",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO is in Rome."
+    },
+    {
+        "question": "ILO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO is in Geneva."
+    },
+    {
+        "question": "Red Cross का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ICRC is in Geneva."
+    },
+    {
+        "question": "Interpol का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Lyon, France",
+                "is_correct": true
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Interpol is in Lyon."
+    },
+    {
+        "question": "Amnesty International का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "London, UK",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amnesty International is in London."
+    },
+    {
+        "question": "Greenpeace का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Greenpeace is in Amsterdam."
+    },
+    {
+        "question": "WWF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WWF is in Gland."
+    },
+    {
+        "question": "OECD का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Paris, France",
+                "is_correct": true
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OECD is in Paris."
+    },
+    {
+        "question": "APEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Singapore",
+                "is_correct": true
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "APEC secretariat is in Singapore."
+    },
+    {
+        "question": "Commonwealth का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "London, UK",
+                "is_correct": true
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Commonwealth secretariat is in London."
+    },
+    {
+        "question": "African Union का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": true
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AU is in Addis Ababa."
+    },
+    {
+        "question": "Arab League का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": true
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Arab League is in Cairo."
+    },
+    {
+        "question": "SCO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Beijing, China",
+                "is_correct": true
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SCO secretariat is in Beijing."
+    },
+    {
+        "question": "BIMSTEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": true
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "New York, USA",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BIMSTEC secretariat is in Dhaka."
+    },
+    {
+        "question": "ADB का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Manila, Philippines",
+                "is_correct": true
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ADB is in Manila."
+    },
+    {
+        "question": "AIIB का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Beijing, China",
+                "is_correct": true
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AIIB is in Beijing."
+    },
+    {
+        "question": "UN का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "New York, USA",
+                "is_correct": true
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN headquarters is in New York."
+    },
+    {
+        "question": "UNESCO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Paris, France",
+                "is_correct": true
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO is based in Paris."
+    },
+    {
+        "question": "WHO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO is in Geneva."
+    },
+    {
+        "question": "IMF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": true
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IMF is in Washington D.C."
+    },
+    {
+        "question": "World Bank का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "World Bank is in Washington D.C."
+    },
+    {
+        "question": "WTO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WTO is in Geneva."
+    },
+    {
+        "question": "NATO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": true
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "NATO HQ is in Brussels."
+    },
+    {
+        "question": "EU का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": true
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            }
+        ],
+        "explanation": "EU institutions are in Brussels."
+    },
+    {
+        "question": "ASEAN का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": true
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ASEAN secretariat is in Jakarta."
+    },
+    {
+        "question": "SAARC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": true
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SAARC secretariat is in Kathmandu."
+    },
+    {
+        "question": "BRICS का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": true
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "New York, USA",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BRICS is a grouping; NDB is in Shanghai."
+    },
+    {
+        "question": "G20 का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "No permanent HQ",
+                "is_correct": true
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "G20 is a forum; presidency rotates."
+    },
+    {
+        "question": "OPEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Vienna, Austria",
+                "is_correct": true
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OPEC is in Vienna."
+    },
+    {
+        "question": "IAEA का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Vienna, Austria",
+                "is_correct": true
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAEA is in Vienna."
+    },
+    {
+        "question": "UNICEF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "New York, USA",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNICEF is in New York."
+    },
+    {
+        "question": "FAO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Rome, Italy",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai, China (NDB)",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO is in Rome."
+    },
+    {
+        "question": "ILO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO is in Geneva."
+    },
+    {
+        "question": "Red Cross का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "New York, USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ICRC is in Geneva."
+    },
+    {
+        "question": "Interpol का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Lyon, France",
+                "is_correct": true
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Interpol is in Lyon."
+    },
+    {
+        "question": "Amnesty International का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "London, UK",
+                "is_correct": true
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amnesty International is in London."
+    },
+    {
+        "question": "Greenpeace का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": true
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Rome, Italy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Greenpeace is in Amsterdam."
+    },
+    {
+        "question": "WWF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WWF is in Gland."
+    },
+    {
+        "question": "OECD का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Paris, France",
+                "is_correct": true
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OECD is in Paris."
+    },
+    {
+        "question": "APEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Singapore",
+                "is_correct": true
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "APEC secretariat is in Singapore."
+    },
+    {
+        "question": "Commonwealth का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "London, UK",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Commonwealth secretariat is in London."
+    },
+    {
+        "question": "African Union का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": true
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AU is in Addis Ababa."
+    },
+    {
+        "question": "Arab League का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Cairo, Egypt",
+                "is_correct": true
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Arab League is in Cairo."
+    },
+    {
+        "question": "SCO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Beijing, China",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SCO secretariat is in Beijing."
+    },
+    {
+        "question": "BIMSTEC का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": true
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa, Ethiopia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BIMSTEC secretariat is in Dhaka."
+    },
+    {
+        "question": "ADB का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Manila, Philippines",
+                "is_correct": true
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing, China",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ADB is in Manila."
+    },
+    {
+        "question": "AIIB का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Beijing, China",
+                "is_correct": true
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AIIB is in Beijing."
+    },
+    {
+        "question": "UN का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "New York, USA",
+                "is_correct": true
+            },
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": false
+            },
+            {
+                "title": "Gland, Switzerland",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN headquarters is in New York."
+    },
+    {
+        "question": "UNESCO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Paris, France",
+                "is_correct": true
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "New York, USA",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO is based in Paris."
+    },
+    {
+        "question": "WHO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "London, UK",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO is in Geneva."
+    },
+    {
+        "question": "IMF का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": true
+            },
+            {
+                "title": "No permanent HQ",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": false
+            },
+            {
+                "title": "Lyon, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IMF is in Washington D.C."
+    },
+    {
+        "question": "World Bank का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Washington D.C., USA",
+                "is_correct": true
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            },
+            {
+                "title": "Paris, France",
+                "is_correct": false
+            }
+        ],
+        "explanation": "World Bank is in Washington D.C."
+    },
+    {
+        "question": "WTO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Geneva, Switzerland",
+                "is_correct": true
+            },
+            {
+                "title": "Jakarta, Indonesia",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna, Austria",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka, Bangladesh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WTO is in Geneva."
+    },
+    {
+        "question": "NATO का मुख्यालय कहाँ है?",
+        "answers": [
+            {
+                "title": "Brussels, Belgium",
+                "is_correct": true
+            },
+            {
+                "title": "Amsterdam, Netherlands",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu, Nepal",
+                "is_correct": false
+            },
+            {
+                "title": "Manila, Philippines",
+                "is_correct": false
+            }
+        ],
+        "explanation": "NATO HQ is in Brussels."
+    },
+    {
+        "question": "UN का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN headquarters is in New York."
+    },
+    {
+        "question": "UNESCO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": true
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO is based in Paris."
+    },
+    {
+        "question": "WHO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Health Organization",
+                "is_correct": true
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO is in Geneva."
+    },
+    {
+        "question": "IMF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Monetary Fund",
+                "is_correct": true
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IMF is in Washington D.C."
+    },
+    {
+        "question": "World Bank का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Bank Group",
+                "is_correct": true
+            },
+            {
+                "title": "Asian Development Bank",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "World Bank is in Washington D.C."
+    },
+    {
+        "question": "WTO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Trade Organization",
+                "is_correct": true
+            },
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations Children's Fund",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WTO is in Geneva."
+    },
+    {
+        "question": "NATO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": true
+            },
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": false
+            },
+            {
+                "title": "Greenpeace International",
+                "is_correct": false
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "NATO HQ is in Brussels."
+    },
+    {
+        "question": "EU का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "European Union",
+                "is_correct": true
+            },
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": false
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            }
+        ],
+        "explanation": "EU institutions are in Brussels."
+    },
+    {
+        "question": "ASEAN का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": true
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            },
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ASEAN secretariat is in Jakarta."
+    },
+    {
+        "question": "SAARC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SAARC secretariat is in Kathmandu."
+    },
+    {
+        "question": "BRICS का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": true
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BRICS is a grouping; NDB is in Shanghai."
+    },
+    {
+        "question": "G20 का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Group of Twenty",
+                "is_correct": true
+            },
+            {
+                "title": "League of Arab States",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "G20 is a forum; presidency rotates."
+    },
+    {
+        "question": "OPEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": true
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OPEC is in Vienna."
+    },
+    {
+        "question": "IAEA का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": true
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAEA is in Vienna."
+    },
+    {
+        "question": "UNICEF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations Children's Fund",
+                "is_correct": true
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNICEF is in New York."
+    },
+    {
+        "question": "FAO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": true
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO is in Rome."
+    },
+    {
+        "question": "ILO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Labour Organization",
+                "is_correct": true
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            },
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO is in Geneva."
+    },
+    {
+        "question": "Red Cross का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": true
+            },
+            {
+                "title": "Asian Development Bank",
+                "is_correct": false
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ICRC is in Geneva."
+    },
+    {
+        "question": "Interpol का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": true
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Interpol is in Lyon."
+    },
+    {
+        "question": "Amnesty International का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Amnesty International",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations Children's Fund",
+                "is_correct": false
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amnesty International is in London."
+    },
+    {
+        "question": "Greenpeace का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Greenpeace International",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            },
+            {
+                "title": "International Monetary Fund",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Greenpeace is in Amsterdam."
+    },
+    {
+        "question": "WWF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Wide Fund for Nature",
+                "is_correct": true
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WWF is in Gland."
+    },
+    {
+        "question": "OECD का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": true
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OECD is in Paris."
+    },
+    {
+        "question": "APEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "APEC secretariat is in Singapore."
+    },
+    {
+        "question": "Commonwealth का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations Children's Fund",
+                "is_correct": false
+            },
+            {
+                "title": "International Monetary Fund",
+                "is_correct": false
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Commonwealth secretariat is in London."
+    },
+    {
+        "question": "African Union का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "African Union",
+                "is_correct": true
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": false
+            },
+            {
+                "title": "World Wide Fund for Nature",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AU is in Addis Ababa."
+    },
+    {
+        "question": "Arab League का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "League of Arab States",
+                "is_correct": true
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            },
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Arab League is in Cairo."
+    },
+    {
+        "question": "SCO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": true
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SCO secretariat is in Beijing."
+    },
+    {
+        "question": "BIMSTEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BIMSTEC secretariat is in Dhaka."
+    },
+    {
+        "question": "ADB का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asian Development Bank",
+                "is_correct": true
+            },
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": false
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ADB is in Manila."
+    },
+    {
+        "question": "AIIB का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": true
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AIIB is in Beijing."
+    },
+    {
+        "question": "UN का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN headquarters is in New York."
+    },
+    {
+        "question": "UNESCO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": true
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO is based in Paris."
+    },
+    {
+        "question": "WHO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Health Organization",
+                "is_correct": true
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Greenpeace International",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO is in Geneva."
+    },
+    {
+        "question": "IMF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Monetary Fund",
+                "is_correct": true
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations Children's Fund",
+                "is_correct": false
+            },
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IMF is in Washington D.C."
+    },
+    {
+        "question": "World Bank का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Bank Group",
+                "is_correct": true
+            },
+            {
+                "title": "Greenpeace International",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "World Bank is in Washington D.C."
+    },
+    {
+        "question": "WTO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Trade Organization",
+                "is_correct": true
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WTO is in Geneva."
+    },
+    {
+        "question": "NATO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": true
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            }
+        ],
+        "explanation": "NATO HQ is in Brussels."
+    },
+    {
+        "question": "EU का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "European Union",
+                "is_correct": true
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "EU institutions are in Brussels."
+    },
+    {
+        "question": "ASEAN का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": true
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            },
+            {
+                "title": "International Monetary Fund",
+                "is_correct": false
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ASEAN secretariat is in Jakarta."
+    },
+    {
+        "question": "SAARC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SAARC secretariat is in Kathmandu."
+    },
+    {
+        "question": "BRICS का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": true
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BRICS is a grouping; NDB is in Shanghai."
+    },
+    {
+        "question": "G20 का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Group of Twenty",
+                "is_correct": true
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "G20 is a forum; presidency rotates."
+    },
+    {
+        "question": "OPEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": true
+            },
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OPEC is in Vienna."
+    },
+    {
+        "question": "IAEA का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": true
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "League of Arab States",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAEA is in Vienna."
+    },
+    {
+        "question": "UNICEF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations Children's Fund",
+                "is_correct": true
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNICEF is in New York."
+    },
+    {
+        "question": "FAO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": true
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            },
+            {
+                "title": "League of Arab States",
+                "is_correct": false
+            },
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO is in Rome."
+    },
+    {
+        "question": "ILO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Labour Organization",
+                "is_correct": true
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO is in Geneva."
+    },
+    {
+        "question": "Red Cross का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": true
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ICRC is in Geneva."
+    },
+    {
+        "question": "Interpol का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": true
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": false
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Interpol is in Lyon."
+    },
+    {
+        "question": "Amnesty International का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Amnesty International",
+                "is_correct": true
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "World Wide Fund for Nature",
+                "is_correct": false
+            },
+            {
+                "title": "International Monetary Fund",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amnesty International is in London."
+    },
+    {
+        "question": "Greenpeace का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Greenpeace International",
+                "is_correct": true
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Greenpeace is in Amsterdam."
+    },
+    {
+        "question": "WWF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Wide Fund for Nature",
+                "is_correct": true
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "League of Arab States",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WWF is in Gland."
+    },
+    {
+        "question": "OECD का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": true
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            },
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OECD is in Paris."
+    },
+    {
+        "question": "APEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "APEC secretariat is in Singapore."
+    },
+    {
+        "question": "Commonwealth का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": true
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Commonwealth secretariat is in London."
+    },
+    {
+        "question": "African Union का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "African Union",
+                "is_correct": true
+            },
+            {
+                "title": "Greenpeace International",
+                "is_correct": false
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AU is in Addis Ababa."
+    },
+    {
+        "question": "Arab League का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "League of Arab States",
+                "is_correct": true
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            },
+            {
+                "title": "Asian Development Bank",
+                "is_correct": false
+            },
+            {
+                "title": "World Wide Fund for Nature",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Arab League is in Cairo."
+    },
+    {
+        "question": "SCO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": true
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            },
+            {
+                "title": "International Monetary Fund",
+                "is_correct": false
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SCO secretariat is in Beijing."
+    },
+    {
+        "question": "BIMSTEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BIMSTEC secretariat is in Dhaka."
+    },
+    {
+        "question": "ADB का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asian Development Bank",
+                "is_correct": true
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            },
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Amnesty International",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ADB is in Manila."
+    },
+    {
+        "question": "AIIB का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": true
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AIIB is in Beijing."
+    },
+    {
+        "question": "UN का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations",
+                "is_correct": true
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN headquarters is in New York."
+    },
+    {
+        "question": "UNESCO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": true
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO is based in Paris."
+    },
+    {
+        "question": "WHO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Health Organization",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO is in Geneva."
+    },
+    {
+        "question": "IMF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Monetary Fund",
+                "is_correct": true
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IMF is in Washington D.C."
+    },
+    {
+        "question": "World Bank का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Bank Group",
+                "is_correct": true
+            },
+            {
+                "title": "International Monetary Fund",
+                "is_correct": false
+            },
+            {
+                "title": "World Wide Fund for Nature",
+                "is_correct": false
+            },
+            {
+                "title": "Greenpeace International",
+                "is_correct": false
+            }
+        ],
+        "explanation": "World Bank is in Washington D.C."
+    },
+    {
+        "question": "WTO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Trade Organization",
+                "is_correct": true
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": false
+            },
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WTO is in Geneva."
+    },
+    {
+        "question": "NATO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": true
+            },
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Asian Development Bank",
+                "is_correct": false
+            },
+            {
+                "title": "Amnesty International",
+                "is_correct": false
+            }
+        ],
+        "explanation": "NATO HQ is in Brussels."
+    },
+    {
+        "question": "EU का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "European Union",
+                "is_correct": true
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Asian Development Bank",
+                "is_correct": false
+            },
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "EU institutions are in Brussels."
+    },
+    {
+        "question": "ASEAN का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Association of Southeast Asian Nations",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ASEAN secretariat is in Jakarta."
+    },
+    {
+        "question": "SAARC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SAARC secretariat is in Kathmandu."
+    },
+    {
+        "question": "BRICS का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Brazil, Russia, India, China, South Africa",
+                "is_correct": true
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Amnesty International",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BRICS is a grouping; NDB is in Shanghai."
+    },
+    {
+        "question": "G20 का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Group of Twenty",
+                "is_correct": true
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "G20 is a forum; presidency rotates."
+    },
+    {
+        "question": "OPEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": true
+            },
+            {
+                "title": "Amnesty International",
+                "is_correct": false
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OPEC is in Vienna."
+    },
+    {
+        "question": "IAEA का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": true
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAEA is in Vienna."
+    },
+    {
+        "question": "UNICEF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations Children's Fund",
+                "is_correct": true
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNICEF is in New York."
+    },
+    {
+        "question": "FAO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": true
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Asian Development Bank",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO is in Rome."
+    },
+    {
+        "question": "ILO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Labour Organization",
+                "is_correct": true
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            },
+            {
+                "title": "International Monetary Fund",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO is in Geneva."
+    },
+    {
+        "question": "Red Cross का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": true
+            },
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": false
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ICRC is in Geneva."
+    },
+    {
+        "question": "Interpol का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": true
+            },
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Interpol is in Lyon."
+    },
+    {
+        "question": "Amnesty International का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Amnesty International",
+                "is_correct": true
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": false
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amnesty International is in London."
+    },
+    {
+        "question": "Greenpeace का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Greenpeace International",
+                "is_correct": true
+            },
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Greenpeace is in Amsterdam."
+    },
+    {
+        "question": "WWF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Wide Fund for Nature",
+                "is_correct": true
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Organization of the Petroleum Exporting Countries",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WWF is in Gland."
+    },
+    {
+        "question": "OECD का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": true
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "European Union",
+                "is_correct": false
+            }
+        ],
+        "explanation": "OECD is in Paris."
+    },
+    {
+        "question": "APEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asia-Pacific Economic Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "Organisation for Economic Co-operation and Development",
+                "is_correct": false
+            },
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "APEC secretariat is in Singapore."
+    },
+    {
+        "question": "Commonwealth का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": true
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Commonwealth secretariat is in London."
+    },
+    {
+        "question": "African Union का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "African Union",
+                "is_correct": true
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations",
+                "is_correct": false
+            },
+            {
+                "title": "Greenpeace International",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AU is in Addis Ababa."
+    },
+    {
+        "question": "Arab League का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "League of Arab States",
+                "is_correct": true
+            },
+            {
+                "title": "Amnesty International",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Arab League is in Cairo."
+    },
+    {
+        "question": "SCO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": true
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "League of Arab States",
+                "is_correct": false
+            }
+        ],
+        "explanation": "SCO secretariat is in Beijing."
+    },
+    {
+        "question": "BIMSTEC का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": true
+            },
+            {
+                "title": "International Atomic Energy Agency",
+                "is_correct": false
+            },
+            {
+                "title": "Food and Agriculture Organization",
+                "is_correct": false
+            },
+            {
+                "title": "World Bank Group",
+                "is_correct": false
+            }
+        ],
+        "explanation": "BIMSTEC secretariat is in Dhaka."
+    },
+    {
+        "question": "ADB का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asian Development Bank",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            },
+            {
+                "title": "International Labour Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ADB is in Manila."
+    },
+    {
+        "question": "AIIB का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "Asian Infrastructure Investment Bank",
+                "is_correct": true
+            },
+            {
+                "title": "Group of Twenty",
+                "is_correct": false
+            },
+            {
+                "title": "International Committee of the Red Cross",
+                "is_correct": false
+            },
+            {
+                "title": "International Criminal Police Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "AIIB is in Beijing."
+    },
+    {
+        "question": "UN का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "South Asian Association for Regional Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN headquarters is in New York."
+    },
+    {
+        "question": "UNESCO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": true
+            },
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": false
+            },
+            {
+                "title": "World Trade Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Asian Development Bank",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO is based in Paris."
+    },
+    {
+        "question": "WHO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Health Organization",
+                "is_correct": true
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            },
+            {
+                "title": "Commonwealth of Nations",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO is in Geneva."
+    },
+    {
+        "question": "IMF का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "International Monetary Fund",
+                "is_correct": true
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IMF is in Washington D.C."
+    },
+    {
+        "question": "World Bank का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Bank Group",
+                "is_correct": true
+            },
+            {
+                "title": "Asian Development Bank",
+                "is_correct": false
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            },
+            {
+                "title": "International Monetary Fund",
+                "is_correct": false
+            }
+        ],
+        "explanation": "World Bank is in Washington D.C."
+    },
+    {
+        "question": "WTO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "World Trade Organization",
+                "is_correct": true
+            },
+            {
+                "title": "World Health Organization",
+                "is_correct": false
+            },
+            {
+                "title": "League of Arab States",
+                "is_correct": false
+            },
+            {
+                "title": "United Nations Educational, Scientific and Cultural Organization",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WTO is in Geneva."
+    },
+    {
+        "question": "NATO का पूर्ण रूप क्या है?",
+        "answers": [
+            {
+                "title": "North Atlantic Treaty Organization",
+                "is_correct": true
+            },
+            {
+                "title": "Shanghai Cooperation Organisation",
+                "is_correct": false
+            },
+            {
+                "title": "African Union",
+                "is_correct": false
+            },
+            {
+                "title": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+                "is_correct": false
+            }
+        ],
+        "explanation": "NATO HQ is in Brussels."
+    }
+]

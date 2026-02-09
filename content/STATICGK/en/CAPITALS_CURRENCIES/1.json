@@ -1,0 +1,4402 @@
+[
+    {
+        "question": "What is the capital of Japan?",
+        "answers": [
+            {
+                "title": "Tokyo",
+                "is_correct": true
+            },
+            {
+                "title": "Tripoli",
+                "is_correct": false
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            },
+            {
+                "title": "Rome",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tokyo is the capital of Japan."
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "answers": [
+            {
+                "title": "Japanese Yen",
+                "is_correct": true
+            },
+            {
+                "title": "Ugandan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Lao Kip",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Japan is Japanese Yen."
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "answers": [
+            {
+                "title": "Canberra",
+                "is_correct": true
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            },
+            {
+                "title": "Mexico City",
+                "is_correct": false
+            },
+            {
+                "title": "Bucharest",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Canberra is the capital of Australia."
+    },
+    {
+        "question": "What is the currency of Australia?",
+        "answers": [
+            {
+                "title": "Australian Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Malaysian Ringgit",
+                "is_correct": false
+            },
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": false
+            },
+            {
+                "title": "US Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Australia is Australian Dollar."
+    },
+    {
+        "question": "What is the capital of Brazil?",
+        "answers": [
+            {
+                "title": "Brasília",
+                "is_correct": true
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            },
+            {
+                "title": "Ljubljana",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Brasília is the capital of Brazil."
+    },
+    {
+        "question": "What is the currency of Brazil?",
+        "answers": [
+            {
+                "title": "Brazilian Real",
+                "is_correct": true
+            },
+            {
+                "title": "Iranian Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Zimbabwean Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Brazil is Brazilian Real."
+    },
+    {
+        "question": "What is the capital of United Kingdom?",
+        "answers": [
+            {
+                "title": "London",
+                "is_correct": true
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            },
+            {
+                "title": "Rome",
+                "is_correct": false
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            }
+        ],
+        "explanation": "London is the capital of United Kingdom."
+    },
+    {
+        "question": "What is the currency of United Kingdom?",
+        "answers": [
+            {
+                "title": "Pound Sterling",
+                "is_correct": true
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Bosnia-Herzegovina Convertible Mark",
+                "is_correct": false
+            },
+            {
+                "title": "Armenian Dram",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of United Kingdom is Pound Sterling."
+    },
+    {
+        "question": "What is the capital of Germany?",
+        "answers": [
+            {
+                "title": "Berlin",
+                "is_correct": true
+            },
+            {
+                "title": "Tallinn",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels",
+                "is_correct": false
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Berlin is the capital of Germany."
+    },
+    {
+        "question": "What is the currency of Germany?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Yemeni Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Germany is Euro."
+    },
+    {
+        "question": "What is the capital of France?",
+        "answers": [
+            {
+                "title": "Paris",
+                "is_correct": true
+            },
+            {
+                "title": "Podgorica",
+                "is_correct": false
+            },
+            {
+                "title": "Jerusalem",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Paris is the capital of France."
+    },
+    {
+        "question": "What is the currency of France?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Pound Sterling",
+                "is_correct": false
+            },
+            {
+                "title": "UAE Dirham",
+                "is_correct": false
+            },
+            {
+                "title": "Romanian Leu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of France is Euro."
+    },
+    {
+        "question": "What is the capital of India?",
+        "answers": [
+            {
+                "title": "New Delhi",
+                "is_correct": true
+            },
+            {
+                "title": "Addis Ababa",
+                "is_correct": false
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            }
+        ],
+        "explanation": "New Delhi is the capital of India."
+    },
+    {
+        "question": "What is the currency of India?",
+        "answers": [
+            {
+                "title": "Indian Rupee",
+                "is_correct": true
+            },
+            {
+                "title": "Syrian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Russian Ruble",
+                "is_correct": false
+            },
+            {
+                "title": "Norwegian Krone",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of India is Indian Rupee."
+    },
+    {
+        "question": "What is the capital of China?",
+        "answers": [
+            {
+                "title": "Beijing",
+                "is_correct": true
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            },
+            {
+                "title": "Caracas",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Beijing is the capital of China."
+    },
+    {
+        "question": "What is the currency of China?",
+        "answers": [
+            {
+                "title": "Chinese Yuan",
+                "is_correct": true
+            },
+            {
+                "title": "Libyan Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": false
+            },
+            {
+                "title": "Mexican Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of China is Chinese Yuan."
+    },
+    {
+        "question": "What is the capital of Russia?",
+        "answers": [
+            {
+                "title": "Moscow",
+                "is_correct": true
+            },
+            {
+                "title": "Naypyidaw",
+                "is_correct": false
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            },
+            {
+                "title": "Khartoum",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Moscow is the capital of Russia."
+    },
+    {
+        "question": "What is the currency of Russia?",
+        "answers": [
+            {
+                "title": "Russian Ruble",
+                "is_correct": true
+            },
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Indonesian Rupiah",
+                "is_correct": false
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Russia is Russian Ruble."
+    },
+    {
+        "question": "What is the capital of United States?",
+        "answers": [
+            {
+                "title": "Washington D.C.",
+                "is_correct": true
+            },
+            {
+                "title": "Madrid",
+                "is_correct": false
+            },
+            {
+                "title": "Skopje",
+                "is_correct": false
+            },
+            {
+                "title": "Bangkok",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Washington D.C. is the capital of United States."
+    },
+    {
+        "question": "What is the currency of United States?",
+        "answers": [
+            {
+                "title": "US Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": false
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of United States is US Dollar."
+    },
+    {
+        "question": "What is the capital of Canada?",
+        "answers": [
+            {
+                "title": "Ottawa",
+                "is_correct": true
+            },
+            {
+                "title": "Luxembourg City",
+                "is_correct": false
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Kyiv",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ottawa is the capital of Canada."
+    },
+    {
+        "question": "What is the currency of Canada?",
+        "answers": [
+            {
+                "title": "Canadian Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Argentine Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Canada is Canadian Dollar."
+    },
+    {
+        "question": "What is the capital of Italy?",
+        "answers": [
+            {
+                "title": "Rome",
+                "is_correct": true
+            },
+            {
+                "title": "Wellington",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo",
+                "is_correct": false
+            },
+            {
+                "title": "Addis Ababa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Rome is the capital of Italy."
+    },
+    {
+        "question": "What is the currency of Italy?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            },
+            {
+                "title": "Armenian Dram",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Italy is Euro."
+    },
+    {
+        "question": "What is the capital of Spain?",
+        "answers": [
+            {
+                "title": "Madrid",
+                "is_correct": true
+            },
+            {
+                "title": "Addis Ababa",
+                "is_correct": false
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Madrid is the capital of Spain."
+    },
+    {
+        "question": "What is the currency of Spain?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            },
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Spain is Euro."
+    },
+    {
+        "question": "What is the capital of South Korea?",
+        "answers": [
+            {
+                "title": "Seoul",
+                "is_correct": true
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Canberra",
+                "is_correct": false
+            },
+            {
+                "title": "Ulaanbaatar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Seoul is the capital of South Korea."
+    },
+    {
+        "question": "What is the currency of South Korea?",
+        "answers": [
+            {
+                "title": "South Korean Won",
+                "is_correct": true
+            },
+            {
+                "title": "Argentine Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Albanian Lek",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of South Korea is South Korean Won."
+    },
+    {
+        "question": "What is the capital of Indonesia?",
+        "answers": [
+            {
+                "title": "Jakarta",
+                "is_correct": true
+            },
+            {
+                "title": "Ottawa",
+                "is_correct": false
+            },
+            {
+                "title": "Accra",
+                "is_correct": false
+            },
+            {
+                "title": "Tirana",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Jakarta is the capital of Indonesia."
+    },
+    {
+        "question": "What is the currency of Indonesia?",
+        "answers": [
+            {
+                "title": "Indonesian Rupiah",
+                "is_correct": true
+            },
+            {
+                "title": "Georgian Lari",
+                "is_correct": false
+            },
+            {
+                "title": "Libyan Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Pound Sterling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Indonesia is Indonesian Rupiah."
+    },
+    {
+        "question": "What is the capital of South Africa?",
+        "answers": [
+            {
+                "title": "Pretoria",
+                "is_correct": true
+            },
+            {
+                "title": "Accra",
+                "is_correct": false
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            },
+            {
+                "title": "Manila",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pretoria is the capital of South Africa."
+    },
+    {
+        "question": "What is the currency of South Africa?",
+        "answers": [
+            {
+                "title": "South African Rand",
+                "is_correct": true
+            },
+            {
+                "title": "Indonesian Rupiah",
+                "is_correct": false
+            },
+            {
+                "title": "Chilean Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Philippine Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of South Africa is South African Rand."
+    },
+    {
+        "question": "What is the capital of Egypt?",
+        "answers": [
+            {
+                "title": "Cairo",
+                "is_correct": true
+            },
+            {
+                "title": "Pristina",
+                "is_correct": false
+            },
+            {
+                "title": "Phnom Penh",
+                "is_correct": false
+            },
+            {
+                "title": "Nicosia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Cairo is the capital of Egypt."
+    },
+    {
+        "question": "What is the currency of Egypt?",
+        "answers": [
+            {
+                "title": "Egyptian Pound",
+                "is_correct": true
+            },
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": false
+            },
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": false
+            },
+            {
+                "title": "Paraguayan Guaraní",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Egypt is Egyptian Pound."
+    },
+    {
+        "question": "What is the capital of Nigeria?",
+        "answers": [
+            {
+                "title": "Abuja",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo",
+                "is_correct": false
+            },
+            {
+                "title": "Buenos Aires",
+                "is_correct": false
+            },
+            {
+                "title": "Rabat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Abuja is the capital of Nigeria."
+    },
+    {
+        "question": "What is the currency of Nigeria?",
+        "answers": [
+            {
+                "title": "Nigerian Naira",
+                "is_correct": true
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": false
+            },
+            {
+                "title": "Iranian Rial",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Nigeria is Nigerian Naira."
+    },
+    {
+        "question": "What is the capital of Mexico?",
+        "answers": [
+            {
+                "title": "Mexico City",
+                "is_correct": true
+            },
+            {
+                "title": "Montevideo",
+                "is_correct": false
+            },
+            {
+                "title": "Minsk",
+                "is_correct": false
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Mexico City is the capital of Mexico."
+    },
+    {
+        "question": "What is the currency of Mexico?",
+        "answers": [
+            {
+                "title": "Mexican Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Thai Baht",
+                "is_correct": false
+            },
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": false
+            },
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Mexico is Mexican Peso."
+    },
+    {
+        "question": "What is the capital of Argentina?",
+        "answers": [
+            {
+                "title": "Buenos Aires",
+                "is_correct": true
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwait City",
+                "is_correct": false
+            },
+            {
+                "title": "Prague",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Buenos Aires is the capital of Argentina."
+    },
+    {
+        "question": "What is the currency of Argentina?",
+        "answers": [
+            {
+                "title": "Argentine Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": false
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Argentina is Argentine Peso."
+    },
+    {
+        "question": "What is the capital of Turkey?",
+        "answers": [
+            {
+                "title": "Ankara",
+                "is_correct": true
+            },
+            {
+                "title": "Manila",
+                "is_correct": false
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Ljubljana",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ankara is the capital of Turkey."
+    },
+    {
+        "question": "What is the currency of Turkey?",
+        "answers": [
+            {
+                "title": "Turkish Lira",
+                "is_correct": true
+            },
+            {
+                "title": "Swedish Krona",
+                "is_correct": false
+            },
+            {
+                "title": "Myanmar Kyat",
+                "is_correct": false
+            },
+            {
+                "title": "Algerian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Turkey is Turkish Lira."
+    },
+    {
+        "question": "What is the capital of Saudi Arabia?",
+        "answers": [
+            {
+                "title": "Riyadh",
+                "is_correct": true
+            },
+            {
+                "title": "Islamabad",
+                "is_correct": false
+            },
+            {
+                "title": "Rabat",
+                "is_correct": false
+            },
+            {
+                "title": "Lima",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Riyadh is the capital of Saudi Arabia."
+    },
+    {
+        "question": "What is the currency of Saudi Arabia?",
+        "answers": [
+            {
+                "title": "Saudi Riyal",
+                "is_correct": true
+            },
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Bosnia-Herzegovina Convertible Mark",
+                "is_correct": false
+            },
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Saudi Arabia is Saudi Riyal."
+    },
+    {
+        "question": "What is the capital of Pakistan?",
+        "answers": [
+            {
+                "title": "Islamabad",
+                "is_correct": true
+            },
+            {
+                "title": "Rome",
+                "is_correct": false
+            },
+            {
+                "title": "Nur-Sultan",
+                "is_correct": false
+            },
+            {
+                "title": "Sarajevo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Islamabad is the capital of Pakistan."
+    },
+    {
+        "question": "What is the currency of Pakistan?",
+        "answers": [
+            {
+                "title": "Pakistani Rupee",
+                "is_correct": true
+            },
+            {
+                "title": "Malaysian Ringgit",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Colombian Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Pakistan is Pakistani Rupee."
+    },
+    {
+        "question": "What is the capital of Bangladesh?",
+        "answers": [
+            {
+                "title": "Dhaka",
+                "is_correct": true
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Manama",
+                "is_correct": false
+            },
+            {
+                "title": "Zagreb",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dhaka is the capital of Bangladesh."
+    },
+    {
+        "question": "What is the currency of Bangladesh?",
+        "answers": [
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": true
+            },
+            {
+                "title": "Swedish Krona",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Colombian Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Bangladesh is Bangladeshi Taka."
+    },
+    {
+        "question": "What is the capital of Iran?",
+        "answers": [
+            {
+                "title": "Tehran",
+                "is_correct": true
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            },
+            {
+                "title": "Riga",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tehran is the capital of Iran."
+    },
+    {
+        "question": "What is the currency of Iran?",
+        "answers": [
+            {
+                "title": "Iranian Rial",
+                "is_correct": true
+            },
+            {
+                "title": "Algerian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Iran is Iranian Rial."
+    },
+    {
+        "question": "What is the capital of Thailand?",
+        "answers": [
+            {
+                "title": "Bangkok",
+                "is_correct": true
+            },
+            {
+                "title": "Seoul",
+                "is_correct": false
+            },
+            {
+                "title": "Lima",
+                "is_correct": false
+            },
+            {
+                "title": "Prague",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bangkok is the capital of Thailand."
+    },
+    {
+        "question": "What is the currency of Thailand?",
+        "answers": [
+            {
+                "title": "Thai Baht",
+                "is_correct": true
+            },
+            {
+                "title": "Lao Kip",
+                "is_correct": false
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Thailand is Thai Baht."
+    },
+    {
+        "question": "What is the capital of Vietnam?",
+        "answers": [
+            {
+                "title": "Hanoi",
+                "is_correct": true
+            },
+            {
+                "title": "Bogotá",
+                "is_correct": false
+            },
+            {
+                "title": "Minsk",
+                "is_correct": false
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hanoi is the capital of Vietnam."
+    },
+    {
+        "question": "What is the currency of Vietnam?",
+        "answers": [
+            {
+                "title": "Vietnamese Dong",
+                "is_correct": true
+            },
+            {
+                "title": "Bulgarian Lev",
+                "is_correct": false
+            },
+            {
+                "title": "Syrian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Yemeni Rial",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Vietnam is Vietnamese Dong."
+    },
+    {
+        "question": "What is the capital of Philippines?",
+        "answers": [
+            {
+                "title": "Manila",
+                "is_correct": true
+            },
+            {
+                "title": "Vilnius",
+                "is_correct": false
+            },
+            {
+                "title": "Kuala Lumpur",
+                "is_correct": false
+            },
+            {
+                "title": "Lima",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Manila is the capital of Philippines."
+    },
+    {
+        "question": "What is the currency of Philippines?",
+        "answers": [
+            {
+                "title": "Philippine Peso",
+                "is_correct": true
+            },
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Algerian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Philippines is Philippine Peso."
+    },
+    {
+        "question": "What is the capital of Malaysia?",
+        "answers": [
+            {
+                "title": "Kuala Lumpur",
+                "is_correct": true
+            },
+            {
+                "title": "Moscow",
+                "is_correct": false
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Bratislava",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kuala Lumpur is the capital of Malaysia."
+    },
+    {
+        "question": "What is the currency of Malaysia?",
+        "answers": [
+            {
+                "title": "Malaysian Ringgit",
+                "is_correct": true
+            },
+            {
+                "title": "UAE Dirham",
+                "is_correct": false
+            },
+            {
+                "title": "Libyan Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Malaysia is Malaysian Ringgit."
+    },
+    {
+        "question": "What is the capital of Singapore?",
+        "answers": [
+            {
+                "title": "Singapore",
+                "is_correct": true
+            },
+            {
+                "title": "Manama",
+                "is_correct": false
+            },
+            {
+                "title": "Tallinn",
+                "is_correct": false
+            },
+            {
+                "title": "Hanoi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Singapore is the capital of Singapore."
+    },
+    {
+        "question": "What is the currency of Singapore?",
+        "answers": [
+            {
+                "title": "Singapore Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            },
+            {
+                "title": "Georgian Lari",
+                "is_correct": false
+            },
+            {
+                "title": "Armenian Dram",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Singapore is Singapore Dollar."
+    },
+    {
+        "question": "What is the capital of Netherlands?",
+        "answers": [
+            {
+                "title": "Amsterdam",
+                "is_correct": true
+            },
+            {
+                "title": "Mexico City",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amsterdam is the capital of Netherlands."
+    },
+    {
+        "question": "What is the currency of Netherlands?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Netherlands is Euro."
+    },
+    {
+        "question": "What is the capital of Belgium?",
+        "answers": [
+            {
+                "title": "Brussels",
+                "is_correct": true
+            },
+            {
+                "title": "Islamabad",
+                "is_correct": false
+            },
+            {
+                "title": "Buenos Aires",
+                "is_correct": false
+            },
+            {
+                "title": "Pretoria",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Brussels is the capital of Belgium."
+    },
+    {
+        "question": "What is the currency of Belgium?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Belgium is Euro."
+    },
+    {
+        "question": "What is the capital of Switzerland?",
+        "answers": [
+            {
+                "title": "Bern",
+                "is_correct": true
+            },
+            {
+                "title": "Podgorica",
+                "is_correct": false
+            },
+            {
+                "title": "Kyiv",
+                "is_correct": false
+            },
+            {
+                "title": "Zagreb",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bern is the capital of Switzerland."
+    },
+    {
+        "question": "What is the currency of Switzerland?",
+        "answers": [
+            {
+                "title": "Swiss Franc",
+                "is_correct": true
+            },
+            {
+                "title": "Paraguayan Guaraní",
+                "is_correct": false
+            },
+            {
+                "title": "Qatari Riyal",
+                "is_correct": false
+            },
+            {
+                "title": "Uruguayan Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Switzerland is Swiss Franc."
+    },
+    {
+        "question": "What is the capital of Austria?",
+        "answers": [
+            {
+                "title": "Vienna",
+                "is_correct": true
+            },
+            {
+                "title": "Hanoi",
+                "is_correct": false
+            },
+            {
+                "title": "Kyiv",
+                "is_correct": false
+            },
+            {
+                "title": "Kampala",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vienna is the capital of Austria."
+    },
+    {
+        "question": "What is the currency of Austria?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            },
+            {
+                "title": "Philippine Peso",
+                "is_correct": false
+            },
+            {
+                "title": "South Korean Won",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Austria is Euro."
+    },
+    {
+        "question": "What is the capital of Sweden?",
+        "answers": [
+            {
+                "title": "Stockholm",
+                "is_correct": true
+            },
+            {
+                "title": "Islamabad",
+                "is_correct": false
+            },
+            {
+                "title": "Jerusalem",
+                "is_correct": false
+            },
+            {
+                "title": "Abuja",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Stockholm is the capital of Sweden."
+    },
+    {
+        "question": "What is the currency of Sweden?",
+        "answers": [
+            {
+                "title": "Swedish Krona",
+                "is_correct": true
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            },
+            {
+                "title": "Russian Ruble",
+                "is_correct": false
+            },
+            {
+                "title": "Myanmar Kyat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Sweden is Swedish Krona."
+    },
+    {
+        "question": "What is the capital of Norway?",
+        "answers": [
+            {
+                "title": "Oslo",
+                "is_correct": true
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Luxembourg City",
+                "is_correct": false
+            },
+            {
+                "title": "Kabul",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Oslo is the capital of Norway."
+    },
+    {
+        "question": "What is the currency of Norway?",
+        "answers": [
+            {
+                "title": "Norwegian Krone",
+                "is_correct": true
+            },
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Norway is Norwegian Krone."
+    },
+    {
+        "question": "What is the capital of Denmark?",
+        "answers": [
+            {
+                "title": "Copenhagen",
+                "is_correct": true
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwait City",
+                "is_correct": false
+            },
+            {
+                "title": "Skopje",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Copenhagen is the capital of Denmark."
+    },
+    {
+        "question": "What is the currency of Denmark?",
+        "answers": [
+            {
+                "title": "Danish Krone",
+                "is_correct": true
+            },
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Norwegian Krone",
+                "is_correct": false
+            },
+            {
+                "title": "Paraguayan Guaraní",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Denmark is Danish Krone."
+    },
+    {
+        "question": "What is the capital of Poland?",
+        "answers": [
+            {
+                "title": "Warsaw",
+                "is_correct": true
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            },
+            {
+                "title": "Tbilisi",
+                "is_correct": false
+            },
+            {
+                "title": "Paris",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Warsaw is the capital of Poland."
+    },
+    {
+        "question": "What is the currency of Poland?",
+        "answers": [
+            {
+                "title": "Polish Złoty",
+                "is_correct": true
+            },
+            {
+                "title": "Cuban Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Yemeni Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Paraguayan Guaraní",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Poland is Polish Złoty."
+    },
+    {
+        "question": "What is the capital of Greece?",
+        "answers": [
+            {
+                "title": "Athens",
+                "is_correct": true
+            },
+            {
+                "title": "Dhaka",
+                "is_correct": false
+            },
+            {
+                "title": "Ottawa",
+                "is_correct": false
+            },
+            {
+                "title": "Caracas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Athens is the capital of Greece."
+    },
+    {
+        "question": "What is the currency of Greece?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Mexican Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Ugandan Shilling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Greece is Euro."
+    },
+    {
+        "question": "What is the capital of Portugal?",
+        "answers": [
+            {
+                "title": "Lisbon",
+                "is_correct": true
+            },
+            {
+                "title": "Accra",
+                "is_correct": false
+            },
+            {
+                "title": "Podgorica",
+                "is_correct": false
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Lisbon is the capital of Portugal."
+    },
+    {
+        "question": "What is the currency of Portugal?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Portugal is Euro."
+    },
+    {
+        "question": "What is the capital of Ireland?",
+        "answers": [
+            {
+                "title": "Dublin",
+                "is_correct": true
+            },
+            {
+                "title": "Brasília",
+                "is_correct": false
+            },
+            {
+                "title": "Valletta",
+                "is_correct": false
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dublin is the capital of Ireland."
+    },
+    {
+        "question": "What is the currency of Ireland?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Serbian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Australian Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Tunisian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Ireland is Euro."
+    },
+    {
+        "question": "What is the capital of New Zealand?",
+        "answers": [
+            {
+                "title": "Wellington",
+                "is_correct": true
+            },
+            {
+                "title": "Phnom Penh",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Wellington is the capital of New Zealand."
+    },
+    {
+        "question": "What is the currency of New Zealand?",
+        "answers": [
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Moroccan Dirham",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Bulgarian Lev",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of New Zealand is New Zealand Dollar."
+    },
+    {
+        "question": "What is the capital of Israel?",
+        "answers": [
+            {
+                "title": "Jerusalem",
+                "is_correct": true
+            },
+            {
+                "title": "Tbilisi",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Jerusalem is the capital of Israel."
+    },
+    {
+        "question": "What is the currency of Israel?",
+        "answers": [
+            {
+                "title": "Israeli Shekel",
+                "is_correct": true
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Israel is Israeli Shekel."
+    },
+    {
+        "question": "What is the capital of UAE?",
+        "answers": [
+            {
+                "title": "Abu Dhabi",
+                "is_correct": true
+            },
+            {
+                "title": "Manila",
+                "is_correct": false
+            },
+            {
+                "title": "Kuala Lumpur",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Abu Dhabi is the capital of UAE."
+    },
+    {
+        "question": "What is the currency of UAE?",
+        "answers": [
+            {
+                "title": "UAE Dirham",
+                "is_correct": true
+            },
+            {
+                "title": "Uruguayan Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Egyptian Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of UAE is UAE Dirham."
+    },
+    {
+        "question": "What is the capital of Qatar?",
+        "answers": [
+            {
+                "title": "Doha",
+                "is_correct": true
+            },
+            {
+                "title": "Hanoi",
+                "is_correct": false
+            },
+            {
+                "title": "Bangkok",
+                "is_correct": false
+            },
+            {
+                "title": "Ottawa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Doha is the capital of Qatar."
+    },
+    {
+        "question": "What is the currency of Qatar?",
+        "answers": [
+            {
+                "title": "Qatari Riyal",
+                "is_correct": true
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Syrian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Australian Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Qatar is Qatari Riyal."
+    },
+    {
+        "question": "What is the capital of Kuwait?",
+        "answers": [
+            {
+                "title": "Kuwait City",
+                "is_correct": true
+            },
+            {
+                "title": "Sarajevo",
+                "is_correct": false
+            },
+            {
+                "title": "Havana",
+                "is_correct": false
+            },
+            {
+                "title": "Tunis",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kuwait City is the capital of Kuwait."
+    },
+    {
+        "question": "What is the currency of Kuwait?",
+        "answers": [
+            {
+                "title": "Kuwaiti Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            },
+            {
+                "title": "Chilean Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Kuwait is Kuwaiti Dinar."
+    },
+    {
+        "question": "What is the capital of Iraq?",
+        "answers": [
+            {
+                "title": "Baghdad",
+                "is_correct": true
+            },
+            {
+                "title": "Tripoli",
+                "is_correct": false
+            },
+            {
+                "title": "Sarajevo",
+                "is_correct": false
+            },
+            {
+                "title": "Rabat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Baghdad is the capital of Iraq."
+    },
+    {
+        "question": "What is the currency of Iraq?",
+        "answers": [
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Lebanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Iraq is Iraqi Dinar."
+    },
+    {
+        "question": "What is the capital of Afghanistan?",
+        "answers": [
+            {
+                "title": "Kabul",
+                "is_correct": true
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            },
+            {
+                "title": "Prague",
+                "is_correct": false
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kabul is the capital of Afghanistan."
+    },
+    {
+        "question": "What is the currency of Afghanistan?",
+        "answers": [
+            {
+                "title": "Afghan Afghani",
+                "is_correct": true
+            },
+            {
+                "title": "Saudi Riyal",
+                "is_correct": false
+            },
+            {
+                "title": "Serbian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Libyan Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Afghanistan is Afghan Afghani."
+    },
+    {
+        "question": "What is the capital of Sri Lanka?",
+        "answers": [
+            {
+                "title": "Colombo",
+                "is_correct": true
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            },
+            {
+                "title": "Ottawa",
+                "is_correct": false
+            },
+            {
+                "title": "Kabul",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Colombo is the capital of Sri Lanka."
+    },
+    {
+        "question": "What is the currency of Sri Lanka?",
+        "answers": [
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": true
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            },
+            {
+                "title": "Euro",
+                "is_correct": false
+            },
+            {
+                "title": "UAE Dirham",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Sri Lanka is Sri Lankan Rupee."
+    },
+    {
+        "question": "What is the capital of Nepal?",
+        "answers": [
+            {
+                "title": "Kathmandu",
+                "is_correct": true
+            },
+            {
+                "title": "Manama",
+                "is_correct": false
+            },
+            {
+                "title": "Minsk",
+                "is_correct": false
+            },
+            {
+                "title": "Bern",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kathmandu is the capital of Nepal."
+    },
+    {
+        "question": "What is the currency of Nepal?",
+        "answers": [
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": true
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            },
+            {
+                "title": "Yemeni Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Saudi Riyal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Nepal is Nepalese Rupee."
+    },
+    {
+        "question": "What is the capital of Myanmar?",
+        "answers": [
+            {
+                "title": "Naypyidaw",
+                "is_correct": true
+            },
+            {
+                "title": "Manila",
+                "is_correct": false
+            },
+            {
+                "title": "Tashkent",
+                "is_correct": false
+            },
+            {
+                "title": "Tirana",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Naypyidaw is the capital of Myanmar."
+    },
+    {
+        "question": "What is the currency of Myanmar?",
+        "answers": [
+            {
+                "title": "Myanmar Kyat",
+                "is_correct": true
+            },
+            {
+                "title": "Canadian Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Bosnia-Herzegovina Convertible Mark",
+                "is_correct": false
+            },
+            {
+                "title": "Hungarian Forint",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Myanmar is Myanmar Kyat."
+    },
+    {
+        "question": "What is the capital of Kenya?",
+        "answers": [
+            {
+                "title": "Nairobi",
+                "is_correct": true
+            },
+            {
+                "title": "Bangkok",
+                "is_correct": false
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            },
+            {
+                "title": "Amman",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nairobi is the capital of Kenya."
+    },
+    {
+        "question": "What is the currency of Kenya?",
+        "answers": [
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": true
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Kenya is Kenyan Shilling."
+    },
+    {
+        "question": "What is the capital of Ghana?",
+        "answers": [
+            {
+                "title": "Accra",
+                "is_correct": true
+            },
+            {
+                "title": "Ulaanbaatar",
+                "is_correct": false
+            },
+            {
+                "title": "Khartoum",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Accra is the capital of Ghana."
+    },
+    {
+        "question": "What is the currency of Ghana?",
+        "answers": [
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": true
+            },
+            {
+                "title": "Lao Kip",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Ghana is Ghanaian Cedi."
+    },
+    {
+        "question": "What is the capital of Ethiopia?",
+        "answers": [
+            {
+                "title": "Addis Ababa",
+                "is_correct": true
+            },
+            {
+                "title": "Nicosia",
+                "is_correct": false
+            },
+            {
+                "title": "Manila",
+                "is_correct": false
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Addis Ababa is the capital of Ethiopia."
+    },
+    {
+        "question": "What is the currency of Ethiopia?",
+        "answers": [
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": true
+            },
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": false
+            },
+            {
+                "title": "Pakistani Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Malaysian Ringgit",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Ethiopia is Ethiopian Birr."
+    },
+    {
+        "question": "What is the capital of Morocco?",
+        "answers": [
+            {
+                "title": "Rabat",
+                "is_correct": true
+            },
+            {
+                "title": "Cairo",
+                "is_correct": false
+            },
+            {
+                "title": "Tbilisi",
+                "is_correct": false
+            },
+            {
+                "title": "Skopje",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Rabat is the capital of Morocco."
+    },
+    {
+        "question": "What is the currency of Morocco?",
+        "answers": [
+            {
+                "title": "Moroccan Dirham",
+                "is_correct": true
+            },
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": false
+            },
+            {
+                "title": "Russian Ruble",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Morocco is Moroccan Dirham."
+    },
+    {
+        "question": "What is the capital of Algeria?",
+        "answers": [
+            {
+                "title": "Algiers",
+                "is_correct": true
+            },
+            {
+                "title": "Asunción",
+                "is_correct": false
+            },
+            {
+                "title": "Bern",
+                "is_correct": false
+            },
+            {
+                "title": "Riga",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Algiers is the capital of Algeria."
+    },
+    {
+        "question": "What is the currency of Algeria?",
+        "answers": [
+            {
+                "title": "Algerian Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Algeria is Algerian Dinar."
+    },
+    {
+        "question": "What is the capital of Colombia?",
+        "answers": [
+            {
+                "title": "Bogotá",
+                "is_correct": true
+            },
+            {
+                "title": "Sana'a",
+                "is_correct": false
+            },
+            {
+                "title": "Jerusalem",
+                "is_correct": false
+            },
+            {
+                "title": "Pretoria",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bogotá is the capital of Colombia."
+    },
+    {
+        "question": "What is the currency of Colombia?",
+        "answers": [
+            {
+                "title": "Colombian Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            },
+            {
+                "title": "Serbian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Swedish Krona",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Colombia is Colombian Peso."
+    },
+    {
+        "question": "What is the capital of Chile?",
+        "answers": [
+            {
+                "title": "Santiago",
+                "is_correct": true
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Colombo",
+                "is_correct": false
+            },
+            {
+                "title": "Hanoi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Santiago is the capital of Chile."
+    },
+    {
+        "question": "What is the currency of Chile?",
+        "answers": [
+            {
+                "title": "Chilean Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": false
+            },
+            {
+                "title": "Ugandan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Paraguayan Guaraní",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Chile is Chilean Peso."
+    },
+    {
+        "question": "What is the capital of Peru?",
+        "answers": [
+            {
+                "title": "Lima",
+                "is_correct": true
+            },
+            {
+                "title": "Islamabad",
+                "is_correct": false
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Dodoma",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Lima is the capital of Peru."
+    },
+    {
+        "question": "What is the currency of Peru?",
+        "answers": [
+            {
+                "title": "Peruvian Sol",
+                "is_correct": true
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            },
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Peru is Peruvian Sol."
+    },
+    {
+        "question": "What is the capital of Venezuela?",
+        "answers": [
+            {
+                "title": "Caracas",
+                "is_correct": true
+            },
+            {
+                "title": "Athens",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwait City",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Caracas is the capital of Venezuela."
+    },
+    {
+        "question": "What is the currency of Venezuela?",
+        "answers": [
+            {
+                "title": "Venezuelan Bolívar",
+                "is_correct": true
+            },
+            {
+                "title": "Qatari Riyal",
+                "is_correct": false
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Rupee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Venezuela is Venezuelan Bolívar."
+    },
+    {
+        "question": "What is the capital of Ukraine?",
+        "answers": [
+            {
+                "title": "Kyiv",
+                "is_correct": true
+            },
+            {
+                "title": "Addis Ababa",
+                "is_correct": false
+            },
+            {
+                "title": "Manama",
+                "is_correct": false
+            },
+            {
+                "title": "Rabat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kyiv is the capital of Ukraine."
+    },
+    {
+        "question": "What is the currency of Ukraine?",
+        "answers": [
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": true
+            },
+            {
+                "title": "Euro",
+                "is_correct": false
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Ukraine is Ukrainian Hryvnia."
+    },
+    {
+        "question": "What is the capital of Czech Republic?",
+        "answers": [
+            {
+                "title": "Prague",
+                "is_correct": true
+            },
+            {
+                "title": "Lisbon",
+                "is_correct": false
+            },
+            {
+                "title": "Ankara",
+                "is_correct": false
+            },
+            {
+                "title": "Budapest",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Prague is the capital of Czech Republic."
+    },
+    {
+        "question": "What is the currency of Czech Republic?",
+        "answers": [
+            {
+                "title": "Czech Koruna",
+                "is_correct": true
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            },
+            {
+                "title": "Chilean Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Georgian Lari",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Czech Republic is Czech Koruna."
+    },
+    {
+        "question": "What is the capital of Romania?",
+        "answers": [
+            {
+                "title": "Bucharest",
+                "is_correct": true
+            },
+            {
+                "title": "Nur-Sultan",
+                "is_correct": false
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            },
+            {
+                "title": "Accra",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bucharest is the capital of Romania."
+    },
+    {
+        "question": "What is the currency of Romania?",
+        "answers": [
+            {
+                "title": "Romanian Leu",
+                "is_correct": true
+            },
+            {
+                "title": "Lao Kip",
+                "is_correct": false
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Romania is Romanian Leu."
+    },
+    {
+        "question": "What is the capital of Hungary?",
+        "answers": [
+            {
+                "title": "Budapest",
+                "is_correct": true
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            },
+            {
+                "title": "London",
+                "is_correct": false
+            },
+            {
+                "title": "Pretoria",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Budapest is the capital of Hungary."
+    },
+    {
+        "question": "What is the currency of Hungary?",
+        "answers": [
+            {
+                "title": "Hungarian Forint",
+                "is_correct": true
+            },
+            {
+                "title": "Lao Kip",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Paraguayan Guaraní",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Hungary is Hungarian Forint."
+    },
+    {
+        "question": "What is the capital of Finland?",
+        "answers": [
+            {
+                "title": "Helsinki",
+                "is_correct": true
+            },
+            {
+                "title": "Kabul",
+                "is_correct": false
+            },
+            {
+                "title": "Hanoi",
+                "is_correct": false
+            },
+            {
+                "title": "Luxembourg City",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Helsinki is the capital of Finland."
+    },
+    {
+        "question": "What is the currency of Finland?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Azerbaijani Manat",
+                "is_correct": false
+            },
+            {
+                "title": "Norwegian Krone",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Finland is Euro."
+    },
+    {
+        "question": "What is the capital of Cuba?",
+        "answers": [
+            {
+                "title": "Havana",
+                "is_correct": true
+            },
+            {
+                "title": "Nairobi",
+                "is_correct": false
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            },
+            {
+                "title": "Tashkent",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Havana is the capital of Cuba."
+    },
+    {
+        "question": "What is the currency of Cuba?",
+        "answers": [
+            {
+                "title": "Cuban Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Iranian Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Cuba is Cuban Peso."
+    },
+    {
+        "question": "What is the capital of Croatia?",
+        "answers": [
+            {
+                "title": "Zagreb",
+                "is_correct": true
+            },
+            {
+                "title": "Islamabad",
+                "is_correct": false
+            },
+            {
+                "title": "Mexico City",
+                "is_correct": false
+            },
+            {
+                "title": "Abuja",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Zagreb is the capital of Croatia."
+    },
+    {
+        "question": "What is the currency of Croatia?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Bulgarian Lev",
+                "is_correct": false
+            },
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Croatia is Euro."
+    },
+    {
+        "question": "What is the capital of Bulgaria?",
+        "answers": [
+            {
+                "title": "Sofia",
+                "is_correct": true
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            },
+            {
+                "title": "Stockholm",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sofia is the capital of Bulgaria."
+    },
+    {
+        "question": "What is the currency of Bulgaria?",
+        "answers": [
+            {
+                "title": "Bulgarian Lev",
+                "is_correct": true
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Armenian Dram",
+                "is_correct": false
+            },
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Bulgaria is Bulgarian Lev."
+    },
+    {
+        "question": "What is the capital of Serbia?",
+        "answers": [
+            {
+                "title": "Belgrade",
+                "is_correct": true
+            },
+            {
+                "title": "Addis Ababa",
+                "is_correct": false
+            },
+            {
+                "title": "Bern",
+                "is_correct": false
+            },
+            {
+                "title": "Budapest",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Belgrade is the capital of Serbia."
+    },
+    {
+        "question": "What is the currency of Serbia?",
+        "answers": [
+            {
+                "title": "Serbian Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Cuban Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Serbia is Serbian Dinar."
+    },
+    {
+        "question": "What is the capital of Lebanon?",
+        "answers": [
+            {
+                "title": "Beirut",
+                "is_correct": true
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            },
+            {
+                "title": "Nicosia",
+                "is_correct": false
+            },
+            {
+                "title": "New Delhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Beirut is the capital of Lebanon."
+    },
+    {
+        "question": "What is the currency of Lebanon?",
+        "answers": [
+            {
+                "title": "Lebanese Pound",
+                "is_correct": true
+            },
+            {
+                "title": "Mexican Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Albanian Lek",
+                "is_correct": false
+            },
+            {
+                "title": "Lao Kip",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Lebanon is Lebanese Pound."
+    },
+    {
+        "question": "What is the capital of Jordan?",
+        "answers": [
+            {
+                "title": "Amman",
+                "is_correct": true
+            },
+            {
+                "title": "Tallinn",
+                "is_correct": false
+            },
+            {
+                "title": "London",
+                "is_correct": false
+            },
+            {
+                "title": "Baghdad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amman is the capital of Jordan."
+    },
+    {
+        "question": "What is the currency of Jordan?",
+        "answers": [
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Hungarian Forint",
+                "is_correct": false
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "UAE Dirham",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Jordan is Jordanian Dinar."
+    },
+    {
+        "question": "What is the capital of Syria?",
+        "answers": [
+            {
+                "title": "Damascus",
+                "is_correct": true
+            },
+            {
+                "title": "Pretoria",
+                "is_correct": false
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            },
+            {
+                "title": "Harare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Damascus is the capital of Syria."
+    },
+    {
+        "question": "What is the currency of Syria?",
+        "answers": [
+            {
+                "title": "Syrian Pound",
+                "is_correct": true
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Canadian Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Syria is Syrian Pound."
+    },
+    {
+        "question": "What is the capital of Oman?",
+        "answers": [
+            {
+                "title": "Muscat",
+                "is_correct": true
+            },
+            {
+                "title": "Amman",
+                "is_correct": false
+            },
+            {
+                "title": "Madrid",
+                "is_correct": false
+            },
+            {
+                "title": "Prague",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Muscat is the capital of Oman."
+    },
+    {
+        "question": "What is the currency of Oman?",
+        "answers": [
+            {
+                "title": "Omani Rial",
+                "is_correct": true
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Venezuelan Bolívar",
+                "is_correct": false
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Oman is Omani Rial."
+    },
+    {
+        "question": "What is the capital of Bahrain?",
+        "answers": [
+            {
+                "title": "Manama",
+                "is_correct": true
+            },
+            {
+                "title": "Podgorica",
+                "is_correct": false
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Manama is the capital of Bahrain."
+    },
+    {
+        "question": "What is the currency of Bahrain?",
+        "answers": [
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Belarusian Ruble",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Moroccan Dirham",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Bahrain is Bahraini Dinar."
+    },
+    {
+        "question": "What is the capital of Yemen?",
+        "answers": [
+            {
+                "title": "Sana'a",
+                "is_correct": true
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            },
+            {
+                "title": "Islamabad",
+                "is_correct": false
+            },
+            {
+                "title": "Havana",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sana'a is the capital of Yemen."
+    },
+    {
+        "question": "What is the currency of Yemen?",
+        "answers": [
+            {
+                "title": "Yemeni Rial",
+                "is_correct": true
+            },
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": false
+            },
+            {
+                "title": "Mexican Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Yemen is Yemeni Rial."
+    },
+    {
+        "question": "What is the capital of Libya?",
+        "answers": [
+            {
+                "title": "Tripoli",
+                "is_correct": true
+            },
+            {
+                "title": "Tirana",
+                "is_correct": false
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tripoli is the capital of Libya."
+    },
+    {
+        "question": "What is the currency of Libya?",
+        "answers": [
+            {
+                "title": "Libyan Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Russian Ruble",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Vietnamese Dong",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Libya is Libyan Dinar."
+    },
+    {
+        "question": "What is the capital of Tunisia?",
+        "answers": [
+            {
+                "title": "Tunis",
+                "is_correct": true
+            },
+            {
+                "title": "Bucharest",
+                "is_correct": false
+            },
+            {
+                "title": "Budapest",
+                "is_correct": false
+            },
+            {
+                "title": "Ankara",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tunis is the capital of Tunisia."
+    },
+    {
+        "question": "What is the currency of Tunisia?",
+        "answers": [
+            {
+                "title": "Tunisian Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            },
+            {
+                "title": "Kazakhstani Tenge",
+                "is_correct": false
+            },
+            {
+                "title": "Saudi Riyal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Tunisia is Tunisian Dinar."
+    },
+    {
+        "question": "What is the capital of Sudan?",
+        "answers": [
+            {
+                "title": "Khartoum",
+                "is_correct": true
+            },
+            {
+                "title": "Stockholm",
+                "is_correct": false
+            },
+            {
+                "title": "Valletta",
+                "is_correct": false
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Khartoum is the capital of Sudan."
+    },
+    {
+        "question": "What is the currency of Sudan?",
+        "answers": [
+            {
+                "title": "Sudanese Pound",
+                "is_correct": true
+            },
+            {
+                "title": "Canadian Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Albanian Lek",
+                "is_correct": false
+            },
+            {
+                "title": "Danish Krone",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Sudan is Sudanese Pound."
+    },
+    {
+        "question": "What is the capital of Tanzania?",
+        "answers": [
+            {
+                "title": "Dodoma",
+                "is_correct": true
+            },
+            {
+                "title": "Helsinki",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna",
+                "is_correct": false
+            },
+            {
+                "title": "Nairobi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dodoma is the capital of Tanzania."
+    },
+    {
+        "question": "What is the currency of Tanzania?",
+        "answers": [
+            {
+                "title": "Tanzanian Shilling",
+                "is_correct": true
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Czech Koruna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Tanzania is Tanzanian Shilling."
+    },
+    {
+        "question": "What is the capital of Uganda?",
+        "answers": [
+            {
+                "title": "Kampala",
+                "is_correct": true
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            },
+            {
+                "title": "Kabul",
+                "is_correct": false
+            },
+            {
+                "title": "Jerusalem",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kampala is the capital of Uganda."
+    },
+    {
+        "question": "What is the currency of Uganda?",
+        "answers": [
+            {
+                "title": "Ugandan Shilling",
+                "is_correct": true
+            },
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwaiti Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Zimbabwean Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Uganda is Ugandan Shilling."
+    },
+    {
+        "question": "What is the capital of Zimbabwe?",
+        "answers": [
+            {
+                "title": "Harare",
+                "is_correct": true
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            },
+            {
+                "title": "Skopje",
+                "is_correct": false
+            },
+            {
+                "title": "Kuala Lumpur",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Harare is the capital of Zimbabwe."
+    },
+    {
+        "question": "What is the currency of Zimbabwe?",
+        "answers": [
+            {
+                "title": "Zimbabwean Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Mexican Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Nigerian Naira",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Zimbabwe is Zimbabwean Dollar."
+    },
+    {
+        "question": "What is the capital of Zambia?",
+        "answers": [
+            {
+                "title": "Lusaka",
+                "is_correct": true
+            },
+            {
+                "title": "Abuja",
+                "is_correct": false
+            },
+            {
+                "title": "Tirana",
+                "is_correct": false
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Lusaka is the capital of Zambia."
+    },
+    {
+        "question": "What is the currency of Zambia?",
+        "answers": [
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": true
+            },
+            {
+                "title": "Ugandan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Danish Krone",
+                "is_correct": false
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Zambia is Zambian Kwacha."
+    },
+    {
+        "question": "What is the capital of Angola?",
+        "answers": [
+            {
+                "title": "Luanda",
+                "is_correct": true
+            },
+            {
+                "title": "Sana'a",
+                "is_correct": false
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            },
+            {
+                "title": "Stockholm",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Luanda is the capital of Angola."
+    },
+    {
+        "question": "What is the currency of Angola?",
+        "answers": [
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": true
+            },
+            {
+                "title": "Swedish Krona",
+                "is_correct": false
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Angola is Angolan Kwanza."
+    },
+    {
+        "question": "What is the capital of Ecuador?",
+        "answers": [
+            {
+                "title": "Quito",
+                "is_correct": true
+            },
+            {
+                "title": "Yerevan",
+                "is_correct": false
+            },
+            {
+                "title": "Khartoum",
+                "is_correct": false
+            },
+            {
+                "title": "Ottawa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Quito is the capital of Ecuador."
+    },
+    {
+        "question": "What is the currency of Ecuador?",
+        "answers": [
+            {
+                "title": "US Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Pound Sterling",
+                "is_correct": false
+            },
+            {
+                "title": "Algerian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Ecuador is US Dollar."
+    },
+    {
+        "question": "What is the capital of Bolivia?",
+        "answers": [
+            {
+                "title": "Sucre",
+                "is_correct": true
+            },
+            {
+                "title": "Manila",
+                "is_correct": false
+            },
+            {
+                "title": "Helsinki",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sucre is the capital of Bolivia."
+    },
+    {
+        "question": "What is the currency of Bolivia?",
+        "answers": [
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": true
+            },
+            {
+                "title": "Norwegian Krone",
+                "is_correct": false
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            },
+            {
+                "title": "Serbian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Bolivia is Bolivian Boliviano."
+    },
+    {
+        "question": "What is the capital of Paraguay?",
+        "answers": [
+            {
+                "title": "Asunción",
+                "is_correct": true
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            },
+            {
+                "title": "Tunis",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Asunción is the capital of Paraguay."
+    },
+    {
+        "question": "What is the currency of Paraguay?",
+        "answers": [
+            {
+                "title": "Paraguayan Guaraní",
+                "is_correct": true
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            },
+            {
+                "title": "Peruvian Sol",
+                "is_correct": false
+            },
+            {
+                "title": "Thai Baht",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Paraguay is Paraguayan Guaraní."
+    },
+    {
+        "question": "What is the capital of Uruguay?",
+        "answers": [
+            {
+                "title": "Montevideo",
+                "is_correct": true
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Nairobi",
+                "is_correct": false
+            },
+            {
+                "title": "Colombo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Montevideo is the capital of Uruguay."
+    },
+    {
+        "question": "What is the currency of Uruguay?",
+        "answers": [
+            {
+                "title": "Uruguayan Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            },
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": false
+            },
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Uruguay is Uruguayan Peso."
+    },
+    {
+        "question": "What is the capital of Cambodia?",
+        "answers": [
+            {
+                "title": "Phnom Penh",
+                "is_correct": true
+            },
+            {
+                "title": "Harare",
+                "is_correct": false
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            },
+            {
+                "title": "Rabat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Phnom Penh is the capital of Cambodia."
+    },
+    {
+        "question": "What is the currency of Cambodia?",
+        "answers": [
+            {
+                "title": "Cambodian Riel",
+                "is_correct": true
+            },
+            {
+                "title": "Saudi Riyal",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Cambodia is Cambodian Riel."
+    },
+    {
+        "question": "What is the capital of Laos?",
+        "answers": [
+            {
+                "title": "Vientiane",
+                "is_correct": true
+            },
+            {
+                "title": "Budapest",
+                "is_correct": false
+            },
+            {
+                "title": "Zagreb",
+                "is_correct": false
+            },
+            {
+                "title": "Baku",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vientiane is the capital of Laos."
+    },
+    {
+        "question": "What is the currency of Laos?",
+        "answers": [
+            {
+                "title": "Lao Kip",
+                "is_correct": true
+            },
+            {
+                "title": "Tanzanian Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Moroccan Dirham",
+                "is_correct": false
+            },
+            {
+                "title": "Bosnia-Herzegovina Convertible Mark",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Laos is Lao Kip."
+    },
+    {
+        "question": "What is the capital of Mongolia?",
+        "answers": [
+            {
+                "title": "Ulaanbaatar",
+                "is_correct": true
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            },
+            {
+                "title": "Lima",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ulaanbaatar is the capital of Mongolia."
+    },
+    {
+        "question": "What is the currency of Mongolia?",
+        "answers": [
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": true
+            },
+            {
+                "title": "Georgian Lari",
+                "is_correct": false
+            },
+            {
+                "title": "Thai Baht",
+                "is_correct": false
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Mongolia is Mongolian Tugrik."
+    },
+    {
+        "question": "What is the capital of Kazakhstan?",
+        "answers": [
+            {
+                "title": "Nur-Sultan",
+                "is_correct": true
+            },
+            {
+                "title": "Accra",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C.",
+                "is_correct": false
+            },
+            {
+                "title": "Warsaw",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nur-Sultan is the capital of Kazakhstan."
+    },
+    {
+        "question": "What is the currency of Kazakhstan?",
+        "answers": [
+            {
+                "title": "Kazakhstani Tenge",
+                "is_correct": true
+            },
+            {
+                "title": "Tanzanian Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            },
+            {
+                "title": "Uruguayan Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Kazakhstan is Kazakhstani Tenge."
+    },
+    {
+        "question": "What is the capital of Uzbekistan?",
+        "answers": [
+            {
+                "title": "Tashkent",
+                "is_correct": true
+            },
+            {
+                "title": "Vilnius",
+                "is_correct": false
+            },
+            {
+                "title": "Tehran",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tashkent is the capital of Uzbekistan."
+    },
+    {
+        "question": "What is the currency of Uzbekistan?",
+        "answers": [
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": true
+            },
+            {
+                "title": "Pound Sterling",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Uzbekistan is Uzbekistani Som."
+    },
+    {
+        "question": "What is the capital of Azerbaijan?",
+        "answers": [
+            {
+                "title": "Baku",
+                "is_correct": true
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo",
+                "is_correct": false
+            },
+            {
+                "title": "Kabul",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Baku is the capital of Azerbaijan."
+    },
+    {
+        "question": "What is the currency of Azerbaijan?",
+        "answers": [
+            {
+                "title": "Azerbaijani Manat",
+                "is_correct": true
+            },
+            {
+                "title": "Libyan Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Chinese Yuan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Azerbaijan is Azerbaijani Manat."
+    },
+    {
+        "question": "What is the capital of Georgia?",
+        "answers": [
+            {
+                "title": "Tbilisi",
+                "is_correct": true
+            },
+            {
+                "title": "Tehran",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C.",
+                "is_correct": false
+            },
+            {
+                "title": "Kyiv",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tbilisi is the capital of Georgia."
+    },
+    {
+        "question": "What is the currency of Georgia?",
+        "answers": [
+            {
+                "title": "Georgian Lari",
+                "is_correct": true
+            },
+            {
+                "title": "Algerian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Colombian Peso",
+                "is_correct": false
+            },
+            {
+                "title": "US Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Georgia is Georgian Lari."
+    },
+    {
+        "question": "What is the capital of Armenia?",
+        "answers": [
+            {
+                "title": "Yerevan",
+                "is_correct": true
+            },
+            {
+                "title": "Harare",
+                "is_correct": false
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Kabul",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Yerevan is the capital of Armenia."
+    },
+    {
+        "question": "What is the currency of Armenia?",
+        "answers": [
+            {
+                "title": "Armenian Dram",
+                "is_correct": true
+            },
+            {
+                "title": "Azerbaijani Manat",
+                "is_correct": false
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Armenia is Armenian Dram."
+    },
+    {
+        "question": "What is the capital of Belarus?",
+        "answers": [
+            {
+                "title": "Minsk",
+                "is_correct": true
+            },
+            {
+                "title": "Luxembourg City",
+                "is_correct": false
+            },
+            {
+                "title": "Warsaw",
+                "is_correct": false
+            },
+            {
+                "title": "Pretoria",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Minsk is the capital of Belarus."
+    },
+    {
+        "question": "What is the currency of Belarus?",
+        "answers": [
+            {
+                "title": "Belarusian Ruble",
+                "is_correct": true
+            },
+            {
+                "title": "Yemeni Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": false
+            },
+            {
+                "title": "Chilean Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Belarus is Belarusian Ruble."
+    },
+    {
+        "question": "What is the capital of Slovakia?",
+        "answers": [
+            {
+                "title": "Bratislava",
+                "is_correct": true
+            },
+            {
+                "title": "Doha",
+                "is_correct": false
+            },
+            {
+                "title": "Naypyidaw",
+                "is_correct": false
+            },
+            {
+                "title": "Podgorica",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bratislava is the capital of Slovakia."
+    },
+    {
+        "question": "What is the currency of Slovakia?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Armenian Dram",
+                "is_correct": false
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            },
+            {
+                "title": "Kazakhstani Tenge",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Slovakia is Euro."
+    },
+    {
+        "question": "What is the capital of Slovenia?",
+        "answers": [
+            {
+                "title": "Ljubljana",
+                "is_correct": true
+            },
+            {
+                "title": "Damascus",
+                "is_correct": false
+            },
+            {
+                "title": "Ottawa",
+                "is_correct": false
+            },
+            {
+                "title": "Riga",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ljubljana is the capital of Slovenia."
+    },
+    {
+        "question": "What is the currency of Slovenia?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            },
+            {
+                "title": "Kazakhstani Tenge",
+                "is_correct": false
+            },
+            {
+                "title": "Egyptian Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Slovenia is Euro."
+    },
+    {
+        "question": "What is the capital of Lithuania?",
+        "answers": [
+            {
+                "title": "Vilnius",
+                "is_correct": true
+            },
+            {
+                "title": "Athens",
+                "is_correct": false
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwait City",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vilnius is the capital of Lithuania."
+    },
+    {
+        "question": "What is the currency of Lithuania?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Lithuania is Euro."
+    },
+    {
+        "question": "What is the capital of Latvia?",
+        "answers": [
+            {
+                "title": "Riga",
+                "is_correct": true
+            },
+            {
+                "title": "Helsinki",
+                "is_correct": false
+            },
+            {
+                "title": "Damascus",
+                "is_correct": false
+            },
+            {
+                "title": "Wellington",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Riga is the capital of Latvia."
+    },
+    {
+        "question": "What is the currency of Latvia?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Tanzanian Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Peruvian Sol",
+                "is_correct": false
+            },
+            {
+                "title": "Bosnia-Herzegovina Convertible Mark",
+                "is_correct": false
+            }
+        ],
+        "explanation": "The currency of Latvia is Euro."
+    }
+]

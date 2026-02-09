@@ -1,0 +1,4402 @@
+[
+    {
+        "question": "Who is the author of \"Godan\"?",
+        "answers": [
+            {
+                "title": "Munshi Premchand",
+                "is_correct": true
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Godan is a classic Hindi novel by Premchand."
+    },
+    {
+        "question": "Who is the author of \"Gitanjali\"?",
+        "answers": [
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": true
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tagore received Nobel Prize for Gitanjali."
+    },
+    {
+        "question": "Who is the author of \"Anand Math\"?",
+        "answers": [
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": true
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vande Mataram appears in Anand Math."
+    },
+    {
+        "question": "Who is the author of \"Discovery of India\"?",
+        "answers": [
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": true
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nehru wrote it while in prison."
+    },
+    {
+        "question": "Who is the author of \"India Wins Freedom\"?",
+        "answers": [
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": true
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiographical account of freedom struggle."
+    },
+    {
+        "question": "Who is the author of \"My Experiments with Truth\"?",
+        "answers": [
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": true
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gandhi's autobiography."
+    },
+    {
+        "question": "Who is the author of \"War and Peace\"?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic novel by Russian writer Tolstoy."
+    },
+    {
+        "question": "Who is the author of \"1984\"?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by George Orwell."
+    },
+    {
+        "question": "Who is the author of \"Pride and Prejudice\"?",
+        "answers": [
+            {
+                "title": "Jane Austen",
+                "is_correct": true
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic romance by Jane Austen."
+    },
+    {
+        "question": "Who is the author of \"Romeo and Juliet\"?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tragic play by Shakespeare."
+    },
+    {
+        "question": "Who is the author of \"Hamlet\"?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous tragedy by Shakespeare."
+    },
+    {
+        "question": "Who is the author of \"The Great Gatsby\"?",
+        "answers": [
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": true
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American classic set in Jazz Age."
+    },
+    {
+        "question": "Who is the author of \"To Kill a Mockingbird\"?",
+        "answers": [
+            {
+                "title": "Harper Lee",
+                "is_correct": true
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Harper Lee's only published novel."
+    },
+    {
+        "question": "Who is the author of \"Harry Potter series\"?",
+        "answers": [
+            {
+                "title": "J.K. Rowling",
+                "is_correct": true
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy series by J.K. Rowling."
+    },
+    {
+        "question": "Who is the author of \"The Alchemist\"?",
+        "answers": [
+            {
+                "title": "Paulo Coelho",
+                "is_correct": true
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Brazilian author Coelho."
+    },
+    {
+        "question": "Who is the author of \"One Hundred Years of Solitude\"?",
+        "answers": [
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": true
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Magical realism novel by Márquez."
+    },
+    {
+        "question": "Who is the author of \"Crime and Punishment\"?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian literary classic."
+    },
+    {
+        "question": "Who is the author of \"Anna Karenina\"?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tolstoy's novel."
+    },
+    {
+        "question": "Who is the author of \"Wings of Fire\"?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiography of Dr Kalam."
+    },
+    {
+        "question": "Who is the author of \"Ignited Minds\"?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Book by former President Kalam."
+    },
+    {
+        "question": "Who is the author of \"Midnight's Children\"?",
+        "answers": [
+            {
+                "title": "Salman Rushdie",
+                "is_correct": true
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Rushdie."
+    },
+    {
+        "question": "Who is the author of \"The White Tiger\"?",
+        "answers": [
+            {
+                "title": "Aravind Adiga",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Adiga."
+    },
+    {
+        "question": "Who is the author of \"A Suitable Boy\"?",
+        "answers": [
+            {
+                "title": "Vikram Seth",
+                "is_correct": true
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Long novel by Vikram Seth."
+    },
+    {
+        "question": "Who is the author of \"Train to Pakistan\"?",
+        "answers": [
+            {
+                "title": "Khushwant Singh",
+                "is_correct": true
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel on Partition by Khushwant Singh."
+    },
+    {
+        "question": "Who is the author of \"The Guide\"?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous novel by R.K. Narayan."
+    },
+    {
+        "question": "Who is the author of \"Malgudi Days\"?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Stories set in Malgudi by R.K. Narayan."
+    },
+    {
+        "question": "Who is the author of \"The God of Small Things\"?",
+        "answers": [
+            {
+                "title": "Arundhati Roy",
+                "is_correct": true
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Arundhati Roy."
+    },
+    {
+        "question": "Who is the author of \"Interpreter of Maladies\"?",
+        "answers": [
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": true
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pulitzer winner by Jhumpa Lahiri."
+    },
+    {
+        "question": "Who is the author of \"Ramcharitmanas\"?",
+        "answers": [
+            {
+                "title": "Tulsidas",
+                "is_correct": true
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Tulsidas."
+    },
+    {
+        "question": "Who is the author of \"Mahabharata\"?",
+        "answers": [
+            {
+                "title": "Vyasa",
+                "is_correct": true
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Indian epic attributed to Vyasa."
+    },
+    {
+        "question": "Who is the author of \"Arthashastra\"?",
+        "answers": [
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": true
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient treatise on statecraft."
+    },
+    {
+        "question": "Who is the author of \"Panchatantra\"?",
+        "answers": [
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": true
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Indian fables."
+    },
+    {
+        "question": "Who is the author of \"Mein Kampf\"?",
+        "answers": [
+            {
+                "title": "Adolf Hitler",
+                "is_correct": true
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hitler's autobiographical manifesto."
+    },
+    {
+        "question": "Who is the author of \"The Republic\"?",
+        "answers": [
+            {
+                "title": "Plato",
+                "is_correct": true
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philosophical dialogue by Plato."
+    },
+    {
+        "question": "Who is the author of \"Oliver Twist\"?",
+        "answers": [
+            {
+                "title": "Charles Dickens",
+                "is_correct": true
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Charles Dickens."
+    },
+    {
+        "question": "Who is the author of \"Jane Eyre\"?",
+        "answers": [
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": true
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Charlotte Brontë."
+    },
+    {
+        "question": "Who is the author of \"Wuthering Heights\"?",
+        "answers": [
+            {
+                "title": "Emily Brontë",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Emily Brontë."
+    },
+    {
+        "question": "Who is the author of \"Dracula\"?",
+        "answers": [
+            {
+                "title": "Bram Stoker",
+                "is_correct": true
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gothic novel by Bram Stoker."
+    },
+    {
+        "question": "Who is the author of \"Frankenstein\"?",
+        "answers": [
+            {
+                "title": "Mary Shelley",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gothic novel by Mary Shelley."
+    },
+    {
+        "question": "Who is the author of \"Moby-Dick\"?",
+        "answers": [
+            {
+                "title": "Herman Melville",
+                "is_correct": true
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American novel by Melville."
+    },
+    {
+        "question": "Who is the author of \"Uncle Tom's Cabin\"?",
+        "answers": [
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": true
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Anti-slavery novel by Stowe."
+    },
+    {
+        "question": "Who is the author of \"The Catcher in the Rye\"?",
+        "answers": [
+            {
+                "title": "J.D. Salinger",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by J.D. Salinger."
+    },
+    {
+        "question": "Who is the author of \"Lord of the Flies\"?",
+        "answers": [
+            {
+                "title": "William Golding",
+                "is_correct": true
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by William Golding."
+    },
+    {
+        "question": "Who is the author of \"Brave New World\"?",
+        "answers": [
+            {
+                "title": "Aldous Huxley",
+                "is_correct": true
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by Huxley."
+    },
+    {
+        "question": "Who is the author of \"Animal Farm\"?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Allegorical novella by Orwell."
+    },
+    {
+        "question": "Who is the author of \"The Hobbit\"?",
+        "answers": [
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": true
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy novel by Tolkien."
+    },
+    {
+        "question": "Who is the author of \"The Lord of the Rings\"?",
+        "answers": [
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": true
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic fantasy by Tolkien."
+    },
+    {
+        "question": "Who is the author of \"Don Quixote\"?",
+        "answers": [
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": true
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Spanish classic by Cervantes."
+    },
+    {
+        "question": "Who is the author of \"The Odyssey\"?",
+        "answers": [
+            {
+                "title": "Homer",
+                "is_correct": true
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Greek epic attributed to Homer."
+    },
+    {
+        "question": "Who is the author of \"The Iliad\"?",
+        "answers": [
+            {
+                "title": "Homer",
+                "is_correct": true
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Greek epic by Homer."
+    },
+    {
+        "question": "Who is the author of \"Divine Comedy\"?",
+        "answers": [
+            {
+                "title": "Dante Alighieri",
+                "is_correct": true
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Dante."
+    },
+    {
+        "question": "Who is the author of \"Canterbury Tales\"?",
+        "answers": [
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": true
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Collection of stories by Chaucer."
+    },
+    {
+        "question": "Who is the author of \"Robinson Crusoe\"?",
+        "answers": [
+            {
+                "title": "Daniel Defoe",
+                "is_correct": true
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Daniel Defoe."
+    },
+    {
+        "question": "Who is the author of \"Gulliver's Travels\"?",
+        "answers": [
+            {
+                "title": "Jonathan Swift",
+                "is_correct": true
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Satire by Jonathan Swift."
+    },
+    {
+        "question": "Who is the author of \"Treasure Island\"?",
+        "answers": [
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": true
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Adventure novel by Stevenson."
+    },
+    {
+        "question": "Who is the author of \"Dr Jekyll and Mr Hyde\"?",
+        "answers": [
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": true
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novella by Stevenson."
+    },
+    {
+        "question": "Who is the author of \"The Picture of Dorian Gray\"?",
+        "answers": [
+            {
+                "title": "Oscar Wilde",
+                "is_correct": true
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Oscar Wilde."
+    },
+    {
+        "question": "Who is the author of \"The Time Machine\"?",
+        "answers": [
+            {
+                "title": "H.G. Wells",
+                "is_correct": true
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction by H.G. Wells."
+    },
+    {
+        "question": "Who is the author of \"The Invisible Man\"?",
+        "answers": [
+            {
+                "title": "H.G. Wells",
+                "is_correct": true
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction novel by Wells."
+    },
+    {
+        "question": "Who is the author of \"Around the World in Eighty Days\"?",
+        "answers": [
+            {
+                "title": "Jules Verne",
+                "is_correct": true
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Adventure novel by Jules Verne."
+    },
+    {
+        "question": "Who is the author of \"Twenty Thousand Leagues Under the Sea\"?",
+        "answers": [
+            {
+                "title": "Jules Verne",
+                "is_correct": true
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction by Jules Verne."
+    },
+    {
+        "question": "Who is the author of \"Les Misérables\"?",
+        "answers": [
+            {
+                "title": "Victor Hugo",
+                "is_correct": true
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "French novel by Victor Hugo."
+    },
+    {
+        "question": "Who is the author of \"The Hunchback of Notre-Dame\"?",
+        "answers": [
+            {
+                "title": "Victor Hugo",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Victor Hugo."
+    },
+    {
+        "question": "Who is the author of \"Madame Bovary\"?",
+        "answers": [
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": true
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "French novel by Flaubert."
+    },
+    {
+        "question": "Who is the author of \"The Stranger\"?",
+        "answers": [
+            {
+                "title": "Albert Camus",
+                "is_correct": true
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philosophical novel by Camus."
+    },
+    {
+        "question": "Who is the author of \"The Little Prince\"?",
+        "answers": [
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": true
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous French novella."
+    },
+    {
+        "question": "Who is the author of \"Doctor Zhivago\"?",
+        "answers": [
+            {
+                "title": "Boris Pasternak",
+                "is_correct": true
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian novel by Pasternak."
+    },
+    {
+        "question": "Who is the author of \"One Day in the Life of Ivan Denisovich\"?",
+        "answers": [
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": true
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Solzhenitsyn."
+    },
+    {
+        "question": "Who is the author of \"The Brothers Karamazov\"?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Dostoevsky."
+    },
+    {
+        "question": "Who is the author of \"The Idiot\"?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Dostoevsky."
+    },
+    {
+        "question": "Who is the author of \"Dead Souls\"?",
+        "answers": [
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": true
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Nikolai Gogol."
+    },
+    {
+        "question": "Who is the author of \"Fathers and Sons\"?",
+        "answers": [
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": true
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian novel by Turgenev."
+    },
+    {
+        "question": "Who is the author of \"The Tale of Genji\"?",
+        "answers": [
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": true
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic Japanese work."
+    },
+    {
+        "question": "Who is the author of \"Dream of the Red Chamber\"?",
+        "answers": [
+            {
+                "title": "Cao Xueqin",
+                "is_correct": true
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Chinese classic novel."
+    },
+    {
+        "question": "Who is the author of \"The Art of War\"?",
+        "answers": [
+            {
+                "title": "Sun Tzu",
+                "is_correct": true
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Chinese military treatise."
+    },
+    {
+        "question": "Who is the author of \"Analects\"?",
+        "answers": [
+            {
+                "title": "Confucius",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sayings of Confucius."
+    },
+    {
+        "question": "Who is the author of \"The Kite Runner\"?",
+        "answers": [
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": true
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Afghan-American author."
+    },
+    {
+        "question": "Who is the author of \"A Thousand Splendid Suns\"?",
+        "answers": [
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": true
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Khaled Hosseini."
+    },
+    {
+        "question": "Who is the author of \"The Da Vinci Code\"?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Dan Brown."
+    },
+    {
+        "question": "Who is the author of \"Angels and Demons\"?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Dan Brown."
+    },
+    {
+        "question": "Who is the author of \"The Hunger Games\"?",
+        "answers": [
+            {
+                "title": "Suzanne Collins",
+                "is_correct": true
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian trilogy by Collins."
+    },
+    {
+        "question": "Who is the author of \"Twilight\"?",
+        "answers": [
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": true
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vampire romance series by Meyer."
+    },
+    {
+        "question": "Who is the author of \"The Fault in Our Stars\"?",
+        "answers": [
+            {
+                "title": "John Green",
+                "is_correct": true
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Young adult novel by John Green."
+    },
+    {
+        "question": "Who is the author of \"Gone Girl\"?",
+        "answers": [
+            {
+                "title": "Gillian Flynn",
+                "is_correct": true
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Gillian Flynn."
+    },
+    {
+        "question": "Who is the author of \"The Da Vinci Code\"?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Dan Brown."
+    },
+    {
+        "question": "Who is the author of \"Godan\"?",
+        "answers": [
+            {
+                "title": "Munshi Premchand",
+                "is_correct": true
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Godan is a classic Hindi novel by Premchand."
+    },
+    {
+        "question": "Who is the author of \"Gitanjali\"?",
+        "answers": [
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": true
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tagore received Nobel Prize for Gitanjali."
+    },
+    {
+        "question": "Who is the author of \"Anand Math\"?",
+        "answers": [
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": true
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vande Mataram appears in Anand Math."
+    },
+    {
+        "question": "Who is the author of \"Discovery of India\"?",
+        "answers": [
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": true
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nehru wrote it while in prison."
+    },
+    {
+        "question": "Who is the author of \"India Wins Freedom\"?",
+        "answers": [
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": true
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiographical account of freedom struggle."
+    },
+    {
+        "question": "Who is the author of \"My Experiments with Truth\"?",
+        "answers": [
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": true
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gandhi's autobiography."
+    },
+    {
+        "question": "Who is the author of \"War and Peace\"?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic novel by Russian writer Tolstoy."
+    },
+    {
+        "question": "Who is the author of \"1984\"?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by George Orwell."
+    },
+    {
+        "question": "Who is the author of \"Pride and Prejudice\"?",
+        "answers": [
+            {
+                "title": "Jane Austen",
+                "is_correct": true
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic romance by Jane Austen."
+    },
+    {
+        "question": "Who is the author of \"Romeo and Juliet\"?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tragic play by Shakespeare."
+    },
+    {
+        "question": "Who is the author of \"Hamlet\"?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous tragedy by Shakespeare."
+    },
+    {
+        "question": "Who is the author of \"The Great Gatsby\"?",
+        "answers": [
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": true
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American classic set in Jazz Age."
+    },
+    {
+        "question": "Who is the author of \"To Kill a Mockingbird\"?",
+        "answers": [
+            {
+                "title": "Harper Lee",
+                "is_correct": true
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Harper Lee's only published novel."
+    },
+    {
+        "question": "Who is the author of \"Harry Potter series\"?",
+        "answers": [
+            {
+                "title": "J.K. Rowling",
+                "is_correct": true
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy series by J.K. Rowling."
+    },
+    {
+        "question": "Who is the author of \"The Alchemist\"?",
+        "answers": [
+            {
+                "title": "Paulo Coelho",
+                "is_correct": true
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Brazilian author Coelho."
+    },
+    {
+        "question": "Who is the author of \"One Hundred Years of Solitude\"?",
+        "answers": [
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": true
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Magical realism novel by Márquez."
+    },
+    {
+        "question": "Who is the author of \"Crime and Punishment\"?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian literary classic."
+    },
+    {
+        "question": "Who is the author of \"Anna Karenina\"?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tolstoy's novel."
+    },
+    {
+        "question": "Who is the author of \"Wings of Fire\"?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiography of Dr Kalam."
+    },
+    {
+        "question": "Who is the author of \"Ignited Minds\"?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Book by former President Kalam."
+    },
+    {
+        "question": "Who is the author of \"Midnight's Children\"?",
+        "answers": [
+            {
+                "title": "Salman Rushdie",
+                "is_correct": true
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Rushdie."
+    },
+    {
+        "question": "Who is the author of \"The White Tiger\"?",
+        "answers": [
+            {
+                "title": "Aravind Adiga",
+                "is_correct": true
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Adiga."
+    },
+    {
+        "question": "Who is the author of \"A Suitable Boy\"?",
+        "answers": [
+            {
+                "title": "Vikram Seth",
+                "is_correct": true
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Long novel by Vikram Seth."
+    },
+    {
+        "question": "Who is the author of \"Train to Pakistan\"?",
+        "answers": [
+            {
+                "title": "Khushwant Singh",
+                "is_correct": true
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel on Partition by Khushwant Singh."
+    },
+    {
+        "question": "Who is the author of \"The Guide\"?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous novel by R.K. Narayan."
+    },
+    {
+        "question": "Who is the author of \"Malgudi Days\"?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Stories set in Malgudi by R.K. Narayan."
+    },
+    {
+        "question": "Who is the author of \"The God of Small Things\"?",
+        "answers": [
+            {
+                "title": "Arundhati Roy",
+                "is_correct": true
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Arundhati Roy."
+    },
+    {
+        "question": "Who is the author of \"Interpreter of Maladies\"?",
+        "answers": [
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": true
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pulitzer winner by Jhumpa Lahiri."
+    },
+    {
+        "question": "Who is the author of \"Ramcharitmanas\"?",
+        "answers": [
+            {
+                "title": "Tulsidas",
+                "is_correct": true
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Tulsidas."
+    },
+    {
+        "question": "Who is the author of \"Mahabharata\"?",
+        "answers": [
+            {
+                "title": "Vyasa",
+                "is_correct": true
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Indian epic attributed to Vyasa."
+    },
+    {
+        "question": "Who is the author of \"Arthashastra\"?",
+        "answers": [
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": true
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient treatise on statecraft."
+    },
+    {
+        "question": "Who is the author of \"Panchatantra\"?",
+        "answers": [
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": true
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Indian fables."
+    },
+    {
+        "question": "Who is the author of \"Mein Kampf\"?",
+        "answers": [
+            {
+                "title": "Adolf Hitler",
+                "is_correct": true
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hitler's autobiographical manifesto."
+    },
+    {
+        "question": "Who is the author of \"The Republic\"?",
+        "answers": [
+            {
+                "title": "Plato",
+                "is_correct": true
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philosophical dialogue by Plato."
+    },
+    {
+        "question": "Who is the author of \"Oliver Twist\"?",
+        "answers": [
+            {
+                "title": "Charles Dickens",
+                "is_correct": true
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Charles Dickens."
+    },
+    {
+        "question": "Who is the author of \"Jane Eyre\"?",
+        "answers": [
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": true
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Charlotte Brontë."
+    },
+    {
+        "question": "Who is the author of \"Wuthering Heights\"?",
+        "answers": [
+            {
+                "title": "Emily Brontë",
+                "is_correct": true
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Emily Brontë."
+    },
+    {
+        "question": "Who is the author of \"Dracula\"?",
+        "answers": [
+            {
+                "title": "Bram Stoker",
+                "is_correct": true
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gothic novel by Bram Stoker."
+    },
+    {
+        "question": "Who is the author of \"Frankenstein\"?",
+        "answers": [
+            {
+                "title": "Mary Shelley",
+                "is_correct": true
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gothic novel by Mary Shelley."
+    },
+    {
+        "question": "Who is the author of \"Moby-Dick\"?",
+        "answers": [
+            {
+                "title": "Herman Melville",
+                "is_correct": true
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American novel by Melville."
+    },
+    {
+        "question": "Who is the author of \"Uncle Tom's Cabin\"?",
+        "answers": [
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": true
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Anti-slavery novel by Stowe."
+    },
+    {
+        "question": "Who is the author of \"The Catcher in the Rye\"?",
+        "answers": [
+            {
+                "title": "J.D. Salinger",
+                "is_correct": true
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by J.D. Salinger."
+    },
+    {
+        "question": "Who is the author of \"Lord of the Flies\"?",
+        "answers": [
+            {
+                "title": "William Golding",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by William Golding."
+    },
+    {
+        "question": "Who is the author of \"Brave New World\"?",
+        "answers": [
+            {
+                "title": "Aldous Huxley",
+                "is_correct": true
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by Huxley."
+    },
+    {
+        "question": "Who is the author of \"Animal Farm\"?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Allegorical novella by Orwell."
+    },
+    {
+        "question": "Who is the author of \"The Hobbit\"?",
+        "answers": [
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": true
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy novel by Tolkien."
+    },
+    {
+        "question": "Who is the author of \"The Lord of the Rings\"?",
+        "answers": [
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": true
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic fantasy by Tolkien."
+    },
+    {
+        "question": "Who is the author of \"Don Quixote\"?",
+        "answers": [
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Spanish classic by Cervantes."
+    },
+    {
+        "question": "Who is the author of \"The Odyssey\"?",
+        "answers": [
+            {
+                "title": "Homer",
+                "is_correct": true
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Greek epic attributed to Homer."
+    },
+    {
+        "question": "Who is the author of \"The Iliad\"?",
+        "answers": [
+            {
+                "title": "Homer",
+                "is_correct": true
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Greek epic by Homer."
+    },
+    {
+        "question": "Who is the author of \"Divine Comedy\"?",
+        "answers": [
+            {
+                "title": "Dante Alighieri",
+                "is_correct": true
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Dante."
+    },
+    {
+        "question": "Who is the author of \"Canterbury Tales\"?",
+        "answers": [
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": true
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Collection of stories by Chaucer."
+    },
+    {
+        "question": "Who is the author of \"Robinson Crusoe\"?",
+        "answers": [
+            {
+                "title": "Daniel Defoe",
+                "is_correct": true
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Daniel Defoe."
+    },
+    {
+        "question": "Who is the author of \"Gulliver's Travels\"?",
+        "answers": [
+            {
+                "title": "Jonathan Swift",
+                "is_correct": true
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Satire by Jonathan Swift."
+    },
+    {
+        "question": "Who is the author of \"Treasure Island\"?",
+        "answers": [
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": true
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Adventure novel by Stevenson."
+    },
+    {
+        "question": "Who is the author of \"Dr Jekyll and Mr Hyde\"?",
+        "answers": [
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": true
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novella by Stevenson."
+    },
+    {
+        "question": "Who is the author of \"The Picture of Dorian Gray\"?",
+        "answers": [
+            {
+                "title": "Oscar Wilde",
+                "is_correct": true
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Oscar Wilde."
+    },
+    {
+        "question": "Who is the author of \"The Time Machine\"?",
+        "answers": [
+            {
+                "title": "H.G. Wells",
+                "is_correct": true
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction by H.G. Wells."
+    },
+    {
+        "question": "Who is the author of \"The Invisible Man\"?",
+        "answers": [
+            {
+                "title": "H.G. Wells",
+                "is_correct": true
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction novel by Wells."
+    },
+    {
+        "question": "Who is the author of \"Around the World in Eighty Days\"?",
+        "answers": [
+            {
+                "title": "Jules Verne",
+                "is_correct": true
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Adventure novel by Jules Verne."
+    },
+    {
+        "question": "Who is the author of \"Twenty Thousand Leagues Under the Sea\"?",
+        "answers": [
+            {
+                "title": "Jules Verne",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction by Jules Verne."
+    },
+    {
+        "question": "Who is the author of \"Les Misérables\"?",
+        "answers": [
+            {
+                "title": "Victor Hugo",
+                "is_correct": true
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            }
+        ],
+        "explanation": "French novel by Victor Hugo."
+    },
+    {
+        "question": "Who is the author of \"The Hunchback of Notre-Dame\"?",
+        "answers": [
+            {
+                "title": "Victor Hugo",
+                "is_correct": true
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Victor Hugo."
+    },
+    {
+        "question": "Who is the author of \"Madame Bovary\"?",
+        "answers": [
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": true
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "French novel by Flaubert."
+    },
+    {
+        "question": "Who is the author of \"The Stranger\"?",
+        "answers": [
+            {
+                "title": "Albert Camus",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philosophical novel by Camus."
+    },
+    {
+        "question": "Who is the author of \"The Little Prince\"?",
+        "answers": [
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": true
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous French novella."
+    },
+    {
+        "question": "Who is the author of \"Doctor Zhivago\"?",
+        "answers": [
+            {
+                "title": "Boris Pasternak",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian novel by Pasternak."
+    },
+    {
+        "question": "Who is the author of \"One Day in the Life of Ivan Denisovich\"?",
+        "answers": [
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Solzhenitsyn."
+    },
+    {
+        "question": "Who is the author of \"The Brothers Karamazov\"?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Dostoevsky."
+    },
+    {
+        "question": "Who is the author of \"The Idiot\"?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Dostoevsky."
+    },
+    {
+        "question": "Who is the author of \"Dead Souls\"?",
+        "answers": [
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": true
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Nikolai Gogol."
+    },
+    {
+        "question": "Who is the author of \"Fathers and Sons\"?",
+        "answers": [
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": true
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian novel by Turgenev."
+    },
+    {
+        "question": "Who is the author of \"The Tale of Genji\"?",
+        "answers": [
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": true
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic Japanese work."
+    },
+    {
+        "question": "Who is the author of \"Dream of the Red Chamber\"?",
+        "answers": [
+            {
+                "title": "Cao Xueqin",
+                "is_correct": true
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Chinese classic novel."
+    },
+    {
+        "question": "Who is the author of \"The Art of War\"?",
+        "answers": [
+            {
+                "title": "Sun Tzu",
+                "is_correct": true
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Chinese military treatise."
+    },
+    {
+        "question": "Who is the author of \"Analects\"?",
+        "answers": [
+            {
+                "title": "Confucius",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sayings of Confucius."
+    },
+    {
+        "question": "Who is the author of \"The Kite Runner\"?",
+        "answers": [
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": true
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Afghan-American author."
+    },
+    {
+        "question": "Who is the author of \"A Thousand Splendid Suns\"?",
+        "answers": [
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Khaled Hosseini."
+    },
+    {
+        "question": "Who is the author of \"The Da Vinci Code\"?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Dan Brown."
+    },
+    {
+        "question": "Who is the author of \"Angels and Demons\"?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Dan Brown."
+    },
+    {
+        "question": "Who is the author of \"The Hunger Games\"?",
+        "answers": [
+            {
+                "title": "Suzanne Collins",
+                "is_correct": true
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian trilogy by Collins."
+    },
+    {
+        "question": "Who is the author of \"Twilight\"?",
+        "answers": [
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": true
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vampire romance series by Meyer."
+    },
+    {
+        "question": "Who is the author of \"The Fault in Our Stars\"?",
+        "answers": [
+            {
+                "title": "John Green",
+                "is_correct": true
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Young adult novel by John Green."
+    },
+    {
+        "question": "Who is the author of \"Gone Girl\"?",
+        "answers": [
+            {
+                "title": "Gillian Flynn",
+                "is_correct": true
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Gillian Flynn."
+    },
+    {
+        "question": "Who is the author of \"The Da Vinci Code\"?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Dan Brown."
+    },
+    {
+        "question": "Who is the author of \"Godan\"?",
+        "answers": [
+            {
+                "title": "Munshi Premchand",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Godan is a classic Hindi novel by Premchand."
+    },
+    {
+        "question": "Who is the author of \"Gitanjali\"?",
+        "answers": [
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": true
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tagore received Nobel Prize for Gitanjali."
+    },
+    {
+        "question": "Who is the author of \"Anand Math\"?",
+        "answers": [
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": true
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vande Mataram appears in Anand Math."
+    },
+    {
+        "question": "Who is the author of \"Discovery of India\"?",
+        "answers": [
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nehru wrote it while in prison."
+    },
+    {
+        "question": "Who is the author of \"India Wins Freedom\"?",
+        "answers": [
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": true
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiographical account of freedom struggle."
+    },
+    {
+        "question": "Who is the author of \"My Experiments with Truth\"?",
+        "answers": [
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": true
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gandhi's autobiography."
+    },
+    {
+        "question": "Who is the author of \"War and Peace\"?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic novel by Russian writer Tolstoy."
+    },
+    {
+        "question": "Who is the author of \"1984\"?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by George Orwell."
+    },
+    {
+        "question": "Who is the author of \"Pride and Prejudice\"?",
+        "answers": [
+            {
+                "title": "Jane Austen",
+                "is_correct": true
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic romance by Jane Austen."
+    },
+    {
+        "question": "Who is the author of \"Romeo and Juliet\"?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tragic play by Shakespeare."
+    },
+    {
+        "question": "Who is the author of \"Hamlet\"?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous tragedy by Shakespeare."
+    },
+    {
+        "question": "Who is the author of \"The Great Gatsby\"?",
+        "answers": [
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": true
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American classic set in Jazz Age."
+    },
+    {
+        "question": "Who is the author of \"To Kill a Mockingbird\"?",
+        "answers": [
+            {
+                "title": "Harper Lee",
+                "is_correct": true
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Harper Lee's only published novel."
+    },
+    {
+        "question": "Who is the author of \"Harry Potter series\"?",
+        "answers": [
+            {
+                "title": "J.K. Rowling",
+                "is_correct": true
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy series by J.K. Rowling."
+    },
+    {
+        "question": "Who is the author of \"The Alchemist\"?",
+        "answers": [
+            {
+                "title": "Paulo Coelho",
+                "is_correct": true
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Brazilian author Coelho."
+    },
+    {
+        "question": "Who is the author of \"One Hundred Years of Solitude\"?",
+        "answers": [
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": true
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Magical realism novel by Márquez."
+    },
+    {
+        "question": "Who is the author of \"Crime and Punishment\"?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian literary classic."
+    },
+    {
+        "question": "Who is the author of \"Anna Karenina\"?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tolstoy's novel."
+    },
+    {
+        "question": "Who is the author of \"Wings of Fire\"?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiography of Dr Kalam."
+    },
+    {
+        "question": "Who is the author of \"Ignited Minds\"?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Book by former President Kalam."
+    },
+    {
+        "question": "Who is the author of \"Midnight's Children\"?",
+        "answers": [
+            {
+                "title": "Salman Rushdie",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Rushdie."
+    },
+    {
+        "question": "Who is the author of \"The White Tiger\"?",
+        "answers": [
+            {
+                "title": "Aravind Adiga",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Adiga."
+    },
+    {
+        "question": "Who is the author of \"A Suitable Boy\"?",
+        "answers": [
+            {
+                "title": "Vikram Seth",
+                "is_correct": true
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Long novel by Vikram Seth."
+    },
+    {
+        "question": "Who is the author of \"Train to Pakistan\"?",
+        "answers": [
+            {
+                "title": "Khushwant Singh",
+                "is_correct": true
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel on Partition by Khushwant Singh."
+    },
+    {
+        "question": "Who is the author of \"The Guide\"?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous novel by R.K. Narayan."
+    },
+    {
+        "question": "Who is the author of \"Malgudi Days\"?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Stories set in Malgudi by R.K. Narayan."
+    },
+    {
+        "question": "Who is the author of \"The God of Small Things\"?",
+        "answers": [
+            {
+                "title": "Arundhati Roy",
+                "is_correct": true
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Arundhati Roy."
+    },
+    {
+        "question": "Who is the author of \"Interpreter of Maladies\"?",
+        "answers": [
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": true
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pulitzer winner by Jhumpa Lahiri."
+    },
+    {
+        "question": "Who is the author of \"Ramcharitmanas\"?",
+        "answers": [
+            {
+                "title": "Tulsidas",
+                "is_correct": true
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Tulsidas."
+    },
+    {
+        "question": "Who is the author of \"Mahabharata\"?",
+        "answers": [
+            {
+                "title": "Vyasa",
+                "is_correct": true
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Indian epic attributed to Vyasa."
+    }
+]

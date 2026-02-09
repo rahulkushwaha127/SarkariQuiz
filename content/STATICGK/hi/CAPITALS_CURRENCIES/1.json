@@ -1,0 +1,4402 @@
+[
+    {
+        "question": "Japan की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Tokyo",
+                "is_correct": true
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Pristina",
+                "is_correct": false
+            },
+            {
+                "title": "Santiago",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tokyo Japan की राजधानी है।"
+    },
+    {
+        "question": "Japan की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Japanese Yen",
+                "is_correct": true
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Danish Krone",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Japan की मुद्रा Japanese Yen है।"
+    },
+    {
+        "question": "Australia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Canberra",
+                "is_correct": true
+            },
+            {
+                "title": "Algiers",
+                "is_correct": false
+            },
+            {
+                "title": "Baghdad",
+                "is_correct": false
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Canberra Australia की राजधानी है।"
+    },
+    {
+        "question": "Australia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Australian Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Australia की मुद्रा Australian Dollar है।"
+    },
+    {
+        "question": "Brazil की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Brasília",
+                "is_correct": true
+            },
+            {
+                "title": "Addis Ababa",
+                "is_correct": false
+            },
+            {
+                "title": "New Delhi",
+                "is_correct": false
+            },
+            {
+                "title": "Phnom Penh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Brasília Brazil की राजधानी है।"
+    },
+    {
+        "question": "Brazil की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Brazilian Real",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            },
+            {
+                "title": "Libyan Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Brazil की मुद्रा Brazilian Real है।"
+    },
+    {
+        "question": "United Kingdom की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "London",
+                "is_correct": true
+            },
+            {
+                "title": "Tehran",
+                "is_correct": false
+            },
+            {
+                "title": "Budapest",
+                "is_correct": false
+            },
+            {
+                "title": "Havana",
+                "is_correct": false
+            }
+        ],
+        "explanation": "London United Kingdom की राजधानी है।"
+    },
+    {
+        "question": "United Kingdom की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Pound Sterling",
+                "is_correct": true
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            },
+            {
+                "title": "Iranian Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Cuban Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "United Kingdom की मुद्रा Pound Sterling है।"
+    },
+    {
+        "question": "Germany की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Berlin",
+                "is_correct": true
+            },
+            {
+                "title": "Manama",
+                "is_correct": false
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            },
+            {
+                "title": "Baku",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Berlin Germany की राजधानी है।"
+    },
+    {
+        "question": "Germany की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Lao Kip",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Germany की मुद्रा Euro है।"
+    },
+    {
+        "question": "France की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Paris",
+                "is_correct": true
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwait City",
+                "is_correct": false
+            },
+            {
+                "title": "Algiers",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Paris France की राजधानी है।"
+    },
+    {
+        "question": "France की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Georgian Lari",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "France की मुद्रा Euro है।"
+    },
+    {
+        "question": "India की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "New Delhi",
+                "is_correct": true
+            },
+            {
+                "title": "Sarajevo",
+                "is_correct": false
+            },
+            {
+                "title": "Pristina",
+                "is_correct": false
+            },
+            {
+                "title": "Harare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "New Delhi India की राजधानी है।"
+    },
+    {
+        "question": "India की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Indian Rupee",
+                "is_correct": true
+            },
+            {
+                "title": "Tunisian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Cuban Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Euro",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India की मुद्रा Indian Rupee है।"
+    },
+    {
+        "question": "China की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Beijing",
+                "is_correct": true
+            },
+            {
+                "title": "Athens",
+                "is_correct": false
+            },
+            {
+                "title": "Budapest",
+                "is_correct": false
+            },
+            {
+                "title": "Seoul",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Beijing China की राजधानी है।"
+    },
+    {
+        "question": "China की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Chinese Yuan",
+                "is_correct": true
+            },
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": false
+            },
+            {
+                "title": "Myanmar Kyat",
+                "is_correct": false
+            },
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": false
+            }
+        ],
+        "explanation": "China की मुद्रा Chinese Yuan है।"
+    },
+    {
+        "question": "Russia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Moscow",
+                "is_correct": true
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            },
+            {
+                "title": "Phnom Penh",
+                "is_correct": false
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Moscow Russia की राजधानी है।"
+    },
+    {
+        "question": "Russia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Russian Ruble",
+                "is_correct": true
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Venezuelan Bolívar",
+                "is_correct": false
+            },
+            {
+                "title": "Swedish Krona",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russia की मुद्रा Russian Ruble है।"
+    },
+    {
+        "question": "United States की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Washington D.C.",
+                "is_correct": true
+            },
+            {
+                "title": "Warsaw",
+                "is_correct": false
+            },
+            {
+                "title": "Moscow",
+                "is_correct": false
+            },
+            {
+                "title": "Rome",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Washington D.C. United States की राजधानी है।"
+    },
+    {
+        "question": "United States की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "US Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            },
+            {
+                "title": "Ugandan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": false
+            }
+        ],
+        "explanation": "United States की मुद्रा US Dollar है।"
+    },
+    {
+        "question": "Canada की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Ottawa",
+                "is_correct": true
+            },
+            {
+                "title": "Sana'a",
+                "is_correct": false
+            },
+            {
+                "title": "Riga",
+                "is_correct": false
+            },
+            {
+                "title": "Lisbon",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ottawa Canada की राजधानी है।"
+    },
+    {
+        "question": "Canada की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Canadian Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": false
+            },
+            {
+                "title": "UAE Dirham",
+                "is_correct": false
+            },
+            {
+                "title": "Romanian Leu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Canada की मुद्रा Canadian Dollar है।"
+    },
+    {
+        "question": "Italy की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Rome",
+                "is_correct": true
+            },
+            {
+                "title": "Lima",
+                "is_correct": false
+            },
+            {
+                "title": "Kuala Lumpur",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Rome Italy की राजधानी है।"
+    },
+    {
+        "question": "Italy की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            },
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Italy की मुद्रा Euro है।"
+    },
+    {
+        "question": "Spain की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Madrid",
+                "is_correct": true
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            },
+            {
+                "title": "Abuja",
+                "is_correct": false
+            },
+            {
+                "title": "Prague",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Madrid Spain की राजधानी है।"
+    },
+    {
+        "question": "Spain की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Spain की मुद्रा Euro है।"
+    },
+    {
+        "question": "South Korea की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Seoul",
+                "is_correct": true
+            },
+            {
+                "title": "Montevideo",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna",
+                "is_correct": false
+            },
+            {
+                "title": "Asunción",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Seoul South Korea की राजधानी है।"
+    },
+    {
+        "question": "South Korea की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "South Korean Won",
+                "is_correct": true
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": false
+            }
+        ],
+        "explanation": "South Korea की मुद्रा South Korean Won है।"
+    },
+    {
+        "question": "Indonesia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Jakarta",
+                "is_correct": true
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            },
+            {
+                "title": "Havana",
+                "is_correct": false
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Jakarta Indonesia की राजधानी है।"
+    },
+    {
+        "question": "Indonesia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Indonesian Rupiah",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Danish Krone",
+                "is_correct": false
+            },
+            {
+                "title": "Azerbaijani Manat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Indonesia की मुद्रा Indonesian Rupiah है।"
+    },
+    {
+        "question": "South Africa की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Pretoria",
+                "is_correct": true
+            },
+            {
+                "title": "New Delhi",
+                "is_correct": false
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            },
+            {
+                "title": "Rabat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pretoria South Africa की राजधानी है।"
+    },
+    {
+        "question": "South Africa की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "South African Rand",
+                "is_correct": true
+            },
+            {
+                "title": "Chinese Yuan",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Iranian Rial",
+                "is_correct": false
+            }
+        ],
+        "explanation": "South Africa की मुद्रा South African Rand है।"
+    },
+    {
+        "question": "Egypt की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Cairo",
+                "is_correct": true
+            },
+            {
+                "title": "Luxembourg City",
+                "is_correct": false
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Cairo Egypt की राजधानी है।"
+    },
+    {
+        "question": "Egypt की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Egyptian Pound",
+                "is_correct": true
+            },
+            {
+                "title": "Lao Kip",
+                "is_correct": false
+            },
+            {
+                "title": "Tunisian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Nigerian Naira",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Egypt की मुद्रा Egyptian Pound है।"
+    },
+    {
+        "question": "Nigeria की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Abuja",
+                "is_correct": true
+            },
+            {
+                "title": "Havana",
+                "is_correct": false
+            },
+            {
+                "title": "Prague",
+                "is_correct": false
+            },
+            {
+                "title": "Zagreb",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Abuja Nigeria की राजधानी है।"
+    },
+    {
+        "question": "Nigeria की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Nigerian Naira",
+                "is_correct": true
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            },
+            {
+                "title": "Hungarian Forint",
+                "is_correct": false
+            },
+            {
+                "title": "South Korean Won",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nigeria की मुद्रा Nigerian Naira है।"
+    },
+    {
+        "question": "Mexico की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Mexico City",
+                "is_correct": true
+            },
+            {
+                "title": "Harare",
+                "is_correct": false
+            },
+            {
+                "title": "Baku",
+                "is_correct": false
+            },
+            {
+                "title": "Asunción",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Mexico City Mexico की राजधानी है।"
+    },
+    {
+        "question": "Mexico की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Mexican Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Colombian Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            },
+            {
+                "title": "Philippine Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Mexico की मुद्रा Mexican Peso है।"
+    },
+    {
+        "question": "Argentina की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Buenos Aires",
+                "is_correct": true
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            },
+            {
+                "title": "Ottawa",
+                "is_correct": false
+            },
+            {
+                "title": "Vientiane",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Buenos Aires Argentina की राजधानी है।"
+    },
+    {
+        "question": "Argentina की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Argentine Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Chilean Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Argentina की मुद्रा Argentine Peso है।"
+    },
+    {
+        "question": "Turkey की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Ankara",
+                "is_correct": true
+            },
+            {
+                "title": "Bratislava",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            },
+            {
+                "title": "Colombo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ankara Turkey की राजधानी है।"
+    },
+    {
+        "question": "Turkey की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Turkish Lira",
+                "is_correct": true
+            },
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "South Korean Won",
+                "is_correct": false
+            },
+            {
+                "title": "Saudi Riyal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Turkey की मुद्रा Turkish Lira है।"
+    },
+    {
+        "question": "Saudi Arabia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Riyadh",
+                "is_correct": true
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            },
+            {
+                "title": "Dodoma",
+                "is_correct": false
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Riyadh Saudi Arabia की राजधानी है।"
+    },
+    {
+        "question": "Saudi Arabia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Saudi Riyal",
+                "is_correct": true
+            },
+            {
+                "title": "Venezuelan Bolívar",
+                "is_correct": false
+            },
+            {
+                "title": "Yemeni Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Armenian Dram",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Saudi Arabia की मुद्रा Saudi Riyal है।"
+    },
+    {
+        "question": "Pakistan की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Islamabad",
+                "is_correct": true
+            },
+            {
+                "title": "Lima",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Helsinki",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Islamabad Pakistan की राजधानी है।"
+    },
+    {
+        "question": "Pakistan की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Pakistani Rupee",
+                "is_correct": true
+            },
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": false
+            },
+            {
+                "title": "Saudi Riyal",
+                "is_correct": false
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pakistan की मुद्रा Pakistani Rupee है।"
+    },
+    {
+        "question": "Bangladesh की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Dhaka",
+                "is_correct": true
+            },
+            {
+                "title": "Tehran",
+                "is_correct": false
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            },
+            {
+                "title": "Bern",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dhaka Bangladesh की राजधानी है।"
+    },
+    {
+        "question": "Bangladesh की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": true
+            },
+            {
+                "title": "Iranian Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Norwegian Krone",
+                "is_correct": false
+            },
+            {
+                "title": "Bosnia-Herzegovina Convertible Mark",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bangladesh की मुद्रा Bangladeshi Taka है।"
+    },
+    {
+        "question": "Iran की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Tehran",
+                "is_correct": true
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            },
+            {
+                "title": "Paris",
+                "is_correct": false
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tehran Iran की राजधानी है।"
+    },
+    {
+        "question": "Iran की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Iranian Rial",
+                "is_correct": true
+            },
+            {
+                "title": "Thai Baht",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Iran की मुद्रा Iranian Rial है।"
+    },
+    {
+        "question": "Thailand की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Bangkok",
+                "is_correct": true
+            },
+            {
+                "title": "Brussels",
+                "is_correct": false
+            },
+            {
+                "title": "Doha",
+                "is_correct": false
+            },
+            {
+                "title": "Baku",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bangkok Thailand की राजधानी है।"
+    },
+    {
+        "question": "Thailand की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Thai Baht",
+                "is_correct": true
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Libyan Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thailand की मुद्रा Thai Baht है।"
+    },
+    {
+        "question": "Vietnam की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Hanoi",
+                "is_correct": true
+            },
+            {
+                "title": "Kyiv",
+                "is_correct": false
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hanoi Vietnam की राजधानी है।"
+    },
+    {
+        "question": "Vietnam की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Vietnamese Dong",
+                "is_correct": true
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Egyptian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Danish Krone",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vietnam की मुद्रा Vietnamese Dong है।"
+    },
+    {
+        "question": "Philippines की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Manila",
+                "is_correct": true
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            },
+            {
+                "title": "Lusaka",
+                "is_correct": false
+            },
+            {
+                "title": "Tbilisi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Manila Philippines की राजधानी है।"
+    },
+    {
+        "question": "Philippines की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Philippine Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philippines की मुद्रा Philippine Peso है।"
+    },
+    {
+        "question": "Malaysia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Kuala Lumpur",
+                "is_correct": true
+            },
+            {
+                "title": "Baku",
+                "is_correct": false
+            },
+            {
+                "title": "Nur-Sultan",
+                "is_correct": false
+            },
+            {
+                "title": "Kabul",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kuala Lumpur Malaysia की राजधानी है।"
+    },
+    {
+        "question": "Malaysia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Malaysian Ringgit",
+                "is_correct": true
+            },
+            {
+                "title": "Lebanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            },
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Malaysia की मुद्रा Malaysian Ringgit है।"
+    },
+    {
+        "question": "Singapore की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Singapore",
+                "is_correct": true
+            },
+            {
+                "title": "London",
+                "is_correct": false
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            },
+            {
+                "title": "Doha",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Singapore Singapore की राजधानी है।"
+    },
+    {
+        "question": "Singapore की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Singapore Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Kuwaiti Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Syrian Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Singapore की मुद्रा Singapore Dollar है।"
+    },
+    {
+        "question": "Netherlands की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Amsterdam",
+                "is_correct": true
+            },
+            {
+                "title": "Doha",
+                "is_correct": false
+            },
+            {
+                "title": "London",
+                "is_correct": false
+            },
+            {
+                "title": "Harare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amsterdam Netherlands की राजधानी है।"
+    },
+    {
+        "question": "Netherlands की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Vietnamese Dong",
+                "is_correct": false
+            },
+            {
+                "title": "Indonesian Rupiah",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Netherlands की मुद्रा Euro है।"
+    },
+    {
+        "question": "Belgium की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Brussels",
+                "is_correct": true
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            },
+            {
+                "title": "Wellington",
+                "is_correct": false
+            },
+            {
+                "title": "Warsaw",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Brussels Belgium की राजधानी है।"
+    },
+    {
+        "question": "Belgium की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Belgium की मुद्रा Euro है।"
+    },
+    {
+        "question": "Switzerland की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Bern",
+                "is_correct": true
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            },
+            {
+                "title": "Valletta",
+                "is_correct": false
+            },
+            {
+                "title": "Baghdad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bern Switzerland की राजधानी है।"
+    },
+    {
+        "question": "Switzerland की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Swiss Franc",
+                "is_correct": true
+            },
+            {
+                "title": "Tunisian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "South Korean Won",
+                "is_correct": false
+            },
+            {
+                "title": "Thai Baht",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Switzerland की मुद्रा Swiss Franc है।"
+    },
+    {
+        "question": "Austria की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Vienna",
+                "is_correct": true
+            },
+            {
+                "title": "Vientiane",
+                "is_correct": false
+            },
+            {
+                "title": "Nur-Sultan",
+                "is_correct": false
+            },
+            {
+                "title": "Stockholm",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vienna Austria की राजधानी है।"
+    },
+    {
+        "question": "Austria की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            },
+            {
+                "title": "Swedish Krona",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Austria की मुद्रा Euro है।"
+    },
+    {
+        "question": "Sweden की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Stockholm",
+                "is_correct": true
+            },
+            {
+                "title": "Manama",
+                "is_correct": false
+            },
+            {
+                "title": "Nicosia",
+                "is_correct": false
+            },
+            {
+                "title": "Moscow",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Stockholm Sweden की राजधानी है।"
+    },
+    {
+        "question": "Sweden की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Swedish Krona",
+                "is_correct": true
+            },
+            {
+                "title": "Euro",
+                "is_correct": false
+            },
+            {
+                "title": "Egyptian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Qatari Riyal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sweden की मुद्रा Swedish Krona है।"
+    },
+    {
+        "question": "Norway की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Oslo",
+                "is_correct": true
+            },
+            {
+                "title": "Lusaka",
+                "is_correct": false
+            },
+            {
+                "title": "Nicosia",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Oslo Norway की राजधानी है।"
+    },
+    {
+        "question": "Norway की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Norwegian Krone",
+                "is_correct": true
+            },
+            {
+                "title": "Indonesian Rupiah",
+                "is_correct": false
+            },
+            {
+                "title": "Algerian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Norway की मुद्रा Norwegian Krone है।"
+    },
+    {
+        "question": "Denmark की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Copenhagen",
+                "is_correct": true
+            },
+            {
+                "title": "Caracas",
+                "is_correct": false
+            },
+            {
+                "title": "Moscow",
+                "is_correct": false
+            },
+            {
+                "title": "Madrid",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Copenhagen Denmark की राजधानी है।"
+    },
+    {
+        "question": "Denmark की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Danish Krone",
+                "is_correct": true
+            },
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": false
+            },
+            {
+                "title": "Swedish Krona",
+                "is_correct": false
+            },
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Denmark की मुद्रा Danish Krone है।"
+    },
+    {
+        "question": "Poland की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Warsaw",
+                "is_correct": true
+            },
+            {
+                "title": "Yerevan",
+                "is_correct": false
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Warsaw Poland की राजधानी है।"
+    },
+    {
+        "question": "Poland की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Polish Złoty",
+                "is_correct": true
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Poland की मुद्रा Polish Złoty है।"
+    },
+    {
+        "question": "Greece की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Athens",
+                "is_correct": true
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            },
+            {
+                "title": "Kampala",
+                "is_correct": false
+            },
+            {
+                "title": "Baku",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Athens Greece की राजधानी है।"
+    },
+    {
+        "question": "Greece की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": false
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            },
+            {
+                "title": "Czech Koruna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Greece की मुद्रा Euro है।"
+    },
+    {
+        "question": "Portugal की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Lisbon",
+                "is_correct": true
+            },
+            {
+                "title": "Tehran",
+                "is_correct": false
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            },
+            {
+                "title": "Dodoma",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Lisbon Portugal की राजधानी है।"
+    },
+    {
+        "question": "Portugal की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Egyptian Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Portugal की मुद्रा Euro है।"
+    },
+    {
+        "question": "Ireland की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Dublin",
+                "is_correct": true
+            },
+            {
+                "title": "Manila",
+                "is_correct": false
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            },
+            {
+                "title": "Pretoria",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dublin Ireland की राजधानी है।"
+    },
+    {
+        "question": "Ireland की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": false
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ireland की मुद्रा Euro है।"
+    },
+    {
+        "question": "New Zealand की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Wellington",
+                "is_correct": true
+            },
+            {
+                "title": "Vientiane",
+                "is_correct": false
+            },
+            {
+                "title": "Jerusalem",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Wellington New Zealand की राजधानी है।"
+    },
+    {
+        "question": "New Zealand की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Philippine Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "New Zealand की मुद्रा New Zealand Dollar है।"
+    },
+    {
+        "question": "Israel की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Jerusalem",
+                "is_correct": true
+            },
+            {
+                "title": "Montevideo",
+                "is_correct": false
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Jerusalem Israel की राजधानी है।"
+    },
+    {
+        "question": "Israel की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Israeli Shekel",
+                "is_correct": true
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            },
+            {
+                "title": "Saudi Riyal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Israel की मुद्रा Israeli Shekel है।"
+    },
+    {
+        "question": "UAE की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Abu Dhabi",
+                "is_correct": true
+            },
+            {
+                "title": "Rabat",
+                "is_correct": false
+            },
+            {
+                "title": "Mexico City",
+                "is_correct": false
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Abu Dhabi UAE की राजधानी है।"
+    },
+    {
+        "question": "UAE की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "UAE Dirham",
+                "is_correct": true
+            },
+            {
+                "title": "Mexican Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Australian Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UAE की मुद्रा UAE Dirham है।"
+    },
+    {
+        "question": "Qatar की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Doha",
+                "is_correct": true
+            },
+            {
+                "title": "Prague",
+                "is_correct": false
+            },
+            {
+                "title": "Wellington",
+                "is_correct": false
+            },
+            {
+                "title": "Rome",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Doha Qatar की राजधानी है।"
+    },
+    {
+        "question": "Qatar की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Qatari Riyal",
+                "is_correct": true
+            },
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": false
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            },
+            {
+                "title": "Belarusian Ruble",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Qatar की मुद्रा Qatari Riyal है।"
+    },
+    {
+        "question": "Kuwait की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Kuwait City",
+                "is_correct": true
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            },
+            {
+                "title": "Podgorica",
+                "is_correct": false
+            },
+            {
+                "title": "Lisbon",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kuwait City Kuwait की राजधानी है।"
+    },
+    {
+        "question": "Kuwait की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Kuwaiti Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Iranian Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Bulgarian Lev",
+                "is_correct": false
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kuwait की मुद्रा Kuwaiti Dinar है।"
+    },
+    {
+        "question": "Iraq की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Baghdad",
+                "is_correct": true
+            },
+            {
+                "title": "Doha",
+                "is_correct": false
+            },
+            {
+                "title": "Tripoli",
+                "is_correct": false
+            },
+            {
+                "title": "Abuja",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Baghdad Iraq की राजधानी है।"
+    },
+    {
+        "question": "Iraq की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Armenian Dram",
+                "is_correct": false
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            },
+            {
+                "title": "Egyptian Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Iraq की मुद्रा Iraqi Dinar है।"
+    },
+    {
+        "question": "Afghanistan की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Kabul",
+                "is_correct": true
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            },
+            {
+                "title": "Madrid",
+                "is_correct": false
+            },
+            {
+                "title": "Montevideo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kabul Afghanistan की राजधानी है।"
+    },
+    {
+        "question": "Afghanistan की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Afghan Afghani",
+                "is_correct": true
+            },
+            {
+                "title": "Serbian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Uruguayan Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Afghanistan की मुद्रा Afghan Afghani है।"
+    },
+    {
+        "question": "Sri Lanka की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Colombo",
+                "is_correct": true
+            },
+            {
+                "title": "Ljubljana",
+                "is_correct": false
+            },
+            {
+                "title": "Ankara",
+                "is_correct": false
+            },
+            {
+                "title": "Tallinn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Colombo Sri Lanka की राजधानी है।"
+    },
+    {
+        "question": "Sri Lanka की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": true
+            },
+            {
+                "title": "Syrian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sri Lanka की मुद्रा Sri Lankan Rupee है।"
+    },
+    {
+        "question": "Nepal की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Kathmandu",
+                "is_correct": true
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            },
+            {
+                "title": "Yerevan",
+                "is_correct": false
+            },
+            {
+                "title": "Ulaanbaatar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kathmandu Nepal की राजधानी है।"
+    },
+    {
+        "question": "Nepal की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": true
+            },
+            {
+                "title": "Romanian Leu",
+                "is_correct": false
+            },
+            {
+                "title": "Lebanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Qatari Riyal",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nepal की मुद्रा Nepalese Rupee है।"
+    },
+    {
+        "question": "Myanmar की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Naypyidaw",
+                "is_correct": true
+            },
+            {
+                "title": "Riga",
+                "is_correct": false
+            },
+            {
+                "title": "Warsaw",
+                "is_correct": false
+            },
+            {
+                "title": "Lusaka",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Naypyidaw Myanmar की राजधानी है।"
+    },
+    {
+        "question": "Myanmar की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Myanmar Kyat",
+                "is_correct": true
+            },
+            {
+                "title": "Peruvian Sol",
+                "is_correct": false
+            },
+            {
+                "title": "Serbian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Myanmar की मुद्रा Myanmar Kyat है।"
+    },
+    {
+        "question": "Kenya की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Nairobi",
+                "is_correct": true
+            },
+            {
+                "title": "Athens",
+                "is_correct": false
+            },
+            {
+                "title": "Pristina",
+                "is_correct": false
+            },
+            {
+                "title": "Kampala",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nairobi Kenya की राजधानी है।"
+    },
+    {
+        "question": "Kenya की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": true
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Pound Sterling",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kenya की मुद्रा Kenyan Shilling है।"
+    },
+    {
+        "question": "Ghana की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Accra",
+                "is_correct": true
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            },
+            {
+                "title": "Minsk",
+                "is_correct": false
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Accra Ghana की राजधानी है।"
+    },
+    {
+        "question": "Ghana की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Ghanaian Cedi",
+                "is_correct": true
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Tunisian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ghana की मुद्रा Ghanaian Cedi है।"
+    },
+    {
+        "question": "Ethiopia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Addis Ababa",
+                "is_correct": true
+            },
+            {
+                "title": "Helsinki",
+                "is_correct": false
+            },
+            {
+                "title": "Kyiv",
+                "is_correct": false
+            },
+            {
+                "title": "Dhaka",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Addis Ababa Ethiopia की राजधानी है।"
+    },
+    {
+        "question": "Ethiopia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": true
+            },
+            {
+                "title": "Egyptian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Euro",
+                "is_correct": false
+            },
+            {
+                "title": "Serbian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ethiopia की मुद्रा Ethiopian Birr है।"
+    },
+    {
+        "question": "Morocco की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Rabat",
+                "is_correct": true
+            },
+            {
+                "title": "Beijing",
+                "is_correct": false
+            },
+            {
+                "title": "Yerevan",
+                "is_correct": false
+            },
+            {
+                "title": "Pristina",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Rabat Morocco की राजधानी है।"
+    },
+    {
+        "question": "Morocco की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Moroccan Dirham",
+                "is_correct": true
+            },
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Morocco की मुद्रा Moroccan Dirham है।"
+    },
+    {
+        "question": "Algeria की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Algiers",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Nicosia",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwait City",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Algiers Algeria की राजधानी है।"
+    },
+    {
+        "question": "Algeria की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Algerian Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Chinese Yuan",
+                "is_correct": false
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Algeria की मुद्रा Algerian Dinar है।"
+    },
+    {
+        "question": "Colombia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Bogotá",
+                "is_correct": true
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Kuala Lumpur",
+                "is_correct": false
+            },
+            {
+                "title": "Sana'a",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bogotá Colombia की राजधानी है।"
+    },
+    {
+        "question": "Colombia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Colombian Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Yemeni Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": false
+            },
+            {
+                "title": "Lebanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Colombia की मुद्रा Colombian Peso है।"
+    },
+    {
+        "question": "Chile की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Santiago",
+                "is_correct": true
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            },
+            {
+                "title": "Bratislava",
+                "is_correct": false
+            },
+            {
+                "title": "Jakarta",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Santiago Chile की राजधानी है।"
+    },
+    {
+        "question": "Chile की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Chilean Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            },
+            {
+                "title": "Chinese Yuan",
+                "is_correct": false
+            },
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Chile की मुद्रा Chilean Peso है।"
+    },
+    {
+        "question": "Peru की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Lima",
+                "is_correct": true
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            },
+            {
+                "title": "Phnom Penh",
+                "is_correct": false
+            },
+            {
+                "title": "Havana",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Lima Peru की राजधानी है।"
+    },
+    {
+        "question": "Peru की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Peruvian Sol",
+                "is_correct": true
+            },
+            {
+                "title": "Chinese Yuan",
+                "is_correct": false
+            },
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": false
+            },
+            {
+                "title": "New Zealand Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Peru की मुद्रा Peruvian Sol है।"
+    },
+    {
+        "question": "Venezuela की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Caracas",
+                "is_correct": true
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            },
+            {
+                "title": "Phnom Penh",
+                "is_correct": false
+            },
+            {
+                "title": "Brussels",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Caracas Venezuela की राजधानी है।"
+    },
+    {
+        "question": "Venezuela की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Venezuelan Bolívar",
+                "is_correct": true
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            },
+            {
+                "title": "Saudi Riyal",
+                "is_correct": false
+            },
+            {
+                "title": "Cambodian Riel",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Venezuela की मुद्रा Venezuelan Bolívar है।"
+    },
+    {
+        "question": "Ukraine की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Kyiv",
+                "is_correct": true
+            },
+            {
+                "title": "Luanda",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwait City",
+                "is_correct": false
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kyiv Ukraine की राजधानी है।"
+    },
+    {
+        "question": "Ukraine की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": true
+            },
+            {
+                "title": "Uruguayan Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ukraine की मुद्रा Ukrainian Hryvnia है।"
+    },
+    {
+        "question": "Czech Republic की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Prague",
+                "is_correct": true
+            },
+            {
+                "title": "Manama",
+                "is_correct": false
+            },
+            {
+                "title": "Kyiv",
+                "is_correct": false
+            },
+            {
+                "title": "Athens",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Prague Czech Republic की राजधानी है।"
+    },
+    {
+        "question": "Czech Republic की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Czech Koruna",
+                "is_correct": true
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Omani Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Czech Republic की मुद्रा Czech Koruna है।"
+    },
+    {
+        "question": "Romania की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Bucharest",
+                "is_correct": true
+            },
+            {
+                "title": "Colombo",
+                "is_correct": false
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            },
+            {
+                "title": "Ulaanbaatar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bucharest Romania की राजधानी है।"
+    },
+    {
+        "question": "Romania की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Romanian Leu",
+                "is_correct": true
+            },
+            {
+                "title": "Swedish Krona",
+                "is_correct": false
+            },
+            {
+                "title": "Moroccan Dirham",
+                "is_correct": false
+            },
+            {
+                "title": "Czech Koruna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Romania की मुद्रा Romanian Leu है।"
+    },
+    {
+        "question": "Hungary की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Budapest",
+                "is_correct": true
+            },
+            {
+                "title": "New Delhi",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            },
+            {
+                "title": "Abuja",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Budapest Hungary की राजधानी है।"
+    },
+    {
+        "question": "Hungary की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Hungarian Forint",
+                "is_correct": true
+            },
+            {
+                "title": "Belarusian Ruble",
+                "is_correct": false
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            },
+            {
+                "title": "Mexican Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hungary की मुद्रा Hungarian Forint है।"
+    },
+    {
+        "question": "Finland की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Helsinki",
+                "is_correct": true
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            },
+            {
+                "title": "Sana'a",
+                "is_correct": false
+            },
+            {
+                "title": "Beirut",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Helsinki Finland की राजधानी है।"
+    },
+    {
+        "question": "Finland की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Yemeni Rial",
+                "is_correct": false
+            },
+            {
+                "title": "Colombian Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Hungarian Forint",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Finland की मुद्रा Euro है।"
+    },
+    {
+        "question": "Cuba की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Havana",
+                "is_correct": true
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            },
+            {
+                "title": "Tehran",
+                "is_correct": false
+            },
+            {
+                "title": "Buenos Aires",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Havana Cuba की राजधानी है।"
+    },
+    {
+        "question": "Cuba की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Cuban Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Kuwaiti Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Nigerian Naira",
+                "is_correct": false
+            },
+            {
+                "title": "Mexican Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Cuba की मुद्रा Cuban Peso है।"
+    },
+    {
+        "question": "Croatia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Zagreb",
+                "is_correct": true
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Kuala Lumpur",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Zagreb Croatia की राजधानी है।"
+    },
+    {
+        "question": "Croatia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            },
+            {
+                "title": "Russian Ruble",
+                "is_correct": false
+            },
+            {
+                "title": "Libyan Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Croatia की मुद्रा Euro है।"
+    },
+    {
+        "question": "Bulgaria की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Sofia",
+                "is_correct": true
+            },
+            {
+                "title": "Nairobi",
+                "is_correct": false
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            },
+            {
+                "title": "Madrid",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sofia Bulgaria की राजधानी है।"
+    },
+    {
+        "question": "Bulgaria की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Bulgarian Lev",
+                "is_correct": true
+            },
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": false
+            },
+            {
+                "title": "Cuban Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bulgaria की मुद्रा Bulgarian Lev है।"
+    },
+    {
+        "question": "Serbia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Belgrade",
+                "is_correct": true
+            },
+            {
+                "title": "Algiers",
+                "is_correct": false
+            },
+            {
+                "title": "Tbilisi",
+                "is_correct": false
+            },
+            {
+                "title": "Harare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Belgrade Serbia की राजधानी है।"
+    },
+    {
+        "question": "Serbia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Serbian Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Vietnamese Dong",
+                "is_correct": false
+            },
+            {
+                "title": "Tunisian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Polish Złoty",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Serbia की मुद्रा Serbian Dinar है।"
+    },
+    {
+        "question": "Lebanon की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Beirut",
+                "is_correct": true
+            },
+            {
+                "title": "Harare",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo",
+                "is_correct": false
+            },
+            {
+                "title": "Bucharest",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Beirut Lebanon की राजधानी है।"
+    },
+    {
+        "question": "Lebanon की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Lebanese Pound",
+                "is_correct": true
+            },
+            {
+                "title": "Pound Sterling",
+                "is_correct": false
+            },
+            {
+                "title": "Nigerian Naira",
+                "is_correct": false
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Lebanon की मुद्रा Lebanese Pound है।"
+    },
+    {
+        "question": "Jordan की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Amman",
+                "is_correct": true
+            },
+            {
+                "title": "Belgrade",
+                "is_correct": false
+            },
+            {
+                "title": "Tbilisi",
+                "is_correct": false
+            },
+            {
+                "title": "Vientiane",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Amman Jordan की राजधानी है।"
+    },
+    {
+        "question": "Jordan की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Algerian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Colombian Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Jordan की मुद्रा Jordanian Dinar है।"
+    },
+    {
+        "question": "Syria की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Damascus",
+                "is_correct": true
+            },
+            {
+                "title": "Sarajevo",
+                "is_correct": false
+            },
+            {
+                "title": "Ankara",
+                "is_correct": false
+            },
+            {
+                "title": "Montevideo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Damascus Syria की राजधानी है।"
+    },
+    {
+        "question": "Syria की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Syrian Pound",
+                "is_correct": true
+            },
+            {
+                "title": "Indonesian Rupiah",
+                "is_correct": false
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Syria की मुद्रा Syrian Pound है।"
+    },
+    {
+        "question": "Oman की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Muscat",
+                "is_correct": true
+            },
+            {
+                "title": "Sofia",
+                "is_correct": false
+            },
+            {
+                "title": "Luxembourg City",
+                "is_correct": false
+            },
+            {
+                "title": "Bucharest",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Muscat Oman की राजधानी है।"
+    },
+    {
+        "question": "Oman की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Omani Rial",
+                "is_correct": true
+            },
+            {
+                "title": "Lebanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Vietnamese Dong",
+                "is_correct": false
+            },
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Oman की मुद्रा Omani Rial है।"
+    },
+    {
+        "question": "Bahrain की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Manama",
+                "is_correct": true
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            },
+            {
+                "title": "Asunción",
+                "is_correct": false
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Manama Bahrain की राजधानी है।"
+    },
+    {
+        "question": "Bahrain की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Egyptian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Swiss Franc",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bahrain की मुद्रा Bahraini Dinar है।"
+    },
+    {
+        "question": "Yemen की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Sana'a",
+                "is_correct": true
+            },
+            {
+                "title": "Valletta",
+                "is_correct": false
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            },
+            {
+                "title": "Moscow",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sana'a Yemen की राजधानी है।"
+    },
+    {
+        "question": "Yemen की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Yemeni Rial",
+                "is_correct": true
+            },
+            {
+                "title": "Moroccan Dirham",
+                "is_correct": false
+            },
+            {
+                "title": "Serbian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Kazakhstani Tenge",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Yemen की मुद्रा Yemeni Rial है।"
+    },
+    {
+        "question": "Libya की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Tripoli",
+                "is_correct": true
+            },
+            {
+                "title": "Bern",
+                "is_correct": false
+            },
+            {
+                "title": "Stockholm",
+                "is_correct": false
+            },
+            {
+                "title": "Tunis",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tripoli Libya की राजधानी है।"
+    },
+    {
+        "question": "Libya की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Libyan Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": false
+            },
+            {
+                "title": "Nepalese Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Lebanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Libya की मुद्रा Libyan Dinar है।"
+    },
+    {
+        "question": "Tunisia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Tunis",
+                "is_correct": true
+            },
+            {
+                "title": "Tehran",
+                "is_correct": false
+            },
+            {
+                "title": "Luxembourg City",
+                "is_correct": false
+            },
+            {
+                "title": "Baghdad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tunis Tunisia की राजधानी है।"
+    },
+    {
+        "question": "Tunisia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Tunisian Dinar",
+                "is_correct": true
+            },
+            {
+                "title": "Kenyan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tunisia की मुद्रा Tunisian Dinar है।"
+    },
+    {
+        "question": "Sudan की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Khartoum",
+                "is_correct": true
+            },
+            {
+                "title": "Mexico City",
+                "is_correct": false
+            },
+            {
+                "title": "Cairo",
+                "is_correct": false
+            },
+            {
+                "title": "Paris",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Khartoum Sudan की राजधानी है।"
+    },
+    {
+        "question": "Sudan की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Sudanese Pound",
+                "is_correct": true
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            },
+            {
+                "title": "Thai Baht",
+                "is_correct": false
+            },
+            {
+                "title": "Iraqi Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sudan की मुद्रा Sudanese Pound है।"
+    },
+    {
+        "question": "Tanzania की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Dodoma",
+                "is_correct": true
+            },
+            {
+                "title": "Vientiane",
+                "is_correct": false
+            },
+            {
+                "title": "Canberra",
+                "is_correct": false
+            },
+            {
+                "title": "Seoul",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dodoma Tanzania की राजधानी है।"
+    },
+    {
+        "question": "Tanzania की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Tanzanian Shilling",
+                "is_correct": true
+            },
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": false
+            },
+            {
+                "title": "Bangladeshi Taka",
+                "is_correct": false
+            },
+            {
+                "title": "US Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tanzania की मुद्रा Tanzanian Shilling है।"
+    },
+    {
+        "question": "Uganda की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Kampala",
+                "is_correct": true
+            },
+            {
+                "title": "Rome",
+                "is_correct": false
+            },
+            {
+                "title": "Ankara",
+                "is_correct": false
+            },
+            {
+                "title": "Manila",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kampala Uganda की राजधानी है।"
+    },
+    {
+        "question": "Uganda की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Ugandan Shilling",
+                "is_correct": true
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Myanmar Kyat",
+                "is_correct": false
+            },
+            {
+                "title": "Peruvian Sol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Uganda की मुद्रा Ugandan Shilling है।"
+    },
+    {
+        "question": "Zimbabwe की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Harare",
+                "is_correct": true
+            },
+            {
+                "title": "Amman",
+                "is_correct": false
+            },
+            {
+                "title": "Washington D.C.",
+                "is_correct": false
+            },
+            {
+                "title": "Rome",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Harare Zimbabwe की राजधानी है।"
+    },
+    {
+        "question": "Zimbabwe की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Zimbabwean Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Ugandan Shilling",
+                "is_correct": false
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            },
+            {
+                "title": "Moroccan Dirham",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Zimbabwe की मुद्रा Zimbabwean Dollar है।"
+    },
+    {
+        "question": "Zambia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Lusaka",
+                "is_correct": true
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Accra",
+                "is_correct": false
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Lusaka Zambia की राजधानी है।"
+    },
+    {
+        "question": "Zambia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Zambian Kwacha",
+                "is_correct": true
+            },
+            {
+                "title": "Turkish Lira",
+                "is_correct": false
+            },
+            {
+                "title": "Ukrainian Hryvnia",
+                "is_correct": false
+            },
+            {
+                "title": "Australian Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Zambia की मुद्रा Zambian Kwacha है।"
+    },
+    {
+        "question": "Angola की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Luanda",
+                "is_correct": true
+            },
+            {
+                "title": "Vientiane",
+                "is_correct": false
+            },
+            {
+                "title": "Helsinki",
+                "is_correct": false
+            },
+            {
+                "title": "Skopje",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Luanda Angola की राजधानी है।"
+    },
+    {
+        "question": "Angola की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": true
+            },
+            {
+                "title": "Bosnia-Herzegovina Convertible Mark",
+                "is_correct": false
+            },
+            {
+                "title": "Norwegian Krone",
+                "is_correct": false
+            },
+            {
+                "title": "Icelandic Króna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Angola की मुद्रा Angolan Kwanza है।"
+    },
+    {
+        "question": "Ecuador की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Quito",
+                "is_correct": true
+            },
+            {
+                "title": "Singapore",
+                "is_correct": false
+            },
+            {
+                "title": "Sucre",
+                "is_correct": false
+            },
+            {
+                "title": "Muscat",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Quito Ecuador की राजधानी है।"
+    },
+    {
+        "question": "Ecuador की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "US Dollar",
+                "is_correct": true
+            },
+            {
+                "title": "Canadian Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Angolan Kwanza",
+                "is_correct": false
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ecuador की मुद्रा US Dollar है।"
+    },
+    {
+        "question": "Bolivia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Sucre",
+                "is_correct": true
+            },
+            {
+                "title": "Kyiv",
+                "is_correct": false
+            },
+            {
+                "title": "Tehran",
+                "is_correct": false
+            },
+            {
+                "title": "Tokyo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sucre Bolivia की राजधानी है।"
+    },
+    {
+        "question": "Bolivia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": true
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Kazakhstani Tenge",
+                "is_correct": false
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bolivia की मुद्रा Bolivian Boliviano है।"
+    },
+    {
+        "question": "Paraguay की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Asunción",
+                "is_correct": true
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            },
+            {
+                "title": "Skopje",
+                "is_correct": false
+            },
+            {
+                "title": "Kuwait City",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Asunción Paraguay की राजधानी है।"
+    },
+    {
+        "question": "Paraguay की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Paraguayan Guaraní",
+                "is_correct": true
+            },
+            {
+                "title": "Venezuelan Bolívar",
+                "is_correct": false
+            },
+            {
+                "title": "Peruvian Sol",
+                "is_correct": false
+            },
+            {
+                "title": "Algerian Dinar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Paraguay की मुद्रा Paraguayan Guaraní है।"
+    },
+    {
+        "question": "Uruguay की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Montevideo",
+                "is_correct": true
+            },
+            {
+                "title": "Stockholm",
+                "is_correct": false
+            },
+            {
+                "title": "Amsterdam",
+                "is_correct": false
+            },
+            {
+                "title": "Wellington",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Montevideo Uruguay की राजधानी है।"
+    },
+    {
+        "question": "Uruguay की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Uruguayan Peso",
+                "is_correct": true
+            },
+            {
+                "title": "Kuwaiti Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Myanmar Kyat",
+                "is_correct": false
+            },
+            {
+                "title": "Philippine Peso",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Uruguay की मुद्रा Uruguayan Peso है।"
+    },
+    {
+        "question": "Cambodia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Phnom Penh",
+                "is_correct": true
+            },
+            {
+                "title": "Addis Ababa",
+                "is_correct": false
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Accra",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Phnom Penh Cambodia की राजधानी है।"
+    },
+    {
+        "question": "Cambodia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Cambodian Riel",
+                "is_correct": true
+            },
+            {
+                "title": "Bosnia-Herzegovina Convertible Mark",
+                "is_correct": false
+            },
+            {
+                "title": "Qatari Riyal",
+                "is_correct": false
+            },
+            {
+                "title": "Russian Ruble",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Cambodia की मुद्रा Cambodian Riel है।"
+    },
+    {
+        "question": "Laos की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Vientiane",
+                "is_correct": true
+            },
+            {
+                "title": "Canberra",
+                "is_correct": false
+            },
+            {
+                "title": "Helsinki",
+                "is_correct": false
+            },
+            {
+                "title": "Copenhagen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vientiane Laos की राजधानी है।"
+    },
+    {
+        "question": "Laos की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Lao Kip",
+                "is_correct": true
+            },
+            {
+                "title": "Bulgarian Lev",
+                "is_correct": false
+            },
+            {
+                "title": "Danish Krone",
+                "is_correct": false
+            },
+            {
+                "title": "Afghan Afghani",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Laos की मुद्रा Lao Kip है।"
+    },
+    {
+        "question": "Mongolia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Ulaanbaatar",
+                "is_correct": true
+            },
+            {
+                "title": "Canberra",
+                "is_correct": false
+            },
+            {
+                "title": "Kabul",
+                "is_correct": false
+            },
+            {
+                "title": "Tashkent",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ulaanbaatar Mongolia की राजधानी है।"
+    },
+    {
+        "question": "Mongolia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": true
+            },
+            {
+                "title": "Syrian Pound",
+                "is_correct": false
+            },
+            {
+                "title": "Indonesian Rupiah",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Mongolia की मुद्रा Mongolian Tugrik है।"
+    },
+    {
+        "question": "Kazakhstan की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Nur-Sultan",
+                "is_correct": true
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            },
+            {
+                "title": "Accra",
+                "is_correct": false
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nur-Sultan Kazakhstan की राजधानी है।"
+    },
+    {
+        "question": "Kazakhstan की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Kazakhstani Tenge",
+                "is_correct": true
+            },
+            {
+                "title": "Albanian Lek",
+                "is_correct": false
+            },
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": false
+            },
+            {
+                "title": "Israeli Shekel",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Kazakhstan की मुद्रा Kazakhstani Tenge है।"
+    },
+    {
+        "question": "Uzbekistan की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Tashkent",
+                "is_correct": true
+            },
+            {
+                "title": "Tripoli",
+                "is_correct": false
+            },
+            {
+                "title": "Riyadh",
+                "is_correct": false
+            },
+            {
+                "title": "Oslo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tashkent Uzbekistan की राजधानी है।"
+    },
+    {
+        "question": "Uzbekistan की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": true
+            },
+            {
+                "title": "Cuban Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Bolivian Boliviano",
+                "is_correct": false
+            },
+            {
+                "title": "Sudanese Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Uzbekistan की मुद्रा Uzbekistani Som है।"
+    },
+    {
+        "question": "Azerbaijan की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Baku",
+                "is_correct": true
+            },
+            {
+                "title": "Minsk",
+                "is_correct": false
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            },
+            {
+                "title": "Stockholm",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Baku Azerbaijan की राजधानी है।"
+    },
+    {
+        "question": "Azerbaijan की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Azerbaijani Manat",
+                "is_correct": true
+            },
+            {
+                "title": "Uzbekistani Som",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore Dollar",
+                "is_correct": false
+            },
+            {
+                "title": "Nigerian Naira",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Azerbaijan की मुद्रा Azerbaijani Manat है।"
+    },
+    {
+        "question": "Georgia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Tbilisi",
+                "is_correct": true
+            },
+            {
+                "title": "Riga",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            },
+            {
+                "title": "Abu Dhabi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tbilisi Georgia की राजधानी है।"
+    },
+    {
+        "question": "Georgia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Georgian Lari",
+                "is_correct": true
+            },
+            {
+                "title": "Euro",
+                "is_correct": false
+            },
+            {
+                "title": "Bahraini Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Hungarian Forint",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Georgia की मुद्रा Georgian Lari है।"
+    },
+    {
+        "question": "Armenia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Yerevan",
+                "is_correct": true
+            },
+            {
+                "title": "Sarajevo",
+                "is_correct": false
+            },
+            {
+                "title": "Berlin",
+                "is_correct": false
+            },
+            {
+                "title": "Reykjavik",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Yerevan Armenia की राजधानी है।"
+    },
+    {
+        "question": "Armenia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Armenian Dram",
+                "is_correct": true
+            },
+            {
+                "title": "Peruvian Sol",
+                "is_correct": false
+            },
+            {
+                "title": "Argentine Peso",
+                "is_correct": false
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Armenia की मुद्रा Armenian Dram है।"
+    },
+    {
+        "question": "Belarus की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Minsk",
+                "is_correct": true
+            },
+            {
+                "title": "Washington D.C.",
+                "is_correct": false
+            },
+            {
+                "title": "Kathmandu",
+                "is_correct": false
+            },
+            {
+                "title": "Tripoli",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Minsk Belarus की राजधानी है।"
+    },
+    {
+        "question": "Belarus की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Belarusian Ruble",
+                "is_correct": true
+            },
+            {
+                "title": "Sri Lankan Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Azerbaijani Manat",
+                "is_correct": false
+            },
+            {
+                "title": "Singapore Dollar",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Belarus की मुद्रा Belarusian Ruble है।"
+    },
+    {
+        "question": "Slovakia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Bratislava",
+                "is_correct": true
+            },
+            {
+                "title": "Yerevan",
+                "is_correct": false
+            },
+            {
+                "title": "Brasília",
+                "is_correct": false
+            },
+            {
+                "title": "Amman",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bratislava Slovakia की राजधानी है।"
+    },
+    {
+        "question": "Slovakia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Macedonian Denar",
+                "is_correct": false
+            },
+            {
+                "title": "Malaysian Ringgit",
+                "is_correct": false
+            },
+            {
+                "title": "Peruvian Sol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Slovakia की मुद्रा Euro है।"
+    },
+    {
+        "question": "Slovenia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Ljubljana",
+                "is_correct": true
+            },
+            {
+                "title": "Prague",
+                "is_correct": false
+            },
+            {
+                "title": "Beijing",
+                "is_correct": false
+            },
+            {
+                "title": "Manama",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ljubljana Slovenia की राजधानी है।"
+    },
+    {
+        "question": "Slovenia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Japanese Yen",
+                "is_correct": false
+            },
+            {
+                "title": "South African Rand",
+                "is_correct": false
+            },
+            {
+                "title": "Syrian Pound",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Slovenia की मुद्रा Euro है।"
+    },
+    {
+        "question": "Lithuania की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Vilnius",
+                "is_correct": true
+            },
+            {
+                "title": "Mexico City",
+                "is_correct": false
+            },
+            {
+                "title": "Dublin",
+                "is_correct": false
+            },
+            {
+                "title": "Warsaw",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vilnius Lithuania की राजधानी है।"
+    },
+    {
+        "question": "Lithuania की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Brazilian Real",
+                "is_correct": false
+            },
+            {
+                "title": "Jordanian Dinar",
+                "is_correct": false
+            },
+            {
+                "title": "Mongolian Tugrik",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Lithuania की मुद्रा Euro है।"
+    },
+    {
+        "question": "Latvia की राजधानी कौन सी है?",
+        "answers": [
+            {
+                "title": "Riga",
+                "is_correct": true
+            },
+            {
+                "title": "Dhaka",
+                "is_correct": false
+            },
+            {
+                "title": "New Delhi",
+                "is_correct": false
+            },
+            {
+                "title": "Vienna",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Riga Latvia की राजधानी है।"
+    },
+    {
+        "question": "Latvia की मुद्रा कौन सी है?",
+        "answers": [
+            {
+                "title": "Euro",
+                "is_correct": true
+            },
+            {
+                "title": "Pakistani Rupee",
+                "is_correct": false
+            },
+            {
+                "title": "Romanian Leu",
+                "is_correct": false
+            },
+            {
+                "title": "Ethiopian Birr",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Latvia की मुद्रा Euro है।"
+    }
+]

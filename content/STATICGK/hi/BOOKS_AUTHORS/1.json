@@ -1,0 +1,4402 @@
+[
+    {
+        "question": "पुस्तक \"Godan\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Munshi Premchand",
+                "is_correct": true
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Godan is a classic Hindi novel by Premchand."
+    },
+    {
+        "question": "पुस्तक \"Gitanjali\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": true
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tagore received Nobel Prize for Gitanjali."
+    },
+    {
+        "question": "पुस्तक \"Anand Math\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": true
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vande Mataram appears in Anand Math."
+    },
+    {
+        "question": "पुस्तक \"Discovery of India\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": true
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nehru wrote it while in prison."
+    },
+    {
+        "question": "पुस्तक \"India Wins Freedom\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": true
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiographical account of freedom struggle."
+    },
+    {
+        "question": "पुस्तक \"My Experiments with Truth\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gandhi's autobiography."
+    },
+    {
+        "question": "पुस्तक \"War and Peace\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic novel by Russian writer Tolstoy."
+    },
+    {
+        "question": "पुस्तक \"1984\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by George Orwell."
+    },
+    {
+        "question": "पुस्तक \"Pride and Prejudice\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jane Austen",
+                "is_correct": true
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic romance by Jane Austen."
+    },
+    {
+        "question": "पुस्तक \"Romeo and Juliet\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tragic play by Shakespeare."
+    },
+    {
+        "question": "पुस्तक \"Hamlet\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous tragedy by Shakespeare."
+    },
+    {
+        "question": "पुस्तक \"The Great Gatsby\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": true
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American classic set in Jazz Age."
+    },
+    {
+        "question": "पुस्तक \"To Kill a Mockingbird\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Harper Lee",
+                "is_correct": true
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Harper Lee's only published novel."
+    },
+    {
+        "question": "पुस्तक \"Harry Potter series\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.K. Rowling",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy series by J.K. Rowling."
+    },
+    {
+        "question": "पुस्तक \"The Alchemist\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Paulo Coelho",
+                "is_correct": true
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Brazilian author Coelho."
+    },
+    {
+        "question": "पुस्तक \"One Hundred Years of Solitude\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": true
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Magical realism novel by Márquez."
+    },
+    {
+        "question": "पुस्तक \"Crime and Punishment\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian literary classic."
+    },
+    {
+        "question": "पुस्तक \"Anna Karenina\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tolstoy's novel."
+    },
+    {
+        "question": "पुस्तक \"Wings of Fire\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiography of Dr Kalam."
+    },
+    {
+        "question": "पुस्तक \"Ignited Minds\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Book by former President Kalam."
+    },
+    {
+        "question": "पुस्तक \"Midnight's Children\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Salman Rushdie",
+                "is_correct": true
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Rushdie."
+    },
+    {
+        "question": "पुस्तक \"The White Tiger\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Aravind Adiga",
+                "is_correct": true
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Adiga."
+    },
+    {
+        "question": "पुस्तक \"A Suitable Boy\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Vikram Seth",
+                "is_correct": true
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Long novel by Vikram Seth."
+    },
+    {
+        "question": "पुस्तक \"Train to Pakistan\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Khushwant Singh",
+                "is_correct": true
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel on Partition by Khushwant Singh."
+    },
+    {
+        "question": "पुस्तक \"The Guide\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous novel by R.K. Narayan."
+    },
+    {
+        "question": "पुस्तक \"Malgudi Days\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Stories set in Malgudi by R.K. Narayan."
+    },
+    {
+        "question": "पुस्तक \"The God of Small Things\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Arundhati Roy",
+                "is_correct": true
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Arundhati Roy."
+    },
+    {
+        "question": "पुस्तक \"Interpreter of Maladies\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": true
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pulitzer winner by Jhumpa Lahiri."
+    },
+    {
+        "question": "पुस्तक \"Ramcharitmanas\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Tulsidas",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Tulsidas."
+    },
+    {
+        "question": "पुस्तक \"Mahabharata\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Vyasa",
+                "is_correct": true
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Indian epic attributed to Vyasa."
+    },
+    {
+        "question": "पुस्तक \"Arthashastra\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": true
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient treatise on statecraft."
+    },
+    {
+        "question": "पुस्तक \"Panchatantra\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": true
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Indian fables."
+    },
+    {
+        "question": "पुस्तक \"Mein Kampf\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Adolf Hitler",
+                "is_correct": true
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hitler's autobiographical manifesto."
+    },
+    {
+        "question": "पुस्तक \"The Republic\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Plato",
+                "is_correct": true
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philosophical dialogue by Plato."
+    },
+    {
+        "question": "पुस्तक \"Oliver Twist\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Charles Dickens",
+                "is_correct": true
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Charles Dickens."
+    },
+    {
+        "question": "पुस्तक \"Jane Eyre\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": true
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Charlotte Brontë."
+    },
+    {
+        "question": "पुस्तक \"Wuthering Heights\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Emily Brontë",
+                "is_correct": true
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Emily Brontë."
+    },
+    {
+        "question": "पुस्तक \"Dracula\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Bram Stoker",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gothic novel by Bram Stoker."
+    },
+    {
+        "question": "पुस्तक \"Frankenstein\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Mary Shelley",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gothic novel by Mary Shelley."
+    },
+    {
+        "question": "पुस्तक \"Moby-Dick\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Herman Melville",
+                "is_correct": true
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American novel by Melville."
+    },
+    {
+        "question": "पुस्तक \"Uncle Tom's Cabin\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": true
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Anti-slavery novel by Stowe."
+    },
+    {
+        "question": "पुस्तक \"The Catcher in the Rye\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.D. Salinger",
+                "is_correct": true
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by J.D. Salinger."
+    },
+    {
+        "question": "पुस्तक \"Lord of the Flies\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "William Golding",
+                "is_correct": true
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by William Golding."
+    },
+    {
+        "question": "पुस्तक \"Brave New World\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Aldous Huxley",
+                "is_correct": true
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by Huxley."
+    },
+    {
+        "question": "पुस्तक \"Animal Farm\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Allegorical novella by Orwell."
+    },
+    {
+        "question": "पुस्तक \"The Hobbit\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": true
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy novel by Tolkien."
+    },
+    {
+        "question": "पुस्तक \"The Lord of the Rings\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": true
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic fantasy by Tolkien."
+    },
+    {
+        "question": "पुस्तक \"Don Quixote\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": true
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Spanish classic by Cervantes."
+    },
+    {
+        "question": "पुस्तक \"The Odyssey\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Homer",
+                "is_correct": true
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Greek epic attributed to Homer."
+    },
+    {
+        "question": "पुस्तक \"The Iliad\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Homer",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Greek epic by Homer."
+    },
+    {
+        "question": "पुस्तक \"Divine Comedy\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Dante Alighieri",
+                "is_correct": true
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Dante."
+    },
+    {
+        "question": "पुस्तक \"Canterbury Tales\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": true
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Collection of stories by Chaucer."
+    },
+    {
+        "question": "पुस्तक \"Robinson Crusoe\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Daniel Defoe",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Daniel Defoe."
+    },
+    {
+        "question": "पुस्तक \"Gulliver's Travels\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jonathan Swift",
+                "is_correct": true
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Satire by Jonathan Swift."
+    },
+    {
+        "question": "पुस्तक \"Treasure Island\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": true
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Adventure novel by Stevenson."
+    },
+    {
+        "question": "पुस्तक \"Dr Jekyll and Mr Hyde\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": true
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novella by Stevenson."
+    },
+    {
+        "question": "पुस्तक \"The Picture of Dorian Gray\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Oscar Wilde",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Oscar Wilde."
+    },
+    {
+        "question": "पुस्तक \"The Time Machine\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "H.G. Wells",
+                "is_correct": true
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction by H.G. Wells."
+    },
+    {
+        "question": "पुस्तक \"The Invisible Man\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "H.G. Wells",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction novel by Wells."
+    },
+    {
+        "question": "पुस्तक \"Around the World in Eighty Days\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jules Verne",
+                "is_correct": true
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Adventure novel by Jules Verne."
+    },
+    {
+        "question": "पुस्तक \"Twenty Thousand Leagues Under the Sea\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jules Verne",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction by Jules Verne."
+    },
+    {
+        "question": "पुस्तक \"Les Misérables\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Victor Hugo",
+                "is_correct": true
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "French novel by Victor Hugo."
+    },
+    {
+        "question": "पुस्तक \"The Hunchback of Notre-Dame\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Victor Hugo",
+                "is_correct": true
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Victor Hugo."
+    },
+    {
+        "question": "पुस्तक \"Madame Bovary\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": true
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "French novel by Flaubert."
+    },
+    {
+        "question": "पुस्तक \"The Stranger\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Albert Camus",
+                "is_correct": true
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philosophical novel by Camus."
+    },
+    {
+        "question": "पुस्तक \"The Little Prince\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": true
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous French novella."
+    },
+    {
+        "question": "पुस्तक \"Doctor Zhivago\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Boris Pasternak",
+                "is_correct": true
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian novel by Pasternak."
+    },
+    {
+        "question": "पुस्तक \"One Day in the Life of Ivan Denisovich\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": true
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Solzhenitsyn."
+    },
+    {
+        "question": "पुस्तक \"The Brothers Karamazov\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Dostoevsky."
+    },
+    {
+        "question": "पुस्तक \"The Idiot\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Dostoevsky."
+    },
+    {
+        "question": "पुस्तक \"Dead Souls\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": true
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Nikolai Gogol."
+    },
+    {
+        "question": "पुस्तक \"Fathers and Sons\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": true
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian novel by Turgenev."
+    },
+    {
+        "question": "पुस्तक \"The Tale of Genji\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": true
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic Japanese work."
+    },
+    {
+        "question": "पुस्तक \"Dream of the Red Chamber\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Cao Xueqin",
+                "is_correct": true
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Chinese classic novel."
+    },
+    {
+        "question": "पुस्तक \"The Art of War\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Sun Tzu",
+                "is_correct": true
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Chinese military treatise."
+    },
+    {
+        "question": "पुस्तक \"Analects\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Confucius",
+                "is_correct": true
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sayings of Confucius."
+    },
+    {
+        "question": "पुस्तक \"The Kite Runner\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": true
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Afghan-American author."
+    },
+    {
+        "question": "पुस्तक \"A Thousand Splendid Suns\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": true
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Khaled Hosseini."
+    },
+    {
+        "question": "पुस्तक \"The Da Vinci Code\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Dan Brown."
+    },
+    {
+        "question": "पुस्तक \"Angels and Demons\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Dan Brown."
+    },
+    {
+        "question": "पुस्तक \"The Hunger Games\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Suzanne Collins",
+                "is_correct": true
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian trilogy by Collins."
+    },
+    {
+        "question": "पुस्तक \"Twilight\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": true
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vampire romance series by Meyer."
+    },
+    {
+        "question": "पुस्तक \"The Fault in Our Stars\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "John Green",
+                "is_correct": true
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Young adult novel by John Green."
+    },
+    {
+        "question": "पुस्तक \"Gone Girl\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Gillian Flynn",
+                "is_correct": true
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Gillian Flynn."
+    },
+    {
+        "question": "पुस्तक \"The Da Vinci Code\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Dan Brown."
+    },
+    {
+        "question": "पुस्तक \"Godan\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Munshi Premchand",
+                "is_correct": true
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Godan is a classic Hindi novel by Premchand."
+    },
+    {
+        "question": "पुस्तक \"Gitanjali\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": true
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tagore received Nobel Prize for Gitanjali."
+    },
+    {
+        "question": "पुस्तक \"Anand Math\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": true
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vande Mataram appears in Anand Math."
+    },
+    {
+        "question": "पुस्तक \"Discovery of India\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": true
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nehru wrote it while in prison."
+    },
+    {
+        "question": "पुस्तक \"India Wins Freedom\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": true
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiographical account of freedom struggle."
+    },
+    {
+        "question": "पुस्तक \"My Experiments with Truth\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": true
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gandhi's autobiography."
+    },
+    {
+        "question": "पुस्तक \"War and Peace\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic novel by Russian writer Tolstoy."
+    },
+    {
+        "question": "पुस्तक \"1984\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by George Orwell."
+    },
+    {
+        "question": "पुस्तक \"Pride and Prejudice\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jane Austen",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic romance by Jane Austen."
+    },
+    {
+        "question": "पुस्तक \"Romeo and Juliet\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tragic play by Shakespeare."
+    },
+    {
+        "question": "पुस्तक \"Hamlet\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous tragedy by Shakespeare."
+    },
+    {
+        "question": "पुस्तक \"The Great Gatsby\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American classic set in Jazz Age."
+    },
+    {
+        "question": "पुस्तक \"To Kill a Mockingbird\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Harper Lee",
+                "is_correct": true
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Harper Lee's only published novel."
+    },
+    {
+        "question": "पुस्तक \"Harry Potter series\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.K. Rowling",
+                "is_correct": true
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy series by J.K. Rowling."
+    },
+    {
+        "question": "पुस्तक \"The Alchemist\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Paulo Coelho",
+                "is_correct": true
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Brazilian author Coelho."
+    },
+    {
+        "question": "पुस्तक \"One Hundred Years of Solitude\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Magical realism novel by Márquez."
+    },
+    {
+        "question": "पुस्तक \"Crime and Punishment\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian literary classic."
+    },
+    {
+        "question": "पुस्तक \"Anna Karenina\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tolstoy's novel."
+    },
+    {
+        "question": "पुस्तक \"Wings of Fire\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiography of Dr Kalam."
+    },
+    {
+        "question": "पुस्तक \"Ignited Minds\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Book by former President Kalam."
+    },
+    {
+        "question": "पुस्तक \"Midnight's Children\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Salman Rushdie",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Rushdie."
+    },
+    {
+        "question": "पुस्तक \"The White Tiger\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Aravind Adiga",
+                "is_correct": true
+            },
+            {
+                "title": "R.K. Narayan",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Adiga."
+    },
+    {
+        "question": "पुस्तक \"A Suitable Boy\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Vikram Seth",
+                "is_correct": true
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Long novel by Vikram Seth."
+    },
+    {
+        "question": "पुस्तक \"Train to Pakistan\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Khushwant Singh",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel on Partition by Khushwant Singh."
+    },
+    {
+        "question": "पुस्तक \"The Guide\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous novel by R.K. Narayan."
+    },
+    {
+        "question": "पुस्तक \"Malgudi Days\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Stories set in Malgudi by R.K. Narayan."
+    },
+    {
+        "question": "पुस्तक \"The God of Small Things\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Arundhati Roy",
+                "is_correct": true
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Arundhati Roy."
+    },
+    {
+        "question": "पुस्तक \"Interpreter of Maladies\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": true
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pulitzer winner by Jhumpa Lahiri."
+    },
+    {
+        "question": "पुस्तक \"Ramcharitmanas\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Tulsidas",
+                "is_correct": true
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Tulsidas."
+    },
+    {
+        "question": "पुस्तक \"Mahabharata\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Vyasa",
+                "is_correct": true
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Indian epic attributed to Vyasa."
+    },
+    {
+        "question": "पुस्तक \"Arthashastra\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": true
+            },
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": false
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient treatise on statecraft."
+    },
+    {
+        "question": "पुस्तक \"Panchatantra\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": true
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Indian fables."
+    },
+    {
+        "question": "पुस्तक \"Mein Kampf\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Adolf Hitler",
+                "is_correct": true
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hitler's autobiographical manifesto."
+    },
+    {
+        "question": "पुस्तक \"The Republic\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Plato",
+                "is_correct": true
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philosophical dialogue by Plato."
+    },
+    {
+        "question": "पुस्तक \"Oliver Twist\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Charles Dickens",
+                "is_correct": true
+            },
+            {
+                "title": "William Golding",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Charles Dickens."
+    },
+    {
+        "question": "पुस्तक \"Jane Eyre\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": true
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Charlotte Brontë."
+    },
+    {
+        "question": "पुस्तक \"Wuthering Heights\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Emily Brontë",
+                "is_correct": true
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Emily Brontë."
+    },
+    {
+        "question": "पुस्तक \"Dracula\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Bram Stoker",
+                "is_correct": true
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gothic novel by Bram Stoker."
+    },
+    {
+        "question": "पुस्तक \"Frankenstein\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Mary Shelley",
+                "is_correct": true
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gothic novel by Mary Shelley."
+    },
+    {
+        "question": "पुस्तक \"Moby-Dick\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Herman Melville",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American novel by Melville."
+    },
+    {
+        "question": "पुस्तक \"Uncle Tom's Cabin\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": true
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Anti-slavery novel by Stowe."
+    },
+    {
+        "question": "पुस्तक \"The Catcher in the Rye\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.D. Salinger",
+                "is_correct": true
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by J.D. Salinger."
+    },
+    {
+        "question": "पुस्तक \"Lord of the Flies\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "William Golding",
+                "is_correct": true
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by William Golding."
+    },
+    {
+        "question": "पुस्तक \"Brave New World\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Aldous Huxley",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by Huxley."
+    },
+    {
+        "question": "पुस्तक \"Animal Farm\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Allegorical novella by Orwell."
+    },
+    {
+        "question": "पुस्तक \"The Hobbit\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": true
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy novel by Tolkien."
+    },
+    {
+        "question": "पुस्तक \"The Lord of the Rings\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": true
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic fantasy by Tolkien."
+    },
+    {
+        "question": "पुस्तक \"Don Quixote\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Aravind Adiga",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Spanish classic by Cervantes."
+    },
+    {
+        "question": "पुस्तक \"The Odyssey\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Homer",
+                "is_correct": true
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Greek epic attributed to Homer."
+    },
+    {
+        "question": "पुस्तक \"The Iliad\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Homer",
+                "is_correct": true
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Greek epic by Homer."
+    },
+    {
+        "question": "पुस्तक \"Divine Comedy\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Dante Alighieri",
+                "is_correct": true
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Dante."
+    },
+    {
+        "question": "पुस्तक \"Canterbury Tales\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": true
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Collection of stories by Chaucer."
+    },
+    {
+        "question": "पुस्तक \"Robinson Crusoe\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Daniel Defoe",
+                "is_correct": true
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Daniel Defoe."
+    },
+    {
+        "question": "पुस्तक \"Gulliver's Travels\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jonathan Swift",
+                "is_correct": true
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Satire by Jonathan Swift."
+    },
+    {
+        "question": "पुस्तक \"Treasure Island\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": true
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Adventure novel by Stevenson."
+    },
+    {
+        "question": "पुस्तक \"Dr Jekyll and Mr Hyde\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": true
+            },
+            {
+                "title": "H.G. Wells",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novella by Stevenson."
+    },
+    {
+        "question": "पुस्तक \"The Picture of Dorian Gray\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Oscar Wilde",
+                "is_correct": true
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Oscar Wilde."
+    },
+    {
+        "question": "पुस्तक \"The Time Machine\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "H.G. Wells",
+                "is_correct": true
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction by H.G. Wells."
+    },
+    {
+        "question": "पुस्तक \"The Invisible Man\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "H.G. Wells",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction novel by Wells."
+    },
+    {
+        "question": "पुस्तक \"Around the World in Eighty Days\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jules Verne",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Adventure novel by Jules Verne."
+    },
+    {
+        "question": "पुस्तक \"Twenty Thousand Leagues Under the Sea\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jules Verne",
+                "is_correct": true
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Science fiction by Jules Verne."
+    },
+    {
+        "question": "पुस्तक \"Les Misérables\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Victor Hugo",
+                "is_correct": true
+            },
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "French novel by Victor Hugo."
+    },
+    {
+        "question": "पुस्तक \"The Hunchback of Notre-Dame\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Victor Hugo",
+                "is_correct": true
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Victor Hugo."
+    },
+    {
+        "question": "पुस्तक \"Madame Bovary\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": true
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "French novel by Flaubert."
+    },
+    {
+        "question": "पुस्तक \"The Stranger\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Albert Camus",
+                "is_correct": true
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Philosophical novel by Camus."
+    },
+    {
+        "question": "पुस्तक \"The Little Prince\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": true
+            },
+            {
+                "title": "Suzanne Collins",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous French novella."
+    },
+    {
+        "question": "पुस्तक \"Doctor Zhivago\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Boris Pasternak",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian novel by Pasternak."
+    },
+    {
+        "question": "पुस्तक \"One Day in the Life of Ivan Denisovich\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": true
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Solzhenitsyn."
+    },
+    {
+        "question": "पुस्तक \"The Brothers Karamazov\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Dostoevsky."
+    },
+    {
+        "question": "पुस्तक \"The Idiot\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Dostoevsky."
+    },
+    {
+        "question": "पुस्तक \"Dead Souls\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": true
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Nikolai Gogol."
+    },
+    {
+        "question": "पुस्तक \"Fathers and Sons\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": true
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            },
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian novel by Turgenev."
+    },
+    {
+        "question": "पुस्तक \"The Tale of Genji\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": true
+            },
+            {
+                "title": "Munshi Premchand",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic Japanese work."
+    },
+    {
+        "question": "पुस्तक \"Dream of the Red Chamber\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Cao Xueqin",
+                "is_correct": true
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Chinese classic novel."
+    },
+    {
+        "question": "पुस्तक \"The Art of War\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Sun Tzu",
+                "is_correct": true
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            },
+            {
+                "title": "Jonathan Swift",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Ancient Chinese military treatise."
+    },
+    {
+        "question": "पुस्तक \"Analects\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Confucius",
+                "is_correct": true
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Geoffrey Chaucer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Sayings of Confucius."
+    },
+    {
+        "question": "पुस्तक \"The Kite Runner\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": true
+            },
+            {
+                "title": "Homer",
+                "is_correct": false
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Afghan-American author."
+    },
+    {
+        "question": "पुस्तक \"A Thousand Splendid Suns\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": true
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel by Khaled Hosseini."
+    },
+    {
+        "question": "पुस्तक \"The Da Vinci Code\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Dan Brown."
+    },
+    {
+        "question": "पुस्तक \"Angels and Demons\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Dan Brown."
+    },
+    {
+        "question": "पुस्तक \"The Hunger Games\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Suzanne Collins",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian trilogy by Collins."
+    },
+    {
+        "question": "पुस्तक \"Twilight\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": true
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Paulo Coelho",
+                "is_correct": false
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vampire romance series by Meyer."
+    },
+    {
+        "question": "पुस्तक \"The Fault in Our Stars\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "John Green",
+                "is_correct": true
+            },
+            {
+                "title": "Daniel Defoe",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Arundhati Roy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Young adult novel by John Green."
+    },
+    {
+        "question": "पुस्तक \"Gone Girl\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Gillian Flynn",
+                "is_correct": true
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "Boris Pasternak",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Thriller by Gillian Flynn."
+    },
+    {
+        "question": "पुस्तक \"The Da Vinci Code\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Dan Brown",
+                "is_correct": true
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": false
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Dan Brown."
+    },
+    {
+        "question": "पुस्तक \"Godan\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Munshi Premchand",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Godan is a classic Hindi novel by Premchand."
+    },
+    {
+        "question": "पुस्तक \"Gitanjali\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Rabindranath Tagore",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Gillian Flynn",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tagore received Nobel Prize for Gitanjali."
+    },
+    {
+        "question": "पुस्तक \"Anand Math\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": true
+            },
+            {
+                "title": "Vikram Seth",
+                "is_correct": false
+            },
+            {
+                "title": "Khushwant Singh",
+                "is_correct": false
+            },
+            {
+                "title": "J.D. Salinger",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Vande Mataram appears in Anand Math."
+    },
+    {
+        "question": "पुस्तक \"Discovery of India\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jawaharlal Nehru",
+                "is_correct": true
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Nehru wrote it while in prison."
+    },
+    {
+        "question": "पुस्तक \"India Wins Freedom\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": true
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Oscar Wilde",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiographical account of freedom struggle."
+    },
+    {
+        "question": "पुस्तक \"My Experiments with Truth\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": true
+            },
+            {
+                "title": "Robert Louis Stevenson",
+                "is_correct": false
+            },
+            {
+                "title": "Murasaki Shikibu",
+                "is_correct": false
+            },
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Gandhi's autobiography."
+    },
+    {
+        "question": "पुस्तक \"War and Peace\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Dante Alighieri",
+                "is_correct": false
+            },
+            {
+                "title": "William Shakespeare",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic novel by Russian writer Tolstoy."
+    },
+    {
+        "question": "पुस्तक \"1984\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "George Orwell",
+                "is_correct": true
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            },
+            {
+                "title": "Nikolai Gogol",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Dystopian novel by George Orwell."
+    },
+    {
+        "question": "पुस्तक \"Pride and Prejudice\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jane Austen",
+                "is_correct": true
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Classic romance by Jane Austen."
+    },
+    {
+        "question": "पुस्तक \"Romeo and Juliet\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tragic play by Shakespeare."
+    },
+    {
+        "question": "पुस्तक \"Hamlet\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "William Shakespeare",
+                "is_correct": true
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous tragedy by Shakespeare."
+    },
+    {
+        "question": "पुस्तक \"The Great Gatsby\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "F. Scott Fitzgerald",
+                "is_correct": true
+            },
+            {
+                "title": "J.K. Rowling",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            },
+            {
+                "title": "Jane Austen",
+                "is_correct": false
+            }
+        ],
+        "explanation": "American classic set in Jazz Age."
+    },
+    {
+        "question": "पुस्तक \"To Kill a Mockingbird\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Harper Lee",
+                "is_correct": true
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Harper Lee's only published novel."
+    },
+    {
+        "question": "पुस्तक \"Harry Potter series\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "J.K. Rowling",
+                "is_correct": true
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            },
+            {
+                "title": "Jules Verne",
+                "is_correct": false
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Fantasy series by J.K. Rowling."
+    },
+    {
+        "question": "पुस्तक \"The Alchemist\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Paulo Coelho",
+                "is_correct": true
+            },
+            {
+                "title": "Gustave Flaubert",
+                "is_correct": false
+            },
+            {
+                "title": "Bankim Chandra Chattopadhyay",
+                "is_correct": false
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Bestseller by Brazilian author Coelho."
+    },
+    {
+        "question": "पुस्तक \"One Hundred Years of Solitude\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": true
+            },
+            {
+                "title": "Herman Melville",
+                "is_correct": false
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "J.R.R. Tolkien",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Magical realism novel by Márquez."
+    },
+    {
+        "question": "पुस्तक \"Crime and Punishment\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Fyodor Dostoevsky",
+                "is_correct": true
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Russian literary classic."
+    },
+    {
+        "question": "पुस्तक \"Anna Karenina\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Leo Tolstoy",
+                "is_correct": true
+            },
+            {
+                "title": "Miguel de Cervantes",
+                "is_correct": false
+            },
+            {
+                "title": "Alexander Solzhenitsyn",
+                "is_correct": false
+            },
+            {
+                "title": "Stephenie Meyer",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Tolstoy's novel."
+    },
+    {
+        "question": "पुस्तक \"Wings of Fire\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Vishnu Sharma",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Tulsidas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Autobiography of Dr Kalam."
+    },
+    {
+        "question": "पुस्तक \"Ignited Minds\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": true
+            },
+            {
+                "title": "Confucius",
+                "is_correct": false
+            },
+            {
+                "title": "Charlotte Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Book by former President Kalam."
+    },
+    {
+        "question": "पुस्तक \"Midnight's Children\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Salman Rushdie",
+                "is_correct": true
+            },
+            {
+                "title": "Harper Lee",
+                "is_correct": false
+            },
+            {
+                "title": "Emily Brontë",
+                "is_correct": false
+            },
+            {
+                "title": "Charles Dickens",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Rushdie."
+    },
+    {
+        "question": "पुस्तक \"The White Tiger\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Aravind Adiga",
+                "is_correct": true
+            },
+            {
+                "title": "Mary Shelley",
+                "is_correct": false
+            },
+            {
+                "title": "Chanakya (Kautilya)",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Adiga."
+    },
+    {
+        "question": "पुस्तक \"A Suitable Boy\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Vikram Seth",
+                "is_correct": true
+            },
+            {
+                "title": "Adolf Hitler",
+                "is_correct": false
+            },
+            {
+                "title": "Vyasa",
+                "is_correct": false
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Long novel by Vikram Seth."
+    },
+    {
+        "question": "पुस्तक \"Train to Pakistan\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Khushwant Singh",
+                "is_correct": true
+            },
+            {
+                "title": "John Green",
+                "is_correct": false
+            },
+            {
+                "title": "A.P.J. Abdul Kalam",
+                "is_correct": false
+            },
+            {
+                "title": "Salman Rushdie",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Novel on Partition by Khushwant Singh."
+    },
+    {
+        "question": "पुस्तक \"The Guide\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Maulana Abul Kalam Azad",
+                "is_correct": false
+            },
+            {
+                "title": "Albert Camus",
+                "is_correct": false
+            },
+            {
+                "title": "George Orwell",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Famous novel by R.K. Narayan."
+    },
+    {
+        "question": "पुस्तक \"Malgudi Days\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "R.K. Narayan",
+                "is_correct": true
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Antoine de Saint-Exupéry",
+                "is_correct": false
+            },
+            {
+                "title": "Sun Tzu",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Stories set in Malgudi by R.K. Narayan."
+    },
+    {
+        "question": "पुस्तक \"The God of Small Things\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Arundhati Roy",
+                "is_correct": true
+            },
+            {
+                "title": "Aldous Huxley",
+                "is_correct": false
+            },
+            {
+                "title": "Khaled Hosseini",
+                "is_correct": false
+            },
+            {
+                "title": "Ivan Turgenev",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Booker Prize winner by Arundhati Roy."
+    },
+    {
+        "question": "पुस्तक \"Interpreter of Maladies\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Jhumpa Lahiri",
+                "is_correct": true
+            },
+            {
+                "title": "Harriet Beecher Stowe",
+                "is_correct": false
+            },
+            {
+                "title": "Mahatma Gandhi",
+                "is_correct": false
+            },
+            {
+                "title": "Cao Xueqin",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Pulitzer winner by Jhumpa Lahiri."
+    },
+    {
+        "question": "पुस्तक \"Ramcharitmanas\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Tulsidas",
+                "is_correct": true
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            },
+            {
+                "title": "Bram Stoker",
+                "is_correct": false
+            },
+            {
+                "title": "Plato",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Epic poem by Tulsidas."
+    },
+    {
+        "question": "पुस्तक \"Mahabharata\" के लेखक कौन हैं?",
+        "answers": [
+            {
+                "title": "Vyasa",
+                "is_correct": true
+            },
+            {
+                "title": "Dan Brown",
+                "is_correct": false
+            },
+            {
+                "title": "Victor Hugo",
+                "is_correct": false
+            },
+            {
+                "title": "Gabriel García Márquez",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Indian epic attributed to Vyasa."
+    }
+]

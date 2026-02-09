@@ -19,6 +19,7 @@ class DemoTaxonomySeeder extends Seeder
                 'position' => 10,
                 'subjects' => [
                     ['name' => 'General Knowledge', 'position' => 10, 'topics' => ['History', 'Geography', 'Polity', 'Economy', 'Current Affairs']],
+                    ['name' => 'Static GK', 'position' => 12, 'topics' => ['Capitals & Currencies', 'National Symbols', 'Important Days', 'Books & Authors', 'Famous Personalities', 'Monuments & Heritage', 'International Organisations']],
                     ['name' => 'Reasoning', 'position' => 20, 'topics' => ['Analogies', 'Series', 'Blood Relations', 'Coding-Decoding']],
                     ['name' => 'Quantitative Aptitude', 'position' => 30, 'topics' => ['Percentages', 'Ratio & Proportion', 'Time & Work', 'Profit & Loss']],
                     ['name' => 'English', 'position' => 40, 'topics' => ['Grammar', 'Vocabulary', 'Reading Comprehension']],

@@ -1,0 +1,4402 @@
+[
+    {
+        "question": "January 26 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Republic Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India's Constitution came into effect on 26 January 1950."
+    },
+    {
+        "question": "January 30 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World AIDS Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "February 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Valentine's Day",
+                "is_correct": true
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Day of love and romance."
+    },
+    {
+        "question": "March 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Women's Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Celebrates women's achievements globally."
+    },
+    {
+        "question": "March 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness of consumer rights."
+    },
+    {
+        "question": "March 22 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Water Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Focuses on importance of freshwater."
+    },
+    {
+        "question": "April 22 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Earth Day",
+                "is_correct": true
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes environmental protection."
+    },
+    {
+        "question": "May 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Workers' Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Labour day celebrated globally."
+    },
+    {
+        "question": "May 3 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes press freedom."
+    },
+    {
+        "question": "June 5 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Environment Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for environmental awareness."
+    },
+    {
+        "question": "June 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Yoga Day",
+                "is_correct": true
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes yoga globally; initiated by India."
+    },
+    {
+        "question": "July 11 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Population Day",
+                "is_correct": true
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Focuses on population issues."
+    },
+    {
+        "question": "August 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Independence Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India gained independence on 15 August 1947."
+    },
+    {
+        "question": "September 5 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dr Sarvepalli Radhakrishnan."
+    },
+    {
+        "question": "October 2 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": true
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "October 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAF was established on 8 October 1932."
+    },
+    {
+        "question": "October 31 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Sardar Patel."
+    },
+    {
+        "question": "November 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Children's Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "World AIDS Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Jawaharlal Nehru."
+    },
+    {
+        "question": "December 10 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Human Rights Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Water Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN adopted Universal Declaration of Human Rights."
+    },
+    {
+        "question": "December 25 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Christmas",
+                "is_correct": true
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Science Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Christian festival celebrating birth of Jesus."
+    },
+    {
+        "question": "January 24 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes rights of girl child."
+    },
+    {
+        "question": "January 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Swami Vivekananda."
+    },
+    {
+        "question": "February 28 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Science Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Discovery of Raman Effect by C.V. Raman."
+    },
+    {
+        "question": "April 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": true
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Army Day",
+                "is_correct": false
+            },
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dr B.R. Ambedkar."
+    },
+    {
+        "question": "May 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Rajiv Gandhi."
+    },
+    {
+        "question": "July 29 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness for tiger conservation."
+    },
+    {
+        "question": "August 29 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dhyan Chand."
+    },
+    {
+        "question": "September 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Hindi Diwas",
+                "is_correct": true
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hindi was adopted as official language."
+    },
+    {
+        "question": "November 19 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Integration Day",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Indira Gandhi."
+    },
+    {
+        "question": "December 4 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Navy Day",
+                "is_correct": true
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Navy Day commemorates Operation Trident."
+    },
+    {
+        "question": "January 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Army Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Field Marshal K.M. Cariappa took over as first Indian Commander-in-Chief."
+    },
+    {
+        "question": "March 4 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes safety at workplace."
+    },
+    {
+        "question": "April 7 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Health Day",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO founding anniversary."
+    },
+    {
+        "question": "May 31 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO campaign against tobacco."
+    },
+    {
+        "question": "June 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Oceans Day",
+                "is_correct": true
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness for ocean conservation."
+    },
+    {
+        "question": "July 28 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Water Day",
+                "is_correct": false
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Awareness for viral hepatitis."
+    },
+    {
+        "question": "August 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Youth Day",
+                "is_correct": true
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for youth issues."
+    },
+    {
+        "question": "September 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Literacy Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO day for literacy."
+    },
+    {
+        "question": "October 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": true
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for elderly."
+    },
+    {
+        "question": "November 20 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Universal Children's Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for child rights."
+    },
+    {
+        "question": "December 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World AIDS Day",
+                "is_correct": true
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness about HIV\/AIDS."
+    },
+    {
+        "question": "January 27 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day remembering Holocaust victims."
+    },
+    {
+        "question": "February 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Mother Language Day",
+                "is_correct": true
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO day for linguistic diversity."
+    },
+    {
+        "question": "March 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Forestry Day",
+                "is_correct": true
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "International Day of Forests."
+    },
+    {
+        "question": "April 23 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO promotes reading."
+    },
+    {
+        "question": "May 17 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": true
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ITU founding anniversary."
+    },
+    {
+        "question": "June 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": true
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO campaign against child labour."
+    },
+    {
+        "question": "July 18 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day honouring Mandela."
+    },
+    {
+        "question": "August 9 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": true
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for indigenous rights."
+    },
+    {
+        "question": "September 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of Democracy",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Army Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN promotes democracy."
+    },
+    {
+        "question": "October 16 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Food Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO founding anniversary."
+    },
+    {
+        "question": "November 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Television Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for TV as communication medium."
+    },
+    {
+        "question": "December 18 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Migrants Day",
+                "is_correct": true
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for migrant rights."
+    },
+    {
+        "question": "January 26 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Republic Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India's Constitution came into effect on 26 January 1950."
+    },
+    {
+        "question": "January 30 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "February 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Valentine's Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Day of love and romance."
+    },
+    {
+        "question": "March 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Women's Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Celebrates women's achievements globally."
+    },
+    {
+        "question": "March 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness of consumer rights."
+    },
+    {
+        "question": "March 22 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Water Day",
+                "is_correct": true
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": false
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Focuses on importance of freshwater."
+    },
+    {
+        "question": "April 22 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Earth Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes environmental protection."
+    },
+    {
+        "question": "May 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Workers' Day",
+                "is_correct": true
+            },
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Labour day celebrated globally."
+    },
+    {
+        "question": "May 3 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": true
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes press freedom."
+    },
+    {
+        "question": "June 5 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Environment Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for environmental awareness."
+    },
+    {
+        "question": "June 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Yoga Day",
+                "is_correct": true
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes yoga globally; initiated by India."
+    },
+    {
+        "question": "July 11 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Population Day",
+                "is_correct": true
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Focuses on population issues."
+    },
+    {
+        "question": "August 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Independence Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India gained independence on 15 August 1947."
+    },
+    {
+        "question": "September 5 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dr Sarvepalli Radhakrishnan."
+    },
+    {
+        "question": "October 2 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": true
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "October 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAF was established on 8 October 1932."
+    },
+    {
+        "question": "October 31 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Sardar Patel."
+    },
+    {
+        "question": "November 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Children's Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Jawaharlal Nehru."
+    },
+    {
+        "question": "December 10 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Human Rights Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN adopted Universal Declaration of Human Rights."
+    },
+    {
+        "question": "December 25 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Christmas",
+                "is_correct": true
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Christian festival celebrating birth of Jesus."
+    },
+    {
+        "question": "January 24 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes rights of girl child."
+    },
+    {
+        "question": "January 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Swami Vivekananda."
+    },
+    {
+        "question": "February 28 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Science Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Discovery of Raman Effect by C.V. Raman."
+    },
+    {
+        "question": "April 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": true
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dr B.R. Ambedkar."
+    },
+    {
+        "question": "May 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Rajiv Gandhi."
+    },
+    {
+        "question": "July 29 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness for tiger conservation."
+    },
+    {
+        "question": "August 29 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dhyan Chand."
+    },
+    {
+        "question": "September 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Hindi Diwas",
+                "is_correct": true
+            },
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hindi was adopted as official language."
+    },
+    {
+        "question": "November 19 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Integration Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Indira Gandhi."
+    },
+    {
+        "question": "December 4 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Navy Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Navy Day commemorates Operation Trident."
+    },
+    {
+        "question": "January 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Army Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Field Marshal K.M. Cariappa took over as first Indian Commander-in-Chief."
+    },
+    {
+        "question": "March 4 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes safety at workplace."
+    },
+    {
+        "question": "April 7 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Health Day",
+                "is_correct": true
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO founding anniversary."
+    },
+    {
+        "question": "May 31 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            },
+            {
+                "title": "World AIDS Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO campaign against tobacco."
+    },
+    {
+        "question": "June 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Oceans Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness for ocean conservation."
+    },
+    {
+        "question": "July 28 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Awareness for viral hepatitis."
+    },
+    {
+        "question": "August 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Youth Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for youth issues."
+    },
+    {
+        "question": "September 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Literacy Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO day for literacy."
+    },
+    {
+        "question": "October 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": true
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for elderly."
+    },
+    {
+        "question": "November 20 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Universal Children's Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for child rights."
+    },
+    {
+        "question": "December 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World AIDS Day",
+                "is_correct": true
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness about HIV\/AIDS."
+    },
+    {
+        "question": "January 27 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day remembering Holocaust victims."
+    },
+    {
+        "question": "February 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Mother Language Day",
+                "is_correct": true
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO day for linguistic diversity."
+    },
+    {
+        "question": "March 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Forestry Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "International Day of Forests."
+    },
+    {
+        "question": "April 23 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Water Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO promotes reading."
+    },
+    {
+        "question": "May 17 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ITU founding anniversary."
+    },
+    {
+        "question": "June 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": true
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO campaign against child labour."
+    },
+    {
+        "question": "July 18 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": true
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day honouring Mandela."
+    },
+    {
+        "question": "August 9 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": true
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for indigenous rights."
+    },
+    {
+        "question": "September 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of Democracy",
+                "is_correct": true
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": false
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN promotes democracy."
+    },
+    {
+        "question": "October 16 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Food Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO founding anniversary."
+    },
+    {
+        "question": "November 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Television Day",
+                "is_correct": true
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for TV as communication medium."
+    },
+    {
+        "question": "December 18 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Migrants Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for migrant rights."
+    },
+    {
+        "question": "January 26 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Republic Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India's Constitution came into effect on 26 January 1950."
+    },
+    {
+        "question": "January 30 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "World Water Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "February 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Valentine's Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Science Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Day of love and romance."
+    },
+    {
+        "question": "March 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Women's Day",
+                "is_correct": true
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Celebrates women's achievements globally."
+    },
+    {
+        "question": "March 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness of consumer rights."
+    },
+    {
+        "question": "March 22 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Water Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Migrants Day",
+                "is_correct": false
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Focuses on importance of freshwater."
+    },
+    {
+        "question": "April 22 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Earth Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes environmental protection."
+    },
+    {
+        "question": "May 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Workers' Day",
+                "is_correct": true
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Labour day celebrated globally."
+    },
+    {
+        "question": "May 3 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes press freedom."
+    },
+    {
+        "question": "June 5 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Environment Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            },
+            {
+                "title": "World AIDS Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for environmental awareness."
+    },
+    {
+        "question": "June 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Yoga Day",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Army Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes yoga globally; initiated by India."
+    },
+    {
+        "question": "July 11 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Population Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Focuses on population issues."
+    },
+    {
+        "question": "August 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Independence Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Army Day",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India gained independence on 15 August 1947."
+    },
+    {
+        "question": "September 5 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dr Sarvepalli Radhakrishnan."
+    },
+    {
+        "question": "October 2 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": true
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "October 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAF was established on 8 October 1932."
+    },
+    {
+        "question": "October 31 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Sardar Patel."
+    },
+    {
+        "question": "November 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Children's Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Jawaharlal Nehru."
+    },
+    {
+        "question": "December 10 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Human Rights Day",
+                "is_correct": true
+            },
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN adopted Universal Declaration of Human Rights."
+    },
+    {
+        "question": "December 25 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Christmas",
+                "is_correct": true
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "World Water Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Christian festival celebrating birth of Jesus."
+    },
+    {
+        "question": "January 24 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes rights of girl child."
+    },
+    {
+        "question": "January 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Swami Vivekananda."
+    },
+    {
+        "question": "February 28 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Science Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Discovery of Raman Effect by C.V. Raman."
+    },
+    {
+        "question": "April 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dr B.R. Ambedkar."
+    },
+    {
+        "question": "May 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Rajiv Gandhi."
+    },
+    {
+        "question": "July 29 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness for tiger conservation."
+    },
+    {
+        "question": "August 29 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dhyan Chand."
+    },
+    {
+        "question": "September 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Hindi Diwas",
+                "is_correct": true
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            },
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hindi was adopted as official language."
+    },
+    {
+        "question": "November 19 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Integration Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Indira Gandhi."
+    },
+    {
+        "question": "December 4 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Navy Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Science Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Navy Day commemorates Operation Trident."
+    },
+    {
+        "question": "January 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Army Day",
+                "is_correct": true
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Field Marshal K.M. Cariappa took over as first Indian Commander-in-Chief."
+    },
+    {
+        "question": "March 4 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World AIDS Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes safety at workplace."
+    },
+    {
+        "question": "April 7 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Health Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO founding anniversary."
+    },
+    {
+        "question": "May 31 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": true
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO campaign against tobacco."
+    },
+    {
+        "question": "June 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Oceans Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness for ocean conservation."
+    },
+    {
+        "question": "July 28 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "World AIDS Day",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Awareness for viral hepatitis."
+    },
+    {
+        "question": "August 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Youth Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Water Day",
+                "is_correct": false
+            },
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for youth issues."
+    },
+    {
+        "question": "September 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Literacy Day",
+                "is_correct": true
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO day for literacy."
+    },
+    {
+        "question": "October 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Science Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for elderly."
+    },
+    {
+        "question": "November 20 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Universal Children's Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for child rights."
+    },
+    {
+        "question": "December 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World AIDS Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": false
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Army Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness about HIV\/AIDS."
+    },
+    {
+        "question": "January 27 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": true
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day remembering Holocaust victims."
+    },
+    {
+        "question": "February 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Mother Language Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO day for linguistic diversity."
+    },
+    {
+        "question": "March 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Forestry Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "International Day of Forests."
+    },
+    {
+        "question": "April 23 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO promotes reading."
+    },
+    {
+        "question": "May 17 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": true
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ITU founding anniversary."
+    },
+    {
+        "question": "June 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": true
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "ILO campaign against child labour."
+    },
+    {
+        "question": "July 18 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day honouring Mandela."
+    },
+    {
+        "question": "August 9 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": true
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for indigenous rights."
+    },
+    {
+        "question": "September 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of Democracy",
+                "is_correct": true
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN promotes democracy."
+    },
+    {
+        "question": "October 16 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Food Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "FAO founding anniversary."
+    },
+    {
+        "question": "November 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Television Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Environment Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Science Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for TV as communication medium."
+    },
+    {
+        "question": "December 18 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Migrants Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for migrant rights."
+    },
+    {
+        "question": "January 26 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Republic Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Army Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India's Constitution came into effect on 26 January 1950."
+    },
+    {
+        "question": "January 30 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "January 26 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Republic Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India's Constitution came into effect on 26 January 1950."
+    },
+    {
+        "question": "January 30 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Martyrs' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "February 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Valentine's Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Day of love and romance."
+    },
+    {
+        "question": "March 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Women's Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Celebrates women's achievements globally."
+    },
+    {
+        "question": "March 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": true
+            },
+            {
+                "title": "Hindi Diwas",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness of consumer rights."
+    },
+    {
+        "question": "March 22 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Water Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Telecommunication Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Focuses on importance of freshwater."
+    },
+    {
+        "question": "April 22 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Earth Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "Universal Children's Day",
+                "is_correct": false
+            },
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes environmental protection."
+    },
+    {
+        "question": "May 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Workers' Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "Earth Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Labour day celebrated globally."
+    },
+    {
+        "question": "May 3 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Press Freedom Day",
+                "is_correct": true
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes press freedom."
+    },
+    {
+        "question": "June 5 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Environment Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for environmental awareness."
+    },
+    {
+        "question": "June 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Yoga Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "World Water Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes yoga globally; initiated by India."
+    },
+    {
+        "question": "July 11 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Population Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Focuses on population issues."
+    },
+    {
+        "question": "August 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Independence Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "India gained independence on 15 August 1947."
+    },
+    {
+        "question": "September 5 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Yoga Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dr Sarvepalli Radhakrishnan."
+    },
+    {
+        "question": "October 2 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Gandhi Jayanti",
+                "is_correct": true
+            },
+            {
+                "title": "Independence Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Mahatma Gandhi."
+    },
+    {
+        "question": "October 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            }
+        ],
+        "explanation": "IAF was established on 8 October 1932."
+    },
+    {
+        "question": "October 31 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Sardar Patel."
+    },
+    {
+        "question": "November 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Children's Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Jawaharlal Nehru."
+    },
+    {
+        "question": "December 10 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Human Rights Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN adopted Universal Declaration of Human Rights."
+    },
+    {
+        "question": "December 25 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Christmas",
+                "is_correct": true
+            },
+            {
+                "title": "International Mother Language Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Air Force Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Christian festival celebrating birth of Jesus."
+    },
+    {
+        "question": "January 24 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Girl Child Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Army Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes rights of girl child."
+    },
+    {
+        "question": "January 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Youth Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Health Day",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Swami Vivekananda."
+    },
+    {
+        "question": "February 28 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Science Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "National Integration Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Discovery of Raman Effect by C.V. Raman."
+    },
+    {
+        "question": "April 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": true
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            },
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dr B.R. Ambedkar."
+    },
+    {
+        "question": "May 21 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Anti-Terrorism Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Oceans Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Death anniversary of Rajiv Gandhi."
+    },
+    {
+        "question": "July 29 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": true
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness for tiger conservation."
+    },
+    {
+        "question": "August 29 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Consumer Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "Children's Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Dhyan Chand."
+    },
+    {
+        "question": "September 14 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Hindi Diwas",
+                "is_correct": true
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "National Sports Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "National Unity Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Hindi was adopted as official language."
+    },
+    {
+        "question": "November 19 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Integration Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Youth Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Holocaust Remembrance Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Population Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Birth anniversary of Indira Gandhi."
+    },
+    {
+        "question": "December 4 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Navy Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Tiger Conservation Day",
+                "is_correct": false
+            },
+            {
+                "title": "Nelson Mandela International Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of World's Indigenous Peoples",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Navy Day commemorates Operation Trident."
+    },
+    {
+        "question": "January 15 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "Indian Army Day",
+                "is_correct": true
+            },
+            {
+                "title": "National Science Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Food Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Field Marshal K.M. Cariappa took over as first Indian Commander-in-Chief."
+    },
+    {
+        "question": "March 4 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "National Safety Day (India)",
+                "is_correct": true
+            },
+            {
+                "title": "World Book and Copyright Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            },
+            {
+                "title": "National Science Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Promotes safety at workplace."
+    },
+    {
+        "question": "April 7 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Health Day",
+                "is_correct": true
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO founding anniversary."
+    },
+    {
+        "question": "May 31 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World No Tobacco Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Workers' Day",
+                "is_correct": false
+            },
+            {
+                "title": "Republic Day (India)",
+                "is_correct": false
+            },
+            {
+                "title": "World Television Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "WHO campaign against tobacco."
+    },
+    {
+        "question": "June 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Oceans Day",
+                "is_correct": true
+            },
+            {
+                "title": "International Literacy Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            },
+            {
+                "title": "Teachers' Day (India)",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Raises awareness for ocean conservation."
+    },
+    {
+        "question": "July 28 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "World Hepatitis Day",
+                "is_correct": true
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            },
+            {
+                "title": "Christmas",
+                "is_correct": false
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            }
+        ],
+        "explanation": "Awareness for viral hepatitis."
+    },
+    {
+        "question": "August 12 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Youth Day",
+                "is_correct": true
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "Human Rights Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Day of Democracy",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for youth issues."
+    },
+    {
+        "question": "September 8 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Literacy Day",
+                "is_correct": true
+            },
+            {
+                "title": "Valentine's Day",
+                "is_correct": false
+            },
+            {
+                "title": "International Women's Day",
+                "is_correct": false
+            },
+            {
+                "title": "World Day Against Child Labour",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UNESCO day for literacy."
+    },
+    {
+        "question": "October 1 को कौन सा दिवस मनाया जाता है?",
+        "answers": [
+            {
+                "title": "International Day of Older Persons",
+                "is_correct": true
+            },
+            {
+                "title": "World Forestry Day",
+                "is_correct": false
+            },
+            {
+                "title": "Indian Navy Day",
+                "is_correct": false
+            },
+            {
+                "title": "Ambedkar Jayanti",
+                "is_correct": false
+            }
+        ],
+        "explanation": "UN day for elderly."
+    }
+]
