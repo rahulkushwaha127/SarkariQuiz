@@ -16,13 +16,15 @@ class DashboardController extends Controller
     public function index()
     {
         $today = now()->toDateString();
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $daily = DailyChallenge::query()
             ->where('challenge_date', $today)
             ->where('is_active', true)
+            ->whereHas('quiz', fn ($q) => $q->where('language', $lang))
             ->with('quiz')
             ->first();
 
-        $quizzes = $this->quizzesQuery()
+        $quizzes = $this->quizzesQuery($lang)
             ->paginate(self::QUIZZES_PER_PAGE)
             ->withPath(route('public.home'));
 
@@ -36,8 +38,9 @@ class DashboardController extends Controller
      */
     public function quizzesLoadMore(Request $request)
     {
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $page = max(1, (int) $request->input('page', 1));
-        $quizzes = $this->quizzesQuery()->paginate(self::QUIZZES_PER_PAGE, ['*'], 'page', $page);
+        $quizzes = $this->quizzesQuery($lang)->paginate(self::QUIZZES_PER_PAGE, ['*'], 'page', $page);
 
         return response()->view('student.dashboard._quiz_cards', [
             'quizzes' => $quizzes->getCollection(),
@@ -45,9 +48,9 @@ class DashboardController extends Controller
         ]);
     }
 
-    private function quizzesQuery()
+    private function quizzesQuery(?string $lang = null)
     {
-        return Quiz::query()
+        $query = Quiz::query()
             ->where('status', 'published')
             ->where('is_public', true)
             ->with(['exam', 'subject'])
@@ -56,6 +59,12 @@ class DashboardController extends Controller
             ->orderByDesc('featured_at')
             ->orderByDesc('attempts_count')
             ->orderByDesc('id');
+
+        if ($lang !== null && $lang !== '') {
+            $query->where('language', $lang);
+        }
+
+        return $query;
     }
 }
 

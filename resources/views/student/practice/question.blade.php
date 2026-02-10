@@ -3,56 +3,91 @@
 @section('title', 'Practice')
 
 @section('content')
-    <div class="space-y-4">
-        <div class="border border-white/10 bg-white/5 p-4">
-            <div class="flex items-center justify-between gap-3">
-                <div class="text-sm font-semibold text-white">
-                    Practice · Question {{ $questionNumber }} / {{ $totalQuestions }}
-                </div>
-                <a href="{{ route('practice.result', $attempt) }}"
-                   class="bg-white/10 px-3 py-2 text-xs font-semibold text-white hover:bg-white/15">
-                    Finish
-                </a>
-            </div>
-            <div class="mt-3 text-base font-semibold text-white">
-                {!! nl2br(e($question->prompt)) !!}
-            </div>
-            @if($question->image_path)
-                <div class="mt-3">
-                    <img src="{{ asset('storage/' . $question->image_path) }}" alt="Question image" class="max-h-64 rounded-lg">
-                </div>
-            @endif
-        </div>
+<div id="practice-content" class="space-y-4">
+    @include('student.practice._question_content', [
+        'attempt' => $attempt,
+        'questionNumber' => $questionNumber,
+        'totalQuestions' => $totalQuestions,
+        'question' => $question,
+        'selectedAnswerId' => $selectedAnswerId ?? null,
+    ])
+</div>
 
-        <form method="POST" action="{{ route('practice.answer', [$attempt, $questionNumber]) }}" class="space-y-3">
-            @csrf
+<script>
+(function() {
+    var container = document.getElementById('practice-content');
+    if (!container) return;
 
-            <div class="border border-white/10 bg-white/5">
-                @foreach($question->answers as $ans)
-                    <label class="flex cursor-pointer items-start gap-3 border-b border-white/10 px-4 py-3 last:border-b-0">
-                        <input type="radio" name="answer_id" value="{{ $ans->id }}"
-                               class="mt-1 h-4 w-4"
-                               @checked((int)$selectedAnswerId === (int)$ans->id)>
-                        <div class="text-sm text-white/90">
-                            {{ $ans->title }}
-                            @if($ans->image_path)
-                                <img src="{{ asset('storage/' . $ans->image_path) }}" alt="Option image" class="mt-1 max-h-24 rounded">
-                            @endif
-                        </div>
-                    </label>
-                @endforeach
-            </div>
+    container.addEventListener('submit', function(e) {
+        var form = e.target;
+        if (!form || form.tagName !== 'FORM' || !form.classList.contains('practice-answer-form')) return;
 
-            <div class="flex items-center gap-2">
-                @php $isLast = $questionNumber >= $totalQuestions; @endphp
+        e.preventDefault();
 
-                <button type="submit" name="action" value="{{ $isLast ? 'finish' : 'next' }}"
-                        class="flex-1 bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
-                    {{ $isLast ? 'FINISH' : 'NEXT' }}
-                </button>
-            </div>
-        </form>
-    </div>
+        var submitBtn = form.querySelector('button[type="submit"]');
+        if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.textContent = submitBtn.textContent.trim() === 'FINISH' ? 'Submitting…' : 'Loading…';
+        }
+
+        var body = new FormData(form);
+        var url = form.getAttribute('action');
+
+        fetch(url, {
+            method: 'POST',
+            body: body,
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'Accept': 'text/html'
+            },
+            redirect: 'manual'
+        })
+        .then(function(r) {
+            if (r.type === 'opaqueredirect' || r.status === 302) {
+                var loc = r.headers.get('Location');
+                if (loc) window.location.href = loc;
+                return;
+            }
+            if (!r.ok) {
+                window.location.href = url;
+                return;
+            }
+            return r.text();
+        })
+        .then(function(html) {
+            if (!html) return;
+            container.innerHTML = html;
+            var nextUrlEl = container.querySelector('[data-practice-next-url]');
+            if (nextUrlEl) {
+                var u = nextUrlEl.getAttribute('data-practice-next-url');
+                if (u && window.history && window.history.pushState) {
+                    window.history.pushState({}, '', u);
+                }
+            }
+            var resultUrlEl = container.querySelector('[data-practice-result-url]');
+            if (resultUrlEl) {
+                var ru = resultUrlEl.getAttribute('data-practice-result-url');
+                if (ru && window.history && window.history.pushState) {
+                    window.history.pushState({}, '', ru);
+                }
+                var copyBtns = container.querySelectorAll('[data-copy-text]');
+                copyBtns.forEach(function(btn) {
+                    btn.addEventListener('click', function() {
+                        var text = this.getAttribute('data-copy-text');
+                        if (text && navigator.clipboard && navigator.clipboard.writeText) {
+                            navigator.clipboard.writeText(text).then(function() {
+                                btn.textContent = 'Copied!';
+                                setTimeout(function() { btn.textContent = 'Copy link'; }, 2000);
+                            });
+                        }
+                    });
+                });
+            }
+        })
+        .catch(function() {
+            window.location.href = url;
+        });
+    });
+})();
+</script>
 @endsection
-
-

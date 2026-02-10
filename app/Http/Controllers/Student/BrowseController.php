@@ -28,10 +28,11 @@ class BrowseController extends Controller
     {
         abort_unless((bool) $exam->is_active, 404);
 
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $subjects = $exam->subjects()
             ->where('subjects.is_active', true)
             ->withCount([
-                'quizzes as public_quizzes_count' => fn ($q) => $q->where('status', 'published')->where('is_public', true),
+                'quizzes as public_quizzes_count' => fn ($q) => $q->where('status', 'published')->where('is_public', true)->where('language', $lang),
             ])
             ->get();
 
@@ -42,10 +43,12 @@ class BrowseController extends Controller
     {
         abort_unless((bool) $subject->is_active, 404);
 
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $quizzes = Quiz::query()
             ->where('subject_id', $subject->id)
             ->where('status', 'published')
             ->where('is_public', true)
+            ->where('language', $lang)
             ->withCount('questions')
             ->orderByDesc('id')
             ->paginate(20);
@@ -55,9 +58,11 @@ class BrowseController extends Controller
 
     public function contests(Request $request)
     {
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $contests = Contest::query()
             ->where('is_public_listed', true)
             ->whereIn('status', ['scheduled', 'live', 'ended'])
+            ->whereHas('quiz', fn ($q) => $q->where('language', $lang))
             ->with(['creator', 'quiz'])
             ->withCount('participants')
             ->orderByDesc('id')

@@ -161,4 +161,15 @@ class User extends Authenticatable
     {
         return $this->studentPlan;
     }
+
+    /**
+     * Preferred content language for filtering quizzes/questions (students).
+     * Returns student profile preferred_language or app locale for guests.
+     */
+    public function preferredContentLanguage(): string
+    {
+        $lang = $this->studentProfile?->preferred_language ?? null;
+
+        return is_string($lang) && $lang !== '' ? $lang : config('app.locale', 'en');
+    }
 }

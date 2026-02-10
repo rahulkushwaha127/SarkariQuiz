@@ -14,6 +14,7 @@ class Student extends Model
         'target_exam',
         'city',
         'preferences',
+        'preferred_language',
     ];
 
     protected $casts = [

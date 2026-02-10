@@ -15,10 +15,12 @@ class DailyChallengeController extends Controller
     public function show(Request $request)
     {
         $today = now()->toDateString();
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
 
         $daily = DailyChallenge::query()
             ->where('challenge_date', $today)
             ->where('is_active', true)
+            ->whereHas('quiz', fn ($q) => $q->where('language', $lang))
             ->with(['quiz.user'])
             ->first();
 

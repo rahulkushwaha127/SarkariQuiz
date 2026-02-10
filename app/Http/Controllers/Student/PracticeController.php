@@ -100,8 +100,11 @@ class PracticeController extends Controller
             default => null,
         };
 
-        // Practice uses the question bank directly: random from all questions, or filtered by topic/difficulty.
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
+
+        // Practice uses the question bank directly: random from all questions, or filtered by topic/difficulty/language.
         $query = Question::query()
+            ->where('language', $lang)
             ->whereExists(function ($q) {
                 $q->select(DB::raw(1))
                     ->from('answers')
@@ -245,9 +248,15 @@ class PracticeController extends Controller
 
         if ($action === 'finish' || $isLast) {
             $this->finishAttempt($attempt);
+            if ($request->header('X-Requested-With') === 'XMLHttpRequest') {
+                return $this->practiceResultFragment($attempt);
+            }
             return redirect()->route('practice.result', $attempt);
         }
 
+        if ($request->header('X-Requested-With') === 'XMLHttpRequest') {
+            return $this->practiceQuestionFragment($attempt, $number + 1);
+        }
         return redirect()->route('practice.question', [$attempt, $number + 1]);
     }
 
@@ -338,6 +347,84 @@ class PracticeController extends Controller
 
         $xpResult = DailyStreak::awardXp($attempt->user_id, $correctCount);
         session(['xp_result' => $xpResult]);
+    }
+
+    /**
+     * Return HTML fragment for next question (no-refresh practice).
+     */
+    private function practiceQuestionFragment(PracticeAttempt $attempt, int $number)
+    {
+        $total = (int) ($attempt->total_questions ?: 0);
+        if ($number < 1) {
+            $number = 1;
+        }
+        if ($number > $total) {
+            $number = $total;
+        }
+
+        $slot = PracticeAttemptAnswer::query()
+            ->where('attempt_id', $attempt->id)
+            ->where('position', $number)
+            ->firstOrFail();
+
+        $question = Question::query()->where('id', $slot->question_id)->with('answers')->firstOrFail();
+
+        $html = view('student.practice._question_content', [
+            'attempt' => $attempt,
+            'questionNumber' => $number,
+            'totalQuestions' => $total,
+            'question' => $question,
+            'selectedAnswerId' => $slot->answer_id,
+        ])->render();
+
+        return response($html, 200, ['Content-Type' => 'text/html; charset=UTF-8']);
+    }
+
+    /**
+     * Return HTML fragment for result (no-refresh practice).
+     */
+    private function practiceResultFragment(PracticeAttempt $attempt)
+    {
+        $attempt->load(['exam', 'subject', 'topic']);
+
+        $slots = PracticeAttemptAnswer::query()
+            ->where('attempt_id', $attempt->id)
+            ->orderBy('position')
+            ->get()
+            ->keyBy('question_id');
+
+        $questionIds = $slots->keys()->all();
+        $questions = Question::query()
+            ->whereIn('id', $questionIds)
+            ->with(['answers' => fn ($q) => $q->orderBy('position')])
+            ->get()
+            ->keyBy('id');
+
+        $orderedQuestions = collect();
+        foreach ($questionIds as $qid) {
+            if ($questions->has($qid)) {
+                $orderedQuestions->push($questions->get($qid));
+            }
+        }
+
+        $bookmarkedIds = QuestionBookmark::query()
+            ->where('user_id', Auth::id())
+            ->whereIn('question_id', $questionIds)
+            ->pluck('question_id')
+            ->map(fn ($v) => (int) $v)
+            ->all();
+
+        $xpResult = session('xp_result', []);
+
+        $html = view('student.practice._result_content', [
+            'attempt' => $attempt,
+            'questions' => $orderedQuestions,
+            'answers' => $slots,
+            'bookmarkedIds' => $bookmarkedIds,
+            'xpResult' => $xpResult,
+        ])->render();
+
+        return response($html, 200, ['Content-Type' => 'text/html; charset=UTF-8']);
     }
 }
 

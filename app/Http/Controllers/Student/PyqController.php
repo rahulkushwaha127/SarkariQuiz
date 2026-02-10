@@ -63,7 +63,9 @@ class PyqController extends Controller
             $topicId = null;
         }
 
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $years = PyqQuestion::query()
+            ->where('language', $lang)
             ->when($examId, fn ($q) => $q->where('exam_id', $examId))
             ->when($subjectId, fn ($q) => $q->where('subject_id', $subjectId))
             ->when($topicId, fn ($q) => $q->where('topic_id', $topicId))
@@ -105,7 +107,9 @@ class PyqController extends Controller
             ? $totalMinutes * 60
             : $count * $perQ;
 
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $questionIds = PyqQuestion::query()
+            ->where('language', $lang)
             ->where('exam_id', $data['exam_id'])
             ->when($data['subject_id'] ?? null, fn ($q) => $q->where('subject_id', $data['subject_id']))
             ->when($data['topic_id'] ?? null, fn ($q) => $q->where('topic_id', $data['topic_id']))

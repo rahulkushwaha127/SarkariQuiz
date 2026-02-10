@@ -101,6 +101,7 @@ Route::middleware(['auth', 'require_student'])->group(function () {
 
     // Student profile card
     Route::get('/my-profile', [\App\Http\Controllers\Student\ProfileCardController::class, 'show'])->name('student.profile');
+    Route::patch('/my-profile/language', [\App\Http\Controllers\Student\ProfileCardController::class, 'updateLanguage'])->name('student.profile.update_language');
 
     // Subscription / Plans
     Route::get('/plans', [SubscriptionController::class, 'index'])->name('student.subscription');

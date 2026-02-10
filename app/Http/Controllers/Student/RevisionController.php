@@ -25,15 +25,23 @@ class RevisionController extends Controller
         }
 
         $userId = Auth::id();
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
 
         $bookmarks = QuestionBookmark::query()
             ->where('user_id', $userId)
+            ->whereHas('question', fn ($q) => $q->where('language', $lang))
             ->with(['question.quizzes'])
             ->latest()
             ->limit(50)
             ->get();
 
         $mistakeQuestionIds = $this->mistakeQuestionIds($userId, 200);
+        $mistakeQuestionIds = Question::query()
+            ->whereIn('id', $mistakeQuestionIds)
+            ->where('language', $lang)
+            ->pluck('id')
+            ->map(fn ($v) => (int) $v)
+            ->all();
         $mistakes = Question::query()
             ->whereIn('id', $mistakeQuestionIds)
             ->with('quizzes')
@@ -98,6 +106,7 @@ class RevisionController extends Controller
 
         $userId = Auth::id();
         $count = (int) ($data['count'] ?? 10);
+        $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
 
         if ($data['source'] === 'bookmarks') {
             $questionIds = QuestionBookmark::query()
@@ -113,6 +122,12 @@ class RevisionController extends Controller
         }
 
         $questionIds = $this->normalizeIds($questionIds);
+        $questionIds = Question::query()
+            ->whereIn('id', $questionIds)
+            ->where('language', $lang)
+            ->pluck('id')
+            ->map(fn ($v) => (int) $v)
+            ->all();
         if ($this->isEmptyIds($questionIds)) {
             return redirect()
                 ->route('revision', ['tab' => $data['source']])

@@ -13,6 +13,7 @@ class PyqQuestion extends Model
         'exam_id',
         'subject_id',
         'topic_id',
+        'language',
         'year',
         'paper',
         'prompt',

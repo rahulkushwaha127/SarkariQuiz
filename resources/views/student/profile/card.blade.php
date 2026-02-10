@@ -65,6 +65,27 @@
         <div class="mt-3 text-center text-[10px] text-slate-500">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
     </div>
 
+    {{-- Default language --}}
+    <div class="border border-white/10 bg-gradient-to-br from-indigo-600/20 via-slate-900/80 to-purple-600/20 p-5">
+        <h3 class="text-sm font-bold text-white">Default language</h3>
+        <p class="mt-1 text-xs text-slate-400">Quizzes and practice content will be shown in this language when available.</p>
+        @if(session('status'))
+            <p class="mt-2 text-sm text-emerald-300">{{ session('status') }}</p>
+        @endif
+        <form method="post" action="{{ route('student.profile.update_language') }}" class="mt-3">
+            @csrf
+            @method('patch')
+            <select name="preferred_language" class="mt-1 w-full rounded-lg border border-white/20 bg-black/30 px-3 py-2.5 text-sm text-white focus:border-indigo-400 focus:outline-none focus:ring-1 focus:ring-indigo-400 [&>option]:bg-slate-800 [&>option]:text-white">
+                @foreach($supportedLanguages ?? [] as $code => $label)
+                    <option value="{{ $code }}" {{ old('preferred_language', $user->studentProfile?->preferred_language ?? 'en') === $code ? 'selected' : '' }}>{{ $label }}</option>
+                @endforeach
+            </select>
+            <button type="submit" class="mt-3 w-full rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 hover:from-indigo-600 hover:to-purple-600">
+                Save language
+            </button>
+        </form>
+    </div>
+
     {{-- Share buttons --}}
     @php
         $profileUrl = route('student.profile');
