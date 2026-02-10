@@ -21,12 +21,15 @@ use App\Http\Controllers\Admin\StudentPlansController;
 use App\Http\Controllers\Admin\ContactSubmissionsController;
 use App\Http\Controllers\Admin\NotificationTemplatesController;
 use App\Http\Controllers\Admin\CreatorBioThemesController;
+use App\Http\Controllers\Admin\ProfileController as AdminProfileController;
 
 Route::middleware(['auth', 'role:super_admin'])
     ->prefix('admin')
     ->as('admin.')
     ->group(function () {
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+        Route::get('/profile', [AdminProfileController::class, 'edit'])->name('profile.edit');
+        Route::patch('/profile', [AdminProfileController::class, 'update'])->name('profile.update');
         Route::get('/users', [UsersController::class, 'index'])->name('users.index');
         Route::get('/users/create', [UsersController::class, 'create'])->name('users.create');
         Route::post('/users', [UsersController::class, 'store'])->name('users.store');

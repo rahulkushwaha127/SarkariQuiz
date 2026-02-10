@@ -43,7 +43,7 @@ class ProfileController extends Controller
         $themeService = app(CreatorBioThemeService::class);
         $enabledThemes = $themeService->listEnabledThemes();
 
-        return view('creator.profile.edit', [
+        return view('creator.bio.edit', [
             'profile' => $profile,
             'user' => $user,
             'enabledThemes' => $enabledThemes,
@@ -231,7 +231,7 @@ class ProfileController extends Controller
 
         $profile->save();
 
-        $redirect = redirect()->route('creator.profile.edit');
+        $redirect = redirect()->route('creator.bio.edit');
         if ($user->username) {
             $redirect->with('status', 'Profile updated. Your public page: ' . route('public.creators.show', $user->username));
         } else {

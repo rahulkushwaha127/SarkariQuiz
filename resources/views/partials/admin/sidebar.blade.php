@@ -8,12 +8,18 @@
                 Dashboard
             </a>
 
-            <a href="{{ route('admin.users.index') }}"
+            <a href="{{ route('admin.users.index', ['role' => 'student']) }}"
                class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
-               {{ request()->routeIs('admin.users.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
-                <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.users.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
-                Users
+               {{ request()->routeIs('admin.users.*') && request()->get('role') === 'student' ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.users.*') && request()->get('role') === 'student' ? 'bg-white' : 'bg-slate-300' }}"></span>
+                Students
             </a>
+                <a href="{{ route('admin.users.index', ['role' => 'creator']) }}"
+                   class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+                   {{ request()->routeIs('admin.users.*') && request()->get('role') === 'creator' ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                    <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.users.*') && request()->get('role') === 'creator' ? 'bg-white' : 'bg-slate-300' }}"></span>
+                    Creators
+                </a>
 
             <div class="border-t border-slate-100 pt-2 mt-2">
                 <div class="px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-slate-400">Content</div>

@@ -16,6 +16,7 @@ use App\Http\Controllers\Creator\QuizJsonImportController;
 use App\Http\Controllers\Creator\SettingsController;
 use App\Http\Controllers\Creator\SubscriptionController;
 use App\Http\Controllers\Creator\TaxonomyController;
+use App\Http\Controllers\Creator\AccountController;
 
 Route::middleware(['auth', 'role:creator|super_admin'])
     ->prefix('creator')
@@ -66,8 +67,10 @@ Route::middleware(['auth', 'role:creator|super_admin'])
         Route::post('quizzes/{quiz}/json/validate', [QuizJsonImportController::class, 'validateJson'])->name('quizzes.json.validate');
         Route::post('quizzes/{quiz}/json/import', [QuizJsonImportController::class, 'import'])->name('quizzes.json.import');
 
-        Route::get('profile', [\App\Http\Controllers\Creator\ProfileController::class, 'edit'])->name('profile.edit');
-        Route::post('profile', [\App\Http\Controllers\Creator\ProfileController::class, 'update'])->name('profile.update');
+        Route::get('profile', [AccountController::class, 'edit'])->name('profile.edit');
+        Route::patch('profile', [AccountController::class, 'update'])->name('profile.update');
+        Route::get('bio', [\App\Http\Controllers\Creator\ProfileController::class, 'edit'])->name('bio.edit');
+        Route::post('bio', [\App\Http\Controllers\Creator\ProfileController::class, 'update'])->name('bio.update');
         Route::get('settings', [SettingsController::class, 'index'])->name('settings.index');
         Route::post('settings', [SettingsController::class, 'update'])->name('settings.update');
 

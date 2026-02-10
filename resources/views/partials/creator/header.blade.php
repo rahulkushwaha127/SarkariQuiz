@@ -27,10 +27,6 @@
                 @endif
             </a>
 
-            <div class="hidden sm:block text-sm text-slate-600">
-                {{ auth()->user()->name }}
-            </div>
-
             @if (auth()->user()->hasRole('super_admin'))
                 <a href="{{ route('admin.dashboard') }}"
                    class="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50">
@@ -38,13 +34,22 @@
                 </a>
             @endif
 
-            <form method="POST" action="{{ route('logout') }}">
-                @csrf
-                <button type="submit"
-                        class="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50">
-                    Logout
-                </button>
-            </form>
+            <details class="relative group">
+                <summary class="inline-flex cursor-pointer list-none items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50 [&::-webkit-details-marker]:hidden">
+                    <span class="hidden sm:inline">{{ auth()->user()->name }}</span>
+                    <svg class="h-4 w-4 text-slate-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </summary>
+                <div class="absolute right-0 top-full z-50 mt-1 w-48 rounded-xl border border-slate-200 bg-white py-1 shadow-lg">
+                    <a href="{{ route('creator.profile.edit') }}" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50">Profile</a>
+                    <a href="{{ route('creator.settings.index') }}" class="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50">Settings</a>
+                    <form method="POST" action="{{ route('logout') }}" class="block">
+                        @csrf
+                        <button type="submit" class="w-full px-4 py-2 text-left text-sm text-slate-700 hover:bg-slate-50">Logout</button>
+                    </form>
+                </div>
+            </details>
         </div>
     </div>
 </header>
