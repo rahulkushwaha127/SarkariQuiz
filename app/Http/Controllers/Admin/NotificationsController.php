@@ -76,27 +76,55 @@ class NotificationsController extends Controller
             ], fn ($v) => $v !== null && $v !== ''),
         ];
 
-        // FCM legacy supports max 500 registration_ids per request.
+        // FCM v1: one request per token; collect failures to revoke invalid tokens.
         $success = 0;
         $failure = 0;
         $errors = [];
+        $tokensToRevoke = [];
 
         foreach (array_chunk($tokens, 500) as $chunk) {
             $res = $sender->sendToTokens($chunk, $payload);
-            if (!($res['ok'] ?? false)) {
+            if (! ($res['ok'] ?? false)) {
                 $errors[] = $res['error'] ?? 'Unknown error';
                 continue;
             }
 
             $success += (int) ($res['success'] ?? 0);
             $failure += (int) ($res['failure'] ?? 0);
+
+            foreach ($res['results'] ?? [] as $result) {
+                if (! empty($result['ok'])) {
+                    continue;
+                }
+                $body = $result['body'] ?? '';
+                $status = $result['status'] ?? 0;
+                $token = $result['token'] ?? null;
+                // FCM returns 404 NOT_FOUND / UNREGISTERED for invalid or expired tokens; revoke so we stop retrying.
+                $isInvalidToken = $status === 404
+                    || str_contains($body, 'NOT_FOUND')
+                    || str_contains($body, 'UNREGISTERED')
+                    || (str_contains($body, 'INVALID_ARGUMENT') && $token !== null);
+                if ($isInvalidToken && $token !== null) {
+                    $tokensToRevoke[] = $token;
+                }
+            }
         }
 
         if (count($errors) > 0) {
             return back()->withErrors(['fcm' => implode(' | ', array_unique($errors))]);
         }
 
-        return back()->with('status', "Announcement sent. Success: {$success}, Failure: {$failure}");
+        if (count($tokensToRevoke) > 0) {
+            FcmToken::query()
+                ->whereIn('token', array_unique($tokensToRevoke))
+                ->update(['revoked_at' => now()]);
+        }
+
+        $msg = "Announcement sent. Success: {$success}, Failure: {$failure}.";
+        if (count($tokensToRevoke) > 0) {
+            $msg .= ' ' . count($tokensToRevoke) . ' invalid or expired token(s) were removed and will not be used again.';
+        }
+        return back()->with('status', $msg);
     }
 }
 

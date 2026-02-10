@@ -56,14 +56,19 @@ class NotificationManager
             }
         }
 
-        // Log the send
-        NotificationSendLog::create([
-            'type'            => 'template:' . $templateKey,
-            'unique_key'      => $templateKey . ':' . now()->timestamp,
-            'payload'         => ['variables' => $variables, 'channels' => $template->channels],
-            'recipient_count' => count($users),
-            'sent_at'         => now(),
-        ]);
+        // Log the send (unique_key per template + recipients so duplicate sends don't violate unique constraint)
+        $uniqueKey = count($users) === 1
+            ? $templateKey . ':user:' . $users[0]->id
+            : $templateKey . ':batch:' . collect($users)->pluck('id')->sort()->values()->implode(',') . ':' . now()->timestamp;
+        NotificationSendLog::firstOrCreate(
+            ['unique_key' => $uniqueKey],
+            [
+                'type'            => 'template:' . $templateKey,
+                'payload'         => ['variables' => $variables, 'channels' => $template->channels],
+                'recipient_count' => count($users),
+                'sent_at'         => now(),
+            ]
+        );
     }
 
     /* ------------------------------------------------------------------ */

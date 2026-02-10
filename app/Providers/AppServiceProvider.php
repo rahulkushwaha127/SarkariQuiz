@@ -2,14 +2,6 @@
 
 namespace App\Providers;
 
-use App\Events\PaymentFailed;
-use App\Events\PaymentSucceeded;
-use App\Events\PlanActivated;
-use App\Events\UserRegistered;
-use App\Listeners\SendPaymentFailedNotification;
-use App\Listeners\SendPaymentSuccessNotification;
-use App\Listeners\SendPlanActivatedNotification;
-use App\Listeners\SendWelcomeNotification;
 use App\Models\Setting;
 use App\Models\InAppNotification;
 use App\Services\CaptchaService;
@@ -37,7 +29,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->configureRateLimiting();
-        $this->registerEventListeners();
 
         // Fix for older MySQL/MariaDB key length limits with utf8mb4.
         Schema::defaultStringLength(191);
@@ -120,17 +111,6 @@ class AppServiceProvider extends ServiceProvider
         } catch (\Throwable $e) {
             View::share('inAppUnreadCount', 0);
         }
-    }
-
-    /**
-     * Register event → listener mappings for the notification system.
-     */
-    protected function registerEventListeners(): void
-    {
-        Event::listen(PaymentSucceeded::class, SendPaymentSuccessNotification::class);
-        Event::listen(PaymentFailed::class, SendPaymentFailedNotification::class);
-        Event::listen(PlanActivated::class, SendPlanActivatedNotification::class);
-        Event::listen(UserRegistered::class, SendWelcomeNotification::class);
     }
 
     /**
