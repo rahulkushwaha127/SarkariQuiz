@@ -26,10 +26,12 @@ class Quiz extends Model
         'mode',
         'status',
         'is_auto_generated',
+        'is_active',
     ];
 
     protected $casts = [
         'is_public' => 'boolean',
+        'is_active' => 'boolean',
         'is_featured' => 'boolean',
         'featured_at' => 'datetime',
         'difficulty' => 'integer',

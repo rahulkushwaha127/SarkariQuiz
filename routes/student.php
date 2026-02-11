@@ -100,18 +100,24 @@ Route::middleware(['auth', 'require_student'])->group(function () {
     Route::get('/contests/{contest}/join', [ContestController::class, 'joinPublic'])->name('contests.join.public');
 
     // Student profile card
-    Route::get('/my-profile', [\App\Http\Controllers\Student\ProfileCardController::class, 'show'])->name('student.profile');
-    Route::patch('/my-profile/language', [\App\Http\Controllers\Student\ProfileCardController::class, 'updateLanguage'])->name('student.profile.update_language');
+    Route::middleware(['menu.enabled:profile'])->group(function () {
+        Route::get('/my-profile', [\App\Http\Controllers\Student\ProfileCardController::class, 'show'])->name('student.profile');
+        Route::patch('/my-profile/language', [\App\Http\Controllers\Student\ProfileCardController::class, 'updateLanguage'])->name('student.profile.update_language');
+    });
 
     // Subscription / Plans
-    Route::get('/plans', [SubscriptionController::class, 'index'])->name('student.subscription');
-    Route::post('/plans/activate-free', [SubscriptionController::class, 'activateFreePlan'])->name('student.subscription.activate_free');
+    Route::middleware(['menu.enabled:subscription'])->group(function () {
+        Route::get('/plans', [SubscriptionController::class, 'index'])->name('student.subscription');
+        Route::post('/plans/activate-free', [SubscriptionController::class, 'activateFreePlan'])->name('student.subscription.activate_free');
+    });
 
     // Batches
-    Route::get('/join-batch', [BatchController::class, 'joinForm'])->name('batches.join');
-    Route::post('/join-batch', [BatchController::class, 'join'])->name('batches.join.submit');
-    Route::get('/join-batch/{code}', [BatchController::class, 'joinByCode'])->name('batches.join.code');
-    Route::get('/my-batches', [BatchController::class, 'index'])->name('batches.index');
-    Route::get('/my-batches/{batch}', [BatchController::class, 'show'])->name('batches.show');
+    Route::middleware(['menu.enabled:batches'])->group(function () {
+        Route::get('/join-batch', [BatchController::class, 'joinForm'])->name('batches.join');
+        Route::post('/join-batch', [BatchController::class, 'join'])->name('batches.join.submit');
+        Route::get('/join-batch/{code}', [BatchController::class, 'joinByCode'])->name('batches.join.code');
+        Route::get('/my-batches', [BatchController::class, 'index'])->name('batches.index');
+        Route::get('/my-batches/{batch}', [BatchController::class, 'show'])->name('batches.show');
+    });
 });
 

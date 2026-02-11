@@ -38,6 +38,7 @@
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Status</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Members</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Active sessions</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Visibility</th>
                         <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500">Actions</th>
                     </tr>
                     </thead>
@@ -60,6 +61,9 @@
                             </td>
                             <td class="px-4 py-3 text-sm text-slate-700">{{ (int) ($c->members_count ?? 0) }}</td>
                             <td class="px-4 py-3 text-sm text-slate-700">{{ (int) ($c->active_sessions_count ?? 0) }}</td>
+                            <td class="px-4 py-3">
+                                @include('partials.admin.visibility_toggle', ['url' => route('admin.clubs.toggle_active', $c), 'active' => $c->is_active ?? true])
+                            </td>
                             <td class="px-4 py-3 text-right">
                                 <form method="POST" action="{{ route('admin.clubs.toggle', $c) }}">
                                     @csrf
@@ -72,7 +76,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="6" class="px-4 py-10 text-center text-sm text-slate-600">No clubs found.</td>
+                            <td colspan="7" class="px-4 py-10 text-center text-sm text-slate-600">No clubs found.</td>
                         </tr>
                     @endforelse
                     </tbody>

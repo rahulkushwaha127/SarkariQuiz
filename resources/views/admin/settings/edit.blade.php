@@ -143,10 +143,28 @@
             <div id="panel-menu" class="settings-panel hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                 <h2 class="text-lg font-semibold text-slate-900">Front-end menu</h2>
                 <p class="mt-1 text-sm text-slate-600">Enable or hide sidebar menu items for students and guests.</p>
+                @php
+                    $menuLabels = [
+                        'home' => 'Home',
+                        'exams' => 'Exams',
+                        'practice' => 'Practice',
+                        'pyq' => 'PYQ Bank',
+                        'revision' => 'Revision',
+                        'clubs' => 'Clubs',
+                        'notifications' => 'Notifications',
+                        'public_contests' => 'Public Contests',
+                        'join_contest' => 'Join Contest',
+                        'daily_challenge' => 'Daily Challenge',
+                        'leaderboard' => 'Leaderboard',
+                        'batches' => 'My Batches',
+                        'subscription' => 'Plans',
+                        'profile' => 'My Profile',
+                    ];
+                @endphp
                 <div class="mt-4 grid gap-2 sm:grid-cols-2">
                     @foreach(array_keys($values['frontend_menu']) as $key)
                         @php
-                            $label = ucfirst(str_replace('_', ' ', $key));
+                            $label = $menuLabels[$key] ?? ucfirst(str_replace('_', ' ', $key));
                             $enabled = old('menu_' . $key, $values['frontend_menu'][$key] ?? true);
                         @endphp
                         <label class="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-3 text-sm text-slate-700 hover:bg-slate-50">

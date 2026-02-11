@@ -53,6 +53,7 @@ class DashboardController extends Controller
         $query = Quiz::query()
             ->where('status', 'published')
             ->where('is_public', true)
+            ->where('is_active', true)
             ->with(['exam', 'subject'])
             ->withCount('attempts')
             ->orderByDesc('is_featured')

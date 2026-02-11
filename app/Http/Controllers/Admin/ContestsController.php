@@ -47,6 +47,15 @@ class ContestsController extends Controller
         return back()->with('status', $contest->is_public_listed ? 'Contest listed publicly.' : 'Contest hidden from public listing.');
     }
 
+    public function toggleActive(Request $request, Contest $contest)
+    {
+        $contest->update(['is_active' => ! (bool) $contest->is_active]);
+        if (request()->wantsJson() || request()->ajax()) {
+            return response()->json(['active' => (bool) $contest->is_active]);
+        }
+        return back()->with('status', $contest->is_active ? 'Contest visible.' : 'Contest hidden.');
+    }
+
     public function cancel(Request $request, Contest $contest)
     {
         if ($contest->status === 'ended') {

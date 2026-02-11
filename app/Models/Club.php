@@ -16,6 +16,11 @@ class Club extends Model
         'status',
         'invite_token',
         'point_master_user_id',
+        'is_active',
+    ];
+
+    protected $casts = [
+        'is_active' => 'boolean',
     ];
 
     protected static function booted(): void

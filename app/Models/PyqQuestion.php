@@ -20,9 +20,11 @@ class PyqQuestion extends Model
         'explanation',
         'image_path',
         'position',
+        'is_active',
     ];
 
     protected $casts = [
+        'is_active' => 'boolean',
         'exam_id' => 'integer',
         'subject_id' => 'integer',
         'topic_id' => 'integer',

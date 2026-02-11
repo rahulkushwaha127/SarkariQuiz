@@ -35,5 +35,14 @@ class ClubsController extends Controller
 
         return back()->with('status', $club->status === 'active' ? 'Club enabled.' : 'Club disabled.');
     }
+
+    public function toggleActive(Request $request, Club $club)
+    {
+        $club->update(['is_active' => ! (bool) $club->is_active]);
+        if (request()->wantsJson() || request()->ajax()) {
+            return response()->json(['active' => (bool) $club->is_active]);
+        }
+        return back()->with('status', $club->is_active ? 'Club visible.' : 'Club hidden.');
+    }
 }
 

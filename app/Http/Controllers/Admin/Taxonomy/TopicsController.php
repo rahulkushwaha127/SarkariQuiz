@@ -90,5 +90,14 @@ class TopicsController extends Controller
         $topic->delete();
         return back()->with('status', 'Topic deleted.');
     }
+
+    public function toggleActive(Topic $topic)
+    {
+        $topic->update(['is_active' => ! $topic->is_active]);
+        if (request()->wantsJson() || request()->ajax()) {
+            return response()->json(['active' => (bool) $topic->is_active]);
+        }
+        return back()->with('status', $topic->is_active ? 'Topic visible.' : 'Topic hidden.');
+    }
 }
 

@@ -56,6 +56,7 @@
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Public</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Participants</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Schedule</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Visibility</th>
                         <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500">Actions</th>
                     </tr>
                     </thead>
@@ -90,6 +91,9 @@
                                 @if($c->starts_at) Starts: {{ $c->starts_at->setTimezone(config('app.timezone'))->format('d M, H:i') }}<br>@endif
                                 @if($c->ends_at) Ends: {{ $c->ends_at->setTimezone(config('app.timezone'))->format('d M, H:i') }} @endif
                             </td>
+                            <td class="px-4 py-3">
+                                @include('partials.admin.visibility_toggle', ['url' => route('admin.contests.toggle_active', $c), 'active' => $c->is_active ?? true])
+                            </td>
                             <td class="px-4 py-3 text-right">
                                 <div class="flex flex-wrap justify-end gap-2">
                                     <a href="{{ route('creator.contests.edit', $c) }}"
@@ -118,7 +122,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="7" class="px-4 py-10 text-center text-sm text-slate-600">No contests found.</td>
+                            <td colspan="8" class="px-4 py-10 text-center text-sm text-slate-600">No contests found.</td>
                         </tr>
                     @endforelse
                     </tbody>

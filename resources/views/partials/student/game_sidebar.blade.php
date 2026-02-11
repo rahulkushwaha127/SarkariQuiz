@@ -143,7 +143,7 @@
     </a>
     @endif
 
-    @if($isStudent && \App\Models\BatchStudent::where('user_id', $me->id)->where('status', 'active')->exists())
+    @if(($frontendMenu['batches'] ?? true) && $isStudent && \App\Models\BatchStudent::where('user_id', $me->id)->where('status', 'active')->exists())
     <a href="{{ route('batches.index') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('batches.*') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -165,7 +165,7 @@
     </a>
     @endif
 
-    @if($isStudent)
+    @if(($frontendMenu['profile'] ?? true) && $isStudent)
     <a href="{{ route('student.profile') }}"
        class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.profile') ? 'bg-white/10 text-white' : 'text-white/80 hover:bg-white/10' }}">
         <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">

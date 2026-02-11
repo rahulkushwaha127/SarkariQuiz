@@ -32,7 +32,7 @@ class BrowseController extends Controller
         $subjects = $exam->subjects()
             ->where('subjects.is_active', true)
             ->withCount([
-                'quizzes as public_quizzes_count' => fn ($q) => $q->where('status', 'published')->where('is_public', true)->where('language', $lang),
+                'quizzes as public_quizzes_count' => fn ($q) => $q->where('status', 'published')->where('is_public', true)->where('is_active', true)->where('language', $lang),
             ])
             ->get();
 
@@ -48,6 +48,7 @@ class BrowseController extends Controller
             ->where('subject_id', $subject->id)
             ->where('status', 'published')
             ->where('is_public', true)
+            ->where('is_active', true)
             ->where('language', $lang)
             ->withCount('questions')
             ->orderByDesc('id')
@@ -61,6 +62,7 @@ class BrowseController extends Controller
         $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $contests = Contest::query()
             ->where('is_public_listed', true)
+            ->where('is_active', true)
             ->whereIn('status', ['scheduled', 'live', 'ended'])
             ->whereHas('quiz', fn ($q) => $q->where('language', $lang))
             ->with(['creator', 'quiz'])
@@ -73,7 +75,7 @@ class BrowseController extends Controller
 
     public function contest(Request $request, Contest $contest)
     {
-        abort_unless((bool) $contest->is_public_listed, 404);
+        abort_unless((bool) $contest->is_public_listed && (bool) $contest->is_active, 404);
 
         $contest->load(['creator', 'quiz']);
         $contest->syncStatusFromSchedule();

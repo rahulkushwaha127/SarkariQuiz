@@ -72,6 +72,7 @@
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Exam</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Year</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Paper</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Visibility</th>
                         <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500">Actions</th>
                     </tr>
                 </thead>
@@ -88,6 +89,9 @@
                             <td class="px-4 py-3 text-sm text-slate-700">{{ $it->exam?->name }}</td>
                             <td class="px-4 py-3 text-sm text-slate-700">{{ $it->year ?? '—' }}</td>
                             <td class="px-4 py-3 text-sm text-slate-700">{{ $it->paper ?? '—' }}</td>
+                            <td class="px-4 py-3">
+                                @include('partials.admin.visibility_toggle', ['url' => route('admin.pyq.toggle_active', $it), 'active' => $it->is_active ?? true])
+                            </td>
                             <td class="px-4 py-3">
                                 <div class="flex justify-end gap-2">
                                     <a href="#"
@@ -109,7 +113,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="5" class="px-4 py-10 text-center text-sm text-slate-600">No PYQ questions found.</td>
+                            <td colspan="6" class="px-4 py-10 text-center text-sm text-slate-600">No PYQ questions found.</td>
                         </tr>
                     @endforelse
                 </tbody>

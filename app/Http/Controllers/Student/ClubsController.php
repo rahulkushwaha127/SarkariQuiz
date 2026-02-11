@@ -470,6 +470,9 @@ class ClubsController extends Controller
         if ($club->status !== 'active') {
             abort(403, 'Club is disabled.');
         }
+        if (! (bool) ($club->is_active ?? true)) {
+            abort(404, 'This club is not available.');
+        }
 
         $member = ClubMember::query()
             ->where('club_id', $club->id)
@@ -517,6 +520,9 @@ class ClubsController extends Controller
     public function show(Request $request, Club $club)
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);
+        if (! (bool) ($club->is_active ?? true)) {
+            abort(404, 'This club is not available.');
+        }
         $myMember = $this->requireMember($club);
 
         $club->load('owner', 'pointMaster');

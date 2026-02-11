@@ -38,9 +38,11 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::get('/quizzes', [QuizModerationController::class, 'index'])->name('quizzes.index');
         Route::patch('/quizzes/{quiz}/approve', [QuizModerationController::class, 'approve'])->name('quizzes.approve');
         Route::get('questions/topics-by-subject', [QuestionsController::class, 'topicsBySubject'])->name('questions.topics_by_subject');
+        Route::patch('questions/{question}/active', [QuestionsController::class, 'toggleActive'])->name('questions.toggle_active');
         Route::resource('questions', QuestionsController::class)->names('questions');
         Route::patch('/quizzes/{quiz}/reject', [QuizModerationController::class, 'reject'])->name('quizzes.reject');
         Route::patch('/quizzes/{quiz}/featured', [QuizModerationController::class, 'toggleFeatured'])->name('quizzes.featured');
+        Route::patch('/quizzes/{quiz}/active', [QuizModerationController::class, 'toggleActive'])->name('quizzes.toggle_active');
 
         // In-app inbox (for admin user)
         Route::get('/inbox', [AdminInAppNotificationsController::class, 'index'])->name('inbox.index');
@@ -85,11 +87,13 @@ Route::middleware(['auth', 'role:super_admin'])
         // Contests moderation
         Route::get('/contests', [ContestsController::class, 'index'])->name('contests.index');
         Route::patch('/contests/{contest}/public', [ContestsController::class, 'togglePublic'])->name('contests.toggle_public');
+        Route::patch('/contests/{contest}/active', [ContestsController::class, 'toggleActive'])->name('contests.toggle_active');
         Route::patch('/contests/{contest}/cancel', [ContestsController::class, 'cancel'])->name('contests.cancel');
 
         // Clubs (super admin)
         Route::get('/clubs', [ClubsController::class, 'index'])->name('clubs.index');
         Route::patch('/clubs/{club}/toggle', [ClubsController::class, 'toggleStatus'])->name('clubs.toggle');
+        Route::patch('/clubs/{club}/active', [ClubsController::class, 'toggleActive'])->name('clubs.toggle_active');
 
         // Ads (AdSense units + slot mapping)
         Route::get('/ads', [AdsController::class, 'index'])->name('ads.index');
@@ -104,6 +108,7 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::post('/pyq', [PyqQuestionsController::class, 'store'])->name('pyq.store');
         Route::get('/pyq/{pyqQuestion}/edit', [PyqQuestionsController::class, 'edit'])->name('pyq.edit');
         Route::patch('/pyq/{pyqQuestion}', [PyqQuestionsController::class, 'update'])->name('pyq.update');
+        Route::patch('/pyq/{pyqQuestion}/active', [PyqQuestionsController::class, 'toggleActive'])->name('pyq.toggle_active');
         Route::delete('/pyq/{pyqQuestion}', [PyqQuestionsController::class, 'destroy'])->name('pyq.destroy');
         Route::get('/pyq/import', [PyqQuestionsController::class, 'importForm'])->name('pyq.import_form');
         Route::post('/pyq/import', [PyqQuestionsController::class, 'import'])->name('pyq.import');
@@ -118,6 +123,7 @@ Route::middleware(['auth', 'role:super_admin'])
             Route::post('/exams', [ExamsController::class, 'store'])->name('exams.store');
             Route::get('/exams/{exam}/edit', [ExamsController::class, 'edit'])->name('exams.edit');
             Route::patch('/exams/{exam}', [ExamsController::class, 'update'])->name('exams.update');
+            Route::patch('/exams/{exam}/active', [ExamsController::class, 'toggleActive'])->name('exams.toggle_active');
             Route::delete('/exams/{exam}', [ExamsController::class, 'destroy'])->name('exams.destroy');
 
             Route::get('/subjects', [SubjectsController::class, 'index'])->name('subjects.index');
@@ -125,6 +131,7 @@ Route::middleware(['auth', 'role:super_admin'])
             Route::post('/subjects', [SubjectsController::class, 'store'])->name('subjects.store');
             Route::get('/subjects/{subject}/edit', [SubjectsController::class, 'edit'])->name('subjects.edit');
             Route::patch('/subjects/{subject}', [SubjectsController::class, 'update'])->name('subjects.update');
+            Route::patch('/subjects/{subject}/active', [SubjectsController::class, 'toggleActive'])->name('subjects.toggle_active');
             Route::delete('/subjects/{subject}', [SubjectsController::class, 'destroy'])->name('subjects.destroy');
 
             Route::get('/topics', [TopicsController::class, 'index'])->name('topics.index');
@@ -132,6 +139,7 @@ Route::middleware(['auth', 'role:super_admin'])
             Route::post('/topics', [TopicsController::class, 'store'])->name('topics.store');
             Route::get('/topics/{topic}/edit', [TopicsController::class, 'edit'])->name('topics.edit');
             Route::patch('/topics/{topic}', [TopicsController::class, 'update'])->name('topics.update');
+            Route::patch('/topics/{topic}/active', [TopicsController::class, 'toggleActive'])->name('topics.toggle_active');
             Route::delete('/topics/{topic}', [TopicsController::class, 'destroy'])->name('topics.destroy');
         });
     });

@@ -54,6 +54,15 @@ class QuizModerationController extends Controller
         return back()->with('status', 'Quiz rejected.');
     }
 
+    public function toggleActive(Quiz $quiz)
+    {
+        $quiz->update(['is_active' => ! (bool) $quiz->is_active]);
+        if (request()->wantsJson() || request()->ajax()) {
+            return response()->json(['active' => (bool) $quiz->is_active]);
+        }
+        return back()->with('status', $quiz->is_active ? 'Quiz visible.' : 'Quiz hidden.');
+    }
+
     public function toggleFeatured(Quiz $quiz)
     {
         $next = ! (bool) $quiz->is_featured;

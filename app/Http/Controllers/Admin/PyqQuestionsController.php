@@ -86,6 +86,15 @@ class PyqQuestionsController extends Controller
         return back()->with('status', 'PYQ question deleted.');
     }
 
+    public function toggleActive(PyqQuestion $pyqQuestion)
+    {
+        $pyqQuestion->update(['is_active' => ! (bool) $pyqQuestion->is_active]);
+        if (request()->wantsJson() || request()->ajax()) {
+            return response()->json(['active' => (bool) $pyqQuestion->is_active]);
+        }
+        return back()->with('status', $pyqQuestion->is_active ? 'PYQ visible.' : 'PYQ hidden.');
+    }
+
     public function importForm()
     {
         return view('admin.pyq_questions._import_modal');

@@ -65,6 +65,7 @@ class PyqController extends Controller
 
         $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $years = PyqQuestion::query()
+            ->where('is_active', true)
             ->where('language', $lang)
             ->when($examId, fn ($q) => $q->where('exam_id', $examId))
             ->when($subjectId, fn ($q) => $q->where('subject_id', $subjectId))
@@ -109,6 +110,7 @@ class PyqController extends Controller
 
         $lang = Auth::user()?->preferredContentLanguage() ?? config('app.locale');
         $questionIds = PyqQuestion::query()
+            ->where('is_active', true)
             ->where('language', $lang)
             ->where('exam_id', $data['exam_id'])
             ->when($data['subject_id'] ?? null, fn ($q) => $q->where('subject_id', $data['subject_id']))

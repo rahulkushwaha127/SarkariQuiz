@@ -45,6 +45,7 @@ class AppServiceProvider extends ServiceProvider
                     'home' => true, 'exams' => true, 'practice' => true, 'pyq' => true, 'revision' => true,
                     'clubs' => true, 'notifications' => true, 'public_contests' => true, 'join_contest' => true,
                     'daily_challenge' => true, 'leaderboard' => true,
+                    'batches' => true, 'subscription' => true, 'profile' => true,
                 ];
                 $frontendMenu = [];
                 foreach ($defaultMenu as $k => $v) {
@@ -71,6 +72,7 @@ class AppServiceProvider extends ServiceProvider
                     'home' => true, 'exams' => true, 'practice' => true, 'pyq' => true, 'revision' => true,
                     'clubs' => true, 'notifications' => true, 'public_contests' => true, 'join_contest' => true,
                     'daily_challenge' => true, 'leaderboard' => true,
+                    'batches' => true, 'subscription' => true, 'profile' => true,
                 ]);
                 View::share('ads', [
                     'enabled' => false,
@@ -86,6 +88,7 @@ class AppServiceProvider extends ServiceProvider
                 'home' => true, 'exams' => true, 'practice' => true, 'pyq' => true, 'revision' => true,
                 'clubs' => true, 'notifications' => true, 'public_contests' => true, 'join_contest' => true,
                 'daily_challenge' => true, 'leaderboard' => true,
+                'batches' => true, 'subscription' => true, 'profile' => true,
             ]);
             View::share('ads', [
                 'enabled' => false,

@@ -41,8 +41,8 @@
                     <tr>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Name</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Slug</th>
-                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Active</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Position</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Visibility</th>
                         <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500">Actions</th>
                     </tr>
                 </thead>
@@ -51,14 +51,10 @@
                         <tr class="hover:bg-slate-50">
                             <td class="px-4 py-3 font-medium text-slate-900">{{ $exam->name }}</td>
                             <td class="px-4 py-3 text-sm text-slate-700"><code class="rounded bg-slate-100 px-2 py-1">{{ $exam->slug }}</code></td>
-                            <td class="px-4 py-3 text-sm">
-                                @if ($exam->is_active)
-                                    <span class="rounded-full bg-emerald-100 px-2 py-1 text-xs font-semibold text-emerald-800">Yes</span>
-                                @else
-                                    <span class="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">No</span>
-                                @endif
-                            </td>
                             <td class="px-4 py-3 text-sm text-slate-700">{{ $exam->position }}</td>
+                            <td class="px-4 py-3">
+                                @include('partials.admin.visibility_toggle', ['url' => route('admin.taxonomy.exams.toggle_active', $exam), 'active' => $exam->is_active])
+                            </td>
                             <td class="px-4 py-3">
                                 <div class="flex justify-end gap-2">
                                     <a href="#"

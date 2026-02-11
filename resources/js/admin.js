@@ -194,6 +194,49 @@ document.addEventListener('click', (e) => {
     const target = e.target instanceof HTMLElement ? e.target : null;
     if (!target) return;
 
+    const toggleActiveBtn = target.closest('[data-toggle-active="true"]');
+    if (toggleActiveBtn) {
+        e.preventDefault();
+        const url = toggleActiveBtn.getAttribute('data-url');
+        if (!url) return;
+        toggleActiveBtn.disabled = true;
+        fetch(url, {
+            method: 'PATCH',
+            headers: {
+                'X-CSRF-TOKEN': getCsrfToken(),
+                'X-Requested-With': 'XMLHttpRequest',
+                Accept: 'application/json',
+                'Content-Type': 'application/json',
+            },
+            credentials: 'same-origin',
+        })
+            .then((res) => {
+                if (!res.ok) throw new Error(res.statusText || 'Request failed');
+                return res.json();
+            })
+            .then((data) => {
+                const active = !!data.active;
+                toggleActiveBtn.setAttribute('data-active', active ? '1' : '0');
+                toggleActiveBtn.classList.toggle('bg-slate-900', active);
+                toggleActiveBtn.classList.toggle('bg-slate-300', !active);
+                const thumb = toggleActiveBtn.querySelector('span');
+                if (thumb) {
+                    thumb.classList.toggle('translate-x-5', active);
+                    thumb.classList.toggle('translate-x-0', !active);
+                }
+                toggleActiveBtn.setAttribute('aria-label', active ? 'Hide' : 'Show');
+                toggleActiveBtn.setAttribute('title', active ? 'Visible – click to hide' : 'Hidden – click to show');
+                toast('success', 'Updated', active ? 'Visible to users.' : 'Hidden from users.');
+            })
+            .catch((err) => {
+                toast('error', 'Error', err?.message || 'Could not update visibility.');
+            })
+            .finally(() => {
+                toggleActiveBtn.disabled = false;
+            });
+        return;
+    }
+
     const ajaxTrigger = target.closest('[data-ajax-modal="true"]');
     if (ajaxTrigger) {
         e.preventDefault();

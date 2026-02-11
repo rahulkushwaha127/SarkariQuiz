@@ -102,4 +102,13 @@ class SubjectsController extends Controller
         $subject->delete();
         return back()->with('status', 'Subject deleted.');
     }
+
+    public function toggleActive(Subject $subject)
+    {
+        $subject->update(['is_active' => ! $subject->is_active]);
+        if (request()->wantsJson() || request()->ajax()) {
+            return response()->json(['active' => (bool) $subject->is_active]);
+        }
+        return back()->with('status', $subject->is_active ? 'Subject visible.' : 'Subject hidden.');
+    }
 }

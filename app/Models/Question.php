@@ -17,9 +17,11 @@ class Question extends Model
         'subject_id',
         'topic_id',
         'language',
+        'is_active',
     ];
 
     protected $casts = [
+        'is_active' => 'boolean',
         'difficulty' => 'integer',
     ];
 

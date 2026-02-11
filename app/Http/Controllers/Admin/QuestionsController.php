@@ -226,4 +226,13 @@ class QuestionsController extends Controller
             ->route('admin.questions.index')
             ->with('status', 'Question deleted.');
     }
+
+    public function toggleActive(Question $question)
+    {
+        $question->update(['is_active' => ! (bool) $question->is_active]);
+        if (request()->wantsJson() || request()->ajax()) {
+            return response()->json(['active' => (bool) $question->is_active]);
+        }
+        return redirect()->route('admin.questions.index')->with('status', $question->is_active ? 'Question visible.' : 'Question hidden.');
+    }
 }

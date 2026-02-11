@@ -76,6 +76,7 @@
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">ID</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Question</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Used in quizzes</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Visibility</th>
                         <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500">Actions</th>
                     </tr>
                 </thead>
@@ -90,6 +91,9 @@
                                 <span class="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-semibold text-slate-700">
                                     {{ $question->quizzes_count }} {{ \Illuminate\Support\Str::plural('quiz', $question->quizzes_count) }}
                                 </span>
+                            </td>
+                            <td class="px-4 py-3">
+                                @include('partials.admin.visibility_toggle', ['url' => route('admin.questions.toggle_active', $question), 'active' => $question->is_active ?? true])
                             </td>
                             <td class="px-4 py-3">
                                 <div class="flex flex-wrap justify-end gap-2">
@@ -116,7 +120,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="4" class="px-4 py-10 text-center text-sm text-slate-600">No questions found.</td>
+                            <td colspan="6" class="px-4 py-10 text-center text-sm text-slate-600">No questions found.</td>
                         </tr>
                     @endforelse
                 </tbody>

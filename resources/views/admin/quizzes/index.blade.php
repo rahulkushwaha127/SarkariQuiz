@@ -40,9 +40,10 @@
                     <tr>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Quiz</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Creator</th>
-                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Visibility</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Listing</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Questions</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Status</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Visibility</th>
                         <th class="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-slate-500">Actions</th>
                     </tr>
                 </thead>
@@ -73,6 +74,9 @@
                             <td class="px-4 py-3 text-sm text-slate-700">{{ $quiz->questions_count }}</td>
                             <td class="px-4 py-3 text-sm text-slate-700">
                                 <span class="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">{{ $quiz->status }}</span>
+                            </td>
+                            <td class="px-4 py-3">
+                                @include('partials.admin.visibility_toggle', ['url' => route('admin.quizzes.toggle_active', $quiz), 'active' => $quiz->is_active ?? true])
                             </td>
                             <td class="px-4 py-3">
                                 <div class="flex flex-wrap justify-end gap-2">
@@ -108,7 +112,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="6" class="px-4 py-10 text-center text-sm text-slate-600">
+                            <td colspan="7" class="px-4 py-10 text-center text-sm text-slate-600">
                                 No quizzes found.
                             </td>
                         </tr>

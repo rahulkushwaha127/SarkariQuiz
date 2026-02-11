@@ -21,9 +21,11 @@ class Contest extends Model
         'starts_at',
         'ends_at',
         'is_public_listed',
+        'is_active',
     ];
 
     protected $casts = [
+        'is_active' => 'boolean',
         'starts_at' => 'datetime',
         'ends_at' => 'datetime',
         'is_public_listed' => 'boolean',

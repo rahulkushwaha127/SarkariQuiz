@@ -23,6 +23,9 @@ class SettingsController extends Controller
         'join_contest',
         'daily_challenge',
         'leaderboard',
+        'batches',
+        'subscription',
+        'profile',
     ];
 
     /** CAPTCHA (reCAPTCHA v2) setting keys. */

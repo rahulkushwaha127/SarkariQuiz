@@ -74,5 +74,14 @@ class ExamsController extends Controller
         $exam->delete();
         return back()->with('status', 'Exam deleted.');
     }
+
+    public function toggleActive(Exam $exam)
+    {
+        $exam->update(['is_active' => ! $exam->is_active]);
+        if (request()->wantsJson() || request()->ajax()) {
+            return response()->json(['active' => (bool) $exam->is_active]);
+        }
+        return back()->with('status', $exam->is_active ? 'Exam visible.' : 'Exam hidden.');
+    }
 }
 
