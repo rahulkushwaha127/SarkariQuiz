@@ -4,23 +4,23 @@
 
 @section('content')
     <div class="space-y-4">
-        <div class="border border-white/10 bg-white/5 p-4">
-            <div class="text-sm font-semibold text-white">PYQ Bank</div>
-            <div class="mt-1 text-sm text-slate-300">Practice previous year questions with timer.</div>
+        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+            <div class="text-sm font-semibold text-stone-800">PYQ Bank</div>
+            <div class="mt-1 text-sm text-stone-500">Practice previous year questions with timer.</div>
         </div>
 
         @error('pyq')
-        <div class="border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-100">
+        <div class="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-800">
             {{ $message }}
         </div>
         @enderror
 
-        <div class="border border-white/10 bg-white/5 p-4">
+        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
             <form method="GET" action="{{ route('pyq.index') }}" class="space-y-3">
                 <div>
-                    <label class="text-sm font-semibold text-white/90">Exam</label>
+                    <label class="text-sm font-semibold text-stone-700">Exam</label>
                     <select name="exam_id"
-                            class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
+                            class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                         <option value="">Select exam…</option>
                         @foreach($exams as $e)
                             <option value="{{ $e->id }}" @selected((int)$examId === (int)$e->id)>{{ $e->name }}</option>
@@ -29,9 +29,9 @@
                 </div>
 
                 <div>
-                    <label class="text-sm font-semibold text-white/90">Subject (optional)</label>
+                    <label class="text-sm font-semibold text-stone-700">Subject (optional)</label>
                     <select name="subject_id"
-                            class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
+                            class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                         <option value="">All subjects…</option>
                         @foreach($subjects as $s)
                             <option value="{{ $s->id }}" @selected((int)$subjectId === (int)$s->id)>{{ $s->name }}</option>
@@ -40,9 +40,9 @@
                 </div>
 
                 <div>
-                    <label class="text-sm font-semibold text-white/90">Topic (optional)</label>
+                    <label class="text-sm font-semibold text-stone-700">Topic (optional)</label>
                     <select name="topic_id"
-                            class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
+                            class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                         <option value="">All topics…</option>
                         @foreach($topics as $t)
                             <option value="{{ $t->id }}" @selected((int)$topicId === (int)$t->id)>{{ $t->name }}</option>
@@ -51,28 +51,28 @@
                 </div>
 
                 <div>
-                    <label class="text-sm font-semibold text-white/90">Year (optional)</label>
+                    <label class="text-sm font-semibold text-stone-700">Year (optional)</label>
                     <select name="year"
-                            class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
+                            class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                         <option value="">All years…</option>
                         @foreach(($years ?? []) as $y)
                             <option value="{{ (int) $y }}" @selected((int)$year === (int)$y)>{{ (int) $y }}</option>
                         @endforeach
                     </select>
                     @if(empty($years))
-                        <div class="mt-1 text-xs text-slate-400">No years found yet for this filter (add PYQs in admin).</div>
+                        <div class="mt-1 text-xs text-stone-500">No years found yet for this filter (add PYQs in admin).</div>
                     @endif
                 </div>
 
-                <button class="w-full bg-white/10 px-4 py-3 text-sm font-semibold text-white hover:bg-white/15">
+                <button class="w-full rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm font-semibold text-stone-700 hover:bg-stone-50">
                     Load filters
                 </button>
             </form>
         </div>
 
-        <div class="border border-white/10 bg-white/5 p-4">
-            <div class="text-sm font-semibold text-white">Start PYQ Test</div>
-            <div class="mt-1 text-sm text-slate-300">Choose count + timer mode.</div>
+        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+            <div class="text-sm font-semibold text-stone-800">Start PYQ Test</div>
+            <div class="mt-1 text-sm text-stone-500">Choose count + timer mode.</div>
 
             <form method="POST" action="{{ route('pyq.start') }}" class="mt-3 space-y-3">
                 @csrf
@@ -83,16 +83,16 @@
 
                 <div class="grid grid-cols-2 gap-2">
                     <div>
-                        <label class="text-sm font-semibold text-white/90">Questions</label>
-                        <select name="count" class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
+                        <label class="text-sm font-semibold text-stone-700">Questions</label>
+                        <select name="count" class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                             @foreach([10, 15, 20, 25, 30] as $c)
                                 <option value="{{ $c }}">{{ $c }}</option>
                             @endforeach
                         </select>
                     </div>
                     <div>
-                        <label class="text-sm font-semibold text-white/90">Timer</label>
-                        <select name="time_mode" class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
+                        <label class="text-sm font-semibold text-stone-700">Timer</label>
+                        <select name="time_mode" class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                             <option value="per_question">Per question</option>
                             <option value="total">Total time</option>
                         </select>
@@ -101,16 +101,16 @@
 
                 <div class="grid grid-cols-2 gap-2">
                     <div>
-                        <label class="text-sm font-semibold text-white/90">Seconds / question</label>
-                        <select name="per_question_seconds" class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
+                        <label class="text-sm font-semibold text-stone-700">Seconds / question</label>
+                        <select name="per_question_seconds" class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                             @foreach([20, 30, 45, 60] as $s)
                                 <option value="{{ $s }}" @selected($s === 30)>{{ $s }}s</option>
                             @endforeach
                         </select>
                     </div>
                     <div>
-                        <label class="text-sm font-semibold text-white/90">Total minutes</label>
-                        <select name="total_minutes" class="student-select mt-1 w-full rounded-lg border border-white/20 px-3 py-2.5 text-sm focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
+                        <label class="text-sm font-semibold text-stone-700">Total minutes</label>
+                        <select name="total_minutes" class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                             @foreach([5, 10, 15, 20, 30] as $m)
                                 <option value="{{ $m }}">{{ $m }} min</option>
                             @endforeach
@@ -119,13 +119,13 @@
                 </div>
 
                 <button type="submit"
-                        class="w-full bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400"
+                        class="w-full rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500 disabled:opacity-50"
                         @disabled(!$examId)>
                     START PYQ
                 </button>
 
                 @if(!$examId)
-                    <div class="text-xs text-slate-400">Select an exam above to enable start.</div>
+                    <div class="text-xs text-stone-500">Select an exam above to enable start.</div>
                 @endif
             </form>
         </div>

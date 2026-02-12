@@ -31,6 +31,11 @@ class PagesController extends Controller
     {
         return view('student.pages.cookie');
     }
+
+    public function faq(Request $request)
+    {
+        return view('student.pages.faq');
+    }
 }
 
 

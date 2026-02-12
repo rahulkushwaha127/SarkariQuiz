@@ -4,54 +4,54 @@
 
 @section('content')
 <div class="space-y-4">
-    <div class="rounded-2xl border border-white/10 bg-white/5 p-5 shadow-sm md:p-6">
-        <h2 class="text-lg font-semibold text-white">Send Us a Message</h2>
+    <div class="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm md:p-6">
+        <h2 class="text-lg font-semibold text-stone-800">Send Us a Message</h2>
         <form id="contact-form" class="mt-4 space-y-4" action="{{ route('public.contact.store') }}" method="POST">
             @csrf
             <div>
-                <label for="contact-name" class="mb-1 block text-sm font-medium text-white">Your Name <span class="text-rose-400">*</span></label>
+                <label for="contact-name" class="mb-1 block text-sm font-medium text-stone-700">Your Name <span class="text-red-500">*</span></label>
                 <input type="text" id="contact-name" name="name" required
-                       class="w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-sm text-white placeholder-slate-400 focus:border-violet-500 focus:outline-none focus:ring-1 focus:ring-violet-500"
+                       class="w-full rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm text-stone-800 placeholder-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30"
                        placeholder="Your name" value="{{ old('name') }}">
-                <p id="contact-name-error" class="mt-1 text-xs text-rose-400 hidden"></p>
+                <p id="contact-name-error" class="mt-1 text-xs text-red-600 hidden"></p>
             </div>
             <div>
-                <label for="contact-email" class="mb-1 block text-sm font-medium text-white">Your Email <span class="text-rose-400">*</span></label>
+                <label for="contact-email" class="mb-1 block text-sm font-medium text-stone-700">Your Email <span class="text-red-500">*</span></label>
                 <input type="email" id="contact-email" name="email" required
-                       class="w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-sm text-white placeholder-slate-400 focus:border-violet-500 focus:outline-none focus:ring-1 focus:ring-violet-500"
+                       class="w-full rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm text-stone-800 placeholder-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30"
                        placeholder="your@email.com" value="{{ old('email') }}">
-                <p id="contact-email-error" class="mt-1 text-xs text-rose-400 hidden"></p>
+                <p id="contact-email-error" class="mt-1 text-xs text-red-600 hidden"></p>
             </div>
             <div>
-                <label for="contact-subject" class="mb-1 block text-sm font-medium text-white">Subject <span class="text-rose-400">*</span></label>
+                <label for="contact-subject" class="mb-1 block text-sm font-medium text-stone-700">Subject <span class="text-red-500">*</span></label>
                 <input type="text" id="contact-subject" name="subject" required
-                       class="w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-sm text-white placeholder-slate-400 focus:border-violet-500 focus:outline-none focus:ring-1 focus:ring-violet-500"
+                       class="w-full rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm text-stone-800 placeholder-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30"
                        placeholder="Subject" value="{{ old('subject') }}">
-                <p id="contact-subject-error" class="mt-1 text-xs text-rose-400 hidden"></p>
+                <p id="contact-subject-error" class="mt-1 text-xs text-red-600 hidden"></p>
             </div>
             <div>
-                <label for="contact-message" class="mb-1 block text-sm font-medium text-white">Message <span class="text-rose-400">*</span></label>
+                <label for="contact-message" class="mb-1 block text-sm font-medium text-stone-700">Message <span class="text-red-500">*</span></label>
                 <textarea id="contact-message" name="message" required rows="5"
-                          class="w-full resize-y rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-sm text-white placeholder-slate-400 focus:border-violet-500 focus:outline-none focus:ring-1 focus:ring-violet-500"
+                          class="w-full resize-y rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm text-stone-800 placeholder-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30"
                           placeholder="Your message">{{ old('message') }}</textarea>
-                <p id="contact-message-error" class="mt-1 text-xs text-rose-400 hidden"></p>
+                <p id="contact-message-error" class="mt-1 text-xs text-red-600 hidden"></p>
             </div>
             @if(!empty($captchaEnabled) && !empty($captchaSiteKey))
             <div>
                 <div class="g-recaptcha" data-sitekey="{{ $captchaSiteKey }}" id="contact-recaptcha"></div>
-                <p id="contact-recaptcha-error" class="mt-1 text-xs text-rose-400 hidden"></p>
+                <p id="contact-recaptcha-error" class="mt-1 text-xs text-red-600 hidden"></p>
             </div>
             @endif
-            <p id="contact-form-error" class="text-sm text-rose-400 hidden"></p>
-            <p id="contact-form-success" class="text-sm text-emerald-400 hidden"></p>
-            <button type="submit" id="contact-submit" class="w-full rounded-xl bg-violet-600 px-4 py-3 text-sm font-semibold text-white hover:bg-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 focus:ring-offset-slate-950 disabled:opacity-60">
+            <p id="contact-form-error" class="text-sm text-red-600 hidden"></p>
+            <p id="contact-form-success" class="text-sm text-emerald-700 hidden"></p>
+            <button type="submit" id="contact-submit" class="w-full rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-stone-50 disabled:opacity-60">
                 Send Message
             </button>
         </form>
     </div>
 
-    <div class="border border-white/10 bg-white/5 p-4 rounded-xl">
-        <div class="text-sm text-slate-300">
+    <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+        <div class="text-sm text-stone-600">
             @include('shared.pages.contact')
         </div>
     </div>

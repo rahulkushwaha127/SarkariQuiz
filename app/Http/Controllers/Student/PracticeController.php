@@ -85,12 +85,16 @@ class PracticeController extends Controller
         $data = $request->validate([
             'topic_id' => ['nullable', 'integer', 'exists:topics,id'],
             'difficulty' => ['nullable', 'string', 'in:easy,medium,hard'],
-            'count' => ['nullable', 'integer', 'min:5', 'max:25'],
         ]);
 
         $topicId = isset($data['topic_id']) && (int) $data['topic_id'] > 0 ? (int) $data['topic_id'] : null;
         $difficulty = $data['difficulty'] ?? null;
-        $count = (int) ($data['count'] ?? 10);
+
+        // Number of questions: empty or invalid => default 10; otherwise clamp to 5–25
+        $count = (int) ($request->input('count') ?: 10);
+        if ($count < 5 || $count > 25) {
+            $count = 10;
+        }
 
         // Map difficulty string to integer for query
         $difficultyInt = match ($difficulty) {

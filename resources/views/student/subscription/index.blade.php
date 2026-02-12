@@ -9,27 +9,27 @@
 @endphp
 <div class="space-y-5">
     <div>
-        <h1 class="text-xl font-bold text-white">Choose your plan</h1>
-        <p class="mt-1 text-sm text-white/60">Unlock premium features with a subscription.</p>
+        <h1 class="text-xl font-bold text-stone-800">Choose your plan</h1>
+        <p class="mt-1 text-sm text-stone-500">Unlock premium features with a subscription.</p>
     </div>
 
     {{-- Current plan banner --}}
     @if($currentPlan)
-    <div class="rounded-2xl border border-indigo-500/30 bg-indigo-500/10 p-4">
+    <div class="rounded-2xl border border-sky-200 bg-sky-50 p-4">
         <div class="flex items-center gap-3">
-            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-500/20">
-                <svg class="h-5 w-5 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-sky-200">
+                <svg class="h-5 w-5 text-sky-600" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
             </div>
             <div>
-                <div class="text-xs font-medium text-white/50">Active plan</div>
+                <div class="text-xs font-medium text-stone-500">Active plan</div>
                 <div class="flex items-center gap-2">
-                    <span class="text-base font-bold text-white">{{ $currentPlan->name }}</span>
-                    <span class="rounded-full bg-indigo-500/20 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-indigo-300">{{ $currentPlan->durationLabel() }}</span>
+                    <span class="text-base font-bold text-stone-800">{{ $currentPlan->name }}</span>
+                    <span class="rounded-full bg-sky-200 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-sky-700">{{ $currentPlan->durationLabel() }}</span>
                 </div>
                 @if(! $currentPlan->isFree())
-                    <div class="mt-0.5 text-xs text-white/40">
+                    <div class="mt-0.5 text-xs text-stone-600">
                         ₹{{ number_format($currentPlan->priceInRupees(), 0) }}{{ $currentPlan->durationSuffix() }}
                     </div>
                 @endif
@@ -40,8 +40,8 @@
 
     {{-- Plans listing --}}
     @if($plans->isEmpty())
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-8 text-center">
-            <p class="text-sm text-white/50">No plans available yet.</p>
+        <div class="rounded-2xl border border-stone-200 bg-white p-8 text-center shadow-sm">
+            <p class="text-sm text-stone-500">No plans available yet.</p>
         </div>
     @else
         <div class="space-y-4">
@@ -51,10 +51,10 @@
                     $isFree = $plan->isFree();
                     $isPopular = !$isFree && $plan->sort_order === $plans->where('price_paise', '>', 0)->min('sort_order');
                 @endphp
-                <div class="relative overflow-hidden rounded-2xl border {{ $isCurrent ? 'border-indigo-500/50 bg-indigo-500/10' : 'border-white/10 bg-white/5' }} p-4 transition-all">
+                <div class="relative overflow-hidden rounded-2xl border {{ $isCurrent ? 'border-sky-300 bg-sky-50/80' : 'border-stone-200 bg-white' }} p-4 shadow-sm transition-all">
                     @if($isCurrent)
                         <div class="absolute right-3 top-3">
-                            <span class="rounded-full bg-indigo-500 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Active</span>
+                            <span class="rounded-full bg-sky-600 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Active</span>
                         </div>
                     @elseif($isPopular)
                         <div class="absolute right-3 top-3">
@@ -64,9 +64,9 @@
 
                     <div class="flex items-start gap-4">
                         {{-- Plan icon --}}
-                        <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl {{ $isFree ? 'bg-white/10' : 'bg-gradient-to-br from-indigo-500 to-purple-600' }}">
+                        <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl {{ $isFree ? 'bg-stone-200' : 'bg-sky-500' }}">
                             @if($isFree)
-                                <svg class="h-6 w-6 text-white/60" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <svg class="h-6 w-6 text-stone-600" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/>
                                 </svg>
                             @else
@@ -78,20 +78,20 @@
 
                         {{-- Plan details --}}
                         <div class="flex-1 min-w-0">
-                            <h3 class="text-base font-bold text-white">{{ $plan->name }}</h3>
+                            <h3 class="text-base font-bold text-stone-800">{{ $plan->name }}</h3>
                             <div class="mt-0.5 flex items-baseline gap-1">
                                 @if($isFree)
-                                    <span class="text-lg font-extrabold text-emerald-400">Free</span>
+                                    <span class="text-lg font-extrabold text-emerald-600">Free</span>
                                 @else
-                                    <span class="text-lg font-extrabold text-white">₹{{ number_format($plan->priceInRupees(), 0) }}</span>
-                                    <span class="text-xs text-white/40">{{ $plan->durationSuffix() }}</span>
+                                    <span class="text-lg font-extrabold text-stone-800">₹{{ number_format($plan->priceInRupees(), 0) }}</span>
+                                    <span class="text-xs text-stone-500">{{ $plan->durationSuffix() }}</span>
                                 @endif
                             </div>
                             @if($plan->description)
-                                <p class="mt-1 text-xs text-white/50 line-clamp-2">{{ $plan->description }}</p>
+                                <p class="mt-1 text-xs text-stone-500 line-clamp-2">{{ $plan->description }}</p>
                             @endif
                             @if($plan->price_label)
-                                <span class="mt-1 inline-block text-[10px] font-medium text-white/30">{{ $plan->price_label }}</span>
+                                <span class="mt-1 inline-block text-[10px] font-medium text-stone-400">{{ $plan->price_label }}</span>
                             @endif
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                     {{-- Action button --}}
                     <div class="mt-3">
                         @if($isCurrent)
-                            <div class="w-full rounded-xl bg-white/5 px-4 py-2.5 text-center text-sm font-semibold text-white/40">
+                            <div class="w-full rounded-xl bg-stone-100 px-4 py-2.5 text-center text-sm font-semibold text-stone-500">
                                 Current plan
                             </div>
                         @elseif($isFree)
@@ -107,13 +107,13 @@
                                 @csrf
                                 <input type="hidden" name="plan_id" value="{{ $plan->id }}">
                                 <button type="submit"
-                                        class="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-sm font-semibold text-white hover:bg-white/10 transition-colors">
+                                        class="w-full rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-sm font-semibold text-stone-700 shadow-sm hover:bg-stone-50 transition-colors">
                                     Activate free plan
                                 </button>
                             </form>
                         @else
                             <button type="button"
-                                    class="plan-checkout-btn w-full rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 px-4 py-2.5 text-sm font-bold text-white shadow-lg shadow-indigo-500/25 hover:from-indigo-400 hover:to-purple-500 transition-all disabled:opacity-60"
+                                    class="plan-checkout-btn w-full rounded-xl bg-sky-600 px-4 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-sky-500 transition-all disabled:opacity-60"
                                     data-plan-id="{{ $plan->id }}"
                                     data-plan-name="{{ $plan->name }}"
                                     data-plan-amount="{{ $plan->priceInRupees() }}"
@@ -136,24 +136,24 @@
             ->get();
     @endphp
     @if($payments->isNotEmpty())
-    <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-        <h2 class="text-sm font-semibold text-white">Payment history</h2>
-        <div class="mt-3 divide-y divide-white/5">
+    <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+        <h2 class="text-sm font-semibold text-stone-800">Payment history</h2>
+        <div class="mt-3 divide-y divide-stone-100">
             @foreach($payments as $p)
             <div class="flex items-center justify-between py-2.5 text-sm">
                 <div>
-                    <div class="text-white/80">₹{{ number_format($p->amountInRupees(), 2) }}</div>
-                    <div class="text-[10px] text-white/30">{{ $p->created_at->format('d M Y, h:i A') }}</div>
+                    <div class="font-medium text-stone-800">₹{{ number_format($p->amountInRupees(), 2) }}</div>
+                    <div class="text-[10px] text-stone-500">{{ $p->created_at->format('d M Y, h:i A') }}</div>
                 </div>
                 <div class="text-right">
                     @if($p->status === 'paid')
-                        <span class="rounded-full bg-emerald-500/20 px-2 py-0.5 text-[10px] font-bold text-emerald-400">Paid</span>
+                        <span class="rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700">Paid</span>
                     @elseif($p->status === 'failed')
-                        <span class="rounded-full bg-red-500/20 px-2 py-0.5 text-[10px] font-bold text-red-400">Failed</span>
+                        <span class="rounded-full bg-red-100 px-2 py-0.5 text-[10px] font-bold text-red-700">Failed</span>
                     @else
-                        <span class="rounded-full bg-amber-500/20 px-2 py-0.5 text-[10px] font-bold text-amber-400">{{ ucfirst($p->status) }}</span>
+                        <span class="rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-700">{{ ucfirst($p->status) }}</span>
                     @endif
-                    <div class="mt-0.5 text-[10px] capitalize text-white/20">{{ $p->gateway }}</div>
+                    <div class="mt-0.5 text-[10px] capitalize text-stone-400">{{ $p->gateway }}</div>
                 </div>
             </div>
             @endforeach
@@ -299,9 +299,9 @@
         var inner = document.getElementById('payment-status-inner');
         wrap.classList.remove('hidden');
         if (type === 'success') {
-            inner.className = 'rounded-2xl border border-emerald-500/30 bg-emerald-500/20 px-4 py-3 text-sm font-semibold text-emerald-300 shadow-lg';
+            inner.className = 'rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm font-semibold text-emerald-800 shadow-lg';
         } else {
-            inner.className = 'rounded-2xl border border-red-500/30 bg-red-500/20 px-4 py-3 text-sm font-semibold text-red-300 shadow-lg';
+            inner.className = 'rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-800 shadow-lg';
         }
         inner.textContent = message;
         setTimeout(function() { wrap.classList.add('hidden'); }, 6000);

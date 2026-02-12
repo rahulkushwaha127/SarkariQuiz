@@ -14,23 +14,23 @@
 
 <div class="space-y-4">
     <div class="text-center">
-        <div class="text-lg font-semibold text-white">Welcome</div>
-        <div class="mt-1 text-sm text-slate-300">Login or create an account to unlock all features.</div>
+        <div class="text-lg font-semibold text-stone-800">Welcome</div>
+        <div class="mt-1 text-sm text-stone-600">Login or create an account to unlock all features.</div>
     </div>
 
     <div class="grid grid-cols-2 gap-2">
         <a href="{{ route('login') }}"
-           class="px-4 py-3 text-center text-sm font-semibold {{ $active === 'login' ? 'bg-white text-slate-900' : 'bg-white/10 text-white hover:bg-white/15' }}">
+           class="rounded-xl px-4 py-3 text-center text-sm font-semibold {{ $active === 'login' ? 'bg-sky-600 text-white' : 'border border-stone-200 bg-white text-stone-700 hover:bg-stone-50' }}">
             Login
         </a>
         <a href="{{ route('register') }}"
-           class="px-4 py-3 text-center text-sm font-semibold {{ $active === 'register' ? 'bg-white text-slate-900' : 'bg-white/10 text-white hover:bg-white/15' }}">
+           class="rounded-xl px-4 py-3 text-center text-sm font-semibold {{ $active === 'register' ? 'bg-sky-600 text-white' : 'border border-stone-200 bg-white text-stone-700 hover:bg-stone-50' }}">
             Sign up
         </a>
     </div>
 
     <a href="{{ route('auth.google.redirect', ['next' => $next]) }}"
-       class="flex w-full items-center justify-center gap-2 bg-white px-4 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100">
+       class="flex w-full items-center justify-center gap-2 rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm font-semibold text-stone-800 shadow-sm hover:bg-stone-50">
         <svg viewBox="0 0 48 48" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg">
             <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303C33.651 32.657 29.194 36 24 36c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.963 3.037l5.657-5.657C34.047 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
             <path fill="#FF3D00" d="M6.306 14.691l6.571 4.819C14.655 16.108 18.961 12 24 12c3.059 0 5.842 1.154 7.963 3.037l5.657-5.657C34.047 6.053 29.268 4 24 4c-7.682 0-14.355 4.337-17.694 10.691z"/>
@@ -40,31 +40,31 @@
         Continue with Google
     </a>
 
-    <div class="text-center text-xs text-white/50">or</div>
+    <div class="text-center text-xs font-medium text-stone-500">or</div>
 
     <div class="{{ $active === 'login' ? '' : 'hidden' }}">
         <form method="POST" action="{{ route('login') }}" class="space-y-3">
             @csrf
             <div>
-                <label class="block text-xs font-semibold text-slate-300">Email</label>
+                <label class="block text-xs font-semibold text-stone-700">Email</label>
                 <input type="email" name="email" value="{{ old('email') }}" required autocomplete="email"
-                       class="mt-1 w-full border border-white/10 bg-white/5 px-3 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                       class="mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-3 text-sm text-stone-800 placeholder:text-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                 @error('email')
-                    <div class="mt-1 text-xs text-red-200">{{ $message }}</div>
+                    <div class="mt-1 text-xs text-red-600">{{ $message }}</div>
                 @enderror
             </div>
 
             <div>
-                <label class="block text-xs font-semibold text-slate-300">Password</label>
+                <label class="block text-xs font-semibold text-stone-700">Password</label>
                 <input type="password" name="password" required autocomplete="current-password"
-                       class="mt-1 w-full border border-white/10 bg-white/5 px-3 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                       class="mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-3 text-sm text-stone-800 placeholder:text-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                 @error('password')
-                    <div class="mt-1 text-xs text-red-200">{{ $message }}</div>
+                    <div class="mt-1 text-xs text-red-600">{{ $message }}</div>
                 @enderror
             </div>
 
-            <label class="flex items-center gap-2 text-xs text-slate-300">
-                <input type="checkbox" name="remember" value="1" {{ old('remember') ? 'checked' : '' }}>
+            <label class="flex items-center gap-2 text-xs font-medium text-stone-600">
+                <input type="checkbox" name="remember" value="1" {{ old('remember') ? 'checked' : '' }} class="rounded border-stone-300 text-sky-600 focus:ring-sky-500">
                 Remember me
             </label>
 
@@ -72,12 +72,12 @@
             <div class="g-recaptcha" data-sitekey="{{ $captchaSiteKey }}"></div>
             @endif
 
-            <button type="submit" class="w-full bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
+            <button type="submit" class="w-full rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500">
                 Login
             </button>
 
             @if (Route::has('password.request'))
-                <a class="block text-center text-xs text-slate-300 hover:text-white" href="{{ route('password.request') }}">
+                <a class="block text-center text-xs font-medium text-stone-600 hover:text-stone-800" href="{{ route('password.request') }}">
                     Forgot your password?
                 </a>
             @endif
@@ -88,43 +88,43 @@
         <form method="POST" action="{{ route('register') }}" class="space-y-3">
             @csrf
             <div>
-                <label class="block text-xs font-semibold text-slate-300">Name</label>
+                <label class="block text-xs font-semibold text-stone-700">Name</label>
                 <input type="text" name="name" value="{{ old('name') }}" required autocomplete="name"
-                       class="mt-1 w-full border border-white/10 bg-white/5 px-3 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                       class="mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-3 text-sm text-stone-800 placeholder:text-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                 @error('name')
-                    <div class="mt-1 text-xs text-red-200">{{ $message }}</div>
+                    <div class="mt-1 text-xs text-red-600">{{ $message }}</div>
                 @enderror
             </div>
 
             <div>
-                <label class="block text-xs font-semibold text-slate-300">Email</label>
+                <label class="block text-xs font-semibold text-stone-700">Email</label>
                 <input type="email" name="email" value="{{ old('email') }}" required autocomplete="email"
-                       class="mt-1 w-full border border-white/10 bg-white/5 px-3 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                       class="mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-3 text-sm text-stone-800 placeholder:text-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                 @error('email')
-                    <div class="mt-1 text-xs text-red-200">{{ $message }}</div>
+                    <div class="mt-1 text-xs text-red-600">{{ $message }}</div>
                 @enderror
             </div>
 
             <div>
-                <label class="block text-xs font-semibold text-slate-300">Password</label>
+                <label class="block text-xs font-semibold text-stone-700">Password</label>
                 <input type="password" name="password" required autocomplete="new-password"
-                       class="mt-1 w-full border border-white/10 bg-white/5 px-3 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                       class="mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-3 text-sm text-stone-800 placeholder:text-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
                 @error('password')
-                    <div class="mt-1 text-xs text-red-200">{{ $message }}</div>
+                    <div class="mt-1 text-xs text-red-600">{{ $message }}</div>
                 @enderror
             </div>
 
             <div>
-                <label class="block text-xs font-semibold text-slate-300">Confirm password</label>
+                <label class="block text-xs font-semibold text-stone-700">Confirm password</label>
                 <input type="password" name="password_confirmation" required autocomplete="new-password"
-                       class="mt-1 w-full border border-white/10 bg-white/5 px-3 py-3 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                       class="mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-3 text-sm text-stone-800 placeholder:text-stone-400 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
             </div>
 
             @if(!empty($captchaEnabled) && !empty($captchaSiteKey))
             <div class="g-recaptcha" data-sitekey="{{ $captchaSiteKey }}"></div>
             @endif
 
-            <button type="submit" class="w-full bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400">
+            <button type="submit" class="w-full rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500">
                 Create account
             </button>
         </form>

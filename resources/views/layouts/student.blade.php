@@ -30,10 +30,10 @@
     @vite(['resources/css/app.css', 'resources/js/student.js'])
 
     <style>
-        /* Scrollbar inside the phone screen (like Quziko) */
+        /* Light theme: soft scrollbar for student app */
         .phone-scroll {
             scrollbar-width: thin;
-            scrollbar-color: rgba(148, 163, 184, 0.35) transparent;
+            scrollbar-color: rgba(120, 113, 108, 0.35) transparent;
         }
 
         .phone-scroll::-webkit-scrollbar {
@@ -45,27 +45,27 @@
         }
 
         .phone-scroll::-webkit-scrollbar-thumb {
-            background: rgba(148, 163, 184, 0.35);
+            background: rgba(120, 113, 108, 0.35);
             border-radius: 999px;
         }
 
         .phone-scroll::-webkit-scrollbar-thumb:hover {
-            background: rgba(148, 163, 184, 0.55);
+            background: rgba(120, 113, 108, 0.5);
         }
 
-        /* Dark dropdowns: high-contrast (same as practice page) */
+        /* Light dropdowns: easy on eyes */
         .student-select {
-            color-scheme: dark;
-            background-color: rgb(30 41 59) !important;
-            color: rgb(241 245 249) !important;
+            color-scheme: light;
+            background-color: #fff !important;
+            color: rgb(41 37 36) !important;
         }
         .student-select option {
-            background-color: rgb(30 41 59);
-            color: rgb(241 245 249);
+            background-color: #fff;
+            color: rgb(41 37 36);
         }
     </style>
 </head>
-<body class="min-h-screen bg-slate-950 text-slate-100">
+<body class="min-h-screen bg-stone-100 text-stone-800">
     @include('partials._impersonation_banner')
     @php
         $me = auth()->user();
@@ -75,31 +75,31 @@
         $autoShowAuthModal = (bool) session('auth_modal');
     @endphp
 
-    {{-- fixed background --}}
+    {{-- Light theme: soft gradient only (no grid) --}}
     <div class="pointer-events-none fixed inset-0 -z-10">
-        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(99,102,241,0.22),transparent_50%),radial-gradient(circle_at_bottom,rgba(168,85,247,0.18),transparent_50%)]"></div>
-        <div class="absolute inset-0 opacity-40 [background-image:linear-gradient(to_right,rgba(148,163,184,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(148,163,184,0.06)_1px,transparent_1px)] [background-size:32px_32px]"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-stone-50 via-stone-100/95 to-stone-200/80"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(14,165,233,0.12),transparent)]"></div>
     </div>
 
     @php $isImpersonating = app('impersonate')->isImpersonating(); @endphp
     <div class="mx-auto flex min-h-screen max-w-6xl items-stretch justify-center px-0 py-0 sm:px-4 {{ $isImpersonating ? 'pt-10' : '' }}">
-        {{-- Phone frame --}}
-        <div class="relative flex w-full max-w-[420px] flex-col overflow-hidden border border-white/10 bg-slate-900/60 shadow-2xl ring-1 ring-white/10 backdrop-blur {{ $isImpersonating ? 'h-[calc(100dvh-2.5rem)]' : 'h-[100dvh]' }}">
-            {{-- Sidebar backdrop (inside phone) --}}
+        {{-- Phone frame: light --}}
+        <div class="relative flex w-full max-w-[420px] flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-xl {{ $isImpersonating ? 'h-[calc(100dvh-2.5rem)]' : 'h-[100dvh]' }}">
+            {{-- Sidebar backdrop --}}
             <div id="student-game-sidebar-backdrop"
-                 class="absolute inset-0 z-40 hidden bg-slate-950/70"
+                 class="absolute inset-0 z-40 hidden bg-stone-900/40"
                  data-student-sidebar-close="true"></div>
 
-            {{-- Sidebar drawer (inside phone) --}}
+            {{-- Sidebar drawer --}}
             <aside id="student-game-sidebar"
-                   class="phone-scroll absolute inset-y-0 left-0 z-50 w-72 -translate-x-full overflow-y-auto bg-slate-950/95 p-4 transition-transform duration-200">
+                   class="phone-scroll absolute inset-y-0 left-0 z-50 w-72 -translate-x-full overflow-y-auto border-r border-stone-200 bg-white p-4 shadow-xl transition-transform duration-200">
                 @include('partials.student.game_sidebar')
             </aside>
 
             {{-- Top bar --}}
-            <div class="flex items-center justify-between gap-3 border-b border-white/10 bg-slate-900/70 px-4 py-3">
+            <div class="flex items-center justify-between gap-3 border-b border-stone-200 bg-white px-4 py-3">
                 <button type="button"
-                        class="inline-flex h-10 w-10 items-center justify-center bg-white/5 text-slate-100 hover:bg-white/10"
+                        class="inline-flex h-10 w-10 items-center justify-center rounded-xl text-stone-600 hover:bg-stone-100"
                         data-student-sidebar-open="true"
                         aria-label="Open menu">
                     <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,14 +107,14 @@
                     </svg>
                 </button>
 
-                <div class="text-base font-semibold tracking-tight">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
+                <div class="text-base font-semibold tracking-tight text-stone-800">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
 
                 <div class="flex items-center gap-2">
                     @if($frontendMenu['notifications'] ?? true)
                     @php $notificationsUrl = route('notifications.index'); @endphp
                     <a href="{{ $notificationsUrl }}"
                        @if(! $isStudent) data-auth-modal-open="true" data-auth-next="{{ $notificationsUrl }}" @endif
-                       class="relative inline-flex h-10 w-10 items-center justify-center bg-white/5 text-slate-100 hover:bg-white/10"
+                       class="relative inline-flex h-10 w-10 items-center justify-center rounded-xl text-stone-600 hover:bg-stone-100"
                        aria-label="Notifications">
                         <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 7h18s-3 0-3-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
@@ -130,7 +130,7 @@
                 </div>
             </div>
 
-            {{-- Header banner slot (AdSense-safe: unique unit per slot) --}}
+            {{-- Header banner slot --}}
             @php
                 $adsEnabled = (bool) (($ads['enabled'] ?? false) && ($ads['banner_enabled'] ?? false));
                 $hideForQuestionScreens =
@@ -138,23 +138,23 @@
                     request()->routeIs('practice.question');
             @endphp
             @if($adsEnabled && ! $hideForQuestionScreens)
-                <div class="border-b border-white/10 bg-slate-950/40 px-3 py-2">
-                    <div class="border border-white/10 bg-white/5 px-3 py-2">
+                <div class="border-b border-stone-200 bg-stone-50/80 px-3 py-2">
+                    <div class="rounded-xl border border-stone-200 bg-white px-3 py-2">
                         @include('partials.ads.slot', ['slot' => 'student_header', 'hide_on_question_screens' => true])
                     </div>
                 </div>
             @endif
 
             {{-- Screen --}}
-            <div class="phone-scroll flex-1 overflow-y-auto p-4 pr-3">
+            <div class="phone-scroll flex-1 overflow-y-auto bg-stone-50/50 p-4 pr-3">
                 @if (session('status'))
-                    <div class="mb-3 rounded-2xl border border-emerald-400/30 bg-emerald-400/10 px-4 py-3 text-sm text-emerald-100">
+                    <div class="mb-3 rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">
                         {{ session('status') }}
                     </div>
                 @endif
 
                 @if ($errors->any())
-                    <div class="mb-3 rounded-2xl border border-red-400/30 bg-red-400/10 px-4 py-3 text-sm text-red-100">
+                    <div class="mb-3 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
                         <div class="font-semibold">Fix this:</div>
                         <ul class="mt-2 list-disc space-y-1 pl-5">
                             @foreach ($errors->all() as $error)
@@ -176,19 +176,19 @@
     {{-- Notification popup (Scrap-style: Enable Notifications) --}}
     @include('partials.student.notification_popup')
 
-    {{-- Auth modal --}}
+    {{-- Auth modal (light) --}}
     <div data-auth-modal-autoshow="{{ $autoShowAuthModal ? '1' : '0' }}"></div>
     <div data-auth-modal="true" class="fixed inset-0 z-[70] hidden">
-        <div class="absolute inset-0 bg-slate-950/80" data-auth-modal-close="true"></div>
+        <div class="absolute inset-0 bg-stone-900/50" data-auth-modal-close="true"></div>
         <div class="absolute inset-x-0 bottom-0 mx-auto w-full max-w-[420px] p-4 sm:inset-0 sm:grid sm:place-items-center">
-            <div class="w-full border border-white/10 bg-slate-900/90 p-5 shadow-2xl ring-1 ring-white/10 backdrop-blur">
+            <div class="w-full rounded-2xl border border-stone-200 bg-white p-5 shadow-xl">
                 <div class="flex items-start justify-between gap-3">
                     <div>
-                        <div class="text-base font-semibold text-white">Login to continue</div>
-                        <div class="mt-1 text-sm text-slate-300">Create an account or login to unlock all features.</div>
+                        <div class="text-base font-semibold text-stone-800">Login to continue</div>
+                        <div class="mt-1 text-sm text-stone-600">Create an account or login to unlock all features.</div>
                     </div>
                     <button type="button"
-                            class="inline-flex h-9 w-9 items-center justify-center bg-white/5 text-slate-100 hover:bg-white/10"
+                            class="inline-flex h-9 w-9 items-center justify-center rounded-xl text-stone-500 hover:bg-stone-100"
                             data-auth-modal-close="true"
                             aria-label="Close">
                         <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -199,7 +199,7 @@
 
                 <div class="mt-4 space-y-2">
                     <a data-auth-google-link="true" href="{{ route('auth.google.redirect', ['next' => $authModalNext]) }}"
-                       class="flex w-full items-center justify-center gap-2 bg-white px-4 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100">
+                       class="flex w-full items-center justify-center gap-2 rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm font-semibold text-stone-800 shadow-sm hover:bg-stone-50">
                         <svg viewBox="0 0 48 48" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg">
                             <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303C33.651 32.657 29.194 36 24 36c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.963 3.037l5.657-5.657C34.047 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
                             <path fill="#FF3D00" d="M6.306 14.691l6.571 4.819C14.655 16.108 18.961 12 24 12c3.059 0 5.842 1.154 7.963 3.037l5.657-5.657C34.047 6.053 29.268 4 24 4c-7.682 0-14.355 4.337-17.694 10.691z"/>
@@ -210,8 +210,8 @@
                     </a>
 
                     <div class="grid grid-cols-2 gap-2">
-                        <a data-auth-login-link="true" href="{{ route('login') }}" class="bg-white/10 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-white/15">Login</a>
-                        <a data-auth-register-link="true" href="{{ route('register') }}" class="bg-indigo-500 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-indigo-400">Register</a>
+                        <a data-auth-login-link="true" href="{{ route('login') }}" class="rounded-xl border border-stone-200 bg-white px-4 py-3 text-center text-sm font-semibold text-stone-700 hover:bg-stone-50">Login</a>
+                        <a data-auth-register-link="true" href="{{ route('register') }}" class="rounded-xl bg-sky-600 px-4 py-3 text-center text-sm font-semibold text-white hover:bg-sky-500">Register</a>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,7 @@ function openStudentSidebar() {
     const drawer = $('#student-game-sidebar');
     const backdrop = $('#student-game-sidebar-backdrop');
     if (!drawer || !backdrop) return;
+    drawer.scrollTop = 0; // show from top so Home, Practice, etc. are visible
     drawer.classList.remove('-translate-x-full');
     backdrop.classList.remove('hidden');
     document.documentElement.classList.add('overflow-hidden');

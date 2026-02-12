@@ -174,6 +174,10 @@ Route::get('/cookie-policy', function () {
     return app(StudentPagesController::class)->cookie(request());
 })->name('public.pages.cookie');
 
+Route::get('/faq', function () {
+    return app(StudentPagesController::class)->faq(request());
+})->name('public.pages.faq');
+
 Auth::routes();
 
 // Impersonation routes (lab404/laravel-impersonate)
