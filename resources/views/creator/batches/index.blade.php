@@ -15,10 +15,6 @@
         </a>
     </div>
 
-    @if(session('status'))
-        <div class="rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-800">{{ session('status') }}</div>
-    @endif
-
     @if($batches->isEmpty())
         <div class="rounded-2xl border-2 border-dashed border-slate-200 bg-white p-12 text-center">
             <h3 class="text-base font-semibold text-slate-700">No batches yet</h3>

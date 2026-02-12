@@ -9,10 +9,6 @@
         <p class="mt-1 text-sm text-slate-600">Your account details. Change password only if you want to update it.</p>
     </div>
 
-    @if (session('status'))
-        <div class="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">{{ session('status') }}</div>
-    @endif
-
     <form method="POST" action="{{ route('creator.profile.update') }}" class="max-w-xl space-y-5 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
         @csrf
         @method('PATCH')

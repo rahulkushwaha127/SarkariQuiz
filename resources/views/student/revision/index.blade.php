@@ -9,12 +9,6 @@
             <div class="mt-1 text-sm text-stone-600">Bookmarks and mistakes-based practice.</div>
         </div>
 
-        @if(session('status'))
-            <div class="rounded-2xl border border-stone-200 bg-white p-4 text-sm text-stone-800 shadow-sm">
-                {{ session('status') }}
-            </div>
-        @endif
-
         @error('revision')
         <div class="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">
             {{ $message }}

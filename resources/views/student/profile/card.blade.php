@@ -69,9 +69,6 @@
     <div class="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
         <h3 class="text-sm font-bold text-stone-800">Default language</h3>
         <p class="mt-1 text-xs text-stone-500">Quizzes and practice content will be shown in this language when available.</p>
-        @if(session('status'))
-            <p class="mt-2 text-sm text-emerald-700">{{ session('status') }}</p>
-        @endif
         <form method="post" action="{{ route('student.profile.update_language') }}" class="mt-3">
             @csrf
             @method('patch')

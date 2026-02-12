@@ -15,10 +15,6 @@
         </a>
     </div>
 
-    @if(session('status'))
-        <div class="rounded-xl border border-green-200 bg-green-50 px-4 py-2 text-sm text-green-800">{{ session('status') }}</div>
-    @endif
-
     <div class="flex flex-col gap-6 lg:flex-row lg:items-start">
         <div class="min-w-0 flex-1 space-y-6">
             <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm" id="selected-questions-panel">

@@ -9,10 +9,6 @@
         <p class="mt-1 text-sm text-slate-600">AI credentials and default provider for quiz generation. Your keys are used when set; otherwise the site default is used.</p>
     </div>
 
-    @if(session('status'))
-        <div class="rounded-xl border border-green-200 bg-green-50 px-4 py-2 text-sm text-green-800">{{ session('status') }}</div>
-    @endif
-
     {{-- Current Plan --}}
     @if($plan ?? null)
     <div class="rounded-2xl border border-indigo-200 bg-indigo-50 p-5 shadow-sm">

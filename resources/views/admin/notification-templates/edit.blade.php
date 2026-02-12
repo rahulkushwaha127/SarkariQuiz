@@ -19,12 +19,6 @@
         </a>
     </div>
 
-    @if(session('status'))
-        <div class="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-800">
-            {{ session('status') }}
-        </div>
-    @endif
-
     <form method="POST" action="{{ route('admin.notification-templates.update', $template) }}" id="template-form">
         @csrf
         @method('PATCH')
