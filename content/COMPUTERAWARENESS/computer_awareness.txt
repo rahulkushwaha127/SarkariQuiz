@@ -1,2 +1,65 @@
-COMPUTER AWARENESS TOPICS - Basics of Computers - Internet &
-Networking - MS Office - Cyber Security - Digital India Initiatives
+COMPUTER AWARENESS TOPICS - INDIAN GOVERNMENT EXAMS (SSC, Banking, Railway)
+
+BASICS OF COMPUTERS
+- Computer Fundamentals (Definition, Types, Generations)
+- Input and Output Devices
+- Memory (RAM, ROM, Cache, Primary, Secondary)
+- Storage Devices (HDD, SSD, USB)
+- CPU (ALU, CU, Registers)
+- Binary System and Number Conversions
+- Software (System, Application)
+- Operating System (Windows, Linux Basics)
+- Computer Hardware and Peripherals
+- Computer Abbreviations and Full Forms
+
+INTERNET & NETWORKING
+- Internet Basics and History
+- URL, HTTP, HTTPS
+- Web Browsers
+- Search Engines
+- Email (SMTP, POP3, IMAP)
+- LAN, WAN, MAN
+- TCP/IP and Protocols
+- WWW and its Invention
+- Cloud Computing
+- IoT (Internet of Things)
+- VPN and Network Security
+
+MS OFFICE
+- MS Word (Formatting, Shortcuts)
+- MS Excel (Formulas, VLOOKUP, Functions)
+- MS PowerPoint (Presentation, Slides)
+- MS Access (Database)
+- Keyboard Shortcuts (Ctrl+C, Ctrl+V, Ctrl+Z, etc.)
+
+CYBER SECURITY
+- Virus, Malware, Ransomware
+- Antivirus and Firewall
+- Phishing and Cyber Fraud
+- Hacking and Ethical Hacking
+- Data Privacy and Protection
+- Cyber Crime and Laws
+- Password Security
+- Two-Factor Authentication
+
+DIGITAL INDIA INITIATIVES
+- Digital India Programme
+- Aadhaar and UIDAI
+- UPI, BHIM, NPCI
+- DigiLocker
+- e-Governance
+- UMANG App
+- BharatNet (Rural Broadband)
+- e-NAM (National Agriculture Market)
+- AePS (Aadhaar Enabled Payment System)
+- Digital Payments and Cashless Economy
+
+EMERGING TECHNOLOGIES
+- Artificial Intelligence (AI)
+- Machine Learning
+- Big Data
+- Blockchain
+- Quantum Computing
+- 5G Technology
+- QR Code, RFID
+- Biometric Authentication

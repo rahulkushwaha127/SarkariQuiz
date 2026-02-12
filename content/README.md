@@ -1,15 +1,28 @@
 # Content structure for `php artisan content:import-questions`
 
-## Path rules
+## Path rules (standard structure)
+
+All subjects follow this structure:
+
+```
+SUBJECT/
+  en/
+    TOPIC/
+      [1.json, 2.json, ...]
+  hi/
+    TOPIC/
+      [1.json, 2.json, ...]
+```
 
 - **First folder** = **Subject** (e.g. `STATICGK`, `HISTORY`, `COMPUTERAWARENESS`).
-- **Topic** = optional subfolder. Questions get that subject + topic in the question bank.
+- **Language folder** (`en`, `hi`) = language of the questions.
+- **Topic folder** = optional. Questions get that subject + topic in the question bank.
 
 ## Language
 
-### Option 1: Language folder inside subject (recommended for mixed language content)
+### Standard: `subject/lang/topic/files`
 
-Put a **language code** folder directly under the subject. Then put topic folders (or JSON files) inside it:
+Put a **language code** folder (`en` or `hi`) directly under the subject. Then put topic folders (or JSON files) inside it:
 
 ```
 STATICGK/
@@ -29,23 +42,35 @@ STATICGK/
 **Recognized language codes** (folder name, case-insensitive):  
 `en`, `hi`, `mr`, `ta`, `te`, `bn`, `gu`, `kn`, `ml`, `pa`, `ur`
 
-If the second segment is **not** one of these codes, it is treated as a **topic** (backward compatible):
-
-- `STATICGK/CAPITALS_CURRENCIES/1.json` → subject + topic, language from `--language` (default `hi`)
-
-### Option 2: Default language (no language folder)
-
-- `STATICGK/CAPITALS_CURRENCIES/1.json` → language = `--language` (default `hi`)
-- `php artisan content:import-questions --language=en` → all files without a language folder use English
-
 ## Summary
 
 | Path pattern | Subject | Topic | Language |
 |-------------|---------|--------|----------|
-| `SUBJECT/file.json` | ✓ | — | `--language` |
-| `SUBJECT/TOPIC/file.json` | ✓ | ✓ | `--language` |
-| `SUBJECT/LANG/file.json` | ✓ | — | from folder |
 | `SUBJECT/LANG/TOPIC/file.json` | ✓ | ✓ | from folder |
+
+## Current subjects (all use subject/en/topic/files and subject/hi/topic/files)
+
+| Subject | Topics |
+|---------|--------|
+| BANKINGAWARENESS | GENERAL |
+| COMPUTERAWARENESS | COMPUTER_AWARENESS |
+| CURRENTAFFAIRS | CURRENT_AFFAIRS |
+| DISASTERMANAGEMENT | GENERAL |
+| ENGLISH | GENERAL |
+| ENVIRONMENT | ENVIRONMENT |
+| GENERALSCIENCE | PHYSICS |
+| GEOGRAPHY | GEOGRAPHY |
+| HINDI | GENERAL |
+| HISTORY | ANCIENT, MEDIEVAL, MODERN, INDIAN_ART_CULTURE, WORLD_HISTORY |
+| INDIANECONOMY | INDIAN_ECONOMY |
+| INDIANPOLITY | INDIAN_POLITY |
+| INDIANSOCIETY | GENERAL |
+| INTERNALSECURITY | GENERAL |
+| INTERNATIONALRELATIONS | GENERAL |
+| QUANTITATIVEAPTITUDE | GENERAL |
+| REASONING | GENERAL |
+| SCIENCETECHNOLOGY | GENERAL |
+| STATICGK | BOOKS_AUTHORS, CAPITALS_CURRENCIES, FAMOUS_PERSONALITIES, IMPORTANT_DAYS, INTERNATIONAL_ORGANISATIONS, MONUMENTS_HERITAGE, NATIONAL_SYMBOLS |
 
 ## Quiz “Add with JSON” (creator UI)
 

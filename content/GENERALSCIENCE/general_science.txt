@@ -1,2 +1,63 @@
-GENERAL SCIENCE TOPICS - Physics Basics - Chemistry Basics - Biology
-Basics - Human Body Systems - Plant & Animal Kingdom - Everyday Science
+GENERAL SCIENCE TOPICS - INDIAN GOVERNMENT EXAMS (UPSC, SSC, Banking, Railway)
+
+PHYSICS
+- Units and Measurements (SI Units, Dimensions)
+- Motion (Uniform, Non-uniform, Equations of Motion)
+- Laws of Motion (Newton's Laws)
+- Force, Work, Energy, Power
+- Gravitation and Kepler's Laws
+- Pressure and Pascal's Law
+- Floatation and Archimedes' Principle
+- Sound (Waves, Reflection, Echo, Ultrasonic)
+- Heat and Temperature (Conduction, Convection, Radiation)
+- Light (Reflection, Refraction, Lenses, Human Eye)
+- Optics and Optical Instruments
+- Electricity (Current, Voltage, Resistance, Ohm's Law)
+- Electrostatics
+- Magnetism and Electromagnetism
+- Nuclear Physics (Radioactivity, Nuclear Energy)
+- Semiconductor and Electronics
+- Everyday Applications of Physics
+
+CHEMISTRY
+- Matter and Its States (Solid, Liquid, Gas)
+- Atomic Structure (Protons, Neutrons, Electrons)
+- Periodic Table and Classification of Elements
+- Chemical Bonding (Ionic, Covalent)
+- Acids, Bases, and Salts
+- pH Scale
+- Carbon and Its Compounds
+- Organic and Inorganic Chemistry
+- Metals and Non-Metals
+- Allotropes (Carbon, Phosphorus, etc.)
+- Hydrocarbons and Polymers
+- Chemical Reactions and Equations
+- Combustion and Oxidation
+- Chemistry in Everyday Life (Soaps, Detergents, Medicines)
+- Fertilizers and Pesticides
+
+BIOLOGY
+- Cell Structure and Function
+- Cell Division (Mitosis, Meiosis)
+- Classification of Living Organisms
+- Plant Kingdom (Classification, Reproduction)
+- Animal Kingdom (Classification, Invertebrates, Vertebrates)
+- Human Body Systems (Skeletal, Muscular, Nervous, Circulatory, Respiratory, Digestive, Excretory, Endocrine, Reproductive)
+- Nutrition and Diet
+- Vitamins and Minerals
+- Diseases (Communicable, Non-communicable, Deficiency)
+- Immunity and Vaccination
+- Genetics and Heredity
+- Evolution
+- Ecology Basics
+- Microorganisms (Bacteria, Virus, Fungi)
+- Biotechnology Basics
+- Origin of Life
+
+EVERYDAY SCIENCE
+- Common Scientific Phenomena
+- Scientific Instruments and Their Uses
+- Famous Scientists and Their Discoveries
+- Nobel Prizes in Science
+- Indian Scientists and Their Contributions
+- Recent Scientific Developments

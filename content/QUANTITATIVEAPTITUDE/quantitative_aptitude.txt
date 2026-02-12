@@ -1,0 +1,81 @@
+QUANTITATIVE APTITUDE TOPICS - INDIAN GOVERNMENT EXAMS (SSC, Banking, Railway)
+
+ARITHMETIC
+- Number System (Natural, Whole, Integer, Rational, Irrational)
+- Divisibility Rules
+- HCF and LCM
+- Simplification (BODMAS)
+- Fractions and Decimals
+- Percentage
+- Ratio and Proportion
+- Partnership
+- Profit and Loss
+- Simple Interest and Compound Interest
+- Time and Work
+- Pipes and Cisterns
+- Time, Speed and Distance
+- Boat and Stream
+- Train Problems
+- Average
+- Age Problems
+- Mixture and Alligation
+- Allegation
+- Partnership
+
+ALGEBRA
+- Linear Equations
+- Quadratic Equations
+- Polynomials
+- Indices and Surds
+- Logarithms
+- Sequences and Series (AP, GP)
+- Inequalities
+
+GEOMETRY
+- Lines and Angles
+- Triangles (Properties, Congruence, Similarity)
+- Quadrilaterals
+- Circle (Chord, Tangent, Sector)
+- Polygons
+- Mensuration (Area, Perimeter, Volume)
+- 2D Figures (Square, Rectangle, Triangle, Circle, Parallelogram, Trapezium)
+- 3D Figures (Cube, Cuboid, Cylinder, Cone, Sphere)
+- Coordinate Geometry (Basics)
+- Trigonometry (Ratios, Identities, Heights and Distances)
+
+NUMBER SERIES
+- Missing Number Series
+- Wrong Number Series
+- Pattern-Based Series
+- Arithmetic and Geometric Progressions
+
+DATA INTERPRETATION
+- Tables
+- Bar Graphs
+- Line Graphs
+- Pie Charts
+- Mixed Graphs
+- Caselet DI
+- Data Sufficiency (Quantitative)
+
+SIMPLIFICATION & APPROXIMATION
+- BODMAS
+- Square and Square Root
+- Cube and Cube Root
+- Approximation (Decimal, Percentage)
+
+PROBABILITY & STATISTICS
+- Probability (Basic)
+- Mean, Median, Mode
+- Standard Deviation
+- Permutation and Combination
+
+MISCELANEOUS
+- Clock and Calendar
+- Number of Zeros
+- Remainder Theorem
+- Unit Digit
+- Last Two Digits
+- Divisibility
+- Surds and Indices
+- Simplification Tricks

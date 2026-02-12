@@ -1,0 +1,97 @@
+BANKING AWARENESS TOPICS - INDIAN GOVERNMENT EXAMS (IBPS, SBI, RBI)
+
+HISTORY OF BANKING IN INDIA
+- Evolution of Banking System
+- Nationalization of Banks (1969, 1980)
+- RBI Establishment (1935)
+- Pre-Independence and Post-Independence Banking
+- Banking Reforms (Narasimham Committee)
+- Liberalization of Banking Sector
+
+RESERVE BANK OF INDIA (RBI)
+- Functions of RBI (Monetary Authority, Regulator, Banker to Government)
+- Monetary Policy (Repo Rate, Reverse Repo, CRR, SLR)
+- RBI Act, 1934
+- RBI Governor and Deputy Governors
+- Currency Issue and Management
+- Financial Stability Reports
+- Payment and Settlement Systems
+
+TYPES OF BANKS
+- Commercial Banks (Public, Private, Foreign)
+- Regional Rural Banks (RRBs)
+- Cooperative Banks
+- Small Finance Banks
+- Payment Banks
+- Development Banks (NABARD, SIDBI, EXIM)
+- Central Bank vs Commercial Bank
+
+BANKING OPERATIONS
+- Types of Bank Accounts (Savings, Current, Fixed Deposit, Recurring)
+- Types of Loans (Personal, Home, Education, Vehicle)
+- KYC (Know Your Customer) Norms
+- NPA (Non-Performing Assets)
+- CASA Ratio
+- Base Rate, MCLR, Repo Linked Lending Rate
+- Cheque, Demand Draft, NEFT, RTGS, IMPS
+- Cash Reserve Ratio (CRR), Statutory Liquidity Ratio (SLR)
+
+FINANCIAL MARKETS
+- Money Market (Call Money, Treasury Bills, Commercial Paper)
+- Capital Market (Primary, Secondary)
+- Stock Exchange (BSE, NSE)
+- SEBI (Securities and Exchange Board of India)
+- Mutual Funds
+- Derivatives
+- Foreign Exchange Market
+
+FINANCIAL INCLUSION
+- Jan Dhan Yojana
+- Pradhan Mantri Mudra Yojana
+- Financial Literacy
+- Banking Correspondents
+- Microfinance and SHGs
+- Priority Sector Lending
+
+DIGITAL BANKING
+- UPI (Unified Payments Interface)
+- BHIM, NPCI
+- IMPS, NEFT, RTGS
+- AePS (Aadhaar Enabled Payment System)
+- Mobile Banking, Internet Banking
+- Digital Wallets
+- Aadhaar-Based Transactions
+
+IMPORTANT BANKING TERMS
+- Inflation, Deflation
+- GDP, GNP
+- Fiscal Deficit, Current Account Deficit
+- Balance of Payments
+- Currency, Money Supply (M1, M2, M3)
+- Credit and Debit
+- Money Laundering, KYC, AML
+- Green Banking, Sustainable Finance
+
+BANKING LAWS AND REGULATIONS
+- Banking Regulation Act, 1949
+- Negotiable Instruments Act
+- SARFAESI Act
+- DICGC (Deposit Insurance)
+- Insolvency and Bankruptcy Code (IBC)
+- RBI Guidelines and Circulars
+
+COMMITTEES AND REFORMS
+- Narasimham Committee
+- Raghuram Rajan Committee
+- Nachiket Mor Committee
+- Financial Sector Reforms
+- Basel Norms (Basel III)
+- Bank Mergers and Consolidation
+
+INTERNATIONAL FINANCIAL INSTITUTIONS
+- IMF (International Monetary Fund)
+- World Bank
+- Asian Development Bank (ADB)
+- New Development Bank (BRICS Bank)
+- AIIB (Asian Infrastructure Investment Bank)
+- BIS (Bank for International Settlements)

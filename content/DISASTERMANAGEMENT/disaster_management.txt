@@ -1,0 +1,66 @@
+DISASTER MANAGEMENT TOPICS - INDIAN GOVERNMENT EXAMS (UPSC, SSC)
+
+TYPES OF DISASTERS
+- Natural Disasters (Earthquakes, Tsunamis, Floods, Droughts, Cyclones, Landslides, Avalanches)
+- Geological Disasters (Earthquake, Volcanic Eruption, Landslide)
+- Hydrological Disasters (Flood, Tsunami, Storm Surge)
+- Meteorological Disasters (Cyclone, Hurricane, Typhoon, Tornado)
+- Climatological Disasters (Drought, Wildfire, Heat Wave, Cold Wave)
+- Biological Disasters (Epidemic, Pandemic, Pest Attack)
+- Human-Induced Disasters (Nuclear Accident, Chemical Spill, Dam Collapse, Terrorist Attack, Cyber Attack)
+- Industrial Accidents (Bhopal Gas Tragedy, etc.)
+
+NATIONAL DISASTER MANAGEMENT FRAMEWORK
+- National Disaster Management Authority (NDMA)
+- State Disaster Management Authority (SDMA)
+- District Disaster Management Authority (DDMA)
+- National Disaster Response Force (NDRF)
+- State Disaster Response Force (SDRF)
+- National Disaster Management Plan (NDMP)
+- Disaster Management Act, 2005
+
+DISASTER MANAGEMENT CYCLE
+- Mitigation (Prevention, Risk Reduction)
+- Preparedness (Early Warning, Training, Drills)
+- Response (Rescue, Relief, Emergency Services)
+- Recovery (Reconstruction, Rehabilitation)
+- Prevention and Risk Assessment
+
+EARLY WARNING SYSTEMS
+- India Meteorological Department (IMD)
+- Tsunami Early Warning System
+- Flood Forecasting
+- Cyclone Warning
+- Earthquake Early Warning
+- Drought Monitoring
+
+MAJOR DISASTERS IN INDIA
+- Historical Disasters (Bhopal 1984, Gujarat Earthquake 2001, Tsunami 2004)
+- Flood-Prone Regions
+- Earthquake Zones (Seismic Zones I-V)
+- Cyclone-Prone Coasts
+- Drought-Affected Areas
+- Landslide-Prone Himalayan Region
+
+INTERNATIONAL COOPERATION
+- Sendai Framework for Disaster Risk Reduction
+- UN Office for Disaster Risk Reduction (UNDRR)
+- International Search and Rescue
+- Humanitarian Aid and Relief
+- Regional Cooperation (SAARC, BIMSTEC)
+
+ENVIRONMENTAL HAZARDS
+- Climate Change and Disaster Risk
+- Urban Flooding
+- Glacial Lake Outburst Flood (GLOF)
+- Coastal Erosion
+- Desertification
+- Deforestation and Landslide
+- Wildfires
+
+ROLE OF TECHNOLOGY
+- GIS and Remote Sensing in Disaster Management
+- Satellite-Based Early Warning
+- Social Media in Disaster Response
+- Mobile Apps and Helplines
+- Emergency Communication Systems
