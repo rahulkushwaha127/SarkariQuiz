@@ -53,9 +53,12 @@ class QuizController extends Controller
      */
     public function store(StoreQuizRequest $request)
     {
-        $check = PlanLimiter::check(Auth::user(), 'quizzes');
-        if (! $check['allowed']) {
-            return back()->with('error', $check['message'])->withInput();
+        $user = Auth::user();
+        if (! $user->hasRole('super_admin')) {
+            $check = PlanLimiter::check($user, 'quizzes');
+            if (! $check['allowed']) {
+                return back()->with('error', $check['message'])->withInput();
+            }
         }
 
         $quiz = Quiz::create([

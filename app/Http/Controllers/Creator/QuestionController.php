@@ -71,6 +71,10 @@ class QuestionController extends Controller
             ->whereNotIn('id', $alreadyInQuiz)
             ->withCount('answers');
 
+        if ($quiz->language) {
+            $query->where('language', $quiz->language);
+        }
+
         if (! Auth::user()->hasRole('super_admin')) {
             $plan = Auth::user()->activePlan();
             $canAccessBank = $plan && $plan->can_access_question_bank;
