@@ -21,12 +21,12 @@ class LeaderboardsController extends Controller
 
         $creatorId = Auth::id();
 
-        // Shared filters
+        // Shared filters (only apply when user has provided a value)
         $qUser = $request->string('user')->toString(); // name/email
         $dateFrom = $request->date('from'); // YYYY-MM-DD
         $dateTo = $request->date('to');     // YYYY-MM-DD
-        $minScore = $request->integer('min_score');
-        $maxScore = $request->integer('max_score');
+        $minScore = $request->filled('min_score') ? $request->integer('min_score') : null;
+        $maxScore = $request->filled('max_score') ? $request->integer('max_score') : null;
 
         // Dropdown data (scoped)
         $quizOptions = Quiz::query()
@@ -100,7 +100,7 @@ class LeaderboardsController extends Controller
         $status = $status !== '' ? $status : null; // in_progress|submitted
         $mode = $request->string('mode')->toString();
         $mode = $mode !== '' ? $mode : null; // exam|study
-        $difficulty = $request->integer('difficulty');
+        $difficulty = $request->filled('difficulty') ? $request->integer('difficulty') : null;
         $language = $request->string('language')->toString();
         $language = $language !== '' ? $language : null;
 

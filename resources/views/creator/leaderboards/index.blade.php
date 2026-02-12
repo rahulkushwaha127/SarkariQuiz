@@ -183,6 +183,7 @@
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">User</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Quiz</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Score</th>
+                        <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Correct / Wrong / Skip</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Time</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Status</th>
                         <th class="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-slate-500">Played</th>
@@ -213,31 +214,39 @@
                                 <div class="text-xs text-slate-500">
                                     {{ $row->quiz_code ?? ($row->quiz?->unique_code ?? '') }}
                                     @if(isset($row->quiz_mode)) · {{ $row->quiz_mode }} @endif
-                                    @if(isset($row->quiz_language)) · {{ $row->quiz_language }} @endif
+                                    @if(isset($row->quiz_language) && $row->quiz_language) · {{ $row->quiz_language }} @endif
+                                    @if(isset($row->quiz_difficulty) && $row->quiz_difficulty !== null) · Diff: {{ $row->quiz_difficulty }} @endif
                                 </div>
                             </td>
-                            <td class="px-4 py-3 text-sm font-semibold text-slate-900">{{ (int) $row->score }}</td>
-                            <td class="px-4 py-3 text-sm text-slate-700">{{ (int) $row->time_taken_seconds }}s</td>
-                            <td class="px-4 py-3 text-sm text-slate-700">
-                                <span class="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">{{ $row->status }}</span>
+                            <td class="px-4 py-3 text-sm font-semibold text-slate-900">
+                                {{ (int) $row->score }}@if(isset($row->total_questions) && (int)$row->total_questions > 0)<span class="text-slate-500 font-normal"> / {{ (int) $row->total_questions }}</span>@endif
                             </td>
-                            <td class="px-4 py-3 text-sm text-slate-700">{{ $row->created_at?->format('d M, H:i') }}</td>
+                            <td class="px-4 py-3 text-sm text-slate-700">
+                                <span class="text-emerald-600 font-medium">{{ (int) ($row->correct_count ?? 0) }}</span> /
+                                <span class="text-red-600 font-medium">{{ (int) ($row->wrong_count ?? 0) }}</span> /
+                                <span class="text-slate-500">{{ (int) ($row->unanswered_count ?? 0) }}</span>
+                            </td>
+                            <td class="px-4 py-3 text-sm text-slate-700">{{ (int) ($row->time_taken_seconds ?? 0) }}s</td>
+                            <td class="px-4 py-3 text-sm text-slate-700">
+                                <span class="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">{{ $row->status ?? '—' }}</span>
+                            </td>
+                            <td class="px-4 py-3 text-sm text-slate-700">{{ $row->created_at?->format('d M, H:i') ?? '—' }}</td>
                         @else
                             <td class="px-4 py-3">
                                 <div class="text-sm font-semibold text-slate-900">{{ $row->contest_title ?? ($row->contest?->title ?? '—') }}</div>
-                                <div class="text-xs text-slate-500">Participant status: {{ $row->status }}</div>
+                                <div class="text-xs text-slate-500">Participant: <span class="font-medium text-slate-600">{{ $row->status ?? '—' }}</span></div>
                             </td>
-                            <td class="px-4 py-3 text-sm font-semibold text-slate-900">{{ (int) $row->score }}</td>
-                            <td class="px-4 py-3 text-sm text-slate-700">{{ (int) $row->time_taken_seconds }}s</td>
+                            <td class="px-4 py-3 text-sm font-semibold text-slate-900">{{ (int) ($row->score ?? 0) }}</td>
+                            <td class="px-4 py-3 text-sm text-slate-700">{{ (int) ($row->time_taken_seconds ?? 0) }}s</td>
                             <td class="px-4 py-3 text-sm text-slate-700">
                                 <span class="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">{{ $row->contest_status ?? ($row->contest?->status ?? '—') }}</span>
                             </td>
-                            <td class="px-4 py-3 text-sm text-slate-700">{{ ($row->joined_at ?? $row->created_at)?->format('d M, H:i') }}</td>
+                            <td class="px-4 py-3 text-sm text-slate-700">{{ ($row->joined_at ?? $row->created_at)?->format('d M, H:i') ?? '—' }}</td>
                         @endif
                     </tr>
                 @empty
                     <tr>
-                        <td class="px-4 py-8 text-center text-sm text-slate-600" colspan="7">No records found.</td>
+                        <td class="px-4 py-8 text-center text-sm text-slate-600" colspan="{{ $isQuizzes ? 8 : 7 }}">No records found.</td>
                     </tr>
                 @endforelse
                 </tbody>
