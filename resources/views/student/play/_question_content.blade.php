@@ -1,13 +1,13 @@
-<div class="border border-white/10 bg-white/5 p-4">
+<div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
     <div class="flex items-center justify-between gap-3">
-        <div class="text-sm font-semibold text-white">
+        <div class="text-sm font-semibold text-stone-800">
             Question {{ $questionNumber }} / {{ $totalQuestions }}
         </div>
-        <div class="text-sm font-semibold text-amber-200">
+        <div class="text-sm font-semibold text-amber-600">
             <span data-quiz-deadline-iso="{{ $deadlineIso }}">--:--</span>
         </div>
     </div>
-    <div class="mt-3 text-base font-semibold text-white">
+    <div class="mt-3 text-base font-semibold text-stone-800">
         {!! nl2br(e($question->prompt)) !!}
     </div>
     @if($question->image_path)
@@ -24,16 +24,16 @@
       data-quiz-autosubmit="true">
     @csrf
 
-    <div class="border border-white/10 bg-white/5">
+    <div class="rounded-2xl border border-stone-200 bg-white shadow-sm overflow-hidden">
         @foreach(($question->answers ?? collect()) as $ans)
             @php $checked = (int)($selectedAnswerId ?? 0) === (int)$ans->id; @endphp
-            <label class="flex cursor-pointer items-start gap-3 border-b border-white/10 px-4 py-3 last:border-b-0 hover:bg-white/5">
+            <label class="flex cursor-pointer items-start gap-3 border-b border-stone-200 px-4 py-3 last:border-b-0 hover:bg-stone-50 transition-colors">
                 <input type="radio"
                        name="answer_id"
                        value="{{ $ans->id }}"
-                       class="mt-1 h-4 w-4"
+                       class="mt-1 h-4 w-4 border-stone-300 text-indigo-600 focus:ring-indigo-500"
                        {{ $checked ? 'checked' : '' }}>
-                <div class="text-sm text-slate-100">
+                <div class="text-sm text-stone-800">
                     {{ $ans->title }}
                     @if($ans->image_path)
                         <img src="{{ asset('storage/' . $ans->image_path) }}" alt="Option image" class="mt-1 max-h-24 rounded">
@@ -44,7 +44,7 @@
     </div>
 
     <div class="flex items-center justify-between gap-3">
-        <div class="text-xs text-slate-400">
+        <div class="text-xs text-stone-500">
             Leaving blank counts as unanswered.
         </div>
 
@@ -52,14 +52,14 @@
             <button type="submit"
                     name="action"
                     value="finish"
-                    class="bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
+                    class="rounded-xl bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400 transition-colors">
                 Finish
             </button>
         @else
             <button type="submit"
                     name="action"
                     value="next"
-                    class="bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400">
+                    class="rounded-xl bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400 transition-colors">
                 Next
             </button>
         @endif

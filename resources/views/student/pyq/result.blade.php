@@ -13,61 +13,61 @@
             $newLevelName = \App\Models\DailyStreak::LEVEL_NAMES[$newLevel] ?? 'Beginner';
         @endphp
         @if($leveledUp)
-            <div class="border border-yellow-400/40 bg-yellow-500/15 p-4 text-center">
-                <div class="text-xs text-yellow-300">LEVEL UP!</div>
-                <div class="mt-1 text-2xl font-bold text-yellow-200">Level {{ $newLevel }} — {{ $newLevelName }}</div>
-                <div class="mt-1 text-sm text-yellow-300/80">+{{ $xpEarned }} XP</div>
+            <div class="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-center">
+                <div class="text-xs font-semibold text-amber-700">LEVEL UP!</div>
+                <div class="mt-1 text-2xl font-bold text-amber-800">Level {{ $newLevel }} — {{ $newLevelName }}</div>
+                <div class="mt-1 text-sm text-amber-700">+{{ $xpEarned }} XP</div>
             </div>
         @else
-            <div class="border border-indigo-400/30 bg-indigo-500/10 p-3 text-center">
-                <div class="text-xs text-indigo-300">XP earned</div>
-                <div class="text-2xl font-bold text-white">+{{ $xpEarned }} XP</div>
+            <div class="rounded-2xl border border-indigo-200 bg-indigo-50 p-3 text-center">
+                <div class="text-xs font-semibold text-indigo-600">XP earned</div>
+                <div class="text-2xl font-bold text-indigo-800">+{{ $xpEarned }} XP</div>
             </div>
         @endif
 
-        <div class="border border-white/10 bg-white/5 p-4">
-            <div class="text-sm font-semibold text-white">PYQ Result</div>
-            <div class="mt-2 grid grid-cols-2 gap-2 text-sm text-slate-200">
-                <div class="border border-white/10 bg-slate-950/30 p-3">
-                    <div class="text-xs text-slate-400">Score</div>
-                    <div class="mt-1 text-lg font-bold text-white">{{ (int) $attempt->score }}</div>
+        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+            <div class="text-sm font-semibold text-stone-800">PYQ Result</div>
+            <div class="mt-2 grid grid-cols-2 gap-2 text-sm">
+                <div class="rounded-xl border border-stone-200 bg-stone-50 p-3">
+                    <div class="text-xs text-stone-500">Score</div>
+                    <div class="mt-1 text-lg font-bold text-stone-800">{{ (int) $attempt->score }}</div>
                 </div>
-                <div class="border border-white/10 bg-slate-950/30 p-3">
-                    <div class="text-xs text-slate-400">Time</div>
-                    <div class="mt-1 text-lg font-bold text-white">{{ (int) $attempt->time_taken_seconds }}s</div>
+                <div class="rounded-xl border border-stone-200 bg-stone-50 p-3">
+                    <div class="text-xs text-stone-500">Time</div>
+                    <div class="mt-1 text-lg font-bold text-stone-800">{{ (int) $attempt->time_taken_seconds }}s</div>
                 </div>
-                <div class="border border-white/10 bg-slate-950/30 p-3">
-                    <div class="text-xs text-slate-400">Correct</div>
-                    <div class="mt-1 text-lg font-bold text-emerald-200">{{ (int) $attempt->correct_count }}</div>
+                <div class="rounded-xl border border-stone-200 bg-stone-50 p-3">
+                    <div class="text-xs text-stone-500">Correct</div>
+                    <div class="mt-1 text-lg font-bold text-emerald-600">{{ (int) $attempt->correct_count }}</div>
                 </div>
-                <div class="border border-white/10 bg-slate-950/30 p-3">
-                    <div class="text-xs text-slate-400">Wrong</div>
-                    <div class="mt-1 text-lg font-bold text-rose-200">{{ (int) $attempt->wrong_count }}</div>
+                <div class="rounded-xl border border-stone-200 bg-stone-50 p-3">
+                    <div class="text-xs text-stone-500">Wrong</div>
+                    <div class="mt-1 text-lg font-bold text-rose-600">{{ (int) $attempt->wrong_count }}</div>
                 </div>
             </div>
 
             <div class="mt-3 flex flex-wrap gap-2">
                 @if($frontendMenu['pyq'] ?? true)
                 <a href="{{ route('pyq.index') }}"
-                   class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                   class="rounded-xl border border-stone-200 bg-stone-50 px-4 py-2 text-sm font-semibold text-stone-800 hover:bg-stone-100 transition-colors">
                     PYQ again
                 </a>
                 @endif
                 @if($frontendMenu['practice'] ?? true)
                 <a href="{{ route('practice') }}"
-                   class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                   class="rounded-xl border border-stone-200 bg-stone-50 px-4 py-2 text-sm font-semibold text-stone-800 hover:bg-stone-100 transition-colors">
                     Practice
                 </a>
                 @endif
                 <a href="{{ route('public.home') }}"
-                   class="bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/15">
+                   class="rounded-xl border border-stone-200 bg-stone-50 px-4 py-2 text-sm font-semibold text-stone-800 hover:bg-stone-100 transition-colors">
                     Home
                 </a>
             </div>
         </div>
 
-        <div class="border border-white/10 bg-white/5">
-            <div class="border-b border-white/10 px-4 py-3 text-sm font-semibold text-white">Review</div>
+        <div class="rounded-2xl border border-stone-200 bg-white shadow-sm overflow-hidden">
+            <div class="border-b border-stone-200 px-4 py-3 text-sm font-semibold text-stone-800">Review</div>
 
             @foreach($questions as $q)
                 @php
@@ -76,12 +76,12 @@
                     $correctId = $q->answers->firstWhere('is_correct', true)?->id;
                 @endphp
 
-                <div class="border-b border-white/10 px-4 py-3 last:border-b-0">
-                    <div class="text-sm font-semibold text-white">
+                <div class="border-b border-stone-200 px-4 py-3 last:border-b-0">
+                    <div class="text-sm font-semibold text-stone-800">
                         #{{ $loop->iteration }}. {!! nl2br(e($q->prompt)) !!}
                     </div>
                     @if($q->paper || $q->year)
-                        <div class="mt-1 text-xs text-slate-400">
+                        <div class="mt-1 text-xs text-stone-500">
                             {{ trim(($q->paper ? $q->paper : '') . ($q->year ? (' · ' . $q->year) : '')) }}
                         </div>
                     @endif
@@ -91,24 +91,24 @@
                             @php
                                 $isSelected = $selectedId && (int)$selectedId === (int)$ans->id;
                                 $isCorrect = $correctId && (int)$correctId === (int)$ans->id;
-                                $rowClass = 'border border-white/10 bg-slate-950/30';
-                                if ($isCorrect) $rowClass = 'border border-emerald-400/30 bg-emerald-400/10';
-                                elseif ($isSelected) $rowClass = 'border border-rose-400/30 bg-rose-400/10';
+                                $rowClass = 'rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-stone-800';
+                                if ($isCorrect) $rowClass = 'rounded-lg border border-emerald-300 bg-emerald-50 px-3 py-2 text-emerald-800';
+                                elseif ($isSelected) $rowClass = 'rounded-lg border border-rose-300 bg-rose-50 px-3 py-2 text-rose-800';
                             @endphp
-                            <div class="{{ $rowClass }} px-3 py-2">
+                            <div class="{{ $rowClass }}">
                                 {{ $ans->title }}
                                 @if($isCorrect)
-                                    <span class="ml-2 text-xs font-semibold text-emerald-200">(correct)</span>
+                                    <span class="ml-2 text-xs font-semibold text-emerald-600">(correct)</span>
                                 @elseif($isSelected)
-                                    <span class="ml-2 text-xs font-semibold text-rose-200">(your choice)</span>
+                                    <span class="ml-2 text-xs font-semibold text-rose-600">(your choice)</span>
                                 @endif
                             </div>
                         @endforeach
                     </div>
 
                     @if($q->explanation)
-                        <div class="mt-3 border border-white/10 bg-slate-950/30 px-3 py-2 text-sm text-slate-200">
-                            <div class="text-xs font-semibold text-slate-300">Explanation</div>
+                        <div class="mt-3 rounded-lg border border-stone-200 bg-stone-50 px-3 py-2 text-sm text-stone-700">
+                            <div class="text-xs font-semibold text-stone-600">Explanation</div>
                             <div class="mt-1">{!! nl2br(e($q->explanation)) !!}</div>
                         </div>
                     @endif
@@ -117,5 +117,3 @@
         </div>
     </div>
 @endsection
-
-
