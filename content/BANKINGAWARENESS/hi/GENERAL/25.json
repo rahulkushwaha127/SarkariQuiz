@@ -1,0 +1,277 @@
+﻿[
+  {
+    "prompt": "Bank guarantee is?",
+    "answers": [
+      "Loan",
+      "Undertaking by bank to pay if customer defaults",
+      "Only for exports",
+      "Only for government"
+    ],
+    "correct": 1,
+    "explanation": "Bank guarantee: bank undertakes to pay beneficiary if customer fails to fulfil obligation."
+  },
+  {
+    "prompt": "Letter of Credit LC is used for?",
+    "answers": [
+      "Domestic trade only",
+      "International trade - bank assures payment to exporter",
+      "Only imports",
+      "Only exports"
+    ],
+    "correct": 1,
+    "explanation": "LC is used in international trade. Issuing bank assures payment to exporter against documents."
+  },
+  {
+    "prompt": "Standby LC is?",
+    "answers": [
+      "Primary payment",
+      "Backup - used if applicant fails",
+      "Only for domestic",
+      "Only for goods"
+    ],
+    "correct": 1,
+    "explanation": "Standby LC is secondary. Invoked only if applicant fails to perform."
+  },
+  {
+    "prompt": "Documentary LC requires?",
+    "answers": [
+      "Only application",
+      "Documents - bill of lading, invoice etc",
+      "Only payment",
+      "Only guarantee"
+    ],
+    "correct": 1,
+    "explanation": "Documentary LC: payment against presentation of shipping and other documents."
+  },
+  {
+    "prompt": "Bank acts as Intermediary in LC?",
+    "answers": [
+      "No",
+      "Yes - between buyer and seller",
+      "Only for domestic",
+      "Only advises"
+    ],
+    "correct": 1,
+    "explanation": "Bank intermediates - issues LC on behalf of buyer, pays seller against documents."
+  },
+  {
+    "prompt": "Co-acceptance in bill discounting means?",
+    "answers": [
+      "Only drawer",
+      "Bank adds its guarantee to bill",
+      "Only one party",
+      "Only for domestic"
+    ],
+    "correct": 1,
+    "explanation": "Bank co-accepts or adds its acceptance to bill, making it more marketable."
+  },
+  {
+    "prompt": "Factoring involves?",
+    "answers": [
+      "Only lending",
+      "Purchase of receivables - financier buys invoice",
+      "Only export",
+      "Only import"
+    ],
+    "correct": 1,
+    "explanation": "Factor purchases receivables from seller. Provides advance and collects from debtor."
+  },
+  {
+    "prompt": "Forfaiting is used for?",
+    "answers": [
+      "Short-term domestic",
+      "Medium to long term export receivables",
+      "Only import",
+      "Only services"
+    ],
+    "correct": 1,
+    "explanation": "Forfaiting: export receivables (bills, promissory notes) sold without recourse. Used in export finance."
+  },
+  {
+    "prompt": "ECGC covers?",
+    "answers": [
+      "Only commercial risk",
+      "Political and commercial risks for exports",
+      "Only domestic",
+      "Only private"
+    ],
+    "correct": 1,
+    "explanation": "ECGC covers political risks (war, transfer delay) and commercial risks (buyer default) for exports."
+  },
+  {
+    "prompt": "Packaging credit is?",
+    "answers": [
+      "Post-shipment",
+      "Pre-shipment finance for export",
+      "Only for import",
+      "Only for services"
+    ],
+    "correct": 1,
+    "explanation": "Packing credit is pre-shipment finance. Exporter gets funds to procure, manufacture, pack for export."
+  },
+  {
+    "prompt": "Foreign currency loan to exporter from bank is?",
+    "answers": [
+      "Not allowed",
+      "Allowed - PCFC etc",
+      "Only for import",
+      "Only ECB"
+    ],
+    "correct": 1,
+    "explanation": "Banks can provide pre-shipment and post-shipment credit in foreign currency (PCFC, etc)."
+  },
+  {
+    "prompt": "Merchant banking includes?",
+    "answers": [
+      "Only deposits",
+      "Issue management, underwriting, M and A advisory",
+      "Only lending",
+      "Only forex"
+    ],
+    "correct": 1,
+    "explanation": "Merchant banking: capital market activities - issue management, underwriting, M&A advisory."
+  },
+  {
+    "prompt": "Underwriting means?",
+    "answers": [
+      "Only advice",
+      "Guarantee to subscribe unsubscribed portion of issue",
+      "Only distribution",
+      "Only valuation"
+    ],
+    "correct": 1,
+    "explanation": "Underwriter guarantees to take up unsubscribed portion of securities issue."
+  },
+  {
+    "prompt": "Debenture trustee protects?",
+    "answers": [
+      "Issuer",
+      "Interest of debenture holders",
+      "Only banks",
+      "Only promoters"
+    ],
+    "correct": 1,
+    "explanation": "Debenture trustee acts for debenture holders, ensures issuer complies with terms."
+  },
+  {
+    "prompt": "Working capital loan is for?",
+    "answers": [
+      "Fixed assets",
+      "Day to day operations - inventory, receivables",
+      "Only salaries",
+      "Only machinery"
+    ],
+    "correct": 1,
+    "explanation": "Working capital finance funds current assets - raw material, work in progress, receivables."
+  },
+  {
+    "prompt": "Cash credit is?",
+    "answers": [
+      "Term loan",
+      "Drawing limit against inventory - running account",
+      "Only for export",
+      "Only for import"
+    ],
+    "correct": 1,
+    "explanation": "Cash credit: revolving limit. Draw and repay as per need. Secured by inventory, receivables."
+  },
+  {
+    "prompt": "Overdraft is?",
+    "answers": [
+      "Only for business",
+      "Drawing beyond balance in current account",
+      "Only for savings",
+      "Only for FD"
+    ],
+    "correct": 1,
+    "explanation": "Overdraft allows account holder to withdraw more than balance. Interest on amount used."
+  },
+  {
+    "prompt": "Letter of comfort is?",
+    "answers": [
+      "Legal guarantee",
+      "Moral assurance - not legal guarantee",
+      "Only for government",
+      "Only for export"
+    ],
+    "correct": 1,
+    "explanation": "Letter of comfort expresses support but typically does not create legal obligation like guarantee."
+  },
+  {
+    "prompt": "Bancassurance means?",
+    "answers": [
+      "Only deposits",
+      "Banks selling insurance products",
+      "Only loans",
+      "Only cards"
+    ],
+    "correct": 1,
+    "explanation": "Bancassurance: banks distribute insurance products as corporate agent."
+  },
+  {
+    "prompt": "Bank can sell mutual funds as?",
+    "answers": [
+      "Fund manager",
+      "Distributor",
+      "Only AMC",
+      "Only for own fund"
+    ],
+    "correct": 1,
+    "explanation": "Banks act as mutual fund distributors. They earn commission. Different from AMC role."
+  },
+  {
+    "prompt": "Third party products in banks include?",
+    "answers": [
+      "Only deposits",
+      "Insurance, mutual funds, gold - not bank products",
+      "Only loans",
+      "Only cards"
+    ],
+    "correct": 1,
+    "explanation": "Third party: insurance, mutual fund etc. Bank sells on behalf of manufacturer."
+  },
+  {
+    "prompt": "RBI has asked banks to ensure suitability of?",
+    "answers": [
+      "Only loans",
+      "Third party products - right product for customer",
+      "Only deposits",
+      "Only cards"
+    ],
+    "correct": 1,
+    "explanation": "Banks must ensure third party product is suitable for customer. Avoid mis-selling."
+  },
+  {
+    "prompt": "Tiered KYC for PPIs means?",
+    "answers": [
+      "Same for all",
+      "Minimum KYC and Full KYC - different limits",
+      "Only full KYC",
+      "No KYC"
+    ],
+    "correct": 1,
+    "explanation": "Minimum KYC PPI has lower limits. Full KYC allows higher limits and more features."
+  },
+  {
+    "prompt": "Interoperability between PPIs means?",
+    "answers": [
+      "Same issuer only",
+      "Fund transfer between different PPIs",
+      "Only bank to PPI",
+      "Only PPI to bank"
+    ],
+    "correct": 1,
+    "explanation": "Interoperability allows transfer between different wallet issuers. Enhances usability."
+  },
+  {
+    "prompt": "Tokenization for cards means?",
+    "answers": [
+      "Physical card only",
+      "Replacing card number with token for security",
+      "Only for credit",
+      "Only for debit"
+    ],
+    "correct": 1,
+    "explanation": "Tokenization replaces actual card details with unique token. Reduces fraud risk."
+  }
+]

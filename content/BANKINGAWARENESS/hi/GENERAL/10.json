@@ -1,0 +1,277 @@
+﻿[
+  {
+    "prompt": "What does WPI stand for?",
+    "answers": [
+      "Wholesale Price Index",
+      "Weekly Price Index",
+      "Weighted Price Index",
+      "World Price Index"
+    ],
+    "correct": 0,
+    "explanation": "WPI measures price changes at wholesale level. It is released by Ministry of Commerce. RBI uses CPI for monetary policy."
+  },
+  {
+    "prompt": "CPI for industrial workers is released by?",
+    "answers": [
+      "RBI",
+      "Labour Bureau",
+      "CSO",
+      "Ministry of Finance"
+    ],
+    "correct": 1,
+    "explanation": "Labour Bureau releases CPI-IW (Industrial Workers), CPI-AL (Agricultural Labourers), CPI-RL (Rural Labourers)."
+  },
+  {
+    "prompt": "RBI's inflation target (CPI) is?",
+    "answers": [
+      "2%",
+      "4% with plus minus 2% tolerance",
+      "6%",
+      "8%"
+    ],
+    "correct": 1,
+    "explanation": "RBI has an inflation target of 4% with a tolerance band of 2% to 6%. This was set under the monetary policy framework."
+  },
+  {
+    "prompt": "The Monetary Policy Framework Agreement was signed in?",
+    "answers": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "correct": 2,
+    "explanation": "RBI and Government signed the Monetary Policy Framework in February 2015, making inflation targeting the primary objective."
+  },
+  {
+    "prompt": "RBI publishes its Monetary Policy Report?",
+    "answers": [
+      "Monthly",
+      "Quarterly",
+      "Half-yearly",
+      "With every MPC meeting"
+    ],
+    "correct": 3,
+    "explanation": "RBI publishes the Monetary Policy Report along with each bimonthly MPC meeting, detailing the inflation and growth outlook."
+  },
+  {
+    "prompt": "Standing Deposit Facility (SDF) was introduced in?",
+    "answers": [
+      "2018",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "correct": 2,
+    "explanation": "SDF was introduced in April 2022 as the floor of the LAF corridor. It replaced Fixed Reverse Repo as the floor."
+  },
+  {
+    "prompt": "SDF rate is typically?",
+    "answers": [
+      "Above Repo",
+      "Equal to Repo",
+      "Below Repo as floor of corridor",
+      "Same as MSF"
+    ],
+    "correct": 2,
+    "explanation": "SDF forms the floor of the interest rate corridor. MSF is the ceiling. Repo is in the middle. SDF is typically 25 bps below Repo."
+  },
+  {
+    "prompt": "Liquidity Adjustment Facility (LAF) includes?",
+    "answers": [
+      "Only Repo",
+      "Repo and Reverse Repo or SDF",
+      "Only CRR",
+      "Only SLR"
+    ],
+    "correct": 1,
+    "explanation": "LAF consists of Repo (injection) and Reverse Repo or SDF (absorption). It helps RBI manage day-to-day liquidity."
+  },
+  {
+    "prompt": "Open Market Operations by RBI involve?",
+    "answers": [
+      "Buying or selling government securities",
+      "Fixing interest rates",
+      "Regulating banks",
+      "Issuing currency"
+    ],
+    "correct": 0,
+    "explanation": "OMOs are buying or selling of G-Secs by RBI to inject or absorb durable liquidity in the banking system."
+  },
+  {
+    "prompt": "Market Stabilisation Scheme was used to?",
+    "answers": [
+      "Stabilize stock market",
+      "Absorb excess liquidity from forex inflows",
+      "Reduce CRR",
+      "Increase SLR"
+    ],
+    "correct": 1,
+    "explanation": "MSS bonds were issued to absorb excess liquidity from large capital inflows. Proceeds are held in a separate account."
+  },
+  {
+    "prompt": "RBI foreign exchange reserves are held in?",
+    "answers": [
+      "Only US dollars",
+      "Multiple currencies and gold",
+      "Only gold",
+      "Only SDRs"
+    ],
+    "correct": 1,
+    "explanation": "India forex reserves include foreign currency assets (multiple currencies), gold, SDRs, and reserve position in IMF."
+  },
+  {
+    "prompt": "Special Drawing Rights are issued by?",
+    "answers": [
+      "World Bank",
+      "IMF",
+      "RBI",
+      "UN"
+    ],
+    "correct": 1,
+    "explanation": "SDR is an international reserve asset created by IMF. Its value is based on a basket of five currencies."
+  },
+  {
+    "prompt": "India forex reserves are managed by?",
+    "answers": [
+      "Ministry of Finance",
+      "RBI",
+      "SEBI",
+      "External committee"
+    ],
+    "correct": 1,
+    "explanation": "RBI manages India foreign exchange reserves. It intervenes in forex market to manage rupee volatility."
+  },
+  {
+    "prompt": "Capital to Risk-weighted Assets Ratio minimum for banks is?",
+    "answers": [
+      "8%",
+      "9%",
+      "10.5%",
+      "12%"
+    ],
+    "correct": 2,
+    "explanation": "Minimum CRAR for Indian banks is 9% plus Capital Conservation Buffer. Total minimum is around 11.5%."
+  },
+  {
+    "prompt": "Leverage Ratio under Basel III is?",
+    "answers": [
+      "3%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "correct": 0,
+    "explanation": "Basel III mandates a minimum leverage ratio of 3%. It is Tier 1 capital divided by total exposure."
+  },
+  {
+    "prompt": "Countercyclical Capital Buffer can be?",
+    "answers": [
+      "Always 0%",
+      "0% to 2.5% activated during credit boom",
+      "Fixed at 1%",
+      "Only for foreign banks"
+    ],
+    "correct": 1,
+    "explanation": "CCyB can be 0-2.5% of risk-weighted assets. RBI activates it when credit growth is excessive."
+  },
+  {
+    "prompt": "D-SIBs in India include?",
+    "answers": [
+      "All PSBs",
+      "SBI, ICICI Bank, HDFC Bank",
+      "Only SBI",
+      "Only private banks"
+    ],
+    "correct": 1,
+    "explanation": "SBI, ICICI Bank, and HDFC Bank are Domestic Systemically Important Banks. They need additional CET1."
+  },
+  {
+    "prompt": "Basel II had how many pillars?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "explanation": "Basel II had three pillars: Pillar 1 Minimum capital, Pillar 2 Supervisory review, Pillar 3 Market discipline."
+  },
+  {
+    "prompt": "Pillar 2 of Basel deals with?",
+    "answers": [
+      "Minimum capital",
+      "Supervisory review process",
+      "Market disclosure",
+      "Liquidity"
+    ],
+    "correct": 1,
+    "explanation": "Pillar 2 involves supervisory review. Banks must assess overall capital adequacy and supervisors evaluate them."
+  },
+  {
+    "prompt": "Pillar 3 of Basel emphasizes?",
+    "answers": [
+      "Capital calculation",
+      "Disclosure and transparency",
+      "Liquidity buffers",
+      "Asset quality"
+    ],
+    "correct": 1,
+    "explanation": "Pillar 3 focuses on market discipline through disclosure of capital, risk exposure to market."
+  },
+  {
+    "prompt": "Risk-weighted assets means?",
+    "answers": [
+      "Total assets",
+      "Assets multiplied by risk weights",
+      "Only NPAs",
+      "Only loans"
+    ],
+    "correct": 1,
+    "explanation": "Different assets have different risk weights. Capital requirement is calculated on risk-weighted assets."
+  },
+  {
+    "prompt": "NPA provisioning affects?",
+    "answers": [
+      "Only balance sheet",
+      "Profit and loss reduces profit",
+      "Only capital",
+      "Only deposits"
+    ],
+    "correct": 1,
+    "explanation": "Provisioning is an expense charged to P and L. Higher NPA provisioning reduces bank net profit."
+  },
+  {
+    "prompt": "Tier 1 capital includes?",
+    "answers": [
+      "Only equity",
+      "CET1 and AT1",
+      "Subordinated debt only",
+      "Government bonds"
+    ],
+    "correct": 1,
+    "explanation": "Tier 1 capital includes Common Equity Tier 1 and Additional Tier 1. It is the core capital that absorbs losses."
+  },
+  {
+    "prompt": "Minimum CET1 ratio for Indian banks is?",
+    "answers": [
+      "4%",
+      "4.5%",
+      "5.5%",
+      "8%"
+    ],
+    "correct": 2,
+    "explanation": "Indian banks must maintain minimum CET1 of 5.5% of risk-weighted assets under Basel III."
+  },
+  {
+    "prompt": "The Insolvency and Bankruptcy Code Amendment 2021 inserted?",
+    "answers": [
+      "Pre-pack for MSMEs",
+      "Only personal insolvency",
+      "New tribunals",
+      "Foreign jurisdiction"
+    ],
+    "correct": 0,
+    "explanation": "IBC Amendment 2021 introduced pre-packaged insolvency resolution process for MSMEs."
+  }
+]

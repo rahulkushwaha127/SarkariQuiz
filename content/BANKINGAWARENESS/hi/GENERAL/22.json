@@ -1,0 +1,277 @@
+﻿[
+  {
+    "prompt": "Financial Stability and Development Council FSDC is headed by?",
+    "answers": [
+      "RBI Governor",
+      "Finance Minister",
+      "Prime Minister",
+      "SEBI Chairman"
+    ],
+    "correct": 1,
+    "explanation": "FSDC is headed by Finance Minister. It addresses inter-regulatory issues and financial stability."
+  },
+  {
+    "prompt": "FSDC was set up in?",
+    "answers": [
+      "2008",
+      "2010",
+      "2012",
+      "2015"
+    ],
+    "correct": 1,
+    "explanation": "FSDC was constituted in 2010. RBI Governor, SEBI, IRDAI, PFRDA chairpersons are members."
+  },
+  {
+    "prompt": "Financial Resolution and Deposit Insurance FRDI Bill was?",
+    "answers": [
+      "Passed",
+      "Withdrawn - bail-in clause concerns",
+      "Enacted in 2020",
+      "Only for banks"
+    ],
+    "correct": 1,
+    "explanation": "FRDI Bill was withdrawn in 2018. Bail-in clause that could use depositor money caused concern."
+  },
+  {
+    "prompt": "Bank Nationalisation Day is observed on?",
+    "answers": [
+      "July 15",
+      "July 19",
+      "August 15",
+      "April 1"
+    ],
+    "correct": 1,
+    "explanation": "July 19 is observed as Bank Nationalisation Day - 14 banks nationalized on July 19 1969."
+  },
+  {
+    "prompt": "Lead Bank Scheme assigned each district to?",
+    "answers": [
+      "RBI",
+      "One lead bank for development",
+      "NABARD",
+      "State government"
+    ],
+    "correct": 1,
+    "explanation": "Under Lead Bank Scheme each district has a lead bank responsible for credit and branch expansion."
+  },
+  {
+    "prompt": "Service Area Approach was?",
+    "answers": [
+      "For urban areas",
+      "Rural branches assigned specific villages",
+      "Only for RRBs",
+      "Only for cooperative"
+    ],
+    "correct": 1,
+    "explanation": "Service Area Approach assigned specific villages to rural branches for credit planning."
+  },
+  {
+    "prompt": "Village Adoption Scheme means?",
+    "answers": [
+      "Bank adopts village for comprehensive development",
+      "Only lending",
+      "Only deposits",
+      "Only government"
+    ],
+    "correct": 0,
+    "explanation": "Banks adopt villages for overall development - banking, financial literacy, credit linkage."
+  },
+  {
+    "prompt": "Financial literacy initiatives include?",
+    "answers": [
+      "Only RBI",
+      "RBI FLCs, banks, government programs",
+      "Only schools",
+      "Only rural"
+    ],
+    "correct": 1,
+    "explanation": "RBI Financial Literacy Centers, banks, government run financial literacy programs."
+  },
+  {
+    "prompt": "RBI has set up Financial Literacy Centers at?",
+    "answers": [
+      "RBI offices only",
+      "Lead bank branches",
+      "All bank branches",
+      "Only urban"
+    ],
+    "correct": 1,
+    "explanation": "FLCs are set up at lead bank branches. They educate people on banking and finance."
+  },
+  {
+    "prompt": "Pradhan Mantri Gramin Digital Saksharta Abhiyan aims at?",
+    "answers": [
+      "Only banking",
+      "Digital literacy in rural areas",
+      "Only payments",
+      "Only youth"
+    ],
+    "correct": 1,
+    "explanation": "PMGDISHA aims to make rural households digitally literate."
+  },
+  {
+    "prompt": "Bank coverage - unbanked rural centres get banking through?",
+    "answers": [
+      "Only branches",
+      "Branches BCs CSPs",
+      "Only BCs",
+      "Only mobile"
+    ],
+    "correct": 1,
+    "explanation": "Banking reach through branches, Business Correspondents, Customer Service Points in unbanked areas."
+  },
+  {
+    "prompt": "Banks must open how many branches in unbanked rural centres?",
+    "answers": [
+      "None",
+      "At least 25 percent of new branches",
+      "All new branches",
+      "Only in specified states"
+    ],
+    "correct": 1,
+    "explanation": "RBI guidelines: 25 percent of branches opened in a year should be in unbanked rural centres."
+  },
+  {
+    "prompt": "BC outlet and branch - difference?",
+    "answers": [
+      "Same",
+      "BC is agent, branch is full service",
+      "BC only for urban",
+      "Branch only for rural"
+    ],
+    "correct": 1,
+    "explanation": "BC outlet provides limited services. Branch provides full banking services."
+  },
+  {
+    "prompt": "Interoperability in BC means?",
+    "answers": [
+      "BC works with one bank only",
+      "BC can serve customers of any bank",
+      "Only for deposits",
+      "Only for withdrawals"
+    ],
+    "correct": 1,
+    "explanation": "Interoperable BC can serve customers of different banks. Enhances reach."
+  },
+  {
+    "prompt": "Aadhaar enabled Payment System AePS allows?",
+    "answers": [
+      "Only balance enquiry",
+      "Balance enquiry, cash withdrawal, deposit, remittance",
+      "Only deposit",
+      "Only transfer"
+    ],
+    "correct": 1,
+    "explanation": "AePS allows multiple transactions using Aadhaar and biometric at BC points."
+  },
+  {
+    "prompt": "BharatNet aims to connect?",
+    "answers": [
+      "Only cities",
+      "Gram panchayats with broadband",
+      "Only schools",
+      "Only banks"
+    ],
+    "correct": 1,
+    "explanation": "BharatNet aims to connect all gram panchayats with broadband for digital inclusion."
+  },
+  {
+    "prompt": "Payment banks can distribute?",
+    "answers": [
+      "Only cash",
+      "Insurance, mutual funds, pensions",
+      "Only loans",
+      "Only cards"
+    ],
+    "correct": 1,
+    "explanation": "Payment banks can act as agent for insurance, mutual fund, pension products. Cannot lend."
+  },
+  {
+    "prompt": "Small Finance Bank must lend how much to priority sector?",
+    "answers": [
+      "25 percent",
+      "40 percent",
+      "75 percent",
+      "50 percent"
+    ],
+    "correct": 2,
+    "explanation": "Small Finance Banks must lend 75 percent of ANBC to priority sector. Higher than commercial banks."
+  },
+  {
+    "prompt": "Small Finance Bank can convert to universal bank after?",
+    "answers": [
+      "3 years",
+      "5 years of operations",
+      "10 years",
+      "Cannot convert"
+    ],
+    "correct": 1,
+    "explanation": "SFBs with 5 years track record can apply for universal bank license."
+  },
+  {
+    "prompt": "Local Area Banks were conceptualized for?",
+    "answers": [
+      "Metro lending",
+      "Private sector banks for rural and semi-urban",
+      "Only cooperative",
+      "Only government"
+    ],
+    "correct": 1,
+    "explanation": "LABs were private sector banks for rural and semi-urban areas. Very few exist."
+  },
+  {
+    "prompt": "Payment banks need to invest 75 percent in?",
+    "answers": [
+      "Equity",
+      "Statutory liquidity - G-Secs T-Bills",
+      "Gold",
+      "Real estate"
+    ],
+    "correct": 1,
+    "explanation": "Payment banks must invest 75 percent of deposits in G-Secs, T-Bills. Cannot lend."
+  },
+  {
+    "prompt": "Prepaid cards issued by banks are?",
+    "answers": [
+      "Not regulated",
+      "Regulated by RBI as PPI",
+      "Only for gift",
+      "Only for travel"
+    ],
+    "correct": 1,
+    "explanation": "Prepaid Payment Instruments including prepaid cards are regulated by RBI."
+  },
+  {
+    "prompt": "Semi-closed wallet?",
+    "answers": [
+      "Can be used anywhere",
+      "Can be used at identified merchants",
+      "Only for cash withdrawal",
+      "Only for bank transfer"
+    ],
+    "correct": 1,
+    "explanation": "Semi-closed PPI can be used at identified merchant locations. Cannot withdraw cash."
+  },
+  {
+    "prompt": "Full KYC PPI can be used for?",
+    "answers": [
+      "Only purchases",
+      "Fund transfer, purchase, cash withdrawal at ATM",
+      "Only ATM",
+      "Only bank transfer"
+    ],
+    "correct": 1,
+    "explanation": "Full KYC PPIs allow fund transfer to bank, purchase, cash withdrawal at ATM."
+  },
+  {
+    "prompt": "Bharat Bill Payment Central Unit BBPCU is operated by?",
+    "answers": [
+      "Individual billers",
+      "NPCI",
+      "Banks",
+      "RBI"
+    ],
+    "correct": 1,
+    "explanation": "BBPCU is operated by NPCI. It sets standards for Bharat Bill Payment System."
+  }
+]

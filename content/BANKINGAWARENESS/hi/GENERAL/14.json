@@ -1,0 +1,288 @@
+﻿[
+  {
+    "prompt": "Government Security (G-Sec) is issued by?",
+    "answers": [
+      "RBI",
+      "Government of India through RBI",
+      "SEBI",
+      "Commercial banks"
+    ],
+    "correct": 1,
+    "explanation": "G-Secs are issued by Government of India. RBI acts as debt manager and conducts auctions. They are sovereign bonds."
+  },
+  {
+    "prompt": "G-Sec with maturity more than one year is called?",
+    "answers": [
+      "Treasury Bill",
+      "Dated security or Government bond",
+      "Commercial Paper",
+      "Certificate of Deposit"
+    ],
+    "correct": 1,
+    "explanation": "Dated G-Secs have maturity over 1 year. Treasury Bills have maturity of 91, 182, 364 days."
+  },
+  {
+    "prompt": "91-day T-Bill is auctioned?",
+    "answers": [
+      "Monthly",
+      "Weekly",
+      "Quarterly",
+      "Yearly"
+    ],
+    "correct": 1,
+    "explanation": "91-day T-Bill is auctioned every week. 182-day and 364-day T-Bills are auctioned fortnightly."
+  },
+  {
+    "prompt": "State Development Loans (SDLs) are issued by?",
+    "answers": [
+      "Central Government",
+      "State Governments",
+      "RBI",
+      "Municipalities"
+    ],
+    "correct": 1,
+    "explanation": "SDLs are issued by State Governments for their borrowing needs. RBI conducts auctions. They carry slight risk premium over G-Secs."
+  },
+  {
+    "prompt": "Yield on bond moves inversely to?",
+    "answers": [
+      "Maturity",
+      "Price",
+      "Coupon",
+      "Issue size"
+    ],
+    "correct": 1,
+    "explanation": "Bond price and yield move inversely. When price rises, yield falls. When price falls, yield rises."
+  },
+  {
+    "prompt": "Repo rate in government securities market means?",
+    "answers": [
+      "RBI policy rate",
+      "Sale of security with agreement to repurchase",
+      "Reverse Repo",
+      "MSF"
+    ],
+    "correct": 1,
+    "explanation": "In G-Sec market, repo is selling a security with agreement to buy back. Used for short-term liquidity management."
+  },
+  {
+    "prompt": "Gilt-edged securities refer to?",
+    "answers": [
+      "Corporate bonds",
+      "Government securities - low default risk",
+      "Equity shares",
+      "Debentures"
+    ],
+    "correct": 1,
+    "explanation": "Gilt-edged means government or high-grade securities with minimal default risk. Term used for G-Secs."
+  },
+  {
+    "prompt": "FRBs in bond market are?",
+    "answers": [
+      "Fixed Rate Bonds",
+      "Floating Rate Bonds",
+      "Forward Rate Bonds",
+      "Foreign Currency Bonds"
+    ],
+    "correct": 1,
+    "explanation": "Floating Rate Bonds have coupon linked to a benchmark that resets periodically."
+  },
+  {
+    "prompt": "Inflation Indexed Bonds protect against?",
+    "answers": [
+      "Interest rate risk",
+      "Inflation - principal/coupon adjusted",
+      "Credit risk",
+      "Liquidity risk"
+    ],
+    "correct": 1,
+    "explanation": "Inflation Indexed Bonds (e.g., Inflation Indexed National Savings Securities) adjust for inflation to protect real return."
+  },
+  {
+    "prompt": "Retail Direct scheme allows retail investors to?",
+    "answers": [
+      "Only trade stocks",
+      "Open G-Sec account with RBI and invest in G-Secs",
+      "Only mutual funds",
+      "Only corporate bonds"
+    ],
+    "correct": 1,
+    "explanation": "RBI Retail Direct scheme (2021) allows retail investors to open gilt account with RBI and buy/sell G-Secs directly."
+  },
+  {
+    "prompt": "What does FDI stand for in banking context?",
+    "answers": [
+      "Fixed Deposit Interest",
+      "Foreign Direct Investment",
+      "Financial Development Index",
+      "Foreign Debt Instrument"
+    ],
+    "correct": 1,
+    "explanation": "FDI is investment by foreign entity in Indian company with significant control. FII/FPI is portfolio investment."
+  },
+  {
+    "prompt": "FPI stands for?",
+    "answers": [
+      "Fixed Percentage Investment",
+      "Foreign Portfolio Investment",
+      "Financial Product Index",
+      "Foreign Public Investment"
+    ],
+    "correct": 1,
+    "explanation": "FPI (Foreign Portfolio Investment) is investment in securities (shares, bonds) without management control. Earlier called FII."
+  },
+  {
+    "prompt": "ECB in external sector stands for?",
+    "answers": [
+      "European Central Bank",
+      "External Commercial Borrowing",
+      "External Credit Bureau",
+      "Export Credit Bank"
+    ],
+    "correct": 1,
+    "explanation": "ECB is loan availed by Indian entities from non-resident lenders. Regulated by RBI. Used for capital expenditure, etc."
+  },
+  {
+    "prompt": "AD Category I banks can?",
+    "answers": [
+      "Only take deposits",
+      "Deal in foreign exchange",
+      "Not deal in forex",
+      "Only lend"
+    ],
+    "correct": 1,
+    "explanation": "AD Category I banks (commercial banks) can undertake all forex transactions. AD Cat II are co-op banks, etc. with limited permission."
+  },
+  {
+    "prompt": "Liberalized Remittance Scheme (LRS) allows resident individuals to remit up to?",
+    "answers": [
+      "USD 50,000",
+      "USD 75,000",
+      "USD 250,000",
+      "USD 1 million"
+    ],
+    "correct": 2,
+    "explanation": "LRS allows resident individuals to remit USD 250,000 per financial year for permitted current and capital account transactions."
+  },
+  {
+    "prompt": "FEMA replaced?",
+    "answers": [
+      "RBI Act",
+      "FERA (Foreign Exchange Regulation Act)",
+      "Companies Act",
+      "Banking Regulation Act"
+    ],
+    "correct": 1,
+    "explanation": "FEMA, 1999 replaced FERA, 1973. FEMA is more liberal - management-based rather than criminal prosecution focused."
+  },
+  {
+    "prompt": "RBI's Financial Inclusion Index measures?",
+    "answers": [
+      "Only branch count",
+      "Access, usage, quality across dimensions",
+      "Only deposits",
+      "Only loans"
+    ],
+    "correct": 1,
+    "explanation": "RBI Financial Inclusion Index (FI-Index) is based on multiple dimensions - access, usage, quality. Base year 2021, annual publication."
+  },
+  {
+    "prompt": "Pradhan Mantri Suraksha Bima Yojana provides?",
+    "answers": [
+      "Life insurance",
+      "Accident insurance Rs 2 lakh for Rs 12 per year",
+      "Health insurance",
+      "Pension"
+    ],
+    "correct": 1,
+    "explanation": "PMSBY offers accidental death/disability cover of Rs 2 lakh for annual premium of Rs 12. Age 18-70 years."
+  },
+  {
+    "prompt": "Pradhan Mantri Jeevan Jyoti Bima Yojana provides?",
+    "answers": [
+      "Accident cover",
+      "Life cover Rs 2 lakh for Rs 330 per year",
+      "Health cover",
+      "Pension"
+    ],
+    "correct": 1,
+    "explanation": "PMJJBY offers life cover of Rs 2 lakh for annual premium of Rs 330. Age 18-50 years. Linked to bank account."
+  },
+  {
+    "prompt": "Atal Pension Yojana provides?",
+    "answers": [
+      "Life insurance",
+      "Guaranteed pension from 60 years",
+      "Accident cover",
+      "Health insurance"
+    ],
+    "correct": 1,
+    "explanation": "APY provides fixed pension from 60 years (Rs 1000-5000 per month). Government co-contribution for eligible subscribers."
+  },
+  {
+    "prompt": "Stand-Up India scheme provides bank loans for?",
+    "answers": [
+      "All entrepreneurs",
+      "SC/ST and women entrepreneurs - Rs 10 lakh to 1 crore",
+      "Only women",
+      "Only SC/ST"
+    ],
+    "correct": 1,
+    "explanation": "Stand-Up India facilitates bank loans between Rs 10 lakh and Rs 1 crore for at least one SC/ST and one woman borrower per branch."
+  },
+  {
+    "prompt": "Pradhan Mantri Employment Generation Programme is implemented by?",
+    "answers": [
+      "RBI",
+      "KVIC (Khadi and Village Industries Commission)",
+      "NABARD",
+      "SIDBI"
+    ],
+    "correct": 1,
+    "explanation": "PMEGP is implemented by KVIC for setting up micro-enterprises. Margin money subsidy and bank credit component."
+  },
+  {
+    "prompt": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE) provides?",
+    "answers": [
+      "Direct loans",
+      "Collateral-free loan guarantee to banks",
+      "Only to large enterprises",
+      "Export credit"
+    ],
+    "correct": 1,
+    "explanation": "CGTMSE provides guarantee to banks for collateral-free loans to micro and small enterprises. Reduces risk for banks."
+  },
+  {
+    "prompt": "MUDRA loan is disbursed through?",
+    "answers": [
+      "RBI directly",
+      "Banks, NBFCs, MFIs",
+      "Only RRBs",
+      "Only cooperative banks"
+    ],
+    "correct": 1,
+    "explanation": "MUDRA loans are disbursed by banks, NBFCs, and MFIs. MUDRA provides refinance and does not lend directly."
+  },
+  {
+    "prompt": "Kishore category under Mudra covers loans from?",
+    "answers": [
+      "Up to Rs 50,000",
+      "Rs 50,001 to Rs 5 lakh",
+      "Rs 5 lakh to Rs 10 lakh",
+      "Above Rs 10 lakh"
+    ],
+    "correct": 1,
+    "explanation": "Mudra: Shishu up to Rs 50,000; Kishore Rs 50,001 to 5 lakh; Tarun Rs 5 lakh to 10 lakh."
+  },
+  {
+    "prompt": "Pradhan Mantri Jan Dhan Yojana offers life cover of Rs 30,000 for accounts opened?",
+    "answers": [
+      "All accounts",
+      "Accounts opened before Aug 28, 2018",
+      "Only rural accounts",
+      "Only women"
+    ],
+    "correct": 1,
+    "explanation": "Life cover of Rs 30,000 under PMJDY was for accounts opened before August 28, 2018. RuPay accident cover Rs 1 lakh continues."
+  }
+]

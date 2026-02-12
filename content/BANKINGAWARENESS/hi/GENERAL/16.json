@@ -1,0 +1,266 @@
+﻿[
+  {
+    "prompt": "Scheduled Bank is one that is?",
+    "answers": [
+      "Listed on stock exchange",
+      "Included in Second Schedule of RBI Act",
+      "Has 100 branches",
+      "Is nationalized"
+    ],
+    "correct": 1,
+    "explanation": "Scheduled banks are included in the Second Schedule of RBI Act. They must have paid-up capital of Rs 5 lakh and satisfy RBI."
+  },
+  {
+    "prompt": "Non-Scheduled banks?",
+    "answers": [
+      "Are in Second Schedule",
+      "Are not in Second Schedule and do not enjoy same facilities",
+      "Are only RRBs",
+      "Are only cooperative"
+    ],
+    "correct": 1,
+    "explanation": "Non-scheduled banks are not in Second Schedule. They cannot borrow from RBI under LAF and have different reserve requirements."
+  },
+  {
+    "prompt": "Scheduled Commercial Banks include?",
+    "answers": [
+      "Only PSBs",
+      "PSBs, private banks, foreign banks",
+      "Only RRBs",
+      "Only cooperative banks"
+    ],
+    "correct": 1,
+    "explanation": "SCBs include public sector banks, private sector banks, foreign banks. RRBs and cooperative banks are separate categories."
+  },
+  {
+    "prompt": "RBI issues licenses for?",
+    "answers": [
+      "Insurance",
+      "Banking under BR Act",
+      "Mutual funds",
+      "Pension"
+    ],
+    "correct": 1,
+    "explanation": "RBI grants license for banking business under Section 22 of Banking Regulation Act, 1949."
+  },
+  {
+    "prompt": "Branch Authorization - banks can open branches?",
+    "answers": [
+      "Only with prior RBI permission each time",
+      "Without prior permission in most areas",
+      "Only in metros",
+      "Only in rural areas"
+    ],
+    "correct": 1,
+    "explanation": "RBI has granted general permission to banks for opening branches in Tier 2 to Tier 6 centers."
+  },
+  {
+    "prompt": "Tier 1 center for branch authorization includes?",
+    "answers": [
+      "Rural areas",
+      "Centers with population 1 lakh and above",
+      "Only state capitals",
+      "Only Delhi and Mumbai"
+    ],
+    "correct": 1,
+    "explanation": "Tier 1: centers with population 100000 and above. RBI has different rules for each tier."
+  },
+  {
+    "prompt": "RBI Banking Ombudsman is appointed for?",
+    "answers": [
+      "1 year",
+      "2 years",
+      "3 years",
+      "5 years"
+    ],
+    "correct": 2,
+    "explanation": "Banking Ombudsman is appointed for 3 years. Can be reappointed."
+  },
+  {
+    "prompt": "Central KYC Registry CERSAI maintains?",
+    "answers": [
+      "Only NPAs",
+      "Centralized KYC records to prevent duplicate KYC",
+      "Only loan records",
+      "Only deposit records"
+    ],
+    "correct": 1,
+    "explanation": "CERSAI hosts CKYCR - centralized KYC to avoid repeat KYC when customer switches banks."
+  },
+  {
+    "prompt": "Aadhaar is mandatory for?",
+    "answers": [
+      "All bank accounts",
+      "Receiving government benefits and subsidies",
+      "Only loans",
+      "Only FDs"
+    ],
+    "correct": 1,
+    "explanation": "Aadhaar is mandatory for DBT and subsidies. For general bank accounts, other KYC documents can be used."
+  },
+  {
+    "prompt": "PAN is mandatory for?",
+    "answers": [
+      "All transactions",
+      "Cash deposits above Rs 50000 and high-value transactions",
+      "Only FDs",
+      "Only loans"
+    ],
+    "correct": 1,
+    "explanation": "PAN mandatory for cash deposits above Rs 50000, fixed deposits above threshold, etc."
+  },
+  {
+    "prompt": "KYC for high risk customers is updated every?",
+    "answers": [
+      "10 years",
+      "8 years",
+      "2 years",
+      "5 years"
+    ],
+    "correct": 2,
+    "explanation": "KYC updation: Low risk every 10 years; Medium every 8 years; High risk every 2 years."
+  },
+  {
+    "prompt": "Simplified KYC or small accounts have balance limit of?",
+    "answers": [
+      "Rs 50000",
+      "Rs 1 lakh",
+      "Rs 2 lakh",
+      "Rs 5 lakh"
+    ],
+    "correct": 1,
+    "explanation": "Small accounts have annual aggregate balance limit of Rs 1 lakh. Transaction limit Rs 10000 per month."
+  },
+  {
+    "prompt": "PMLA requires reporting of cash transactions above?",
+    "answers": [
+      "Rs 10000",
+      "Rs 50000",
+      "Rs 1 lakh",
+      "Rs 5 lakh"
+    ],
+    "correct": 0,
+    "explanation": "Cash transactions of Rs 10 lakh and above must be reported to FIU-IND under PMLA."
+  },
+  {
+    "prompt": "Cash Transaction Report is filed with?",
+    "answers": [
+      "RBI",
+      "FIU-IND Financial Intelligence Unit",
+      "SEBI",
+      "CBI"
+    ],
+    "correct": 1,
+    "explanation": "Banks file CTR and other reports with FIU-IND for AML compliance."
+  },
+  {
+    "prompt": "Suspicious Transaction Report is?",
+    "answers": [
+      "Voluntary",
+      "Mandatory for identified suspicious activity",
+      "Only for NPAs",
+      "Only for large transactions"
+    ],
+    "correct": 1,
+    "explanation": "STR must be filed when transaction gives rise to suspicion of money laundering or terror financing."
+  },
+  {
+    "prompt": "FATF Grey List means?",
+    "answers": [
+      "Country fully compliant",
+      "Country under increased monitoring",
+      "Country blacklisted",
+      "Country not member"
+    ],
+    "correct": 1,
+    "explanation": "Grey List: jurisdiction under increased monitoring. India was on grey list earlier, removed."
+  },
+  {
+    "prompt": "India became member of FATF in?",
+    "answers": [
+      "1990",
+      "2000",
+      "2010",
+      "2020"
+    ],
+    "correct": 2,
+    "explanation": "India became a member of FATF in 2010."
+  },
+  {
+    "prompt": "Benami Transactions Act prohibits?",
+    "answers": [
+      "All property purchase",
+      "Property held in someone else name to hide beneficial owner",
+      "Only cash property",
+      "Only commercial property"
+    ],
+    "correct": 1,
+    "explanation": "Benami Transactions Act prohibits property held by one for benefit of another to hide identity."
+  },
+  {
+    "prompt": "FEMA is administered by?",
+    "answers": [
+      "SEBI",
+      "RBI",
+      "Ministry of Finance",
+      "IRDAI"
+    ],
+    "correct": 1,
+    "explanation": "RBI administers FEMA. Directorate of Enforcement implements FEMA."
+  },
+  {
+    "prompt": "NRE account can be opened by?",
+    "answers": [
+      "Resident Indian",
+      "Non-Resident Indian",
+      "Any person",
+      "Only PIO"
+    ],
+    "correct": 1,
+    "explanation": "NRE account is for NRIs. Deposits in foreign currency converted to rupees. Repatriable."
+  },
+  {
+    "prompt": "FCNR(B) allows deposit in?",
+    "answers": [
+      "Only rupees",
+      "Specified foreign currencies like USD EUR GBP",
+      "Only USD",
+      "Only Euro"
+    ],
+    "correct": 1,
+    "explanation": "FCNR(B) allows fixed deposits in USD, EUR, GBP, JPY etc. Repatriable."
+  },
+  {
+    "prompt": "NRO account is for?",
+    "answers": [
+      "Foreign income of NRI",
+      "NRI income earned in India like rent dividend",
+      "Only salary",
+      "Only business"
+    ],
+    "correct": 1,
+    "explanation": "NRO account holds NRI rupee income from India. Repatriation subject to limits."
+  },
+  {
+    "prompt": "Liberalized Remittance Scheme is for?",
+    "answers": [
+      "Corporates",
+      "Resident individuals",
+      "NRIs",
+      "Foreign nationals"
+    ],
+    "correct": 1,
+    "explanation": "LRS allows resident individuals to remit up to USD 250000 per financial year."
+  },
+  {
+    "prompt": "Capital account convertibility means?",
+    "answers": [
+      "Only current account free",
+      "Freedom to convert local currency for capital transactions",
+      "Only trade free",
+      "Fixed exchange rate"
+    ],
+    "correct": 1,
+    "explanation": "Full capital account convertibility would allow free movement of capital. India has partial convertibility."
+  }
+]

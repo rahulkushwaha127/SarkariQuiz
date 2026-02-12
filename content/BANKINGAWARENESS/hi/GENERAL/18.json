@@ -1,0 +1,277 @@
+﻿[
+  {
+    "prompt": "IMF's Special Drawing Right basket includes?",
+    "answers": [
+      "Only USD",
+      "USD, Euro, Yuan, Yen, Pound Sterling",
+      "Only Euro",
+      "USD and Euro only"
+    ],
+    "correct": 1,
+    "explanation": "SDR basket: US Dollar, Euro, Chinese Renminbi, Japanese Yen, British Pound Sterling. Weights reviewed every 5 years."
+  },
+  {
+    "prompt": "India's quota in IMF determines?",
+    "answers": [
+      "Nothing",
+      "Voting power and maximum borrowing",
+      "Only voting",
+      "Only SDR allocation"
+    ],
+    "correct": 1,
+    "explanation": "IMF quota determines member's subscription, voting power, and access to financing. India has increased quota over time."
+  },
+  {
+    "prompt": "World Bank Group includes?",
+    "answers": [
+      "Only IBRD",
+      "IBRD, IFC, IDA, MIGA, ICSID",
+      "Only IDA",
+      "Only IFC"
+    ],
+    "correct": 1,
+    "explanation": "World Bank Group: IBRD, IDA, IFC, MIGA, ICSID. IBRD and IDA provide loans; IFC private sector; MIGA guarantees; ICSID dispute settlement."
+  },
+  {
+    "prompt": "IDA stands for?",
+    "answers": [
+      "Indian Development Agency",
+      "International Development Association",
+      "International Development Bank",
+      "Indian Development Association"
+    ],
+    "correct": 1,
+    "explanation": "IDA provides concessional loans and grants to poorest countries. Soft loan arm of World Bank."
+  },
+  {
+    "prompt": "IFC provides?",
+    "answers": [
+      "Government loans",
+      "Private sector investment - equity and debt",
+      "Only grants",
+      "Only technical assistance"
+    ],
+    "correct": 1,
+    "explanation": "IFC (International Finance Corporation) invests in private sector projects in developing countries."
+  },
+  {
+    "prompt": "Asian Development Bank was established in?",
+    "answers": [
+      "1960",
+      "1966",
+      "1970",
+      "1980"
+    ],
+    "correct": 1,
+    "explanation": "ADB was established in 1966. Headquarters in Manila. Japan and USA are largest shareholders."
+  },
+  {
+    "prompt": "New Development Bank headquarters is in?",
+    "answers": [
+      "Mumbai",
+      "Beijing",
+      "Shanghai",
+      "New Delhi"
+    ],
+    "correct": 2,
+    "explanation": "NDB (BRICS Bank) headquarters is in Shanghai, China. India has a regional office in Gujarat."
+  },
+  {
+    "prompt": "AIIB was established in?",
+    "answers": [
+      "2012",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "correct": 2,
+    "explanation": "AIIB (Asian Infrastructure Investment Bank) was established in 2015. China is largest shareholder; India is second largest."
+  },
+  {
+    "prompt": "India is largest recipient of?",
+    "answers": [
+      "IMF loans",
+      "World Bank (IBRD+IDA) lending",
+      "ADB loans",
+      "AIIB loans"
+    ],
+    "correct": 1,
+    "explanation": "India has been among the largest borrowers from World Bank. India also borrows from ADB, AIIB."
+  },
+  {
+    "prompt": "BIS is headquartered in?",
+    "answers": [
+      "London",
+      "New York",
+      "Basel, Switzerland",
+      "Frankfurt"
+    ],
+    "correct": 2,
+    "explanation": "BIS (Bank for International Settlements) is in Basel, Switzerland. It is the bank for central banks."
+  },
+  {
+    "prompt": "Basel Committee has members from?",
+    "answers": [
+      "Only G7",
+      "Central banks and regulators from multiple countries",
+      "Only Europe",
+      "Only USA"
+    ],
+    "correct": 1,
+    "explanation": "Basel Committee has members from nearly 30 jurisdictions including India. It sets global banking standards."
+  },
+  {
+    "prompt": "Basel I focused mainly on?",
+    "answers": [
+      "Liquidity",
+      "Credit risk - minimum 8% capital",
+      "Operational risk",
+      "Market risk"
+    ],
+    "correct": 1,
+    "explanation": "Basel I (1988) introduced minimum 8% capital for credit risk. Simple risk weights."
+  },
+  {
+    "prompt": "Basel II added?",
+    "answers": [
+      "Only credit risk",
+      "Operational risk, market risk, three pillars",
+      "Only Pillar 1",
+      "Only disclosure"
+    ],
+    "correct": 1,
+    "explanation": "Basel II added operational risk, refined credit risk (internal models), and introduced three pillars including disclosure."
+  },
+  {
+    "prompt": "Basel III was developed after?",
+    "answers": [
+      "Asian crisis 1997",
+      "Global Financial Crisis 2008",
+      "Euro crisis 2012",
+      "Dot com bubble 2000"
+    ],
+    "correct": 1,
+    "explanation": "Basel III was developed post-2008 crisis to strengthen bank capital, liquidity, and leverage."
+  },
+  {
+    "prompt": "LCR requires banks to hold HQLA for?",
+    "answers": [
+      "7 days",
+      "30 days net cash outflows",
+      "90 days",
+      "1 year"
+    ],
+    "correct": 1,
+    "explanation": "LCR = High Quality Liquid Assets / Net cash outflows over 30 days. Must be at least 100%."
+  },
+  {
+    "prompt": "High Quality Liquid Assets include?",
+    "answers": [
+      "Only equity",
+      "Cash, G-Secs, certain sovereign bonds",
+      "Corporate bonds",
+      "Real estate"
+    ],
+    "correct": 1,
+    "explanation": "HQLA: Level 1 (cash, G-Secs - 100% value), Level 2A (sovereign, certain bonds - 85%), Level 2B (limited - 50%)."
+  },
+  {
+    "prompt": "NSFR compares?",
+    "answers": [
+      "Assets to liabilities",
+      "Available stable funding to required stable funding",
+      "Only deposits",
+      "Only loans"
+    ],
+    "correct": 1,
+    "explanation": "NSFR = Available Stable Funding / Required Stable Funding. Must be at least 100%. Ensures long-term stability."
+  },
+  {
+    "prompt": "G-SIFI stands for?",
+    "answers": [
+      "Global Systemically Important Financial Institution",
+      "Government System for International Finance",
+      "General System for Investment",
+      "Global Securities and Insurance Fund"
+    ],
+    "correct": 0,
+    "explanation": "G-SIFIs are banks whose failure could impact global financial system. They face higher capital requirements."
+  },
+  {
+    "prompt": "FATF recommendations are?",
+    "answers": [
+      "Binding law",
+      "Soft law - countries implement voluntarily",
+      "Only for banks",
+      "Only for AML"
+    ],
+    "correct": 1,
+    "explanation": "FATF recommendations are international standards. Countries implement through domestic laws. Grey/black list has reputational impact."
+  },
+  {
+    "prompt": "Financial Action Task Force was established in?",
+    "answers": [
+      "1980",
+      "1989",
+      "1995",
+      "2000"
+    ],
+    "correct": 1,
+    "explanation": "FATF was established in 1989 by G7 to combat money laundering. Now covers terror financing, proliferation financing."
+  },
+  {
+    "prompt": "Basel IV refers to?",
+    "answers": [
+      "New separate accord",
+      "Finalization of Basel III - revised standards",
+      "Basel I update",
+      "Only market risk"
+    ],
+    "correct": 1,
+    "explanation": "Basel IV is not official name. It refers to finalization of Basel III (final reforms) - revised risk-weighted assets, output floor, etc."
+  },
+  {
+    "prompt": "Output floor in Basel ensures?",
+    "answers": [
+      "Unlimited use of internal models",
+      "Banks using internal models cannot have capital less than 72.5% of standardized approach",
+      "No internal models",
+      "Only standard approach"
+    ],
+    "correct": 1,
+    "explanation": "Output floor limits benefit from internal models. Capital cannot be lower than 72.5% of what standardized approach would require."
+  },
+  {
+    "prompt": "India has implemented Basel III?",
+    "answers": [
+      "No",
+      "Yes - fully implemented",
+      "Partially",
+      "Only for PSBs"
+    ],
+    "correct": 1,
+    "explanation": "India has implemented Basel III. RBI issued guidelines and banks have met the requirements. Basel III reforms (output floor) being phased."
+  },
+  {
+    "prompt": "Prompt Corrective Action (PCA) restricts?",
+    "answers": [
+      "Nothing",
+      "Banks - dividend, branch expansion, lending based on breaches",
+      "Only NPAs",
+      "Only capital"
+    ],
+    "correct": 1,
+    "explanation": "PCA framework: when banks breach capital, NPA, profitability norms - restrictions on dividend, branch expansion, lending, etc."
+  },
+  {
+    "prompt": "RBI supervises banks through?",
+    "answers": [
+      "Only off-site",
+      "On-site inspection and off-site monitoring",
+      "Only annual report",
+      "Only CRILC"
+    ],
+    "correct": 1,
+    "explanation": "RBI uses on-site inspection (annual financial inspection) and off-site surveillance (returns, CRILC, etc.) for supervision."
+  }
+]

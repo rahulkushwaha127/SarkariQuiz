@@ -1,0 +1,277 @@
+﻿[
+  {
+    "prompt": "FINO stands for?",
+    "answers": [
+      "Financial Inclusion Network and Operations",
+      "Financial Investment and Network",
+      "Federal Insurance Network",
+      "Foreign Investment Network"
+    ],
+    "correct": 0,
+    "explanation": "FINO is a technology company that provides BC services, biometric solutions for financial inclusion."
+  },
+  {
+    "prompt": "BC model was formally allowed by RBI in?",
+    "answers": [
+      "2003",
+      "2006",
+      "2010",
+      "2014"
+    ],
+    "correct": 1,
+    "explanation": "RBI permitted banks to use BCs (Business Correspondents) in 2006 to extend banking in unbanked areas."
+  },
+  {
+    "prompt": "White Label BC can work with?",
+    "answers": [
+      "Only one bank",
+      "Multiple banks",
+      "Only RRBs",
+      "Only cooperative banks"
+    ],
+    "correct": 1,
+    "explanation": "White Label BC can serve customers of multiple banks, unlike traditional BC tied to one bank."
+  },
+  {
+    "prompt": "Bank Mitra is another name for?",
+    "answers": [
+      "Bank manager",
+      "Business Correspondent or CSP",
+      "RBI official",
+      "Government employee"
+    ],
+    "correct": 1,
+    "explanation": "Bank Mitra (Friend of Bank) is a term for Business Correspondent or Customer Service Point (CSP) providing last-mile banking."
+  },
+  {
+    "prompt": "No-Frills account was predecessor of?",
+    "answers": [
+      "Current account",
+      "Basic Savings Bank Deposit account",
+      "Fixed deposit",
+      "NRE account"
+    ],
+    "correct": 1,
+    "explanation": "No-Frills account was renamed Basic Savings Bank Deposit (BSBD) account. Zero balance, minimal charges."
+  },
+  {
+    "prompt": "PMJDY accounts can be opened with?",
+    "answers": [
+      "Full KYC only",
+      "Zero balance, simplified KYC",
+      "Minimum Rs 1000",
+      "Aadhaar only not sufficient"
+    ],
+    "correct": 1,
+    "explanation": "PMJDY accounts can be opened with zero balance. Simplified KYC (Aadhaar, etc.) is acceptable."
+  },
+  {
+    "prompt": "Overdraft facility under PMJDY is available to?",
+    "answers": [
+      "All account holders",
+      "One account per household after 6 months satisfactory operation",
+      "Only women",
+      "Only senior citizens"
+    ],
+    "correct": 1,
+    "explanation": "OD up to Rs 5,000 to one account per household, preferably lady of the house, after 6 months of satisfactory operation."
+  },
+  {
+    "prompt": "Pension in India is regulated by?",
+    "answers": [
+      "RBI",
+      "PFRDA",
+      "SEBI",
+      "IRDAI"
+    ],
+    "correct": 1,
+    "explanation": "PFRDA (Pension Fund Regulatory and Development Authority) regulates NPS and pension sector."
+  },
+  {
+    "prompt": "National Pension System (NPS) is?",
+    "answers": [
+      "Only for government employees",
+      "Voluntary, open to all citizens",
+      "Only for private sector",
+      "Only for senior citizens"
+    ],
+    "correct": 1,
+    "explanation": "NPS is now open to all Indian citizens (18-70 years). It was initially for government employees (2004), opened to all in 2009."
+  },
+  {
+    "prompt": "IRDAI regulates?",
+    "answers": [
+      "Banking",
+      "Insurance",
+      "Securities",
+      "Pension"
+    ],
+    "correct": 1,
+    "explanation": "IRDAI (Insurance Regulatory and Development Authority of India) regulates the insurance sector."
+  },
+  {
+    "prompt": "NBFC is regulated by?",
+    "answers": [
+      "SEBI",
+      "RBI",
+      "IRDAI",
+      "Ministry of Corporate Affairs"
+    ],
+    "correct": 1,
+    "explanation": "NBFCs (Non-Banking Financial Companies) are regulated by RBI under RBI Act, 1934."
+  },
+  {
+    "prompt": "NBFCs cannot accept?",
+    "answers": [
+      "Deposits without registration",
+      "Loans",
+      "Equity",
+      "Assets"
+    ],
+    "correct": 0,
+    "explanation": "NBFCs cannot accept deposits unless they have specific registration (e.g., NBFC-D). Most NBFCs are non-deposit taking."
+  },
+  {
+    "prompt": "Systemically Important NBFCs have asset size of?",
+    "answers": [
+      "Rs 100 crore",
+      "Rs 500 crore",
+      "Rs 1000 crore",
+      "Rs 5000 crore"
+    ],
+    "correct": 1,
+    "explanation": "NBFCs with asset size of Rs 500 crore and above are considered systemically important (NBFC-ND-SI)."
+  },
+  {
+    "prompt": "NBFC-MFI provides?",
+    "answers": [
+      "Large corporate loans",
+      "Small loans to low-income households",
+      "Only deposits",
+      "Only gold loans"
+    ],
+    "correct": 1,
+    "explanation": "NBFC-MFI (Microfinance Institution) provides small loans to low-income households. Regulated by RBI."
+  },
+  {
+    "prompt": "Gold loan NBFC can lend against?",
+    "answers": [
+      "Only property",
+      "Gold ornaments, jewelry",
+      "Only cash",
+      "Only shares"
+    ],
+    "correct": 1,
+    "explanation": "Gold loan NBFCs (e.g., Muthoot, Manappuram) provide loans against pledge of gold ornaments."
+  },
+  {
+    "prompt": "Housing Finance Companies are now regulated by?",
+    "answers": [
+      "NHB only",
+      "RBI (transferred from NHB)",
+      "IRDAI",
+      "SEBI"
+    ],
+    "correct": 1,
+    "explanation": "Regulation of HFCs was transferred from NHB to RBI in August 2019. NHB continues as refinancer."
+  },
+  {
+    "prompt": "NHB stands for?",
+    "answers": [
+      "National Housing Bank",
+      "National Health Board",
+      "National Housing Board",
+      "New Housing Bureau"
+    ],
+    "correct": 0,
+    "explanation": "National Housing Bank was set up in 1988. It is the apex institution for housing finance. Now under RBI regulation."
+  },
+  {
+    "prompt": "Payment Aggregators are regulated by?",
+    "answers": [
+      "SEBI",
+      "RBI",
+      "IRDAI",
+      "Ministry of Electronics"
+    ],
+    "correct": 1,
+    "explanation": "RBI regulates Payment Aggregators (entities that facilitate payment between merchant and customer). Guidelines issued in March 2020."
+  },
+  {
+    "prompt": "Factoring Regulation Act was passed in?",
+    "answers": [
+      "2008",
+      "2011",
+      "2015",
+      "2019"
+    ],
+    "correct": 1,
+    "explanation": "Factoring Regulation Act, 2011 provides for regulation of factoring business. Factoring is purchase of receivables."
+  },
+  {
+    "prompt": "ECGC provides guarantee for?",
+    "answers": [
+      "Domestic trade",
+      "Export credit",
+      "Import credit",
+      "Retail loans"
+    ],
+    "correct": 1,
+    "explanation": "ECGC (Export Credit Guarantee Corporation) provides export credit insurance to banks and exporters."
+  },
+  {
+    "prompt": "DICGC covers deposits in?",
+    "answers": [
+      "Only public sector banks",
+      "All commercial banks, RRBs, cooperative banks",
+      "Only private banks",
+      "Only small finance banks"
+    ],
+    "correct": 1,
+    "explanation": "DICGC insures deposits in commercial banks, RRBs, local area banks, and cooperative banks. Payment banks not covered similarly."
+  },
+  {
+    "prompt": "Trademark of DICGC is?",
+    "answers": [
+      "Deposit Insurance",
+      "Each depositor insured up to Rs 5 lakh per bank",
+      "Covers only savings",
+      "Only for senior citizens"
+    ],
+    "correct": 1,
+    "explanation": "DICGC insures each depositor up to Rs 5 lakh (principal + interest) per bank across all branches."
+  },
+  {
+    "prompt": "Banking Ombudsman Scheme covers?",
+    "answers": [
+      "Only public sector banks",
+      "All scheduled commercial banks, RRBs, cooperative banks",
+      "Only private banks",
+      "Only rural banks"
+    ],
+    "correct": 1,
+    "explanation": "Banking Ombudsman Scheme covers scheduled commercial banks, RRBs, and scheduled primary cooperative banks."
+  },
+  {
+    "prompt": "Integrated Ombudsman Scheme was launched in?",
+    "answers": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "correct": 2,
+    "explanation": "Integrated Ombudsman Scheme, 2021 unified the three ombudsman schemes (Banking, NBFC, Digital Payments) into one."
+  },
+  {
+    "prompt": "RBI Integrated Ombudsman covers?",
+    "answers": [
+      "Only banks",
+      "Banks, NBFCs, and digital payment system participants",
+      "Only NBFCs",
+      "Only payment banks"
+    ],
+    "correct": 1,
+    "explanation": "Integrated Ombudsman Scheme covers regulated entities: banks, NBFCs, and non-bank prepaid instrument issuers, etc."
+  }
+]
