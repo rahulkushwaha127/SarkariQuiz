@@ -1,0 +1,189 @@
+﻿[
+    {
+        "prompt":  "RBI\u0027s inflation target (CPI) is?",
+        "answers":  [
+                        "2%",
+                        "4% with plus minus 2% tolerance",
+                        "6%",
+                        "8%"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI has an inflation target of 4% with a tolerance band of 2% to 6%. This was set under the monetary policy framework."
+    },
+    {
+        "prompt":  "Inflation Indexed Bonds protect against?",
+        "answers":  [
+                        "Interest rate risk",
+                        "Inflation - principal/coupon adjusted",
+                        "Credit risk",
+                        "Liquidity risk"
+                    ],
+        "correct":  1,
+        "explanation":  "Inflation Indexed Bonds (e.g., Inflation Indexed National Savings Securities) adjust for inflation to protect real return."
+    },
+    {
+        "prompt":  "When RBI wants to reduce money supply in the economy, it would?",
+        "answers":  [
+                        "Increase Repo Rate",
+                        "Decrease Repo Rate",
+                        "Decrease CRR",
+                        "Increase government spending"
+                    ],
+        "correct":  0,
+        "explanation":  "Increasing Repo Rate makes borrowing from RBI costlier for banks, which then charge higher interest to customers, reducing credit and money supply."
+    },
+    {
+        "prompt":  "Core inflation excludes?",
+        "answers":  [
+                        "Food",
+                        "Food and fuel - volatile items",
+                        "Only fuel",
+                        "Nothing"
+                    ],
+        "correct":  1,
+        "explanation":  "Core inflation excludes food and fuel which are volatile. Gives underlying inflation trend."
+    },
+    {
+        "prompt":  "Headline inflation includes?",
+        "answers":  [
+                        "Only food",
+                        "All items in the index",
+                        "Only fuel",
+                        "Only services"
+                    ],
+        "correct":  1,
+        "explanation":  "Headline inflation is overall CPI/WPI including all items."
+    },
+    {
+        "prompt":  "GDP deflator measures?",
+        "answers":  [
+                        "Only CPI",
+                        "Implicit price change in GDP",
+                        "Only WPI",
+                        "Only export prices"
+                    ],
+        "correct":  1,
+        "explanation":  "GDP deflator = (Nominal GDP / Real GDP) x 100. Measures economy-wide price change."
+    },
+    {
+        "prompt":  "Base year for GDP calculation in India is?",
+        "answers":  [
+                        "2004-05",
+                        "2011-12",
+                        "2015-16",
+                        "2019-20"
+                    ],
+        "correct":  1,
+        "explanation":  "India uses 2011-12 as base year for GDP and related macroeconomic aggregates."
+    },
+    {
+        "prompt":  "Real GDP is?",
+        "answers":  [
+                        "At current prices",
+                        "At constant prices - inflation adjusted",
+                        "Nominal only",
+                        "Same as GNP"
+                    ],
+        "correct":  1,
+        "explanation":  "Real GDP is at constant prices - removes effect of inflation for comparison."
+    },
+    {
+        "prompt":  "Nominal GDP is?",
+        "answers":  [
+                        "At constant prices",
+                        "At current market prices",
+                        "Deflated",
+                        "Same as NDP"
+                    ],
+        "correct":  1,
+        "explanation":  "Nominal GDP values output at current prices. Includes inflation effect."
+    },
+    {
+        "prompt":  "Money supply M1 includes?",
+        "answers":  [
+                        "Only currency with public",
+                        "Currency + demand deposits + other deposits",
+                        "M1 + savings deposits",
+                        "All of the above"
+                    ],
+        "correct":  1,
+        "explanation":  "M1 = Currency with public + Demand deposits with banks + Other deposits with RBI. It is the most liquid measure of money supply."
+    },
+    {
+        "prompt":  "Fiscal deficit is the difference between?",
+        "answers":  [
+                        "Revenue and expenditure",
+                        "Government\u0027s total expenditure and total receipts (excluding borrowings)",
+                        "Import and export",
+                        "Savings and investment"
+                    ],
+        "correct":  1,
+        "explanation":  "Fiscal Deficit = Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts). It indicates total borrowings needed by government."
+    },
+    {
+        "prompt":  "Inflation is measured in India primarily by?",
+        "answers":  [
+                        "WPI only",
+                        "CPI only",
+                        "Both WPI and CPI",
+                        "GDP deflator only"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI uses CPI (Consumer Price Index) for inflation targeting. WPI (Wholesale Price Index) is also published. CPI is the key indicator for monetary policy."
+    },
+    {
+        "prompt":  "GDP stands for?",
+        "answers":  [
+                        "Gross Domestic Product",
+                        "General Domestic Product",
+                        "Gross Development Product",
+                        "General Development Product"
+                    ],
+        "correct":  0,
+        "explanation":  "GDP (Gross Domestic Product) is the total value of goods and services produced within a country in a specific period. It is a key indicator of economic growth."
+    },
+    {
+        "prompt":  "Balance of Payments (BoP) is?",
+        "answers":  [
+                        "Only trade balance",
+                        "A record of all economic transactions between a country and the rest of the world",
+                        "Only capital flows",
+                        "Only current account"
+                    ],
+        "correct":  1,
+        "explanation":  "BoP records all transactions - current account (trade, services, remittances) and capital account (FDI, FII, loans). It should ideally balance."
+    },
+    {
+        "prompt":  "Money supply M2 includes?",
+        "answers":  [
+                        "Only currency",
+                        "M1 + savings deposits with post office",
+                        "Only demand deposits",
+                        "Only government bonds"
+                    ],
+        "correct":  1,
+        "explanation":  "M2 = M1 + savings deposits with post office savings banks. M1 = currency + demand deposits + other deposits with RBI."
+    },
+    {
+        "prompt":  "Money supply M3 includes?",
+        "answers":  [
+                        "Only M1",
+                        "M2 + time deposits with banks",
+                        "Only currency",
+                        "Only gold"
+                    ],
+        "correct":  1,
+        "explanation":  "M3 = M2 + time deposits (fixed deposits, recurring deposits) with commercial banks. RBI uses M3 as a broad measure of money supply."
+    },
+    {
+        "prompt":  "Deflation is?",
+        "answers":  [
+                        "Rising prices",
+                        "General decrease in price level of goods and services",
+                        "Stable prices",
+                        "Only currency devaluation"
+                    ],
+        "correct":  1,
+        "explanation":  "Deflation is a general decline in prices (negative inflation). It can reduce consumer spending as people delay purchases expecting lower prices. It is the opposite of inflation."
+    }
+]

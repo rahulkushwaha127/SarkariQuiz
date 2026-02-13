@@ -149,6 +149,7 @@ class QuizPlayController extends Controller
             'questionNumber' => $number,
             'totalQuestions' => $total,
             'question' => $question,
+            'questionTranslations' => $question->getAllTranslations(),
             'selectedAnswerId' => $existing?->answer_id,
             'deadlineIso' => $deadline->toIso8601String(),
         ]);
@@ -252,6 +253,7 @@ class QuizPlayController extends Controller
             'questionNumber' => $number,
             'totalQuestions' => $total,
             'question' => $question,
+            'questionTranslations' => $question->getAllTranslations(),
             'selectedAnswerId' => $existing?->answer_id,
             'deadlineIso' => $deadline->toIso8601String(),
         ])->render();

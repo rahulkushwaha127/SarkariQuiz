@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "When was the Reserve Bank of India (RBI) established?",
+        "answers":  [
+                        "1934",
+                        "1935",
+                        "1949",
+                        "1950"
+                    ],
+        "correct":  1,
+        "explanation":  "The Reserve Bank of India was established on April 1, 1935, under the RBI Act, 1934, based on recommendations of the Hilton Young Commission."
+    },
+    {
+        "prompt":  "Which commission recommended the establishment of the Reserve Bank of India?",
+        "answers":  [
+                        "Raja Chelliah Committee",
+                        "Hilton Young Commission",
+                        "Narasimham Committee",
+                        "Nachiket Mor Committee"
+                    ],
+        "correct":  1,
+        "explanation":  "The Hilton Young Commission (also known as the Royal Commission on Indian Currency and Finance) recommended the establishment of RBI in 1926."
+    },
+    {
+        "prompt":  "When was the Reserve Bank of India nationalized?",
+        "answers":  [
+                        "1947",
+                        "1948",
+                        "1949",
+                        "1950"
+                    ],
+        "correct":  2,
+        "explanation":  "The RBI was nationalized on January 1, 1949, under the Reserve Bank of India (Transfer to Public Ownership) Act, 1948."
+    },
+    {
+        "prompt":  "Who was the first Governor of the Reserve Bank of India?",
+        "answers":  [
+                        "C.D. Deshmukh",
+                        "Sir Osborne Smith",
+                        "James Taylor",
+                        "John Mathai"
+                    ],
+        "correct":  1,
+        "explanation":  "Sir Osborne Smith was the first Governor of RBI when it commenced operations on April 1, 1935."
+    },
+    {
+        "prompt":  "The Reserve Bank of India Act was passed in which year?",
+        "answers":  [
+                        "1934",
+                        "1935",
+                        "1949",
+                        "1956"
+                    ],
+        "correct":  0,
+        "explanation":  "The Reserve Bank of India Act, 1934, provides the statutory basis for the functioning of RBI. The bank started operations in 1935."
+    },
+    {
+        "prompt":  "Which of the following is the central bank of India?",
+        "answers":  [
+                        "State Bank of India",
+                        "Reserve Bank of India",
+                        "Punjab National Bank",
+                        "Bank of Baroda"
+                    ],
+        "correct":  1,
+        "explanation":  "Reserve Bank of India is India\u0027s central bank, responsible for monetary policy, currency issuance, and regulation of the banking system."
+    },
+    {
+        "prompt":  "RBI serves as the banker to which of the following?",
+        "answers":  [
+                        "Only Central Government",
+                        "Only State Governments",
+                        "Both Central and State Governments",
+                        "Only Public Sector Banks"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI acts as banker to both the Central Government and State Governments, managing their accounts and handling public debt."
+    },
+    {
+        "prompt":  "Which function is NOT performed by the Reserve Bank of India?",
+        "answers":  [
+                        "Issuing currency notes",
+                        "Regulating commercial banks",
+                        "Accepting deposits from public",
+                        "Formulating monetary policy"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI does not accept deposits from the general public. It is a central bank that regulates the banking system; accepting public deposits is a function of commercial banks."
+    },
+    {
+        "prompt":  "The headquarters of the Reserve Bank of India is located in?",
+        "answers":  [
+                        "New Delhi",
+                        "Mumbai",
+                        "Kolkata",
+                        "Chennai"
+                    ],
+        "correct":  1,
+        "explanation":  "The central office of RBI is in Mumbai. It was originally in Kolkata and moved to Mumbai in 1937."
+    },
+    {
+        "prompt":  "RBI has how many regional offices?",
+        "answers":  [
+                        "4",
+                        "19",
+                        "25",
+                        "31"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI has 19 regional offices located in state capitals and major cities across India."
+    },
+    {
+        "prompt":  "Which of the following describes the role of RBI as \u0027lender of last resort\u0027?",
+        "answers":  [
+                        "Issuing currency",
+                        "Providing credit to banks in emergency",
+                        "Regulating foreign exchange",
+                        "Managing government debt"
+                    ],
+        "correct":  1,
+        "explanation":  "As lender of last resort, RBI provides funds to banks facing temporary liquidity shortages to maintain financial stability."
+    },
+    {
+        "prompt":  "The Reserve Bank of India was the central bank of Pakistan until?",
+        "answers":  [
+                        "1947",
+                        "June 1948",
+                        "1950",
+                        "Pakistan never used RBI"
+                    ],
+        "correct":  1,
+        "explanation":  "After partition in 1947, RBI served as the central bank of Pakistan until the State Bank of Pakistan commenced operations in June 1948."
+    },
+    {
+        "prompt":  "Which bank is known as the \u0027Banker\u0027s Bank\u0027 in India?",
+        "answers":  [
+                        "State Bank of India",
+                        "Punjab National Bank",
+                        "Reserve Bank of India",
+                        "HDFC Bank"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI is called the \u0027Banker\u0027s Bank\u0027 because commercial banks maintain accounts with RBI and it provides them liquidity support."
+    },
+    {
+        "prompt":  "Who appoints the Governor of the Reserve Bank of India?",
+        "answers":  [
+                        "President of India",
+                        "Prime Minister of India",
+                        "Central Government",
+                        "Parliament"
+                    ],
+        "correct":  2,
+        "explanation":  "The Governor of RBI is appointed by the Central Government (Cabinet) for a term of 3 years, which can be extended."
+    },
+    {
+        "prompt":  "The RBI Governor holds office for a term of how many years?",
+        "answers":  [
+                        "2 years",
+                        "3 years",
+                        "5 years",
+                        "6 years"
+                    ],
+        "correct":  1,
+        "explanation":  "The RBI Governor is appointed for a term of 3 years and is eligible for reappointment."
+    },
+    {
+        "prompt":  "Which city had the first office of RBI when it was established?",
+        "answers":  [
+                        "Mumbai",
+                        "Kolkata",
+                        "Delhi",
+                        "Chennai"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI commenced operations in Kolkata (then Calcutta) in 1935. The central office moved to Mumbai in 1937."
+    },
+    {
+        "prompt":  "The currency notes in India are issued by?",
+        "answers":  [
+                        "Ministry of Finance",
+                        "Reserve Bank of India",
+                        "State Bank of India",
+                        "Security Printing and Minting Corporation"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI has the sole right to issue currency notes in India under the RBI Act. One rupee notes are issued by the Ministry of Finance."
+    },
+    {
+        "prompt":  "The Monetary Policy Framework Agreement was signed in?",
+        "answers":  [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI and Government signed the Monetary Policy Framework in February 2015, making inflation targeting the primary objective."
+    },
+    {
+        "prompt":  "RBI publishes its Monetary Policy Report?",
+        "answers":  [
+                        "Monthly",
+                        "Quarterly",
+                        "Half-yearly",
+                        "With every MPC meeting"
+                    ],
+        "correct":  3,
+        "explanation":  "RBI publishes the Monetary Policy Report along with each bimonthly MPC meeting, detailing the inflation and growth outlook."
+    },
+    {
+        "prompt":  "Open Market Operations by RBI involve?",
+        "answers":  [
+                        "Buying or selling government securities",
+                        "Fixing interest rates",
+                        "Regulating banks",
+                        "Issuing currency"
+                    ],
+        "correct":  0,
+        "explanation":  "OMOs are buying or selling of G-Secs by RBI to inject or absorb durable liquidity in the banking system."
+    },
+    {
+        "prompt":  "RBI foreign exchange reserves are held in?",
+        "answers":  [
+                        "Only US dollars",
+                        "Multiple currencies and gold",
+                        "Only gold",
+                        "Only SDRs"
+                    ],
+        "correct":  1,
+        "explanation":  "India forex reserves include foreign currency assets (multiple currencies), gold, SDRs, and reserve position in IMF."
+    },
+    {
+        "prompt":  "Central Bank of India was established in?",
+        "answers":  [
+                        "1906",
+                        "1911",
+                        "1921",
+                        "1935"
+                    ],
+        "correct":  1,
+        "explanation":  "Central Bank of India was established in 1911. It was the first Indian commercial bank to be wholly owned and managed by Indians."
+    },
+    {
+        "prompt":  "First Governor of RBI to be Indian was?",
+        "answers":  [
+                        "C.D. Deshmukh",
+                        "B. Rama Rau",
+                        "H.V.R. Iengar",
+                        "L.K. Jha"
+                    ],
+        "correct":  0,
+        "explanation":  "C.D. Deshmukh was the first Indian Governor of RBI (1943-1949). He later became Finance Minister."
+    },
+    {
+        "prompt":  "RBI Integrated Ombudsman covers?",
+        "answers":  [
+                        "Only banks",
+                        "Banks, NBFCs, and digital payment system participants",
+                        "Only NBFCs",
+                        "Only payment banks"
+                    ],
+        "correct":  1,
+        "explanation":  "Integrated Ombudsman Scheme covers regulated entities: banks, NBFCs, and non-bank prepaid instrument issuers, etc."
+    },
+    {
+        "prompt":  "RBI Banking Ombudsman is appointed for?",
+        "answers":  [
+                        "1 year",
+                        "2 years",
+                        "3 years",
+                        "5 years"
+                    ],
+        "correct":  2,
+        "explanation":  "Banking Ombudsman is appointed for 3 years. Can be reappointed."
+    }
+]

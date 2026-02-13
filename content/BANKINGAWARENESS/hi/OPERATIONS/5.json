@@ -1,0 +1,11 @@
+﻿{
+    "prompt":  "A sub-standard asset is one which has remained NPA for?",
+    "answers":  [
+                    "Less than 12 months",
+                    "12 months or less",
+                    "More than 12 months",
+                    "More than 24 months"
+                ],
+    "correct":  1,
+    "explanation":  "Sub-standard: NPA for 12 months or less. Doubtful: NPA for more than 12 months. Loss: identified as uncollectible."
+}

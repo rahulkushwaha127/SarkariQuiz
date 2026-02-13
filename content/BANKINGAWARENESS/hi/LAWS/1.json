@@ -1,0 +1,244 @@
+﻿[
+    {
+        "prompt":  "The Banking Regulation Act was enacted in which year?",
+        "answers":  [
+                        "1934",
+                        "1947",
+                        "1949",
+                        "1956"
+                    ],
+        "correct":  2,
+        "explanation":  "The Banking Regulation Act, 1949, was originally called the Banking Companies Act, 1949. It regulates the banking sector in India."
+    },
+    {
+        "prompt":  "DICGC covers deposits in?",
+        "answers":  [
+                        "Only public sector banks",
+                        "All commercial banks, RRBs, cooperative banks",
+                        "Only private banks",
+                        "Only small finance banks"
+                    ],
+        "correct":  1,
+        "explanation":  "DICGC insures deposits in commercial banks, RRBs, local area banks, and cooperative banks. Payment banks not covered similarly."
+    },
+    {
+        "prompt":  "Trademark of DICGC is?",
+        "answers":  [
+                        "Deposit Insurance",
+                        "Each depositor insured up to Rs 5 lakh per bank",
+                        "Covers only savings",
+                        "Only for senior citizens"
+                    ],
+        "correct":  1,
+        "explanation":  "DICGC insures each depositor up to Rs 5 lakh (principal + interest) per bank across all branches."
+    },
+    {
+        "prompt":  "PMLA requires reporting of cash transactions above?",
+        "answers":  [
+                        "Rs 10000",
+                        "Rs 50000",
+                        "Rs 1 lakh",
+                        "Rs 5 lakh"
+                    ],
+        "correct":  0,
+        "explanation":  "Cash transactions of Rs 10 lakh and above must be reported to FIU-IND under PMLA."
+    },
+    {
+        "prompt":  "IBC gives priority to?",
+        "answers":  [
+                        "Shareholders",
+                        "Financial creditors",
+                        "Operational creditors",
+                        "Government"
+                    ],
+        "correct":  1,
+        "explanation":  "IBC ensures financial creditors get at least liquidation value."
+    },
+    {
+        "prompt":  "Liquidation under IBC when?",
+        "answers":  [
+                        "Always",
+                        "No resolution plan in 270 days or rejected",
+                        "Only for small firms",
+                        "Only voluntary"
+                    ],
+        "correct":  1,
+        "explanation":  "If no resolution plan approved, NCLT can order liquidation."
+    },
+    {
+        "prompt":  "Personal Guarantor can be resolved under IBC?",
+        "answers":  [
+                        "No",
+                        "Yes Part III of IBC",
+                        "Only for companies",
+                        "Only for MSME"
+                    ],
+        "correct":  1,
+        "explanation":  "IBC was amended to include personal guarantors. Part III for individuals."
+    },
+    {
+        "prompt":  "Financial Resolution and Deposit Insurance FRDI Bill was?",
+        "answers":  [
+                        "Passed",
+                        "Withdrawn - bail-in clause concerns",
+                        "Enacted in 2020",
+                        "Only for banks"
+                    ],
+        "correct":  1,
+        "explanation":  "FRDI Bill was withdrawn in 2018. Bail-in clause that could use depositor money caused concern."
+    },
+    {
+        "prompt":  "Negotiable Instruments include?",
+        "answers":  [
+                        "Only cheques",
+                        "Promissory notes bills of exchange cheques",
+                        "Only demand drafts",
+                        "Only bonds"
+                    ],
+        "correct":  1,
+        "explanation":  "Negotiable Instruments Act 1881 governs promissory notes, bills of exchange, and cheques."
+    },
+    {
+        "prompt":  "The Negotiable Instruments Act was enacted in?",
+        "answers":  [
+                        "1881",
+                        "1949",
+                        "1934",
+                        "1956"
+                    ],
+        "correct":  0,
+        "explanation":  "The Negotiable Instruments Act, 1881, governs promissory notes, bills of exchange, and cheques in India."
+    },
+    {
+        "prompt":  "DICGC provides deposit insurance. What is the current coverage limit per depositor?",
+        "answers":  [
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh",
+                        "Rs 10 lakh"
+                    ],
+        "correct":  2,
+        "explanation":  "DICGC insures deposits up to Rs 5 lakh per depositor per bank (including principal and interest). This was increased from Rs 1 lakh in 2020."
+    },
+    {
+        "prompt":  "DICGC stands for?",
+        "answers":  [
+                        "Deposit Insurance and Credit Guarantee Corporation",
+                        "Deposit and Credit Guarantee Corporation",
+                        "Deposit Insurance and Credit Guarantee Council",
+                        "Deposit Insurance Credit Guarantee Corporation"
+                    ],
+        "correct":  0,
+        "explanation":  "DICGC is a subsidiary of RBI that provides deposit insurance. It was established in 1978 by merging DIC and CGCI."
+    },
+    {
+        "prompt":  "The deposit insurance limit was increased to Rs 5 lakh in?",
+        "answers":  [
+                        "2019",
+                        "February 2020",
+                        "2021",
+                        "2022"
+                    ],
+        "correct":  1,
+        "explanation":  "The DICGC deposit insurance limit was increased from Rs 1 lakh to Rs 5 lakh per depositor, effective February 4, 2020 (Union Budget 2020-21)."
+    },
+    {
+        "prompt":  "The Banking Regulation Act was originally called?",
+        "answers":  [
+                        "RBI Act",
+                        "Banking Companies Act",
+                        "Companies Act",
+                        "Financial Regulation Act"
+                    ],
+        "correct":  1,
+        "explanation":  "The Banking Regulation Act, 1949 was originally enacted as the Banking Companies Act, 1949. It was amended and renamed in 1965."
+    },
+    {
+        "prompt":  "SARFAESI Act stands for?",
+        "answers":  [
+                        "Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act",
+                        "Securities and Recovery of Financial Assets Act",
+                        "Security and Reconstruction of Financial Assets Act",
+                        "Securitization and Recovery of Financial Assets Act"
+                    ],
+        "correct":  0,
+        "explanation":  "SARFAESI Act, 2002 allows banks and financial institutions to recover NPAs without court intervention by taking possession of secured assets."
+    },
+    {
+        "prompt":  "SARFAESI Act was enacted in?",
+        "answers":  [
+                        "2000",
+                        "2002",
+                        "2004",
+                        "2006"
+                    ],
+        "correct":  1,
+        "explanation":  "The Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act was passed in 2002."
+    },
+    {
+        "prompt":  "Insolvency and Bankruptcy Code (IBC) was enacted in?",
+        "answers":  [
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017"
+                    ],
+        "correct":  2,
+        "explanation":  "The Insolvency and Bankruptcy Code, 2016 (IBC) provides a unified framework for resolving insolvency and bankruptcy in India."
+    },
+    {
+        "prompt":  "IBBI stands for?",
+        "answers":  [
+                        "Indian Bankruptcy and Bankruptcy Institute",
+                        "Insolvency and Bankruptcy Board of India",
+                        "Indian Board of Bankruptcy and Insolvency",
+                        "Institute of Bankruptcy and Bankruptcy India"
+                    ],
+        "correct":  1,
+        "explanation":  "IBBI (Insolvency and Bankruptcy Board of India) was established in 2016 under the IBC to regulate insolvency professionals and processes."
+    },
+    {
+        "prompt":  "PMLA stands for?",
+        "answers":  [
+                        "Prevention of Money Laundering Act",
+                        "Prevention of Money Lending Act",
+                        "Protection of Money Laundering Act",
+                        "Prevention of Monetary Laundering Act"
+                    ],
+        "correct":  0,
+        "explanation":  "PMLA (Prevention of Money Laundering Act), 2002 is the primary law to prevent money laundering in India. It was amended in 2012."
+    },
+    {
+        "prompt":  "Resolution Professional (RP) under IBC is appointed by?",
+        "answers":  [
+                        "RBI",
+                        "Creditors committee (CoC)",
+                        "Government",
+                        "SEBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Insolvency Professional is appointed by the Committee of Creditors (CoC) to manage the corporate debtor during resolution process."
+    },
+    {
+        "prompt":  "Maximum time limit for corporate insolvency resolution under IBC is?",
+        "answers":  [
+                        "90 days",
+                        "180 days",
+                        "270 days",
+                        "365 days"
+                    ],
+        "correct":  2,
+        "explanation":  "IBC mandates completion of resolution process within 180 days, extendable by 90 days (total 270 days). Fast-track for certain cases: 90 days."
+    },
+    {
+        "prompt":  "SARFAESI Act allows banks to take possession of secured assets without?",
+        "answers":  [
+                        "Valuation",
+                        "Court intervention",
+                        "RBI approval",
+                        "Customer consent"
+                    ],
+        "correct":  1,
+        "explanation":  "SARFAESI enables banks to enforce security interest without court intervention. They can take possession, sell, or lease the secured asset."
+    }
+]

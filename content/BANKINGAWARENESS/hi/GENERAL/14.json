@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Contingency Fund of India is for?",
+        "answers":  [
+                        "Regular expenditure",
+                        "Urgent unforeseen expenditure",
+                        "States only",
+                        "RBI only"
+                    ],
+        "correct":  1,
+        "explanation":  "Contingency Fund meets urgent unforeseen expenditure. Parliament approves ex-post."
+    },
+    {
+        "prompt":  "Consolidated Fund of India receives?",
+        "answers":  [
+                        "Only grants",
+                        "All govt receipts - taxes, loans",
+                        "Only states",
+                        "Only RBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Consolidated Fund: all revenues, loans. All govt expenditure charged or voted from it."
+    },
+    {
+        "prompt":  "Public Account of India holds?",
+        "answers":  [
+                        "Tax revenue",
+                        "Provident fund, small savings, etc - held in trust",
+                        "Only disinvestment",
+                        "Only loans"
+                    ],
+        "correct":  1,
+        "explanation":  "Public Account: funds held in trust - PF, small savings. Not part of Consolidated Fund."
+    },
+    {
+        "prompt":  "Basis points in interest rate?",
+        "answers":  [
+                        "1 bp = 1 percent",
+                        "1 bp = 0.01 percent",
+                        "1 bp = 10 percent",
+                        "1 bp = 0.1 percent"
+                    ],
+        "correct":  1,
+        "explanation":  "100 basis points = 1 percent. 1 bp = 0.01 percent."
+    },
+    {
+        "prompt":  "Yield curve shows?",
+        "answers":  [
+                        "Stock prices",
+                        "Interest rates at different maturities",
+                        "Only short term",
+                        "Only long term"
+                    ],
+        "correct":  1,
+        "explanation":  "Yield curve plots bond yields against maturity. Normal: upward sloping."
+    },
+    {
+        "prompt":  "Inverted yield curve may signal?",
+        "answers":  [
+                        "Strong growth",
+                        "Possible recession - short term higher than long",
+                        "Low inflation",
+                        "High employment"
+                    ],
+        "correct":  1,
+        "explanation":  "Inverted yield curve (short rate above long) often precedes recession."
+    },
+    {
+        "prompt":  "Call money rate is?",
+        "answers":  [
+                        "RBI fixed",
+                        "Market determined overnight rate",
+                        "Only for retail",
+                        "Only for government"
+                    ],
+        "correct":  1,
+        "explanation":  "Call money rate is overnight inter-bank rate. Market determined, influenced by RBI liquidity."
+    },
+    {
+        "prompt":  "Treasury Bill is a?",
+        "answers":  [
+                        "Long term bond",
+                        "Short term zero coupon instrument",
+                        "State government bond",
+                        "Corporate bond"
+                    ],
+        "correct":  1,
+        "explanation":  "T-Bills are short-term (91, 182, 364 days) zero coupon instruments. Issued at discount."
+    },
+    {
+        "prompt":  "Commercial Paper is issued by?",
+        "answers":  [
+                        "Government",
+                        "Corporates",
+                        "RBI",
+                        "Banks only"
+                    ],
+        "correct":  1,
+        "explanation":  "Commercial Paper is issued by corporates for working capital. Unsecured."
+    },
+    {
+        "prompt":  "Certificate of Deposit maturity range is?",
+        "answers":  [
+                        "7 days to 1 year for banks",
+                        "1 to 5 years",
+                        "Only 91 days",
+                        "Only 364 days"
+                    ],
+        "correct":  0,
+        "explanation":  "CDs: Banks 7 days to 1 year. Financial institutions 1 to 3 years."
+    },
+    {
+        "prompt":  "Overnight rate in India is influenced by?",
+        "answers":  [
+                        "Only SEBI",
+                        "RBI liquidity operations",
+                        "Only government",
+                        "Only forex"
+                    ],
+        "correct":  1,
+        "explanation":  "Overnight rate (call/TOM) is influenced by RBI LAF, OMO, and system liquidity."
+    },
+    {
+        "prompt":  "RuPay card is an Indian domestic card scheme promoted by?",
+        "answers":  [
+                        "RBI",
+                        "SEBI",
+                        "NPCI",
+                        "Ministry of Finance"
+                    ],
+        "correct":  2,
+        "explanation":  "RuPay is India\u0027s domestic card payment network launched by NPCI in 2012. It is an alternative to Visa and Mastercard."
+    },
+    {
+        "prompt":  "Treasury Bills are issued by?",
+        "answers":  [
+                        "Commercial banks",
+                        "RBI on behalf of Government",
+                        "SEBI",
+                        "Stock exchanges"
+                    ],
+        "correct":  1,
+        "explanation":  "Treasury Bills (T-Bills) are short-term debt instruments issued by the Government of India through RBI. They have maturities of 91, 182, and 364 days."
+    },
+    {
+        "prompt":  "Primary market is where?",
+        "answers":  [
+                        "Existing securities are traded",
+                        "New securities are issued",
+                        "Only bonds are traded",
+                        "Only government securities are sold"
+                    ],
+        "correct":  1,
+        "explanation":  "Primary market is where new securities (IPO, FPO) are issued for the first time. Secondary market (stock exchange) is where existing securities are traded."
+    },
+    {
+        "prompt":  "Which agency investigates money laundering cases in India?",
+        "answers":  [
+                        "CBI",
+                        "ED (Enforcement Directorate)",
+                        "NIA",
+                        "IB"
+                    ],
+        "correct":  1,
+        "explanation":  "Enforcement Directorate (ED) is responsible for investigating and prosecuting money laundering cases under PMLA."
+    },
+    {
+        "prompt":  "Green Banking refers to?",
+        "answers":  [
+                        "Banks with green logo",
+                        "Environmentally responsible banking practices",
+                        "Rural banking",
+                        "Agricultural loans only"
+                    ],
+        "correct":  1,
+        "explanation":  "Green Banking promotes environmentally sustainable practices - financing green projects, paperless banking, energy efficiency, and ESG compliance."
+    },
+    {
+        "prompt":  "How many banks merged to form the current SBI structure in 2017?",
+        "answers":  [
+                        "3",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+        "correct":  2,
+        "explanation":  "In 2017, 5 associate banks (State Bank of Bikaner \u0026 Jaipur, Travancore, Patiala, Hyderabad, Mysore) and Bharatiya Mahila Bank merged with SBI."
+    },
+    {
+        "prompt":  "Local Area Banks were introduced in?",
+        "answers":  [
+                        "1990",
+                        "1996",
+                        "2000",
+                        "2005"
+                    ],
+        "correct":  1,
+        "explanation":  "Local Area Banks (LABs) were set up in 1996 to serve rural and semi-urban areas. They are private sector banks with a local focus."
+    },
+    {
+        "prompt":  "IDBI Bank was converted from a development financial institution to a bank in?",
+        "answers":  [
+                        "2000",
+                        "2002",
+                        "2004",
+                        "2006"
+                    ],
+        "correct":  2,
+        "explanation":  "IDBI (Industrial Development Bank of India) was converted into a commercial bank in 2004. Later it was acquired by LIC and merged with IDBI Bank."
+    },
+    {
+        "prompt":  "Which bank is the largest public sector bank in India by assets?",
+        "answers":  [
+                        "PNB",
+                        "Bank of Baroda",
+                        "State Bank of India",
+                        "Canara Bank"
+                    ],
+        "correct":  2,
+        "explanation":  "State Bank of India is the largest public sector bank in India by assets, deposits, and branch network."
+    },
+    {
+        "prompt":  "The term \u0027Bank Run\u0027 means?",
+        "answers":  [
+                        "Bank conducting a marathon",
+                        "Many depositors withdrawing money simultaneously due to fear",
+                        "Bank opening new branches",
+                        "Bank merger"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank run occurs when a large number of depositors withdraw funds simultaneously due to fear that the bank may become insolvent."
+    },
+    {
+        "prompt":  "What does \u0027Credit\u0027 mean in banking?",
+        "answers":  [
+                        "Money taken from account",
+                        "Money lent by bank",
+                        "Bank\u0027s profit",
+                        "Deposit amount"
+                    ],
+        "correct":  1,
+        "explanation":  "Credit means money lent by the bank. When bank gives loan, it \u0027credits\u0027 the loan amount. Debit means money taken out."
+    },
+    {
+        "prompt":  "What does \u0027Debit\u0027 mean in banking?",
+        "answers":  [
+                        "Money added to account",
+                        "Money withdrawn from account",
+                        "Interest earned",
+                        "Loan given"
+                    ],
+        "correct":  1,
+        "explanation":  "Debit means money taken out or withdrawn from an account. When you withdraw, your account is \u0027debited\u0027."
+    },
+    {
+        "prompt":  "MICR stands for?",
+        "answers":  [
+                        "Magnetic Ink Character Recognition",
+                        "Magnetic Ink Code Recognition",
+                        "Magnetic Identification Character Recognition",
+                        "Magnetic Ink Character Reading"
+                    ],
+        "correct":  0,
+        "explanation":  "MICR (Magnetic Ink Character Recognition) is used on cheques for faster processing. The MICR code identifies the bank and branch."
+    },
+    {
+        "prompt":  "IFSC code is used for?",
+        "answers":  [
+                        "Identifying bank branch for electronic transfers",
+                        "Cheque clearance",
+                        "Cash withdrawal",
+                        "Loan approval"
+                    ],
+        "correct":  0,
+        "explanation":  "IFSC (Indian Financial System Code) is an 11-character code that uniquely identifies a bank-branch for NEFT, RTGS, IMPS transfers."
+    }
+]

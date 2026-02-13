@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Bank rate when RBI raises it means?",
+        "answers":  [
+                        "Banks lend more",
+                        "Banks borrow more from RBI at higher cost",
+                        "No impact",
+                        "Only MSF affected"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank rate is the rate at which RBI lends long-term. Rise signals tight monetary stance."
+    },
+    {
+        "prompt":  "When RBI wants to inject liquidity it?",
+        "answers":  [
+                        "Sells G-Secs",
+                        "Buys G-Secs OMO purchase",
+                        "Raises CRR",
+                        "Raises Repo"
+                    ],
+        "correct":  1,
+        "explanation":  "OMO purchase injects liquidity. RBI buys G-Secs and pays money to banks."
+    },
+    {
+        "prompt":  "RBI Prudential Framework 2019 requires?",
+        "answers":  [
+                        "Delay in recognition",
+                        "Identification within 30 days resolution in 180 days",
+                        "Only for large accounts",
+                        "Only voluntary"
+                    ],
+        "correct":  1,
+        "explanation":  "Framework requires identification within 30 days and resolution plan within 180 days."
+    },
+    {
+        "prompt":  "RBI supervises banks through?",
+        "answers":  [
+                        "Only off-site",
+                        "On-site inspection and off-site monitoring",
+                        "Only annual report",
+                        "Only CRILC"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI uses on-site inspection (annual financial inspection) and off-site surveillance (returns, CRILC, etc.) for supervision."
+    },
+    {
+        "prompt":  "Which of the following is a tool of monetary policy used by RBI?",
+        "answers":  [
+                        "Income Tax",
+                        "GST",
+                        "Repo Rate",
+                        "Customs Duty"
+                    ],
+        "correct":  2,
+        "explanation":  "Repo Rate is a key monetary policy tool. When RBI raises repo rate, it becomes expensive for banks to borrow, thus reducing money supply."
+    },
+    {
+        "prompt":  "Which monetary policy committee decides the Repo rate in India?",
+        "answers":  [
+                        "MPC of SEBI",
+                        "MPC of RBI",
+                        "Finance Ministry",
+                        "Planning Commission"
+                    ],
+        "correct":  1,
+        "explanation":  "The Monetary Policy Committee (MPC) of RBI, constituted in 2016, decides the policy repo rate. It has 6 members - 3 from RBI and 3 external members."
+    },
+    {
+        "prompt":  "How many members does the Monetary Policy Committee (MPC) of RBI have?",
+        "answers":  [
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+        "correct":  2,
+        "explanation":  "The MPC has 6 members: RBI Governor (Chairperson), Deputy Governor (monetary policy), one RBI official, and 3 members appointed by Central Government."
+    },
+    {
+        "prompt":  "The Monetary Policy Committee (MPC) was established in which year?",
+        "answers":  [
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017"
+                    ],
+        "correct":  2,
+        "explanation":  "MPC was constituted in 2016 under the RBI Act (amended). The first MPC meeting was held in October 2016."
+    },
+    {
+        "prompt":  "RBI announces its bi-monthly monetary policy how many times in a year?",
+        "answers":  [
+                        "4",
+                        "6",
+                        "8",
+                        "12"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI\u0027s Monetary Policy Committee meets 6 times in a year (every two months) to decide on policy rates."
+    },
+    {
+        "prompt":  "Who regulates the monetary policy in India?",
+        "answers":  [
+                        "Ministry of Finance",
+                        "Reserve Bank of India",
+                        "SEBI",
+                        "Planning Commission"
+                    ],
+        "correct":  1,
+        "explanation":  "The Reserve Bank of India formulates and implements monetary policy in India, with the objective of maintaining price stability while supporting growth."
+    },
+    {
+        "prompt":  "Which denomination of currency note is issued by the Government of India?",
+        "answers":  [
+                        "Rs 10",
+                        "Rs 100",
+                        "Rs 500",
+                        "Rs 1"
+                    ],
+        "correct":  3,
+        "explanation":  "One rupee note and all coins are issued by the Ministry of Finance, Government of India. Notes of Rs 2 and above are issued by RBI."
+    },
+    {
+        "prompt":  "RBI\u0027s Financial Stability Report is published how frequently?",
+        "answers":  [
+                        "Monthly",
+                        "Quarterly",
+                        "Half-yearly",
+                        "Annually"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI publishes the Financial Stability Report (FSR) bi-annually (half-yearly), assessing the resilience of the financial system."
+    },
+    {
+        "prompt":  "The Reserve Bank of India comes under which Ministry?",
+        "answers":  [
+                        "Ministry of Finance",
+                        "Ministry of Corporate Affairs",
+                        "RBI is independent",
+                        "Ministry of Home Affairs"
+                    ],
+        "correct":  0,
+        "explanation":  "Though RBI has operational autonomy in monetary policy, it comes under the administrative control of the Ministry of Finance, Government of India."
+    },
+    {
+        "prompt":  "RBI has how many Deputy Governors?",
+        "answers":  [
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI has 4 Deputy Governors. They head various departments."
+    },
+    {
+        "prompt":  "RBI Board has maximum how many members?",
+        "answers":  [
+                        "10",
+                        "15",
+                        "20",
+                        "25"
+                    ],
+        "correct":  2,
+        "explanation":  "Central Board of RBI has up to 20 members: Governor, 4 Deputy Governors, 2 Finance Ministry officials, and directors."
+    },
+    {
+        "prompt":  "RBI Governor is appointed by?",
+        "answers":  [
+                        "President",
+                        "Prime Minister",
+                        "Central Government",
+                        "Parliament"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI Governor is appointed by Central Government on recommendation of Prime Minister."
+    },
+    {
+        "prompt":  "RBI issues currency notes of denomination?",
+        "answers":  [
+                        "Rs 1 only",
+                        "Rs 2 and above",
+                        "Rs 5 and above",
+                        "Rs 10 and above"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI issues notes of Rs 2, 5, 10, 20, 50, 100, 200, 500, 2000. Re 1 and coins by Government."
+    },
+    {
+        "prompt":  "RBI can refuse to exchange torn notes if?",
+        "answers":  [
+                        "Always exchanges",
+                        "Area with number and signature less than half",
+                        "Only if fake",
+                        "Never refuses"
+                    ],
+        "correct":  1,
+        "explanation":  "If area with number and signature is less than half, partial or no value may be given."
+    },
+    {
+        "prompt":  "RBI Annual Report is presented to?",
+        "answers":  [
+                        "Only public",
+                        "Central Government - laid in Parliament",
+                        "SEBI",
+                        "Only banks"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI Annual Report is submitted to Central Government and laid before Parliament."
+    },
+    {
+        "prompt":  "RBI Bulletin is published?",
+        "answers":  [
+                        "Daily",
+                        "Monthly",
+                        "Quarterly",
+                        "Annually"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI Bulletin is published monthly. Contains monetary and banking statistics."
+    },
+    {
+        "prompt":  "RBI regulates?",
+        "answers":  [
+                        "Only banks",
+                        "Banks, NBFCs, payment system",
+                        "Insurance",
+                        "Mutual funds"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI regulates commercial banks, cooperative banks, NBFCs, and payment and settlement systems."
+    },
+    {
+        "prompt":  "RBI can conduct inspection of banks under?",
+        "answers":  [
+                        "Companies Act",
+                        "Banking Regulation Act",
+                        "SEBI Act",
+                        "RBI Act"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI conducts inspection of banks under Section 35 of Banking Regulation Act, 1949."
+    },
+    {
+        "prompt":  "RBI can supersede bank board if?",
+        "answers":  [
+                        "Always",
+                        "In public interest - mismanagement, depositor interest",
+                        "Only for private banks",
+                        "Only with court order"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI can supersede board of banks (including cooperative) in interest of depositors, under BR Act."
+    },
+    {
+        "prompt":  "RBI approves acquisition of shares in banks above?",
+        "answers":  [
+                        "1 percent",
+                        "5 percent",
+                        "10 percent",
+                        "25 percent"
+                    ],
+        "correct":  1,
+        "explanation":  "Acquisition of 5 percent or more shares in a bank requires RBI approval. Banking Regulation Act."
+    },
+    {
+        "prompt":  "RBI mandates banks to have Board approved policy for?",
+        "answers":  [
+                        "Only loans",
+                        "ALM, risk management, business continuity",
+                        "Only deposits",
+                        "Only NPAs"
+                    ],
+        "correct":  1,
+        "explanation":  "Banks must have Board approved policies for ALM, risk management, KYC, business continuity, etc."
+    }
+]

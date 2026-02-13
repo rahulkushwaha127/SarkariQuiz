@@ -9,6 +9,7 @@
         'questionNumber' => $questionNumber,
         'totalQuestions' => $totalQuestions,
         'question' => $question,
+        'questionTranslations' => $questionTranslations ?? collect(),
         'selectedAnswerId' => $selectedAnswerId ?? null,
     ])
 </div>

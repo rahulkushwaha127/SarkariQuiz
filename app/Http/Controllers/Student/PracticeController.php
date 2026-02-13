@@ -195,6 +195,7 @@ class PracticeController extends Controller
             'questionNumber' => $number,
             'totalQuestions' => $total,
             'question' => $question,
+            'questionTranslations' => $question->getAllTranslations(),
             'selectedAnswerId' => $slot->answer_id,
         ]);
     }
@@ -378,6 +379,7 @@ class PracticeController extends Controller
             'questionNumber' => $number,
             'totalQuestions' => $total,
             'question' => $question,
+            'questionTranslations' => $question->getAllTranslations(),
             'selectedAnswerId' => $slot->answer_id,
         ])->render();
 

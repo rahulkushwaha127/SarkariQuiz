@@ -24,6 +24,7 @@ class ImportContentQuestions extends Command
 
     /** @var array<string, string> folder name => display name */
     private static array $subjectNameMap = [
+        'BANKINGAWARENESS' => 'Banking Awareness',
         'COMPUTERAWARENESS' => 'Computer Awareness',
         'CURRENTAFFAIRS' => 'Current Affairs',
         'ENVIRONMENT' => 'Environment & Ecology',
@@ -117,6 +118,10 @@ class ImportContentQuestions extends Command
             $subject = $this->getOrCreateSubject($subjectName, $dryRun);
             $topic = $topicName && $subject ? $this->getOrCreateTopic($subject, $topicName, $dryRun) : null;
 
+            $fileBasename = pathinfo($relativePath, PATHINFO_FILENAME);
+            $subjectSlug = $subject ? Slug::make($subjectName) : 'unknown';
+            $topicSlug = $topicName ? Slug::make($topicName) : '_';
+
             $count = 0;
             $skipped = 0;
             foreach ($decoded as $index => $item) {
@@ -124,8 +129,9 @@ class ImportContentQuestions extends Command
                     $skipped++;
                     continue;
                 }
+                $contentSourceKey = "{$subjectSlug}/{$topicSlug}/{$fileBasename}/{$index}";
                 if (! $dryRun && $subject) {
-                    $this->createQuestion($item, $subject, $topic?->id, $fileLanguage);
+                    $this->createQuestion($item, $subject, $topic?->id, $fileLanguage, $contentSourceKey);
                 }
                 $count++;
             }
@@ -273,7 +279,7 @@ class ImportContentQuestions extends Command
         };
     }
 
-    private function createQuestion(array $item, Subject $subject, ?int $topicId, string $language = 'en'): void
+    private function createQuestion(array $item, Subject $subject, ?int $topicId, string $language = 'en', ?string $contentSourceKey = null): void
     {
         $isNewFormat = isset($item['question']) && $item['question'] !== '' && is_array($item['answers'] ?? null)
             && isset($item['answers'][0]) && is_array($item['answers'][0]) && array_key_exists('is_correct', $item['answers'][0]);
@@ -302,6 +308,7 @@ class ImportContentQuestions extends Command
             'subject_id' => $subject->id,
             'topic_id' => $topicId,
             'language' => $language,
+            'content_source_key' => $contentSourceKey,
         ]);
 
         foreach ($answerRows as $i => $row) {

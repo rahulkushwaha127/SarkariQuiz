@@ -92,8 +92,9 @@ class QuestionsController extends Controller
     {
         $question->load(['answers' => fn ($q) => $q->orderBy('position')]);
         $question->load(['quizzes' => fn ($q) => $q->orderBy('title')]);
+        $questionTranslations = $question->getAllTranslations();
 
-        return view('admin.questions.show', compact('question'));
+        return view('admin.questions.show', compact('question', 'questionTranslations'));
     }
 
     public function topicsBySubject(Request $request)

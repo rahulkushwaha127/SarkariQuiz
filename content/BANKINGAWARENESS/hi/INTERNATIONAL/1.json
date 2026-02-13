@@ -1,0 +1,178 @@
+﻿[
+    {
+        "prompt":  "FATF Grey List means?",
+        "answers":  [
+                        "Country fully compliant",
+                        "Country under increased monitoring",
+                        "Country blacklisted",
+                        "Country not member"
+                    ],
+        "correct":  1,
+        "explanation":  "Grey List: jurisdiction under increased monitoring. India was on grey list earlier, removed."
+    },
+    {
+        "prompt":  "India became member of FATF in?",
+        "answers":  [
+                        "1990",
+                        "2000",
+                        "2010",
+                        "2020"
+                    ],
+        "correct":  2,
+        "explanation":  "India became a member of FATF in 2010."
+    },
+    {
+        "prompt":  "IMF\u0027s Special Drawing Right basket includes?",
+        "answers":  [
+                        "Only USD",
+                        "USD, Euro, Yuan, Yen, Pound Sterling",
+                        "Only Euro",
+                        "USD and Euro only"
+                    ],
+        "correct":  1,
+        "explanation":  "SDR basket: US Dollar, Euro, Chinese Renminbi, Japanese Yen, British Pound Sterling. Weights reviewed every 5 years."
+    },
+    {
+        "prompt":  "India\u0027s quota in IMF determines?",
+        "answers":  [
+                        "Nothing",
+                        "Voting power and maximum borrowing",
+                        "Only voting",
+                        "Only SDR allocation"
+                    ],
+        "correct":  1,
+        "explanation":  "IMF quota determines member\u0027s subscription, voting power, and access to financing. India has increased quota over time."
+    },
+    {
+        "prompt":  "World Bank Group includes?",
+        "answers":  [
+                        "Only IBRD",
+                        "IBRD, IFC, IDA, MIGA, ICSID",
+                        "Only IDA",
+                        "Only IFC"
+                    ],
+        "correct":  1,
+        "explanation":  "World Bank Group: IBRD, IDA, IFC, MIGA, ICSID. IBRD and IDA provide loans; IFC private sector; MIGA guarantees; ICSID dispute settlement."
+    },
+    {
+        "prompt":  "AIIB was established in?",
+        "answers":  [
+                        "2012",
+                        "2014",
+                        "2015",
+                        "2016"
+                    ],
+        "correct":  2,
+        "explanation":  "AIIB (Asian Infrastructure Investment Bank) was established in 2015. China is largest shareholder; India is second largest."
+    },
+    {
+        "prompt":  "BIS is headquartered in?",
+        "answers":  [
+                        "London",
+                        "New York",
+                        "Basel, Switzerland",
+                        "Frankfurt"
+                    ],
+        "correct":  2,
+        "explanation":  "BIS (Bank for International Settlements) is in Basel, Switzerland. It is the bank for central banks."
+    },
+    {
+        "prompt":  "FATF recommendations are?",
+        "answers":  [
+                        "Binding law",
+                        "Soft law - countries implement voluntarily",
+                        "Only for banks",
+                        "Only for AML"
+                    ],
+        "correct":  1,
+        "explanation":  "FATF recommendations are international standards. Countries implement through domestic laws. Grey/black list has reputational impact."
+    },
+    {
+        "prompt":  "IMF was established in?",
+        "answers":  [
+                        "1944",
+                        "1945",
+                        "1947",
+                        "1950"
+                    ],
+        "correct":  0,
+        "explanation":  "International Monetary Fund (IMF) was established in July 1944 at the Bretton Woods Conference. It started operations in December 1945."
+    },
+    {
+        "prompt":  "Where is the headquarters of IMF?",
+        "answers":  [
+                        "London",
+                        "New York",
+                        "Washington D.C.",
+                        "Geneva"
+                    ],
+        "correct":  2,
+        "explanation":  "IMF headquarters is in Washington D.C., USA. World Bank is also headquartered in Washington D.C."
+    },
+    {
+        "prompt":  "World Bank was established in?",
+        "answers":  [
+                        "1944",
+                        "1945",
+                        "1947",
+                        "1950"
+                    ],
+        "correct":  0,
+        "explanation":  "World Bank (International Bank for Reconstruction and Development) was established in 1944 at Bretton Woods, along with IMF."
+    },
+    {
+        "prompt":  "ADB stands for?",
+        "answers":  [
+                        "Asian Development Bank",
+                        "African Development Bank",
+                        "American Development Bank",
+                        "Australian Development Bank"
+                    ],
+        "correct":  0,
+        "explanation":  "Asian Development Bank (ADB) was established in 1966. Its headquarters is in Manila, Philippines. India is a founding member."
+    },
+    {
+        "prompt":  "AIIB stands for?",
+        "answers":  [
+                        "Asian Infrastructure Investment Bank",
+                        "American International Investment Bank",
+                        "Asian International Investment Board",
+                        "African Infrastructure Investment Bank"
+                    ],
+        "correct":  0,
+        "explanation":  "AIIB (Asian Infrastructure Investment Bank) was proposed by China and established in 2015. India is the second-largest shareholder."
+    },
+    {
+        "prompt":  "Where is the headquarters of AIIB?",
+        "answers":  [
+                        "Beijing",
+                        "Shanghai",
+                        "Singapore",
+                        "Mumbai"
+                    ],
+        "correct":  0,
+        "explanation":  "AIIB headquarters is in Beijing, China. India is a founding member and the second-largest shareholder after China."
+    },
+    {
+        "prompt":  "BIS stands for?",
+        "answers":  [
+                        "Bank of International Settlements",
+                        "Bank for International Settlements",
+                        "Board of International Securities",
+                        "Bank of Indian Settlements"
+                    ],
+        "correct":  1,
+        "explanation":  "BIS (Bank for International Settlements) is based in Basel, Switzerland. It is the \u0027central bank for central banks\u0027 and hosts the Basel Committee."
+    },
+    {
+        "prompt":  "FATF stands for?",
+        "answers":  [
+                        "Financial Action Task Force",
+                        "Financial Authority Task Force",
+                        "Financial Action and Tax Force",
+                        "Foreign Action Task Force"
+                    ],
+        "correct":  0,
+        "explanation":  "FATF (Financial Action Task Force) is an intergovernmental body that sets standards to combat money laundering and terrorist financing."
+    }
+]

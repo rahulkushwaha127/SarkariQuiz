@@ -17,6 +17,7 @@ class Question extends Model
         'subject_id',
         'topic_id',
         'language',
+        'content_source_key',
         'is_active',
     ];
 
@@ -45,5 +46,39 @@ class Question extends Model
     public function answers()
     {
         return $this->hasMany(Answer::class)->orderBy('position');
+    }
+
+    /**
+     * Get translation siblings (same content_source_key, different languages).
+     * Returns collection keyed by language code: ['en' => Question, 'hi' => Question, ...]
+     */
+    public function getTranslationSiblings(): \Illuminate\Support\Collection
+    {
+        if (! $this->content_source_key) {
+            return collect();
+        }
+
+        return self::query()
+            ->where('content_source_key', $this->content_source_key)
+            ->where('id', '!=', $this->id)
+            ->with('answers')
+            ->get()
+            ->keyBy('language');
+    }
+
+    /**
+     * Get all questions in this translation group (including self), keyed by language.
+     */
+    public function getAllTranslations(): \Illuminate\Support\Collection
+    {
+        if (! $this->content_source_key) {
+            return collect([$this->language => $this]);
+        }
+
+        return self::query()
+            ->where('content_source_key', $this->content_source_key)
+            ->with('answers')
+            ->get()
+            ->keyBy('language');
     }
 }

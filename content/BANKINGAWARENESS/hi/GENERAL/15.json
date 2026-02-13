@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "How many characters does an IFSC code have?",
+        "answers":  [
+                        "9",
+                        "10",
+                        "11",
+                        "12"
+                    ],
+        "correct":  2,
+        "explanation":  "IFSC is 11 characters: first 4 = bank code, 5th = 0 (reserved), last 6 = branch code. Example: SBIN0001234."
+    },
+    {
+        "prompt":  "Nomination facility in bank accounts is?",
+        "answers":  [
+                        "Mandatory",
+                        "Optional but recommended",
+                        "Only for FDs",
+                        "Not available"
+                    ],
+        "correct":  1,
+        "explanation":  "Nomination is optional but highly recommended. It simplifies transfer of account balance to nominee in case of account holder\u0027s death."
+    },
+    {
+        "prompt":  "Negative interest rate means?",
+        "answers":  [
+                        "Banks charge depositors for keeping money",
+                        "Zero interest",
+                        "Very low interest",
+                        "Interest on loan only"
+                    ],
+        "correct":  0,
+        "explanation":  "Negative interest rate means depositors effectively pay the bank to hold their money. It is used by some central banks to stimulate spending. RBI has not used it."
+    },
+    {
+        "prompt":  "Futures and options are traded on which exchange in India?",
+        "answers":  [
+                        "Only BSE",
+                        "NSE and BSE",
+                        "Only RBI",
+                        "Only SEBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Futures and options (F\u0026O) are traded on both NSE and BSE in India. NSE has a larger share of derivatives trading volume."
+    },
+    {
+        "prompt":  "The Foreign Exchange Market (Forex) deals with?",
+        "answers":  [
+                        "Only domestic currency",
+                        "Trading of foreign currencies",
+                        "Only gold",
+                        "Only commodities"
+                    ],
+        "correct":  1,
+        "explanation":  "Forex market is where currencies are traded. In India, RBI regulates foreign exchange under FEMA (Foreign Exchange Management Act), 1999."
+    },
+    {
+        "prompt":  "FEMA stands for?",
+        "answers":  [
+                        "Foreign Exchange Management Act",
+                        "Financial Exchange Management Act",
+                        "Foreign Economic Management Act",
+                        "Financial Economic Management Act"
+                    ],
+        "correct":  0,
+        "explanation":  "FEMA (Foreign Exchange Management Act), 1999 regulates foreign exchange transactions in India. It replaced FERA (Foreign Exchange Regulation Act), 1973."
+    },
+    {
+        "prompt":  "Financial Literacy refers to?",
+        "answers":  [
+                        "Only reading financial newspapers",
+                        "Understanding financial concepts to make informed decisions",
+                        "Only banking",
+                        "Only investing in stocks"
+                    ],
+        "correct":  1,
+        "explanation":  "Financial literacy is the ability to understand and use financial skills - budgeting, saving, investing, managing debt. RBI and banks run financial literacy programs."
+    },
+    {
+        "prompt":  "Banking Correspondents (BCs) are?",
+        "answers":  [
+                        "RBI officials",
+                        "Agent entities that provide banking services in remote areas",
+                        "Bank CEOs",
+                        "Government employees"
+                    ],
+        "correct":  1,
+        "explanation":  "Banking Correspondents are retail agents authorized by banks to provide basic banking services (deposits, withdrawals, remittances) in areas without branches."
+    },
+    {
+        "prompt":  "SHG stands for?",
+        "answers":  [
+                        "State Housing Group",
+                        "Self Help Group",
+                        "Small Housing Group",
+                        "Savings and Housing Group"
+                    ],
+        "correct":  1,
+        "explanation":  "Self Help Group (SHG) is a group of 10-20 people who pool savings and give small loans to members. NABARD promotes SHG-Bank linkage for rural credit."
+    },
+    {
+        "prompt":  "Microfinance primarily provides?",
+        "answers":  [
+                        "Large corporate loans",
+                        "Small loans to low-income individuals and micro-enterprises",
+                        "Government funding",
+                        "Foreign currency loans"
+                    ],
+        "correct":  1,
+        "explanation":  "Microfinance provides small loans, savings, and other financial services to low-income individuals and micro-enterprises who lack access to formal banking."
+    },
+    {
+        "prompt":  "GNP stands for?",
+        "answers":  [
+                        "Gross National Product",
+                        "General National Product",
+                        "Gross Net Product",
+                        "General Net Product"
+                    ],
+        "correct":  0,
+        "explanation":  "GNP (Gross National Product) = GDP + net income from abroad. It measures total value of goods and services produced by a country\u0027s residents (including overseas)."
+    },
+    {
+        "prompt":  "Sustainable Finance refers to?",
+        "answers":  [
+                        "Only fast returns",
+                        "Financial services considering environmental, social, governance (ESG) factors",
+                        "Only government funding",
+                        "Only short-term loans"
+                    ],
+        "correct":  1,
+        "explanation":  "Sustainable finance integrates ESG (Environmental, Social, Governance) criteria into investment and lending decisions. It supports green bonds, responsible investing."
+    },
+    {
+        "prompt":  "Commercial Paper (CP) is?",
+        "answers":  [
+                        "A long-term bond",
+                        "Short-term unsecured promissory note issued by corporations",
+                        "Government security",
+                        "Bank deposit"
+                    ],
+        "correct":  1,
+        "explanation":  "Commercial Paper is an unsecured, short-term debt instrument (7 days to 1 year) issued by corporates to meet working capital needs. It is a money market instrument."
+    },
+    {
+        "prompt":  "Certificate of Deposit (CD) is issued by?",
+        "answers":  [
+                        "Government",
+                        "Banks and financial institutions",
+                        "Individuals",
+                        "Stock exchanges"
+                    ],
+        "correct":  1,
+        "explanation":  "Certificate of Deposit is a negotiable money market instrument issued by banks and specified financial institutions. It has a fixed tenure and fixed interest rate."
+    },
+    {
+        "prompt":  "Who regulates the foreign exchange market in India?",
+        "answers":  [
+                        "SEBI",
+                        "RBI",
+                        "Ministry of Finance",
+                        "IRDAI"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI regulates the foreign exchange market in India under FEMA, 1999. It manages foreign exchange reserves and intervenes to stabilize the rupee."
+    },
+    {
+        "prompt":  "Which committee recommended the establishment of Regional Rural Banks in 1975?",
+        "answers":  [
+                        "Nariman Committee",
+                        "Narasimham Committee (1975)",
+                        "Raghuram Rajan Committee",
+                        "Nachiket Mor Committee"
+                    ],
+        "correct":  1,
+        "explanation":  "The Narasimham Committee (1975) on rural credit recommended the establishment of RRBs to provide credit to rural areas."
+    },
+    {
+        "prompt":  "The first Regional Rural Bank was established in?",
+        "answers":  [
+                        "1973",
+                        "1975",
+                        "1976",
+                        "1980"
+                    ],
+        "correct":  1,
+        "explanation":  "Prathama Grameen Bank (Moradabad) was the first RRB, established on October 2, 1975, with Syndicate Bank as sponsor."
+    },
+    {
+        "prompt":  "Bandhan Bank started as?",
+        "answers":  [
+                        "Public sector bank",
+                        "Microfinance institution (MFI)",
+                        "Payment bank",
+                        "Cooperative bank"
+                    ],
+        "correct":  1,
+        "explanation":  "Bandhan Bank was originally a microfinance institution. It received Small Finance Bank license in 2014 and converted to universal bank in 2018."
+    },
+    {
+        "prompt":  "Primary Agricultural Credit Societies (PACS) operate at?",
+        "answers":  [
+                        "National level",
+                        "State level",
+                        "District level",
+                        "Village level"
+                    ],
+        "correct":  3,
+        "explanation":  "PACS are the base-level cooperative credit institutions operating at the village level. They are the link between farmers and higher cooperative structure."
+    },
+    {
+        "prompt":  "Kisan Credit Card (KCC) scheme was introduced in?",
+        "answers":  [
+                        "1995",
+                        "1998",
+                        "2000",
+                        "2004"
+                    ],
+        "correct":  1,
+        "explanation":  "Kisan Credit Card scheme was introduced in 1998-99 to provide adequate and timely credit to farmers for their cultivation and other needs."
+    },
+    {
+        "prompt":  "Lead Bank Scheme was introduced in?",
+        "answers":  [
+                        "1967",
+                        "1969",
+                        "1975",
+                        "1980"
+                    ],
+        "correct":  1,
+        "explanation":  "Lead Bank Scheme was introduced in 1969. Each district was assigned to a lead bank responsible for branch expansion and credit deployment."
+    },
+    {
+        "prompt":  "Bank Board Bureau (BBB) was established in?",
+        "answers":  [
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017"
+                    ],
+        "correct":  2,
+        "explanation":  "Bank Board Bureau was set up in 2016 to recommend appointments to PSB boards and improve governance. It was recommended by P.J. Nayak Committee."
+    },
+    {
+        "prompt":  "What does Ombudsman Scheme provide?",
+        "answers":  [
+                        "Loan sanction",
+                        "Redressal of customer complaints against banks",
+                        "Deposit insurance",
+                        "Credit rating"
+                    ],
+        "correct":  1,
+        "explanation":  "Banking Ombudsman Scheme provides free grievance redressal for customers. RBI appoints Ombudsmen. The scheme was revised and expanded in 2021."
+    },
+    {
+        "prompt":  "Foreign banks in India must convert to wholly owned subsidiary (WOS) if they have?",
+        "answers":  [
+                        "5 branches",
+                        "10 branches",
+                        "20 branches",
+                        "50 branches"
+                    ],
+        "correct":  2,
+        "explanation":  "RBI\u0027s 2013 guidelines require foreign banks with 20+ branches to mandatorily convert to WOS for better regulation."
+    },
+    {
+        "prompt":  "Kotak Mahindra Bank was converted from?",
+        "answers":  [
+                        "NBFC",
+                        "Cooperative bank",
+                        "RRB",
+                        "Foreign bank"
+                    ],
+        "correct":  0,
+        "explanation":  "Kotak Mahindra Finance Ltd (NBFC) was granted banking license in 2003 and converted to Kotak Mahindra Bank."
+    }
+]
