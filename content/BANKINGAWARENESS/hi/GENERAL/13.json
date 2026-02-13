@@ -1,277 +1,278 @@
 ﻿[
     {
-        "prompt":  "Twin deficit refers to?",
-        "answers":  [
-                        "Bank and NBFC",
-                        "Fiscal deficit and Current account deficit",
-                        "Revenue and capital",
-                        "Import and export"
-                    ],
-        "correct":  1,
-        "explanation":  "Twin deficit: when both fiscal deficit and current account deficit are high."
+      "prompt": "ट्विन डेफिसिट (Twin Deficit) का अर्थ क्या है?",
+      "answers": [
+        "बैंक और एनबीएफसी",
+        "राजकोषीय घाटा और चालू खाता घाटा",
+        "राजस्व और पूंजी",
+        "आयात और निर्यात"
+      ],
+      "correct": 1,
+      "explanation": "ट्विन डेफिसिट का अर्थ है जब राजकोषीय घाटा और चालू खाता घाटा दोनों अधिक हों।"
     },
     {
-        "prompt":  "Capital expenditure by government goes to?",
-        "answers":  [
-                        "Salaries",
-                        "Asset creation - infrastructure etc",
-                        "Subsidies",
-                        "Interest"
-                    ],
-        "correct":  1,
-        "explanation":  "Capital expenditure creates assets - roads, bridges, PSU investment. Revenue exp is recurring."
+      "prompt": "सरकार का पूंजीगत व्यय (Capital Expenditure) किस पर होता है?",
+      "answers": [
+        "वेतन",
+        "परिसंपत्ति निर्माण – अवसंरचना आदि",
+        "सब्सिडी",
+        "ब्याज भुगतान"
+      ],
+      "correct": 1,
+      "explanation": "पूंजीगत व्यय से परिसंपत्तियाँ बनती हैं जैसे सड़कें, पुल, पीएसयू में निवेश। राजस्व व्यय दोहराया जाने वाला होता है।"
     },
     {
-        "prompt":  "Disinvestment means?",
-        "answers":  [
-                        "Government investing more",
-                        "Government selling stake in PSUs",
-                        "Bank investment",
-                        "RBI selling"
-                    ],
-        "correct":  1,
-        "explanation":  "Disinvestment is government selling its stake in public sector undertakings."
+      "prompt": "विनिवेश (Disinvestment) का अर्थ क्या है?",
+      "answers": [
+        "सरकार द्वारा अधिक निवेश",
+        "पीएसयू में सरकार की हिस्सेदारी बेचना",
+        "बैंकों का निवेश",
+        "आरबीआई द्वारा बिक्री"
+      ],
+      "correct": 1,
+      "explanation": "विनिवेश का अर्थ है सार्वजनिक क्षेत्र के उपक्रमों में सरकार की हिस्सेदारी बेचना।"
     },
     {
-        "prompt":  "GST is a?",
-        "answers":  [
-                        "Direct tax",
-                        "Indirect tax - consumption based",
-                        "Only for services",
-                        "Only for goods"
-                    ],
-        "correct":  1,
-        "explanation":  "GST (Goods and Services Tax) is indirect tax on consumption. Destination-based."
+      "prompt": "जीएसटी (GST) क्या है?",
+      "answers": [
+        "प्रत्यक्ष कर",
+        "अप्रत्यक्ष कर – उपभोग आधारित",
+        "केवल सेवाओं पर",
+        "केवल वस्तुओं पर"
+      ],
+      "correct": 1,
+      "explanation": "जीएसटी एक अप्रत्यक्ष कर है जो उपभोग पर लगाया जाता है। यह गंतव्य-आधारित कर है।"
     },
     {
-        "prompt":  "Direct taxes include?",
-        "answers":  [
-                        "GST",
-                        "Income tax, corporate tax",
-                        "Customs",
-                        "Excise"
-                    ],
-        "correct":  1,
-        "explanation":  "Direct taxes: burden on same person who pays. Income tax, corporate tax, wealth tax."
+      "prompt": "प्रत्यक्ष करों में क्या शामिल है?",
+      "answers": [
+        "जीएसटी",
+        "आयकर, कॉर्पोरेट कर",
+        "कस्टम ड्यूटी",
+        "उत्पाद शुल्क"
+      ],
+      "correct": 1,
+      "explanation": "प्रत्यक्ष कर वे होते हैं जिनका भार वही व्यक्ति वहन करता है जो कर चुकाता है, जैसे आयकर और कॉर्पोरेट कर।"
     },
     {
-        "prompt":  "Indirect taxes include?",
-        "answers":  [
-                        "Income tax",
-                        "GST, customs, excise",
-                        "Wealth tax",
-                        "Corporate tax"
-                    ],
-        "correct":  1,
-        "explanation":  "Indirect taxes: burden shifted to consumer. GST, customs, excise."
+      "prompt": "अप्रत्यक्ष करों में क्या शामिल है?",
+      "answers": [
+        "आयकर",
+        "जीएसटी, कस्टम ड्यूटी, उत्पाद शुल्क",
+        "वेल्थ टैक्स",
+        "कॉर्पोरेट कर"
+      ],
+      "correct": 1,
+      "explanation": "अप्रत्यक्ष करों का भार उपभोक्ता पर स्थानांतरित किया जा सकता है, जैसे जीएसटी और कस्टम ड्यूटी।"
     },
     {
-        "prompt":  "Repo rate is also called?",
-        "answers":  [
-                        "Bank rate",
-                        "Policy repo rate - key policy rate",
-                        "MSF rate",
-                        "Reverse repo"
-                    ],
-        "correct":  1,
-        "explanation":  "Repo rate is the key policy rate at which RBI lends to banks. MPC decides it."
+      "prompt": "रेपो दर को क्या कहा जाता है?",
+      "answers": [
+        "बैंक दर",
+        "नीतिगत रेपो दर – प्रमुख नीति दर",
+        "एमएसएफ दर",
+        "रिवर्स रेपो"
+      ],
+      "correct": 1,
+      "explanation": "रेपो दर वह प्रमुख नीति दर है जिस पर आरबीआई बैंकों को ऋण देता है। इसे मौद्रिक नीति समिति तय करती है।"
     },
     {
-        "prompt":  "Transmission of policy rate means?",
-        "answers":  [
-                        "RBI only",
-                        "Change in repo reflecting in bank lending rates",
-                        "Only deposits",
-                        "Only MSF"
-                    ],
-        "correct":  1,
-        "explanation":  "Monetary transmission: when repo rate change flows to bank deposit and lending rates."
+      "prompt": "नीति दर के संचरण (Transmission) का अर्थ क्या है?",
+      "answers": [
+        "केवल आरबीआई",
+        "रेपो दर में बदलाव का बैंक ऋण दरों में परिलक्षित होना",
+        "केवल जमा दरें",
+        "केवल एमएसएफ"
+      ],
+      "correct": 1,
+      "explanation": "मौद्रिक संचरण का अर्थ है रेपो दर में बदलाव का बैंक की जमा और ऋण दरों में प्रभाव दिखना।"
     },
     {
-        "prompt":  "Which of the following is a Public Sector Bank in India?",
-        "answers":  [
-                        "HDFC Bank",
-                        "ICICI Bank",
-                        "Punjab National Bank",
-                        "Axis Bank"
-                    ],
-        "correct":  2,
-        "explanation":  "Punjab National Bank (PNB) is a public sector bank. HDFC Bank, ICICI Bank, and Axis Bank are private sector banks."
+      "prompt": "निम्नलिखित में से कौन सा भारत का सार्वजनिक क्षेत्र का बैंक है?",
+      "answers": [
+        "एचडीएफसी बैंक",
+        "आईसीआईसीआई बैंक",
+        "पंजाब नेशनल बैंक",
+        "एक्सिस बैंक"
+      ],
+      "correct": 2,
+      "explanation": "पंजाब नेशनल बैंक एक सार्वजनिक क्षेत्र का बैंक है, जबकि अन्य निजी क्षेत्र के बैंक हैं।"
     },
     {
-        "prompt":  "Which of the following can issue credit cards?",
-        "answers":  [
-                        "Payment Banks",
-                        "Small Finance Banks",
-                        "Both can",
-                        "Neither can"
-                    ],
-        "correct":  1,
-        "explanation":  "Small Finance Banks can issue credit cards. Payment Banks cannot issue credit cards or provide loans."
+      "prompt": "निम्नलिखित में से कौन क्रेडिट कार्ड जारी कर सकता है?",
+      "answers": [
+        "पेमेंट बैंक",
+        "स्मॉल फाइनेंस बैंक",
+        "दोनों कर सकते हैं",
+        "कोई नहीं"
+      ],
+      "correct": 1,
+      "explanation": "स्मॉल फाइनेंस बैंक क्रेडिट कार्ड जारी कर सकते हैं, जबकि पेमेंट बैंक ऋण या क्रेडिट कार्ड जारी नहीं कर सकते।"
     },
     {
-        "prompt":  "A Savings Bank account is primarily for?",
-        "answers":  [
-                        "Business transactions",
-                        "Salaried individuals to save",
-                        "Government deposits",
-                        "Foreign currency"
-                    ],
-        "correct":  1,
-        "explanation":  "Savings accounts are for individuals to deposit savings and earn interest. They have restrictions on number of withdrawals."
+      "prompt": "बचत खाता (Savings Account) मुख्य रूप से किसके लिए होता है?",
+      "answers": [
+        "व्यावसायिक लेन-देन",
+        "वेतनभोगी व्यक्तियों की बचत",
+        "सरकारी जमा",
+        "विदेशी मुद्रा"
+      ],
+      "correct": 1,
+      "explanation": "बचत खाता व्यक्तियों की बचत के लिए होता है और इस पर ब्याज मिलता है।"
     },
     {
-        "prompt":  "Recurring Deposit (RD) allows customers to?",
-        "answers":  [
-                        "Deposit lump sum once",
-                        "Deposit fixed amount at regular intervals",
-                        "Withdraw anytime without penalty",
-                        "Get overdraft facility"
-                    ],
-        "correct":  1,
-        "explanation":  "In Recurring Deposit, customers deposit a fixed amount monthly for a fixed tenure and get interest on maturity."
+      "prompt": "आवर्ती जमा (RD) में ग्राहक क्या कर सकते हैं?",
+      "answers": [
+        "एक बार में बड़ी राशि जमा",
+        "नियमित अंतराल पर निश्चित राशि जमा",
+        "बिना दंड के कभी भी निकासी",
+        "ओवरड्राफ्ट सुविधा"
+      ],
+      "correct": 1,
+      "explanation": "आरडी में ग्राहक हर महीने एक निश्चित राशि जमा करते हैं और परिपक्वता पर ब्याज प्राप्त करते हैं।"
     },
     {
-        "prompt":  "Which of the following provides 24x7 instant fund transfer?",
-        "answers":  [
-                        "NEFT",
-                        "RTGS",
-                        "IMPS",
-                        "Cheque"
-                    ],
-        "correct":  2,
-        "explanation":  "IMPS and UPI provide 24x7 instant transfer. NEFT operates in batches. RTGS operates during RBI working hours."
+      "prompt": "निम्नलिखित में से कौन 24x7 त्वरित धन अंतरण सुविधा देता है?",
+      "answers": [
+        "एनईएफटी",
+        "आरटीजीएस",
+        "आईएमपीएस",
+        "चेक"
+      ],
+      "correct": 2,
+      "explanation": "आईएमपीएस और यूपीआई 24x7 तत्काल फंड ट्रांसफर सुविधा देते हैं।"
     },
     {
-        "prompt":  "Financial year in India is?",
-        "answers":  [
-                        "January to December",
-                        "April to March",
-                        "July to June",
-                        "October to September"
-                    ],
-        "correct":  1,
-        "explanation":  "Indian financial year (FY) is April 1 to March 31."
+      "prompt": "भारत में वित्तीय वर्ष होता है?",
+      "answers": [
+        "जनवरी से दिसंबर",
+        "अप्रैल से मार्च",
+        "जुलाई से जून",
+        "अक्टूबर से सितंबर"
+      ],
+      "correct": 1,
+      "explanation": "भारत का वित्तीय वर्ष 1 अप्रैल से 31 मार्च तक होता है।"
     },
     {
-        "prompt":  "Union Budget is presented in Parliament usually in?",
-        "answers":  [
-                        "March",
-                        "February",
-                        "January",
-                        "December"
-                    ],
-        "correct":  1,
-        "explanation":  "Union Budget is traditionally presented on the last working day of February."
+      "prompt": "केंद्रीय बजट सामान्यतः संसद में कब प्रस्तुत किया जाता है?",
+      "answers": [
+        "मार्च",
+        "फरवरी",
+        "जनवरी",
+        "दिसंबर"
+      ],
+      "correct": 1,
+      "explanation": "केंद्रीय बजट परंपरागत रूप से फरवरी के अंतिम कार्यदिवस पर प्रस्तुत किया जाता है।"
     },
     {
-        "prompt":  "Vote on Account is?",
-        "answers":  [
-                        "Full budget",
-                        "Interim approval for govt expenditure",
-                        "State budget",
-                        "RBI budget"
-                    ],
-        "correct":  1,
-        "explanation":  "Vote on Account is Parliament approval for govt expenditure for part of year when full budget delayed."
+      "prompt": "वोट ऑन अकाउंट क्या है?",
+      "answers": [
+        "पूर्ण बजट",
+        "सरकारी व्यय हेतु अस्थायी अनुमति",
+        "राज्य बजट",
+        "आरबीआई का बजट"
+      ],
+      "correct": 1,
+      "explanation": "वोट ऑन अकाउंट संसद द्वारा सीमित अवधि के लिए सरकारी खर्च की अनुमति है।"
     },
     {
-        "prompt":  "Budget deficit occurs when?",
-        "answers":  [
-                        "Revenue equals expenditure",
-                        "Expenditure exceeds revenue",
-                        "Revenue exceeds expenditure",
-                        "Surplus"
-                    ],
-        "correct":  1,
-        "explanation":  "Budget deficit: total expenditure exceeds total receipts."
+      "prompt": "बजट घाटा कब होता है?",
+      "answers": [
+        "जब आय और व्यय समान हों",
+        "जब व्यय आय से अधिक हो",
+        "जब आय व्यय से अधिक हो",
+        "अधिशेष"
+      ],
+      "correct": 1,
+      "explanation": "जब कुल व्यय कुल प्राप्तियों से अधिक हो, तब बजट घाटा होता है।"
     },
     {
-        "prompt":  "Off-budget borrowing means?",
-        "answers":  [
-                        "In budget",
-                        "Govt borrowings not in budget - PSUs etc",
-                        "RBI borrowing",
-                        "No borrowing"
-                    ],
-        "correct":  1,
-        "explanation":  "Off-budget: borrowings by PSUs etc on behalf of govt, not reflected in budget."
+      "prompt": "ऑफ-बजट उधारी का अर्थ क्या है?",
+      "answers": [
+        "बजट के अंतर्गत उधारी",
+        "पीएसयू आदि द्वारा सरकार की ओर से ली गई उधारी",
+        "आरबीआई द्वारा उधारी",
+        "कोई उधारी नहीं"
+      ],
+      "correct": 1,
+      "explanation": "ऑफ-बजट उधारी वे ऋण होते हैं जो बजट में सीधे नहीं दिखते, जैसे पीएसयू द्वारा ली गई उधारी।"
     },
     {
-        "prompt":  "Cess and surcharge go to?",
-        "answers":  [
-                        "States share",
-                        "Central government - not shared with states",
-                        "Local bodies",
-                        "RBI"
-                    ],
-        "correct":  1,
-        "explanation":  "Cess and surcharge are retained by Centre and not shared with states as per Finance Commission."
+      "prompt": "सेस और सरचार्ज किसे जाते हैं?",
+      "answers": [
+        "राज्यों के हिस्से में",
+        "केंद्र सरकार को – राज्यों के साथ साझा नहीं",
+        "स्थानीय निकायों को",
+        "आरबीआई को"
+      ],
+      "correct": 1,
+      "explanation": "सेस और सरचार्ज केंद्र सरकार द्वारा रखे जाते हैं और राज्यों के साथ साझा नहीं किए जाते।"
     },
     {
-        "prompt":  "Finance Commission recommends?",
-        "answers":  [
-                        "Monetary policy",
-                        "Tax devolution to states, grants",
-                        "Bank licenses",
-                        "SEBI rules"
-                    ],
-        "correct":  1,
-        "explanation":  "Finance Commission recommends distribution of central taxes to states and grants."
+      "prompt": "वित्त आयोग किसकी सिफारिश करता है?",
+      "answers": [
+        "मौद्रिक नीति",
+        "राज्यों को करों का वितरण और अनुदान",
+        "बैंक लाइसेंस",
+        "सेबी नियम"
+      ],
+      "correct": 1,
+      "explanation": "वित्त आयोग केंद्र और राज्यों के बीच करों के वितरण और अनुदान की सिफारिश करता है।"
     },
     {
-        "prompt":  "Finance Commission is constituted every?",
-        "answers":  [
-                        "3 years",
-                        "5 years",
-                        "7 years",
-                        "10 years"
-                    ],
-        "correct":  1,
-        "explanation":  "Finance Commission is constituted every 5 years as per Constitution."
+      "prompt": "वित्त आयोग का गठन कितने वर्षों में किया जाता है?",
+      "answers": [
+        "3 वर्ष",
+        "5 वर्ष",
+        "7 वर्ष",
+        "10 वर्ष"
+      ],
+      "correct": 1,
+      "explanation": "संविधान के अनुसार वित्त आयोग का गठन हर 5 वर्ष में किया जाता है।"
     },
     {
-        "prompt":  "Niti Aayog replaced?",
-        "answers":  [
-                        "Finance Commission",
-                        "Planning Commission",
-                        "RBI",
-                        "SEBI"
-                    ],
-        "correct":  1,
-        "explanation":  "Niti Aayog replaced Planning Commission in 2015."
+      "prompt": "नीति आयोग ने किसे प्रतिस्थापित किया?",
+      "answers": [
+        "वित्त आयोग",
+        "योजना आयोग",
+        "आरबीआई",
+        "सेबी"
+      ],
+      "correct": 1,
+      "explanation": "नीति आयोग ने 2015 में योजना आयोग का स्थान लिया।"
     },
     {
-        "prompt":  "Five Year Plans were replaced by?",
-        "answers":  [
-                        "Annual plans only",
-                        "Niti Aayog and sectoral focus",
-                        "Nothing",
-                        "RBI plans"
-                    ],
-        "correct":  1,
-        "explanation":  "Five Year Plans ended. Niti Aayog does strategic planning. No formal five year plans."
+      "prompt": "पंचवर्षीय योजनाओं को किसने प्रतिस्थापित किया?",
+      "answers": [
+        "केवल वार्षिक योजनाएँ",
+        "नीति आयोग और क्षेत्रीय रणनीतिक योजना",
+        "कुछ नहीं",
+        "आरबीआई की योजनाएँ"
+      ],
+      "correct": 1,
+      "explanation": "पंचवर्षीय योजनाएँ समाप्त हो गई हैं। अब नीति आयोग रणनीतिक योजना बनाता है।"
     },
     {
-        "prompt":  "Revenue receipt of government includes?",
-        "answers":  [
-                        "Borrowings",
-                        "Tax and non-tax revenue",
-                        "Only capital",
-                        "Only disinvestment"
-                    ],
-        "correct":  1,
-        "explanation":  "Revenue receipts: tax revenue (direct, indirect) and non-tax (interest, dividends, etc)."
+      "prompt": "सरकार की राजस्व प्राप्तियों में क्या शामिल है?",
+      "answers": [
+        "उधारी",
+        "कर और गैर-कर राजस्व",
+        "केवल पूंजी",
+        "केवल विनिवेश"
+      ],
+      "correct": 1,
+      "explanation": "राजस्व प्राप्तियों में कर राजस्व और गैर-कर राजस्व शामिल होते हैं।"
     },
     {
-        "prompt":  "Capital receipt includes?",
-        "answers":  [
-                        "Tax only",
-                        "Borrowings, disinvestment, recovery of loans",
-                        "Only GST",
-                        "Only customs"
-                    ],
-        "correct":  1,
-        "explanation":  "Capital receipts: borrowings, disinvestment proceeds, loan recovery. Creates liability or reduces asset."
+      "prompt": "पूंजी प्राप्तियों में क्या शामिल है?",
+      "answers": [
+        "केवल कर",
+        "उधारी, विनिवेश, ऋण वसूली",
+        "केवल जीएसटी",
+        "केवल कस्टम ड्यूटी"
+      ],
+      "correct": 1,
+      "explanation": "पूंजी प्राप्तियाँ या तो देनदारी बनाती हैं या परिसंपत्तियों को घटाती हैं।"
     }
-]
+  ]
+  

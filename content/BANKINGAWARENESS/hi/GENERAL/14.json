@@ -1,277 +1,277 @@
 ﻿[
     {
-        "prompt":  "Contingency Fund of India is for?",
-        "answers":  [
-                        "Regular expenditure",
-                        "Urgent unforeseen expenditure",
-                        "States only",
-                        "RBI only"
-                    ],
-        "correct":  1,
-        "explanation":  "Contingency Fund meets urgent unforeseen expenditure. Parliament approves ex-post."
+        "prompt": "भारत का आकस्मिक निधि (Contingency Fund of India) किसके लिए है?",
+        "answers": [
+            "नियमित व्यय",
+            "अत्यावश्यक अप्रत्याशित व्यय",
+            "केवल राज्यों के लिए",
+            "केवल RBI के लिए"
+        ],
+        "correct": 1,
+        "explanation": "आकस्मिक निधि अत्यावश्यक अप्रत्याशित व्यय को पूरा करती है। संसद बाद में (ex-post) अनुमोदन करती है।"
     },
     {
-        "prompt":  "Consolidated Fund of India receives?",
-        "answers":  [
-                        "Only grants",
-                        "All govt receipts - taxes, loans",
-                        "Only states",
-                        "Only RBI"
-                    ],
-        "correct":  1,
-        "explanation":  "Consolidated Fund: all revenues, loans. All govt expenditure charged or voted from it."
+        "prompt": "भारत का संचित निधि (Consolidated Fund of India) में क्या प्राप्त होता है?",
+        "answers": [
+            "केवल अनुदान",
+            "सभी सरकारी प्राप्तियाँ - कर, ऋण आदि",
+            "केवल राज्य",
+            "केवल RBI"
+        ],
+        "correct": 1,
+        "explanation": "संचित निधि में सभी राजस्व, ऋण आदि आते हैं। सरकार का सभी व्यय इसी से charged या voted होता है।"
     },
     {
-        "prompt":  "Public Account of India holds?",
-        "answers":  [
-                        "Tax revenue",
-                        "Provident fund, small savings, etc - held in trust",
-                        "Only disinvestment",
-                        "Only loans"
-                    ],
-        "correct":  1,
-        "explanation":  "Public Account: funds held in trust - PF, small savings. Not part of Consolidated Fund."
+        "prompt": "भारत का लोक लेखा (Public Account of India) में क्या रखा जाता है?",
+        "answers": [
+            "कर राजस्व",
+            "भविष्य निधि, लघु बचत आदि - ट्रस्ट में रखी गई राशि",
+            "केवल विनिवेश",
+            "केवल ऋण"
+        ],
+        "correct": 1,
+        "explanation": "लोक लेखा में ट्रस्ट में रखी गई राशियाँ होती हैं - PF, लघु बचत आदि। यह संचित निधि का हिस्सा नहीं होती।"
     },
     {
-        "prompt":  "Basis points in interest rate?",
-        "answers":  [
-                        "1 bp = 1 percent",
-                        "1 bp = 0.01 percent",
-                        "1 bp = 10 percent",
-                        "1 bp = 0.1 percent"
-                    ],
-        "correct":  1,
-        "explanation":  "100 basis points = 1 percent. 1 bp = 0.01 percent."
+        "prompt": "ब्याज दर में बेसिस पॉइंट (Basis points) क्या होता है?",
+        "answers": [
+            "1 bp = 1 प्रतिशत",
+            "1 bp = 0.01 प्रतिशत",
+            "1 bp = 10 प्रतिशत",
+            "1 bp = 0.1 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "100 बेसिस पॉइंट = 1 प्रतिशत। 1 bp = 0.01 प्रतिशत।"
     },
     {
-        "prompt":  "Yield curve shows?",
-        "answers":  [
-                        "Stock prices",
-                        "Interest rates at different maturities",
-                        "Only short term",
-                        "Only long term"
-                    ],
-        "correct":  1,
-        "explanation":  "Yield curve plots bond yields against maturity. Normal: upward sloping."
+        "prompt": "यील्ड कर्व (Yield curve) क्या दर्शाता है?",
+        "answers": [
+            "शेयर की कीमतें",
+            "विभिन्न परिपक्वता अवधि पर ब्याज दरें",
+            "केवल अल्पकालिक",
+            "केवल दीर्घकालिक"
+        ],
+        "correct": 1,
+        "explanation": "यील्ड कर्व बॉन्ड की यील्ड को परिपक्वता के विरुद्ध प्लॉट करता है। सामान्य: ऊपर की ओर ढलान।"
     },
     {
-        "prompt":  "Inverted yield curve may signal?",
-        "answers":  [
-                        "Strong growth",
-                        "Possible recession - short term higher than long",
-                        "Low inflation",
-                        "High employment"
-                    ],
-        "correct":  1,
-        "explanation":  "Inverted yield curve (short rate above long) often precedes recession."
+        "prompt": "उलटा यील्ड कर्व (Inverted yield curve) क्या संकेत दे सकता है?",
+        "answers": [
+            "मजबूत विकास",
+            "संभावित मंदी - अल्पकालिक दर दीर्घकालिक से अधिक",
+            "कम मुद्रास्फीति",
+            "उच्च रोजगार"
+        ],
+        "correct": 1,
+        "explanation": "उलटा यील्ड कर्व (अल्पकालिक दर > दीर्घकालिक) अक्सर मंदी से पहले दिखाई देता है।"
     },
     {
-        "prompt":  "Call money rate is?",
-        "answers":  [
-                        "RBI fixed",
-                        "Market determined overnight rate",
-                        "Only for retail",
-                        "Only for government"
-                    ],
-        "correct":  1,
-        "explanation":  "Call money rate is overnight inter-bank rate. Market determined, influenced by RBI liquidity."
+        "prompt": "कॉल मनी रेट क्या है?",
+        "answers": [
+            "RBI द्वारा निर्धारित",
+            "बाजार द्वारा निर्धारित ओवरनाइट दर",
+            "केवल खुदरा के लिए",
+            "केवल सरकार के लिए"
+        ],
+        "correct": 1,
+        "explanation": "कॉल मनी रेट ओवरनाइट अंतर-बैंक दर है। बाजार निर्धारित, RBI की तरलता से प्रभावित।"
     },
     {
-        "prompt":  "Treasury Bill is a?",
-        "answers":  [
-                        "Long term bond",
-                        "Short term zero coupon instrument",
-                        "State government bond",
-                        "Corporate bond"
-                    ],
-        "correct":  1,
-        "explanation":  "T-Bills are short-term (91, 182, 364 days) zero coupon instruments. Issued at discount."
+        "prompt": "ट्रेजरी बिल (Treasury Bill) क्या है?",
+        "answers": [
+            "दीर्घकालिक बॉन्ड",
+            "अल्पकालिक शून्य कूपन साधन",
+            "राज्य सरकार का बॉन्ड",
+            "कॉर्पोरेट बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "ट्रेजरी बिल अल्पकालिक (91, 182, 364 दिन) शून्य कूपन साधन हैं। छूट पर जारी किए जाते हैं।"
     },
     {
-        "prompt":  "Commercial Paper is issued by?",
-        "answers":  [
-                        "Government",
-                        "Corporates",
-                        "RBI",
-                        "Banks only"
-                    ],
-        "correct":  1,
-        "explanation":  "Commercial Paper is issued by corporates for working capital. Unsecured."
+        "prompt": "कमर्शियल पेपर (Commercial Paper) किसके द्वारा जारी किया जाता है?",
+        "answers": [
+            "सरकार",
+            "कॉर्पोरेट",
+            "RBI",
+            "केवल बैंक"
+        ],
+        "correct": 1,
+        "explanation": "कमर्शियल पेपर कॉर्पोरेट द्वारा कार्यशील पूंजी के लिए जारी किया जाता है। असुरक्षित होता है।"
     },
     {
-        "prompt":  "Certificate of Deposit maturity range is?",
-        "answers":  [
-                        "7 days to 1 year for banks",
-                        "1 to 5 years",
-                        "Only 91 days",
-                        "Only 364 days"
-                    ],
-        "correct":  0,
-        "explanation":  "CDs: Banks 7 days to 1 year. Financial institutions 1 to 3 years."
+        "prompt": "सर्टिफिकेट ऑफ डिपॉजिट (Certificate of Deposit) की परिपक्वता अवधि क्या है?",
+        "answers": [
+            "बैंकों के लिए 7 दिन से 1 वर्ष",
+            "1 से 5 वर्ष",
+            "केवल 91 दिन",
+            "केवल 364 दिन"
+        ],
+        "correct": 0,
+        "explanation": "सीडी: बैंक 7 दिन से 1 वर्ष। वित्तीय संस्थान 1 से 3 वर्ष।"
     },
     {
-        "prompt":  "Overnight rate in India is influenced by?",
-        "answers":  [
-                        "Only SEBI",
-                        "RBI liquidity operations",
-                        "Only government",
-                        "Only forex"
-                    ],
-        "correct":  1,
-        "explanation":  "Overnight rate (call/TOM) is influenced by RBI LAF, OMO, and system liquidity."
+        "prompt": "भारत में ओवरनाइट दर किसके द्वारा प्रभावित होती है?",
+        "answers": [
+            "केवल SEBI",
+            "RBI की तरलता संचालन",
+            "केवल सरकार",
+            "केवल विदेशी मुद्रा"
+        ],
+        "correct": 1,
+        "explanation": "ओवरनाइट दर (कॉल/TOM) RBI के LAF, OMO और सिस्टम तरलता से प्रभावित होती है।"
     },
     {
-        "prompt":  "RuPay card is an Indian domestic card scheme promoted by?",
-        "answers":  [
-                        "RBI",
-                        "SEBI",
-                        "NPCI",
-                        "Ministry of Finance"
-                    ],
-        "correct":  2,
-        "explanation":  "RuPay is India\u0027s domestic card payment network launched by NPCI in 2012. It is an alternative to Visa and Mastercard."
+        "prompt": "रुपे कार्ड भारतीय घरेलू कार्ड योजना है, जिसे किसने प्रोत्साहित किया?",
+        "answers": [
+            "RBI",
+            "SEBI",
+            "NPCI",
+            "वित्त मंत्रालय"
+        ],
+        "correct": 2,
+        "explanation": "रुपे भारत का घरेलू कार्ड पेमेंट नेटवर्क है जिसे NPCI ने 2012 में लॉन्च किया। यह Visa और Mastercard का विकल्प है।"
     },
     {
-        "prompt":  "Treasury Bills are issued by?",
-        "answers":  [
-                        "Commercial banks",
-                        "RBI on behalf of Government",
-                        "SEBI",
-                        "Stock exchanges"
-                    ],
-        "correct":  1,
-        "explanation":  "Treasury Bills (T-Bills) are short-term debt instruments issued by the Government of India through RBI. They have maturities of 91, 182, and 364 days."
+        "prompt": "ट्रेजरी बिल किसके द्वारा जारी किए जाते हैं?",
+        "answers": [
+            "वाणिज्यिक बैंक",
+            "RBI द्वारा सरकार की ओर से",
+            "SEBI",
+            "स्टॉक एक्सचेंज"
+        ],
+        "correct": 1,
+        "explanation": "ट्रेजरी बिल (T-Bills) भारत सरकार द्वारा RBI के माध्यम से जारी किए जाते हैं। अवधि 91, 182 और 364 दिन।"
     },
     {
-        "prompt":  "Primary market is where?",
-        "answers":  [
-                        "Existing securities are traded",
-                        "New securities are issued",
-                        "Only bonds are traded",
-                        "Only government securities are sold"
-                    ],
-        "correct":  1,
-        "explanation":  "Primary market is where new securities (IPO, FPO) are issued for the first time. Secondary market (stock exchange) is where existing securities are traded."
+        "prompt": "प्राथमिक बाजार (Primary market) वह जगह है जहाँ?",
+        "answers": [
+            "मौजूदा प्रतिभूतियाँ कारोबार होती हैं",
+            "नई प्रतिभूतियाँ जारी की जाती हैं",
+            "केवल बॉन्ड कारोबार होते हैं",
+            "केवल सरकारी प्रतिभूतियाँ बेची जाती हैं"
+        ],
+        "correct": 1,
+        "explanation": "प्राथमिक बाजार में नई प्रतिभूतियाँ (IPO, FPO) पहली बार जारी की जाती हैं। द्वितीयक बाजार (स्टॉक एक्सचेंज) में मौजूदा प्रतिभूतियाँ कारोबार होती हैं।"
     },
     {
-        "prompt":  "Which agency investigates money laundering cases in India?",
-        "answers":  [
-                        "CBI",
-                        "ED (Enforcement Directorate)",
-                        "NIA",
-                        "IB"
-                    ],
-        "correct":  1,
-        "explanation":  "Enforcement Directorate (ED) is responsible for investigating and prosecuting money laundering cases under PMLA."
+        "prompt": "भारत में मनी लॉन्ड्रिंग के मामलों की जाँच कौन सी एजेंसी करती है?",
+        "answers": [
+            "CBI",
+            "ED (प्रवर्तन निदेशालय)",
+            "NIA",
+            "IB"
+        ],
+        "correct": 1,
+        "explanation": "प्रवर्तन निदेशालय (ED) PMLA के तहत मनी लॉन्ड्रिंग के मामलों की जाँच और अभियोजन करता है।"
     },
     {
-        "prompt":  "Green Banking refers to?",
-        "answers":  [
-                        "Banks with green logo",
-                        "Environmentally responsible banking practices",
-                        "Rural banking",
-                        "Agricultural loans only"
-                    ],
-        "correct":  1,
-        "explanation":  "Green Banking promotes environmentally sustainable practices - financing green projects, paperless banking, energy efficiency, and ESG compliance."
+        "prompt": "ग्रीन बैंकिंग का तात्पर्य है?",
+        "answers": [
+            "हरे रंग का लोगो वाले बैंक",
+            "पर्यावरण के प्रति जिम्मेदार बैंकिंग प्रथाएँ",
+            "ग्रामीण बैंकिंग",
+            "केवल कृषि ऋण"
+        ],
+        "correct": 1,
+        "explanation": "ग्रीन बैंकिंग पर्यावरणीय रूप से टिकाऊ प्रथाओं को बढ़ावा देता है - हरित परियोजनाओं का वित्तपोषण, कागज रहित बैंकिंग, ऊर्जा दक्षता और ESG अनुपालन।"
     },
     {
-        "prompt":  "How many banks merged to form the current SBI structure in 2017?",
-        "answers":  [
-                        "3",
-                        "5",
-                        "6",
-                        "7"
-                    ],
-        "correct":  2,
-        "explanation":  "In 2017, 5 associate banks (State Bank of Bikaner \u0026 Jaipur, Travancore, Patiala, Hyderabad, Mysore) and Bharatiya Mahila Bank merged with SBI."
+        "prompt": "2017 में वर्तमान SBI संरचना बनाने के लिए कितने बैंक विलय हुए?",
+        "answers": [
+            "3",
+            "5",
+            "6",
+            "7"
+        ],
+        "correct": 2,
+        "explanation": "2017 में 5 सहयोगी बैंक (बीकानेर एंड जयपुर, ट्रावणकोर, पटियाला, हैदराबाद, मैसूर) और भारतीय महिला बैंक का SBI में विलय हुआ।"
     },
     {
-        "prompt":  "Local Area Banks were introduced in?",
-        "answers":  [
-                        "1990",
-                        "1996",
-                        "2000",
-                        "2005"
-                    ],
-        "correct":  1,
-        "explanation":  "Local Area Banks (LABs) were set up in 1996 to serve rural and semi-urban areas. They are private sector banks with a local focus."
+        "prompt": "लोकल एरिया बैंक (Local Area Banks) कब शुरू किए गए?",
+        "answers": [
+            "1990",
+            "1996",
+            "2000",
+            "2005"
+        ],
+        "correct": 1,
+        "explanation": "लोकल एरिया बैंक (LABs) 1996 में ग्रामीण और अर्ध-शहरी क्षेत्रों की सेवा के लिए शुरू किए गए। ये निजी क्षेत्र के स्थानीय फोकस वाले बैंक हैं।"
     },
     {
-        "prompt":  "IDBI Bank was converted from a development financial institution to a bank in?",
-        "answers":  [
-                        "2000",
-                        "2002",
-                        "2004",
-                        "2006"
-                    ],
-        "correct":  2,
-        "explanation":  "IDBI (Industrial Development Bank of India) was converted into a commercial bank in 2004. Later it was acquired by LIC and merged with IDBI Bank."
+        "prompt": "IDBI बैंक को विकास वित्तीय संस्थान से बैंक में कब परिवर्तित किया गया?",
+        "answers": [
+            "2000",
+            "2002",
+            "2004",
+            "2006"
+        ],
+        "correct": 2,
+        "explanation": "IDBI (Industrial Development Bank of India) को 2004 में वाणिज्यिक बैंक में बदला गया। बाद में LIC द्वारा अधिग्रहण और IDBI Bank में विलय हुआ।"
     },
     {
-        "prompt":  "Which bank is the largest public sector bank in India by assets?",
-        "answers":  [
-                        "PNB",
-                        "Bank of Baroda",
-                        "State Bank of India",
-                        "Canara Bank"
-                    ],
-        "correct":  2,
-        "explanation":  "State Bank of India is the largest public sector bank in India by assets, deposits, and branch network."
+        "prompt": "भारत में परिसंपत्ति के आधार पर सबसे बड़ा सार्वजनिक क्षेत्र का बैंक कौन सा है?",
+        "answers": [
+            "PNB",
+            "Bank of Baroda",
+            "State Bank of India",
+            "Canara Bank"
+        ],
+        "correct": 2,
+        "explanation": "State Bank of India भारत का सबसे बड़ा सार्वजनिक क्षेत्र का बैंक है - परिसंपत्ति, जमा और शाखा नेटवर्क के आधार पर।"
     },
     {
-        "prompt":  "The term \u0027Bank Run\u0027 means?",
-        "answers":  [
-                        "Bank conducting a marathon",
-                        "Many depositors withdrawing money simultaneously due to fear",
-                        "Bank opening new branches",
-                        "Bank merger"
-                    ],
-        "correct":  1,
-        "explanation":  "Bank run occurs when a large number of depositors withdraw funds simultaneously due to fear that the bank may become insolvent."
+        "prompt": "'बैंक रन' (Bank Run) का अर्थ है?",
+        "answers": [
+            "बैंक द्वारा मैराथन आयोजन",
+            "डर के कारण बहुत सारे जमाकर्ता एक साथ पैसे निकालना",
+            "बैंक द्वारा नई शाखाएँ खोलना",
+            "बैंक विलय"
+        ],
+        "correct": 1,
+        "explanation": "बैंक रन तब होता है जब डर के कारण बहुत सारे जमाकर्ता एक साथ धन निकाल लेते हैं, यह सोचकर कि बैंक दिवालिया हो सकता है।"
     },
     {
-        "prompt":  "What does \u0027Credit\u0027 mean in banking?",
-        "answers":  [
-                        "Money taken from account",
-                        "Money lent by bank",
-                        "Bank\u0027s profit",
-                        "Deposit amount"
-                    ],
-        "correct":  1,
-        "explanation":  "Credit means money lent by the bank. When bank gives loan, it \u0027credits\u0027 the loan amount. Debit means money taken out."
+        "prompt": "बैंकिंग में 'क्रेडिट' का अर्थ है?",
+        "answers": [
+            "खाते से पैसा निकाला गया",
+            "बैंक द्वारा दिया गया ऋण",
+            "बैंक का लाभ",
+            "जमा राशि"
+        ],
+        "correct": 1,
+        "explanation": "क्रेडिट का अर्थ बैंक द्वारा दिया गया ऋण है। जब बैंक ऋण देता है तो खाते में 'क्रेडिट' होता है।"
     },
     {
-        "prompt":  "What does \u0027Debit\u0027 mean in banking?",
-        "answers":  [
-                        "Money added to account",
-                        "Money withdrawn from account",
-                        "Interest earned",
-                        "Loan given"
-                    ],
-        "correct":  1,
-        "explanation":  "Debit means money taken out or withdrawn from an account. When you withdraw, your account is \u0027debited\u0027."
+        "prompt": "बैंकिंग में 'डेबिट' का अर्थ है?",
+        "answers": [
+            "खाते में पैसा जोड़ा गया",
+            "खाते से पैसा निकाला गया",
+            "ब्याज प्राप्त",
+            "ऋण दिया गया"
+        ],
+        "correct": 1,
+        "explanation": "डेबिट का अर्थ खाते से पैसा निकाला जाना या घटाया जाना है। निकासी पर खाता 'डेबिट' होता है।"
     },
     {
-        "prompt":  "MICR stands for?",
-        "answers":  [
-                        "Magnetic Ink Character Recognition",
-                        "Magnetic Ink Code Recognition",
-                        "Magnetic Identification Character Recognition",
-                        "Magnetic Ink Character Reading"
-                    ],
-        "correct":  0,
-        "explanation":  "MICR (Magnetic Ink Character Recognition) is used on cheques for faster processing. The MICR code identifies the bank and branch."
+        "prompt": "MICR का पूरा नाम क्या है?",
+        "answers": [
+            "मैग्नेटिक इंक कैरेक्टर रिकग्निशन",
+            "मैग्नेटिक इंक कोड रिकग्निशन",
+            "मैग्नेटिक आइडेंटिफिकेशन कैरेक्टर रिकग्निशन",
+            "मैग्नेटिक इंक कैरेक्टर रीडिंग"
+        ],
+        "correct": 0,
+        "explanation": "MICR (Magnetic Ink Character Recognition) चेक पर तेज प्रसंस्करण के लिए उपयोग होता है। MICR कोड बैंक और शाखा की पहचान करता है।"
     },
     {
-        "prompt":  "IFSC code is used for?",
-        "answers":  [
-                        "Identifying bank branch for electronic transfers",
-                        "Cheque clearance",
-                        "Cash withdrawal",
-                        "Loan approval"
-                    ],
-        "correct":  0,
-        "explanation":  "IFSC (Indian Financial System Code) is an 11-character code that uniquely identifies a bank-branch for NEFT, RTGS, IMPS transfers."
+        "prompt": "IFSC कोड किसके लिए उपयोग होता है?",
+        "answers": [
+            "इलेक्ट्रॉनिक ट्रांसफर के लिए बैंक शाखा की पहचान",
+            "चेक समाशोधन",
+            "नकद निकासी",
+            "ऋण स्वीकृति"
+        ],
+        "correct": 0,
+        "explanation": "IFSC (Indian Financial System Code) 11-अक्षर वाला कोड है जो NEFT, RTGS, IMPS ट्रांसफर के लिए बैंक-शाखा की अद्वितीय पहचान करता है।"
     }
 ]
