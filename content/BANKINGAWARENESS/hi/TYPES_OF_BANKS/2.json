@@ -1,178 +1,178 @@
 ﻿[
     {
-        "prompt":  "EXIM Bank of India was established in?",
-        "answers":  [
-                        "1980",
-                        "1982",
-                        "1985",
-                        "1991"
-                    ],
-        "correct":  1,
-        "explanation":  "Export-Import Bank of India (EXIM Bank) was established in 1982 to finance and facilitate India\u0027s international trade."
+        "prompt": "EXIM बैंक ऑफ इंडिया की स्थापना कब हुई?",
+        "answers": [
+            "1980",
+            "1982",
+            "1985",
+            "1991"
+        ],
+        "correct": 1,
+        "explanation": "एक्सपोर्ट-इंपोर्ट बैंक ऑफ इंडिया (EXIM बैंक) की स्थापना 1982 में भारत के अंतरराष्ट्रीय व्यापार को फाइनेंस और सुविधा प्रदान करने के लिए हुई।"
     },
     {
-        "prompt":  "Payment Banks can accept deposits up to how much per customer?",
-        "answers":  [
-                        "Rs 50,000",
-                        "Rs 1 lakh",
-                        "Rs 2 lakh",
-                        "Rs 5 lakh"
-                    ],
-        "correct":  2,
-        "explanation":  "Payment Banks can accept demand deposits only up to Rs 2 lakh per individual customer. They cannot issue loans or credit cards."
+        "prompt": "पेमेंट बैंक प्रति ग्राहक कितनी अधिकतम जमा स्वीकार कर सकते हैं?",
+        "answers": [
+            "रु 50,000",
+            "रु 1 लाख",
+            "रु 2 लाख",
+            "रु 5 लाख"
+        ],
+        "correct": 2,
+        "explanation": "पेमेंट बैंक केवल डिमांड डिपॉजिट प्रति व्यक्ति ग्राहक रु 2 लाख तक स्वीकार कर सकते हैं। वे ऋण या क्रेडिट कार्ड जारी नहीं कर सकते।"
     },
     {
-        "prompt":  "Small Finance Banks primarily serve which sector?",
-        "answers":  [
-                        "Large corporates",
-                        "MSMEs and unorganized sector",
-                        "Government only",
-                        "Foreign trade"
-                    ],
-        "correct":  1,
-        "explanation":  "Small Finance Banks are set up to provide financial inclusion to small business units, farmers, and the unorganized sector."
+        "prompt": "स्मॉल फाइनेंस बैंक मुख्य रूप से किस क्षेत्र की सेवा करते हैं?",
+        "answers": [
+            "बड़े कॉर्पोरेट",
+            "MSMEs और असंगठित क्षेत्र",
+            "केवल सरकार",
+            "विदेशी व्यापार"
+        ],
+        "correct": 1,
+        "explanation": "स्मॉल फाइनेंस बैंक छोटे व्यवसाय इकाइयों, किसानों और असंगठित क्षेत्र को वित्तीय समावेशन प्रदान करने के लिए स्थापित किए गए हैं।"
     },
     {
-        "prompt":  "Where is the headquarters of Asian Development Bank?",
-        "answers":  [
-                        "Tokyo",
-                        "Singapore",
-                        "Manila",
-                        "Beijing"
-                    ],
-        "correct":  2,
-        "explanation":  "ADB headquarters is in Manila, Philippines. ADB focuses on promoting economic and social development in Asia-Pacific."
+        "prompt": "एशियन डेवलपमेंट बैंक का मुख्यालय कहाँ है?",
+        "answers": [
+            "टोक्यो",
+            "सिंगापुर",
+            "मनीला",
+            "बीजिंग"
+        ],
+        "correct": 2,
+        "explanation": "ADB का मुख्यालय मनीला, फिलीपींस में है। ADB एशिया-प्रशांत में आर्थिक और सामाजिक विकास को बढ़ावा देने पर केंद्रित है।"
     },
     {
-        "prompt":  "New Development Bank (NDB) is also known as?",
-        "answers":  [
-                        "Asian Infrastructure Bank",
-                        "BRICS Bank",
-                        "World Bank Asia",
-                        "SAARC Bank"
-                    ],
-        "correct":  1,
-        "explanation":  "New Development Bank (NDB) is commonly called BRICS Bank. It was established by BRICS nations (Brazil, Russia, India, China, South Africa) in 2014."
+        "prompt": "न्यू डेवलपमेंट बैंक (NDB) को क्या भी कहा जाता है?",
+        "answers": [
+            "एशियन इंफ्रास्ट्रक्चर बैंक",
+            "BRICS बैंक",
+            "वर्ल्ड बैंक एशिया",
+            "SAARC बैंक"
+        ],
+        "correct": 1,
+        "explanation": "न्यू डेवलपमेंट बैंक (NDB) को आमतौर पर BRICS बैंक कहा जाता है। यह BRICS देशों (ब्राजील, रूस, भारत, चीन, दक्षिण अफ्रीका) द्वारा 2014 में स्थापित किया गया।"
     },
     {
-        "prompt":  "New Development Bank (BRICS Bank) was established in?",
-        "answers":  [
-                        "2012",
-                        "2014",
-                        "2015",
-                        "2016"
-                    ],
-        "correct":  1,
-        "explanation":  "NDB was established in July 2014 at the BRICS summit. It started operations in 2015. Headquarters is in Shanghai, China."
+        "prompt": "न्यू डेवलपमेंट बैंक (BRICS बैंक) की स्थापना कब हुई?",
+        "answers": [
+            "2012",
+            "2014",
+            "2015",
+            "2016"
+        ],
+        "correct": 1,
+        "explanation": "NDB की स्थापना जुलाई 2014 में BRICS शिखर सम्मेलन में हुई। यह 2015 में संचालन शुरू हुआ। मुख्यालय शंघाई, चीन में है।"
     },
     {
-        "prompt":  "What is the Priority Sector Lending target for domestic commercial banks?",
-        "answers":  [
-                        "30%",
-                        "35%",
-                        "40%",
-                        "45%"
-                    ],
-        "correct":  2,
-        "explanation":  "Domestic commercial banks must lend 40% of Adjusted Net Bank Credit (ANBC) to priority sector. For foreign banks, it is 40% of ANBC."
+        "prompt": "घरेलू कमर्शियल बैंकों के लिए प्राथमिक क्षेत्र उधार लक्ष्य क्या है?",
+        "answers": [
+            "30%",
+            "35%",
+            "40%",
+            "45%"
+        ],
+        "correct": 2,
+        "explanation": "घरेलू कमर्शियल बैंकों को एडजस्टेड नेट बैंक क्रेडिट (ANBC) का 40% प्राथमिक क्षेत्र को उधार देना होता है। विदेशी बैंकों के लिए भी 40% ANBC।"
     },
     {
-        "prompt":  "Which of these is a cooperative bank?",
-        "answers":  [
-                        "HDFC Bank",
-                        "State Bank of India",
-                        "District Central Cooperative Bank",
-                        "Axis Bank"
-                    ],
-        "correct":  2,
-        "explanation":  "Cooperative banks are registered under Cooperative Societies Act. They operate at primary (village), district, and state levels. DCCB is a district-level cooperative bank."
+        "prompt": "निम्नलिखित में से कौन सा सहकारी बैंक है?",
+        "answers": [
+            "HDFC बैंक",
+            "स्टेट बैंक ऑफ इंडिया",
+            "डिस्ट्रिक्ट सेंट्रल कोऑपरेटिव बैंक",
+            "एक्सिस बैंक"
+        ],
+        "correct": 2,
+        "explanation": "सहकारी बैंक सहकारी सोसायटीज एक्ट के तहत रजिस्टर्ड होते हैं। ये प्राथमिक (गाँव), जिला और राज्य स्तर पर कार्य करते हैं। DCCB जिला स्तर का सहकारी बैंक है।"
     },
     {
-        "prompt":  "RRBs are jointly owned by the Central Government, State Government, and?",
-        "answers":  [
-                        "RBI",
-                        "Sponsor bank",
-                        "NABARD",
-                        "SEBI"
-                    ],
-        "correct":  1,
-        "explanation":  "RRBs are jointly owned by Central Government (50%), State Government (15%), and sponsor bank (35%). Sponsor bank provides management support."
+        "prompt": "RRBs केंद्रीय सरकार, राज्य सरकार और किसके द्वारा संयुक्त रूप से स्वामित्व में होते हैं?",
+        "answers": [
+            "RBI",
+            "स्पॉन्सर बैंक",
+            "NABARD",
+            "SEBI"
+        ],
+        "correct": 1,
+        "explanation": "RRBs संयुक्त रूप से स्वामित्व में होते हैं: केंद्रीय सरकार (50%), राज्य सरकार (15%), और स्पॉन्सर बैंक (35%)। स्पॉन्सर बैंक प्रबंधन सहायता प्रदान करता है।"
     },
     {
-        "prompt":  "What is the minimum capital requirement for Small Finance Banks?",
-        "answers":  [
-                        "Rs 100 crore",
-                        "Rs 200 crore",
-                        "Rs 500 crore",
-                        "Rs 1000 crore"
-                    ],
-        "correct":  0,
-        "explanation":  "Small Finance Banks require minimum paid-up equity capital of Rs 200 crore. Payment Banks require Rs 100 crore."
+        "prompt": "स्मॉल फाइनेंस बैंकों के लिए न्यूनतम कैपिटल आवश्यकता क्या है?",
+        "answers": [
+            "रु 100 करोड़",
+            "रु 200 करोड़",
+            "रु 500 करोड़",
+            "रु 1000 करोड़"
+        ],
+        "correct": 0,
+        "explanation": "स्मॉल फाइनेंस बैंकों के लिए न्यूनतम पेड-अप इक्विटी कैपिटल रु 200 करोड़ है। पेमेंट बैंकों के लिए रु 100 करोड़।"
     },
     {
-        "prompt":  "Which of these is a Payment Bank in India?",
-        "answers":  [
-                        "Bandhan Bank",
-                        "India Post Payments Bank",
-                        "AU Small Finance Bank",
-                        "Jana Small Finance Bank"
-                    ],
-        "correct":  1,
-        "explanation":  "India Post Payments Bank (IPPB) is a Payment Bank. Bandhan, AU, Jana are Small Finance Banks."
+        "prompt": "भारत में निम्नलिखित में से कौन सा पेमेंट बैंक है?",
+        "answers": [
+            "बैंडहन बैंक",
+            "इंडिया पोस्ट पेमेंट्स बैंक",
+            "AU स्मॉल फाइनेंस बैंक",
+            "जना स्मॉल फाइनेंस बैंक"
+        ],
+        "correct": 1,
+        "explanation": "इंडिया पोस्ट पेमेंट्स बैंक (IPPB) एक पेमेंट बैंक है। बैंडहन, AU, जना स्मॉल फाइनेंस बैंक हैं।"
     },
     {
-        "prompt":  "Payment Banks cannot provide?",
-        "answers":  [
-                        "Savings and current accounts",
-                        "Remittance services",
-                        "Loans and credit cards",
-                        "Debit cards"
-                    ],
-        "correct":  2,
-        "explanation":  "Payment Banks cannot issue loans or credit cards. They can issue debit cards and provide remittance, bill payment services."
+        "prompt": "पेमेंट बैंक क्या प्रदान नहीं कर सकते?",
+        "answers": [
+            "बचत और करंट अकाउंट",
+            "रिमिटेंस सेवाएँ",
+            "ऋण और क्रेडिट कार्ड",
+            "डेबिट कार्ड"
+        ],
+        "correct": 2,
+        "explanation": "पेमेंट बैंक ऋण या क्रेडिट कार्ड जारी नहीं कर सकते। वे डेबिट कार्ड जारी कर सकते हैं और रिमिटेंस, बिल भुगतान सेवाएँ प्रदान कर सकते हैं।"
     },
     {
-        "prompt":  "Jana Small Finance Bank received its license in?",
-        "answers":  [
-                        "2015",
-                        "2016",
-                        "2017",
-                        "2018"
-                    ],
-        "correct":  2,
-        "explanation":  "Jana Small Finance Bank commenced operations in April 2018. It was among the 10 entities that received SFB license in 2015."
+        "prompt": "जना स्मॉल फाइनेंस बैंक ने अपना लाइसेंस कब प्राप्त किया?",
+        "answers": [
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+        ],
+        "correct": 2,
+        "explanation": "जना स्मॉल फाइनेंस बैंक ने अप्रैल 2018 में संचालन शुरू किया। यह 2015 में SFB लाइसेंस प्राप्त करने वाली 10 संस्थाओं में से एक था।"
     },
     {
-        "prompt":  "Urban Cooperative Banks (UCBs) are registered under?",
-        "answers":  [
-                        "RBI Act",
-                        "Banking Regulation Act",
-                        "Cooperative Societies Act of State/Centre",
-                        "Companies Act"
-                    ],
-        "correct":  2,
-        "explanation":  "UCBs are registered under the Cooperative Societies Act of the respective State or Multi-State Cooperative Societies Act. They are regulated by RBI."
+        "prompt": "शहरी सहकारी बैंक (UCBs) किसके तहत रजिस्टर्ड होते हैं?",
+        "answers": [
+            "RBI एक्ट",
+            "बैंकिंग रेगुलेशन एक्ट",
+            "राज्य/केंद्र का सहकारी सोसायटीज एक्ट",
+            "कंपनीज एक्ट"
+        ],
+        "correct": 2,
+        "explanation": "UCBs संबंधित राज्य के सहकारी सोसायटीज एक्ट या मल्टी-स्टेट सहकारी सोसायटीज एक्ट के तहत रजिस्टर्ड होते हैं। RBI द्वारा नियंत्रित होते हैं।"
     },
     {
-        "prompt":  "State Cooperative Banks (StCBs) operate at?",
-        "answers":  [
-                        "Village level",
-                        "District level",
-                        "State level",
-                        "National level"
-                    ],
-        "correct":  2,
-        "explanation":  "StCBs operate at the state level. District Central Cooperative Banks (DCCBs) operate at district level. PACS at village level."
+        "prompt": "स्टेट कोऑपरेटिव बैंक (StCBs) किस स्तर पर कार्य करते हैं?",
+        "answers": [
+            "गाँव स्तर",
+            "जिला स्तर",
+            "राज्य स्तर",
+            "राष्ट्रीय स्तर"
+        ],
+        "correct": 2,
+        "explanation": "StCBs राज्य स्तर पर कार्य करते हैं। डिस्ट्रिक्ट सेंट्रल कोऑपरेटिव बैंक (DCCBs) जिला स्तर पर और PACS गाँव स्तर पर कार्य करते हैं।"
     },
     {
-        "prompt":  "NABARD provides refinance for how long typically?",
-        "answers":  [
-                        "Short-term (up to 18 months)",
-                        "Medium-term (3-5 years)",
-                        "Long-term (up to 20 years)",
-                        "All of the above"
-                    ],
-        "correct":  3,
-        "explanation":  "NABARD provides short-term (crop loans), medium-term, and long-term refinance for agriculture and rural development."
+        "prompt": "NABARD सामान्यतः कितने समय के लिए रिफाइनेंस प्रदान करता है?",
+        "answers": [
+            "अल्पकालिक (18 महीने तक)",
+            "मध्यम अवधि (3-5 वर्ष)",
+            "दीर्घकालिक (20 वर्ष तक)",
+            "उपरोक्त सभी"
+        ],
+        "correct": 3,
+        "explanation": "NABARD कृषि और ग्रामीण विकास के लिए अल्पकालिक (फसल ऋण), मध्यम अवधि और दीर्घकालिक रिफाइनेंस प्रदान करता है।"
     }
 ]

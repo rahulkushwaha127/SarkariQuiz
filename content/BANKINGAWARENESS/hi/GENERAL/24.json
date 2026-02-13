@@ -1,1 +1,277 @@
-[{"prompt":"Negotiable Instruments include?","answers":["Only cheques","Promissory notes bills of exchange cheques","Only demand drafts","Only bonds"],"correct":1,"explanation":"Negotiable Instruments Act 1881 governs promissory notes, bills of exchange, and cheques."},{"prompt":"A promissory note is?","answers":["Order to pay","Promise to pay - unconditional in writing","Request to pay","Agreement to pay"],"correct":1,"explanation":"Promissory note contains unconditional promise in writing to pay a certain sum."},{"prompt":"Bill of exchange is?","answers":["Promise by maker","Order by drawer to payee to pay","Only for goods","Only for services"],"correct":1,"explanation":"Bill of exchange is unconditional order in writing to pay a certain sum."},{"prompt":"Cheque is a type of?","answers":["Promissory note","Bill of exchange drawn on banker","Bond","Debenture"],"correct":1,"explanation":"Cheque is a bill of exchange drawn on a specified banker and payable on demand."},{"prompt":"Payee in cheque is?","answers":["The drawer","The person to whom payment is to be made","The bank","The endorser"],"correct":1,"explanation":"Payee is the person in whose favour the cheque is drawn. Payment is made to payee."},{"prompt":"Endorsement means?","answers":["Signing on front","Signing on back to transfer negotiable instrument","Cancelling","Tearing"],"correct":1,"explanation":"Endorsement is signing on the back of instrument to transfer rights to another person."},{"prompt":"Bearer of cheque can get payment?","answers":["Only payee","Anyone who presents - bearer cheque","Only through account","Only at drawer branch"],"correct":1,"explanation":"Bearer cheque is payable to bearer. Anyone holding it can get payment."},{"prompt":"Order cheque is payable to?","answers":["Bearer","Named payee or order","Only drawer","Only bank"],"correct":1,"explanation":"Order cheque is payable to named person or order. Needs endorsement for transfer."},{"prompt":"Crossed cheque must be?","answers":["Encashed over counter","Collected through bank account only","Given to anyone","Torn"],"correct":1,"explanation":"Crossed cheque can only be deposited in bank account, not encashed over counter."},{"prompt":"Account payee crossing means?","answers":["Payable to bearer","Payable only to account of payee","Payable to order","No restriction"],"correct":1,"explanation":"Account payee crossing restricts payment to payee account only. Extra safety."},{"prompt":"Post-dated cheque PDC is?","answers":["Invalid","Dated for future - valid on that date","Always stale","Only for current date"],"correct":1,"explanation":"PDC has future date. It becomes payable on that date. Valid till 3 months from date."},{"prompt":"Stale cheque is?","answers":["More than 3 months old","Less than 3 months","Same day","One week old"],"correct":0,"explanation":"Cheque becomes stale after 3 months from date of issue. Bank may refuse to honour."},{"prompt":"Stop payment instruction?","answers":["Cannot be given","Drawer can ask bank to not pay cheque","Only for crossed","Only for bearer"],"correct":1,"explanation":"Drawer can instruct bank to stop payment of a cheque before it is presented."},{"prompt":"Bouncing of cheque can lead to?","answers":["No penalty","Criminal prosecution under NI Act","Only civil case","Only fine by bank"],"correct":1,"explanation":"Dishonour of cheque for insufficient funds is criminal offense under Section 138 NI Act."},{"prompt":"Section 138 of NI Act provides for?","answers":["Only civil remedy","Criminal liability for cheque bounce","Only fine","No imprisonment"],"correct":1,"explanation":"Section 138 makes cheque bounce a criminal offense. Punishment: imprisonment up to 2 years or fine or both."},{"prompt":"Demand draft is issued by?","answers":["Customer","Bank on behalf of customer","RBI","Post office only"],"correct":1,"explanation":"DD is issued by bank. It is order by one branch to another to pay specified amount."},{"prompt":"Banker cheque or pay order is?","answers":["Same as DD - payable at same branch","Only for large amount","Only for government","Only for companies"],"correct":0,"explanation":"Banker cheque is similar to DD but payable at same branch. Used for local payments."},{"prompt":"Truncated cheque means?","answers":["Cheque cancelled","Cheque image used instead of physical - in CTS","Original sent","Handwritten only"],"correct":1,"explanation":"In cheque truncation, physical cheque is truncated (stopped) and image is used for clearing."},{"prompt":"CTS was implemented to?","answers":["Increase clearing time","Reduce clearing time, faster settlement","Only for metro","Only for RTGS"],"correct":1,"explanation":"Cheque Truncation System reduces clearing time. Image-based clearing."},{"prompt":"Positive Pay requires?","answers":["Nothing","Drawer to submit cheque details to bank before presentation","Only for DD","Only for small amounts"],"correct":1,"explanation":"For cheques above Rs 50000, drawer must submit details to bank. Reduces fraud."},{"prompt":"Fraud in banking includes?","answers":["Only loan default","Identity theft, phishing, embezzlement, loan fraud","Only cyber","Only internal"],"correct":1,"explanation":"Banking fraud covers various types - identity theft, phishing, loan fraud, internal embezzlement etc."},{"prompt":"Customer can report fraud to?","answers":["Only police","Bank, police, cyber cell","Only bank","Only RBI"],"correct":1,"explanation":"Customer should report to bank immediately. Can also file police complaint, cyber complaint."},{"prompt":"Ombudsman can be approached for?","answers":["Only loan rejection","Various customer grievances - deficiency in service","Only fraud","Only NPA"],"correct":1,"explanation":"Banking Ombudsman addresses deficiency in service, non-adherence to instructions, etc."},{"prompt":"Consumer Protection Act applies to?","answers":["Only goods","Goods and services including banking","Only insurance","Only retail"],"correct":1,"explanation":"Banking is a service. Consumer Protection Act applies. Customer can approach consumer forum."},{"prompt":"RBI has mandated cooling off period for?","answers":["All products","Sensitive products - like third party insurance in loans","Only credit cards","Only FDs"],"correct":1,"explanation":"RBI has guidelines on cooling off, suitability for insurance sold with loans etc."}]
+[
+    {
+        "prompt": "नेगोशिएबल इंस्ट्रूमेंट्स में क्या शामिल है?",
+        "answers": [
+            "केवल चेक",
+            "प्रॉमिसरी नोट्स, बिल ऑफ एक्सचेंज, चेक",
+            "केवल डिमांड ड्राफ्ट",
+            "केवल बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "नेगोशिएबल इंस्ट्रूमेंट्स एक्ट 1881 प्रॉमिसरी नोट्स, बिल ऑफ एक्सचेंज और चेक को नियंत्रित करता है।"
+    },
+    {
+        "prompt": "प्रॉमिसरी नोट क्या है?",
+        "answers": [
+            "भुगतान का आदेश",
+            "भुगतान का वादा - लिखित में बिना शर्त",
+            "भुगतान का अनुरोध",
+            "भुगतान का समझौता"
+        ],
+        "correct": 1,
+        "explanation": "प्रॉमिसरी नोट में निश्चित राशि भुगतान करने का लिखित बिना शर्त वादा होता है।"
+    },
+    {
+        "prompt": "बिल ऑफ एक्सचेंज क्या है?",
+        "answers": [
+            "निर्माता द्वारा वादा",
+            "ड्रावर द्वारा पेई को भुगतान का आदेश",
+            "केवल सामान के लिए",
+            "केवल सेवाओं के लिए"
+        ],
+        "correct": 1,
+        "explanation": "बिल ऑफ एक्सचेंज निश्चित राशि भुगतान करने का लिखित बिना शर्त आदेश है।"
+    },
+    {
+        "prompt": "चेक किस प्रकार का है?",
+        "answers": [
+            "प्रॉमिसरी नोट",
+            "बैंकर पर ड्रॉन बिल ऑफ एक्सचेंज",
+            "बॉन्ड",
+            "डिबेंचर"
+        ],
+        "correct": 1,
+        "explanation": "चेक निर्दिष्ट बैंकर पर ड्रॉन बिल ऑफ एक्सचेंज है और मांग पर देय है।"
+    },
+    {
+        "prompt": "चेक में पेई कौन है?",
+        "answers": [
+            "ड्रावर",
+            "भुगतान जिसके पक्ष में किया जाना है",
+            "बैंक",
+            "एंडोर्सर"
+        ],
+        "correct": 1,
+        "explanation": "पेई वह व्यक्ति है जिसके पक्ष में चेक ड्रॉन है। भुगतान पेई को किया जाता है।"
+    },
+    {
+        "prompt": "एंडोर्समेंट का अर्थ है?",
+        "answers": [
+            "फ्रंट पर हस्ताक्षर",
+            "ट्रांसफर करने के लिए बैक पर हस्ताक्षर - नेगोशिएबल इंस्ट्रूमेंट",
+            "रद्द करना",
+            "फाड़ना"
+        ],
+        "correct": 1,
+        "explanation": "एंडोर्समेंट इंस्ट्रूमेंट के बैक पर हस्ताक्षर है अधिकारों को दूसरे व्यक्ति को ट्रांसफर करने के लिए।"
+    },
+    {
+        "prompt": "चेक का बियरर भुगतान प्राप्त कर सकता है?",
+        "answers": [
+            "केवल पेई",
+            "कोई भी जो पेश करता है - बियरर चेक",
+            "केवल खाते के माध्यम से",
+            "केवल ड्रावर शाखा पर"
+        ],
+        "correct": 1,
+        "explanation": "बियरर चेक बियरर को देय है। इसे रखने वाला कोई भी भुगतान प्राप्त कर सकता है।"
+    },
+    {
+        "prompt": "ऑर्डर चेक किसे देय है?",
+        "answers": [
+            "बियरर",
+            "नामित पेई या ऑर्डर",
+            "केवल ड्रावर",
+            "केवल बैंक"
+        ],
+        "correct": 1,
+        "explanation": "ऑर्डर चेक नामित व्यक्ति या ऑर्डर को देय है। ट्रांसफर के लिए एंडोर्समेंट की आवश्यकता।"
+    },
+    {
+        "prompt": "क्रॉस्ड चेक होना चाहिए?",
+        "answers": [
+            "काउंटर पर एनकैश",
+            "केवल बैंक खाते में जमा",
+            "किसी को दिया",
+            "फाड़ा"
+        ],
+        "correct": 1,
+        "explanation": "क्रॉस्ड चेक केवल बैंक खाते में जमा किया जा सकता है, काउंटर पर एनकैश नहीं।"
+    },
+    {
+        "prompt": "अकाउंट पेई क्रॉसिंग का अर्थ है?",
+        "answers": [
+            "बियरर को देय",
+            "केवल पेई के खाते में देय",
+            "ऑर्डर को देय",
+            "कोई प्रतिबंध नहीं"
+        ],
+        "correct": 1,
+        "explanation": "अकाउंट पेई क्रॉसिंग भुगतान को केवल पेई खाते तक सीमित करता है। अतिरिक्त सुरक्षा।"
+    },
+    {
+        "prompt": "पोस्ट-डेटेड चेक (PDC) क्या है?",
+        "answers": [
+            "अमान्य",
+            "भविष्य की तिथि वाला - उस तिथि पर वैध",
+            "हमेशा स्टेल",
+            "केवल वर्तमान तिथि के लिए"
+        ],
+        "correct": 1,
+        "explanation": "PDC में भविष्य की तिथि होती है। वह तिथि पर देय होता है। तिथि से 3 महीने तक वैध।"
+    },
+    {
+        "prompt": "स्टेल चेक क्या है?",
+        "answers": [
+            "3 महीने से अधिक पुराना",
+            "3 महीने से कम",
+            "उसी दिन",
+            "एक सप्ताह पुराना"
+        ],
+        "correct": 0,
+        "explanation": "चेक जारी तिथि से 3 महीने बाद स्टेल हो जाता है। बैंक सम्मान करने से मना कर सकता है।"
+    },
+    {
+        "prompt": "स्टॉप पेमेंट निर्देश?",
+        "answers": [
+            "दिया नहीं जा सकता",
+            "ड्रावर बैंक से चेक न भुगतान करने को कह सकता है",
+            "केवल क्रॉस्ड के लिए",
+            "केवल बियरर के लिए"
+        ],
+        "correct": 1,
+        "explanation": "ड्रावर चेक पेश होने से पहले बैंक को स्टॉप पेमेंट निर्देश दे सकता है।"
+    },
+    {
+        "prompt": "चेक बाउंसिंग से क्या हो सकता है?",
+        "answers": [
+            "कोई दंड नहीं",
+            "NI एक्ट के तहत आपराधिक अभियोजन",
+            "केवल सिविल केस",
+            "केवल बैंक द्वारा जुर्माना"
+        ],
+        "correct": 1,
+        "explanation": "अपर्याप्त फंड के लिए चेक का असम्मान NI एक्ट की धारा 138 के तहत आपराधिक अपराध है।"
+    },
+    {
+        "prompt": "NI एक्ट की धारा 138 क्या प्रदान करती है?",
+        "answers": [
+            "केवल सिविल उपचार",
+            "चेक बाउंस के लिए आपराधिक देयता",
+            "केवल जुर्माना",
+            "कोई कारावास नहीं"
+        ],
+        "correct": 1,
+        "explanation": "धारा 138 चेक बाउंस को आपराधिक अपराध बनाती है। सजा: 2 वर्ष तक कारावास या जुर्माना या दोनों।"
+    },
+    {
+        "prompt": "डिमांड ड्राफ्ट किसके द्वारा जारी किया जाता है?",
+        "answers": [
+            "ग्राहक",
+            "ग्राहक की ओर से बैंक",
+            "RBI",
+            "केवल पोस्ट ऑफिस"
+        ],
+        "correct": 1,
+        "explanation": "DD बैंक द्वारा जारी किया जाता है। यह एक शाखा द्वारा दूसरी शाखा को निर्दिष्ट राशि भुगतान का आदेश है।"
+    },
+    {
+        "prompt": "बैंकर चेक या पे ऑर्डर क्या है?",
+        "answers": [
+            "DD के समान - उसी शाखा पर देय",
+            "केवल बड़ी राशि के लिए",
+            "केवल सरकार के लिए",
+            "केवल कंपनियों के लिए"
+        ],
+        "correct": 0,
+        "explanation": "बैंकर चेक DD के समान है लेकिन उसी शाखा पर देय है। स्थानीय भुगतानों के लिए उपयोग होता है।"
+    },
+    {
+        "prompt": "ट्रंकेटेड चेक का अर्थ है?",
+        "answers": [
+            "चेक रद्द",
+            "भौतिक चेक की जगह इमेज उपयोग - CTS में",
+            "मूल भेजा गया",
+            "केवल हैंडराइटन"
+        ],
+        "correct": 1,
+        "explanation": "चेक ट्रंकेशन में भौतिक चेक रोका (ट्रंकेट) जाता है और क्लियरिंग के लिए इमेज उपयोग की जाती है।"
+    },
+    {
+        "prompt": "CTS लागू किया गया था किसके लिए?",
+        "answers": [
+            "क्लियरिंग समय बढ़ाना",
+            "क्लियरिंग समय कम करना, तेज सेटलमेंट",
+            "केवल मेट्रो के लिए",
+            "केवल RTGS के लिए"
+        ],
+        "correct": 1,
+        "explanation": "चेक ट्रंकेशन सिस्टम क्लियरिंग समय कम करता है। इमेज-आधारित क्लियरिंग।"
+    },
+    {
+        "prompt": "पॉजिटिव पे में क्या आवश्यक है?",
+        "answers": [
+            "कुछ नहीं",
+            "ड्रावर को चेक विवरण बैंक को पेश होने से पहले जमा करना",
+            "केवल DD के लिए",
+            "केवल छोटी राशियों के लिए"
+        ],
+        "correct": 1,
+        "explanation": "रु 50,000 से अधिक चेकों के लिए ड्रावर को विवरण बैंक को जमा करना होता है। धोखाधड़ी कम करता है।"
+    },
+    {
+        "prompt": "बैंकिंग में फ्रॉड में क्या शामिल है?",
+        "answers": [
+            "केवल ऋण डिफॉल्ट",
+            "पहचान चोरी, फिशिंग, एम्बेजलमेंट, ऋण फ्रॉड",
+            "केवल साइबर",
+            "केवल आंतरिक"
+        ],
+        "correct": 1,
+        "explanation": "बैंकिंग फ्रॉड में विभिन्न प्रकार शामिल हैं - पहचान चोरी, फिशिंग, ऋण फ्रॉड, आंतरिक एम्बेजलमेंट आदि।"
+    },
+    {
+        "prompt": "ग्राहक फ्रॉड की रिपोर्ट कहाँ कर सकता है?",
+        "answers": [
+            "केवल पुलिस",
+            "बैंक, पुलिस, साइबर सेल",
+            "केवल बैंक",
+            "केवल RBI"
+        ],
+        "correct": 1,
+        "explanation": "ग्राहक को तुरंत बैंक को रिपोर्ट करना चाहिए। पुलिस शिकायत, साइबर शिकायत भी दर्ज कर सकता है।"
+    },
+    {
+        "prompt": "ओम्बड्समैन से संपर्क किसके लिए किया जा सकता है?",
+        "answers": [
+            "केवल ऋण अस्वीकृति",
+            "विभिन्न ग्राहक शिकायतें - सेवा में कमी",
+            "केवल फ्रॉड",
+            "केवल NPA"
+        ],
+        "correct": 1,
+        "explanation": "बैंकिंग ओम्बड्समैन सेवा में कमी, निर्देशों का पालन न करने आदि को संबोधित करता है।"
+    },
+    {
+        "prompt": "कंज्यूमर प्रोटेक्शन एक्ट किस पर लागू होता है?",
+        "answers": [
+            "केवल सामान",
+            "सामान और सेवाएँ जिसमें बैंकिंग शामिल",
+            "केवल बीमा",
+            "केवल खुदरा"
+        ],
+        "correct": 1,
+        "explanation": "बैंकिंग एक सेवा है। कंज्यूमर प्रोटेक्शन एक्ट लागू होता है। ग्राहक कंज्यूमर फोरम जा सकता है।"
+    },
+    {
+        "prompt": "RBI ने किसके लिए कूलिंग ऑफ पीरियड अनिवार्य किया है?",
+        "answers": [
+            "सभी उत्पाद",
+            "संवेदनशील उत्पाद - जैसे ऋण के साथ थर्ड पार्टी बीमा",
+            "केवल क्रेडिट कार्ड",
+            "केवल FD"
+        ],
+        "correct": 1,
+        "explanation": "RBI ने ऋण के साथ बेचे गए बीमा आदि के लिए कूलिंग ऑफ, सूटेबिलिटी दिशानिर्देश दिए हैं।"
+    }
+]

@@ -1,211 +1,123 @@
 ﻿[
     {
-        "prompt":  "RBI has mandated creation of stressed asset management vertical in banks?",
-        "answers":  [
-                        "No",
-                        "Yes for better NPA resolution",
-                        "Only for PSBs",
-                        "Only for large banks"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI has mandated banks to have dedicated stressed asset management vertical for resolution."
+        "prompt": "RBI ने बैंकों में स्ट्रेस्ड एसेट मैनेजमेंट वर्टिकल बनाने को अनिवार्य किया है?",
+        "answers": [
+            "नहीं",
+            "हाँ बेहतर NPA समाधान के लिए",
+            "केवल PSBs के लिए",
+            "केवल बड़े बैंकों के लिए"
+        ],
+        "correct": 1,
+        "explanation": "RBI ने बैंकों को समर्पित स्ट्रेस्ड एसेट मैनेजमेंट वर्टिकल रखने को अनिवार्य किया है समाधान के लिए।"
     },
     {
-        "prompt":  "RBI has asked banks to disclose divergence?",
-        "answers":  [
-                        "No",
-                        "Yes if material",
-                        "Only for PSBs",
-                        "Never"
-                    ],
-        "correct":  1,
-        "explanation":  "Banks must disclose asset classification and provisioning divergence if it exceeds 15 percent of bank declared profit."
+        "prompt": "RBI ने बैंकों से विचलन का खुलासा करने को कहा है?",
+        "answers": [
+            "नहीं",
+            "हाँ यदि महत्वपूर्ण",
+            "केवल PSBs के लिए",
+            "कभी नहीं"
+        ],
+        "correct": 1,
+        "explanation": "बैंक एसेट क्लासिफिकेशन और प्रावधान विचलन का खुलासा करना चाहिए यदि यह बैंक द्वारा घोषित लाभ के 15 प्रतिशत से अधिक हो।"
     },
     {
-        "prompt":  "RBI has set up Financial Literacy Centers at?",
-        "answers":  [
-                        "RBI offices only",
-                        "Lead bank branches",
-                        "All bank branches",
-                        "Only urban"
-                    ],
-        "correct":  1,
-        "explanation":  "FLCs are set up at lead bank branches. They educate people on banking and finance."
+        "prompt": "RBI ने फाइनेंशियल लिटरेसी सेंटर्स कहाँ स्थापित किए हैं?",
+        "answers": [
+            "केवल RBI कार्यालयों में",
+            "लीड बैंक शाखाओं में",
+            "सभी बैंक शाखाओं में",
+            "केवल शहरी"
+        ],
+        "correct": 1,
+        "explanation": "FLCs लीड बैंक शाखाओं में स्थापित हैं। वे लोगों को बैंकिंग और वित्त पर शिक्षित करते हैं।"
     },
     {
-        "prompt":  "RBI can supersede UCB board?",
-        "answers":  [
-                        "No",
-                        "Yes under BR Act in depositor interest",
-                        "Only with state permission",
-                        "Only for large UCBs"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI can supersede board of cooperative banks (including UCB) under Banking Regulation Act."
+        "prompt": "RBI UCB बोर्ड को सुपरसीड कर सकता है?",
+        "answers": [
+            "नहीं",
+            "हाँ BR एक्ट के तहत जमाकर्ता हित में",
+            "केवल राज्य अनुमति से",
+            "केवल बड़े UCBs के लिए"
+        ],
+        "correct": 1,
+        "explanation": "RBI बैंकिंग रेगुलेशन एक्ट के तहत सहकारी बैंकों (UCB सहित) के बोर्ड को सुपरसीड कर सकता है।"
     },
     {
-        "prompt":  "RBI has mandated cooling off period for?",
-        "answers":  [
-                        "All products",
-                        "Sensitive products - like third party insurance in loans",
-                        "Only credit cards",
-                        "Only FDs"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI has guidelines on cooling off, suitability for insurance sold with loans etc."
+        "prompt": "RBI ने किसके लिए कूलिंग ऑफ पीरियड अनिवार्य किया है?",
+        "answers": [
+            "सभी उत्पाद",
+            "संवेदनशील उत्पाद - जैसे थर्ड पार्टी बीमा ऋणों में",
+            "केवल क्रेडिट कार्ड",
+            "केवल FD"
+        ],
+        "correct": 1,
+        "explanation": "RBI ने ऋण के साथ बेचे गए बीमा आदि के लिए कूलिंग ऑफ, सूटेबिलिटी दिशानिर्देश दिए हैं।"
     },
     {
-        "prompt":  "RBI has asked banks to ensure suitability of?",
-        "answers":  [
-                        "Only loans",
-                        "Third party products - right product for customer",
-                        "Only deposits",
-                        "Only cards"
-                    ],
-        "correct":  1,
-        "explanation":  "Banks must ensure third party product is suitable for customer. Avoid mis-selling."
+        "prompt": "RBI ने बैंकों से क्या सुनिश्चित करने को कहा है?",
+        "answers": [
+            "केवल ऋण",
+            "थर्ड पार्टी उत्पाद - ग्राहक के लिए सही उत्पाद",
+            "केवल जमा",
+            "केवल कार्ड"
+        ],
+        "correct": 1,
+        "explanation": "बैंकों को थर्ड पार्टी उत्पादों की सूटेबिलिटी सुनिश्चित करनी चाहिए - मिस-सेलिंग से बचें।"
     },
     {
-        "prompt":  "RBI was initially a private bank?",
-        "answers":  [
-                        "Yes",
-                        "No",
-                        "Only for Pakistan",
-                        "Only since 1949"
-                    ],
-        "correct":  0,
-        "explanation":  "RBI was set up as private bank in 1935. Nationalized in 1949."
+        "prompt": "RBI के कितने बैंकिंग ओम्बड्समैन कार्यालय हैं?",
+        "answers": [
+            "19",
+            "22",
+            "25",
+            "31"
+        ],
+        "correct": 1,
+        "explanation": "RBI के 22 बैंकिंग ओम्बड्समैन कार्यालय भारत भर में हैं, सामान्यतः क्षेत्रीय कार्यालयों के साथ संरेखित।"
     },
     {
-        "prompt":  "Imperial Bank acted as government banker before RBI?",
-        "answers":  [
-                        "Yes",
-                        "No",
-                        "Only for states",
-                        "Never"
-                    ],
-        "correct":  0,
-        "explanation":  "Imperial Bank acted as government banker before RBI."
+        "prompt": "RBI का 'ऑन टैप' लाइसेंसिंग का अर्थ है?",
+        "answers": [
+            "बैंक कभी भी खोल सकते हैं",
+            "यूनिवर्सल बैंक लाइसेंस पूरे वर्ष उपलब्ध",
+            "केवल विदेशी बैंकों के लिए",
+            "केवल एक वर्ष के लिए लाइसेंस"
+        ],
+        "correct": 1,
+        "explanation": "'ऑन टैप' लाइसेंसिंग का अर्थ है यूनिवर्सल बैंक और SFB लाइसेंस के लिए आवेदन किसी भी समय जमा किए जा सकते हैं, न कि विशिष्ट विंडो में।"
     },
     {
-        "prompt":  "Central Bank of India HQ?",
-        "answers":  [
-                        "Mumbai",
-                        "New Delhi",
-                        "Kolkata",
-                        "Nagpur"
-                    ],
-        "correct":  0,
-        "explanation":  "Central Bank of India HQ is in Mumbai."
+        "prompt": "RBI का लिक्विडिटी कवरेज रेशियो (LCR) सुनिश्चित करता है कि बैंक रखें?",
+        "answers": [
+            "न्यूनतम कैपिटल",
+            "30-दिन स्ट्रेस के लिए हाई-क्वालिटी लिक्विड एसेट्स",
+            "अधिकतम CRR",
+            "फिक्स्ड SLR"
+        ],
+        "correct": 1,
+        "explanation": "बेसल III के तहत LCR बैंकों को 30-दिन स्ट्रेस फंडिंग परिदृश्य में बचने के लिए पर्याप्त हाई-क्वालिटी लिक्विड एसेट्स रखने की आवश्यकता है।"
     },
     {
-        "prompt":  "Monetary policy is set by?",
-        "answers":  [
-                        "Government",
-                        "RBI",
-                        "SEBI",
-                        "Finance Ministry"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI formulates and implements monetary policy in India."
+        "prompt": "एसेट क्वालिटी रिव्यू (AQR) RBI द्वारा कब आयोजित किया गया?",
+        "answers": [
+            "2013",
+            "2014",
+            "2015",
+            "2016"
+        ],
+        "correct": 2,
+        "explanation": "RBI ने 2015 में बैंकों में AQR आयोजित किया तनावपूर्ण संपत्तियों को उजागर करने और उचित NPA क्लासिफिकेशन सुनिश्चित करने के लिए। इससे रिपोर्टेड NPA में वृद्धि हुई।"
     },
     {
-        "prompt":  "RBI uses liquidity tools to?",
-        "answers":  [
-                        "Only control inflation",
-                        "Manage money supply and overnight rates",
-                        "Only forex",
-                        "Only CRR"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI uses LAF, OMO, CRR, etc. to manage liquidity and keep overnight rates near repo."
-    },
-    {
-        "prompt":  "When RBI cuts repo by 25 bps?",
-        "answers":  [
-                        "No change",
-                        "Repo falls by 0.25 percent",
-                        "Repo rises by 0.25 percent",
-                        "Only MSF changes"
-                    ],
-        "correct":  1,
-        "explanation":  "25 basis points = 0.25 percentage point. Repo 6.5% to 6.25% is 25 bps cut."
-    },
-    {
-        "prompt":  "RBI\u0027s prompt corrective action (PCA) framework is applied to?",
-        "answers":  [
-                        "All banks",
-                        "Banks with weak financials",
-                        "Only private banks",
-                        "Only foreign banks"
-                    ],
-        "correct":  1,
-        "explanation":  "PCA framework is applied to banks that breach certain thresholds on capital, asset quality, and profitability. It restricts their operations until improvement."
-    },
-    {
-        "prompt":  "RBI issues guidelines and circulars to?",
-        "answers":  [
-                        "Only government",
-                        "Regulated entities (banks, NBFCs) for compliance",
-                        "Only public",
-                        "Only SEBI"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI issues guidelines, circulars, and directions to banks and NBFCs to ensure regulatory compliance, prudential norms, and consumer protection."
-    },
-    {
-        "prompt":  "How many Banking Ombudsman offices does RBI have?",
-        "answers":  [
-                        "19",
-                        "22",
-                        "25",
-                        "31"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI has 22 Banking Ombudsman offices across India, generally aligned with regional office locations."
-    },
-    {
-        "prompt":  "RBI\u0027s \u0027On Tap\u0027 licensing means?",
-        "answers":  [
-                        "Banks can open anytime",
-                        "Universal bank license available throughout the year",
-                        "Only for foreign banks",
-                        "License for one year only"
-                    ],
-        "correct":  1,
-        "explanation":  "\u0027On Tap\u0027 licensing means applications for universal bank and SFB licenses can be submitted any time, not just during specific windows."
-    },
-    {
-        "prompt":  "RBI\u0027s Liquidity Coverage Ratio (LCR) ensures banks maintain?",
-        "answers":  [
-                        "Minimum capital",
-                        "High-quality liquid assets for 30-day stress",
-                        "Maximum CRR",
-                        "Fixed SLR"
-                    ],
-        "correct":  1,
-        "explanation":  "LCR under Basel III requires banks to hold sufficient high-quality liquid assets to survive a 30-day stressed funding scenario."
-    },
-    {
-        "prompt":  "Asset Quality Review (AQR) was conducted by RBI in?",
-        "answers":  [
-                        "2013",
-                        "2014",
-                        "2015",
-                        "2016"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI conducted AQR in 2015 across banks to uncover stressed assets and ensure proper NPA classification. It led to spike in reported NPAs."
-    },
-    {
-        "prompt":  "RBI maintains the Central Repository of Information on Large Credits (CRILC) for?",
-        "answers":  [
-                        "Retail loans",
-                        "Exposure of Rs 5 crore and above",
-                        "Only agriculture loans",
-                        "Only housing loans"
-                    ],
-        "correct":  1,
-        "explanation":  "CRILC collects credit information on borrowers with exposure of Rs 5 crore and above from all scheduled commercial banks and select NBFCs."
+        "prompt": "RBI बड़े क्रेडिट्स पर जानकारी का सेंट्रल रिपॉजिटरी (CRILC) किसके लिए रखता है?",
+        "answers": [
+            "रिटेल लोन",
+            "रु 5 करोड़ और ऊपर की एक्सपोजर",
+            "केवल कृषि लोन",
+            "केवल आवास लोन"
+        ],
+        "correct": 1,
+        "explanation": "CRILC सभी शेड्यूल्ड कमर्शियल बैंकों और चुनिंदा NBFCs से रु 5 करोड़ और ऊपर एक्सपोजर वाले उधारकर्ताओं पर क्रेडिट जानकारी एकत्र करता है।"
     }
 ]

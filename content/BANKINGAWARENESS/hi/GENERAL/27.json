@@ -1,1 +1,277 @@
-[{"prompt":"Financial inclusion means?","answers":["Only urban banking","Access to affordable financial services for all","Only rural branches","Only government schemes"],"correct":1,"explanation":"Financial inclusion ensures all individuals and businesses have access to useful, affordable financial products and services."},{"prompt":"Zero Balance Account under PMJDY has?","answers":["Minimum Rs 100","No minimum balance requirement","Rs 500 minimum","Rs 1000 minimum"],"correct":1,"explanation":"PMJDY accounts can be opened with zero balance. No minimum balance requirement."},{"prompt":"RuPay card under PMJDY offers accident insurance of?","answers":["Rs 30000","Rs 1 lakh","Rs 2 lakh","Rs 5 lakh"],"correct":1,"explanation":"RuPay debit card issued under PMJDY provides Rs 1 lakh accident insurance cover."},{"prompt":"How many PMJDY accounts were opened in first year?","answers":["5 crore","Over 12 crore","20 crore","50 crore"],"correct":1,"explanation":"Within first year of PMJDY launch, over 12 crore accounts were opened."},{"prompt":"Jan Dhan to Jan Suraksha includes?","answers":["Only PMJDY","PMJDY PMSBY PMJJBY APY","Only insurance","Only pension"],"correct":1,"explanation":"Jan Dhan to Jan Suraksha paradigm includes PMJDY, PMSBY, PMJJBY, and APY for social security."},{"prompt":"Pradhan Mantri Vaya Vandana Yojana is for?","answers":["Children","Senior citizens - pension scheme","Women only","Farmers"],"correct":1,"explanation":"PMVVY is a pension scheme for senior citizens (60 years and above) offered by LIC."},{"prompt":"Atal Pension Yojana was launched in?","answers":["2014","2015","2016","2017"],"correct":1,"explanation":"APY was launched in May 2015. It provides guaranteed pension from 60 years."},{"prompt":"Sukanya Samriddhi Yojana can be opened for?","answers":["Any girl","Girl child below 10 years","Only rural","Only urban"],"correct":1,"explanation":"SSY can be opened for girl child below 10 years. Account matures at 21 years or marriage after 18."},{"prompt":"Public Provident Fund PPF has tenure of?","answers":["5 years","10 years","15 years","20 years"],"correct":2,"explanation":"PPF has a maturity period of 15 years. Can be extended in blocks of 5 years."},{"prompt":"PPF maximum deposit per year is?","answers":["Rs 1 lakh","Rs 1.5 lakh","Rs 2 lakh","Rs 5 lakh"],"correct":1,"explanation":"PPF maximum deposit is Rs 1.5 lakh per financial year. Minimum Rs 500."},{"prompt":"Senior Citizens Savings Scheme SCSS has maximum deposit of?","answers":["Rs 5 lakh","Rs 15 lakh","Rs 30 lakh","Rs 50 lakh"],"correct":2,"explanation":"SCSS allows maximum deposit of Rs 30 lakh (including in multiple accounts). Age 60 or above (55 for VRS)."},{"prompt":"National Savings Certificate NSC has tenure of?","answers":["3 years","5 years","7 years","10 years"],"correct":1,"explanation":"NSC VIII issue has 5 year tenure. Interest compounds annually. Tax benefit under 80C."},{"prompt":"Kisan Vikas Patra KVP doubles in?","answers":["100 months","113 months","120 months","150 months"],"correct":0,"explanation":"KVP doubles the investment in 100 months (approx 8 years 4 months)."},{"prompt":"Post Office Monthly Income Scheme has maximum limit of?","answers":["Rs 3 lakh single Rs 6 lakh joint","Rs 5 lakh Rs 10 lakh","Rs 9 lakh Rs 15 lakh","Rs 15 lakh Rs 30 lakh"],"correct":2,"explanation":"POMIS: Single Rs 9 lakh, Joint Rs 15 lakh. 5 year maturity."},{"prompt":"Recurring Deposit in post office has max tenure of?","answers":["3 years","5 years","10 years","15 years"],"correct":1,"explanation":"Post office RD has 5 year tenure. Monthly deposits. Interest paid on maturity."},{"prompt":"Mahila Samman Savings Certificate allows deposit up to?","answers":["Rs 1 lakh","Rs 2 lakh","Rs 5 lakh","Rs 10 lakh"],"correct":1,"explanation":"MSSC (2023) allows women to deposit up to Rs 2 lakh. 2 year tenure. 7.5% interest."},{"prompt":"Bank passbook is?","answers":["Optional","Record of transactions - can be replaced by statement","Not needed for savings","Only for current account"],"correct":1,"explanation":"Passbook records transactions. Many banks offer e-passbook or statements instead."},{"prompt":"Account statement from bank shows?","answers":["Only balance","All transactions credits debits balance","Only debits","Only credits"],"correct":1,"explanation":"Bank statement shows all transactions (deposits, withdrawals) and running balance."},{"prompt":"Dormant account is one with?","answers":["No transactions for 2 years","No transactions for 1 year","Negative balance","Closed"],"correct":0,"explanation":"Account with no customer-initiated transactions for 2 years is classified as dormant/inoperative."},{"prompt":"Inoperative account can be reactivated by?","answers":["Cannot be reactivated","Submitting KYC and request to bank","Only by closing","Only by RBI"],"correct":1,"explanation":"Customer can reactivate dormant account by submitting KYC and written request. Bank may charge for reactivation."},{"prompt":"Nominations in bank account help in?","answers":["Getting loan","Smooth transfer to nominee on death","Higher interest","Tax benefit"],"correct":1,"explanation":"Nomination simplifies transfer of account balance to nominee on account holder death."},{"prompt":"Bank can charge for non-maintenance of minimum balance in?","answers":["BSBD account","Regular savings account","Both","Neither"],"correct":1,"explanation":"Banks cannot charge for non-maintenance of minimum balance in BSBD (Basic Savings) accounts. Can charge for regular savings."},{"prompt":"Zero balance facility is mandatory in?","answers":["All accounts","BSBD and PMJDY type accounts","Only current","Only FD"],"correct":1,"explanation":"BSBD and PMJDY accounts have zero balance facility. Banks cannot insist on minimum in these."},{"prompt":"Fingerprint as biometric for AePS is?","answers":["Optional","Standard - with Aadhaar","Not used","Only for iris"],"correct":1,"explanation":"AePS uses Aadhaar number with fingerprint or IRIS as biometric for authentication."},{"prompt":"JAM Trinity was emphasized by?","answers":["Raja Chelliah","Economic Survey and government","Only RBI","Only NABARD"],"correct":1,"explanation":"JAM (Jan Dhan-Aadhaar-Mobile) was emphasized in Economic Survey and government policy for efficient DBT."}]
+[
+    {
+        "prompt": "फाइनेंशियल इनक्लूजन का अर्थ है?",
+        "answers": [
+            "केवल शहरी बैंकिंग",
+            "सभी के लिए सस्ती वित्तीय सेवाओं तक पहुँच",
+            "केवल ग्रामीण शाखाएँ",
+            "केवल सरकारी योजनाएँ"
+        ],
+        "correct": 1,
+        "explanation": "फाइनेंशियल इनक्लूजन सुनिश्चित करता है कि सभी व्यक्तियों और व्यवसायों को उपयोगी, सस्ती वित्तीय उत्पाद और सेवाएँ मिलें।"
+    },
+    {
+        "prompt": "PMJDY के तहत जीरो बैलेंस अकाउंट में क्या है?",
+        "answers": [
+            "न्यूनतम रु 100",
+            "कोई न्यूनतम बैलेंस आवश्यकता नहीं",
+            "रु 500 न्यूनतम",
+            "रु 1000 न्यूनतम"
+        ],
+        "correct": 1,
+        "explanation": "PMJDY खाते जीरो बैलेंस से खोले जा सकते हैं। कोई न्यूनतम बैलेंस आवश्यकता नहीं।"
+    },
+    {
+        "prompt": "PMJDY के तहत रुपे कार्ड में दुर्घटना बीमा कितना है?",
+        "answers": [
+            "रु 30000",
+            "रु 1 लाख",
+            "रु 2 लाख",
+            "रु 5 लाख"
+        ],
+        "correct": 1,
+        "explanation": "PMJDY के तहत जारी रुपे डेबिट कार्ड में रु 1 लाख दुर्घटना बीमा कवर है।"
+    },
+    {
+        "prompt": "PMJDY की पहली वर्ष में कितने खाते खोले गए?",
+        "answers": [
+            "5 करोड़",
+            "12 करोड़ से अधिक",
+            "20 करोड़",
+            "50 करोड़"
+        ],
+        "correct": 1,
+        "explanation": "PMJDY लॉन्च के पहले वर्ष में 12 करोड़ से अधिक खाते खोले गए।"
+    },
+    {
+        "prompt": "जन धन से जन सुरक्षा में क्या शामिल है?",
+        "answers": [
+            "केवल PMJDY",
+            "PMJDY, PMSBY, PMJJBY, APY",
+            "केवल बीमा",
+            "केवल पेंशन"
+        ],
+        "correct": 1,
+        "explanation": "जन धन से जन सुरक्षा पैराडाइम में PMJDY, PMSBY, PMJJBY और APY सामाजिक सुरक्षा के लिए शामिल हैं।"
+    },
+    {
+        "prompt": "प्रधानमंत्री वय वंदना योजना किसके लिए है?",
+        "answers": [
+            "बच्चे",
+            "वरिष्ठ नागरिक - पेंशन योजना",
+            "केवल महिलाएँ",
+            "किसान"
+        ],
+        "correct": 1,
+        "explanation": "PMVVY 60 वर्ष और उससे अधिक उम्र के वरिष्ठ नागरिकों के लिए LIC द्वारा पेंशन योजना है।"
+    },
+    {
+        "prompt": "अटल पेंशन योजना कब शुरू हुई?",
+        "answers": [
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+        ],
+        "correct": 1,
+        "explanation": "APY मई 2015 में शुरू हुई। 60 वर्ष से गारंटीड पेंशन प्रदान करती है।"
+    },
+    {
+        "prompt": "सुकन्या समृद्धि योजना किसके लिए खोली जा सकती है?",
+        "answers": [
+            "किसी भी लड़की के लिए",
+            "10 वर्ष से कम उम्र की लड़की बच्ची के लिए",
+            "केवल ग्रामीण",
+            "केवल शहरी"
+        ],
+        "correct": 1,
+        "explanation": "SSY 10 वर्ष से कम उम्र की लड़की बच्ची के लिए खोली जा सकती है। 21 वर्ष या 18 वर्ष के बाद विवाह पर मैच्योर।"
+    },
+    {
+        "prompt": "पब्लिक प्रोविडेंट फंड (PPF) की अवधि कितनी है?",
+        "answers": [
+            "5 वर्ष",
+            "10 वर्ष",
+            "15 वर्ष",
+            "20 वर्ष"
+        ],
+        "correct": 2,
+        "explanation": "PPF की मैच्योरिटी अवधि 15 वर्ष है। 5 वर्ष के ब्लॉक में बढ़ाई जा सकती है।"
+    },
+    {
+        "prompt": "PPF में प्रति वर्ष अधिकतम जमा कितना?",
+        "answers": [
+            "रु 1 लाख",
+            "रु 1.5 लाख",
+            "रु 2 लाख",
+            "रु 5 लाख"
+        ],
+        "correct": 1,
+        "explanation": "PPF में प्रति वित्तीय वर्ष अधिकतम जमा रु 1.5 लाख है। न्यूनतम रु 500।"
+    },
+    {
+        "prompt": "सीनियर सिटिजन्स सेविंग्स स्कीम (SCSS) में अधिकतम जमा कितना?",
+        "answers": [
+            "रु 5 लाख",
+            "रु 15 लाख",
+            "रु 30 लाख",
+            "रु 50 लाख"
+        ],
+        "correct": 2,
+        "explanation": "SCSS में अधिकतम जमा रु 30 लाख (एक से अधिक खातों में भी)। उम्र 60+ (VRS के लिए 55)।"
+    },
+    {
+        "prompt": "नेशनल सेविंग्स सर्टिफिकेट (NSC) की अवधि कितनी है?",
+        "answers": [
+            "3 वर्ष",
+            "5 वर्ष",
+            "7 वर्ष",
+            "10 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "NSC VIII इश्यू की 5 वर्ष अवधि। ब्याज वार्षिक कंपाउंड। 80C के तहत कर लाभ।"
+    },
+    {
+        "prompt": "किसान विकास पत्र (KVP) कितने समय में दोगुना होता है?",
+        "answers": [
+            "100 महीने",
+            "113 महीने",
+            "120 महीने",
+            "150 महीने"
+        ],
+        "correct": 0,
+        "explanation": "KVP निवेश को लगभग 100 महीनों (8 वर्ष+) में दोगुना करता है।"
+    },
+    {
+        "prompt": "पोस्ट ऑफिस मंथली इनकम स्कीम (POMIS) की एकल/संयुक्त अधिकतम सीमा?",
+        "answers": [
+            "रु 3 लाख एकल रु 6 लाख संयुक्त",
+            "रु 5 लाख रु 10 लाख",
+            "रु 9 लाख रु 15 लाख",
+            "रु 15 लाख रु 30 लाख"
+        ],
+        "correct": 2,
+        "explanation": "POMIS: एकल रु 9 लाख, संयुक्त रु 15 लाख। 5 वर्ष मैच्योरिटी।"
+    },
+    {
+        "prompt": "पोस्ट ऑफिस रिकरिंग डिपॉजिट की अधिकतम अवधि?",
+        "answers": [
+            "3 वर्ष",
+            "5 वर्ष",
+            "10 वर्ष",
+            "15 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "पोस्ट ऑफिस RD की 5 वर्ष अवधि। मासिक जमा। मैच्योरिटी पर ब्याज।"
+    },
+    {
+        "prompt": "महिला सम्मान बचत पत्र में जमा कितना तक?",
+        "answers": [
+            "रु 1 लाख",
+            "रु 2 लाख",
+            "रु 5 लाख",
+            "रु 10 लाख"
+        ],
+        "correct": 1,
+        "explanation": "MSSC (2023) महिलाओं को रु 2 लाख तक जमा करने की अनुमति देता है। 2 वर्ष अवधि। 7.5% ब्याज।"
+    },
+    {
+        "prompt": "बैंक पासबुक क्या है?",
+        "answers": [
+            "वैकल्पिक",
+            "लेनदेन का रिकॉर्ड - स्टेटमेंट से बदला जा सकता है",
+            "बचत के लिए आवश्यक नहीं",
+            "केवल करंट अकाउंट के लिए"
+        ],
+        "correct": 1,
+        "explanation": "पासबुक लेनदेन रिकॉर्ड करती है। कई बैंक ई-पासबुक या स्टेटमेंट ऑफर करते हैं।"
+    },
+    {
+        "prompt": "बैंक से अकाउंट स्टेटमेंट क्या दिखाता है?",
+        "answers": [
+            "केवल बैलेंस",
+            "सभी लेनदेन क्रेडिट डेबिट बैलेंस",
+            "केवल डेबिट",
+            "केवल क्रेडिट"
+        ],
+        "correct": 1,
+        "explanation": "बैंक स्टेटमेंट सभी लेनदेन (जमा, निकासी) और चलता बैलेंस दिखाता है।"
+    },
+    {
+        "prompt": "डॉर्मेंट अकाउंट वह है जिसमें?",
+        "answers": [
+            "2 वर्ष से कोई लेनदेन नहीं",
+            "1 वर्ष से कोई लेनदेन नहीं",
+            "नेगेटिव बैलेंस",
+            "बंद"
+        ],
+        "correct": 0,
+        "explanation": "ग्राहक द्वारा शुरू किए गए लेनदेन के 2 वर्ष न होने पर अकाउंट डॉर्मेंट/इनऑपरेटिव हो जाता है।"
+    },
+    {
+        "prompt": "इनऑपरेटिव अकाउंट को कैसे सक्रिय किया जा सकता है?",
+        "answers": [
+            "सक्रिय नहीं किया जा सकता",
+            "KYC और बैंक को अनुरोध जमा करके",
+            "केवल बंद करके",
+            "केवल RBI द्वारा"
+        ],
+        "correct": 1,
+        "explanation": "ग्राहक KYC और लिखित अनुरोध देकर डॉर्मेंट अकाउंट सक्रिय कर सकता है। बैंक रिएक्टिवेशन के लिए चार्ज ले सकता है।"
+    },
+    {
+        "prompt": "बैंक अकाउंट में नामांकन किसमें मदद करता है?",
+        "answers": [
+            "ऋण प्राप्त करना",
+            "मृत्यु पर नामांकित व्यक्ति को सुगम हस्तांतरण",
+            "उच्च ब्याज",
+            "कर लाभ"
+        ],
+        "correct": 1,
+        "explanation": "नामांकन खाताधारक की मृत्यु पर नामांकित व्यक्ति को बैलेंस हस्तांतरण को सरल बनाता है।"
+    },
+    {
+        "prompt": "बैंक न्यूनतम बैलेंस न बनाए रखने पर चार्ज कर सकता है?",
+        "answers": [
+            "BSBD अकाउंट में",
+            "रेगुलर सेविंग्स अकाउंट में",
+            "दोनों में",
+            "किसी में नहीं"
+        ],
+        "correct": 1,
+        "explanation": "BSBD (बेसिक सेविंग्स) अकाउंट में न्यूनतम बैलेंस न बनाए रखने पर चार्ज नहीं। रेगुलर सेविंग्स में चार्ज कर सकता है।"
+    },
+    {
+        "prompt": "जीरो बैलेंस सुविधा किसमें अनिवार्य है?",
+        "answers": [
+            "सभी अकाउंट्स",
+            "BSBD और PMJDY प्रकार के अकाउंट्स",
+            "केवल करंट",
+            "केवल FD"
+        ],
+        "correct": 1,
+        "explanation": "BSBD और PMJDY अकाउंट्स में जीरो बैलेंस सुविधा है। इनमें न्यूनतम बैलेंस की मांग नहीं की जा सकती।"
+    },
+    {
+        "prompt": "AePS के लिए फिंगरप्रिंट बायोमेट्रिक क्या है?",
+        "answers": [
+            "वैकल्पिक",
+            "मानक - आधार के साथ",
+            "उपयोग नहीं होता",
+            "केवल आईरिस के लिए"
+        ],
+        "correct": 1,
+        "explanation": "AePS आधार नंबर के साथ फिंगरप्रिंट या आईरिस बायोमेट्रिक का उपयोग प्रमाणीकरण के लिए करता है।"
+    },
+    {
+        "prompt": "JAM ट्रिनिटी पर किसने जोर दिया?",
+        "answers": [
+            "राजा चेलैया",
+            "इकोनॉमिक सर्वे और सरकार",
+            "केवल RBI",
+            "केवल NABARD"
+        ],
+        "correct": 1,
+        "explanation": "JAM (जन धन-आधार-मोबाइल) इकोनॉमिक सर्वे और सरकारी नीति में कुशल DBT के लिए जोर दिया गया।"
+    }
+]

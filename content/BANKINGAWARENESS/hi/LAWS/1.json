@@ -1,244 +1,244 @@
 ﻿[
     {
-        "prompt":  "The Banking Regulation Act was enacted in which year?",
-        "answers":  [
-                        "1934",
-                        "1947",
-                        "1949",
-                        "1956"
-                    ],
-        "correct":  2,
-        "explanation":  "The Banking Regulation Act, 1949, was originally called the Banking Companies Act, 1949. It regulates the banking sector in India."
+        "prompt": "बैंकिंग रेगुलेशन एक्ट किस वर्ष लागू हुआ?",
+        "answers": [
+            "1934",
+            "1947",
+            "1949",
+            "1956"
+        ],
+        "correct": 2,
+        "explanation": "बैंकिंग रेगुलेशन एक्ट, 1949 मूल रूप से बैंकिंग कंपनियाँ एक्ट, 1949 के नाम से था। यह भारत में बैंकिंग क्षेत्र को नियंत्रित करता है।"
     },
     {
-        "prompt":  "DICGC covers deposits in?",
-        "answers":  [
-                        "Only public sector banks",
-                        "All commercial banks, RRBs, cooperative banks",
-                        "Only private banks",
-                        "Only small finance banks"
-                    ],
-        "correct":  1,
-        "explanation":  "DICGC insures deposits in commercial banks, RRBs, local area banks, and cooperative banks. Payment banks not covered similarly."
+        "prompt": "DICGC किसमें जमा की कवरेज प्रदान करता है?",
+        "answers": [
+            "केवल सार्वजनिक क्षेत्र के बैंकों में",
+            "सभी कमर्शियल बैंक, RRBs, सहकारी बैंकों में",
+            "केवल प्राइवेट बैंकों में",
+            "केवल स्मॉल फाइनेंस बैंकों में"
+        ],
+        "correct": 1,
+        "explanation": "DICGC कमर्शियल बैंकों, RRBs, लोकल एरिया बैंकों और सहकारी बैंकों में जमा की बीमा करता है। पेमेंट बैंक समान रूप से कवर नहीं होते।"
     },
     {
-        "prompt":  "Trademark of DICGC is?",
-        "answers":  [
-                        "Deposit Insurance",
-                        "Each depositor insured up to Rs 5 lakh per bank",
-                        "Covers only savings",
-                        "Only for senior citizens"
-                    ],
-        "correct":  1,
-        "explanation":  "DICGC insures each depositor up to Rs 5 lakh (principal + interest) per bank across all branches."
+        "prompt": "DICGC का ट्रेडमार्क क्या है?",
+        "answers": [
+            "डिपॉजिट इंश्योरेंस",
+            "प्रत्येक जमाकर्ता को प्रति बैंक रु 5 लाख तक बीमा",
+            "केवल बचत पर कवर",
+            "केवल वरिष्ठ नागरिकों के लिए"
+        ],
+        "correct": 1,
+        "explanation": "DICGC प्रत्येक जमाकर्ता को प्रति बैंक सभी शाखाओं में रु 5 लाख तक (मूलधन + ब्याज) बीमा प्रदान करता है।"
     },
     {
-        "prompt":  "PMLA requires reporting of cash transactions above?",
-        "answers":  [
-                        "Rs 10000",
-                        "Rs 50000",
-                        "Rs 1 lakh",
-                        "Rs 5 lakh"
-                    ],
-        "correct":  0,
-        "explanation":  "Cash transactions of Rs 10 lakh and above must be reported to FIU-IND under PMLA."
+        "prompt": "PMLA के तहत कितनी राशि से ऊपर नकद लेनदेन की रिपोर्टिंग आवश्यक है?",
+        "answers": [
+            "रु 10000",
+            "रु 50000",
+            "रु 1 लाख",
+            "रु 5 लाख"
+        ],
+        "correct": 0,
+        "explanation": "रु 10 लाख और उससे अधिक नकद लेनदेन की PMLA के तहत FIU-IND को रिपोर्टिंग करनी होती है।"
     },
     {
-        "prompt":  "IBC gives priority to?",
-        "answers":  [
-                        "Shareholders",
-                        "Financial creditors",
-                        "Operational creditors",
-                        "Government"
-                    ],
-        "correct":  1,
-        "explanation":  "IBC ensures financial creditors get at least liquidation value."
+        "prompt": "IBC किसे प्राथमिकता देता है?",
+        "answers": [
+            "शेयरधारक",
+            "वित्तीय लेनदार",
+            "परिचालन लेनदार",
+            "सरकार"
+        ],
+        "correct": 1,
+        "explanation": "IBC सुनिश्चित करता है कि वित्तीय लेनदारों को कम से कम परिसमापन मूल्य प्राप्त हो।"
     },
     {
-        "prompt":  "Liquidation under IBC when?",
-        "answers":  [
-                        "Always",
-                        "No resolution plan in 270 days or rejected",
-                        "Only for small firms",
-                        "Only voluntary"
-                    ],
-        "correct":  1,
-        "explanation":  "If no resolution plan approved, NCLT can order liquidation."
+        "prompt": "IBC के तहत परिसमापन कब होता है?",
+        "answers": [
+            "हमेशा",
+            "270 दिनों में कोई समाधान योजना नहीं या अस्वीकृत होने पर",
+            "केवल छोटी फर्मों के लिए",
+            "केवल स्वैच्छिक"
+        ],
+        "correct": 1,
+        "explanation": "यदि कोई समाधान योजना स्वीकृत नहीं होती, तो NCLT परिसमापन का आदेश दे सकता है।"
     },
     {
-        "prompt":  "Personal Guarantor can be resolved under IBC?",
-        "answers":  [
-                        "No",
-                        "Yes Part III of IBC",
-                        "Only for companies",
-                        "Only for MSME"
-                    ],
-        "correct":  1,
-        "explanation":  "IBC was amended to include personal guarantors. Part III for individuals."
+        "prompt": "व्यक्तिगत गारंटर को IBC के तहत समाधान किया जा सकता है?",
+        "answers": [
+            "नहीं",
+            "हाँ, IBC का भाग III",
+            "केवल कंपनियों के लिए",
+            "केवल MSME के लिए"
+        ],
+        "correct": 1,
+        "explanation": "IBC में व्यक्तिगत गारंटरों को शामिल करने के लिए संशोधन किया गया। भाग III व्यक्तियों के लिए है।"
     },
     {
-        "prompt":  "Financial Resolution and Deposit Insurance FRDI Bill was?",
-        "answers":  [
-                        "Passed",
-                        "Withdrawn - bail-in clause concerns",
-                        "Enacted in 2020",
-                        "Only for banks"
-                    ],
-        "correct":  1,
-        "explanation":  "FRDI Bill was withdrawn in 2018. Bail-in clause that could use depositor money caused concern."
+        "prompt": "फाइनेंशियल रेजोल्यूशन एंड डिपॉजिट इंश्योरेंस (FRDI) बिल क्या था?",
+        "answers": [
+            "पास हो गया",
+            "वापस लिया गया - बेल-इन क्लॉज चिंताओं के कारण",
+            "2020 में लागू",
+            "केवल बैंकों के लिए"
+        ],
+        "correct": 1,
+        "explanation": "FRDI बिल 2018 में वापस लिया गया। बेल-इन क्लॉज जो जमाकर्ता के पैसे का उपयोग कर सकता था, चिंता का कारण बना।"
     },
     {
-        "prompt":  "Negotiable Instruments include?",
-        "answers":  [
-                        "Only cheques",
-                        "Promissory notes bills of exchange cheques",
-                        "Only demand drafts",
-                        "Only bonds"
-                    ],
-        "correct":  1,
-        "explanation":  "Negotiable Instruments Act 1881 governs promissory notes, bills of exchange, and cheques."
+        "prompt": "नेगोशिएबल इंस्ट्रूमेंट्स में क्या शामिल है?",
+        "answers": [
+            "केवल चेक",
+            "प्रॉमिसरी नोट्स, बिल ऑफ एक्सचेंज, चेक",
+            "केवल डिमांड ड्राफ्ट",
+            "केवल बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "नेगोशिएबल इंस्ट्रूमेंट्स एक्ट 1881 प्रॉमिसरी नोट्स, बिल ऑफ एक्सचेंज और चेक को नियंत्रित करता है।"
     },
     {
-        "prompt":  "The Negotiable Instruments Act was enacted in?",
-        "answers":  [
-                        "1881",
-                        "1949",
-                        "1934",
-                        "1956"
-                    ],
-        "correct":  0,
-        "explanation":  "The Negotiable Instruments Act, 1881, governs promissory notes, bills of exchange, and cheques in India."
+        "prompt": "नेगोशिएबल इंस्ट्रूमेंट्स एक्ट किस वर्ष लागू हुआ?",
+        "answers": [
+            "1881",
+            "1949",
+            "1934",
+            "1956"
+        ],
+        "correct": 0,
+        "explanation": "नेगोशिएबल इंस्ट्रूमेंट्स एक्ट, 1881 भारत में प्रॉमिसरी नोट्स, बिल ऑफ एक्सचेंज और चेक को नियंत्रित करता है।"
     },
     {
-        "prompt":  "DICGC provides deposit insurance. What is the current coverage limit per depositor?",
-        "answers":  [
-                        "Rs 1 lakh",
-                        "Rs 2 lakh",
-                        "Rs 5 lakh",
-                        "Rs 10 lakh"
-                    ],
-        "correct":  2,
-        "explanation":  "DICGC insures deposits up to Rs 5 lakh per depositor per bank (including principal and interest). This was increased from Rs 1 lakh in 2020."
+        "prompt": "DICGC जमा बीमा प्रदान करता है। प्रति जमाकर्ता वर्तमान कवरेज सीमा क्या है?",
+        "answers": [
+            "रु 1 लाख",
+            "रु 2 लाख",
+            "रु 5 लाख",
+            "रु 10 लाख"
+        ],
+        "correct": 2,
+        "explanation": "DICGC प्रति जमाकर्ता प्रति बैंक रु 5 लाख तक (मूलधन + ब्याज) जमा का बीमा करता है। यह 2020 में रु 1 लाख से बढ़ाया गया।"
     },
     {
-        "prompt":  "DICGC stands for?",
-        "answers":  [
-                        "Deposit Insurance and Credit Guarantee Corporation",
-                        "Deposit and Credit Guarantee Corporation",
-                        "Deposit Insurance and Credit Guarantee Council",
-                        "Deposit Insurance Credit Guarantee Corporation"
-                    ],
-        "correct":  0,
-        "explanation":  "DICGC is a subsidiary of RBI that provides deposit insurance. It was established in 1978 by merging DIC and CGCI."
+        "prompt": "DICGC का पूरा नाम क्या है?",
+        "answers": [
+            "Deposit Insurance and Credit Guarantee Corporation",
+            "Deposit and Credit Guarantee Corporation",
+            "Deposit Insurance and Credit Guarantee Council",
+            "Deposit Insurance Credit Guarantee Corporation"
+        ],
+        "correct": 0,
+        "explanation": "DICGC RBI की सहायक कंपनी है जो जमा बीमा प्रदान करती है। यह 1978 में DIC और CGCI के विलय से स्थापित हुई।"
     },
     {
-        "prompt":  "The deposit insurance limit was increased to Rs 5 lakh in?",
-        "answers":  [
-                        "2019",
-                        "February 2020",
-                        "2021",
-                        "2022"
-                    ],
-        "correct":  1,
-        "explanation":  "The DICGC deposit insurance limit was increased from Rs 1 lakh to Rs 5 lakh per depositor, effective February 4, 2020 (Union Budget 2020-21)."
+        "prompt": "जमा बीमा सीमा रु 5 लाख तक कब बढ़ाई गई?",
+        "answers": [
+            "2019",
+            "फरवरी 2020",
+            "2021",
+            "2022"
+        ],
+        "correct": 1,
+        "explanation": "DICGC जमा बीमा सीमा रु 1 लाख से बढ़ाकर रु 5 लाख प्रति जमाकर्ता की गई, जो 4 फरवरी 2020 से प्रभावी हुई (संघ बजट 2020-21)।"
     },
     {
-        "prompt":  "The Banking Regulation Act was originally called?",
-        "answers":  [
-                        "RBI Act",
-                        "Banking Companies Act",
-                        "Companies Act",
-                        "Financial Regulation Act"
-                    ],
-        "correct":  1,
-        "explanation":  "The Banking Regulation Act, 1949 was originally enacted as the Banking Companies Act, 1949. It was amended and renamed in 1965."
+        "prompt": "बैंकिंग रेगुलेशन एक्ट मूल रूप से क्या नाम से जाना जाता था?",
+        "answers": [
+            "RBI एक्ट",
+            "बैंकिंग कंपनियाँ एक्ट",
+            "कंपनीज एक्ट",
+            "फाइनेंशियल रेगुलेशन एक्ट"
+        ],
+        "correct": 1,
+        "explanation": "बैंकिंग रेगुलेशन एक्ट, 1949 मूल रूप से बैंकिंग कंपनियाँ एक्ट, 1949 के नाम से पारित हुआ था। 1965 में संशोधित और नाम बदला गया।"
     },
     {
-        "prompt":  "SARFAESI Act stands for?",
-        "answers":  [
-                        "Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act",
-                        "Securities and Recovery of Financial Assets Act",
-                        "Security and Reconstruction of Financial Assets Act",
-                        "Securitization and Recovery of Financial Assets Act"
-                    ],
-        "correct":  0,
-        "explanation":  "SARFAESI Act, 2002 allows banks and financial institutions to recover NPAs without court intervention by taking possession of secured assets."
+        "prompt": "SARFAESI एक्ट का पूरा नाम क्या है?",
+        "answers": [
+            "Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act",
+            "Securities and Recovery of Financial Assets Act",
+            "Security and Reconstruction of Financial Assets Act",
+            "Securitization and Recovery of Financial Assets Act"
+        ],
+        "correct": 0,
+        "explanation": "SARFAESI एक्ट, 2002 बैंकों और वित्तीय संस्थानों को अदालत हस्तक्षेप के बिना सुरक्षित संपत्तियों पर कब्जा लेकर NPA रिकवर करने की अनुमति देता है।"
     },
     {
-        "prompt":  "SARFAESI Act was enacted in?",
-        "answers":  [
-                        "2000",
-                        "2002",
-                        "2004",
-                        "2006"
-                    ],
-        "correct":  1,
-        "explanation":  "The Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act was passed in 2002."
+        "prompt": "SARFAESI एक्ट किस वर्ष लागू हुआ?",
+        "answers": [
+            "2000",
+            "2002",
+            "2004",
+            "2006"
+        ],
+        "correct": 1,
+        "explanation": "सिक्योरिटाइजेशन एंड रिकंस्ट्रक्शन ऑफ फाइनेंशियल एसेट्स एंड एनफोर्समेंट ऑफ सिक्योरिटी इंटरेस्ट (SARFAESI) एक्ट 2002 में पारित हुआ।"
     },
     {
-        "prompt":  "Insolvency and Bankruptcy Code (IBC) was enacted in?",
-        "answers":  [
-                        "2014",
-                        "2015",
-                        "2016",
-                        "2017"
-                    ],
-        "correct":  2,
-        "explanation":  "The Insolvency and Bankruptcy Code, 2016 (IBC) provides a unified framework for resolving insolvency and bankruptcy in India."
+        "prompt": "इंसॉल्वेंसी एंड बैंकrup्टसी कोड (IBC) किस वर्ष लागू हुआ?",
+        "answers": [
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+        ],
+        "correct": 2,
+        "explanation": "इंसॉल्वेंसी एंड बैंकrup्टसी कोड, 2016 (IBC) भारत में दिवालियापन और बैंकrup्टसी समाधान के लिए एकीकृत फ्रेमवर्क प्रदान करता है।"
     },
     {
-        "prompt":  "IBBI stands for?",
-        "answers":  [
-                        "Indian Bankruptcy and Bankruptcy Institute",
-                        "Insolvency and Bankruptcy Board of India",
-                        "Indian Board of Bankruptcy and Insolvency",
-                        "Institute of Bankruptcy and Bankruptcy India"
-                    ],
-        "correct":  1,
-        "explanation":  "IBBI (Insolvency and Bankruptcy Board of India) was established in 2016 under the IBC to regulate insolvency professionals and processes."
+        "prompt": "IBBI का पूरा नाम क्या है?",
+        "answers": [
+            "Indian Bankruptcy and Bankruptcy Institute",
+            "Insolvency and Bankruptcy Board of India",
+            "Indian Board of Bankruptcy and Insolvency",
+            "Institute of Bankruptcy and Bankruptcy India"
+        ],
+        "correct": 1,
+        "explanation": "IBBI (इंसॉल्वेंसी एंड बैंकrup्टसी बोर्ड ऑफ इंडिया) IBC के तहत 2016 में स्थापित हुआ, जो इंसॉल्वेंसी प्रोफेशनल्स और प्रक्रियाओं को नियंत्रित करता है।"
     },
     {
-        "prompt":  "PMLA stands for?",
-        "answers":  [
-                        "Prevention of Money Laundering Act",
-                        "Prevention of Money Lending Act",
-                        "Protection of Money Laundering Act",
-                        "Prevention of Monetary Laundering Act"
-                    ],
-        "correct":  0,
-        "explanation":  "PMLA (Prevention of Money Laundering Act), 2002 is the primary law to prevent money laundering in India. It was amended in 2012."
+        "prompt": "PMLA का पूरा नाम क्या है?",
+        "answers": [
+            "Prevention of Money Laundering Act",
+            "Prevention of Money Lending Act",
+            "Protection of Money Laundering Act",
+            "Prevention of Monetary Laundering Act"
+        ],
+        "correct": 0,
+        "explanation": "PMLA (Prevention of Money Laundering Act), 2002 भारत में मनी लॉन्ड्रिंग रोकने का मुख्य कानून है। 2012 में संशोधित हुआ।"
     },
     {
-        "prompt":  "Resolution Professional (RP) under IBC is appointed by?",
-        "answers":  [
-                        "RBI",
-                        "Creditors committee (CoC)",
-                        "Government",
-                        "SEBI"
-                    ],
-        "correct":  1,
-        "explanation":  "Insolvency Professional is appointed by the Committee of Creditors (CoC) to manage the corporate debtor during resolution process."
+        "prompt": "IBC के तहत रेजोल्यूशन प्रोफेशनल (RP) की नियुक्ति कौन करता है?",
+        "answers": [
+            "RBI",
+            "क्रेडिटर्स कमिटी (CoC)",
+            "सरकार",
+            "SEBI"
+        ],
+        "correct": 1,
+        "explanation": "इंसॉल्वेंसी प्रोफेशनल को क्रेडिटर्स कमिटी (CoC) द्वारा कॉर्पोरेट डेब्टर के समाधान प्रक्रिया के दौरान प्रबंधन के लिए नियुक्त किया जाता है।"
     },
     {
-        "prompt":  "Maximum time limit for corporate insolvency resolution under IBC is?",
-        "answers":  [
-                        "90 days",
-                        "180 days",
-                        "270 days",
-                        "365 days"
-                    ],
-        "correct":  2,
-        "explanation":  "IBC mandates completion of resolution process within 180 days, extendable by 90 days (total 270 days). Fast-track for certain cases: 90 days."
+        "prompt": "IBC के तहत कॉर्पोरेट इंसॉल्वेंसी रेजोल्यूशन की अधिकतम समय सीमा क्या है?",
+        "answers": [
+            "90 दिन",
+            "180 दिन",
+            "270 दिन",
+            "365 दिन"
+        ],
+        "correct": 2,
+        "explanation": "IBC रेजोल्यूशन प्रक्रिया को 180 दिनों में पूरा करने का आदेश देता है, जिसे 90 दिनों तक बढ़ाया जा सकता है (कुल 270 दिन)। कुछ मामलों में फास्ट-ट्रैक: 90 दिन।"
     },
     {
-        "prompt":  "SARFAESI Act allows banks to take possession of secured assets without?",
-        "answers":  [
-                        "Valuation",
-                        "Court intervention",
-                        "RBI approval",
-                        "Customer consent"
-                    ],
-        "correct":  1,
-        "explanation":  "SARFAESI enables banks to enforce security interest without court intervention. They can take possession, sell, or lease the secured asset."
+        "prompt": "SARFAESI एक्ट बैंकों को सुरक्षित संपत्तियों पर कब्जा लेने की अनुमति देता है बिना?",
+        "answers": [
+            "मूल्यांकन",
+            "अदालत हस्तक्षेप",
+            "RBI अनुमोदन",
+            "ग्राहक सहमति"
+        ],
+        "correct": 1,
+        "explanation": "SARFAESI बैंकों को अदालत हस्तक्षेप के बिना सुरक्षा हित लागू करने की अनुमति देता है। वे सुरक्षित संपत्ति पर कब्जा ले सकते हैं, बेच सकते हैं या लीज पर दे सकते हैं।"
     }
 ]

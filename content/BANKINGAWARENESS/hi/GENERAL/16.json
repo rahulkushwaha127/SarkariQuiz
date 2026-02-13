@@ -1,167 +1,167 @@
 ﻿[
     {
-        "prompt":  "Banking Ombudsman can award compensation up to?",
-        "answers":  [
-                        "Rs 1 lakh",
-                        "Rs 5 lakh",
-                        "Rs 10 lakh",
-                        "Rs 20 lakh"
-                    ],
-        "correct":  3,
-        "explanation":  "As per the revised Banking Ombudsman Scheme 2021, the Ombudsman can award compensation up to Rs 20 lakh for complaints."
+        "prompt": "बैंकिंग ओम्बड्समैन कितना मुआवजा दे सकता है?",
+        "answers": [
+            "रु 1 लाख",
+            "रु 5 लाख",
+            "रु 10 लाख",
+            "रु 20 लाख"
+        ],
+        "correct": 3,
+        "explanation": "संशोधित बैंकिंग ओम्बड्समैन योजना 2021 के अनुसार, ओम्बड्समैन शिकायतों के लिए रु 20 लाख तक मुआवजा दे सकता है।"
     },
     {
-        "prompt":  "Tier 1 capital of banks includes?",
-        "answers":  [
-                        "Only equity",
-                        "Common equity + retained earnings + additional Tier 1 instruments",
-                        "Subordinated debt only",
-                        "Government bonds"
-                    ],
-        "correct":  1,
-        "explanation":  "Tier 1 capital includes Common Equity Tier 1 (CET1) and Additional Tier 1 capital (AT1). It is the core capital that absorbs losses."
+        "prompt": "बैंकों का टियर 1 कैपिटल में क्या शामिल है?",
+        "answers": [
+            "केवल इक्विटी",
+            "सामान्य इक्विटी + प्रतिधारित आय + अतिरिक्त टियर 1 इंस्ट्रूमेंट्स",
+            "केवल अधीनस्थ ऋण",
+            "सरकारी बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "टियर 1 कैपिटल में कॉमन इक्विटी टियर 1 (CET1) और अतिरिक्त टियर 1 कैपिटल (AT1) शामिल है। यह मुख्य कैपिटल है जो नुकसान को अवशोषित करता है।"
     },
     {
-        "prompt":  "Minimum Common Equity Tier 1 (CET1) ratio for Indian banks is?",
-        "answers":  [
-                        "4%",
-                        "4.5%",
-                        "5.5%",
-                        "8%"
-                    ],
-        "correct":  2,
-        "explanation":  "Indian banks must maintain minimum CET1 of 5.5% of risk-weighted assets under Basel III. With capital conservation buffer, total is 7%."
+        "prompt": "भारतीय बैंकों के लिए न्यूनतम कॉमन इक्विटी टियर 1 (CET1) अनुपात क्या है?",
+        "answers": [
+            "4%",
+            "4.5%",
+            "5.5%",
+            "8%"
+        ],
+        "correct": 2,
+        "explanation": "भारतीय बैंक बेसल III के तहत जोखिम-भारित संपत्तियों का न्यूनतम CET1 5.5% रखना चाहिए। कैपिटल कंजर्वेशन बफर के साथ कुल 7% है।"
     },
     {
-        "prompt":  "Additional Tier 1 (AT1) bonds are also called?",
-        "answers":  [
-                        "Perpetual bonds",
-                        "Treasury bonds",
-                        "Corporate bonds",
-                        "Government securities"
-                    ],
-        "correct":  0,
-        "explanation":  "AT1 bonds are perpetual (no maturity), loss-absorbing instruments. They can be written down or converted to equity in crisis."
+        "prompt": "अतिरिक्त टियर 1 (AT1) बॉन्ड को क्या कहा जाता है?",
+        "answers": [
+            "पर्पेचुअल बॉन्ड",
+            "ट्रेजरी बॉन्ड",
+            "कॉर्पोरेट बॉन्ड",
+            "सरकारी प्रतिभूतियाँ"
+        ],
+        "correct": 0,
+        "explanation": "AT1 बॉन्ड पर्पेचुअल (कोई परिपक्वता नहीं) हैं, नुकसान अवशोषक इंस्ट्रूमेंट्स। संकट में उन्हें लिखा जा सकता है या इक्विटी में बदला जा सकता है।"
     },
     {
-        "prompt":  "Provisioning for standard assets is typically?",
-        "answers":  [
-                        "1%",
-                        "2%",
-                        "0.25% to 1%",
-                        "5%"
-                    ],
-        "correct":  2,
-        "explanation":  "Provisioning for standard assets: 0.25% for direct advances to agriculture and MSMEs; 0.4% for others. Sub-standard gets 15-25%."
+        "prompt": "मानक संपत्तियों के लिए प्रावधान आमतौर पर?",
+        "answers": [
+            "1%",
+            "2%",
+            "0.25% से 1%",
+            "5%"
+        ],
+        "correct": 2,
+        "explanation": "मानक संपत्तियों के लिए प्रावधान: कृषि और MSMEs के लिए प्रत्यक्ष अग्रिमों के लिए 0.25%; अन्य के लिए 0.4%। उप-मानक को 15-25% मिलता है।"
     },
     {
-        "prompt":  "Doubtful assets require provisioning of?",
-        "answers":  [
-                        "15%",
-                        "25% to 100% (depending on period)",
-                        "5%",
-                        "10%"
-                    ],
-        "correct":  1,
-        "explanation":  "Doubtful assets: 25% of secured portion; 100% of unsecured portion. For doubtful \u003e 3 years: 40% secured, 100% unsecured."
+        "prompt": "संदिग्ध संपत्तियों के लिए प्रावधान?",
+        "answers": [
+            "15%",
+            "25% से 100% (अवधि पर निर्भर)",
+            "5%",
+            "10%"
+        ],
+        "correct": 1,
+        "explanation": "संदिग्ध संपत्तियाँ: सुरक्षित हिस्से का 25%; असुरक्षित हिस्से का 100%। संदिग्ध > 3 वर्ष: 40% सुरक्षित, 100% असुरक्षित।"
     },
     {
-        "prompt":  "National Company Law Tribunal (NCLT) is used for?",
-        "answers":  [
-                        "Only bank mergers",
-                        "Corporate insolvency under IBC",
-                        "Tax disputes",
-                        "SEBI matters"
-                    ],
-        "correct":  1,
-        "explanation":  "NCLT hears corporate insolvency and bankruptcy cases under the Insolvency and Bankruptcy Code, 2016."
+        "prompt": "राष्ट्रीय कंपनी कानून ट्रिब्यूनल (NCLT) किसके लिए उपयोग किया जाता है?",
+        "answers": [
+            "केवल बैंक विलय",
+            "IBC के तहत कॉर्पोरेट दिवालिया",
+            "कर विवाद",
+            "SEBI मामले"
+        ],
+        "correct": 1,
+        "explanation": "NCLT इंसॉल्वेंसी एंड बैंकrup्टसी कोड, 2016 के तहत कॉर्पोरेट दिवालिया और बैंकrup्टसी मामलों की सुनवाई करता है।"
     },
     {
-        "prompt":  "Pre-packaged insolvency is available for?",
-        "answers":  [
-                        "All companies",
-                        "Only MSMEs",
-                        "Only listed companies",
-                        "Only PSUs"
-                    ],
-        "correct":  1,
-        "explanation":  "Pre-pack insolvency was introduced for MSMEs - a faster process where resolution plan is prepared before admission."
+        "prompt": "प्री-पैक्ड दिवालिया किसके लिए उपलब्ध है?",
+        "answers": [
+            "सभी कंपनियाँ",
+            "केवल MSMEs",
+            "केवल लिस्टेड कंपनियाँ",
+            "केवल प्राइवेट कंपनियाँ"
+        ],
+        "correct": 1,
+        "explanation": "प्री-पैक दिवालिया MSMEs के लिए शुरू किया गया - तेज प्रक्रिया जहाँ समाधान योजना प्रवेश से पहले तैयार की जाती है।"
     },
     {
-        "prompt":  "Debt Recovery Tribunals (DRTs) were established under?",
-        "answers":  [
-                        "RBI Act",
-                        "Recovery of Debts and Bankruptcy Act (RDDB Act)",
-                        "SARFAESI Act",
-                        "Banking Regulation Act"
-                    ],
-        "correct":  1,
-        "explanation":  "DRTs were set up under the Recovery of Debts Due to Banks and Financial Institutions Act, 1993 (RDDB Act) for expeditious recovery."
+        "prompt": "डेब्ट रिकवरी ट्रिब्यूनल (DRTs) की स्थापना किसके तहत हुई?",
+        "answers": [
+            "RBI एक्ट",
+            "Recovery of Debts and Bankruptcy Act (RDDB Act)",
+            "SARFAESI Act",
+            "Banking Regulation Act"
+        ],
+        "correct": 1,
+        "explanation": "DRTs की स्थापना रिकवरी ऑफ डेब्ट्स ड्यू टू बैंक एंड फाइनेंशियल इंस्टीट्यूशंस एक्ट, 1993 (RDDB Act) के तहत तेज रिकवरी के लिए हुई।"
     },
     {
-        "prompt":  "Asset Reconstruction Company (ARC) is regulated by?",
-        "answers":  [
-                        "SEBI",
-                        "RBI",
-                        "IRDAI",
-                        "Ministry of Finance"
-                    ],
-        "correct":  1,
-        "explanation":  "ARCs are regulated by RBI under the SARFAESI Act. They acquire NPAs from banks and work towards recovery."
+        "prompt": "एसेट रिकंस्ट्रक्शन कंपनी (ARC) किसके द्वारा नियंत्रित होती है?",
+        "answers": [
+            "SEBI",
+            "RBI",
+            "IRDAI",
+            "वित्त मंत्रालय"
+        ],
+        "correct": 1,
+        "explanation": "ARCs SARFAESI Act के तहत RBI द्वारा नियंत्रित होती हैं। वे बैंकों से NPA खरीदती हैं और रिकवरी पर काम करती हैं।"
     },
     {
-        "prompt":  "The largest ARC in India by assets is?",
-        "answers":  [
-                        "SBI",
-                        "ICICI Bank",
-                        "Edelweiss ARC",
-                        "JM Financial ARC"
-                    ],
-        "correct":  2,
-        "explanation":  "Edelweiss ARC is among the largest ARCs in India. ARCs purchase stressed assets from banks at a discount."
+        "prompt": "भारत में संपत्ति के आधार पर सबसे बड़ी ARC कौन है?",
+        "answers": [
+            "SBI",
+            "ICICI Bank",
+            "Edelweiss ARC",
+            "JM Financial ARC"
+        ],
+        "correct": 2,
+        "explanation": "Edelweiss ARC भारत में सबसे बड़ी ARCs में से एक है। ARCs बैंकों से तनावपूर्ण संपत्तियाँ छूट पर खरीदती हैं।"
     },
     {
-        "prompt":  "One Time Settlement (OTS) scheme allows?",
-        "answers":  [
-                        "Full waiver of loan",
-                        "Settlement of dues for less than owed amount",
-                        "Only interest waiver",
-                        "No settlement"
-                    ],
-        "correct":  1,
-        "explanation":  "OTS allows borrowers to settle outstanding dues for a mutually agreed amount, usually less than the full dues, to close the account."
+        "prompt": "वन टाइम सेटलमेंट (OTS) योजना क्या अनुमति देती है?",
+        "answers": [
+            "पूर्ण ऋण माफी",
+            "बकाया राशि से कम पर सेटलमेंट",
+            "केवल ब्याज माफी",
+            "कोई सेटलमेंट नहीं"
+        ],
+        "correct": 1,
+        "explanation": "OTS उधारकर्ताओं को आपसी सहमति से, आमतौर पर पूर्ण बकाया से कम राशि पर बकाया सेटल करने की अनुमति देता है।"
     },
     {
-        "prompt":  "Wilful defaulter is one who?",
-        "answers":  [
-                        "Cannot pay due to business failure",
-                        "Has capacity to pay but does not pay",
-                        "Has taken education loan",
-                        "Is an MSME"
-                    ],
-        "correct":  1,
-        "explanation":  "Wilful defaulter: has capacity to pay but deliberately does not; or has diverted funds; or disposed of collateral without bank consent."
+        "prompt": "विलफुल डिफॉल्टर वह है जो?",
+        "answers": [
+            "व्यापार विफलता के कारण भुगतान नहीं कर सकता",
+            "भुगतान करने की क्षमता है लेकिन नहीं करता",
+            "शिक्षा ऋण लिया है",
+            "MSME है"
+        ],
+        "correct": 1,
+        "explanation": "विलफुल डिफॉल्टर: भुगतान करने की क्षमता है लेकिन जानबूझकर नहीं करता; या फंड डायवर्ट करता है; या बैंक सहमति के बिना कोलेटरल बेचता है।"
     },
     {
-        "prompt":  "Credit Information Companies (CICs) in India include?",
-        "answers":  [
-                        "Only CIBIL",
-                        "CIBIL, Experian, Equifax, CRIF High Mark",
-                        "Only RBI",
-                        "Only banks"
-                    ],
-        "correct":  1,
-        "explanation":  "Four CICs operate in India: CIBIL, Experian, Equifax, CRIF High Mark. They maintain credit history of borrowers."
+        "prompt": "भारत में क्रेडिट इंफॉर्मेशन कंपनियाँ (CICs) में क्या शामिल है?",
+        "answers": [
+            "केवल CIBIL",
+            "CIBIL, Experian, Equifax, CRIF High Mark",
+            "केवल RBI",
+            "केवल बैंक"
+        ],
+        "correct": 1,
+        "explanation": "भारत में चार CICs काम करती हैं: CIBIL, Experian, Equifax, CRIF High Mark। वे उधारकर्ताओं का क्रेडिट इतिहास रखती हैं।"
     },
     {
-        "prompt":  "CIBIL score ranges from?",
-        "answers":  [
-                        "0-100",
-                        "300-900",
-                        "0-1000",
-                        "100-500"
-                    ],
-        "correct":  1,
-        "explanation":  "CIBIL (now TransUnion CIBIL) credit score ranges from 300 to 900. Higher score indicates better creditworthiness. 750+ is generally considered good."
+        "prompt": "CIBIL स्कोर की रेंज क्या है?",
+        "answers": [
+            "0-100",
+            "300-900",
+            "0-1000",
+            "100-500"
+        ],
+        "correct": 1,
+        "explanation": "CIBIL (अब TransUnion CIBIL) क्रेडिट स्कोर 300 से 900 तक है। उच्च स्कोर बेहतर क्रेडिटवर्थनेस दर्शाता है। 750+ आमतौर पर अच्छा माना जाता है।"
     }
 ]

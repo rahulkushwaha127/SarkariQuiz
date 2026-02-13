@@ -1,1 +1,277 @@
-[{"prompt":"IMF's Special Drawing Right basket includes?","answers":["Only USD","USD, Euro, Yuan, Yen, Pound Sterling","Only Euro","USD and Euro only"],"correct":1,"explanation":"SDR basket: US Dollar, Euro, Chinese Renminbi, Japanese Yen, British Pound Sterling. Weights reviewed every 5 years."},{"prompt":"India's quota in IMF determines?","answers":["Nothing","Voting power and maximum borrowing","Only voting","Only SDR allocation"],"correct":1,"explanation":"IMF quota determines member's subscription, voting power, and access to financing. India has increased quota over time."},{"prompt":"World Bank Group includes?","answers":["Only IBRD","IBRD, IFC, IDA, MIGA, ICSID","Only IDA","Only IFC"],"correct":1,"explanation":"World Bank Group: IBRD, IDA, IFC, MIGA, ICSID. IBRD and IDA provide loans; IFC private sector; MIGA guarantees; ICSID dispute settlement."},{"prompt":"IDA stands for?","answers":["Indian Development Agency","International Development Association","International Development Bank","Indian Development Association"],"correct":1,"explanation":"IDA provides concessional loans and grants to poorest countries. Soft loan arm of World Bank."},{"prompt":"IFC provides?","answers":["Government loans","Private sector investment - equity and debt","Only grants","Only technical assistance"],"correct":1,"explanation":"IFC (International Finance Corporation) invests in private sector projects in developing countries."},{"prompt":"Asian Development Bank was established in?","answers":["1960","1966","1970","1980"],"correct":1,"explanation":"ADB was established in 1966. Headquarters in Manila. Japan and USA are largest shareholders."},{"prompt":"New Development Bank headquarters is in?","answers":["Mumbai","Beijing","Shanghai","New Delhi"],"correct":2,"explanation":"NDB (BRICS Bank) headquarters is in Shanghai, China. India has a regional office in Gujarat."},{"prompt":"AIIB was established in?","answers":["2012","2014","2015","2016"],"correct":2,"explanation":"AIIB (Asian Infrastructure Investment Bank) was established in 2015. China is largest shareholder; India is second largest."},{"prompt":"India is largest recipient of?","answers":["IMF loans","World Bank (IBRD+IDA) lending","ADB loans","AIIB loans"],"correct":1,"explanation":"India has been among the largest borrowers from World Bank. India also borrows from ADB, AIIB."},{"prompt":"BIS is headquartered in?","answers":["London","New York","Basel, Switzerland","Frankfurt"],"correct":2,"explanation":"BIS (Bank for International Settlements) is in Basel, Switzerland. It is the bank for central banks."},{"prompt":"Basel Committee has members from?","answers":["Only G7","Central banks and regulators from multiple countries","Only Europe","Only USA"],"correct":1,"explanation":"Basel Committee has members from nearly 30 jurisdictions including India. It sets global banking standards."},{"prompt":"Basel I focused mainly on?","answers":["Liquidity","Credit risk - minimum 8% capital","Operational risk","Market risk"],"correct":1,"explanation":"Basel I (1988) introduced minimum 8% capital for credit risk. Simple risk weights."},{"prompt":"Basel II added?","answers":["Only credit risk","Operational risk, market risk, three pillars","Only Pillar 1","Only disclosure"],"correct":1,"explanation":"Basel II added operational risk, refined credit risk (internal models), and introduced three pillars including disclosure."},{"prompt":"Basel III was developed after?","answers":["Asian crisis 1997","Global Financial Crisis 2008","Euro crisis 2012","Dot com bubble 2000"],"correct":1,"explanation":"Basel III was developed post-2008 crisis to strengthen bank capital, liquidity, and leverage."},{"prompt":"LCR requires banks to hold HQLA for?","answers":["7 days","30 days net cash outflows","90 days","1 year"],"correct":1,"explanation":"LCR = High Quality Liquid Assets / Net cash outflows over 30 days. Must be at least 100%."},{"prompt":"High Quality Liquid Assets include?","answers":["Only equity","Cash, G-Secs, certain sovereign bonds","Corporate bonds","Real estate"],"correct":1,"explanation":"HQLA: Level 1 (cash, G-Secs - 100% value), Level 2A (sovereign, certain bonds - 85%), Level 2B (limited - 50%)."},{"prompt":"NSFR compares?","answers":["Assets to liabilities","Available stable funding to required stable funding","Only deposits","Only loans"],"correct":1,"explanation":"NSFR = Available Stable Funding / Required Stable Funding. Must be at least 100%. Ensures long-term stability."},{"prompt":"G-SIFI stands for?","answers":["Global Systemically Important Financial Institution","Government System for International Finance","General System for Investment","Global Securities and Insurance Fund"],"correct":0,"explanation":"G-SIFIs are banks whose failure could impact global financial system. They face higher capital requirements."},{"prompt":"FATF recommendations are?","answers":["Binding law","Soft law - countries implement voluntarily","Only for banks","Only for AML"],"correct":1,"explanation":"FATF recommendations are international standards. Countries implement through domestic laws. Grey/black list has reputational impact."},{"prompt":"Financial Action Task Force was established in?","answers":["1980","1989","1995","2000"],"correct":1,"explanation":"FATF was established in 1989 by G7 to combat money laundering. Now covers terror financing, proliferation financing."},{"prompt":"Basel IV refers to?","answers":["New separate accord","Finalization of Basel III - revised standards","Basel I update","Only market risk"],"correct":1,"explanation":"Basel IV is not official name. It refers to finalization of Basel III (final reforms) - revised risk-weighted assets, output floor, etc."},{"prompt":"Output floor in Basel ensures?","answers":["Unlimited use of internal models","Banks using internal models cannot have capital less than 72.5% of standardized approach","No internal models","Only standard approach"],"correct":1,"explanation":"Output floor limits benefit from internal models. Capital cannot be lower than 72.5% of what standardized approach would require."},{"prompt":"India has implemented Basel III?","answers":["No","Yes - fully implemented","Partially","Only for PSBs"],"correct":1,"explanation":"India has implemented Basel III. RBI issued guidelines and banks have met the requirements. Basel III reforms (output floor) being phased."},{"prompt":"Prompt Corrective Action (PCA) restricts?","answers":["Nothing","Banks - dividend, branch expansion, lending based on breaches","Only NPAs","Only capital"],"correct":1,"explanation":"PCA framework: when banks breach capital, NPA, profitability norms - restrictions on dividend, branch expansion, lending, etc."},{"prompt":"RBI supervises banks through?","answers":["Only off-site","On-site inspection and off-site monitoring","Only annual report","Only CRILC"],"correct":1,"explanation":"RBI uses on-site inspection (annual financial inspection) and off-site surveillance (returns, CRILC, etc.) for supervision."}]
+[
+    {
+        "prompt": "IMF की स्पेशल ड्रॉइंग राइट बास्केट में क्या शामिल है?",
+        "answers": [
+            "केवल USD",
+            "USD, Euro, Yuan, Yen, Pound Sterling",
+            "केवल Euro",
+            "USD और Euro केवल"
+        ],
+        "correct": 1,
+        "explanation": "SDR बास्केट: US डॉलर, यूरो, चीनी रेनमिनबी, जापानी येन, ब्रिटिश पाउंड स्टर्लिंग। वेट हर 5 वर्ष में समीक्षा की जाती है।"
+    },
+    {
+        "prompt": "IMF में भारत का कोटा क्या निर्धारित करता है?",
+        "answers": [
+            "कुछ नहीं",
+            "वोटिंग पावर और अधिकतम उधार",
+            "केवल वोटिंग",
+            "केवल SDR आवंटन"
+        ],
+        "correct": 1,
+        "explanation": "IMF कोटा सदस्य के सब्सक्रिप्शन, वोटिंग पावर और फाइनेंसिंग तक पहुँच निर्धारित करता है। भारत का कोटा समय के साथ बढ़ा है।"
+    },
+    {
+        "prompt": "वर्ल्ड बैंक ग्रुप में क्या शामिल है?",
+        "answers": [
+            "केवल IBRD",
+            "IBRD, IFC, IDA, MIGA, ICSID",
+            "केवल IDA",
+            "केवल IFC"
+        ],
+        "correct": 1,
+        "explanation": "वर्ल्ड बैंक ग्रुप: IBRD, IDA, IFC, MIGA, ICSID। IBRD और IDA ऋण प्रदान करते हैं; IFC निजी क्षेत्र; MIGA गारंटी; ICSID विवाद निपटान।"
+    },
+    {
+        "prompt": "IDA का पूरा नाम क्या है?",
+        "answers": [
+            "Indian Development Agency",
+            "International Development Association",
+            "International Development Bank",
+            "Indian Development Association"
+        ],
+        "correct": 1,
+        "explanation": "IDA सबसे गरीब देशों को रियायती ऋण और अनुदान प्रदान करता है। वर्ल्ड बैंक का सॉफ्ट लोन आर्म।"
+    },
+    {
+        "prompt": "IFC क्या प्रदान करता है?",
+        "answers": [
+            "सरकारी ऋण",
+            "निजी क्षेत्र निवेश - इक्विटी और ऋण",
+            "केवल अनुदान",
+            "केवल तकनीकी सहायता"
+        ],
+        "correct": 1,
+        "explanation": "IFC (International Finance Corporation) विकासशील देशों में निजी क्षेत्र परियोजनाओं में निवेश करता है।"
+    },
+    {
+        "prompt": "एशियन डेवलपमेंट बैंक की स्थापना कब हुई?",
+        "answers": [
+            "1960",
+            "1966",
+            "1970",
+            "1980"
+        ],
+        "correct": 1,
+        "explanation": "ADB की स्थापना 1966 में हुई। मुख्यालय मनीला में। जापान और USA सबसे बड़े शेयरधारक हैं।"
+    },
+    {
+        "prompt": "न्यू डेवलपमेंट बैंक का मुख्यालय कहाँ है?",
+        "answers": [
+            "मुंबई",
+            "बीजिंग",
+            "शंघाई",
+            "नई दिल्ली"
+        ],
+        "correct": 2,
+        "explanation": "NDB (BRICS बैंक) का मुख्यालय शंघाई, चीन में है। भारत का गुजरात में क्षेत्रीय कार्यालय है।"
+    },
+    {
+        "prompt": "AIIB की स्थापना कब हुई?",
+        "answers": [
+            "2012",
+            "2014",
+            "2015",
+            "2016"
+        ],
+        "correct": 2,
+        "explanation": "AIIB (एशियन इंफ्रास्ट्रक्चर इन्वेस्टमेंट बैंक) की स्थापना 2015 में हुई। चीन सबसे बड़ा शेयरधारक; भारत दूसरा सबसे बड़ा।"
+    },
+    {
+        "prompt": "भारत सबसे बड़ा प्राप्तकर्ता किसका है?",
+        "answers": [
+            "IMF ऋण",
+            "वर्ल्ड बैंक (IBRD+IDA) उधार",
+            "ADB ऋण",
+            "AIIB ऋण"
+        ],
+        "correct": 1,
+        "explanation": "भारत वर्ल्ड बैंक से सबसे बड़े उधारकर्ताओं में से एक रहा है। भारत ADB, AIIB से भी उधार लेता है।"
+    },
+    {
+        "prompt": "BIS का मुख्यालय कहाँ है?",
+        "answers": [
+            "लंदन",
+            "न्यू यॉर्क",
+            "बासेल, स्विट्जरलैंड",
+            "फ्रैंकफर्ट"
+        ],
+        "correct": 2,
+        "explanation": "BIS (Bank for International Settlements) बासेल, स्विट्जरलैंड में है। यह केंद्रीय बैंकों का बैंक है।"
+    },
+    {
+        "prompt": "बासेल कमिटी के सदस्य कहाँ से हैं?",
+        "answers": [
+            "केवल G7",
+            "कई देशों से केंद्रीय बैंक और नियामक",
+            "केवल यूरोप",
+            "केवल USA"
+        ],
+        "correct": 1,
+        "explanation": "बासेल कमिटी में भारत सहित लगभग 30 क्षेत्राधिकारों से सदस्य हैं। यह वैश्विक बैंकिंग मानक सेट करता है।"
+    },
+    {
+        "prompt": "बासेल I मुख्य रूप से किस पर केंद्रित था?",
+        "answers": [
+            "तरलता",
+            "क्रेडिट जोखिम - न्यूनतम 8% कैपिटल",
+            "परिचालन जोखिम",
+            "बाजार जोखिम"
+        ],
+        "correct": 1,
+        "explanation": "बासेल I (1988) ने क्रेडिट जोखिम के लिए न्यूनतम 8% कैपिटल शुरू किया। सरल जोखिम वेट।"
+    },
+    {
+        "prompt": "बासेल II ने क्या जोड़ा?",
+        "answers": [
+            "केवल क्रेडिट जोखिम",
+            "परिचालन जोखिम, बाजार जोखिम, तीन स्तंभ",
+            "केवल स्तंभ 1",
+            "केवल प्रकटीकरण"
+        ],
+        "correct": 1,
+        "explanation": "बासेल II ने परिचालन जोखिम जोड़ा, क्रेडिट जोखिम को परिष्कृत किया (आंतरिक मॉडल), और तीन स्तंभ शुरू किए।"
+    },
+    {
+        "prompt": "बासेल III ने क्या पेश किया?",
+        "answers": [
+            "केवल कैपिटल",
+            "बैंक कैपिटल, तरलता और लेवरेज को मजबूत करना",
+            "बासेल I अपडेट",
+            "केवल बाजार जोखिम"
+        ],
+        "correct": 1,
+        "explanation": "बासेल III ने बैंक कैपिटल, तरलता और लेवरेज को मजबूत किया।"
+    },
+    {
+        "prompt": "LCR बैंकों को HQLA रखने की आवश्यकता है?",
+        "answers": [
+            "7 दिन",
+            "30 दिन नेट कैश आउटफ्लो",
+            "90 दिन",
+            "1 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "LCR = हाई क्वालिटी लिक्विड एसेट्स / 30 दिनों में नेट कैश आउटफ्लो। कम से कम 100% होना चाहिए।"
+    },
+    {
+        "prompt": "हाई क्वालिटी लिक्विड एसेट्स में क्या शामिल है?",
+        "answers": [
+            "केवल इक्विटी",
+            "नकद, G-Secs, कुछ सॉवरेन बॉन्ड",
+            "कॉर्पोरेट बॉन्ड",
+            "रियल एस्टेट"
+        ],
+        "correct": 1,
+        "explanation": "HQLA: लेवल 1 (नकद, G-Secs - 100% मूल्य), लेवल 2A (सॉवरेन, कुछ बॉन्ड - 85%), लेवल 2B (सीमित - 50%)।"
+    },
+    {
+        "prompt": "NSFR क्या तुलना करता है?",
+        "answers": [
+            "संपत्ति से देयताएँ",
+            "उपलब्ध स्थिर फंडिंग से आवश्यक स्थिर फंडिंग",
+            "केवल जमा",
+            "केवल ऋण"
+        ],
+        "correct": 1,
+        "explanation": "NSFR = उपलब्ध स्थिर फंडिंग / आवश्यक स्थिर फंडिंग। कम से कम 100% होना चाहिए। दीर्घकालिक स्थिरता सुनिश्चित करता है।"
+    },
+    {
+        "prompt": "G-SIFI का पूरा नाम क्या है?",
+        "answers": [
+            "Global Systemically Important Financial Institution",
+            "Government System for International Finance",
+            "General System for Investment",
+            "Global Securities and Insurance Fund"
+        ],
+        "correct": 0,
+        "explanation": "G-SIFIs वे बैंक हैं जिनकी विफलता वैश्विक वित्तीय प्रणाली को प्रभावित कर सकती है। उन्हें उच्च कैपिटल आवश्यकताएँ सामना करना पड़ता है।"
+    },
+    {
+        "prompt": "FATF सिफारिशें क्या हैं?",
+        "answers": [
+            "बाध्यकारी कानून",
+            "सॉफ्ट लॉ - देश स्वैच्छिक रूप से लागू करते हैं",
+            "केवल बैंकों के लिए",
+            "केवल AML के लिए"
+        ],
+        "correct": 1,
+        "explanation": "FATF सिफारिशें अंतर्राष्ट्रीय मानक हैं। देश घरेलू कानूनों के माध्यम से लागू करते हैं। ग्रे/ब्लैक लिस्ट का प्रतिष्ठा प्रभाव पड़ता है।"
+    },
+    {
+        "prompt": "फाइनेंशियल एक्शन टास्क फोर्स की स्थापना कब हुई?",
+        "answers": [
+            "1980",
+            "1989",
+            "1995",
+            "2000"
+        ],
+        "correct": 1,
+        "explanation": "FATF की स्थापना G7 द्वारा 1989 में मनी लॉन्ड्रिंग से लड़ने के लिए हुई। अब इसमें आतंक फाइनेंसिंग, प्रोलिफरेशन फाइनेंसिंग शामिल है।"
+    },
+    {
+        "prompt": "बासेल IV से तात्पर्य है?",
+        "answers": [
+            "नया अलग समझौता",
+            "बासेल III का अंतिमकरण - संशोधित मानक",
+            "बासेल I अपडेट",
+            "केवल बाजार जोखिम"
+        ],
+        "correct": 1,
+        "explanation": "बासेल IV आधिकारिक नाम नहीं है। यह बासेल III (अंतिम सुधार) का अंतिमकरण है - संशोधित जोखिम-भारित संपत्तियाँ, आउटपुट फ्लोर आदि।"
+    },
+    {
+        "prompt": "बासेल में आउटपुट फ्लोर सुनिश्चित करता है?",
+        "answers": [
+            "आंतरिक मॉडलों का असीमित उपयोग",
+            "आंतरिक मॉडलों का उपयोग करने वाले बैंक मानकीकृत दृष्टिकोण के 72.5% से कम कैपिटल नहीं रख सकते",
+            "कोई आंतरिक मॉडल नहीं",
+            "केवल मानक दृष्टिकोण"
+        ],
+        "correct": 1,
+        "explanation": "आउटपुट फ्लोर आंतरिक मॉडलों से लाभ को सीमित करता है। कैपिटल मानकीकृत दृष्टिकोण के 72.5% से कम नहीं हो सकता।"
+    },
+    {
+        "prompt": "भारत ने बासेल III लागू किया है?",
+        "answers": [
+            "नहीं",
+            "हाँ - पूरी तरह लागू",
+            "आंशिक रूप से",
+            "केवल PSBs के लिए"
+        ],
+        "correct": 1,
+        "explanation": "भारत ने बासेल III लागू किया है। RBI ने दिशानिर्देश जारी किए और बैंक आवश्यकताओं को पूरा करते हैं। बासेल III सुधार (आउटपुट फ्लोर) चरणबद्ध रूप से।"
+    },
+    {
+        "prompt": "प्रॉम्प्ट करेक्टिव एक्शन (PCA) क्या प्रतिबंधित करता है?",
+        "answers": [
+            "कुछ नहीं",
+            "बैंकों - लाभांश, शाखा विस्तार, उधार उल्लंघनों के आधार पर",
+            "केवल NPA",
+            "केवल कैपिटल"
+        ],
+        "correct": 1,
+        "explanation": "PCA फ्रेमवर्क: जब बैंक कैपिटल, NPA, लाभप्रदता मानदंडों का उल्लंघन करते हैं - लाभांश, शाखा विस्तार, उधार आदि पर प्रतिबंध।"
+    },
+    {
+        "prompt": "RBI बैंक की निगरानी कैसे करता है?",
+        "answers": [
+            "केवल ऑफ-साइट",
+            "ऑन-साइट निरीक्षण और ऑफ-साइट मॉनिटरिंग",
+            "केवल वार्षिक रिपोर्ट",
+            "केवल CRILC"
+        ],
+        "correct": 1,
+        "explanation": "RBI निगरानी के लिए ऑन-साइट निरीक्षण (वार्षिक वित्तीय निरीक्षण) और ऑफ-साइट सर्विलांस (रिटर्न, CRILC आदि) का उपयोग करता है।"
+    }
+]

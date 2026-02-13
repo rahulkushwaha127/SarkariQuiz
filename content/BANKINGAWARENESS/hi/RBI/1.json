@@ -1,277 +1,365 @@
 ﻿[
     {
-        "prompt":  "When was the Reserve Bank of India (RBI) established?",
-        "answers":  [
-                        "1934",
-                        "1935",
-                        "1949",
-                        "1950"
-                    ],
-        "correct":  1,
-        "explanation":  "The Reserve Bank of India was established on April 1, 1935, under the RBI Act, 1934, based on recommendations of the Hilton Young Commission."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया (RBI) की स्थापना कब हुई?",
+        "answers": [
+            "1934",
+            "1935",
+            "1949",
+            "1950"
+        ],
+        "correct": 1,
+        "explanation": "रिजर्व बैंक ऑफ इंडिया की स्थापना 1 अप्रैल 1935 को RBI एक्ट, 1934 के तहत हुई, जो हिल्टन यंग कमीशन की सिफारिशों पर आधारित थी।"
     },
     {
-        "prompt":  "Which commission recommended the establishment of the Reserve Bank of India?",
-        "answers":  [
-                        "Raja Chelliah Committee",
-                        "Hilton Young Commission",
-                        "Narasimham Committee",
-                        "Nachiket Mor Committee"
-                    ],
-        "correct":  1,
-        "explanation":  "The Hilton Young Commission (also known as the Royal Commission on Indian Currency and Finance) recommended the establishment of RBI in 1926."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया की स्थापना की सिफारिश किस कमीशन ने की?",
+        "answers": [
+            "राजा चेलैया कमिटी",
+            "हिल्टन यंग कमीशन",
+            "नरसिम्हन कमिटी",
+            "नचिकेत मोर कमिटी"
+        ],
+        "correct": 1,
+        "explanation": "हिल्टन यंग कमीशन (जिसे रॉयल कमीशन ऑन इंडियन करेंसी एंड फाइनेंस भी कहा जाता है) ने 1926 में RBI की स्थापना की सिफारिश की।"
     },
     {
-        "prompt":  "When was the Reserve Bank of India nationalized?",
-        "answers":  [
-                        "1947",
-                        "1948",
-                        "1949",
-                        "1950"
-                    ],
-        "correct":  2,
-        "explanation":  "The RBI was nationalized on January 1, 1949, under the Reserve Bank of India (Transfer to Public Ownership) Act, 1948."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया का राष्ट्रीयकरण कब हुआ?",
+        "answers": [
+            "1947",
+            "1948",
+            "1949",
+            "1950"
+        ],
+        "correct": 2,
+        "explanation": "RBI का राष्ट्रीयकरण 1 जनवरी 1949 को रिजर्व बैंक ऑफ इंडिया (ट्रांसफर टू पब्लिक ओनरशिप) एक्ट, 1948 के तहत हुआ।"
     },
     {
-        "prompt":  "Who was the first Governor of the Reserve Bank of India?",
-        "answers":  [
-                        "C.D. Deshmukh",
-                        "Sir Osborne Smith",
-                        "James Taylor",
-                        "John Mathai"
-                    ],
-        "correct":  1,
-        "explanation":  "Sir Osborne Smith was the first Governor of RBI when it commenced operations on April 1, 1935."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया का पहला गवर्नर कौन था?",
+        "answers": [
+            "सी.डी. देशमुख",
+            "सर ओस्बोर्न स्मिथ",
+            "जेम्स टेलर",
+            "जॉन मथाई"
+        ],
+        "correct": 1,
+        "explanation": "सर ओस्बोर्न स्मिथ RBI के पहले गवर्नर थे जब इसने 1 अप्रैल 1935 को संचालन शुरू किया।"
     },
     {
-        "prompt":  "The Reserve Bank of India Act was passed in which year?",
-        "answers":  [
-                        "1934",
-                        "1935",
-                        "1949",
-                        "1956"
-                    ],
-        "correct":  0,
-        "explanation":  "The Reserve Bank of India Act, 1934, provides the statutory basis for the functioning of RBI. The bank started operations in 1935."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया एक्ट किस वर्ष पारित हुआ?",
+        "answers": [
+            "1934",
+            "1935",
+            "1949",
+            "1956"
+        ],
+        "correct": 0,
+        "explanation": "रिजर्व बैंक ऑफ इंडिया एक्ट, 1934 RBI के कार्यकलाप के लिए वैधानिक आधार प्रदान करता है। बैंक ने 1935 में संचालन शुरू किया।"
     },
     {
-        "prompt":  "Which of the following is the central bank of India?",
-        "answers":  [
-                        "State Bank of India",
-                        "Reserve Bank of India",
-                        "Punjab National Bank",
-                        "Bank of Baroda"
-                    ],
-        "correct":  1,
-        "explanation":  "Reserve Bank of India is India\u0027s central bank, responsible for monetary policy, currency issuance, and regulation of the banking system."
+        "prompt": "निम्नलिखित में से भारत का केंद्रीय बैंक कौन सा है?",
+        "answers": [
+            "स्टेट बैंक ऑफ इंडिया",
+            "रिजर्व बैंक ऑफ इंडिया",
+            "पंजाब नेशनल बैंक",
+            "केनरा बैंक"
+        ],
+        "correct": 1,
+        "explanation": "रिजर्व बैंक ऑफ इंडिया भारत का केंद्रीय बैंक है, जो मौद्रिक नीति, बैंकिंग नियमन और करेंसी जारी करने के लिए जिम्मेदार है।"
     },
     {
-        "prompt":  "RBI serves as the banker to which of the following?",
-        "answers":  [
-                        "Only Central Government",
-                        "Only State Governments",
-                        "Both Central and State Governments",
-                        "Only Public Sector Banks"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI acts as banker to both the Central Government and State Governments, managing their accounts and handling public debt."
+        "prompt": "RBI का मुख्यालय कहाँ है?",
+        "answers": [
+            "नई दिल्ली",
+            "मुंबई",
+            "कोलकाता",
+            "चेन्नई"
+        ],
+        "correct": 1,
+        "explanation": "RBI का मुख्यालय मुंबई में है। इसमें क्षेत्रीय कार्यालय भी हैं।"
     },
     {
-        "prompt":  "Which function is NOT performed by the Reserve Bank of India?",
-        "answers":  [
-                        "Issuing currency notes",
-                        "Regulating commercial banks",
-                        "Accepting deposits from public",
-                        "Formulating monetary policy"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI does not accept deposits from the general public. It is a central bank that regulates the banking system; accepting public deposits is a function of commercial banks."
+        "prompt": "RBI के कितने क्षेत्रीय कार्यालय हैं?",
+        "answers": [
+            "20",
+            "25",
+            "30",
+            "33"
+        ],
+        "correct": 3,
+        "explanation": "RBI के 33 क्षेत्रीय कार्यालय और शाखाएँ हैं जो देश भर में फैली हुई हैं।"
     },
     {
-        "prompt":  "The headquarters of the Reserve Bank of India is located in?",
-        "answers":  [
-                        "New Delhi",
-                        "Mumbai",
-                        "Kolkata",
-                        "Chennai"
-                    ],
-        "correct":  1,
-        "explanation":  "The central office of RBI is in Mumbai. It was originally in Kolkata and moved to Mumbai in 1937."
+        "prompt": "RBI की स्थापना किस एक्ट के तहत हुई?",
+        "answers": [
+            "बैंकिंग रेगुलेशन एक्ट",
+            "RBI एक्ट 1934",
+            "सारफेसी एक्ट",
+            "IBC"
+        ],
+        "correct": 1,
+        "explanation": "RBI की स्थापना RBI एक्ट, 1934 के तहत हुई।"
     },
     {
-        "prompt":  "RBI has how many regional offices?",
-        "answers":  [
-                        "4",
-                        "19",
-                        "25",
-                        "31"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI has 19 regional offices located in state capitals and major cities across India."
+        "prompt": "RBI किसकी सिफारिश पर स्थापित हुआ?",
+        "answers": [
+            "नरसिम्हन कमिटी",
+            "हिल्टन यंग कमीशन",
+            "रघुराम राजन कमिटी",
+            "नचिकेत मोर कमिटी"
+        ],
+        "correct": 1,
+        "explanation": "हिल्टन यंग कमीशन (रॉयल कमीशन ऑन इंडियन करेंसी एंड फाइनेंस) ने RBI की स्थापना की सिफारिश की।"
     },
     {
-        "prompt":  "Which of the following describes the role of RBI as \u0027lender of last resort\u0027?",
-        "answers":  [
-                        "Issuing currency",
-                        "Providing credit to banks in emergency",
-                        "Regulating foreign exchange",
-                        "Managing government debt"
-                    ],
-        "correct":  1,
-        "explanation":  "As lender of last resort, RBI provides funds to banks facing temporary liquidity shortages to maintain financial stability."
+        "prompt": "RBI का राष्ट्रीयकरण किस वर्ष हुआ?",
+        "answers": [
+            "1947",
+            "1949",
+            "1955",
+            "1969"
+        ],
+        "correct": 1,
+        "explanation": "RBI का राष्ट्रीयकरण 1 जनवरी 1949 को हुआ।"
     },
     {
-        "prompt":  "The Reserve Bank of India was the central bank of Pakistan until?",
-        "answers":  [
-                        "1947",
-                        "June 1948",
-                        "1950",
-                        "Pakistan never used RBI"
-                    ],
-        "correct":  1,
-        "explanation":  "After partition in 1947, RBI served as the central bank of Pakistan until the State Bank of Pakistan commenced operations in June 1948."
+        "prompt": "RBI का पहला भारतीय गवर्नर कौन था?",
+        "answers": [
+            "सी.डी. देशमुख",
+            "सर ओस्बोर्न स्मिथ",
+            "जेम्स टेलर",
+            "बी. राम राव"
+        ],
+        "correct": 0,
+        "explanation": "सी.डी. देशमुख RBI के पहले भारतीय गवर्नर थे (1943-1949)। बाद में वे वित्त मंत्री बने।"
     },
     {
-        "prompt":  "Which bank is known as the \u0027Banker\u0027s Bank\u0027 in India?",
-        "answers":  [
-                        "State Bank of India",
-                        "Punjab National Bank",
-                        "Reserve Bank of India",
-                        "HDFC Bank"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI is called the \u0027Banker\u0027s Bank\u0027 because commercial banks maintain accounts with RBI and it provides them liquidity support."
+        "prompt": "RBI की करेंसी प्रिंटिंग प्रेस कहाँ स्थित हैं?",
+        "answers": [
+            "केवल मुंबई",
+            "नासिक, देवास, मैसूर, सालबोनी",
+            "केवल दिल्ली",
+            "केवल कोलकाता"
+        ],
+        "correct": 1,
+        "explanation": "RBI की करेंसी प्रेस नासिक, देवास, मैसूर और सालबोनी में हैं।"
     },
     {
-        "prompt":  "Who appoints the Governor of the Reserve Bank of India?",
-        "answers":  [
-                        "President of India",
-                        "Prime Minister of India",
-                        "Central Government",
-                        "Parliament"
-                    ],
-        "correct":  2,
-        "explanation":  "The Governor of RBI is appointed by the Central Government (Cabinet) for a term of 3 years, which can be extended."
+        "prompt": "RBI का पहला गवर्नर कौन था?",
+        "answers": [
+            "सी.डी. देशमुख",
+            "सर ओस्बोर्न स्मिथ",
+            "जेम्स टेलर",
+            "एच.वी.आर. आयंगर"
+        ],
+        "correct": 1,
+        "explanation": "सर ओस्बोर्न स्मिथ RBI के पहले गवर्नर थे (1935-1937)।"
     },
     {
-        "prompt":  "The RBI Governor holds office for a term of how many years?",
-        "answers":  [
-                        "2 years",
-                        "3 years",
-                        "5 years",
-                        "6 years"
-                    ],
-        "correct":  1,
-        "explanation":  "The RBI Governor is appointed for a term of 3 years and is eligible for reappointment."
+        "prompt": "RBI का वित्तीय वर्ष क्या है?",
+        "answers": [
+            "जनवरी-दिसंबर",
+            "अप्रैल-मार्च",
+            "जुलाई-जून",
+            "अक्टूबर-सितंबर"
+        ],
+        "correct": 2,
+        "explanation": "RBI का वित्तीय वर्ष जुलाई से जून तक है, जबकि सरकारी वित्तीय वर्ष अप्रैल से मार्च है।"
     },
     {
-        "prompt":  "Which city had the first office of RBI when it was established?",
-        "answers":  [
-                        "Mumbai",
-                        "Kolkata",
-                        "Delhi",
-                        "Chennai"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI commenced operations in Kolkata (then Calcutta) in 1935. The central office moved to Mumbai in 1937."
+        "prompt": "RBI के कितने डिप्टी गवर्नर होते हैं?",
+        "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct": 2,
+        "explanation": "RBI में 4 डिप्टी गवर्नर होते हैं।"
     },
     {
-        "prompt":  "The currency notes in India are issued by?",
-        "answers":  [
-                        "Ministry of Finance",
-                        "Reserve Bank of India",
-                        "State Bank of India",
-                        "Security Printing and Minting Corporation"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI has the sole right to issue currency notes in India under the RBI Act. One rupee notes are issued by the Ministry of Finance."
+        "prompt": "RBI सेंट्रल बोर्ड में कितने सदस्य होते हैं?",
+        "answers": [
+            "15",
+            "21",
+            "25",
+            "30"
+        ],
+        "correct": 1,
+        "explanation": "RBI सेंट्रल बोर्ड में 21 सदस्य होते हैं: गवर्नर, 4 डिप्टी गवर्नर, 2 सरकारी अधिकारी, 14 नामित निदेशक।"
     },
     {
-        "prompt":  "The Monetary Policy Framework Agreement was signed in?",
-        "answers":  [
-                        "2013",
-                        "2014",
-                        "2015",
-                        "2016"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI and Government signed the Monetary Policy Framework in February 2015, making inflation targeting the primary objective."
+        "prompt": "RBI के सेंट्रल बोर्ड के निदेशक कितने वर्षों के लिए नियुक्त होते हैं?",
+        "answers": [
+            "2 वर्ष",
+            "3 वर्ष",
+            "4 वर्ष",
+            "5 वर्ष"
+        ],
+        "correct": 2,
+        "explanation": "RBI के सेंट्रल बोर्ड के नामित निदेशक 4 वर्ष के लिए या अगले आदेश तक नियुक्त होते हैं।"
     },
     {
-        "prompt":  "RBI publishes its Monetary Policy Report?",
-        "answers":  [
-                        "Monthly",
-                        "Quarterly",
-                        "Half-yearly",
-                        "With every MPC meeting"
-                    ],
-        "correct":  3,
-        "explanation":  "RBI publishes the Monetary Policy Report along with each bimonthly MPC meeting, detailing the inflation and growth outlook."
+        "prompt": "RBI गवर्नर की नियुक्ति कौन करता है?",
+        "answers": [
+            "प्रधान मंत्री",
+            "राष्ट्रपति",
+            "वित्त मंत्री",
+            "संसद"
+        ],
+        "correct": 1,
+        "explanation": "RBI गवर्नर की नियुक्ति केंद्रीय सरकार की सिफारिश पर राष्ट्रपति द्वारा की जाती है।"
     },
     {
-        "prompt":  "Open Market Operations by RBI involve?",
-        "answers":  [
-                        "Buying or selling government securities",
-                        "Fixing interest rates",
-                        "Regulating banks",
-                        "Issuing currency"
-                    ],
-        "correct":  0,
-        "explanation":  "OMOs are buying or selling of G-Secs by RBI to inject or absorb durable liquidity in the banking system."
+        "prompt": "RBI का गवर्नर कितने वर्षों के लिए नियुक्त होता है?",
+        "answers": [
+            "3 वर्ष",
+            "5 वर्ष",
+            "7 वर्ष",
+            "10 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "RBI गवर्नर की नियुक्ति 5 वर्ष के लिए होती है, लेकिन हाल के गवर्नरों को 3 वर्ष के लिए नियुक्त किया गया है।"
     },
     {
-        "prompt":  "RBI foreign exchange reserves are held in?",
-        "answers":  [
-                        "Only US dollars",
-                        "Multiple currencies and gold",
-                        "Only gold",
-                        "Only SDRs"
-                    ],
-        "correct":  1,
-        "explanation":  "India forex reserves include foreign currency assets (multiple currencies), gold, SDRs, and reserve position in IMF."
+        "prompt": "RBI की मौद्रिक नीति कमिटी (MPC) में कितने सदस्य होते हैं?",
+        "answers": [
+            "4",
+            "6",
+            "8",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "MPC में 6 सदस्य होते हैं: RBI गवर्नर, 2 RBI अधिकारी, 3 बाहरी सदस्य।"
     },
     {
-        "prompt":  "Central Bank of India was established in?",
-        "answers":  [
-                        "1906",
-                        "1911",
-                        "1921",
-                        "1935"
-                    ],
-        "correct":  1,
-        "explanation":  "Central Bank of India was established in 1911. It was the first Indian commercial bank to be wholly owned and managed by Indians."
+        "prompt": "MPC का प्रमुख कौन होता है?",
+        "answers": [
+            "वित्त मंत्री",
+            "RBI गवर्नर",
+            "नीति आयोग CEO",
+            "SEBI चेयरमैन"
+        ],
+        "correct": 1,
+        "explanation": "MPC का प्रमुख RBI गवर्नर होता है।"
     },
     {
-        "prompt":  "First Governor of RBI to be Indian was?",
-        "answers":  [
-                        "C.D. Deshmukh",
-                        "B. Rama Rau",
-                        "H.V.R. Iengar",
-                        "L.K. Jha"
-                    ],
-        "correct":  0,
-        "explanation":  "C.D. Deshmukh was the first Indian Governor of RBI (1943-1949). He later became Finance Minister."
+        "prompt": "MPC की बैठकें कितनी बार होती हैं?",
+        "answers": [
+            "मासिक",
+            "तिमाही",
+            "द्विमासिक",
+            "वार्षिक"
+        ],
+        "correct": 2,
+        "explanation": "MPC की बैठकें हर दो महीने में होती हैं, वर्ष में कम से कम 4 बार।"
     },
     {
-        "prompt":  "RBI Integrated Ombudsman covers?",
-        "answers":  [
-                        "Only banks",
-                        "Banks, NBFCs, and digital payment system participants",
-                        "Only NBFCs",
-                        "Only payment banks"
-                    ],
-        "correct":  1,
-        "explanation":  "Integrated Ombudsman Scheme covers regulated entities: banks, NBFCs, and non-bank prepaid instrument issuers, etc."
+        "prompt": "RBI की मुद्रास्फीति लक्ष्य क्या है?",
+        "answers": [
+            "2%",
+            "4% ± 2%",
+            "6%",
+            "8%"
+        ],
+        "correct": 1,
+        "explanation": "RBI का CPI मुद्रास्फीति लक्ष्य 4% है जिसमें ±2% सहनशीलता बैंड है (2-6%)।"
     },
     {
-        "prompt":  "RBI Banking Ombudsman is appointed for?",
-        "answers":  [
-                        "1 year",
-                        "2 years",
-                        "3 years",
-                        "5 years"
-                    ],
-        "correct":  2,
-        "explanation":  "Banking Ombudsman is appointed for 3 years. Can be reappointed."
+        "prompt": "RBI की रिपोर्ट ऑन करेंसी एंड फाइनेंस कब प्रकाशित होती है?",
+        "answers": [
+            "मासिक",
+            "तिमाही",
+            "वार्षिक",
+            "द्विवार्षिक"
+        ],
+        "correct": 2,
+        "explanation": "रिपोर्ट ऑन करेंसी एंड फाइनेंस RBI की वार्षिक रिपोर्ट है जो आर्थिक मुद्दों पर केंद्रित होती है।"
+    },
+    {
+        "prompt": "RBI का फाइनेंशियल स्टेबिलिटी रिपोर्ट कब प्रकाशित होता है?",
+        "answers": [
+            "मासिक",
+            "तिमाही",
+            "द्विवार्षिक",
+            "वार्षिक"
+        ],
+        "correct": 2,
+        "explanation": "फाइनेंशियल स्टेबिलिटी रिपोर्ट द्विवार्षिक है, जो बैंकिंग क्षेत्र की स्थिरता का मूल्यांकन करता है।"
+    },
+    {
+        "prompt": "RBI की वार्षिक रिपोर्ट कब प्रकाशित होती है?",
+        "answers": [
+            "मार्च",
+            "जून",
+            "अगस्त",
+            "दिसंबर"
+        ],
+        "correct": 2,
+        "explanation": "RBI की वार्षिक रिपोर्ट अगस्त में प्रकाशित होती है, जो पिछले वित्तीय वर्ष (जुलाई-जून) को कवर करती है।"
+    },
+    {
+        "prompt": "RBI बुलेटिन कब प्रकाशित होता है?",
+        "answers": [
+            "दैनिक",
+            "मासिक",
+            "तिमाही",
+            "वार्षिक"
+        ],
+        "correct": 1,
+        "explanation": "RBI बुलेटिन मासिक प्रकाशित होता है। इसमें मौद्रिक और बैंकिंग आंकड़े होते हैं।"
+    },
+    {
+        "prompt": "RBI किसे नियंत्रित करता है?",
+        "answers": [
+            "केवल बैंक",
+            "बैंक, NBFCs, भुगतान प्रणाली",
+            "बीमा",
+            "म्यूचुअल फंड"
+        ],
+        "correct": 1,
+        "explanation": "RBI कमर्शियल बैंक, सहकारी बैंक, NBFCs और भुगतान और सेटलमेंट सिस्टम को नियंत्रित करता है।"
+    },
+    {
+        "prompt": "RBI बैंकों का निरीक्षण किसके तहत कर सकता है?",
+        "answers": [
+            "कंपनीज एक्ट",
+            "बैंकिंग रेगुलेशन एक्ट",
+            "SEBI एक्ट",
+            "RBI एक्ट"
+        ],
+        "correct": 1,
+        "explanation": "RBI बैंकिंग रेगुलेशन एक्ट, 1949 की धारा 35 के तहत बैंकों का निरीक्षण करता है।"
+    },
+    {
+        "prompt": "RBI बैंक बोर्ड को सुपरसीड कर सकता है यदि?",
+        "answers": [
+            "हमेशा",
+            "जनहित में - कुप्रबंधन, जमाकर्ता हित",
+            "केवल प्राइवेट बैंकों के लिए",
+            "केवल अदालत आदेश से"
+        ],
+        "correct": 1,
+        "explanation": "RBI BR एक्ट के तहत जमाकर्ताओं के हित में बैंकों (सहकारी सहित) के बोर्ड को सुपरसीड कर सकता है।"
+    },
+    {
+        "prompt": "RBI बैंकों में शेयरों का अधिग्रहण ऊपर से अनुमोदन आवश्यक?",
+        "answers": [
+            "1 प्रतिशत",
+            "5 प्रतिशत",
+            "10 प्रतिशत",
+            "25 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "बैंक में 5 प्रतिशत या अधिक शेयरों का अधिग्रहण RBI अनुमोदन की आवश्यकता है। बैंकिंग रेगुलेशन एक्ट।"
+    },
+    {
+        "prompt": "RBI बैंकों को बोर्ड अनुमोदित नीति रखने को कहता है?",
+        "answers": [
+            "केवल ऋण",
+            "ALM, जोखिम प्रबंधन, बिजनेस कंटिन्यूटी",
+            "केवल जमा",
+            "केवल NPA"
+        ],
+        "correct": 1,
+        "explanation": "बैंकों के पास ALM, जोखिम प्रबंधन, KYC, बिजनेस कंटिन्यूटी आदि के लिए बोर्ड अनुमोदित नीतियाँ होनी चाहिए।"
     }
 ]

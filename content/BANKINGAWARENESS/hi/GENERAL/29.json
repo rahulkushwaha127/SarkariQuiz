@@ -1,1 +1,277 @@
-[{"prompt":"Wholesale Price Index base year was changed to?","answers":["2004-05","2011-12","2015-16","2017-18"],"correct":1,"explanation":"WPI base year was revised to 2011-12. Released by Ministry of Commerce."},{"prompt":"Consumer Price Index for rural workers is?","answers":["CPI-RW","CPI-AL","CPI-RL","CPI-IW"],"correct":2,"explanation":"CPI-RL is Consumer Price Index for Rural Labourers. CPI-AL for Agricultural Labourers."},{"prompt":"Core inflation excludes?","answers":["Food","Food and fuel - volatile items","Only fuel","Nothing"],"correct":1,"explanation":"Core inflation excludes food and fuel which are volatile. Gives underlying inflation trend."},{"prompt":"Headline inflation includes?","answers":["Only food","All items in the index","Only fuel","Only services"],"correct":1,"explanation":"Headline inflation is overall CPI/WPI including all items."},{"prompt":"GDP deflator measures?","answers":["Only CPI","Implicit price change in GDP","Only WPI","Only export prices"],"correct":1,"explanation":"GDP deflator = (Nominal GDP / Real GDP) x 100. Measures economy-wide price change."},{"prompt":"NDP stands for?","answers":["Net Domestic Product","National Development Plan","New Domestic Policy","Net Debt Product"],"correct":0,"explanation":"NDP = GDP minus depreciation. Depreciation is wear and tear of capital."},{"prompt":"NNP at factor cost is?","answers":["GNP minus depreciation","Same as GDP","Only for services","Not used"],"correct":0,"explanation":"NNP (Net National Product) = GNP minus depreciation. Factor cost excludes indirect taxes minus subsidies."},{"prompt":"Per capita income is?","answers":["Total income","National income divided by population","Only urban","Only rural"],"correct":1,"explanation":"Per capita income = National income / Mid-year population."},{"prompt":"Base year for GDP calculation in India is?","answers":["2004-05","2011-12","2015-16","2019-20"],"correct":1,"explanation":"India uses 2011-12 as base year for GDP and related macroeconomic aggregates."},{"prompt":"Real GDP is?","answers":["At current prices","At constant prices - inflation adjusted","Nominal only","Same as GNP"],"correct":1,"explanation":"Real GDP is at constant prices - removes effect of inflation for comparison."},{"prompt":"Nominal GDP is?","answers":["At constant prices","At current market prices","Deflated","Same as NDP"],"correct":1,"explanation":"Nominal GDP values output at current prices. Includes inflation effect."},{"prompt":"Fiscal policy is set by?","answers":["RBI","Government - taxation and expenditure","SEBI","Banks"],"correct":1,"explanation":"Fiscal policy is government's taxation and expenditure policy. RBI handles monetary policy."},{"prompt":"Monetary policy is set by?","answers":["Government","RBI","SEBI","Finance Ministry"],"correct":1,"explanation":"RBI formulates and implements monetary policy in India."},{"prompt":"FRBM Act aims at?","answers":["Bank regulation","Fiscal discipline - deficit targets","Monetary policy","Bank mergers"],"correct":1,"explanation":"Fiscal Responsibility and Budget Management Act targets fiscal deficit reduction."},{"prompt":"Revenue deficit is?","answers":["Total deficit","Revenue expenditure minus revenue receipts","Only capital","Only borrowings"],"correct":1,"explanation":"Revenue deficit = Revenue expenditure - Revenue receipts. Indicates borrowings for current spending."},{"prompt":"Primary deficit is?","answers":["Fiscal deficit","Fiscal deficit minus interest payments","Revenue deficit","Zero"],"correct":1,"explanation":"Primary deficit = Fiscal deficit - Interest payments. Shows deficit excluding past debt servicing."},{"prompt":"Twin deficit refers to?","answers":["Bank and NBFC","Fiscal deficit and Current account deficit","Revenue and capital","Import and export"],"correct":1,"explanation":"Twin deficit: when both fiscal deficit and current account deficit are high."},{"prompt":"Capital expenditure by government goes to?","answers":["Salaries","Asset creation - infrastructure etc","Subsidies","Interest"],"correct":1,"explanation":"Capital expenditure creates assets - roads, bridges, PSU investment. Revenue exp is recurring."},{"prompt":"Disinvestment means?","answers":["Government investing more","Government selling stake in PSUs","Bank investment","RBI selling"],"correct":1,"explanation":"Disinvestment is government selling its stake in public sector undertakings."},{"prompt":"GST is a?","answers":["Direct tax","Indirect tax - consumption based","Only for services","Only for goods"],"correct":1,"explanation":"GST (Goods and Services Tax) is indirect tax on consumption. Destination-based."},{"prompt":"Direct taxes include?","answers":["GST","Income tax, corporate tax","Customs","Excise"],"correct":1,"explanation":"Direct taxes: burden on same person who pays. Income tax, corporate tax, wealth tax."},{"prompt":"Indirect taxes include?","answers":["Income tax","GST, customs, excise","Wealth tax","Corporate tax"],"correct":1,"explanation":"Indirect taxes: burden shifted to consumer. GST, customs, excise."},{"prompt":"Repo rate is also called?","answers":["Bank rate","Policy repo rate - key policy rate","MSF rate","Reverse repo"],"correct":1,"explanation":"Repo rate is the key policy rate at which RBI lends to banks. MPC decides it."},{"prompt":"Transmission of policy rate means?","answers":["RBI only","Change in repo reflecting in bank lending rates","Only deposits","Only MSF"],"correct":1,"explanation":"Monetary transmission: when repo rate change flows to bank deposit and lending rates."},{"prompt":"RBI uses liquidity tools to?","answers":["Only control inflation","Manage money supply and overnight rates","Only forex","Only CRR"],"correct":1,"explanation":"RBI uses LAF, OMO, CRR, etc. to manage liquidity and keep overnight rates near repo."}]
+[
+    {
+        "prompt": "होलसेल प्राइस इंडेक्स का बेस ईयर किसमें बदला गया?",
+        "answers": [
+            "2004-05",
+            "2011-12",
+            "2015-16",
+            "2017-18"
+        ],
+        "correct": 1,
+        "explanation": "WPI का बेस ईयर 2011-12 में संशोधित किया गया। वाणिज्य मंत्रालय द्वारा जारी।"
+    },
+    {
+        "prompt": "ग्रामीण श्रमिकों के लिए कंज्यूमर प्राइस इंडेक्स क्या है?",
+        "answers": [
+            "CPI-RW",
+            "CPI-AL",
+            "CPI-RL",
+            "CPI-IW"
+        ],
+        "correct": 2,
+        "explanation": "CPI-RL ग्रामीण श्रमिकों के लिए कंज्यूमर प्राइस इंडेक्स है। CPI-AL कृषि श्रमिकों के लिए।"
+    },
+    {
+        "prompt": "कोर इन्फ्लेशन क्या बाहर करता है?",
+        "answers": [
+            "केवल खाद्य",
+            "खाद्य और ईंधन - अस्थिर आइटम",
+            "केवल ईंधन",
+            "कुछ नहीं"
+        ],
+        "correct": 1,
+        "explanation": "कोर इन्फ्लेशन खाद्य और ईंधन को बाहर करता है जो अस्थिर होते हैं। अंतर्निहित इन्फ्लेशन ट्रेंड देता है।"
+    },
+    {
+        "prompt": "हेडलाइन इन्फ्लेशन क्या शामिल करता है?",
+        "answers": [
+            "केवल खाद्य",
+            "इंडेक्स में सभी आइटम",
+            "केवल ईंधन",
+            "केवल सेवाएँ"
+        ],
+        "correct": 1,
+        "explanation": "हेडलाइन इन्फ्लेशन कुल CPI/WPI है जिसमें सभी आइटम शामिल हैं।"
+    },
+    {
+        "prompt": "GDP डिफ्लेटर क्या मापता है?",
+        "answers": [
+            "केवल CPI",
+            "GDP में निहित मूल्य परिवर्तन",
+            "केवल WPI",
+            "केवल निर्यात मूल्य"
+        ],
+        "correct": 1,
+        "explanation": "GDP डिफ्लेटर = (नॉमिनल GDP / रियल GDP) × 100। अर्थव्यवस्था-व्यापी मूल्य परिवर्तन मापता है।"
+    },
+    {
+        "prompt": "NDP का पूरा नाम क्या है?",
+        "answers": [
+            "Net Domestic Product",
+            "National Development Plan",
+            "New Domestic Policy",
+            "Net Debt Product"
+        ],
+        "correct": 0,
+        "explanation": "NDP = GDP माइनस डेप्रिसिएशन। डेप्रिसिएशन पूंजी के घिसाव-टूटाव है।"
+    },
+    {
+        "prompt": "फैक्टर कॉस्ट पर NNP क्या है?",
+        "answers": [
+            "GNP माइनस डेप्रिसिएशन",
+            "GDP के समान",
+            "केवल सेवाओं के लिए",
+            "उपयोग नहीं होता"
+        ],
+        "correct": 0,
+        "explanation": "NNP (Net National Product) = GNP माइनस डेप्रिसिएशन। फैक्टर कॉस्ट अप्रत्यक्ष कर माइनस सब्सिडी को बाहर करता है।"
+    },
+    {
+        "prompt": "प्रति व्यक्ति आय क्या है?",
+        "answers": [
+            "कुल आय",
+            "राष्ट्रीय आय को जनसंख्या से विभाजित",
+            "केवल शहरी",
+            "केवल ग्रामीण"
+        ],
+        "correct": 1,
+        "explanation": "प्रति व्यक्ति आय = राष्ट्रीय आय / मध्य-वर्ष जनसंख्या।"
+    },
+    {
+        "prompt": "भारत में GDP गणना के लिए बेस ईयर क्या है?",
+        "answers": [
+            "2004-05",
+            "2011-12",
+            "2015-16",
+            "2019-20"
+        ],
+        "correct": 1,
+        "explanation": "भारत GDP और संबंधित मैक्रोइकॉनॉमिक एग्रीगेट्स के लिए 2011-12 को बेस ईयर उपयोग करता है।"
+    },
+    {
+        "prompt": "रियल GDP क्या है?",
+        "answers": [
+            "वर्तमान मूल्यों पर",
+            "स्थिर मूल्यों पर - मुद्रास्फीति समायोजित",
+            "केवल नॉमिनल",
+            "GNP के समान"
+        ],
+        "correct": 1,
+        "explanation": "रियल GDP स्थिर मूल्यों पर है - मुद्रास्फीति प्रभाव हटाकर तुलना के लिए।"
+    },
+    {
+        "prompt": "नॉमिनल GDP क्या है?",
+        "answers": [
+            "स्थिर मूल्यों पर",
+            "वर्तमान बाजार मूल्यों पर",
+            "डिफ्लेटेड",
+            "NDP के समान"
+        ],
+        "correct": 1,
+        "explanation": "नॉमिनल GDP वर्तमान मूल्यों पर आउटपुट मूल्यांकन करता है। मुद्रास्फीति प्रभाव शामिल।"
+    },
+    {
+        "prompt": "फिस्कल पॉलिसी किसके द्वारा सेट की जाती है?",
+        "answers": [
+            "RBI",
+            "सरकार - कराधान और व्यय",
+            "SEBI",
+            "बैंक"
+        ],
+        "correct": 1,
+        "explanation": "फिस्कल पॉलिसी सरकार की कराधान और व्यय नीति है। RBI मौद्रिक नीति संभालता है।"
+    },
+    {
+        "prompt": "मौद्रिक नीति किसके द्वारा सेट की जाती है?",
+        "answers": [
+            "सरकार",
+            "RBI",
+            "SEBI",
+            "वित्त मंत्रालय"
+        ],
+        "correct": 1,
+        "explanation": "RBI भारत में मौद्रिक नीति तैयार और लागू करता है।"
+    },
+    {
+        "prompt": "FRBM एक्ट का उद्देश्य क्या है?",
+        "answers": [
+            "बैंक नियमन",
+            "फिस्कल अनुशासन - घाटा लक्ष्य",
+            "मौद्रिक नीति",
+            "बैंक विलय"
+        ],
+        "correct": 1,
+        "explanation": "फिस्कल रिस्पॉन्सिबिलिटी एंड बजट मैनेजमेंट एक्ट फिस्कल घाटा कम करने के लक्ष्य रखता है।"
+    },
+    {
+        "prompt": "रेवेन्यू डेफिसिट क्या है?",
+        "answers": [
+            "कुल घाटा",
+            "रेवेन्यू व्यय माइनस रेवेन्यू प्राप्तियाँ",
+            "केवल कैपिटल",
+            "केवल उधार"
+        ],
+        "correct": 1,
+        "explanation": "रेवेन्यू डेफिसिट = रेवेन्यू व्यय - रेवेन्यू प्राप्तियाँ। वर्तमान खर्च के लिए उधार दर्शाता है।"
+    },
+    {
+        "prompt": "प्राइमरी डेफिसिट क्या है?",
+        "answers": [
+            "फिस्कल डेफिसिट",
+            "फिस्कल डेफिसिट माइनस ब्याज भुगतान",
+            "रेवेन्यू डेफिसिट",
+            "शून्य"
+        ],
+        "correct": 1,
+        "explanation": "प्राइमरी डेफिसिट = फिस्कल डेफिसिट - ब्याज भुगतान। पिछले ऋण सेवा को छोड़कर घाटा दिखाता है।"
+    },
+    {
+        "prompt": "ट्विन डेफिसिट से तात्पर्य है?",
+        "answers": [
+            "बैंक और NBFC",
+            "फिस्कल डेफिसिट और करंट अकाउंट डेफिसिट",
+            "रेवेन्यू और कैपिटल",
+            "आयात और निर्यात"
+        ],
+        "correct": 1,
+        "explanation": "ट्विन डेफिसिट: जब फिस्कल डेफिसिट और करंट अकाउंट डेफिसिट दोनों उच्च हों।"
+    },
+    {
+        "prompt": "सरकार का कैपिटल व्यय किसमें जाता है?",
+        "answers": [
+            "वेतन",
+            "एसेट निर्माण - इंफ्रास्ट्रक्चर आदि",
+            "सब्सिडी",
+            "ब्याज"
+        ],
+        "correct": 1,
+        "explanation": "कैपिटल व्यय एसेट बनाता है - सड़कें, पुल, PSU निवेश। रेवेन्यू व्यय आवर्ती है।"
+    },
+    {
+        "prompt": "डिसइन्वेस्टमेंट का अर्थ है?",
+        "answers": [
+            "सरकार अधिक निवेश कर रही है",
+            "सरकार PSUs में अपनी हिस्सेदारी बेच रही है",
+            "बैंक निवेश",
+            "RBI बिक्री"
+        ],
+        "correct": 1,
+        "explanation": "डिसइन्वेस्टमेंट सरकार द्वारा सार्वजनिक क्षेत्र उपक्रमों में अपनी हिस्सेदारी बेचना है।"
+    },
+    {
+        "prompt": "GST क्या है?",
+        "answers": [
+            "डायरेक्ट टैक्स",
+            "इनडायरेक्ट टैक्स - उपभोग आधारित",
+            "केवल सेवाओं के लिए",
+            "केवल सामान के लिए"
+        ],
+        "correct": 1,
+        "explanation": "GST (Goods and Services Tax) उपभोग पर इनडायरेक्ट टैक्स है। डेस्टिनेशन-आधारित।"
+    },
+    {
+        "prompt": "डायरेक्ट टैक्स में क्या शामिल है?",
+        "answers": [
+            "GST",
+            "इनकम टैक्स, कॉर्पोरेट टैक्स",
+            "कस्टम्स",
+            "एक्साइज"
+        ],
+        "correct": 1,
+        "explanation": "डायरेक्ट टैक्स: बोझ उसी व्यक्ति पर जो भुगतान करता है। इनकम टैक्स, कॉर्पोरेट टैक्स, वेल्थ टैक्स।"
+    },
+    {
+        "prompt": "इनडायरेक्ट टैक्स में क्या शामिल है?",
+        "answers": [
+            "इनकम टैक्स",
+            "GST, कस्टम्स, एक्साइज",
+            "वेल्थ टैक्स",
+            "कॉर्पोरेट टैक्स"
+        ],
+        "correct": 1,
+        "explanation": "इनडायरेक्ट टैक्स: बोझ उपभोक्ता पर स्थानांतरित। GST, कस्टम्स, एक्साइज।"
+    },
+    {
+        "prompt": "रेपो रेट को क्या भी कहा जाता है?",
+        "answers": [
+            "बैंक रेट",
+            "पॉलिसी रेपो रेट - मुख्य नीति दर",
+            "MSF रेट",
+            "रिवर्स रेपो"
+        ],
+        "correct": 1,
+        "explanation": "रेपो रेट मुख्य नीति दर है जिस पर RBI बैंकों को उधार देता है। MPC इसे तय करता है।"
+    },
+    {
+        "prompt": "पॉलिसी रेट का ट्रांसमिशन का अर्थ है?",
+        "answers": [
+            "केवल RBI",
+            "रेपो में बदलाव बैंक लेंडिंग दरों में प्रतिबिंबित होना",
+            "केवल जमा",
+            "केवल MSF"
+        ],
+        "correct": 1,
+        "explanation": "मौद्रिक ट्रांसमिशन: रेपो रेट बदलाव बैंक डिपॉजिट और लेंडिंग दरों में बहता है।"
+    },
+    {
+        "prompt": "RBI तरलता उपकरणों का उपयोग किसके लिए करता है?",
+        "answers": [
+            "केवल मुद्रास्फीति नियंत्रण",
+            "मनी सप्लाई और ओवरनाइट दरों का प्रबंधन",
+            "केवल फॉरेक्स",
+            "केवल CRR"
+        ],
+        "correct": 1,
+        "explanation": "RBI LAF, OMO, CRR आदि का उपयोग तरलता प्रबंधन और ओवरनाइट दरों को रेपो के निकट रखने के लिए करता है।"
+    }
+]

@@ -1,1 +1,277 @@
-[{"prompt":"Financial Stability and Development Council FSDC is headed by?","answers":["RBI Governor","Finance Minister","Prime Minister","SEBI Chairman"],"correct":1,"explanation":"FSDC is headed by Finance Minister. It addresses inter-regulatory issues and financial stability."},{"prompt":"FSDC was set up in?","answers":["2008","2010","2012","2015"],"correct":1,"explanation":"FSDC was constituted in 2010. RBI Governor, SEBI, IRDAI, PFRDA chairpersons are members."},{"prompt":"Financial Resolution and Deposit Insurance FRDI Bill was?","answers":["Passed","Withdrawn - bail-in clause concerns","Enacted in 2020","Only for banks"],"correct":1,"explanation":"FRDI Bill was withdrawn in 2018. Bail-in clause that could use depositor money caused concern."},{"prompt":"Bank Nationalisation Day is observed on?","answers":["July 15","July 19","August 15","April 1"],"correct":1,"explanation":"July 19 is observed as Bank Nationalisation Day - 14 banks nationalized on July 19 1969."},{"prompt":"Lead Bank Scheme assigned each district to?","answers":["RBI","One lead bank for development","NABARD","State government"],"correct":1,"explanation":"Under Lead Bank Scheme each district has a lead bank responsible for credit and branch expansion."},{"prompt":"Service Area Approach was?","answers":["For urban areas","Rural branches assigned specific villages","Only for RRBs","Only for cooperative"],"correct":1,"explanation":"Service Area Approach assigned specific villages to rural branches for credit planning."},{"prompt":"Village Adoption Scheme means?","answers":["Bank adopts village for comprehensive development","Only lending","Only deposits","Only government"],"correct":0,"explanation":"Banks adopt villages for overall development - banking, financial literacy, credit linkage."},{"prompt":"Financial literacy initiatives include?","answers":["Only RBI","RBI FLCs, banks, government programs","Only schools","Only rural"],"correct":1,"explanation":"RBI Financial Literacy Centers, banks, government run financial literacy programs."},{"prompt":"RBI has set up Financial Literacy Centers at?","answers":["RBI offices only","Lead bank branches","All bank branches","Only urban"],"correct":1,"explanation":"FLCs are set up at lead bank branches. They educate people on banking and finance."},{"prompt":"Pradhan Mantri Gramin Digital Saksharta Abhiyan aims at?","answers":["Only banking","Digital literacy in rural areas","Only payments","Only youth"],"correct":1,"explanation":"PMGDISHA aims to make rural households digitally literate."},{"prompt":"Bank coverage - unbanked rural centres get banking through?","answers":["Only branches","Branches BCs CSPs","Only BCs","Only mobile"],"correct":1,"explanation":"Banking reach through branches, Business Correspondents, Customer Service Points in unbanked areas."},{"prompt":"Banks must open how many branches in unbanked rural centres?","answers":["None","At least 25 percent of new branches","All new branches","Only in specified states"],"correct":1,"explanation":"RBI guidelines: 25 percent of branches opened in a year should be in unbanked rural centres."},{"prompt":"BC outlet and branch - difference?","answers":["Same","BC is agent, branch is full service","BC only for urban","Branch only for rural"],"correct":1,"explanation":"BC outlet provides limited services. Branch provides full banking services."},{"prompt":"Interoperability in BC means?","answers":["BC works with one bank only","BC can serve customers of any bank","Only for deposits","Only for withdrawals"],"correct":1,"explanation":"Interoperable BC can serve customers of different banks. Enhances reach."},{"prompt":"Aadhaar enabled Payment System AePS allows?","answers":["Only balance enquiry","Balance enquiry, cash withdrawal, deposit, remittance","Only deposit","Only transfer"],"correct":1,"explanation":"AePS allows multiple transactions using Aadhaar and biometric at BC points."},{"prompt":"BharatNet aims to connect?","answers":["Only cities","Gram panchayats with broadband","Only schools","Only banks"],"correct":1,"explanation":"BharatNet aims to connect all gram panchayats with broadband for digital inclusion."},{"prompt":"Payment banks can distribute?","answers":["Only cash","Insurance, mutual funds, pensions","Only loans","Only cards"],"correct":1,"explanation":"Payment banks can act as agent for insurance, mutual fund, pension products. Cannot lend."},{"prompt":"Small Finance Bank must lend how much to priority sector?","answers":["25 percent","40 percent","75 percent","50 percent"],"correct":2,"explanation":"Small Finance Banks must lend 75 percent of ANBC to priority sector. Higher than commercial banks."},{"prompt":"Small Finance Bank can convert to universal bank after?","answers":["3 years","5 years of operations","10 years","Cannot convert"],"correct":1,"explanation":"SFBs with 5 years track record can apply for universal bank license."},{"prompt":"Local Area Banks were conceptualized for?","answers":["Metro lending","Private sector banks for rural and semi-urban","Only cooperative","Only government"],"correct":1,"explanation":"LABs were private sector banks for rural and semi-urban areas. Very few exist."},{"prompt":"Payment banks need to invest 75 percent in?","answers":["Equity","Statutory liquidity - G-Secs T-Bills","Gold","Real estate"],"correct":1,"explanation":"Payment banks must invest 75 percent of deposits in G-Secs, T-Bills. Cannot lend."},{"prompt":"Prepaid cards issued by banks are?","answers":["Not regulated","Regulated by RBI as PPI","Only for gift","Only for travel"],"correct":1,"explanation":"Prepaid Payment Instruments including prepaid cards are regulated by RBI."},{"prompt":"Semi-closed wallet?","answers":["Can be used anywhere","Can be used at identified merchants","Only for cash withdrawal","Only for bank transfer"],"correct":1,"explanation":"Semi-closed PPI can be used at identified merchant locations. Cannot withdraw cash."},{"prompt":"Full KYC PPI can be used for?","answers":["Only purchases","Fund transfer, purchase, cash withdrawal at ATM","Only ATM","Only bank transfer"],"correct":1,"explanation":"Full KYC PPIs allow fund transfer to bank, purchase, cash withdrawal at ATM."},{"prompt":"Bharat Bill Payment Central Unit BBPCU is operated by?","answers":["Individual billers","NPCI","Banks","RBI"],"correct":1,"explanation":"BBPCU is operated by NPCI. It sets standards for Bharat Bill Payment System."}]
+[
+    {
+        "prompt": "फाइनेंशियल स्टेबिलिटी एंड डेवलपमेंट काउंसिल (FSDC) का प्रमुख कौन है?",
+        "answers": [
+            "RBI गवर्नर",
+            "वित्त मंत्री",
+            "प्रधान मंत्री",
+            "SEBI चेयरमैन"
+        ],
+        "correct": 1,
+        "explanation": "FSDC का प्रमुख वित्त मंत्री है। यह अंतर-नियामक मुद्दों और वित्तीय स्थिरता को संबोधित करता है।"
+    },
+    {
+        "prompt": "FSDC की स्थापना कब हुई?",
+        "answers": [
+            "2008",
+            "2010",
+            "2012",
+            "2015"
+        ],
+        "correct": 1,
+        "explanation": "FSDC की स्थापना 2010 में हुई। RBI गवर्नर, SEBI, IRDAI, PFRDA चेयरपर्सन सदस्य हैं।"
+    },
+    {
+        "prompt": "फाइनेंशियल रेजोल्यूशन एंड डिपॉजिट इंश्योरेंस (FRDI) बिल क्या था?",
+        "answers": [
+            "पास हो गया",
+            "वापस लिया गया - बेल-इन क्लॉज चिंताओं के कारण",
+            "2020 में लागू",
+            "केवल बैंकों के लिए"
+        ],
+        "correct": 1,
+        "explanation": "FRDI बिल 2018 में वापस लिया गया। बेल-इन क्लॉज जो जमाकर्ता के पैसे का उपयोग कर सकता था, चिंता का कारण बना।"
+    },
+    {
+        "prompt": "बैंक नेशनलाइजेशन डे कब मनाया जाता है?",
+        "answers": [
+            "जुलाई 15",
+            "जुलाई 19",
+            "अगस्त 15",
+            "अप्रैल 1"
+        ],
+        "correct": 1,
+        "explanation": "जुलाई 19 को बैंक नेशनलाइजेशन डे मनाया जाता है - 14 बैंक 19 जुलाई 1969 को राष्ट्रीयकृत हुए।"
+    },
+    {
+        "prompt": "लीड बैंक योजना ने प्रत्येक जिले को सौंपा?",
+        "answers": [
+            "RBI",
+            "विकास के लिए एक लीड बैंक",
+            "NABARD",
+            "राज्य सरकार"
+        ],
+        "correct": 1,
+        "explanation": "लीड बैंक योजना के तहत प्रत्येक जिले में क्रेडिट और शाखा विस्तार के लिए एक लीड बैंक जिम्मेदार है।"
+    },
+    {
+        "prompt": "सर्विस एरिया अप्रोच क्या था?",
+        "answers": [
+            "शहरी क्षेत्रों के लिए",
+            "ग्रामीण शाखाओं को विशिष्ट गाँव सौंपे गए",
+            "केवल RRBs के लिए",
+            "केवल सहकारी के लिए"
+        ],
+        "correct": 1,
+        "explanation": "सर्विस एरिया अप्रोच ने ग्रामीण शाखाओं को क्रेडिट प्लानिंग के लिए विशिष्ट गाँव सौंपे।"
+    },
+    {
+        "prompt": "विलेज एडॉप्शन स्कीम का अर्थ है?",
+        "answers": [
+            "बैंक गाँव को व्यापक विकास के लिए अपनाता है",
+            "केवल उधार",
+            "केवल जमा",
+            "केवल सरकार"
+        ],
+        "correct": 0,
+        "explanation": "बैंक गाँव अपनाते हैं समग्र विकास के लिए - बैंकिंग, वित्तीय साक्षरता, क्रेडिट लिंकेज।"
+    },
+    {
+        "prompt": "वित्तीय साक्षरता पहलों में क्या शामिल है?",
+        "answers": [
+            "केवल RBI",
+            "RBI FLCs, बैंक, सरकारी कार्यक्रम",
+            "केवल स्कूल",
+            "केवल ग्रामीण"
+        ],
+        "correct": 1,
+        "explanation": "RBI फाइनेंशियल लिटरेसी सेंटर्स, बैंक, सरकार वित्तीय साक्षरता कार्यक्रम चलाते हैं।"
+    },
+    {
+        "prompt": "RBI ने फाइनेंशियल लिटरेसी सेंटर्स कहाँ स्थापित किए हैं?",
+        "answers": [
+            "केवल RBI कार्यालयों में",
+            "लीड बैंक शाखाओं में",
+            "सभी बैंक शाखाओं में",
+            "केवल शहरी"
+        ],
+        "correct": 1,
+        "explanation": "FLCs लीड बैंक शाखाओं में स्थापित हैं। वे लोगों को बैंकिंग और वित्त पर शिक्षित करते हैं।"
+    },
+    {
+        "prompt": "प्रधान मंत्री ग्रामीण डिजिटल साक्षरता अभियान का उद्देश्य है?",
+        "answers": [
+            "केवल बैंकिंग",
+            "ग्रामीण क्षेत्रों में डिजिटल साक्षरता",
+            "केवल भुगतान",
+            "केवल युवा"
+        ],
+        "correct": 1,
+        "explanation": "PMGDISHA ग्रामीण घरों को डिजिटल रूप से साक्षर बनाने का उद्देश्य रखता है।"
+    },
+    {
+        "prompt": "बैंक कवरेज - अनबैंक्ड ग्रामीण केंद्रों को बैंकिंग कैसे मिलती है?",
+        "answers": [
+            "केवल शाखाएँ",
+            "शाखाएँ, BCs, CSPs",
+            "केवल BCs",
+            "केवल मोबाइल"
+        ],
+        "correct": 1,
+        "explanation": "अनबैंक्ड क्षेत्रों में बैंकिंग पहुँच शाखाओं, बिजनेस कॉरेस्पॉन्डेंट्स, कस्टमर सर्विस पॉइंट्स के माध्यम से।"
+    },
+    {
+        "prompt": "बैंकों को अनबैंक्ड ग्रामीण केंद्रों में कितनी शाखाएँ खोलनी चाहिए?",
+        "answers": [
+            "कोई नहीं",
+            "नई शाखाओं का कम से कम 25 प्रतिशत",
+            "सभी नई शाखाएँ",
+            "केवल निर्दिष्ट राज्यों में"
+        ],
+        "correct": 1,
+        "explanation": "RBI दिशानिर्देश: वर्ष में खोली गई शाखाओं का 25 प्रतिशत अनबैंक्ड ग्रामीण केंद्रों में होना चाहिए।"
+    },
+    {
+        "prompt": "BC आउटलेट और शाखा - अंतर?",
+        "answers": [
+            "समान",
+            "BC एजेंट है, शाखा पूर्ण सेवा है",
+            "BC केवल शहरी के लिए",
+            "शाखा केवल ग्रामीण के लिए"
+        ],
+        "correct": 1,
+        "explanation": "BC आउटलेट सीमित सेवाएँ प्रदान करता है। शाखा पूर्ण बैंकिंग सेवाएँ प्रदान करती है।"
+    },
+    {
+        "prompt": "BC में इंटरऑपरेबिलिटी का अर्थ है?",
+        "answers": [
+            "BC केवल एक बैंक के साथ काम करता है",
+            "BC किसी भी बैंक के ग्राहकों की सेवा कर सकता है",
+            "केवल जमा के लिए",
+            "केवल निकासी के लिए"
+        ],
+        "correct": 1,
+        "explanation": "इंटरऑपरेबल BC विभिन्न बैंकों के ग्राहकों की सेवा कर सकता है। पहुँच बढ़ाता है।"
+    },
+    {
+        "prompt": "आधार सक्षम भुगतान प्रणाली (AePS) क्या अनुमति देता है?",
+        "answers": [
+            "केवल बैलेंस पूछताछ",
+            "बैलेंस पूछताछ, नकद निकासी, जमा, रेमिटेंस",
+            "केवल जमा",
+            "केवल ट्रांसफर"
+        ],
+        "correct": 1,
+        "explanation": "AePS BC पॉइंट्स पर आधार और बायोमेट्रिक का उपयोग कर कई लेनदेन अनुमति देता है।"
+    },
+    {
+        "prompt": "भारतनेट का उद्देश्य क्या है?",
+        "answers": [
+            "केवल शहरों को जोड़ना",
+            "ग्राम पंचायतों को ब्रॉडबैंड से जोड़ना",
+            "केवल स्कूल",
+            "केवल बैंक"
+        ],
+        "correct": 1,
+        "explanation": "भारतनेट सभी ग्राम पंचायतों को ब्रॉडबैंड से जोड़ने का उद्देश्य रखता है डिजिटल इनक्लूजन के लिए।"
+    },
+    {
+        "prompt": "पेमेंट बैंक क्या वितरित कर सकते हैं?",
+        "answers": [
+            "केवल नकद",
+            "बीमा, म्यूचुअल फंड, पेंशन",
+            "केवल ऋण",
+            "केवल कार्ड"
+        ],
+        "correct": 1,
+        "explanation": "पेमेंट बैंक बीमा, म्यूचुअल फंड, पेंशन उत्पादों के लिए एजेंट के रूप में कार्य कर सकते हैं। उधार नहीं दे सकते।"
+    },
+    {
+        "prompt": "स्मॉल फाइनेंस बैंक को प्राथमिक क्षेत्र में कितना उधार देना चाहिए?",
+        "answers": [
+            "25 प्रतिशत",
+            "40 प्रतिशत",
+            "75 प्रतिशत",
+            "50 प्रतिशत"
+        ],
+        "correct": 2,
+        "explanation": "स्मॉल फाइनेंस बैंक ANBC का 75 प्रतिशत प्राथमिक क्षेत्र को उधार देना चाहिए। कमर्शियल बैंकों से अधिक।"
+    },
+    {
+        "prompt": "स्मॉल फाइनेंस बैंक 5 वर्षों के बाद यूनिवर्सल बैंक में बदल सकता है?",
+        "answers": [
+            "3 वर्ष",
+            "5 वर्षों के संचालन",
+            "10 वर्ष",
+            "बदल नहीं सकता"
+        ],
+        "correct": 1,
+        "explanation": "5 वर्ष ट्रैक रिकॉर्ड वाले SFBs यूनिवर्सल बैंक लाइसेंस के लिए आवेदन कर सकते हैं।"
+    },
+    {
+        "prompt": "लोकल एरिया बैंक किसके लिए कल्पित किए गए थे?",
+        "answers": [
+            "मेट्रो उधार",
+            "ग्रामीण और अर्ध-शहरी के लिए निजी क्षेत्र बैंक",
+            "केवल सहकारी",
+            "केवल सरकार"
+        ],
+        "correct": 1,
+        "explanation": "LABs ग्रामीण और अर्ध-शहरी क्षेत्रों के लिए निजी क्षेत्र बैंक थे। बहुत कम मौजूद हैं।"
+    },
+    {
+        "prompt": "पेमेंट बैंक को 75 प्रतिशत निवेश करना चाहिए?",
+        "answers": [
+            "इक्विटी",
+            "सांविधिक तरलता - G-Secs T-Bills",
+            "सोना",
+            "रियल एस्टेट"
+        ],
+        "correct": 1,
+        "explanation": "पेमेंट बैंक जमा का 75 प्रतिशत G-Secs, T-Bills में निवेश करना चाहिए। उधार नहीं दे सकते।"
+    },
+    {
+        "prompt": "बैंकों द्वारा जारी प्रीपेड कार्ड?",
+        "answers": [
+            "नियंत्रित नहीं",
+            "RBI द्वारा PPI के रूप में नियंत्रित",
+            "केवल गिफ्ट के लिए",
+            "केवल ट्रेवल के लिए"
+        ],
+        "correct": 1,
+        "explanation": "प्रीपेड पेमेंट इंस्ट्रूमेंट्स सहित प्रीपेड कार्ड RBI द्वारा नियंत्रित हैं।"
+    },
+    {
+        "prompt": "सेमी-क्लोज्ड वॉलेट?",
+        "answers": [
+            "कहीं भी उपयोग किया जा सकता है",
+            "पहचाने गए मर्चेंट्स पर उपयोग किया जा सकता है",
+            "केवल नकद निकासी के लिए",
+            "केवल बैंक ट्रांसफर के लिए"
+        ],
+        "correct": 1,
+        "explanation": "सेमी-क्लोज्ड PPI पहचाने गए मर्चेंट स्थानों पर उपयोग किया जा सकता है। नकद निकासी नहीं।"
+    },
+    {
+        "prompt": "पूर्ण KYC PPI का उपयोग किसके लिए किया जा सकता है?",
+        "answers": [
+            "केवल खरीद",
+            "फंड ट्रांसफर, खरीद, ATM से नकद निकासी",
+            "केवल ATM",
+            "केवल बैंक ट्रांसफर"
+        ],
+        "correct": 1,
+        "explanation": "पूर्ण KYC PPIs बैंक में फंड ट्रांसफर, खरीद, ATM से नकद निकासी अनुमति देते हैं।"
+    },
+    {
+        "prompt": "भारत बिल पेमेंट सेंट्रल यूनिट (BBPCU) किसके द्वारा संचालित है?",
+        "answers": [
+            "व्यक्तिगत बिलर",
+            "NPCI",
+            "बैंक",
+            "RBI"
+        ],
+        "correct": 1,
+        "explanation": "BBPCU NPCI द्वारा संचालित है। यह भारत बिल पेमेंट सिस्टम के लिए मानक सेट करता है।"
+    }
+]

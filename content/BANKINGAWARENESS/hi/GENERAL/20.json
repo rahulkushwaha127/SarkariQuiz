@@ -1,1 +1,277 @@
-[{"prompt":"RBI has how many Deputy Governors?","answers":["2","3","4","5"],"correct":2,"explanation":"RBI has 4 Deputy Governors. They head various departments."},{"prompt":"RBI Board has maximum how many members?","answers":["10","15","20","25"],"correct":2,"explanation":"Central Board of RBI has up to 20 members: Governor, 4 Deputy Governors, 2 Finance Ministry officials, and directors."},{"prompt":"RBI Governor is appointed by?","answers":["President","Prime Minister","Central Government","Parliament"],"correct":2,"explanation":"RBI Governor is appointed by Central Government on recommendation of Prime Minister."},{"prompt":"RBI issues currency notes of denomination?","answers":["Rs 1 only","Rs 2 and above","Rs 5 and above","Rs 10 and above"],"correct":1,"explanation":"RBI issues notes of Rs 2, 5, 10, 20, 50, 100, 200, 500, 2000. Re 1 and coins by Government."},{"prompt":"Currency chest is?","answers":["RBI branch","Store of banknotes and coins at bank branch","Only for gold","Only for foreign exchange"],"correct":1,"explanation":"Currency chests are held at select bank branches. They distribute currency to public. Maintained on behalf of RBI."},{"prompt":"Soiled note is?","answers":["New note","Dirty or mutilated note","Fake note","Old design"],"correct":1,"explanation":"Soiled note is dirty or mutilated. Can be exchanged at banks. Certain mutilated notes get full or partial value."},{"prompt":"RBI can refuse to exchange torn notes if?","answers":["Always exchanges","Area with number and signature less than half","Only if fake","Never refuses"],"correct":1,"explanation":"If area with number and signature is less than half, partial or no value may be given."},{"prompt":"Demonetization in India happened in?","answers":["1978","2014","2016","2018"],"correct":2,"explanation":"High denomination notes of Rs 500 and Rs 1000 were demonetized in November 2016."},{"prompt":"Mahatma Gandhi series notes were introduced in?","answers":["1996","2005","2016","2018"],"correct":0,"explanation":"Mahatma Gandhi series was introduced in 1996. New series (MG series) with new design came later."},{"prompt":"RBI Annual Report is presented to?","answers":["Only public","Central Government - laid in Parliament","SEBI","Only banks"],"correct":1,"explanation":"RBI Annual Report is submitted to Central Government and laid before Parliament."},{"prompt":"RBI Bulletin is published?","answers":["Daily","Monthly","Quarterly","Annually"],"correct":1,"explanation":"RBI Bulletin is published monthly. Contains monetary and banking statistics."},{"prompt":"RBI regulates?","answers":["Only banks","Banks, NBFCs, payment system","Insurance","Mutual funds"],"correct":1,"explanation":"RBI regulates commercial banks, cooperative banks, NBFCs, and payment and settlement systems."},{"prompt":"Payment and Settlement Systems Act was passed in?","answers":["2005","2007","2010","2012"],"correct":1,"explanation":"Payment and Settlement Systems Act, 2007 provides legal basis for payment systems. RBI is the authority."},{"prompt":"RBI can conduct inspection of banks under?","answers":["Companies Act","Banking Regulation Act","SEBI Act","RBI Act"],"correct":1,"explanation":"RBI conducts inspection of banks under Section 35 of Banking Regulation Act, 1949."},{"prompt":"RBI can supersede bank board if?","answers":["Always","In public interest - mismanagement, depositor interest","Only for private banks","Only with court order"],"correct":1,"explanation":"RBI can supersede board of banks (including cooperative) in interest of depositors, under BR Act."},{"prompt":"RBI approves acquisition of shares in banks above?","answers":["1 percent","5 percent","10 percent","25 percent"],"correct":1,"explanation":"Acquisition of 5 percent or more shares in a bank requires RBI approval. Banking Regulation Act."},{"prompt":"Fit and Proper criteria for bank directors is set by?","answers":["SEBI","RBI","Ministry","Banks themselves"],"correct":1,"explanation":"RBI has fit and proper criteria for appointment of directors and key management in banks."},{"prompt":"Private sector bank needs minimum promoter stake of?","answers":["26 percent","40 percent","51 percent","74 percent"],"correct":1,"explanation":"Promoters of private banks must hold minimum 40 percent for first 5 years. Lock-in applies."},{"prompt":"Foreign investment in private banks is allowed up to?","answers":["49 percent","74 percent","100 percent","26 percent"],"correct":1,"explanation":"Aggregate foreign investment in private banks can be up to 74 percent under automatic route."},{"prompt":"Banks must maintain minimum capital adequacy of?","answers":["6 percent","9 percent","12 percent","15 percent"],"correct":1,"explanation":"Minimum CRAR is 9 percent. With capital conservation buffer total is 11.5 percent."},{"prompt":"RBI mandates banks to have Board approved policy for?","answers":["Only loans","ALM, risk management, business continuity","Only deposits","Only NPAs"],"correct":1,"explanation":"Banks must have Board approved policies for ALM, risk management, KYC, business continuity, etc."},{"prompt":"RBI has mandated creation of stressed asset management vertical in banks?","answers":["No","Yes for better NPA resolution","Only for PSBs","Only for large banks"],"correct":1,"explanation":"RBI has mandated banks to have dedicated stressed asset management vertical for resolution."},{"prompt":"Securitization of standard assets?","answers":["Not allowed","Allowed - RBI has guidelines","Only for NPAs","Only for housing"],"correct":1,"explanation":"RBI allows securitization of standard assets. Guidelines for transfer, disclosure exist."},{"prompt":"Tier 2 capital includes?","answers":["Only equity","Subordinated debt, revaluation reserves, general provisions","Only deposits","Only bonds"],"correct":1,"explanation":"Tier 2 includes subordinated debt, revaluation reserves, hybrid capital, general provisions. Supplementary capital."},{"prompt":"Banks can count revaluation reserves in capital?","answers":["Fully","At discounted value - 55 percent","Not at all","Only for Tier 1"],"correct":1,"explanation":"Revaluation reserves (from property, etc.) can be included in Tier 2 at 55 percent discount."}]
+[
+    {
+        "prompt": "RBI में कितने डिप्टी गवर्नर होते हैं?",
+        "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct": 2,
+        "explanation": "RBI में 4 डिप्टी गवर्नर होते हैं। वे विभिन्न विभागों का नेतृत्व करते हैं।"
+    },
+    {
+        "prompt": "RBI बोर्ड में अधिकतम कितने सदस्य होते हैं?",
+        "answers": [
+            "10",
+            "15",
+            "20",
+            "25"
+        ],
+        "correct": 2,
+        "explanation": "RBI का सेंट्रल बोर्ड में 20 सदस्य तक होते हैं: गवर्नर, 4 डिप्टी गवर्नर, 2 वित्त मंत्रालय अधिकारी, और निदेशक।"
+    },
+    {
+        "prompt": "RBI गवर्नर की नियुक्ति कौन करता है?",
+        "answers": [
+            "राष्ट्रपति",
+            "प्रधान मंत्री",
+            "केंद्रीय सरकार",
+            "संसद"
+        ],
+        "correct": 2,
+        "explanation": "RBI गवर्नर केंद्रीय सरकार द्वारा प्रधान मंत्री की सिफारिश पर नियुक्त किया जाता है।"
+    },
+    {
+        "prompt": "RBI करेंसी नोट जारी करता है किस मूल्यवर्ग के?",
+        "answers": [
+            "रु 1 केवल",
+            "रु 2 और ऊपर",
+            "रु 5 और ऊपर",
+            "रु 10 और ऊपर"
+        ],
+        "correct": 1,
+        "explanation": "RBI रु 2, 5, 10, 20, 50, 100, 200, 500, 2000 के नोट जारी करता है। रु 1 और सिक्के सरकार द्वारा।"
+    },
+    {
+        "prompt": "करेंसी चेस्ट क्या है?",
+        "answers": [
+            "RBI शाखा",
+            "बैंक नोट और सिक्कों का स्टोर बैंक शाखा में",
+            "केवल सोने के लिए",
+            "केवल विदेशी मुद्रा के लिए"
+        ],
+        "correct": 1,
+        "explanation": "करेंसी चेस्ट चुनिंदा बैंक शाखाओं में रखे जाते हैं। वे जनता को मुद्रा वितरित करते हैं। RBI की ओर से रखे जाते हैं।"
+    },
+    {
+        "prompt": "सोइल्ड नोट क्या है?",
+        "answers": [
+            "नया नोट",
+            "गंदा या क्षतिग्रस्त नोट",
+            "नकली नोट",
+            "पुराना डिजाइन"
+        ],
+        "correct": 1,
+        "explanation": "सोइल्ड नोट गंदा या क्षतिग्रस्त है। बैंकों में बदला जा सकता है। कुछ क्षतिग्रस्त नोटों को पूर्ण या आंशिक मूल्य मिलता है।"
+    },
+    {
+        "prompt": "RBI फटे नोट बदलने से मना कर सकता है यदि?",
+        "answers": [
+            "हमेशा बदलता है",
+            "नंबर और हस्ताक्षर वाली एरिया आधी से कम",
+            "केवल यदि नकली",
+            "कभी मना नहीं करता"
+        ],
+        "correct": 1,
+        "explanation": "यदि नंबर और हस्ताक्षर वाली एरिया आधी से कम है, तो आंशिक या कोई मूल्य नहीं दिया जा सकता।"
+    },
+    {
+        "prompt": "भारत में डिमॉनेटाइजेशन कब हुआ?",
+        "answers": [
+            "1978",
+            "2014",
+            "2016",
+            "2018"
+        ],
+        "correct": 2,
+        "explanation": "रु 500 और रु 1000 के उच्च मूल्यवर्ग के नोट नवंबर 2016 में डिमॉनेटाइज किए गए।"
+    },
+    {
+        "prompt": "महात्मा गांधी सीरीज नोट कब शुरू किए गए?",
+        "answers": [
+            "1996",
+            "2005",
+            "2016",
+            "2018"
+        ],
+        "correct": 0,
+        "explanation": "महात्मा गांधी सीरीज 1996 में शुरू की गई। नई डिजाइन वाली नई सीरीज (MG सीरीज) बाद में आई।"
+    },
+    {
+        "prompt": "RBI वार्षिक रिपोर्ट किसे प्रस्तुत की जाती है?",
+        "answers": [
+            "केवल जनता",
+            "केंद्रीय सरकार - संसद में रखी जाती है",
+            "SEBI",
+            "केवल बैंक"
+        ],
+        "correct": 1,
+        "explanation": "RBI वार्षिक रिपोर्ट केंद्रीय सरकार को प्रस्तुत की जाती है और संसद के सामने रखी जाती है।"
+    },
+    {
+        "prompt": "RBI बुलेटिन प्रकाशित होता है?",
+        "answers": [
+            "दैनिक",
+            "मासिक",
+            "तिमाही",
+            "वार्षिक"
+        ],
+        "correct": 1,
+        "explanation": "RBI बुलेटिन मासिक प्रकाशित होता है। इसमें मौद्रिक और बैंकिंग आंकड़े होते हैं।"
+    },
+    {
+        "prompt": "RBI क्या नियंत्रित करता है?",
+        "answers": [
+            "केवल बैंक",
+            "बैंक, NBFCs, भुगतान प्रणाली",
+            "बीमा",
+            "म्यूचुअल फंड"
+        ],
+        "correct": 1,
+        "explanation": "RBI कमर्शियल बैंक, सहकारी बैंक, NBFCs, और भुगतान और सेटलमेंट सिस्टम नियंत्रित करता है।"
+    },
+    {
+        "prompt": "पेमेंट एंड सेटलमेंट सिस्टम्स एक्ट कब पास हुआ?",
+        "answers": [
+            "2005",
+            "2007",
+            "2010",
+            "2012"
+        ],
+        "correct": 1,
+        "explanation": "पेमेंट एंड सेटलमेंट सिस्टम्स एक्ट, 2007 भुगतान प्रणालियों के लिए कानूनी आधार प्रदान करता है। RBI प्राधिकरण है।"
+    },
+    {
+        "prompt": "RBI बैंक का निरीक्षण किसके तहत कर सकता है?",
+        "answers": [
+            "कंपनीज एक्ट",
+            "बैंकिंग रेगुलेशन एक्ट",
+            "SEBI एक्ट",
+            "RBI एक्ट"
+        ],
+        "correct": 1,
+        "explanation": "RBI बैंकिंग रेगुलेशन एक्ट, 1949 की धारा 35 के तहत बैंकों का निरीक्षण करता है।"
+    },
+    {
+        "prompt": "RBI बैंक बोर्ड को सुपरसीड कर सकता है यदि?",
+        "answers": [
+            "हमेशा",
+            "जनहित में - कुप्रबंधन, जमाकर्ता हित",
+            "केवल प्राइवेट बैंकों के लिए",
+            "केवल अदालत आदेश से"
+        ],
+        "correct": 1,
+        "explanation": "RBI BR एक्ट के तहत जमाकर्ताओं के हित में बैंकों (सहकारी सहित) के बोर्ड को सुपरसीड कर सकता है।"
+    },
+    {
+        "prompt": "बैंक में शेयरों का अधिग्रहण ऊपर से RBI अनुमोदन की आवश्यकता?",
+        "answers": [
+            "1 प्रतिशत",
+            "5 प्रतिशत",
+            "10 प्रतिशत",
+            "25 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "बैंक में 5 प्रतिशत या अधिक शेयरों का अधिग्रहण RBI अनुमोदन की आवश्यकता है। बैंकिंग रेगुलेशन एक्ट।"
+    },
+    {
+        "prompt": "बैंक निदेशकों के लिए फिट एंड प्रॉपर क्राइटेरिया किसके द्वारा सेट किया जाता है?",
+        "answers": [
+            "SEBI",
+            "RBI",
+            "मंत्रालय",
+            "बैंक खुद"
+        ],
+        "correct": 1,
+        "explanation": "RBI के पास बैंकों में निदेशकों और प्रमुख प्रबंधन की नियुक्ति के लिए फिट एंड प्रॉपर क्राइटेरिया है।"
+    },
+    {
+        "prompt": "प्राइवेट सेक्टर बैंक को न्यूनतम प्रमोटर स्टेक कितना?",
+        "answers": [
+            "26 प्रतिशत",
+            "40 प्रतिशत",
+            "51 प्रतिशत",
+            "74 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "प्राइवेट बैंकों के प्रमोटर पहले 5 वर्षों के लिए न्यूनतम 40 प्रतिशत रखना चाहिए। लॉक-इन लागू।"
+    },
+    {
+        "prompt": "प्राइवेट बैंकों में विदेशी निवेश कितना तक अनुमति है?",
+        "answers": [
+            "49 प्रतिशत",
+            "74 प्रतिशत",
+            "100 प्रतिशत",
+            "26 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "प्राइवेट बैंकों में कुल विदेशी निवेश ऑटोमैटिक रूट के तहत 74 प्रतिशत तक हो सकता है।"
+    },
+    {
+        "prompt": "बैंकों को न्यूनतम कैपिटल पर्याप्तता कितनी रखनी चाहिए?",
+        "answers": [
+            "6 प्रतिशत",
+            "9 प्रतिशत",
+            "12 प्रतिशत",
+            "15 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "न्यूनतम CRAR 9 प्रतिशत है। कैपिटल कंजर्वेशन बफर के साथ कुल 11.5 प्रतिशत।"
+    },
+    {
+        "prompt": "RBI बैंकों को बोर्ड अनुमोदित नीति रखने को कहता है?",
+        "answers": [
+            "केवल ऋण",
+            "ALM, जोखिम प्रबंधन, बिजनेस कंटिन्यूटी",
+            "केवल जमा",
+            "केवल NPA"
+        ],
+        "correct": 1,
+        "explanation": "बैंकों के पास ALM, जोखिम प्रबंधन, KYC, बिजनेस कंटिन्यूटी आदि के लिए बोर्ड अनुमोदित नीतियाँ होनी चाहिए।"
+    },
+    {
+        "prompt": "RBI ने बैंकों को स्ट्रेस्ड एसेट मैनेजमेंट वर्टिकल बनाने को कहा है?",
+        "answers": [
+            "नहीं",
+            "हाँ बेहतर NPA समाधान के लिए",
+            "केवल PSBs के लिए",
+            "केवल बड़े बैंकों के लिए"
+        ],
+        "correct": 1,
+        "explanation": "RBI ने बैंकों को समर्पित स्ट्रेस्ड एसेट मैनेजमेंट वर्टिकल रखने को अनिवार्य किया है समाधान के लिए।"
+    },
+    {
+        "prompt": "मानक संपत्तियों का सिक्योरिटाइजेशन?",
+        "answers": [
+            "अनुमति नहीं",
+            "अनुमति - RBI के दिशानिर्देश हैं",
+            "केवल NPA के लिए",
+            "केवल आवास के लिए"
+        ],
+        "correct": 1,
+        "explanation": "RBI मानक संपत्तियों के सिक्योरिटाइजेशन की अनुमति देता है। ट्रांसफर, खुलासे के दिशानिर्देश हैं।"
+    },
+    {
+        "prompt": "टियर 2 कैपिटल में क्या शामिल है?",
+        "answers": [
+            "केवल इक्विटी",
+            "अधीनस्थ ऋण, पुनर्मूल्यांकन रिजर्व, सामान्य प्रावधान",
+            "केवल जमा",
+            "केवल बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "टियर 2 में अधीनस्थ ऋण, पुनर्मूल्यांकन रिजर्व, हाइब्रिड कैपिटल, सामान्य प्रावधान शामिल हैं। सप्लीमेंटरी कैपिटल।"
+    },
+    {
+        "prompt": "बैंक पुनर्मूल्यांकन रिजर्व को कैपिटल में गिन सकते हैं?",
+        "answers": [
+            "पूर्ण रूप से",
+            "छूट मूल्य पर - 55 प्रतिशत",
+            "बिल्कुल नहीं",
+            "केवल टियर 1 के लिए"
+        ],
+        "correct": 1,
+        "explanation": "पुनर्मूल्यांकन रिजर्व (संपत्ति आदि से) को टियर 2 में 55 प्रतिशत छूट पर शामिल किया जा सकता है।"
+    }
+]

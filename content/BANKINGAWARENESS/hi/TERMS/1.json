@@ -1,189 +1,189 @@
 ﻿[
     {
-        "prompt":  "RBI\u0027s inflation target (CPI) is?",
-        "answers":  [
-                        "2%",
-                        "4% with plus minus 2% tolerance",
-                        "6%",
-                        "8%"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI has an inflation target of 4% with a tolerance band of 2% to 6%. This was set under the monetary policy framework."
+        "prompt": "RBI का मुद्रास्फीति लक्ष्य (CPI) क्या है?",
+        "answers": [
+            "2%",
+            "4% ± 2% सहनशीलता बैंड के साथ",
+            "6%",
+            "8%"
+        ],
+        "correct": 1,
+        "explanation": "RBI का मुद्रास्फीति लक्ष्य 4% है जिसमें ±2% सहनशीलता बैंड (2% से 6%) है। यह मौद्रिक नीति फ्रेमवर्क के तहत निर्धारित है।"
     },
     {
-        "prompt":  "Inflation Indexed Bonds protect against?",
-        "answers":  [
-                        "Interest rate risk",
-                        "Inflation - principal/coupon adjusted",
-                        "Credit risk",
-                        "Liquidity risk"
-                    ],
-        "correct":  1,
-        "explanation":  "Inflation Indexed Bonds (e.g., Inflation Indexed National Savings Securities) adjust for inflation to protect real return."
+        "prompt": "इन्फ्लेशन इंडेक्स्ड बॉन्ड किसके खिलाफ सुरक्षा प्रदान करते हैं?",
+        "answers": [
+            "ब्याज दर जोखिम",
+            "मुद्रास्फीति - मूलधन/कूपन समायोजित",
+            "क्रेडिट जोखिम",
+            "तरलता जोखिम"
+        ],
+        "correct": 1,
+        "explanation": "इन्फ्लेशन इंडेक्स्ड बॉन्ड (उदा. इन्फ्लेशन इंडेक्स्ड नेशनल सेविंग्स सिक्योरिटीज) मुद्रास्फीति के अनुसार समायोजित होते हैं ताकि वास्तविक रिटर्न सुरक्षित रहे।"
     },
     {
-        "prompt":  "When RBI wants to reduce money supply in the economy, it would?",
-        "answers":  [
-                        "Increase Repo Rate",
-                        "Decrease Repo Rate",
-                        "Decrease CRR",
-                        "Increase government spending"
-                    ],
-        "correct":  0,
-        "explanation":  "Increasing Repo Rate makes borrowing from RBI costlier for banks, which then charge higher interest to customers, reducing credit and money supply."
+        "prompt": "जब RBI अर्थव्यवस्था में मनी सप्लाई कम करना चाहता है तो क्या करेगा?",
+        "answers": [
+            "रेपो रेट बढ़ाएगा",
+            "रेपो रेट घटाएगा",
+            "CRR घटाएगा",
+            "सरकारी व्यय बढ़ाएगा"
+        ],
+        "correct": 0,
+        "explanation": "रेपो रेट बढ़ाने से बैंकों को RBI से उधार लेना महंगा पड़ता है, जिससे वे ग्राहकों से उच्च ब्याज लेते हैं, क्रेडिट और मनी सप्लाई कम होती है।"
     },
     {
-        "prompt":  "Core inflation excludes?",
-        "answers":  [
-                        "Food",
-                        "Food and fuel - volatile items",
-                        "Only fuel",
-                        "Nothing"
-                    ],
-        "correct":  1,
-        "explanation":  "Core inflation excludes food and fuel which are volatile. Gives underlying inflation trend."
+        "prompt": "कोर इन्फ्लेशन क्या बाहर करता है?",
+        "answers": [
+            "केवल खाद्य",
+            "खाद्य और ईंधन - अस्थिर आइटम",
+            "केवल ईंधन",
+            "कुछ नहीं"
+        ],
+        "correct": 1,
+        "explanation": "कोर इन्फ्लेशन खाद्य और ईंधन को बाहर करता है जो अस्थिर होते हैं। इससे अंतर्निहित मुद्रास्फीति ट्रेंड पता चलता है।"
     },
     {
-        "prompt":  "Headline inflation includes?",
-        "answers":  [
-                        "Only food",
-                        "All items in the index",
-                        "Only fuel",
-                        "Only services"
-                    ],
-        "correct":  1,
-        "explanation":  "Headline inflation is overall CPI/WPI including all items."
+        "prompt": "हेडलाइन इन्फ्लेशन क्या शामिल करता है?",
+        "answers": [
+            "केवल खाद्य",
+            "इंडेक्स में सभी आइटम",
+            "केवल ईंधन",
+            "केवल सेवाएँ"
+        ],
+        "correct": 1,
+        "explanation": "हेडलाइन इन्फ्लेशन कुल CPI/WPI है जिसमें सभी आइटम शामिल होते हैं।"
     },
     {
-        "prompt":  "GDP deflator measures?",
-        "answers":  [
-                        "Only CPI",
-                        "Implicit price change in GDP",
-                        "Only WPI",
-                        "Only export prices"
-                    ],
-        "correct":  1,
-        "explanation":  "GDP deflator = (Nominal GDP / Real GDP) x 100. Measures economy-wide price change."
+        "prompt": "GDP डिफ्लेटर क्या मापता है?",
+        "answers": [
+            "केवल CPI",
+            "GDP में निहित मूल्य परिवर्तन",
+            "केवल WPI",
+            "केवल निर्यात मूल्य"
+        ],
+        "correct": 1,
+        "explanation": "GDP डिफ्लेटर = (नॉमिनल GDP / रियल GDP) × 100। अर्थव्यवस्था-व्यापी मूल्य परिवर्तन मापता है।"
     },
     {
-        "prompt":  "Base year for GDP calculation in India is?",
-        "answers":  [
-                        "2004-05",
-                        "2011-12",
-                        "2015-16",
-                        "2019-20"
-                    ],
-        "correct":  1,
-        "explanation":  "India uses 2011-12 as base year for GDP and related macroeconomic aggregates."
+        "prompt": "भारत में GDP गणना के लिए बेस ईयर क्या है?",
+        "answers": [
+            "2004-05",
+            "2011-12",
+            "2015-16",
+            "2019-20"
+        ],
+        "correct": 1,
+        "explanation": "भारत GDP और संबंधित मैक्रोइकॉनॉमिक एग्रीगेट्स के लिए 2011-12 को बेस ईयर उपयोग करता है।"
     },
     {
-        "prompt":  "Real GDP is?",
-        "answers":  [
-                        "At current prices",
-                        "At constant prices - inflation adjusted",
-                        "Nominal only",
-                        "Same as GNP"
-                    ],
-        "correct":  1,
-        "explanation":  "Real GDP is at constant prices - removes effect of inflation for comparison."
+        "prompt": "रियल GDP क्या है?",
+        "answers": [
+            "वर्तमान मूल्यों पर",
+            "स्थिर मूल्यों पर - मुद्रास्फीति समायोजित",
+            "केवल नॉमिनल",
+            "GNP के समान"
+        ],
+        "correct": 1,
+        "explanation": "रियल GDP स्थिर मूल्यों पर है - मुद्रास्फीति प्रभाव हटाकर तुलना के लिए।"
     },
     {
-        "prompt":  "Nominal GDP is?",
-        "answers":  [
-                        "At constant prices",
-                        "At current market prices",
-                        "Deflated",
-                        "Same as NDP"
-                    ],
-        "correct":  1,
-        "explanation":  "Nominal GDP values output at current prices. Includes inflation effect."
+        "prompt": "नॉमिनल GDP क्या है?",
+        "answers": [
+            "स्थिर मूल्यों पर",
+            "वर्तमान बाजार मूल्यों पर",
+            "डिफ्लेटेड",
+            "NDP के समान"
+        ],
+        "correct": 1,
+        "explanation": "नॉमिनल GDP वर्तमान मूल्यों पर आउटपुट मूल्यांकन करता है। मुद्रास्फीति प्रभाव शामिल होता है।"
     },
     {
-        "prompt":  "Money supply M1 includes?",
-        "answers":  [
-                        "Only currency with public",
-                        "Currency + demand deposits + other deposits",
-                        "M1 + savings deposits",
-                        "All of the above"
-                    ],
-        "correct":  1,
-        "explanation":  "M1 = Currency with public + Demand deposits with banks + Other deposits with RBI. It is the most liquid measure of money supply."
+        "prompt": "मनी सप्लाई M1 में क्या शामिल है?",
+        "answers": [
+            "केवल जनता के पास मुद्रा",
+            "मुद्रा + डिमांड डिपॉजिट + अन्य डिपॉजिट",
+            "M1 + बचत डिपॉजिट",
+            "उपरोक्त सभी"
+        ],
+        "correct": 1,
+        "explanation": "M1 = जनता के पास मुद्रा + बैंकों में डिमांड डिपॉजिट + RBI में अन्य डिपॉजिट। यह मनी सप्लाई का सबसे तरल माप है।"
     },
     {
-        "prompt":  "Fiscal deficit is the difference between?",
-        "answers":  [
-                        "Revenue and expenditure",
-                        "Government\u0027s total expenditure and total receipts (excluding borrowings)",
-                        "Import and export",
-                        "Savings and investment"
-                    ],
-        "correct":  1,
-        "explanation":  "Fiscal Deficit = Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts). It indicates total borrowings needed by government."
+        "prompt": "फिस्कल डेफिसिट क्या है?",
+        "answers": [
+            "रेवेन्यू और व्यय के बीच अंतर",
+            "सरकार के कुल व्यय और कुल प्राप्तियों (उधार को छोड़कर) के बीच अंतर",
+            "आयात और निर्यात",
+            "बचत और निवेश"
+        ],
+        "correct": 1,
+        "explanation": "फिस्कल डेफिसिट = कुल व्यय - (रेवेन्यू प्राप्तियाँ + गैर-ऋण कैपिटल प्राप्तियाँ)। यह सरकार द्वारा आवश्यक कुल उधार दर्शाता है।"
     },
     {
-        "prompt":  "Inflation is measured in India primarily by?",
-        "answers":  [
-                        "WPI only",
-                        "CPI only",
-                        "Both WPI and CPI",
-                        "GDP deflator only"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI uses CPI (Consumer Price Index) for inflation targeting. WPI (Wholesale Price Index) is also published. CPI is the key indicator for monetary policy."
+        "prompt": "भारत में मुद्रास्फीति मुख्य रूप से किससे मापी जाती है?",
+        "answers": [
+            "केवल WPI",
+            "केवल CPI",
+            "WPI और CPI दोनों",
+            "केवल GDP डिफ्लेटर"
+        ],
+        "correct": 2,
+        "explanation": "RBI मुद्रास्फीति लक्ष्य के लिए CPI (कंज्यूमर प्राइस इंडेक्स) का उपयोग करता है। WPI (होलसेल प्राइस इंडेक्स) भी प्रकाशित होता है। मौद्रिक नीति के लिए CPI मुख्य संकेतक है।"
     },
     {
-        "prompt":  "GDP stands for?",
-        "answers":  [
-                        "Gross Domestic Product",
-                        "General Domestic Product",
-                        "Gross Development Product",
-                        "General Development Product"
-                    ],
-        "correct":  0,
-        "explanation":  "GDP (Gross Domestic Product) is the total value of goods and services produced within a country in a specific period. It is a key indicator of economic growth."
+        "prompt": "GDP का पूरा नाम क्या है?",
+        "answers": [
+            "Gross Domestic Product",
+            "General Domestic Product",
+            "Gross Development Product",
+            "General Development Product"
+        ],
+        "correct": 0,
+        "explanation": "GDP (ग्रॉस डोमेस्टिक प्रोडक्ट) एक निश्चित अवधि में देश के भीतर उत्पादित वस्तुओं और सेवाओं का कुल मूल्य है। यह आर्थिक विकास का प्रमुख संकेतक है।"
     },
     {
-        "prompt":  "Balance of Payments (BoP) is?",
-        "answers":  [
-                        "Only trade balance",
-                        "A record of all economic transactions between a country and the rest of the world",
-                        "Only capital flows",
-                        "Only current account"
-                    ],
-        "correct":  1,
-        "explanation":  "BoP records all transactions - current account (trade, services, remittances) and capital account (FDI, FII, loans). It should ideally balance."
+        "prompt": "बैलेंस ऑफ पेमेंट्स (BoP) क्या है?",
+        "answers": [
+            "केवल ट्रेड बैलेंस",
+            "एक देश और बाकी दुनिया के बीच सभी आर्थिक लेनदेन का रिकॉर्ड",
+            "केवल कैपिटल फ्लो",
+            "केवल करंट अकाउंट"
+        ],
+        "correct": 1,
+        "explanation": "BoP सभी लेनदेन रिकॉर्ड करता है - करंट अकाउंट (व्यापार, सेवाएँ, रेमिटेंस) और कैपिटल अकाउंट (FDI, FII, ऋण)। आदर्श रूप से यह बैलेंस होना चाहिए।"
     },
     {
-        "prompt":  "Money supply M2 includes?",
-        "answers":  [
-                        "Only currency",
-                        "M1 + savings deposits with post office",
-                        "Only demand deposits",
-                        "Only government bonds"
-                    ],
-        "correct":  1,
-        "explanation":  "M2 = M1 + savings deposits with post office savings banks. M1 = currency + demand deposits + other deposits with RBI."
+        "prompt": "मनी सप्लाई M2 में क्या शामिल है?",
+        "answers": [
+            "केवल मुद्रा",
+            "M1 + पोस्ट ऑफिस बचत डिपॉजिट",
+            "केवल डिमांड डिपॉजिट",
+            "केवल सरकारी बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "M2 = M1 + पोस्ट ऑफिस सेविंग्स बैंकों में बचत डिपॉजिट। M1 = मुद्रा + डिमांड डिपॉजिट + RBI में अन्य डिपॉजिट।"
     },
     {
-        "prompt":  "Money supply M3 includes?",
-        "answers":  [
-                        "Only M1",
-                        "M2 + time deposits with banks",
-                        "Only currency",
-                        "Only gold"
-                    ],
-        "correct":  1,
-        "explanation":  "M3 = M2 + time deposits (fixed deposits, recurring deposits) with commercial banks. RBI uses M3 as a broad measure of money supply."
+        "prompt": "मनी सप्लाई M3 में क्या शामिल है?",
+        "answers": [
+            "केवल M1",
+            "M2 + बैंकों में टाइम डिपॉजिट",
+            "केवल मुद्रा",
+            "केवल गोल्ड"
+        ],
+        "correct": 1,
+        "explanation": "M3 = M2 + कमर्शियल बैंकों में टाइम डिपॉजिट (फिक्स्ड डिपॉजिट, रिकरिंग डिपॉजिट)। RBI M3 को मनी सप्लाई का व्यापक माप मानता है।"
     },
     {
-        "prompt":  "Deflation is?",
-        "answers":  [
-                        "Rising prices",
-                        "General decrease in price level of goods and services",
-                        "Stable prices",
-                        "Only currency devaluation"
-                    ],
-        "correct":  1,
-        "explanation":  "Deflation is a general decline in prices (negative inflation). It can reduce consumer spending as people delay purchases expecting lower prices. It is the opposite of inflation."
+        "prompt": "डिफ्लेशन क्या है?",
+        "answers": [
+            "कीमतों में वृद्धि",
+            "वस्तुओं और सेवाओं की सामान्य कीमत स्तर में कमी",
+            "स्थिर कीमतें",
+            "केवल मुद्रा अवमूल्यन"
+        ],
+        "correct": 1,
+        "explanation": "डिफ्लेशन सामान्य कीमतों में गिरावट (नेगेटिव इन्फ्लेशन) है। इससे उपभोक्ता खरीदारी टालते हैं जिससे मंदी बढ़ सकती है। यह इन्फ्लेशन का विपरीत है।"
     }
 ]

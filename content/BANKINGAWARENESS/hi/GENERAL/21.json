@@ -1,1 +1,277 @@
-[{"prompt":"Subsidized crop loan interest rate for farmers is?","answers":["9 percent","7 percent","4 percent","2 percent"],"correct":2,"explanation":"Interest subvention scheme: farmers get crop loans at 7 percent. Prompt repayment gets 3 percent subvention - effective 4 percent."},{"prompt":"Interest subvention for short-term crop loans is provided by?","answers":["RBI","Government of India","NABARD","Banks"],"correct":1,"explanation":"Government provides interest subvention to banks for short-term crop loans to farmers."},{"prompt":"KCC allows farmer to withdraw?","answers":["Only at harvest","As per crop cycle and need - revolving credit","Only once","Only for seeds"],"correct":1,"explanation":"KCC provides revolving credit. Farmer can withdraw, repay, redraw as per crop cycle."},{"prompt":"NABARD refinance to cooperative banks is for?","answers":["Industrial loans","Agricultural and rural lending","Only housing","Only education"],"correct":1,"explanation":"NABARD refinances cooperative banks, RRBs for agricultural and rural development activities."},{"prompt":"Rural Infrastructure Development Fund RIDF is maintained by?","answers":["RBI","NABARD","SIDBI","Government"],"correct":1,"explanation":"RIDF was set up in NABARD. Banks that fall short of priority sector lending targets contribute to RIDF."},{"prompt":"Banks falling short of PSL target deposit in?","answers":["RBI","RIDF or other specified funds","SEBI","Government account"],"correct":1,"explanation":"Banks that do not meet PSL target contribute to RIDF or similar funds at rates specified by RBI."},{"prompt":"Agriculture PSL target for banks is?","answers":["10 percent","12 percent","18 percent","25 percent"],"correct":2,"explanation":"Within 40 percent PSL, 18 percent must go to agriculture. For foreign banks different norms."},{"prompt":"Micro enterprises under MSME have investment up to?","answers":["Rs 1 crore","Rs 5 crore","Rs 10 crore","Rs 25 crore"],"correct":0,"explanation":"Micro: investment up to Rs 1 crore, turnover up to Rs 5 crore. Definition revised in 2020."},{"prompt":"Small enterprise has investment up to?","answers":["Rs 1 crore","Rs 10 crore","Rs 50 crore","Rs 100 crore"],"correct":1,"explanation":"Small: investment up to Rs 10 crore, turnover up to Rs 50 crore."},{"prompt":"Medium enterprise has investment up to?","answers":["Rs 10 crore","Rs 20 crore","Rs 50 crore","Rs 100 crore"],"correct":2,"explanation":"Medium: investment up to Rs 50 crore, turnover up to Rs 250 crore."},{"prompt":"59 minutes loan scheme is for?","answers":["Farmers","MSMEs - in-principle approval","Students","Home buyers"],"correct":1,"explanation":"59 minutes loan portal provides in-principle sanction for MSME loans up to Rs 1 crore in 59 minutes."},{"prompt":"PSU banks must have at least one independent director for?","answers":["Marketing","Risk management committee","Only audit","Only HR"],"correct":1,"explanation":"PSBs must have Risk Management Committee of Board with at least one independent director."},{"prompt":"Banks must constitute Audit Committee of Board with?","answers":["Only executives","Only non-executive directors, majority independent","Only RBI nominee","Only government"],"correct":1,"explanation":"Audit Committee should have non-executive directors, majority being independent."},{"prompt":"Asset Liability Committee ALCO of bank is?","answers":["Only for credit","For managing interest rate and liquidity risk","Only for NPAs","Only for deposits"],"correct":1,"explanation":"ALCO manages asset-liability mismatch, interest rate risk, liquidity. Reports to Board."},{"prompt":"Banks must disclose Tier 1 and Tier 2 capital?","answers":["Never","Quarterly in financial results","Only annually","Only to RBI"],"correct":1,"explanation":"Banks disclose capital adequacy (Tier 1, Tier 2, CRAR) in quarterly financial results."},{"prompt":"Divergence in NPA recognition means?","answers":["RBI and bank agree","RBI finds higher NPA than bank reported","Only for provisioning","Only for write-offs"],"correct":1,"explanation":"Divergence: RBI inspection finds more NPAs than bank reported. Bank must correct and disclose."},{"prompt":"RBI has asked banks to disclose divergence?","answers":["No","Yes if material","Only for PSBs","Never"],"correct":1,"explanation":"Banks must disclose asset classification and provisioning divergence if it exceeds 15 percent of bank declared profit."},{"prompt":"Restructuring of MSME accounts was allowed under?","answers":["Only IBC","COVID restructuring - one-time relief","Only for large accounts","Never"],"correct":1,"explanation":"RBI allowed one-time restructuring of MSME and other accounts for COVID impact. Cut-off and conditions applied."},{"prompt":"Moratorium on loan repayment was given during COVID in?","answers":["2018","2019","2020","2021"],"correct":2,"explanation":"RBI permitted banks to grant moratorium on loan EMIs during COVID in 2020. Interest continued to accrue."},{"prompt":"Emergency Credit Line Guarantee Scheme ECLGS was for?","answers":["All borrowers","MSMEs and others - government guaranteed additional loan","Only farmers","Only housing"],"correct":1,"explanation":"ECLGS provided 100 percent guarantee to banks for additional credit to MSMEs and other eligible sectors during COVID."},{"prompt":"ECGC provides guarantee for?","answers":["Domestic loans","Export credit risk","Import credit","Retail loans"],"correct":1,"explanation":"ECGC (Export Credit Guarantee Corporation) covers political and commercial risks for export credit."},{"prompt":"CGTSI provides guarantee for?","answers":["Export","Term loans to SSI - Credit Guarantee Fund for SSI","Import","Agriculture"],"correct":1,"explanation":"Credit Guarantee Fund Trust for Micro and Small Enterprises CGTMSE provides guarantee for collateral-free loans."},{"prompt":"Stand Up India provides loan for?","answers":["All","SC ST and women - Rs 10 lakh to 1 crore","Only women","Only SC ST"],"correct":1,"explanation":"Stand Up India: at least one SC/ST and one woman borrower per branch. Loan Rs 10 lakh to Rs 1 crore."},{"prompt":"Differential rate of interest DRI loan is at?","answers":["Market rate","4 percent per annum","10 percent","12 percent"],"correct":1,"explanation":"DRI scheme provides loan at 4 percent to weaker sections. Each PSB has allocation."},{"prompt":"Priority sector includes?","answers":["Only agriculture","Agriculture MSME exports education housing weaker sections","Only MSME","Only housing"],"correct":1,"explanation":"Priority sector: agriculture, MSME, export, education, housing, social infra, weaker sections, etc."}]
+[
+    {
+        "prompt": "किसानों के लिए सब्सिडाइज्ड फसल ऋण ब्याज दर क्या है?",
+        "answers": [
+            "9 प्रतिशत",
+            "7 प्रतिशत",
+            "4 प्रतिशत",
+            "2 प्रतिशत"
+        ],
+        "correct": 2,
+        "explanation": "ब्याज सब्वेंशन योजना: किसानों को फसल ऋण 7 प्रतिशत पर मिलते हैं। समय पर भुगतान पर 3 प्रतिशत सब्वेंशन - प्रभावी 4 प्रतिशत।"
+    },
+    {
+        "prompt": "अल्पकालिक फसल ऋणों के लिए ब्याज सब्वेंशन कौन प्रदान करता है?",
+        "answers": [
+            "RBI",
+            "भारत सरकार",
+            "NABARD",
+            "बैंक"
+        ],
+        "correct": 1,
+        "explanation": "सरकार किसानों को अल्पकालिक फसल ऋणों के लिए बैंकों को ब्याज सब्वेंशन प्रदान करती है।"
+    },
+    {
+        "prompt": "KCC किसान को निकासी की अनुमति देता है?",
+        "answers": [
+            "केवल कटाई पर",
+            "फसल चक्र और आवश्यकता के अनुसार - रिवॉल्विंग क्रेडिट",
+            "केवल एक बार",
+            "केवल बीज के लिए"
+        ],
+        "correct": 1,
+        "explanation": "KCC रिवॉल्विंग क्रेडिट प्रदान करता है। किसान फसल चक्र के अनुसार निकाल, चुकता, फिर निकाल सकता है।"
+    },
+    {
+        "prompt": "सहकारी बैंकों को NABARD रिफाइनेंस किसके लिए है?",
+        "answers": [
+            "औद्योगिक ऋण",
+            "कृषि और ग्रामीण उधार",
+            "केवल आवास",
+            "केवल शिक्षा"
+        ],
+        "correct": 1,
+        "explanation": "NABARD सहकारी बैंकों, RRBs को कृषि और ग्रामीण विकास गतिविधियों के लिए रिफाइनेंस करता है।"
+    },
+    {
+        "prompt": "ग्रामीण बुनियादी ढांचा विकास कोष (RIDF) किसके द्वारा रखा जाता है?",
+        "answers": [
+            "RBI",
+            "NABARD",
+            "SIDBI",
+            "सरकार"
+        ],
+        "correct": 1,
+        "explanation": "RIDF NABARD में स्थापित किया गया। प्राथमिक क्षेत्र उधार लक्ष्यों में कमी करने वाले बैंक RIDF में योगदान करते हैं।"
+    },
+    {
+        "prompt": "PSL लक्ष्य में कमी करने वाले बैंक कहाँ जमा करते हैं?",
+        "answers": [
+            "RBI",
+            "RIDF या अन्य निर्दिष्ट फंड",
+            "SEBI",
+            "सरकारी खाता"
+        ],
+        "correct": 1,
+        "explanation": "PSL लक्ष्य पूरा न करने वाले बैंक RIDF या इसी तरह के फंडों में RBI द्वारा निर्दिष्ट दरों पर योगदान करते हैं।"
+    },
+    {
+        "prompt": "बैंकों के लिए कृषि PSL लक्ष्य क्या है?",
+        "answers": [
+            "10 प्रतिशत",
+            "12 प्रतिशत",
+            "18 प्रतिशत",
+            "25 प्रतिशत"
+        ],
+        "correct": 2,
+        "explanation": "40 प्रतिशत PSL के भीतर, 18 प्रतिशत कृषि को जाना चाहिए। विदेशी बैंकों के लिए अलग मानदंड।"
+    },
+    {
+        "prompt": "MSME के तहत माइक्रो एंटरप्राइज में निवेश कितना तक?",
+        "answers": [
+            "रु 1 करोड़",
+            "रु 5 करोड़",
+            "रु 10 करोड़",
+            "रु 25 करोड़"
+        ],
+        "correct": 0,
+        "explanation": "माइक्रो: निवेश रु 1 करोड़ तक, टर्नओवर रु 5 करोड़ तक। परिभाषा 2020 में संशोधित।"
+    },
+    {
+        "prompt": "स्मॉल एंटरप्राइज में निवेश कितना तक?",
+        "answers": [
+            "रु 1 करोड़",
+            "रु 10 करोड़",
+            "रु 50 करोड़",
+            "रु 100 करोड़"
+        ],
+        "correct": 1,
+        "explanation": "स्मॉल: निवेश रु 10 करोड़ तक, टर्नओवर रु 50 करोड़ तक।"
+    },
+    {
+        "prompt": "मीडियम एंटरप्राइज में निवेश कितना तक?",
+        "answers": [
+            "रु 10 करोड़",
+            "रु 20 करोड़",
+            "रु 50 करोड़",
+            "रु 100 करोड़"
+        ],
+        "correct": 2,
+        "explanation": "मीडियम: निवेश रु 50 करोड़ तक, टर्नओवर रु 250 करोड़ तक।"
+    },
+    {
+        "prompt": "59 मिनट ऋण योजना किसके लिए है?",
+        "answers": [
+            "किसान",
+            "MSMEs - सिद्धांत में स्वीकृति",
+            "छात्र",
+            "घर खरीदार"
+        ],
+        "correct": 1,
+        "explanation": "59 मिनट ऋण पोर्टल MSME ऋणों के लिए रु 1 करोड़ तक 59 मिनट में सिद्धांत में स्वीकृति प्रदान करता है।"
+    },
+    {
+        "prompt": "PSU बैंकों में कम से कम एक स्वतंत्र निदेशक किसके लिए होना चाहिए?",
+        "answers": [
+            "मार्केटिंग",
+            "जोखिम प्रबंधन समिति",
+            "केवल ऑडिट",
+            "केवल HR"
+        ],
+        "correct": 1,
+        "explanation": "PSBs में बोर्ड की जोखिम प्रबंधन समिति में कम से कम एक स्वतंत्र निदेशक होना चाहिए।"
+    },
+    {
+        "prompt": "बैंकों को बोर्ड की ऑडिट समिति गठित करनी चाहिए जिसमें?",
+        "answers": [
+            "केवल कार्यकारी",
+            "केवल गैर-कार्यकारी निदेशक, बहुमत स्वतंत्र",
+            "केवल RBI नामित",
+            "केवल सरकार"
+        ],
+        "correct": 1,
+        "explanation": "ऑडिट समिति में गैर-कार्यकारी निदेशक होने चाहिए, बहुमत स्वतंत्र।"
+    },
+    {
+        "prompt": "बैंक का एसेट लायबिलिटी कमिटी (ALCO) क्या है?",
+        "answers": [
+            "केवल क्रेडिट के लिए",
+            "ब्याज दर और तरलता जोखिम प्रबंधन के लिए",
+            "केवल NPA के लिए",
+            "केवल जमा के लिए"
+        ],
+        "correct": 1,
+        "explanation": "ALCO एसेट-लायबिलिटी मिसमैच, ब्याज दर जोखिम, तरलता प्रबंधित करता है। बोर्ड को रिपोर्ट करता है।"
+    },
+    {
+        "prompt": "बैंकों को टियर 1 और टियर 2 कैपिटल का खुलासा करना चाहिए?",
+        "answers": [
+            "कभी नहीं",
+            "तिमाही वित्तीय परिणामों में",
+            "केवल वार्षिक",
+            "केवल RBI को"
+        ],
+        "correct": 1,
+        "explanation": "बैंक तिमाही वित्तीय परिणामों में कैपिटल पर्याप्तता (टियर 1, टियर 2, CRAR) का खुलासा करते हैं।"
+    },
+    {
+        "prompt": "NPA मान्यता में विचलन का अर्थ है?",
+        "answers": [
+            "RBI और बैंक सहमत",
+            "RBI बैंक द्वारा रिपोर्ट किए गए से अधिक NPA पाता है",
+            "केवल प्रावधान के लिए",
+            "केवल राइट-ऑफ के लिए"
+        ],
+        "correct": 1,
+        "explanation": "विचलन: RBI निरीक्षण में बैंक द्वारा रिपोर्ट किए गए से अधिक NPA मिलते हैं। बैंक को सुधारना और खुलासा करना चाहिए।"
+    },
+    {
+        "prompt": "RBI ने बैंकों से विचलन का खुलासा करने को कहा है?",
+        "answers": [
+            "नहीं",
+            "हाँ यदि महत्वपूर्ण",
+            "केवल PSBs के लिए",
+            "कभी नहीं"
+        ],
+        "correct": 1,
+        "explanation": "बैंक एसेट क्लासिफिकेशन और प्रावधान विचलन का खुलासा करना चाहिए यदि यह बैंक द्वारा घोषित लाभ के 15 प्रतिशत से अधिक हो।"
+    },
+    {
+        "prompt": "MSME खातों का पुनर्गठन किसके तहत अनुमति दी गई?",
+        "answers": [
+            "केवल IBC",
+            "COVID पुनर्गठन - एक बार राहत",
+            "केवल बड़े खातों के लिए",
+            "कभी नहीं"
+        ],
+        "correct": 1,
+        "explanation": "RBI ने COVID प्रभाव के लिए MSME और अन्य खातों का एक बार पुनर्गठन अनुमति दी। कट-ऑफ और शर्तें लागू।"
+    },
+    {
+        "prompt": "COVID के दौरान ऋण भुगतान पर मोरेटोरियम कब दिया गया?",
+        "answers": [
+            "2018",
+            "2019",
+            "2020",
+            "2021"
+        ],
+        "correct": 2,
+        "explanation": "RBI ने 2020 में COVID के दौरान बैंकों को ऋण EMI पर मोरेटोरियम देने की अनुमति दी। ब्याज जारी रहा।"
+    },
+    {
+        "prompt": "इमरजेंसी क्रेडिट लाइन गारंटी स्कीम (ECLGS) किसके लिए थी?",
+        "answers": [
+            "सभी उधारकर्ता",
+            "MSMEs और अन्य - सरकार गारंटीड अतिरिक्त ऋण",
+            "केवल किसान",
+            "केवल आवास"
+        ],
+        "correct": 1,
+        "explanation": "ECLGS ने बैंकों को MSMEs और अन्य योग्य क्षेत्रों के लिए अतिरिक्त क्रेडिट के लिए 100 प्रतिशत गारंटी प्रदान की COVID के दौरान।"
+    },
+    {
+        "prompt": "ECGC क्या गारंटी प्रदान करता है?",
+        "answers": [
+            "घरेलू ऋण",
+            "निर्यात क्रेडिट जोखिम",
+            "आयात क्रेडिट",
+            "खुदरा ऋण"
+        ],
+        "correct": 1,
+        "explanation": "ECGC (Export Credit Guarantee Corporation) निर्यात क्रेडिट के लिए राजनीतिक और व्यावसायिक जोखिमों को कवर करता है।"
+    },
+    {
+        "prompt": "CGTSI क्या गारंटी प्रदान करता है?",
+        "answers": [
+            "निर्यात",
+            "SSI को टर्म लोन - क्रेडिट गारंटी फंड फॉर SSI",
+            "आयात",
+            "कृषि"
+        ],
+        "correct": 1,
+        "explanation": "क्रेडिट गारंटी फंड ट्रस्ट फॉर माइक्रो एंड स्मॉल एंटरप्राइजेज CGTMSE कोलेटरल-फ्री ऋणों के लिए गारंटी प्रदान करता है।"
+    },
+    {
+        "prompt": "स्टैंड अप इंडिया ऋण किसके लिए प्रदान करता है?",
+        "answers": [
+            "सभी",
+            "SC ST और महिलाएँ - रु 10 लाख से 1 करोड़",
+            "केवल महिलाएँ",
+            "केवल SC ST"
+        ],
+        "correct": 1,
+        "explanation": "स्टैंड अप इंडिया: प्रत्येक शाखा में कम से कम एक SC/ST और एक महिला उधारकर्ता। ऋण रु 10 लाख से रु 1 करोड़।"
+    },
+    {
+        "prompt": "डिफरेंशियल रेट ऑफ इंटरेस्ट (DRI) ऋण किस दर पर है?",
+        "answers": [
+            "बाजार दर",
+            "4 प्रतिशत प्रति वर्ष",
+            "10 प्रतिशत",
+            "12 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "DRI योजना कमजोर वर्गों को 4 प्रतिशत पर ऋण प्रदान करती है। प्रत्येक PSB का आवंटन है।"
+    },
+    {
+        "prompt": "प्राथमिक क्षेत्र में क्या शामिल है?",
+        "answers": [
+            "केवल कृषि",
+            "कृषि, MSME, निर्यात, शिक्षा, आवास, कमजोर वर्ग",
+            "केवल MSME",
+            "केवल आवास"
+        ],
+        "correct": 1,
+        "explanation": "प्राथमिक क्षेत्र: कृषि, MSME, निर्यात, शिक्षा, आवास, सामाजिक इंफ्रा, कमजोर वर्ग आदि।"
+    }
+]

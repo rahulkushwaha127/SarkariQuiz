@@ -1,178 +1,178 @@
 ﻿[
     {
-        "prompt":  "FATF Grey List means?",
-        "answers":  [
-                        "Country fully compliant",
-                        "Country under increased monitoring",
-                        "Country blacklisted",
-                        "Country not member"
-                    ],
-        "correct":  1,
-        "explanation":  "Grey List: jurisdiction under increased monitoring. India was on grey list earlier, removed."
+        "prompt": "FATF ग्रे लिस्ट का अर्थ है?",
+        "answers": [
+            "देश पूरी तरह अनुपालन में",
+            "देश बढ़ी हुई निगरानी के अधीन",
+            "देश ब्लैकलिस्टेड",
+            "देश सदस्य नहीं"
+        ],
+        "correct": 1,
+        "explanation": "ग्रे लिस्ट: क्षेत्राधिकार बढ़ी हुई निगरानी के अधीन। भारत पहले ग्रे लिस्ट में था, बाद में हटाया गया।"
     },
     {
-        "prompt":  "India became member of FATF in?",
-        "answers":  [
-                        "1990",
-                        "2000",
-                        "2010",
-                        "2020"
-                    ],
-        "correct":  2,
-        "explanation":  "India became a member of FATF in 2010."
+        "prompt": "भारत FATF का सदस्य कब बना?",
+        "answers": [
+            "1990",
+            "2000",
+            "2010",
+            "2020"
+        ],
+        "correct": 2,
+        "explanation": "भारत 2010 में FATF का सदस्य बना।"
     },
     {
-        "prompt":  "IMF\u0027s Special Drawing Right basket includes?",
-        "answers":  [
-                        "Only USD",
-                        "USD, Euro, Yuan, Yen, Pound Sterling",
-                        "Only Euro",
-                        "USD and Euro only"
-                    ],
-        "correct":  1,
-        "explanation":  "SDR basket: US Dollar, Euro, Chinese Renminbi, Japanese Yen, British Pound Sterling. Weights reviewed every 5 years."
+        "prompt": "IMF की स्पेशल ड्रॉइंग राइट बास्केट में क्या शामिल है?",
+        "answers": [
+            "केवल USD",
+            "USD, यूरो, युआन, येन, पाउंड स्टर्लिंग",
+            "केवल यूरो",
+            "केवल USD और यूरो"
+        ],
+        "correct": 1,
+        "explanation": "SDR बास्केट: US डॉलर, यूरो, चीनी रेनमिनबी, जापानी येन, ब्रिटिश पाउंड स्टर्लिंग। वेट हर 5 वर्ष में समीक्षा की जाती है।"
     },
     {
-        "prompt":  "India\u0027s quota in IMF determines?",
-        "answers":  [
-                        "Nothing",
-                        "Voting power and maximum borrowing",
-                        "Only voting",
-                        "Only SDR allocation"
-                    ],
-        "correct":  1,
-        "explanation":  "IMF quota determines member\u0027s subscription, voting power, and access to financing. India has increased quota over time."
+        "prompt": "IMF में भारत का कोटा क्या निर्धारित करता है?",
+        "answers": [
+            "कुछ नहीं",
+            "वोटिंग पावर और अधिकतम उधार",
+            "केवल वोटिंग",
+            "केवल SDR आवंटन"
+        ],
+        "correct": 1,
+        "explanation": "IMF कोटा सदस्य के सब्सक्रिप्शन, वोटिंग पावर और फाइनेंसिंग तक पहुँच निर्धारित करता है। भारत का कोटा समय के साथ बढ़ा है।"
     },
     {
-        "prompt":  "World Bank Group includes?",
-        "answers":  [
-                        "Only IBRD",
-                        "IBRD, IFC, IDA, MIGA, ICSID",
-                        "Only IDA",
-                        "Only IFC"
-                    ],
-        "correct":  1,
-        "explanation":  "World Bank Group: IBRD, IDA, IFC, MIGA, ICSID. IBRD and IDA provide loans; IFC private sector; MIGA guarantees; ICSID dispute settlement."
+        "prompt": "वर्ल्ड बैंक ग्रुप में क्या शामिल है?",
+        "answers": [
+            "केवल IBRD",
+            "IBRD, IFC, IDA, MIGA, ICSID",
+            "केवल IDA",
+            "केवल IFC"
+        ],
+        "correct": 1,
+        "explanation": "वर्ल्ड बैंक ग्रुप: IBRD, IDA, IFC, MIGA, ICSID। IBRD और IDA ऋण प्रदान करते हैं; IFC निजी क्षेत्र; MIGA गारंटी; ICSID विवाद निपटान।"
     },
     {
-        "prompt":  "AIIB was established in?",
-        "answers":  [
-                        "2012",
-                        "2014",
-                        "2015",
-                        "2016"
-                    ],
-        "correct":  2,
-        "explanation":  "AIIB (Asian Infrastructure Investment Bank) was established in 2015. China is largest shareholder; India is second largest."
+        "prompt": "AIIB की स्थापना कब हुई?",
+        "answers": [
+            "2012",
+            "2014",
+            "2015",
+            "2016"
+        ],
+        "correct": 2,
+        "explanation": "AIIB (एशियन इंफ्रास्ट्रक्चर इन्वेस्टमेंट बैंक) की स्थापना 2015 में हुई। चीन सबसे बड़ा शेयरधारक; भारत दूसरा सबसे बड़ा।"
     },
     {
-        "prompt":  "BIS is headquartered in?",
-        "answers":  [
-                        "London",
-                        "New York",
-                        "Basel, Switzerland",
-                        "Frankfurt"
-                    ],
-        "correct":  2,
-        "explanation":  "BIS (Bank for International Settlements) is in Basel, Switzerland. It is the bank for central banks."
+        "prompt": "BIS का मुख्यालय कहाँ है?",
+        "answers": [
+            "लंदन",
+            "न्यू यॉर्क",
+            "बासेल, स्विट्जरलैंड",
+            "फ्रैंकफर्ट"
+        ],
+        "correct": 2,
+        "explanation": "BIS (Bank for International Settlements) बासेल, स्विट्जरलैंड में है। यह केंद्रीय बैंकों का बैंक है।"
     },
     {
-        "prompt":  "FATF recommendations are?",
-        "answers":  [
-                        "Binding law",
-                        "Soft law - countries implement voluntarily",
-                        "Only for banks",
-                        "Only for AML"
-                    ],
-        "correct":  1,
-        "explanation":  "FATF recommendations are international standards. Countries implement through domestic laws. Grey/black list has reputational impact."
+        "prompt": "FATF सिफारिशें क्या हैं?",
+        "answers": [
+            "बाध्यकारी कानून",
+            "सॉफ्ट लॉ - देश स्वैच्छिक रूप से लागू करते हैं",
+            "केवल बैंकों के लिए",
+            "केवल AML के लिए"
+        ],
+        "correct": 1,
+        "explanation": "FATF सिफारिशें अंतरराष्ट्रीय मानक हैं। देश घरेलू कानूनों के माध्यम से लागू करते हैं। ग्रे/ब्लैक लिस्ट का प्रतिष्ठा प्रभाव पड़ता है।"
     },
     {
-        "prompt":  "IMF was established in?",
-        "answers":  [
-                        "1944",
-                        "1945",
-                        "1947",
-                        "1950"
-                    ],
-        "correct":  0,
-        "explanation":  "International Monetary Fund (IMF) was established in July 1944 at the Bretton Woods Conference. It started operations in December 1945."
+        "prompt": "IMF की स्थापना कब हुई?",
+        "answers": [
+            "1944",
+            "1945",
+            "1947",
+            "1950"
+        ],
+        "correct": 0,
+        "explanation": "अंतरराष्ट्रीय मुद्रा कोष (IMF) की स्थापना जुलाई 1944 में ब्रेटन वुड्स सम्मेलन में हुई। दिसंबर 1945 से संचालन शुरू हुआ।"
     },
     {
-        "prompt":  "Where is the headquarters of IMF?",
-        "answers":  [
-                        "London",
-                        "New York",
-                        "Washington D.C.",
-                        "Geneva"
-                    ],
-        "correct":  2,
-        "explanation":  "IMF headquarters is in Washington D.C., USA. World Bank is also headquartered in Washington D.C."
+        "prompt": "IMF का मुख्यालय कहाँ है?",
+        "answers": [
+            "लंदन",
+            "न्यू यॉर्क",
+            "वाशिंगटन डी.सी.",
+            "जिनेवा"
+        ],
+        "correct": 2,
+        "explanation": "IMF का मुख्यालय वाशिंगटन डी.सी., USA में है। वर्ल्ड बैंक भी वाशिंगटन डी.सी. में स्थित है।"
     },
     {
-        "prompt":  "World Bank was established in?",
-        "answers":  [
-                        "1944",
-                        "1945",
-                        "1947",
-                        "1950"
-                    ],
-        "correct":  0,
-        "explanation":  "World Bank (International Bank for Reconstruction and Development) was established in 1944 at Bretton Woods, along with IMF."
+        "prompt": "वर्ल्ड बैंक की स्थापना कब हुई?",
+        "answers": [
+            "1944",
+            "1945",
+            "1947",
+            "1950"
+        ],
+        "correct": 0,
+        "explanation": "वर्ल्ड बैंक (इंटरनेशनल बैंक फॉर रिकंस्ट्रक्शन एंड डेवलपमेंट) की स्थापना 1944 में ब्रेटन वुड्स में IMF के साथ हुई।"
     },
     {
-        "prompt":  "ADB stands for?",
-        "answers":  [
-                        "Asian Development Bank",
-                        "African Development Bank",
-                        "American Development Bank",
-                        "Australian Development Bank"
-                    ],
-        "correct":  0,
-        "explanation":  "Asian Development Bank (ADB) was established in 1966. Its headquarters is in Manila, Philippines. India is a founding member."
+        "prompt": "ADB का पूरा नाम क्या है?",
+        "answers": [
+            "Asian Development Bank",
+            "African Development Bank",
+            "American Development Bank",
+            "Australian Development Bank"
+        ],
+        "correct": 0,
+        "explanation": "एशियन डेवलपमेंट बैंक (ADB) की स्थापना 1966 में हुई। मुख्यालय मनीला, फिलीपींस में। भारत संस्थापक सदस्य है।"
     },
     {
-        "prompt":  "AIIB stands for?",
-        "answers":  [
-                        "Asian Infrastructure Investment Bank",
-                        "American International Investment Bank",
-                        "Asian International Investment Board",
-                        "African Infrastructure Investment Bank"
-                    ],
-        "correct":  0,
-        "explanation":  "AIIB (Asian Infrastructure Investment Bank) was proposed by China and established in 2015. India is the second-largest shareholder."
+        "prompt": "AIIB का पूरा नाम क्या है?",
+        "answers": [
+            "Asian Infrastructure Investment Bank",
+            "American International Investment Bank",
+            "Asian International Investment Board",
+            "African Infrastructure Investment Bank"
+        ],
+        "correct": 0,
+        "explanation": "AIIB (एशियन इंफ्रास्ट्रक्चर इन्वेस्टमेंट बैंक) चीन द्वारा प्रस्तावित और 2015 में स्थापित हुआ। भारत दूसरा सबसे बड़ा शेयरधारक है।"
     },
     {
-        "prompt":  "Where is the headquarters of AIIB?",
-        "answers":  [
-                        "Beijing",
-                        "Shanghai",
-                        "Singapore",
-                        "Mumbai"
-                    ],
-        "correct":  0,
-        "explanation":  "AIIB headquarters is in Beijing, China. India is a founding member and the second-largest shareholder after China."
+        "prompt": "AIIB का मुख्यालय कहाँ है?",
+        "answers": [
+            "बीजिंग",
+            "शंघाई",
+            "सिंगापुर",
+            "मुंबई"
+        ],
+        "correct": 0,
+        "explanation": "AIIB का मुख्यालय बीजिंग, चीन में है। भारत संस्थापक सदस्य और चीन के बाद दूसरा सबसे बड़ा शेयरधारक है।"
     },
     {
-        "prompt":  "BIS stands for?",
-        "answers":  [
-                        "Bank of International Settlements",
-                        "Bank for International Settlements",
-                        "Board of International Securities",
-                        "Bank of Indian Settlements"
-                    ],
-        "correct":  1,
-        "explanation":  "BIS (Bank for International Settlements) is based in Basel, Switzerland. It is the \u0027central bank for central banks\u0027 and hosts the Basel Committee."
+        "prompt": "BIS का पूरा नाम क्या है?",
+        "answers": [
+            "Bank of International Settlements",
+            "Bank for International Settlements",
+            "Board of International Securities",
+            "Bank of Indian Settlements"
+        ],
+        "correct": 1,
+        "explanation": "BIS (Bank for International Settlements) बासेल, स्विट्जरलैंड में स्थित है। यह 'केंद्रीय बैंकों का केंद्रीय बैंक' है और बासेल कमिटी का मेजबान है।"
     },
     {
-        "prompt":  "FATF stands for?",
-        "answers":  [
-                        "Financial Action Task Force",
-                        "Financial Authority Task Force",
-                        "Financial Action and Tax Force",
-                        "Foreign Action Task Force"
-                    ],
-        "correct":  0,
-        "explanation":  "FATF (Financial Action Task Force) is an intergovernmental body that sets standards to combat money laundering and terrorist financing."
+        "prompt": "FATF का पूरा नाम क्या है?",
+        "answers": [
+            "Financial Action Task Force",
+            "Financial Authority Task Force",
+            "Financial Action and Tax Force",
+            "Foreign Action Task Force"
+        ],
+        "correct": 0,
+        "explanation": "FATF (Financial Action Task Force) एक अंतर-सरकारी निकाय है जो मनी लॉन्ड्रिंग और आतंकवादी फाइनेंसिंग से लड़ने के लिए मानक निर्धारित करता है।"
     }
 ]

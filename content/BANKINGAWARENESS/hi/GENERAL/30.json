@@ -1,1 +1,277 @@
-[{"prompt":"Financial year in India is?","answers":["January to December","April to March","July to June","October to September"],"correct":1,"explanation":"Indian financial year (FY) is April 1 to March 31."},{"prompt":"Union Budget is presented in Parliament usually in?","answers":["March","February","January","December"],"correct":1,"explanation":"Union Budget is traditionally presented on the last working day of February."},{"prompt":"Vote on Account is?","answers":["Full budget","Interim approval for govt expenditure","State budget","RBI budget"],"correct":1,"explanation":"Vote on Account is Parliament approval for govt expenditure for part of year when full budget delayed."},{"prompt":"Budget deficit occurs when?","answers":["Revenue equals expenditure","Expenditure exceeds revenue","Revenue exceeds expenditure","Surplus"],"correct":1,"explanation":"Budget deficit: total expenditure exceeds total receipts."},{"prompt":"Off-budget borrowing means?","answers":["In budget","Govt borrowings not in budget - PSUs etc","RBI borrowing","No borrowing"],"correct":1,"explanation":"Off-budget: borrowings by PSUs etc on behalf of govt, not reflected in budget."},{"prompt":"Cess and surcharge go to?","answers":["States share","Central government - not shared with states","Local bodies","RBI"],"correct":1,"explanation":"Cess and surcharge are retained by Centre and not shared with states as per Finance Commission."},{"prompt":"Finance Commission recommends?","answers":["Monetary policy","Tax devolution to states, grants","Bank licenses","SEBI rules"],"correct":1,"explanation":"Finance Commission recommends distribution of central taxes to states and grants."},{"prompt":"Finance Commission is constituted every?","answers":["3 years","5 years","7 years","10 years"],"correct":1,"explanation":"Finance Commission is constituted every 5 years as per Constitution."},{"prompt":"Niti Aayog replaced?","answers":["Finance Commission","Planning Commission","RBI","SEBI"],"correct":1,"explanation":"Niti Aayog replaced Planning Commission in 2015."},{"prompt":"Five Year Plans were replaced by?","answers":["Annual plans only","Niti Aayog and sectoral focus","Nothing","RBI plans"],"correct":1,"explanation":"Five Year Plans ended. Niti Aayog does strategic planning. No formal five year plans."},{"prompt":"Revenue receipt of government includes?","answers":["Borrowings","Tax and non-tax revenue","Only capital","Only disinvestment"],"correct":1,"explanation":"Revenue receipts: tax revenue (direct, indirect) and non-tax (interest, dividends, etc)."},{"prompt":"Capital receipt includes?","answers":["Tax only","Borrowings, disinvestment, recovery of loans","Only GST","Only customs"],"correct":1,"explanation":"Capital receipts: borrowings, disinvestment proceeds, loan recovery. Creates liability or reduces asset."},{"prompt":"Contingency Fund of India is for?","answers":["Regular expenditure","Urgent unforeseen expenditure","States only","RBI only"],"correct":1,"explanation":"Contingency Fund meets urgent unforeseen expenditure. Parliament approves ex-post."},{"prompt":"Consolidated Fund of India receives?","answers":["Only grants","All govt receipts - taxes, loans","Only states","Only RBI"],"correct":1,"explanation":"Consolidated Fund: all revenues, loans. All govt expenditure charged or voted from it."},{"prompt":"Public Account of India holds?","answers":["Tax revenue","Provident fund, small savings, etc - held in trust","Only disinvestment","Only loans"],"correct":1,"explanation":"Public Account: funds held in trust - PF, small savings. Not part of Consolidated Fund."},{"prompt":"Basis points in interest rate?","answers":["1 bp = 1 percent","1 bp = 0.01 percent","1 bp = 10 percent","1 bp = 0.1 percent"],"correct":1,"explanation":"100 basis points = 1 percent. 1 bp = 0.01 percent."},{"prompt":"When RBI cuts repo by 25 bps?","answers":["No change","Repo falls by 0.25 percent","Repo rises by 0.25 percent","Only MSF changes"],"correct":1,"explanation":"25 basis points = 0.25 percentage point. Repo 6.5% to 6.25% is 25 bps cut."},{"prompt":"Yield curve shows?","answers":["Stock prices","Interest rates at different maturities","Only short term","Only long term"],"correct":1,"explanation":"Yield curve plots bond yields against maturity. Normal: upward sloping."},{"prompt":"Inverted yield curve may signal?","answers":["Strong growth","Possible recession - short term higher than long","Low inflation","High employment"],"correct":1,"explanation":"Inverted yield curve (short rate above long) often precedes recession."},{"prompt":"Call money rate is?","answers":["RBI fixed","Market determined overnight rate","Only for retail","Only for government"],"correct":1,"explanation":"Call money rate is overnight inter-bank rate. Market determined, influenced by RBI liquidity."},{"prompt":"Treasury Bill is a?","answers":["Long term bond","Short term zero coupon instrument","State government bond","Corporate bond"],"correct":1,"explanation":"T-Bills are short-term (91, 182, 364 days) zero coupon instruments. Issued at discount."},{"prompt":"Commercial Paper is issued by?","answers":["Government","Corporates","RBI","Banks only"],"correct":1,"explanation":"Commercial Paper is issued by corporates for working capital. Unsecured."},{"prompt":"Certificate of Deposit maturity range is?","answers":["7 days to 1 year for banks","1 to 5 years","Only 91 days","Only 364 days"],"correct":0,"explanation":"CDs: Banks 7 days to 1 year. Financial institutions 1 to 3 years."},{"prompt":"Money market mutual funds invest in?","answers":["Equity","Short term debt - T-Bills, CP, CD","Only gold","Only real estate"],"correct":1,"explanation":"Money market funds invest in short-term instruments. Low risk, low return."},{"prompt":"Overnight rate in India is influenced by?","answers":["Only SEBI","RBI liquidity operations","Only government","Only forex"],"correct":1,"explanation":"Overnight rate (call/TOM) is influenced by RBI LAF, OMO, and system liquidity."}]
+[
+    {
+        "prompt": "भारत में वित्तीय वर्ष क्या है?",
+        "answers": [
+            "जनवरी से दिसंबर",
+            "अप्रैल से मार्च",
+            "जुलाई से जून",
+            "अक्टूबर से सितंबर"
+        ],
+        "correct": 1,
+        "explanation": "भारतीय वित्तीय वर्ष (FY) 1 अप्रैल से 31 मार्च है।"
+    },
+    {
+        "prompt": "यूनियन बजट संसद में आमतौर पर कब पेश किया जाता है?",
+        "answers": [
+            "मार्च",
+            "फरवरी",
+            "जनवरी",
+            "दिसंबर"
+        ],
+        "correct": 1,
+        "explanation": "यूनियन बजट परंपरागत रूप से फरवरी के अंतिम कार्य दिवस पर पेश किया जाता है।"
+    },
+    {
+        "prompt": "वोट ऑन अकाउंट क्या है?",
+        "answers": [
+            "पूर्ण बजट",
+            "सरकारी व्यय के लिए अंतरिम अनुमोदन",
+            "राज्य बजट",
+            "RBI बजट"
+        ],
+        "correct": 1,
+        "explanation": "वोट ऑन अकाउंट पूर्ण बजट में देरी होने पर वर्ष के हिस्से के लिए सरकारी व्यय की संसदीय अनुमति है।"
+    },
+    {
+        "prompt": "बजट डेफिसिट कब होता है?",
+        "answers": [
+            "रेवेन्यू व्यय के बराबर",
+            "व्यय प्राप्तियों से अधिक",
+            "प्राप्तियाँ व्यय से अधिक",
+            "सरप्लस"
+        ],
+        "correct": 1,
+        "explanation": "बजट डेफिसिट: कुल व्यय कुल प्राप्तियों से अधिक होने पर।"
+    },
+    {
+        "prompt": "ऑफ-बजट उधार का अर्थ है?",
+        "answers": [
+            "बजट में",
+            "बजट में नहीं दिखने वाले सरकारी उधार - PSUs आदि",
+            "RBI उधार",
+            "कोई उधार नहीं"
+        ],
+        "correct": 1,
+        "explanation": "ऑफ-बजट: PSUs आदि द्वारा सरकार की ओर से उधार, बजट में प्रतिबिंबित नहीं।"
+    },
+    {
+        "prompt": "सेस और सरचार्ज कहाँ जाते हैं?",
+        "answers": [
+            "राज्यों का हिस्सा",
+            "केंद्र सरकार - राज्यों के साथ साझा नहीं",
+            "स्थानीय निकाय",
+            "RBI"
+        ],
+        "correct": 1,
+        "explanation": "सेस और सरचार्ज केंद्र द्वारा रखे जाते हैं और फाइनेंस कमीशन के अनुसार राज्यों के साथ साझा नहीं होते।"
+    },
+    {
+        "prompt": "फाइनेंस कमीशन क्या सिफारिश करता है?",
+        "answers": [
+            "मौद्रिक नीति",
+            "राज्यों को कर हस्तांतरण, अनुदान",
+            "बैंक लाइसेंस",
+            "SEBI नियम"
+        ],
+        "correct": 1,
+        "explanation": "फाइनेंस कमीशन केंद्र के करों का राज्यों में वितरण और अनुदान की सिफारिश करता है।"
+    },
+    {
+        "prompt": "फाइनेंस कमीशन कितने वर्षों में गठित होता है?",
+        "answers": [
+            "3 वर्ष",
+            "5 वर्ष",
+            "7 वर्ष",
+            "10 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "संविधान के अनुसार फाइनेंस कमीशन हर 5 वर्ष में गठित होता है।"
+    },
+    {
+        "prompt": "नीति आयोग ने किसका स्थान लिया?",
+        "answers": [
+            "फाइनेंस कमीशन",
+            "प्लानिंग कमीशन",
+            "RBI",
+            "SEBI"
+        ],
+        "correct": 1,
+        "explanation": "नीति आयोग ने 2015 में प्लानिंग कमीशन का स्थान लिया।"
+    },
+    {
+        "prompt": "पंचवर्षीय योजनाएँ किससे बदली गईं?",
+        "answers": [
+            "केवल वार्षिक योजनाएँ",
+            "नीति आयोग और सेक्टोरल फोकस",
+            "कुछ नहीं",
+            "RBI योजनाएँ"
+        ],
+        "correct": 1,
+        "explanation": "पंचवर्षीय योजनाएँ समाप्त हुईं। नीति आयोग रणनीतिक योजना करता है। कोई औपचारिक पंचवर्षीय योजना नहीं।"
+    },
+    {
+        "prompt": "सरकार की रेवेन्यू प्राप्तियाँ में क्या शामिल है?",
+        "answers": [
+            "उधार",
+            "टैक्स और नॉन-टैक्स रेवेन्यू",
+            "केवल कैपिटल",
+            "केवल डिसइन्वेस्टमेंट"
+        ],
+        "correct": 1,
+        "explanation": "रेवेन्यू प्राप्तियाँ: टैक्स रेवेन्यू (डायरेक्ट, इनडायरेक्ट) और नॉन-टैक्स (ब्याज, लाभांश आदि)।"
+    },
+    {
+        "prompt": "कैपिटल प्राप्तियाँ में क्या शामिल है?",
+        "answers": [
+            "केवल टैक्स",
+            "उधार, डिसइन्वेस्टमेंट, ऋण वसूली",
+            "केवल GST",
+            "केवल कस्टम्स"
+        ],
+        "correct": 1,
+        "explanation": "कैपिटल प्राप्तियाँ: उधार, डिसइन्वेस्टमेंट आय, ऋण वसूली। देयता बनाती है या एसेट कम करती है।"
+    },
+    {
+        "prompt": "भारत का कॉन्टिन्जेंसी फंड किसके लिए है?",
+        "answers": [
+            "नियमित व्यय",
+            "अत्यावश्यक अप्रत्याशित व्यय",
+            "केवल राज्य",
+            "केवल RBI"
+        ],
+        "correct": 1,
+        "explanation": "कॉन्टिन्जेंसी फंड अत्यावश्यक अप्रत्याशित व्यय को पूरा करता है। संसद बाद में अनुमोदन करती है।"
+    },
+    {
+        "prompt": "कॉन्सॉलिडेटेड फंड ऑफ इंडिया में क्या प्राप्त होता है?",
+        "answers": [
+            "केवल ग्रांट्स",
+            "सभी सरकारी प्राप्तियाँ - टैक्स, लोन",
+            "केवल राज्य",
+            "केवल RBI"
+        ],
+        "correct": 1,
+        "explanation": "कॉन्सॉलिडेटेड फंड: सभी राजस्व, उधार। सभी सरकारी व्यय charged या voted इसी से।"
+    },
+    {
+        "prompt": "पब्लिक अकाउंट ऑफ इंडिया में क्या रखा जाता है?",
+        "answers": [
+            "टैक्स रेवेन्यू",
+            "प्रोविडेंट फंड, स्मॉल सेविंग्स आदि - ट्रस्ट में रखी राशि",
+            "केवल डिसइन्वेस्टमेंट",
+            "केवल लोन"
+        ],
+        "correct": 1,
+        "explanation": "पब्लिक अकाउंट: ट्रस्ट में रखी राशियाँ - PF, स्मॉल सेविंग्स आदि। कॉन्सॉलिडेटेड फंड का हिस्सा नहीं।"
+    },
+    {
+        "prompt": "ब्याज दर में बेसिस पॉइंट्स क्या हैं?",
+        "answers": [
+            "1 bp = 1 प्रतिशत",
+            "1 bp = 0.01 प्रतिशत",
+            "1 bp = 10 प्रतिशत",
+            "1 bp = 0.1 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "100 बेसिस पॉइंट्स = 1 प्रतिशत। 1 bp = 0.01 प्रतिशत।"
+    },
+    {
+        "prompt": "जब RBI रेपो 25 bps काटता है तो?",
+        "answers": [
+            "कोई बदलाव नहीं",
+            "रेपो 0.25 प्रतिशत गिरता है",
+            "रेपो 0.25 प्रतिशत बढ़ता है",
+            "केवल MSF बदलता है"
+        ],
+        "correct": 1,
+        "explanation": "25 बेसिस पॉइंट्स = 0.25 प्रतिशत पॉइंट। रेपो 6.5% से 6.25% होना 25 bps कट है।"
+    },
+    {
+        "prompt": "यील्ड कर्व क्या दिखाता है?",
+        "answers": [
+            "स्टॉक कीमतें",
+            "विभिन्न मैच्योरिटी पर ब्याज दरें",
+            "केवल शॉर्ट टर्म",
+            "केवल लॉन्ग टर्म"
+        ],
+        "correct": 1,
+        "explanation": "यील्ड कर्व बॉन्ड यील्ड को मैच्योरिटी के विरुद्ध प्लॉट करता है। सामान्य: ऊपर की ओर ढलान।"
+    },
+    {
+        "prompt": "इनवर्टेड यील्ड कर्व क्या संकेत दे सकता है?",
+        "answers": [
+            "मजबूत विकास",
+            "संभावित मंदी - शॉर्ट टर्म लॉन्ग से अधिक",
+            "कम मुद्रास्फीति",
+            "उच्च रोजगार"
+        ],
+        "correct": 1,
+        "explanation": "इनवर्टेड यील्ड कर्व (शॉर्ट रेट > लॉन्ग) अक्सर मंदी से पहले दिखाई देता है।"
+    },
+    {
+        "prompt": "कॉल मनी रेट क्या है?",
+        "answers": [
+            "RBI फिक्स्ड",
+            "बाजार निर्धारित ओवरनाइट रेट",
+            "केवल रिटेल के लिए",
+            "केवल सरकार के लिए"
+        ],
+        "correct": 1,
+        "explanation": "कॉल मनी रेट ओवरनाइट अंतर-बैंक रेट है। बाजार निर्धारित, RBI तरलता से प्रभावित।"
+    },
+    {
+        "prompt": "ट्रेजरी बिल क्या है?",
+        "answers": [
+            "लॉन्ग टर्म बॉन्ड",
+            "शॉर्ट टर्म जीरो कूपन इंस्ट्रूमेंट",
+            "राज्य सरकार बॉन्ड",
+            "कॉर्पोरेट बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "T-Bills शॉर्ट-टर्म (91, 182, 364 दिन) जीरो कूपन इंस्ट्रूमेंट हैं। डिस्काउंट पर जारी।"
+    },
+    {
+        "prompt": "कमर्शियल पेपर किसके द्वारा जारी किया जाता है?",
+        "answers": [
+            "सरकार",
+            "कॉर्पोरेट्स",
+            "RBI",
+            "केवल बैंक"
+        ],
+        "correct": 1,
+        "explanation": "कमर्शियल पेपर कॉर्पोरेट्स द्वारा वर्किंग कैपिटल के लिए जारी किया जाता है। असुरक्षित।"
+    },
+    {
+        "prompt": "सर्टिफिकेट ऑफ डिपॉजिट मैच्योरिटी रेंज क्या है?",
+        "answers": [
+            "बैंकों के लिए 7 दिन से 1 वर्ष",
+            "1 से 5 वर्ष",
+            "केवल 91 दिन",
+            "केवल 364 दिन"
+        ],
+        "correct": 0,
+        "explanation": "CDs: बैंक 7 दिन से 1 वर्ष। फाइनेंशियल इंस्टीट्यूशंस 1 से 3 वर्ष।"
+    },
+    {
+        "prompt": "मनी मार्केट म्यूचुअल फंड्स कहाँ निवेश करते हैं?",
+        "answers": [
+            "इक्विटी",
+            "शॉर्ट टर्म डेब्ट - T-Bills, CP, CD",
+            "केवल गोल्ड",
+            "केवल रियल एस्टेट"
+        ],
+        "correct": 1,
+        "explanation": "मनी मार्केट फंड्स शॉर्ट-टर्म इंस्ट्रूमेंट्स में निवेश करते हैं। कम जोखिम, कम रिटर्न।"
+    },
+    {
+        "prompt": "भारत में ओवरनाइट रेट किससे प्रभावित होती है?",
+        "answers": [
+            "केवल SEBI",
+            "RBI तरलता संचालन",
+            "केवल सरकार",
+            "केवल फॉरेक्स"
+        ],
+        "correct": 1,
+        "explanation": "ओवरनाइट रेट (कॉल/TOM) RBI LAF, OMO और सिस्टम तरलता से प्रभावित होती है।"
+    }
+]

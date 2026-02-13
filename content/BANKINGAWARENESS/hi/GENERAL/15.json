@@ -1,277 +1,277 @@
 ﻿[
     {
-        "prompt":  "How many characters does an IFSC code have?",
-        "answers":  [
-                        "9",
-                        "10",
-                        "11",
-                        "12"
-                    ],
-        "correct":  2,
-        "explanation":  "IFSC is 11 characters: first 4 = bank code, 5th = 0 (reserved), last 6 = branch code. Example: SBIN0001234."
+        "prompt": "IFSC कोड में कितने अक्षर होते हैं?",
+        "answers": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "correct": 2,
+        "explanation": "IFSC कोड में 11 अक्षर होते हैं: पहले 4 = बैंक कोड, 5वाँ = 0 (आरक्षित), आखिरी 6 = शाखा कोड। उदाहरण: SBIN0001234।"
     },
     {
-        "prompt":  "Nomination facility in bank accounts is?",
-        "answers":  [
-                        "Mandatory",
-                        "Optional but recommended",
-                        "Only for FDs",
-                        "Not available"
-                    ],
-        "correct":  1,
-        "explanation":  "Nomination is optional but highly recommended. It simplifies transfer of account balance to nominee in case of account holder\u0027s death."
+        "prompt": "बैंक खातों में नामांकन (Nomination) सुविधा कैसी है?",
+        "answers": [
+            "अनिवार्य",
+            "वैकल्पिक लेकिन अनुशंसित",
+            "केवल FD के लिए",
+            "उपलब्ध नहीं"
+        ],
+        "correct": 1,
+        "explanation": "नामांकन वैकल्पिक है लेकिन अत्यधिक अनुशंसित है। खाताधारक की मृत्यु होने पर यह नामांकित व्यक्ति को खाते की राशि हस्तांतरण को सरल बनाता है।"
     },
     {
-        "prompt":  "Negative interest rate means?",
-        "answers":  [
-                        "Banks charge depositors for keeping money",
-                        "Zero interest",
-                        "Very low interest",
-                        "Interest on loan only"
-                    ],
-        "correct":  0,
-        "explanation":  "Negative interest rate means depositors effectively pay the bank to hold their money. It is used by some central banks to stimulate spending. RBI has not used it."
+        "prompt": "ऋणात्मक ब्याज दर (Negative interest rate) का अर्थ है?",
+        "answers": [
+            "बैंक जमाकर्ताओं से उनके पैसे रखने के लिए शुल्क लेते हैं",
+            "शून्य ब्याज",
+            "बहुत कम ब्याज",
+            "केवल ऋण पर ब्याज"
+        ],
+        "correct": 0,
+        "explanation": "ऋणात्मक ब्याज दर का मतलब है कि जमाकर्ता प्रभावी रूप से बैंक को उनके पैसे रखने के लिए भुगतान करते हैं। कुछ केंद्रीय बैंक इसे खर्च बढ़ाने के लिए उपयोग करते हैं। RBI ने इसका उपयोग नहीं किया है।"
     },
     {
-        "prompt":  "Futures and options are traded on which exchange in India?",
-        "answers":  [
-                        "Only BSE",
-                        "NSE and BSE",
-                        "Only RBI",
-                        "Only SEBI"
-                    ],
-        "correct":  1,
-        "explanation":  "Futures and options (F\u0026O) are traded on both NSE and BSE in India. NSE has a larger share of derivatives trading volume."
+        "prompt": "भारत में फ्यूचर्स और ऑप्शंस का कारोबार किस एक्सचेंज पर होता है?",
+        "answers": [
+            "केवल BSE",
+            "NSE और BSE",
+            "केवल RBI",
+            "केवल SEBI"
+        ],
+        "correct": 1,
+        "explanation": "फ्यूचर्स और ऑप्शंस (F&O) का कारोबार भारत में NSE और BSE दोनों पर होता है। NSE का डेरिवेटिव ट्रेडिंग वॉल्यूम में बड़ा हिस्सा है।"
     },
     {
-        "prompt":  "The Foreign Exchange Market (Forex) deals with?",
-        "answers":  [
-                        "Only domestic currency",
-                        "Trading of foreign currencies",
-                        "Only gold",
-                        "Only commodities"
-                    ],
-        "correct":  1,
-        "explanation":  "Forex market is where currencies are traded. In India, RBI regulates foreign exchange under FEMA (Foreign Exchange Management Act), 1999."
+        "prompt": "विदेशी मुद्रा बाजार (Forex) किससे संबंधित है?",
+        "answers": [
+            "केवल घरेलू मुद्रा",
+            "विदेशी मुद्राओं का कारोबार",
+            "केवल सोना",
+            "केवल कमोडिटी"
+        ],
+        "correct": 1,
+        "explanation": "फॉरेक्स बाजार में मुद्राओं का कारोबार होता है। भारत में RBI FEMA (Foreign Exchange Management Act), 1999 के तहत विदेशी मुद्रा को नियंत्रित करता है।"
     },
     {
-        "prompt":  "FEMA stands for?",
-        "answers":  [
-                        "Foreign Exchange Management Act",
-                        "Financial Exchange Management Act",
-                        "Foreign Economic Management Act",
-                        "Financial Economic Management Act"
-                    ],
-        "correct":  0,
-        "explanation":  "FEMA (Foreign Exchange Management Act), 1999 regulates foreign exchange transactions in India. It replaced FERA (Foreign Exchange Regulation Act), 1973."
+        "prompt": "FEMA का पूरा नाम क्या है?",
+        "answers": [
+            "Foreign Exchange Management Act",
+            "Financial Exchange Management Act",
+            "Foreign Economic Management Act",
+            "Financial Economic Management Act"
+        ],
+        "correct": 0,
+        "explanation": "FEMA (Foreign Exchange Management Act), 1999 भारत में विदेशी मुद्रा लेनदेन को नियंत्रित करता है। इसने FERA (Foreign Exchange Regulation Act), 1973 को प्रतिस्थापित किया।"
     },
     {
-        "prompt":  "Financial Literacy refers to?",
-        "answers":  [
-                        "Only reading financial newspapers",
-                        "Understanding financial concepts to make informed decisions",
-                        "Only banking",
-                        "Only investing in stocks"
-                    ],
-        "correct":  1,
-        "explanation":  "Financial literacy is the ability to understand and use financial skills - budgeting, saving, investing, managing debt. RBI and banks run financial literacy programs."
+        "prompt": "वित्तीय साक्षरता (Financial Literacy) का तात्पर्य है?",
+        "answers": [
+            "केवल वित्तीय समाचार पत्र पढ़ना",
+            "सूचित निर्णय लेने के लिए वित्तीय अवधारणाओं को समझना",
+            "केवल बैंकिंग",
+            "केवल शेयरों में निवेश"
+        ],
+        "correct": 1,
+        "explanation": "वित्तीय साक्षरता का अर्थ है बजट बनाना, बचत, निवेश, ऋण प्रबंधन जैसी वित्तीय क्षमताओं को समझना और उपयोग करना। RBI और बैंक वित्तीय साक्षरता कार्यक्रम चलाते हैं।"
     },
     {
-        "prompt":  "Banking Correspondents (BCs) are?",
-        "answers":  [
-                        "RBI officials",
-                        "Agent entities that provide banking services in remote areas",
-                        "Bank CEOs",
-                        "Government employees"
-                    ],
-        "correct":  1,
-        "explanation":  "Banking Correspondents are retail agents authorized by banks to provide basic banking services (deposits, withdrawals, remittances) in areas without branches."
+        "prompt": "बैंकिंग कॉरेस्पॉन्डेंट्स (BCs) कौन हैं?",
+        "answers": [
+            "RBI अधिकारी",
+            "दूरदराज क्षेत्रों में बैंकिंग सेवाएँ प्रदान करने वाली एजेंट संस्थाएँ",
+            "बैंक CEO",
+            "सरकारी कर्मचारी"
+        ],
+        "correct": 1,
+        "explanation": "बैंकिंग कॉरेस्पॉन्डेंट बैंक द्वारा अधिकृत रिटेल एजेंट हैं जो बिना शाखा वाले क्षेत्रों में मूल बैंकिंग सेवाएँ (जमा, निकासी, रेमिटेंस) प्रदान करते हैं।"
     },
     {
-        "prompt":  "SHG stands for?",
-        "answers":  [
-                        "State Housing Group",
-                        "Self Help Group",
-                        "Small Housing Group",
-                        "Savings and Housing Group"
-                    ],
-        "correct":  1,
-        "explanation":  "Self Help Group (SHG) is a group of 10-20 people who pool savings and give small loans to members. NABARD promotes SHG-Bank linkage for rural credit."
+        "prompt": "SHG का पूरा नाम क्या है?",
+        "answers": [
+            "State Housing Group",
+            "Self Help Group",
+            "Small Housing Group",
+            "Savings and Housing Group"
+        ],
+        "correct": 1,
+        "explanation": "सेल्फ हेल्प ग्रुप (SHG) 10-20 लोगों का समूह होता है जो बचत जमा करता है और सदस्यों को छोटे ऋण देता है। NABARD ग्रामीण ऋण के लिए SHG-बैंक लिंकेज को बढ़ावा देता है।"
     },
     {
-        "prompt":  "Microfinance primarily provides?",
-        "answers":  [
-                        "Large corporate loans",
-                        "Small loans to low-income individuals and micro-enterprises",
-                        "Government funding",
-                        "Foreign currency loans"
-                    ],
-        "correct":  1,
-        "explanation":  "Microfinance provides small loans, savings, and other financial services to low-income individuals and micro-enterprises who lack access to formal banking."
+        "prompt": "माइक्रोफाइनेंस मुख्य रूप से क्या प्रदान करता है?",
+        "answers": [
+            "बड़े कॉर्पोरेट ऋण",
+            "निम्न-आय वाले व्यक्तियों और सूक्ष्म-उद्यमों को छोटे ऋण",
+            "सरकारी फंडिंग",
+            "विदेशी मुद्रा ऋण"
+        ],
+        "correct": 1,
+        "explanation": "माइक्रोफाइनेंस निम्न-आय वाले व्यक्तियों और सूक्ष्म-उद्यमों को छोटे ऋण, बचत और अन्य वित्तीय सेवाएँ प्रदान करता है जिनके पास औपचारिक बैंकिंग तक पहुँच नहीं होती।"
     },
     {
-        "prompt":  "GNP stands for?",
-        "answers":  [
-                        "Gross National Product",
-                        "General National Product",
-                        "Gross Net Product",
-                        "General Net Product"
-                    ],
-        "correct":  0,
-        "explanation":  "GNP (Gross National Product) = GDP + net income from abroad. It measures total value of goods and services produced by a country\u0027s residents (including overseas)."
+        "prompt": "GNP का पूरा नाम क्या है?",
+        "answers": [
+            "Gross National Product",
+            "General National Product",
+            "Gross Net Product",
+            "General Net Product"
+        ],
+        "correct": 0,
+        "explanation": "GNP (Gross National Product) = GDP + विदेश से शुद्ध आय। यह देश के निवासियों (विदेश सहित) द्वारा उत्पादित वस्तुओं और सेवाओं के कुल मूल्य को मापता है।"
     },
     {
-        "prompt":  "Sustainable Finance refers to?",
-        "answers":  [
-                        "Only fast returns",
-                        "Financial services considering environmental, social, governance (ESG) factors",
-                        "Only government funding",
-                        "Only short-term loans"
-                    ],
-        "correct":  1,
-        "explanation":  "Sustainable finance integrates ESG (Environmental, Social, Governance) criteria into investment and lending decisions. It supports green bonds, responsible investing."
+        "prompt": "सस्टेनेबल फाइनेंस का तात्पर्य है?",
+        "answers": [
+            "केवल तेज रिटर्न",
+            "पर्यावरण, सामाजिक, शासन (ESG) कारकों को ध्यान में रखकर वित्तीय सेवाएँ",
+            "केवल सरकारी फंडिंग",
+            "केवल अल्पकालिक ऋण"
+        ],
+        "correct": 1,
+        "explanation": "सस्टेनेबल फाइनेंस निवेश और ऋण निर्णयों में ESG (Environmental, Social, Governance) मानदंडों को शामिल करता है। यह ग्रीन बॉन्ड, जिम्मेदार निवेश को समर्थन देता है।"
     },
     {
-        "prompt":  "Commercial Paper (CP) is?",
-        "answers":  [
-                        "A long-term bond",
-                        "Short-term unsecured promissory note issued by corporations",
-                        "Government security",
-                        "Bank deposit"
-                    ],
-        "correct":  1,
-        "explanation":  "Commercial Paper is an unsecured, short-term debt instrument (7 days to 1 year) issued by corporates to meet working capital needs. It is a money market instrument."
+        "prompt": "कमर्शियल पेपर (CP) क्या है?",
+        "answers": [
+            "दीर्घकालिक बॉन्ड",
+            "कॉर्पोरेट द्वारा जारी अल्पकालिक असुरक्षित प्रॉमिसरी नोट",
+            "सरकारी सिक्योरिटी",
+            "बैंक जमा"
+        ],
+        "correct": 1,
+        "explanation": "कमर्शियल पेपर असुरक्षित, अल्पकालिक (7 दिन से 1 वर्ष) ऋण साधन है जो कॉर्पोरेट कार्यशील पूंजी आवश्यकताओं के लिए जारी करते हैं। यह मनी मार्केट इंस्ट्रूमेंट है।"
     },
     {
-        "prompt":  "Certificate of Deposit (CD) is issued by?",
-        "answers":  [
-                        "Government",
-                        "Banks and financial institutions",
-                        "Individuals",
-                        "Stock exchanges"
-                    ],
-        "correct":  1,
-        "explanation":  "Certificate of Deposit is a negotiable money market instrument issued by banks and specified financial institutions. It has a fixed tenure and fixed interest rate."
+        "prompt": "सर्टिफिकेट ऑफ डिपॉजिट (CD) किसके द्वारा जारी किया जाता है?",
+        "answers": [
+            "सरकार",
+            "बैंक और वित्तीय संस्थान",
+            "व्यक्तिगत",
+            "स्टॉक एक्सचेंज"
+        ],
+        "correct": 1,
+        "explanation": "सर्टिफिकेट ऑफ डिपॉजिट एक परक्राम्य मनी मार्केट इंस्ट्रूमेंट है जो बैंक और निर्दिष्ट वित्तीय संस्थानों द्वारा जारी किया जाता है। इसमें निश्चित अवधि और निश्चित ब्याज दर होती है।"
     },
     {
-        "prompt":  "Who regulates the foreign exchange market in India?",
-        "answers":  [
-                        "SEBI",
-                        "RBI",
-                        "Ministry of Finance",
-                        "IRDAI"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI regulates the foreign exchange market in India under FEMA, 1999. It manages foreign exchange reserves and intervenes to stabilize the rupee."
+        "prompt": "भारत में विदेशी मुद्रा बाजार का नियमन कौन करता है?",
+        "answers": [
+            "SEBI",
+            "RBI",
+            "वित्त मंत्रालय",
+            "IRDAI"
+        ],
+        "correct": 1,
+        "explanation": "RBI FEMA, 1999 के तहत भारत में विदेशी मुद्रा बाजार का नियमन करता है। यह विदेशी मुद्रा भंडार प्रबंधित करता है और रुपये को स्थिर करने के लिए हस्तक्षेप करता है।"
     },
     {
-        "prompt":  "Which committee recommended the establishment of Regional Rural Banks in 1975?",
-        "answers":  [
-                        "Nariman Committee",
-                        "Narasimham Committee (1975)",
-                        "Raghuram Rajan Committee",
-                        "Nachiket Mor Committee"
-                    ],
-        "correct":  1,
-        "explanation":  "The Narasimham Committee (1975) on rural credit recommended the establishment of RRBs to provide credit to rural areas."
+        "prompt": "किस समिति ने 1975 में क्षेत्रीय ग्रामीण बैंकों (RRB) की स्थापना की सिफारिश की?",
+        "answers": [
+            "नरिमन समिति",
+            "नरसिम्हन समिति (1975)",
+            "रघुराम राजन समिति",
+            "नचिकेत मोर समिति"
+        ],
+        "correct": 1,
+        "explanation": "नरसिम्हन समिति (1975) ने ग्रामीण क्षेत्रों में ऋण प्रदान करने के लिए क्षेत्रीय ग्रामीण बैंकों (RRB) की स्थापना की सिफारिश की।"
     },
     {
-        "prompt":  "The first Regional Rural Bank was established in?",
-        "answers":  [
-                        "1973",
-                        "1975",
-                        "1976",
-                        "1980"
-                    ],
-        "correct":  1,
-        "explanation":  "Prathama Grameen Bank (Moradabad) was the first RRB, established on October 2, 1975, with Syndicate Bank as sponsor."
+        "prompt": "पहला क्षेत्रीय ग्रामीण बैंक (RRB) कब स्थापित किया गया?",
+        "answers": [
+            "1973",
+            "1975",
+            "1976",
+            "1980"
+        ],
+        "correct": 1,
+        "explanation": "प्रथमा ग्रामीण बैंक (मुरादाबाद) पहला RRB था, जिसकी स्थापना 2 अक्टूबर 1975 को सिंडिकेट बैंक के प्रायोजन में हुई।"
     },
     {
-        "prompt":  "Bandhan Bank started as?",
-        "answers":  [
-                        "Public sector bank",
-                        "Microfinance institution (MFI)",
-                        "Payment bank",
-                        "Cooperative bank"
-                    ],
-        "correct":  1,
-        "explanation":  "Bandhan Bank was originally a microfinance institution. It received Small Finance Bank license in 2014 and converted to universal bank in 2018."
+        "prompt": "बैंडहन बैंक की शुरुआत किस रूप में हुई थी?",
+        "answers": [
+            "सार्वजनिक क्षेत्र का बैंक",
+            "माइक्रोफाइनेंस संस्थान (MFI)",
+            "पेमेंट बैंक",
+            "सहकारी बैंक"
+        ],
+        "correct": 1,
+        "explanation": "बैंडहन बैंक मूल रूप से एक माइक्रोफाइनेंस संस्थान था। 2014 में इसे स्मॉल फाइनेंस बैंक लाइसेंस मिला और 2018 में यूनिवर्सल बैंक में परिवर्तित हुआ।"
     },
     {
-        "prompt":  "Primary Agricultural Credit Societies (PACS) operate at?",
-        "answers":  [
-                        "National level",
-                        "State level",
-                        "District level",
-                        "Village level"
-                    ],
-        "correct":  3,
-        "explanation":  "PACS are the base-level cooperative credit institutions operating at the village level. They are the link between farmers and higher cooperative structure."
+        "prompt": "प्राथमिक कृषि ऋण समितियाँ (PACS) किस स्तर पर कार्य करती हैं?",
+        "answers": [
+            "राष्ट्रीय स्तर",
+            "राज्य स्तर",
+            "जिला स्तर",
+            "गाँव स्तर"
+        ],
+        "correct": 3,
+        "explanation": "PACS सहकारी ऋण संस्थाएँ गाँव स्तर पर कार्य करती हैं। ये किसानों और उच्च सहकारी संरचना के बीच कड़ी हैं।"
     },
     {
-        "prompt":  "Kisan Credit Card (KCC) scheme was introduced in?",
-        "answers":  [
-                        "1995",
-                        "1998",
-                        "2000",
-                        "2004"
-                    ],
-        "correct":  1,
-        "explanation":  "Kisan Credit Card scheme was introduced in 1998-99 to provide adequate and timely credit to farmers for their cultivation and other needs."
+        "prompt": "किसान क्रेडिट कार्ड (KCC) योजना कब शुरू की गई?",
+        "answers": [
+            "1995",
+            "1998",
+            "2000",
+            "2004"
+        ],
+        "correct": 1,
+        "explanation": "किसान क्रेडिट कार्ड योजना 1998-99 में शुरू की गई ताकि किसानों को खेती और अन्य आवश्यकताओं के लिए पर्याप्त और समय पर ऋण मिल सके।"
     },
     {
-        "prompt":  "Lead Bank Scheme was introduced in?",
-        "answers":  [
-                        "1967",
-                        "1969",
-                        "1975",
-                        "1980"
-                    ],
-        "correct":  1,
-        "explanation":  "Lead Bank Scheme was introduced in 1969. Each district was assigned to a lead bank responsible for branch expansion and credit deployment."
+        "prompt": "लीड बैंक योजना कब शुरू की गई?",
+        "answers": [
+            "1967",
+            "1969",
+            "1975",
+            "1980"
+        ],
+        "correct": 1,
+        "explanation": "लीड बैंक योजना 1969 में शुरू की गई। प्रत्येक जिले को एक लीड बैंक सौंपा गया जो शाखा विस्तार और ऋण वितरण के लिए जिम्मेदार था।"
     },
     {
-        "prompt":  "Bank Board Bureau (BBB) was established in?",
-        "answers":  [
-                        "2014",
-                        "2015",
-                        "2016",
-                        "2017"
-                    ],
-        "correct":  2,
-        "explanation":  "Bank Board Bureau was set up in 2016 to recommend appointments to PSB boards and improve governance. It was recommended by P.J. Nayak Committee."
+        "prompt": "बैंक बोर्ड ब्यूरो (BBB) की स्थापना कब हुई?",
+        "answers": [
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+        ],
+        "correct": 2,
+        "explanation": "बैंक बोर्ड ब्यूरो 2016 में PSB बोर्डों में नियुक्तियों की सिफारिश और शासन सुधार के लिए स्थापित किया गया। यह पी.जे. नायक समिति की सिफारिश पर बना।"
     },
     {
-        "prompt":  "What does Ombudsman Scheme provide?",
-        "answers":  [
-                        "Loan sanction",
-                        "Redressal of customer complaints against banks",
-                        "Deposit insurance",
-                        "Credit rating"
-                    ],
-        "correct":  1,
-        "explanation":  "Banking Ombudsman Scheme provides free grievance redressal for customers. RBI appoints Ombudsmen. The scheme was revised and expanded in 2021."
+        "prompt": "ओम्बड्समैन योजना क्या प्रदान करती है?",
+        "answers": [
+            "ऋण स्वीकृति",
+            "बैंकों के खिलाफ ग्राहक शिकायतों का निवारण",
+            "जमा बीमा",
+            "क्रेडिट रेटिंग"
+        ],
+        "correct": 1,
+        "explanation": "बैंकिंग ओम्बड्समैन योजना ग्राहकों के लिए मुफ्त शिकायत निवारण प्रदान करती है। RBI ओम्बड्समैन नियुक्त करता है। योजना 2021 में संशोधित और विस्तारित की गई।"
     },
     {
-        "prompt":  "Foreign banks in India must convert to wholly owned subsidiary (WOS) if they have?",
-        "answers":  [
-                        "5 branches",
-                        "10 branches",
-                        "20 branches",
-                        "50 branches"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI\u0027s 2013 guidelines require foreign banks with 20+ branches to mandatorily convert to WOS for better regulation."
+        "prompt": "भारत में विदेशी बैंकों को wholly owned subsidiary (WOS) में बदलना अनिवार्य है यदि उनके पास कितनी शाखाएँ हों?",
+        "answers": [
+            "5 शाखाएँ",
+            "10 शाखाएँ",
+            "20 शाखाएँ",
+            "50 शाखाएँ"
+        ],
+        "correct": 2,
+        "explanation": "RBI के 2013 दिशानिर्देशों के अनुसार 20 या अधिक शाखाओं वाले विदेशी बैंकों को बेहतर नियमन के लिए WOS में बदलना अनिवार्य है।"
     },
     {
-        "prompt":  "Kotak Mahindra Bank was converted from?",
-        "answers":  [
-                        "NBFC",
-                        "Cooperative bank",
-                        "RRB",
-                        "Foreign bank"
-                    ],
-        "correct":  0,
-        "explanation":  "Kotak Mahindra Finance Ltd (NBFC) was granted banking license in 2003 and converted to Kotak Mahindra Bank."
+        "prompt": "कोटक महिंद्रा बैंक किससे परिवर्तित हुआ था?",
+        "answers": [
+            "NBFC",
+            "सहकारी बैंक",
+            "RRB",
+            "विदेशी बैंक"
+        ],
+        "correct": 0,
+        "explanation": "कोटक महिंद्रा फाइनेंस लिमिटेड (NBFC) को 2003 में बैंकिंग लाइसेंस मिला और यह कोटक महिंद्रा बैंक में परिवर्तित हुआ।"
     }
 ]

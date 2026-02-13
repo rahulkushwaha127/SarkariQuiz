@@ -1,1 +1,277 @@
-[{"prompt":"Minimum capital for universal bank is?","answers":["Rs 100 crore","Rs 500 crore","Rs 1000 crore","Rs 5000 crore"],"correct":1,"explanation":"Minimum paid-up voting equity capital for universal bank is Rs 500 crore."},{"prompt":"New private bank promoters must bring capital for?","answers":["1 year","5 years initially","10 years","15 years"],"correct":1,"explanation":"Promoters must bring in minimum capital for 5 years. Lock-in applies."},{"prompt":"No Objection Certificate for bank license from?","answers":["SEBI","RBI after due process","Ministry only","State government"],"correct":1,"explanation":"RBI grants banking license after scrutiny. Fit and proper, capital, governance checked."},{"prompt":"On-tap licensing means?","answers":["License for one year","Applications accepted throughout the year","Only for SFB","Only for payment bank"],"correct":1,"explanation":"On-tap: no specific window. Applications can be submitted any time."},{"prompt":"Wholly Owned Subsidiary WOS of foreign bank?","answers":["Same as branch","Treated as domestic bank for regulation","Exempt from CRR","Exempt from SLR"],"correct":1,"explanation":"WOS of foreign bank is treated like domestic bank for branch expansion, PSL etc."},{"prompt":"Foreign bank branches in India?","answers":["Unlimited branches","Subject to RBI approval","Cannot open branches","Only in metros"],"correct":1,"explanation":"Foreign bank branch expansion requires RBI approval. WOS route has different norms."},{"prompt":"Scheduled bank must have paid-up capital of?","answers":["Rs 1 lakh","Rs 5 lakh","Rs 25 lakh","Rs 1 crore"],"correct":1,"explanation":"To be in Second Schedule, bank must have paid-up capital of at least Rs 5 lakh."},{"prompt":"Cooperative bank comes under dual regulation of?","answers":["Only RBI","RBI and State Registrar or Central Registrar","Only state","Only NABARD"],"correct":1,"explanation":"Cooperative banks are regulated by RBI for banking aspects and Registrar of Cooperative Societies for registration."},{"prompt":"Urban Cooperative Bank can be under?","answers":["Only state law","State Cooperative Societies Act or Multi-State Act","Only central","Only RBI"],"correct":1,"explanation":"UCB can be registered under state Act or Multi-State Cooperative Societies Act."},{"prompt":"RBI can supersede UCB board?","answers":["No","Yes under BR Act in depositor interest","Only with state permission","Only for large UCBs"],"correct":1,"explanation":"RBI can supersede board of cooperative banks (including UCB) under Banking Regulation Act."},{"prompt":"Regional Rural Bank Act was passed in?","answers":["1973","1976","1980","1982"],"correct":1,"explanation":"Regional Rural Banks Act was passed in 1976."},{"prompt":"RRB sponsored by public sector bank - shareholding?","answers":["100 percent sponsor","Central 50 State 15 Sponsor 35","Only central","Only state"],"correct":1,"explanation":"RRB shareholding: Central Government 50 percent, State Government 15 percent, Sponsor Bank 35 percent."},{"prompt":"RRBs can open branches?","answers":["Anywhere in India","In the specified area (districts)","Only in state capital","Only in rural"],"correct":1,"explanation":"RRBs operate in specified districts. Branch expansion within area of operation."},{"prompt":"NABARD provides refinance to RRBs for?","answers":["All loans","Agriculture and rural development","Only housing","Only industry"],"correct":1,"explanation":"NABARD refinances RRBs for short-term and long-term agricultural and rural lending."},{"prompt":"RRB merger - many RRBs have been amalgamated?","answers":["No","Yes within state","Across states","Only with sponsor bank"],"correct":1,"explanation":"RRBs have been merged within state to form stronger entities. Sponsored by same or different bank."},{"prompt":"NABARD was established on recommendation of?","answers":["Narasimham Committee","Shivaraman Committee","Raghuram Rajan Committee","Nachiket Mor Committee"],"correct":1,"explanation":"B. Sivaraman Committee recommended NABARD. It was formed by merging Agricultural Credit Department of RBI and ARDC."},{"prompt":"NABARD head office is in?","answers":["New Delhi","Mumbai","Kolkata","Bangalore"],"correct":1,"explanation":"NABARD headquarters is in Mumbai."},{"prompt":"Long Term Irrigation Fund was set up in?","answers":["NABARD","RBI","Ministry of Agriculture","SIDBI"],"correct":0,"explanation":"Long Term Irrigation Fund was set up in NABARD for funding irrigation projects."},{"prompt":"Micro Units Development and Refinance Agency is?","answers":["NABARD","MUDRA","SIDBI","RBI"],"correct":1,"explanation":"MUDRA - Micro Units Development and Refinance Agency - supports MSME through refinance."},{"prompt":"MUDRA is a?","answers":["Bank","NBFC","Refinance institution under SIDBI","Commercial bank"],"correct":2,"explanation":"MUDRA is set up as refinance institution. It operates under the ambit of SIDBI."},{"prompt":"SIDBI refinances?","answers":["Agriculture","MSME sector","Only large industry","Only housing"],"correct":1,"explanation":"SIDBI provides refinance and direct finance to MSME sector."},{"prompt":"SIDBI was established under?","answers":["RBI Act","SIDBI Act 1989","Companies Act","Parliament Act"],"correct":1,"explanation":"SIDBI was established under SIDBI Act, 1989. It was subsidiary of IDBI, now under government."},{"prompt":"EXIM Bank finances?","answers":["Domestic trade","Export and import","Only import","Only agriculture"],"correct":1,"explanation":"Export-Import Bank of India finances and promotes foreign trade."},{"prompt":"India Infrastructure Finance Company IIFCL provides?","answers":["Short-term loans","Long-term infra financing","Only equity","Only guarantee"],"correct":1,"explanation":"IIFCL provides long-term financing for infrastructure projects."},{"prompt":"NHB was established under?","answers":["RBI Act","NHB Act 1987","Companies Act","Housing Act"],"correct":1,"explanation":"National Housing Bank was established under NHB Act, 1987. Now regulated by RBI."}]
+[
+    {
+        "prompt": "यूनिवर्सल बैंक के लिए न्यूनतम कैपिटल?",
+        "answers": [
+            "रु 100 करोड़",
+            "रु 500 करोड़",
+            "रु 1000 करोड़",
+            "रु 5000 करोड़"
+        ],
+        "correct": 1,
+        "explanation": "यूनिवर्सल बैंक के लिए न्यूनतम पेड-अप वोटिंग इक्विटी कैपिटल रु 500 करोड़ है।"
+    },
+    {
+        "prompt": "नए प्राइवेट बैंक प्रमोटरों को कैपिटल लाना चाहिए?",
+        "answers": [
+            "1 वर्ष",
+            "शुरू में 5 वर्ष",
+            "10 वर्ष",
+            "15 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "प्रमोटरों को 5 वर्षों के लिए न्यूनतम कैपिटल लाना चाहिए। लॉक-इन लागू।"
+    },
+    {
+        "prompt": "बैंक लाइसेंस के लिए नो ऑब्जेक्शन सर्टिफिकेट किससे?",
+        "answers": [
+            "SEBI",
+            "RBI प्रक्रिया के बाद",
+            "केवल मंत्रालय",
+            "राज्य सरकार"
+        ],
+        "correct": 1,
+        "explanation": "RBI जांच के बाद बैंकिंग लाइसेंस देता है। फिट एंड प्रॉपर, कैपिटल, गवर्नेंस जाँच।"
+    },
+    {
+        "prompt": "ऑन-टैप लाइसेंसिंग का अर्थ है?",
+        "answers": [
+            "एक वर्ष के लिए लाइसेंस",
+            "आवेदन पूरे वर्ष स्वीकार किए जाते हैं",
+            "केवल SFB के लिए",
+            "केवल पेमेंट बैंक के लिए"
+        ],
+        "correct": 1,
+        "explanation": "ऑन-टैप: कोई विशिष्ट विंडो नहीं। आवेदन किसी भी समय जमा किए जा सकते हैं।"
+    },
+    {
+        "prompt": "विदेशी बैंक का wholly owned subsidiary (WOS)?",
+        "answers": [
+            "शाखा के समान",
+            "नियमन के लिए घरेलू बैंक के रूप में माना जाता है",
+            "CRR से छूट",
+            "SLR से छूट"
+        ],
+        "correct": 1,
+        "explanation": "विदेशी बैंक का WOS शाखा विस्तार, PSL आदि के लिए घरेलू बैंक की तरह माना जाता है।"
+    },
+    {
+        "prompt": "भारत में विदेशी बैंक शाखाएँ?",
+        "answers": [
+            "असीमित शाखाएँ",
+            "RBI अनुमोदन के अधीन",
+            "शाखाएँ नहीं खोल सकतीं",
+            "केवल मेट्रो में"
+        ],
+        "correct": 1,
+        "explanation": "विदेशी बैंक शाखा विस्तार के लिए RBI अनुमोदन की आवश्यकता है। WOS रूट के अलग मानदंड हैं।"
+    },
+    {
+        "prompt": "शेड्यूल्ड बैंक में पेड-अप कैपिटल कितना होना चाहिए?",
+        "answers": [
+            "रु 1 लाख",
+            "रु 5 लाख",
+            "रु 25 लाख",
+            "रु 1 करोड़"
+        ],
+        "correct": 1,
+        "explanation": "दूसरी अनुसूची में होने के लिए, बैंक में कम से कम रु 5 लाख पेड-अप कैपिटल होना चाहिए।"
+    },
+    {
+        "prompt": "सहकारी बैंक किसके दोहरे नियमन के तहत आते हैं?",
+        "answers": [
+            "केवल RBI",
+            "RBI और राज्य रजिस्ट्रार या सेंट्रल रजिस्ट्रार",
+            "केवल राज्य",
+            "केवल NABARD"
+        ],
+        "correct": 1,
+        "explanation": "सहकारी बैंक बैंकिंग पहलुओं के लिए RBI और रजिस्ट्रेशन के लिए सहकारी सोसायटीज रजिस्ट्रार द्वारा नियंत्रित होते हैं।"
+    },
+    {
+        "prompt": "शहरी सहकारी बैंक किसके तहत हो सकता है?",
+        "answers": [
+            "केवल राज्य कानून",
+            "राज्य सहकारी सोसायटीज एक्ट या मल्टी-स्टेट एक्ट",
+            "केवल सेंट्रल",
+            "केवल RBI"
+        ],
+        "correct": 1,
+        "explanation": "UCB राज्य एक्ट या मल्टी-स्टेट सहकारी सोसायटीज एक्ट के तहत रजिस्टर्ड हो सकता है।"
+    },
+    {
+        "prompt": "RBI UCB बोर्ड को सुपरसीड कर सकता है?",
+        "answers": [
+            "नहीं",
+            "हाँ BR एक्ट के तहत जमाकर्ता हित में",
+            "केवल राज्य अनुमति से",
+            "केवल बड़े UCBs के लिए"
+        ],
+        "correct": 1,
+        "explanation": "RBI बैंकिंग रेगुलेशन एक्ट के तहत सहकारी बैंकों (UCB सहित) के बोर्ड को सुपरसीड कर सकता है।"
+    },
+    {
+        "prompt": "क्षेत्रीय ग्रामीण बैंक एक्ट कब पास हुआ?",
+        "answers": [
+            "1973",
+            "1976",
+            "1980",
+            "1982"
+        ],
+        "correct": 1,
+        "explanation": "क्षेत्रीय ग्रामीण बैंक एक्ट 1976 में पास हुआ।"
+    },
+    {
+        "prompt": "पब्लिक सेक्टर बैंक द्वारा स्पॉन्सर्ड RRB - शेयरहोल्डिंग?",
+        "answers": [
+            "100 प्रतिशत स्पॉन्सर",
+            "सेंट्रल 50 राज्य 15 स्पॉन्सर 35",
+            "केवल सेंट्रल",
+            "केवल राज्य"
+        ],
+        "correct": 1,
+        "explanation": "RRB शेयरहोल्डिंग: केंद्रीय सरकार 50 प्रतिशत, राज्य सरकार 15 प्रतिशत, स्पॉन्सर बैंक 35 प्रतिशत।"
+    },
+    {
+        "prompt": "RRBs शाखाएँ खोल सकते हैं?",
+        "answers": [
+            "भारत में कहीं भी",
+            "निर्दिष्ट क्षेत्र (जिले) में",
+            "केवल राज्य राजधानी में",
+            "केवल ग्रामीण में"
+        ],
+        "correct": 1,
+        "explanation": "RRBs निर्दिष्ट जिलों में कार्य करते हैं। शाखा विस्तार संचालन क्षेत्र के भीतर।"
+    },
+    {
+        "prompt": "NABARD RRBs को रिफाइनेंस किसके लिए प्रदान करता है?",
+        "answers": [
+            "सभी ऋण",
+            "कृषि और ग्रामीण विकास",
+            "केवल आवास",
+            "केवल उद्योग"
+        ],
+        "correct": 1,
+        "explanation": "NABARD RRBs को अल्पकालिक और दीर्घकालिक कृषि और ग्रामीण उधार के लिए रिफाइनेंस करता है।"
+    },
+    {
+        "prompt": "RRB विलय - कई RRBs को अमलगमेट किया गया है?",
+        "answers": [
+            "नहीं",
+            "हाँ राज्य के भीतर",
+            "राज्यों के पार",
+            "केवल स्पॉन्सर बैंक के साथ"
+        ],
+        "correct": 1,
+        "explanation": "RRBs को मजबूत इकाइयाँ बनाने के लिए राज्य के भीतर मर्ज किया गया है। समान या अलग स्पॉन्सर बैंक द्वारा स्पॉन्सर्ड।"
+    },
+    {
+        "prompt": "NABARD की स्थापना किसकी सिफारिश पर हुई?",
+        "answers": [
+            "नरसिम्हन कमिटी",
+            "शिवरामन कमिटी",
+            "रघुराम राजन कमिटी",
+            "नचिकेत मोर कमिटी"
+        ],
+        "correct": 1,
+        "explanation": "बी. शिवरामन कमिटी ने NABARD की सिफारिश की। यह RBI के एग्रीकल्चरल क्रेडिट डिपार्टमेंट और ARDC के मर्जर से बना।"
+    },
+    {
+        "prompt": "NABARD हेड ऑफिस कहाँ है?",
+        "answers": [
+            "नई दिल्ली",
+            "मुंबई",
+            "कोलकाता",
+            "बेंगलुरु"
+        ],
+        "correct": 1,
+        "explanation": "NABARD मुख्यालय मुंबई में है।"
+    },
+    {
+        "prompt": "लॉन्ग टर्म इरिगेशन फंड कहाँ स्थापित किया गया?",
+        "answers": [
+            "NABARD",
+            "RBI",
+            "कृषि मंत्रालय",
+            "SIDBI"
+        ],
+        "correct": 0,
+        "explanation": "लॉन्ग टर्म इरिगेशन फंड NABARD में सिंचाई परियोजनाओं के फंडिंग के लिए स्थापित किया गया।"
+    },
+    {
+        "prompt": "माइक्रो यूनिट्स डेवलपमेंट एंड रिफाइनेंस एजेंसी क्या है?",
+        "answers": [
+            "NABARD",
+            "MUDRA",
+            "SIDBI",
+            "RBI"
+        ],
+        "correct": 1,
+        "explanation": "MUDRA - माइक्रो यूनिट्स डेवलपमेंट एंड रिफाइनेंस एजेंसी - MSME को रिफाइनेंस के माध्यम से समर्थन देता है।"
+    },
+    {
+        "prompt": "MUDRA क्या है?",
+        "answers": [
+            "बैंक",
+            "NBFC",
+            "SIDBI के तहत रिफाइनेंस संस्थान",
+            "कमर्शियल बैंक"
+        ],
+        "correct": 2,
+        "explanation": "MUDRA रिफाइनेंस संस्थान के रूप में स्थापित है। यह SIDBI के अंतर्गत कार्य करता है।"
+    },
+    {
+        "prompt": "SIDBI क्या रिफाइनेंस करता है?",
+        "answers": [
+            "कृषि",
+            "MSME क्षेत्र",
+            "केवल बड़ा उद्योग",
+            "केवल आवास"
+        ],
+        "correct": 1,
+        "explanation": "SIDBI MSME क्षेत्र को रिफाइनेंस और डायरेक्ट फाइनेंस प्रदान करता है।"
+    },
+    {
+        "prompt": "SIDBI की स्थापना किसके तहत हुई?",
+        "answers": [
+            "RBI एक्ट",
+            "SIDBI एक्ट 1989",
+            "कंपनीज एक्ट",
+            "संसद एक्ट"
+        ],
+        "correct": 1,
+        "explanation": "SIDBI SIDBI एक्ट, 1989 के तहत स्थापित हुआ। IDBI की सब्सिडियरी था, अब सरकार के तहत।"
+    },
+    {
+        "prompt": "EXIM बैंक क्या फाइनेंस करता है?",
+        "answers": [
+            "घरेलू व्यापार",
+            "निर्यात और आयात",
+            "केवल आयात",
+            "केवल कृषि"
+        ],
+        "correct": 1,
+        "explanation": "एक्सपोर्ट-इंपोर्ट बैंक ऑफ इंडिया विदेशी व्यापार को फाइनेंस और प्रोमोट करता है।"
+    },
+    {
+        "prompt": "इंडिया इंफ्रास्ट्रक्चर फाइनेंस कंपनी (IIFCL) क्या प्रदान करती है?",
+        "answers": [
+            "अल्पकालिक ऋण",
+            "दीर्घकालिक इंफ्रा फाइनेंसिंग",
+            "केवल इक्विटी",
+            "केवल गारंटी"
+        ],
+        "correct": 1,
+        "explanation": "IIFCL इंफ्रास्ट्रक्चर परियोजनाओं के लिए दीर्घकालिक फाइनेंसिंग प्रदान करती है।"
+    },
+    {
+        "prompt": "NHB की स्थापना किसके तहत हुई?",
+        "answers": [
+            "RBI एक्ट",
+            "NHB एक्ट 1987",
+            "कंपनीज एक्ट",
+            "आवास एक्ट"
+        ],
+        "correct": 1,
+        "explanation": "नेशनल हाउसिंग बैंक NHB एक्ट, 1987 के तहत स्थापित हुआ। अब RBI द्वारा नियंत्रित।"
+    }
+]

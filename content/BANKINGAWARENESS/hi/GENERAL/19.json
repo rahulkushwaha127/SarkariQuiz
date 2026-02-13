@@ -1,1 +1,277 @@
-[{"prompt":"BSE was established in?","answers":["1857","1875","1892","1900"],"correct":1,"explanation":"Bombay Stock Exchange was established in 1875. It is one of oldest in Asia."},{"prompt":"NSE introduced trading in?","answers":["1990","1994","1996","2000"],"correct":1,"explanation":"NSE started capital market segment in 1994. It introduced electronic trading."},{"prompt":"Sensex consists of how many stocks?","answers":["30","50","100","200"],"correct":0,"explanation":"BSE Sensex is a basket of 30 stocks. It is free-float market cap weighted."},{"prompt":"Nifty 50 consists of how many stocks?","answers":["30","50","100","200"],"correct":1,"explanation":"Nifty 50 is NSE index of 50 stocks from different sectors."},{"prompt":"SEBI was given statutory powers in?","answers":["1988","1992","1995","2000"],"correct":1,"explanation":"SEBI was established in 1988. It got statutory powers through SEBI Act 1992."},{"prompt":"Dematerialization means?","answers":["Converting physical shares to electronic","Converting electronic to physical","Only for bonds","Only for mutual funds"],"correct":0,"explanation":"Dematerialization converts physical share certificates to electronic form in DEMAT account."},{"prompt":"NSDL and CDSL are?","answers":["Stock exchanges","Depositories","Banks","Mutual funds"],"correct":1,"explanation":"NSDL and CDSL are the two depositories in India. They hold securities in electronic form."},{"prompt":"T+2 settlement in equity means?","answers":["Same day settlement","Trade plus 2 working days for delivery","One week","One month"],"correct":1,"explanation":"T+2: securities and funds are settled 2 working days after trade date."},{"prompt":"Circuit filter limits?","answers":["Only volume","Price movement in a single day","Only buyers","Only sellers"],"correct":1,"explanation":"Circuit filter limits maximum price movement in a day. Prevents excessive volatility."},{"prompt":"IPO stands for?","answers":["International Payment Order","Initial Public Offering","Internal Purchase Order","Investment Portfolio Option"],"correct":1,"explanation":"IPO is when a company offers shares to public for first time."},{"prompt":"FPO stands for?","answers":["Follow-on Public Offering","Fixed Price Offering","Foreign Portfolio Option","Future Purchase Order"],"correct":0,"explanation":"FPO is follow-on offering when company already listed offers more shares."},{"prompt":"QIP allows listed companies to?","answers":["Issue shares only to promoters","Issue shares to QIBs without full prospectus","Only buyback","Only delist"],"correct":1,"explanation":"QIP allows listed companies to raise capital from QIBs through quick process."},{"prompt":"Book building process is used for?","answers":["Determining share price through bids","Fixed price only","Only for bonds","Only for government"],"correct":0,"explanation":"Book building: price discovered through bidding. Investors submit bids at different prices."},{"prompt":"Anchor investor in IPO gets?","answers":["Retail allocation","Allocation before IPO opens at anchor price","Only after listing","No allocation"],"correct":1,"explanation":"Anchor investors are QIBs who get allocation one day before IPO opens."},{"prompt":"ASBA means?","answers":["Application Supported by Blocked Amount","Automatic Savings Bank Account","Application for Share Block","Automatic Share Blocking"],"correct":0,"explanation":"ASBA: application with amount blocked in bank. Money debited only on allocation."},{"prompt":"Mutual fund pools money from?","answers":["Only banks","Investors to invest in diversified portfolio","Only HNIs","Only FIIs"],"correct":1,"explanation":"Mutual fund collects money from investors and invests in stocks bonds etc."},{"prompt":"AMC stands for?","answers":["Asset Management Company","Automated Mutual Fund","Account Management Cell","Asset Monitoring Committee"],"correct":0,"explanation":"AMC manages mutual fund schemes. Regulated by SEBI."},{"prompt":"NAV of mutual fund is?","answers":["Market price","Net Asset Value per unit","Number of units","Total assets"],"correct":1,"explanation":"NAV is total assets minus liabilities divided by number of units."},{"prompt":"SIP stands for?","answers":["Systematic Investment Plan","Single Investment Plan","Standard Interest Plan","Simple Investment Procedure"],"correct":0,"explanation":"SIP allows investor to invest fixed amount at regular intervals."},{"prompt":"ELSS has lock-in period of?","answers":["1 year","3 years","5 years","10 years"],"correct":1,"explanation":"ELSS has 3 year lock-in. Offers tax deduction under 80C."},{"prompt":"Debt mutual fund invests in?","answers":["Only equity","Bonds government securities money market","Only gold","Only real estate"],"correct":1,"explanation":"Debt funds invest in fixed income instruments."},{"prompt":"Liquid fund is for?","answers":["Long term","Short term parking low duration","Only equity","Only gold"],"correct":1,"explanation":"Liquid funds invest in very short term instruments."},{"prompt":"REIT invests in?","answers":["Only equity shares","Real estate assets","Only gold","Only bonds"],"correct":1,"explanation":"REIT invests in income-generating real estate."},{"prompt":"Gold ETF tracks?","answers":["Gold mining stocks","Price of physical gold","Only silver","Only commodities"],"correct":1,"explanation":"Gold ETF tracks price of gold."},{"prompt":"AMFI stands for?","answers":["Association of Mutual Funds in India","Asset Management Fund Index","Automated Mutual Fund Investment","Association of Market Funds"],"correct":0,"explanation":"AMFI is industry body for mutual funds."}]
+[
+    {
+        "prompt": "BSE की स्थापना कब हुई?",
+        "answers": [
+            "1857",
+            "1875",
+            "1892",
+            "1900"
+        ],
+        "correct": 1,
+        "explanation": "बॉम्बे स्टॉक एक्सचेंज की स्थापना 1875 में हुई। यह एशिया में सबसे पुरानों में से एक है।"
+    },
+    {
+        "prompt": "NSE ने ट्रेडिंग कब शुरू की?",
+        "answers": [
+            "1990",
+            "1994",
+            "1996",
+            "2000"
+        ],
+        "correct": 1,
+        "explanation": "NSE ने कैपिटल मार्केट सेगमेंट 1994 में शुरू किया। इसने इलेक्ट्रॉनिक ट्रेडिंग शुरू की।"
+    },
+    {
+        "prompt": "सेंसेक्स में कितने स्टॉक होते हैं?",
+        "answers": [
+            "30",
+            "50",
+            "100",
+            "200"
+        ],
+        "correct": 0,
+        "explanation": "BSE सेंसेक्स 30 स्टॉक का बास्केट है। यह फ्री-फ्लोट मार्केट कैप वेटेड है।"
+    },
+    {
+        "prompt": "निफ्टी 50 में कितने स्टॉक होते हैं?",
+        "answers": [
+            "30",
+            "50",
+            "100",
+            "200"
+        ],
+        "correct": 1,
+        "explanation": "निफ्टी 50 NSE का 50 विभिन्न क्षेत्रों के स्टॉक का इंडेक्स है।"
+    },
+    {
+        "prompt": "SEBI को वैधानिक शक्तियाँ कब दी गईं?",
+        "answers": [
+            "1988",
+            "1992",
+            "1995",
+            "2000"
+        ],
+        "correct": 1,
+        "explanation": "SEBI की स्थापना 1988 में हुई। SEBI एक्ट 1992 के माध्यम से वैधानिक शक्तियाँ मिलीं।"
+    },
+    {
+        "prompt": "डीमैटेरियलाइजेशन का अर्थ है?",
+        "answers": [
+            "भौतिक शेयरों को इलेक्ट्रॉनिक में बदलना",
+            "इलेक्ट्रॉनिक को भौतिक में बदलना",
+            "केवल बॉन्ड के लिए",
+            "केवल म्यूचुअल फंड के लिए"
+        ],
+        "correct": 0,
+        "explanation": "डीमैटेरियलाइजेशन भौतिक शेयर प्रमाणपत्रों को DEMAT खाते में इलेक्ट्रॉनिक रूप में बदलता है।"
+    },
+    {
+        "prompt": "NSDL और CDSL क्या हैं?",
+        "answers": [
+            "स्टॉक एक्सचेंज",
+            "डिपॉजिटरी",
+            "बैंक",
+            "म्यूचुअल फंड"
+        ],
+        "correct": 1,
+        "explanation": "NSDL और CDSL भारत में दो डिपॉजिटरी हैं। वे प्रतिभूतियों को इलेक्ट्रॉनिक रूप में रखते हैं।"
+    },
+    {
+        "prompt": "इक्विटी में T+2 सेटलमेंट का अर्थ है?",
+        "answers": [
+            "उसी दिन सेटलमेंट",
+            "ट्रेड प्लस 2 कार्य दिवसों में डिलीवरी",
+            "एक सप्ताह",
+            "एक महीना"
+        ],
+        "correct": 1,
+        "explanation": "T+2: प्रतिभूतियाँ और फंड ट्रेड तिथि के 2 कार्य दिवसों बाद सेटल होते हैं।"
+    },
+    {
+        "prompt": "सर्किट फिल्टर क्या सीमित करता है?",
+        "answers": [
+            "केवल वॉल्यूम",
+            "एक ही दिन में मूल्य गतिविधि",
+            "केवल खरीदार",
+            "केवल विक्रेता"
+        ],
+        "correct": 1,
+        "explanation": "सर्किट फिल्टर एक दिन में अधिकतम मूल्य गतिविधि को सीमित करता है। अत्यधिक अस्थिरता को रोकता है।"
+    },
+    {
+        "prompt": "IPO का पूरा नाम क्या है?",
+        "answers": [
+            "International Payment Order",
+            "Initial Public Offering",
+            "Internal Purchase Order",
+            "Investment Portfolio Option"
+        ],
+        "correct": 1,
+        "explanation": "IPO तब होता है जब कंपनी पहली बार जनता को शेयर ऑफर करती है।"
+    },
+    {
+        "prompt": "FPO का पूरा नाम क्या है?",
+        "answers": [
+            "Follow-on Public Offering",
+            "Fixed Price Offering",
+            "Foreign Portfolio Option",
+            "Future Purchase Order"
+        ],
+        "correct": 0,
+        "explanation": "FPO वह है जब पहले से लिस्टेड कंपनी और शेयर ऑफर करती है।"
+    },
+    {
+        "prompt": "QIP लिस्टेड कंपनियों को क्या अनुमति देता है?",
+        "answers": [
+            "केवल प्रमोटरों को शेयर जारी करना",
+            "पूर्ण प्रोस्पेक्टस के बिना QIBs को शेयर जारी करना",
+            "केवल बायबैक",
+            "केवल डीलिस्ट"
+        ],
+        "correct": 1,
+        "explanation": "QIP लिस्टेड कंपनियों को QIBs से पूंजी जुटाने की तेज प्रक्रिया अनुमति देता है।"
+    },
+    {
+        "prompt": "बुक बिल्डिंग प्रक्रिया किसके लिए उपयोग की जाती है?",
+        "answers": [
+            "बोलियों के माध्यम से शेयर मूल्य निर्धारण",
+            "केवल स्थिर मूल्य",
+            "केवल बॉन्ड के लिए",
+            "केवल सरकार के लिए"
+        ],
+        "correct": 0,
+        "explanation": "बुक बिल्डिंग: विभिन्न मूल्यों पर बोलियाँ देकर मूल्य की खोज।"
+    },
+    {
+        "prompt": "IPO में एंकर निवेशक को क्या मिलता है?",
+        "answers": [
+            "खुदरा आवंटन",
+            "IPO खुलने से पहले आवंटन एंकर मूल्य पर",
+            "केवल लिस्टिंग के बाद",
+            "कोई आवंटन नहीं"
+        ],
+        "correct": 1,
+        "explanation": "एंकर निवेशक QIBs हैं जो IPO खुलने से एक दिन पहले आवंटन प्राप्त करते हैं।"
+    },
+    {
+        "prompt": "ASBA का अर्थ है?",
+        "answers": [
+            "Application Supported by Blocked Amount",
+            "Automatic Savings Bank Account",
+            "Application for Share Block",
+            "Automatic Share Blocking"
+        ],
+        "correct": 0,
+        "explanation": "ASBA: बैंक में राशि ब्लॉक के साथ आवेदन। आवंटन पर ही डेबिट होता है।"
+    },
+    {
+        "prompt": "म्यूचुअल फंड निवेशकों से पैसा इकट्ठा करता है?",
+        "answers": [
+            "केवल बैंक",
+            "विविध पोर्टफोलियो में निवेश करने के लिए",
+            "केवल HNIs",
+            "केवल FIIs"
+        ],
+        "correct": 1,
+        "explanation": "म्यूचुअल फंड निवेशकों से पैसा इकट्ठा करता है और स्टॉक, बॉन्ड आदि में निवेश करता है।"
+    },
+    {
+        "prompt": "AMC का पूरा नाम क्या है?",
+        "answers": [
+            "Asset Management Company",
+            "Automated Mutual Fund",
+            "Account Management Cell",
+            "Asset Monitoring Committee"
+        ],
+        "correct": 0,
+        "explanation": "AMC म्यूचुअल फंड स्कीमों का प्रबंधन करता है। SEBI द्वारा नियंत्रित।"
+    },
+    {
+        "prompt": "म्यूचुअल फंड का NAV क्या है?",
+        "answers": [
+            "बाजार मूल्य",
+            "प्रति यूनिट नेट एसेट वैल्यू",
+            "यूनिटों की संख्या",
+            "कुल संपत्ति"
+        ],
+        "correct": 1,
+        "explanation": "NAV कुल संपत्ति माइनस देयताएँ को यूनिटों की संख्या से विभाजित।"
+    },
+    {
+        "prompt": "SIP का पूरा नाम क्या है?",
+        "answers": [
+            "Systematic Investment Plan",
+            "Single Investment Plan",
+            "Standard Interest Plan",
+            "Simple Investment Procedure"
+        ],
+        "correct": 0,
+        "explanation": "SIP निवेशक को नियमित अंतराल पर निश्चित राशि निवेश करने की अनुमति देता है।"
+    },
+    {
+        "prompt": "ELSS में लॉक-इन अवधि कितनी है?",
+        "answers": [
+            "1 वर्ष",
+            "3 वर्ष",
+            "5 वर्ष",
+            "10 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "ELSS में 3 वर्ष लॉक-इन है। 80C के तहत कर कटौती प्रदान करता है।"
+    },
+    {
+        "prompt": "डेब्ट म्यूचुअल फंड कहाँ निवेश करता है?",
+        "answers": [
+            "केवल इक्विटी",
+            "बॉन्ड, सरकारी प्रतिभूतियाँ, मनी मार्केट",
+            "केवल सोना",
+            "केवल रियल एस्टेट"
+        ],
+        "correct": 1,
+        "explanation": "डेब्ट फंड फिक्स्ड इनकम इंस्ट्रूमेंट्स में निवेश करते हैं।"
+    },
+    {
+        "prompt": "लिक्विड फंड किसके लिए है?",
+        "answers": [
+            "दीर्घकालिक",
+            "अल्पकालिक पार्किंग, कम अवधि",
+            "केवल इक्विटी",
+            "केवल सोना"
+        ],
+        "correct": 1,
+        "explanation": "लिक्विड फंड बहुत अल्पकालिक इंस्ट्रूमेंट्स में निवेश करते हैं।"
+    },
+    {
+        "prompt": "REIT कहाँ निवेश करता है?",
+        "answers": [
+            "केवल इक्विटी शेयर",
+            "रियल एस्टेट संपत्तियाँ",
+            "केवल सोना",
+            "केवल बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "REIT आय-उत्पादक रियल एस्टेट में निवेश करता है।"
+    },
+    {
+        "prompt": "गोल्ड ETF क्या ट्रैक करता है?",
+        "answers": [
+            "गोल्ड माइनिंग स्टॉक",
+            "भौतिक सोने का मूल्य",
+            "केवल चांदी",
+            "केवल कमोडिटी"
+        ],
+        "correct": 1,
+        "explanation": "गोल्ड ETF सोने के मूल्य को ट्रैक करता है।"
+    },
+    {
+        "prompt": "AMFI का पूरा नाम क्या है?",
+        "answers": [
+            "Association of Mutual Funds in India",
+            "Asset Management Fund Index",
+            "Automated Mutual Fund Investment",
+            "Association of Market Funds"
+        ],
+        "correct": 0,
+        "explanation": "AMFI म्यूचुअल फंड के लिए उद्योग निकाय है।"
+    }
+]
