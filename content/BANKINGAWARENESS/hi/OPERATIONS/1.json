@@ -1,277 +1,365 @@
 ﻿[
     {
-        "prompt":  "NPA provisioning affects?",
-        "answers":  [
-                        "Only balance sheet",
-                        "Profit and loss reduces profit",
-                        "Only capital",
-                        "Only deposits"
-                    ],
-        "correct":  1,
-        "explanation":  "Provisioning is an expense charged to P and L. Higher NPA provisioning reduces bank net profit."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया (RBI) की स्थापना कब हुई?",
+        "answers": [
+            "1934",
+            "1935",
+            "1949",
+            "1950"
+        ],
+        "correct": 1,
+        "explanation": "रिजर्व बैंक ऑफ इंडिया की स्थापना 1 अप्रैल 1935 को RBI एक्ट, 1934 के तहत हुई, जो हिल्टन यंग कमीशन की सिफारिशों पर आधारित थी।"
     },
     {
-        "prompt":  "NEFT operates in how many batches per day?",
-        "answers":  [
-                        "12",
-                        "24",
-                        "48",
-                        "96"
-                    ],
-        "correct":  2,
-        "explanation":  "NEFT operates in 48 half-hourly batches on weekdays and 24 batches on Saturdays. It is available 24x7 from December 2019."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया की स्थापना की सिफारिश किस कमीशन ने की?",
+        "answers": [
+            "राजा चेलैया कमिटी",
+            "हिल्टन यंग कमीशन",
+            "नरसिम्हन कमिटी",
+            "नचिकेत मोर कमिटी"
+        ],
+        "correct": 1,
+        "explanation": "हिल्टन यंग कमीशन (जिसे रॉयल कमीशन ऑन इंडियन करेंसी एंड फाइनेंस भी कहा जाता है) ने 1926 में RBI की स्थापना की सिफारिश की।"
     },
     {
-        "prompt":  "RTGS operates during?",
-        "answers":  [
-                        "Bank working hours only",
-                        "24x7",
-                        "Only weekdays 9 to 5",
-                        "Only when NEFT runs"
-                    ],
-        "correct":  1,
-        "explanation":  "RTGS is available 24x7. It was made round-the-clock in December 2020 to facilitate large value payments anytime."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया का राष्ट्रीयकरण कब हुआ?",
+        "answers": [
+            "1947",
+            "1948",
+            "1949",
+            "1950"
+        ],
+        "correct": 2,
+        "explanation": "RBI का राष्ट्रीयकरण 1 जनवरी 1949 को रिजर्व बैंक ऑफ इंडिया (ट्रांसफर टू पब्लिक ओनरशिप) एक्ट, 1948 के तहत हुआ।"
     },
     {
-        "prompt":  "IMPS transaction limit per transaction is typically?",
-        "answers":  [
-                        "Rs 50,000",
-                        "Rs 1 lakh",
-                        "Rs 2 lakh",
-                        "Rs 5 lakh"
-                    ],
-        "correct":  2,
-        "explanation":  "IMPS has a limit of Rs 2 lakh per transaction (may vary by bank). It enables instant transfer 24x7."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया का पहला गवर्नर कौन था?",
+        "answers": [
+            "सी.डी. देशमुख",
+            "सर ओस्बोर्न स्मिथ",
+            "जेम्स टेलर",
+            "जॉन मथाई"
+        ],
+        "correct": 1,
+        "explanation": "सर ओस्बोर्न स्मिथ RBI के पहले गवर्नर थे जब इसने 1 अप्रैल 1935 को संचालन शुरू किया।"
     },
     {
-        "prompt":  "Full KYC PPI allows?",
-        "answers":  [
-                        "Only loading from own account",
-                        "Loading from any source, higher limits",
-                        "No loading",
-                        "Only cash loading"
-                    ],
-        "correct":  1,
-        "explanation":  "Full KYC PPIs can be loaded from bank account, cards, and have higher transaction limits than minimum KYC PPIs."
+        "prompt": "रिजर्व बैंक ऑफ इंडिया एक्ट किस वर्ष पारित हुआ?",
+        "answers": [
+            "1934",
+            "1935",
+            "1949",
+            "1956"
+        ],
+        "correct": 0,
+        "explanation": "रिजर्व बैंक ऑफ इंडिया एक्ट, 1934 RBI के कार्यकलाप के लिए वैधानिक आधार प्रदान करता है। बैंक ने 1935 में संचालन शुरू किया।"
     },
     {
-        "prompt":  "Positive Pay System for cheques is?",
-        "answers":  [
-                        "Voluntary",
-                        "Mandatory for cheques above Rs 50,000",
-                        "Only for demand drafts",
-                        "Only for RTGS"
-                    ],
-        "correct":  1,
-        "explanation":  "RBI mandated Positive Pay for cheques of Rs 50,000 and above. Drawer submits cheque details to bank before presentation."
+        "prompt": "निम्नलिखित में से भारत का केंद्रीय बैंक कौन सा है?",
+        "answers": [
+            "स्टेट बैंक ऑफ इंडिया",
+            "रिजर्व बैंक ऑफ इंडिया",
+            "पंजाब नेशनल बैंक",
+            "केनरा बैंक"
+        ],
+        "correct": 1,
+        "explanation": "रिजर्व बैंक ऑफ इंडिया भारत का केंद्रीय बैंक है, जो मौद्रिक नीति, बैंकिंग नियमन और करेंसी जारी करने के लिए जिम्मेदार है।"
     },
     {
-        "prompt":  "Gold loan is a type of?",
-        "answers":  [
-                        "Unsecured loan",
-                        "Secured loan - gold pledged as collateral",
-                        "Personal loan",
-                        "Education loan"
-                    ],
-        "correct":  1,
-        "explanation":  "Gold loan is secured - customer pledges gold ornaments/jewelry. Bank provides loan up to a percentage of gold value (e.g., 75%)."
+        "prompt": "RBI का मुख्यालय कहाँ है?",
+        "answers": [
+            "नई दिल्ली",
+            "मुंबई",
+            "कोलकाता",
+            "चेन्नई"
+        ],
+        "correct": 1,
+        "explanation": "RBI का मुख्यालय मुंबई में है। इसमें क्षेत्रीय कार्यालय भी हैं।"
     },
     {
-        "prompt":  "Loan against property (LAP) is?",
-        "answers":  [
-                        "Unsecured",
-                        "Secured against residential or commercial property",
-                        "Only for farmers",
-                        "Only for business"
-                    ],
-        "correct":  1,
-        "explanation":  "LAP is a secured loan where property (residential/commercial) is mortgaged. Used for business, education, medical, etc."
+        "prompt": "RBI के कितने क्षेत्रीय कार्यालय हैं?",
+        "answers": [
+            "20",
+            "25",
+            "30",
+            "33"
+        ],
+        "correct": 3,
+        "explanation": "RBI के 33 क्षेत्रीय कार्यालय और शाखाएँ हैं जो देश भर में फैली हुई हैं।"
     },
     {
-        "prompt":  "Loan-to-Value (LTV) ratio in home loan is?",
-        "answers":  [
-                        "Loan amount to property value",
-                        "Property value to loan",
-                        "Interest to principal",
-                        "EMI to income"
-                    ],
-        "correct":  0,
-        "explanation":  "LTV = (Loan amount / Property value) x 100. RBI caps LTV for home loans - e.g., up to 90% for loans up to Rs 30 lakh."
+        "prompt": "RBI की स्थापना किस एक्ट के तहत हुई?",
+        "answers": [
+            "बैंकिंग रेगुलेशन एक्ट",
+            "RBI एक्ट 1934",
+            "सारफेसी एक्ट",
+            "IBC"
+        ],
+        "correct": 1,
+        "explanation": "RBI की स्थापना RBI एक्ट, 1934 के तहत हुई।"
     },
     {
-        "prompt":  "RBI has capped LTV for home loans above Rs 75 lakh at?",
-        "answers":  [
-                        "90%",
-                        "80%",
-                        "75%",
-                        "70%"
-                    ],
-        "correct":  2,
-        "explanation":  "For home loans above Rs 75 lakh, LTV is capped at 75%. For Rs 30-75 lakh: 80%. For up to Rs 30 lakh: 90%."
+        "prompt": "RBI किसकी सिफारिश पर स्थापित हुआ?",
+        "answers": [
+            "नरसिम्हन कमिटी",
+            "हिल्टन यंग कमीशन",
+            "रघुराम राजन कमिटी",
+            "नचिकेत मोर कमिटी"
+        ],
+        "correct": 1,
+        "explanation": "हिल्टन यंग कमीशन (रॉयल कमीशन ऑन इंडियन करेंसी एंड फाइनेंस) ने RBI की स्थापना की सिफारिश की।"
     },
     {
-        "prompt":  "Floating rate loan interest is linked to?",
-        "answers":  [
-                        "Fixed for entire tenure",
-                        "External benchmark like Repo, MCLR",
-                        "Only inflation",
-                        "Only CRR"
-                    ],
-        "correct":  1,
-        "explanation":  "Floating rate is linked to external benchmark (Repo) or MCLR. When benchmark changes, interest rate adjusts."
+        "prompt": "RBI का राष्ट्रीयकरण किस वर्ष हुआ?",
+        "answers": [
+            "1947",
+            "1949",
+            "1955",
+            "1969"
+        ],
+        "correct": 1,
+        "explanation": "RBI का राष्ट्रीयकरण 1 जनवरी 1949 को हुआ।"
     },
     {
-        "prompt":  "Base rate was introduced by RBI in?",
-        "answers":  [
-                        "2003",
-                        "2008",
-                        "2010",
-                        "2016"
-                    ],
-        "correct":  2,
-        "explanation":  "Base rate was introduced in July 2010. It was the minimum rate below which banks could not lend. Replaced by MCLR in 2016."
+        "prompt": "RBI का पहला भारतीय गवर्नर कौन था?",
+        "answers": [
+            "सी.डी. देशमुख",
+            "सर ओस्बोर्न स्मिथ",
+            "जेम्स टेलर",
+            "बी. राम राव"
+        ],
+        "correct": 0,
+        "explanation": "सी.डी. देशमुख RBI के पहले भारतीय गवर्नर थे (1943-1949)। बाद में वे वित्त मंत्री बने।"
     },
     {
-        "prompt":  "Spread or mark-up over MCLR is?",
-        "answers":  [
-                        "Fixed by RBI",
-                        "Decided by bank based on risk, tenure",
-                        "Always zero",
-                        "Same for all customers"
-                    ],
-        "correct":  1,
-        "explanation":  "Banks add a spread (mark-up) over MCLR based on credit risk, tenure, and other factors. Final interest = MCLR + spread."
+        "prompt": "RBI की करेंसी प्रिंटिंग प्रेस कहाँ स्थित हैं?",
+        "answers": [
+            "केवल मुंबई",
+            "नासिक, देवास, मैसूर, सालबोनी",
+            "केवल दिल्ली",
+            "केवल कोलकाता"
+        ],
+        "correct": 1,
+        "explanation": "RBI की करेंसी प्रेस नासिक, देवास, मैसूर और सालबोनी में हैं।"
     },
     {
-        "prompt":  "Moratorium period in loan means?",
-        "answers":  [
-                        "Repayment period",
-                        "Period when EMI payment is not required",
-                        "Only for education loans",
-                        "Only for home loans"
-                    ],
-        "correct":  1,
-        "explanation":  "Moratorium is a period when borrower is not required to pay EMI. Common in education loans during course period."
+        "prompt": "RBI का पहला गवर्नर कौन था?",
+        "answers": [
+            "सी.डी. देशमुख",
+            "सर ओस्बोर्न स्मिथ",
+            "जेम्स टेलर",
+            "एच.वी.आर. आयंगर"
+        ],
+        "correct": 1,
+        "explanation": "सर ओस्बोर्न स्मिथ RBI के पहले गवर्नर थे (1935-1937)।"
     },
     {
-        "prompt":  "CASA deposits are low cost because?",
-        "answers":  [
-                        "They earn high interest",
-                        "They earn low or no interest - cheap source of funds",
-                        "They are large",
-                        "They are small"
-                    ],
-        "correct":  1,
-        "explanation":  "Savings and current accounts typically pay low or zero interest. Banks prefer CASA as it reduces cost of funds."
+        "prompt": "RBI का वित्तीय वर्ष क्या है?",
+        "answers": [
+            "जनवरी-दिसंबर",
+            "अप्रैल-मार्च",
+            "जुलाई-जून",
+            "अक्टूबर-सितंबर"
+        ],
+        "correct": 2,
+        "explanation": "RBI का वित्तीय वर्ष जुलाई से जून तक है, जबकि सरकारी वित्तीय वर्ष अप्रैल से मार्च है।"
     },
     {
-        "prompt":  "State Development Loans (SDLs) are issued by?",
-        "answers":  [
-                        "Central Government",
-                        "State Governments",
-                        "RBI",
-                        "Municipalities"
-                    ],
-        "correct":  1,
-        "explanation":  "SDLs are issued by State Governments for their borrowing needs. RBI conducts auctions. They carry slight risk premium over G-Secs."
+        "prompt": "RBI के कितने डिप्टी गवर्नर होते हैं?",
+        "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct": 2,
+        "explanation": "RBI में 4 डिप्टी गवर्नर होते हैं।"
     },
     {
-        "prompt":  "Stand-Up India scheme provides bank loans for?",
-        "answers":  [
-                        "All entrepreneurs",
-                        "SC/ST and women entrepreneurs - Rs 10 lakh to 1 crore",
-                        "Only women",
-                        "Only SC/ST"
-                    ],
-        "correct":  1,
-        "explanation":  "Stand-Up India facilitates bank loans between Rs 10 lakh and Rs 1 crore for at least one SC/ST and one woman borrower per branch."
+        "prompt": "RBI सेंट्रल बोर्ड में कितने सदस्य होते हैं?",
+        "answers": [
+            "15",
+            "21",
+            "25",
+            "30"
+        ],
+        "correct": 1,
+        "explanation": "RBI सेंट्रल बोर्ड में 21 सदस्य होते हैं: गवर्नर, 4 डिप्टी गवर्नर, 2 सरकारी अधिकारी, 14 नामित निदेशक।"
     },
     {
-        "prompt":  "MUDRA loan is disbursed through?",
-        "answers":  [
-                        "RBI directly",
-                        "Banks, NBFCs, MFIs",
-                        "Only RRBs",
-                        "Only cooperative banks"
-                    ],
-        "correct":  1,
-        "explanation":  "MUDRA loans are disbursed by banks, NBFCs, and MFIs. MUDRA provides refinance and does not lend directly."
+        "prompt": "RBI के सेंट्रल बोर्ड के निदेशक कितने वर्षों के लिए नियुक्त होते हैं?",
+        "answers": [
+            "2 वर्ष",
+            "3 वर्ष",
+            "4 वर्ष",
+            "5 वर्ष"
+        ],
+        "correct": 2,
+        "explanation": "RBI के सेंट्रल बोर्ड के नामित निदेशक 4 वर्ष के लिए या अगले आदेश तक नियुक्त होते हैं।"
     },
     {
-        "prompt":  "Kishore category under Mudra covers loans from?",
-        "answers":  [
-                        "Up to Rs 50,000",
-                        "Rs 50,001 to Rs 5 lakh",
-                        "Rs 5 lakh to Rs 10 lakh",
-                        "Above Rs 10 lakh"
-                    ],
-        "correct":  1,
-        "explanation":  "Mudra: Shishu up to Rs 50,000; Kishore Rs 50,001 to 5 lakh; Tarun Rs 5 lakh to 10 lakh."
+        "prompt": "RBI गवर्नर की नियुक्ति कौन करता है?",
+        "answers": [
+            "प्रधान मंत्री",
+            "राष्ट्रपति",
+            "वित्त मंत्री",
+            "संसद"
+        ],
+        "correct": 1,
+        "explanation": "RBI गवर्नर की नियुक्ति केंद्रीय सरकार की सिफारिश पर राष्ट्रपति द्वारा की जाती है।"
     },
     {
-        "prompt":  "Gold loan NBFC can lend against?",
-        "answers":  [
-                        "Only property",
-                        "Gold ornaments, jewelry",
-                        "Only cash",
-                        "Only shares"
-                    ],
-        "correct":  1,
-        "explanation":  "Gold loan NBFCs (e.g., Muthoot, Manappuram) provide loans against pledge of gold ornaments."
+        "prompt": "RBI का गवर्नर कितने वर्षों के लिए नियुक्त होता है?",
+        "answers": [
+            "3 वर्ष",
+            "5 वर्ष",
+            "7 वर्ष",
+            "10 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "RBI गवर्नर की नियुक्ति 5 वर्ष के लिए होती है, लेकिन हाल के गवर्नरों को 3 वर्ष के लिए नियुक्त किया गया है।"
     },
     {
-        "prompt":  "Central KYC Registry CERSAI maintains?",
-        "answers":  [
-                        "Only NPAs",
-                        "Centralized KYC records to prevent duplicate KYC",
-                        "Only loan records",
-                        "Only deposit records"
-                    ],
-        "correct":  1,
-        "explanation":  "CERSAI hosts CKYCR - centralized KYC to avoid repeat KYC when customer switches banks."
+        "prompt": "RBI की मौद्रिक नीति कमिटी (MPC) में कितने सदस्य होते हैं?",
+        "answers": [
+            "4",
+            "6",
+            "8",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "MPC में 6 सदस्य होते हैं: RBI गवर्नर, 2 RBI अधिकारी, 3 बाहरी सदस्य।"
     },
     {
-        "prompt":  "KYC for high risk customers is updated every?",
-        "answers":  [
-                        "10 years",
-                        "8 years",
-                        "2 years",
-                        "5 years"
-                    ],
-        "correct":  2,
-        "explanation":  "KYC updation: Low risk every 10 years; Medium every 8 years; High risk every 2 years."
+        "prompt": "MPC का प्रमुख कौन होता है?",
+        "answers": [
+            "वित्त मंत्री",
+            "RBI गवर्नर",
+            "नीति आयोग CEO",
+            "SEBI चेयरमैन"
+        ],
+        "correct": 1,
+        "explanation": "MPC का प्रमुख RBI गवर्नर होता है।"
     },
     {
-        "prompt":  "Simplified KYC or small accounts have balance limit of?",
-        "answers":  [
-                        "Rs 50000",
-                        "Rs 1 lakh",
-                        "Rs 2 lakh",
-                        "Rs 5 lakh"
-                    ],
-        "correct":  1,
-        "explanation":  "Small accounts have annual aggregate balance limit of Rs 1 lakh. Transaction limit Rs 10000 per month."
+        "prompt": "MPC की बैठकें कितनी बार होती हैं?",
+        "answers": [
+            "मासिक",
+            "तिमाही",
+            "द्विमासिक",
+            "वार्षिक"
+        ],
+        "correct": 2,
+        "explanation": "MPC की बैठकें हर दो महीने में होती हैं, वर्ष में कम से कम 4 बार।"
     },
     {
-        "prompt":  "CRR is calculated as percentage of?",
-        "answers":  [
-                        "Total assets",
-                        "Net Demand and Time Liabilities",
-                        "Only deposits",
-                        "Only savings"
-                    ],
-        "correct":  1,
-        "explanation":  "CRR is percentage of bank Net Demand and Time Liabilities."
+        "prompt": "RBI की मुद्रास्फीति लक्ष्य क्या है?",
+        "answers": [
+            "2%",
+            "4% ± 2%",
+            "6%",
+            "8%"
+        ],
+        "correct": 1,
+        "explanation": "RBI का CPI मुद्रास्फीति लक्ष्य 4% है जिसमें ±2% सहनशीलता बैंड है (2-6%)।"
     },
     {
-        "prompt":  "Banks earn interest on CRR balance?",
-        "answers":  [
-                        "Yes at Repo rate",
-                        "No interest",
-                        "Yes at Savings rate",
-                        "Yes at FD rate"
-                    ],
-        "correct":  1,
-        "explanation":  "No interest is paid on CRR balances."
+        "prompt": "RBI की रिपोर्ट ऑन करेंसी एंड फाइनेंस कब प्रकाशित होती है?",
+        "answers": [
+            "मासिक",
+            "तिमाही",
+            "वार्षिक",
+            "द्विवार्षिक"
+        ],
+        "correct": 2,
+        "explanation": "रिपोर्ट ऑन करेंसी एंड फाइनेंस RBI की वार्षिक रिपोर्ट है जो आर्थिक मुद्दों पर केंद्रित होती है।"
+    },
+    {
+        "prompt": "RBI का फाइनेंशियल स्टेबिलिटी रिपोर्ट कब प्रकाशित होता है?",
+        "answers": [
+            "मासिक",
+            "तिमाही",
+            "द्विवार्षिक",
+            "वार्षिक"
+        ],
+        "correct": 2,
+        "explanation": "फाइनेंशियल स्टेबिलिटी रिपोर्ट द्विवार्षिक है, जो बैंकिंग क्षेत्र की स्थिरता का मूल्यांकन करता है।"
+    },
+    {
+        "prompt": "RBI की वार्षिक रिपोर्ट कब प्रकाशित होती है?",
+        "answers": [
+            "मार्च",
+            "जून",
+            "अगस्त",
+            "दिसंबर"
+        ],
+        "correct": 2,
+        "explanation": "RBI की वार्षिक रिपोर्ट अगस्त में प्रकाशित होती है, जो पिछले वित्तीय वर्ष (जुलाई-जून) को कवर करती है।"
+    },
+    {
+        "prompt": "RBI बुलेटिन कब प्रकाशित होता है?",
+        "answers": [
+            "दैनिक",
+            "मासिक",
+            "तिमाही",
+            "वार्षिक"
+        ],
+        "correct": 1,
+        "explanation": "RBI बुलेटिन मासिक प्रकाशित होता है। इसमें मौद्रिक और बैंकिंग आंकड़े होते हैं।"
+    },
+    {
+        "prompt": "RBI क्या नियंत्रित करता है?",
+        "answers": [
+            "केवल बैंक",
+            "बैंक, NBFCs, भुगतान प्रणाली",
+            "बीमा",
+            "म्यूचुअल फंड"
+        ],
+        "correct": 1,
+        "explanation": "RBI कमर्शियल बैंक, सहकारी बैंक, NBFCs और भुगतान और सेटलमेंट सिस्टम नियंत्रित करता है।"
+    },
+    {
+        "prompt": "RBI बैंकों का निरीक्षण किसके तहत कर सकता है?",
+        "answers": [
+            "कंपनीज एक्ट",
+            "बैंकिंग रेगुलेशन एक्ट",
+            "SEBI एक्ट",
+            "RBI एक्ट"
+        ],
+        "correct": 1,
+        "explanation": "RBI बैंकिंग रेगुलेशन एक्ट, 1949 की धारा 35 के तहत बैंकों का निरीक्षण करता है।"
+    },
+    {
+        "prompt": "RBI बैंक बोर्ड को सुपरसीड कर सकता है यदि?",
+        "answers": [
+            "हमेशा",
+            "जनहित में - कुप्रबंधन, जमाकर्ता हित",
+            "केवल प्राइवेट बैंकों के लिए",
+            "केवल अदालत आदेश से"
+        ],
+        "correct": 1,
+        "explanation": "RBI BR एक्ट के तहत जमाकर्ताओं के हित में बैंकों (सहकारी सहित) के बोर्ड को सुपरसीड कर सकता है।"
+    },
+    {
+        "prompt": "RBI बैंकों में शेयरों का अधिग्रहण ऊपर से अनुमोदन आवश्यक?",
+        "answers": [
+            "1 प्रतिशत",
+            "5 प्रतिशत",
+            "10 प्रतिशत",
+            "25 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "बैंक में 5 प्रतिशत या अधिक शेयरों का अधिग्रहण RBI अनुमोदन की आवश्यकता है। बैंकिंग रेगुलेशन एक्ट।"
+    },
+    {
+        "prompt": "RBI बैंकों को बोर्ड अनुमोदित नीति रखने को कहता है?",
+        "answers": [
+            "केवल ऋण",
+            "ALM, जोखिम प्रबंधन, बिजनेस कंटिन्यूटी",
+            "केवल जमा",
+            "केवल NPA"
+        ],
+        "correct": 1,
+        "explanation": "बैंकों के पास ALM, जोखिम प्रबंधन, KYC, बिजनेस कंटिन्यूटी आदि के लिए बोर्ड अनुमोदित नीतियाँ होनी चाहिए।"
     }
 ]

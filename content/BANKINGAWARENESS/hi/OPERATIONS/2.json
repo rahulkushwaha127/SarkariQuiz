@@ -1,277 +1,277 @@
 ﻿[
     {
-        "prompt":  "SLR can be held in?",
-        "answers":  [
-                        "Only cash with RBI",
-                        "Cash gold unencumbered G-Secs",
-                        "Only gold",
-                        "Only bonds"
-                    ],
-        "correct":  1,
-        "explanation":  "SLR is maintained in form of cash, gold, or unencumbered government securities."
+        "prompt": "SLR को किसमें रखा जा सकता है?",
+        "answers": [
+            "केवल RBI के साथ नकद",
+            "नकद, सोना, बिना बोझ वाली G-Secs",
+            "केवल सोना",
+            "केवल बॉन्ड"
+        ],
+        "correct": 1,
+        "explanation": "SLR को नकद, सोना या बिना बोझ वाली सरकारी प्रतिभूतियों के रूप में रखा जाता है।"
     },
     {
-        "prompt":  "Interest on NPA is recognized?",
-        "answers":  [
-                        "On accrual basis",
-                        "On cash basis when actually received",
-                        "At maturity",
-                        "At 50 percent"
-                    ],
-        "correct":  1,
-        "explanation":  "Banks cannot recognize interest on NPA on accrual basis."
+        "prompt": "NPA पर ब्याज की मान्यता कब की जाती है?",
+        "answers": [
+            "उपार्जन आधार पर",
+            "नकद आधार पर जब वास्तव में प्राप्त होता है",
+            "परिपक्वता पर",
+            "50 प्रतिशत पर"
+        ],
+        "correct": 1,
+        "explanation": "बैंक NPA पर ब्याज को उपार्जन आधार पर नहीं मान सकते।"
     },
     {
-        "prompt":  "What does CRR stand for in banking?",
-        "answers":  [
-                        "Cash Reserve Ratio",
-                        "Credit Reserve Requirement",
-                        "Central Reserve Ratio",
-                        "Currency Reserve Ratio"
-                    ],
-        "correct":  0,
-        "explanation":  "CRR (Cash Reserve Ratio) is the percentage of net demand and time liabilities that banks must maintain as cash reserves with RBI."
+        "prompt": "बैंकिंग में CRR का पूरा नाम क्या है?",
+        "answers": [
+            "Cash Reserve Ratio",
+            "Credit Reserve Requirement",
+            "Central Reserve Ratio",
+            "Currency Reserve Ratio"
+        ],
+        "correct": 0,
+        "explanation": "CRR (Cash Reserve Ratio) शुद्ध मांग और समय देयताओं का वह प्रतिशत है जो बैंकों को RBI के साथ नकद रिजर्व के रूप में रखना होता है।"
     },
     {
-        "prompt":  "What does SLR stand for in banking?",
-        "answers":  [
-                        "Statutory Liquidity Ratio",
-                        "Standard Liquidity Requirement",
-                        "Secured Lending Ratio",
-                        "Savings and Loan Ratio"
-                    ],
-        "correct":  0,
-        "explanation":  "SLR (Statutory Liquidity Ratio) is the minimum percentage of net demand and time liabilities that banks must maintain in the form of liquid assets (cash, gold, government securities)."
+        "prompt": "बैंकिंग में SLR का पूरा नाम क्या है?",
+        "answers": [
+            "Statutory Liquidity Ratio",
+            "Standard Liquidity Requirement",
+            "Secured Lending Ratio",
+            "Savings and Loan Ratio"
+        ],
+        "correct": 0,
+        "explanation": "SLR (Statutory Liquidity Ratio) शुद्ध मांग और समय देयताओं का न्यूनतम प्रतिशत है जो बैंकों को तरल संपत्तियों (नकद, सोना, सरकारी प्रतिभूतियाँ) के रूप में रखना होता है।"
     },
     {
-        "prompt":  "CRR is maintained by banks with whom?",
-        "answers":  [
-                        "SEBI",
-                        "Ministry of Finance",
-                        "Reserve Bank of India",
-                        "Their own vaults"
-                    ],
-        "correct":  2,
-        "explanation":  "Banks maintain CRR (Cash Reserve Ratio) as cash with the Reserve Bank of India. No interest is paid on CRR balances."
+        "prompt": "CRR बैंक किसके साथ रखते हैं?",
+        "answers": [
+            "SEBI",
+            "वित्त मंत्रालय",
+            "रिजर्व बैंक ऑफ इंडिया",
+            "अपने वॉल्ट में"
+        ],
+        "correct": 2,
+        "explanation": "बैंक CRR (Cash Reserve Ratio) रिजर्व बैंक ऑफ इंडिया के साथ नकद के रूप में रखते हैं। CRR बैलेंस पर कोई ब्याज नहीं मिलता है।"
     },
     {
-        "prompt":  "Which of these is included in SLR maintenance by banks?",
-        "answers":  [
-                        "Cash with RBI",
-                        "Government Securities",
-                        "Gold",
-                        "Both B and C"
-                    ],
-        "correct":  3,
-        "explanation":  "SLR can be maintained in the form of cash, gold, or unencumbered government securities. CRR is only cash with RBI."
+        "prompt": "निम्नलिखित में से कौन SLR रखरखाव में शामिल है?",
+        "answers": [
+            "RBI के साथ नकद",
+            "सरकारी प्रतिभूतियाँ",
+            "सोना",
+            "B और C दोनों"
+        ],
+        "correct": 3,
+        "explanation": "SLR को नकद, सोना या बिना बोझ वाली सरकारी प्रतिभूतियों के रूप में रखा जा सकता है। CRR केवल RBI के साथ नकद है।"
     },
     {
-        "prompt":  "Interest is paid by RBI on CRR balances maintained by banks.",
-        "answers":  [
-                        "True",
-                        "False",
-                        "Only for public sector banks",
-                        "Only above 4%"
-                    ],
-        "correct":  1,
-        "explanation":  "No interest is paid by RBI on CRR balances. This is one reason banks prefer to minimize excess CRR maintenance."
+        "prompt": "RBI बैंकों द्वारा रखे गए CRR बैलेंस पर ब्याज देता है।",
+        "answers": [
+            "सही",
+            "गलत",
+            "केवल सार्वजनिक क्षेत्र के बैंकों के लिए",
+            "केवल 4% से ऊपर"
+        ],
+        "correct": 1,
+        "explanation": "RBI CRR बैलेंस पर कोई ब्याज नहीं देता है। यही कारण है कि बैंक अतिरिक्त CRR रखने से बचते हैं।"
     },
     {
-        "prompt":  "What does MCLR stand for?",
-        "answers":  [
-                        "Maximum Cost of Lending Rate",
-                        "Marginal Cost of Lending Rate",
-                        "Minimum Credit Lending Ratio",
-                        "Monetary Credit Lending Rate"
-                    ],
-        "correct":  1,
-        "explanation":  "MCLR (Marginal Cost of Lending Rate) is the minimum interest rate below which banks cannot lend. It replaced the Base Rate system from April 2016."
+        "prompt": "MCLR का पूरा नाम क्या है?",
+        "answers": [
+            "Maximum Cost of Lending Rate",
+            "Marginal Cost of Lending Rate",
+            "Minimum Credit Lending Ratio",
+            "Monetary Credit Lending Rate"
+        ],
+        "correct": 1,
+        "explanation": "MCLR (Marginal Cost of Lending Rate) वह न्यूनतम ब्याज दर है जिसके नीचे बैंक उधार नहीं दे सकते। यह अप्रैल 2016 से बेस रेट व्यवस्था की जगह ले चुका है।"
     },
     {
-        "prompt":  "MCLR was introduced by RBI in which year?",
-        "answers":  [
-                        "2014",
-                        "2015",
-                        "2016",
-                        "2017"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI introduced MCLR (Marginal Cost of Lending Rate) with effect from April 1, 2016, replacing the Base Rate regime."
+        "prompt": "RBI ने MCLR कब शुरू किया?",
+        "answers": [
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+        ],
+        "correct": 2,
+        "explanation": "RBI ने MCLR (Marginal Cost of Lending Rate) 1 अप्रैल 2016 से प्रभावी किया, जो बेस रेट व्यवस्था को बदलता है।"
     },
     {
-        "prompt":  "Base Rate is the minimum rate below which banks could not lend. It was replaced by?",
-        "answers":  [
-                        "PLR",
-                        "MCLR",
-                        "BPLR",
-                        "Prime Rate"
-                    ],
-        "correct":  1,
-        "explanation":  "Base Rate was replaced by MCLR (Marginal Cost of Lending Rate) in April 2016 for better transmission of policy rates."
+        "prompt": "बेस रेट वह न्यूनतम दर थी जिसके नीचे बैंक उधार नहीं दे सकते थे। इसे किसने बदल दिया?",
+        "answers": [
+            "PLR",
+            "MCLR",
+            "BPLR",
+            "Prime Rate"
+        ],
+        "correct": 1,
+        "explanation": "बेस रेट को अप्रैल 2016 में MCLR (Marginal Cost of Lending Rate) से बदल दिया गया ताकि नीति दरों का बेहतर ट्रांसमिशन हो सके।"
     },
     {
-        "prompt":  "Subsidized crop loan interest rate for farmers is?",
-        "answers":  [
-                        "9 percent",
-                        "7 percent",
-                        "4 percent",
-                        "2 percent"
-                    ],
-        "correct":  2,
-        "explanation":  "Interest subvention scheme: farmers get crop loans at 7 percent. Prompt repayment gets 3 percent subvention - effective 4 percent."
+        "prompt": "किसानों के लिए सब्सिडाइज्ड फसल ऋण ब्याज दर क्या है?",
+        "answers": [
+            "9 प्रतिशत",
+            "7 प्रतिशत",
+            "4 प्रतिशत",
+            "2 प्रतिशत"
+        ],
+        "correct": 2,
+        "explanation": "ब्याज सब्वेंशन योजना: किसानों को फसल ऋण 7 प्रतिशत पर मिलते हैं। समय पर भुगतान पर 3 प्रतिशत सब्वेंशन - प्रभावी 4 प्रतिशत।"
     },
     {
-        "prompt":  "Interest subvention for short-term crop loans is provided by?",
-        "answers":  [
-                        "RBI",
-                        "Government of India",
-                        "NABARD",
-                        "Banks"
-                    ],
-        "correct":  1,
-        "explanation":  "Government provides interest subvention to banks for short-term crop loans to farmers."
+        "prompt": "अल्पकालिक फसल ऋणों के लिए ब्याज सब्वेंशन कौन प्रदान करता है?",
+        "answers": [
+            "RBI",
+            "भारत सरकार",
+            "NABARD",
+            "बैंक"
+        ],
+        "correct": 1,
+        "explanation": "सरकार किसानों को अल्पकालिक फसल ऋणों के लिए बैंकों को ब्याज सब्वेंशन प्रदान करती है।"
     },
     {
-        "prompt":  "59 minutes loan scheme is for?",
-        "answers":  [
-                        "Farmers",
-                        "MSMEs - in-principle approval",
-                        "Students",
-                        "Home buyers"
-                    ],
-        "correct":  1,
-        "explanation":  "59 minutes loan portal provides in-principle sanction for MSME loans up to Rs 1 crore in 59 minutes."
+        "prompt": "59 मिनट ऋण योजना किसके लिए है?",
+        "answers": [
+            "किसान",
+            "MSMEs - सिद्धांत में स्वीकृति",
+            "छात्र",
+            "घर खरीदार"
+        ],
+        "correct": 1,
+        "explanation": "59 मिनट ऋण पोर्टल MSME ऋणों के लिए रु 1 करोड़ तक 59 मिनट में सिद्धांत में स्वीकृति प्रदान करता है।"
     },
     {
-        "prompt":  "Divergence in NPA recognition means?",
-        "answers":  [
-                        "RBI and bank agree",
-                        "RBI finds higher NPA than bank reported",
-                        "Only for provisioning",
-                        "Only for write-offs"
-                    ],
-        "correct":  1,
-        "explanation":  "Divergence: RBI inspection finds more NPAs than bank reported. Bank must correct and disclose."
+        "prompt": "NPA मान्यता में विचलन का अर्थ है?",
+        "answers": [
+            "RBI और बैंक सहमत",
+            "RBI बैंक द्वारा रिपोर्ट किए गए से अधिक NPA पाता है",
+            "केवल प्रावधान के लिए",
+            "केवल राइट-ऑफ के लिए"
+        ],
+        "correct": 1,
+        "explanation": "विचलन: RBI निरीक्षण में बैंक द्वारा रिपोर्ट किए गए से अधिक NPA मिलते हैं। बैंक को सुधारना और खुलासा करना चाहिए।"
     },
     {
-        "prompt":  "Moratorium on loan repayment was given during COVID in?",
-        "answers":  [
-                        "2018",
-                        "2019",
-                        "2020",
-                        "2021"
-                    ],
-        "correct":  2,
-        "explanation":  "RBI permitted banks to grant moratorium on loan EMIs during COVID in 2020. Interest continued to accrue."
+        "prompt": "COVID के दौरान ऋण भुगतान पर मोरेटोरियम कब दिया गया?",
+        "answers": [
+            "2018",
+            "2019",
+            "2020",
+            "2021"
+        ],
+        "correct": 2,
+        "explanation": "RBI ने 2020 में COVID के दौरान बैंकों को ऋण EMI पर मोरेटोरियम देने की अनुमति दी। ब्याज जारी रहा।"
     },
     {
-        "prompt":  "Stand Up India provides loan for?",
-        "answers":  [
-                        "All",
-                        "SC ST and women - Rs 10 lakh to 1 crore",
-                        "Only women",
-                        "Only SC ST"
-                    ],
-        "correct":  1,
-        "explanation":  "Stand Up India: at least one SC/ST and one woman borrower per branch. Loan Rs 10 lakh to Rs 1 crore."
+        "prompt": "स्टैंड अप इंडिया ऋण किसके लिए प्रदान करता है?",
+        "answers": [
+            "सभी",
+            "SC ST और महिलाएँ - रु 10 लाख से 1 करोड़",
+            "केवल महिलाएँ",
+            "केवल SC ST"
+        ],
+        "correct": 1,
+        "explanation": "स्टैंड अप इंडिया: प्रत्येक शाखा में कम से कम एक SC/ST और एक महिला उधारकर्ता। ऋण रु 10 लाख से रु 1 करोड़।"
     },
     {
-        "prompt":  "Differential rate of interest DRI loan is at?",
-        "answers":  [
-                        "Market rate",
-                        "4 percent per annum",
-                        "10 percent",
-                        "12 percent"
-                    ],
-        "correct":  1,
-        "explanation":  "DRI scheme provides loan at 4 percent to weaker sections. Each PSB has allocation."
+        "prompt": "डिफरेंशियल रेट ऑफ इंटरेस्ट (DRI) ऋण किस दर पर है?",
+        "answers": [
+            "बाजार दर",
+            "4 प्रतिशत प्रति वर्ष",
+            "10 प्रतिशत",
+            "12 प्रतिशत"
+        ],
+        "correct": 1,
+        "explanation": "DRI योजना कमजोर वर्गों को 4 प्रतिशत पर ऋण प्रदान करती है। प्रत्येक PSB का आवंटन है।"
     },
     {
-        "prompt":  "Full KYC PPI can be used for?",
-        "answers":  [
-                        "Only purchases",
-                        "Fund transfer, purchase, cash withdrawal at ATM",
-                        "Only ATM",
-                        "Only bank transfer"
-                    ],
-        "correct":  1,
-        "explanation":  "Full KYC PPIs allow fund transfer to bank, purchase, cash withdrawal at ATM."
+        "prompt": "पूर्ण KYC PPI का उपयोग किसके लिए किया जा सकता है?",
+        "answers": [
+            "केवल खरीद",
+            "फंड ट्रांसफर, खरीद, ATM से नकद निकासी",
+            "केवल ATM",
+            "केवल बैंक ट्रांसफर"
+        ],
+        "correct": 1,
+        "explanation": "पूर्ण KYC PPIs बैंक में फंड ट्रांसफर, खरीद, ATM से नकद निकासी अनुमति देते हैं।"
     },
     {
-        "prompt":  "Cheque is a type of?",
-        "answers":  [
-                        "Promissory note",
-                        "Bill of exchange drawn on banker",
-                        "Bond",
-                        "Debenture"
-                    ],
-        "correct":  1,
-        "explanation":  "Cheque is a bill of exchange drawn on a specified banker and payable on demand."
+        "prompt": "चेक किस प्रकार का है?",
+        "answers": [
+            "प्रॉमिसरी नोट",
+            "बैंकर पर ड्रॉन बिल ऑफ एक्सचेंज",
+            "बॉन्ड",
+            "डिबेंचर"
+        ],
+        "correct": 1,
+        "explanation": "चेक निर्दिष्ट बैंकर पर ड्रॉन बिल ऑफ एक्सचेंज है और मांग पर देय है।"
     },
     {
-        "prompt":  "Payee in cheque is?",
-        "answers":  [
-                        "The drawer",
-                        "The person to whom payment is to be made",
-                        "The bank",
-                        "The endorser"
-                    ],
-        "correct":  1,
-        "explanation":  "Payee is the person in whose favour the cheque is drawn. Payment is made to payee."
+        "prompt": "चेक में पेई कौन है?",
+        "answers": [
+            "ड्रावर",
+            "भुगतान जिसके पक्ष में किया जाना है",
+            "बैंक",
+            "एंडोर्सर"
+        ],
+        "correct": 1,
+        "explanation": "पेई वह व्यक्ति है जिसके पक्ष में चेक ड्रॉन है। भुगतान पेई को किया जाता है।"
     },
     {
-        "prompt":  "Bearer of cheque can get payment?",
-        "answers":  [
-                        "Only payee",
-                        "Anyone who presents - bearer cheque",
-                        "Only through account",
-                        "Only at drawer branch"
-                    ],
-        "correct":  1,
-        "explanation":  "Bearer cheque is payable to bearer. Anyone holding it can get payment."
+        "prompt": "चेक का बियरर भुगतान प्राप्त कर सकता है?",
+        "answers": [
+            "केवल पेई",
+            "कोई भी जो पेश करता है - बियरर चेक",
+            "केवल खाते के माध्यम से",
+            "केवल ड्रावर शाखा पर"
+        ],
+        "correct": 1,
+        "explanation": "बियरर चेक बियरर को देय है। इसे रखने वाला कोई भी भुगतान प्राप्त कर सकता है।"
     },
     {
-        "prompt":  "Order cheque is payable to?",
-        "answers":  [
-                        "Bearer",
-                        "Named payee or order",
-                        "Only drawer",
-                        "Only bank"
-                    ],
-        "correct":  1,
-        "explanation":  "Order cheque is payable to named person or order. Needs endorsement for transfer."
+        "prompt": "ऑर्डर चेक किसे देय है?",
+        "answers": [
+            "बियरर",
+            "नामित पेई या ऑर्डर",
+            "केवल ड्रावर",
+            "केवल बैंक"
+        ],
+        "correct": 1,
+        "explanation": "ऑर्डर चेक नामित व्यक्ति या ऑर्डर को देय है। ट्रांसफर के लिए एंडोर्समेंट की आवश्यकता।"
     },
     {
-        "prompt":  "Crossed cheque must be?",
-        "answers":  [
-                        "Encashed over counter",
-                        "Collected through bank account only",
-                        "Given to anyone",
-                        "Torn"
-                    ],
-        "correct":  1,
-        "explanation":  "Crossed cheque can only be deposited in bank account, not encashed over counter."
+        "prompt": "क्रॉस्ड चेक होना चाहिए?",
+        "answers": [
+            "काउंटर पर एनकैश",
+            "केवल बैंक खाते में जमा",
+            "किसी को दिया",
+            "फाड़ा"
+        ],
+        "correct": 1,
+        "explanation": "क्रॉस्ड चेक केवल बैंक खाते में जमा किया जा सकता है, काउंटर पर एनकैश नहीं।"
     },
     {
-        "prompt":  "Post-dated cheque PDC is?",
-        "answers":  [
-                        "Invalid",
-                        "Dated for future - valid on that date",
-                        "Always stale",
-                        "Only for current date"
-                    ],
-        "correct":  1,
-        "explanation":  "PDC has future date. It becomes payable on that date. Valid till 3 months from date."
+        "prompt": "पोस्ट-डेटेड चेक (PDC) क्या है?",
+        "answers": [
+            "अमान्य",
+            "भविष्य की तिथि वाला - उस तिथि पर वैध",
+            "हमेशा स्टेल",
+            "केवल वर्तमान तिथि के लिए"
+        ],
+        "correct": 1,
+        "explanation": "PDC में भविष्य की तिथि होती है। वह तिथि पर देय होता है। तिथि से 3 महीने तक वैध।"
     },
     {
-        "prompt":  "Stale cheque is?",
-        "answers":  [
-                        "More than 3 months old",
-                        "Less than 3 months",
-                        "Same day",
-                        "One week old"
-                    ],
-        "correct":  0,
-        "explanation":  "Cheque becomes stale after 3 months from date of issue. Bank may refuse to honour."
+        "prompt": "स्टेल चेक क्या है?",
+        "answers": [
+            "3 महीने से अधिक पुराना",
+            "3 महीने से कम",
+            "उसी दिन",
+            "एक सप्ताह पुराना"
+        ],
+        "correct": 0,
+        "explanation": "चेक जारी तिथि से 3 महीने बाद स्टेल हो जाता है। बैंक सम्मान करने से मना कर सकता है।"
     }
 ]

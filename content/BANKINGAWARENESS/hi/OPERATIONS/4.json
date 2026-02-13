@@ -1,277 +1,288 @@
 ﻿[
     {
-        "prompt":  "A loan becomes NPA when the payment is overdue for how many days?",
-        "answers":  [
-                        "30 days",
-                        "60 days",
-                        "90 days",
-                        "180 days"
-                    ],
-        "correct":  2,
-        "explanation":  "For standard assets, if interest or principal instalment remains overdue for 90 days, the asset is classified as NPA."
+        "prompt": "ऋण NPA कब बनता है जब भुगतान कितने दिनों से अतिदेय है?",
+        "answers": [
+            "30 दिन",
+            "60 दिन",
+            "90 दिन",
+            "180 दिन"
+        ],
+        "correct": 2,
+        "explanation": "मानक संपत्तियों के लिए, यदि ब्याज या मूलधन किश्त 90 दिनों से अतिदेय रहती है, तो संपत्ति NPA के रूप में वर्गीकृत होती है।"
     },
     {
-        "prompt":  "CASA ratio in banking refers to?",
-        "answers":  [
-                        "Current Account and Savings Account as proportion of total deposits",
-                        "Credit and Savings Amount",
-                        "Cash and Securities Ratio",
-                        "Capital and Asset ratio"
-                    ],
-        "correct":  0,
-        "explanation":  "CASA ratio = (Current + Savings deposits) / Total deposits. Higher CASA means lower cost of funds for banks."
+        "prompt": "बैंकिंग में CASA रेशियो क्या संदर्भित करता है?",
+        "answers": [
+            "कुल जमा के अनुपात में करंट अकाउंट और सेविंग्स अकाउंट",
+            "क्रेडिट और सेविंग्स अमाउंट",
+            "कैश और सिक्योरिटीज रेशियो",
+            "कैपिटल और एसेट रेशियो"
+        ],
+        "correct": 0,
+        "explanation": "CASA रेशियो = (करंट + सेविंग्स डिपॉजिट) / कुल जमा। उच्च CASA का अर्थ बैंकों के लिए कम फंड लागत।"
     },
     {
-        "prompt":  "What does NEFT stand for?",
-        "answers":  [
-                        "National Electronic Funds Transfer",
-                        "National Electronic Financial Transaction",
-                        "New Electronic Funds Transfer",
-                        "National Electronic Fund Transaction"
-                    ],
-        "correct":  0,
-        "explanation":  "NEFT (National Electronic Funds Transfer) is a nation-wide payment system for one-to-one funds transfer. It operates in hourly batches."
+        "prompt": "NEFT का पूरा नाम क्या है?",
+        "answers": [
+            "National Electronic Funds Transfer",
+            "National Electronic Financial Transaction",
+            "New Electronic Funds Transfer",
+            "National Electronic Fund Transaction"
+        ],
+        "correct": 0,
+        "explanation": "NEFT (National Electronic Funds Transfer) एक-से-एक फंड ट्रांसफर के लिए राष्ट्रव्यापी भुगतान प्रणाली है। यह प्रति घंटे बैच में कार्य करता है।"
     },
     {
-        "prompt":  "RTGS stands for?",
-        "answers":  [
-                        "Real Time Gross Settlement",
-                        "Real Time General Settlement",
-                        "Real Transfer Gross Settlement",
-                        "Revenue Time Gross Settlement"
-                    ],
-        "correct":  0,
-        "explanation":  "RTGS enables real-time fund transfers. \u0027Gross\u0027 means each transaction is settled individually. Minimum amount is Rs 2 lakh."
+        "prompt": "RTGS का पूरा नाम क्या है?",
+        "answers": [
+            "Real Time Gross Settlement",
+            "Real Time General Settlement",
+            "Real Transfer Gross Settlement",
+            "Revenue Time Gross Settlement"
+        ],
+        "correct": 0,
+        "explanation": "RTGS रीयल-टाइम फंड ट्रांसफर सक्षम करता है। 'ग्रॉस' का अर्थ प्रत्येक लेनदेन व्यक्तिगत रूप से सेटल होता है। न्यूनतम राशि रु 2 लाख है।"
     },
     {
-        "prompt":  "What is the minimum amount for RTGS transfer?",
-        "answers":  [
-                        "No minimum",
-                        "Rs 1 lakh",
-                        "Rs 2 lakh",
-                        "Rs 5 lakh"
-                    ],
-        "correct":  2,
-        "explanation":  "RTGS has a minimum transfer amount of Rs 2 lakh. There is no upper limit. NEFT has no minimum or maximum."
+        "prompt": "RTGS के लिए न्यूनतम राशि क्या है?",
+        "answers": [
+            "रु 50000",
+            "रु 1 लाख",
+            "रु 2 लाख",
+            "कोई न्यूनतम नहीं"
+        ],
+        "correct": 2,
+        "explanation": "RTGS उच्च मूल्य वाले लेनदेन के लिए है। न्यूनतम राशि रु 2 लाख है। कोई ऊपरी सीमा नहीं।"
     },
     {
-        "prompt":  "IMPS stands for?",
-        "answers":  [
-                        "Instant Mobile Payment Service",
-                        "Immediate Payment Service",
-                        "International Money Transfer Service",
-                        "Instant Money Transfer System"
-                    ],
-        "correct":  1,
-        "explanation":  "IMPS (Immediate Payment Service) offers 24x7 instant inter-bank electronic fund transfer through mobile, internet, ATM."
+        "prompt": "IMPS का पूरा नाम क्या है?",
+        "answers": [
+            "Instant Mobile Payment Service",
+            "Immediate Payment Service",
+            "Indian Mobile Payment System",
+            "International Mobile Payment Service"
+        ],
+        "correct": 1,
+        "explanation": "IMPS (Immediate Payment Service) 24x7 तत्काल फंड ट्रांसफर प्रदान करता है। NPCI द्वारा संचालित।"
     },
     {
-        "prompt":  "A cheque is a?",
-        "answers":  [
-                        "Promise to pay",
-                        "Order to pay",
-                        "Request to pay",
-                        "Agreement to pay"
-                    ],
-        "correct":  1,
-        "explanation":  "A cheque is a negotiable instrument - an unconditional order in writing addressed to a banker to pay a certain sum to the bearer or order."
+        "prompt": "UPI का पूरा नाम क्या है?",
+        "answers": [
+            "Unified Payments Interface",
+            "Universal Payment Interface",
+            "United Payments India",
+            "Unique Payment Identifier"
+        ],
+        "correct": 0,
+        "explanation": "UPI (Unified Payments Interface) मोबाइल ऐप्स के माध्यम से तत्काल फंड ट्रांसफर सक्षम करता है। NPCI द्वारा विकसित।"
     },
     {
-        "prompt":  "A Demand Draft (DD) is issued by?",
-        "answers":  [
-                        "Customer",
-                        "Bank",
-                        "RBI",
-                        "Government"
-                    ],
-        "correct":  1,
-        "explanation":  "Demand Draft is a negotiable instrument issued by a bank on behalf of a customer, directing another bank to pay a specified amount."
+        "prompt": "BHIM ऐप किसके द्वारा लॉन्च किया गया?",
+        "answers": [
+            "RBI",
+            "NPCI",
+            "Google",
+            "SBI"
+        ],
+        "correct": 1,
+        "explanation": "BHIM (Bharat Interface for Money) NPCI द्वारा विकसित UPI आधारित ऐप है। 2016 में लॉन्च।"
     },
     {
-        "prompt":  "Under Mudra Yojana, \u0027Shishu\u0027 category covers loans up to?",
-        "answers":  [
-                        "Rs 25,000",
-                        "Rs 50,000",
-                        "Rs 5 lakh",
-                        "Rs 10 lakh"
-                    ],
-        "correct":  1,
-        "explanation":  "Mudra has 3 categories: Shishu (up to Rs 50,000), Kishore (Rs 50,001 to Rs 5 lakh), Tarun (Rs 5 lakh to Rs 10 lakh)."
+        "prompt": "UPI में VPA क्या है?",
+        "answers": [
+            "Virtual Private Address",
+            "Virtual Payment Address",
+            "Verified Payment Account",
+            "Virtual Personal Account"
+        ],
+        "correct": 1,
+        "explanation": "VPA (Virtual Payment Address) UPI में उपयोगकर्ता का पता है जैसे name@bank।"
     },
     {
-        "prompt":  "Priority Sector Lending includes loans to?",
-        "answers":  [
-                        "Large industries only",
-                        "Agriculture, MSMEs, education, housing, weaker sections",
-                        "Only government",
-                        "Only exports"
-                    ],
-        "correct":  1,
-        "explanation":  "Priority Sector includes agriculture, MSMEs, education, housing, export credit, social infrastructure, and weaker sections. Banks must lend 40% of ANBC to priority sector."
+        "prompt": "USSD आधारित मोबाइल बैंकिंग किसके लिए है?",
+        "answers": [
+            "केवल स्मार्टफोन",
+            "फीचर फोन - *99#",
+            "केवल ऐप",
+            "केवल इंटरनेट"
+        ],
+        "correct": 1,
+        "explanation": "USSD (*99#) फीचर फोन उपयोगकर्ताओं के लिए UPI और अन्य बैंकिंग सेवाएँ प्रदान करता है।"
     },
     {
-        "prompt":  "Crossing of a cheque means?",
-        "answers":  [
-                        "Tearing the cheque",
-                        "Drawing two parallel lines on cheque",
-                        "Signing the cheque",
-                        "Cancelling the cheque"
-                    ],
-        "correct":  1,
-        "explanation":  "Crossing (two parallel lines) on a cheque means it can only be deposited in a bank account, not encashed over the counter. It provides security."
+        "prompt": "Bharat QR कोड किसके लिए है?",
+        "answers": [
+            "केवल ऑनलाइन",
+            "मर्चेंट भुगतान - स्कैन और पे",
+            "केवल ट्रांसफर",
+            "केवल बैलेंस चेक"
+        ],
+        "correct": 1,
+        "explanation": "Bharat QR मर्चेंट भुगतान के लिए इंटरऑपरेबल QR कोड सिस्टम है।"
     },
     {
-        "prompt":  "A bearer cheque can be encashed by?",
-        "answers":  [
-                        "Only the payee",
-                        "Anyone who holds it",
-                        "Only through account",
-                        "Only at specific branch"
-                    ],
-        "correct":  1,
-        "explanation":  "Bearer cheque is payable to the bearer - anyone who presents it can get payment. Order cheque is payable only to the named payee."
+        "prompt": "NPCI का पूरा नाम क्या है?",
+        "answers": [
+            "National Payments Corporation of India",
+            "National Payment Council of India",
+            "New Payments Corporation India",
+            "National Public Corporation India"
+        ],
+        "correct": 0,
+        "explanation": "NPCI (National Payments Corporation of India) रिटेल भुगतान सिस्टम संचालित करता है जैसे UPI, IMPS, RuPay।"
     },
     {
-        "prompt":  "Validity period of a cheque in India is?",
-        "answers":  [
-                        "3 months",
-                        "6 months",
-                        "1 year",
-                        "No expiry"
-                    ],
-        "correct":  0,
-        "explanation":  "A cheque is valid for 3 months from the date of issue as per the Negotiable Instruments Act. After that, it becomes stale."
+        "prompt": "RuPay कार्ड किसके द्वारा लॉन्च किया गया?",
+        "answers": [
+            "RBI",
+            "NPCI",
+            "SBI",
+            "Visa"
+        ],
+        "correct": 1,
+        "explanation": "RuPay भारत का घरेलू कार्ड पेमेंट नेटवर्क है NPCI द्वारा लॉन्च। Visa और Mastercard का विकल्प।"
     },
     {
-        "prompt":  "What does Bouncing of cheque mean?",
-        "answers":  [
-                        "Cheque lost",
-                        "Cheque dishonored due to insufficient funds",
-                        "Cheque cancelled",
-                        "Cheque torn"
-                    ],
-        "correct":  1,
-        "explanation":  "Cheque bounce occurs when the bank refuses to pay due to insufficient funds, mismatch of signature, or other technical reasons. It is a criminal offense under NI Act."
+        "prompt": "AEPS में क्या उपयोग होता है?",
+        "answers": [
+            "केवल मोबाइल",
+            "आधार + बायोमेट्रिक प्रमाणीकरण",
+            "केवल कार्ड",
+            "केवल पिन"
+        ],
+        "correct": 1,
+        "explanation": "AEPS (Aadhaar Enabled Payment System) आधार और फिंगरप्रिंट/आईरिस का उपयोग करके लेनदेन करता है।"
     },
     {
-        "prompt":  "A minor above 10 years can open a savings account?",
-        "answers":  [
-                        "No, minors cannot open accounts",
-                        "Yes, with guardian",
-                        "Only fixed deposit",
-                        "Only in post office"
-                    ],
-        "correct":  1,
-        "explanation":  "Minors above 10 years can open savings accounts jointly with a guardian. Accounts can be operated by the minor after attaining majority."
+        "prompt": "CTS चेक क्लियरिंग सिस्टम में क्या है?",
+        "answers": [
+            "फिजिकल चेक मूवमेंट",
+            "चेक इमेज आधारित क्लियरिंग",
+            "केवल मेट्रो",
+            "केवल बड़े चेक"
+        ],
+        "correct": 1,
+        "explanation": "CTS (Cheque Truncation System) चेक क्लियरिंग को तेज बनाता है इमेज ट्रांसफर से।"
     },
     {
-        "prompt":  "TDS on interest from Fixed Deposits is applicable if interest exceeds?",
-        "answers":  [
-                        "Rs 5,000 (Rs 40,000 for senior citizens)",
-                        "Rs 10,000",
-                        "Rs 20,000",
-                        "Rs 50,000"
-                    ],
-        "correct":  0,
-        "explanation":  "TDS on FD interest: For general - Rs 40,000/year; For senior citizens - Rs 50,000/year. Form 15H/15G can be submitted to avoid TDS if income is below taxable limit."
+        "prompt": "MICR कोड में कितने अक्षर होते हैं?",
+        "answers": [
+            "6",
+            "9",
+            "11",
+            "12"
+        ],
+        "correct": 1,
+        "explanation": "MICR (Magnetic Ink Character Recognition) कोड 9 अक्षर का होता है: पहले 3 शहर, अगले 3 बैंक, अंतिम 3 शाखा।"
     },
     {
-        "prompt":  "Know Your Customer (KYC) documents include?",
-        "answers":  [
-                        "Only Aadhaar",
-                        "Aadhaar/Passport/Voter ID + Address proof",
-                        "Only PAN",
-                        "Only photo"
-                    ],
-        "correct":  1,
-        "explanation":  "KYC requires proof of identity (Aadhaar, Passport, Voter ID, Driving License) and proof of address. PAN is required for certain transactions."
+        "prompt": "IFSC कोड में कितने अक्षर होते हैं?",
+        "answers": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "correct": 2,
+        "explanation": "IFSC 11 अक्षर का होता है: पहले 4 बैंक कोड, 5वाँ 0, अंतिम 6 शाखा कोड।"
     },
     {
-        "prompt":  "Which type of loan is typically taken for purchasing a house or property?",
-        "answers":  [
-                        "Personal loan",
-                        "Home loan",
-                        "Education loan",
-                        "Vehicle loan"
-                    ],
-        "correct":  1,
-        "explanation":  "Home loan (housing loan) is specifically for purchasing, constructing, or renovating a residential property. It usually has a longer tenure (up to 30 years)."
+        "prompt": "SWIFT कोड किसके लिए उपयोग होता है?",
+        "answers": [
+            "घरेलू ट्रांसफर",
+            "अंतरराष्ट्रीय ट्रांसफर",
+            "केवल NEFT",
+            "केवल RTGS"
+        ],
+        "correct": 1,
+        "explanation": "SWIFT (Society for Worldwide Interbank Financial Telecommunication) अंतरराष्ट्रीय बैंक ट्रांसफर के लिए उपयोग होता है।"
     },
     {
-        "prompt":  "Education loans in India are primarily provided for?",
-        "answers":  [
-                        "Business expansion",
-                        "Higher education in India or abroad",
-                        "Vehicle purchase",
-                        "Home construction"
-                    ],
-        "correct":  1,
-        "explanation":  "Education loans finance higher studies - undergraduate, postgraduate, professional courses - in India or abroad. They often have a moratorium period during the course."
+        "prompt": "Bharat Bill Payment System (BBPS) किसके द्वारा संचालित है?",
+        "answers": [
+            "RBI",
+            "NPCI",
+            "SBI",
+            "SEBI"
+        ],
+        "correct": 1,
+        "explanation": "BBPS NPCI द्वारा संचालित है। यह सभी बिलों के लिए एकीकृत प्लेटफॉर्म है।"
     },
     {
-        "prompt":  "Which loan is secured against the vehicle being purchased?",
-        "answers":  [
-                        "Personal loan",
-                        "Home loan",
-                        "Vehicle loan (Auto loan)",
-                        "Education loan"
-                    ],
-        "correct":  2,
-        "explanation":  "Vehicle or auto loan is typically secured against the vehicle. The vehicle serves as collateral until the loan is fully repaid."
+        "prompt": "NACH का पूरा नाम क्या है?",
+        "answers": [
+            "National Automated Clearing House",
+            "New Automated Clearing House",
+            "National Account Clearing House",
+            "Net Automated Clearing House"
+        ],
+        "correct": 0,
+        "explanation": "NACH (National Automated Clearing House) NPCI द्वारा संचालित है। यह ECS का उन्नत संस्करण है।"
     },
     {
-        "prompt":  "Personal loan is generally?",
-        "answers":  [
-                        "Secured against property",
-                        "Unsecured - no collateral required",
-                        "Only for business",
-                        "With very low interest"
-                    ],
-        "correct":  1,
-        "explanation":  "Personal loan is unsecured - no collateral or security is required. Interest rates are usually higher than secured loans due to higher risk for the bank."
+        "prompt": "ECS क्या है?",
+        "answers": [
+            "Electronic Credit System",
+            "Electronic Clearing Service",
+            "Electronic Cash System",
+            "Electronic Cheque Service"
+        ],
+        "correct": 1,
+        "explanation": "ECS (Electronic Clearing Service) आवर्ती भुगतानों के लिए है जैसे EMI, सैलरी, डिविडेंड।"
     },
     {
-        "prompt":  "Current Account Deficit (CAD) occurs when?",
-        "answers":  [
-                        "Exports exceed imports",
-                        "Imports and remittances exceed exports and inward flows",
-                        "GDP is negative",
-                        "Inflation is high"
-                    ],
-        "correct":  1,
-        "explanation":  "CAD occurs when a country\u0027s imports, profit repatriation, and outward remittances exceed exports and inward flows. It indicates the economy is a net borrower from the rest of the world."
+        "prompt": "भारत में विदेशी मुद्रा भंडार में क्या शामिल है?",
+        "answers": [
+            "केवल US डॉलर",
+            "विभिन्न मुद्राएँ और सोना",
+            "केवल सोना",
+            "केवल SDRs"
+        ],
+        "correct": 1,
+        "explanation": "भारत के फॉरेक्स रिजर्व में विदेशी मुद्रा संपत्तियाँ (विभिन्न मुद्राएँ), सोना, SDRs और IMF में रिजर्व पोजिशन शामिल हैं।"
     },
     {
-        "prompt":  "Differential Rate of Interest (DRI) scheme provides loans at?",
-        "answers":  [
-                        "Market rate",
-                        "4% per annum",
-                        "7% per annum",
-                        "Subsidized rate to weaker sections"
-                    ],
-        "correct":  3,
-        "explanation":  "DRI scheme provides concessional loans at 4% p.a. to weaker sections for productive purposes. Each public sector bank has targets."
+        "prompt": "सेंट्रल बैंक ऑफ इंडिया की स्थापना कब हुई?",
+        "answers": [
+            "1906",
+            "1911",
+            "1921",
+            "1935"
+        ],
+        "correct": 1,
+        "explanation": "सेंट्रल बैंक ऑफ इंडिया की स्थापना 1911 में हुई। यह पूर्ण रूप से भारतीयों द्वारा स्वामित्व और प्रबंधित पहला भारतीय कमर्शियल बैंक था।"
     },
     {
-        "prompt":  "Gross NPA ratio is calculated as?",
-        "answers":  [
-                        "Gross NPA / Total advances",
-                        "Net NPA / Total assets",
-                        "Provision / NPA",
-                        "Capital / NPA"
-                    ],
-        "correct":  0,
-        "explanation":  "Gross NPA ratio = (Gross NPAs / Gross Advances) Ã— 100. It indicates the proportion of bad loans in the loan book."
+        "prompt": "RBI का पहला भारतीय गवर्नर कौन था?",
+        "answers": [
+            "सी.डी. देशमुख",
+            "बी. राम राव",
+            "एच.वी.आर. आयंगर",
+            "एल.के. झा"
+        ],
+        "correct": 0,
+        "explanation": "सी.डी. देशमुख RBI के पहले भारतीय गवर्नर थे (1943-1949)। बाद में वे वित्त मंत्री बने।"
     },
     {
-        "prompt":  "Net NPA is calculated as?",
-        "answers":  [
-                        "Gross NPA",
-                        "Gross NPA minus provisions",
-                        "Total loans minus advances",
-                        "NPAs minus recoveries"
-                    ],
-        "correct":  1,
-        "explanation":  "Net NPA = Gross NPA - (Balance in Interest Suspense Account + DICGC/ECGC claims received + Part payment received + Provision held)."
+        "prompt": "RBI इंटीग्रेटेड ओम्बड्समैन क्या कवर करता है?",
+        "answers": [
+            "केवल बैंक",
+            "बैंक, NBFCs और डिजिटल पेमेंट सिस्टम भागीदार",
+            "केवल NBFCs",
+            "केवल पेमेंट बैंक"
+        ],
+        "correct": 1,
+        "explanation": "इंटीग्रेटेड ओम्बड्समैन योजना नियंत्रित संस्थाओं को कवर करती है: बैंक, NBFCs और नॉन-बैंक प्रीपेड इंस्ट्रूमेंट जारीकर्ता आदि।"
+    },
+    {
+        "prompt": "RBI बैंकिंग ओम्बड्समैन कितने वर्षों के लिए नियुक्त होता है?",
+        "answers": [
+            "1 वर्ष",
+            "2 वर्ष",
+            "3 वर्ष",
+            "5 वर्ष"
+        ],
+        "correct": 2,
+        "explanation": "बैंकिंग ओम्बड्समैन 3 वर्ष के लिए नियुक्त होता है। फिर से नियुक्त किया जा सकता है।"
     }
 ]

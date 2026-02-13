@@ -1,11 +1,11 @@
 ﻿{
-    "prompt":  "A sub-standard asset is one which has remained NPA for?",
-    "answers":  [
-                    "Less than 12 months",
-                    "12 months or less",
-                    "More than 12 months",
-                    "More than 24 months"
-                ],
-    "correct":  1,
-    "explanation":  "Sub-standard: NPA for 12 months or less. Doubtful: NPA for more than 12 months. Loss: identified as uncollectible."
+    "prompt": "एक उप-मानक संपत्ति वह है जो NPA बनी रहती है कितने समय तक?",
+    "answers": [
+        "12 महीने से कम",
+        "12 महीने या कम",
+        "12 महीने से अधिक",
+        "24 महीने से अधिक"
+    ],
+    "correct": 1,
+    "explanation": "उप-मानक: 12 महीने या कम समय से NPA। संदिग्ध: 12 महीने से अधिक NPA। हानि: अप्राप्य के रूप में पहचानी गई।"
 }

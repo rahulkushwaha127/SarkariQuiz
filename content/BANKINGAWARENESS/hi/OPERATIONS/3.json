@@ -1,277 +1,332 @@
 ﻿[
     {
-        "prompt":  "Bouncing of cheque can lead to?",
-        "answers":  [
-                        "No penalty",
-                        "Criminal prosecution under NI Act",
-                        "Only civil case",
-                        "Only fine by bank"
-                    ],
-        "correct":  1,
-        "explanation":  "Dishonour of cheque for insufficient funds is criminal offense under Section 138 NI Act."
+        "prompt": "चेक बाउंसिंग से क्या हो सकता है?",
+        "answers": [
+            "कोई दंड नहीं",
+            "NI एक्ट के तहत आपराधिक अभियोजन",
+            "केवल सिविल केस",
+            "केवल बैंक द्वारा जुर्माना"
+        ],
+        "correct": 1,
+        "explanation": "अपर्याप्त फंड के लिए चेक का असम्मान NI एक्ट की धारा 138 के तहत आपराधिक अपराध है।"
     },
     {
-        "prompt":  "Demand draft is issued by?",
-        "answers":  [
-                        "Customer",
-                        "Bank on behalf of customer",
-                        "RBI",
-                        "Post office only"
-                    ],
-        "correct":  1,
-        "explanation":  "DD is issued by bank. It is order by one branch to another to pay specified amount."
+        "prompt": "डिमांड ड्राफ्ट किसके द्वारा जारी किया जाता है?",
+        "answers": [
+            "ग्राहक",
+            "ग्राहक की ओर से बैंक",
+            "RBI",
+            "केवल पोस्ट ऑफिस"
+        ],
+        "correct": 1,
+        "explanation": "DD बैंक द्वारा जारी किया जाता है। यह एक शाखा द्वारा दूसरी शाखा को निर्दिष्ट राशि भुगतान का आदेश है।"
     },
     {
-        "prompt":  "Banker cheque or pay order is?",
-        "answers":  [
-                        "Same as DD - payable at same branch",
-                        "Only for large amount",
-                        "Only for government",
-                        "Only for companies"
-                    ],
-        "correct":  0,
-        "explanation":  "Banker cheque is similar to DD but payable at same branch. Used for local payments."
+        "prompt": "बैंकर चेक या पे ऑर्डर क्या है?",
+        "answers": [
+            "DD के समान - उसी शाखा पर देय",
+            "केवल बड़ी राशि के लिए",
+            "केवल सरकार के लिए",
+            "केवल कंपनियों के लिए"
+        ],
+        "correct": 0,
+        "explanation": "बैंकर चेक DD के समान है लेकिन उसी शाखा पर देय है। स्थानीय भुगतानों के लिए उपयोग होता है।"
     },
     {
-        "prompt":  "Truncated cheque means?",
-        "answers":  [
-                        "Cheque cancelled",
-                        "Cheque image used instead of physical - in CTS",
-                        "Original sent",
-                        "Handwritten only"
-                    ],
-        "correct":  1,
-        "explanation":  "In cheque truncation, physical cheque is truncated (stopped) and image is used for clearing."
+        "prompt": "ट्रंकेटेड चेक का अर्थ है?",
+        "answers": [
+            "चेक रद्द",
+            "भौतिक चेक की जगह इमेज उपयोग - CTS में",
+            "मूल भेजा गया",
+            "केवल हैंडराइटन"
+        ],
+        "correct": 1,
+        "explanation": "चेक ट्रंकेशन में भौतिक चेक रोका (ट्रंकेट) जाता है और क्लियरिंग के लिए इमेज उपयोग की जाती है।"
     },
     {
-        "prompt":  "Foreign currency loan to exporter from bank is?",
-        "answers":  [
-                        "Not allowed",
-                        "Allowed - PCFC etc",
-                        "Only for import",
-                        "Only ECB"
-                    ],
-        "correct":  1,
-        "explanation":  "Banks can provide pre-shipment and post-shipment credit in foreign currency (PCFC, etc)."
+        "prompt": "विदेशी मुद्रा ऋण बैंक से निर्यातक को?",
+        "answers": [
+            "अनुमति नहीं",
+            "अनुमति - PCFC आदि",
+            "केवल आयात के लिए",
+            "केवल ECB"
+        ],
+        "correct": 1,
+        "explanation": "बैंक प्री-शिपमेंट और पोस्ट-शिपमेंट क्रेडिट विदेशी मुद्रा में दे सकते हैं (PCFC आदि)।"
     },
     {
-        "prompt":  "Working capital loan is for?",
-        "answers":  [
-                        "Fixed assets",
-                        "Day to day operations - inventory, receivables",
-                        "Only salaries",
-                        "Only machinery"
-                    ],
-        "correct":  1,
-        "explanation":  "Working capital finance funds current assets - raw material, work in progress, receivables."
+        "prompt": "फाइनेंशियल इनक्लूजन का अर्थ है?",
+        "answers": [
+            "केवल शहरी बैंकिंग",
+            "सभी के लिए सस्ती वित्तीय सेवाओं तक पहुँच",
+            "केवल ग्रामीण शाखाएँ",
+            "केवल सरकारी योजनाएँ"
+        ],
+        "correct": 1,
+        "explanation": "फाइनेंशियल इनक्लूजन सुनिश्चित करता है कि सभी व्यक्तियों और व्यवसायों को उपयोगी, सस्ती वित्तीय उत्पाद और सेवाएँ मिलें।"
     },
     {
-        "prompt":  "Tiered KYC for PPIs means?",
-        "answers":  [
-                        "Same for all",
-                        "Minimum KYC and Full KYC - different limits",
-                        "Only full KYC",
-                        "No KYC"
-                    ],
-        "correct":  1,
-        "explanation":  "Minimum KYC PPI has lower limits. Full KYC allows higher limits and more features."
+        "prompt": "PMJDY के तहत जीरो बैलेंस अकाउंट में क्या है?",
+        "answers": [
+            "न्यूनतम रु 100",
+            "कोई न्यूनतम बैलेंस आवश्यकता नहीं",
+            "रु 500 न्यूनतम",
+            "रु 1000 न्यूनतम"
+        ],
+        "correct": 1,
+        "explanation": "PMJDY खाते जीरो बैलेंस से खोले जा सकते हैं। कोई न्यूनतम बैलेंस आवश्यकता नहीं।"
     },
     {
-        "prompt":  "Bridge loan is?",
-        "answers":  [
-                        "Long term loan",
-                        "Short term loan to bridge timing gap",
-                        "Only for export",
-                        "Only for farmers"
-                    ],
-        "correct":  1,
-        "explanation":  "Bridge loan is short-term financing to bridge gap until long-term financing or expected inflow is received."
+        "prompt": "PMJDY के तहत रुपे कार्ड में दुर्घटना बीमा कितना है?",
+        "answers": [
+            "रु 30000",
+            "रु 1 लाख",
+            "रु 2 लाख",
+            "रु 5 लाख"
+        ],
+        "correct": 1,
+        "explanation": "PMJDY के तहत जारी रुपे डेबिट कार्ड में रु 1 लाख दुर्घटना बीमा कवर है।"
     },
     {
-        "prompt":  "Top-up loan is?",
-        "answers":  [
-                        "New loan",
-                        "Additional loan on existing home loan",
-                        "Only for vehicle",
-                        "Only for personal"
-                    ],
-        "correct":  1,
-        "explanation":  "Top-up loan is additional amount sanctioned on existing home loan, often at better rate."
+        "prompt": "PMJDY की पहली वर्ष में कितने खाते खोले गए?",
+        "answers": [
+            "5 करोड़",
+            "12 करोड़ से अधिक",
+            "20 करोड़",
+            "50 करोड़"
+        ],
+        "correct": 1,
+        "explanation": "PMJDY लॉन्च के पहले वर्ष में 12 करोड़ से अधिक खाते खोले गए।"
     },
     {
-        "prompt":  "Loan against securities allows borrowing against?",
-        "answers":  [
-                        "Only gold",
-                        "Shares, mutual funds, bonds",
-                        "Only property",
-                        "Only FD"
-                    ],
-        "correct":  1,
-        "explanation":  "Loan against securities: bank lends against pledge of shares, mutual fund units, bonds. Margin applied."
+        "prompt": "जन धन से जन सुरक्षा में क्या शामिल है?",
+        "answers": [
+            "केवल PMJDY",
+            "PMJDY, PMSBY, PMJJBY, APY",
+            "केवल बीमा",
+            "केवल पेंशन"
+        ],
+        "correct": 1,
+        "explanation": "जन धन से जन सुरक्षा पैराडाइम में PMJDY, PMSBY, PMJJBY और APY सामाजिक सुरक्षा के लिए शामिल हैं।"
     },
     {
-        "prompt":  "Lien on fixed deposit means?",
-        "answers":  [
-                        "FD closed",
-                        "Bank has right to adjust FD against loan default",
-                        "FD transferred",
-                        "FD encashed"
-                    ],
-        "correct":  1,
-        "explanation":  "Lien gives bank right to adjust FD proceeds against loan dues if borrower defaults."
+        "prompt": "प्रधानमंत्री वय वंदना योजना किसके लिए है?",
+        "answers": [
+            "बच्चे",
+            "वरिष्ठ नागरिक - पेंशन योजना",
+            "केवल महिलाएँ",
+            "किसान"
+        ],
+        "correct": 1,
+        "explanation": "PMVVY 60 वर्ष और उससे अधिक उम्र के वरिष्ठ नागरिकों के लिए LIC द्वारा पेंशन योजना है।"
     },
     {
-        "prompt":  "Loan covenant is?",
-        "answers":  [
-                        "Interest rate",
-                        "Condition borrower must comply with",
-                        "Collateral type",
-                        "Tenure"
-                    ],
-        "correct":  1,
-        "explanation":  "Covenants are conditions in loan agreement - financial ratios, restrictions. Breach can trigger default."
+        "prompt": "अटल पेंशन योजना कब शुरू हुई?",
+        "answers": [
+            "2014",
+            "2015",
+            "2016",
+            "2017"
+        ],
+        "correct": 1,
+        "explanation": "APY मई 2015 में शुरू हुई। 60 वर्ष से गारंटीड पेंशन प्रदान करती है।"
     },
     {
-        "prompt":  "Loan to Value LTV of 80% means?",
-        "answers":  [
-                        "80% loan 20% down",
-                        "Bank funds 80% of asset value",
-                        "20% margin",
-                        "All of above"
-                    ],
-        "correct":  3,
-        "explanation":  "LTV 80% means bank lends 80% of property/value. Borrower brings 20% as margin."
+        "prompt": "सुकन्या समृद्धि योजना किसके लिए खोली जा सकती है?",
+        "answers": [
+            "किसी भी लड़की के लिए",
+            "10 वर्ष से कम उम्र की लड़की बच्ची के लिए",
+            "केवल ग्रामीण",
+            "केवल शहरी"
+        ],
+        "correct": 1,
+        "explanation": "SSY 10 वर्ष से कम उम्र की लड़की बच्ची के लिए खोली जा सकती है। 21 वर्ष या 18 वर्ष के बाद विवाह पर मैच्योर।"
     },
     {
-        "prompt":  "Processing fee for home loan is?",
-        "answers":  [
-                        "Nil",
-                        "Charged by bank - usually percentage of loan",
-                        "Only for private banks",
-                        "Refundable"
-                    ],
-        "correct":  1,
-        "explanation":  "Banks charge processing fee (e.g., 0.5-1% of loan) for home loans. Non-refundable."
+        "prompt": "पब्लिक प्रोविडेंट फंड (PPF) की अवधि कितनी है?",
+        "answers": [
+            "5 वर्ष",
+            "10 वर्ष",
+            "15 वर्ष",
+            "20 वर्ष"
+        ],
+        "correct": 2,
+        "explanation": "PPF की मैच्योरिटी अवधि 15 वर्ष है। 5 वर्ष के ब्लॉक में बढ़ाई जा सकती है।"
     },
     {
-        "prompt":  "Prepayment of loan means?",
-        "answers":  [
-                        "Missing EMI",
-                        "Paying loan before tenure ends",
-                        "Only partial",
-                        "Only full"
-                    ],
-        "correct":  1,
-        "explanation":  "Prepayment is repaying loan (partial or full) before scheduled tenure. On floating rate home loans, no penalty."
+        "prompt": "PPF में प्रति वर्ष अधिकतम जमा कितना?",
+        "answers": [
+            "रु 1 लाख",
+            "रु 1.5 लाख",
+            "रु 2 लाख",
+            "रु 5 लाख"
+        ],
+        "correct": 1,
+        "explanation": "PPF में प्रति वित्तीय वर्ष अधिकतम जमा रु 1.5 लाख है। न्यूनतम रु 500।"
     },
     {
-        "prompt":  "Refinancing a loan means?",
-        "answers":  [
-                        "Defaulting",
-                        "Taking new loan to replace existing - often at better rate",
-                        "Only top-up",
-                        "Only restructuring"
-                    ],
-        "correct":  1,
-        "explanation":  "Refinancing: replacing existing loan with new one, often from another lender at lower rate."
+        "prompt": "सीनियर सिटिजन्स सेविंग्स स्कीम (SCSS) में अधिकतम जमा कितना?",
+        "answers": [
+            "रु 5 लाख",
+            "रु 15 लाख",
+            "रु 30 लाख",
+            "रु 50 लाख"
+        ],
+        "correct": 2,
+        "explanation": "SCSS में अधिकतम जमा रु 30 लाख (एक से अधिक खातों में भी)। उम्र 60+ (VRS के लिए 55)।"
     },
     {
-        "prompt":  "Debt consolidation loan?",
-        "answers":  [
-                        "Increases number of loans",
-                        "Combines multiple loans into one",
-                        "Only for business",
-                        "Only for farmers"
-                    ],
-        "correct":  1,
-        "explanation":  "Debt consolidation combines multiple loans (credit card, personal, etc.) into single loan."
+        "prompt": "नेशनल सेविंग्स सर्टिफिकेट (NSC) की अवधि कितनी है?",
+        "answers": [
+            "3 वर्ष",
+            "5 वर्ष",
+            "7 वर्ष",
+            "10 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "NSC VIII इश्यू की 5 वर्ष अवधि। ब्याज वार्षिक कंपाउंड। 80C के तहत कर लाभ।"
     },
     {
-        "prompt":  "Balloon payment in loan means?",
-        "answers":  [
-                        "Equal EMI",
-                        "Large final payment at end",
-                        "No EMI",
-                        "Only interest"
-                    ],
-        "correct":  1,
-        "explanation":  "Balloon payment: small EMIs during tenure, large lump sum at end. Used in some vehicle/business loans."
+        "prompt": "किसान विकास पत्र (KVP) कितने समय में दोगुना होता है?",
+        "answers": [
+            "100 महीने",
+            "113 महीने",
+            "120 महीने",
+            "150 महीने"
+        ],
+        "correct": 0,
+        "explanation": "KVP निवेश को लगभग 100 महीनों (8 वर्ष+) में दोगुना करता है।"
     },
     {
-        "prompt":  "Fixed rate loan interest?",
-        "answers":  [
-                        "Changes with market",
-                        "Remains same for agreed period",
-                        "Only for 1 year",
-                        "Only for government"
-                    ],
-        "correct":  1,
-        "explanation":  "Fixed rate loan has interest rate fixed for the entire or initial period of loan."
+        "prompt": "पोस्ट ऑफिस मंथली इनकम स्कीम (POMIS) की एकल/संयुक्त अधिकतम सीमा?",
+        "answers": [
+            "रु 3 लाख एकल रु 6 लाख संयुक्त",
+            "रु 5 लाख रु 10 लाख",
+            "रु 9 लाख रु 15 लाख",
+            "रु 15 लाख रु 30 लाख"
+        ],
+        "correct": 2,
+        "explanation": "POMIS: एकल रु 9 लाख, संयुक्त रु 15 लाख। 5 वर्ष मैच्योरिटी।"
     },
     {
-        "prompt":  "Teaser rate in loan is?",
-        "answers":  [
-                        "Permanent low rate",
-                        "Initial low rate that increases later",
-                        "Only for home loans",
-                        "Banned by RBI"
-                    ],
-        "correct":  1,
-        "explanation":  "Teaser rate: attractively low initial rate that resets higher. RBI had concerns; now floating rate norms apply."
+        "prompt": "पोस्ट ऑफिस रिकरिंग डिपॉजिट की अधिकतम अवधि?",
+        "answers": [
+            "3 वर्ष",
+            "5 वर्ष",
+            "10 वर्ष",
+            "15 वर्ष"
+        ],
+        "correct": 1,
+        "explanation": "पोस्ट ऑफिस RD की 5 वर्ष अवधि। मासिक जमा। मैच्योरिटी पर ब्याज।"
     },
     {
-        "prompt":  "Education loan interest subvention for girl child is?",
-        "answers":  [
-                        "Not available",
-                        "1% additional - under Central Scheme",
-                        "Only for abroad",
-                        "Only for postgraduate"
-                    ],
-        "correct":  1,
-        "explanation":  "Under Central Scheme for Interest Subsidy, girl students get additional 1% interest subvention."
+        "prompt": "महिला सम्मान बचत पत्र में जमा कितना तक?",
+        "answers": [
+            "रु 1 लाख",
+            "रु 2 लाख",
+            "रु 5 लाख",
+            "रु 10 लाख"
+        ],
+        "correct": 1,
+        "explanation": "MSSC (2023) महिलाओं को रु 2 लाख तक जमा करने की अनुमति देता है। 2 वर्ष अवधि। 7.5% ब्याज।"
     },
     {
-        "prompt":  "Current Account is generally used by?",
-        "answers":  [
-                        "Individuals for savings",
-                        "Businesses for frequent transactions",
-                        "Senior citizens only",
-                        "Rural customers"
-                    ],
-        "correct":  1,
-        "explanation":  "Current accounts are for businesses and firms that need to make frequent transactions. Usually no interest is paid on current accounts."
+        "prompt": "बैंक पासबुक क्या है?",
+        "answers": [
+            "वैकल्पिक",
+            "लेनदेन का रिकॉर्ड - स्टेटमेंट से बदला जा सकता है",
+            "बचत के लिए आवश्यक नहीं",
+            "केवल करंट अकाउंट के लिए"
+        ],
+        "correct": 1,
+        "explanation": "पासबुक लेनदेन रिकॉर्ड करती है। कई बैंक ई-पासबुक या स्टेटमेंट ऑफर करते हैं।"
     },
     {
-        "prompt":  "Fixed Deposit (FD) typically offers?",
-        "answers":  [
-                        "Lower interest than savings",
-                        "Higher interest with lock-in period",
-                        "No interest",
-                        "Variable daily interest"
-                    ],
-        "correct":  1,
-        "explanation":  "Fixed Deposits offer higher interest rates than savings accounts. The amount is locked for a fixed period (7 days to 10 years)."
+        "prompt": "बैंक से अकाउंट स्टेटमेंट क्या दिखाता है?",
+        "answers": [
+            "केवल बैलेंस",
+            "सभी लेनदेन क्रेडिट डेबिट बैलेंस",
+            "केवल डेबिट",
+            "केवल क्रेडिट"
+        ],
+        "correct": 1,
+        "explanation": "बैंक स्टेटमेंट सभी लेनदेन (जमा, निकासी) और चलता बैलेंस दिखाता है।"
     },
     {
-        "prompt":  "What does KYC stand for?",
-        "answers":  [
-                        "Know Your Client",
-                        "Know Your Customer",
-                        "Key Your Credentials",
-                        "Know Your Credit"
-                    ],
-        "correct":  1,
-        "explanation":  "KYC (Know Your Customer) is the process of verifying the identity of customers to prevent fraud, money laundering, and terrorist financing."
+        "prompt": "डॉर्मेंट अकाउंट वह है जिसमें?",
+        "answers": [
+            "2 वर्ष से कोई लेनदेन नहीं",
+            "1 वर्ष से कोई लेनदेन नहीं",
+            "नेगेटिव बैलेंस",
+            "बंद"
+        ],
+        "correct": 0,
+        "explanation": "ग्राहक द्वारा शुरू किए गए लेनदेन के 2 वर्ष न होने पर अकाउंट डॉर्मेंट/इनऑपरेटिव हो जाता है।"
     },
     {
-        "prompt":  "NPA stands for?",
-        "answers":  [
-                        "Non-Provisioning Asset",
-                        "Non-Performing Asset",
-                        "Net Performing Asset",
-                        "National Payment Authority"
-                    ],
-        "correct":  1,
-        "explanation":  "NPA (Non-Performing Asset) is a loan or advance where interest or principal payment has been overdue for 90 days or more."
+        "prompt": "इनऑपरेटिव अकाउंट को कैसे सक्रिय किया जा सकता है?",
+        "answers": [
+            "सक्रिय नहीं किया जा सकता",
+            "KYC और बैंक को अनुरोध जमा करके",
+            "केवल बंद करके",
+            "केवल RBI द्वारा"
+        ],
+        "correct": 1,
+        "explanation": "ग्राहक KYC और लिखित अनुरोध देकर डॉर्मेंट अकाउंट सक्रिय कर सकता है। बैंक रिएक्टिवेशन के लिए चार्ज ले सकता है।"
+    },
+    {
+        "prompt": "बैंक अकाउंट में नामांकन किसमें मदद करता है?",
+        "answers": [
+            "ऋण प्राप्त करना",
+            "मृत्यु पर नामांकित व्यक्ति को सुगम हस्तांतरण",
+            "उच्च ब्याज",
+            "कर लाभ"
+        ],
+        "correct": 1,
+        "explanation": "नामांकन खाताधारक की मृत्यु पर नामांकित व्यक्ति को बैलेंस हस्तांतरण को सरल बनाता है।"
+    },
+    {
+        "prompt": "बैंक न्यूनतम बैलेंस न बनाए रखने पर चार्ज कर सकता है?",
+        "answers": [
+            "BSBD अकाउंट में",
+            "रेगुलर सेविंग्स अकाउंट में",
+            "दोनों में",
+            "किसी में नहीं"
+        ],
+        "correct": 1,
+        "explanation": "BSBD (बेसिक सेविंग्स) अकाउंट में न्यूनतम बैलेंस न बनाए रखने पर चार्ज नहीं। रेगुलर सेविंग्स में चार्ज कर सकता है।"
+    },
+    {
+        "prompt": "जीरो बैलेंस सुविधा किसमें अनिवार्य है?",
+        "answers": [
+            "सभी अकाउंट्स",
+            "BSBD और PMJDY प्रकार के अकाउंट्स",
+            "केवल करंट",
+            "केवल FD"
+        ],
+        "correct": 1,
+        "explanation": "BSBD और PMJDY अकाउंट्स में जीरो बैलेंस सुविधा है। इनमें न्यूनतम बैलेंस की मांग नहीं की जा सकती।"
+    },
+    {
+        "prompt": "AePS के लिए फिंगरप्रिंट बायोमेट्रिक क्या है?",
+        "answers": [
+            "वैकल्पिक",
+            "मानक - आधार के साथ",
+            "उपयोग नहीं होता",
+            "केवल आईरिस के लिए"
+        ],
+        "correct": 1,
+        "explanation": "AePS आधार नंबर के साथ फिंगरप्रिंट या आईरिस बायोमेट्रिक का उपयोग प्रमाणीकरण के लिए करता है।"
+    },
+    {
+        "prompt": "JAM ट्रिनिटी पर किसने जोर दिया?",
+        "answers": [
+            "राजा चेलैया",
+            "इकोनॉमिक सर्वे और सरकार",
+            "केवल RBI",
+            "केवल NABARD"
+        ],
+        "correct": 1,
+        "explanation": "JAM (जन धन-आधार-मोबाइल) इकोनॉमिक सर्वे और सरकारी नीति में कुशल DBT के लिए जोर दिया गया।"
     }
 ]
