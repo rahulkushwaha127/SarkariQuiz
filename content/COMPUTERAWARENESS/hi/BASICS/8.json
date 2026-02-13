@@ -1,0 +1,277 @@
+[
+    {
+        "prompt": "GUI का मतलब?",
+        "answers": [
+            "Graphical User Interface",
+            "General User Interface",
+            "Graphical Unit Interface",
+            "General Unit Input"
+        ],
+        "correct": 0,
+        "explanation": "GUI आइकन, विंडो, मेनू उपयोग करता है।"
+    },
+    {
+        "prompt": "DOS का मतलब?",
+        "answers": [
+            "Disk Operating System",
+            "Digital Operating System",
+            "Data Operating System",
+            "Drive Operating System"
+        ],
+        "correct": 0,
+        "explanation": "DOS प्रारंभिक कमांड-लाइन ऑपरेटिंग सिस्टम है।"
+    },
+    {
+        "prompt": "सॉफ्टवेयर में API?",
+        "answers": [
+            "Application Programming Interface",
+            "Advanced Program Input",
+            "Application Protocol Internet",
+            "Automated Process Interface"
+        ],
+        "correct": 0,
+        "explanation": "API विभिन्न सॉफ्टवेयर को संचार करने देता है।"
+    },
+    {
+        "prompt": "CD-ROM का मतलब?",
+        "answers": [
+            "Compact Disc Read-Only Memory",
+            "Computer Disc Read-Only Memory",
+            "Compact Data Read-Only Memory",
+            "Computer Data Read-Only Memory"
+        ],
+        "correct": 0,
+        "explanation": "CD-ROM ऑप्टिकल डिस्क है। रीड-ओनली। लगभग 700 MB तक।"
+    },
+    {
+        "prompt": "स्मार्ट होम उपकरण किसका उदाहरण हैं?",
+        "answers": [
+            "मेनफ्रेम",
+            "IoT - कनेक्टेड उपकरण",
+            "सुपरकंप्यूटर",
+            "केवल डेस्कटॉप"
+        ],
+        "correct": 1,
+        "explanation": "स्मार्ट लाइट, थर्मोस्टैट - IoT। इंटरनेट से नियंत्रित।"
+    },
+    {
+        "prompt": "FTP का मतलब?",
+        "answers": [
+            "File Transfer Protocol",
+            "Fast Transfer Protocol",
+            "File Transmission Protocol",
+            "Flexible Transfer Protocol"
+        ],
+        "correct": 0,
+        "explanation": "FTP कंप्यूटर के बीच फाइलें ट्रांसफर करता है।"
+    },
+    {
+        "prompt": "पोर्ट 80 किसके लिए उपयोग होता है?",
+        "answers": [
+            "HTTPS",
+            "HTTP - अनएन्क्रिप्टेड वेब",
+            "FTP",
+            "ईमेल"
+        ],
+        "correct": 1,
+        "explanation": "पोर्ट 80 - HTTP। पोर्ट 443 - HTTPS।"
+    },
+    {
+        "prompt": "पोर्ट 443 किसके लिए उपयोग होता है?",
+        "answers": [
+            "HTTP",
+            "HTTPS - सुरक्षित वेब",
+            "FTP",
+            "SMTP"
+        ],
+        "correct": 1,
+        "explanation": "पोर्ट 443 - HTTPS। एन्क्रिप्टेड वेब ट्रैफिक।"
+    },
+    {
+        "prompt": "बैंडविड्थ मापता है?",
+        "answers": [
+            "स्टोरेज",
+            "डेटा ट्रांसफर क्षमता - बिट प्रति सेकंड",
+            "प्रोसेसर गति",
+            "स्क्रीन आकार"
+        ],
+        "correct": 1,
+        "explanation": "बैंडविड्थ - अधिकतम डेटा दर। Mbps, Gbps।"
+    },
+    {
+        "prompt": "नेटवर्किंग में लेटेंसी?",
+        "answers": [
+            "डेटा आकार",
+            "विलंब - डेटा यात्रा का समय",
+            "केवल गति",
+            "स्टोरेज"
+        ],
+        "correct": 1,
+        "explanation": "लेटेंसी - राउंड-ट्रिप समय। कम बेहतर।"
+    },
+    {
+        "prompt": "राउटर क्या करता है?",
+        "answers": [
+            "केवल स्विच",
+            "नेटवर्क के बीच डेटा अग्रेषित करता है",
+            "केवल मॉडेम",
+            "केवल फायरवॉल"
+        ],
+        "correct": 1,
+        "explanation": "राउटर नेटवर्क जोड़ता है। पैकेट रूट करता है।"
+    },
+    {
+        "prompt": "स्विच क्या जोड़ता है?",
+        "answers": [
+            "केवल नेटवर्क",
+            "समान नेटवर्क में डिवाइस",
+            "केवल इंटरनेट",
+            "केवल वायरलेस"
+        ],
+        "correct": 1,
+        "explanation": "स्विच LAN में डिवाइस जोड़ता है।"
+    },
+    {
+        "prompt": "मॉडेम क्या करता है?",
+        "answers": [
+            "केवल रूट",
+            "मॉडुलेट-डिमॉडुलेट - डिजिटल को एनालॉग में बदलता है",
+            "केवल स्विच",
+            "केवल फायरवॉल"
+        ],
+        "correct": 1,
+        "explanation": "मॉडेम डिजिटल को एनालॉग में और वापस बदलता है।"
+    },
+    {
+        "prompt": "ईथरनेट क्या है?",
+        "answers": [
+            "केवल वायरलेस",
+            "वायर्ड LAN प्रौद्योगिकी",
+            "केवल इंटरनेट के लिए",
+            "केवल USB के लिए"
+        ],
+        "correct": 1,
+        "explanation": "ईथरनेट - वायर्ड नेटवर्किंग। RJ-45 केबल।"
+    },
+    {
+        "prompt": "MAC एड्रेस पहचानता है?",
+        "answers": [
+            "सॉफ्टवेयर",
+            "नेटवर्क इंटरफेस - हार्डवेयर पहचानकर्ता",
+            "उपयोगकर्ता",
+            "स्थान"
+        ],
+        "correct": 1,
+        "explanation": "MAC - हार्डवेयर पता। 48 बिट।"
+    },
+    {
+        "prompt": "Ping क्या परीक्षण करता है?",
+        "answers": [
+            "स्टोरेज",
+            "कनेक्टिविटी - पैकेट भेजता है, प्रतिक्रिया समय मापता है",
+            "डिस्प्ले",
+            "ध्वनि"
+        ],
+        "correct": 1,
+        "explanation": "Ping ICMP पैकेट भेजता है। होस्ट पहुंच योग्य है या नहीं।"
+    },
+    {
+        "prompt": "Traceroute दिखाता है?",
+        "answers": [
+            "केवल गंतव्य",
+            "पैकेट का मार्ग - गंतव्य तक प्रत्येक होप",
+            "केवल स्रोत",
+            "केवल समय"
+        ],
+        "correct": 1,
+        "explanation": "Traceroute मार्ग दिखाता है। प्रत्येक होप सूचीबद्ध।"
+    },
+    {
+        "prompt": "बिग डेटा किसे कहते हैं?",
+        "answers": [
+            "छोटे डेटासेट",
+            "बड़े जटिल डेटासेट - वॉल्यूम वेलोसिटी वैरायटी",
+            "केवल संख्या",
+            "केवल टेक्स्ट"
+        ],
+        "correct": 1,
+        "explanation": "बिग डेटा में बड़ी मात्रा, उच्च गति, विविधता होती है।"
+    },
+    {
+        "prompt": "बिग डेटा के तीन V?",
+        "answers": [
+            "Value Vision Victory",
+            "Volume Velocity Variety",
+            "Virtual Visual Vital",
+            "Vendor Version Valid"
+        ],
+        "correct": 1,
+        "explanation": "Volume आकार, Velocity गति, Variety डेटा के प्रकार।"
+    },
+    {
+        "prompt": "बिग डेटा में Volume का मतलब?",
+        "answers": [
+            "गति",
+            "डेटा की मात्रा - टेराबाइट पेटाबाइट",
+            "प्रकार",
+            "गुणवत्ता"
+        ],
+        "correct": 1,
+        "explanation": "Volume डेटा का पैमाना है।"
+    },
+    {
+        "prompt": "बिग डेटा में Velocity का मतलब?",
+        "answers": [
+            "केवल आकार",
+            "डेटा उत्पन्न और प्रोसेस करने की गति",
+            "केवल प्रकार",
+            "केवल स्टोरेज"
+        ],
+        "correct": 1,
+        "explanation": "Velocity रीयल-टाइम डेटा स्ट्रीमिंग है।"
+    },
+    {
+        "prompt": "बिग डेटा में Variety का मतलब?",
+        "answers": [
+            "केवल संख्या",
+            "विभिन्न प्रकार - संरचित असंरचित अर्ध-संरचित",
+            "केवल टेक्स्ट",
+            "केवल छवि"
+        ],
+        "correct": 1,
+        "explanation": "Variety टेक्स्ट, छवि, वीडियो, लॉग।"
+    },
+    {
+        "prompt": "ब्लॉकचेन क्या है?",
+        "answers": [
+            "केंद्रीकृत डेटाबेस",
+            "विकेंद्रीकृत वितरित लेजर - ब्लॉक जुड़े",
+            "केवल मुद्रा के लिए",
+            "केवल गेमिंग के लिए"
+        ],
+        "correct": 1,
+        "explanation": "ब्लॉकचेन वितरित लेजर है। कोई केंद्रीय प्राधिकारी नहीं।"
+    },
+    {
+        "prompt": "ब्लॉकचेन प्रदान करता है?",
+        "answers": [
+            "केंद्रीय नियंत्रण",
+            "पारदर्शिता अपरिवर्तनशीलता विकेंद्रीकरण",
+            "केवल गति",
+            "केवल स्टोरेज"
+        ],
+        "correct": 1,
+        "explanation": "ब्लॉकचेन पारदर्शी, अपरिवर्तनीय, विकेंद्रीकृत है।"
+    },
+    {
+        "prompt": "बिटकॉइन उपयोग करता है?",
+        "answers": [
+            "केंद्रीय बैंक",
+            "ब्लॉकचेन प्रौद्योगिकी",
+            "पारंपरिक डेटाबेस",
+            "केवल क्लाउड"
+        ],
+        "correct": 1,
+        "explanation": "बिटकॉइन पहला ब्लॉकचेन अनुप्रयोग है।"
+    }
+]

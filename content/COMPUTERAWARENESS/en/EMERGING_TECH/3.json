@@ -1,0 +1,24 @@
+﻿[
+    {
+        "prompt":  "Neural network is inspired by?",
+        "answers":  [
+                        "Circuits",
+                        "Human brain structure",
+                        "Database",
+                        "Algebra"
+                    ],
+        "correct":  1,
+        "explanation":  "Neural nets mimic brain - nodes (neurons) connected in layers. Learn from data."
+    },
+    {
+        "prompt":  "Cloud types include?",
+        "answers":  [
+                        "Only public",
+                        "Public, private, hybrid",
+                        "Only private",
+                        "Only hybrid"
+                    ],
+        "correct":  1,
+        "explanation":  "Public (shared), Private (single org), Hybrid (combination)."
+    }
+]

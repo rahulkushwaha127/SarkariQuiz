@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "UNICODE?",
+        "answers":  [
+                        "Only English",
+                        "Universal character encoding - supports all languages",
+                        "Only ASCII",
+                        "Only numbers"
+                    ],
+        "correct":  1,
+        "explanation":  "Unicode - supports all scripts. UTF-8 common."
+    },
+    {
+        "prompt":  "JSON full form?",
+        "answers":  [
+                        "JavaScript Object Notation",
+                        "Java System Object Notation",
+                        "JavaScript Online Notation",
+                        "Java Object Notation"
+                    ],
+        "correct":  0,
+        "explanation":  "JSON - lightweight data format. Key-value pairs."
+    },
+    {
+        "prompt":  "XML full form?",
+        "answers":  [
+                        "eXtensible Markup Language",
+                        "Extended Markup Language",
+                        "External Markup Language",
+                        "Extensible Model Language"
+                    ],
+        "correct":  0,
+        "explanation":  "XML - markup. Hierarchical. Config, data exchange."
+    },
+    {
+        "prompt":  "CRT full form?",
+        "answers":  [
+                        "Cathode Ray Tube",
+                        "Color Ray Tube",
+                        "Crystal Ray Tube",
+                        "Computer Ray Tube"
+                    ],
+        "correct":  0,
+        "explanation":  "CRT - old monitor type. Bulky. Replaced by LCD, LED."
+    },
+    {
+        "prompt":  "DPI in mouse?",
+        "answers":  [
+                        "Dots Per Inch",
+                        "Sensitivity - counts per inch of movement",
+                        "Display only",
+                        "Resolution only"
+                    ],
+        "correct":  1,
+        "explanation":  "Mouse DPI - sensitivity. Higher = more cursor movement per inch."
+    },
+    {
+        "prompt":  "KB MB GB TB - ascending order?",
+        "answers":  [
+                        "TB GB MB KB",
+                        "KB MB GB TB",
+                        "MB KB GB TB",
+                        "GB MB KB TB"
+                    ],
+        "correct":  1,
+        "explanation":  "Kilobyte, Megabyte, Gigabyte, Terabyte. Each 1024x previous."
+    },
+    {
+        "prompt":  "Google is what type of service?",
+        "answers":  [
+                        "Only email",
+                        "Search engine, email, cloud, maps, YouTube",
+                        "Only search",
+                        "Only cloud"
+                    ],
+        "correct":  1,
+        "explanation":  "Google offers search, Gmail, Drive, Maps, YouTube, Android."
+    },
+    {
+        "prompt":  "Bing is by?",
+        "answers":  [
+                        "Google",
+                        "Microsoft",
+                        "Apple",
+                        "Amazon"
+                    ],
+        "correct":  1,
+        "explanation":  "Bing - Microsoft search engine."
+    },
+    {
+        "prompt":  "DuckDuckGo emphasizes?",
+        "answers":  [
+                        "Speed only",
+                        "Privacy - does not track",
+                        "Only results",
+                        "Only mobile"
+                    ],
+        "correct":  1,
+        "explanation":  "DuckDuckGo - privacy-focused. No tracking."
+    },
+    {
+        "prompt":  "Search engine crawler is?",
+        "answers":  [
+                        "User",
+                        "Bot that indexes web pages",
+                        "Only human",
+                        "Only server"
+                    ],
+        "correct":  1,
+        "explanation":  "Crawler/spider - automated program that indexes web."
+    },
+    {
+        "prompt":  "Index in search engine?",
+        "answers":  [
+                        "Book index",
+                        "Database of web pages for fast search",
+                        "Only list",
+                        "Only cache"
+                    ],
+        "correct":  1,
+        "explanation":  "Index - searchable database. Built from crawled pages."
+    },
+    {
+        "prompt":  "Chrome browser is by?",
+        "answers":  [
+                        "Microsoft",
+                        "Google",
+                        "Apple",
+                        "Mozilla"
+                    ],
+        "correct":  1,
+        "explanation":  "Chrome - Google. Most used browser."
+    },
+    {
+        "prompt":  "Firefox is by?",
+        "answers":  [
+                        "Google",
+                        "Mozilla",
+                        "Microsoft",
+                        "Apple"
+                    ],
+        "correct":  1,
+        "explanation":  "Firefox - Mozilla. Open source."
+    },
+    {
+        "prompt":  "Safari is by?",
+        "answers":  [
+                        "Google",
+                        "Apple",
+                        "Microsoft",
+                        "Mozilla"
+                    ],
+        "correct":  1,
+        "explanation":  "Safari - Apple. Default on Mac, iOS."
+    },
+    {
+        "prompt":  "HTML renders structure?",
+        "answers":  [
+                        "No",
+                        "Yes - headings, paragraphs, links",
+                        "Only style",
+                        "Only script"
+                    ],
+        "correct":  1,
+        "explanation":  "HTML - structure. CSS - style. JS - behavior."
+    },
+    {
+        "prompt":  "CSS controls?",
+        "answers":  [
+                        "Structure",
+                        "Presentation - colors, layout, fonts",
+                        "Only logic",
+                        "Only content"
+                    ],
+        "correct":  1,
+        "explanation":  "CSS - Cascading Style Sheets. Look and layout."
+    },
+    {
+        "prompt":  "Clear cache does?",
+        "answers":  [
+                        "Speeds up",
+                        "Removes stored copies - may need to reload",
+                        "Adds data",
+                        "Only cookies"
+                    ],
+        "correct":  1,
+        "explanation":  "Clearing cache - fresh load. Fixes stale content."
+    },
+    {
+        "prompt":  "Private browsing?",
+        "answers":  [
+                        "Full anonymity",
+                        "No local history, cookies. Not fully anonymous",
+                        "Encrypts all",
+                        "Blocks all trackers"
+                    ],
+        "correct":  1,
+        "explanation":  "Private - no local trace. ISP, site can still track."
+    },
+    {
+        "prompt":  "Cookie first-party vs third-party?",
+        "answers":  [
+                        "Same",
+                        "First-party from site you visit, third-party from ad/other",
+                        "First-party is ad",
+                        "Third-party is site"
+                    ],
+        "correct":  1,
+        "explanation":  "First-party - same domain. Third-party - another domain. Ads."
+    },
+    {
+        "prompt":  "SSL certificate verifies?",
+        "answers":  [
+                        "Speed",
+                        "Identity of website - issued by CA",
+                        "Only encryption",
+                        "Only domain"
+                    ],
+        "correct":  1,
+        "explanation":  "Certificate - CA vouches for identity. PKI."
+    },
+    {
+        "prompt":  "CA in security?",
+        "answers":  [
+                        "California",
+                        "Certificate Authority - issues digital certificates",
+                        "Only computer",
+                        "Only application"
+                    ],
+        "correct":  1,
+        "explanation":  "CA - trusted third party. Issues SSL/TLS certs."
+    },
+    {
+        "prompt":  "Kernel in OS?",
+        "answers":  [
+                        "Outer layer",
+                        "Core - manages hardware, memory, processes",
+                        "Only GUI",
+                        "Only apps"
+                    ],
+        "correct":  1,
+        "explanation":  "Kernel - core of OS. Hardware access, memory, CPU."
+    },
+    {
+        "prompt":  "Process vs Program?",
+        "answers":  [
+                        "Same",
+                        "Program is file, process is running instance",
+                        "Process is file",
+                        "Program is running"
+                    ],
+        "correct":  1,
+        "explanation":  "Program - static. Process - executing. One program, many processes."
+    },
+    {
+        "prompt":  "Multitasking in OS?",
+        "answers":  [
+                        "One task only",
+                        "Multiple tasks appear simultaneous - time slicing",
+                        "Only one core",
+                        "Only background"
+                    ],
+        "correct":  1,
+        "explanation":  "Multitasking - switch between tasks. User sees concurrent."
+    },
+    {
+        "prompt":  "Multithreading?",
+        "answers":  [
+                        "Multiple programs",
+                        "Multiple threads within same process",
+                        "Only single core",
+                        "Only main thread"
+                    ],
+        "correct":  1,
+        "explanation":  "Thread - light unit. Process can have many threads."
+    }
+]

@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "What does AI stand for?",
+        "answers":  [
+                        "Artificial Intelligence",
+                        "Advanced Intelligence",
+                        "Automated Intelligence",
+                        "Artificial Internet"
+                    ],
+        "correct":  0,
+        "explanation":  "AI enables machines to perform tasks that typically require human intelligence - learning, reasoning, problem-solving."
+    },
+    {
+        "prompt":  "Blockchain is primarily used in?",
+        "answers":  [
+                        "Cryptocurrency",
+                        "Email",
+                        "Web browsing",
+                        "Gaming"
+                    ],
+        "correct":  0,
+        "explanation":  "Blockchain is a distributed ledger technology. Bitcoin and other cryptocurrencies use it for secure transactions."
+    },
+    {
+        "prompt":  "What does QR Code stand for?",
+        "answers":  [
+                        "Quick Response Code",
+                        "Quality Response Code",
+                        "Quick Read Code",
+                        "Quantum Response Code"
+                    ],
+        "correct":  0,
+        "explanation":  "QR Code (Quick Response) stores data - can be scanned quickly by cameras. Used in UPI payments."
+    },
+    {
+        "prompt":  "Which protocol is used for sending email?",
+        "answers":  [
+                        "SMTP",
+                        "HTTP",
+                        "FTP",
+                        "TCP"
+                    ],
+        "correct":  0,
+        "explanation":  "SMTP (Simple Mail Transfer Protocol) is used for sending emails. POP3/IMAP are for receiving."
+    },
+    {
+        "prompt":  "QR Code stands for?",
+        "answers":  [
+                        "Quick Response Code",
+                        "Quality Response Code",
+                        "Quick Read Code",
+                        "Quad Response Code"
+                    ],
+        "correct":  0,
+        "explanation":  "QR Code - 2D barcode. Quick to scan. Stores URL, text, payment info."
+    },
+    {
+        "prompt":  "QR Code stores?",
+        "answers":  [
+                        "Only numbers",
+                        "URL, text, vCard, payment - various data",
+                        "Only images",
+                        "Only audio"
+                    ],
+        "correct":  1,
+        "explanation":  "QR can store up to ~4000 alphanumeric chars. Used for payments, info."
+    },
+    {
+        "prompt":  "Barcode vs QR Code?",
+        "answers":  [
+                        "Same",
+                        "QR stores more data, 2D, faster scan",
+                        "QR is 1D",
+                        "Barcode is 2D"
+                    ],
+        "correct":  1,
+        "explanation":  "Barcode - 1D, limited. QR - 2D, more data, omnidirectional."
+    },
+    {
+        "prompt":  "Biometric authentication uses?",
+        "answers":  [
+                        "Password only",
+                        "Physical traits - fingerprint, iris, face",
+                        "Only PIN",
+                        "Only card"
+                    ],
+        "correct":  1,
+        "explanation":  "Biometric - unique body features. Harder to steal than password."
+    },
+    {
+        "prompt":  "Biometric drawback?",
+        "answers":  [
+                        "Too fast",
+                        "If compromised, can\u0027t change like password",
+                        "Too cheap",
+                        "Too simple"
+                    ],
+        "correct":  1,
+        "explanation":  "Can\u0027t change fingerprint. Privacy concerns. Spoofing attempts."
+    },
+    {
+        "prompt":  "BharatNet aims to connect?",
+        "answers":  [
+                        "Only cities",
+                        "2.5 lakh gram panchayats - rural broadband",
+                        "Only states",
+                        "Only schools"
+                    ],
+        "correct":  1,
+        "explanation":  "BharatNet - optical fiber to villages. Phase 1, 2, 3."
+    },
+    {
+        "prompt":  "PMGDISHA aims for?",
+        "answers":  [
+                        "Only urban",
+                        "Digital literacy - 6 crore rural households",
+                        "Only youth",
+                        "Only women"
+                    ],
+        "correct":  1,
+        "explanation":  "PMGDISHA - Pradhan Mantri Gramin Digital Saksharta Abhiyan."
+    },
+    {
+        "prompt":  "Domain .gov.in in India?",
+        "answers":  [
+                        "Commercial",
+                        "Government",
+                        "Education",
+                        "Organization"
+                    ],
+        "correct":  1,
+        "explanation":  ".gov.in - Indian government. .ac.in - education."
+    },
+    {
+        "prompt":  "Domain .edu?",
+        "answers":  [
+                        "Government",
+                        "Educational institution",
+                        "Commercial",
+                        "Organization"
+                    ],
+        "correct":  1,
+        "explanation":  ".edu - US educational. .ac.in - India academic."
+    },
+    {
+        "prompt":  "Subdomain example?",
+        "answers":  [
+                        "example.com",
+                        "mail.example.com or www.example.com",
+                        "Only .com",
+                        "Only example"
+                    ],
+        "correct":  1,
+        "explanation":  "Subdomain - prefix. mail., www., api., etc."
+    },
+    {
+        "prompt":  "Machine Learning is a subset of?",
+        "answers":  [
+                        "Artificial Intelligence",
+                        "Database",
+                        "Networking",
+                        "Hardware"
+                    ],
+        "correct":  0,
+        "explanation":  "ML is a type of AI where systems learn from data and improve without explicit programming."
+    },
+    {
+        "prompt":  "Quantum Computing uses principles of?",
+        "answers":  [
+                        "Classical physics",
+                        "Quantum mechanics",
+                        "Newtonian mechanics",
+                        "Thermodynamics"
+                    ],
+        "correct":  1,
+        "explanation":  "Quantum computers use qubits and quantum phenomena (superposition, entanglement) for powerful computation."
+    },
+    {
+        "prompt":  "5G is the fifth generation of?",
+        "answers":  [
+                        "Computer processors",
+                        "Mobile network technology",
+                        "Operating systems",
+                        "Storage devices"
+                    ],
+        "correct":  1,
+        "explanation":  "5G is the fifth generation of cellular network technology - faster speed, lower latency than 4G."
+    },
+    {
+        "prompt":  "Biometric authentication uses?",
+        "answers":  [
+                        "Only passwords",
+                        "Physical characteristics like fingerprint, face, iris",
+                        "Only PIN",
+                        "Only cards"
+                    ],
+        "correct":  1,
+        "explanation":  "Biometrics uses unique physical traits - fingerprint, face recognition, iris scan for identity verification."
+    },
+    {
+        "prompt":  "Spam in email refers to?",
+        "answers":  [
+                        "Important messages",
+                        "Unsolicited bulk messages",
+                        "Encrypted messages",
+                        "Sent messages"
+                    ],
+        "correct":  1,
+        "explanation":  "Spam is unsolicited bulk email - often advertising or phishing. Email filters try to block spam."
+    },
+    {
+        "prompt":  "Domain .edu usually indicates?",
+        "answers":  [
+                        "Commercial",
+                        "Educational institution",
+                        "Government",
+                        "Organization"
+                    ],
+        "correct":  1,
+        "explanation":  ".edu is for educational institutions (US). .ac.in for Indian academics."
+    },
+    {
+        "prompt":  "Domain .gov indicates?",
+        "answers":  [
+                        "Commercial",
+                        "Government",
+                        "Educational",
+                        "Organization"
+                    ],
+        "correct":  1,
+        "explanation":  ".gov is for government websites. .gov.in for Indian government."
+    },
+    {
+        "prompt":  "Domain .org typically indicates?",
+        "answers":  [
+                        "Commercial",
+                        "Organization often non-profit",
+                        "Government",
+                        "Educational"
+                    ],
+        "correct":  1,
+        "explanation":  ".org often used by non-profits, organizations. Not strictly enforced."
+    },
+    {
+        "prompt":  "BCC in email means?",
+        "answers":  [
+                        "Blind Carbon Copy - hidden recipients",
+                        "Best Carbon Copy",
+                        "Before Carbon Copy",
+                        "Basic Carbon Copy"
+                    ],
+        "correct":  0,
+        "explanation":  "BCC recipients are hidden from other recipients. Used for privacy."
+    },
+    {
+        "prompt":  "UIDAI stands for?",
+        "answers":  [
+                        "Unique Identification Authority of India",
+                        "Urban ID Authority of India",
+                        "Universal ID Authority",
+                        "Unique Identity Authority"
+                    ],
+        "correct":  0,
+        "explanation":  "UIDAI issues Aadhaar - 12 digit unique identity. Government body."
+    },
+    {
+        "prompt":  "PM-WANI aims for?",
+        "answers":  [
+                        "5G rollout",
+                        "Public Wi-Fi networks - WiFi Access Network Interface",
+                        "Fiber only",
+                        "Mobile only"
+                    ],
+        "correct":  1,
+        "explanation":  "PM-WANI enables public Wi-Fi through interoperable model. Boosts connectivity."
+    }
+]

@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Deadlock in OS?",
+        "answers":  [
+                        "Fast processing",
+                        "Two or more waiting for each other - stuck",
+                        "Only one process",
+                        "Only memory"
+                    ],
+        "correct":  1,
+        "explanation":  "Deadlock - circular wait. Need detection, prevention."
+    },
+    {
+        "prompt":  "Swap space in OS?",
+        "answers":  [
+                        "CPU cache",
+                        "Disk space used as virtual memory",
+                        "Only RAM",
+                        "Only SSD"
+                    ],
+        "correct":  1,
+        "explanation":  "Swap - extend RAM with disk. Slower. Linux, Windows page file."
+    },
+    {
+        "prompt":  "Virtual memory?",
+        "answers":  [
+                        "Real RAM only",
+                        "Using disk as extension of RAM",
+                        "Only cache",
+                        "Only register"
+                    ],
+        "correct":  1,
+        "explanation":  "Virtual memory - illusion of more RAM. Paging, swapping."
+    },
+    {
+        "prompt":  "Fragmentation in memory?",
+        "answers":  [
+                        "No issue",
+                        "Free space in small pieces - inefficient",
+                        "Only in SSD",
+                        "Only in RAM"
+                    ],
+        "correct":  1,
+        "explanation":  "Fragmentation - scattered free blocks. Internal, external."
+    },
+    {
+        "prompt":  "Booting is?",
+        "answers":  [
+                        "Shutting down",
+                        "Starting up - load OS into memory",
+                        "Only BIOS",
+                        "Only user"
+                    ],
+        "correct":  1,
+        "explanation":  "Boot - power on to usable state. BIOS, loader, kernel."
+    },
+    {
+        "prompt":  "Dual boot?",
+        "answers":  [
+                        "Two CPUs",
+                        "Two OS on same machine - choose at start",
+                        "Only Linux",
+                        "Only Windows"
+                    ],
+        "correct":  1,
+        "explanation":  "Dual boot - multiple OS. Bootloader chooses."
+    },
+    {
+        "prompt":  "File system manages?",
+        "answers":  [
+                        "Only names",
+                        "How data is stored and retrieved on disk",
+                        "Only size",
+                        "Only type"
+                    ],
+        "correct":  1,
+        "explanation":  "File system - FAT32, NTFS, ext4. Organizes storage."
+    },
+    {
+        "prompt":  "NTFS is used in?",
+        "answers":  [
+                        "Linux only",
+                        "Windows - modern file system",
+                        "Mac only",
+                        "DOS only"
+                    ],
+        "correct":  1,
+        "explanation":  "NTFS - Windows. Permissions, compression, large files."
+    },
+    {
+        "prompt":  "ext4 is used in?",
+        "answers":  [
+                        "Windows",
+                        "Linux",
+                        "Mac",
+                        "DOS"
+                    ],
+        "correct":  1,
+        "explanation":  "ext4 - Linux default. Journaling, large files."
+    },
+    {
+        "prompt":  "FAT32 limitation?",
+        "answers":  [
+                        "No limit",
+                        "File size max 4GB",
+                        "File size max 2GB",
+                        "No files"
+                    ],
+        "correct":  1,
+        "explanation":  "FAT32 - 4GB file limit. Old. exFAT fixes."
+    },
+    {
+        "prompt":  "Command line interface CLI?",
+        "answers":  [
+                        "Graphical",
+                        "Text-based - type commands",
+                        "Only for experts",
+                        "Only Linux"
+                    ],
+        "correct":  1,
+        "explanation":  "CLI - type commands. Fast, scripting. Bash, CMD, PowerShell."
+    },
+    {
+        "prompt":  "Linux is?",
+        "answers":  [
+                        "Single OS",
+                        "Open source kernel, many distributions",
+                        "Only Ubuntu",
+                        "Only commercial"
+                    ],
+        "correct":  1,
+        "explanation":  "Linux - kernel. Ubuntu, Fedora, Debian - distributions."
+    },
+    {
+        "prompt":  "Ubuntu is based on?",
+        "answers":  [
+                        "Windows",
+                        "Debian",
+                        "Red Hat",
+                        "Arch"
+                    ],
+        "correct":  1,
+        "explanation":  "Ubuntu - Debian-based. Popular Linux distro."
+    },
+    {
+        "prompt":  "Open source license allows?",
+        "answers":  [
+                        "No modification",
+                        "Use, modify, distribute - with conditions",
+                        "Only use",
+                        "Only read"
+                    ],
+        "correct":  1,
+        "explanation":  "Open source - access to source. Varies by license."
+    },
+    {
+        "prompt":  "GPL is?",
+        "answers":  [
+                        "Proprietary",
+                        "Copyleft - derivatives must be open",
+                        "Permissive",
+                        "Commercial only"
+                    ],
+        "correct":  1,
+        "explanation":  "GPL - copyleft. Derivative work must be GPL."
+    },
+    {
+        "prompt":  "Software license types?",
+        "answers":  [
+                        "Only one",
+                        "Proprietary, open source, freeware, shareware",
+                        "Only free",
+                        "Only paid"
+                    ],
+        "correct":  1,
+        "explanation":  "Proprietary - restrict. Open - free. Freeware - no cost."
+    },
+    {
+        "prompt":  "Shareware is?",
+        "answers":  [
+                        "Always free",
+                        "Trial - pay for full version",
+                        "Only open",
+                        "Only commercial"
+                    ],
+        "correct":  1,
+        "explanation":  "Shareware - try first. Pay for full, more features."
+    },
+    {
+        "prompt":  "Freeware is?",
+        "answers":  [
+                        "Open source",
+                        "Free to use, source may be closed",
+                        "Must pay",
+                        "Trial only"
+                    ],
+        "correct":  1,
+        "explanation":  "Freeware - free. Source code may not be available."
+    },
+    {
+        "prompt":  "Worm spreads?",
+        "answers":  [
+                        "Only manually",
+                        "Self-replicating over network",
+                        "Only via USB",
+                        "Only via email"
+                    ],
+        "correct":  1,
+        "explanation":  "Worm - no user action. Exploits network."
+    },
+    {
+        "prompt":  "Trojan appears as?",
+        "answers":  [
+                        "Obvious virus",
+                        "Legitimate - hides malicious function",
+                        "Only game",
+                        "Only document"
+                    ],
+        "correct":  1,
+        "explanation":  "Trojan - pretends useful. Hides malware."
+    },
+    {
+        "prompt":  "What is an Operating System?",
+        "answers":  [
+                        "Application software",
+                        "System software that manages hardware and software",
+                        "A type of browser",
+                        "Antivirus program"
+                    ],
+        "correct":  1,
+        "explanation":  "OS manages computer hardware, software resources, and provides common services for computer programs. Examples: Windows, Linux, macOS."
+    },
+    {
+        "prompt":  "Which is a volatile memory?",
+        "answers":  [
+                        "ROM",
+                        "RAM",
+                        "Hard Disk",
+                        "SSD"
+                    ],
+        "correct":  1,
+        "explanation":  "RAM is volatile - data is lost when power is off. ROM, HDD, SSD are non-volatile - data persists."
+    },
+    {
+        "prompt":  "A Nibble equals how many bits?",
+        "answers":  [
+                        "2",
+                        "4",
+                        "8",
+                        "16"
+                    ],
+        "correct":  1,
+        "explanation":  "1 Nibble = 4 bits. 2 Nibbles = 1 Byte (8 bits)."
+    },
+    {
+        "prompt":  "1 Kilobyte (KB) equals how many bytes?",
+        "answers":  [
+                        "100",
+                        "256",
+                        "1024",
+                        "1000"
+                    ],
+        "correct":  2,
+        "explanation":  "1 KB = 1024 bytes (2^10). In binary, 1 KB = 1024, not 1000."
+    },
+    {
+        "prompt":  "Printer is what type of device?",
+        "answers":  [
+                        "Output",
+                        "Input",
+                        "Storage",
+                        "Processing"
+                    ],
+        "correct":  0,
+        "explanation":  "Printer is an output device - produces hard copy of documents and images."
+    }
+]

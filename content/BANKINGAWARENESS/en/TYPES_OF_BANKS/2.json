@@ -1,0 +1,178 @@
+﻿[
+    {
+        "prompt":  "EXIM Bank of India was established in?",
+        "answers":  [
+                        "1980",
+                        "1982",
+                        "1985",
+                        "1991"
+                    ],
+        "correct":  1,
+        "explanation":  "Export-Import Bank of India (EXIM Bank) was established in 1982 to finance and facilitate India\u0027s international trade."
+    },
+    {
+        "prompt":  "Payment Banks can accept deposits up to how much per customer?",
+        "answers":  [
+                        "Rs 50,000",
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh"
+                    ],
+        "correct":  2,
+        "explanation":  "Payment Banks can accept demand deposits only up to Rs 2 lakh per individual customer. They cannot issue loans or credit cards."
+    },
+    {
+        "prompt":  "Small Finance Banks primarily serve which sector?",
+        "answers":  [
+                        "Large corporates",
+                        "MSMEs and unorganized sector",
+                        "Government only",
+                        "Foreign trade"
+                    ],
+        "correct":  1,
+        "explanation":  "Small Finance Banks are set up to provide financial inclusion to small business units, farmers, and the unorganized sector."
+    },
+    {
+        "prompt":  "Where is the headquarters of Asian Development Bank?",
+        "answers":  [
+                        "Tokyo",
+                        "Singapore",
+                        "Manila",
+                        "Beijing"
+                    ],
+        "correct":  2,
+        "explanation":  "ADB headquarters is in Manila, Philippines. ADB focuses on promoting economic and social development in Asia-Pacific."
+    },
+    {
+        "prompt":  "New Development Bank (NDB) is also known as?",
+        "answers":  [
+                        "Asian Infrastructure Bank",
+                        "BRICS Bank",
+                        "World Bank Asia",
+                        "SAARC Bank"
+                    ],
+        "correct":  1,
+        "explanation":  "New Development Bank (NDB) is commonly called BRICS Bank. It was established by BRICS nations (Brazil, Russia, India, China, South Africa) in 2014."
+    },
+    {
+        "prompt":  "New Development Bank (BRICS Bank) was established in?",
+        "answers":  [
+                        "2012",
+                        "2014",
+                        "2015",
+                        "2016"
+                    ],
+        "correct":  1,
+        "explanation":  "NDB was established in July 2014 at the BRICS summit. It started operations in 2015. Headquarters is in Shanghai, China."
+    },
+    {
+        "prompt":  "What is the Priority Sector Lending target for domestic commercial banks?",
+        "answers":  [
+                        "30%",
+                        "35%",
+                        "40%",
+                        "45%"
+                    ],
+        "correct":  2,
+        "explanation":  "Domestic commercial banks must lend 40% of Adjusted Net Bank Credit (ANBC) to priority sector. For foreign banks, it is 40% of ANBC."
+    },
+    {
+        "prompt":  "Which of these is a cooperative bank?",
+        "answers":  [
+                        "HDFC Bank",
+                        "State Bank of India",
+                        "District Central Cooperative Bank",
+                        "Axis Bank"
+                    ],
+        "correct":  2,
+        "explanation":  "Cooperative banks are registered under Cooperative Societies Act. They operate at primary (village), district, and state levels. DCCB is a district-level cooperative bank."
+    },
+    {
+        "prompt":  "RRBs are jointly owned by the Central Government, State Government, and?",
+        "answers":  [
+                        "RBI",
+                        "Sponsor bank",
+                        "NABARD",
+                        "SEBI"
+                    ],
+        "correct":  1,
+        "explanation":  "RRBs are jointly owned by Central Government (50%), State Government (15%), and sponsor bank (35%). Sponsor bank provides management support."
+    },
+    {
+        "prompt":  "What is the minimum capital requirement for Small Finance Banks?",
+        "answers":  [
+                        "Rs 100 crore",
+                        "Rs 200 crore",
+                        "Rs 500 crore",
+                        "Rs 1000 crore"
+                    ],
+        "correct":  0,
+        "explanation":  "Small Finance Banks require minimum paid-up equity capital of Rs 200 crore. Payment Banks require Rs 100 crore."
+    },
+    {
+        "prompt":  "Which of these is a Payment Bank in India?",
+        "answers":  [
+                        "Bandhan Bank",
+                        "India Post Payments Bank",
+                        "AU Small Finance Bank",
+                        "Jana Small Finance Bank"
+                    ],
+        "correct":  1,
+        "explanation":  "India Post Payments Bank (IPPB) is a Payment Bank. Bandhan, AU, Jana are Small Finance Banks."
+    },
+    {
+        "prompt":  "Payment Banks cannot provide?",
+        "answers":  [
+                        "Savings and current accounts",
+                        "Remittance services",
+                        "Loans and credit cards",
+                        "Debit cards"
+                    ],
+        "correct":  2,
+        "explanation":  "Payment Banks cannot issue loans or credit cards. They can issue debit cards and provide remittance, bill payment services."
+    },
+    {
+        "prompt":  "Jana Small Finance Bank received its license in?",
+        "answers":  [
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018"
+                    ],
+        "correct":  2,
+        "explanation":  "Jana Small Finance Bank commenced operations in April 2018. It was among the 10 entities that received SFB license in 2015."
+    },
+    {
+        "prompt":  "Urban Cooperative Banks (UCBs) are registered under?",
+        "answers":  [
+                        "RBI Act",
+                        "Banking Regulation Act",
+                        "Cooperative Societies Act of State/Centre",
+                        "Companies Act"
+                    ],
+        "correct":  2,
+        "explanation":  "UCBs are registered under the Cooperative Societies Act of the respective State or Multi-State Cooperative Societies Act. They are regulated by RBI."
+    },
+    {
+        "prompt":  "State Cooperative Banks (StCBs) operate at?",
+        "answers":  [
+                        "Village level",
+                        "District level",
+                        "State level",
+                        "National level"
+                    ],
+        "correct":  2,
+        "explanation":  "StCBs operate at the state level. District Central Cooperative Banks (DCCBs) operate at district level. PACS at village level."
+    },
+    {
+        "prompt":  "NABARD provides refinance for how long typically?",
+        "answers":  [
+                        "Short-term (up to 18 months)",
+                        "Medium-term (3-5 years)",
+                        "Long-term (up to 20 years)",
+                        "All of the above"
+                    ],
+        "correct":  3,
+        "explanation":  "NABARD provides short-term (crop loans), medium-term, and long-term refinance for agriculture and rural development."
+    }
+]

@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Section 66 of IT Act?",
+        "answers":  [
+                        "Only civil",
+                        "Computer-related offenses - criminal",
+                        "Only compensation",
+                        "Only warning"
+                    ],
+        "correct":  1,
+        "explanation":  "Section 66 - computer-related offenses. Criminal penalty."
+    },
+    {
+        "prompt":  "Penetration testing is?",
+        "answers":  [
+                        "Attacking only",
+                        "Authorized simulated attack to find vulnerabilities",
+                        "Only defense",
+                        "Only monitoring"
+                    ],
+        "correct":  1,
+        "explanation":  "Pen test - simulate attack to find and fix weaknesses."
+    },
+    {
+        "prompt":  "Bug bounty program?",
+        "answers":  [
+                        "Pays hackers to fix",
+                        "Rewards researchers for finding security bugs",
+                        "Only internal",
+                        "Only for viruses"
+                    ],
+        "correct":  1,
+        "explanation":  "Bug bounty - companies reward ethical hackers for finding flaws."
+    },
+    {
+        "prompt":  "Data breach is?",
+        "answers":  [
+                        "Authorized access",
+                        "Unauthorized access or exposure of sensitive data",
+                        "Only minor",
+                        "Only external"
+                    ],
+        "correct":  1,
+        "explanation":  "Data breach - sensitive data exposed or stolen."
+    },
+    {
+        "prompt":  "Data protection in India?",
+        "answers":  [
+                        "No law",
+                        "DPDP Act 2023 - Digital Personal Data Protection",
+                        "GDPR only",
+                        "Only IT Act"
+                    ],
+        "correct":  1,
+        "explanation":  "DPDP Act 2023 - India data protection law. Consent, rights."
+    },
+    {
+        "prompt":  "Consent in data protection?",
+        "answers":  [
+                        "Optional",
+                        "Required - clear, specific for processing",
+                        "Only for minors",
+                        "Only for health"
+                    ],
+        "correct":  1,
+        "explanation":  "Consent must be free, specific, informed. Can withdraw."
+    },
+    {
+        "prompt":  "Right to be forgotten?",
+        "answers":  [
+                        "Not in India",
+                        "Right to request deletion of personal data",
+                        "Only for companies",
+                        "Only for minors"
+                    ],
+        "correct":  1,
+        "explanation":  "Right to erasure - request deletion under certain conditions."
+    },
+    {
+        "prompt":  "Data fiduciary is?",
+        "answers":  [
+                        "Individual",
+                        "Entity that determines purpose of data processing",
+                        "Only government",
+                        "Only bank"
+                    ],
+        "correct":  1,
+        "explanation":  "Data fiduciary - decides how and why to process data."
+    },
+    {
+        "prompt":  "Zero-day vulnerability?",
+        "answers":  [
+                        "Known and patched",
+                        "Unknown to vendor - no patch yet",
+                        "Only for Windows",
+                        "Only for Linux"
+                    ],
+        "correct":  1,
+        "explanation":  "Zero-day - vulnerability unknown. No fix available. High risk."
+    },
+    {
+        "prompt":  "Patch in software?",
+        "answers":  [
+                        "New feature only",
+                        "Update to fix vulnerability or bug",
+                        "Only for OS",
+                        "Only for apps"
+                    ],
+        "correct":  1,
+        "explanation":  "Patch - update to fix security or bug. Apply promptly."
+    },
+    {
+        "prompt":  "Security update priority?",
+        "answers":  [
+                        "Optional",
+                        "High - apply soon to prevent exploitation",
+                        "Only monthly",
+                        "Only for new devices"
+                    ],
+        "correct":  1,
+        "explanation":  "Security patches should be applied quickly."
+    },
+    {
+        "prompt":  "Multi-factor authentication MFA?",
+        "answers":  [
+                        "Only password",
+                        "Two or more factors - knowledge, possession, inherence",
+                        "Only OTP",
+                        "Only biometric"
+                    ],
+        "correct":  1,
+        "explanation":  "MFA - multiple factors. Password + OTP + fingerprint etc."
+    },
+    {
+        "prompt":  "Knowledge factor in auth?",
+        "answers":  [
+                        "Token",
+                        "Something you know - password PIN",
+                        "Biometric",
+                        "Card"
+                    ],
+        "correct":  1,
+        "explanation":  "Knowledge - password, PIN, security question."
+    },
+    {
+        "prompt":  "Possession factor in auth?",
+        "answers":  [
+                        "Password",
+                        "Something you have - phone, token, card",
+                        "Biometric",
+                        "Only OTP"
+                    ],
+        "correct":  1,
+        "explanation":  "Possession - phone, hardware token, smart card."
+    },
+    {
+        "prompt":  "Inherence factor in auth?",
+        "answers":  [
+                        "Password",
+                        "Something you are - fingerprint, face",
+                        "Token",
+                        "Card"
+                    ],
+        "correct":  1,
+        "explanation":  "Inherence - biometric. Fingerprint, iris, face."
+    },
+    {
+        "prompt":  "Social engineering is?",
+        "answers":  [
+                        "Technical attack",
+                        "Manipulating people to divulge info or access",
+                        "Only phishing",
+                        "Only malware"
+                    ],
+        "correct":  1,
+        "explanation":  "Social engineering - trick people. Phishing, pretexting, baiting."
+    },
+    {
+        "prompt":  "AePS stands for?",
+        "answers":  [
+                        "Aadhaar Enabled Payment System",
+                        "Aadhaar Payment System",
+                        "Aadhaar Electronic Payment",
+                        "Aadhaar Enabled Processing"
+                    ],
+        "correct":  0,
+        "explanation":  "AePS - bank using Aadhaar. Cash withdrawal, balance, mini statement."
+    },
+    {
+        "prompt":  "AePS needs?",
+        "answers":  [
+                        "Card only",
+                        "Aadhaar, bank account linked, biometric",
+                        "Only mobile",
+                        "Only PIN"
+                    ],
+        "correct":  1,
+        "explanation":  "AePS: Aadhaar + biometric. No card needed at micro-ATM."
+    },
+    {
+        "prompt":  "BharatNet is implemented by?",
+        "answers":  [
+                        "Private only",
+                        "BSNL, BBNL - government",
+                        "Only states",
+                        "Only ISPs"
+                    ],
+        "correct":  1,
+        "explanation":  "BharatNet by BSNL, BBNL. Government initiative."
+    },
+    {
+        "prompt":  "CSC full form?",
+        "answers":  [
+                        "Common Service Centre",
+                        "Central Service Centre",
+                        "Common System Centre",
+                        "Central System Centre"
+                    ],
+        "correct":  0,
+        "explanation":  "CSC - access point for digital services in rural areas."
+    },
+    {
+        "prompt":  "CSC offers?",
+        "answers":  [
+                        "Only banking",
+                        "Aadhaar, banking, insurance, education, govt services",
+                        "Only Aadhaar",
+                        "Only bill payment"
+                    ],
+        "correct":  1,
+        "explanation":  "CSC - single point for many services. Village level entrepreneur."
+    },
+    {
+        "prompt":  "Jan Dhan Yojana provides?",
+        "answers":  [
+                        "Only loan",
+                        "Bank account, overdraft, insurance, pension",
+                        "Only insurance",
+                        "Only pension"
+                    ],
+        "correct":  1,
+        "explanation":  "PMJDY - no-frills account. Overdraft, RuPay card, insurance."
+    },
+    {
+        "prompt":  "RuPay is?",
+        "answers":  [
+                        "International only",
+                        "Indian domestic card scheme - NPCI",
+                        "US card",
+                        "UK card"
+                    ],
+        "correct":  1,
+        "explanation":  "RuPay - Indian card network. NPCI. Lower cost than Visa, Mastercard."
+    },
+    {
+        "prompt":  "IMPS stands for?",
+        "answers":  [
+                        "Immediate Payment Service",
+                        "Instant Money Payment Service",
+                        "Interbank Money Payment",
+                        "Instant Payment System"
+                    ],
+        "correct":  0,
+        "explanation":  "IMPS - 24x7 instant interbank transfer. NPCI."
+    },
+    {
+        "prompt":  "NEFT full form?",
+        "answers":  [
+                        "National Electronic Funds Transfer",
+                        "National Electronic Financial Transfer",
+                        "National Electronic Fund System",
+                        "National External Funds Transfer"
+                    ],
+        "correct":  0,
+        "explanation":  "NEFT - batched settlement. RBI. Now 24x7."
+    }
+]

@@ -1,0 +1,266 @@
+﻿[
+    {
+        "prompt":  "Jan Dhan-Aadhaar-Mobile (JAM) trinity refers to?",
+        "answers":  [
+                        "Three separate schemes",
+                        "Linking of Jan Dhan, Aadhaar, Mobile for direct transfers",
+                        "Only Aadhaar",
+                        "Only mobile"
+                    ],
+        "correct":  1,
+        "explanation":  "JAM combines Jan Dhan accounts, Aadhaar identification, and Mobile for efficient direct benefit transfers and financial inclusion."
+    },
+    {
+        "prompt":  "RBI\u0027s Financial Inclusion Index measures?",
+        "answers":  [
+                        "Only branch count",
+                        "Access, usage, quality across dimensions",
+                        "Only deposits",
+                        "Only loans"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI Financial Inclusion Index (FI-Index) is based on multiple dimensions - access, usage, quality. Base year 2021, annual publication."
+    },
+    {
+        "prompt":  "Pradhan Mantri Jan Dhan Yojana offers life cover of Rs 30,000 for accounts opened?",
+        "answers":  [
+                        "All accounts",
+                        "Accounts opened before Aug 28, 2018",
+                        "Only rural accounts",
+                        "Only women"
+                    ],
+        "correct":  1,
+        "explanation":  "Life cover of Rs 30,000 under PMJDY was for accounts opened before August 28, 2018. RuPay accident cover Rs 1 lakh continues."
+    },
+    {
+        "prompt":  "BC model was formally allowed by RBI in?",
+        "answers":  [
+                        "2003",
+                        "2006",
+                        "2010",
+                        "2014"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI permitted banks to use BCs (Business Correspondents) in 2006 to extend banking in unbanked areas."
+    },
+    {
+        "prompt":  "White Label BC can work with?",
+        "answers":  [
+                        "Only one bank",
+                        "Multiple banks",
+                        "Only RRBs",
+                        "Only cooperative banks"
+                    ],
+        "correct":  1,
+        "explanation":  "White Label BC can serve customers of multiple banks, unlike traditional BC tied to one bank."
+    },
+    {
+        "prompt":  "Bank Mitra is another name for?",
+        "answers":  [
+                        "Bank manager",
+                        "Business Correspondent or CSP",
+                        "RBI official",
+                        "Government employee"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank Mitra (Friend of Bank) is a term for Business Correspondent or Customer Service Point (CSP) providing last-mile banking."
+    },
+    {
+        "prompt":  "No-Frills account was predecessor of?",
+        "answers":  [
+                        "Current account",
+                        "Basic Savings Bank Deposit account",
+                        "Fixed deposit",
+                        "NRE account"
+                    ],
+        "correct":  1,
+        "explanation":  "No-Frills account was renamed Basic Savings Bank Deposit (BSBD) account. Zero balance, minimal charges."
+    },
+    {
+        "prompt":  "PMJDY accounts can be opened with?",
+        "answers":  [
+                        "Full KYC only",
+                        "Zero balance, simplified KYC",
+                        "Minimum Rs 1000",
+                        "Aadhaar only not sufficient"
+                    ],
+        "correct":  1,
+        "explanation":  "PMJDY accounts can be opened with zero balance. Simplified KYC (Aadhaar, etc.) is acceptable."
+    },
+    {
+        "prompt":  "Overdraft facility under PMJDY is available to?",
+        "answers":  [
+                        "All account holders",
+                        "One account per household after 6 months satisfactory operation",
+                        "Only women",
+                        "Only senior citizens"
+                    ],
+        "correct":  1,
+        "explanation":  "OD up to Rs 5,000 to one account per household, preferably lady of the house, after 6 months of satisfactory operation."
+    },
+    {
+        "prompt":  "Priority sector includes?",
+        "answers":  [
+                        "Only agriculture",
+                        "Agriculture MSME exports education housing weaker sections",
+                        "Only MSME",
+                        "Only housing"
+                    ],
+        "correct":  1,
+        "explanation":  "Priority sector: agriculture, MSME, export, education, housing, social infra, weaker sections, etc."
+    },
+    {
+        "prompt":  "BC outlet and branch - difference?",
+        "answers":  [
+                        "Same",
+                        "BC is agent, branch is full service",
+                        "BC only for urban",
+                        "Branch only for rural"
+                    ],
+        "correct":  1,
+        "explanation":  "BC outlet provides limited services. Branch provides full banking services."
+    },
+    {
+        "prompt":  "Interoperability in BC means?",
+        "answers":  [
+                        "BC works with one bank only",
+                        "BC can serve customers of any bank",
+                        "Only for deposits",
+                        "Only for withdrawals"
+                    ],
+        "correct":  1,
+        "explanation":  "Interoperable BC can serve customers of different banks. Enhances reach."
+    },
+    {
+        "prompt":  "MUDRA is a?",
+        "answers":  [
+                        "Bank",
+                        "NBFC",
+                        "Refinance institution under SIDBI",
+                        "Commercial bank"
+                    ],
+        "correct":  2,
+        "explanation":  "MUDRA is set up as refinance institution. It operates under the ambit of SIDBI."
+    },
+    {
+        "prompt":  "Financial inclusion means?",
+        "answers":  [
+                        "Only urban banking",
+                        "Access to affordable financial services for all",
+                        "Only rural branches",
+                        "Only government schemes"
+                    ],
+        "correct":  1,
+        "explanation":  "Financial inclusion ensures all individuals and businesses have access to useful, affordable financial products and services."
+    },
+    {
+        "prompt":  "Zero Balance Account under PMJDY has?",
+        "answers":  [
+                        "Minimum Rs 100",
+                        "No minimum balance requirement",
+                        "Rs 500 minimum",
+                        "Rs 1000 minimum"
+                    ],
+        "correct":  1,
+        "explanation":  "PMJDY accounts can be opened with zero balance. No minimum balance requirement."
+    },
+    {
+        "prompt":  "RuPay card under PMJDY offers accident insurance of?",
+        "answers":  [
+                        "Rs 30000",
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh"
+                    ],
+        "correct":  1,
+        "explanation":  "RuPay debit card issued under PMJDY provides Rs 1 lakh accident insurance cover."
+    },
+    {
+        "prompt":  "How many PMJDY accounts were opened in first year?",
+        "answers":  [
+                        "5 crore",
+                        "Over 12 crore",
+                        "20 crore",
+                        "50 crore"
+                    ],
+        "correct":  1,
+        "explanation":  "Within first year of PMJDY launch, over 12 crore accounts were opened."
+    },
+    {
+        "prompt":  "Jan Dhan to Jan Suraksha includes?",
+        "answers":  [
+                        "Only PMJDY",
+                        "PMJDY PMSBY PMJJBY APY",
+                        "Only insurance",
+                        "Only pension"
+                    ],
+        "correct":  1,
+        "explanation":  "Jan Dhan to Jan Suraksha paradigm includes PMJDY, PMSBY, PMJJBY, and APY for social security."
+    },
+    {
+        "prompt":  "Pradhan Mantri Jan Dhan Yojana was launched on?",
+        "answers":  [
+                        "August 15, 2014",
+                        "August 28, 2014",
+                        "October 2, 2014",
+                        "January 26, 2015"
+                    ],
+        "correct":  1,
+        "explanation":  "PMJDY was launched by Prime Minister Narendra Modi on August 28, 2014. It was announced in his Independence Day speech on August 15, 2014."
+    },
+    {
+        "prompt":  "Under PMJDY, overdraft facility of up to how much is available?",
+        "answers":  [
+                        "Rs 2,000",
+                        "Rs 5,000",
+                        "Rs 10,000",
+                        "Rs 25,000"
+                    ],
+        "correct":  1,
+        "explanation":  "PMJDY accounts offer overdraft facility of up to Rs 5,000 (after 6 months of satisfactory operation) to one account per household."
+    },
+    {
+        "prompt":  "Accident insurance cover under PMJDY is how much?",
+        "answers":  [
+                        "Rs 30,000",
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh"
+                    ],
+        "correct":  1,
+        "explanation":  "RuPay debit card issued under PMJDY provides accident insurance cover of Rs 1 lakh. Life cover of Rs 30,000 was also added for accounts opened before August 28, 2018."
+    },
+    {
+        "prompt":  "Pradhan Mantri Mudra Yojana was launched in?",
+        "answers":  [
+                        "2013",
+                        "2014",
+                        "2015",
+                        "2016"
+                    ],
+        "correct":  2,
+        "explanation":  "Pradhan Mantri Mudra Yojana (PMMY) was launched on April 8, 2015, to provide loans up to Rs 10 lakh to non-corporate, non-farm small/micro enterprises."
+    },
+    {
+        "prompt":  "Minimum balance requirement in a Basic Savings Bank Deposit (BSBD) account is?",
+        "answers":  [
+                        "Rs 500",
+                        "Rs 1000",
+                        "Zero",
+                        "Rs 100"
+                    ],
+        "correct":  2,
+        "explanation":  "BSBD accounts have no minimum balance requirement. They are part of financial inclusion. Banks cannot charge for non-maintenance of minimum balance in BSBD."
+    },
+    {
+        "prompt":  "BC model helps in?",
+        "answers":  [
+                        "Reducing bank profits",
+                        "Financial inclusion - extending banking to unbanked areas",
+                        "Closing branches",
+                        "Increasing interest rates"
+                    ],
+        "correct":  1,
+        "explanation":  "Banking Correspondent model extends banking services to remote and rural areas where opening full branches is not viable. It supports financial inclusion."
+    }
+]

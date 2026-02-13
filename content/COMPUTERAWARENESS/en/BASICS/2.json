@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "CPU cache L1 L2 L3 - which is fastest?",
+        "answers":  [
+                        "L3",
+                        "L2",
+                        "L1 - smallest, closest to core",
+                        "All same"
+                    ],
+        "correct":  2,
+        "explanation":  "L1 is smallest, fastest, in each core. L2, L3 are larger, slower, shared."
+    },
+    {
+        "prompt":  "Overclocking means?",
+        "answers":  [
+                        "Reducing speed",
+                        "Running CPU/GPU faster than default",
+                        "Buying new",
+                        "Replacing"
+                    ],
+        "correct":  1,
+        "explanation":  "Overclocking runs processor above factory speed. More heat, needs cooling."
+    },
+    {
+        "prompt":  "Thermal paste is used for?",
+        "answers":  [
+                        "Sticking",
+                        "Heat transfer between CPU and heatsink",
+                        "Insulation",
+                        "Cleaning"
+                    ],
+        "correct":  1,
+        "explanation":  "Thermal paste improves heat conduction from CPU to heatsink/cooler."
+    },
+    {
+        "prompt":  "BIOS is stored in?",
+        "answers":  [
+                        "Hard disk",
+                        "ROM/Flash on motherboard",
+                        "RAM",
+                        "Cloud"
+                    ],
+        "correct":  1,
+        "explanation":  "BIOS/UEFI is firmware stored in flash memory on motherboard."
+    },
+    {
+        "prompt":  "UEFI has replaced?",
+        "answers":  [
+                        "RAM",
+                        "Traditional BIOS",
+                        "Windows",
+                        "Hardware"
+                    ],
+        "correct":  1,
+        "explanation":  "UEFI (Unified Extensible Firmware Interface) replaces legacy BIOS. Faster boot."
+    },
+    {
+        "prompt":  "Driver in computing is?",
+        "answers":  [
+                        "User",
+                        "Software that lets OS communicate with hardware",
+                        "Virus",
+                        "Browser"
+                    ],
+        "correct":  1,
+        "explanation":  "Driver is software - enables OS to use hardware (printer, graphics card)."
+    },
+    {
+        "prompt":  "Firmware is?",
+        "answers":  [
+                        "Application",
+                        "Software embedded in hardware",
+                        "OS",
+                        "User program"
+                    ],
+        "correct":  1,
+        "explanation":  "Firmware is low-level software in device. BIOS, router firmware."
+    },
+    {
+        "prompt":  "CD-ROM stands for?",
+        "answers":  [
+                        "Compact Disc Read Only Memory",
+                        "Compact Data Read Only",
+                        "Computer Disc ROM",
+                        "Compact Drive ROM"
+                    ],
+        "correct":  0,
+        "explanation":  "CD-ROM stores data. Read-only - cannot write. 650-700 MB capacity."
+    },
+    {
+        "prompt":  "DVD stands for?",
+        "answers":  [
+                        "Digital Video Disc",
+                        "Digital Versatile Disc - both correct",
+                        "Dynamic Video Disc",
+                        "Data Video Disc"
+                    ],
+        "correct":  1,
+        "explanation":  "DVD - Digital Versatile/Video Disc. Larger capacity than CD. 4.7-17 GB."
+    },
+    {
+        "prompt":  "Blu-ray disc has?",
+        "answers":  [
+                        "Less capacity than DVD",
+                        "More capacity than DVD - 25-50 GB",
+                        "Same as CD",
+                        "Magnetic storage"
+                    ],
+        "correct":  1,
+        "explanation":  "Blu-ray uses blue laser. 25 GB single layer, 50 GB dual layer. HD video."
+    },
+    {
+        "prompt":  "USB 3.0 color is often?",
+        "answers":  [
+                        "Black",
+                        "Blue - to distinguish from USB 2",
+                        "White",
+                        "Red"
+                    ],
+        "correct":  1,
+        "explanation":  "USB 3.0 ports/plugs often blue. Backward compatible with USB 2."
+    },
+    {
+        "prompt":  "Thunderbolt is?",
+        "answers":  [
+                        "Wireless only",
+                        "High-speed interface - Apple/Intel",
+                        "Outdated",
+                        "Same as USB 2"
+                    ],
+        "correct":  1,
+        "explanation":  "Thunderbolt - very fast interface. Data and display. Used in Macs, some PCs."
+    },
+    {
+        "prompt":  "Motherboard is?",
+        "answers":  [
+                        "Software",
+                        "Main circuit board - connects all components",
+                        "Only for RAM",
+                        "Only for CPU"
+                    ],
+        "correct":  1,
+        "explanation":  "Motherboard connects CPU, RAM, storage, ports. Central hub of computer."
+    },
+    {
+        "prompt":  "GPU stands for?",
+        "answers":  [
+                        "General Processing Unit",
+                        "Graphics Processing Unit",
+                        "Global Processing Unit",
+                        "General Purpose Unit"
+                    ],
+        "correct":  1,
+        "explanation":  "GPU handles graphics - display, gaming, video. Also used for AI/ML."
+    },
+    {
+        "prompt":  "Heat sink is used for?",
+        "answers":  [
+                        "Heating",
+                        "Cooling CPU/GPU - dissipates heat",
+                        "Storage",
+                        "Power"
+                    ],
+        "correct":  1,
+        "explanation":  "Heat sink draws heat away from processor. Often has fan. Prevents overheating."
+    },
+    {
+        "prompt":  "Power Supply Unit PSU provides?",
+        "answers":  [
+                        "Only data",
+                        "Power to computer components",
+                        "Only to monitor",
+                        "Only to CPU"
+                    ],
+        "correct":  1,
+        "explanation":  "PSU converts AC to DC. Powers motherboard, drives, components."
+    },
+    {
+        "prompt":  "SMPS stands for?",
+        "answers":  [
+                        "Switch Mode Power Supply",
+                        "Simple Mode Power Supply",
+                        "System Mode Power Supply",
+                        "Switch Model Power Supply"
+                    ],
+        "correct":  0,
+        "explanation":  "SMPS is efficient power supply. Used in PCs, laptops, chargers."
+    },
+    {
+        "prompt":  "Expansion slot on motherboard is for?",
+        "answers":  [
+                        "RAM only",
+                        "Adding cards - graphics, network, sound",
+                        "Only CPU",
+                        "Only storage"
+                    ],
+        "correct":  1,
+        "explanation":  "Expansion slots (PCIe, etc.) add graphics card, network card, etc."
+    },
+    {
+        "prompt":  "Port 80 is used by?",
+        "answers":  [
+                        "Email",
+                        "HTTP - web traffic",
+                        "FTP",
+                        "HTTPS"
+                    ],
+        "correct":  1,
+        "explanation":  "Port 80 is default for HTTP. Port 443 for HTTPS."
+    },
+    {
+        "prompt":  "Port 443 is for?",
+        "answers":  [
+                        "HTTP",
+                        "HTTPS - secure web",
+                        "FTP",
+                        "SMTP"
+                    ],
+        "correct":  1,
+        "explanation":  "Port 443 is default for HTTPS - encrypted web traffic."
+    },
+    {
+        "prompt":  "Port 25 is typically for?",
+        "answers":  [
+                        "Web",
+                        "SMTP - email sending",
+                        "FTP",
+                        "DNS"
+                    ],
+        "correct":  1,
+        "explanation":  "Port 25 is used for SMTP - sending email."
+    },
+    {
+        "prompt":  "Zero-day vulnerability is?",
+        "answers":  [
+                        "Known and patched",
+                        "Unknown to vendor - no patch yet",
+                        "Rare",
+                        "Only in Windows"
+                    ],
+        "correct":  1,
+        "explanation":  "Zero-day: vulnerability not yet known to software vendor. No fix available."
+    },
+    {
+        "prompt":  "Patch in software is?",
+        "answers":  [
+                        "Full reinstall",
+                        "Update to fix bugs or security",
+                        "New version",
+                        "Backup"
+                    ],
+        "correct":  1,
+        "explanation":  "Patch is small update - fixes bugs, security vulnerabilities."
+    },
+    {
+        "prompt":  "Backup strategy 3-2-1 means?",
+        "answers":  [
+                        "3 backups",
+                        "3 copies, 2 different media, 1 offsite",
+                        "2 copies only",
+                        "1 copy only"
+                    ],
+        "correct":  1,
+        "explanation":  "3-2-1: 3 copies, 2 different types (e.g., disk + cloud), 1 offsite."
+    },
+    {
+        "prompt":  "Full backup?",
+        "answers":  [
+                        "Only changed files",
+                        "All selected files",
+                        "Only system",
+                        "Only documents"
+                    ],
+        "correct":  1,
+        "explanation":  "Full backup copies all selected data. Incremental backs up only changes."
+    }
+]

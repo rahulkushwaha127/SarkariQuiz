@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "LCD stands for?",
+        "answers":  [
+                        "Liquid Crystal Display",
+                        "Liquid Color Display",
+                        "Light Crystal Display",
+                        "Luminous Crystal Display"
+                    ],
+        "correct":  0,
+        "explanation":  "LCD uses liquid crystals. Common in monitors and laptops."
+    },
+    {
+        "prompt":  "PDF stands for?",
+        "answers":  [
+                        "Portable Document Format",
+                        "Personal Document Format",
+                        "Print Document Format",
+                        "Public Document Format"
+                    ],
+        "correct":  0,
+        "explanation":  "PDF preserves formatting. Cross-platform document format."
+    },
+    {
+        "prompt":  "JPEG is format for?",
+        "answers":  [
+                        "Audio",
+                        "Images - compressed",
+                        "Video",
+                        "Documents"
+                    ],
+        "correct":  1,
+        "explanation":  "JPEG is compressed image format. Common for photos."
+    },
+    {
+        "prompt":  "MP3 is format for?",
+        "answers":  [
+                        "Images",
+                        "Audio - compressed",
+                        "Video",
+                        "Documents"
+                    ],
+        "correct":  1,
+        "explanation":  "MP3 is compressed audio format."
+    },
+    {
+        "prompt":  "HTML stands for?",
+        "answers":  [
+                        "HyperText Markup Language",
+                        "High Text Markup Language",
+                        "Hyper Text Model Language",
+                        "Home Text Markup Language"
+                    ],
+        "correct":  0,
+        "explanation":  "HTML structures web pages. Foundation of web."
+    },
+    {
+        "prompt":  "ISP stands for?",
+        "answers":  [
+                        "Internet Service Provider",
+                        "International Service Provider",
+                        "Internet System Protocol",
+                        "Internal Service Provider"
+                    ],
+        "correct":  0,
+        "explanation":  "ISP provides internet access."
+    },
+    {
+        "prompt":  "OCR stands for?",
+        "answers":  [
+                        "Optical Character Recognition",
+                        "Online Character Recognition",
+                        "Optical Code Recognition",
+                        "Output Character Recognition"
+                    ],
+        "correct":  0,
+        "explanation":  "OCR converts scanned text images into editable text."
+    },
+    {
+        "prompt":  "OMR stands for?",
+        "answers":  [
+                        "Optical Mark Recognition",
+                        "Online Mark Recognition",
+                        "Optical Machine Recognition",
+                        "Output Mark Recognition"
+                    ],
+        "correct":  0,
+        "explanation":  "OMR reads marked forms like exam OMR sheets."
+    },
+    {
+        "prompt":  "MICR is used in?",
+        "answers":  [
+                        "Printing photos",
+                        "Bank cheques - character recognition",
+                        "Web design",
+                        "Video editing"
+                    ],
+        "correct":  1,
+        "explanation":  "MICR is used on bank cheques."
+    },
+    {
+        "prompt":  "GUI stands for?",
+        "answers":  [
+                        "Graphical User Interface",
+                        "General User Interface",
+                        "Graphical Unit Interface",
+                        "General Unit Input"
+                    ],
+        "correct":  0,
+        "explanation":  "GUI uses icons, windows, menus."
+    },
+    {
+        "prompt":  "DOS stands for?",
+        "answers":  [
+                        "Disk Operating System",
+                        "Digital Operating System",
+                        "Data Operating System",
+                        "Drive Operating System"
+                    ],
+        "correct":  0,
+        "explanation":  "DOS is early command-line operating system."
+    },
+    {
+        "prompt":  "API in software?",
+        "answers":  [
+                        "Application Programming Interface",
+                        "Advanced Program Input",
+                        "Application Protocol Internet",
+                        "Automated Process Interface"
+                    ],
+        "correct":  0,
+        "explanation":  "API lets different software communicate."
+    },
+    {
+        "prompt":  "CD-ROM stands for?",
+        "answers":  [
+                        "Compact Disc Read-Only Memory",
+                        "Computer Disc Read-Only Memory",
+                        "Compact Data Read-Only Memory",
+                        "Computer Data Read-Only Memory"
+                    ],
+        "correct":  0,
+        "explanation":  "CD-ROM is optical disc. Read-only. Stores up to 700 MB typically."
+    },
+    {
+        "prompt":  "Smart home devices are example of?",
+        "answers":  [
+                        "Mainframe",
+                        "IoT - connected appliances",
+                        "Supercomputer",
+                        "Desktop only"
+                    ],
+        "correct":  1,
+        "explanation":  "Smart lights, thermostats, locks - IoT. Controlled via internet."
+    },
+    {
+        "prompt":  "FTP stands for?",
+        "answers":  [
+                        "File Transfer Protocol",
+                        "Fast Transfer Protocol",
+                        "File Transmission Protocol",
+                        "Flexible Transfer Protocol"
+                    ],
+        "correct":  0,
+        "explanation":  "FTP transfers files between computers. Port 21. SFTP is secure version."
+    },
+    {
+        "prompt":  "Port 80 is used for?",
+        "answers":  [
+                        "HTTPS",
+                        "HTTP - unencrypted web",
+                        "FTP",
+                        "Email"
+                    ],
+        "correct":  1,
+        "explanation":  "Port 80 - HTTP. Port 443 - HTTPS."
+    },
+    {
+        "prompt":  "Port 443 is used for?",
+        "answers":  [
+                        "HTTP",
+                        "HTTPS - secure web",
+                        "FTP",
+                        "SMTP"
+                    ],
+        "correct":  1,
+        "explanation":  "Port 443 - HTTPS. Encrypted web traffic."
+    },
+    {
+        "prompt":  "Latency in networking is?",
+        "answers":  [
+                        "Data size",
+                        "Delay - time for data to travel",
+                        "Speed only",
+                        "Storage"
+                    ],
+        "correct":  1,
+        "explanation":  "Latency - round-trip time. Lower is better. Important for gaming, video calls."
+    },
+    {
+        "prompt":  "Switch connects?",
+        "answers":  [
+                        "Networks only",
+                        "Devices within same network",
+                        "Internet only",
+                        "Only wireless"
+                    ],
+        "correct":  1,
+        "explanation":  "Switch connects devices in LAN. Forwards frames by MAC address."
+    },
+    {
+        "prompt":  "Modem does?",
+        "answers":  [
+                        "Route only",
+                        "Modulate-demodulate - converts digital to analog and vice versa",
+                        "Switch only",
+                        "Firewall only"
+                    ],
+        "correct":  1,
+        "explanation":  "Modem converts digital (computer) to analog (phone/cable line) and back."
+    },
+    {
+        "prompt":  "Ethernet is?",
+        "answers":  [
+                        "Wireless only",
+                        "Wired LAN technology",
+                        "Only for internet",
+                        "Only for USB"
+                    ],
+        "correct":  1,
+        "explanation":  "Ethernet - wired networking. RJ-45 cable. Fast, reliable."
+    },
+    {
+        "prompt":  "MAC address identifies?",
+        "answers":  [
+                        "Software",
+                        "Network interface - hardware identifier",
+                        "User",
+                        "Location"
+                    ],
+        "correct":  1,
+        "explanation":  "MAC - Media Access Control. Unique hardware address. 48 bits."
+    },
+    {
+        "prompt":  "Ping tests?",
+        "answers":  [
+                        "Storage",
+                        "Connectivity - sends packet, measures response time",
+                        "Display",
+                        "Sound"
+                    ],
+        "correct":  1,
+        "explanation":  "Ping sends ICMP packet. Tests if host is reachable, measures latency."
+    },
+    {
+        "prompt":  "Traceroute shows?",
+        "answers":  [
+                        "Only destination",
+                        "Path packets take - each hop to destination",
+                        "Only source",
+                        "Only time"
+                    ],
+        "correct":  1,
+        "explanation":  "Traceroute (tracert on Windows) shows route. Each hop listed."
+    },
+    {
+        "prompt":  "Bitcoin uses?",
+        "answers":  [
+                        "Central bank",
+                        "Blockchain technology",
+                        "Traditional database",
+                        "Cloud only"
+                    ],
+        "correct":  1,
+        "explanation":  "Bitcoin is first blockchain application."
+    }
+]

@@ -1,28 +1,277 @@
-[
-  {"prompt": "When was the Reserve Bank of India (RBI) established?", "answers": ["1934", "1935", "1949", "1950"], "correct": 1, "explanation": "The Reserve Bank of India was established on April 1, 1935, under the RBI Act, 1934, based on recommendations of the Hilton Young Commission."},
-  {"prompt": "Which commission recommended the establishment of the Reserve Bank of India?", "answers": ["Raja Chelliah Committee", "Hilton Young Commission", "Narasimham Committee", "Nachiket Mor Committee"], "correct": 1, "explanation": "The Hilton Young Commission (also known as the Royal Commission on Indian Currency and Finance) recommended the establishment of RBI in 1926."},
-  {"prompt": "When was the Reserve Bank of India nationalized?", "answers": ["1947", "1948", "1949", "1950"], "correct": 2, "explanation": "The RBI was nationalized on January 1, 1949, under the Reserve Bank of India (Transfer to Public Ownership) Act, 1948."},
-  {"prompt": "How many banks were nationalized in the first phase of bank nationalization in India?", "answers": ["6", "12", "14", "20"], "correct": 2, "explanation": "14 major commercial banks were nationalized on July 19, 1969, under the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970."},
-  {"prompt": "In which year did the second phase of bank nationalization take place in India?", "answers": ["1969", "1975", "1980", "1991"], "correct": 2, "explanation": "6 more banks were nationalized on April 15, 1980, in the second phase of bank nationalization."},
-  {"prompt": "How many banks were nationalized in the second phase (1980) of bank nationalization?", "answers": ["4", "5", "6", "8"], "correct": 2, "explanation": "6 banks were nationalized in 1980: Andhra Bank, Corporation Bank, New Bank of India, Oriental Bank of Commerce, Punjab & Sind Bank, and Vijaya Bank."},
-  {"prompt": "Who was the first Governor of the Reserve Bank of India?", "answers": ["C.D. Deshmukh", "Sir Osborne Smith", "James Taylor", "John Mathai"], "correct": 1, "explanation": "Sir Osborne Smith was the first Governor of RBI when it commenced operations on April 1, 1935."},
-  {"prompt": "Which of the following was NOT nationalized in 1969?", "answers": ["Punjab National Bank", "Bank of Baroda", "State Bank of India", "Canara Bank"], "correct": 2, "explanation": "State Bank of India was already a public sector bank (nationalized in 1955 as Imperial Bank of India). The 14 banks nationalized in 1969 did not include SBI."},
-  {"prompt": "The Reserve Bank of India Act was passed in which year?", "answers": ["1934", "1935", "1949", "1956"], "correct": 0, "explanation": "The Reserve Bank of India Act, 1934, provides the statutory basis for the functioning of RBI. The bank started operations in 1935."},
-  {"prompt": "Which bank was originally known as the Imperial Bank of India before it became State Bank of India?", "answers": ["Bank of India", "Bank of Baroda", "Presidency Banks amalgamation", "Central Bank of India"], "correct": 2, "explanation": "The Imperial Bank of India was formed in 1921 by amalgamating the three Presidency Banks. It was nationalized and renamed State Bank of India in 1955."},
-  {"prompt": "When was the State Bank of India established?", "answers": ["1947", "1955", "1969", "1959"], "correct": 1, "explanation": "State Bank of India was established on July 1, 1955, when the Imperial Bank of India was nationalized and renamed."},
-  {"prompt": "The Banking Regulation Act was enacted in which year?", "answers": ["1934", "1947", "1949", "1956"], "correct": 2, "explanation": "The Banking Regulation Act, 1949, was originally called the Banking Companies Act, 1949. It regulates the banking sector in India."},
-  {"prompt": "Which committee is associated with banking sector reforms in India in the 1990s?", "answers": ["Raja Chelliah Committee", "Narasimham Committee", "Rangarajan Committee", "Kelkar Committee"], "correct": 1, "explanation": "The Narasimham Committee (1991 and 1998) recommended major banking sector reforms including reduction in CRR/SLR, entry of private banks, and NPAs resolution."},
-  {"prompt": "The first bank to be established in India was?", "answers": ["Bank of Hindustan", "General Bank of India", "Bank of Bengal", "Presidency Bank"], "correct": 0, "explanation": "Bank of Hindustan, established in 1770 in Calcutta, is considered the first bank to be established in India. It closed in 1832."},
-  {"prompt": "Which of the following is the central bank of India?", "answers": ["State Bank of India", "Reserve Bank of India", "Punjab National Bank", "Bank of Baroda"], "correct": 1, "explanation": "Reserve Bank of India is India's central bank, responsible for monetary policy, currency issuance, and regulation of the banking system."},
-  {"prompt": "RBI serves as the banker to which of the following?", "answers": ["Only Central Government", "Only State Governments", "Both Central and State Governments", "Only Public Sector Banks"], "correct": 2, "explanation": "RBI acts as banker to both the Central Government and State Governments, managing their accounts and handling public debt."},
-  {"prompt": "Which function is NOT performed by the Reserve Bank of India?", "answers": ["Issuing currency notes", "Regulating commercial banks", "Accepting deposits from public", "Formulating monetary policy"], "correct": 2, "explanation": "RBI does not accept deposits from the general public. It is a central bank that regulates the banking system; accepting public deposits is a function of commercial banks."},
-  {"prompt": "The headquarters of the Reserve Bank of India is located in?", "answers": ["New Delhi", "Mumbai", "Kolkata", "Chennai"], "correct": 1, "explanation": "The central office of RBI is in Mumbai. It was originally in Kolkata and moved to Mumbai in 1937."},
-  {"prompt": "RBI has how many regional offices?", "answers": ["4", "19", "25", "31"], "correct": 1, "explanation": "RBI has 19 regional offices located in state capitals and major cities across India."},
-  {"prompt": "Which of the following describes the role of RBI as 'lender of last resort'?", "answers": ["Issuing currency", "Providing credit to banks in emergency", "Regulating foreign exchange", "Managing government debt"], "correct": 1, "explanation": "As lender of last resort, RBI provides funds to banks facing temporary liquidity shortages to maintain financial stability."},
-  {"prompt": "The Reserve Bank of India was the central bank of Pakistan until?", "answers": ["1947", "June 1948", "1950", "Pakistan never used RBI"], "correct": 1, "explanation": "After partition in 1947, RBI served as the central bank of Pakistan until the State Bank of Pakistan commenced operations in June 1948."},
-  {"prompt": "Which bank is known as the 'Banker's Bank' in India?", "answers": ["State Bank of India", "Punjab National Bank", "Reserve Bank of India", "HDFC Bank"], "correct": 2, "explanation": "RBI is called the 'Banker's Bank' because commercial banks maintain accounts with RBI and it provides them liquidity support."},
-  {"prompt": "Who appoints the Governor of the Reserve Bank of India?", "answers": ["President of India", "Prime Minister of India", "Central Government", "Parliament"], "correct": 2, "explanation": "The Governor of RBI is appointed by the Central Government (Cabinet) for a term of 3 years, which can be extended."},
-  {"prompt": "The RBI Governor holds office for a term of how many years?", "answers": ["2 years", "3 years", "5 years", "6 years"], "correct": 1, "explanation": "The RBI Governor is appointed for a term of 3 years and is eligible for reappointment."},
-  {"prompt": "Which city had the first office of RBI when it was established?", "answers": ["Mumbai", "Kolkata", "Delhi", "Chennai"], "correct": 1, "explanation": "RBI commenced operations in Kolkata (then Calcutta) in 1935. The central office moved to Mumbai in 1937."},
-  {"prompt": "The currency notes in India are issued by?", "answers": ["Ministry of Finance", "Reserve Bank of India", "State Bank of India", "Security Printing and Minting Corporation"], "correct": 1, "explanation": "RBI has the sole right to issue currency notes in India under the RBI Act. One rupee notes are issued by the Ministry of Finance."}
+﻿[
+    {
+        "prompt":  "When was the State Bank of India established?",
+        "answers":  [
+                        "1947",
+                        "1955",
+                        "1969",
+                        "1959"
+                    ],
+        "correct":  1,
+        "explanation":  "State Bank of India was established on July 1, 1955, when the Imperial Bank of India was nationalized and renamed."
+    },
+    {
+        "prompt":  "Which committee is associated with banking sector reforms in India in the 1990s?",
+        "answers":  [
+                        "Raja Chelliah Committee",
+                        "Narasimham Committee",
+                        "Rangarajan Committee",
+                        "Kelkar Committee"
+                    ],
+        "correct":  1,
+        "explanation":  "The Narasimham Committee (1991 and 1998) recommended major banking sector reforms including reduction in CRR/SLR, entry of private banks, and NPAs resolution."
+    },
+    {
+        "prompt":  "What does WPI stand for?",
+        "answers":  [
+                        "Wholesale Price Index",
+                        "Weekly Price Index",
+                        "Weighted Price Index",
+                        "World Price Index"
+                    ],
+        "correct":  0,
+        "explanation":  "WPI measures price changes at wholesale level. It is released by Ministry of Commerce. RBI uses CPI for monetary policy."
+    },
+    {
+        "prompt":  "CPI for industrial workers is released by?",
+        "answers":  [
+                        "RBI",
+                        "Labour Bureau",
+                        "CSO",
+                        "Ministry of Finance"
+                    ],
+        "correct":  1,
+        "explanation":  "Labour Bureau releases CPI-IW (Industrial Workers), CPI-AL (Agricultural Labourers), CPI-RL (Rural Labourers)."
+    },
+    {
+        "prompt":  "Standing Deposit Facility (SDF) was introduced in?",
+        "answers":  [
+                        "2018",
+                        "2020",
+                        "2022",
+                        "2023"
+                    ],
+        "correct":  2,
+        "explanation":  "SDF was introduced in April 2022 as the floor of the LAF corridor. It replaced Fixed Reverse Repo as the floor."
+    },
+    {
+        "prompt":  "SDF rate is typically?",
+        "answers":  [
+                        "Above Repo",
+                        "Equal to Repo",
+                        "Below Repo as floor of corridor",
+                        "Same as MSF"
+                    ],
+        "correct":  2,
+        "explanation":  "SDF forms the floor of the interest rate corridor. MSF is the ceiling. Repo is in the middle. SDF is typically 25 bps below Repo."
+    },
+    {
+        "prompt":  "Liquidity Adjustment Facility (LAF) includes?",
+        "answers":  [
+                        "Only Repo",
+                        "Repo and Reverse Repo or SDF",
+                        "Only CRR",
+                        "Only SLR"
+                    ],
+        "correct":  1,
+        "explanation":  "LAF consists of Repo (injection) and Reverse Repo or SDF (absorption). It helps RBI manage day-to-day liquidity."
+    },
+    {
+        "prompt":  "Market Stabilisation Scheme was used to?",
+        "answers":  [
+                        "Stabilize stock market",
+                        "Absorb excess liquidity from forex inflows",
+                        "Reduce CRR",
+                        "Increase SLR"
+                    ],
+        "correct":  1,
+        "explanation":  "MSS bonds were issued to absorb excess liquidity from large capital inflows. Proceeds are held in a separate account."
+    },
+    {
+        "prompt":  "Special Drawing Rights are issued by?",
+        "answers":  [
+                        "World Bank",
+                        "IMF",
+                        "RBI",
+                        "UN"
+                    ],
+        "correct":  1,
+        "explanation":  "SDR is an international reserve asset created by IMF. Its value is based on a basket of five currencies."
+    },
+    {
+        "prompt":  "India forex reserves are managed by?",
+        "answers":  [
+                        "Ministry of Finance",
+                        "RBI",
+                        "SEBI",
+                        "External committee"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI manages India foreign exchange reserves. It intervenes in forex market to manage rupee volatility."
+    },
+    {
+        "prompt":  "Capital to Risk-weighted Assets Ratio minimum for banks is?",
+        "answers":  [
+                        "8%",
+                        "9%",
+                        "10.5%",
+                        "12%"
+                    ],
+        "correct":  2,
+        "explanation":  "Minimum CRAR for Indian banks is 9% plus Capital Conservation Buffer. Total minimum is around 11.5%."
+    },
+    {
+        "prompt":  "Countercyclical Capital Buffer can be?",
+        "answers":  [
+                        "Always 0%",
+                        "0% to 2.5% activated during credit boom",
+                        "Fixed at 1%",
+                        "Only for foreign banks"
+                    ],
+        "correct":  1,
+        "explanation":  "CCyB can be 0-2.5% of risk-weighted assets. RBI activates it when credit growth is excessive."
+    },
+    {
+        "prompt":  "D-SIBs in India include?",
+        "answers":  [
+                        "All PSBs",
+                        "SBI, ICICI Bank, HDFC Bank",
+                        "Only SBI",
+                        "Only private banks"
+                    ],
+        "correct":  1,
+        "explanation":  "SBI, ICICI Bank, and HDFC Bank are Domestic Systemically Important Banks. They need additional CET1."
+    },
+    {
+        "prompt":  "Risk-weighted assets means?",
+        "answers":  [
+                        "Total assets",
+                        "Assets multiplied by risk weights",
+                        "Only NPAs",
+                        "Only loans"
+                    ],
+        "correct":  1,
+        "explanation":  "Different assets have different risk weights. Capital requirement is calculated on risk-weighted assets."
+    },
+    {
+        "prompt":  "Tier 1 capital includes?",
+        "answers":  [
+                        "Only equity",
+                        "CET1 and AT1",
+                        "Subordinated debt only",
+                        "Government bonds"
+                    ],
+        "correct":  1,
+        "explanation":  "Tier 1 capital includes Common Equity Tier 1 and Additional Tier 1. It is the core capital that absorbs losses."
+    },
+    {
+        "prompt":  "Minimum CET1 ratio for Indian banks is?",
+        "answers":  [
+                        "4%",
+                        "4.5%",
+                        "5.5%",
+                        "8%"
+                    ],
+        "correct":  2,
+        "explanation":  "Indian banks must maintain minimum CET1 of 5.5% of risk-weighted assets under Basel III."
+    },
+    {
+        "prompt":  "Bank of Bengal was established in?",
+        "answers":  [
+                        "1770",
+                        "1806",
+                        "1840",
+                        "1875"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank of Bengal was established in 1806 in Calcutta. It was one of the three Presidency Banks."
+    },
+    {
+        "prompt":  "General Bank of India was established in?",
+        "answers":  [
+                        "1770",
+                        "1786",
+                        "1806",
+                        "1820"
+                    ],
+        "correct":  1,
+        "explanation":  "General Bank of India was established in 1786. It was among the earliest banks in India but did not survive long."
+    },
+    {
+        "prompt":  "Punjab National Bank was established in?",
+        "answers":  [
+                        "1894",
+                        "1906",
+                        "1919",
+                        "1935"
+                    ],
+        "correct":  0,
+        "explanation":  "PNB was established in 1894 in Lahore. It was founded by Lala Lajpat Rai and others. It is India\u0027s first Swadeshi bank."
+    },
+    {
+        "prompt":  "Bank of Baroda was founded in?",
+        "answers":  [
+                        "1894",
+                        "1908",
+                        "1911",
+                        "1921"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank of Baroda was founded in 1908 in Baroda (Vadodara) by Maharaja Sayajirao Gaekwad III."
+    },
+    {
+        "prompt":  "Canara Bank was established in?",
+        "answers":  [
+                        "1906",
+                        "1911",
+                        "1921",
+                        "1935"
+                    ],
+        "correct":  0,
+        "explanation":  "Canara Bank was established in 1906 in Mangalore by Ammembal Subba Rao Pai. It was nationalized in 1969."
+    },
+    {
+        "prompt":  "The Swadeshi Movement of 1905-1907 led to establishment of?",
+        "answers":  [
+                        "RBI",
+                        "Several Indian banks (e.g., PNB, Canara)",
+                        "Imperial Bank",
+                        "Foreign banks"
+                    ],
+        "correct":  1,
+        "explanation":  "The Swadeshi movement encouraged indigenous enterprise. Many banks like PNB (1894), Canara (1906), Central Bank (1911) were established in this era."
+    },
+    {
+        "prompt":  "State Bank of India Act was passed in?",
+        "answers":  [
+                        "1955",
+                        "1959",
+                        "1969",
+                        "1975"
+                    ],
+        "correct":  0,
+        "explanation":  "State Bank of India Act, 1955 was passed to take over Imperial Bank of India and create State Bank of India."
+    },
+    {
+        "prompt":  "State Bank of Hyderabad and State Bank of Travancore were?",
+        "answers":  [
+                        "Private banks",
+                        "Associate banks of SBI",
+                        "RRBs",
+                        "Foreign banks"
+                    ],
+        "correct":  1,
+        "explanation":  "They were associate banks of SBI (formed by taking over state-associated banks). They merged with SBI in 2017."
+    },
+    {
+        "prompt":  "Bharatiya Mahila Bank was merged with?",
+        "answers":  [
+                        "PNB",
+                        "SBI",
+                        "Canara Bank",
+                        "BOB"
+                    ],
+        "correct":  1,
+        "explanation":  "Bharatiya Mahila Bank (established 2013) was merged with SBI in 2017 as part of the consolidation of PSBs."
+    }
 ]

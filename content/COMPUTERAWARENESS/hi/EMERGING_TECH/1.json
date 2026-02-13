@@ -1,0 +1,189 @@
+[
+    {
+        "prompt": "RAID का पूरा नाम?",
+        "answers": [
+            "Random Array of Independent Disks",
+            "Redundant Array of Independent Disks",
+            "Redundant Array of Integrated Disks",
+            "Random Array of Integrated Disks"
+        ],
+        "correct": 1,
+        "explanation": "RAID कई डिस्क जोड़ता है - अतिरेक, प्रदर्शन।"
+    },
+    {
+        "prompt": "RAID 1 प्रदान करता है?",
+        "answers": [
+            "केवल गति",
+            "मिररिंग - दो डिस्क पर डुप्लिकेट डेटा",
+            "केवल स्ट्राइपिंग",
+            "कोई अतिरेक नहीं"
+        ],
+        "correct": 1,
+        "explanation": "RAID 1 मिरर - 2 डिस्क पर समान डेटा। फॉल्ट सहिष्णुता।"
+    },
+    {
+        "prompt": "RAID प्रदान करता है?",
+        "answers": [
+            "केवल गति",
+            "रेडंडेंसी और/या प्रदर्शन",
+            "केवल बैकअप",
+            "केवल स्टोरेज"
+        ],
+        "correct": 1,
+        "explanation": "RAID रेडंडेंसी या प्रदर्शन देता है।"
+    },
+    {
+        "prompt": "AI विंटर क्या है?",
+        "answers": [
+            "ठंडा मौसम",
+            "AI में निधि और रुचि कम होने की अवधि",
+            "AI का चरम",
+            "केवल सर्दी का मौसम"
+        ],
+        "correct": 1,
+        "explanation": "AI विंटर AI में निधि और रुचि कम होने की अवधि है।"
+    },
+    {
+        "prompt": "5G क्या है?",
+        "answers": [
+            "मोबाइल नेटवर्क की पांचवीं पीढ़ी",
+            "चौथी पीढ़ी",
+            "तीसरी पीढ़ी",
+            "छठी पीढ़ी"
+        ],
+        "correct": 0,
+        "explanation": "5G - पांचवीं पीढ़ी। 4G LTE से तेज़, कम विलंब।"
+    },
+    {
+        "prompt": "5G प्रदान करता है?",
+        "answers": [
+            "4G जैसा",
+            "उच्च गति, कम विलंब, अधिक कनेक्टिविटी",
+            "केवल वॉइस",
+            "केवल 2G गति"
+        ],
+        "correct": 1,
+        "explanation": "5G: मल्टी-गीगाबिट, मिलीसेकंड विलंब।"
+    },
+    {
+        "prompt": "5G में विलंब?",
+        "answers": [
+            "4G जैसा",
+            "कम - मिलीसेकंड",
+            "अधिक",
+            "कोई विलंब नहीं"
+        ],
+        "correct": 1,
+        "explanation": "5G का लक्ष्य 1 ms से कम विलंब।"
+    },
+    {
+        "prompt": "5G के साथ एज कंप्यूटिंग मदद करती है?",
+        "answers": [
+            "केवल क्लाउड",
+            "उपयोगकर्ता के पास प्रोसेस - कम विलंब",
+            "केवल स्टोरेज",
+            "केवल गति"
+        ],
+        "correct": 1,
+        "explanation": "एज + 5G - एज पर कम्प्यूट। क्लाउड तक कम राउंड-ट्रिप।"
+    },
+    {
+        "prompt": "IoT 5G से लाभ क्यों?",
+        "answers": [
+            "केवल लागत",
+            "अधिक डिवाइस, कम विलंब, विश्वसनीयता",
+            "केवल गति",
+            "केवल वॉइस"
+        ],
+        "correct": 1,
+        "explanation": "5G बड़े पैमाने पर IoT का समर्थन करता है।"
+    },
+    {
+        "prompt": "TRAI नियंत्रित करता है?",
+        "answers": [
+            "बैंक",
+            "टेलीकॉम - भारतीय दूरसंचार नियामक प्राधिकरण",
+            "रेलवे",
+            "शिक्षा"
+        ],
+        "correct": 1,
+        "explanation": "TRAI - टेलीकॉम नियामक। टैरिफ, स्पेक्ट्रम।"
+    },
+    {
+        "prompt": "AI का पूरा नाम क्या है?",
+        "answers": [
+            "Artificial Intelligence",
+            "Advanced Intelligence",
+            "Automated Intelligence",
+            "Artificial Internet"
+        ],
+        "correct": 0,
+        "explanation": "AI मशीनों को मानव बुद्धि वाले कार्य करने में सक्षम बनाता है।"
+    },
+    {
+        "prompt": "QR कोड का पूरा नाम क्या है?",
+        "answers": [
+            "Quick Response Code",
+            "Quality Response Code",
+            "Quick Read Code",
+            "Quantum Response Code"
+        ],
+        "correct": 0,
+        "explanation": "QR कोड डेटा संग्रहीत करता है - कैमरे से जल्दी स्कैन हो सकता है। UPI में उपयोग।"
+    },
+    {
+        "prompt": "QR कोड का मतलब?",
+        "answers": [
+            "Quick Response Code",
+            "Quality Response Code",
+            "Quick Read Code",
+            "Quad Response Code"
+        ],
+        "correct": 0,
+        "explanation": "QR कोड - 2D बारकोड। तेज़ स्कैन। URL, पेमेंट स्टोर करता है।"
+    },
+    {
+        "prompt": "QR कोड स्टोर करता है?",
+        "answers": [
+            "केवल संख्या",
+            "URL, टेक्स्ट, vCard, पेमेंट - विभिन्न डेटा",
+            "केवल छवि",
+            "केवल ऑडियो"
+        ],
+        "correct": 1,
+        "explanation": "QR लगभग 4000 अल्फ़ान्यूमेरिक वर्ण स्टोर कर सकता है।"
+    },
+    {
+        "prompt": "बारकोड बनाम QR कोड?",
+        "answers": [
+            "समान",
+            "QR अधिक डेटा स्टोर करता है, 2D, तेज़ स्कैन",
+            "QR 1D है",
+            "बारकोड 2D है"
+        ],
+        "correct": 1,
+        "explanation": "बारकोड - 1D, सीमित। QR - 2D, अधिक डेटा।"
+    },
+    {
+        "prompt": "5G मोबाइल नेटवर्क तकनीक का कौन सा जनरेशन है?",
+        "answers": [
+            "कंप्यूटर प्रोसेसर का",
+            "मोबाइल नेटवर्क तकनीक का",
+            "ऑपरेटिंग सिस्टम का",
+            "स्टोरेज डिवाइस का"
+        ],
+        "correct": 1,
+        "explanation": "5G सेलुलर नेटवर्क तकनीक का पाँचवाँ जनरेशन है।"
+    },
+    {
+        "prompt": "UIDAI का पूरा नाम?",
+        "answers": [
+            "Unique Identification Authority of India",
+            "Urban ID Authority of India",
+            "Universal ID Authority",
+            "Unique Identity Authority"
+        ],
+        "correct": 0,
+        "explanation": "UIDAI आधार जारी करता है - 12 अंकों की विशिष्ट पहचान।"
+    }
+]

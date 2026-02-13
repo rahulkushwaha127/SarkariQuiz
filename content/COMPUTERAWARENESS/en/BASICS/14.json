@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "EPROM stands for?",
+        "answers":  [
+                        "Erasable Programmable Read Only Memory",
+                        "Electronic Programmable ROM",
+                        "Erasable Permanent ROM",
+                        "Electronic Permanent ROM"
+                    ],
+        "correct":  0,
+        "explanation":  "EPROM can be erased by ultraviolet light and reprogrammed. Used for BIOS in older systems."
+    },
+    {
+        "prompt":  "EEPROM can be erased?",
+        "answers":  [
+                        "Only by UV light",
+                        "Electrically - without removing from circuit",
+                        "Never",
+                        "Only at factory"
+                    ],
+        "correct":  1,
+        "explanation":  "EEPROM (Electrically Erasable PROM) can be erased and reprogrammed electrically."
+    },
+    {
+        "prompt":  "Flash memory is used in?",
+        "answers":  [
+                        "Only RAM",
+                        "USB drives, SSDs, memory cards",
+                        "Only ROM",
+                        "Only cache"
+                    ],
+        "correct":  1,
+        "explanation":  "Flash memory is non-volatile. Used in USB drives, SSDs, SD cards, smartphones."
+    },
+    {
+        "prompt":  "Which is faster - Cache or RAM?",
+        "answers":  [
+                        "RAM",
+                        "Cache",
+                        "Same speed",
+                        "Depends"
+                    ],
+        "correct":  1,
+        "explanation":  "Cache is faster than RAM - it is closer to CPU and stores frequently used data."
+    },
+    {
+        "prompt":  "Register is?",
+        "answers":  [
+                        "Large storage",
+                        "Smallest, fastest memory in CPU",
+                        "Same as RAM",
+                        "Same as HDD"
+                    ],
+        "correct":  1,
+        "explanation":  "Registers are small, fastest memory inside CPU - hold data being processed."
+    },
+    {
+        "prompt":  "Clock speed of CPU is measured in?",
+        "answers":  [
+                        "Bytes",
+                        "Hertz (Hz) or GHz",
+                        "Watts",
+                        "Bytes per second"
+                    ],
+        "correct":  1,
+        "explanation":  "CPU clock speed measured in Hz (cycles per second). 1 GHz = 1 billion cycles/second."
+    },
+    {
+        "prompt":  "Multi-core processor has?",
+        "answers":  [
+                        "One processing unit",
+                        "Multiple processing cores on single chip",
+                        "Only cache",
+                        "Only one thread"
+                    ],
+        "correct":  1,
+        "explanation":  "Multi-core (dual, quad, etc.) has multiple CPUs on one chip - parallel processing."
+    },
+    {
+        "prompt":  "GHz in processor means?",
+        "answers":  [
+                        "Gigahertz - billion cycles per second",
+                        "Gigabytes",
+                        "Giga watts",
+                        "Giga bytes per second"
+                    ],
+        "correct":  0,
+        "explanation":  "1 GHz = 1 billion hertz = 1 billion cycles per second."
+    },
+    {
+        "prompt":  "Binary number 1010 in decimal is?",
+        "answers":  [
+                        "8",
+                        "9",
+                        "10",
+                        "11"
+                    ],
+        "correct":  2,
+        "explanation":  "1010 binary = 1x8 + 0x4 + 1x2 + 0x1 = 10 decimal."
+    },
+    {
+        "prompt":  "Hexadecimal uses how many symbols?",
+        "answers":  [
+                        "8",
+                        "10",
+                        "16",
+                        "32"
+                    ],
+        "correct":  2,
+        "explanation":  "Hexadecimal uses 0-9 and A-F (16 symbols). Base 16 number system."
+    },
+    {
+        "prompt":  "System software includes?",
+        "answers":  [
+                        "MS Word",
+                        "Operating System, device drivers, utilities",
+                        "Games",
+                        "Browsers"
+                    ],
+        "correct":  1,
+        "explanation":  "System software manages hardware - OS, drivers, antivirus, disk utilities."
+    },
+    {
+        "prompt":  "Application software includes?",
+        "answers":  [
+                        "Operating System",
+                        "Word processor, spreadsheet, browser - user tasks",
+                        "BIOS",
+                        "Device drivers"
+                    ],
+        "correct":  1,
+        "explanation":  "Application software helps users perform tasks - Word, Excel, Chrome, games."
+    },
+    {
+        "prompt":  "Linux is?",
+        "answers":  [
+                        "Proprietary",
+                        "Open source operating system",
+                        "Only for Windows",
+                        "Only for Mac"
+                    ],
+        "correct":  1,
+        "explanation":  "Linux is free, open-source OS. Android is based on Linux kernel."
+    },
+    {
+        "prompt":  "Windows is developed by?",
+        "answers":  [
+                        "Apple",
+                        "Microsoft",
+                        "Google",
+                        "IBM"
+                    ],
+        "correct":  1,
+        "explanation":  "Microsoft developed Windows. Dominant desktop OS."
+    },
+    {
+        "prompt":  "macOS is used on?",
+        "answers":  [
+                        "PC only",
+                        "Apple Mac computers",
+                        "Android phones",
+                        "Linux"
+                    ],
+        "correct":  1,
+        "explanation":  "macOS is Apple\u0027s operating system for Mac computers."
+    },
+    {
+        "prompt":  "Android is based on?",
+        "answers":  [
+                        "Windows",
+                        "Linux kernel",
+                        "iOS",
+                        "macOS"
+                    ],
+        "correct":  1,
+        "explanation":  "Android OS is based on Linux kernel. Used in majority of smartphones."
+    },
+    {
+        "prompt":  "iOS is used in?",
+        "answers":  [
+                        "Android phones",
+                        "Apple iPhone and iPad",
+                        "Windows PC",
+                        "Linux"
+                    ],
+        "correct":  1,
+        "explanation":  "iOS is Apple\u0027s mobile OS for iPhone, iPad, iPod Touch."
+    },
+    {
+        "prompt":  "Boot process means?",
+        "answers":  [
+                        "Shutdown",
+                        "Starting up computer - loading OS",
+                        "Restart only",
+                        "Sleep mode"
+                    ],
+        "correct":  1,
+        "explanation":  "Booting is process of starting computer - BIOS loads, then OS."
+    },
+    {
+        "prompt":  "File extension .exe indicates?",
+        "answers":  [
+                        "Document",
+                        "Executable program",
+                        "Image",
+                        "Video"
+                    ],
+        "correct":  1,
+        "explanation":  ".exe = executable file - program that runs. Windows executable."
+    },
+    {
+        "prompt":  "File extension .docx indicates?",
+        "answers":  [
+                        "Excel",
+                        "Word document",
+                        "PowerPoint",
+                        "Image"
+                    ],
+        "correct":  1,
+        "explanation":  ".docx is Microsoft Word document format."
+    },
+    {
+        "prompt":  "File extension .xlsx indicates?",
+        "answers":  [
+                        "Word",
+                        "Excel spreadsheet",
+                        "PowerPoint",
+                        "PDF"
+                    ],
+        "correct":  1,
+        "explanation":  ".xlsx is Microsoft Excel workbook format."
+    },
+    {
+        "prompt":  "File extension .pptx indicates?",
+        "answers":  [
+                        "Word",
+                        "Excel",
+                        "PowerPoint presentation",
+                        "PDF"
+                    ],
+        "correct":  2,
+        "explanation":  ".pptx is Microsoft PowerPoint presentation format."
+    },
+    {
+        "prompt":  "JPEG is format for?",
+        "answers":  [
+                        "Audio",
+                        "Image - photographs",
+                        "Video",
+                        "Document"
+                    ],
+        "correct":  1,
+        "explanation":  "JPEG/JPG is compressed image format. Common for photos."
+    },
+    {
+        "prompt":  "MP3 is format for?",
+        "answers":  [
+                        "Image",
+                        "Audio - compressed music",
+                        "Video",
+                        "Document"
+                    ],
+        "correct":  1,
+        "explanation":  "MP3 is compressed audio format. Popular for music files."
+    },
+    {
+        "prompt":  "PDF preserves?",
+        "answers":  [
+                        "Only text",
+                        "Formatting - looks same on any device",
+                        "Only images",
+                        "Only links"
+                    ],
+        "correct":  1,
+        "explanation":  "PDF maintains layout and formatting across platforms and printers."
+    }
+]

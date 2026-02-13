@@ -1,0 +1,211 @@
+﻿[
+    {
+        "prompt":  "Leverage Ratio under Basel III is?",
+        "answers":  [
+                        "3%",
+                        "4%",
+                        "5%",
+                        "6%"
+                    ],
+        "correct":  0,
+        "explanation":  "Basel III mandates a minimum leverage ratio of 3%. It is Tier 1 capital divided by total exposure."
+    },
+    {
+        "prompt":  "Basel II had how many pillars?",
+        "answers":  [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+        "correct":  2,
+        "explanation":  "Basel II had three pillars: Pillar 1 Minimum capital, Pillar 2 Supervisory review, Pillar 3 Market discipline."
+    },
+    {
+        "prompt":  "Pillar 2 of Basel deals with?",
+        "answers":  [
+                        "Minimum capital",
+                        "Supervisory review process",
+                        "Market disclosure",
+                        "Liquidity"
+                    ],
+        "correct":  1,
+        "explanation":  "Pillar 2 involves supervisory review. Banks must assess overall capital adequacy and supervisors evaluate them."
+    },
+    {
+        "prompt":  "Pillar 3 of Basel emphasizes?",
+        "answers":  [
+                        "Capital calculation",
+                        "Disclosure and transparency",
+                        "Liquidity buffers",
+                        "Asset quality"
+                    ],
+        "correct":  1,
+        "explanation":  "Pillar 3 focuses on market discipline through disclosure of capital, risk exposure to market."
+    },
+    {
+        "prompt":  "Narasimham Committee I (1991) recommended?",
+        "answers":  [
+                        "Nationalization",
+                        "Reduction in CRR and SLR",
+                        "Increase in government ownership",
+                        "More RRBs"
+                    ],
+        "correct":  1,
+        "explanation":  "Narasimham I recommended phased reduction of CRR and SLR, entry of private banks, NPA recognition, and autonomy for banks."
+    },
+    {
+        "prompt":  "Narasimham Committee II (1998) focused on?",
+        "answers":  [
+                        "Bank nationalization",
+                        "Strengthening banks, capital adequacy, NPA management",
+                        "Only RRBs",
+                        "Only cooperative banks"
+                    ],
+        "correct":  1,
+        "explanation":  "Narasimham II addressed structural issues, capital adequacy, mergers, narrow banking concept, and NPA resolution."
+    },
+    {
+        "prompt":  "Basel Committee has members from?",
+        "answers":  [
+                        "Only G7",
+                        "Central banks and regulators from multiple countries",
+                        "Only Europe",
+                        "Only USA"
+                    ],
+        "correct":  1,
+        "explanation":  "Basel Committee has members from nearly 30 jurisdictions including India. It sets global banking standards."
+    },
+    {
+        "prompt":  "Basel I focused mainly on?",
+        "answers":  [
+                        "Liquidity",
+                        "Credit risk - minimum 8% capital",
+                        "Operational risk",
+                        "Market risk"
+                    ],
+        "correct":  1,
+        "explanation":  "Basel I (1988) introduced minimum 8% capital for credit risk. Simple risk weights."
+    },
+    {
+        "prompt":  "Basel II added?",
+        "answers":  [
+                        "Only credit risk",
+                        "Operational risk, market risk, three pillars",
+                        "Only Pillar 1",
+                        "Only disclosure"
+                    ],
+        "correct":  1,
+        "explanation":  "Basel II added operational risk, refined credit risk (internal models), and introduced three pillars including disclosure."
+    },
+    {
+        "prompt":  "Basel III was developed after?",
+        "answers":  [
+                        "Asian crisis 1997",
+                        "Global Financial Crisis 2008",
+                        "Euro crisis 2012",
+                        "Dot com bubble 2000"
+                    ],
+        "correct":  1,
+        "explanation":  "Basel III was developed post-2008 crisis to strengthen bank capital, liquidity, and leverage."
+    },
+    {
+        "prompt":  "Basel IV refers to?",
+        "answers":  [
+                        "New separate accord",
+                        "Finalization of Basel III - revised standards",
+                        "Basel I update",
+                        "Only market risk"
+                    ],
+        "correct":  1,
+        "explanation":  "Basel IV is not official name. It refers to finalization of Basel III (final reforms) - revised risk-weighted assets, output floor, etc."
+    },
+    {
+        "prompt":  "Output floor in Basel ensures?",
+        "answers":  [
+                        "Unlimited use of internal models",
+                        "Banks using internal models cannot have capital less than 72.5% of standardized approach",
+                        "No internal models",
+                        "Only standard approach"
+                    ],
+        "correct":  1,
+        "explanation":  "Output floor limits benefit from internal models. Capital cannot be lower than 72.5% of what standardized approach would require."
+    },
+    {
+        "prompt":  "India has implemented Basel III?",
+        "answers":  [
+                        "No",
+                        "Yes - fully implemented",
+                        "Partially",
+                        "Only for PSBs"
+                    ],
+        "correct":  1,
+        "explanation":  "India has implemented Basel III. RBI issued guidelines and banks have met the requirements. Basel III reforms (output floor) being phased."
+    },
+    {
+        "prompt":  "Basel Committee on Banking Supervision is associated with?",
+        "answers":  [
+                        "IMF",
+                        "World Bank",
+                        "BIS",
+                        "WTO"
+                    ],
+        "correct":  2,
+        "explanation":  "Basel Committee operates from the Bank for International Settlements (BIS) in Basel, Switzerland. It formulates Basel norms (Basel I, II, III)."
+    },
+    {
+        "prompt":  "Basel III norms primarily focus on?",
+        "answers":  [
+                        "Only capital adequacy",
+                        "Capital, leverage, and liquidity",
+                        "Only liquidity",
+                        "Only leverage"
+                    ],
+        "correct":  1,
+        "explanation":  "Basel III emphasizes three pillars: minimum capital requirements, supervisory review, and market discipline. It also mandates leverage ratio and liquidity ratios (LCR, NSFR)."
+    },
+    {
+        "prompt":  "Nachiket Mor Committee was related to?",
+        "answers":  [
+                        "Banking sector reforms",
+                        "Financial inclusion and banking structure",
+                        "Tax reforms",
+                        "Agricultural credit"
+                    ],
+        "correct":  1,
+        "explanation":  "Nachiket Mor Committee (2013) recommended structural changes for financial inclusion - Payment Banks, Small Finance Banks, and universal banking access."
+    },
+    {
+        "prompt":  "Raghuram Rajan Committee was related to?",
+        "answers":  [
+                        "Bank nationalization",
+                        "Financial sector reforms (2008)",
+                        "SEBI reforms",
+                        "Insurance sector"
+                    ],
+        "correct":  1,
+        "explanation":  "Raghuram Rajan Committee (2008) on financial sector reforms made recommendations on banking, capital markets, and financial inclusion."
+    },
+    {
+        "prompt":  "Net Stable Funding Ratio (NSFR) under Basel III addresses?",
+        "answers":  [
+                        "Credit risk",
+                        "Liquidity risk over 1-year horizon",
+                        "Market risk",
+                        "Operational risk"
+                    ],
+        "correct":  1,
+        "explanation":  "NSFR requires banks to maintain stable funding relative to their assets and activities over a one-year horizon."
+    },
+    {
+        "prompt":  "Capital Conservation Buffer (CCB) under Basel III is?",
+        "answers":  [
+                        "1%",
+                        "2.5%",
+                        "4%",
+                        "5%"
+                    ],
+        "correct":  1,
+        "explanation":  "CCB of 2.5% is to be maintained in addition to minimum capital. It builds buffers during good times for use in stress."
+    }
+]

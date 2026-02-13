@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Broadband in India is defined as?",
+        "answers":  [
+                        "512 Kbps",
+                        "512 Kbps minimum - TRAI",
+                        "256 Kbps",
+                        "1 Mbps"
+                    ],
+        "correct":  1,
+        "explanation":  "TRAI defines broadband as 512 Kbps or higher. Many now get much more."
+    },
+    {
+        "prompt":  "SIM stands for?",
+        "answers":  [
+                        "Subscriber Identity Module",
+                        "System Identity Module",
+                        "Subscriber Interface Module",
+                        "Simple Identity Module"
+                    ],
+        "correct":  0,
+        "explanation":  "SIM - identifies subscriber. Stores contacts, network auth."
+    },
+    {
+        "prompt":  "eSIM is?",
+        "answers":  [
+                        "Physical only",
+                        "Embedded SIM - programmable, no physical card",
+                        "External SIM",
+                        "Extra SIM"
+                    ],
+        "correct":  1,
+        "explanation":  "eSIM - built in. No physical card. Programmable. Used in newer phones."
+    },
+    {
+        "prompt":  "SAR value in mobile?",
+        "answers":  [
+                        "Storage",
+                        "Specific Absorption Rate - radiation",
+                        "Speed",
+                        "Sound"
+                    ],
+        "correct":  1,
+        "explanation":  "SAR - radio frequency energy absorbed. India limit 1.6 W/kg."
+    },
+    {
+        "prompt":  "Mouse is what type of input device?",
+        "answers":  [
+                        "Pointing",
+                        "Scanning",
+                        "Printing",
+                        "Storage"
+                    ],
+        "correct":  0,
+        "explanation":  "Mouse is a pointing device - used to move cursor and select items on screen."
+    },
+    {
+        "prompt":  "Keyboard is what type of device?",
+        "answers":  [
+                        "Input",
+                        "Output",
+                        "Storage",
+                        "Processing"
+                    ],
+        "correct":  0,
+        "explanation":  "Keyboard is an input device - used to enter data and commands into the computer."
+    },
+    {
+        "prompt":  "Monitor is what type of device?",
+        "answers":  [
+                        "Output",
+                        "Input",
+                        "Storage",
+                        "Processing"
+                    ],
+        "correct":  0,
+        "explanation":  "Monitor is an output device - displays information from the computer."
+    },
+    {
+        "prompt":  "What does ALU stand for in computer?",
+        "answers":  [
+                        "Arithmetic Logic Unit",
+                        "Arithmetic Logic Union",
+                        "Advanced Logic Unit",
+                        "All Logic Unit"
+                    ],
+        "correct":  0,
+        "explanation":  "ALU performs arithmetic (add, subtract) and logical (AND, OR) operations. It is part of CPU."
+    },
+    {
+        "prompt":  "What does CU stand for in computer?",
+        "answers":  [
+                        "Control Unit",
+                        "Central Unit",
+                        "Cache Unit",
+                        "Computer Unit"
+                    ],
+        "correct":  0,
+        "explanation":  "Control Unit directs operations of the processor - fetches, decodes, and executes instructions."
+    },
+    {
+        "prompt":  "Where is Cache memory located?",
+        "answers":  [
+                        "Inside CPU",
+                        "In RAM",
+                        "In Hard disk",
+                        "In ROM"
+                    ],
+        "correct":  0,
+        "explanation":  "Cache is high-speed memory inside or very close to CPU - stores frequently used data for fast access."
+    },
+    {
+        "prompt":  "What does SSD stand for?",
+        "answers":  [
+                        "Solid State Drive",
+                        "Super Speed Drive",
+                        "Storage State Drive",
+                        "Simple State Drive"
+                    ],
+        "correct":  0,
+        "explanation":  "SSD has no moving parts - uses flash memory. Faster and more durable than HDD."
+    },
+    {
+        "prompt":  "AePS stands for?",
+        "answers":  [
+                        "Aadhaar Enabled Payment System",
+                        "Automated Electronic Payment System",
+                        "Aadhaar Electronic Payment Service",
+                        "Automated Enabled Payment Service"
+                    ],
+        "correct":  0,
+        "explanation":  "AePS allows bank transactions using Aadhaar authentication - fingerprint/IRIS at micro-ATMs."
+    },
+    {
+        "prompt":  "MS Access is what type of software?",
+        "answers":  [
+                        "Database Management",
+                        "Word Processing",
+                        "Spreadsheet",
+                        "Presentation"
+                    ],
+        "correct":  0,
+        "explanation":  "MS Access is a Database Management System - creates and manages databases with tables, queries, forms."
+    },
+    {
+        "prompt":  "RFID stands for?",
+        "answers":  [
+                        "Radio Frequency Identification",
+                        "Radio Field Identification",
+                        "Remote Frequency Identification",
+                        "Read Field Identification"
+                    ],
+        "correct":  0,
+        "explanation":  "RFID - wireless identification. Tag and reader. No line of sight."
+    },
+    {
+        "prompt":  "RFID is used in?",
+        "answers":  [
+                        "Only payments",
+                        "Inventory, access control, toll, tracking",
+                        "Only phones",
+                        "Only computers"
+                    ],
+        "correct":  1,
+        "explanation":  "RFID - supply chain, Metro cards, library, animal tracking."
+    },
+    {
+        "prompt":  "Fingerprint sensor is?",
+        "answers":  [
+                        "Software only",
+                        "Biometric - unique ridges",
+                        "Only optical",
+                        "Only for display"
+                    ],
+        "correct":  1,
+        "explanation":  "Fingerprint - ridges unique. Optical or capacitive sensor."
+    },
+    {
+        "prompt":  "Iris recognition uses?",
+        "answers":  [
+                        "Finger",
+                        "Pattern in eye - iris",
+                        "Face only",
+                        "Voice only"
+                    ],
+        "correct":  1,
+        "explanation":  "Iris - colored part of eye. Unique pattern. High accuracy."
+    },
+    {
+        "prompt":  "Face recognition is?",
+        "answers":  [
+                        "Not biometric",
+                        "Biometric - analyzes facial features",
+                        "Only 2D",
+                        "Only for photos"
+                    ],
+        "correct":  1,
+        "explanation":  "Face recognition - facial features. 2D or 3D. Used in phones, security."
+    },
+    {
+        "prompt":  "Voice recognition is?",
+        "answers":  [
+                        "Not biometric",
+                        "Biometric - voice patterns",
+                        "Only for music",
+                        "Only for text"
+                    ],
+        "correct":  1,
+        "explanation":  "Voice - unique vocal characteristics. Speaker identification."
+    },
+    {
+        "prompt":  "NFC used in payments?",
+        "answers":  [
+                        "Not used",
+                        "Contactless - tap card or phone",
+                        "Only online",
+                        "Only QR"
+                    ],
+        "correct":  1,
+        "explanation":  "NFC - tap to pay. RuPay, Visa, Mastercard contactless. Apple Pay."
+    },
+    {
+        "prompt":  "Contactless card limit in India?",
+        "answers":  [
+                        "No limit",
+                        "Rs 5000 without PIN - RBI guideline",
+                        "Rs 1000",
+                        "Rs 10000"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI: contactless up to Rs 5000 without PIN. Above needs PIN."
+    },
+    {
+        "prompt":  "Token in security?",
+        "answers":  [
+                        "Only physical",
+                        "Hardware or software - generates codes",
+                        "Only software",
+                        "Only password"
+                    ],
+        "correct":  1,
+        "explanation":  "Token generates one-time codes. Google Authenticator, hardware keys."
+    },
+    {
+        "prompt":  "Indian IT Act 2000 deals with?",
+        "answers":  [
+                        "Only tax",
+                        "Cyber crime, e-commerce, digital signatures",
+                        "Only banking",
+                        "Only telecom"
+                    ],
+        "correct":  1,
+        "explanation":  "IT Act 2000 - legal framework for cyber crime, e-transactions."
+    },
+    {
+        "prompt":  "IT Act 2000 amended in?",
+        "answers":  [
+                        "2005",
+                        "2008 - IT Amendment Act",
+                        "2010",
+                        "2015"
+                    ],
+        "correct":  1,
+        "explanation":  "IT Amendment Act 2008 - added cyber terrorism, data protection aspects."
+    },
+    {
+        "prompt":  "Section 43 of IT Act?",
+        "answers":  [
+                        "Only compensation",
+                        "Unauthorized access, damage to computer - compensation",
+                        "Only imprisonment",
+                        "Only fine"
+                    ],
+        "correct":  1,
+        "explanation":  "Section 43 - civil liability for unauthorized access, damage."
+    }
+]

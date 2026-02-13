@@ -1,0 +1,211 @@
+﻿[
+    {
+        "prompt":  "UPI transaction limit for most transactions is?",
+        "answers":  [
+                        "Rs 25,000",
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "No limit"
+                    ],
+        "correct":  1,
+        "explanation":  "UPI default limit is Rs 1 lakh per transaction. For some categories like IPO, it can be higher. Banks may set lower limits."
+    },
+    {
+        "prompt":  "NPCI was set up as a initiative of?",
+        "answers":  [
+                        "Government only",
+                        "RBI and Indian Banks Association",
+                        "SEBI",
+                        "Ministry of Finance"
+                    ],
+        "correct":  1,
+        "explanation":  "NPCI was set up in 2008 as an umbrella organization under the patronage of RBI and IBA for retail payments."
+    },
+    {
+        "prompt":  "RuPay was launched by NPCI in?",
+        "answers":  [
+                        "2010",
+                        "2012",
+                        "2014",
+                        "2016"
+                    ],
+        "correct":  1,
+        "explanation":  "RuPay, India domestic card payment network, was launched by NPCI in 2012. It is an alternative to Visa and Mastercard."
+    },
+    {
+        "prompt":  "AePS allows transactions using?",
+        "answers":  [
+                        "Only debit card",
+                        "Aadhaar and fingerprint or IRIS",
+                        "Only mobile",
+                        "Only OTP"
+                    ],
+        "correct":  1,
+        "explanation":  "AePS allows customers to do banking using Aadhaar number and biometric (fingerprint/IRIS) authentication at BC points."
+    },
+    {
+        "prompt":  "Aadhaar seeding in bank account means?",
+        "answers":  [
+                        "Closing account",
+                        "Linking Aadhaar number to bank account",
+                        "Opening new account",
+                        "Changing PIN"
+                    ],
+        "correct":  1,
+        "explanation":  "Aadhaar seeding is linking the Aadhaar number to the bank account for direct benefit transfer and AePS transactions."
+    },
+    {
+        "prompt":  "e-RUPI is?",
+        "answers":  [
+                        "Digital currency",
+                        "Pre-paid voucher for specific purpose",
+                        "Credit card",
+                        "Debit card"
+                    ],
+        "correct":  1,
+        "explanation":  "e-RUPI is a prepaid digital voucher delivered via SMS or QR. It is purpose-specific and does not require bank account or app."
+    },
+    {
+        "prompt":  "e-RUPI was launched in?",
+        "answers":  [
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022"
+                    ],
+        "correct":  2,
+        "explanation":  "e-RUPI was launched by Prime Minister in August 2021. It is developed by NPCI in collaboration with DFS and RBI."
+    },
+    {
+        "prompt":  "Aadhaar is mandatory for?",
+        "answers":  [
+                        "All bank accounts",
+                        "Receiving government benefits and subsidies",
+                        "Only loans",
+                        "Only FDs"
+                    ],
+        "correct":  1,
+        "explanation":  "Aadhaar is mandatory for DBT and subsidies. For general bank accounts, other KYC documents can be used."
+    },
+    {
+        "prompt":  "Pradhan Mantri Gramin Digital Saksharta Abhiyan aims at?",
+        "answers":  [
+                        "Only banking",
+                        "Digital literacy in rural areas",
+                        "Only payments",
+                        "Only youth"
+                    ],
+        "correct":  1,
+        "explanation":  "PMGDISHA aims to make rural households digitally literate."
+    },
+    {
+        "prompt":  "Aadhaar enabled Payment System AePS allows?",
+        "answers":  [
+                        "Only balance enquiry",
+                        "Balance enquiry, cash withdrawal, deposit, remittance",
+                        "Only deposit",
+                        "Only transfer"
+                    ],
+        "correct":  1,
+        "explanation":  "AePS allows multiple transactions using Aadhaar and biometric at BC points."
+    },
+    {
+        "prompt":  "Fingerprint as biometric for AePS is?",
+        "answers":  [
+                        "Optional",
+                        "Standard - with Aadhaar",
+                        "Not used",
+                        "Only for iris"
+                    ],
+        "correct":  1,
+        "explanation":  "AePS uses Aadhaar number with fingerprint or IRIS as biometric for authentication."
+    },
+    {
+        "prompt":  "UPI was launched in India in which year?",
+        "answers":  [
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017"
+                    ],
+        "correct":  2,
+        "explanation":  "Unified Payments Interface (UPI) was launched by NPCI in April 2016. It has revolutionized digital payments in India."
+    },
+    {
+        "prompt":  "What does UPI stand for?",
+        "answers":  [
+                        "Unified Payment Interface",
+                        "Unified Payments Interface",
+                        "Universal Payment Interface",
+                        "United Payment Interface"
+                    ],
+        "correct":  1,
+        "explanation":  "UPI (Unified Payments Interface) is a real-time payment system developed by NPCI that enables instant fund transfer between bank accounts."
+    },
+    {
+        "prompt":  "NPCI stands for?",
+        "answers":  [
+                        "National Payments Corporation of India",
+                        "National Payment Council of India",
+                        "National Planning Commission of India",
+                        "National Payment Corporation International"
+                    ],
+        "correct":  0,
+        "explanation":  "NPCI (National Payments Corporation of India) is an umbrella organization for operating retail payments and settlement systems in India. It was set up in 2008."
+    },
+    {
+        "prompt":  "BHIM app was launched on which date?",
+        "answers":  [
+                        "August 15, 2016",
+                        "November 8, 2016",
+                        "December 30, 2016",
+                        "January 1, 2017"
+                    ],
+        "correct":  2,
+        "explanation":  "BHIM (Bharat Interface for Money) was launched by Prime Minister Narendra Modi on December 30, 2016. BHIM is named after Dr. B.R. Ambedkar."
+    },
+    {
+        "prompt":  "BHIM is named after?",
+        "answers":  [
+                        "Mahatma Gandhi",
+                        "Dr. B.R. Ambedkar",
+                        "Sardar Patel",
+                        "Jawaharlal Nehru"
+                    ],
+        "correct":  1,
+        "explanation":  "BHIM stands for Bharat Interface for Money. Prime Minister Modi named it after Dr. B.R. Ambedkar, linking financial inclusion with social empowerment."
+    },
+    {
+        "prompt":  "AePS stands for?",
+        "answers":  [
+                        "Aadhaar Enabled Payment System",
+                        "Automated Electronic Payment System",
+                        "Aadhaar Electronic Payment Service",
+                        "Automated Enabled Payment Service"
+                    ],
+        "correct":  0,
+        "explanation":  "AePS (Aadhaar Enabled Payment System) allows bank customers to do transactions using Aadhaar authentication and fingerprint/IRIS."
+    },
+    {
+        "prompt":  "Mobile banking allows customers to?",
+        "answers":  [
+                        "Only check balance",
+                        "Perform banking transactions via mobile phone (SMS, app)",
+                        "Only receive alerts",
+                        "Only pay bills"
+                    ],
+        "correct":  1,
+        "explanation":  "Mobile banking enables balance check, funds transfer, bill payment, and other services through mobile apps or USSD/SMS. It is 24x7 available."
+    },
+    {
+        "prompt":  "Digital wallets (e-wallets) like Paytm, PhonePe store?",
+        "answers":  [
+                        "Physical cash",
+                        "Digital money for online/offline payments",
+                        "Only credit card details",
+                        "Only bank statements"
+                    ],
+        "correct":  1,
+        "explanation":  "Digital wallets store money digitally and can be used for payments, transfers, recharges. They are regulated by RBI as Prepaid Payment Instruments (PPI)."
+    }
+]

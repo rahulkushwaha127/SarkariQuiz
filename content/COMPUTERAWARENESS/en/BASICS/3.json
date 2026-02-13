@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Incremental backup copies?",
+        "answers":  [
+                        "Everything",
+                        "Only files changed since last backup",
+                        "Only new files",
+                        "Nothing"
+                    ],
+        "correct":  1,
+        "explanation":  "Incremental: only changes since last backup. Faster, uses less space."
+    },
+    {
+        "prompt":  "Data recovery is?",
+        "answers":  [
+                        "Prevention",
+                        "Retrieving lost or corrupted data",
+                        "Only backup",
+                        "Only for SSD"
+                    ],
+        "correct":  1,
+        "explanation":  "Data recovery attempts to restore lost/corrupted/deleted data."
+    },
+    {
+        "prompt":  "Format recovery is possible?",
+        "answers":  [
+                        "Never",
+                        "Sometimes - if not overwritten",
+                        "Always",
+                        "Only for HDD"
+                    ],
+        "correct":  1,
+        "explanation":  "After format, data may be recoverable until overwritten. Stop using drive."
+    },
+    {
+        "prompt":  "Hot swap means?",
+        "answers":  [
+                        "Replace only when off",
+                        "Replace component while system running",
+                        "Only for RAM",
+                        "Only for CPU"
+                    ],
+        "correct":  1,
+        "explanation":  "Hot swap: replace drive/component without shutting down. Used in servers."
+    },
+    {
+        "prompt":  "Cell reference B5 means?",
+        "answers":  [
+                        "Row B Column 5",
+                        "Column B Row 5",
+                        "Cell B5",
+                        "Both B and C"
+                    ],
+        "correct":  2,
+        "explanation":  "B5 = Column B, Row 5. Column letter first, then row number."
+    },
+    {
+        "prompt":  "MIN function returns?",
+        "answers":  [
+                        "Maximum",
+                        "Minimum value in range",
+                        "Average",
+                        "Count"
+                    ],
+        "correct":  1,
+        "explanation":  "MIN returns smallest number in range. MAX returns largest."
+    },
+    {
+        "prompt":  "COUNTIF counts cells?",
+        "answers":  [
+                        "All",
+                        "Meeting a condition",
+                        "Only numbers",
+                        "Only text"
+                    ],
+        "correct":  1,
+        "explanation":  "COUNTIF(range, criteria) counts cells that meet condition."
+    },
+    {
+        "prompt":  "Primary key in database?",
+        "answers":  [
+                        "Optional",
+                        "Unique identifier for each record",
+                        "Can be duplicate",
+                        "Only for display"
+                    ],
+        "correct":  1,
+        "explanation":  "Primary key uniquely identifies each row. No duplicates. E.g., ID."
+    },
+    {
+        "prompt":  "Foreign key in database?",
+        "answers":  [
+                        "Primary in same table",
+                        "References primary key of another table",
+                        "Not used",
+                        "Only for text"
+                    ],
+        "correct":  1,
+        "explanation":  "Foreign key links tables. References primary key of related table."
+    },
+    {
+        "prompt":  "Query in database?",
+        "answers":  [
+                        "Stores data",
+                        "Retrieves or manipulates data",
+                        "Only inserts",
+                        "Only deletes"
+                    ],
+        "correct":  1,
+        "explanation":  "Query requests data - SELECT, INSERT, UPDATE, DELETE. SQL used."
+    },
+    {
+        "prompt":  "SELECT in SQL?",
+        "answers":  [
+                        "Inserts data",
+                        "Retrieves data from table",
+                        "Deletes",
+                        "Updates"
+                    ],
+        "correct":  1,
+        "explanation":  "SELECT retrieves data. SELECT * FROM table WHERE condition."
+    },
+    {
+        "prompt":  "WHERE clause in SQL?",
+        "answers":  [
+                        "Selects all",
+                        "Filters rows by condition",
+                        "Only for sorting",
+                        "Only for joining"
+                    ],
+        "correct":  1,
+        "explanation":  "WHERE filters rows. SELECT * FROM users WHERE age \u003e 18."
+    },
+    {
+        "prompt":  "ORDER BY in SQL?",
+        "answers":  [
+                        "Random order",
+                        "Sorts results",
+                        "Filters",
+                        "Groups"
+                    ],
+        "correct":  1,
+        "explanation":  "ORDER BY sorts - ASC or DESC. ORDER BY name ASC."
+    },
+    {
+        "prompt":  "GROUP BY in SQL?",
+        "answers":  [
+                        "Filters",
+                        "Groups rows for aggregation",
+                        "Only for numbers",
+                        "Only for text"
+                    ],
+        "correct":  1,
+        "explanation":  "GROUP BY groups rows. Used with COUNT, SUM, AVG. E.g., group by category."
+    },
+    {
+        "prompt":  "Bot in computing is?",
+        "answers":  [
+                        "Virus",
+                        "Automated program - performs tasks",
+                        "Hardware",
+                        "Browser"
+                    ],
+        "correct":  1,
+        "explanation":  "Bot - automated software. Search engine bots, chatbots. Can be good or malicious."
+    },
+    {
+        "prompt":  "Digital signature verifies?",
+        "answers":  [
+                        "Only identity",
+                        "Authenticity and integrity of document",
+                        "Only date",
+                        "Only format"
+                    ],
+        "correct":  1,
+        "explanation":  "Digital signature ensures document unchanged and sender verified."
+    },
+    {
+        "prompt":  "Certificate Authority CA?",
+        "answers":  [
+                        "Creates malware",
+                        "Issues digital certificates - verifies identity",
+                        "Only for banks",
+                        "Only for government"
+                    ],
+        "correct":  1,
+        "explanation":  "CA issues SSL/TLS certificates. Trusted third party. Enables HTTPS."
+    },
+    {
+        "prompt":  "SSL and TLS are?",
+        "answers":  [
+                        "Viruses",
+                        "Encryption protocols for secure communication",
+                        "Only for email",
+                        "Deprecated"
+                    ],
+        "correct":  1,
+        "explanation":  "SSL/TLS encrypt data in transit. TLS is newer. Used in HTTPS."
+    },
+    {
+        "prompt":  "Ping command tests?",
+        "answers":  [
+                        "Only download",
+                        "Connectivity - round trip to host",
+                        "Only upload",
+                        "Only DNS"
+                    ],
+        "correct":  1,
+        "explanation":  "Ping sends packet to host, measures response time. Network diagnostic."
+    },
+    {
+        "prompt":  "Traceroute shows?",
+        "answers":  [
+                        "Only destination",
+                        "Path and hops to destination",
+                        "Only speed",
+                        "Only DNS"
+                    ],
+        "correct":  1,
+        "explanation":  "Traceroute (tracert on Windows) shows route packets take. Each hop listed."
+    },
+    {
+        "prompt":  "Net neutrality means?",
+        "answers":  [
+                        "No internet",
+                        "All data treated equally - no discrimination",
+                        "Paid fast lanes",
+                        "Government control"
+                    ],
+        "correct":  1,
+        "explanation":  "Net neutrality - ISPs treat all data same. No blocking, throttling, paid priority."
+    },
+    {
+        "prompt":  "Netflix and YouTube use significant?",
+        "answers":  [
+                        "Storage",
+                        "Internet bandwidth",
+                        "Only processing",
+                        "Only caching"
+                    ],
+        "correct":  1,
+        "explanation":  "Video streaming consumes large bandwidth. Major share of internet traffic."
+    },
+    {
+        "prompt":  "Streaming means?",
+        "answers":  [
+                        "Downloading full file first",
+                        "Playing while downloading - no full download",
+                        "Only live",
+                        "Only video"
+                    ],
+        "correct":  1,
+        "explanation":  "Streaming - data played as received. Netflix, YouTube. No full file download."
+    },
+    {
+        "prompt":  "Buffering occurs when?",
+        "answers":  [
+                        "Data arrives too fast",
+                        "Data arrives slower than playback needs",
+                        "Connection perfect",
+                        "File small"
+                    ],
+        "correct":  1,
+        "explanation":  "Buffering - loading ahead. When speed insufficient, playback pauses."
+    },
+    {
+        "prompt":  "Latency in gaming affects?",
+        "answers":  [
+                        "Graphics only",
+                        "Response time - lag",
+                        "Only download",
+                        "Only upload"
+                    ],
+        "correct":  1,
+        "explanation":  "Latency = delay. High latency in games = lag. Measured in ms."
+    }
+]

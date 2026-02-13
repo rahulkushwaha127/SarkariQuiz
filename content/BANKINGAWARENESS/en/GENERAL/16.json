@@ -1,1 +1,167 @@
-[{"prompt":"Scheduled Bank is one that is?","answers":["Listed on stock exchange","Included in Second Schedule of RBI Act","Has 100 branches","Is nationalized"],"correct":1,"explanation":"Scheduled banks are included in the Second Schedule of RBI Act. They must have paid-up capital of Rs 5 lakh and satisfy RBI."},{"prompt":"Non-Scheduled banks?","answers":["Are in Second Schedule","Are not in Second Schedule and do not enjoy same facilities","Are only RRBs","Are only cooperative"],"correct":1,"explanation":"Non-scheduled banks are not in Second Schedule. They cannot borrow from RBI under LAF and have different reserve requirements."},{"prompt":"Scheduled Commercial Banks include?","answers":["Only PSBs","PSBs, private banks, foreign banks","Only RRBs","Only cooperative banks"],"correct":1,"explanation":"SCBs include public sector banks, private sector banks, foreign banks. RRBs and cooperative banks are separate categories."},{"prompt":"RBI issues licenses for?","answers":["Insurance","Banking under BR Act","Mutual funds","Pension"],"correct":1,"explanation":"RBI grants license for banking business under Section 22 of Banking Regulation Act, 1949."},{"prompt":"Branch Authorization - banks can open branches?","answers":["Only with prior RBI permission each time","Without prior permission in most areas","Only in metros","Only in rural areas"],"correct":1,"explanation":"RBI has granted general permission to banks for opening branches in Tier 2 to Tier 6 centers."},{"prompt":"Tier 1 center for branch authorization includes?","answers":["Rural areas","Centers with population 1 lakh and above","Only state capitals","Only Delhi and Mumbai"],"correct":1,"explanation":"Tier 1: centers with population 100000 and above. RBI has different rules for each tier."},{"prompt":"RBI Banking Ombudsman is appointed for?","answers":["1 year","2 years","3 years","5 years"],"correct":2,"explanation":"Banking Ombudsman is appointed for 3 years. Can be reappointed."},{"prompt":"Central KYC Registry CERSAI maintains?","answers":["Only NPAs","Centralized KYC records to prevent duplicate KYC","Only loan records","Only deposit records"],"correct":1,"explanation":"CERSAI hosts CKYCR - centralized KYC to avoid repeat KYC when customer switches banks."},{"prompt":"Aadhaar is mandatory for?","answers":["All bank accounts","Receiving government benefits and subsidies","Only loans","Only FDs"],"correct":1,"explanation":"Aadhaar is mandatory for DBT and subsidies. For general bank accounts, other KYC documents can be used."},{"prompt":"PAN is mandatory for?","answers":["All transactions","Cash deposits above Rs 50000 and high-value transactions","Only FDs","Only loans"],"correct":1,"explanation":"PAN mandatory for cash deposits above Rs 50000, fixed deposits above threshold, etc."},{"prompt":"KYC for high risk customers is updated every?","answers":["10 years","8 years","2 years","5 years"],"correct":2,"explanation":"KYC updation: Low risk every 10 years; Medium every 8 years; High risk every 2 years."},{"prompt":"Simplified KYC or small accounts have balance limit of?","answers":["Rs 50000","Rs 1 lakh","Rs 2 lakh","Rs 5 lakh"],"correct":1,"explanation":"Small accounts have annual aggregate balance limit of Rs 1 lakh. Transaction limit Rs 10000 per month."},{"prompt":"PMLA requires reporting of cash transactions above?","answers":["Rs 10000","Rs 50000","Rs 1 lakh","Rs 5 lakh"],"correct":0,"explanation":"Cash transactions of Rs 10 lakh and above must be reported to FIU-IND under PMLA."},{"prompt":"Cash Transaction Report is filed with?","answers":["RBI","FIU-IND Financial Intelligence Unit","SEBI","CBI"],"correct":1,"explanation":"Banks file CTR and other reports with FIU-IND for AML compliance."},{"prompt":"Suspicious Transaction Report is?","answers":["Voluntary","Mandatory for identified suspicious activity","Only for NPAs","Only for large transactions"],"correct":1,"explanation":"STR must be filed when transaction gives rise to suspicion of money laundering or terror financing."},{"prompt":"FATF Grey List means?","answers":["Country fully compliant","Country under increased monitoring","Country blacklisted","Country not member"],"correct":1,"explanation":"Grey List: jurisdiction under increased monitoring. India was on grey list earlier, removed."},{"prompt":"India became member of FATF in?","answers":["1990","2000","2010","2020"],"correct":2,"explanation":"India became a member of FATF in 2010."},{"prompt":"Benami Transactions Act prohibits?","answers":["All property purchase","Property held in someone else name to hide beneficial owner","Only cash property","Only commercial property"],"correct":1,"explanation":"Benami Transactions Act prohibits property held by one for benefit of another to hide identity."},{"prompt":"FEMA is administered by?","answers":["SEBI","RBI","Ministry of Finance","IRDAI"],"correct":1,"explanation":"RBI administers FEMA. Directorate of Enforcement implements FEMA."},{"prompt":"NRE account can be opened by?","answers":["Resident Indian","Non-Resident Indian","Any person","Only PIO"],"correct":1,"explanation":"NRE account is for NRIs. Deposits in foreign currency converted to rupees. Repatriable."},{"prompt":"FCNR(B) allows deposit in?","answers":["Only rupees","Specified foreign currencies like USD EUR GBP","Only USD","Only Euro"],"correct":1,"explanation":"FCNR(B) allows fixed deposits in USD, EUR, GBP, JPY etc. Repatriable."},{"prompt":"NRO account is for?","answers":["Foreign income of NRI","NRI income earned in India like rent dividend","Only salary","Only business"],"correct":1,"explanation":"NRO account holds NRI rupee income from India. Repatriation subject to limits."},{"prompt":"Liberalized Remittance Scheme is for?","answers":["Corporates","Resident individuals","NRIs","Foreign nationals"],"correct":1,"explanation":"LRS allows resident individuals to remit up to USD 250000 per financial year."},{"prompt":"Capital account convertibility means?","answers":["Only current account free","Freedom to convert local currency for capital transactions","Only trade free","Fixed exchange rate"],"correct":1,"explanation":"Full capital account convertibility would allow free movement of capital. India has partial convertibility."}]
+﻿[
+    {
+        "prompt":  "Banking Ombudsman can award compensation up to?",
+        "answers":  [
+                        "Rs 1 lakh",
+                        "Rs 5 lakh",
+                        "Rs 10 lakh",
+                        "Rs 20 lakh"
+                    ],
+        "correct":  3,
+        "explanation":  "As per the revised Banking Ombudsman Scheme 2021, the Ombudsman can award compensation up to Rs 20 lakh for complaints."
+    },
+    {
+        "prompt":  "Tier 1 capital of banks includes?",
+        "answers":  [
+                        "Only equity",
+                        "Common equity + retained earnings + additional Tier 1 instruments",
+                        "Subordinated debt only",
+                        "Government bonds"
+                    ],
+        "correct":  1,
+        "explanation":  "Tier 1 capital includes Common Equity Tier 1 (CET1) and Additional Tier 1 capital (AT1). It is the core capital that absorbs losses."
+    },
+    {
+        "prompt":  "Minimum Common Equity Tier 1 (CET1) ratio for Indian banks is?",
+        "answers":  [
+                        "4%",
+                        "4.5%",
+                        "5.5%",
+                        "8%"
+                    ],
+        "correct":  2,
+        "explanation":  "Indian banks must maintain minimum CET1 of 5.5% of risk-weighted assets under Basel III. With capital conservation buffer, total is 7%."
+    },
+    {
+        "prompt":  "Additional Tier 1 (AT1) bonds are also called?",
+        "answers":  [
+                        "Perpetual bonds",
+                        "Treasury bonds",
+                        "Corporate bonds",
+                        "Government securities"
+                    ],
+        "correct":  0,
+        "explanation":  "AT1 bonds are perpetual (no maturity), loss-absorbing instruments. They can be written down or converted to equity in crisis."
+    },
+    {
+        "prompt":  "Provisioning for standard assets is typically?",
+        "answers":  [
+                        "1%",
+                        "2%",
+                        "0.25% to 1%",
+                        "5%"
+                    ],
+        "correct":  2,
+        "explanation":  "Provisioning for standard assets: 0.25% for direct advances to agriculture and MSMEs; 0.4% for others. Sub-standard gets 15-25%."
+    },
+    {
+        "prompt":  "Doubtful assets require provisioning of?",
+        "answers":  [
+                        "15%",
+                        "25% to 100% (depending on period)",
+                        "5%",
+                        "10%"
+                    ],
+        "correct":  1,
+        "explanation":  "Doubtful assets: 25% of secured portion; 100% of unsecured portion. For doubtful \u003e 3 years: 40% secured, 100% unsecured."
+    },
+    {
+        "prompt":  "National Company Law Tribunal (NCLT) is used for?",
+        "answers":  [
+                        "Only bank mergers",
+                        "Corporate insolvency under IBC",
+                        "Tax disputes",
+                        "SEBI matters"
+                    ],
+        "correct":  1,
+        "explanation":  "NCLT hears corporate insolvency and bankruptcy cases under the Insolvency and Bankruptcy Code, 2016."
+    },
+    {
+        "prompt":  "Pre-packaged insolvency is available for?",
+        "answers":  [
+                        "All companies",
+                        "Only MSMEs",
+                        "Only listed companies",
+                        "Only PSUs"
+                    ],
+        "correct":  1,
+        "explanation":  "Pre-pack insolvency was introduced for MSMEs - a faster process where resolution plan is prepared before admission."
+    },
+    {
+        "prompt":  "Debt Recovery Tribunals (DRTs) were established under?",
+        "answers":  [
+                        "RBI Act",
+                        "Recovery of Debts and Bankruptcy Act (RDDB Act)",
+                        "SARFAESI Act",
+                        "Banking Regulation Act"
+                    ],
+        "correct":  1,
+        "explanation":  "DRTs were set up under the Recovery of Debts Due to Banks and Financial Institutions Act, 1993 (RDDB Act) for expeditious recovery."
+    },
+    {
+        "prompt":  "Asset Reconstruction Company (ARC) is regulated by?",
+        "answers":  [
+                        "SEBI",
+                        "RBI",
+                        "IRDAI",
+                        "Ministry of Finance"
+                    ],
+        "correct":  1,
+        "explanation":  "ARCs are regulated by RBI under the SARFAESI Act. They acquire NPAs from banks and work towards recovery."
+    },
+    {
+        "prompt":  "The largest ARC in India by assets is?",
+        "answers":  [
+                        "SBI",
+                        "ICICI Bank",
+                        "Edelweiss ARC",
+                        "JM Financial ARC"
+                    ],
+        "correct":  2,
+        "explanation":  "Edelweiss ARC is among the largest ARCs in India. ARCs purchase stressed assets from banks at a discount."
+    },
+    {
+        "prompt":  "One Time Settlement (OTS) scheme allows?",
+        "answers":  [
+                        "Full waiver of loan",
+                        "Settlement of dues for less than owed amount",
+                        "Only interest waiver",
+                        "No settlement"
+                    ],
+        "correct":  1,
+        "explanation":  "OTS allows borrowers to settle outstanding dues for a mutually agreed amount, usually less than the full dues, to close the account."
+    },
+    {
+        "prompt":  "Wilful defaulter is one who?",
+        "answers":  [
+                        "Cannot pay due to business failure",
+                        "Has capacity to pay but does not pay",
+                        "Has taken education loan",
+                        "Is an MSME"
+                    ],
+        "correct":  1,
+        "explanation":  "Wilful defaulter: has capacity to pay but deliberately does not; or has diverted funds; or disposed of collateral without bank consent."
+    },
+    {
+        "prompt":  "Credit Information Companies (CICs) in India include?",
+        "answers":  [
+                        "Only CIBIL",
+                        "CIBIL, Experian, Equifax, CRIF High Mark",
+                        "Only RBI",
+                        "Only banks"
+                    ],
+        "correct":  1,
+        "explanation":  "Four CICs operate in India: CIBIL, Experian, Equifax, CRIF High Mark. They maintain credit history of borrowers."
+    },
+    {
+        "prompt":  "CIBIL score ranges from?",
+        "answers":  [
+                        "0-100",
+                        "300-900",
+                        "0-1000",
+                        "100-500"
+                    ],
+        "correct":  1,
+        "explanation":  "CIBIL (now TransUnion CIBIL) credit score ranges from 300 to 900. Higher score indicates better creditworthiness. 750+ is generally considered good."
+    }
+]

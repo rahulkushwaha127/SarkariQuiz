@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Caps Lock affects?",
+        "answers":  [
+                        "Numbers",
+                        "Letter keys - uppercase/lowercase",
+                        "Function keys",
+                        "Mouse"
+                    ],
+        "correct":  1,
+        "explanation":  "Caps Lock toggles letter keys between uppercase and lowercase."
+    },
+    {
+        "prompt":  "Num Lock affects?",
+        "answers":  [
+                        "Letters",
+                        "Numeric keypad",
+                        "Mouse",
+                        "Screen"
+                    ],
+        "correct":  1,
+        "explanation":  "Num Lock enables/disables numeric keypad. When off, keys act as arrow keys."
+    },
+    {
+        "prompt":  "Search engine is?",
+        "answers":  [
+                        "Browser",
+                        "Tool to find information on web - Google, Bing",
+                        "Email service",
+                        "Social media"
+                    ],
+        "correct":  1,
+        "explanation":  "Search engines index web - Google, Bing, Yahoo. Search by keywords."
+    },
+    {
+        "prompt":  "e-Sign allows?",
+        "answers":  [
+                        "Only viewing",
+                        "Legally valid digital signature using Aadhaar",
+                        "Only scanning",
+                        "Only printing"
+                    ],
+        "correct":  1,
+        "explanation":  "e-Sign provides legally valid digital signature. Uses Aadhaar OTP for authentication."
+    },
+    {
+        "prompt":  "e-Tendering is?",
+        "answers":  [
+                        "Paper based",
+                        "Online procurement - bids submitted electronically",
+                        "Only for small orders",
+                        "Manual process"
+                    ],
+        "correct":  1,
+        "explanation":  "e-Tendering allows online submission of bids. Faster, transparent."
+    },
+    {
+        "prompt":  "Income Tax e-Filing portal is?",
+        "answers":  [
+                        "incometax.gov.in",
+                        "taxindia.gov",
+                        "incometaxindia.gov",
+                        "tax.gov.in"
+                    ],
+        "correct":  0,
+        "explanation":  "incometax.gov.in is the official e-filing portal. inc.in also used."
+    },
+    {
+        "prompt":  "Passport Seva is?",
+        "answers":  [
+                        "Manual only",
+                        "Online passport application and tracking",
+                        "Only for renewal",
+                        "Only for tatkal"
+                    ],
+        "correct":  1,
+        "explanation":  "Passport Seva Kendras and online portal for passport services."
+    },
+    {
+        "prompt":  "IRCTC is for?",
+        "answers":  [
+                        "Flights",
+                        "Railway ticket booking",
+                        "Bus",
+                        "Metro"
+                    ],
+        "correct":  1,
+        "explanation":  "IRCTC - Indian Railway Catering and Tourism Corporation. Books rail tickets."
+    },
+    {
+        "prompt":  "COWIN is related to?",
+        "answers":  [
+                        "Education",
+                        "COVID vaccination registration",
+                        "Employment",
+                        "Tax"
+                    ],
+        "correct":  1,
+        "explanation":  "Co-WIN is platform for COVID-19 vaccination registration and certificates."
+    },
+    {
+        "prompt":  "Ayushman Bharat digital mission includes?",
+        "answers":  [
+                        "Only insurance",
+                        "Health ID, digitized health records",
+                        "Only hospitals",
+                        "Only doctors"
+                    ],
+        "correct":  1,
+        "explanation":  "ABDM creates Health ID, digitizes health records. Part of National Digital Health Mission."
+    },
+    {
+        "prompt":  "Common Service Centre CSC provides?",
+        "answers":  [
+                        "Only banking",
+                        "Government and other services in rural areas",
+                        "Only urban",
+                        "Only online"
+                    ],
+        "correct":  1,
+        "explanation":  "CSCs are access points for digital services in rural and remote areas."
+    },
+    {
+        "prompt":  "MyGov is?",
+        "answers":  [
+                        "Private platform",
+                        "Citizen engagement platform of Government",
+                        "Only for complaints",
+                        "Only for suggestions"
+                    ],
+        "correct":  1,
+        "explanation":  "MyGov allows citizens to participate in policy, give ideas, discussions."
+    },
+    {
+        "prompt":  "Diksha platform is for?",
+        "answers":  [
+                        "Commerce",
+                        "School education - teachers and students",
+                        "Higher education only",
+                        "Corporate training"
+                    ],
+        "correct":  1,
+        "explanation":  "DIKSHA - Digital Infrastructure for Knowledge Sharing. School education content."
+    },
+    {
+        "prompt":  "SWAYAM provides?",
+        "answers":  [
+                        "Only certificates",
+                        "Free online courses from school to higher education",
+                        "Only IIT",
+                        "Only paid courses"
+                    ],
+        "correct":  1,
+        "explanation":  "SWAYAM - free MOOCs. Courses from school to postgraduate. Government initiative."
+    },
+    {
+        "prompt":  "NeGD stands for?",
+        "answers":  [
+                        "National e-Governance Division",
+                        "New e-Governance Department",
+                        "National electronic Governance",
+                        "Network e-Governance"
+                    ],
+        "correct":  0,
+        "explanation":  "NeGD under MeitY implements e-Governance projects. Supports Digital India."
+    },
+    {
+        "prompt":  "NPCI is promoted by?",
+        "answers":  [
+                        "Single bank",
+                        "RBI and banks",
+                        "Government only",
+                        "Private companies only"
+                    ],
+        "correct":  1,
+        "explanation":  "NPCI is promoted by RBI and banks. Operates UPI, RuPay, IMPS, etc."
+    },
+    {
+        "prompt":  "Deep Learning is?",
+        "answers":  [
+                        "Shallow AI",
+                        "Subset of ML using neural networks with many layers",
+                        "Database",
+                        "Hardware"
+                    ],
+        "correct":  1,
+        "explanation":  "Deep Learning uses neural nets with multiple layers. Powers image recognition, speech."
+    },
+    {
+        "prompt":  "Computer Vision enables?",
+        "answers":  [
+                        "Only text",
+                        "Computers to understand images and video",
+                        "Only audio",
+                        "Only numbers"
+                    ],
+        "correct":  1,
+        "explanation":  "Computer vision - image recognition, object detection. Used in facial recognition, cars."
+    },
+    {
+        "prompt":  "ChatGPT is an example of?",
+        "answers":  [
+                        "Database",
+                        "Large Language Model - generative AI",
+                        "Operating system",
+                        "Browser"
+                    ],
+        "correct":  1,
+        "explanation":  "ChatGPT is LLM - generates text. Trained on large data. Generative AI."
+    },
+    {
+        "prompt":  "Algorithm in computing is?",
+        "answers":  [
+                        "Hardware",
+                        "Step by step procedure to solve problem",
+                        "Random process",
+                        "Output only"
+                    ],
+        "correct":  1,
+        "explanation":  "Algorithm is precise set of steps. Foundation of programming."
+    },
+    {
+        "prompt":  "API stands for?",
+        "answers":  [
+                        "Application Programming Interface",
+                        "Advanced Program Interface",
+                        "Application Protocol Internet",
+                        "Automated Programming Input"
+                    ],
+        "correct":  0,
+        "explanation":  "API allows different software to communicate. Defines how to request services."
+    },
+    {
+        "prompt":  "IaaS means?",
+        "answers":  [
+                        "Infrastructure as a Service",
+                        "Internet as a Service",
+                        "Input as a Service",
+                        "Interface as a Service"
+                    ],
+        "correct":  0,
+        "explanation":  "IaaS provides virtualized computing - servers, storage. User manages OS, apps."
+    },
+    {
+        "prompt":  "PaaS means?",
+        "answers":  [
+                        "Platform as a Service",
+                        "Program as a Service",
+                        "Protocol as a Service",
+                        "Process as a Service"
+                    ],
+        "correct":  0,
+        "explanation":  "PaaS provides platform for developing apps. User deploys code; provider manages infra."
+    },
+    {
+        "prompt":  "SaaS means?",
+        "answers":  [
+                        "Software as a Service",
+                        "System as a Service",
+                        "Storage as a Service",
+                        "Security as a Service"
+                    ],
+        "correct":  0,
+        "explanation":  "SaaS delivers software over internet. Gmail, Office 365, Salesforce. No install."
+    },
+    {
+        "prompt":  "Edge computing processes data?",
+        "answers":  [
+                        "Only in central cloud",
+                        "Near the source - reduces latency",
+                        "Only on mainframe",
+                        "Only on PC"
+                    ],
+        "correct":  1,
+        "explanation":  "Edge computing processes at edge of network - closer to devices. Less delay."
+    }
+]

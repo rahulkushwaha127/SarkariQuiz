@@ -1,27 +1,277 @@
-[
-  {"prompt": "What does CRR stand for in banking?", "answers": ["Cash Reserve Ratio", "Credit Reserve Requirement", "Central Reserve Ratio", "Currency Reserve Ratio"], "correct": 0, "explanation": "CRR (Cash Reserve Ratio) is the percentage of net demand and time liabilities that banks must maintain as cash reserves with RBI."},
-  {"prompt": "What does SLR stand for in banking?", "answers": ["Statutory Liquidity Ratio", "Standard Liquidity Requirement", "Secured Lending Ratio", "Savings and Loan Ratio"], "correct": 0, "explanation": "SLR (Statutory Liquidity Ratio) is the minimum percentage of net demand and time liabilities that banks must maintain in the form of liquid assets (cash, gold, government securities)."},
-  {"prompt": "CRR is maintained by banks with whom?", "answers": ["SEBI", "Ministry of Finance", "Reserve Bank of India", "Their own vaults"], "correct": 2, "explanation": "Banks maintain CRR (Cash Reserve Ratio) as cash with the Reserve Bank of India. No interest is paid on CRR balances."},
-  {"prompt": "Which of the following is a tool of monetary policy used by RBI?", "answers": ["Income Tax", "GST", "Repo Rate", "Customs Duty"], "correct": 2, "explanation": "Repo Rate is a key monetary policy tool. When RBI raises repo rate, it becomes expensive for banks to borrow, thus reducing money supply."},
-  {"prompt": "Repo rate is the rate at which?", "answers": ["Banks lend to customers", "RBI lends to commercial banks", "Government borrows from RBI", "Banks lend to each other"], "correct": 1, "explanation": "Repo (Repurchase) rate is the rate at which RBI lends short-term funds to commercial banks against government securities."},
-  {"prompt": "Reverse Repo rate is the rate at which?", "answers": ["Banks lend to customers", "RBI borrows from commercial banks", "Government borrows from banks", "Banks lend to RBI"], "correct": 1, "explanation": "Reverse Repo rate is the rate at which RBI absorbs liquidity from banks. Banks park excess funds with RBI at this rate."},
-  {"prompt": "When RBI wants to reduce money supply in the economy, it would?", "answers": ["Increase Repo Rate", "Decrease Repo Rate", "Decrease CRR", "Increase government spending"], "correct": 0, "explanation": "Increasing Repo Rate makes borrowing from RBI costlier for banks, which then charge higher interest to customers, reducing credit and money supply."},
-  {"prompt": "Bank Rate is the rate at which?", "answers": ["Banks lend to prime customers", "RBI lends to banks for long term without collateral", "Government borrows", "Banks fix their base rate"], "correct": 1, "explanation": "Bank Rate is the rate at which RBI lends to commercial banks for long-term without any collateral. It is typically higher than Repo rate."},
-  {"prompt": "MSF stands for?", "answers": ["Monetary Stabilization Fund", "Marginal Standing Facility", "Minimum Statutory Fund", "Money Supply Factor"], "correct": 1, "explanation": "MSF (Marginal Standing Facility) allows banks to borrow overnight from RBI at a rate higher than Repo rate, by dipping into their SLR."},
-  {"prompt": "The Marginal Standing Facility (MSF) rate is always?", "answers": ["Lower than Repo rate", "Equal to Repo rate", "Higher than Repo rate", "Equal to Reverse Repo rate"], "correct": 2, "explanation": "MSF rate is typically 25 basis points (0.25%) above the Repo rate. It is a penal rate for emergency borrowing by banks."},
-  {"prompt": "Which monetary policy committee decides the Repo rate in India?", "answers": ["MPC of SEBI", "MPC of RBI", "Finance Ministry", "Planning Commission"], "correct": 1, "explanation": "The Monetary Policy Committee (MPC) of RBI, constituted in 2016, decides the policy repo rate. It has 6 members - 3 from RBI and 3 external members."},
-  {"prompt": "How many members does the Monetary Policy Committee (MPC) of RBI have?", "answers": ["4", "5", "6", "7"], "correct": 2, "explanation": "The MPC has 6 members: RBI Governor (Chairperson), Deputy Governor (monetary policy), one RBI official, and 3 members appointed by Central Government."},
-  {"prompt": "The Monetary Policy Committee (MPC) was established in which year?", "answers": ["2014", "2015", "2016", "2017"], "correct": 2, "explanation": "MPC was constituted in 2016 under the RBI Act (amended). The first MPC meeting was held in October 2016."},
-  {"prompt": "RBI announces its bi-monthly monetary policy how many times in a year?", "answers": ["4", "6", "8", "12"], "correct": 1, "explanation": "RBI's Monetary Policy Committee meets 6 times in a year (every two months) to decide on policy rates."},
-  {"prompt": "Which of these is included in SLR maintenance by banks?", "answers": ["Cash with RBI", "Government Securities", "Gold", "Both B and C"], "correct": 3, "explanation": "SLR can be maintained in the form of cash, gold, or unencumbered government securities. CRR is only cash with RBI."},
-  {"prompt": "Interest is paid by RBI on CRR balances maintained by banks.", "answers": ["True", "False", "Only for public sector banks", "Only above 4%"], "correct": 1, "explanation": "No interest is paid by RBI on CRR balances. This is one reason banks prefer to minimize excess CRR maintenance."},
-  {"prompt": "What does MCLR stand for?", "answers": ["Maximum Cost of Lending Rate", "Marginal Cost of Lending Rate", "Minimum Credit Lending Ratio", "Monetary Credit Lending Rate"], "correct": 1, "explanation": "MCLR (Marginal Cost of Lending Rate) is the minimum interest rate below which banks cannot lend. It replaced the Base Rate system from April 2016."},
-  {"prompt": "MCLR was introduced by RBI in which year?", "answers": ["2014", "2015", "2016", "2017"], "correct": 2, "explanation": "RBI introduced MCLR (Marginal Cost of Lending Rate) with effect from April 1, 2016, replacing the Base Rate regime."},
-  {"prompt": "Base Rate is the minimum rate below which banks could not lend. It was replaced by?", "answers": ["PLR", "MCLR", "BPLR", "Prime Rate"], "correct": 1, "explanation": "Base Rate was replaced by MCLR (Marginal Cost of Lending Rate) in April 2016 for better transmission of policy rates."},
-  {"prompt": "External Benchmark Linked Lending Rate (EBLR) typically links to?", "answers": ["Bank's own cost of funds", "Repo Rate", "CRR", "SLR"], "correct": 1, "explanation": "RBI mandated EBLR linking to Repo rate from October 2019 for floating rate loans (personal, retail, MSME) for faster transmission."},
-  {"prompt": "Who regulates the monetary policy in India?", "answers": ["Ministry of Finance", "Reserve Bank of India", "SEBI", "Planning Commission"], "correct": 1, "explanation": "The Reserve Bank of India formulates and implements monetary policy in India, with the objective of maintaining price stability while supporting growth."},
-  {"prompt": "The legal tender in India includes?", "answers": ["Only notes", "Only coins", "Both notes and coins issued by RBI/Government", "Gold"], "correct": 2, "explanation": "Rupee notes and coins are legal tender. Notes are issued by RBI (except Re 1), and coins/Re 1 note by Government of India."},
-  {"prompt": "Which denomination of currency note is issued by the Government of India?", "answers": ["Rs 10", "Rs 100", "Rs 500", "Rs 1"], "correct": 3, "explanation": "One rupee note and all coins are issued by the Ministry of Finance, Government of India. Notes of Rs 2 and above are issued by RBI."},
-  {"prompt": "RBI's Financial Stability Report is published how frequently?", "answers": ["Monthly", "Quarterly", "Half-yearly", "Annually"], "correct": 2, "explanation": "RBI publishes the Financial Stability Report (FSR) bi-annually (half-yearly), assessing the resilience of the financial system."},
-  {"prompt": "The Reserve Bank of India comes under which Ministry?", "answers": ["Ministry of Finance", "Ministry of Corporate Affairs", "RBI is independent", "Ministry of Home Affairs"], "correct": 0, "explanation": "Though RBI has operational autonomy in monetary policy, it comes under the administrative control of the Ministry of Finance, Government of India."}
+﻿[
+    {
+        "prompt":  "The 2020 PSB merger created how many big PSBs from many?",
+        "answers":  [
+                        "4 from 18",
+                        "6 from 12",
+                        "8 from 27",
+                        "12 from 21"
+                    ],
+        "correct":  3,
+        "explanation":  "Post 2020 merger: PNB + Oriental Bank + United Bank; Canara + Syndicate; Union + Andhra + Corporation; Indian Bank + Allahabad; BoB absorbed others. Result: 12 PSBs from earlier 27 (including merged entities)."
+    },
+    {
+        "prompt":  "Oriental Bank of Commerce and United Bank of India merged into?",
+        "answers":  [
+                        "SBI",
+                        "PNB",
+                        "Canara Bank",
+                        "Bank of Baroda"
+                    ],
+        "correct":  1,
+        "explanation":  "In 2020, Oriental Bank of Commerce and United Bank of India merged into Punjab National Bank."
+    },
+    {
+        "prompt":  "Andhra Bank and Corporation Bank merged with?",
+        "answers":  [
+                        "PNB",
+                        "Union Bank of India",
+                        "Canara Bank",
+                        "Indian Bank"
+                    ],
+        "correct":  1,
+        "explanation":  "Andhra Bank and Corporation Bank merged with Union Bank of India in 2020."
+    },
+    {
+        "prompt":  "Syndicate Bank merged with?",
+        "answers":  [
+                        "PNB",
+                        "Canara Bank",
+                        "Union Bank",
+                        "Indian Bank"
+                    ],
+        "correct":  1,
+        "explanation":  "Syndicate Bank merged with Canara Bank in 2020. The merged entity operates as Canara Bank."
+    },
+    {
+        "prompt":  "Allahabad Bank merged with?",
+        "answers":  [
+                        "PNB",
+                        "Indian Bank",
+                        "Canara Bank",
+                        "Union Bank"
+                    ],
+        "correct":  1,
+        "explanation":  "Allahabad Bank merged with Indian Bank in 2020."
+    },
+    {
+        "prompt":  "M.N. Venkatachaliah Committee was related to?",
+        "answers":  [
+                        "Banking reforms",
+                        "Company Law",
+                        "Constitutional review",
+                        "Tax reforms"
+                    ],
+        "correct":  2,
+        "explanation":  "M.N. Venkatachaliah Committee (2002) reviewed the Constitution. Not directly related to banking."
+    },
+    {
+        "prompt":  "P.J. Nayak Committee (2014) recommended?",
+        "answers":  [
+                        "Bank nationalization",
+                        "Governance reforms - Bank Board Bureau, empowerment of boards",
+                        "Only NPA resolution",
+                        "Only mergers"
+                    ],
+        "correct":  1,
+        "explanation":  "P.J. Nayak Committee recommended Bank Board Bureau, splitting Chairman \u0026 MD roles, reducing government stake, and governance reforms for PSBs."
+    },
+    {
+        "prompt":  "Rajan Committee on Financial Sector Reforms (2008) was headed by?",
+        "answers":  [
+                        "C. Rangarajan",
+                        "Raghuram Rajan",
+                        "Bimal Jalan",
+                        "Y.V. Reddy"
+                    ],
+        "correct":  1,
+        "explanation":  "The Committee on Financial Sector Reforms (2008) was chaired by Raghuram Rajan. It made recommendations on banking, capital markets, and inclusion."
+    },
+    {
+        "prompt":  "Kelkar Committee was related to?",
+        "answers":  [
+                        "Banking",
+                        "Fiscal consolidation and FRBM",
+                        "Agriculture",
+                        "Education"
+                    ],
+        "correct":  1,
+        "explanation":  "Vijay Kelkar Committee (2004) on FRBM (Fiscal Responsibility and Budget Management) and fiscal consolidation."
+    },
+    {
+        "prompt":  "Raja Chelliah Committee was related to?",
+        "answers":  [
+                        "Banking",
+                        "Tax reforms",
+                        "Agriculture credit",
+                        "Company law"
+                    ],
+        "correct":  1,
+        "explanation":  "Raja Chelliah Committee (1991-93) recommended comprehensive tax reforms - reduction in rates, broadening base, GST concept."
+    },
+    {
+        "prompt":  "Bharat Bill Payment System (BBPS) is operated by?",
+        "answers":  [
+                        "Individual banks",
+                        "NPCI",
+                        "RBI directly",
+                        "SEBI"
+                    ],
+        "correct":  1,
+        "explanation":  "BBPS is a centralized bill payment system operated by NPCI. It allows payment of utility bills, insurance, etc. through a single platform."
+    },
+    {
+        "prompt":  "Direct Benefit Transfer (DBT) uses?",
+        "answers":  [
+                        "Only cheque",
+                        "Aadhaar-linked bank accounts",
+                        "Only cash",
+                        "Only post office"
+                    ],
+        "correct":  1,
+        "explanation":  "DBT transfers government benefits (subsidies, pensions) directly to beneficiaries Aadhaar-linked bank accounts."
+    },
+    {
+        "prompt":  "USSD banking uses?",
+        "answers":  [
+                        "Smartphone only",
+                        "Basic mobile without internet - dial *99#",
+                        "Only computer",
+                        "Only ATM"
+                    ],
+        "correct":  1,
+        "explanation":  "USSD (*99#) allows basic banking (balance, mini statement, transfer) on feature phones without internet."
+    },
+    {
+        "prompt":  "Bharat QR allows?",
+        "answers":  [
+                        "Only card payments",
+                        "QR code based payments - interoperable",
+                        "Only UPI",
+                        "Only IMPS"
+                    ],
+        "correct":  1,
+        "explanation":  "Bharat QR is an interoperable QR code that can accept payments from multiple instruments - UPI, RuPay, Visa, Mastercard."
+    },
+    {
+        "prompt":  "FASTag is used for?",
+        "answers":  [
+                        "Mobile recharge",
+                        "Electronic toll collection",
+                        "Bill payment",
+                        "Shopping"
+                    ],
+        "correct":  1,
+        "explanation":  "FASTag is an electronic toll collection system. It uses RFID technology for contactless payment at toll plazas."
+    },
+    {
+        "prompt":  "Prepaid Payment Instrument (PPI) includes?",
+        "answers":  [
+                        "Only bank accounts",
+                        "Mobile wallets, prepaid cards",
+                        "Only credit cards",
+                        "Only FDs"
+                    ],
+        "correct":  1,
+        "explanation":  "PPIs include mobile wallets (Paytm, PhonePe balance), prepaid cards. They are regulated by RBI."
+    },
+    {
+        "prompt":  "White Label ATM is operated by?",
+        "answers":  [
+                        "Only banks",
+                        "Non-bank entities (NBFCs)",
+                        "RBI",
+                        "Government"
+                    ],
+        "correct":  1,
+        "explanation":  "White Label ATMs are set up by non-bank entities. They provide ATM services under their own brand. Example: Tata Indicash."
+    },
+    {
+        "prompt":  "Brown Label ATM is?",
+        "answers":  [
+                        "Owned and operated by bank",
+                        "Owned by non-bank but cash and maintenance by bank",
+                        "Only for rural areas",
+                        "Out of order"
+                    ],
+        "correct":  1,
+        "explanation":  "Brown Label ATM: hardware and lease owned by service provider; cash loading and maintenance by sponsor bank."
+    },
+    {
+        "prompt":  "CTS stands for?",
+        "answers":  [
+                        "Cheque Truncation System",
+                        "Cash Transfer System",
+                        "Credit Transfer Scheme",
+                        "Currency Transaction System"
+                    ],
+        "correct":  0,
+        "explanation":  "Cheque Truncation System enables clearing of cheques based on electronic images instead of physical movement. Reduces clearing time."
+    },
+    {
+        "prompt":  "Negative Pay List in banking refers to?",
+        "answers":  [
+                        "List of defaulters",
+                        "List of fraudulent instruments to be rejected",
+                        "List of good customers",
+                        "List of NPAs"
+                    ],
+        "correct":  1,
+        "explanation":  "Negative Pay List contains details of lost/stolen/fraudulent instruments. Banks reject these if presented for payment."
+    },
+    {
+        "prompt":  "Real Time Gross Settlement uses which messaging standard?",
+        "answers":  [
+                        "ISO 20022",
+                        "ISO 9001",
+                        "ISO 14001",
+                        "Proprietary"
+                    ],
+        "correct":  0,
+        "explanation":  "RTGS and NEFT use ISO 20022 XML messaging standard for structured, richer payment data."
+    },
+    {
+        "prompt":  "EMI stands for?",
+        "answers":  [
+                        "Equal Monthly Installment",
+                        "Electronic Money Transfer",
+                        "Equity Mutual Investment",
+                        "External Monetary Index"
+                    ],
+        "correct":  0,
+        "explanation":  "EMI is the fixed amount paid every month towards loan repayment. It includes principal and interest component."
+    },
+    {
+        "prompt":  "Reducing balance method of interest calculation?",
+        "answers":  [
+                        "Interest on full principal for entire tenure",
+                        "Interest on outstanding principal which reduces over time",
+                        "No interest",
+                        "Interest only at end"
+                    ],
+        "correct":  1,
+        "explanation":  "In reducing balance, interest is charged on the outstanding principal. As principal is repaid, interest portion decreases."
+    },
+    {
+        "prompt":  "Flat rate of interest means?",
+        "answers":  [
+                        "Interest on reducing balance",
+                        "Interest on initial principal for full tenure",
+                        "No interest",
+                        "Variable rate"
+                    ],
+        "correct":  1,
+        "explanation":  "Flat rate: interest calculated on original principal for entire period. Effective interest rate is higher than stated flat rate."
+    },
+    {
+        "prompt":  "Prepayment penalty was largely abolished for?",
+        "answers":  [
+                        "All loans",
+                        "Floating rate home loans",
+                        "Only personal loans",
+                        "Only gold loans"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI barred prepayment penalty on floating rate home loans from 2012. Borrowers can prepay without extra charge."
+    }
 ]

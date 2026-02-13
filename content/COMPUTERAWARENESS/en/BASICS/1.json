@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "What is the smallest unit of data in a computer?",
+        "answers":  [
+                        "Byte",
+                        "Bit",
+                        "Nibble",
+                        "Kilobyte"
+                    ],
+        "correct":  1,
+        "explanation":  "A bit (Binary Digit) is the smallest unit - it can be 0 or 1. 8 bits = 1 byte."
+    },
+    {
+        "prompt":  "Who is known as the \u0027Father of Computer\u0027?",
+        "answers":  [
+                        "Charles Babbage",
+                        "Bill Gates",
+                        "Alan Turing",
+                        "John von Neumann"
+                    ],
+        "correct":  0,
+        "explanation":  "Charles Babbage designed the Analytical Engine in the 1830s, considered the first mechanical computer."
+    },
+    {
+        "prompt":  "What does RAM stand for?",
+        "answers":  [
+                        "Random Access Memory",
+                        "Read Access Memory",
+                        "Rapid Action Memory",
+                        "Run Access Memory"
+                    ],
+        "correct":  0,
+        "explanation":  "RAM (Random Access Memory) is volatile memory - data is lost when power is off. It stores data being actively used."
+    },
+    {
+        "prompt":  "What does ROM stand for?",
+        "answers":  [
+                        "Read Only Memory",
+                        "Random Only Memory",
+                        "Read Once Memory",
+                        "Run Only Memory"
+                    ],
+        "correct":  0,
+        "explanation":  "ROM (Read Only Memory) is non-volatile. Data is pre-written and cannot be easily modified. Used for BIOS."
+    },
+    {
+        "prompt":  "In which generation of computers were transistors used?",
+        "answers":  [
+                        "First",
+                        "Second",
+                        "Third",
+                        "Fourth"
+                    ],
+        "correct":  1,
+        "explanation":  "Second generation (1956-1963) used transistors. First used vacuum tubes, third used ICs, fourth used microprocessors."
+    },
+    {
+        "prompt":  "What is the main function of CPU?",
+        "answers":  [
+                        "Store data",
+                        "Execute instructions",
+                        "Print documents",
+                        "Scan images"
+                    ],
+        "correct":  1,
+        "explanation":  "CPU (Central Processing Unit) is the brain of the computer - it executes instructions and performs calculations."
+    },
+    {
+        "prompt":  "Hard Disk Drive is what type of memory?",
+        "answers":  [
+                        "Primary",
+                        "Secondary",
+                        "Cache",
+                        "Register"
+                    ],
+        "correct":  1,
+        "explanation":  "HDD is secondary storage - non-volatile, used for permanent data storage. Primary memory is RAM/ROM."
+    },
+    {
+        "prompt":  "Who invented the World Wide Web (WWW)?",
+        "answers":  [
+                        "Tim Berners-Lee",
+                        "Bill Gates",
+                        "Mark Zuckerberg",
+                        "Steve Jobs"
+                    ],
+        "correct":  0,
+        "explanation":  "Tim Berners-Lee invented WWW in 1989 at CERN. He also created HTML, HTTP, and the first web browser."
+    },
+    {
+        "prompt":  "The binary system in computers is based on how many digits?",
+        "answers":  [
+                        "2",
+                        "8",
+                        "10",
+                        "16"
+                    ],
+        "correct":  0,
+        "explanation":  "Binary uses only 2 digits: 0 and 1. All data in computers is stored in binary form."
+    },
+    {
+        "prompt":  "OCR stands for?",
+        "answers":  [
+                        "Optical Character Recognition",
+                        "Optical Code Reader",
+                        "Output Character Reader",
+                        "Online Character Recognition"
+                    ],
+        "correct":  0,
+        "explanation":  "OCR converts scanned images of text into editable digital text."
+    },
+    {
+        "prompt":  "OMR stands for?",
+        "answers":  [
+                        "Optical Mark Recognition",
+                        "Output Mark Reader",
+                        "Optical Machine Recognition",
+                        "Online Mark Reader"
+                    ],
+        "correct":  0,
+        "explanation":  "OMR reads marks (bubbles) on forms. Used in exams, surveys."
+    },
+    {
+        "prompt":  "MICR is used in?",
+        "answers":  [
+                        "Emails",
+                        "Cheque processing - bank code",
+                        "Websites",
+                        "Printers"
+                    ],
+        "correct":  1,
+        "explanation":  "MICR (Magnetic Ink Character Recognition) - special font on cheques for processing."
+    },
+    {
+        "prompt":  "LED monitor uses?",
+        "answers":  [
+                        "CRT",
+                        "Light Emitting Diodes for display",
+                        "Only for TV",
+                        "Plasma"
+                    ],
+        "correct":  1,
+        "explanation":  "LED monitors use LED backlight. Energy efficient, thin. LCD with LED backlight."
+    },
+    {
+        "prompt":  "Resolution of display is measured in?",
+        "answers":  [
+                        "GHz",
+                        "Pixels - e.g. 1920x1080",
+                        "Bytes",
+                        "Hz only"
+                    ],
+        "correct":  1,
+        "explanation":  "Resolution is pixel count - width x height. 1920x1080 is Full HD."
+    },
+    {
+        "prompt":  "Refresh rate of monitor is in?",
+        "answers":  [
+                        "Pixels",
+                        "Hz - times per second screen updates",
+                        "Bytes",
+                        "Watts"
+                    ],
+        "correct":  1,
+        "explanation":  "Refresh rate (Hz) - how often screen updates. 60Hz, 144Hz for gaming."
+    },
+    {
+        "prompt":  "HDD stores data on?",
+        "answers":  [
+                        "Chips",
+                        "Magnetic platters",
+                        "Flash memory",
+                        "Cloud"
+                    ],
+        "correct":  1,
+        "explanation":  "HDD uses spinning magnetic disks. Read/write head. Moving parts."
+    },
+    {
+        "prompt":  "SSD has moving parts?",
+        "answers":  [
+                        "Yes",
+                        "No - uses flash memory",
+                        "Only for read",
+                        "Only for write"
+                    ],
+        "correct":  1,
+        "explanation":  "SSD has no moving parts. Flash memory. Faster, more durable than HDD."
+    },
+    {
+        "prompt":  "SD card is?",
+        "answers":  [
+                        "Internal only",
+                        "Removable flash storage",
+                        "Magnetic",
+                        "Obsolete"
+                    ],
+        "correct":  1,
+        "explanation":  "SD (Secure Digital) card - removable flash storage. Cameras, phones."
+    },
+    {
+        "prompt":  "USB 3.0 is faster than USB 2.0?",
+        "answers":  [
+                        "No",
+                        "Yes - significantly faster",
+                        "Same speed",
+                        "USB 2 is faster"
+                    ],
+        "correct":  1,
+        "explanation":  "USB 3.0 offers much higher transfer speeds than USB 2.0."
+    },
+    {
+        "prompt":  "HDMI cable transmits?",
+        "answers":  [
+                        "Only audio",
+                        "Video and audio - digital",
+                        "Only video",
+                        "Only data"
+                    ],
+        "correct":  1,
+        "explanation":  "HDMI transmits uncompressed video and audio. Connects PC to monitor/TV."
+    },
+    {
+        "prompt":  "Bluetooth range is typically?",
+        "answers":  [
+                        "100m",
+                        "About 10m (Class 2)",
+                        "1km",
+                        "5km"
+                    ],
+        "correct":  1,
+        "explanation":  "Bluetooth Class 2: ~10m. Class 1 can be 100m. Varies by device."
+    },
+    {
+        "prompt":  "LTE in mobile networks means?",
+        "answers":  [
+                        "Long Term Evolution",
+                        "Long Technical Evolution",
+                        "Light Technology Evolution",
+                        "Local Transfer Evolution"
+                    ],
+        "correct":  0,
+        "explanation":  "LTE is 4G technology. High speed mobile data."
+    },
+    {
+        "prompt":  "Kilobit Kb is different from Kilobyte KB?",
+        "answers":  [
+                        "No",
+                        "Yes - 8 Kb = 1 KB",
+                        "Same",
+                        "Kb is larger"
+                    ],
+        "correct":  1,
+        "explanation":  "1 byte = 8 bits. 1 KB = 8 Kb. Small b = bit, Capital B = byte."
+    },
+    {
+        "prompt":  "RAM speed is measured in?",
+        "answers":  [
+                        "GB",
+                        "MHz or GHz",
+                        "Watts",
+                        "Bytes"
+                    ],
+        "correct":  1,
+        "explanation":  "RAM speed in MHz (e.g., DDR4-3200). Higher = faster data transfer."
+    },
+    {
+        "prompt":  "DDR in RAM means?",
+        "answers":  [
+                        "Double Data Rate",
+                        "Double Density RAM",
+                        "Dynamic Data Rate",
+                        "Digital Data RAM"
+                    ],
+        "correct":  0,
+        "explanation":  "DDR transfers data on both rising and falling clock - doubles effective rate."
+    }
+]

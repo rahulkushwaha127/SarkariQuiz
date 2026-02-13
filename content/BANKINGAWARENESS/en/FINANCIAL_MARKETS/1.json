@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "The Insolvency and Bankruptcy Code Amendment 2021 inserted?",
+        "answers":  [
+                        "Pre-pack for MSMEs",
+                        "Only personal insolvency",
+                        "New tribunals",
+                        "Foreign jurisdiction"
+                    ],
+        "correct":  0,
+        "explanation":  "IBC Amendment 2021 introduced pre-packaged insolvency resolution process for MSMEs."
+    },
+    {
+        "prompt":  "RBI issues licenses for?",
+        "answers":  [
+                        "Insurance",
+                        "Banking under BR Act",
+                        "Mutual funds",
+                        "Pension"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI grants license for banking business under Section 22 of Banking Regulation Act, 1949."
+    },
+    {
+        "prompt":  "BSE was established in?",
+        "answers":  [
+                        "1857",
+                        "1875",
+                        "1892",
+                        "1900"
+                    ],
+        "correct":  1,
+        "explanation":  "Bombay Stock Exchange was established in 1875. It is one of oldest in Asia."
+    },
+    {
+        "prompt":  "NSE introduced trading in?",
+        "answers":  [
+                        "1990",
+                        "1994",
+                        "1996",
+                        "2000"
+                    ],
+        "correct":  1,
+        "explanation":  "NSE started capital market segment in 1994. It introduced electronic trading."
+    },
+    {
+        "prompt":  "Sensex consists of how many stocks?",
+        "answers":  [
+                        "30",
+                        "50",
+                        "100",
+                        "200"
+                    ],
+        "correct":  0,
+        "explanation":  "BSE Sensex is a basket of 30 stocks. It is free-float market cap weighted."
+    },
+    {
+        "prompt":  "SEBI was given statutory powers in?",
+        "answers":  [
+                        "1988",
+                        "1992",
+                        "1995",
+                        "2000"
+                    ],
+        "correct":  1,
+        "explanation":  "SEBI was established in 1988. It got statutory powers through SEBI Act 1992."
+    },
+    {
+        "prompt":  "Mutual fund pools money from?",
+        "answers":  [
+                        "Only banks",
+                        "Investors to invest in diversified portfolio",
+                        "Only HNIs",
+                        "Only FIIs"
+                    ],
+        "correct":  1,
+        "explanation":  "Mutual fund collects money from investors and invests in stocks bonds etc."
+    },
+    {
+        "prompt":  "NAV of mutual fund is?",
+        "answers":  [
+                        "Market price",
+                        "Net Asset Value per unit",
+                        "Number of units",
+                        "Total assets"
+                    ],
+        "correct":  1,
+        "explanation":  "NAV is total assets minus liabilities divided by number of units."
+    },
+    {
+        "prompt":  "Debt mutual fund invests in?",
+        "answers":  [
+                        "Only equity",
+                        "Bonds government securities money market",
+                        "Only gold",
+                        "Only real estate"
+                    ],
+        "correct":  1,
+        "explanation":  "Debt funds invest in fixed income instruments."
+    },
+    {
+        "prompt":  "Bank Nationalisation Day is observed on?",
+        "answers":  [
+                        "July 15",
+                        "July 19",
+                        "August 15",
+                        "April 1"
+                    ],
+        "correct":  1,
+        "explanation":  "July 19 is observed as Bank Nationalisation Day - 14 banks nationalized on July 19 1969."
+    },
+    {
+        "prompt":  "No Objection Certificate for bank license from?",
+        "answers":  [
+                        "SEBI",
+                        "RBI after due process",
+                        "Ministry only",
+                        "State government"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI grants banking license after scrutiny. Fit and proper, capital, governance checked."
+    },
+    {
+        "prompt":  "Bank can sell mutual funds as?",
+        "answers":  [
+                        "Fund manager",
+                        "Distributor",
+                        "Only AMC",
+                        "Only for own fund"
+                    ],
+        "correct":  1,
+        "explanation":  "Banks act as mutual fund distributors. They earn commission. Different from AMC role."
+    },
+    {
+        "prompt":  "Money market mutual funds invest in?",
+        "answers":  [
+                        "Equity",
+                        "Short term debt - T-Bills, CP, CD",
+                        "Only gold",
+                        "Only real estate"
+                    ],
+        "correct":  1,
+        "explanation":  "Money market funds invest in short-term instruments. Low risk, low return."
+    },
+    {
+        "prompt":  "BSE stands for?",
+        "answers":  [
+                        "Bombay Stock Exchange",
+                        "Bengal Stock Exchange",
+                        "Basic Securities Exchange",
+                        "Board of Stock Exchange"
+                    ],
+        "correct":  0,
+        "explanation":  "BSE (Bombay Stock Exchange) is Asia\u0027s oldest stock exchange, established in 1875. It is now known as BSE Ltd."
+    },
+    {
+        "prompt":  "NSE was established in?",
+        "answers":  [
+                        "1990",
+                        "1992",
+                        "1994",
+                        "1996"
+                    ],
+        "correct":  1,
+        "explanation":  "National Stock Exchange (NSE) was incorporated in 1992 and started trading in 1994. It introduced electronic trading in India."
+    },
+    {
+        "prompt":  "SEBI was established in which year?",
+        "answers":  [
+                        "1988",
+                        "1992",
+                        "1996",
+                        "2000"
+                    ],
+        "correct":  0,
+        "explanation":  "SEBI (Securities and Exchange Board of India) was established in 1988 and given statutory powers in 1992 through the SEBI Act."
+    },
+    {
+        "prompt":  "SEBI is the regulator of?",
+        "answers":  [
+                        "Banking sector",
+                        "Securities market",
+                        "Insurance sector",
+                        "Foreign exchange"
+                    ],
+        "correct":  1,
+        "explanation":  "SEBI regulates the securities market in India - stock exchanges, brokers, mutual funds, and other market intermediaries."
+    },
+    {
+        "prompt":  "Call money market is for?",
+        "answers":  [
+                        "Long-term loans",
+                        "Overnight/very short-term inter-bank loans",
+                        "Retail loans",
+                        "Government borrowing"
+                    ],
+        "correct":  1,
+        "explanation":  "Call money market deals with overnight or very short-term (1-14 days) loans between banks. It helps banks manage day-to-day liquidity."
+    },
+    {
+        "prompt":  "Money market instruments have maturity of up to?",
+        "answers":  [
+                        "30 days",
+                        "90 days",
+                        "1 year",
+                        "5 years"
+                    ],
+        "correct":  2,
+        "explanation":  "Money market deals with short-term instruments (up to 1 year): T-Bills, commercial paper, call money, certificate of deposit, etc."
+    },
+    {
+        "prompt":  "Capital market deals with?",
+        "answers":  [
+                        "Short-term funds (up to 1 year)",
+                        "Long-term funds (more than 1 year)",
+                        "Overnight loans",
+                        "Foreign currency"
+                    ],
+        "correct":  1,
+        "explanation":  "Capital market deals with long-term funds - equity shares, debentures, bonds with maturity exceeding one year."
+    },
+    {
+        "prompt":  "Mutual funds in India are regulated by?",
+        "answers":  [
+                        "RBI",
+                        "SEBI",
+                        "IRDAI",
+                        "PFRDA"
+                    ],
+        "correct":  1,
+        "explanation":  "Mutual funds are regulated by SEBI under the SEBI (Mutual Funds) Regulations, 1996. AMFI is the industry association."
+    },
+    {
+        "prompt":  "Derivatives in financial markets include?",
+        "answers":  [
+                        "Only equity shares",
+                        "Futures, options, forwards, swaps",
+                        "Only bonds",
+                        "Only mutual funds"
+                    ],
+        "correct":  1,
+        "explanation":  "Derivatives are financial instruments whose value is derived from an underlying asset. They include futures, options, forwards, and swaps. Used for hedging and speculation."
+    },
+    {
+        "prompt":  "Airtel Payments Bank was granted license in?",
+        "answers":  [
+                        "2015",
+                        "2016",
+                        "2017",
+                        "2018"
+                    ],
+        "correct":  0,
+        "explanation":  "Airtel Payments Bank received in-principle approval in 2015 and commenced operations in 2017."
+    },
+    {
+        "prompt":  "Which bank was the first to receive universal bank license in the 1990s reforms?",
+        "answers":  [
+                        "ICICI Bank",
+                        "HDFC Bank",
+                        "Axis Bank",
+                        "Kotak Mahindra Bank"
+                    ],
+        "correct":  0,
+        "explanation":  "ICICI Bank (then ICICI Ltd) was among the first new private sector banks after 1991 reforms. HDFC Bank was incorporated in 1994."
+    },
+    {
+        "prompt":  "Yes Bank received its banking license in?",
+        "answers":  [
+                        "2002",
+                        "2003",
+                        "2004",
+                        "2005"
+                    ],
+        "correct":  2,
+        "explanation":  "Yes Bank was granted license in 2004. It was placed under moratorium in March 2020 and reconstructed with SBI and other banks."
+    }
+]

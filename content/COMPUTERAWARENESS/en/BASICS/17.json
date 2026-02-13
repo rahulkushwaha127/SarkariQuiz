@@ -1,0 +1,112 @@
+﻿[
+    {
+        "prompt":  "Virtualization allows?",
+        "answers":  [
+                        "One physical server only",
+                        "Multiple virtual machines on one physical server",
+                        "Only one OS",
+                        "Only storage"
+                    ],
+        "correct":  1,
+        "explanation":  "Virtualization runs multiple VMs on one hardware. Efficient resource use."
+    },
+    {
+        "prompt":  "Open source software?",
+        "answers":  [
+                        "Costs money",
+                        "Source code is freely available and modifiable",
+                        "Proprietary",
+                        "Cannot be modified"
+                    ],
+        "correct":  1,
+        "explanation":  "Open source - code is open. Can use, modify, distribute. Linux, Python, Mozilla."
+    },
+    {
+        "prompt":  "Programming language Python is?",
+        "answers":  [
+                        "Compiled only",
+                        "Interpreted, high-level, versatile",
+                        "Only for web",
+                        "Only for mobile"
+                    ],
+        "correct":  1,
+        "explanation":  "Python is interpreted, readable. Used in AI, web, data science, automation."
+    },
+    {
+        "prompt":  "Java is known for?",
+        "answers":  [
+                        "Only web",
+                        "Write once run anywhere - platform independent",
+                        "Only mobile",
+                        "Only desktop"
+                    ],
+        "correct":  1,
+        "explanation":  "Java compiles to bytecode. Runs on any platform with JVM."
+    },
+    {
+        "prompt":  "SQL is used for?",
+        "answers":  [
+                        "Design",
+                        "Database queries and management",
+                        "Graphics",
+                        "Networking"
+                    ],
+        "correct":  1,
+        "explanation":  "SQL - Structured Query Language. Query and manage relational databases."
+    },
+    {
+        "prompt":  "Database stores?",
+        "answers":  [
+                        "Only files",
+                        "Organized data - structured for retrieval",
+                        "Only images",
+                        "Only programs"
+                    ],
+        "correct":  1,
+        "explanation":  "Database stores structured data. Enables efficient query, update, management."
+    },
+    {
+        "prompt":  "Relational database organizes data in?",
+        "answers":  [
+                        "Files",
+                        "Tables with rows and columns",
+                        "Hierarchy only",
+                        "Documents only"
+                    ],
+        "correct":  1,
+        "explanation":  "Relational DB uses tables. Rows = records, columns = attributes. SQL used."
+    },
+    {
+        "prompt":  "NoSQL database is?",
+        "answers":  [
+                        "No structure",
+                        "Non-relational - flexible schema",
+                        "Only for SQL",
+                        "Deprecated"
+                    ],
+        "correct":  1,
+        "explanation":  "NoSQL - flexible structure. Document, key-value. Used for big data, real-time."
+    },
+    {
+        "prompt":  "Data privacy refers to?",
+        "answers":  [
+                        "Data speed",
+                        "Proper handling of personal data - consent, protection",
+                        "Data size",
+                        "Data format"
+                    ],
+        "correct":  1,
+        "explanation":  "Data privacy - rights over personal data. Consent, purpose limitation, security."
+    },
+    {
+        "prompt":  "GDPR is?",
+        "answers":  [
+                        "Indian law",
+                        "EU data protection regulation",
+                        "US law",
+                        "Asian standard"
+                    ],
+        "correct":  1,
+        "explanation":  "GDPR - EU regulation. Strict rules on personal data. Global impact."
+    }
+]

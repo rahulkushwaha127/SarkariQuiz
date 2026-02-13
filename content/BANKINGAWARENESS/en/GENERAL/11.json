@@ -1,1 +1,277 @@
-[{"prompt":"Which three Presidency Banks amalgamated to form Imperial Bank of India?","answers":["Bank of Bengal, Bank of Bombay, Bank of Madras","Bank of Calcutta, Bank of Delhi, Bank of Madras","PNB, Canara, Syndicate","SBI, PNB, BOB"],"correct":0,"explanation":"The three Presidency Banks - Bank of Bengal (1806), Bank of Bombay (1840), Bank of Madras (1843) - were amalgamated in 1921 to form Imperial Bank of India."},{"prompt":"Bank of Bengal was established in?","answers":["1770","1806","1840","1875"],"correct":1,"explanation":"Bank of Bengal was established in 1806 in Calcutta. It was one of the three Presidency Banks."},{"prompt":"General Bank of India was established in?","answers":["1770","1786","1806","1820"],"correct":1,"explanation":"General Bank of India was established in 1786. It was among the earliest banks in India but did not survive long."},{"prompt":"Oudh Commercial Bank was the first?","answers":["Foreign bank in India","Indian bank with limited liability","Bank to issue notes","RRB"],"correct":1,"explanation":"Oudh Commercial Bank (1881) was the first Indian commercial bank to be established with limited liability."},{"prompt":"Punjab National Bank was established in?","answers":["1894","1906","1919","1935"],"correct":0,"explanation":"PNB was established in 1894 in Lahore. It was founded by Lala Lajpat Rai and others. It is India's first Swadeshi bank."},{"prompt":"Bank of Baroda was founded in?","answers":["1894","1908","1911","1921"],"correct":1,"explanation":"Bank of Baroda was founded in 1908 in Baroda (Vadodara) by Maharaja Sayajirao Gaekwad III."},{"prompt":"Canara Bank was established in?","answers":["1906","1911","1921","1935"],"correct":0,"explanation":"Canara Bank was established in 1906 in Mangalore by Ammembal Subba Rao Pai. It was nationalized in 1969."},{"prompt":"Central Bank of India was established in?","answers":["1906","1911","1921","1935"],"correct":1,"explanation":"Central Bank of India was established in 1911. It was the first Indian commercial bank to be wholly owned and managed by Indians."},{"prompt":"The Swadeshi Movement of 1905-1907 led to establishment of?","answers":["RBI","Several Indian banks (e.g., PNB, Canara)","Imperial Bank","Foreign banks"],"correct":1,"explanation":"The Swadeshi movement encouraged indigenous enterprise. Many banks like PNB (1894), Canara (1906), Central Bank (1911) were established in this era."},{"prompt":"State Bank of India Act was passed in?","answers":["1955","1959","1969","1975"],"correct":0,"explanation":"State Bank of India Act, 1955 was passed to take over Imperial Bank of India and create State Bank of India."},{"prompt":"State Bank of Hyderabad and State Bank of Travancore were?","answers":["Private banks","Associate banks of SBI","RRBs","Foreign banks"],"correct":1,"explanation":"They were associate banks of SBI (formed by taking over state-associated banks). They merged with SBI in 2017."},{"prompt":"Bharatiya Mahila Bank was merged with?","answers":["PNB","SBI","Canara Bank","BOB"],"correct":1,"explanation":"Bharatiya Mahila Bank (established 2013) was merged with SBI in 2017 as part of the consolidation of PSBs."},{"prompt":"The 2020 PSB merger created how many big PSBs from many?","answers":["4 from 18","6 from 12","8 from 27","12 from 21"],"correct":3,"explanation":"Post 2020 merger: PNB + Oriental Bank + United Bank; Canara + Syndicate; Union + Andhra + Corporation; Indian Bank + Allahabad; BoB absorbed others. Result: 12 PSBs from earlier 27 (including merged entities)."},{"prompt":"Oriental Bank of Commerce and United Bank of India merged into?","answers":["SBI","PNB","Canara Bank","Bank of Baroda"],"correct":1,"explanation":"In 2020, Oriental Bank of Commerce and United Bank of India merged into Punjab National Bank."},{"prompt":"Andhra Bank and Corporation Bank merged with?","answers":["PNB","Union Bank of India","Canara Bank","Indian Bank"],"correct":1,"explanation":"Andhra Bank and Corporation Bank merged with Union Bank of India in 2020."},{"prompt":"Syndicate Bank merged with?","answers":["PNB","Canara Bank","Union Bank","Indian Bank"],"correct":1,"explanation":"Syndicate Bank merged with Canara Bank in 2020. The merged entity operates as Canara Bank."},{"prompt":"Allahabad Bank merged with?","answers":["PNB","Indian Bank","Canara Bank","Union Bank"],"correct":1,"explanation":"Allahabad Bank merged with Indian Bank in 2020."},{"prompt":"Narasimham Committee I (1991) recommended?","answers":["Nationalization","Reduction in CRR and SLR","Increase in government ownership","More RRBs"],"correct":1,"explanation":"Narasimham I recommended phased reduction of CRR and SLR, entry of private banks, NPA recognition, and autonomy for banks."},{"prompt":"Narasimham Committee II (1998) focused on?","answers":["Bank nationalization","Strengthening banks, capital adequacy, NPA management","Only RRBs","Only cooperative banks"],"correct":1,"explanation":"Narasimham II addressed structural issues, capital adequacy, mergers, narrow banking concept, and NPA resolution."},{"prompt":"M.N. Venkatachaliah Committee was related to?","answers":["Banking reforms","Company Law","Constitutional review","Tax reforms"],"correct":2,"explanation":"M.N. Venkatachaliah Committee (2002) reviewed the Constitution. Not directly related to banking."},{"prompt":"P.J. Nayak Committee (2014) recommended?","answers":["Bank nationalization","Governance reforms - Bank Board Bureau, empowerment of boards","Only NPA resolution","Only mergers"],"correct":1,"explanation":"P.J. Nayak Committee recommended Bank Board Bureau, splitting Chairman & MD roles, reducing government stake, and governance reforms for PSBs."},{"prompt":"Rajan Committee on Financial Sector Reforms (2008) was headed by?","answers":["C. Rangarajan","Raghuram Rajan","Bimal Jalan","Y.V. Reddy"],"correct":1,"explanation":"The Committee on Financial Sector Reforms (2008) was chaired by Raghuram Rajan. It made recommendations on banking, capital markets, and inclusion."},{"prompt":"Kelkar Committee was related to?","answers":["Banking","Fiscal consolidation and FRBM","Agriculture","Education"],"correct":1,"explanation":"Vijay Kelkar Committee (2004) on FRBM (Fiscal Responsibility and Budget Management) and fiscal consolidation."},{"prompt":"Raja Chelliah Committee was related to?","answers":["Banking","Tax reforms","Agriculture credit","Company law"],"correct":1,"explanation":"Raja Chelliah Committee (1991-93) recommended comprehensive tax reforms - reduction in rates, broadening base, GST concept."},{"prompt":"First Governor of RBI to be Indian was?","answers":["C.D. Deshmukh","B. Rama Rau","H.V.R. Iengar","L.K. Jha"],"correct":0,"explanation":"C.D. Deshmukh was the first Indian Governor of RBI (1943-1949). He later became Finance Minister."}]
+﻿[
+    {
+        "prompt":  "Bank of Maharashtra HQ?",
+        "answers":  [
+                        "Mumbai",
+                        "Pune",
+                        "Nagpur",
+                        "Kolhapur"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank of Maharashtra HQ is in Pune."
+    },
+    {
+        "prompt":  "UCO Bank established in?",
+        "answers":  [
+                        "1943",
+                        "1949",
+                        "1955",
+                        "1969"
+                    ],
+        "correct":  0,
+        "explanation":  "UCO Bank was established in 1943."
+    },
+    {
+        "prompt":  "IOB headquarters?",
+        "answers":  [
+                        "Mumbai",
+                        "Chennai",
+                        "Kolkata",
+                        "Bangalore"
+                    ],
+        "correct":  1,
+        "explanation":  "Indian Overseas Bank HQ is in Chennai."
+    },
+    {
+        "prompt":  "Punjab and Sind Bank HQ?",
+        "answers":  [
+                        "Chandigarh",
+                        "New Delhi",
+                        "Amritsar",
+                        "Ludhiana"
+                    ],
+        "correct":  1,
+        "explanation":  "Punjab and Sind Bank HQ is in New Delhi."
+    },
+    {
+        "prompt":  "Indian Bank and Allahabad Bank merged in?",
+        "answers":  [
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022"
+                    ],
+        "correct":  1,
+        "explanation":  "They merged in April 2020."
+    },
+    {
+        "prompt":  "How many PSBs after 2020 consolidation?",
+        "answers":  [
+                        "8",
+                        "10",
+                        "12",
+                        "14"
+                    ],
+        "correct":  2,
+        "explanation":  "12 public sector banks after 2020 merger."
+    },
+    {
+        "prompt":  "SBI associates exist now?",
+        "answers":  [
+                        "Yes",
+                        "No all merged in 2017",
+                        "Yes 3",
+                        "Yes 2"
+                    ],
+        "correct":  1,
+        "explanation":  "All SBI associates merged in 2017."
+    },
+    {
+        "prompt":  "State Bank of Patiala merged in?",
+        "answers":  [
+                        "2016",
+                        "2017",
+                        "2018",
+                        "2019"
+                    ],
+        "correct":  1,
+        "explanation":  "Merged with SBI in 2017."
+    },
+    {
+        "prompt":  "New Bank of India merged with?",
+        "answers":  [
+                        "PNB",
+                        "SBI",
+                        "BoB",
+                        "OBC"
+                    ],
+        "correct":  0,
+        "explanation":  "Merged with PNB in 1993."
+    },
+    {
+        "prompt":  "Bank of Baroda founded by?",
+        "answers":  [
+                        "Government",
+                        "Maharaja Sayajirao Gaekwad III",
+                        "Tatas",
+                        "Birlas"
+                    ],
+        "correct":  1,
+        "explanation":  "Founded in 1908 by Maharaja Sayajirao Gaekwad III."
+    },
+    {
+        "prompt":  "Canara Bank was founded in?",
+        "answers":  [
+                        "1906",
+                        "1911",
+                        "1921",
+                        "1935"
+                    ],
+        "correct":  0,
+        "explanation":  "Canara Bank was established in 1906 in Mangalore."
+    },
+    {
+        "prompt":  "Pradhan Mantri Vaya Vandana Yojana is for?",
+        "answers":  [
+                        "Children",
+                        "Senior citizens - pension scheme",
+                        "Women only",
+                        "Farmers"
+                    ],
+        "correct":  1,
+        "explanation":  "PMVVY is a pension scheme for senior citizens (60 years and above) offered by LIC."
+    },
+    {
+        "prompt":  "Atal Pension Yojana was launched in?",
+        "answers":  [
+                        "2014",
+                        "2015",
+                        "2016",
+                        "2017"
+                    ],
+        "correct":  1,
+        "explanation":  "APY was launched in May 2015. It provides guaranteed pension from 60 years."
+    },
+    {
+        "prompt":  "Sukanya Samriddhi Yojana can be opened for?",
+        "answers":  [
+                        "Any girl",
+                        "Girl child below 10 years",
+                        "Only rural",
+                        "Only urban"
+                    ],
+        "correct":  1,
+        "explanation":  "SSY can be opened for girl child below 10 years. Account matures at 21 years or marriage after 18."
+    },
+    {
+        "prompt":  "Public Provident Fund PPF has tenure of?",
+        "answers":  [
+                        "5 years",
+                        "10 years",
+                        "15 years",
+                        "20 years"
+                    ],
+        "correct":  2,
+        "explanation":  "PPF has a maturity period of 15 years. Can be extended in blocks of 5 years."
+    },
+    {
+        "prompt":  "PPF maximum deposit per year is?",
+        "answers":  [
+                        "Rs 1 lakh",
+                        "Rs 1.5 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh"
+                    ],
+        "correct":  1,
+        "explanation":  "PPF maximum deposit is Rs 1.5 lakh per financial year. Minimum Rs 500."
+    },
+    {
+        "prompt":  "Senior Citizens Savings Scheme SCSS has maximum deposit of?",
+        "answers":  [
+                        "Rs 5 lakh",
+                        "Rs 15 lakh",
+                        "Rs 30 lakh",
+                        "Rs 50 lakh"
+                    ],
+        "correct":  2,
+        "explanation":  "SCSS allows maximum deposit of Rs 30 lakh (including in multiple accounts). Age 60 or above (55 for VRS)."
+    },
+    {
+        "prompt":  "National Savings Certificate NSC has tenure of?",
+        "answers":  [
+                        "3 years",
+                        "5 years",
+                        "7 years",
+                        "10 years"
+                    ],
+        "correct":  1,
+        "explanation":  "NSC VIII issue has 5 year tenure. Interest compounds annually. Tax benefit under 80C."
+    },
+    {
+        "prompt":  "Kisan Vikas Patra KVP doubles in?",
+        "answers":  [
+                        "100 months",
+                        "113 months",
+                        "120 months",
+                        "150 months"
+                    ],
+        "correct":  0,
+        "explanation":  "KVP doubles the investment in 100 months (approx 8 years 4 months)."
+    },
+    {
+        "prompt":  "Post Office Monthly Income Scheme has maximum limit of?",
+        "answers":  [
+                        "Rs 3 lakh single Rs 6 lakh joint",
+                        "Rs 5 lakh Rs 10 lakh",
+                        "Rs 9 lakh Rs 15 lakh",
+                        "Rs 15 lakh Rs 30 lakh"
+                    ],
+        "correct":  2,
+        "explanation":  "POMIS: Single Rs 9 lakh, Joint Rs 15 lakh. 5 year maturity."
+    },
+    {
+        "prompt":  "Recurring Deposit in post office has max tenure of?",
+        "answers":  [
+                        "3 years",
+                        "5 years",
+                        "10 years",
+                        "15 years"
+                    ],
+        "correct":  1,
+        "explanation":  "Post office RD has 5 year tenure. Monthly deposits. Interest paid on maturity."
+    },
+    {
+        "prompt":  "Mahila Samman Savings Certificate allows deposit up to?",
+        "answers":  [
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh",
+                        "Rs 10 lakh"
+                    ],
+        "correct":  1,
+        "explanation":  "MSSC (2023) allows women to deposit up to Rs 2 lakh. 2 year tenure. 7.5% interest."
+    },
+    {
+        "prompt":  "Bank passbook is?",
+        "answers":  [
+                        "Optional",
+                        "Record of transactions - can be replaced by statement",
+                        "Not needed for savings",
+                        "Only for current account"
+                    ],
+        "correct":  1,
+        "explanation":  "Passbook records transactions. Many banks offer e-passbook or statements instead."
+    },
+    {
+        "prompt":  "Account statement from bank shows?",
+        "answers":  [
+                        "Only balance",
+                        "All transactions credits debits balance",
+                        "Only debits",
+                        "Only credits"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank statement shows all transactions (deposits, withdrawals) and running balance."
+    },
+    {
+        "prompt":  "Dormant account is one with?",
+        "answers":  [
+                        "No transactions for 2 years",
+                        "No transactions for 1 year",
+                        "Negative balance",
+                        "Closed"
+                    ],
+        "correct":  0,
+        "explanation":  "Account with no customer-initiated transactions for 2 years is classified as dormant/inoperative."
+    }
+]

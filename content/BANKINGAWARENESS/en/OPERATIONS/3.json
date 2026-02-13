@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Bouncing of cheque can lead to?",
+        "answers":  [
+                        "No penalty",
+                        "Criminal prosecution under NI Act",
+                        "Only civil case",
+                        "Only fine by bank"
+                    ],
+        "correct":  1,
+        "explanation":  "Dishonour of cheque for insufficient funds is criminal offense under Section 138 NI Act."
+    },
+    {
+        "prompt":  "Demand draft is issued by?",
+        "answers":  [
+                        "Customer",
+                        "Bank on behalf of customer",
+                        "RBI",
+                        "Post office only"
+                    ],
+        "correct":  1,
+        "explanation":  "DD is issued by bank. It is order by one branch to another to pay specified amount."
+    },
+    {
+        "prompt":  "Banker cheque or pay order is?",
+        "answers":  [
+                        "Same as DD - payable at same branch",
+                        "Only for large amount",
+                        "Only for government",
+                        "Only for companies"
+                    ],
+        "correct":  0,
+        "explanation":  "Banker cheque is similar to DD but payable at same branch. Used for local payments."
+    },
+    {
+        "prompt":  "Truncated cheque means?",
+        "answers":  [
+                        "Cheque cancelled",
+                        "Cheque image used instead of physical - in CTS",
+                        "Original sent",
+                        "Handwritten only"
+                    ],
+        "correct":  1,
+        "explanation":  "In cheque truncation, physical cheque is truncated (stopped) and image is used for clearing."
+    },
+    {
+        "prompt":  "Foreign currency loan to exporter from bank is?",
+        "answers":  [
+                        "Not allowed",
+                        "Allowed - PCFC etc",
+                        "Only for import",
+                        "Only ECB"
+                    ],
+        "correct":  1,
+        "explanation":  "Banks can provide pre-shipment and post-shipment credit in foreign currency (PCFC, etc)."
+    },
+    {
+        "prompt":  "Working capital loan is for?",
+        "answers":  [
+                        "Fixed assets",
+                        "Day to day operations - inventory, receivables",
+                        "Only salaries",
+                        "Only machinery"
+                    ],
+        "correct":  1,
+        "explanation":  "Working capital finance funds current assets - raw material, work in progress, receivables."
+    },
+    {
+        "prompt":  "Tiered KYC for PPIs means?",
+        "answers":  [
+                        "Same for all",
+                        "Minimum KYC and Full KYC - different limits",
+                        "Only full KYC",
+                        "No KYC"
+                    ],
+        "correct":  1,
+        "explanation":  "Minimum KYC PPI has lower limits. Full KYC allows higher limits and more features."
+    },
+    {
+        "prompt":  "Bridge loan is?",
+        "answers":  [
+                        "Long term loan",
+                        "Short term loan to bridge timing gap",
+                        "Only for export",
+                        "Only for farmers"
+                    ],
+        "correct":  1,
+        "explanation":  "Bridge loan is short-term financing to bridge gap until long-term financing or expected inflow is received."
+    },
+    {
+        "prompt":  "Top-up loan is?",
+        "answers":  [
+                        "New loan",
+                        "Additional loan on existing home loan",
+                        "Only for vehicle",
+                        "Only for personal"
+                    ],
+        "correct":  1,
+        "explanation":  "Top-up loan is additional amount sanctioned on existing home loan, often at better rate."
+    },
+    {
+        "prompt":  "Loan against securities allows borrowing against?",
+        "answers":  [
+                        "Only gold",
+                        "Shares, mutual funds, bonds",
+                        "Only property",
+                        "Only FD"
+                    ],
+        "correct":  1,
+        "explanation":  "Loan against securities: bank lends against pledge of shares, mutual fund units, bonds. Margin applied."
+    },
+    {
+        "prompt":  "Lien on fixed deposit means?",
+        "answers":  [
+                        "FD closed",
+                        "Bank has right to adjust FD against loan default",
+                        "FD transferred",
+                        "FD encashed"
+                    ],
+        "correct":  1,
+        "explanation":  "Lien gives bank right to adjust FD proceeds against loan dues if borrower defaults."
+    },
+    {
+        "prompt":  "Loan covenant is?",
+        "answers":  [
+                        "Interest rate",
+                        "Condition borrower must comply with",
+                        "Collateral type",
+                        "Tenure"
+                    ],
+        "correct":  1,
+        "explanation":  "Covenants are conditions in loan agreement - financial ratios, restrictions. Breach can trigger default."
+    },
+    {
+        "prompt":  "Loan to Value LTV of 80% means?",
+        "answers":  [
+                        "80% loan 20% down",
+                        "Bank funds 80% of asset value",
+                        "20% margin",
+                        "All of above"
+                    ],
+        "correct":  3,
+        "explanation":  "LTV 80% means bank lends 80% of property/value. Borrower brings 20% as margin."
+    },
+    {
+        "prompt":  "Processing fee for home loan is?",
+        "answers":  [
+                        "Nil",
+                        "Charged by bank - usually percentage of loan",
+                        "Only for private banks",
+                        "Refundable"
+                    ],
+        "correct":  1,
+        "explanation":  "Banks charge processing fee (e.g., 0.5-1% of loan) for home loans. Non-refundable."
+    },
+    {
+        "prompt":  "Prepayment of loan means?",
+        "answers":  [
+                        "Missing EMI",
+                        "Paying loan before tenure ends",
+                        "Only partial",
+                        "Only full"
+                    ],
+        "correct":  1,
+        "explanation":  "Prepayment is repaying loan (partial or full) before scheduled tenure. On floating rate home loans, no penalty."
+    },
+    {
+        "prompt":  "Refinancing a loan means?",
+        "answers":  [
+                        "Defaulting",
+                        "Taking new loan to replace existing - often at better rate",
+                        "Only top-up",
+                        "Only restructuring"
+                    ],
+        "correct":  1,
+        "explanation":  "Refinancing: replacing existing loan with new one, often from another lender at lower rate."
+    },
+    {
+        "prompt":  "Debt consolidation loan?",
+        "answers":  [
+                        "Increases number of loans",
+                        "Combines multiple loans into one",
+                        "Only for business",
+                        "Only for farmers"
+                    ],
+        "correct":  1,
+        "explanation":  "Debt consolidation combines multiple loans (credit card, personal, etc.) into single loan."
+    },
+    {
+        "prompt":  "Balloon payment in loan means?",
+        "answers":  [
+                        "Equal EMI",
+                        "Large final payment at end",
+                        "No EMI",
+                        "Only interest"
+                    ],
+        "correct":  1,
+        "explanation":  "Balloon payment: small EMIs during tenure, large lump sum at end. Used in some vehicle/business loans."
+    },
+    {
+        "prompt":  "Fixed rate loan interest?",
+        "answers":  [
+                        "Changes with market",
+                        "Remains same for agreed period",
+                        "Only for 1 year",
+                        "Only for government"
+                    ],
+        "correct":  1,
+        "explanation":  "Fixed rate loan has interest rate fixed for the entire or initial period of loan."
+    },
+    {
+        "prompt":  "Teaser rate in loan is?",
+        "answers":  [
+                        "Permanent low rate",
+                        "Initial low rate that increases later",
+                        "Only for home loans",
+                        "Banned by RBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Teaser rate: attractively low initial rate that resets higher. RBI had concerns; now floating rate norms apply."
+    },
+    {
+        "prompt":  "Education loan interest subvention for girl child is?",
+        "answers":  [
+                        "Not available",
+                        "1% additional - under Central Scheme",
+                        "Only for abroad",
+                        "Only for postgraduate"
+                    ],
+        "correct":  1,
+        "explanation":  "Under Central Scheme for Interest Subsidy, girl students get additional 1% interest subvention."
+    },
+    {
+        "prompt":  "Current Account is generally used by?",
+        "answers":  [
+                        "Individuals for savings",
+                        "Businesses for frequent transactions",
+                        "Senior citizens only",
+                        "Rural customers"
+                    ],
+        "correct":  1,
+        "explanation":  "Current accounts are for businesses and firms that need to make frequent transactions. Usually no interest is paid on current accounts."
+    },
+    {
+        "prompt":  "Fixed Deposit (FD) typically offers?",
+        "answers":  [
+                        "Lower interest than savings",
+                        "Higher interest with lock-in period",
+                        "No interest",
+                        "Variable daily interest"
+                    ],
+        "correct":  1,
+        "explanation":  "Fixed Deposits offer higher interest rates than savings accounts. The amount is locked for a fixed period (7 days to 10 years)."
+    },
+    {
+        "prompt":  "What does KYC stand for?",
+        "answers":  [
+                        "Know Your Client",
+                        "Know Your Customer",
+                        "Key Your Credentials",
+                        "Know Your Credit"
+                    ],
+        "correct":  1,
+        "explanation":  "KYC (Know Your Customer) is the process of verifying the identity of customers to prevent fraud, money laundering, and terrorist financing."
+    },
+    {
+        "prompt":  "NPA stands for?",
+        "answers":  [
+                        "Non-Provisioning Asset",
+                        "Non-Performing Asset",
+                        "Net Performing Asset",
+                        "National Payment Authority"
+                    ],
+        "correct":  1,
+        "explanation":  "NPA (Non-Performing Asset) is a loan or advance where interest or principal payment has been overdue for 90 days or more."
+    }
+]

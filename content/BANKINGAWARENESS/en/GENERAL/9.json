@@ -1,1 +1,277 @@
-[{"prompt":"RBI's Liquidity Coverage Ratio (LCR) ensures banks maintain?","answers":["Minimum capital","High-quality liquid assets for 30-day stress","Maximum CRR","Fixed SLR"],"correct":1,"explanation":"LCR under Basel III requires banks to hold sufficient high-quality liquid assets to survive a 30-day stressed funding scenario."},{"prompt":"Net Stable Funding Ratio (NSFR) under Basel III addresses?","answers":["Credit risk","Liquidity risk over 1-year horizon","Market risk","Operational risk"],"correct":1,"explanation":"NSFR requires banks to maintain stable funding relative to their assets and activities over a one-year horizon."},{"prompt":"Tier 1 capital of banks includes?","answers":["Only equity","Common equity + retained earnings + additional Tier 1 instruments","Subordinated debt only","Government bonds"],"correct":1,"explanation":"Tier 1 capital includes Common Equity Tier 1 (CET1) and Additional Tier 1 capital (AT1). It is the core capital that absorbs losses."},{"prompt":"Minimum Common Equity Tier 1 (CET1) ratio for Indian banks is?","answers":["4%","4.5%","5.5%","8%"],"correct":2,"explanation":"Indian banks must maintain minimum CET1 of 5.5% of risk-weighted assets under Basel III. With capital conservation buffer, total is 7%."},{"prompt":"Capital Conservation Buffer (CCB) under Basel III is?","answers":["1%","2.5%","4%","5%"],"correct":1,"explanation":"CCB of 2.5% is to be maintained in addition to minimum capital. It builds buffers during good times for use in stress."},{"prompt":"Additional Tier 1 (AT1) bonds are also called?","answers":["Perpetual bonds","Treasury bonds","Corporate bonds","Government securities"],"correct":0,"explanation":"AT1 bonds are perpetual (no maturity), loss-absorbing instruments. They can be written down or converted to equity in crisis."},{"prompt":"Asset Quality Review (AQR) was conducted by RBI in?","answers":["2013","2014","2015","2016"],"correct":2,"explanation":"RBI conducted AQR in 2015 across banks to uncover stressed assets and ensure proper NPA classification. It led to spike in reported NPAs."},{"prompt":"Gross NPA ratio is calculated as?","answers":["Gross NPA / Total advances","Net NPA / Total assets","Provision / NPA","Capital / NPA"],"correct":0,"explanation":"Gross NPA ratio = (Gross NPAs / Gross Advances) × 100. It indicates the proportion of bad loans in the loan book."},{"prompt":"Net NPA is calculated as?","answers":["Gross NPA","Gross NPA minus provisions","Total loans minus advances","NPAs minus recoveries"],"correct":1,"explanation":"Net NPA = Gross NPA - (Balance in Interest Suspense Account + DICGC/ECGC claims received + Part payment received + Provision held)."},{"prompt":"Provisioning for standard assets is typically?","answers":["1%","2%","0.25% to 1%","5%"],"correct":2,"explanation":"Provisioning for standard assets: 0.25% for direct advances to agriculture and MSMEs; 0.4% for others. Sub-standard gets 15-25%."},{"prompt":"A sub-standard asset is one which has remained NPA for?","answers":["Less than 12 months","12 months or less","More than 12 months","More than 24 months"],"correct":1,"explanation":"Sub-standard: NPA for 12 months or less. Doubtful: NPA for more than 12 months. Loss: identified as uncollectible."},{"prompt":"Doubtful assets require provisioning of?","answers":["15%","25% to 100% (depending on period)","5%","10%"],"correct":1,"explanation":"Doubtful assets: 25% of secured portion; 100% of unsecured portion. For doubtful > 3 years: 40% secured, 100% unsecured."},{"prompt":"National Company Law Tribunal (NCLT) is used for?","answers":["Only bank mergers","Corporate insolvency under IBC","Tax disputes","SEBI matters"],"correct":1,"explanation":"NCLT hears corporate insolvency and bankruptcy cases under the Insolvency and Bankruptcy Code, 2016."},{"prompt":"Resolution Professional (RP) under IBC is appointed by?","answers":["RBI","Creditors committee (CoC)","Government","SEBI"],"correct":1,"explanation":"Insolvency Professional is appointed by the Committee of Creditors (CoC) to manage the corporate debtor during resolution process."},{"prompt":"Maximum time limit for corporate insolvency resolution under IBC is?","answers":["90 days","180 days","270 days","365 days"],"correct":2,"explanation":"IBC mandates completion of resolution process within 180 days, extendable by 90 days (total 270 days). Fast-track for certain cases: 90 days."},{"prompt":"Pre-packaged insolvency is available for?","answers":["All companies","Only MSMEs","Only listed companies","Only PSUs"],"correct":1,"explanation":"Pre-pack insolvency was introduced for MSMEs - a faster process where resolution plan is prepared before admission."},{"prompt":"SARFAESI Act allows banks to take possession of secured assets without?","answers":["Valuation","Court intervention","RBI approval","Customer consent"],"correct":1,"explanation":"SARFAESI enables banks to enforce security interest without court intervention. They can take possession, sell, or lease the secured asset."},{"prompt":"Debt Recovery Tribunals (DRTs) were established under?","answers":["RBI Act","Recovery of Debts and Bankruptcy Act (RDDB Act)","SARFAESI Act","Banking Regulation Act"],"correct":1,"explanation":"DRTs were set up under the Recovery of Debts Due to Banks and Financial Institutions Act, 1993 (RDDB Act) for expeditious recovery."},{"prompt":"Asset Reconstruction Company (ARC) is regulated by?","answers":["SEBI","RBI","IRDAI","Ministry of Finance"],"correct":1,"explanation":"ARCs are regulated by RBI under the SARFAESI Act. They acquire NPAs from banks and work towards recovery."},{"prompt":"The largest ARC in India by assets is?","answers":["SBI","ICICI Bank","Edelweiss ARC","JM Financial ARC"],"correct":2,"explanation":"Edelweiss ARC is among the largest ARCs in India. ARCs purchase stressed assets from banks at a discount."},{"prompt":"One Time Settlement (OTS) scheme allows?","answers":["Full waiver of loan","Settlement of dues for less than owed amount","Only interest waiver","No settlement"],"correct":1,"explanation":"OTS allows borrowers to settle outstanding dues for a mutually agreed amount, usually less than the full dues, to close the account."},{"prompt":"Wilful defaulter is one who?","answers":["Cannot pay due to business failure","Has capacity to pay but does not pay","Has taken education loan","Is an MSME"],"correct":1,"explanation":"Wilful defaulter: has capacity to pay but deliberately does not; or has diverted funds; or disposed of collateral without bank consent."},{"prompt":"RBI maintains the Central Repository of Information on Large Credits (CRILC) for?","answers":["Retail loans","Exposure of Rs 5 crore and above","Only agriculture loans","Only housing loans"],"correct":1,"explanation":"CRILC collects credit information on borrowers with exposure of Rs 5 crore and above from all scheduled commercial banks and select NBFCs."},{"prompt":"Credit Information Companies (CICs) in India include?","answers":["Only CIBIL","CIBIL, Experian, Equifax, CRIF High Mark","Only RBI","Only banks"],"correct":1,"explanation":"Four CICs operate in India: CIBIL, Experian, Equifax, CRIF High Mark. They maintain credit history of borrowers."},{"prompt":"CIBIL score ranges from?","answers":["0-100","300-900","0-1000","100-500"],"correct":1,"explanation":"CIBIL (now TransUnion CIBIL) credit score ranges from 300 to 900. Higher score indicates better creditworthiness. 750+ is generally considered good."}]
+﻿[
+    {
+        "prompt":  "Wholly Owned Subsidiary WOS of foreign bank?",
+        "answers":  [
+                        "Same as branch",
+                        "Treated as domestic bank for regulation",
+                        "Exempt from CRR",
+                        "Exempt from SLR"
+                    ],
+        "correct":  1,
+        "explanation":  "WOS of foreign bank is treated like domestic bank for branch expansion, PSL etc."
+    },
+    {
+        "prompt":  "Foreign bank branches in India?",
+        "answers":  [
+                        "Unlimited branches",
+                        "Subject to RBI approval",
+                        "Cannot open branches",
+                        "Only in metros"
+                    ],
+        "correct":  1,
+        "explanation":  "Foreign bank branch expansion requires RBI approval. WOS route has different norms."
+    },
+    {
+        "prompt":  "Scheduled bank must have paid-up capital of?",
+        "answers":  [
+                        "Rs 1 lakh",
+                        "Rs 5 lakh",
+                        "Rs 25 lakh",
+                        "Rs 1 crore"
+                    ],
+        "correct":  1,
+        "explanation":  "To be in Second Schedule, bank must have paid-up capital of at least Rs 5 lakh."
+    },
+    {
+        "prompt":  "Regional Rural Bank Act was passed in?",
+        "answers":  [
+                        "1973",
+                        "1976",
+                        "1980",
+                        "1982"
+                    ],
+        "correct":  1,
+        "explanation":  "Regional Rural Banks Act was passed in 1976."
+    },
+    {
+        "prompt":  "Long Term Irrigation Fund was set up in?",
+        "answers":  [
+                        "NABARD",
+                        "RBI",
+                        "Ministry of Agriculture",
+                        "SIDBI"
+                    ],
+        "correct":  0,
+        "explanation":  "Long Term Irrigation Fund was set up in NABARD for funding irrigation projects."
+    },
+    {
+        "prompt":  "Micro Units Development and Refinance Agency is?",
+        "answers":  [
+                        "NABARD",
+                        "MUDRA",
+                        "SIDBI",
+                        "RBI"
+                    ],
+        "correct":  1,
+        "explanation":  "MUDRA - Micro Units Development and Refinance Agency - supports MSME through refinance."
+    },
+    {
+        "prompt":  "India Infrastructure Finance Company IIFCL provides?",
+        "answers":  [
+                        "Short-term loans",
+                        "Long-term infra financing",
+                        "Only equity",
+                        "Only guarantee"
+                    ],
+        "correct":  1,
+        "explanation":  "IIFCL provides long-term financing for infrastructure projects."
+    },
+    {
+        "prompt":  "NHB was established under?",
+        "answers":  [
+                        "RBI Act",
+                        "NHB Act 1987",
+                        "Companies Act",
+                        "Housing Act"
+                    ],
+        "correct":  1,
+        "explanation":  "National Housing Bank was established under NHB Act, 1987. Now regulated by RBI."
+    },
+    {
+        "prompt":  "A promissory note is?",
+        "answers":  [
+                        "Order to pay",
+                        "Promise to pay - unconditional in writing",
+                        "Request to pay",
+                        "Agreement to pay"
+                    ],
+        "correct":  1,
+        "explanation":  "Promissory note contains unconditional promise in writing to pay a certain sum."
+    },
+    {
+        "prompt":  "Bill of exchange is?",
+        "answers":  [
+                        "Promise by maker",
+                        "Order by drawer to payee to pay",
+                        "Only for goods",
+                        "Only for services"
+                    ],
+        "correct":  1,
+        "explanation":  "Bill of exchange is unconditional order in writing to pay a certain sum."
+    },
+    {
+        "prompt":  "Endorsement means?",
+        "answers":  [
+                        "Signing on front",
+                        "Signing on back to transfer negotiable instrument",
+                        "Cancelling",
+                        "Tearing"
+                    ],
+        "correct":  1,
+        "explanation":  "Endorsement is signing on the back of instrument to transfer rights to another person."
+    },
+    {
+        "prompt":  "Account payee crossing means?",
+        "answers":  [
+                        "Payable to bearer",
+                        "Payable only to account of payee",
+                        "Payable to order",
+                        "No restriction"
+                    ],
+        "correct":  1,
+        "explanation":  "Account payee crossing restricts payment to payee account only. Extra safety."
+    },
+    {
+        "prompt":  "Stop payment instruction?",
+        "answers":  [
+                        "Cannot be given",
+                        "Drawer can ask bank to not pay cheque",
+                        "Only for crossed",
+                        "Only for bearer"
+                    ],
+        "correct":  1,
+        "explanation":  "Drawer can instruct bank to stop payment of a cheque before it is presented."
+    },
+    {
+        "prompt":  "Section 138 of NI Act provides for?",
+        "answers":  [
+                        "Only civil remedy",
+                        "Criminal liability for cheque bounce",
+                        "Only fine",
+                        "No imprisonment"
+                    ],
+        "correct":  1,
+        "explanation":  "Section 138 makes cheque bounce a criminal offense. Punishment: imprisonment up to 2 years or fine or both."
+    },
+    {
+        "prompt":  "CTS was implemented to?",
+        "answers":  [
+                        "Increase clearing time",
+                        "Reduce clearing time, faster settlement",
+                        "Only for metro",
+                        "Only for RTGS"
+                    ],
+        "correct":  1,
+        "explanation":  "Cheque Truncation System reduces clearing time. Image-based clearing."
+    },
+    {
+        "prompt":  "Positive Pay requires?",
+        "answers":  [
+                        "Nothing",
+                        "Drawer to submit cheque details to bank before presentation",
+                        "Only for DD",
+                        "Only for small amounts"
+                    ],
+        "correct":  1,
+        "explanation":  "For cheques above Rs 50000, drawer must submit details to bank. Reduces fraud."
+    },
+    {
+        "prompt":  "Fraud in banking includes?",
+        "answers":  [
+                        "Only loan default",
+                        "Identity theft, phishing, embezzlement, loan fraud",
+                        "Only cyber",
+                        "Only internal"
+                    ],
+        "correct":  1,
+        "explanation":  "Banking fraud covers various types - identity theft, phishing, loan fraud, internal embezzlement etc."
+    },
+    {
+        "prompt":  "Customer can report fraud to?",
+        "answers":  [
+                        "Only police",
+                        "Bank, police, cyber cell",
+                        "Only bank",
+                        "Only RBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Customer should report to bank immediately. Can also file police complaint, cyber complaint."
+    },
+    {
+        "prompt":  "Ombudsman can be approached for?",
+        "answers":  [
+                        "Only loan rejection",
+                        "Various customer grievances - deficiency in service",
+                        "Only fraud",
+                        "Only NPA"
+                    ],
+        "correct":  1,
+        "explanation":  "Banking Ombudsman addresses deficiency in service, non-adherence to instructions, etc."
+    },
+    {
+        "prompt":  "Consumer Protection Act applies to?",
+        "answers":  [
+                        "Only goods",
+                        "Goods and services including banking",
+                        "Only insurance",
+                        "Only retail"
+                    ],
+        "correct":  1,
+        "explanation":  "Banking is a service. Consumer Protection Act applies. Customer can approach consumer forum."
+    },
+    {
+        "prompt":  "Bank guarantee is?",
+        "answers":  [
+                        "Loan",
+                        "Undertaking by bank to pay if customer defaults",
+                        "Only for exports",
+                        "Only for government"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank guarantee: bank undertakes to pay beneficiary if customer fails to fulfil obligation."
+    },
+    {
+        "prompt":  "Letter of Credit LC is used for?",
+        "answers":  [
+                        "Domestic trade only",
+                        "International trade - bank assures payment to exporter",
+                        "Only imports",
+                        "Only exports"
+                    ],
+        "correct":  1,
+        "explanation":  "LC is used in international trade. Issuing bank assures payment to exporter against documents."
+    },
+    {
+        "prompt":  "Standby LC is?",
+        "answers":  [
+                        "Primary payment",
+                        "Backup - used if applicant fails",
+                        "Only for domestic",
+                        "Only for goods"
+                    ],
+        "correct":  1,
+        "explanation":  "Standby LC is secondary. Invoked only if applicant fails to perform."
+    },
+    {
+        "prompt":  "Documentary LC requires?",
+        "answers":  [
+                        "Only application",
+                        "Documents - bill of lading, invoice etc",
+                        "Only payment",
+                        "Only guarantee"
+                    ],
+        "correct":  1,
+        "explanation":  "Documentary LC: payment against presentation of shipping and other documents."
+    },
+    {
+        "prompt":  "Bank acts as Intermediary in LC?",
+        "answers":  [
+                        "No",
+                        "Yes - between buyer and seller",
+                        "Only for domestic",
+                        "Only advises"
+                    ],
+        "correct":  1,
+        "explanation":  "Bank intermediates - issues LC on behalf of buyer, pays seller against documents."
+    }
+]

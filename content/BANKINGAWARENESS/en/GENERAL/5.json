@@ -1,28 +1,277 @@
-[
-  {"prompt": "The Banking Regulation Act was originally called?", "answers": ["RBI Act", "Banking Companies Act", "Companies Act", "Financial Regulation Act"], "correct": 1, "explanation": "The Banking Regulation Act, 1949 was originally enacted as the Banking Companies Act, 1949. It was amended and renamed in 1965."},
-  {"prompt": "SARFAESI Act stands for?", "answers": ["Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act", "Securities and Recovery of Financial Assets Act", "Security and Reconstruction of Financial Assets Act", "Securitization and Recovery of Financial Assets Act"], "correct": 0, "explanation": "SARFAESI Act, 2002 allows banks and financial institutions to recover NPAs without court intervention by taking possession of secured assets."},
-  {"prompt": "SARFAESI Act was enacted in?", "answers": ["2000", "2002", "2004", "2006"], "correct": 1, "explanation": "The Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act was passed in 2002."},
-  {"prompt": "Insolvency and Bankruptcy Code (IBC) was enacted in?", "answers": ["2014", "2015", "2016", "2017"], "correct": 2, "explanation": "The Insolvency and Bankruptcy Code, 2016 (IBC) provides a unified framework for resolving insolvency and bankruptcy in India."},
-  {"prompt": "IBBI stands for?", "answers": ["Indian Bankruptcy and Bankruptcy Institute", "Insolvency and Bankruptcy Board of India", "Indian Board of Bankruptcy and Insolvency", "Institute of Bankruptcy and Bankruptcy India"], "correct": 1, "explanation": "IBBI (Insolvency and Bankruptcy Board of India) was established in 2016 under the IBC to regulate insolvency professionals and processes."},
-  {"prompt": "IMF was established in?", "answers": ["1944", "1945", "1947", "1950"], "correct": 0, "explanation": "International Monetary Fund (IMF) was established in July 1944 at the Bretton Woods Conference. It started operations in December 1945."},
-  {"prompt": "Where is the headquarters of IMF?", "answers": ["London", "New York", "Washington D.C.", "Geneva"], "correct": 2, "explanation": "IMF headquarters is in Washington D.C., USA. World Bank is also headquartered in Washington D.C."},
-  {"prompt": "World Bank was established in?", "answers": ["1944", "1945", "1947", "1950"], "correct": 0, "explanation": "World Bank (International Bank for Reconstruction and Development) was established in 1944 at Bretton Woods, along with IMF."},
-  {"prompt": "ADB stands for?", "answers": ["Asian Development Bank", "African Development Bank", "American Development Bank", "Australian Development Bank"], "correct": 0, "explanation": "Asian Development Bank (ADB) was established in 1966. Its headquarters is in Manila, Philippines. India is a founding member."},
-  {"prompt": "Where is the headquarters of Asian Development Bank?", "answers": ["Tokyo", "Singapore", "Manila", "Beijing"], "correct": 2, "explanation": "ADB headquarters is in Manila, Philippines. ADB focuses on promoting economic and social development in Asia-Pacific."},
-  {"prompt": "New Development Bank (NDB) is also known as?", "answers": ["Asian Infrastructure Bank", "BRICS Bank", "World Bank Asia", "SAARC Bank"], "correct": 1, "explanation": "New Development Bank (NDB) is commonly called BRICS Bank. It was established by BRICS nations (Brazil, Russia, India, China, South Africa) in 2014."},
-  {"prompt": "New Development Bank (BRICS Bank) was established in?", "answers": ["2012", "2014", "2015", "2016"], "correct": 1, "explanation": "NDB was established in July 2014 at the BRICS summit. It started operations in 2015. Headquarters is in Shanghai, China."},
-  {"prompt": "AIIB stands for?", "answers": ["Asian Infrastructure Investment Bank", "American International Investment Bank", "Asian International Investment Board", "African Infrastructure Investment Bank"], "correct": 0, "explanation": "AIIB (Asian Infrastructure Investment Bank) was proposed by China and established in 2015. India is the second-largest shareholder."},
-  {"prompt": "Where is the headquarters of AIIB?", "answers": ["Beijing", "Shanghai", "Singapore", "Mumbai"], "correct": 0, "explanation": "AIIB headquarters is in Beijing, China. India is a founding member and the second-largest shareholder after China."},
-  {"prompt": "BIS stands for?", "answers": ["Bank of International Settlements", "Bank for International Settlements", "Board of International Securities", "Bank of Indian Settlements"], "correct": 1, "explanation": "BIS (Bank for International Settlements) is based in Basel, Switzerland. It is the 'central bank for central banks' and hosts the Basel Committee."},
-  {"prompt": "Basel Committee on Banking Supervision is associated with?", "answers": ["IMF", "World Bank", "BIS", "WTO"], "correct": 2, "explanation": "Basel Committee operates from the Bank for International Settlements (BIS) in Basel, Switzerland. It formulates Basel norms (Basel I, II, III)."},
-  {"prompt": "Basel III norms primarily focus on?", "answers": ["Only capital adequacy", "Capital, leverage, and liquidity", "Only liquidity", "Only leverage"], "correct": 1, "explanation": "Basel III emphasizes three pillars: minimum capital requirements, supervisory review, and market discipline. It also mandates leverage ratio and liquidity ratios (LCR, NSFR)."},
-  {"prompt": "FATF stands for?", "answers": ["Financial Action Task Force", "Financial Authority Task Force", "Financial Action and Tax Force", "Foreign Action Task Force"], "correct": 0, "explanation": "FATF (Financial Action Task Force) is an intergovernmental body that sets standards to combat money laundering and terrorist financing."},
-  {"prompt": "PMLA stands for?", "answers": ["Prevention of Money Laundering Act", "Prevention of Money Lending Act", "Protection of Money Laundering Act", "Prevention of Monetary Laundering Act"], "correct": 0, "explanation": "PMLA (Prevention of Money Laundering Act), 2002 is the primary law to prevent money laundering in India. It was amended in 2012."},
-  {"prompt": "Which agency investigates money laundering cases in India?", "answers": ["CBI", "ED (Enforcement Directorate)", "NIA", "IB"], "correct": 1, "explanation": "Enforcement Directorate (ED) is responsible for investigating and prosecuting money laundering cases under PMLA."},
-  {"prompt": "Green Banking refers to?", "answers": ["Banks with green logo", "Environmentally responsible banking practices", "Rural banking", "Agricultural loans only"], "correct": 1, "explanation": "Green Banking promotes environmentally sustainable practices - financing green projects, paperless banking, energy efficiency, and ESG compliance."},
-  {"prompt": "Priority Sector Lending includes loans to?", "answers": ["Large industries only", "Agriculture, MSMEs, education, housing, weaker sections", "Only government", "Only exports"], "correct": 1, "explanation": "Priority Sector includes agriculture, MSMEs, education, housing, export credit, social infrastructure, and weaker sections. Banks must lend 40% of ANBC to priority sector."},
-  {"prompt": "What is the Priority Sector Lending target for domestic commercial banks?", "answers": ["30%", "35%", "40%", "45%"], "correct": 2, "explanation": "Domestic commercial banks must lend 40% of Adjusted Net Bank Credit (ANBC) to priority sector. For foreign banks, it is 40% of ANBC."},
-  {"prompt": "Money supply M1 includes?", "answers": ["Only currency with public", "Currency + demand deposits + other deposits", "M1 + savings deposits", "All of the above"], "correct": 1, "explanation": "M1 = Currency with public + Demand deposits with banks + Other deposits with RBI. It is the most liquid measure of money supply."},
-  {"prompt": "Fiscal deficit is the difference between?", "answers": ["Revenue and expenditure", "Government's total expenditure and total receipts (excluding borrowings)", "Import and export", "Savings and investment"], "correct": 1, "explanation": "Fiscal Deficit = Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts). It indicates total borrowings needed by government."},
-  {"prompt": "Inflation is measured in India primarily by?", "answers": ["WPI only", "CPI only", "Both WPI and CPI", "GDP deflator only"], "correct": 2, "explanation": "RBI uses CPI (Consumer Price Index) for inflation targeting. WPI (Wholesale Price Index) is also published. CPI is the key indicator for monetary policy."}
+﻿[
+    {
+        "prompt":  "Cash Transaction Report is filed with?",
+        "answers":  [
+                        "RBI",
+                        "FIU-IND Financial Intelligence Unit",
+                        "SEBI",
+                        "CBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Banks file CTR and other reports with FIU-IND for AML compliance."
+    },
+    {
+        "prompt":  "Suspicious Transaction Report is?",
+        "answers":  [
+                        "Voluntary",
+                        "Mandatory for identified suspicious activity",
+                        "Only for NPAs",
+                        "Only for large transactions"
+                    ],
+        "correct":  1,
+        "explanation":  "STR must be filed when transaction gives rise to suspicion of money laundering or terror financing."
+    },
+    {
+        "prompt":  "Benami Transactions Act prohibits?",
+        "answers":  [
+                        "All property purchase",
+                        "Property held in someone else name to hide beneficial owner",
+                        "Only cash property",
+                        "Only commercial property"
+                    ],
+        "correct":  1,
+        "explanation":  "Benami Transactions Act prohibits property held by one for benefit of another to hide identity."
+    },
+    {
+        "prompt":  "FEMA is administered by?",
+        "answers":  [
+                        "SEBI",
+                        "RBI",
+                        "Ministry of Finance",
+                        "IRDAI"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI administers FEMA. Directorate of Enforcement implements FEMA."
+    },
+    {
+        "prompt":  "NRE account can be opened by?",
+        "answers":  [
+                        "Resident Indian",
+                        "Non-Resident Indian",
+                        "Any person",
+                        "Only PIO"
+                    ],
+        "correct":  1,
+        "explanation":  "NRE account is for NRIs. Deposits in foreign currency converted to rupees. Repatriable."
+    },
+    {
+        "prompt":  "FCNR(B) allows deposit in?",
+        "answers":  [
+                        "Only rupees",
+                        "Specified foreign currencies like USD EUR GBP",
+                        "Only USD",
+                        "Only Euro"
+                    ],
+        "correct":  1,
+        "explanation":  "FCNR(B) allows fixed deposits in USD, EUR, GBP, JPY etc. Repatriable."
+    },
+    {
+        "prompt":  "NRO account is for?",
+        "answers":  [
+                        "Foreign income of NRI",
+                        "NRI income earned in India like rent dividend",
+                        "Only salary",
+                        "Only business"
+                    ],
+        "correct":  1,
+        "explanation":  "NRO account holds NRI rupee income from India. Repatriation subject to limits."
+    },
+    {
+        "prompt":  "Liberalized Remittance Scheme is for?",
+        "answers":  [
+                        "Corporates",
+                        "Resident individuals",
+                        "NRIs",
+                        "Foreign nationals"
+                    ],
+        "correct":  1,
+        "explanation":  "LRS allows resident individuals to remit up to USD 250000 per financial year."
+    },
+    {
+        "prompt":  "Capital account convertibility means?",
+        "answers":  [
+                        "Only current account free",
+                        "Freedom to convert local currency for capital transactions",
+                        "Only trade free",
+                        "Fixed exchange rate"
+                    ],
+        "correct":  1,
+        "explanation":  "Full capital account convertibility would allow free movement of capital. India has partial convertibility."
+    },
+    {
+        "prompt":  "Policy corridor in India consists of?",
+        "answers":  [
+                        "Only Repo",
+                        "MSF ceiling Repo middle SDF floor",
+                        "Only Reverse Repo",
+                        "Only CRR"
+                    ],
+        "correct":  1,
+        "explanation":  "Interest rate corridor: MSF is ceiling, Repo is policy rate, SDF is floor."
+    },
+    {
+        "prompt":  "Variable Rate Repo allows?",
+        "answers":  [
+                        "Fixed rate only",
+                        "Banks to bid for funds at different rates",
+                        "Only overnight",
+                        "Only MSF"
+                    ],
+        "correct":  1,
+        "explanation":  "In VRR, RBI injects liquidity through auction. Banks bid for funds."
+    },
+    {
+        "prompt":  "Standing Facility means?",
+        "answers":  [
+                        "Auction-based",
+                        "Available on tap at fixed rate",
+                        "Only for government",
+                        "Only for PSBs"
+                    ],
+        "correct":  1,
+        "explanation":  "Standing facilities MSF and SDF are available on tap at announced rate."
+    },
+    {
+        "prompt":  "Held-to-Maturity HTM category for G-Secs allows?",
+        "answers":  [
+                        "Trading",
+                        "Holding till maturity no mark-to-market",
+                        "Only sale",
+                        "Only purchase"
+                    ],
+        "correct":  1,
+        "explanation":  "Banks can classify some G-Secs as HTM. Held to maturity, not marked to market."
+    },
+    {
+        "prompt":  "Held for Trading HFT securities are?",
+        "answers":  [
+                        "Held till maturity",
+                        "Marked to market held for trading",
+                        "Only equity",
+                        "Only corporate bonds"
+                    ],
+        "correct":  1,
+        "explanation":  "HFT category: securities held for trading, marked to market."
+    },
+    {
+        "prompt":  "Available for Sale AFS category means?",
+        "answers":  [
+                        "Only HTM",
+                        "Securities not HTM or HFT marked to market",
+                        "Only equity",
+                        "Not used"
+                    ],
+        "correct":  1,
+        "explanation":  "AFS: marked to market, valuation changes go to reserves."
+    },
+    {
+        "prompt":  "Sub-standard asset requires minimum provision of?",
+        "answers":  [
+                        "5 percent",
+                        "15 percent on secured 25 on unsecured",
+                        "25 percent",
+                        "100 percent"
+                    ],
+        "correct":  1,
+        "explanation":  "Sub-standard: 15 percent on secured, 25 percent on unsecured portion."
+    },
+    {
+        "prompt":  "Special Mention Account SMA is?",
+        "answers":  [
+                        "An NPA",
+                        "Pre-NPA 1 to 90 days overdue",
+                        "Written off",
+                        "Fully secured"
+                    ],
+        "correct":  1,
+        "explanation":  "SMA-0: 1-30 days; SMA-1: 31-60; SMA-2: 61-90. After 90 days becomes NPA."
+    },
+    {
+        "prompt":  "Joint Lenders Forum JLF was for?",
+        "answers":  [
+                        "Single lender",
+                        "Multi-lender stressed accounts",
+                        "Only retail",
+                        "Only agriculture"
+                    ],
+        "correct":  1,
+        "explanation":  "JLF was mechanism for lenders to collectively resolve stressed accounts."
+    },
+    {
+        "prompt":  "Strategic Debt Restructuring SDR allowed?",
+        "answers":  [
+                        "Only fresh loans",
+                        "Lenders to convert debt to equity take control",
+                        "Only NBFCs",
+                        "Only ARCs"
+                    ],
+        "correct":  1,
+        "explanation":  "SDR allowed lenders to convert loan to equity. Scheme discontinued."
+    },
+    {
+        "prompt":  "Scheme S4A dealt with?",
+        "answers":  [
+                        "Only retail",
+                        "Sustainable and unsustainable debt portion",
+                        "Only MSME",
+                        "Only infrastructure"
+                    ],
+        "correct":  1,
+        "explanation":  "S4A split debt into sustainable and unsustainable portion. Discontinued."
+    },
+    {
+        "prompt":  "Pre-pack insolvency is faster because?",
+        "answers":  [
+                        "No plan needed",
+                        "Resolution plan prepared before admission",
+                        "Only for large firms",
+                        "No CoC"
+                    ],
+        "correct":  1,
+        "explanation":  "In pre-pack, plan is prepared before formal admission."
+    },
+    {
+        "prompt":  "Swiss challenge in resolution means?",
+        "answers":  [
+                        "Only one bid",
+                        "Highest bidder gets chance to match better offer",
+                        "No bids",
+                        "Auction only"
+                    ],
+        "correct":  1,
+        "explanation":  "In Swiss challenge, original bidder gets chance to match higher bid."
+    },
+    {
+        "prompt":  "Liquidation value is?",
+        "answers":  [
+                        "Going concern value",
+                        "Value if assets sold piecemeal",
+                        "Replacement value",
+                        "Book value"
+                    ],
+        "correct":  1,
+        "explanation":  "Liquidation value is value if assets sold in liquidation."
+    },
+    {
+        "prompt":  "IDA stands for?",
+        "answers":  [
+                        "Indian Development Agency",
+                        "International Development Association",
+                        "International Development Bank",
+                        "Indian Development Association"
+                    ],
+        "correct":  1,
+        "explanation":  "IDA provides concessional loans and grants to poorest countries. Soft loan arm of World Bank."
+    },
+    {
+        "prompt":  "IFC provides?",
+        "answers":  [
+                        "Government loans",
+                        "Private sector investment - equity and debt",
+                        "Only grants",
+                        "Only technical assistance"
+                    ],
+        "correct":  1,
+        "explanation":  "IFC (International Finance Corporation) invests in private sector projects in developing countries."
+    }
 ]

@@ -1,0 +1,145 @@
+﻿[
+    {
+        "prompt":  "Wi-Fi stands for?",
+        "answers":  [
+                        "Wired Fidelity",
+                        "Wireless Fidelity",
+                        "Wireless Fiber",
+                        "Wide Fiber"
+                    ],
+        "correct":  1,
+        "explanation":  "Wi-Fi is wireless networking technology. Enables devices to connect without cables."
+    },
+    {
+        "prompt":  "Router is used to?",
+        "answers":  [
+                        "Store data",
+                        "Connect networks and route data packets",
+                        "Print documents",
+                        "Scan images"
+                    ],
+        "correct":  1,
+        "explanation":  "Router connects different networks (e.g., home to internet) and routes data."
+    },
+    {
+        "prompt":  "IP address identifies?",
+        "answers":  [
+                        "Only website",
+                        "Device on network - unique identifier",
+                        "Only server",
+                        "Only router"
+                    ],
+        "correct":  1,
+        "explanation":  "IP (Internet Protocol) address uniquely identifies device on network. IPv4 or IPv6."
+    },
+    {
+        "prompt":  "DNS stands for?",
+        "answers":  [
+                        "Domain Name System",
+                        "Data Network Service",
+                        "Domain Network Server",
+                        "Data Name Service"
+                    ],
+        "correct":  0,
+        "explanation":  "DNS translates domain names (google.com) to IP addresses. Humans use names; computers use IP."
+    },
+    {
+        "prompt":  "Bandwidth refers to?",
+        "answers":  [
+                        "Storage capacity",
+                        "Data transfer rate - capacity of connection",
+                        "Processor speed",
+                        "Memory size"
+                    ],
+        "correct":  1,
+        "explanation":  "Bandwidth is maximum data transfer rate - measured in Mbps, Gbps."
+    },
+    {
+        "prompt":  "Bandwidth is measured in?",
+        "answers":  [
+                        "Hz",
+                        "Mbps or Gbps",
+                        "GB",
+                        "Seconds"
+                    ],
+        "correct":  1,
+        "explanation":  "Bandwidth measured in bits per second - Mbps (megabits), Gbps (gigabits)."
+    },
+    {
+        "prompt":  "Wi-Fi 6 is?",
+        "answers":  [
+                        "Router model",
+                        "Latest Wi-Fi standard - 802.11ax",
+                        "Only for mobile",
+                        "Outdated"
+                    ],
+        "correct":  1,
+        "explanation":  "Wi-Fi 6 (802.11ax) offers faster speeds, better performance in congested areas."
+    },
+    {
+        "prompt":  "Browser cache stores?",
+        "answers":  [
+                        "Only passwords",
+                        "Temporary copies of web pages for faster loading",
+                        "Only cookies",
+                        "Only history"
+                    ],
+        "correct":  1,
+        "explanation":  "Cache stores copies of visited pages - faster reload. Can be cleared."
+    },
+    {
+        "prompt":  "Cookie in browser is?",
+        "answers":  [
+                        "Virus",
+                        "Small data file stored by website",
+                        "Antivirus",
+                        "Firewall"
+                    ],
+        "correct":  1,
+        "explanation":  "Cookies store user preferences, login state. Can be first-party or third-party."
+    },
+    {
+        "prompt":  "HTTPS uses which technology?",
+        "answers":  [
+                        "No encryption",
+                        "SSL/TLS encryption",
+                        "Only password",
+                        "Only for banking"
+                    ],
+        "correct":  1,
+        "explanation":  "HTTPS uses SSL/TLS to encrypt data between browser and server."
+    },
+    {
+        "prompt":  "URL typically starts with?",
+        "answers":  [
+                        "www",
+                        "http or https",
+                        ".com",
+                        "www."
+                    ],
+        "correct":  1,
+        "explanation":  "URL starts with protocol: http:// or https://. Then domain name."
+    },
+    {
+        "prompt":  "National Scholarship Portal NSP is for?",
+        "answers":  [
+                        "Loans only",
+                        "Scholarship schemes - single window",
+                        "Only central",
+                        "Only state"
+                    ],
+        "correct":  1,
+        "explanation":  "NSP is single window for various government scholarship schemes."
+    },
+    {
+        "prompt":  "Natural Language Processing NLP deals with?",
+        "answers":  [
+                        "Only numbers",
+                        "Human language - text, speech",
+                        "Only images",
+                        "Only video"
+                    ],
+        "correct":  1,
+        "explanation":  "NLP enables computers to understand, process human language. Used in chatbots, translation."
+    }
+]

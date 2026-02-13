@@ -1,27 +1,277 @@
-[
-  {"prompt": "UPI was launched in India in which year?", "answers": ["2014", "2015", "2016", "2017"], "correct": 2, "explanation": "Unified Payments Interface (UPI) was launched by NPCI in April 2016. It has revolutionized digital payments in India."},
-  {"prompt": "What does UPI stand for?", "answers": ["Unified Payment Interface", "Unified Payments Interface", "Universal Payment Interface", "United Payment Interface"], "correct": 1, "explanation": "UPI (Unified Payments Interface) is a real-time payment system developed by NPCI that enables instant fund transfer between bank accounts."},
-  {"prompt": "NPCI stands for?", "answers": ["National Payments Corporation of India", "National Payment Council of India", "National Planning Commission of India", "National Payment Corporation International"], "correct": 0, "explanation": "NPCI (National Payments Corporation of India) is an umbrella organization for operating retail payments and settlement systems in India. It was set up in 2008."},
-  {"prompt": "BHIM app was launched on which date?", "answers": ["August 15, 2016", "November 8, 2016", "December 30, 2016", "January 1, 2017"], "correct": 2, "explanation": "BHIM (Bharat Interface for Money) was launched by Prime Minister Narendra Modi on December 30, 2016. BHIM is named after Dr. B.R. Ambedkar."},
-  {"prompt": "BHIM is named after?", "answers": ["Mahatma Gandhi", "Dr. B.R. Ambedkar", "Sardar Patel", "Jawaharlal Nehru"], "correct": 1, "explanation": "BHIM stands for Bharat Interface for Money. Prime Minister Modi named it after Dr. B.R. Ambedkar, linking financial inclusion with social empowerment."},
-  {"prompt": "AePS stands for?", "answers": ["Aadhaar Enabled Payment System", "Automated Electronic Payment System", "Aadhaar Electronic Payment Service", "Automated Enabled Payment Service"], "correct": 0, "explanation": "AePS (Aadhaar Enabled Payment System) allows bank customers to do transactions using Aadhaar authentication and fingerprint/IRIS."},
-  {"prompt": "RuPay card is an Indian domestic card scheme promoted by?", "answers": ["RBI", "SEBI", "NPCI", "Ministry of Finance"], "correct": 2, "explanation": "RuPay is India's domestic card payment network launched by NPCI in 2012. It is an alternative to Visa and Mastercard."},
-  {"prompt": "Pradhan Mantri Jan Dhan Yojana was launched on?", "answers": ["August 15, 2014", "August 28, 2014", "October 2, 2014", "January 26, 2015"], "correct": 1, "explanation": "PMJDY was launched by Prime Minister Narendra Modi on August 28, 2014. It was announced in his Independence Day speech on August 15, 2014."},
-  {"prompt": "Under PMJDY, overdraft facility of up to how much is available?", "answers": ["Rs 2,000", "Rs 5,000", "Rs 10,000", "Rs 25,000"], "correct": 1, "explanation": "PMJDY accounts offer overdraft facility of up to Rs 5,000 (after 6 months of satisfactory operation) to one account per household."},
-  {"prompt": "Accident insurance cover under PMJDY is how much?", "answers": ["Rs 30,000", "Rs 1 lakh", "Rs 2 lakh", "Rs 5 lakh"], "correct": 1, "explanation": "RuPay debit card issued under PMJDY provides accident insurance cover of Rs 1 lakh. Life cover of Rs 30,000 was also added for accounts opened before August 28, 2018."},
-  {"prompt": "Pradhan Mantri Mudra Yojana was launched in?", "answers": ["2013", "2014", "2015", "2016"], "correct": 2, "explanation": "Pradhan Mantri Mudra Yojana (PMMY) was launched on April 8, 2015, to provide loans up to Rs 10 lakh to non-corporate, non-farm small/micro enterprises."},
-  {"prompt": "Under Mudra Yojana, 'Shishu' category covers loans up to?", "answers": ["Rs 25,000", "Rs 50,000", "Rs 5 lakh", "Rs 10 lakh"], "correct": 1, "explanation": "Mudra has 3 categories: Shishu (up to Rs 50,000), Kishore (Rs 50,001 to Rs 5 lakh), Tarun (Rs 5 lakh to Rs 10 lakh)."},
-  {"prompt": "DICGC provides deposit insurance. What is the current coverage limit per depositor?", "answers": ["Rs 1 lakh", "Rs 2 lakh", "Rs 5 lakh", "Rs 10 lakh"], "correct": 2, "explanation": "DICGC insures deposits up to Rs 5 lakh per depositor per bank (including principal and interest). This was increased from Rs 1 lakh in 2020."},
-  {"prompt": "DICGC stands for?", "answers": ["Deposit Insurance and Credit Guarantee Corporation", "Deposit and Credit Guarantee Corporation", "Deposit Insurance and Credit Guarantee Council", "Deposit Insurance Credit Guarantee Corporation"], "correct": 0, "explanation": "DICGC is a subsidiary of RBI that provides deposit insurance. It was established in 1978 by merging DIC and CGCI."},
-  {"prompt": "The deposit insurance limit was increased to Rs 5 lakh in?", "answers": ["2019", "February 2020", "2021", "2022"], "correct": 1, "explanation": "The DICGC deposit insurance limit was increased from Rs 1 lakh to Rs 5 lakh per depositor, effective February 4, 2020 (Union Budget 2020-21)."},
-  {"prompt": "BSE stands for?", "answers": ["Bombay Stock Exchange", "Bengal Stock Exchange", "Basic Securities Exchange", "Board of Stock Exchange"], "correct": 0, "explanation": "BSE (Bombay Stock Exchange) is Asia's oldest stock exchange, established in 1875. It is now known as BSE Ltd."},
-  {"prompt": "NSE was established in?", "answers": ["1990", "1992", "1994", "1996"], "correct": 1, "explanation": "National Stock Exchange (NSE) was incorporated in 1992 and started trading in 1994. It introduced electronic trading in India."},
-  {"prompt": "SEBI was established in which year?", "answers": ["1988", "1992", "1996", "2000"], "correct": 0, "explanation": "SEBI (Securities and Exchange Board of India) was established in 1988 and given statutory powers in 1992 through the SEBI Act."},
-  {"prompt": "SEBI is the regulator of?", "answers": ["Banking sector", "Securities market", "Insurance sector", "Foreign exchange"], "correct": 1, "explanation": "SEBI regulates the securities market in India - stock exchanges, brokers, mutual funds, and other market intermediaries."},
-  {"prompt": "Treasury Bills are issued by?", "answers": ["Commercial banks", "RBI on behalf of Government", "SEBI", "Stock exchanges"], "correct": 1, "explanation": "Treasury Bills (T-Bills) are short-term debt instruments issued by the Government of India through RBI. They have maturities of 91, 182, and 364 days."},
-  {"prompt": "Call money market is for?", "answers": ["Long-term loans", "Overnight/very short-term inter-bank loans", "Retail loans", "Government borrowing"], "correct": 1, "explanation": "Call money market deals with overnight or very short-term (1-14 days) loans between banks. It helps banks manage day-to-day liquidity."},
-  {"prompt": "Money market instruments have maturity of up to?", "answers": ["30 days", "90 days", "1 year", "5 years"], "correct": 2, "explanation": "Money market deals with short-term instruments (up to 1 year): T-Bills, commercial paper, call money, certificate of deposit, etc."},
-  {"prompt": "Capital market deals with?", "answers": ["Short-term funds (up to 1 year)", "Long-term funds (more than 1 year)", "Overnight loans", "Foreign currency"], "correct": 1, "explanation": "Capital market deals with long-term funds - equity shares, debentures, bonds with maturity exceeding one year."},
-  {"prompt": "Primary market is where?", "answers": ["Existing securities are traded", "New securities are issued", "Only bonds are traded", "Only government securities are sold"], "correct": 1, "explanation": "Primary market is where new securities (IPO, FPO) are issued for the first time. Secondary market (stock exchange) is where existing securities are traded."},
-  {"prompt": "Mutual funds in India are regulated by?", "answers": ["RBI", "SEBI", "IRDAI", "PFRDA"], "correct": 1, "explanation": "Mutual funds are regulated by SEBI under the SEBI (Mutual Funds) Regulations, 1996. AMFI is the industry association."}
+﻿[
+    {
+        "prompt":  "Pradhan Mantri Suraksha Bima Yojana provides?",
+        "answers":  [
+                        "Life insurance",
+                        "Accident insurance Rs 2 lakh for Rs 12 per year",
+                        "Health insurance",
+                        "Pension"
+                    ],
+        "correct":  1,
+        "explanation":  "PMSBY offers accidental death/disability cover of Rs 2 lakh for annual premium of Rs 12. Age 18-70 years."
+    },
+    {
+        "prompt":  "Pradhan Mantri Jeevan Jyoti Bima Yojana provides?",
+        "answers":  [
+                        "Accident cover",
+                        "Life cover Rs 2 lakh for Rs 330 per year",
+                        "Health cover",
+                        "Pension"
+                    ],
+        "correct":  1,
+        "explanation":  "PMJJBY offers life cover of Rs 2 lakh for annual premium of Rs 330. Age 18-50 years. Linked to bank account."
+    },
+    {
+        "prompt":  "Atal Pension Yojana provides?",
+        "answers":  [
+                        "Life insurance",
+                        "Guaranteed pension from 60 years",
+                        "Accident cover",
+                        "Health insurance"
+                    ],
+        "correct":  1,
+        "explanation":  "APY provides fixed pension from 60 years (Rs 1000-5000 per month). Government co-contribution for eligible subscribers."
+    },
+    {
+        "prompt":  "Pradhan Mantri Employment Generation Programme is implemented by?",
+        "answers":  [
+                        "RBI",
+                        "KVIC (Khadi and Village Industries Commission)",
+                        "NABARD",
+                        "SIDBI"
+                    ],
+        "correct":  1,
+        "explanation":  "PMEGP is implemented by KVIC for setting up micro-enterprises. Margin money subsidy and bank credit component."
+    },
+    {
+        "prompt":  "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE) provides?",
+        "answers":  [
+                        "Direct loans",
+                        "Collateral-free loan guarantee to banks",
+                        "Only to large enterprises",
+                        "Export credit"
+                    ],
+        "correct":  1,
+        "explanation":  "CGTMSE provides guarantee to banks for collateral-free loans to micro and small enterprises. Reduces risk for banks."
+    },
+    {
+        "prompt":  "FINO stands for?",
+        "answers":  [
+                        "Financial Inclusion Network and Operations",
+                        "Financial Investment and Network",
+                        "Federal Insurance Network",
+                        "Foreign Investment Network"
+                    ],
+        "correct":  0,
+        "explanation":  "FINO is a technology company that provides BC services, biometric solutions for financial inclusion."
+    },
+    {
+        "prompt":  "Pension in India is regulated by?",
+        "answers":  [
+                        "RBI",
+                        "PFRDA",
+                        "SEBI",
+                        "IRDAI"
+                    ],
+        "correct":  1,
+        "explanation":  "PFRDA (Pension Fund Regulatory and Development Authority) regulates NPS and pension sector."
+    },
+    {
+        "prompt":  "National Pension System (NPS) is?",
+        "answers":  [
+                        "Only for government employees",
+                        "Voluntary, open to all citizens",
+                        "Only for private sector",
+                        "Only for senior citizens"
+                    ],
+        "correct":  1,
+        "explanation":  "NPS is now open to all Indian citizens (18-70 years). It was initially for government employees (2004), opened to all in 2009."
+    },
+    {
+        "prompt":  "IRDAI regulates?",
+        "answers":  [
+                        "Banking",
+                        "Insurance",
+                        "Securities",
+                        "Pension"
+                    ],
+        "correct":  1,
+        "explanation":  "IRDAI (Insurance Regulatory and Development Authority of India) regulates the insurance sector."
+    },
+    {
+        "prompt":  "NBFC is regulated by?",
+        "answers":  [
+                        "SEBI",
+                        "RBI",
+                        "IRDAI",
+                        "Ministry of Corporate Affairs"
+                    ],
+        "correct":  1,
+        "explanation":  "NBFCs (Non-Banking Financial Companies) are regulated by RBI under RBI Act, 1934."
+    },
+    {
+        "prompt":  "NBFCs cannot accept?",
+        "answers":  [
+                        "Deposits without registration",
+                        "Loans",
+                        "Equity",
+                        "Assets"
+                    ],
+        "correct":  0,
+        "explanation":  "NBFCs cannot accept deposits unless they have specific registration (e.g., NBFC-D). Most NBFCs are non-deposit taking."
+    },
+    {
+        "prompt":  "Systemically Important NBFCs have asset size of?",
+        "answers":  [
+                        "Rs 100 crore",
+                        "Rs 500 crore",
+                        "Rs 1000 crore",
+                        "Rs 5000 crore"
+                    ],
+        "correct":  1,
+        "explanation":  "NBFCs with asset size of Rs 500 crore and above are considered systemically important (NBFC-ND-SI)."
+    },
+    {
+        "prompt":  "NBFC-MFI provides?",
+        "answers":  [
+                        "Large corporate loans",
+                        "Small loans to low-income households",
+                        "Only deposits",
+                        "Only gold loans"
+                    ],
+        "correct":  1,
+        "explanation":  "NBFC-MFI (Microfinance Institution) provides small loans to low-income households. Regulated by RBI."
+    },
+    {
+        "prompt":  "Housing Finance Companies are now regulated by?",
+        "answers":  [
+                        "NHB only",
+                        "RBI (transferred from NHB)",
+                        "IRDAI",
+                        "SEBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Regulation of HFCs was transferred from NHB to RBI in August 2019. NHB continues as refinancer."
+    },
+    {
+        "prompt":  "NHB stands for?",
+        "answers":  [
+                        "National Housing Bank",
+                        "National Health Board",
+                        "National Housing Board",
+                        "New Housing Bureau"
+                    ],
+        "correct":  0,
+        "explanation":  "National Housing Bank was set up in 1988. It is the apex institution for housing finance. Now under RBI regulation."
+    },
+    {
+        "prompt":  "Payment Aggregators are regulated by?",
+        "answers":  [
+                        "SEBI",
+                        "RBI",
+                        "IRDAI",
+                        "Ministry of Electronics"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI regulates Payment Aggregators (entities that facilitate payment between merchant and customer). Guidelines issued in March 2020."
+    },
+    {
+        "prompt":  "Factoring Regulation Act was passed in?",
+        "answers":  [
+                        "2008",
+                        "2011",
+                        "2015",
+                        "2019"
+                    ],
+        "correct":  1,
+        "explanation":  "Factoring Regulation Act, 2011 provides for regulation of factoring business. Factoring is purchase of receivables."
+    },
+    {
+        "prompt":  "ECGC provides guarantee for?",
+        "answers":  [
+                        "Domestic trade",
+                        "Export credit",
+                        "Import credit",
+                        "Retail loans"
+                    ],
+        "correct":  1,
+        "explanation":  "ECGC (Export Credit Guarantee Corporation) provides export credit insurance to banks and exporters."
+    },
+    {
+        "prompt":  "Banking Ombudsman Scheme covers?",
+        "answers":  [
+                        "Only public sector banks",
+                        "All scheduled commercial banks, RRBs, cooperative banks",
+                        "Only private banks",
+                        "Only rural banks"
+                    ],
+        "correct":  1,
+        "explanation":  "Banking Ombudsman Scheme covers scheduled commercial banks, RRBs, and scheduled primary cooperative banks."
+    },
+    {
+        "prompt":  "Integrated Ombudsman Scheme was launched in?",
+        "answers":  [
+                        "2019",
+                        "2020",
+                        "2021",
+                        "2022"
+                    ],
+        "correct":  2,
+        "explanation":  "Integrated Ombudsman Scheme, 2021 unified the three ombudsman schemes (Banking, NBFC, Digital Payments) into one."
+    },
+    {
+        "prompt":  "Scheduled Bank is one that is?",
+        "answers":  [
+                        "Listed on stock exchange",
+                        "Included in Second Schedule of RBI Act",
+                        "Has 100 branches",
+                        "Is nationalized"
+                    ],
+        "correct":  1,
+        "explanation":  "Scheduled banks are included in the Second Schedule of RBI Act. They must have paid-up capital of Rs 5 lakh and satisfy RBI."
+    },
+    {
+        "prompt":  "Non-Scheduled banks?",
+        "answers":  [
+                        "Are in Second Schedule",
+                        "Are not in Second Schedule and do not enjoy same facilities",
+                        "Are only RRBs",
+                        "Are only cooperative"
+                    ],
+        "correct":  1,
+        "explanation":  "Non-scheduled banks are not in Second Schedule. They cannot borrow from RBI under LAF and have different reserve requirements."
+    },
+    {
+        "prompt":  "Branch Authorization - banks can open branches?",
+        "answers":  [
+                        "Only with prior RBI permission each time",
+                        "Without prior permission in most areas",
+                        "Only in metros",
+                        "Only in rural areas"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI has granted general permission to banks for opening branches in Tier 2 to Tier 6 centers."
+    },
+    {
+        "prompt":  "Tier 1 center for branch authorization includes?",
+        "answers":  [
+                        "Rural areas",
+                        "Centers with population 1 lakh and above",
+                        "Only state capitals",
+                        "Only Delhi and Mumbai"
+                    ],
+        "correct":  1,
+        "explanation":  "Tier 1: centers with population 100000 and above. RBI has different rules for each tier."
+    },
+    {
+        "prompt":  "PAN is mandatory for?",
+        "answers":  [
+                        "All transactions",
+                        "Cash deposits above Rs 50000 and high-value transactions",
+                        "Only FDs",
+                        "Only loans"
+                    ],
+        "correct":  1,
+        "explanation":  "PAN mandatory for cash deposits above Rs 50000, fixed deposits above threshold, etc."
+    }
 ]

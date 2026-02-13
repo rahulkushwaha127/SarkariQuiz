@@ -1,1 +1,277 @@
-[{"prompt":"NEFT operates in how many batches per day?","answers":["12","24","48","96"],"correct":2,"explanation":"NEFT operates in 48 half-hourly batches on weekdays and 24 batches on Saturdays. It is available 24x7 from December 2019."},{"prompt":"RTGS operates during?","answers":["Bank working hours only","24x7","Only weekdays 9 to 5","Only when NEFT runs"],"correct":1,"explanation":"RTGS is available 24x7. It was made round-the-clock in December 2020 to facilitate large value payments anytime."},{"prompt":"IMPS transaction limit per transaction is typically?","answers":["Rs 50,000","Rs 1 lakh","Rs 2 lakh","Rs 5 lakh"],"correct":2,"explanation":"IMPS has a limit of Rs 2 lakh per transaction (may vary by bank). It enables instant transfer 24x7."},{"prompt":"UPI transaction limit for most transactions is?","answers":["Rs 25,000","Rs 1 lakh","Rs 2 lakh","No limit"],"correct":1,"explanation":"UPI default limit is Rs 1 lakh per transaction. For some categories like IPO, it can be higher. Banks may set lower limits."},{"prompt":"NPCI was set up as a initiative of?","answers":["Government only","RBI and Indian Banks Association","SEBI","Ministry of Finance"],"correct":1,"explanation":"NPCI was set up in 2008 as an umbrella organization under the patronage of RBI and IBA for retail payments."},{"prompt":"RuPay was launched by NPCI in?","answers":["2010","2012","2014","2016"],"correct":1,"explanation":"RuPay, India domestic card payment network, was launched by NPCI in 2012. It is an alternative to Visa and Mastercard."},{"prompt":"Bharat Bill Payment System (BBPS) is operated by?","answers":["Individual banks","NPCI","RBI directly","SEBI"],"correct":1,"explanation":"BBPS is a centralized bill payment system operated by NPCI. It allows payment of utility bills, insurance, etc. through a single platform."},{"prompt":"AePS allows transactions using?","answers":["Only debit card","Aadhaar and fingerprint or IRIS","Only mobile","Only OTP"],"correct":1,"explanation":"AePS allows customers to do banking using Aadhaar number and biometric (fingerprint/IRIS) authentication at BC points."},{"prompt":"Aadhaar seeding in bank account means?","answers":["Closing account","Linking Aadhaar number to bank account","Opening new account","Changing PIN"],"correct":1,"explanation":"Aadhaar seeding is linking the Aadhaar number to the bank account for direct benefit transfer and AePS transactions."},{"prompt":"Direct Benefit Transfer (DBT) uses?","answers":["Only cheque","Aadhaar-linked bank accounts","Only cash","Only post office"],"correct":1,"explanation":"DBT transfers government benefits (subsidies, pensions) directly to beneficiaries Aadhaar-linked bank accounts."},{"prompt":"Jan Dhan-Aadhaar-Mobile (JAM) trinity refers to?","answers":["Three separate schemes","Linking of Jan Dhan, Aadhaar, Mobile for direct transfers","Only Aadhaar","Only mobile"],"correct":1,"explanation":"JAM combines Jan Dhan accounts, Aadhaar identification, and Mobile for efficient direct benefit transfers and financial inclusion."},{"prompt":"USSD banking uses?","answers":["Smartphone only","Basic mobile without internet - dial *99#","Only computer","Only ATM"],"correct":1,"explanation":"USSD (*99#) allows basic banking (balance, mini statement, transfer) on feature phones without internet."},{"prompt":"Bharat QR allows?","answers":["Only card payments","QR code based payments - interoperable","Only UPI","Only IMPS"],"correct":1,"explanation":"Bharat QR is an interoperable QR code that can accept payments from multiple instruments - UPI, RuPay, Visa, Mastercard."},{"prompt":"FASTag is used for?","answers":["Mobile recharge","Electronic toll collection","Bill payment","Shopping"],"correct":1,"explanation":"FASTag is an electronic toll collection system. It uses RFID technology for contactless payment at toll plazas."},{"prompt":"e-RUPI is?","answers":["Digital currency","Pre-paid voucher for specific purpose","Credit card","Debit card"],"correct":1,"explanation":"e-RUPI is a prepaid digital voucher delivered via SMS or QR. It is purpose-specific and does not require bank account or app."},{"prompt":"e-RUPI was launched in?","answers":["2019","2020","2021","2022"],"correct":2,"explanation":"e-RUPI was launched by Prime Minister in August 2021. It is developed by NPCI in collaboration with DFS and RBI."},{"prompt":"Prepaid Payment Instrument (PPI) includes?","answers":["Only bank accounts","Mobile wallets, prepaid cards","Only credit cards","Only FDs"],"correct":1,"explanation":"PPIs include mobile wallets (Paytm, PhonePe balance), prepaid cards. They are regulated by RBI."},{"prompt":"Full KYC PPI allows?","answers":["Only loading from own account","Loading from any source, higher limits","No loading","Only cash loading"],"correct":1,"explanation":"Full KYC PPIs can be loaded from bank account, cards, and have higher transaction limits than minimum KYC PPIs."},{"prompt":"White Label ATM is operated by?","answers":["Only banks","Non-bank entities (NBFCs)","RBI","Government"],"correct":1,"explanation":"White Label ATMs are set up by non-bank entities. They provide ATM services under their own brand. Example: Tata Indicash."},{"prompt":"Brown Label ATM is?","answers":["Owned and operated by bank","Owned by non-bank but cash and maintenance by bank","Only for rural areas","Out of order"],"correct":1,"explanation":"Brown Label ATM: hardware and lease owned by service provider; cash loading and maintenance by sponsor bank."},{"prompt":"CTS stands for?","answers":["Cheque Truncation System","Cash Transfer System","Credit Transfer Scheme","Currency Transaction System"],"correct":0,"explanation":"Cheque Truncation System enables clearing of cheques based on electronic images instead of physical movement. Reduces clearing time."},{"prompt":"Positive Pay System for cheques is?","answers":["Voluntary","Mandatory for cheques above Rs 50,000","Only for demand drafts","Only for RTGS"],"correct":1,"explanation":"RBI mandated Positive Pay for cheques of Rs 50,000 and above. Drawer submits cheque details to bank before presentation."},{"prompt":"Negative Pay List in banking refers to?","answers":["List of defaulters","List of fraudulent instruments to be rejected","List of good customers","List of NPAs"],"correct":1,"explanation":"Negative Pay List contains details of lost/stolen/fraudulent instruments. Banks reject these if presented for payment."},{"prompt":"Real Time Gross Settlement uses which messaging standard?","answers":["ISO 20022","ISO 9001","ISO 14001","Proprietary"],"correct":0,"explanation":"RTGS and NEFT use ISO 20022 XML messaging standard for structured, richer payment data."}]
+﻿[
+    {
+        "prompt":  "Inoperative account can be reactivated by?",
+        "answers":  [
+                        "Cannot be reactivated",
+                        "Submitting KYC and request to bank",
+                        "Only by closing",
+                        "Only by RBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Customer can reactivate dormant account by submitting KYC and written request. Bank may charge for reactivation."
+    },
+    {
+        "prompt":  "Nominations in bank account help in?",
+        "answers":  [
+                        "Getting loan",
+                        "Smooth transfer to nominee on death",
+                        "Higher interest",
+                        "Tax benefit"
+                    ],
+        "correct":  1,
+        "explanation":  "Nomination simplifies transfer of account balance to nominee on account holder death."
+    },
+    {
+        "prompt":  "Bank can charge for non-maintenance of minimum balance in?",
+        "answers":  [
+                        "BSBD account",
+                        "Regular savings account",
+                        "Both",
+                        "Neither"
+                    ],
+        "correct":  1,
+        "explanation":  "Banks cannot charge for non-maintenance of minimum balance in BSBD (Basic Savings) accounts. Can charge for regular savings."
+    },
+    {
+        "prompt":  "Zero balance facility is mandatory in?",
+        "answers":  [
+                        "All accounts",
+                        "BSBD and PMJDY type accounts",
+                        "Only current",
+                        "Only FD"
+                    ],
+        "correct":  1,
+        "explanation":  "BSBD and PMJDY accounts have zero balance facility. Banks cannot insist on minimum in these."
+    },
+    {
+        "prompt":  "JAM Trinity was emphasized by?",
+        "answers":  [
+                        "Raja Chelliah",
+                        "Economic Survey and government",
+                        "Only RBI",
+                        "Only NABARD"
+                    ],
+        "correct":  1,
+        "explanation":  "JAM (Jan Dhan-Aadhaar-Mobile) was emphasized in Economic Survey and government policy for efficient DBT."
+    },
+    {
+        "prompt":  "Reverse mortgage is for?",
+        "answers":  [
+                        "Young borrowers",
+                        "Senior citizens - convert home equity to income",
+                        "Only commercial property",
+                        "Only for 5 years"
+                    ],
+        "correct":  1,
+        "explanation":  "Reverse mortgage allows senior citizens to receive regular income against mortgage of their residential property."
+    },
+    {
+        "prompt":  "Collateral is?",
+        "answers":  [
+                        "Interest rate",
+                        "Asset pledged as security for loan",
+                        "Loan tenure",
+                        "EMI amount"
+                    ],
+        "correct":  1,
+        "explanation":  "Collateral is the asset pledged to secure a loan. Bank can sell it if borrower defaults."
+    },
+    {
+        "prompt":  "Hypothecation means?",
+        "answers":  [
+                        "No security",
+                        "Asset remains with borrower - movable security",
+                        "Asset with bank",
+                        "Government guarantee"
+                    ],
+        "correct":  1,
+        "explanation":  "Hypothecation: movable asset (vehicle, machinery) is security but remains with borrower. Used in vehicle loans."
+    },
+    {
+        "prompt":  "Mortgage typically applies to?",
+        "answers":  [
+                        "Movable assets",
+                        "Immovable property - land, building",
+                        "Only gold",
+                        "Only machinery"
+                    ],
+        "correct":  1,
+        "explanation":  "Mortgage is creation of charge on immovable property (land, building) as loan security."
+    },
+    {
+        "prompt":  "Pledge means?",
+        "answers":  [
+                        "Asset with borrower",
+                        "Asset (goods, documents) in possession of lender",
+                        "Only for shares",
+                        "Only for gold"
+                    ],
+        "correct":  1,
+        "explanation":  "Pledge: movable property is delivered to lender as security. Gold loan uses pledge."
+    },
+    {
+        "prompt":  "Credit appraisal by bank assesses?",
+        "answers":  [
+                        "Only collateral",
+                        "Borrower repayment capacity, credit history, collateral",
+                        "Only CIBIL",
+                        "Only income"
+                    ],
+        "correct":  1,
+        "explanation":  "Credit appraisal evaluates borrower\u0027s ability to repay, past record, and security."
+    },
+    {
+        "prompt":  "Debt service coverage ratio DSCR indicates?",
+        "answers":  [
+                        "Total debt",
+                        "Ability to service debt from cash flow",
+                        "Only interest",
+                        "Only principal"
+                    ],
+        "correct":  1,
+        "explanation":  "DSCR = Net operating income / Debt service. Should be above 1 for loan viability."
+    },
+    {
+        "prompt":  "Foreclosure means?",
+        "answers":  [
+                        "Loan rejection",
+                        "Full prepayment - closing loan before tenure",
+                        "Partial payment",
+                        "Only refinancing"
+                    ],
+        "correct":  1,
+        "explanation":  "Foreclosure is full repayment of loan before maturity. Closes the loan account."
+    },
+    {
+        "prompt":  "Floating rate reset means?",
+        "answers":  [
+                        "Loan closed",
+                        "Interest rate revised as per benchmark",
+                        "EMI fixed forever",
+                        "No change"
+                    ],
+        "correct":  1,
+        "explanation":  "Floating rate reset: interest rate is revised when benchmark (Repo, MCLR) changes."
+    },
+    {
+        "prompt":  "Annual Percentage Rate APR includes?",
+        "answers":  [
+                        "Only interest",
+                        "Interest plus fees - true cost of loan",
+                        "Only fees",
+                        "Only processing"
+                    ],
+        "correct":  1,
+        "explanation":  "APR represents total cost including interest and fees. Helps compare loans."
+    },
+    {
+        "prompt":  "Flat fee vs reducing balance - for same rate reducing balance?",
+        "answers":  [
+                        "Costs more",
+                        "Costs less - interest on declining principal",
+                        "Same cost",
+                        "No difference"
+                    ],
+        "correct":  1,
+        "explanation":  "Reducing balance method results in lower total interest than flat rate for same nominal rate."
+    },
+    {
+        "prompt":  "Wholesale Price Index base year was changed to?",
+        "answers":  [
+                        "2004-05",
+                        "2011-12",
+                        "2015-16",
+                        "2017-18"
+                    ],
+        "correct":  1,
+        "explanation":  "WPI base year was revised to 2011-12. Released by Ministry of Commerce."
+    },
+    {
+        "prompt":  "Consumer Price Index for rural workers is?",
+        "answers":  [
+                        "CPI-RW",
+                        "CPI-AL",
+                        "CPI-RL",
+                        "CPI-IW"
+                    ],
+        "correct":  2,
+        "explanation":  "CPI-RL is Consumer Price Index for Rural Labourers. CPI-AL for Agricultural Labourers."
+    },
+    {
+        "prompt":  "NDP stands for?",
+        "answers":  [
+                        "Net Domestic Product",
+                        "National Development Plan",
+                        "New Domestic Policy",
+                        "Net Debt Product"
+                    ],
+        "correct":  0,
+        "explanation":  "NDP = GDP minus depreciation. Depreciation is wear and tear of capital."
+    },
+    {
+        "prompt":  "NNP at factor cost is?",
+        "answers":  [
+                        "GNP minus depreciation",
+                        "Same as GDP",
+                        "Only for services",
+                        "Not used"
+                    ],
+        "correct":  0,
+        "explanation":  "NNP (Net National Product) = GNP minus depreciation. Factor cost excludes indirect taxes minus subsidies."
+    },
+    {
+        "prompt":  "Per capita income is?",
+        "answers":  [
+                        "Total income",
+                        "National income divided by population",
+                        "Only urban",
+                        "Only rural"
+                    ],
+        "correct":  1,
+        "explanation":  "Per capita income = National income / Mid-year population."
+    },
+    {
+        "prompt":  "Fiscal policy is set by?",
+        "answers":  [
+                        "RBI",
+                        "Government - taxation and expenditure",
+                        "SEBI",
+                        "Banks"
+                    ],
+        "correct":  1,
+        "explanation":  "Fiscal policy is government\u0027s taxation and expenditure policy. RBI handles monetary policy."
+    },
+    {
+        "prompt":  "FRBM Act aims at?",
+        "answers":  [
+                        "Bank regulation",
+                        "Fiscal discipline - deficit targets",
+                        "Monetary policy",
+                        "Bank mergers"
+                    ],
+        "correct":  1,
+        "explanation":  "Fiscal Responsibility and Budget Management Act targets fiscal deficit reduction."
+    },
+    {
+        "prompt":  "Revenue deficit is?",
+        "answers":  [
+                        "Total deficit",
+                        "Revenue expenditure minus revenue receipts",
+                        "Only capital",
+                        "Only borrowings"
+                    ],
+        "correct":  1,
+        "explanation":  "Revenue deficit = Revenue expenditure - Revenue receipts. Indicates borrowings for current spending."
+    },
+    {
+        "prompt":  "Primary deficit is?",
+        "answers":  [
+                        "Fiscal deficit",
+                        "Fiscal deficit minus interest payments",
+                        "Revenue deficit",
+                        "Zero"
+                    ],
+        "correct":  1,
+        "explanation":  "Primary deficit = Fiscal deficit - Interest payments. Shows deficit excluding past debt servicing."
+    }
+]

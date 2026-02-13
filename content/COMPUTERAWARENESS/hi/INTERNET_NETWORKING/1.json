@@ -1,0 +1,277 @@
+[
+    {
+        "prompt": "TCP/IP का पूरा नाम क्या है?",
+        "answers": [
+            "Transmission Control Protocol/Internet Protocol",
+            "Transfer Control Protocol/Internet Protocol",
+            "Text Control Protocol/Internet Protocol",
+            "Transport Control Protocol/Internet Protocol"
+        ],
+        "correct": 0,
+        "explanation": "TCP/IP इंटरनेट का मौलिक प्रोटोकॉल सूट है।"
+    },
+    {
+        "prompt": "URL का पूरा नाम क्या है?",
+        "answers": [
+            "Uniform Resource Locator",
+            "Universal Resource Locator",
+            "Uniform Resource Link",
+            "Unique Resource Locator"
+        ],
+        "correct": 0,
+        "explanation": "URL वेब पर संसाधन का पता है।"
+    },
+    {
+        "prompt": "LAN का पूरा नाम क्या है?",
+        "answers": [
+            "Local Area Network",
+            "Large Area Network",
+            "Long Area Network",
+            "Link Area Network"
+        ],
+        "correct": 0,
+        "explanation": "LAN छोटे क्षेत्र को कवर करता है जैसे इमारत या कैंपस।"
+    },
+    {
+        "prompt": "VoIP का मतलब?",
+        "answers": [
+            "Voice over Internet Protocol",
+            "Video over IP",
+            "Voice only network",
+            "Video only protocol"
+        ],
+        "correct": 0,
+        "explanation": "VoIP - इंटरनेट पर वॉयस कॉल। स्काइप, व्हाट्सऐप कॉल।"
+    },
+    {
+        "prompt": "IP एड्रेस 192.168.x.x है?",
+        "answers": [
+            "सार्वजनिक",
+            "निजी - लोकल नेटवर्क में उपयोग",
+            "केवल इंटरनेट के लिए",
+            "केवल सर्वर के लिए"
+        ],
+        "correct": 1,
+        "explanation": "192.168.x.x निजी रेंज। घर/ऑफिस LAN में। इंटरनेट पर रूट नहीं।"
+    },
+    {
+        "prompt": "IPv6 विकसित किया गया क्योंकि?",
+        "answers": [
+            "तेज़",
+            "IPv4 एड्रेस समाप्ति - अधिक एड्रेस चाहिए",
+            "सरल",
+            "सस्ता"
+        ],
+        "correct": 1,
+        "explanation": "IPv6 में विशाल एड्रेस स्पेस। IPv4 में 4.3 अरब; समाप्त हो रहा।"
+    },
+    {
+        "prompt": "Wi-Fi का मतलब?",
+        "answers": [
+            "Wireless Fidelity",
+            "Wired Fidelity",
+            "Wide Fidelity",
+            "World Fidelity"
+        ],
+        "correct": 0,
+        "explanation": "Wi-Fi वायरलेस नेटवर्किंग है।"
+    },
+    {
+        "prompt": "IoT का मतलब?",
+        "answers": [
+            "Internet of Things",
+            "Interface of Things",
+            "Internal of Things",
+            "Input of Things"
+        ],
+        "correct": 0,
+        "explanation": "IoT - भौतिक उपकरणों का इंटरनेट से जुड़ा नेटवर्क।"
+    },
+    {
+        "prompt": "IoT उपकरणों में आमतौर पर होता है?",
+        "answers": [
+            "केवल डिस्प्ले",
+            "सेंसर और कनेक्टिविटी",
+            "केवल कीबोर्ड",
+            "केवल प्रिंटर"
+        ],
+        "correct": 1,
+        "explanation": "IoT उपकरणों में डेटा एकत्र करने के लिए सेंसर होते हैं।"
+    },
+    {
+        "prompt": "VPN का मतलब?",
+        "answers": [
+            "Virtual Private Network",
+            "Very Private Network",
+            "Virtual Public Network",
+            "Visual Private Network"
+        ],
+        "correct": 0,
+        "explanation": "VPN सार्वजनिक नेटवर्क पर एन्क्रिप्टेड टनल बनाता है।"
+    },
+    {
+        "prompt": "VPN किसके लिए उपयोग होता है?",
+        "answers": [
+            "केवल गति के लिए",
+            "सुरक्षित कनेक्शन, प्रतिबंधित सामग्री, गोपनीयता",
+            "केवल गेमिंग",
+            "केवल स्ट्रीमिंग"
+        ],
+        "correct": 1,
+        "explanation": "VPN ट्रैफिक एन्क्रिप्ट करता है। IP छुपाता है।"
+    },
+    {
+        "prompt": "SMTP किसके लिए उपयोग होता है?",
+        "answers": [
+            "वेब ब्राउज़िंग",
+            "ईमेल भेजने के लिए",
+            "ईमेल प्राप्त करने के लिए",
+            "फाइल ट्रांसफर"
+        ],
+        "correct": 1,
+        "explanation": "SMTP ईमेल भेजता है। पोर्ट 25 या 587।"
+    },
+    {
+        "prompt": "POP3 किसके लिए उपयोग होता है?",
+        "answers": [
+            "ईमेल भेजने के लिए",
+            "ईमेल प्राप्त करने के लिए - डिवाइस पर डाउनलोड",
+            "वेब ब्राउज़िंग",
+            "फाइल ट्रांसफर"
+        ],
+        "correct": 1,
+        "explanation": "POP3 ईमेल प्राप्त करता है। लोकल पर डाउनलोड। पोर्ट 110।"
+    },
+    {
+        "prompt": "IMAP किसके लिए उपयोग होता है?",
+        "answers": [
+            "केवल भेजने के लिए",
+            "ईमेल प्राप्त - सर्वर पर रखता है, सिंक",
+            "केवल वेब",
+            "केवल FTP"
+        ],
+        "correct": 1,
+        "explanation": "IMAP सर्वर पर मेल रखता है। उपकरणों पर सिंक।"
+    },
+    {
+        "prompt": "POP3 बनाम IMAP - IMAP अनुमति देता है?",
+        "answers": [
+            "केवल एक डिवाइस",
+            "कई डिवाइस से एक्सेस - सर्वर पर मेल",
+            "केवल लोकल",
+            "कोई सिंक नहीं"
+        ],
+        "correct": 1,
+        "explanation": "IMAP सिंक करता है। POP3 डाउनलोड करके अक्सर सर्वर से हटा देता है।"
+    },
+    {
+        "prompt": "DNS का मतलब?",
+        "answers": [
+            "Domain Name System",
+            "Data Name System",
+            "Domain Network System",
+            "Digital Name System"
+        ],
+        "correct": 0,
+        "explanation": "DNS डोमेन नाम को IP में बदलता है।"
+    },
+    {
+        "prompt": "IP एड्रेस पहचानता है?",
+        "answers": [
+            "केवल हार्डवेयर",
+            "नेटवर्क पर डिवाइस - बदला जा सकता है",
+            "केवल सॉफ्टवेयर",
+            "केवल राउटर"
+        ],
+        "correct": 1,
+        "explanation": "IP एड्रेस - तार्किक पता। IPv4 या IPv6।"
+    },
+    {
+        "prompt": "IPv6 क्यों बनाया गया?",
+        "answers": [
+            "केवल तेज़ी के लिए",
+            "IPv4 पते समाप्त - IPv6 में बहुत अधिक",
+            "केवल सरल",
+            "केवल सस्ता"
+        ],
+        "correct": 1,
+        "explanation": "IPv4 में ~4.3 अरब पते। IPv6 में 2^128।"
+    },
+    {
+        "prompt": "VoIP का मतलब?",
+        "answers": [
+            "Voice over Internet Protocol",
+            "Video over Internet Protocol",
+            "Voice over IP only",
+            "Virtual over IP"
+        ],
+        "correct": 0,
+        "explanation": "VoIP - इंटरनेट पर वॉइस। व्हाट्सऐप कॉल, जूम।"
+    },
+    {
+        "prompt": "WAN का पूरा नाम क्या है?",
+        "answers": [
+            "Wide Area Network",
+            "Wireless Area Network",
+            "World Area Network",
+            "Wide Access Network"
+        ],
+        "correct": 0,
+        "explanation": "WAN बड़े भौगोलिक क्षेत्र को कवर करता है - शहर, देश। इंटरनेट सबसे बड़ा WAN है।"
+    },
+    {
+        "prompt": "IoT का पूरा नाम क्या है?",
+        "answers": [
+            "Internet of Things",
+            "Internet of Technology",
+            "Input of Things",
+            "Internet of Tools"
+        ],
+        "correct": 0,
+        "explanation": "IoT भौतिक उपकरणों को इंटरनेट से जोड़ता है।"
+    },
+    {
+        "prompt": "VPN किसके लिए उपयोग होता है?",
+        "answers": [
+            "सुरक्षित कनेक्शन",
+            "तेज इंटरनेट",
+            "फाइल डाउनलोड",
+            "प्रिंटिंग"
+        ],
+        "correct": 0,
+        "explanation": "VPN एनक्रिप्टेड कनेक्शन बनाता है - गोपनीयता की रक्षा करता है।"
+    },
+    {
+        "prompt": "POP3 किसके लिए उपयोग होता है?",
+        "answers": [
+            "ईमेल प्राप्त करना",
+            "ईमेल भेजना",
+            "वेब ब्राउजिंग",
+            "फाइल ट्रांसफर"
+        ],
+        "correct": 0,
+        "explanation": "POP3 सर्वर से ईमेल डाउनलोड करने के लिए उपयोग होता है।"
+    },
+    {
+        "prompt": "IMAP का पूरा नाम क्या है?",
+        "answers": [
+            "Internet Message Access Protocol",
+            "Instant Message Access Protocol",
+            "Internal Mail Access Protocol",
+            "Internet Mail Access Protocol"
+        ],
+        "correct": 0,
+        "explanation": "IMAP सर्वर पर संग्रहीत ईमेल तक पहुंच की अनुमति देता है।"
+    },
+    {
+        "prompt": "LAN पूर्ण रूप?",
+        "answers": [
+            "Local Area Network",
+            "Large Area Network",
+            "Long Area Network",
+            "Link Area Network"
+        ],
+        "correct": 0,
+        "explanation": "LAN - छोटा क्षेत्र।"
+    }
+]

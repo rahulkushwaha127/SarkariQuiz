@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Smart contract is?",
+        "answers":  [
+                        "Paper contract",
+                        "Self-executing code on blockchain",
+                        "Manual agreement",
+                        "Only for Bitcoin"
+                    ],
+        "correct":  1,
+        "explanation":  "Smart contract executes when conditions are met."
+    },
+    {
+        "prompt":  "Cryptocurrency is?",
+        "answers":  [
+                        "Physical money",
+                        "Digital currency using cryptography",
+                        "Only Bitcoin",
+                        "Only for banks"
+                    ],
+        "correct":  1,
+        "explanation":  "Cryptocurrency is digital, decentralized."
+    },
+    {
+        "prompt":  "Hadoop is used for?",
+        "answers":  [
+                        "Word processing",
+                        "Big Data processing - distributed storage and computation",
+                        "Gaming",
+                        "Graphics"
+                    ],
+        "correct":  1,
+        "explanation":  "Hadoop is open source framework for large datasets."
+    },
+    {
+        "prompt":  "Data mining is?",
+        "answers":  [
+                        "Storing data",
+                        "Discovering patterns in large datasets",
+                        "Deleting data",
+                        "Displaying data"
+                    ],
+        "correct":  1,
+        "explanation":  "Data mining extracts patterns and trends."
+    },
+    {
+        "prompt":  "Data analytics involves?",
+        "answers":  [
+                        "Only collecting",
+                        "Analyzing data for insights trends decisions",
+                        "Only storing",
+                        "Only deleting"
+                    ],
+        "correct":  1,
+        "explanation":  "Analytics processes data for insights."
+    },
+    {
+        "prompt":  "Cloud storage examples?",
+        "answers":  [
+                        "Only local disk",
+                        "Google Drive Dropbox OneDrive iCloud",
+                        "Only USB",
+                        "Only DVD"
+                    ],
+        "correct":  1,
+        "explanation":  "Cloud storage keeps data on remote servers."
+    },
+    {
+        "prompt":  "Data backup best practice?",
+        "answers":  [
+                        "Single copy",
+                        "3-2-1: 3 copies 2 media types 1 offsite",
+                        "No backup",
+                        "Only local"
+                    ],
+        "correct":  1,
+        "explanation":  "3-2-1 rule: 3 copies, 2 media, 1 offsite."
+    },
+    {
+        "prompt":  "Data recovery is?",
+        "answers":  [
+                        "Preventing loss",
+                        "Retrieving lost or corrupted data",
+                        "Only backing up",
+                        "Only deleting"
+                    ],
+        "correct":  1,
+        "explanation":  "Data recovery restores from backup or repairs corrupted data."
+    },
+    {
+        "prompt":  "Data warehouse stores?",
+        "answers":  [
+                        "Only current",
+                        "Historical data for analysis",
+                        "Only real-time",
+                        "Only small data"
+                    ],
+        "correct":  1,
+        "explanation":  "Data warehouse stores historical data for analysis."
+    },
+    {
+        "prompt":  "ETL in data means?",
+        "answers":  [
+                        "Edit Transform Load",
+                        "Extract Transform Load",
+                        "Export Transfer Load",
+                        "Execute Translate Load"
+                    ],
+        "correct":  1,
+        "explanation":  "ETL: Extract from sources, Transform, Load into warehouse."
+    },
+    {
+        "prompt":  "Data Lake stores?",
+        "answers":  [
+                        "Only structured",
+                        "Raw data - structured and unstructured",
+                        "Only processed",
+                        "Only small"
+                    ],
+        "correct":  1,
+        "explanation":  "Data Lake stores raw data in various formats."
+    },
+    {
+        "prompt":  "Supervised learning uses?",
+        "answers":  [
+                        "No labels",
+                        "Labeled data - input-output pairs",
+                        "Only unsupervised",
+                        "Only reinforcement"
+                    ],
+        "correct":  1,
+        "explanation":  "Supervised learning uses labeled examples."
+    },
+    {
+        "prompt":  "Unsupervised learning finds?",
+        "answers":  [
+                        "Known patterns",
+                        "Hidden patterns - no labels",
+                        "Only supervised",
+                        "Only rules"
+                    ],
+        "correct":  1,
+        "explanation":  "Unsupervised learning finds hidden patterns without labels."
+    },
+    {
+        "prompt":  "Reinforcement learning learns by?",
+        "answers":  [
+                        "Labels only",
+                        "Trial and error - rewards and penalties",
+                        "Only rules",
+                        "Only data"
+                    ],
+        "correct":  1,
+        "explanation":  "Reinforcement learning uses rewards and penalties."
+    },
+    {
+        "prompt":  "Qubit differs from bit because?",
+        "answers":  [
+                        "Only size",
+                        "Can be in superposition - 0 and 1 simultaneously",
+                        "Only speed",
+                        "Only storage"
+                    ],
+        "correct":  1,
+        "explanation":  "Qubit uses quantum mechanics. Superposition enables parallel computation."
+    },
+    {
+        "prompt":  "4G LTE - LTE stands for?",
+        "answers":  [
+                        "Long Term Evolution",
+                        "Light Transmission Ethernet",
+                        "Low Transfer Energy",
+                        "Long Time Exchange"
+                    ],
+        "correct":  0,
+        "explanation":  "LTE - Long Term Evolution. 4G standard. Higher speed than 3G."
+    },
+    {
+        "prompt":  "3G enabled?",
+        "answers":  [
+                        "Only voice",
+                        "Mobile data, video calling",
+                        "Only 2G",
+                        "Only WiFi"
+                    ],
+        "correct":  1,
+        "explanation":  "3G brought mobile internet. Video calls. Slower than 4G."
+    },
+    {
+        "prompt":  "2G introduced?",
+        "answers":  [
+                        "Only voice",
+                        "SMS, digital voice",
+                        "Only data",
+                        "Only internet"
+                    ],
+        "correct":  1,
+        "explanation":  "2G - digital. SMS, MMS. GSM, CDMA."
+    },
+    {
+        "prompt":  "Spectrum in telecom is?",
+        "answers":  [
+                        "Storage",
+                        "Radio frequencies for wireless communication",
+                        "Only 5G",
+                        "Only wired"
+                    ],
+        "correct":  1,
+        "explanation":  "Spectrum - frequency bands. Licensed by government. Limited resource."
+    },
+    {
+        "prompt":  "IoT benefits from 5G because?",
+        "answers":  [
+                        "Only cost",
+                        "More devices, low latency, reliability",
+                        "Only speed",
+                        "Only voice"
+                    ],
+        "correct":  1,
+        "explanation":  "5G supports massive IoT. mMTC - millions of devices per kmÂ²."
+    },
+    {
+        "prompt":  "Bluetooth range typically?",
+        "answers":  [
+                        "100m",
+                        "About 10m - Class 2",
+                        "1km",
+                        "50m"
+                    ],
+        "correct":  1,
+        "explanation":  "Bluetooth Class 2 - ~10m. Class 1 up to 100m."
+    },
+    {
+        "prompt":  "NFC stands for?",
+        "answers":  [
+                        "Near Field Communication",
+                        "Near Frequency Communication",
+                        "Network Field Communication",
+                        "New Field Connection"
+                    ],
+        "correct":  0,
+        "explanation":  "NFC - short range. Contactless payments, pairing. Few cm."
+    },
+    {
+        "prompt":  "NFC range is?",
+        "answers":  [
+                        "100m",
+                        "Few centimeters - 4cm or less",
+                        "10m",
+                        "1m"
+                    ],
+        "correct":  1,
+        "explanation":  "NFC - very short range. Tap to pay. Secure."
+    },
+    {
+        "prompt":  "Hotspot provides?",
+        "answers":  [
+                        "Only receive",
+                        "Share internet - create Wi-Fi from mobile data",
+                        "Only Bluetooth",
+                        "Only cable"
+                    ],
+        "correct":  1,
+        "explanation":  "Hotspot/tethering - share phone\u0027s data as Wi-Fi."
+    },
+    {
+        "prompt":  "Mbps vs MBps?",
+        "answers":  [
+                        "Same",
+                        "Mbps = megabits, MBps = megabytes per second",
+                        "MBps is smaller",
+                        "No difference"
+                    ],
+        "correct":  1,
+        "explanation":  "Mb = megabit, MB = megabyte. 8 Mb = 1 MB."
+    }
+]

@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "What is the main objective of BharatNet?",
+        "answers":  [
+                        "Rural broadband connectivity",
+                        "Digital payments",
+                        "e-Learning",
+                        "Smart cities"
+                    ],
+        "correct":  0,
+        "explanation":  "BharatNet aims to provide high-speed broadband to all gram panchayats (villages) in India."
+    },
+    {
+        "prompt":  "RAID stands for?",
+        "answers":  [
+                        "Random Array of Independent Disks",
+                        "Redundant Array of Independent Disks",
+                        "Redundant Array of Integrated Disks",
+                        "Random Array of Integrated Disks"
+                    ],
+        "correct":  1,
+        "explanation":  "RAID combines multiple disks - redundancy, performance. RAID 0, 1, 5, etc."
+    },
+    {
+        "prompt":  "RAID 1 provides?",
+        "answers":  [
+                        "Speed only",
+                        "Mirroring - duplicate data on two disks",
+                        "Striping only",
+                        "No redundancy"
+                    ],
+        "correct":  1,
+        "explanation":  "RAID 1 mirrors - same data on 2 disks. Fault tolerance."
+    },
+    {
+        "prompt":  "Twisted pair cable has?",
+        "answers":  [
+                        "One wire",
+                        "Pairs of wires twisted - reduces interference",
+                        "No insulation",
+                        "Only for power"
+                    ],
+        "correct":  1,
+        "explanation":  "Twisted pair - Ethernet cables. Twisting reduces crosstalk, interference."
+    },
+    {
+        "prompt":  "First email was sent in?",
+        "answers":  [
+                        "1980s",
+                        "1971 - Ray Tomlinson",
+                        "1990s",
+                        "2000s"
+                    ],
+        "correct":  1,
+        "explanation":  "First email 1971 by Ray Tomlinson. He chose @ for addresses."
+    },
+    {
+        "prompt":  "@ symbol in email was chosen by?",
+        "answers":  [
+                        "Bill Gates",
+                        "Ray Tomlinson",
+                        "Tim Berners-Lee",
+                        "Steve Jobs"
+                    ],
+        "correct":  1,
+        "explanation":  "Ray Tomlinson chose @ for email - separates user from host."
+    },
+    {
+        "prompt":  "Big Data refers to?",
+        "answers":  [
+                        "Small datasets",
+                        "Large complex datasets - volume velocity variety",
+                        "Only numbers",
+                        "Only text"
+                    ],
+        "correct":  1,
+        "explanation":  "Big Data has huge volume, high velocity, variety."
+    },
+    {
+        "prompt":  "Three Vs of Big Data?",
+        "answers":  [
+                        "Value Vision Victory",
+                        "Volume Velocity Variety",
+                        "Virtual Visual Vital",
+                        "Vendor Version Valid"
+                    ],
+        "correct":  1,
+        "explanation":  "Volume is size, Velocity is speed, Variety is types of data."
+    },
+    {
+        "prompt":  "Volume in Big Data means?",
+        "answers":  [
+                        "Speed",
+                        "Amount of data - terabytes petabytes",
+                        "Types",
+                        "Quality"
+                    ],
+        "correct":  1,
+        "explanation":  "Volume means scale of data."
+    },
+    {
+        "prompt":  "Velocity in Big Data means?",
+        "answers":  [
+                        "Only size",
+                        "Speed of data generation and processing",
+                        "Only type",
+                        "Only storage"
+                    ],
+        "correct":  1,
+        "explanation":  "Velocity means real-time data streaming."
+    },
+    {
+        "prompt":  "Variety in Big Data means?",
+        "answers":  [
+                        "Only numbers",
+                        "Different types - structured unstructured semi-structured",
+                        "Only text",
+                        "Only images"
+                    ],
+        "correct":  1,
+        "explanation":  "Variety means text, images, video, logs, mixed formats."
+    },
+    {
+        "prompt":  "Blockchain is?",
+        "answers":  [
+                        "Centralized database",
+                        "Decentralized distributed ledger - blocks linked",
+                        "Only for currency",
+                        "Only for gaming"
+                    ],
+        "correct":  1,
+        "explanation":  "Blockchain is distributed ledger. Blocks linked. No central authority."
+    },
+    {
+        "prompt":  "Blockchain provides?",
+        "answers":  [
+                        "Central control",
+                        "Transparency immutability decentralization",
+                        "Only speed",
+                        "Only storage"
+                    ],
+        "correct":  1,
+        "explanation":  "Blockchain is transparent, immutable, decentralized."
+    },
+    {
+        "prompt":  "RAID provides?",
+        "answers":  [
+                        "Only speed",
+                        "Redundancy and or performance",
+                        "Only backup",
+                        "Only storage"
+                    ],
+        "correct":  1,
+        "explanation":  "RAID provides redundancy or performance."
+    },
+    {
+        "prompt":  "Machine Learning needs?",
+        "answers":  [
+                        "No data",
+                        "Data to train models",
+                        "Only rules",
+                        "Only hardware"
+                    ],
+        "correct":  1,
+        "explanation":  "ML learns from data."
+    },
+    {
+        "prompt":  "AI winter refers to?",
+        "answers":  [
+                        "Cold weather",
+                        "Period of reduced funding and interest in AI",
+                        "Peak AI",
+                        "Only winter season"
+                    ],
+        "correct":  1,
+        "explanation":  "AI winter is period of reduced AI funding and interest."
+    },
+    {
+        "prompt":  "Quantum computing uses?",
+        "answers":  [
+                        "Classical bits",
+                        "Quantum bits - qubits, superposition",
+                        "Only binary",
+                        "Only transistors"
+                    ],
+        "correct":  1,
+        "explanation":  "Qubits can be 0, 1, or both (superposition). Exponential parallelism."
+    },
+    {
+        "prompt":  "Quantum advantage means?",
+        "answers":  [
+                        "Same as classical",
+                        "Quantum computer solves problem faster than classical",
+                        "Only theoretical",
+                        "Only for gaming"
+                    ],
+        "correct":  1,
+        "explanation":  "Quantum advantage - practical speedup. Google claimed in 2019."
+    },
+    {
+        "prompt":  "5G is?",
+        "answers":  [
+                        "Fifth generation of mobile networks",
+                        "Fourth generation",
+                        "Third generation",
+                        "Sixth generation"
+                    ],
+        "correct":  0,
+        "explanation":  "5G - fifth gen. Faster, lower latency than 4G LTE."
+    },
+    {
+        "prompt":  "5G offers?",
+        "answers":  [
+                        "Same as 4G",
+                        "Higher speed, lower latency, more connectivity",
+                        "Only voice",
+                        "Only 2G speed"
+                    ],
+        "correct":  1,
+        "explanation":  "5G: multi-Gbps, millisecond latency. IoT, autonomous vehicles."
+    },
+    {
+        "prompt":  "Latency in 5G is?",
+        "answers":  [
+                        "Same as 4G",
+                        "Lower - milliseconds",
+                        "Higher",
+                        "No latency"
+                    ],
+        "correct":  1,
+        "explanation":  "5G targets \u003c1 ms latency. Critical for real-time apps."
+    },
+    {
+        "prompt":  "Edge computing with 5G helps?",
+        "answers":  [
+                        "Only cloud",
+                        "Process near user - lower latency",
+                        "Only storage",
+                        "Only speed"
+                    ],
+        "correct":  1,
+        "explanation":  "Edge + 5G - compute at edge. Less round-trip to cloud."
+    },
+    {
+        "prompt":  "TRAI regulates?",
+        "answers":  [
+                        "Banks",
+                        "Telecom - Telecommunications Regulatory Authority of India",
+                        "Railways",
+                        "Education"
+                    ],
+        "correct":  1,
+        "explanation":  "TRAI - telecom regulator. Tariffs, spectrum, consumer rights."
+    },
+    {
+        "prompt":  "Cloud Computing means?",
+        "answers":  [
+                        "Providing resources over the Internet",
+                        "Local storage",
+                        "Selling hardware",
+                        "Installing software"
+                    ],
+        "correct":  0,
+        "explanation":  "Cloud computing delivers computing services (storage, servers, software) over the Internet on-demand."
+    },
+    {
+        "prompt":  "Big Data is characterized by 3Vs. What are they?",
+        "answers":  [
+                        "Volume, Velocity, Variety",
+                        "Value, Volume, Variety",
+                        "Velocity, Value, Volume",
+                        "Variety, Velocity, Value"
+                    ],
+        "correct":  0,
+        "explanation":  "3Vs of Big Data: Volume (large amount), Velocity (high speed), Variety (different types of data)."
+    }
+]

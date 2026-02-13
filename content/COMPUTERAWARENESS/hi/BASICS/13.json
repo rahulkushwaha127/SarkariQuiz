@@ -1,0 +1,277 @@
+[
+    {
+        "prompt": "डिजिटल रुपया ई-रुपया?",
+        "answers": [
+            "क्रिप्टोकरेंसी",
+            "कानूनी निविदा - RBI जारी",
+            "निजी",
+            "केवल UPI के लिए"
+        ],
+        "correct": 1,
+        "explanation": "ई-रुपया - CBDC। नकद के समान। कानूनी निविदा।"
+    },
+    {
+        "prompt": "FASTag किसके लिए?",
+        "answers": [
+            "केवल पार्किंग",
+            "इलेक्ट्रॉनिक टोल संग्रह - NFC",
+            "केवल ईंधन",
+            "केवल पार्किंग"
+        ],
+        "correct": 1,
+        "explanation": "FASTag - प्रीपेड, RFID। टोल पर टच और गो।"
+    },
+    {
+        "prompt": "NACH का मतलब?",
+        "answers": [
+            "National Automated Clearing House",
+            "National Automatic Clearing",
+            "National Automated Clearing System",
+            "National Automatic Clearing House"
+        ],
+        "correct": 0,
+        "explanation": "NACH - बल्क पेमेंट, मैंडेट। आवर्ती, एक बार।"
+    },
+    {
+        "prompt": "बैंक में आधार सीडिंग?",
+        "answers": [
+            "लिंक हटाना",
+            "खाते से आधार लिंक करना",
+            "केवल नए खातों के लिए",
+            "केवल सरकार के लिए"
+        ],
+        "correct": 1,
+        "explanation": "आधार सीडिंग - खाते से आधार लिंक। DBT, KYC के लिए।"
+    },
+    {
+        "prompt": "DBT पूर्ण रूप?",
+        "answers": [
+            "Direct Benefit Transfer",
+            "Direct Bank Transfer",
+            "Digital Benefit Transfer",
+            "Direct Benefit Transaction"
+        ],
+        "correct": 0,
+        "explanation": "DBT - सरकारी लाभ सीधे लाभार्थी खाते में।"
+    },
+    {
+        "prompt": "CPU पूर्ण रूप?",
+        "answers": [
+            "Central Processing Unit",
+            "Control Processing Unit",
+            "Computer Processing Unit",
+            "Central Program Unit"
+        ],
+        "correct": 0,
+        "explanation": "CPU - कंप्यूटर का दिमाग।"
+    },
+    {
+        "prompt": "GPU पूर्ण रूप?",
+        "answers": [
+            "Graphics Processing Unit",
+            "General Processing Unit",
+            "Graphics Program Unit",
+            "General Program Unit"
+        ],
+        "correct": 0,
+        "explanation": "GPU - ग्राफिक्स संभालता है।"
+    },
+    {
+        "prompt": "RAM पूर्ण रूप?",
+        "answers": [
+            "Random Access Memory",
+            "Read Access Memory",
+            "Rapid Access Memory",
+            "Run Access Memory"
+        ],
+        "correct": 0,
+        "explanation": "RAM - अस्थिर मेमोरी।"
+    },
+    {
+        "prompt": "ROM पूर्ण रूप?",
+        "answers": [
+            "Read Only Memory",
+            "Random Only Memory",
+            "Read Once Memory",
+            "Run Only Memory"
+        ],
+        "correct": 0,
+        "explanation": "ROM - गैर-वाष्पशील।"
+    },
+    {
+        "prompt": "HDD पूर्ण रूप?",
+        "answers": [
+            "Hard Disk Drive",
+            "High Density Disk",
+            "Hard Digital Drive",
+            "High Definition Disk"
+        ],
+        "correct": 0,
+        "explanation": "HDD - चुंबकीय स्टोरेज।"
+    },
+    {
+        "prompt": "SSD पूर्ण रूप?",
+        "answers": [
+            "Solid State Drive",
+            "Super Speed Drive",
+            "Solid Storage Device",
+            "Super Storage Drive"
+        ],
+        "correct": 0,
+        "explanation": "SSD - फ्लैश मेमोरी।"
+    },
+    {
+        "prompt": "LCD पूर्ण रूप?",
+        "answers": [
+            "Liquid Crystal Display",
+            "Light Crystal Display",
+            "Liquid Color Display",
+            "Low Cost Display"
+        ],
+        "correct": 0,
+        "explanation": "LCD - लिक्विड क्रिस्टल।"
+    },
+    {
+        "prompt": "LED मॉनिटर में LED?",
+        "answers": [
+            "Light Emitting Diode",
+            "Liquid Emitting Display",
+            "Low Energy Display",
+            "Light Electronic Display"
+        ],
+        "correct": 0,
+        "explanation": "LED - बैकलाइट।"
+    },
+    {
+        "prompt": "UPS पूर्ण रूप?",
+        "answers": [
+            "Uninterruptible Power Supply",
+            "Universal Power Supply",
+            "Unified Power System",
+            "Uninterrupted Power Source"
+        ],
+        "correct": 0,
+        "explanation": "UPS - बैकअप पावर।"
+    },
+    {
+        "prompt": "MAN पूर्ण रूप?",
+        "answers": [
+            "Metropolitan Area Network",
+            "Metro Area Network",
+            "Metropolitan Access Network",
+            "Metro Access Network"
+        ],
+        "correct": 0,
+        "explanation": "MAN - महानगरीय क्षेत्र।"
+    },
+    {
+        "prompt": "नेटवर्किंग में PAN?",
+        "answers": [
+            "Personal Area Network",
+            "Public Area Network",
+            "Private Area Network",
+            "Personal Access Network"
+        ],
+        "correct": 0,
+        "explanation": "PAN - बहुत कम रेंज।"
+    },
+    {
+        "prompt": "VGA का मतलब?",
+        "answers": [
+            "Video Graphics Array",
+            "Visual Graphics Array",
+            "Video General Array",
+            "Visual General Array"
+        ],
+        "correct": 0,
+        "explanation": "VGA - डिस्प्ले मानक।"
+    },
+    {
+        "prompt": "HDMI पूर्ण रूप?",
+        "answers": [
+            "High Definition Multimedia Interface",
+            "High Digital Multimedia Interface",
+            "High Definition Media Interface",
+            "High Digital Media Interface"
+        ],
+        "correct": 0,
+        "explanation": "HDMI - डिजिटल वीडियो ऑडियो।"
+    },
+    {
+        "prompt": "VGA बनाम HDMI?",
+        "answers": [
+            "समान",
+            "HDMI डिजिटल उच्च गुणवत्ता VGA एनालॉग",
+            "VGA बेहतर",
+            "HDMI एनालॉग"
+        ],
+        "correct": 1,
+        "explanation": "HDMI डिजिटल। VGA एनालॉग।"
+    },
+    {
+        "prompt": "प्रिंटिंग में DPI?",
+        "answers": [
+            "Dots Per Inch",
+            "Data Per Inch",
+            "Display Per Inch",
+            "Digital Per Inch"
+        ],
+        "correct": 0,
+        "explanation": "DPI - प्रिंट रिजॉल्यूशन।"
+    },
+    {
+        "prompt": "डिस्प्ले में PPI?",
+        "answers": [
+            "Pixels Per Inch",
+            "Points Per Inch",
+            "Print Per Inch",
+            "Pixel Per Inch"
+        ],
+        "correct": 0,
+        "explanation": "PPI - स्क्रीन घनत्व।"
+    },
+    {
+        "prompt": "ASCII पूर्ण रूप?",
+        "answers": [
+            "American Standard Code for Information Interchange",
+            "American System Code for Information",
+            "Asian Standard Code",
+            "American Standard Code for Interchange"
+        ],
+        "correct": 0,
+        "explanation": "ASCII - वर्ण एन्कोडिंग।"
+    },
+    {
+        "prompt": "UNICODE?",
+        "answers": [
+            "केवल अंग्रेजी",
+            "सार्वभौमिक वर्ण एन्कोडिंग सभी भाषाएं",
+            "केवल ASCII",
+            "केवल संख्या"
+        ],
+        "correct": 1,
+        "explanation": "यूनिकोड सभी लिपियों का समर्थन।"
+    },
+    {
+        "prompt": "JSON पूर्ण रूप?",
+        "answers": [
+            "JavaScript Object Notation",
+            "Java System Object Notation",
+            "JavaScript Online Notation",
+            "Java Object Notation"
+        ],
+        "correct": 0,
+        "explanation": "JSON - हल्का डेटा फॉर्मेट।"
+    },
+    {
+        "prompt": "XML पूर्ण रूप?",
+        "answers": [
+            "eXtensible Markup Language",
+            "Extended Markup Language",
+            "External Markup Language",
+            "Extensible Model Language"
+        ],
+        "correct": 0,
+        "explanation": "XML - मार्कअप भाषा।"
+    }
+]

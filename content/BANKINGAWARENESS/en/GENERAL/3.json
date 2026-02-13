@@ -1,28 +1,277 @@
-[
-  {"prompt": "Which of the following is a Public Sector Bank in India?", "answers": ["HDFC Bank", "ICICI Bank", "Punjab National Bank", "Axis Bank"], "correct": 2, "explanation": "Punjab National Bank (PNB) is a public sector bank. HDFC Bank, ICICI Bank, and Axis Bank are private sector banks."},
-  {"prompt": "Regional Rural Banks (RRBs) were established under the recommendation of?", "answers": ["Narasimham Committee", "Raghuram Rajan Committee", "Nariman Committee", "Nachiket Mor Committee"], "correct": 0, "explanation": "RRBs were set up in 1975 based on the recommendations of the Narasimham Committee (1975) on rural credit."},
-  {"prompt": "NABARD was established in which year?", "answers": ["1980", "1982", "1990", "1991"], "correct": 1, "explanation": "NABARD (National Bank for Agriculture and Rural Development) was established on July 12, 1982, under the NABARD Act, 1981."},
-  {"prompt": "What does NABARD stand for?", "answers": ["National Agricultural Bank for Rural Development", "National Bank for Agriculture and Rural Development", "National Agriculture Bank and Rural Development", "National Board for Agricultural and Rural Development"], "correct": 1, "explanation": "NABARD stands for National Bank for Agriculture and Rural Development. It is the apex development bank for agriculture and rural sectors."},
-  {"prompt": "Which bank provides refinance to RRBs?", "answers": ["RBI", "SBI", "NABARD", "SEBI"], "correct": 2, "explanation": "NABARD provides refinance to Regional Rural Banks, cooperative banks, and other financial institutions for agricultural and rural lending."},
-  {"prompt": "SIDBI stands for?", "answers": ["Small Industries Development Bank of India", "State Industrial Development Bank of India", "Small Investment and Development Bank of India", "Secondary Industries Development Bank of India"], "correct": 0, "explanation": "SIDBI (Small Industries Development Bank of India) was established in 1990 as the principal financial institution for MSME sector."},
-  {"prompt": "EXIM Bank of India was established in?", "answers": ["1980", "1982", "1985", "1991"], "correct": 1, "explanation": "Export-Import Bank of India (EXIM Bank) was established in 1982 to finance and facilitate India's international trade."},
-  {"prompt": "Payment Banks can accept deposits up to how much per customer?", "answers": ["Rs 50,000", "Rs 1 lakh", "Rs 2 lakh", "Rs 5 lakh"], "correct": 2, "explanation": "Payment Banks can accept demand deposits only up to Rs 2 lakh per individual customer. They cannot issue loans or credit cards."},
-  {"prompt": "Small Finance Banks primarily serve which sector?", "answers": ["Large corporates", "MSMEs and unorganized sector", "Government only", "Foreign trade"], "correct": 1, "explanation": "Small Finance Banks are set up to provide financial inclusion to small business units, farmers, and the unorganized sector."},
-  {"prompt": "Which of the following can issue credit cards?", "answers": ["Payment Banks", "Small Finance Banks", "Both can", "Neither can"], "correct": 1, "explanation": "Small Finance Banks can issue credit cards. Payment Banks cannot issue credit cards or provide loans."},
-  {"prompt": "A Savings Bank account is primarily for?", "answers": ["Business transactions", "Salaried individuals to save", "Government deposits", "Foreign currency"], "correct": 1, "explanation": "Savings accounts are for individuals to deposit savings and earn interest. They have restrictions on number of withdrawals."},
-  {"prompt": "Current Account is generally used by?", "answers": ["Individuals for savings", "Businesses for frequent transactions", "Senior citizens only", "Rural customers"], "correct": 1, "explanation": "Current accounts are for businesses and firms that need to make frequent transactions. Usually no interest is paid on current accounts."},
-  {"prompt": "Fixed Deposit (FD) typically offers?", "answers": ["Lower interest than savings", "Higher interest with lock-in period", "No interest", "Variable daily interest"], "correct": 1, "explanation": "Fixed Deposits offer higher interest rates than savings accounts. The amount is locked for a fixed period (7 days to 10 years)."},
-  {"prompt": "Recurring Deposit (RD) allows customers to?", "answers": ["Deposit lump sum once", "Deposit fixed amount at regular intervals", "Withdraw anytime without penalty", "Get overdraft facility"], "correct": 1, "explanation": "In Recurring Deposit, customers deposit a fixed amount monthly for a fixed tenure and get interest on maturity."},
-  {"prompt": "What does KYC stand for?", "answers": ["Know Your Client", "Know Your Customer", "Key Your Credentials", "Know Your Credit"], "correct": 1, "explanation": "KYC (Know Your Customer) is the process of verifying the identity of customers to prevent fraud, money laundering, and terrorist financing."},
-  {"prompt": "NPA stands for?", "answers": ["Non-Provisioning Asset", "Non-Performing Asset", "Net Performing Asset", "National Payment Authority"], "correct": 1, "explanation": "NPA (Non-Performing Asset) is a loan or advance where interest or principal payment has been overdue for 90 days or more."},
-  {"prompt": "A loan becomes NPA when the payment is overdue for how many days?", "answers": ["30 days", "60 days", "90 days", "180 days"], "correct": 2, "explanation": "For standard assets, if interest or principal instalment remains overdue for 90 days, the asset is classified as NPA."},
-  {"prompt": "CASA ratio in banking refers to?", "answers": ["Current Account and Savings Account as proportion of total deposits", "Credit and Savings Amount", "Cash and Securities Ratio", "Capital and Asset ratio"], "correct": 0, "explanation": "CASA ratio = (Current + Savings deposits) / Total deposits. Higher CASA means lower cost of funds for banks."},
-  {"prompt": "What does NEFT stand for?", "answers": ["National Electronic Funds Transfer", "National Electronic Financial Transaction", "New Electronic Funds Transfer", "National Electronic Fund Transaction"], "correct": 0, "explanation": "NEFT (National Electronic Funds Transfer) is a nation-wide payment system for one-to-one funds transfer. It operates in hourly batches."},
-  {"prompt": "RTGS stands for?", "answers": ["Real Time Gross Settlement", "Real Time General Settlement", "Real Transfer Gross Settlement", "Revenue Time Gross Settlement"], "correct": 0, "explanation": "RTGS enables real-time fund transfers. 'Gross' means each transaction is settled individually. Minimum amount is Rs 2 lakh."},
-  {"prompt": "What is the minimum amount for RTGS transfer?", "answers": ["No minimum", "Rs 1 lakh", "Rs 2 lakh", "Rs 5 lakh"], "correct": 2, "explanation": "RTGS has a minimum transfer amount of Rs 2 lakh. There is no upper limit. NEFT has no minimum or maximum."},
-  {"prompt": "IMPS stands for?", "answers": ["Instant Mobile Payment Service", "Immediate Payment Service", "International Money Transfer Service", "Instant Money Transfer System"], "correct": 1, "explanation": "IMPS (Immediate Payment Service) offers 24x7 instant inter-bank electronic fund transfer through mobile, internet, ATM."},
-  {"prompt": "Which of the following provides 24x7 instant fund transfer?", "answers": ["NEFT", "RTGS", "IMPS", "Cheque"], "correct": 2, "explanation": "IMPS and UPI provide 24x7 instant transfer. NEFT operates in batches. RTGS operates during RBI working hours."},
-  {"prompt": "A cheque is a?", "answers": ["Promise to pay", "Order to pay", "Request to pay", "Agreement to pay"], "correct": 1, "explanation": "A cheque is a negotiable instrument - an unconditional order in writing addressed to a banker to pay a certain sum to the bearer or order."},
-  {"prompt": "A Demand Draft (DD) is issued by?", "answers": ["Customer", "Bank", "RBI", "Government"], "correct": 1, "explanation": "Demand Draft is a negotiable instrument issued by a bank on behalf of a customer, directing another bank to pay a specified amount."},
-  {"prompt": "The Negotiable Instruments Act was enacted in?", "answers": ["1881", "1949", "1934", "1956"], "correct": 0, "explanation": "The Negotiable Instruments Act, 1881, governs promissory notes, bills of exchange, and cheques in India."}
+﻿[
+    {
+        "prompt":  "Securitization in banking means?",
+        "answers":  [
+                        "Making loans secure",
+                        "Converting loans into marketable securities and selling",
+                        "Only NPA sale",
+                        "Only to ARCs"
+                    ],
+        "correct":  1,
+        "explanation":  "Securitization: bank pools loans, creates securities backed by loan cash flows, sells to investors. Frees up capital."
+    },
+    {
+        "prompt":  "Asset Liability Management (ALM) in banks addresses?",
+        "answers":  [
+                        "Only credit risk",
+                        "Mismatch between assets and liabilities (interest rate, liquidity)",
+                        "Only NPAs",
+                        "Only deposits"
+                    ],
+        "correct":  1,
+        "explanation":  "ALM manages risks from mismatch in maturity and repricing of assets and liabilities. Ensures liquidity and stable margins."
+    },
+    {
+        "prompt":  "Net Interest Margin (NIM) is?",
+        "answers":  [
+                        "Interest income minus interest expense as % of assets",
+                        "Only interest income",
+                        "Only expense",
+                        "Gross profit"
+                    ],
+        "correct":  0,
+        "explanation":  "NIM = (Interest earned - Interest expended) / Average interest-earning assets. Key profitability indicator for banks."
+    },
+    {
+        "prompt":  "Return on Assets (ROA) for a bank is?",
+        "answers":  [
+                        "Total assets",
+                        "Net profit / Total assets",
+                        "Only interest income",
+                        "Only deposits"
+                    ],
+        "correct":  1,
+        "explanation":  "ROA = Net profit / Total assets. Indicates how efficiently bank uses assets to generate profit."
+    },
+    {
+        "prompt":  "Cost to Income ratio in banking indicates?",
+        "answers":  [
+                        "Interest cost",
+                        "Operating expenses as % of total income",
+                        "Only staff cost",
+                        "Only NPA cost"
+                    ],
+        "correct":  1,
+        "explanation":  "Cost to Income = Operating expenses / Total income. Lower ratio means better efficiency."
+    },
+    {
+        "prompt":  "Bulk deposits typically refer to?",
+        "answers":  [
+                        "Retail deposits",
+                        "Single deposit of Rs 2 crore and above",
+                        "Only FDs",
+                        "Only government deposits"
+                    ],
+        "correct":  1,
+        "explanation":  "Bulk deposits are single deposits of Rs 2 crore and above. They may carry higher interest and are more sensitive to rate changes."
+    },
+    {
+        "prompt":  "Certificate of Deposit has minimum maturity of?",
+        "answers":  [
+                        "7 days",
+                        "15 days",
+                        "91 days",
+                        "1 year"
+                    ],
+        "correct":  0,
+        "explanation":  "CDs can be issued for 7 days to 1 year (banks); 1 to 3 years (financial institutions). Minimum 7 days."
+    },
+    {
+        "prompt":  "Commercial Paper minimum maturity is?",
+        "answers":  [
+                        "7 days",
+                        "15 days",
+                        "1 month",
+                        "3 months"
+                    ],
+        "correct":  0,
+        "explanation":  "CP can be issued for 7 days to 1 year. It is an unsecured money market instrument for working capital."
+    },
+    {
+        "prompt":  "Inter-Creditor Agreement (ICA) is used for?",
+        "answers":  [
+                        "Deposits",
+                        "Resolution of stressed assets under RBI framework",
+                        "Only NPAs",
+                        "Only retail loans"
+                    ],
+        "correct":  1,
+        "explanation":  "ICA is signed by lenders for resolution of stressed assets. Lead bank implements resolution plan. Part of June 2019 RBI framework."
+    },
+    {
+        "prompt":  "Project Sashakt was related to?",
+        "answers":  [
+                        "Financial inclusion",
+                        "Resolution of stressed assets - AMC/AIF model",
+                        "Digital payments",
+                        "Bank mergers"
+                    ],
+        "correct":  1,
+        "explanation":  "Project Sashakt (2018) proposed alternative investment fund (AIF) and asset management company (AMC) structure for NPA resolution."
+    },
+    {
+        "prompt":  "Bad Bank or NARCL is?",
+        "answers":  [
+                        "National Asset Reconstruction Company Limited",
+                        "New Bank of India",
+                        "National Agriculture Bank",
+                        "National ARC for Rural Credit"
+                    ],
+        "correct":  0,
+        "explanation":  "NARCL (National Asset Reconstruction Company Limited) or Bad Bank was set up in 2021 to acquire stressed assets from banks."
+    },
+    {
+        "prompt":  "Government Security (G-Sec) is issued by?",
+        "answers":  [
+                        "RBI",
+                        "Government of India through RBI",
+                        "SEBI",
+                        "Commercial banks"
+                    ],
+        "correct":  1,
+        "explanation":  "G-Secs are issued by Government of India. RBI acts as debt manager and conducts auctions. They are sovereign bonds."
+    },
+    {
+        "prompt":  "G-Sec with maturity more than one year is called?",
+        "answers":  [
+                        "Treasury Bill",
+                        "Dated security or Government bond",
+                        "Commercial Paper",
+                        "Certificate of Deposit"
+                    ],
+        "correct":  1,
+        "explanation":  "Dated G-Secs have maturity over 1 year. Treasury Bills have maturity of 91, 182, 364 days."
+    },
+    {
+        "prompt":  "91-day T-Bill is auctioned?",
+        "answers":  [
+                        "Monthly",
+                        "Weekly",
+                        "Quarterly",
+                        "Yearly"
+                    ],
+        "correct":  1,
+        "explanation":  "91-day T-Bill is auctioned every week. 182-day and 364-day T-Bills are auctioned fortnightly."
+    },
+    {
+        "prompt":  "Yield on bond moves inversely to?",
+        "answers":  [
+                        "Maturity",
+                        "Price",
+                        "Coupon",
+                        "Issue size"
+                    ],
+        "correct":  1,
+        "explanation":  "Bond price and yield move inversely. When price rises, yield falls. When price falls, yield rises."
+    },
+    {
+        "prompt":  "Repo rate in government securities market means?",
+        "answers":  [
+                        "RBI policy rate",
+                        "Sale of security with agreement to repurchase",
+                        "Reverse Repo",
+                        "MSF"
+                    ],
+        "correct":  1,
+        "explanation":  "In G-Sec market, repo is selling a security with agreement to buy back. Used for short-term liquidity management."
+    },
+    {
+        "prompt":  "Gilt-edged securities refer to?",
+        "answers":  [
+                        "Corporate bonds",
+                        "Government securities - low default risk",
+                        "Equity shares",
+                        "Debentures"
+                    ],
+        "correct":  1,
+        "explanation":  "Gilt-edged means government or high-grade securities with minimal default risk. Term used for G-Secs."
+    },
+    {
+        "prompt":  "FRBs in bond market are?",
+        "answers":  [
+                        "Fixed Rate Bonds",
+                        "Floating Rate Bonds",
+                        "Forward Rate Bonds",
+                        "Foreign Currency Bonds"
+                    ],
+        "correct":  1,
+        "explanation":  "Floating Rate Bonds have coupon linked to a benchmark that resets periodically."
+    },
+    {
+        "prompt":  "Retail Direct scheme allows retail investors to?",
+        "answers":  [
+                        "Only trade stocks",
+                        "Open G-Sec account with RBI and invest in G-Secs",
+                        "Only mutual funds",
+                        "Only corporate bonds"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI Retail Direct scheme (2021) allows retail investors to open gilt account with RBI and buy/sell G-Secs directly."
+    },
+    {
+        "prompt":  "What does FDI stand for in banking context?",
+        "answers":  [
+                        "Fixed Deposit Interest",
+                        "Foreign Direct Investment",
+                        "Financial Development Index",
+                        "Foreign Debt Instrument"
+                    ],
+        "correct":  1,
+        "explanation":  "FDI is investment by foreign entity in Indian company with significant control. FII/FPI is portfolio investment."
+    },
+    {
+        "prompt":  "FPI stands for?",
+        "answers":  [
+                        "Fixed Percentage Investment",
+                        "Foreign Portfolio Investment",
+                        "Financial Product Index",
+                        "Foreign Public Investment"
+                    ],
+        "correct":  1,
+        "explanation":  "FPI (Foreign Portfolio Investment) is investment in securities (shares, bonds) without management control. Earlier called FII."
+    },
+    {
+        "prompt":  "ECB in external sector stands for?",
+        "answers":  [
+                        "European Central Bank",
+                        "External Commercial Borrowing",
+                        "External Credit Bureau",
+                        "Export Credit Bank"
+                    ],
+        "correct":  1,
+        "explanation":  "ECB is loan availed by Indian entities from non-resident lenders. Regulated by RBI. Used for capital expenditure, etc."
+    },
+    {
+        "prompt":  "AD Category I banks can?",
+        "answers":  [
+                        "Only take deposits",
+                        "Deal in foreign exchange",
+                        "Not deal in forex",
+                        "Only lend"
+                    ],
+        "correct":  1,
+        "explanation":  "AD Category I banks (commercial banks) can undertake all forex transactions. AD Cat II are co-op banks, etc. with limited permission."
+    },
+    {
+        "prompt":  "Liberalized Remittance Scheme (LRS) allows resident individuals to remit up to?",
+        "answers":  [
+                        "USD 50,000",
+                        "USD 75,000",
+                        "USD 250,000",
+                        "USD 1 million"
+                    ],
+        "correct":  2,
+        "explanation":  "LRS allows resident individuals to remit USD 250,000 per financial year for permitted current and capital account transactions."
+    },
+    {
+        "prompt":  "FEMA replaced?",
+        "answers":  [
+                        "RBI Act",
+                        "FERA (Foreign Exchange Regulation Act)",
+                        "Companies Act",
+                        "Banking Regulation Act"
+                    ],
+        "correct":  1,
+        "explanation":  "FEMA, 1999 replaced FERA, 1973. FEMA is more liberal - management-based rather than criminal prosecution focused."
+    }
 ]

@@ -1,0 +1,189 @@
+[
+    {
+        "prompt": "DigiLocker किस पहल का हिस्सा है?",
+        "answers": [
+            "डिजिटल इंडिया",
+            "मेक इन इंडिया",
+            "स्किल इंडिया",
+            "स्वच्छ भारत"
+        ],
+        "correct": 0,
+        "explanation": "DigiLocker डिजिटल दस्तावेज़ भंडारण प्रदान करता है, आधार से जुड़ा।"
+    },
+    {
+        "prompt": "BHIM ऐप किससे संबंधित है?",
+        "answers": [
+            "UPI पेमेंट",
+            "ई-गवर्नेंस",
+            "ई-एजुकेशन",
+            "ई-हेल्थ"
+        ],
+        "correct": 0,
+        "explanation": "BHIM NPCI द्वारा लॉन्च किया गया UPI-आधारित डिजिटल पेमेंट ऐप है।"
+    },
+    {
+        "prompt": "NPCI की स्थापना कब हुई?",
+        "answers": [
+            "2005",
+            "2008",
+            "2012",
+            "2015"
+        ],
+        "correct": 1,
+        "explanation": "NPCI (राष्ट्रीय भुगतान निगम) 2008 में स्थापित। UPI, RuPay, IMPS।"
+    },
+    {
+        "prompt": "UMANG ऐप किससे संबंधित है?",
+        "answers": [
+            "सरकारी सेवाएं",
+            "गेमिंग",
+            "शॉपिंग",
+            "ट्रैवल"
+        ],
+        "correct": 0,
+        "explanation": "UMANG विभिन्न सरकारी सेवाओं तक पहुंच प्रदान करता है।"
+    },
+    {
+        "prompt": "e-NAM क्या है?",
+        "answers": [
+            "राष्ट्रीय कृषि बाजार",
+            "National e-Market",
+            "Electronic National Market",
+            "e-National Agriculture Market"
+        ],
+        "correct": 0,
+        "explanation": "e-NAM कृषि वस्तुओं के लिए ऑनलाइन ट्रेडिंग प्लेटफॉर्म है।"
+    },
+    {
+        "prompt": "QR के माध्यम से UPI पेमेंट?",
+        "answers": [
+            "संभव नहीं",
+            "QR स्कैन करें - व्यापारी VPA को भुगतान",
+            "केवल कार्ड",
+            "केवल नकद"
+        ],
+        "correct": 1,
+        "explanation": "व्यापारी QR दिखाता है। ग्राहक स्कैन करता है। UPI ऐप भुगतान करता है।"
+    },
+    {
+        "prompt": "e-NAM का मतलब?",
+        "answers": [
+            "National Agriculture Market",
+            "e-National Agriculture Market",
+            "Electronic National Agriculture Market",
+            "उपरोक्त सभी"
+        ],
+        "correct": 3,
+        "explanation": "e-NAM - राष्ट्रीय कृषि बाजार। कृषि उत्पादों का ऑनलाइन व्यापार।"
+    },
+    {
+        "prompt": "e-NAM जोड़ता है?",
+        "answers": [
+            "केवल किसानों को",
+            "मंडी, व्यापारी, किसान - एकीकृत बाजार",
+            "केवल खरीदारों को",
+            "केवल सरकार को"
+        ],
+        "correct": 1,
+        "explanation": "e-NAM APMC मंडियों को जोड़ता है। पारदर्शी कीमत।"
+    },
+    {
+        "prompt": "AEPS बनाम UPI?",
+        "answers": [
+            "समान",
+            "AEPS को आधार बायोमेट्रिक चाहिए, UPI को फोन चाहिए",
+            "दोनों को कार्ड चाहिए",
+            "दोनों को केवल आधार चाहिए"
+        ],
+        "correct": 1,
+        "explanation": "AEPS - आधार + बायोमेट्रिक। UPI - मोबाइल + PIN।"
+    },
+    {
+        "prompt": "e-Rupi क्या है?",
+        "answers": [
+            "नकद वाउचर",
+            "डिजिटल वाउचर - उद्देश्य विशिष्ट, प्रीपेड",
+            "केवल सरकार के लिए",
+            "केवल बैंकों के लिए"
+        ],
+        "correct": 1,
+        "explanation": "e-RUPI - डिजिटल वाउचर। बैंक खाते की जरूरत नहीं।"
+    },
+    {
+        "prompt": "राष्ट्रीय भुगतान निगम NPCI क्या है?",
+        "answers": [
+            "एक बैंक",
+            "खुदरा भुगतान के लिए छत्र संगठन",
+            "सरकारी विभाग",
+            "निजी कंपनी"
+        ],
+        "correct": 1,
+        "explanation": "NPCI - UPI, RuPay, IMPS, NACH, BBPS संचालित करता है।"
+    },
+    {
+        "prompt": "DigiLocker स्टोर करता है?",
+        "answers": [
+            "केवल फोटो",
+            "डिजिटल रूप में सरकारी दस्तावेज़",
+            "केवल आधार",
+            "केवल पैन"
+        ],
+        "correct": 1,
+        "explanation": "DigiLocker दस्तावेज़ (लाइसेंस, प्रमाणपत्र) क्लाउड में स्टोर करता है।"
+    },
+    {
+        "prompt": "UMANG पहुंच प्रदान करता है?",
+        "answers": [
+            "केवल बैंकिंग",
+            "एक ऐप में कई सरकारी सेवाएं",
+            "केवल टैक्स",
+            "केवल पासपोर्ट"
+        ],
+        "correct": 1,
+        "explanation": "UMANG - 1700 से अधिक सरकारी सेवाएं। केंद्र, राज्य एक ऐप में।"
+    },
+    {
+        "prompt": "GeM का पूरा नाम?",
+        "answers": [
+            "Government e-Marketplace",
+            "General e-Market",
+            "Government e-Money",
+            "General e-Mobility"
+        ],
+        "correct": 0,
+        "explanation": "GeM खरीद के लिए सरकारी ई-मार्केटप्लेस। पारदर्शी खरीद।"
+    },
+    {
+        "prompt": "NPCI किसने प्रचारित किया?",
+        "answers": [
+            "एक बैंक",
+            "RBI और बैंक",
+            "केवल सरकार",
+            "केवल निजी कंपनियां"
+        ],
+        "correct": 1,
+        "explanation": "NPCI को RBI और बैंकों द्वारा प्रचारित किया गया। UPI, RuPay, IMPS संचालित करता है।"
+    },
+    {
+        "prompt": "BHIM UPI अनुमति देता है?",
+        "answers": [
+            "केवल बैलेंस चेक",
+            "VPA या मोबाइल से पैसा भेजना प्राप्त करना",
+            "केवल मर्चेंट भुगतान",
+            "केवल QR"
+        ],
+        "correct": 1,
+        "explanation": "BHIM/UPI VPA (name@bank) या मोबाइल नंबर से तत्काल धन हस्तांतरण।"
+    },
+    {
+        "prompt": "UPI में VPA का मतलब?",
+        "answers": [
+            "Virtual Payment Address",
+            "Very Personal Account",
+            "Virtual Private Account",
+            "Value Payment Account"
+        ],
+        "correct": 0,
+        "explanation": "VPA भुगतान के लिए ईमेल जैसा - name@bank। खाता नंबर साझा करने की जरूरत नहीं।"
+    }
+]

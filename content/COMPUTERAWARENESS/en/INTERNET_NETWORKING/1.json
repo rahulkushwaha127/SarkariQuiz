@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "What is considered the precursor to the Internet?",
+        "answers":  [
+                        "ARPANET",
+                        "WWW",
+                        "TCP/IP",
+                        "HTTP"
+                    ],
+        "correct":  0,
+        "explanation":  "ARPANET (1969) was the first packet-switched network, developed by US DoD. It evolved into the Internet."
+    },
+    {
+        "prompt":  "What does TCP/IP stand for?",
+        "answers":  [
+                        "Transmission Control Protocol/Internet Protocol",
+                        "Transfer Control Protocol/Internet Protocol",
+                        "Text Control Protocol/Internet Protocol",
+                        "Transport Control Protocol/Internet Protocol"
+                    ],
+        "correct":  0,
+        "explanation":  "TCP/IP is the fundamental protocol suite of the Internet for communication between devices."
+    },
+    {
+        "prompt":  "What does URL stand for?",
+        "answers":  [
+                        "Uniform Resource Locator",
+                        "Universal Resource Locator",
+                        "Uniform Resource Link",
+                        "Unique Resource Locator"
+                    ],
+        "correct":  0,
+        "explanation":  "URL is the address of a resource on the web, e.g. https://www.example.com"
+    },
+    {
+        "prompt":  "Which protocol is used for secure browsing on the Internet?",
+        "answers":  [
+                        "HTTPS",
+                        "HTTP",
+                        "FTP",
+                        "SMTP"
+                    ],
+        "correct":  0,
+        "explanation":  "HTTPS (HTTP Secure) encrypts data between browser and server. The S stands for Secure."
+    },
+    {
+        "prompt":  "What does LAN stand for?",
+        "answers":  [
+                        "Local Area Network",
+                        "Large Area Network",
+                        "Long Area Network",
+                        "Link Area Network"
+                    ],
+        "correct":  0,
+        "explanation":  "LAN covers a small area like a building or campus. WAN covers larger geographic areas."
+    },
+    {
+        "prompt":  "VoIP means?",
+        "answers":  [
+                        "Voice over Internet Protocol",
+                        "Video over IP",
+                        "Voice only network",
+                        "Video only protocol"
+                    ],
+        "correct":  0,
+        "explanation":  "VoIP - voice calls over internet. Skype, WhatsApp calls."
+    },
+    {
+        "prompt":  "Bandwidth 100 Mbps means?",
+        "answers":  [
+                        "100 megabyte per second",
+                        "100 megabit per second",
+                        "100 kilo bit",
+                        "100 gigabit"
+                    ],
+        "correct":  1,
+        "explanation":  "Mbps = megabit per second. 8 bits = 1 byte. 100 Mbps = 12.5 MB/s max."
+    },
+    {
+        "prompt":  "IP address 192.168.x.x is?",
+        "answers":  [
+                        "Public",
+                        "Private - used in local networks",
+                        "Only for internet",
+                        "Only for servers"
+                    ],
+        "correct":  1,
+        "explanation":  "192.168.x.x is private range. Used in home/office LANs. Not routable on internet."
+    },
+    {
+        "prompt":  "IPv6 was developed because?",
+        "answers":  [
+                        "Faster",
+                        "IPv4 address exhaustion - need more addresses",
+                        "Simpler",
+                        "Cheaper"
+                    ],
+        "correct":  1,
+        "explanation":  "IPv6 has huge address space. IPv4 has 4.3 billion; running out."
+    },
+    {
+        "prompt":  "Bandwidth throttling is?",
+        "answers":  [
+                        "Speeding up",
+                        "Intentionally limiting speed",
+                        "Increasing capacity",
+                        "Upgrading"
+                    ],
+        "correct":  1,
+        "explanation":  "Throttling - ISP or service limits speed. Can be for management or plans."
+    },
+    {
+        "prompt":  "Alan Turing is known for?",
+        "answers":  [
+                        "First PC",
+                        "Turing machine - foundation of computing",
+                        "First laptop",
+                        "First internet"
+                    ],
+        "correct":  1,
+        "explanation":  "Alan Turing - Turing machine concept, breaking Enigma. Father of computer science."
+    },
+    {
+        "prompt":  "Wikipedia was launched in?",
+        "answers":  [
+                        "1995",
+                        "2001",
+                        "2005",
+                        "2010"
+                    ],
+        "correct":  1,
+        "explanation":  "Wikipedia launched 2001. Free, collaborative encyclopedia."
+    },
+    {
+        "prompt":  "Clipboard stores?",
+        "answers":  [
+                        "Permanently",
+                        "Temporarily - cut/copy data",
+                        "Only images",
+                        "Only text"
+                    ],
+        "correct":  1,
+        "explanation":  "Clipboard holds cut/copied data temporarily. One item. Paste uses it."
+    },
+    {
+        "prompt":  "Browser history records?",
+        "answers":  [
+                        "Passwords",
+                        "Websites visited",
+                        "Only bookmarks",
+                        "Only cookies"
+                    ],
+        "correct":  1,
+        "explanation":  "History - list of visited sites. Can be cleared. Privacy consideration."
+    },
+    {
+        "prompt":  "Tab in browser?",
+        "answers":  [
+                        "Only one",
+                        "Multiple pages in one window",
+                        "Only for bookmarks",
+                        "Only for history"
+                    ],
+        "correct":  1,
+        "explanation":  "Tabs - multiple pages in one window. Switch without separate windows."
+    },
+    {
+        "prompt":  "Extension in browser?",
+        "answers":  [
+                        "Required",
+                        "Add-on that adds functionality",
+                        "Only for security",
+                        "Only official"
+                    ],
+        "correct":  1,
+        "explanation":  "Extension adds features - ad blocker, password manager. Install from store."
+    },
+    {
+        "prompt":  "Wi-Fi stands for?",
+        "answers":  [
+                        "Wireless Fidelity",
+                        "Wired Fidelity",
+                        "Wide Fidelity",
+                        "World Fidelity"
+                    ],
+        "correct":  0,
+        "explanation":  "Wi-Fi is wireless networking technology."
+    },
+    {
+        "prompt":  "IoT stands for?",
+        "answers":  [
+                        "Internet of Things",
+                        "Interface of Things",
+                        "Internal of Things",
+                        "Input of Things"
+                    ],
+        "correct":  0,
+        "explanation":  "IoT - network of physical devices connected to internet. Sensors, appliances, vehicles."
+    },
+    {
+        "prompt":  "IoT devices typically have?",
+        "answers":  [
+                        "Only display",
+                        "Sensors and connectivity",
+                        "Only keyboard",
+                        "Only printer"
+                    ],
+        "correct":  1,
+        "explanation":  "IoT devices have sensors to collect data and connectivity to send it."
+    },
+    {
+        "prompt":  "VPN stands for?",
+        "answers":  [
+                        "Virtual Private Network",
+                        "Very Private Network",
+                        "Virtual Public Network",
+                        "Visual Private Network"
+                    ],
+        "correct":  0,
+        "explanation":  "VPN creates encrypted tunnel over public network. Privacy, security."
+    },
+    {
+        "prompt":  "VPN is used to?",
+        "answers":  [
+                        "Speed up only",
+                        "Secure connection, access restricted content, privacy",
+                        "Only for gaming",
+                        "Only for streaming"
+                    ],
+        "correct":  1,
+        "explanation":  "VPN encrypts traffic. Hides IP. Can bypass geo-restrictions."
+    },
+    {
+        "prompt":  "SMTP is used for?",
+        "answers":  [
+                        "Web browsing",
+                        "Sending email",
+                        "Receiving email",
+                        "File transfer"
+                    ],
+        "correct":  1,
+        "explanation":  "SMTP - Simple Mail Transfer Protocol. Sends email. Port 25 or 587."
+    },
+    {
+        "prompt":  "POP3 is used for?",
+        "answers":  [
+                        "Sending email",
+                        "Receiving email - downloads to device",
+                        "Web browsing",
+                        "File transfer"
+                    ],
+        "correct":  1,
+        "explanation":  "POP3 - Post Office Protocol. Receives email. Downloads to local. Port 110."
+    },
+    {
+        "prompt":  "IMAP is used for?",
+        "answers":  [
+                        "Sending only",
+                        "Receiving email - keeps on server, sync",
+                        "Web only",
+                        "FTP only"
+                    ],
+        "correct":  1,
+        "explanation":  "IMAP keeps mail on server. Syncs across devices. Port 143 or 993."
+    },
+    {
+        "prompt":  "POP3 vs IMAP - IMAP allows?",
+        "answers":  [
+                        "Only single device",
+                        "Access from multiple devices - mail on server",
+                        "Only local",
+                        "No sync"
+                    ],
+        "correct":  1,
+        "explanation":  "IMAP syncs. POP3 downloads and often removes from server."
+    }
+]

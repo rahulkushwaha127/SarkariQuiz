@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "DNS stands for?",
+        "answers":  [
+                        "Domain Name System",
+                        "Data Name System",
+                        "Domain Network System",
+                        "Digital Name System"
+                    ],
+        "correct":  0,
+        "explanation":  "DNS translates domain names (google.com) to IP addresses."
+    },
+    {
+        "prompt":  "Bandwidth measures?",
+        "answers":  [
+                        "Storage",
+                        "Data transfer capacity - bits per second",
+                        "Processor speed",
+                        "Screen size"
+                    ],
+        "correct":  1,
+        "explanation":  "Bandwidth - max data rate. Mbps, Gbps. Higher = more data."
+    },
+    {
+        "prompt":  "Bandwidth vs Latency - streaming needs?",
+        "answers":  [
+                        "Only latency",
+                        "Both - bandwidth for quality, latency for responsiveness",
+                        "Only bandwidth",
+                        "Neither"
+                    ],
+        "correct":  1,
+        "explanation":  "Streaming: bandwidth for resolution, latency for live interaction."
+    },
+    {
+        "prompt":  "Router does?",
+        "answers":  [
+                        "Only switch",
+                        "Forwards data between networks - routes packets",
+                        "Only modem",
+                        "Only firewall"
+                    ],
+        "correct":  1,
+        "explanation":  "Router connects networks. Routes packets. Home router connects LAN to internet."
+    },
+    {
+        "prompt":  "IP address identifies?",
+        "answers":  [
+                        "Only hardware",
+                        "Device on network - can change",
+                        "Only software",
+                        "Only router"
+                    ],
+        "correct":  1,
+        "explanation":  "IP address - logical address. IPv4 (32-bit) or IPv6 (128-bit)."
+    },
+    {
+        "prompt":  "IPv6 was created because?",
+        "answers":  [
+                        "Faster only",
+                        "IPv4 addresses running out - IPv6 has many more",
+                        "Simpler only",
+                        "Cheaper only"
+                    ],
+        "correct":  1,
+        "explanation":  "IPv4 has ~4.3 billion addresses. IPv6 has 2^128 - virtually unlimited."
+    },
+    {
+        "prompt":  "Wi-Fi 6 is?",
+        "answers":  [
+                        "802.11ac",
+                        "802.11ax - latest Wi-Fi",
+                        "802.11n",
+                        "802.11g"
+                    ],
+        "correct":  1,
+        "explanation":  "Wi-Fi 6 = 802.11ax. Faster, more efficient. OFDMA, MU-MIMO."
+    },
+    {
+        "prompt":  "Bandwidth of 100 Mbps means?",
+        "answers":  [
+                        "100 MB per second",
+                        "100 Megabits per second",
+                        "100 MHz",
+                        "100 ms"
+                    ],
+        "correct":  1,
+        "explanation":  "Mbps = Megabits per second. 8 bits = 1 byte. 100 Mbps â‰ˆ 12.5 MB/s."
+    },
+    {
+        "prompt":  "VoIP stands for?",
+        "answers":  [
+                        "Voice over Internet Protocol",
+                        "Video over Internet Protocol",
+                        "Voice over IP only",
+                        "Virtual over IP"
+                    ],
+        "correct":  0,
+        "explanation":  "VoIP - voice over internet. Skype, WhatsApp calls, Zoom."
+    },
+    {
+        "prompt":  "What does WAN stand for?",
+        "answers":  [
+                        "Wide Area Network",
+                        "Wireless Area Network",
+                        "World Area Network",
+                        "Wide Access Network"
+                    ],
+        "correct":  0,
+        "explanation":  "WAN spans a large geographic area - cities, countries. Internet is the largest WAN."
+    },
+    {
+        "prompt":  "What does IoT stand for?",
+        "answers":  [
+                        "Internet of Things",
+                        "Internet of Technology",
+                        "Input of Things",
+                        "Internet of Tools"
+                    ],
+        "correct":  0,
+        "explanation":  "IoT connects physical devices (sensors, appliances) to the Internet for data exchange and remote control."
+    },
+    {
+        "prompt":  "VPN is used for?",
+        "answers":  [
+                        "Secure connection",
+                        "Faster internet",
+                        "File download",
+                        "Printing"
+                    ],
+        "correct":  0,
+        "explanation":  "VPN (Virtual Private Network) creates encrypted connection - protects privacy and enables secure remote access."
+    },
+    {
+        "prompt":  "POP3 is used for?",
+        "answers":  [
+                        "Receiving email",
+                        "Sending email",
+                        "Web browsing",
+                        "File transfer"
+                    ],
+        "correct":  0,
+        "explanation":  "POP3 (Post Office Protocol) downloads emails from server to local device. IMAP keeps them on server."
+    },
+    {
+        "prompt":  "What does IMAP stand for?",
+        "answers":  [
+                        "Internet Message Access Protocol",
+                        "Instant Message Access Protocol",
+                        "Internal Mail Access Protocol",
+                        "Internet Mail Access Protocol"
+                    ],
+        "correct":  0,
+        "explanation":  "IMAP allows access to emails stored on server - view from multiple devices. Emails stay on server."
+    },
+    {
+        "prompt":  "Data principal is?",
+        "answers":  [
+                        "Company",
+                        "Individual whose data is processed",
+                        "Only child",
+                        "Only employee"
+                    ],
+        "correct":  1,
+        "explanation":  "Data principal - the person the data is about."
+    },
+    {
+        "prompt":  "LAN full form?",
+        "answers":  [
+                        "Local Area Network",
+                        "Large Area Network",
+                        "Long Area Network",
+                        "Link Area Network"
+                    ],
+        "correct":  0,
+        "explanation":  "LAN - small area. Building, campus."
+    },
+    {
+        "prompt":  "WAN full form?",
+        "answers":  [
+                        "Wide Area Network",
+                        "Wireless Area Network",
+                        "World Area Network",
+                        "Web Area Network"
+                    ],
+        "correct":  0,
+        "explanation":  "WAN - large geographic area."
+    },
+    {
+        "prompt":  "Edge browser is by?",
+        "answers":  [
+                        "Google",
+                        "Microsoft",
+                        "Apple",
+                        "Mozilla"
+                    ],
+        "correct":  1,
+        "explanation":  "Edge - Microsoft. Chromium-based now."
+    },
+    {
+        "prompt":  "Browser engine renders?",
+        "answers":  [
+                        "Only HTML",
+                        "HTML, CSS, JavaScript to display page",
+                        "Only images",
+                        "Only text"
+                    ],
+        "correct":  1,
+        "explanation":  "Engine - Blink, Gecko, WebKit. Renders web pages."
+    },
+    {
+        "prompt":  "JavaScript adds?",
+        "answers":  [
+                        "Only structure",
+                        "Interactivity - dynamic behavior",
+                        "Only style",
+                        "Only content"
+                    ],
+        "correct":  1,
+        "explanation":  "JavaScript - interactivity. Forms, animations, AJAX."
+    },
+    {
+        "prompt":  "Cache in browser?",
+        "answers":  [
+                        "Deletes data",
+                        "Stores copies for faster load",
+                        "Only cookies",
+                        "Only history"
+                    ],
+        "correct":  1,
+        "explanation":  "Cache - stores images, scripts. Faster repeat visits."
+    },
+    {
+        "prompt":  "HTTPS padlock means?",
+        "answers":  [
+                        "Faster",
+                        "Encrypted connection - data secure in transit",
+                        "Only verified",
+                        "Only safe site"
+                    ],
+        "correct":  1,
+        "explanation":  "Padlock - TLS/SSL. Encrypted. Not guarantee of trust."
+    },
+    {
+        "prompt":  "URL structure - https://example.com/path?query?",
+        "answers":  [
+                        "Invalid",
+                        "Protocol, domain, path, query",
+                        "Only domain",
+                        "Only path"
+                    ],
+        "correct":  1,
+        "explanation":  "URL: scheme, host, path, query string."
+    },
+    {
+        "prompt":  "HTTP stands for?",
+        "answers":  [
+                        "HyperText Transfer Protocol",
+                        "High Text Transfer Protocol",
+                        "HyperText Transmission Protocol",
+                        "High Transmission Transfer Protocol"
+                    ],
+        "correct":  0,
+        "explanation":  "HTTP is the protocol for transferring web pages. HTTPS adds encryption (SSL/TLS)."
+    },
+    {
+        "prompt":  "ZIP is?",
+        "answers":  [
+                        "Image format",
+                        "Compression and archive format",
+                        "Video format",
+                        "OS"
+                    ],
+        "correct":  1,
+        "explanation":  "ZIP compresses and archives multiple files into one. Common format."
+    }
+]

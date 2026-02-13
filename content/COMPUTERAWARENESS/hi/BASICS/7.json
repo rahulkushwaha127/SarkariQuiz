@@ -1,0 +1,277 @@
+[
+    {
+        "prompt": "कुकी स्टोर करती है?",
+        "answers": [
+            "प्रोग्राम",
+            "छोटा डेटा - प्राथमिकता, सत्र",
+            "केवल पासवर्ड",
+            "केवल छवियां"
+        ],
+        "correct": 1,
+        "explanation": "कुकी - छोटी टेक्स्ट फाइल। प्राथमिकता, लॉगिन स्टेट।"
+    },
+    {
+        "prompt": "ब्राउज़र इतिहास रिकॉर्ड करता है?",
+        "answers": [
+            "पासवर्ड",
+            "विज़िट की गई वेबसाइटें",
+            "केवल बुकमार्क",
+            "केवल कुकीज़"
+        ],
+        "correct": 1,
+        "explanation": "इतिहास - विज़िट की गई साइटों की सूची। मिटाया जा सकता है।"
+    },
+    {
+        "prompt": "बुकमार्क सहेजता है?",
+        "answers": [
+            "पूरा पेज",
+            "त्वरित पहुंच के लिए वेबपेज का लिंक",
+            "केवल टेक्स्ट",
+            "केवल छवियां"
+        ],
+        "correct": 1,
+        "explanation": "बुकमार्क URL सहेजता है। बाद में त्वरित पहुंच।"
+    },
+    {
+        "prompt": "पॉप-अप है?",
+        "answers": [
+            "मुख्य विंडो",
+            "नई विंडो जो खुलती है - अक्सर विज्ञापन",
+            "केवल फॉर्म के लिए",
+            "केवल छवियों के लिए"
+        ],
+        "correct": 1,
+        "explanation": "पॉप-अप - नई विंडो। अक्सर विज्ञापन। ब्राउज़र में ब्लॉकर।"
+    },
+    {
+        "prompt": "ब्राउज़र में टैब?",
+        "answers": [
+            "केवल एक",
+            "एक विंडो में कई पेज",
+            "केवल बुकमार्क के लिए",
+            "केवल इतिहास के लिए"
+        ],
+        "correct": 1,
+        "explanation": "टैब - एक विंडो में कई पेज। अलग विंडो के बिना स्विच।"
+    },
+    {
+        "prompt": "इनकोग्निटो मोड रोकता है?",
+        "answers": [
+            "सभी ट्रैकिंग",
+            "स्थानीय रूप से इतिहास और कुकीज़ सहेजना",
+            "वायरस",
+            "धीमी ब्राउज़िंग"
+        ],
+        "correct": 1,
+        "explanation": "इनकोग्निटो - कोई स्थानीय इतिहास/कुकीज़। साइट अभी भी ट्रैक कर सकती हैं।"
+    },
+    {
+        "prompt": "ब्राउज़र में एक्सटेंशन?",
+        "answers": [
+            "आवश्यक",
+            "फ़ंक्शनलिटी जोड़ने वाला ऐड-ऑन",
+            "केवल सुरक्षा के लिए",
+            "केवल आधिकारिक"
+        ],
+        "correct": 1,
+        "explanation": "एक्सटेंशन फीचर जोड़ता है - ऐड ब्लॉकर, पासवर्ड मैनेजर।"
+    },
+    {
+        "prompt": "पॉप-अप ब्लॉकर?",
+        "answers": [
+            "सभी अनुमति देता है",
+            "पॉप-अप विंडो रोकता है",
+            "केवल कुछ",
+            "केवल विज्ञापन"
+        ],
+        "correct": 1,
+        "explanation": "पॉप-अप ब्लॉकर अवांछित पॉप-अप रोकता है। विशिष्ट साइट अनुमति।"
+    },
+    {
+        "prompt": "डाउनलोड मैनेजर?",
+        "answers": [
+            "डाउनलोड धीमा करता है",
+            "डाउनलोड प्रबंधित करता है - रोकें, फिर से शुरू, व्यवस्थित",
+            "केवल छवियों के लिए",
+            "केवल दस्तावेज़ के लिए"
+        ],
+        "correct": 1,
+        "explanation": "डाउनलोड मैनेजर - रोकें, फिर से शुरू, शेड्यूल।"
+    },
+    {
+        "prompt": "डेटाबेस में क्वेरी का उपयोग?",
+        "answers": [
+            "सभी डेटा हटाने के लिए",
+            "डेटा प्राप्त करने, फ़िल्टर या संचालित करने के लिए",
+            "केवल प्रिंट के लिए",
+            "केवल फॉर्मेट के लिए"
+        ],
+        "correct": 1,
+        "explanation": "क्वेरी मानदंड के आधार पर डेटा लाती है।"
+    },
+    {
+        "prompt": "डेटाबेस में प्राथमिक कुंजी?",
+        "answers": [
+            "वैकल्पिक पहचानकर्ता",
+            "प्रत्येक रिकॉर्ड का अद्वितीय पहचानकर्ता",
+            "दोहराव हो सकता है",
+            "केवल प्रदर्शन के लिए"
+        ],
+        "correct": 1,
+        "explanation": "प्राथमिक कुंजी प्रत्येक पंक्ति को अद्वितीय पहचानती है।"
+    },
+    {
+        "prompt": "फॉरेन कुंजी जोड़ती है?",
+        "answers": [
+            "असंबंधित टेबल",
+            "टेबल - दूसरी टेबल की प्राथमिक कुंजी का संदर्भ",
+            "केवल समान टेबल में",
+            "केवल बैकअप के लिए"
+        ],
+        "correct": 1,
+        "explanation": "फॉरेन कुंजी दूसरी टेबल की प्राथमिक कुंजी को संदर्भित करती है।"
+    },
+    {
+        "prompt": "CPU में ALU का मतलब?",
+        "answers": [
+            "Arithmetic Logic Unit",
+            "Advanced Logic Unit",
+            "Array Logic Unit",
+            "Application Logic Unit"
+        ],
+        "correct": 0,
+        "explanation": "ALU अंकगणित और तर्क संचालन करता है।"
+    },
+    {
+        "prompt": "CPU में CU का मतलब?",
+        "answers": [
+            "Control Unit",
+            "Central Unit",
+            "Command Unit",
+            "Cache Unit"
+        ],
+        "correct": 0,
+        "explanation": "Control Unit संचालन निर्देशित करता है।"
+    },
+    {
+        "prompt": "BIOS का मतलब?",
+        "answers": [
+            "Basic Input Output System",
+            "Binary Input Output System",
+            "Base Input Output System",
+            "Basic Interface Output System"
+        ],
+        "correct": 0,
+        "explanation": "BIOS बूट के दौरान हार्डवेयर प्रारंभ करता है।"
+    },
+    {
+        "prompt": "USB का मतलब?",
+        "answers": [
+            "Universal Serial Bus",
+            "United Serial Bus",
+            "Universal System Bus",
+            "Unique Serial Bus"
+        ],
+        "correct": 0,
+        "explanation": "USB पेरिफेरल जोड़ने का मानक है।"
+    },
+    {
+        "prompt": "LCD का मतलब?",
+        "answers": [
+            "Liquid Crystal Display",
+            "Liquid Color Display",
+            "Light Crystal Display",
+            "Luminous Crystal Display"
+        ],
+        "correct": 0,
+        "explanation": "LCD लिक्विड क्रिस्टल उपयोग करता है।"
+    },
+    {
+        "prompt": "PDF का मतलब?",
+        "answers": [
+            "Portable Document Format",
+            "Personal Document Format",
+            "Print Document Format",
+            "Public Document Format"
+        ],
+        "correct": 0,
+        "explanation": "PDF फॉर्मेटिंग संरक्षित करता है।"
+    },
+    {
+        "prompt": "JPEG किसके लिए फॉर्मेट है?",
+        "answers": [
+            "ऑडियो",
+            "छवि - संपीड़ित",
+            "वीडियो",
+            "दस्तावेज़"
+        ],
+        "correct": 1,
+        "explanation": "JPEG संपीड़ित छवि फॉर्मेट है।"
+    },
+    {
+        "prompt": "MP3 किसके लिए फॉर्मेट है?",
+        "answers": [
+            "छवि",
+            "ऑडियो - संपीड़ित",
+            "वीडियो",
+            "दस्तावेज़"
+        ],
+        "correct": 1,
+        "explanation": "MP3 संपीड़ित ऑडियो फॉर्मेट है।"
+    },
+    {
+        "prompt": "HTML का मतलब?",
+        "answers": [
+            "HyperText Markup Language",
+            "High Text Markup Language",
+            "Hyper Text Model Language",
+            "Home Text Markup Language"
+        ],
+        "correct": 0,
+        "explanation": "HTML वेब पेज संरचित करता है।"
+    },
+    {
+        "prompt": "ISP का मतलब?",
+        "answers": [
+            "Internet Service Provider",
+            "International Service Provider",
+            "Internet System Protocol",
+            "Internal Service Provider"
+        ],
+        "correct": 0,
+        "explanation": "ISP इंटरनेट एक्सेस प्रदान करता है।"
+    },
+    {
+        "prompt": "OCR का मतलब?",
+        "answers": [
+            "Optical Character Recognition",
+            "Online Character Recognition",
+            "Optical Code Recognition",
+            "Output Character Recognition"
+        ],
+        "correct": 0,
+        "explanation": "OCR स्कैन किए गए टेक्स्ट को संपादन योग्य बनाता है।"
+    },
+    {
+        "prompt": "OMR का मतलब?",
+        "answers": [
+            "Optical Mark Recognition",
+            "Online Mark Recognition",
+            "Optical Machine Recognition",
+            "Output Mark Recognition"
+        ],
+        "correct": 0,
+        "explanation": "OMR OMR शीट जैसे चिह्नित फॉर्म पढ़ता है।"
+    },
+    {
+        "prompt": "MICR कहाँ उपयोग होता है?",
+        "answers": [
+            "फोटो प्रिंटिंग",
+            "बैंक चेक - वर्ण पहचान",
+            "वेब डिज़ाइन",
+            "वीडियो संपादन"
+        ],
+        "correct": 1,
+        "explanation": "MICR बैंक चेक पर उपयोग होता है।"
+    }
+]

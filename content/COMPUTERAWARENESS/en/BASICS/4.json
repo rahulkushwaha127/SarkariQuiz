@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "Download speed 100 Mbps means?",
+        "answers":  [
+                        "100 MB per second",
+                        "Up to 12.5 MB per second (100/8)",
+                        "100 Megabyte",
+                        "100 Gbps"
+                    ],
+        "correct":  1,
+        "explanation":  "100 Mbps = 100 megabit/sec. 1 byte = 8 bits. So ~12.5 MB/s max."
+    },
+    {
+        "prompt":  "Upload speed is typically?",
+        "answers":  [
+                        "Higher than download",
+                        "Lower than download for home connections",
+                        "Same always",
+                        "Not measured"
+                    ],
+        "correct":  1,
+        "explanation":  "Home connections often asymmetric - download faster than upload."
+    },
+    {
+        "prompt":  "Fiber optic cable uses?",
+        "answers":  [
+                        "Electric signals",
+                        "Light for data transmission",
+                        "Radio waves",
+                        "Copper"
+                    ],
+        "correct":  1,
+        "explanation":  "Fiber uses light through glass. Very fast, long distance. Better than copper."
+    },
+    {
+        "prompt":  "Coaxial cable is used for?",
+        "answers":  [
+                        "Only phone",
+                        "Cable TV, internet - carries signal",
+                        "Only fiber",
+                        "Obsolete"
+                    ],
+        "correct":  1,
+        "explanation":  "Coaxial - copper with shield. Cable internet, TV. Still used."
+    },
+    {
+        "prompt":  "Google was founded in?",
+        "answers":  [
+                        "1995",
+                        "1998",
+                        "2000",
+                        "2004"
+                    ],
+        "correct":  1,
+        "explanation":  "Google was founded in 1998 by Larry Page and Sergey Brin."
+    },
+    {
+        "prompt":  "Apple was founded by?",
+        "answers":  [
+                        "Bill Gates",
+                        "Steve Jobs, Steve Wozniak, Ronald Wayne",
+                        "Only Steve Jobs",
+                        "Only Wozniak"
+                    ],
+        "correct":  1,
+        "explanation":  "Apple founded in 1976 by Steve Jobs, Steve Wozniak, Ronald Wayne."
+    },
+    {
+        "prompt":  "Microsoft was founded in?",
+        "answers":  [
+                        "1975",
+                        "1980",
+                        "1985",
+                        "1990"
+                    ],
+        "correct":  0,
+        "explanation":  "Microsoft founded 1975 by Bill Gates and Paul Allen."
+    },
+    {
+        "prompt":  "ENIAC was?",
+        "answers":  [
+                        "First commercial PC",
+                        "First general-purpose electronic computer",
+                        "First laptop",
+                        "First supercomputer"
+                    ],
+        "correct":  1,
+        "explanation":  "ENIAC (1945) - first general-purpose electronic digital computer. Huge, vacuum tubes."
+    },
+    {
+        "prompt":  "UNIVAC was?",
+        "answers":  [
+                        "First mainframe",
+                        "First commercially produced computer",
+                        "First PC",
+                        "First laptop"
+                    ],
+        "correct":  1,
+        "explanation":  "UNIVAC (1951) - first commercial computer produced in US."
+    },
+    {
+        "prompt":  "Abacus is?",
+        "answers":  [
+                        "Electronic",
+                        "Ancient calculating tool - beads on rods",
+                        "Modern computer",
+                        "Digital"
+                    ],
+        "correct":  1,
+        "explanation":  "Abacus - ancient manual calculator. Beads on rods. Still used in some places."
+    },
+    {
+        "prompt":  "Pascal\u0027s calculator was?",
+        "answers":  [
+                        "Electronic",
+                        "Mechanical - 17th century",
+                        "From 20th century",
+                        "Digital"
+                    ],
+        "correct":  1,
+        "explanation":  "Pascal invented mechanical calculator (1642). Addition, subtraction."
+    },
+    {
+        "prompt":  "Grace Hopper developed?",
+        "answers":  [
+                        "First computer",
+                        "First compiler - COBOL",
+                        "First OS",
+                        "First browser"
+                    ],
+        "correct":  1,
+        "explanation":  "Grace Hopper - first compiler, COBOL. Pioneer in programming."
+    },
+    {
+        "prompt":  "First computer mouse was made of?",
+        "answers":  [
+                        "Plastic",
+                        "Wood - by Douglas Engelbart 1964",
+                        "Metal",
+                        "Glass"
+                    ],
+        "correct":  1,
+        "explanation":  "First mouse (1964) by Douglas Engelbart - wooden, one button."
+    },
+    {
+        "prompt":  "First website was at?",
+        "answers":  [
+                        "Google",
+                        "CERN - info.cern.ch",
+                        "Yahoo",
+                        "Microsoft"
+                    ],
+        "correct":  1,
+        "explanation":  "First website 1991 at CERN by Tim Berners-Lee. Info about WWW project."
+    },
+    {
+        "prompt":  "WWW was invented at?",
+        "answers":  [
+                        "MIT",
+                        "CERN - Switzerland",
+                        "Stanford",
+                        "Microsoft"
+                    ],
+        "correct":  1,
+        "explanation":  "Tim Berners-Lee invented WWW at CERN, Switzerland, 1989."
+    },
+    {
+        "prompt":  "First smartphone with touchscreen?",
+        "answers":  [
+                        "iPhone 2007",
+                        "IBM Simon 1994 - considered first",
+                        "Android 2008",
+                        "BlackBerry"
+                    ],
+        "correct":  1,
+        "explanation":  "IBM Simon (1994) - first smartphone. Touchscreen, apps. iPhone popularized."
+    },
+    {
+        "prompt":  "Amazon was initially?",
+        "answers":  [
+                        "Social media",
+                        "Online bookstore - 1994",
+                        "Cloud only",
+                        "Retail store"
+                    ],
+        "correct":  1,
+        "explanation":  "Amazon started as online bookstore 1994. Jeff Bezos. Expanded to everything."
+    },
+    {
+        "prompt":  "YouTube was founded in?",
+        "answers":  [
+                        "2003",
+                        "2005",
+                        "2007",
+                        "2010"
+                    ],
+        "correct":  1,
+        "explanation":  "YouTube founded 2005. Acquired by Google 2006."
+    },
+    {
+        "prompt":  "Facebook was launched in?",
+        "answers":  [
+                        "2002",
+                        "2004",
+                        "2006",
+                        "2008"
+                    ],
+        "correct":  1,
+        "explanation":  "Facebook launched 2004 by Mark Zuckerberg. Harvard initially."
+    },
+    {
+        "prompt":  "Twitter character limit was?",
+        "answers":  [
+                        "Unlimited",
+                        "140 then 280",
+                        "500",
+                        "1000"
+                    ],
+        "correct":  1,
+        "explanation":  "Twitter had 140 chars, increased to 280. Now X."
+    },
+    {
+        "prompt":  "WhatsApp was acquired by?",
+        "answers":  [
+                        "Microsoft",
+                        "Facebook/Meta",
+                        "Google",
+                        "Apple"
+                    ],
+        "correct":  1,
+        "explanation":  "WhatsApp acquired by Facebook (now Meta) 2014."
+    },
+    {
+        "prompt":  "Paytm was founded in?",
+        "answers":  [
+                        "2005",
+                        "2010",
+                        "2015",
+                        "2018"
+                    ],
+        "correct":  1,
+        "explanation":  "Paytm founded 2010 by Vijay Shekhar Sharma. Digital payments, wallet."
+    },
+    {
+        "prompt":  "India\u0027s first supercomputer?",
+        "answers":  [
+                        "PARAM 8000 - 1991",
+                        "PARAM 10000",
+                        "C-DAC",
+                        "1985"
+                    ],
+        "correct":  0,
+        "explanation":  "PARAM 8000 (1991) - India\u0027s first indigenous supercomputer. C-DAC developed."
+    },
+    {
+        "prompt":  "Cursor in computing is?",
+        "answers":  [
+                        "Hardware",
+                        "Blinking indicator - position for input",
+                        "Only in Word",
+                        "Only in Excel"
+                    ],
+        "correct":  1,
+        "explanation":  "Cursor shows where next input appears. Blinking line in text. Or mouse pointer."
+    },
+    {
+        "prompt":  "Drag and drop means?",
+        "answers":  [
+                        "Delete",
+                        "Click, hold, move to new location",
+                        "Only for files",
+                        "Only for text"
+                    ],
+        "correct":  1,
+        "explanation":  "Drag and drop - select, drag to new location, release. Move/copy."
+    }
+]

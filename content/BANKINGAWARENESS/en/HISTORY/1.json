@@ -1,0 +1,90 @@
+﻿[
+    {
+        "prompt":  "How many banks were nationalized in the first phase of bank nationalization in India?",
+        "answers":  [
+                        "6",
+                        "12",
+                        "14",
+                        "20"
+                    ],
+        "correct":  2,
+        "explanation":  "14 major commercial banks were nationalized on July 19, 1969, under the Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970."
+    },
+    {
+        "prompt":  "In which year did the second phase of bank nationalization take place in India?",
+        "answers":  [
+                        "1969",
+                        "1975",
+                        "1980",
+                        "1991"
+                    ],
+        "correct":  2,
+        "explanation":  "6 more banks were nationalized on April 15, 1980, in the second phase of bank nationalization."
+    },
+    {
+        "prompt":  "How many banks were nationalized in the second phase (1980) of bank nationalization?",
+        "answers":  [
+                        "4",
+                        "5",
+                        "6",
+                        "8"
+                    ],
+        "correct":  2,
+        "explanation":  "6 banks were nationalized in 1980: Andhra Bank, Corporation Bank, New Bank of India, Oriental Bank of Commerce, Punjab \u0026 Sind Bank, and Vijaya Bank."
+    },
+    {
+        "prompt":  "Which of the following was NOT nationalized in 1969?",
+        "answers":  [
+                        "Punjab National Bank",
+                        "Bank of Baroda",
+                        "State Bank of India",
+                        "Canara Bank"
+                    ],
+        "correct":  2,
+        "explanation":  "State Bank of India was already a public sector bank (nationalized in 1955 as Imperial Bank of India). The 14 banks nationalized in 1969 did not include SBI."
+    },
+    {
+        "prompt":  "Which bank was originally known as the Imperial Bank of India before it became State Bank of India?",
+        "answers":  [
+                        "Bank of India",
+                        "Bank of Baroda",
+                        "Presidency Banks amalgamation",
+                        "Central Bank of India"
+                    ],
+        "correct":  2,
+        "explanation":  "The Imperial Bank of India was formed in 1921 by amalgamating the three Presidency Banks. It was nationalized and renamed State Bank of India in 1955."
+    },
+    {
+        "prompt":  "The first bank to be established in India was?",
+        "answers":  [
+                        "Bank of Hindustan",
+                        "General Bank of India",
+                        "Bank of Bengal",
+                        "Presidency Bank"
+                    ],
+        "correct":  0,
+        "explanation":  "Bank of Hindustan, established in 1770 in Calcutta, is considered the first bank to be established in India. It closed in 1832."
+    },
+    {
+        "prompt":  "Which three Presidency Banks amalgamated to form Imperial Bank of India?",
+        "answers":  [
+                        "Bank of Bengal, Bank of Bombay, Bank of Madras",
+                        "Bank of Calcutta, Bank of Delhi, Bank of Madras",
+                        "PNB, Canara, Syndicate",
+                        "SBI, PNB, BOB"
+                    ],
+        "correct":  0,
+        "explanation":  "The three Presidency Banks - Bank of Bengal (1806), Bank of Bombay (1840), Bank of Madras (1843) - were amalgamated in 1921 to form Imperial Bank of India."
+    },
+    {
+        "prompt":  "Punjab and Sind Bank nationalized in?",
+        "answers":  [
+                        "1969",
+                        "1980",
+                        "1991",
+                        "Never"
+                    ],
+        "correct":  1,
+        "explanation":  "Punjab and Sind Bank was nationalized in 1980."
+    }
+]

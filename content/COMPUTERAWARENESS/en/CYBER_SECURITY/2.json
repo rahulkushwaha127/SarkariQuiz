@@ -1,0 +1,178 @@
+﻿[
+    {
+        "prompt":  "Ethical hacking is?",
+        "answers":  [
+                        "Illegal",
+                        "Legal - authorized testing for security",
+                        "Same as black hat",
+                        "Only for profit"
+                    ],
+        "correct":  1,
+        "explanation":  "Ethical hacking - authorized penetration testing. White hat."
+    },
+    {
+        "prompt":  "Encryption at rest means?",
+        "answers":  [
+                        "During transfer",
+                        "Data encrypted when stored",
+                        "Only in cloud",
+                        "Only for backup"
+                    ],
+        "correct":  1,
+        "explanation":  "Encryption at rest - data encrypted on disk, storage."
+    },
+    {
+        "prompt":  "Encryption in transit means?",
+        "answers":  [
+                        "When stored",
+                        "Data encrypted during transmission",
+                        "Only for email",
+                        "Only for HTTPS"
+                    ],
+        "correct":  1,
+        "explanation":  "Encryption in transit - data encrypted over network. TLS, HTTPS."
+    },
+    {
+        "prompt":  "End-to-end encryption?",
+        "answers":  [
+                        "Only server",
+                        "Only sender and recipient can read",
+                        "Third party can read",
+                        "Only for files"
+                    ],
+        "correct":  1,
+        "explanation":  "E2EE - only endpoints have keys. WhatsApp, Signal."
+    },
+    {
+        "prompt":  "Phishing site may have?",
+        "answers":  [
+                        "No padlock",
+                        "Look like real site, fake URL, urgency",
+                        "Only slow",
+                        "Only errors"
+                    ],
+        "correct":  1,
+        "explanation":  "Phishing - mimics real. Check URL. Don\u0027t trust urgency."
+    },
+    {
+        "prompt":  "Malware types include?",
+        "answers":  [
+                        "Only virus",
+                        "Virus, worm, trojan, ransomware, spyware",
+                        "Only trojan",
+                        "Only ransomware"
+                    ],
+        "correct":  1,
+        "explanation":  "Malware - malicious software. Multiple types."
+    },
+    {
+        "prompt":  "Ransomware does?",
+        "answers":  [
+                        "Deletes only",
+                        "Encrypts files, demands payment to unlock",
+                        "Only steals",
+                        "Only slows"
+                    ],
+        "correct":  1,
+        "explanation":  "Ransomware - encrypt, ransom. Backup helps."
+    },
+    {
+        "prompt":  "Two-Factor Authentication (2FA) adds security by?",
+        "answers":  [
+                        "Using two passwords",
+                        "Requiring something you know + something you have",
+                        "Using two usernames",
+                        "Doubling the password length"
+                    ],
+        "correct":  1,
+        "explanation":  "2FA uses two factors: knowledge (password) + possession (phone/OTP/token). Much more secure than password alone."
+    },
+    {
+        "prompt":  "Firewall can be?",
+        "answers":  [
+                        "Hardware only",
+                        "Hardware or software",
+                        "Software only",
+                        "Neither"
+                    ],
+        "correct":  1,
+        "explanation":  "Firewall can be hardware (router) or software (Windows Firewall, antivirus)."
+    },
+    {
+        "prompt":  "Phishing attacks often use?",
+        "answers":  [
+                        "Strong passwords",
+                        "Fake emails and websites",
+                        "Antivirus",
+                        "Firewall"
+                    ],
+        "correct":  1,
+        "explanation":  "Phishing uses fake emails/websites to steal credentials. Check URL, sender."
+    },
+    {
+        "prompt":  "Spear phishing targets?",
+        "answers":  [
+                        "Everyone",
+                        "Specific individuals or organizations",
+                        "Only businesses",
+                        "Only government"
+                    ],
+        "correct":  1,
+        "explanation":  "Spear phishing targets specific people - personalized, more convincing."
+    },
+    {
+        "prompt":  "Ransomware typically demands payment in?",
+        "answers":  [
+                        "Cash",
+                        "Cryptocurrency - Bitcoin etc",
+                        "Cheque",
+                        "Credit card"
+                    ],
+        "correct":  1,
+        "explanation":  "Ransomware demands cryptocurrency for anonymity. Hard to trace."
+    },
+    {
+        "prompt":  "Cyber crime in India is addressed by?",
+        "answers":  [
+                        "Only civil law",
+                        "IT Act 2000 and amendments",
+                        "Only state law",
+                        "No law"
+                    ],
+        "correct":  1,
+        "explanation":  "Information Technology Act 2000 addresses cyber crimes - hacking, data theft, etc."
+    },
+    {
+        "prompt":  "Encryption is?",
+        "answers":  [
+                        "Deleting data",
+                        "Converting data to unreadable form for security",
+                        "Compressing",
+                        "Formatting"
+                    ],
+        "correct":  1,
+        "explanation":  "Encryption converts data to cipher. Only key holder can decrypt."
+    },
+    {
+        "prompt":  "Symmetric encryption uses?",
+        "answers":  [
+                        "Two different keys",
+                        "Same key for encrypt and decrypt",
+                        "No key",
+                        "Public key only"
+                    ],
+        "correct":  1,
+        "explanation":  "Symmetric: one key for both. AES is symmetric. Faster for bulk data."
+    },
+    {
+        "prompt":  "Asymmetric encryption uses?",
+        "answers":  [
+                        "One key",
+                        "Public key and private key pair",
+                        "No key",
+                        "Same key"
+                    ],
+        "correct":  1,
+        "explanation":  "Asymmetric: public key encrypts, private decrypts. RSA. Used in HTTPS, digital signatures."
+    }
+]

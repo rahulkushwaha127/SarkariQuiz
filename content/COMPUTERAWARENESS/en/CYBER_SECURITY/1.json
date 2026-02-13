@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "What is the main function of a Firewall?",
+        "answers":  [
+                        "Create viruses",
+                        "Block unauthorized access",
+                        "Compress data",
+                        "Speed up internet"
+                    ],
+        "correct":  1,
+        "explanation":  "Firewall monitors and controls network traffic - blocks unauthorized access while allowing legitimate communication."
+    },
+    {
+        "prompt":  "Virus is what type of software?",
+        "answers":  [
+                        "Malicious",
+                        "Utility",
+                        "Application",
+                        "System"
+                    ],
+        "correct":  0,
+        "explanation":  "Virus is malicious software that replicates itself and can damage data or system."
+    },
+    {
+        "prompt":  "Phishing is?",
+        "answers":  [
+                        "Fishing activity",
+                        "Fraud to steal sensitive information via fake emails/sites",
+                        "File transfer",
+                        "Printing"
+                    ],
+        "correct":  1,
+        "explanation":  "Phishing uses fake emails or websites to trick users into revealing passwords, credit card details, etc."
+    },
+    {
+        "prompt":  "Which is an example of Antivirus software?",
+        "answers":  [
+                        "Norton",
+                        "MS Word",
+                        "Google Chrome",
+                        "Windows Explorer"
+                    ],
+        "correct":  0,
+        "explanation":  "Norton is a popular antivirus. MS Word is word processor, Chrome is browser, Explorer is file manager."
+    },
+    {
+        "prompt":  "Malware can include?",
+        "answers":  [
+                        "Only virus",
+                        "Virus, worm, trojan, ransomware, spyware",
+                        "Only trojan",
+                        "Only adware"
+                    ],
+        "correct":  1,
+        "explanation":  "Malware is umbrella term - all malicious software types."
+    },
+    {
+        "prompt":  "Antivirus uses to detect malware?",
+        "answers":  [
+                        "Only manual",
+                        "Signature and behavior-based detection",
+                        "Only heuristics",
+                        "Only cloud"
+                    ],
+        "correct":  1,
+        "explanation":  "Antivirus uses signatures (known patterns) and behavior analysis."
+    },
+    {
+        "prompt":  "CAPTCHA is used to?",
+        "answers":  [
+                        "Speed up",
+                        "Verify human user - prevent bots",
+                        "Encrypt",
+                        "Compress"
+                    ],
+        "correct":  1,
+        "explanation":  "CAPTCHA (Completely Automated Public Turing test) - distinguish human from bot."
+    },
+    {
+        "prompt":  "Phishing uses?",
+        "answers":  [
+                        "Technical hacking",
+                        "Social engineering - tricking users",
+                        "Only malware",
+                        "Only virus"
+                    ],
+        "correct":  1,
+        "explanation":  "Phishing relies on tricking users - fake emails, urgency. Social engineering."
+    },
+    {
+        "prompt":  "Strong password should have?",
+        "answers":  [
+                        "Only letters",
+                        "Mix of letters, numbers, symbols; length",
+                        "Only numbers",
+                        "Same as username"
+                    ],
+        "correct":  1,
+        "explanation":  "Strong password: long, mix of character types, not dictionary word."
+    },
+    {
+        "prompt":  "Password manager?",
+        "answers":  [
+                        "Creates weak passwords",
+                        "Stores passwords securely - one master password",
+                        "Shares passwords",
+                        "Only for one site"
+                    ],
+        "correct":  1,
+        "explanation":  "Password manager stores passwords. One strong master password. Reduces reuse."
+    },
+    {
+        "prompt":  "OTP stands for?",
+        "answers":  [
+                        "One Time Password",
+                        "Online Transaction Password",
+                        "One Time Pin",
+                        "Online Transfer Pin"
+                    ],
+        "correct":  0,
+        "explanation":  "OTP - valid for single use or short time. SMS, app. More secure."
+    },
+    {
+        "prompt":  "End-to-end encryption means?",
+        "answers":  [
+                        "Only server encrypted",
+                        "Only sender and recipient can read - not even service provider",
+                        "Only in transit",
+                        "Only for email"
+                    ],
+        "correct":  1,
+        "explanation":  "E2EE - data encrypted on sender device, decrypted only on recipient. WhatsApp uses."
+    },
+    {
+        "prompt":  "First computer virus was?",
+        "answers":  [
+                        "In 2000",
+                        "Creeper 1971 - experimental",
+                        "In 1990",
+                        "In 1985"
+                    ],
+        "correct":  1,
+        "explanation":  "Creeper (1971) - first computer virus. Experimental. Displayed message."
+    },
+    {
+        "prompt":  "What does Malware mean?",
+        "answers":  [
+                        "Malicious Software",
+                        "Main Software",
+                        "Memory Software",
+                        "Media Software"
+                    ],
+        "correct":  0,
+        "explanation":  "Malware is malicious software - includes viruses, worms, ransomware, spyware designed to harm systems."
+    },
+    {
+        "prompt":  "What does Ransomware do?",
+        "answers":  [
+                        "Locks files and demands payment",
+                        "Deletes files",
+                        "Speeds up system",
+                        "Installs antivirus"
+                    ],
+        "correct":  0,
+        "explanation":  "Ransomware encrypts files and demands ransom (usually in cryptocurrency) to decrypt them."
+    },
+    {
+        "prompt":  "Biometric advantage over password?",
+        "answers":  [
+                        "Easier to share",
+                        "Hard to forge, no memory needed",
+                        "Easier to steal",
+                        "Slower"
+                    ],
+        "correct":  1,
+        "explanation":  "Biometric - you are the key. Can\u0027t forget. Harder to replicate."
+    },
+    {
+        "prompt":  "OTP in banking?",
+        "answers":  [
+                        "Optional",
+                        "One Time Password - for authentication",
+                        "Only for email",
+                        "Only for SMS"
+                    ],
+        "correct":  1,
+        "explanation":  "OTP - single use. SMS or app. Verifies transaction."
+    },
+    {
+        "prompt":  "Two-Factor Authentication 2FA requires?",
+        "answers":  [
+                        "Only password",
+                        "Two of: password, OTP, biometric, device",
+                        "Only OTP",
+                        "Only biometric"
+                    ],
+        "correct":  1,
+        "explanation":  "2FA - something you know + something you have/are. Extra security."
+    },
+    {
+        "prompt":  "CAPTCHA prevents?",
+        "answers":  [
+                        "Viruses",
+                        "Bots - automated submissions",
+                        "Humans",
+                        "Only spam"
+                    ],
+        "correct":  1,
+        "explanation":  "CAPTCHA - Completely Automated Public Turing test. Distinguishes human."
+    },
+    {
+        "prompt":  "reCAPTCHA is by?",
+        "answers":  [
+                        "Microsoft",
+                        "Google",
+                        "Apple",
+                        "Facebook"
+                    ],
+        "correct":  1,
+        "explanation":  "reCAPTCHA - Google. Often used for digitizing books, image labeling."
+    },
+    {
+        "prompt":  "Strong password has?",
+        "answers":  [
+                        "Only letters",
+                        "Mix: upper, lower, numbers, symbols, long",
+                        "Only numbers",
+                        "Only 6 chars"
+                    ],
+        "correct":  1,
+        "explanation":  "Strong: 12+ chars, mixed case, numbers, symbols. No dictionary words."
+    },
+    {
+        "prompt":  "Password manager?",
+        "answers":  [
+                        "Stores in plain text",
+                        "Encrypted storage of passwords",
+                        "Only browser",
+                        "Only one password"
+                    ],
+        "correct":  1,
+        "explanation":  "Password manager - encrypted vault. One master password. Generates strong."
+    },
+    {
+        "prompt":  "Phishing targets?",
+        "answers":  [
+                        "Only money",
+                        "Credentials, personal info, financial data",
+                        "Only email",
+                        "Only phone"
+                    ],
+        "correct":  1,
+        "explanation":  "Phishing - fake sites/emails to steal login, card, Aadhaar."
+    },
+    {
+        "prompt":  "Spear phishing is?",
+        "answers":  [
+                        "General spam",
+                        "Targeted - specific person or organization",
+                        "Only for companies",
+                        "Only for banks"
+                    ],
+        "correct":  1,
+        "explanation":  "Spear phishing - personalized. Researches victim. More dangerous."
+    },
+    {
+        "prompt":  "Cyber crime includes?",
+        "answers":  [
+                        "Only hacking",
+                        "Hacking, phishing, identity theft, cyber bullying",
+                        "Only virus",
+                        "Only spam"
+                    ],
+        "correct":  1,
+        "explanation":  "Cyber crime - various offenses via computer or network."
+    }
+]

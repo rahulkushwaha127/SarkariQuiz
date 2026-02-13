@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "RTGS full form?",
+        "answers":  [
+                        "Real Time Gross Settlement",
+                        "Real Time Gross System",
+                        "Real Time Government Settlement",
+                        "Real Time Gross Transfer"
+                    ],
+        "correct":  0,
+        "explanation":  "RTGS - real-time, gross. For high-value. RBI."
+    },
+    {
+        "prompt":  "RTGS vs NEFT?",
+        "answers":  [
+                        "Same",
+                        "RTGS real-time, NEFT batched. RTGS for larger amounts",
+                        "NEFT faster",
+                        "RTGS batched"
+                    ],
+        "correct":  1,
+        "explanation":  "RTGS - immediate, gross. NEFT - batched. RTGS min 2 lakh."
+    },
+    {
+        "prompt":  "Bharat Bill Pay?",
+        "answers":  [
+                        "Only electricity",
+                        "Unified bill payment - electricity, water, DTH, etc",
+                        "Only DTH",
+                        "Only mobile"
+                    ],
+        "correct":  1,
+        "explanation":  "BBPS - pay various bills from single platform. NPCI."
+    },
+    {
+        "prompt":  "CBDC is?",
+        "answers":  [
+                        "Private crypto",
+                        "Central Bank Digital Currency - digital rupee",
+                        "Only for banks",
+                        "Only for UPI"
+                    ],
+        "correct":  1,
+        "explanation":  "CBDC - digital form of fiat. RBI pilot. e-Rupee."
+    },
+    {
+        "prompt":  "Digital Rupee e-Rupee?",
+        "answers":  [
+                        "Cryptocurrency",
+                        "Legal tender - RBI issued",
+                        "Private",
+                        "Only for UPI"
+                    ],
+        "correct":  1,
+        "explanation":  "e-Rupee - CBDC. Same as cash. Legal tender."
+    },
+    {
+        "prompt":  "FASTag is for?",
+        "answers":  [
+                        "Parking only",
+                        "Electronic toll collection - NFC",
+                        "Only fuel",
+                        "Only parking"
+                    ],
+        "correct":  1,
+        "explanation":  "FASTag - prepaid, RFID. Touch and go at toll."
+    },
+    {
+        "prompt":  "NACH stands for?",
+        "answers":  [
+                        "National Automated Clearing House",
+                        "National Automatic Clearing",
+                        "National Automated Clearing System",
+                        "National Automatic Clearing House"
+                    ],
+        "correct":  0,
+        "explanation":  "NACH - bulk payments, mandates. Recurring, one-time."
+    },
+    {
+        "prompt":  "DBT full form?",
+        "answers":  [
+                        "Direct Benefit Transfer",
+                        "Direct Bank Transfer",
+                        "Digital Benefit Transfer",
+                        "Direct Benefit Transaction"
+                    ],
+        "correct":  0,
+        "explanation":  "DBT - government benefits directly to beneficiary bank account."
+    },
+    {
+        "prompt":  "CPU full form?",
+        "answers":  [
+                        "Central Processing Unit",
+                        "Control Processing Unit",
+                        "Computer Processing Unit",
+                        "Central Program Unit"
+                    ],
+        "correct":  0,
+        "explanation":  "CPU - brain of computer. Executes instructions."
+    },
+    {
+        "prompt":  "GPU full form?",
+        "answers":  [
+                        "Graphics Processing Unit",
+                        "General Processing Unit",
+                        "Graphics Program Unit",
+                        "General Program Unit"
+                    ],
+        "correct":  0,
+        "explanation":  "GPU - handles graphics. Also used for AI, mining."
+    },
+    {
+        "prompt":  "RAM full form?",
+        "answers":  [
+                        "Random Access Memory",
+                        "Read Access Memory",
+                        "Rapid Access Memory",
+                        "Run Access Memory"
+                    ],
+        "correct":  0,
+        "explanation":  "RAM - volatile. Actively used data."
+    },
+    {
+        "prompt":  "ROM full form?",
+        "answers":  [
+                        "Read Only Memory",
+                        "Random Only Memory",
+                        "Read Once Memory",
+                        "Run Only Memory"
+                    ],
+        "correct":  0,
+        "explanation":  "ROM - non-volatile. Pre-written. BIOS."
+    },
+    {
+        "prompt":  "HDD full form?",
+        "answers":  [
+                        "Hard Disk Drive",
+                        "High Density Disk",
+                        "Hard Digital Drive",
+                        "High Definition Disk"
+                    ],
+        "correct":  0,
+        "explanation":  "HDD - magnetic storage. Spinning platters."
+    },
+    {
+        "prompt":  "SSD full form?",
+        "answers":  [
+                        "Solid State Drive",
+                        "Super Speed Drive",
+                        "Solid Storage Device",
+                        "Super Storage Drive"
+                    ],
+        "correct":  0,
+        "explanation":  "SSD - no moving parts. Flash memory. Faster than HDD."
+    },
+    {
+        "prompt":  "LCD full form?",
+        "answers":  [
+                        "Liquid Crystal Display",
+                        "Light Crystal Display",
+                        "Liquid Color Display",
+                        "Low Cost Display"
+                    ],
+        "correct":  0,
+        "explanation":  "LCD - liquid crystal display."
+    },
+    {
+        "prompt":  "LED in LED monitor?",
+        "answers":  [
+                        "Light Emitting Diode",
+                        "Liquid Emitting Display",
+                        "Low Energy Display",
+                        "Light Electronic Display"
+                    ],
+        "correct":  0,
+        "explanation":  "LED monitor - LED backlight. Better than CCFL LCD."
+    },
+    {
+        "prompt":  "UPS full form?",
+        "answers":  [
+                        "Uninterruptible Power Supply",
+                        "Universal Power Supply",
+                        "Unified Power System",
+                        "Uninterrupted Power Source"
+                    ],
+        "correct":  0,
+        "explanation":  "UPS - backup power during outage."
+    },
+    {
+        "prompt":  "MAN full form?",
+        "answers":  [
+                        "Metropolitan Area Network",
+                        "Metro Area Network",
+                        "Metropolitan Access Network",
+                        "Metro Access Network"
+                    ],
+        "correct":  0,
+        "explanation":  "MAN - city or metropolitan area."
+    },
+    {
+        "prompt":  "PAN full form in networking?",
+        "answers":  [
+                        "Personal Area Network",
+                        "Public Area Network",
+                        "Private Area Network",
+                        "Personal Access Network"
+                    ],
+        "correct":  0,
+        "explanation":  "PAN - very short range. Bluetooth, body area."
+    },
+    {
+        "prompt":  "VGA stands for?",
+        "answers":  [
+                        "Video Graphics Array",
+                        "Visual Graphics Array",
+                        "Video General Array",
+                        "Visual General Array"
+                    ],
+        "correct":  0,
+        "explanation":  "VGA - display standard. 640x480. Also connector."
+    },
+    {
+        "prompt":  "HDMI full form?",
+        "answers":  [
+                        "High Definition Multimedia Interface",
+                        "High Digital Multimedia Interface",
+                        "High Definition Media Interface",
+                        "High Digital Media Interface"
+                    ],
+        "correct":  0,
+        "explanation":  "HDMI - digital video and audio. Single cable."
+    },
+    {
+        "prompt":  "VGA vs HDMI?",
+        "answers":  [
+                        "Same",
+                        "HDMI digital, higher quality. VGA analog",
+                        "VGA better",
+                        "HDMI analog"
+                    ],
+        "correct":  1,
+        "explanation":  "HDMI - digital, HD/4K. VGA - analog, legacy."
+    },
+    {
+        "prompt":  "DPI in printing?",
+        "answers":  [
+                        "Dots Per Inch",
+                        "Data Per Inch",
+                        "Display Per Inch",
+                        "Digital Per Inch"
+                    ],
+        "correct":  0,
+        "explanation":  "DPI - print resolution. More dots = sharper."
+    },
+    {
+        "prompt":  "PPI in display?",
+        "answers":  [
+                        "Pixels Per Inch",
+                        "Points Per Inch",
+                        "Print Per Inch",
+                        "Pixel Per Inch"
+                    ],
+        "correct":  0,
+        "explanation":  "PPI - screen density. Retina ~300+ PPI."
+    },
+    {
+        "prompt":  "ASCII full form?",
+        "answers":  [
+                        "American Standard Code for Information Interchange",
+                        "American System Code for Information",
+                        "Asian Standard Code",
+                        "American Standard Code for Interchange"
+                    ],
+        "correct":  0,
+        "explanation":  "ASCII - character encoding. 128 or 256 characters."
+    }
+]

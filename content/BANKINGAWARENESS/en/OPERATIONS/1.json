@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "NPA provisioning affects?",
+        "answers":  [
+                        "Only balance sheet",
+                        "Profit and loss reduces profit",
+                        "Only capital",
+                        "Only deposits"
+                    ],
+        "correct":  1,
+        "explanation":  "Provisioning is an expense charged to P and L. Higher NPA provisioning reduces bank net profit."
+    },
+    {
+        "prompt":  "NEFT operates in how many batches per day?",
+        "answers":  [
+                        "12",
+                        "24",
+                        "48",
+                        "96"
+                    ],
+        "correct":  2,
+        "explanation":  "NEFT operates in 48 half-hourly batches on weekdays and 24 batches on Saturdays. It is available 24x7 from December 2019."
+    },
+    {
+        "prompt":  "RTGS operates during?",
+        "answers":  [
+                        "Bank working hours only",
+                        "24x7",
+                        "Only weekdays 9 to 5",
+                        "Only when NEFT runs"
+                    ],
+        "correct":  1,
+        "explanation":  "RTGS is available 24x7. It was made round-the-clock in December 2020 to facilitate large value payments anytime."
+    },
+    {
+        "prompt":  "IMPS transaction limit per transaction is typically?",
+        "answers":  [
+                        "Rs 50,000",
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh"
+                    ],
+        "correct":  2,
+        "explanation":  "IMPS has a limit of Rs 2 lakh per transaction (may vary by bank). It enables instant transfer 24x7."
+    },
+    {
+        "prompt":  "Full KYC PPI allows?",
+        "answers":  [
+                        "Only loading from own account",
+                        "Loading from any source, higher limits",
+                        "No loading",
+                        "Only cash loading"
+                    ],
+        "correct":  1,
+        "explanation":  "Full KYC PPIs can be loaded from bank account, cards, and have higher transaction limits than minimum KYC PPIs."
+    },
+    {
+        "prompt":  "Positive Pay System for cheques is?",
+        "answers":  [
+                        "Voluntary",
+                        "Mandatory for cheques above Rs 50,000",
+                        "Only for demand drafts",
+                        "Only for RTGS"
+                    ],
+        "correct":  1,
+        "explanation":  "RBI mandated Positive Pay for cheques of Rs 50,000 and above. Drawer submits cheque details to bank before presentation."
+    },
+    {
+        "prompt":  "Gold loan is a type of?",
+        "answers":  [
+                        "Unsecured loan",
+                        "Secured loan - gold pledged as collateral",
+                        "Personal loan",
+                        "Education loan"
+                    ],
+        "correct":  1,
+        "explanation":  "Gold loan is secured - customer pledges gold ornaments/jewelry. Bank provides loan up to a percentage of gold value (e.g., 75%)."
+    },
+    {
+        "prompt":  "Loan against property (LAP) is?",
+        "answers":  [
+                        "Unsecured",
+                        "Secured against residential or commercial property",
+                        "Only for farmers",
+                        "Only for business"
+                    ],
+        "correct":  1,
+        "explanation":  "LAP is a secured loan where property (residential/commercial) is mortgaged. Used for business, education, medical, etc."
+    },
+    {
+        "prompt":  "Loan-to-Value (LTV) ratio in home loan is?",
+        "answers":  [
+                        "Loan amount to property value",
+                        "Property value to loan",
+                        "Interest to principal",
+                        "EMI to income"
+                    ],
+        "correct":  0,
+        "explanation":  "LTV = (Loan amount / Property value) x 100. RBI caps LTV for home loans - e.g., up to 90% for loans up to Rs 30 lakh."
+    },
+    {
+        "prompt":  "RBI has capped LTV for home loans above Rs 75 lakh at?",
+        "answers":  [
+                        "90%",
+                        "80%",
+                        "75%",
+                        "70%"
+                    ],
+        "correct":  2,
+        "explanation":  "For home loans above Rs 75 lakh, LTV is capped at 75%. For Rs 30-75 lakh: 80%. For up to Rs 30 lakh: 90%."
+    },
+    {
+        "prompt":  "Floating rate loan interest is linked to?",
+        "answers":  [
+                        "Fixed for entire tenure",
+                        "External benchmark like Repo, MCLR",
+                        "Only inflation",
+                        "Only CRR"
+                    ],
+        "correct":  1,
+        "explanation":  "Floating rate is linked to external benchmark (Repo) or MCLR. When benchmark changes, interest rate adjusts."
+    },
+    {
+        "prompt":  "Base rate was introduced by RBI in?",
+        "answers":  [
+                        "2003",
+                        "2008",
+                        "2010",
+                        "2016"
+                    ],
+        "correct":  2,
+        "explanation":  "Base rate was introduced in July 2010. It was the minimum rate below which banks could not lend. Replaced by MCLR in 2016."
+    },
+    {
+        "prompt":  "Spread or mark-up over MCLR is?",
+        "answers":  [
+                        "Fixed by RBI",
+                        "Decided by bank based on risk, tenure",
+                        "Always zero",
+                        "Same for all customers"
+                    ],
+        "correct":  1,
+        "explanation":  "Banks add a spread (mark-up) over MCLR based on credit risk, tenure, and other factors. Final interest = MCLR + spread."
+    },
+    {
+        "prompt":  "Moratorium period in loan means?",
+        "answers":  [
+                        "Repayment period",
+                        "Period when EMI payment is not required",
+                        "Only for education loans",
+                        "Only for home loans"
+                    ],
+        "correct":  1,
+        "explanation":  "Moratorium is a period when borrower is not required to pay EMI. Common in education loans during course period."
+    },
+    {
+        "prompt":  "CASA deposits are low cost because?",
+        "answers":  [
+                        "They earn high interest",
+                        "They earn low or no interest - cheap source of funds",
+                        "They are large",
+                        "They are small"
+                    ],
+        "correct":  1,
+        "explanation":  "Savings and current accounts typically pay low or zero interest. Banks prefer CASA as it reduces cost of funds."
+    },
+    {
+        "prompt":  "State Development Loans (SDLs) are issued by?",
+        "answers":  [
+                        "Central Government",
+                        "State Governments",
+                        "RBI",
+                        "Municipalities"
+                    ],
+        "correct":  1,
+        "explanation":  "SDLs are issued by State Governments for their borrowing needs. RBI conducts auctions. They carry slight risk premium over G-Secs."
+    },
+    {
+        "prompt":  "Stand-Up India scheme provides bank loans for?",
+        "answers":  [
+                        "All entrepreneurs",
+                        "SC/ST and women entrepreneurs - Rs 10 lakh to 1 crore",
+                        "Only women",
+                        "Only SC/ST"
+                    ],
+        "correct":  1,
+        "explanation":  "Stand-Up India facilitates bank loans between Rs 10 lakh and Rs 1 crore for at least one SC/ST and one woman borrower per branch."
+    },
+    {
+        "prompt":  "MUDRA loan is disbursed through?",
+        "answers":  [
+                        "RBI directly",
+                        "Banks, NBFCs, MFIs",
+                        "Only RRBs",
+                        "Only cooperative banks"
+                    ],
+        "correct":  1,
+        "explanation":  "MUDRA loans are disbursed by banks, NBFCs, and MFIs. MUDRA provides refinance and does not lend directly."
+    },
+    {
+        "prompt":  "Kishore category under Mudra covers loans from?",
+        "answers":  [
+                        "Up to Rs 50,000",
+                        "Rs 50,001 to Rs 5 lakh",
+                        "Rs 5 lakh to Rs 10 lakh",
+                        "Above Rs 10 lakh"
+                    ],
+        "correct":  1,
+        "explanation":  "Mudra: Shishu up to Rs 50,000; Kishore Rs 50,001 to 5 lakh; Tarun Rs 5 lakh to 10 lakh."
+    },
+    {
+        "prompt":  "Gold loan NBFC can lend against?",
+        "answers":  [
+                        "Only property",
+                        "Gold ornaments, jewelry",
+                        "Only cash",
+                        "Only shares"
+                    ],
+        "correct":  1,
+        "explanation":  "Gold loan NBFCs (e.g., Muthoot, Manappuram) provide loans against pledge of gold ornaments."
+    },
+    {
+        "prompt":  "Central KYC Registry CERSAI maintains?",
+        "answers":  [
+                        "Only NPAs",
+                        "Centralized KYC records to prevent duplicate KYC",
+                        "Only loan records",
+                        "Only deposit records"
+                    ],
+        "correct":  1,
+        "explanation":  "CERSAI hosts CKYCR - centralized KYC to avoid repeat KYC when customer switches banks."
+    },
+    {
+        "prompt":  "KYC for high risk customers is updated every?",
+        "answers":  [
+                        "10 years",
+                        "8 years",
+                        "2 years",
+                        "5 years"
+                    ],
+        "correct":  2,
+        "explanation":  "KYC updation: Low risk every 10 years; Medium every 8 years; High risk every 2 years."
+    },
+    {
+        "prompt":  "Simplified KYC or small accounts have balance limit of?",
+        "answers":  [
+                        "Rs 50000",
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh"
+                    ],
+        "correct":  1,
+        "explanation":  "Small accounts have annual aggregate balance limit of Rs 1 lakh. Transaction limit Rs 10000 per month."
+    },
+    {
+        "prompt":  "CRR is calculated as percentage of?",
+        "answers":  [
+                        "Total assets",
+                        "Net Demand and Time Liabilities",
+                        "Only deposits",
+                        "Only savings"
+                    ],
+        "correct":  1,
+        "explanation":  "CRR is percentage of bank Net Demand and Time Liabilities."
+    },
+    {
+        "prompt":  "Banks earn interest on CRR balance?",
+        "answers":  [
+                        "Yes at Repo rate",
+                        "No interest",
+                        "Yes at Savings rate",
+                        "Yes at FD rate"
+                    ],
+        "correct":  1,
+        "explanation":  "No interest is paid on CRR balances."
+    }
+]

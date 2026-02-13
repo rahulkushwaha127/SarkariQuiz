@@ -1,0 +1,277 @@
+[
+    {
+        "prompt": "हॉटस्पॉट प्रदान करता है?",
+        "answers": [
+            "केवल प्राप्त",
+            "इंटरनेट शेयर करना - मोबाइल डेटा से वाईफाई",
+            "केवल ब्लूटूथ",
+            "केवल केबल"
+        ],
+        "correct": 1,
+        "explanation": "हॉटस्पॉट/टीथरिंग - फोन के डेटा को वाईफाई के रूप में शेयर करें।"
+    },
+    {
+        "prompt": "100 Mbps बैंडविड्थ का मतलब?",
+        "answers": [
+            "100 MB प्रति सेकंड",
+            "100 मेगाबिट प्रति सेकंड",
+            "100 MHz",
+            "100 ms"
+        ],
+        "correct": 1,
+        "explanation": "Mbps = मेगाबिट प्रति सेकंड। 8 बिट = 1 बाइट।"
+    },
+    {
+        "prompt": "Mbps बनाम MBps?",
+        "answers": [
+            "समान",
+            "Mbps = मेगाबिट, MBps = मेगाबाइट प्रति सेकंड",
+            "MBps छोटा",
+            "कोई अंतर नहीं"
+        ],
+        "correct": 1,
+        "explanation": "Mb = मेगाबिट, MB = मेगाबाइट। 8 Mb = 1 MB।"
+    },
+    {
+        "prompt": "भारत में ब्रॉडबैंड परिभाषित?",
+        "answers": [
+            "512 Kbps",
+            "न्यूनतम 512 Kbps - TRAI",
+            "256 Kbps",
+            "1 Mbps"
+        ],
+        "correct": 1,
+        "explanation": "TRAI ब्रॉडबैंड को 512 Kbps या उससे अधिक परिभाषित करता है।"
+    },
+    {
+        "prompt": "SIM का मतलब?",
+        "answers": [
+            "Subscriber Identity Module",
+            "System Identity Module",
+            "Subscriber Interface Module",
+            "Simple Identity Module"
+        ],
+        "correct": 0,
+        "explanation": "SIM - ग्राहक की पहचान। संपर्क, नेटवर्क ऑथ।"
+    },
+    {
+        "prompt": "eSIM क्या है?",
+        "answers": [
+            "केवल भौतिक",
+            "एम्बेडेड SIM - प्रोग्राम योग्य, कोई भौतिक कार्ड नहीं",
+            "एक्सटर्नल SIM",
+            "एक्स्ट्रा SIM"
+        ],
+        "correct": 1,
+        "explanation": "eSIM - अंतर्निहित। भौतिक कार्ड नहीं। प्रोग्राम योग्य।"
+    },
+    {
+        "prompt": "मोबाइल में SAR मान?",
+        "answers": [
+            "स्टोरेज",
+            "Specific Absorption Rate - विकिरण",
+            "गति",
+            "ध्वनि"
+        ],
+        "correct": 1,
+        "explanation": "SAR - अवशोषित रेडियो फ्रीक्वेंसी ऊर्जा। भारत सीमा 1.6 W/kg।"
+    },
+    {
+        "prompt": "माउस किस प्रकार का इनपुट डिवाइस है?",
+        "answers": [
+            "पॉइंटिंग",
+            "स्कैनिंग",
+            "प्रिंटिंग",
+            "स्टोरेज"
+        ],
+        "correct": 0,
+        "explanation": "माउस पॉइंटिंग डिवाइस है - कर्सर हिलाने और आइटम चुनने के लिए।"
+    },
+    {
+        "prompt": "कीबोर्ड किस प्रकार का डिवाइस है?",
+        "answers": [
+            "इनपुट",
+            "आउटपुट",
+            "स्टोरेज",
+            "प्रोसेसिंग"
+        ],
+        "correct": 0,
+        "explanation": "कीबोर्ड इनपुट डिवाइस है - डेटा और कमांड दर्ज करने के लिए।"
+    },
+    {
+        "prompt": "मॉनिटर किस प्रकार का डिवाइस है?",
+        "answers": [
+            "आउटपुट",
+            "इनपुट",
+            "स्टोरेज",
+            "प्रोसेसिंग"
+        ],
+        "correct": 0,
+        "explanation": "मॉनिटर आउटपुट डिवाइस है - कंप्यूटर से जानकारी प्रदर्शित करता है।"
+    },
+    {
+        "prompt": "कंप्यूटर में ALU का पूरा नाम क्या है?",
+        "answers": [
+            "Arithmetic Logic Unit",
+            "Arithmetic Logic Union",
+            "Advanced Logic Unit",
+            "All Logic Unit"
+        ],
+        "correct": 0,
+        "explanation": "ALU अंकगणित (जोड़, घटाव) और तार्किक (AND, OR) संचालन करता है। यह CPU का हिस्सा है।"
+    },
+    {
+        "prompt": "कंप्यूटर में CU का पूरा नाम क्या है?",
+        "answers": [
+            "Control Unit",
+            "Central Unit",
+            "Cache Unit",
+            "Computer Unit"
+        ],
+        "correct": 0,
+        "explanation": "कंट्रोल यूनिट प्रोसेसर के संचालन को निर्देशित करती है।"
+    },
+    {
+        "prompt": "कैश मेमोरी कहाँ स्थित होती है?",
+        "answers": [
+            "CPU में",
+            "RAM में",
+            "हार्ड डिस्क में",
+            "ROM में"
+        ],
+        "correct": 0,
+        "explanation": "कैश CPU के अंदर या बहुत करीब उच्च-गति मेमोरी है।"
+    },
+    {
+        "prompt": "SSD का पूरा नाम क्या है?",
+        "answers": [
+            "Solid State Drive",
+            "Super Speed Drive",
+            "Storage State Drive",
+            "Simple State Drive"
+        ],
+        "correct": 0,
+        "explanation": "SSD में कोई चलती भाग नहीं - फ्लैश मेमोरी उपयोग करता है। HDD से तेज।"
+    },
+    {
+        "prompt": "क्लाउड कंप्यूटिंग का मतलब है?",
+        "answers": [
+            "इंटरनेट पर संसाधन प्रदान करना",
+            "लोकल स्टोरेज",
+            "हार्डवेयर बेचना",
+            "सॉफ्टवेयर इंस्टॉल करना"
+        ],
+        "correct": 0,
+        "explanation": "क्लाउड कंप्यूटिंग इंटरनेट पर ऑन-डिमांड कंप्यूटिंग सेवाएं देती है।"
+    },
+    {
+        "prompt": "बिग डेटा 3V से विशेषता है। वे कौन से हैं?",
+        "answers": [
+            "Volume, Velocity, Variety",
+            "Value, Volume, Variety",
+            "Velocity, Value, Volume",
+            "Variety, Velocity, Value"
+        ],
+        "correct": 0,
+        "explanation": "बिग डेटा के 3V: Volume (बड़ी मात्रा), Velocity (उच्च गति), Variety (विभिन्न प्रकार)।"
+    },
+    {
+        "prompt": "ब्लॉकचेन मुख्य रूप से कहाँ उपयोग होता है?",
+        "answers": [
+            "क्रिप्टोकरेंसी",
+            "ईमेल",
+            "वेब ब्राउजिंग",
+            "गेमिंग"
+        ],
+        "correct": 0,
+        "explanation": "बिटकॉइन और अन्य क्रिप्टोकरेंसी सुरक्षित लेनदेन के लिए ब्लॉकचेन उपयोग करते हैं।"
+    },
+    {
+        "prompt": "AePS का पूरा नाम क्या है?",
+        "answers": [
+            "Aadhaar Enabled Payment System",
+            "Automated Electronic Payment System",
+            "Aadhaar Electronic Payment Service",
+            "Automated Enabled Payment Service"
+        ],
+        "correct": 0,
+        "explanation": "AePS आधार प्रमाणीकरण से बैंक लेनदेन की अनुमति देता है।"
+    },
+    {
+        "prompt": "ईमेल भेजने के लिए कौन सा प्रोटोकॉल उपयोग होता है?",
+        "answers": [
+            "SMTP",
+            "HTTP",
+            "FTP",
+            "TCP"
+        ],
+        "correct": 0,
+        "explanation": "SMTP (Simple Mail Transfer Protocol) ईमेल भेजने के लिए उपयोग होता है।"
+    },
+    {
+        "prompt": "RFID का मतलब?",
+        "answers": [
+            "Radio Frequency Identification",
+            "Radio Field Identification",
+            "Remote Frequency Identification",
+            "Read Field Identification"
+        ],
+        "correct": 0,
+        "explanation": "RFID - वायरलेस पहचान। टैग और रीडर।"
+    },
+    {
+        "prompt": "RFID उपयोग होता है?",
+        "answers": [
+            "केवल पेमेंट में",
+            "इन्वेंटरी, एक्सेस कंट्रोल, टोल, ट्रैकिंग",
+            "केवल फोन में",
+            "केवल कंप्यूटर में"
+        ],
+        "correct": 1,
+        "explanation": "RFID - आपूर्ति श्रृंखला, मेट्रो कार्ड, पुस्तकालय।"
+    },
+    {
+        "prompt": "बायोमेट्रिक प्रमाणीकरण उपयोग करता है?",
+        "answers": [
+            "केवल पासवर्ड",
+            "शारीरिक लक्षण - फिंगरप्रिंट, आइरिस, चेहरा",
+            "केवल PIN",
+            "केवल कार्ड"
+        ],
+        "correct": 1,
+        "explanation": "बायोमेट्रिक - अद्वितीय शारीरिक विशेषताएं।"
+    },
+    {
+        "prompt": "फिंगरप्रिंट सेंसर?",
+        "answers": [
+            "केवल सॉफ्टवेयर",
+            "बायोमेट्रिक - अद्वितीय रिज",
+            "केवल ऑप्टिकल",
+            "केवल डिस्प्ले के लिए"
+        ],
+        "correct": 1,
+        "explanation": "फिंगरप्रिंट - रिज अद्वितीय। ऑप्टिकल या कैपेसिटिव सेंसर।"
+    },
+    {
+        "prompt": "आइरिस रिकॉग्निशन उपयोग करता है?",
+        "answers": [
+            "उंगली",
+            "आंख में पैटर्न - आइरिस",
+            "केवल चेहरा",
+            "केवल आवाज"
+        ],
+        "correct": 1,
+        "explanation": "आइरिस - आंख का रंगीन हिस्सा। अद्वितीय पैटर्न।"
+    },
+    {
+        "prompt": "चेहरा पहचान है?",
+        "answers": [
+            "बायोमेट्रिक नहीं",
+            "बायोमेट्रिक - चेहरे की विशेषताओं का विश्लेषण",
+            "केवल 2D",
+            "केवल फोटो के लिए"
+        ],
+        "correct": 1,
+        "explanation": "चेहरा पहचान - चेहरे की विशेषताएं। फोन, सुरक्षा में उपयोग।"
+    }
+]

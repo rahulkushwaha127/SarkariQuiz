@@ -1,0 +1,178 @@
+﻿[
+    {
+        "prompt":  "What does Ctrl + Y do?",
+        "answers":  [
+                        "Redo",
+                        "Undo",
+                        "Copy",
+                        "Paste"
+                    ],
+        "correct":  0,
+        "explanation":  "Ctrl + Y redoes the action that was undone."
+    },
+    {
+        "prompt":  "Ctrl + S is used for?",
+        "answers":  [
+                        "Save",
+                        "Search",
+                        "Select All",
+                        "Spell check"
+                    ],
+        "correct":  0,
+        "explanation":  "Ctrl + S saves the current document or file."
+    },
+    {
+        "prompt":  "Ctrl + P is used for?",
+        "answers":  [
+                        "Print",
+                        "Paste",
+                        "Copy",
+                        "Paste"
+                    ],
+        "correct":  0,
+        "explanation":  "Ctrl + P opens the print dialog."
+    },
+    {
+        "prompt":  "Ctrl + A is used for?",
+        "answers":  [
+                        "Select All",
+                        "Align",
+                        "Add",
+                        "Apply"
+                    ],
+        "correct":  0,
+        "explanation":  "Ctrl + A selects all content in the current document or area."
+    },
+    {
+        "prompt":  "SUM function in Excel?",
+        "answers":  [
+                        "Multiplies",
+                        "Adds numbers",
+                        "Counts cells",
+                        "Finds average"
+                    ],
+        "correct":  1,
+        "explanation":  "SUM adds a range of numbers. =SUM(A1:A10) adds cells A1 through A10."
+    },
+    {
+        "prompt":  "AVERAGE function in Excel?",
+        "answers":  [
+                        "Adds",
+                        "Calculates mean of numbers",
+                        "Counts",
+                        "Finds maximum"
+                    ],
+        "correct":  1,
+        "explanation":  "AVERAGE calculates arithmetic mean. =AVERAGE(A1:A10) gives average of range."
+    },
+    {
+        "prompt":  "IF function in Excel?",
+        "answers":  [
+                        "Always returns yes",
+                        "Returns value based on condition",
+                        "Only for text",
+                        "Only for dates"
+                    ],
+        "correct":  1,
+        "explanation":  "IF(condition, value_if_true, value_if_false) - conditional logic."
+    },
+    {
+        "prompt":  "CONCATENATE in Excel?",
+        "answers":  [
+                        "Splits text",
+                        "Joins text from multiple cells",
+                        "Deletes",
+                        "Formats"
+                    ],
+        "correct":  1,
+        "explanation":  "CONCATENATE or \u0026 joins text. =A1\u0026B1 or =CONCATENATE(A1,B1)."
+    },
+    {
+        "prompt":  "Ctrl + F in most applications does?",
+        "answers":  [
+                        "Format",
+                        "Find",
+                        "Full screen",
+                        "Folder"
+                    ],
+        "correct":  1,
+        "explanation":  "Ctrl + F opens Find - search for text in document or page."
+    },
+    {
+        "prompt":  "Ctrl + H often does?",
+        "answers":  [
+                        "Help",
+                        "Find and Replace",
+                        "Home",
+                        "Highlight"
+                    ],
+        "correct":  1,
+        "explanation":  "Ctrl + H opens Find and Replace - search and substitute text."
+    },
+    {
+        "prompt":  "Ctrl + X does?",
+        "answers":  [
+                        "Copy",
+                        "Cut - copy and remove",
+                        "Paste",
+                        "Save"
+                    ],
+        "correct":  1,
+        "explanation":  "Ctrl + X cuts (copies and removes) selected content."
+    },
+    {
+        "prompt":  "Ctrl + V does?",
+        "answers":  [
+                        "Cut",
+                        "Paste",
+                        "Copy",
+                        "View"
+                    ],
+        "correct":  1,
+        "explanation":  "Ctrl + V pastes content from clipboard."
+    },
+    {
+        "prompt":  "Ctrl + N usually?",
+        "answers":  [
+                        "New document/file",
+                        "Next",
+                        "No",
+                        "Number"
+                    ],
+        "correct":  0,
+        "explanation":  "Ctrl + N creates new document, file, or tab."
+    },
+    {
+        "prompt":  "Ctrl + O usually?",
+        "answers":  [
+                        "Copy",
+                        "Open file",
+                        "Overwrite",
+                        "Output"
+                    ],
+        "correct":  1,
+        "explanation":  "Ctrl + O opens file open dialog."
+    },
+    {
+        "prompt":  "Ctrl + W usually?",
+        "answers":  [
+                        "Save",
+                        "Close window/tab",
+                        "Wide",
+                        "Wrap"
+                    ],
+        "correct":  1,
+        "explanation":  "Ctrl + W closes current tab or window."
+    },
+    {
+        "prompt":  "UMANG provides access to?",
+        "answers":  [
+                        "Only banking",
+                        "Multiple government services in one app",
+                        "Only tax",
+                        "Only passport"
+                    ],
+        "correct":  1,
+        "explanation":  "UMANG - over 1700 government services. Central, state, local in one app."
+    }
+]

@@ -1,0 +1,277 @@
+﻿[
+    {
+        "prompt":  "A loan becomes NPA when the payment is overdue for how many days?",
+        "answers":  [
+                        "30 days",
+                        "60 days",
+                        "90 days",
+                        "180 days"
+                    ],
+        "correct":  2,
+        "explanation":  "For standard assets, if interest or principal instalment remains overdue for 90 days, the asset is classified as NPA."
+    },
+    {
+        "prompt":  "CASA ratio in banking refers to?",
+        "answers":  [
+                        "Current Account and Savings Account as proportion of total deposits",
+                        "Credit and Savings Amount",
+                        "Cash and Securities Ratio",
+                        "Capital and Asset ratio"
+                    ],
+        "correct":  0,
+        "explanation":  "CASA ratio = (Current + Savings deposits) / Total deposits. Higher CASA means lower cost of funds for banks."
+    },
+    {
+        "prompt":  "What does NEFT stand for?",
+        "answers":  [
+                        "National Electronic Funds Transfer",
+                        "National Electronic Financial Transaction",
+                        "New Electronic Funds Transfer",
+                        "National Electronic Fund Transaction"
+                    ],
+        "correct":  0,
+        "explanation":  "NEFT (National Electronic Funds Transfer) is a nation-wide payment system for one-to-one funds transfer. It operates in hourly batches."
+    },
+    {
+        "prompt":  "RTGS stands for?",
+        "answers":  [
+                        "Real Time Gross Settlement",
+                        "Real Time General Settlement",
+                        "Real Transfer Gross Settlement",
+                        "Revenue Time Gross Settlement"
+                    ],
+        "correct":  0,
+        "explanation":  "RTGS enables real-time fund transfers. \u0027Gross\u0027 means each transaction is settled individually. Minimum amount is Rs 2 lakh."
+    },
+    {
+        "prompt":  "What is the minimum amount for RTGS transfer?",
+        "answers":  [
+                        "No minimum",
+                        "Rs 1 lakh",
+                        "Rs 2 lakh",
+                        "Rs 5 lakh"
+                    ],
+        "correct":  2,
+        "explanation":  "RTGS has a minimum transfer amount of Rs 2 lakh. There is no upper limit. NEFT has no minimum or maximum."
+    },
+    {
+        "prompt":  "IMPS stands for?",
+        "answers":  [
+                        "Instant Mobile Payment Service",
+                        "Immediate Payment Service",
+                        "International Money Transfer Service",
+                        "Instant Money Transfer System"
+                    ],
+        "correct":  1,
+        "explanation":  "IMPS (Immediate Payment Service) offers 24x7 instant inter-bank electronic fund transfer through mobile, internet, ATM."
+    },
+    {
+        "prompt":  "A cheque is a?",
+        "answers":  [
+                        "Promise to pay",
+                        "Order to pay",
+                        "Request to pay",
+                        "Agreement to pay"
+                    ],
+        "correct":  1,
+        "explanation":  "A cheque is a negotiable instrument - an unconditional order in writing addressed to a banker to pay a certain sum to the bearer or order."
+    },
+    {
+        "prompt":  "A Demand Draft (DD) is issued by?",
+        "answers":  [
+                        "Customer",
+                        "Bank",
+                        "RBI",
+                        "Government"
+                    ],
+        "correct":  1,
+        "explanation":  "Demand Draft is a negotiable instrument issued by a bank on behalf of a customer, directing another bank to pay a specified amount."
+    },
+    {
+        "prompt":  "Under Mudra Yojana, \u0027Shishu\u0027 category covers loans up to?",
+        "answers":  [
+                        "Rs 25,000",
+                        "Rs 50,000",
+                        "Rs 5 lakh",
+                        "Rs 10 lakh"
+                    ],
+        "correct":  1,
+        "explanation":  "Mudra has 3 categories: Shishu (up to Rs 50,000), Kishore (Rs 50,001 to Rs 5 lakh), Tarun (Rs 5 lakh to Rs 10 lakh)."
+    },
+    {
+        "prompt":  "Priority Sector Lending includes loans to?",
+        "answers":  [
+                        "Large industries only",
+                        "Agriculture, MSMEs, education, housing, weaker sections",
+                        "Only government",
+                        "Only exports"
+                    ],
+        "correct":  1,
+        "explanation":  "Priority Sector includes agriculture, MSMEs, education, housing, export credit, social infrastructure, and weaker sections. Banks must lend 40% of ANBC to priority sector."
+    },
+    {
+        "prompt":  "Crossing of a cheque means?",
+        "answers":  [
+                        "Tearing the cheque",
+                        "Drawing two parallel lines on cheque",
+                        "Signing the cheque",
+                        "Cancelling the cheque"
+                    ],
+        "correct":  1,
+        "explanation":  "Crossing (two parallel lines) on a cheque means it can only be deposited in a bank account, not encashed over the counter. It provides security."
+    },
+    {
+        "prompt":  "A bearer cheque can be encashed by?",
+        "answers":  [
+                        "Only the payee",
+                        "Anyone who holds it",
+                        "Only through account",
+                        "Only at specific branch"
+                    ],
+        "correct":  1,
+        "explanation":  "Bearer cheque is payable to the bearer - anyone who presents it can get payment. Order cheque is payable only to the named payee."
+    },
+    {
+        "prompt":  "Validity period of a cheque in India is?",
+        "answers":  [
+                        "3 months",
+                        "6 months",
+                        "1 year",
+                        "No expiry"
+                    ],
+        "correct":  0,
+        "explanation":  "A cheque is valid for 3 months from the date of issue as per the Negotiable Instruments Act. After that, it becomes stale."
+    },
+    {
+        "prompt":  "What does Bouncing of cheque mean?",
+        "answers":  [
+                        "Cheque lost",
+                        "Cheque dishonored due to insufficient funds",
+                        "Cheque cancelled",
+                        "Cheque torn"
+                    ],
+        "correct":  1,
+        "explanation":  "Cheque bounce occurs when the bank refuses to pay due to insufficient funds, mismatch of signature, or other technical reasons. It is a criminal offense under NI Act."
+    },
+    {
+        "prompt":  "A minor above 10 years can open a savings account?",
+        "answers":  [
+                        "No, minors cannot open accounts",
+                        "Yes, with guardian",
+                        "Only fixed deposit",
+                        "Only in post office"
+                    ],
+        "correct":  1,
+        "explanation":  "Minors above 10 years can open savings accounts jointly with a guardian. Accounts can be operated by the minor after attaining majority."
+    },
+    {
+        "prompt":  "TDS on interest from Fixed Deposits is applicable if interest exceeds?",
+        "answers":  [
+                        "Rs 5,000 (Rs 40,000 for senior citizens)",
+                        "Rs 10,000",
+                        "Rs 20,000",
+                        "Rs 50,000"
+                    ],
+        "correct":  0,
+        "explanation":  "TDS on FD interest: For general - Rs 40,000/year; For senior citizens - Rs 50,000/year. Form 15H/15G can be submitted to avoid TDS if income is below taxable limit."
+    },
+    {
+        "prompt":  "Know Your Customer (KYC) documents include?",
+        "answers":  [
+                        "Only Aadhaar",
+                        "Aadhaar/Passport/Voter ID + Address proof",
+                        "Only PAN",
+                        "Only photo"
+                    ],
+        "correct":  1,
+        "explanation":  "KYC requires proof of identity (Aadhaar, Passport, Voter ID, Driving License) and proof of address. PAN is required for certain transactions."
+    },
+    {
+        "prompt":  "Which type of loan is typically taken for purchasing a house or property?",
+        "answers":  [
+                        "Personal loan",
+                        "Home loan",
+                        "Education loan",
+                        "Vehicle loan"
+                    ],
+        "correct":  1,
+        "explanation":  "Home loan (housing loan) is specifically for purchasing, constructing, or renovating a residential property. It usually has a longer tenure (up to 30 years)."
+    },
+    {
+        "prompt":  "Education loans in India are primarily provided for?",
+        "answers":  [
+                        "Business expansion",
+                        "Higher education in India or abroad",
+                        "Vehicle purchase",
+                        "Home construction"
+                    ],
+        "correct":  1,
+        "explanation":  "Education loans finance higher studies - undergraduate, postgraduate, professional courses - in India or abroad. They often have a moratorium period during the course."
+    },
+    {
+        "prompt":  "Which loan is secured against the vehicle being purchased?",
+        "answers":  [
+                        "Personal loan",
+                        "Home loan",
+                        "Vehicle loan (Auto loan)",
+                        "Education loan"
+                    ],
+        "correct":  2,
+        "explanation":  "Vehicle or auto loan is typically secured against the vehicle. The vehicle serves as collateral until the loan is fully repaid."
+    },
+    {
+        "prompt":  "Personal loan is generally?",
+        "answers":  [
+                        "Secured against property",
+                        "Unsecured - no collateral required",
+                        "Only for business",
+                        "With very low interest"
+                    ],
+        "correct":  1,
+        "explanation":  "Personal loan is unsecured - no collateral or security is required. Interest rates are usually higher than secured loans due to higher risk for the bank."
+    },
+    {
+        "prompt":  "Current Account Deficit (CAD) occurs when?",
+        "answers":  [
+                        "Exports exceed imports",
+                        "Imports and remittances exceed exports and inward flows",
+                        "GDP is negative",
+                        "Inflation is high"
+                    ],
+        "correct":  1,
+        "explanation":  "CAD occurs when a country\u0027s imports, profit repatriation, and outward remittances exceed exports and inward flows. It indicates the economy is a net borrower from the rest of the world."
+    },
+    {
+        "prompt":  "Differential Rate of Interest (DRI) scheme provides loans at?",
+        "answers":  [
+                        "Market rate",
+                        "4% per annum",
+                        "7% per annum",
+                        "Subsidized rate to weaker sections"
+                    ],
+        "correct":  3,
+        "explanation":  "DRI scheme provides concessional loans at 4% p.a. to weaker sections for productive purposes. Each public sector bank has targets."
+    },
+    {
+        "prompt":  "Gross NPA ratio is calculated as?",
+        "answers":  [
+                        "Gross NPA / Total advances",
+                        "Net NPA / Total assets",
+                        "Provision / NPA",
+                        "Capital / NPA"
+                    ],
+        "correct":  0,
+        "explanation":  "Gross NPA ratio = (Gross NPAs / Gross Advances) Ã— 100. It indicates the proportion of bad loans in the loan book."
+    },
+    {
+        "prompt":  "Net NPA is calculated as?",
+        "answers":  [
+                        "Gross NPA",
+                        "Gross NPA minus provisions",
+                        "Total loans minus advances",
+                        "NPAs minus recoveries"
+                    ],
+        "correct":  1,
+        "explanation":  "Net NPA = Gross NPA - (Balance in Interest Suspense Account + DICGC/ECGC claims received + Part payment received + Provision held)."
+    }
+]

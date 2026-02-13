@@ -1,1 +1,277 @@
-[{"prompt":"Gold loan is a type of?","answers":["Unsecured loan","Secured loan - gold pledged as collateral","Personal loan","Education loan"],"correct":1,"explanation":"Gold loan is secured - customer pledges gold ornaments/jewelry. Bank provides loan up to a percentage of gold value (e.g., 75%)."},{"prompt":"Loan against property (LAP) is?","answers":["Unsecured","Secured against residential or commercial property","Only for farmers","Only for business"],"correct":1,"explanation":"LAP is a secured loan where property (residential/commercial) is mortgaged. Used for business, education, medical, etc."},{"prompt":"EMI stands for?","answers":["Equal Monthly Installment","Electronic Money Transfer","Equity Mutual Investment","External Monetary Index"],"correct":0,"explanation":"EMI is the fixed amount paid every month towards loan repayment. It includes principal and interest component."},{"prompt":"Reducing balance method of interest calculation?","answers":["Interest on full principal for entire tenure","Interest on outstanding principal which reduces over time","No interest","Interest only at end"],"correct":1,"explanation":"In reducing balance, interest is charged on the outstanding principal. As principal is repaid, interest portion decreases."},{"prompt":"Flat rate of interest means?","answers":["Interest on reducing balance","Interest on initial principal for full tenure","No interest","Variable rate"],"correct":1,"explanation":"Flat rate: interest calculated on original principal for entire period. Effective interest rate is higher than stated flat rate."},{"prompt":"Loan-to-Value (LTV) ratio in home loan is?","answers":["Loan amount to property value","Property value to loan","Interest to principal","EMI to income"],"correct":0,"explanation":"LTV = (Loan amount / Property value) x 100. RBI caps LTV for home loans - e.g., up to 90% for loans up to Rs 30 lakh."},{"prompt":"RBI has capped LTV for home loans above Rs 75 lakh at?","answers":["90%","80%","75%","70%"],"correct":2,"explanation":"For home loans above Rs 75 lakh, LTV is capped at 75%. For Rs 30-75 lakh: 80%. For up to Rs 30 lakh: 90%."},{"prompt":"Floating rate loan interest is linked to?","answers":["Fixed for entire tenure","External benchmark like Repo, MCLR","Only inflation","Only CRR"],"correct":1,"explanation":"Floating rate is linked to external benchmark (Repo) or MCLR. When benchmark changes, interest rate adjusts."},{"prompt":"Base rate was introduced by RBI in?","answers":["2003","2008","2010","2016"],"correct":2,"explanation":"Base rate was introduced in July 2010. It was the minimum rate below which banks could not lend. Replaced by MCLR in 2016."},{"prompt":"Spread or mark-up over MCLR is?","answers":["Fixed by RBI","Decided by bank based on risk, tenure","Always zero","Same for all customers"],"correct":1,"explanation":"Banks add a spread (mark-up) over MCLR based on credit risk, tenure, and other factors. Final interest = MCLR + spread."},{"prompt":"Moratorium period in loan means?","answers":["Repayment period","Period when EMI payment is not required","Only for education loans","Only for home loans"],"correct":1,"explanation":"Moratorium is a period when borrower is not required to pay EMI. Common in education loans during course period."},{"prompt":"Prepayment penalty was largely abolished for?","answers":["All loans","Floating rate home loans","Only personal loans","Only gold loans"],"correct":1,"explanation":"RBI barred prepayment penalty on floating rate home loans from 2012. Borrowers can prepay without extra charge."},{"prompt":"Securitization in banking means?","answers":["Making loans secure","Converting loans into marketable securities and selling","Only NPA sale","Only to ARCs"],"correct":1,"explanation":"Securitization: bank pools loans, creates securities backed by loan cash flows, sells to investors. Frees up capital."},{"prompt":"Asset Liability Management (ALM) in banks addresses?","answers":["Only credit risk","Mismatch between assets and liabilities (interest rate, liquidity)","Only NPAs","Only deposits"],"correct":1,"explanation":"ALM manages risks from mismatch in maturity and repricing of assets and liabilities. Ensures liquidity and stable margins."},{"prompt":"Net Interest Margin (NIM) is?","answers":["Interest income minus interest expense as % of assets","Only interest income","Only expense","Gross profit"],"correct":0,"explanation":"NIM = (Interest earned - Interest expended) / Average interest-earning assets. Key profitability indicator for banks."},{"prompt":"Return on Assets (ROA) for a bank is?","answers":["Total assets","Net profit / Total assets","Only interest income","Only deposits"],"correct":1,"explanation":"ROA = Net profit / Total assets. Indicates how efficiently bank uses assets to generate profit."},{"prompt":"Cost to Income ratio in banking indicates?","answers":["Interest cost","Operating expenses as % of total income","Only staff cost","Only NPA cost"],"correct":1,"explanation":"Cost to Income = Operating expenses / Total income. Lower ratio means better efficiency."},{"prompt":"CASA deposits are low cost because?","answers":["They earn high interest","They earn low or no interest - cheap source of funds","They are large","They are small"],"correct":1,"explanation":"Savings and current accounts typically pay low or zero interest. Banks prefer CASA as it reduces cost of funds."},{"prompt":"Bulk deposits typically refer to?","answers":["Retail deposits","Single deposit of Rs 2 crore and above","Only FDs","Only government deposits"],"correct":1,"explanation":"Bulk deposits are single deposits of Rs 2 crore and above. They may carry higher interest and are more sensitive to rate changes."},{"prompt":"Certificate of Deposit has minimum maturity of?","answers":["7 days","15 days","91 days","1 year"],"correct":0,"explanation":"CDs can be issued for 7 days to 1 year (banks); 1 to 3 years (financial institutions). Minimum 7 days."},{"prompt":"Commercial Paper minimum maturity is?","answers":["7 days","15 days","1 month","3 months"],"correct":0,"explanation":"CP can be issued for 7 days to 1 year. It is an unsecured money market instrument for working capital."},{"prompt":"Inter-Creditor Agreement (ICA) is used for?","answers":["Deposits","Resolution of stressed assets under RBI framework","Only NPAs","Only retail loans"],"correct":1,"explanation":"ICA is signed by lenders for resolution of stressed assets. Lead bank implements resolution plan. Part of June 2019 RBI framework."},{"prompt":"Project Sashakt was related to?","answers":["Financial inclusion","Resolution of stressed assets - AMC/AIF model","Digital payments","Bank mergers"],"correct":1,"explanation":"Project Sashakt (2018) proposed alternative investment fund (AIF) and asset management company (AMC) structure for NPA resolution."},{"prompt":"Bad Bank or NARCL is?","answers":["National Asset Reconstruction Company Limited","New Bank of India","National Agriculture Bank","National ARC for Rural Credit"],"correct":0,"explanation":"NARCL (National Asset Reconstruction Company Limited) or Bad Bank was set up in 2021 to acquire stressed assets from banks."}]
+﻿[
+    {
+        "prompt":  "Twin deficit refers to?",
+        "answers":  [
+                        "Bank and NBFC",
+                        "Fiscal deficit and Current account deficit",
+                        "Revenue and capital",
+                        "Import and export"
+                    ],
+        "correct":  1,
+        "explanation":  "Twin deficit: when both fiscal deficit and current account deficit are high."
+    },
+    {
+        "prompt":  "Capital expenditure by government goes to?",
+        "answers":  [
+                        "Salaries",
+                        "Asset creation - infrastructure etc",
+                        "Subsidies",
+                        "Interest"
+                    ],
+        "correct":  1,
+        "explanation":  "Capital expenditure creates assets - roads, bridges, PSU investment. Revenue exp is recurring."
+    },
+    {
+        "prompt":  "Disinvestment means?",
+        "answers":  [
+                        "Government investing more",
+                        "Government selling stake in PSUs",
+                        "Bank investment",
+                        "RBI selling"
+                    ],
+        "correct":  1,
+        "explanation":  "Disinvestment is government selling its stake in public sector undertakings."
+    },
+    {
+        "prompt":  "GST is a?",
+        "answers":  [
+                        "Direct tax",
+                        "Indirect tax - consumption based",
+                        "Only for services",
+                        "Only for goods"
+                    ],
+        "correct":  1,
+        "explanation":  "GST (Goods and Services Tax) is indirect tax on consumption. Destination-based."
+    },
+    {
+        "prompt":  "Direct taxes include?",
+        "answers":  [
+                        "GST",
+                        "Income tax, corporate tax",
+                        "Customs",
+                        "Excise"
+                    ],
+        "correct":  1,
+        "explanation":  "Direct taxes: burden on same person who pays. Income tax, corporate tax, wealth tax."
+    },
+    {
+        "prompt":  "Indirect taxes include?",
+        "answers":  [
+                        "Income tax",
+                        "GST, customs, excise",
+                        "Wealth tax",
+                        "Corporate tax"
+                    ],
+        "correct":  1,
+        "explanation":  "Indirect taxes: burden shifted to consumer. GST, customs, excise."
+    },
+    {
+        "prompt":  "Repo rate is also called?",
+        "answers":  [
+                        "Bank rate",
+                        "Policy repo rate - key policy rate",
+                        "MSF rate",
+                        "Reverse repo"
+                    ],
+        "correct":  1,
+        "explanation":  "Repo rate is the key policy rate at which RBI lends to banks. MPC decides it."
+    },
+    {
+        "prompt":  "Transmission of policy rate means?",
+        "answers":  [
+                        "RBI only",
+                        "Change in repo reflecting in bank lending rates",
+                        "Only deposits",
+                        "Only MSF"
+                    ],
+        "correct":  1,
+        "explanation":  "Monetary transmission: when repo rate change flows to bank deposit and lending rates."
+    },
+    {
+        "prompt":  "Which of the following is a Public Sector Bank in India?",
+        "answers":  [
+                        "HDFC Bank",
+                        "ICICI Bank",
+                        "Punjab National Bank",
+                        "Axis Bank"
+                    ],
+        "correct":  2,
+        "explanation":  "Punjab National Bank (PNB) is a public sector bank. HDFC Bank, ICICI Bank, and Axis Bank are private sector banks."
+    },
+    {
+        "prompt":  "Which of the following can issue credit cards?",
+        "answers":  [
+                        "Payment Banks",
+                        "Small Finance Banks",
+                        "Both can",
+                        "Neither can"
+                    ],
+        "correct":  1,
+        "explanation":  "Small Finance Banks can issue credit cards. Payment Banks cannot issue credit cards or provide loans."
+    },
+    {
+        "prompt":  "A Savings Bank account is primarily for?",
+        "answers":  [
+                        "Business transactions",
+                        "Salaried individuals to save",
+                        "Government deposits",
+                        "Foreign currency"
+                    ],
+        "correct":  1,
+        "explanation":  "Savings accounts are for individuals to deposit savings and earn interest. They have restrictions on number of withdrawals."
+    },
+    {
+        "prompt":  "Recurring Deposit (RD) allows customers to?",
+        "answers":  [
+                        "Deposit lump sum once",
+                        "Deposit fixed amount at regular intervals",
+                        "Withdraw anytime without penalty",
+                        "Get overdraft facility"
+                    ],
+        "correct":  1,
+        "explanation":  "In Recurring Deposit, customers deposit a fixed amount monthly for a fixed tenure and get interest on maturity."
+    },
+    {
+        "prompt":  "Which of the following provides 24x7 instant fund transfer?",
+        "answers":  [
+                        "NEFT",
+                        "RTGS",
+                        "IMPS",
+                        "Cheque"
+                    ],
+        "correct":  2,
+        "explanation":  "IMPS and UPI provide 24x7 instant transfer. NEFT operates in batches. RTGS operates during RBI working hours."
+    },
+    {
+        "prompt":  "Financial year in India is?",
+        "answers":  [
+                        "January to December",
+                        "April to March",
+                        "July to June",
+                        "October to September"
+                    ],
+        "correct":  1,
+        "explanation":  "Indian financial year (FY) is April 1 to March 31."
+    },
+    {
+        "prompt":  "Union Budget is presented in Parliament usually in?",
+        "answers":  [
+                        "March",
+                        "February",
+                        "January",
+                        "December"
+                    ],
+        "correct":  1,
+        "explanation":  "Union Budget is traditionally presented on the last working day of February."
+    },
+    {
+        "prompt":  "Vote on Account is?",
+        "answers":  [
+                        "Full budget",
+                        "Interim approval for govt expenditure",
+                        "State budget",
+                        "RBI budget"
+                    ],
+        "correct":  1,
+        "explanation":  "Vote on Account is Parliament approval for govt expenditure for part of year when full budget delayed."
+    },
+    {
+        "prompt":  "Budget deficit occurs when?",
+        "answers":  [
+                        "Revenue equals expenditure",
+                        "Expenditure exceeds revenue",
+                        "Revenue exceeds expenditure",
+                        "Surplus"
+                    ],
+        "correct":  1,
+        "explanation":  "Budget deficit: total expenditure exceeds total receipts."
+    },
+    {
+        "prompt":  "Off-budget borrowing means?",
+        "answers":  [
+                        "In budget",
+                        "Govt borrowings not in budget - PSUs etc",
+                        "RBI borrowing",
+                        "No borrowing"
+                    ],
+        "correct":  1,
+        "explanation":  "Off-budget: borrowings by PSUs etc on behalf of govt, not reflected in budget."
+    },
+    {
+        "prompt":  "Cess and surcharge go to?",
+        "answers":  [
+                        "States share",
+                        "Central government - not shared with states",
+                        "Local bodies",
+                        "RBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Cess and surcharge are retained by Centre and not shared with states as per Finance Commission."
+    },
+    {
+        "prompt":  "Finance Commission recommends?",
+        "answers":  [
+                        "Monetary policy",
+                        "Tax devolution to states, grants",
+                        "Bank licenses",
+                        "SEBI rules"
+                    ],
+        "correct":  1,
+        "explanation":  "Finance Commission recommends distribution of central taxes to states and grants."
+    },
+    {
+        "prompt":  "Finance Commission is constituted every?",
+        "answers":  [
+                        "3 years",
+                        "5 years",
+                        "7 years",
+                        "10 years"
+                    ],
+        "correct":  1,
+        "explanation":  "Finance Commission is constituted every 5 years as per Constitution."
+    },
+    {
+        "prompt":  "Niti Aayog replaced?",
+        "answers":  [
+                        "Finance Commission",
+                        "Planning Commission",
+                        "RBI",
+                        "SEBI"
+                    ],
+        "correct":  1,
+        "explanation":  "Niti Aayog replaced Planning Commission in 2015."
+    },
+    {
+        "prompt":  "Five Year Plans were replaced by?",
+        "answers":  [
+                        "Annual plans only",
+                        "Niti Aayog and sectoral focus",
+                        "Nothing",
+                        "RBI plans"
+                    ],
+        "correct":  1,
+        "explanation":  "Five Year Plans ended. Niti Aayog does strategic planning. No formal five year plans."
+    },
+    {
+        "prompt":  "Revenue receipt of government includes?",
+        "answers":  [
+                        "Borrowings",
+                        "Tax and non-tax revenue",
+                        "Only capital",
+                        "Only disinvestment"
+                    ],
+        "correct":  1,
+        "explanation":  "Revenue receipts: tax revenue (direct, indirect) and non-tax (interest, dividends, etc)."
+    },
+    {
+        "prompt":  "Capital receipt includes?",
+        "answers":  [
+                        "Tax only",
+                        "Borrowings, disinvestment, recovery of loans",
+                        "Only GST",
+                        "Only customs"
+                    ],
+        "correct":  1,
+        "explanation":  "Capital receipts: borrowings, disinvestment proceeds, loan recovery. Creates liability or reduces asset."
+    }
+]
