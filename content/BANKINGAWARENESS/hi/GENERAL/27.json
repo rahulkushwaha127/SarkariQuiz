@@ -1,0 +1,277 @@
+[
+  {
+    "prompt": "Financial inclusion means?",
+    "answers": [
+      "Only urban banking",
+      "Access to affordable financial services for all",
+      "Only rural branches",
+      "Only government schemes"
+    ],
+    "correct": 1,
+    "explanation": "Financial inclusion ensures all individuals and businesses have access to useful, affordable financial products and services."
+  },
+  {
+    "prompt": "Zero Balance Account under PMJDY has?",
+    "answers": [
+      "Minimum Rs 100",
+      "No minimum balance requirement",
+      "Rs 500 minimum",
+      "Rs 1000 minimum"
+    ],
+    "correct": 1,
+    "explanation": "PMJDY accounts can be opened with zero balance. No minimum balance requirement."
+  },
+  {
+    "prompt": "RuPay card under PMJDY offers accident insurance of?",
+    "answers": [
+      "Rs 30000",
+      "Rs 1 lakh",
+      "Rs 2 lakh",
+      "Rs 5 lakh"
+    ],
+    "correct": 1,
+    "explanation": "RuPay debit card issued under PMJDY provides Rs 1 lakh accident insurance cover."
+  },
+  {
+    "prompt": "How many PMJDY accounts were opened in first year?",
+    "answers": [
+      "5 crore",
+      "Over 12 crore",
+      "20 crore",
+      "50 crore"
+    ],
+    "correct": 1,
+    "explanation": "Within first year of PMJDY launch, over 12 crore accounts were opened."
+  },
+  {
+    "prompt": "Jan Dhan to Jan Suraksha includes?",
+    "answers": [
+      "Only PMJDY",
+      "PMJDY PMSBY PMJJBY APY",
+      "Only insurance",
+      "Only pension"
+    ],
+    "correct": 1,
+    "explanation": "Jan Dhan to Jan Suraksha paradigm includes PMJDY, PMSBY, PMJJBY, and APY for social security."
+  },
+  {
+    "prompt": "Pradhan Mantri Vaya Vandana Yojana is for?",
+    "answers": [
+      "Children",
+      "Senior citizens - pension scheme",
+      "Women only",
+      "Farmers"
+    ],
+    "correct": 1,
+    "explanation": "PMVVY is a pension scheme for senior citizens (60 years and above) offered by LIC."
+  },
+  {
+    "prompt": "Atal Pension Yojana was launched in?",
+    "answers": [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "correct": 1,
+    "explanation": "APY was launched in May 2015. It provides guaranteed pension from 60 years."
+  },
+  {
+    "prompt": "Sukanya Samriddhi Yojana can be opened for?",
+    "answers": [
+      "Any girl",
+      "Girl child below 10 years",
+      "Only rural",
+      "Only urban"
+    ],
+    "correct": 1,
+    "explanation": "SSY can be opened for girl child below 10 years. Account matures at 21 years or marriage after 18."
+  },
+  {
+    "prompt": "Public Provident Fund PPF has tenure of?",
+    "answers": [
+      "5 years",
+      "10 years",
+      "15 years",
+      "20 years"
+    ],
+    "correct": 2,
+    "explanation": "PPF has a maturity period of 15 years. Can be extended in blocks of 5 years."
+  },
+  {
+    "prompt": "PPF maximum deposit per year is?",
+    "answers": [
+      "Rs 1 lakh",
+      "Rs 1.5 lakh",
+      "Rs 2 lakh",
+      "Rs 5 lakh"
+    ],
+    "correct": 1,
+    "explanation": "PPF maximum deposit is Rs 1.5 lakh per financial year. Minimum Rs 500."
+  },
+  {
+    "prompt": "Senior Citizens Savings Scheme SCSS has maximum deposit of?",
+    "answers": [
+      "Rs 5 lakh",
+      "Rs 15 lakh",
+      "Rs 30 lakh",
+      "Rs 50 lakh"
+    ],
+    "correct": 2,
+    "explanation": "SCSS allows maximum deposit of Rs 30 lakh (including in multiple accounts). Age 60 or above (55 for VRS)."
+  },
+  {
+    "prompt": "National Savings Certificate NSC has tenure of?",
+    "answers": [
+      "3 years",
+      "5 years",
+      "7 years",
+      "10 years"
+    ],
+    "correct": 1,
+    "explanation": "NSC VIII issue has 5 year tenure. Interest compounds annually. Tax benefit under 80C."
+  },
+  {
+    "prompt": "Kisan Vikas Patra KVP doubles in?",
+    "answers": [
+      "100 months",
+      "113 months",
+      "120 months",
+      "150 months"
+    ],
+    "correct": 0,
+    "explanation": "KVP doubles the investment in 100 months (approx 8 years 4 months)."
+  },
+  {
+    "prompt": "Post Office Monthly Income Scheme has maximum limit of?",
+    "answers": [
+      "Rs 3 lakh single Rs 6 lakh joint",
+      "Rs 5 lakh Rs 10 lakh",
+      "Rs 9 lakh Rs 15 lakh",
+      "Rs 15 lakh Rs 30 lakh"
+    ],
+    "correct": 2,
+    "explanation": "POMIS: Single Rs 9 lakh, Joint Rs 15 lakh. 5 year maturity."
+  },
+  {
+    "prompt": "Recurring Deposit in post office has max tenure of?",
+    "answers": [
+      "3 years",
+      "5 years",
+      "10 years",
+      "15 years"
+    ],
+    "correct": 1,
+    "explanation": "Post office RD has 5 year tenure. Monthly deposits. Interest paid on maturity."
+  },
+  {
+    "prompt": "Mahila Samman Savings Certificate allows deposit up to?",
+    "answers": [
+      "Rs 1 lakh",
+      "Rs 2 lakh",
+      "Rs 5 lakh",
+      "Rs 10 lakh"
+    ],
+    "correct": 1,
+    "explanation": "MSSC (2023) allows women to deposit up to Rs 2 lakh. 2 year tenure. 7.5% interest."
+  },
+  {
+    "prompt": "Bank passbook is?",
+    "answers": [
+      "Optional",
+      "Record of transactions - can be replaced by statement",
+      "Not needed for savings",
+      "Only for current account"
+    ],
+    "correct": 1,
+    "explanation": "Passbook records transactions. Many banks offer e-passbook or statements instead."
+  },
+  {
+    "prompt": "Account statement from bank shows?",
+    "answers": [
+      "Only balance",
+      "All transactions credits debits balance",
+      "Only debits",
+      "Only credits"
+    ],
+    "correct": 1,
+    "explanation": "Bank statement shows all transactions (deposits, withdrawals) and running balance."
+  },
+  {
+    "prompt": "Dormant account is one with?",
+    "answers": [
+      "No transactions for 2 years",
+      "No transactions for 1 year",
+      "Negative balance",
+      "Closed"
+    ],
+    "correct": 0,
+    "explanation": "Account with no customer-initiated transactions for 2 years is classified as dormant/inoperative."
+  },
+  {
+    "prompt": "Inoperative account can be reactivated by?",
+    "answers": [
+      "Cannot be reactivated",
+      "Submitting KYC and request to bank",
+      "Only by closing",
+      "Only by RBI"
+    ],
+    "correct": 1,
+    "explanation": "Customer can reactivate dormant account by submitting KYC and written request. Bank may charge for reactivation."
+  },
+  {
+    "prompt": "Nominations in bank account help in?",
+    "answers": [
+      "Getting loan",
+      "Smooth transfer to nominee on death",
+      "Higher interest",
+      "Tax benefit"
+    ],
+    "correct": 1,
+    "explanation": "Nomination simplifies transfer of account balance to nominee on account holder death."
+  },
+  {
+    "prompt": "Bank can charge for non-maintenance of minimum balance in?",
+    "answers": [
+      "BSBD account",
+      "Regular savings account",
+      "Both",
+      "Neither"
+    ],
+    "correct": 1,
+    "explanation": "Banks cannot charge for non-maintenance of minimum balance in BSBD (Basic Savings) accounts. Can charge for regular savings."
+  },
+  {
+    "prompt": "Zero balance facility is mandatory in?",
+    "answers": [
+      "All accounts",
+      "BSBD and PMJDY type accounts",
+      "Only current",
+      "Only FD"
+    ],
+    "correct": 1,
+    "explanation": "BSBD and PMJDY accounts have zero balance facility. Banks cannot insist on minimum in these."
+  },
+  {
+    "prompt": "Fingerprint as biometric for AePS is?",
+    "answers": [
+      "Optional",
+      "Standard - with Aadhaar",
+      "Not used",
+      "Only for iris"
+    ],
+    "correct": 1,
+    "explanation": "AePS uses Aadhaar number with fingerprint or IRIS as biometric for authentication."
+  },
+  {
+    "prompt": "JAM Trinity was emphasized by?",
+    "answers": [
+      "Raja Chelliah",
+      "Economic Survey and government",
+      "Only RBI",
+      "Only NABARD"
+    ],
+    "correct": 1,
+    "explanation": "JAM (Jan Dhan-Aadhaar-Mobile) was emphasized in Economic Survey and government policy for efficient DBT."
+  }
+]

@@ -316,10 +316,10 @@
 
     {{-- ═══════════════════ GALLERY SECTION ═══════════════════ --}}
     @if ($v('images') && $v('images', 'gallery') && count($galleryImages) > 0)
-        <section class="fade-up bg-white py-16 sm:py-20">
+        <section class="fade-up gradient-bg-2 py-16 sm:py-20">
             <div class="mx-auto max-w-6xl px-5 sm:px-8">
                 <div class="text-center">
-                    <span class="inline-flex items-center rounded-full bg-slate-100 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-slate-600">Life at our institute</span>
+                    <span class="inline-flex items-center rounded-full bg-gradient-to-r from-cyan-100 to-violet-100 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-violet-700">Life at our institute</span>
                     <h2 class="mt-4 font-display text-2xl font-bold text-slate-900 sm:text-3xl">Gallery</h2>
                     <p class="mt-2 text-sm text-slate-500 sm:text-base">Classroom, events &amp; more.</p>
                     <div class="mx-auto mt-3 section-divider"></div>
@@ -327,7 +327,7 @@
                 <div class="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-5">
                     @foreach ($galleryImages as $path)
                         @if (\Illuminate\Support\Facades\Storage::disk('public')->exists($path))
-                            <div class="gallery-item group overflow-hidden rounded-2xl ring-1 ring-slate-200/60 transition hover:ring-slate-300 hover:shadow-lg">
+                            <div class="gallery-item gradient-card group overflow-hidden rounded-2xl transition hover:shadow-xl hover:shadow-violet-200/40">
                                 <img src="{{ asset('storage/' . $path) }}" alt="" class="aspect-[4/3] w-full object-cover" loading="lazy" />
                             </div>
                         @endif
@@ -339,15 +339,15 @@
 
     {{-- ═══════════════════ INSTITUTE / CONTACT SECTION ═══════════════════ --}}
     @if (count($instFields) > 0)
-        <section class="fade-up bg-slate-50 py-16 sm:py-20">
+        <section class="fade-up gradient-bg-1 py-16 sm:py-20">
             <div class="mx-auto max-w-6xl px-5 sm:px-8">
                 <div class="text-center">
-                    <span class="inline-flex items-center rounded-full bg-indigo-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-indigo-600">Get in touch</span>
+                    <span class="inline-flex items-center rounded-full bg-gradient-to-r from-violet-100 to-pink-100 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-violet-700">Get in touch</span>
                     <h2 class="mt-4 font-display text-2xl font-bold text-slate-900 sm:text-3xl">Visit or contact us</h2>
                     <div class="mx-auto mt-3 section-divider"></div>
                 </div>
 
-                <div class="mx-auto mt-10 max-w-3xl overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-lg">
+                <div class="mx-auto mt-10 max-w-3xl overflow-hidden rounded-3xl gradient-card shadow-2xl shadow-violet-200/30">
                     <div class="grid gap-0 md:grid-cols-2">
                         {{-- Left: Info --}}
                         <div class="p-6 sm:p-8">
@@ -396,7 +396,7 @@
                         </div>
 
                         {{-- Right: CTA panel --}}
-                        <div class="flex flex-col items-center justify-center gap-4 border-t border-slate-100 bg-gradient-to-br from-indigo-50 to-violet-50 p-6 sm:p-8 md:border-l md:border-t-0">
+                        <div class="flex flex-col items-center justify-center gap-4 border-t border-violet-200/50 bg-gradient-to-br from-pink-50 to-violet-100 p-6 sm:p-8 md:border-l md:border-t-0">
                             <div class="text-center">
                                 <h3 class="font-display text-xl font-bold text-slate-900">Ready to start?</h3>
                                 <p class="mt-1 text-sm text-slate-600">Connect with us today.</p>
@@ -431,11 +431,11 @@
         </section>
     @endif
 
-    {{-- ═══════════════════ QUIZZES SECTION ═══════════════════ --}}
-    <section class="fade-up bg-white py-16 sm:py-20">
+    {{-- QUIZZES SECTION - Gradient --}}
+    <section class="fade-up gradient-bg-2 py-16 sm:py-20">
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
             <div class="text-center">
-                <span class="inline-flex items-center rounded-full bg-indigo-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-indigo-600">Practice now</span>
+                <span class="inline-flex items-center rounded-full bg-gradient-to-r from-violet-100 to-cyan-100 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-violet-700">Practice now</span>
                 <h2 class="mt-4 font-display text-2xl font-bold text-slate-900 sm:text-3xl">Public quizzes</h2>
                 <p class="mt-2 text-sm text-slate-500 sm:text-base">Practice with {{ $creator->name }}'s quizzes.</p>
                 <div class="mx-auto mt-3 section-divider"></div>
@@ -453,19 +453,19 @@
                 <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
                     @foreach ($publicQuizzes as $quiz)
                         <a href="{{ route('public.quizzes.show', $quiz->unique_code) }}"
-                           class="hover-lift group flex flex-col rounded-2xl border border-slate-100 bg-white p-5 text-left shadow-sm transition hover:border-indigo-200 hover:shadow-lg sm:p-6">
+                           class="hover-lift gradient-card group flex flex-col rounded-2xl p-5 text-left shadow-lg transition hover:shadow-xl hover:shadow-violet-200/50 sm:p-6">
                             <div class="flex items-start justify-between gap-3">
                                 <div class="min-w-0 flex-1">
-                                    <h3 class="font-bold text-slate-800 break-words group-hover:text-indigo-700 leading-snug">{{ $quiz->title }}</h3>
+                                    <h3 class="font-bold text-slate-800 break-words group-hover:text-violet-700 leading-snug">{{ $quiz->title }}</h3>
                                     @if ($quiz->description)
                                         <p class="mt-1.5 line-clamp-2 text-sm leading-relaxed text-slate-500">{{ $quiz->description }}</p>
                                     @endif
                                 </div>
-                                <span class="shrink-0 rounded-lg bg-indigo-100 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-indigo-700">{{ $quiz->mode }}</span>
+                                <span class="shrink-0 rounded-lg bg-gradient-to-r from-violet-100 to-pink-100 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-violet-700">{{ $quiz->mode }}</span>
                             </div>
-                            <div class="mt-auto pt-4 flex items-center justify-between border-t border-slate-100">
+                            <div class="mt-auto pt-4 flex items-center justify-between border-t border-violet-200/50">
                                 <span class="text-xs font-medium text-slate-500">{{ $quiz->questions_count ?? 0 }} questions</span>
-                                <span class="inline-flex items-center gap-1 text-sm font-bold text-indigo-600 group-hover:text-indigo-700">
+                                <span class="inline-flex items-center gap-1 text-sm font-bold text-gradient group-hover:opacity-90">
                                     Play
                                     <svg class="h-4 w-4 transition group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
                                 </span>
@@ -487,7 +487,7 @@
                     @foreach ($social as $label => $url)
                         @if (is_string($url) && $url !== '')
                             <a href="{{ $url }}" target="_blank" rel="noopener noreferrer"
-                               class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-indigo-200 hover:text-indigo-600 hover:shadow-md active:scale-[0.97]">
+                               class="inline-flex items-center gap-2 rounded-full gradient-card px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:shadow-lg hover:text-violet-700 active:scale-[0.97]">
                                 @php
                                     $lbl = is_string($label) && $label !== '' ? strtolower($label) : 'link';
                                 @endphp
@@ -513,15 +513,15 @@
         </section>
     @endif
 
-    {{-- ═══════════════════ FOOTER ═══════════════════ --}}
-    <footer class="border-t border-slate-200 bg-white py-8">
+    {{-- FOOTER - Gradient --}}
+    <footer class="border-t border-violet-200/60 bg-white/80 backdrop-blur py-8">
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
             <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
                 <div class="flex items-center gap-2">
-                    <div class="grid h-7 w-7 place-items-center rounded-lg bg-gradient-to-br from-indigo-600 to-violet-600 text-xs font-bold text-white">Q</div>
+                    <div class="grid h-7 w-7 place-items-center rounded-lg bg-gradient-to-br from-pink-500 via-violet-500 to-cyan-500 text-xs font-bold text-white">Q</div>
                     <span class="text-sm font-semibold text-slate-700">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</span>
                 </div>
-                <p class="text-xs text-slate-400">&copy; {{ date('Y') }} {{ $v('institute','name') && $centerName ? $centerName : config('app.name', 'QuizWhiz') }}. All rights reserved.</p>
+                <p class="text-xs text-slate-500">&copy; {{ date('Y') }} {{ $v('institute','name') && $centerName ? $centerName : config('app.name', 'QuizWhiz') }}. All rights reserved.</p>
             </div>
         </div>
     </footer>

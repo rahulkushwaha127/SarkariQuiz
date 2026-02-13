@@ -9,61 +9,27 @@
     @vite(['resources/css/app.css'])
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        .font-display { font-family: 'Playfair Display', Georgia, serif; }
-        .font-body    { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
-
-        /* Smooth scroll */
+        .font-display { font-family: 'Rajdhani', sans-serif; }
+        .font-body    { font-family: 'JetBrains Mono', monospace; }
         html { scroll-behavior: smooth; }
-
-        /* Fade-in animation */
-        .fade-up {
-            opacity: 0;
-            transform: translateY(24px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-        .fade-up.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Parallax-style hero image */
-        .hero-bg {
-            background-size: cover;
-            background-position: center;
-            background-attachment: scroll;
-        }
-        @media (min-width: 768px) {
-            .hero-bg { background-attachment: fixed; }
-        }
-
-        /* Gradient text */
-        .text-gradient {
-            background: linear-gradient(135deg, #4f46e5, #7c3aed);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        /* Hover lift */
+        .fade-up { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+        .fade-up.is-visible { opacity: 1; transform: translateY(0); }
+        .hero-bg { background-size: cover; background-position: center; background-attachment: scroll; }
+        @media (min-width: 768px) { .hero-bg { background-attachment: fixed; } }
+        .text-gradient { background: linear-gradient(135deg, #06b6d4, #d946ef); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
         .hover-lift { transition: transform 0.25s ease, box-shadow 0.25s ease; }
-        .hover-lift:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); }
-
-        /* Section divider */
-        .section-divider {
-            width: 48px;
-            height: 3px;
-            border-radius: 3px;
-            background: linear-gradient(90deg, #4f46e5, #7c3aed);
-        }
-
-        /* Gallery lightbox */
+        .hover-lift:hover { transform: translateY(-2px); box-shadow: 0 0 0 1px rgba(6, 182, 212, 0.5), 0 10px 30px -10px rgba(6, 182, 212, 0.3); }
+        .section-divider { width: 48px; height: 2px; background: linear-gradient(90deg, #06b6d4, #d946ef); }
         .gallery-item img { transition: transform 0.4s ease; }
         .gallery-item:hover img { transform: scale(1.05); }
+        .cyber-grid { background-image: linear-gradient(rgba(6,182,212,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(6,182,212,0.03) 1px, transparent 1px); background-size: 24px 24px; }
+        .cyber-card { background: rgba(15, 23, 42, 0.9); border: 1px solid rgba(6, 182, 212, 0.3); }
+        .cyber-card:hover { border-color: rgba(217, 70, 239, 0.5); box-shadow: 0 0 25px rgba(6, 182, 212, 0.15); }
     </style>
 </head>
-<body class="min-h-screen bg-white text-slate-800 antialiased font-body">
+<body class="min-h-screen bg-slate-950 text-slate-200 antialiased font-body cyber-grid">
     @php
         $p = $creator->creatorProfile;
 
@@ -120,12 +86,12 @@
         $waLink = $hasWhatsapp ? 'https://wa.me/' . preg_replace('/[^0-9]/', '', $whatsappNumber) : '#';
     @endphp
 
-    {{-- ═══════════════════ STICKY NAVBAR ═══════════════════ --}}
-    <header class="sticky top-0 z-50 border-b border-slate-100 bg-white/90 backdrop-blur-xl">
+    {{-- Cyber theme: navbar --}}
+    <header class="sticky top-0 z-50 border-b border-cyan-500/40 bg-slate-950/95 backdrop-blur-xl">
         <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 sm:px-8">
             <a href="{{ url('/') }}" class="flex items-center gap-2.5">
-                <div class="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-indigo-600 to-violet-600 text-sm font-bold text-white shadow-md shadow-indigo-500/20">Q</div>
-                <span class="text-sm font-semibold tracking-tight text-slate-800">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</span>
+                <div class="grid h-9 w-9 place-items-center rounded-sm border border-cyan-400 bg-slate-900 text-sm font-bold text-cyan-400">Q</div>
+                <span class="text-sm font-semibold tracking-widest text-cyan-300 uppercase">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</span>
             </a>
             <nav class="flex items-center gap-3">
                 @if($hasWhatsapp)
@@ -135,9 +101,9 @@
                     </a>
                 @endif
                 @auth
-                    <a href="{{ route('dashboard') }}" class="rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-semibold text-slate-700 transition hover:bg-slate-50">Dashboard</a>
+                    <a href="{{ route('dashboard') }}" class="rounded-sm border border-cyan-500/50 bg-slate-900 px-4 py-2 text-xs font-semibold text-cyan-400 transition hover:border-fuchsia-500/50 hover:text-fuchsia-400">Dashboard</a>
                 @else
-                    <a href="{{ route('login') }}" class="rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-semibold text-slate-700 transition hover:bg-slate-50">Login</a>
+                    <a href="{{ route('login') }}" class="rounded-sm border border-cyan-500/50 bg-slate-900 px-4 py-2 text-xs font-semibold text-cyan-400 transition hover:border-fuchsia-500/50 hover:text-fuchsia-400">Login</a>
                 @endauth
             </nav>
         </div>
@@ -150,8 +116,9 @@
             <div class="hero-bg absolute inset-0" style="background-image: url('{{ asset('storage/' . $coverPath) }}')"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-900/50 to-slate-900/80"></div>
         @else
-            <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900"></div>
-            <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_0%,rgba(99,102,241,0.25),transparent)]"></div>
+            <div class="absolute inset-0 bg-slate-950"></div>
+            <div class="absolute inset-0 cyber-grid opacity-50"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_0%,rgba(6,182,212,0.08),transparent_70%)]"></div>
         @endif
 
         {{-- Content --}}
@@ -164,7 +131,7 @@
                              class="h-28 w-28 rounded-2xl border-4 border-white/20 object-cover shadow-2xl ring-1 ring-white/10 sm:h-36 sm:w-36 sm:rounded-3xl md:h-40 md:w-40"
                              loading="eager" width="160" height="160" />
                     @else
-                        <div class="flex h-28 w-28 items-center justify-center rounded-2xl border-4 border-white/20 bg-gradient-to-br from-indigo-500 to-violet-600 text-4xl font-bold text-white shadow-2xl sm:h-36 sm:w-36 sm:rounded-3xl sm:text-5xl md:h-40 md:w-40">{{ $initials }}</div>
+                        <div class="flex h-28 w-28 items-center justify-center rounded-sm border-2 border-cyan-400 bg-slate-900 text-4xl font-bold text-cyan-400 shadow-2xl sm:h-36 sm:w-36 md:h-40 md:w-40">{{ $initials }}</div>
                     @endif
                 </div>
 
@@ -209,36 +176,36 @@
         {{-- Bottom wave --}}
         <div class="absolute bottom-0 left-0 right-0">
             <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="block h-[30px] w-full sm:h-[40px] md:h-[60px]">
-                <path d="M0 60h1440V30C1200 55 960 0 720 30S240 55 0 30v30z" fill="#ffffff"/>
+                <path d="M0 60h1440V30C1200 55 960 0 720 30S240 55 0 30v30z" fill="#0f172a"/>
             </svg>
         </div>
     </section>
 
-    {{-- ═══════════════════ STATS BAR ═══════════════════ --}}
-    <section class="relative z-10 -mt-1 bg-white">
+    {{-- STATS BAR - Cyber --}}
+    <section class="relative z-10 -mt-1 bg-slate-950">
         <div class="mx-auto max-w-4xl px-5 sm:px-8">
-            <div class="flex items-center justify-center gap-6 rounded-2xl border border-slate-100 bg-white px-6 py-5 shadow-xl shadow-slate-200/50 sm:gap-10 sm:px-10 sm:py-6 -mt-6 sm:-mt-8">
+            <div class="cyber-card flex items-center justify-center gap-6 rounded-sm px-6 py-5 sm:gap-10 sm:px-10 sm:py-6 -mt-6 sm:-mt-8">
                 <div class="text-center">
-                    <div class="text-2xl font-extrabold text-indigo-600 sm:text-3xl">{{ $stats['public_quizzes'] ?? 0 }}</div>
-                    <div class="mt-1 text-xs font-medium uppercase tracking-wider text-slate-500">Quizzes</div>
+                    <div class="font-display text-2xl font-extrabold text-cyan-400 sm:text-3xl">{{ $stats['public_quizzes'] ?? 0 }}</div>
+                    <div class="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-slate-400">Quizzes</div>
                 </div>
-                <div class="h-8 w-px bg-slate-200"></div>
+                <div class="h-8 w-px bg-cyan-500/40"></div>
                 <div class="text-center">
-                    <div class="text-2xl font-extrabold text-indigo-600 sm:text-3xl">{{ $stats['public_questions'] ?? 0 }}</div>
-                    <div class="mt-1 text-xs font-medium uppercase tracking-wider text-slate-500">Questions</div>
+                    <div class="font-display text-2xl font-extrabold text-fuchsia-400 sm:text-3xl">{{ $stats['public_questions'] ?? 0 }}</div>
+                    <div class="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-slate-400">Questions</div>
                 </div>
                 @if (count($selectedStudents) > 0)
-                    <div class="h-8 w-px bg-slate-200"></div>
+                    <div class="h-8 w-px bg-cyan-500/40"></div>
                     <div class="text-center">
-                        <div class="text-2xl font-extrabold text-amber-600 sm:text-3xl">{{ count($selectedStudents) }}+</div>
-                        <div class="mt-1 text-xs font-medium uppercase tracking-wider text-slate-500">Selections</div>
+                        <div class="font-display text-2xl font-extrabold text-cyan-400 sm:text-3xl">{{ count($selectedStudents) }}+</div>
+                        <div class="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-slate-400">Selections</div>
                     </div>
                 @endif
                 @if (count($faculty) > 0)
-                    <div class="hidden h-8 w-px bg-slate-200 sm:block"></div>
+                    <div class="hidden h-8 w-px bg-cyan-500/40 sm:block"></div>
                     <div class="hidden text-center sm:block">
-                        <div class="text-2xl font-extrabold text-violet-600 sm:text-3xl">{{ count($faculty) }}</div>
-                        <div class="mt-1 text-xs font-medium uppercase tracking-wider text-slate-500">Faculty</div>
+                        <div class="font-display text-2xl font-extrabold text-fuchsia-400 sm:text-3xl">{{ count($faculty) }}</div>
+                        <div class="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-slate-400">Faculty</div>
                     </div>
                 @endif
             </div>
@@ -247,21 +214,21 @@
 
     {{-- ═══════════════════ ABOUT SECTION ═══════════════════ --}}
     @if ($v('about') && $v('about', 'bio') && $bio)
-        <section class="fade-up bg-white py-16 sm:py-20">
+        <section class="fade-up bg-slate-900/80 py-16 sm:py-20">
             <div class="mx-auto max-w-3xl px-5 text-center sm:px-8">
-                <span class="inline-flex items-center rounded-full bg-indigo-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-indigo-600">About us</span>
-                <h2 class="mt-4 font-display text-2xl font-bold text-slate-900 sm:text-3xl md:text-4xl">
+                <span class="inline-flex items-center rounded-sm border border-cyan-500/50 bg-cyan-500/10 px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-cyan-400">About us</span>
+                <h2 class="mt-4 font-display text-2xl font-bold text-slate-100 sm:text-3xl md:text-4xl">
                     @if ($v('institute','name') && $centerName) {{ $centerName }} @else Know more about us @endif
                 </h2>
                 <div class="mx-auto mt-3 section-divider"></div>
-                <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-slate-600 whitespace-pre-line sm:text-lg sm:leading-8">{{ $bio }}</p>
+                <p class="mx-auto mt-6 max-w-2xl text-sm leading-relaxed text-slate-400 whitespace-pre-line sm:text-base sm:leading-7">{{ $bio }}</p>
             </div>
         </section>
     @endif
 
     {{-- ═══════════════════ COURSES SECTION ═══════════════════ --}}
     @if (in_array('courses', $instFields))
-        <section class="fade-up bg-slate-50 py-16 sm:py-20">
+        <section class="fade-up bg-slate-950 py-16 sm:py-20">
             <div class="mx-auto max-w-6xl px-5 sm:px-8">
                 <div class="text-center">
                     <span class="inline-flex items-center rounded-full bg-violet-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-violet-600">What we offer</span>
@@ -272,7 +239,7 @@
                     @foreach (preg_split('/[\n,]+/', $coursesOffered) as $course)
                         @php $course = trim($course); @endphp
                         @if ($course !== '')
-                            <div class="rounded-2xl border border-slate-200 bg-white px-5 py-3.5 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-indigo-200 hover:shadow-md hover:shadow-indigo-500/5 sm:px-6 sm:py-4 sm:text-base">
+                            <div class="cyber-card rounded-sm px-5 py-3.5 text-sm font-semibold text-slate-300 transition hover:border-fuchsia-500/50 sm:px-6 sm:py-4 sm:text-base">
                                 {{ $course }}
                             </div>
                         @endif
@@ -284,27 +251,27 @@
 
     {{-- ═══════════════════ FACULTY SECTION ═══════════════════ --}}
     @if ($v('faculty') && count($faculty) > 0)
-        <section class="fade-up bg-white py-16 sm:py-20">
+        <section class="fade-up bg-slate-900/80 py-16 sm:py-20">
             <div class="mx-auto max-w-6xl px-5 sm:px-8">
                 <div class="text-center">
-                    <span class="inline-flex items-center rounded-full bg-indigo-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-indigo-600">Our team</span>
-                    <h2 class="mt-4 font-display text-2xl font-bold text-slate-900 sm:text-3xl">Expert faculty</h2>
-                    <p class="mt-2 text-sm text-slate-500 sm:text-base">Learn from the best educators in the field.</p>
+                    <span class="inline-flex items-center rounded-sm border border-cyan-500/50 bg-cyan-500/10 px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-cyan-400">Our team</span>
+                    <h2 class="mt-4 font-display text-2xl font-bold text-slate-100 sm:text-3xl">Expert faculty</h2>
+                    <p class="mt-2 text-sm text-slate-400 sm:text-base">Learn from the best educators in the field.</p>
                     <div class="mx-auto mt-3 section-divider"></div>
                 </div>
                 <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
                     @foreach ($faculty as $member)
-                        <div class="hover-lift group rounded-2xl border border-slate-100 bg-white p-6 text-center shadow-sm sm:p-8">
-                            <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-600 text-2xl font-bold text-white shadow-lg shadow-indigo-500/20 transition group-hover:scale-110">
+                        <div class="hover-lift cyber-card group rounded-sm p-6 text-center sm:p-8">
+                            <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-sm border border-cyan-400 bg-slate-800 text-2xl font-bold text-cyan-400 transition group-hover:scale-110 group-hover:border-fuchsia-400 group-hover:text-fuchsia-400">
                                 {{ mb_substr($member['name'] ?? '', 0, 1) ?: '?' }}
                             </div>
                             <div class="mt-4">
-                                <h3 class="text-lg font-bold text-slate-800">{{ $member['name'] ?? '' }}</h3>
+                                <h3 class="text-lg font-bold text-slate-100">{{ $member['name'] ?? '' }}</h3>
                                 @if (!empty($member['role']))
-                                    <p class="mt-1 text-sm font-semibold text-indigo-600">{{ $member['role'] }}</p>
+                                    <p class="mt-1 text-sm font-semibold text-cyan-400">{{ $member['role'] }}</p>
                                 @endif
                                 @if (!empty($member['bio']))
-                                    <p class="mt-3 text-sm leading-relaxed text-slate-500">{{ $member['bio'] }}</p>
+                                    <p class="mt-3 text-sm leading-relaxed text-slate-400">{{ $member['bio'] }}</p>
                                 @endif
                             </div>
                         </div>
@@ -316,26 +283,26 @@
 
     {{-- ═══════════════════ ACHIEVERS SECTION ═══════════════════ --}}
     @if ($v('achievers') && count($selectedStudents) > 0)
-        <section class="fade-up relative overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 py-16 sm:py-20">
-            <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_0%,rgba(99,102,241,0.2),transparent)]"></div>
+        <section class="fade-up relative overflow-hidden bg-slate-950 py-16 sm:py-20">
+            <div class="absolute inset-0 cyber-grid opacity-30"></div>
             <div class="relative mx-auto max-w-6xl px-5 sm:px-8">
                 <div class="text-center">
-                    <span class="inline-flex items-center rounded-full bg-amber-500/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-amber-300">Success stories</span>
-                    <h2 class="mt-4 font-display text-2xl font-bold text-white sm:text-3xl md:text-4xl">Our achievers</h2>
+                    <span class="inline-flex items-center rounded-sm border border-fuchsia-500/50 bg-fuchsia-500/10 px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-fuchsia-400">Success stories</span>
+                    <h2 class="mt-4 font-display text-2xl font-bold text-slate-100 sm:text-3xl md:text-4xl">Our achievers</h2>
                     <p class="mt-2 text-sm text-slate-400 sm:text-base">Students who made us proud.</p>
-                    <div class="mx-auto mt-3 h-[3px] w-12 rounded-full bg-gradient-to-r from-amber-400 to-amber-500"></div>
+                    <div class="mx-auto mt-3 section-divider"></div>
                 </div>
                 <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 sm:gap-5">
                     @foreach ($selectedStudents as $student)
-                        <div class="hover-lift group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 px-5 py-4 backdrop-blur-sm transition hover:bg-white/10 sm:px-6 sm:py-5">
-                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-amber-500/20 text-lg font-bold text-amber-300 transition group-hover:bg-amber-500/30">
+                        <div class="hover-lift cyber-card group flex items-center gap-4 rounded-sm px-5 py-4 transition sm:px-6 sm:py-5">
+                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-sm border border-fuchsia-400/50 bg-fuchsia-500/20 text-lg font-bold text-fuchsia-300 transition group-hover:bg-fuchsia-500/30">
                                 <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                             </div>
                             <div class="min-w-0 flex-1">
                                 <div class="font-bold text-white">{{ $student['name'] ?? '' }}</div>
                                 @if (!empty($student['year']) || !empty($student['post']))
                                     <div class="mt-0.5 text-sm text-slate-400">
-                                        @if (!empty($student['post']))<span class="font-semibold text-amber-300">{{ $student['post'] }}</span>@endif
+                                        @if (!empty($student['post']))<span class="font-semibold text-fuchsia-400">{{ $student['post'] }}</span>@endif
                                         @if (!empty($student['year']) && !empty($student['post'])) &middot; @endif
                                         @if (!empty($student['year'])){{ $student['year'] }}@endif
                                     </div>
@@ -350,18 +317,18 @@
 
     {{-- ═══════════════════ GALLERY SECTION ═══════════════════ --}}
     @if ($v('images') && $v('images', 'gallery') && count($galleryImages) > 0)
-        <section class="fade-up bg-white py-16 sm:py-20">
+        <section class="fade-up bg-slate-900/80 py-16 sm:py-20">
             <div class="mx-auto max-w-6xl px-5 sm:px-8">
                 <div class="text-center">
-                    <span class="inline-flex items-center rounded-full bg-slate-100 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-slate-600">Life at our institute</span>
-                    <h2 class="mt-4 font-display text-2xl font-bold text-slate-900 sm:text-3xl">Gallery</h2>
+                    <span class="inline-flex items-center rounded-sm border border-cyan-500/50 bg-cyan-500/10 px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-cyan-400">Life at our institute</span>
+                    <h2 class="mt-4 font-display text-2xl font-bold text-slate-100 sm:text-3xl">Gallery</h2>
                     <p class="mt-2 text-sm text-slate-500 sm:text-base">Classroom, events &amp; more.</p>
                     <div class="mx-auto mt-3 section-divider"></div>
                 </div>
                 <div class="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-5">
                     @foreach ($galleryImages as $path)
                         @if (\Illuminate\Support\Facades\Storage::disk('public')->exists($path))
-                            <div class="gallery-item group overflow-hidden rounded-2xl ring-1 ring-slate-200/60 transition hover:ring-slate-300 hover:shadow-lg">
+                            <div class="gallery-item cyber-card group overflow-hidden rounded-sm transition hover:border-fuchsia-500/50">
                                 <img src="{{ asset('storage/' . $path) }}" alt="" class="aspect-[4/3] w-full object-cover" loading="lazy" />
                             </div>
                         @endif
@@ -373,22 +340,22 @@
 
     {{-- ═══════════════════ INSTITUTE / CONTACT SECTION ═══════════════════ --}}
     @if (count($instFields) > 0)
-        <section class="fade-up bg-slate-50 py-16 sm:py-20">
+        <section class="fade-up bg-slate-950 py-16 sm:py-20">
             <div class="mx-auto max-w-6xl px-5 sm:px-8">
                 <div class="text-center">
-                    <span class="inline-flex items-center rounded-full bg-indigo-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-indigo-600">Get in touch</span>
-                    <h2 class="mt-4 font-display text-2xl font-bold text-slate-900 sm:text-3xl">Visit or contact us</h2>
+                    <span class="inline-flex items-center rounded-sm border border-cyan-500/50 bg-cyan-500/10 px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-cyan-400">Get in touch</span>
+                    <h2 class="mt-4 font-display text-2xl font-bold text-slate-100 sm:text-3xl">Visit or contact us</h2>
                     <div class="mx-auto mt-3 section-divider"></div>
                 </div>
 
-                <div class="mx-auto mt-10 max-w-3xl overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-lg">
+                <div class="mx-auto mt-10 max-w-3xl overflow-hidden rounded-sm cyber-card shadow-2xl">
                     <div class="grid gap-0 md:grid-cols-2">
                         {{-- Left: Info --}}
                         <div class="p-6 sm:p-8">
                             <dl class="space-y-5">
                                 @if (in_array('name', $instFields))
                                     <div class="flex items-start gap-3">
-                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600">
+                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-cyan-500/40 bg-cyan-500/10 text-cyan-400">
                                             <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
                                         </div>
                                         <div><dt class="text-xs font-semibold uppercase tracking-wider text-slate-400">Institute</dt><dd class="mt-0.5 font-semibold text-slate-800">{{ $centerName }}</dd></div>
@@ -396,7 +363,7 @@
                                 @endif
                                 @if (in_array('address', $instFields))
                                     <div class="flex items-start gap-3">
-                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600">
+                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-cyan-500/40 bg-cyan-500/10 text-cyan-400">
                                             <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                                         </div>
                                         <div><dt class="text-xs font-semibold uppercase tracking-wider text-slate-400">Address</dt><dd class="mt-0.5 text-sm text-slate-700 whitespace-pre-line">{{ $centerAddress }}</dd></div>
@@ -404,7 +371,7 @@
                                 @endif
                                 @if (in_array('city', $instFields))
                                     <div class="flex items-start gap-3">
-                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600">
+                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-cyan-500/40 bg-cyan-500/10 text-cyan-400">
                                             <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                                         </div>
                                         <div><dt class="text-xs font-semibold uppercase tracking-wider text-slate-400">City</dt><dd class="mt-0.5 font-semibold text-slate-800">{{ $centerCity }}</dd></div>
@@ -412,7 +379,7 @@
                                 @endif
                                 @if (in_array('timings', $instFields))
                                     <div class="flex items-start gap-3">
-                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600">
+                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-cyan-500/40 bg-cyan-500/10 text-cyan-400">
                                             <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                                         </div>
                                         <div><dt class="text-xs font-semibold uppercase tracking-wider text-slate-400">Timings</dt><dd class="mt-0.5 text-sm text-slate-700">{{ $centerTimings }}</dd></div>
@@ -420,17 +387,17 @@
                                 @endif
                                 @if (in_array('contact', $instFields))
                                     <div class="flex items-start gap-3">
-                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600">
+                                        <div class="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-cyan-500/40 bg-cyan-500/10 text-cyan-400">
                                             <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
                                         </div>
-                                        <div><dt class="text-xs font-semibold uppercase tracking-wider text-slate-400">Contact</dt><dd class="mt-0.5"><a href="tel:{{ preg_replace('/[^0-9+]/', '', $centerContact) }}" class="font-semibold text-indigo-600 hover:text-indigo-700 hover:underline">{{ $centerContact }}</a></dd></div>
+                                        <div><dt class="text-xs font-semibold uppercase tracking-wider text-slate-400">Contact</dt><dd class="mt-0.5"><a href="tel:{{ preg_replace('/[^0-9+]/', '', $centerContact) }}" class="font-semibold text-cyan-400 hover:text-fuchsia-400 hover:underline">{{ $centerContact }}</a></dd></div>
                                     </div>
                                 @endif
                             </dl>
                         </div>
 
                         {{-- Right: CTA panel --}}
-                        <div class="flex flex-col items-center justify-center gap-4 border-t border-slate-100 bg-gradient-to-br from-indigo-50 to-violet-50 p-6 sm:p-8 md:border-l md:border-t-0">
+                        <div class="flex flex-col items-center justify-center gap-4 border-t border-cyan-500/30 bg-slate-800/50 p-6 sm:p-8 md:border-l md:border-t-0">
                             <div class="text-center">
                                 <h3 class="font-display text-xl font-bold text-slate-900">Ready to start?</h3>
                                 <p class="mt-1 text-sm text-slate-600">Connect with us today.</p>
@@ -445,14 +412,14 @@
                                 @endif
                                 @if ($hasContact)
                                     <a href="tel:{{ preg_replace('/[^0-9+]/', '', $centerContact) }}"
-                                       class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-700 transition hover:bg-slate-50">
+                                       class="inline-flex items-center justify-center gap-2 rounded-sm border border-cyan-500/50 bg-slate-900 px-5 py-3 text-sm font-bold text-cyan-400 transition hover:border-fuchsia-500/50 hover:text-fuchsia-400">
                                         <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
                                         Call now
                                     </a>
                                 @endif
                                 @if ($hasWebsite)
                                     <a href="{{ $centerWebsite }}" target="_blank" rel="noopener"
-                                       class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-700 transition hover:bg-slate-50">
+                                       class="inline-flex items-center justify-center gap-2 rounded-sm border border-cyan-500/50 bg-slate-900 px-5 py-3 text-sm font-bold text-cyan-400 transition hover:border-fuchsia-500/50 hover:text-fuchsia-400">
                                         <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
                                         Website
                                     </a>
@@ -465,19 +432,19 @@
         </section>
     @endif
 
-    {{-- ═══════════════════ QUIZZES SECTION ═══════════════════ --}}
-    <section class="fade-up bg-white py-16 sm:py-20">
+    {{-- QUIZZES SECTION - Cyber --}}
+    <section class="fade-up bg-slate-900/80 py-16 sm:py-20">
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
             <div class="text-center">
-                <span class="inline-flex items-center rounded-full bg-indigo-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-indigo-600">Practice now</span>
-                <h2 class="mt-4 font-display text-2xl font-bold text-slate-900 sm:text-3xl">Public quizzes</h2>
+                <span class="inline-flex items-center rounded-sm border border-cyan-500/50 bg-cyan-500/10 px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-cyan-400">Practice now</span>
+                <h2 class="mt-4 font-display text-2xl font-bold text-slate-100 sm:text-3xl">Public quizzes</h2>
                 <p class="mt-2 text-sm text-slate-500 sm:text-base">Practice with {{ $creator->name }}'s quizzes.</p>
                 <div class="mx-auto mt-3 section-divider"></div>
             </div>
 
             @if ($publicQuizzes->count() === 0)
-                <div class="mx-auto mt-10 max-w-md rounded-2xl border-2 border-dashed border-slate-200 bg-slate-50/50 p-10 text-center">
-                    <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-slate-100">
+                <div class="mx-auto mt-10 max-w-md rounded-sm cyber-card border-dashed p-10 text-center">
+                    <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-sm border border-cyan-500/40 bg-slate-800">
                         <svg class="h-7 w-7 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"/></svg>
                     </div>
                     <p class="mt-4 font-semibold text-slate-700">No public quizzes yet</p>
@@ -487,19 +454,19 @@
                 <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
                     @foreach ($publicQuizzes as $quiz)
                         <a href="{{ route('public.quizzes.show', $quiz->unique_code) }}"
-                           class="hover-lift group flex flex-col rounded-2xl border border-slate-100 bg-white p-5 text-left shadow-sm transition hover:border-indigo-200 hover:shadow-lg sm:p-6">
+                           class="hover-lift cyber-card group flex flex-col rounded-sm p-5 text-left transition sm:p-6">
                             <div class="flex items-start justify-between gap-3">
                                 <div class="min-w-0 flex-1">
-                                    <h3 class="font-bold text-slate-800 break-words group-hover:text-indigo-700 leading-snug">{{ $quiz->title }}</h3>
+                                    <h3 class="font-bold text-slate-100 break-words group-hover:text-cyan-400 leading-snug">{{ $quiz->title }}</h3>
                                     @if ($quiz->description)
                                         <p class="mt-1.5 line-clamp-2 text-sm leading-relaxed text-slate-500">{{ $quiz->description }}</p>
                                     @endif
                                 </div>
-                                <span class="shrink-0 rounded-lg bg-indigo-100 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-indigo-700">{{ $quiz->mode }}</span>
+                                <span class="shrink-0 rounded-sm border border-cyan-500/50 bg-cyan-500/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-cyan-400">{{ $quiz->mode }}</span>
                             </div>
-                            <div class="mt-auto pt-4 flex items-center justify-between border-t border-slate-100">
-                                <span class="text-xs font-medium text-slate-500">{{ $quiz->questions_count ?? 0 }} questions</span>
-                                <span class="inline-flex items-center gap-1 text-sm font-bold text-indigo-600 group-hover:text-indigo-700">
+                            <div class="mt-auto pt-4 flex items-center justify-between border-t border-cyan-500/30">
+                                <span class="text-xs font-medium text-slate-400">{{ $quiz->questions_count ?? 0 }} questions</span>
+                                <span class="inline-flex items-center gap-1 text-sm font-bold text-cyan-400 group-hover:text-fuchsia-400">
                                     Play
                                     <svg class="h-4 w-4 transition group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
                                 </span>
@@ -514,14 +481,14 @@
 
     {{-- ═══════════════════ SOCIAL LINKS ═══════════════════ --}}
     @if ($v('social') && !empty($social))
-        <section class="bg-slate-50 py-12">
+        <section class="bg-slate-950 py-12">
             <div class="mx-auto max-w-6xl px-5 text-center sm:px-8">
                 <h3 class="text-sm font-semibold uppercase tracking-wider text-slate-400">Follow us on</h3>
                 <div class="mt-4 flex flex-wrap justify-center gap-3">
                     @foreach ($social as $label => $url)
                         @if (is_string($url) && $url !== '')
                             <a href="{{ $url }}" target="_blank" rel="noopener noreferrer"
-                               class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-indigo-200 hover:text-indigo-600 hover:shadow-md active:scale-[0.97]">
+                               class="inline-flex items-center gap-2 rounded-sm cyber-card px-5 py-2.5 text-sm font-semibold text-cyan-300 transition hover:border-fuchsia-500/50 hover:text-fuchsia-400 active:scale-[0.97]">
                                 @php
                                     $lbl = is_string($label) && $label !== '' ? strtolower($label) : 'link';
                                 @endphp
@@ -547,15 +514,15 @@
         </section>
     @endif
 
-    {{-- ═══════════════════ FOOTER ═══════════════════ --}}
-    <footer class="border-t border-slate-200 bg-white py-8">
+    {{-- FOOTER - Cyber --}}
+    <footer class="border-t border-cyan-500/30 bg-slate-950 py-8">
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
             <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
                 <div class="flex items-center gap-2">
-                    <div class="grid h-7 w-7 place-items-center rounded-lg bg-gradient-to-br from-indigo-600 to-violet-600 text-xs font-bold text-white">Q</div>
-                    <span class="text-sm font-semibold text-slate-700">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</span>
+                    <div class="grid h-7 w-7 place-items-center rounded-sm border border-cyan-400 bg-slate-900 text-xs font-bold text-cyan-400">Q</div>
+                    <span class="text-sm font-semibold tracking-widest text-cyan-300 uppercase">{{ $siteName ?? config('app.name', 'QuizWhiz') }}</span>
                 </div>
-                <p class="text-xs text-slate-400">&copy; {{ date('Y') }} {{ $v('institute','name') && $centerName ? $centerName : config('app.name', 'QuizWhiz') }}. All rights reserved.</p>
+                <p class="text-[10px] uppercase tracking-widest text-slate-500">&copy; {{ date('Y') }} {{ $v('institute','name') && $centerName ? $centerName : config('app.name', 'QuizWhiz') }}. All rights reserved.</p>
             </div>
         </div>
     </footer>
