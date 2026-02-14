@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "Kosi river is notorious for flooding in which state?",
+        "answers": [
+            "Gujarat",
+            "Bihar",
+            "Rajasthan",
+            "Kerala"
+        ],
+        "correct": 1,
+        "explanation": "The Kosi river (often called 'Sorrow of Bihar') causes recurrent flooding in Bihar. It frequently changes course and has led to major flood disasters."
+    },
+    {
+        "prompt": "Cyclone names in the North Indian Ocean are given by:",
+        "answers": [
+            "Only India",
+            "Eight countries in the region (India, Bangladesh, etc.) on a rotational basis",
+            "Only IMD",
+            "Only WMO"
+        ],
+        "correct": 1,
+        "explanation": "Cyclone names for the North Indian Ocean are decided by a panel of eight countries (India, Bangladesh, Maldives, Myanmar, etc.) on a rotational basis under WMO."
+    },
+    {
+        "prompt": "Moment magnitude scale (Mw) is used to measure:",
+        "answers": [
+            "Wind speed",
+            "Earthquake size (replacing Richter for large quakes)",
+            "Flood depth",
+            "Temperature"
+        ],
+        "correct": 1,
+        "explanation": "The moment magnitude scale (Mw) measures the total energy released by an earthquake. It is preferred over Richter for moderate to large earthquakes and does not saturate."
+    },
+    {
+        "prompt": "Chennai received catastrophic floods in:",
+        "answers": [
+            "2012",
+            "2014",
+            "2015",
+            "2017"
+        ],
+        "correct": 2,
+        "explanation": "Chennai experienced catastrophic floods in November–December 2015 due to very heavy rainfall from the northeast monsoon and depressions."
+    },
+    {
+        "prompt": "Jammu and Kashmir floods (severe) occurred in:",
+        "answers": [
+            "2012",
+            "2013",
+            "2014",
+            "2016"
+        ],
+        "correct": 2,
+        "explanation": "Severe flooding in Jammu and Kashmir occurred in September 2014, affecting Srinagar and other areas due to heavy rainfall and overflow of the Jhelum."
+    },
+    {
+        "prompt": "Which index is used for drought monitoring besides SPI?",
+        "answers": [
+            "Only Richter",
+            "Vegetation Condition Index (VCI), Standardised Runoff Index, Palmer Drought Severity Index",
+            "Only Mercalli",
+            "Only Beaufort"
+        ],
+        "correct": 1,
+        "explanation": "Drought is monitored using several indices: SPI, Vegetation Condition Index (VCI), Standardised Runoff Index (SRI), Palmer Drought Severity Index (PDSI), and others."
+    },
+    {
+        "prompt": "Landslides are classified by type into:",
+        "answers": [
+            "Only by size",
+            "Falls, slides, flows, and spreads (based on movement)",
+            "Only by speed",
+            "Only by cause"
+        ],
+        "correct": 1,
+        "explanation": "Landslides are classified by type of movement: falls, slides (rotational, translational), flows (debris flow, mudflow), and spreads. Size and material are also used."
+    },
+    {
+        "prompt": "NDRF battalions are drawn from:",
+        "answers": [
+            "Only state police",
+            "Central Armed Police Forces (CAPFs) like BSF, CRPF, CISF, ITBP, SSB)",
+            "Only Army",
+            "Only Navy"
+        ],
+        "correct": 1,
+        "explanation": "NDRF battalions are raised from personnel of Central Armed Police Forces (BSF, CRPF, CISF, ITBP, SSB). They are trained in disaster response and deployed when needed."
+    },
+    {
+        "prompt": "National Disaster Response Fund is financed by:",
+        "answers": [
+            "Only state contributions",
+            "Central government; National Calamity Contingency Duty (NCCD) and other sources",
+            "Only PMNRF",
+            "Only international aid"
+        ],
+        "correct": 1,
+        "explanation": "NDRF is financed by the central government. Funds may come from budgetary allocation and earlier from National Calamity Contingency Duty (NCCD) on certain items."
+    },
+    {
+        "prompt": "When a calamity is of 'severe nature', the state government:",
+        "answers": [
+            "Does not need central help",
+            "May request additional assistance from the Centre (NDRF)",
+            "Only uses PMNRF",
+            "Only uses international aid"
+        ],
+        "correct": 1,
+        "explanation": "When a calamity is of severe nature and state's SDRF is insufficient, the state requests the central government for additional assistance from the National Disaster Response Fund."
+    },
+    {
+        "prompt": "Disaster Management Act, 2005 defines 'disaster' as:",
+        "answers": [
+            "Only natural events",
+            "A catastrophe that causes substantial loss of life, destruction of property, or damage to environment, and is beyond the coping capacity of the community",
+            "Only earthquakes",
+            "Only floods"
+        ],
+        "correct": 1,
+        "explanation": "The DM Act defines disaster as a catastrophe, mishap, calamity or grave occurrence that causes substantial loss of life, property or damage to environment and is beyond the normal coping capacity of the community."
+    },
+    {
+        "prompt": "Which body assists the NEC in disaster management?",
+        "answers": [
+            "Only state governments",
+            "NDMA and various ministries/departments",
+            "Only NIDM",
+            "Only NDRF"
+        ],
+        "correct": 1,
+        "explanation": "The NEC is supported by NDMA and various central ministries and departments. It coordinates the implementation of national policy and plan."
+    },
+    {
+        "prompt": "Flood forecasting by CWC typically gives lead time of:",
+        "answers": [
+            "Few hours only",
+            "Several hours to about 72 hours depending on location",
+            "One week only",
+            "One month"
+        ],
+        "correct": 1,
+        "explanation": "CWC flood forecasts typically provide lead time of several hours to about 24–72 hours depending on the basin and station, allowing evacuation and preparedness."
+    },
+    {
+        "prompt": "Storm surge warning is part of:",
+        "answers": [
+            "Only earthquake warning",
+            "Cyclone warning (issued by IMD)",
+            "Only drought monitoring",
+            "Only landslide warning"
+        ],
+        "correct": 1,
+        "explanation": "Storm surge (rise in sea level due to cyclone) warning is part of the cyclone warning system issued by IMD and state authorities for coastal areas."
+    },
+    {
+        "prompt": "Tsunami warning for the Indian Ocean is coordinated by:",
+        "answers": [
+            "Only Japan",
+            "India (INCOIS/ITEWC) and other regional providers under IOC/UNESCO",
+            "Only USA",
+            "Only Australia"
+        ],
+        "correct": 1,
+        "explanation": "India's ITEWC at INCOIS is one of the Regional Tsunami Service Providers for the Indian Ocean. Coordination is under IOC (Intergovernmental Oceanographic Commission)/UNESCO."
+    },
+    {
+        "prompt": "Relief camp management after a disaster includes:",
+        "answers": [
+            "Only food distribution",
+            "Shelter, food, water, sanitation, health, and registration",
+            "Only medical care",
+            "Only security"
+        ],
+        "correct": 1,
+        "explanation": "Relief camp management includes provision of shelter, food, safe drinking water, sanitation, health care, registration of affected persons, and coordination with agencies."
+    },
+    {
+        "prompt": "Which state has an NDRF battalion at Guwahati?",
+        "answers": [
+            "West Bengal",
+            "Assam",
+            "Bihar",
+            "Odisha"
+        ],
+        "correct": 1,
+        "explanation": "NDRF has a battalion located at Guwahati, Assam, to cover the northeastern region for quick deployment during disasters."
+    },
+    {
+        "prompt": "Chemical disaster preparedness in India is coordinated by:",
+        "answers": [
+            "Only state pollution boards",
+            "NDMA guidelines and state/district authorities; industries under various regulations",
+            "Only IMD",
+            "Only NIDM"
+        ],
+        "correct": 1,
+        "explanation": "Chemical disaster preparedness is guided by NDMA guidelines. State and district authorities coordinate with industries; regulations include storage, safety, and off-site emergency plans."
+    },
+    {
+        "prompt": "Cloudburst refers to:",
+        "answers": [
+            "Cyclone",
+            "Very intense rainfall over a small area in a short time",
+            "Drought",
+            "Earthquake"
+        ],
+        "correct": 1,
+        "explanation": "A cloudburst is an extreme rainfall event—very intense precipitation over a small area in a short duration—often causing flash floods and landslides, especially in hills."
+    },
+    {
+        "prompt": "The first National Disaster Management Plan was released under the chairmanship of:",
+        "answers": [
+            "Home Minister",
+            "Prime Minister (NDMA Chairperson)",
+            "Defence Minister",
+            "Cabinet Secretary"
+        ],
+        "correct": 1,
+        "explanation": "The National Disaster Management Plan is prepared by NDMA, whose Chairperson is the Prime Minister. The first NDMP was released in 2016."
+    }
+]

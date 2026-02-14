@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "Sendai Framework Priority 1 is:",
+        "answers": [
+            "Investing in DRR",
+            "Understanding disaster risk",
+            "Enhancing preparedness",
+            "Strengthening governance"
+        ],
+        "correct": 1,
+        "explanation": "Sendai Priority 1 is 'Understanding disaster risk'—risk assessment, data, and awareness. Priorities 2–4 are strengthening governance, investing in DRR, and enhancing preparedness and Build Back Better."
+    },
+    {
+        "prompt": "One of the seven Sendai targets aims to substantially reduce:",
+        "answers": [
+            "Only military spending",
+            "Number of affected people and disaster damage to critical infrastructure",
+            "Only carbon emissions",
+            "Only poverty"
+        ],
+        "correct": 1,
+        "explanation": "Sendai's seven global targets include substantially reducing disaster mortality, number of affected people, economic loss, and damage to critical infrastructure and disruption of basic services by 2030."
+    },
+    {
+        "prompt": "Women and children are emphasised in Sendai Framework for:",
+        "answers": [
+            "Only relief distribution",
+            "Inclusive DRR—they are often disproportionately affected and have specific needs",
+            "Only evacuation",
+            "Only funding"
+        ],
+        "correct": 1,
+        "explanation": "Sendai Framework emphasises a gender-responsive and inclusive approach. Women, children, and persons with disabilities are often more affected; their participation and needs must be addressed in DRR."
+    },
+    {
+        "prompt": "Private sector's role in disaster risk reduction includes:",
+        "answers": [
+            "Only donating after disaster",
+            "Business continuity planning, resilient infrastructure, and risk-sensitive investment",
+            "Only insurance",
+            "Only relief camps"
+        ],
+        "correct": 1,
+        "explanation": "Sendai and national policies encourage private sector to engage in DRR through business continuity planning, resilient infrastructure, risk-sensitive investment, and partnerships with government."
+    },
+    {
+        "prompt": "Local self-government (Panchayati Raj, Municipalities) in disaster management:",
+        "answers": [
+            "Has no role",
+            "Plays a key role in preparedness and response at local level",
+            "Only implements central orders",
+            "Only collects funds"
+        ],
+        "correct": 1,
+        "explanation": "Local bodies (panchayats, municipalities) are the first line of response and play a key role in local preparedness, evacuation, relief distribution, and awareness as per state and national plans."
+    },
+    {
+        "prompt": "EM-DAT is:",
+        "answers": [
+            "A cyclone name",
+            "International disaster database (Emergency Events Database)",
+            "A type of early warning",
+            "A relief fund"
+        ],
+        "correct": 1,
+        "explanation": "EM-DAT (Emergency Events Database) is maintained by the Centre for Research on the Epidemiology of Disasters (CRED). It records disasters worldwide and is used for research and policy."
+    },
+    {
+        "prompt": "Climate change adaptation and disaster risk reduction are:",
+        "answers": [
+            "Unrelated",
+            "Closely linked—both aim to reduce vulnerability and build resilience",
+            "Only adaptation matters",
+            "Only DRR matters"
+        ],
+        "correct": 1,
+        "explanation": "Climate change adaptation (adapting to climate impacts) and DRR are closely linked. Both address vulnerability, resilience, and reducing loss; integration is encouraged under Paris Agreement and Sendai."
+    },
+    {
+        "prompt": "Urban resilience in disaster context means:",
+        "answers": [
+            "Only strong buildings",
+            "Cities' ability to withstand, absorb, and recover from disasters while protecting lives and economy",
+            "Only evacuation plans",
+            "Only insurance"
+        ],
+        "correct": 1,
+        "explanation": "Urban resilience is the ability of urban systems to withstand, absorb, adapt to, and recover from shocks and stresses (including disasters) while maintaining essential functions."
+    },
+    {
+        "prompt": "Disability-inclusive disaster risk reduction means:",
+        "answers": [
+            "Only building ramps",
+            "Involving persons with disabilities in planning and ensuring accessible warning, evacuation, and relief",
+            "Only post-disaster care",
+            "Only separate camps"
+        ],
+        "correct": 1,
+        "explanation": "Disability-inclusive DRR involves persons with disabilities in planning, ensures accessible early warning and evacuation, and provides accessible relief and rehabilitation."
+    },
+    {
+        "prompt": "SAARC Framework for Action on Disaster Risk Reduction was adopted to:",
+        "answers": [
+            "Replace Sendai",
+            "Strengthen regional cooperation in DRR among SAARC countries",
+            "Only fund relief",
+            "Only train NDRF"
+        ],
+        "correct": 1,
+        "explanation": "SAARC has adopted frameworks and agreements for disaster risk reduction and mutual assistance to strengthen regional cooperation among member countries."
+    },
+    {
+        "prompt": "The Sendai Framework was adopted at the:",
+        "answers": [
+            "UN Climate Summit",
+            "Third UN World Conference on Disaster Risk Reduction",
+            "UN General Assembly only",
+            "WHO Assembly"
+        ],
+        "correct": 1,
+        "explanation": "The Sendai Framework was adopted at the Third UN World Conference on Disaster Risk Reduction (WCDRR) in Sendai, Japan, in March 2015."
+    },
+    {
+        "prompt": "Disaster risk governance under Sendai means:",
+        "answers": [
+            "Only central government",
+            "Laws, policies, and institutions at all levels for managing disaster risk",
+            "Only state government",
+            "Only international agencies"
+        ],
+        "correct": 1,
+        "explanation": "Disaster risk governance refers to the system of institutions, policies, and laws at national, subnational, and local levels for understanding and managing disaster risk."
+    },
+    {
+        "prompt": "Preparedness under Sendai includes:",
+        "answers": [
+            "Only relief",
+            "Early warning, contingency planning, drills, and stockpiling",
+            "Only reconstruction",
+            "Only compensation"
+        ],
+        "correct": 1,
+        "explanation": "Sendai Priority 4 (Enhancing disaster preparedness) includes multi-hazard early warning, contingency plans, evacuation drills, and pre-positioning of supplies."
+    },
+    {
+        "prompt": "Which UN body supports the International Day for Disaster Risk Reduction?",
+        "answers": [
+            "WHO",
+            "UNDRR",
+            "UNICEF",
+            "FAO"
+        ],
+        "correct": 1,
+        "explanation": "International Day for Disaster Risk Reduction is observed on 13 October. UNDRR promotes it to raise awareness about DRR and resilience."
+    },
+    {
+        "prompt": "Investing in disaster risk reduction (Sendai Priority 3) includes:",
+        "answers": [
+            "Only post-disaster relief",
+            "Allocating resources for prevention, mitigation, and resilience in development",
+            "Only insurance",
+            "Only international aid"
+        ],
+        "correct": 1,
+        "explanation": "Sendai Priority 3 calls for investing in disaster risk reduction for resilience—integrating DRR into development, public and private investment, and financial mechanisms."
+    },
+    {
+        "prompt": "National Disaster Management Plan is aligned with:",
+        "answers": [
+            "Only state plans",
+            "Sendai Framework and national policies",
+            "Only NDRF mandate",
+            "Only international aid"
+        ],
+        "correct": 1,
+        "explanation": "The NDMP is prepared in alignment with the Sendai Framework, National Policy on Disaster Management, and national development goals to ensure a holistic approach."
+    },
+    {
+        "prompt": "Disaster statistics in India are compiled by:",
+        "answers": [
+            "Only NDRF",
+            "Ministry of Home Affairs, NDMA, and state governments; NIDM also documents",
+            "Only IMD",
+            "Only CWC"
+        ],
+        "correct": 1,
+        "explanation": "Disaster-related data and statistics are compiled by MHA, NDMA, state governments, and NIDM for planning, reporting, and meeting Sendai monitoring requirements."
+    },
+    {
+        "prompt": "Build Back Better in recovery means:",
+        "answers": [
+            "Only rebuild faster",
+            "Reconstruct in a way that reduces future risk and improves resilience",
+            "Only cheaper construction",
+            "Only temporary structures"
+        ],
+        "correct": 1,
+        "explanation": "Build Back Better means recovery and reconstruction should improve resilience and reduce future disaster risk (e.g., better codes, safer locations, stronger systems)."
+    },
+    {
+        "prompt": "Regional cooperation in DRR helps in:",
+        "answers": [
+            "Only funding",
+            "Sharing early warning, expertise, and mutual assistance during cross-border disasters",
+            "Only training",
+            "Only relief distribution"
+        ],
+        "correct": 1,
+        "explanation": "Regional cooperation (e.g., SAARC, BIMSTEC) enables sharing of early warning, best practices, expertise, and mutual assistance when disasters affect the region."
+    },
+    {
+        "prompt": "Sendai Framework global targets are to be achieved by:",
+        "answers": [
+            "2020",
+            "2025",
+            "2030",
+            "2050"
+        ],
+        "correct": 2,
+        "explanation": "The Sendai Framework's seven global targets are to be achieved by 2030, aligned with the timeline of the Sustainable Development Goals (SDGs)."
+    }
+]

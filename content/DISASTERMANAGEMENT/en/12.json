@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "Which body formulates guidelines for disaster management in India?",
+        "answers": [
+            "Only state governments",
+            "National Disaster Management Authority (NDMA)",
+            "Only NIDM",
+            "Only MHA"
+        ],
+        "correct": 1,
+        "explanation": "NDMA lays down policies, plans, and guidelines for disaster management. States and other agencies implement them; NIDM supports training and research."
+    },
+    {
+        "prompt": "Beaufort scale is used to measure:",
+        "answers": [
+            "Earthquake intensity",
+            "Wind speed (and thus relevant to cyclones and storms)",
+            "Flood depth",
+            "Temperature"
+        ],
+        "correct": 1,
+        "explanation": "The Beaufort scale measures wind speed based on observed effects (e.g., sea state, damage). It is used in meteorology and cyclone/storm description."
+    },
+    {
+        "prompt": "Multi-hazard early warning system (MHEWS) integrates warnings for:",
+        "answers": [
+            "Only one hazard",
+            "Multiple hazards (e.g. cyclone, flood, storm surge) in one framework",
+            "Only international use",
+            "Only post-disaster"
+        ],
+        "correct": 1,
+        "explanation": "MHEWS integrates early warning for multiple hazards (cyclone, flood, tsunami, etc.) so that users get a coherent picture and can take coordinated action."
+    },
+    {
+        "prompt": "Disaster Management Act, 2005 provides for the establishment of:",
+        "answers": [
+            "Only NDMA",
+            "NDMA, NEC, SDMA, DDMA, NDRF, and related funds",
+            "Only NDRF",
+            "Only state bodies"
+        ],
+        "correct": 1,
+        "explanation": "The DM Act provides for NDMA, National Executive Committee (NEC), State and District DM Authorities (SDMA, DDMA), NDRF, and SDRF/NDRF funds."
+    },
+    {
+        "prompt": "Which state has been a pioneer in cyclone preparedness and evacuation?",
+        "answers": [
+            "Rajasthan",
+            "Odisha",
+            "Haryana",
+            "Punjab"
+        ],
+        "correct": 1,
+        "explanation": "Odisha has been widely recognised for its cyclone preparedness, mass evacuation, and early warning systems, notably during cyclones like Fani (2019) and Phailin (2013)."
+    },
+    {
+        "prompt": "SASE is related to:",
+        "answers": [
+            "Tsunami warning",
+            "Snow and Avalanche Study (avalanche hazard in Himalayas)",
+            "Cyclone tracking",
+            "Drought monitoring"
+        ],
+        "correct": 1,
+        "explanation": "SASE (Snow and Avalanche Study Establishment) under DRDO studies snow and avalanche hazards in the Himalayas and provides inputs for avalanche forecasting and safety."
+    },
+    {
+        "prompt": "Relief compensation for crop loss due to natural calamity may be provided under:",
+        "answers": [
+            "Only PMNRF",
+            "SDRF/NDRF norms and schemes like PMFBY (crop insurance)",
+            "Only state budget",
+            "Only international aid"
+        ],
+        "correct": 1,
+        "explanation": "Crop loss relief is provided under SDRF/NDRF norms. PMFBY (Pradhan Mantri Fasal Bima Yojana) provides crop insurance against natural calamities."
+    },
+    {
+        "prompt": "Which phase focuses on 'what to do when disaster strikes'?",
+        "answers": [
+            "Mitigation",
+            "Response",
+            "Prevention only",
+            "Risk assessment only"
+        ],
+        "correct": 1,
+        "explanation": "Response is the phase that deals with what to do when a disaster strikes—rescue, relief, evacuation, medical care, and immediate assistance."
+    },
+    {
+        "prompt": "Tsunami waves can travel across the ocean at speeds of:",
+        "answers": [
+            "Few km/hour",
+            "Hundreds of km/hour (e.g. 500–800 km/h in deep water)",
+            "Same as wind speed",
+            "Only in coastal areas"
+        ],
+        "correct": 1,
+        "explanation": "Tsunami waves can travel at 500–800 km/h in the deep ocean. They slow down and grow in height as they approach shallow coastal waters."
+    },
+    {
+        "prompt": "National Disaster Management Plan (NDMP) includes:",
+        "answers": [
+            "Only response",
+            "Risk assessment, prevention, mitigation, preparedness, response, and recovery",
+            "Only mitigation",
+            "Only international cooperation"
+        ],
+        "correct": 1,
+        "explanation": "NDMP is a comprehensive plan covering the full disaster management cycle: risk assessment, prevention, mitigation, preparedness, response, recovery, and capacity building."
+    },
+    {
+        "prompt": "Vulnerability assessment in DRR helps to:",
+        "answers": [
+            "Only count casualties",
+            "Identify who and what is at risk and why, to target interventions",
+            "Only measure hazard",
+            "Only plan response"
+        ],
+        "correct": 1,
+        "explanation": "Vulnerability assessment identifies which populations, assets, and systems are at risk and why (e.g. location, poverty, building type), so that mitigation and preparedness can be targeted."
+    },
+    {
+        "prompt": "Which of the following is a non-structural mitigation measure?",
+        "answers": [
+            "Building a dam",
+            "Early warning systems, land-use planning, and awareness",
+            "Constructing a retaining wall",
+            "Only building codes"
+        ],
+        "correct": 1,
+        "explanation": "Non-structural mitigation includes early warning, land-use planning, awareness, insurance, and regulations—measures that do not involve physical construction."
+    },
+    {
+        "prompt": "India is a member of which regional grouping for disaster cooperation?",
+        "answers": [
+            "Only ASEAN",
+            "SAARC and BIMSTEC (both have disaster management cooperation)",
+            "Only EU",
+            "Only NATO"
+        ],
+        "correct": 1,
+        "explanation": "India is part of SAARC and BIMSTEC, both of which have mechanisms for disaster risk reduction and mutual assistance in the region."
+    },
+    {
+        "prompt": "Disaster risk reduction (DRR) and sustainable development are linked because:",
+        "answers": [
+            "They are unrelated",
+            "Unsustainable development can increase vulnerability; DRR protects development gains",
+            "Only DRR matters",
+            "Only development matters"
+        ],
+        "correct": 1,
+        "explanation": "Poor planning and unsustainable development can increase disaster vulnerability. DRR helps protect development gains and build resilience—reflected in SDGs and Sendai Framework."
+    },
+    {
+        "prompt": "The National Executive Committee (NEC) submits its report to:",
+        "answers": [
+            "Only state governments",
+            "National Disaster Management Authority (NDMA)",
+            "Only Parliament",
+            "Only UN"
+        ],
+        "correct": 1,
+        "explanation": "The NEC is responsible to NDMA and assists it. It coordinates the implementation of the national plan and policy and works under the overall direction of NDMA."
+    },
+    {
+        "prompt": "Flash flood is characterised by:",
+        "answers": [
+            "Slow rise of water over days",
+            "Rapid rise of water in a short time, often in hilly or urban areas",
+            "Only in coastal areas",
+            "Only in deserts"
+        ],
+        "correct": 1,
+        "explanation": "Flash flood is a rapid rise of water—typically within hours—due to heavy rainfall, cloudburst, or dam/glacial release, often in hills or poorly drained urban areas."
+    },
+    {
+        "prompt": "Which ministry oversees the Geological Survey of India (GSI)?",
+        "answers": [
+            "Ministry of Home Affairs",
+            "Ministry of Mines",
+            "Ministry of Environment",
+            "Ministry of Earth Sciences"
+        ],
+        "correct": 1,
+        "explanation": "Geological Survey of India (GSI) is under the Ministry of Mines. GSI contributes to landslide studies, geological hazards, and earth science for disaster risk assessment."
+    },
+    {
+        "prompt": "Community participation in disaster preparedness is important because:",
+        "answers": [
+            "Only government can act",
+            "Communities are first responders and know local risks and resources",
+            "Only NDRF responds",
+            "Only international agencies help"
+        ],
+        "correct": 1,
+        "explanation": "Communities are often the first to respond and know local terrain, risks, and resources. Community-based DRR (CBDRR) strengthens local capacity and saves lives."
+    },
+    {
+        "prompt": "Heat wave action plan typically includes:",
+        "answers": [
+            "Only cold water supply",
+            "Early warning, public awareness, cooling centres, and protection for vulnerable groups",
+            "Only hospital beds",
+            "Only night shifts"
+        ],
+        "correct": 1,
+        "explanation": "Heat wave action plans include IMD early warning, public awareness, provision of cooling centres, and measures to protect outdoor workers and vulnerable populations."
+    },
+    {
+        "prompt": "The objective of disaster preparedness is to:",
+        "answers": [
+            "Only rebuild after disaster",
+            "Enable effective response and minimise loss when a disaster occurs",
+            "Only mitigate",
+            "Only compensate"
+        ],
+        "correct": 1,
+        "explanation": "Preparedness aims to ensure that when a disaster occurs, systems (early warning, evacuation, relief stocks, trained personnel) are in place to respond effectively and minimise loss."
+    }
+]

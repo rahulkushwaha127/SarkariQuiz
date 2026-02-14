@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "Which of the following is a hydrological disaster?",
+        "answers": [
+            "Earthquake",
+            "Tsunami",
+            "Drought",
+            "Wildfire"
+        ],
+        "correct": 1,
+        "explanation": "Tsunami is a hydrological disaster (water-related). Earthquake is geological; drought and wildfire are climatological."
+    },
+    {
+        "prompt": "The Indian Ocean Tsunami that affected India occurred in:",
+        "answers": [
+            "2002",
+            "2004",
+            "2006",
+            "2008"
+        ],
+        "correct": 1,
+        "explanation": "The Indian Ocean Tsunami occurred on 26 December 2004, triggered by an earthquake off Sumatra. It severely affected Tamil Nadu, Andhra Pradesh, and the Andaman and Nicobar Islands."
+    },
+    {
+        "prompt": "Which phase of the disaster management cycle includes rescue and emergency services?",
+        "answers": [
+            "Mitigation",
+            "Preparedness",
+            "Response",
+            "Recovery"
+        ],
+        "correct": 2,
+        "explanation": "Response is the phase that includes immediate rescue, relief, and emergency services during and right after a disaster."
+    },
+    {
+        "prompt": "Flood forecasting in India is primarily done by:",
+        "answers": [
+            "IMD",
+            "Central Water Commission (CWC)",
+            "INCOIS",
+            "NRSC"
+        ],
+        "correct": 1,
+        "explanation": "The Central Water Commission (CWC) under the Ministry of Jal Shakti is responsible for flood forecasting and flood control in India."
+    },
+    {
+        "prompt": "Which Indian region is most prone to landslides?",
+        "answers": [
+            "Indo-Gangetic Plain",
+            "Western Ghats",
+            "Himalayan Region",
+            "Deccan Plateau"
+        ],
+        "correct": 2,
+        "explanation": "The Himalayan region is highly prone to landslides due to steep slopes, heavy rainfall, seismic activity, and deforestation."
+    },
+    {
+        "prompt": "Earthquake early warning systems can provide advance notice of:",
+        "answers": [
+            "Several hours",
+            "Several minutes",
+            "Several seconds to a minute",
+            "Several days"
+        ],
+        "correct": 2,
+        "explanation": "Earthquake early warning typically provides only seconds to about a minute of advance notice, as seismic waves travel fast. It can still allow automated shutdowns and alerts."
+    },
+    {
+        "prompt": "Which of the following is a meteorological disaster?",
+        "answers": [
+            "Volcanic eruption",
+            "Cyclone",
+            "Landslide",
+            "Epidemic"
+        ],
+        "correct": 1,
+        "explanation": "Cyclone is a meteorological disaster (weather-related). Volcanic eruption and landslide are geological; epidemic is biological."
+    },
+    {
+        "prompt": "Recovery in the disaster management cycle typically includes:",
+        "answers": [
+            "Early warning",
+            "Reconstruction and rehabilitation",
+            "Rescue operations",
+            "Risk assessment only"
+        ],
+        "correct": 1,
+        "explanation": "Recovery focuses on reconstruction, rehabilitation, and restoring normalcy after the immediate response phase."
+    },
+    {
+        "prompt": "Which state is highly vulnerable to cyclones on the east coast of India?",
+        "answers": [
+            "Gujarat",
+            "Odisha",
+            "Maharashtra",
+            "Goa"
+        ],
+        "correct": 1,
+        "explanation": "Odisha is highly vulnerable to cyclones on the east coast. Gujarat is also cyclone-prone on the west coast. Both have experienced severe cyclones."
+    },
+    {
+        "prompt": "Drought monitoring in India is carried out by:",
+        "answers": [
+            "INCOIS",
+            "CWC",
+            "IMD and other agencies",
+            "NRSC only"
+        ],
+        "correct": 2,
+        "explanation": "Drought monitoring involves IMD (rainfall, weather), Ministry of Agriculture, and state agencies for crop and water availability assessment."
+    },
+    {
+        "prompt": "Which is an example of a human-induced disaster?",
+        "answers": [
+            "Flood",
+            "Dam collapse",
+            "Tsunami",
+            "Drought"
+        ],
+        "correct": 1,
+        "explanation": "Dam collapse is a human-induced (anthropogenic) disaster. Flood, tsunami, and drought can be natural or partly human-influenced but are often classified as natural hazards."
+    },
+    {
+        "prompt": "Preparedness in disaster management includes:",
+        "answers": [
+            "Only relief distribution",
+            "Early warning, training, and drills",
+            "Only reconstruction",
+            "Only mitigation measures"
+        ],
+        "correct": 1,
+        "explanation": "Preparedness includes early warning systems, training, mock drills, stockpiling, and planning so that response can be effective when a disaster strikes."
+    },
+    {
+        "prompt": "Which seismic zone in India has the highest earthquake risk?",
+        "answers": [
+            "Zone II",
+            "Zone III",
+            "Zone IV",
+            "Zone V"
+        ],
+        "correct": 3,
+        "explanation": "Zone V has the highest seismic risk (e.g., parts of Kashmir, Himachal, Uttarakhand, North Bihar, Gujrat, Andaman & Nicobar). Zone II is the lowest."
+    },
+    {
+        "prompt": "The Richter scale is used to measure:",
+        "answers": [
+            "Wind speed",
+            "Earthquake magnitude",
+            "Flood level",
+            "Temperature"
+        ],
+        "correct": 1,
+        "explanation": "The Richter scale measures the magnitude (size) of an earthquake. Moment magnitude (Mw) is now commonly used by seismologists."
+    },
+    {
+        "prompt": "Storm surge is typically associated with:",
+        "answers": [
+            "Earthquake",
+            "Cyclone",
+            "Drought",
+            "Landslide"
+        ],
+        "correct": 1,
+        "explanation": "Storm surge is a rise in sea level caused by cyclones (or hurricanes/typhoons) due to low pressure and strong winds pushing water ashore."
+    },
+    {
+        "prompt": "Which type of disaster is an avalanche?",
+        "answers": [
+            "Hydrological",
+            "Meteorological",
+            "Geological",
+            "Climatological"
+        ],
+        "correct": 2,
+        "explanation": "Avalanche is often classified as a geological or cryospheric hazard—mass of snow/ice sliding down a slope. It is common in the Himalayas."
+    },
+    {
+        "prompt": "Heat wave and cold wave are classified as:",
+        "answers": [
+            "Biological disasters",
+            "Climatological disasters",
+            "Geological disasters",
+            "Human-induced disasters"
+        ],
+        "correct": 1,
+        "explanation": "Heat wave and cold wave are climatological disasters, related to extreme temperature conditions over a period."
+    },
+    {
+        "prompt": "Which region in India is frequently affected by drought?",
+        "answers": [
+            "Kerala",
+            "Rajasthan and parts of Maharashtra",
+            "Assam",
+            "Meghalaya"
+        ],
+        "correct": 1,
+        "explanation": "Rajasthan, Maharashtra (Marathwada, Vidarbha), Karnataka, and parts of central India are frequently affected by drought due to erratic rainfall."
+    },
+    {
+        "prompt": "Volcanic eruption is a type of:",
+        "answers": [
+            "Hydrological disaster",
+            "Meteorological disaster",
+            "Geological disaster",
+            "Biological disaster"
+        ],
+        "correct": 2,
+        "explanation": "Volcanic eruption is a geological disaster. India has no active volcanoes on the mainland; Barren Island (Andamans) is active."
+    },
+    {
+        "prompt": "The disaster management cycle does NOT typically include which of the following as a distinct phase?",
+        "answers": [
+            "Mitigation",
+            "Preparedness",
+            "Response",
+            "Eradication"
+        ],
+        "correct": 3,
+        "explanation": "Eradication is not a phase of the disaster management cycle. The standard phases are Mitigation, Preparedness, Response, and Recovery. Disasters cannot be fully 'eradicated'; risk can only be reduced."
+    }
+]

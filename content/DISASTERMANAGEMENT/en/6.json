@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "Sendai Framework has how many priorities for action?",
+        "answers": [
+            "3",
+            "4",
+            "5",
+            "7"
+        ],
+        "correct": 1,
+        "explanation": "The Sendai Framework has four priorities: (1) Understanding risk, (2) Strengthening governance, (3) Investing in DRR, (4) Enhancing preparedness and 'Build Back Better'."
+    },
+    {
+        "prompt": "The Sendai Framework has seven global targets. One of them relates to:",
+        "answers": [
+            "Only economic growth",
+            "Substantially reducing disaster mortality and number of affected people",
+            "Only military preparedness",
+            "Only space research"
+        ],
+        "correct": 1,
+        "explanation": "Sendai's seven targets include substantially reducing global disaster mortality, affected people, economic loss, and damage to critical infrastructure by 2030."
+    },
+    {
+        "prompt": "Capacity in disaster context means:",
+        "answers": [
+            "Only financial resources",
+            "Combination of strengths and resources to manage risk and cope with disasters",
+            "Only number of NDRF personnel",
+            "Only number of hospitals"
+        ],
+        "correct": 1,
+        "explanation": "Capacity refers to the combination of all strengths, attributes, and resources available to manage and reduce disaster risks and strengthen resilience."
+    },
+    {
+        "prompt": "Hazard in disaster terminology means:",
+        "answers": [
+            "The damage caused",
+            "A potentially damaging physical event or phenomenon",
+            "The response plan only",
+            "The recovery phase only"
+        ],
+        "correct": 1,
+        "explanation": "A hazard is a dangerous phenomenon (e.g., earthquake, flood, cyclone) that may cause loss of life, injury, or damage. Risk = Hazard × Vulnerability / Capacity."
+    },
+    {
+        "prompt": "Which ministry operates the India Meteorological Department?",
+        "answers": [
+            "Ministry of Home Affairs",
+            "Ministry of Earth Sciences",
+            "Ministry of Environment",
+            "Ministry of Science and Technology"
+        ],
+        "correct": 1,
+        "explanation": "IMD works under the Ministry of Earth Sciences (MoES). MoES also oversees INCOIS, NRSC (via ISRO), and other earth science institutions."
+    },
+    {
+        "prompt": "Early Action in disaster context means:",
+        "answers": [
+            "Action after the disaster only",
+            "Taking action before a hazard strikes, based on early warning",
+            "Only issuing warnings",
+            "Only evacuation"
+        ],
+        "correct": 1,
+        "explanation": "Early action refers to taking preventive or preparatory measures before a predicted hazard materialises, using early warning information to reduce impact."
+    },
+    {
+        "prompt": "Which of the following is NOT a natural disaster?",
+        "answers": [
+            "Flood",
+            "Terrorist attack",
+            "Earthquake",
+            "Cyclone"
+        ],
+        "correct": 1,
+        "explanation": "Terrorist attack is a human-induced (anthropogenic) disaster. Flood, earthquake, and cyclone are natural hazards (though floods can be exacerbated by human activity)."
+    },
+    {
+        "prompt": "Home Guards are associated with:",
+        "answers": [
+            "Only military operations",
+            "Civil defence and auxiliary support during emergencies",
+            "Only fire services",
+            "Only health services"
+        ],
+        "correct": 1,
+        "explanation": "Home Guards are a voluntary force that assists in maintaining order, civil defence, and disaster response under the state government."
+    },
+    {
+        "prompt": "Adaptive capacity refers to:",
+        "answers": [
+            "Only building strength",
+            "Ability to adjust to hazards and modify behaviour to reduce risk",
+            "Only financial reserves",
+            "Only insurance"
+        ],
+        "correct": 1,
+        "explanation": "Adaptive capacity is the ability of systems, institutions, and communities to adjust to potential damage, take advantage of opportunities, and respond to consequences of disasters."
+    },
+    {
+        "prompt": "Which region in India receives the most cyclone hits?",
+        "answers": [
+            "Only Gujarat",
+            "East coast (Odisha, Andhra Pradesh, Tamil Nadu, West Bengal)",
+            "Only Kerala",
+            "Rajasthan"
+        ],
+        "correct": 1,
+        "explanation": "The east coast of India (Bay of Bengal) is more vulnerable to cyclones—Odisha, Andhra Pradesh, Tamil Nadu, and West Bengal are frequently affected."
+    },
+    {
+        "prompt": "Rehabilitation after disaster typically includes:",
+        "answers": [
+            "Only rescue",
+            "Restoring livelihoods, housing, and community infrastructure",
+            "Only temporary relief",
+            "Only warning systems"
+        ],
+        "correct": 1,
+        "explanation": "Rehabilitation focuses on restoring livelihoods, rebuilding housing and infrastructure, and helping affected people return to normal life after the response phase."
+    },
+    {
+        "prompt": "Which agency is the nodal agency for cyclone warning in India?",
+        "answers": [
+            "CWC",
+            "IMD",
+            "INCOIS",
+            "NRSC"
+        ],
+        "correct": 1,
+        "explanation": "IMD is the nodal agency for cyclone detection, tracking, and warning. It has Regional Specialised Meteorological Centres for tropical cyclones."
+    },
+    {
+        "prompt": "Disaster risk is often expressed as:",
+        "answers": [
+            "Hazard only",
+            "Function of hazard, vulnerability, and capacity",
+            "Vulnerability only",
+            "Capacity only"
+        ],
+        "correct": 1,
+        "explanation": "Disaster risk is a function of hazard (potential threat), vulnerability (susceptibility to harm), and capacity (ability to cope). Risk increases with hazard and vulnerability and decreases with capacity."
+    },
+    {
+        "prompt": "Which of the following is part of preparedness?",
+        "answers": [
+            "Only reconstruction",
+            "Mock drills and stockpiling of relief material",
+            "Only compensation",
+            "Only damage assessment"
+        ],
+        "correct": 1,
+        "explanation": "Preparedness includes mock drills, training, stockpiling relief material, preparing evacuation plans, and strengthening early warning and communication."
+    },
+    {
+        "prompt": "BIMSTEC member countries include:",
+        "answers": [
+            "Only India and Pakistan",
+            "India, Bangladesh, Sri Lanka, Thailand, Myanmar, Nepal, Bhutan",
+            "Only European nations",
+            "Only African nations"
+        ],
+        "correct": 1,
+        "explanation": "BIMSTEC (Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation) includes India, Bangladesh, Sri Lanka, Thailand, Myanmar, Nepal, and Bhutan. It has a disaster management component."
+    },
+    {
+        "prompt": "Mitigation measures for floods can include:",
+        "answers": [
+            "Only rescue boats",
+            "Embankments, reservoirs, flood plain zoning, and afforestation",
+            "Only relief camps",
+            "Only insurance"
+        ],
+        "correct": 1,
+        "explanation": "Flood mitigation includes structural measures (embankments, dams, reservoirs) and non-structural measures (flood plain zoning, afforestation, early warning)."
+    },
+    {
+        "prompt": "Which of the following is a key principle of Sendai Framework?",
+        "answers": [
+            "Disaster risk is only the responsibility of government",
+            "Disaster risk reduction is a shared responsibility",
+            "Only response matters",
+            "Mitigation is not important"
+        ],
+        "correct": 1,
+        "explanation": "Sendai Framework emphasises that disaster risk reduction requires responsibility shared by governments, local authorities, private sector, and communities."
+    },
+    {
+        "prompt": "NRSC is located at:",
+        "answers": [
+            "New Delhi",
+            "Hyderabad",
+            "Mumbai",
+            "Bangalore"
+        ],
+        "correct": 1,
+        "explanation": "National Remote Sensing Centre (NRSC) is located in Hyderabad. It is the focal point for remote sensing data and applications under ISRO."
+    },
+    {
+        "prompt": "Recovery phase typically follows:",
+        "answers": [
+            "Mitigation",
+            "Response",
+            "Preparedness",
+            "Risk assessment only"
+        ],
+        "correct": 1,
+        "explanation": "The disaster management cycle flows from Mitigation → Preparedness → Response → Recovery. Recovery follows the response phase and focuses on rebuilding and rehabilitation."
+    },
+    {
+        "prompt": "Which fund was replaced by SDRF/NDRF arrangement?",
+        "answers": [
+            "PMNRF",
+            "Calamity Relief Fund (CRF) and National Calamity Contingency Fund (NCCF)",
+            "NDMF",
+            "State Plan Fund"
+        ],
+        "correct": 1,
+        "explanation": "The earlier Calamity Relief Fund (CRF) and National Calamity Contingency Fund (NCCF) were replaced by the SDRF and National Disaster Response Fund under the DM Act framework."
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "National Disaster Mitigation Fund (NDMF) is used for:",
+        "answers": [
+            "Immediate relief only",
+            "Projects and measures that reduce disaster risk",
+            "Compensation only",
+            "International aid only"
+        ],
+        "correct": 1,
+        "explanation": "NDMF is used for funding mitigation projects and measures that reduce disaster risk, as distinct from response funds used for immediate relief."
+    },
+    {
+        "prompt": "Prime Minister's National Relief Fund (PMNRF) is used for:",
+        "answers": [
+            "Only mitigation projects",
+            "Relief and assistance in disasters and other emergencies",
+            "Only international donations",
+            "Only state government use"
+        ],
+        "correct": 1,
+        "explanation": "PMNRF is used to provide immediate relief and assistance to victims of natural disasters and other emergencies. It is funded by voluntary contributions."
+    },
+    {
+        "prompt": "Who heads the State Disaster Management Authority (SDMA)?",
+        "answers": [
+            "Governor",
+            "Chief Minister",
+            "Chief Secretary",
+            "Home Minister of the state"
+        ],
+        "correct": 1,
+        "explanation": "The Chief Minister of the state is the ex officio Chairperson of the State Disaster Management Authority (SDMA) as per the Disaster Management Act, 2005."
+    },
+    {
+        "prompt": "National Cyclone Risk Mitigation Project (NCRMP) is implemented by:",
+        "answers": [
+            "Ministry of Agriculture",
+            "Ministry of Home Affairs / NDMA",
+            "Ministry of Environment only",
+            "Ministry of Defence"
+        ],
+        "correct": 1,
+        "explanation": "NCRMP is implemented by the Ministry of Home Affairs in collaboration with NDMA and state governments to reduce cyclone risk in coastal states."
+    },
+    {
+        "prompt": "Aapda Mitra scheme is related to:",
+        "answers": [
+            "Only flood forecasting",
+            "Training community volunteers in disaster response",
+            "Only cyclone warning",
+            "Only earthquake preparedness"
+        ],
+        "correct": 1,
+        "explanation": "Aapda Mitra is an NDMA initiative to train community volunteers in disaster-prone districts to assist in first response and basic relief during disasters."
+    },
+    {
+        "prompt": "National Building Code (NBC) includes provisions for:",
+        "answers": [
+            "Only fire safety",
+            "Structural safety including seismic design",
+            "Only electrical safety",
+            "Only plumbing"
+        ],
+        "correct": 1,
+        "explanation": "The National Building Code of India includes provisions for structural safety, including seismic (earthquake-resistant) design to reduce collapse risk in earthquakes."
+    },
+    {
+        "prompt": "Pradhan Mantri Fasal Bima Yojana (PMFBY) is related to:",
+        "answers": [
+            "Disaster response only",
+            "Crop insurance against natural calamities",
+            "Flood control only",
+            "Cyclone warning only"
+        ],
+        "correct": 1,
+        "explanation": "PMFBY is a crop insurance scheme that provides coverage against crop loss due to natural calamities including drought, flood, and cyclone, thus supporting farmers in disaster-prone areas."
+    },
+    {
+        "prompt": "Civil Defence in India comes under:",
+        "answers": [
+            "Ministry of Defence only",
+            "Ministry of Home Affairs",
+            "Ministry of Health only",
+            "NDMA only"
+        ],
+        "correct": 1,
+        "explanation": "Civil Defence in India is under the Ministry of Home Affairs. It supports disaster response and community preparedness during emergencies."
+    },
+    {
+        "prompt": "Community-Based Disaster Risk Reduction (CBDRR) emphasises:",
+        "answers": [
+            "Only central government action",
+            "Participation of local communities in risk reduction",
+            "Only international agencies",
+            "Only state-level planning"
+        ],
+        "correct": 1,
+        "explanation": "CBDRR emphasises involving local communities in identifying risks, planning, and implementing disaster risk reduction measures at the grassroots level."
+    },
+    {
+        "prompt": "Incident Response System (IRS) is used for:",
+        "answers": [
+            "Only long-term recovery",
+            "Structured coordination during emergency response",
+            "Only mitigation",
+            "Only fund allocation"
+        ],
+        "correct": 1,
+        "explanation": "IRS provides a standardised structure for command, coordination, and response during emergencies, with defined roles (Incident Commander, Operations, Planning, etc.)."
+    },
+    {
+        "prompt": "In disaster terminology, 'vulnerability' refers to:",
+        "answers": [
+            "The hazard itself",
+            "The degree to which a system is susceptible to harm from a hazard",
+            "The response capacity only",
+            "The recovery phase only"
+        ],
+        "correct": 1,
+        "explanation": "Vulnerability is the degree to which a population, asset, or system is susceptible to damage or loss when exposed to a hazard. Risk often = Hazard × Vulnerability / Capacity."
+    },
+    {
+        "prompt": "Disaster Risk Reduction (DRR) aims to:",
+        "answers": [
+            "Only respond after disasters",
+            "Reduce exposure and vulnerability and strengthen resilience",
+            "Only build more hospitals",
+            "Only provide compensation"
+        ],
+        "correct": 1,
+        "explanation": "DRR aims to systematically reduce disaster risk by reducing exposure and vulnerability and increasing resilience through mitigation, preparedness, and sustainable development."
+    },
+    {
+        "prompt": "National Institute of Disaster Management (NIDM) is mandated to:",
+        "answers": [
+            "Only conduct rescue operations",
+            "Train and build capacity in disaster management",
+            "Only distribute relief",
+            "Only issue warnings"
+        ],
+        "correct": 1,
+        "explanation": "NIDM is an institute for training, research, documentation, and capacity building in disaster management. It does not conduct rescue or issue warnings."
+    },
+    {
+        "prompt": "Ex gratia payment in disaster context is:",
+        "answers": [
+            "A loan to the affected",
+            "Monetary assistance given as a gesture of sympathy, not as legal right",
+            "Insurance claim only",
+            "International aid only"
+        ],
+        "correct": 1,
+        "explanation": "Ex gratia is financial assistance given by the government to victims or families as a gesture of sympathy and support, not as a legal entitlement."
+    },
+    {
+        "prompt": "Standard Operating Procedures (SOPs) in disaster management are:",
+        "answers": [
+            "Only for international agencies",
+            "Documented steps to be followed during specific disaster scenarios",
+            "Only for recovery",
+            "Only for funding"
+        ],
+        "correct": 1,
+        "explanation": "SOPs are documented, step-by-step procedures that officials and responders follow during specific types of disasters to ensure consistent and effective response."
+    },
+    {
+        "prompt": "National Disaster Management Plan (NDMP) was first released in:",
+        "answers": [
+            "2005",
+            "2009",
+            "2016",
+            "2020"
+        ],
+        "correct": 2,
+        "explanation": "The first National Disaster Management Plan (NDMP) was released in 2016. It has been updated in subsequent years (e.g., 2019, 2024)."
+    },
+    {
+        "prompt": "High-Powered Committee on Disaster Management (1999) was headed by:",
+        "answers": [
+            "Prime Minister",
+            "J.C. Pant",
+            "Home Minister",
+            "Cabinet Secretary"
+        ],
+        "correct": 1,
+        "explanation": "The High-Powered Committee on Disaster Management (1999) was headed by J.C. Pant. It recommended a shift from relief-centric to preparedness and mitigation approach."
+    },
+    {
+        "prompt": "Resilience in disaster context means:",
+        "answers": [
+            "Only strength of buildings",
+            "Ability to absorb, adapt to, and recover from shocks and stresses",
+            "Only emergency response",
+            "Only insurance coverage"
+        ],
+        "correct": 1,
+        "explanation": "Resilience is the ability of a system, community, or society to resist, absorb, accommodate, adapt to, and recover from the effects of a hazard in a timely and efficient manner."
+    },
+    {
+        "prompt": "National Disaster Response Reserve (NDRR) typically includes:",
+        "answers": [
+            "Only funds",
+            "Pre-positioned relief and rescue equipment and supplies",
+            "Only manpower",
+            "Only international aid"
+        ],
+        "correct": 1,
+        "explanation": "NDRR refers to pre-positioned stockpiles of relief material, equipment, and supplies that can be mobilised quickly when state resources are insufficient."
+    },
+    {
+        "prompt": "Post-Disaster Need Assessment (PDNA) is used for:",
+        "answers": [
+            "Early warning",
+            "Assessing damage and recovery needs after a disaster",
+            "Mitigation only",
+            "Preparedness drills only"
+        ],
+        "correct": 1,
+        "explanation": "PDNA is a tool to assess the physical damage and economic losses and to identify recovery and reconstruction needs after a major disaster, often with international support."
+    }
+]

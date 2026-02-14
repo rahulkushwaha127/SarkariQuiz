@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "Saffir-Simpson scale is used to classify:",
+        "answers": [
+            "Earthquakes",
+            "Hurricanes and cyclones (wind speed and damage potential)",
+            "Floods",
+            "Droughts"
+        ],
+        "correct": 1,
+        "explanation": "The Saffir-Simpson scale classifies hurricanes/cyclones (Category 1–5) based on wind speed and potential damage. IMD uses different criteria for Indian Ocean cyclones."
+    },
+    {
+        "prompt": "In India, lightning strikes cause significant deaths especially in:",
+        "answers": [
+            "Only coastal states",
+            "Bihar, Odisha, Madhya Pradesh, and other states during monsoon",
+            "Only desert areas",
+            "Only mountains"
+        ],
+        "correct": 1,
+        "explanation": "Lightning causes many deaths in India, especially in Bihar, Odisha, MP, Jharkhand, and other states during pre-monsoon and monsoon. Lightning is now tracked and awareness is promoted."
+    },
+    {
+        "prompt": "Cyclone Amphan (2020) severely affected:",
+        "answers": [
+            "Only Gujarat",
+            "West Bengal and Odisha (Bay of Bengal)",
+            "Only Tamil Nadu",
+            "Only Kerala"
+        ],
+        "correct": 1,
+        "explanation": "Cyclone Amphan in May 2020 was a super cyclonic storm that made landfall in West Bengal and affected Odisha, causing widespread damage in the region."
+    },
+    {
+        "prompt": "National Disaster Response Reserve (NDRR) is managed by:",
+        "answers": [
+            "Only NDRF",
+            "Central government (MHA/NDMA) for quick mobilisation to states",
+            "Only state governments",
+            "Only NIDM"
+        ],
+        "correct": 1,
+        "explanation": "NDRR is a central stockpile of relief material and equipment managed for quick mobilisation when states need additional resources during disasters."
+    },
+    {
+        "prompt": "Which Indian satellite series is used for disaster management and earth observation?",
+        "answers": [
+            "Only Chandrayaan",
+            "IRS series, Cartosat, and other ISRO earth observation satellites",
+            "Only Mangalyaan",
+            "Only INSAT for communication only"
+        ],
+        "correct": 1,
+        "explanation": "ISRO's IRS, Cartosat, and other earth observation satellites provide imagery for flood mapping, cyclone tracking, drought assessment, and damage assessment. INSAT supports communication."
+    },
+    {
+        "prompt": "OCHA stands for:",
+        "answers": [
+            "Office for Cyclone and Hurricane Alerts",
+            "Office for the Coordination of Humanitarian Affairs",
+            "Organisation for Climate and Hazard Assessment",
+            "Office for Coastal and Hydrological Affairs"
+        ],
+        "correct": 1,
+        "explanation": "OCHA (UN Office for the Coordination of Humanitarian Affairs) coordinates international humanitarian response to emergencies and disasters."
+    },
+    {
+        "prompt": "Indian Red Cross Society participates in disaster management through:",
+        "answers": [
+            "Only blood donation",
+            "Relief distribution, first aid, and community preparedness",
+            "Only hospital management",
+            "Only international funding"
+        ],
+        "correct": 1,
+        "explanation": "Indian Red Cross Society assists in disaster relief, first aid, evacuation support, and community preparedness as part of the Red Cross Red Crescent movement."
+    },
+    {
+        "prompt": "Avalanche risk in India is highest in:",
+        "answers": [
+            "Western Ghats",
+            "Himalayan regions (Jammu & Kashmir, Himachal, Uttarakhand, Sikkim)",
+            "Eastern Ghats",
+            "Deccan Plateau"
+        ],
+        "correct": 1,
+        "explanation": "Avalanche risk is high in the Himalayan snow-bound regions. Snow and Avalanche Study Establishment (SASE) under DRDO monitors and advises on avalanche hazards."
+    },
+    {
+        "prompt": "Drought declaration in a state is typically based on:",
+        "answers": [
+            "Only one week of no rain",
+            "Rainfall deficit, crop condition, and water availability (state-specific criteria)",
+            "Only temperature",
+            "Only wind speed"
+        ],
+        "correct": 1,
+        "explanation": "Drought declaration uses state-specific criteria including rainfall deficit, crop condition, soil moisture, and water availability. IMD and state agriculture departments contribute data."
+    },
+    {
+        "prompt": "Flood plain zoning aims to:",
+        "answers": [
+            "Only build more dams",
+            "Restrict certain activities in flood-prone areas to reduce damage",
+            "Only evacuate people",
+            "Only issue warnings"
+        ],
+        "correct": 1,
+        "explanation": "Flood plain zoning regulates land use in flood-prone areas—restricting permanent structures in high-risk zones and allowing only compatible uses to reduce damage."
+    },
+    {
+        "prompt": "Radiological and nuclear emergency preparedness in India involves:",
+        "answers": [
+            "Only IMD",
+            "NDMA guidelines, AERB, and designated response agencies",
+            "Only NDRF",
+            "Only state health departments"
+        ],
+        "correct": 1,
+        "explanation": "Radiological/nuclear emergency preparedness involves NDMA guidelines, Atomic Energy Regulatory Board (AERB), and designated state and central response agencies for nuclear facilities."
+    },
+    {
+        "prompt": "Cyclone Fani (2019) made landfall in:",
+        "answers": [
+            "Gujarat",
+            "Odisha (Puri coast)",
+            "Tamil Nadu",
+            "Maharashtra"
+        ],
+        "correct": 1,
+        "explanation": "Cyclone Fani in May 2019 made landfall near Puri, Odisha. Mass evacuation and preparedness helped minimise casualties; Odisha's cyclone preparedness was widely noted."
+    },
+    {
+        "prompt": "Which day is observed as the International Day for Disaster Risk Reduction?",
+        "answers": [
+            "5 June",
+            "13 October",
+            "26 January",
+            "15 August"
+        ],
+        "correct": 1,
+        "explanation": "International Day for Disaster Risk Reduction is observed on 13 October every year to promote awareness and action on reducing disaster risk."
+    },
+    {
+        "prompt": "Landslide Early Warning System is being developed for:",
+        "answers": [
+            "Only coastal areas",
+            "Himalayan and other landslide-prone regions",
+            "Only deserts",
+            "Only plains"
+        ],
+        "correct": 1,
+        "explanation": "Landslide early warning and susceptibility mapping are being developed for the Himalayan and other landslide-prone regions, using rainfall thresholds and slope stability models."
+    },
+    {
+        "prompt": "Tornado and cyclone differ in that a tornado:",
+        "answers": [
+            "Is larger and lasts longer",
+            "Is a small, intense rotating column of air; cyclone is a large weather system",
+            "Only occurs at sea",
+            "Is the same as cyclone"
+        ],
+        "correct": 1,
+        "explanation": "A tornado is a small, intense, short-lived rotating column of air over land. A cyclone is a large-scale rotating storm system. Tornadoes are rare in India compared to cyclones."
+    },
+    {
+        "prompt": "National Crisis Management Committee (NCMC) is headed by:",
+        "answers": [
+            "Prime Minister",
+            "Cabinet Secretary",
+            "Home Secretary",
+            "NDMA Chairperson"
+        ],
+        "correct": 1,
+        "explanation": "The National Crisis Management Committee (NCMC) is headed by the Cabinet Secretary. It coordinates the central government's response to major crises and disasters."
+    },
+    {
+        "prompt": "Disaster management training for government officials is primarily provided by:",
+        "answers": [
+            "Only NDRF",
+            "NIDM and state training institutes",
+            "Only IMD",
+            "Only universities"
+        ],
+        "correct": 1,
+        "explanation": "NIDM is the national institute for disaster management training and capacity building. State institutes and other agencies also conduct training for officials and responders."
+    },
+    {
+        "prompt": "Which of the following is a structural mitigation measure for earthquakes?",
+        "answers": [
+            "Only evacuation drill",
+            "Seismic-resistant building design and retrofitting",
+            "Only early warning",
+            "Only insurance"
+        ],
+        "correct": 1,
+        "explanation": "Structural mitigation for earthquakes includes designing and constructing buildings as per seismic codes and retrofitting existing vulnerable structures to resist ground shaking."
+    },
+    {
+        "prompt": "The term 'natural disaster' is sometimes criticised because:",
+        "answers": [
+            "Disasters are always natural",
+            "It can hide the role of human choices (e.g. where we build, how we manage risk)",
+            "There are no human-induced disasters",
+            "Only geological events count"
+        ],
+        "correct": 1,
+        "explanation": "Critics argue that 'natural disaster' can obscure how human factors—unsafe construction, poor planning, vulnerability—turn hazards into disasters. Hence 'disaster risk' and 'vulnerability' are emphasised."
+    },
+    {
+        "prompt": "Recovery phase may overlap with:",
+        "answers": [
+            "Only mitigation",
+            "Response (as some areas recover while others still need response)",
+            "Only preparedness",
+            "Only risk assessment"
+        ],
+        "correct": 1,
+        "explanation": "Recovery often begins while response is still ongoing in some areas. The phases are not strictly sequential; they can overlap in time and space."
+    }
+]

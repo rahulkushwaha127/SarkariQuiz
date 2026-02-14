@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "The National Emergency Number for disaster and emergency in India is:",
+        "answers": [
+            "100",
+            "112",
+            "101",
+            "108"
+        ],
+        "correct": 1,
+        "explanation": "112 is the single national emergency number (including for disasters) that integrates police, fire, health, and disaster response. It was launched for pan-India use."
+    },
+    {
+        "prompt": "Mercalli scale is used to measure:",
+        "answers": [
+            "Wind speed",
+            "Intensity of earthquake (observed effects and damage)",
+            "Flood depth",
+            "Temperature"
+        ],
+        "correct": 1,
+        "explanation": "The Mercalli (or Modified Mercalli) scale measures the intensity of an earthquake based on observed effects on people, buildings, and the environment. Richter/moment magnitude measures energy released."
+    },
+    {
+        "prompt": "The Uttarakhand flash floods (Kedarnath disaster) occurred in:",
+        "answers": [
+            "2010",
+            "2011",
+            "2012",
+            "2013"
+        ],
+        "correct": 3,
+        "explanation": "The devastating flash floods and landslides in Uttarakhand (Kedarnath region) occurred in June 2013, caused by heavy rainfall and glacial lake/cloudburst events."
+    },
+    {
+        "prompt": "Super Cyclone that hit Odisha and caused massive damage occurred in:",
+        "answers": [
+            "1997",
+            "1999",
+            "2001",
+            "2004"
+        ],
+        "correct": 1,
+        "explanation": "The Super Cyclone hit Odisha in October 1999, causing enormous damage and loss of life. It led to major improvements in India's cyclone preparedness and early warning."
+    },
+    {
+        "prompt": "Latur earthquake (Maharashtra) occurred in:",
+        "answers": [
+            "1991",
+            "1993",
+            "1995",
+            "1997"
+        ],
+        "correct": 1,
+        "explanation": "The Latur earthquake (magnitude 6.2–6.3) struck Maharashtra in September 1993, causing widespread damage. It was one of the deadliest intraplate earthquakes in India."
+    },
+    {
+        "prompt": "Difference between epidemic and pandemic is that pandemic:",
+        "answers": [
+            "Affects only animals",
+            "Spreads over a very wide area or globally",
+            "Is less severe",
+            "Is only viral"
+        ],
+        "correct": 1,
+        "explanation": "An epidemic is an outbreak of disease in a community or region. A pandemic is an epidemic that spreads over a very wide area, often multiple countries or worldwide (e.g., COVID-19)."
+    },
+    {
+        "prompt": "Barren Island, India's only active volcano, is located in:",
+        "answers": [
+            "Lakshadweep",
+            "Andaman and Nicobar Islands",
+            "Gujarat coast",
+            "Tamil Nadu"
+        ],
+        "correct": 1,
+        "explanation": "Barren Island is in the Andaman and Nicobar Islands. It is India's only active volcano and has erupted in recent decades."
+    },
+    {
+        "prompt": "Integrated Defence Staff (IDS) in disaster context is involved in:",
+        "answers": [
+            "Only military training",
+            "Coordinating armed forces support for disaster response",
+            "Only naval operations",
+            "Only air force operations"
+        ],
+        "correct": 1,
+        "explanation": "IDS helps coordinate the use of armed forces (Army, Navy, Air Force) for disaster response when requisitioned by civil authorities."
+    },
+    {
+        "prompt": "Dam safety in India is overseen by:",
+        "answers": [
+            "Only state irrigation departments",
+            "National Committee on Dam Safety and state-level bodies; Dam Safety Act",
+            "Only CWC",
+            "Only NDMA"
+        ],
+        "correct": 1,
+        "explanation": "Dam safety is overseen by the National Committee on Dam Safety and state-level bodies. The Dam Safety Act, 2021 provides the regulatory framework."
+    },
+    {
+        "prompt": "IMD declares a heat wave when maximum temperature reaches or exceeds:",
+        "answers": [
+            "40°C in plains, 30°C in hills",
+            "40°C in plains (and 4.5°C above normal); 30°C in hills",
+            "45°C only",
+            "35°C in plains"
+        ],
+        "correct": 1,
+        "explanation": "IMD declares heat wave when maximum temperature reaches 40°C in plains (or 4.5°C above normal) and 30°C in hilly regions. Severe heat wave criteria are higher."
+    },
+    {
+        "prompt": "Which river basin is most frequently affected by floods in India?",
+        "answers": [
+            "Narmada",
+            "Brahmaputra and Ganga basins",
+            "Kaveri",
+            "Krishna"
+        ],
+        "correct": 1,
+        "explanation": "The Brahmaputra, Ganga, and their tributaries (e.g., in Assam, Bihar, Uttar Pradesh, West Bengal) are among the most flood-prone river systems in India."
+    },
+    {
+        "prompt": "Landslides can be triggered by:",
+        "answers": [
+            "Only earthquakes",
+            "Heavy rain, earthquakes, construction, and deforestation",
+            "Only construction",
+            "Only drought"
+        ],
+        "correct": 1,
+        "explanation": "Landslides can be triggered by heavy rainfall, earthquakes, slope cutting for roads/buildings, deforestation, and volcanic activity."
+    },
+    {
+        "prompt": "Standardised Precipitation Index (SPI) is used for:",
+        "answers": [
+            "Cyclone tracking",
+            "Drought monitoring",
+            "Tsunami warning",
+            "Earthquake prediction"
+        ],
+        "correct": 1,
+        "explanation": "SPI is a widely used index for drought monitoring. It is based on precipitation deficit over different time scales."
+    },
+    {
+        "prompt": "Wildfire risk in India is high in which type of forests?",
+        "answers": [
+            "Only mangrove",
+            "Dry deciduous and tropical forests, especially in summer",
+            "Only alpine",
+            "Only evergreen"
+        ],
+        "correct": 1,
+        "explanation": "Wildfire risk is high in dry deciduous and tropical forests, especially in pre-monsoon summer when vegetation is dry. Central and southern Indian forests are susceptible."
+    },
+    {
+        "prompt": "CWC's flood forecasting network covers:",
+        "answers": [
+            "Only one state",
+            "Major river basins and flood-prone states",
+            "Only coastal areas",
+            "Only Himalayan rivers"
+        ],
+        "correct": 1,
+        "explanation": "CWC runs a flood forecasting network covering major river basins and flood-prone states, issuing forecasts and warnings to state governments."
+    },
+    {
+        "prompt": "Cold wave is declared by IMD when minimum temperature is:",
+        "answers": [
+            "Below 20°C",
+            "10°C or below in plains (or 4.5°C below normal)",
+            "Below 5°C only",
+            "Below 15°C"
+        ],
+        "correct": 1,
+        "explanation": "IMD declares cold wave when minimum temperature is 10°C or below in plains (or 4.5°C below normal). Criteria vary for hills and coastal areas."
+    },
+    {
+        "prompt": "Which of the following is a rapid-onset disaster?",
+        "answers": [
+            "Drought",
+            "Earthquake",
+            "Desertification",
+            "Epidemic (slow spread)"
+        ],
+        "correct": 1,
+        "explanation": "Earthquake is a rapid-onset disaster with little or no warning. Drought and desertification are slow-onset; some epidemics spread slowly."
+    },
+    {
+        "prompt": "SAARC Disaster Management Centre is located in:",
+        "answers": [
+            "Kathmandu",
+            "New Delhi",
+            "Dhaka",
+            "Colombo"
+        ],
+        "correct": 1,
+        "explanation": "The SAARC Disaster Management Centre (SDMC) is located in New Delhi. It supports SAARC member countries in disaster risk reduction and response."
+    },
+    {
+        "prompt": "Emergency Communication Systems in disasters may include:",
+        "answers": [
+            "Only social media",
+            "Satellite phones, ham radio, and redundant networks",
+            "Only mobile towers",
+            "Only internet"
+        ],
+        "correct": 1,
+        "explanation": "Emergency communication includes satellite phones, amateur (ham) radio, redundant telecom networks, and priority restoration to keep authorities connected when normal networks fail."
+    },
+    {
+        "prompt": "Tsunami waves are primarily caused by:",
+        "answers": [
+            "Cyclones",
+            "Underwater earthquakes, landslides, or volcanic eruptions",
+            "Only wind",
+            "Only moon's gravity"
+        ],
+        "correct": 1,
+        "explanation": "Tsunamis are typically caused by underwater earthquakes (especially subduction zones), submarine landslides, or volcanic eruptions that displace large volumes of water."
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "When was the Disaster Management Act passed in India?",
+        "answers": [
+            "2003",
+            "2005",
+            "2007",
+            "2009"
+        ],
+        "correct": 1,
+        "explanation": "The Disaster Management Act was enacted in 2005. It provides the legal and institutional framework for disaster management in India and led to the creation of NDMA, SDMAs, and NDRF."
+    },
+    {
+        "prompt": "Who is the ex officio Chairperson of the National Disaster Management Authority (NDMA)?",
+        "answers": [
+            "President of India",
+            "Prime Minister of India",
+            "Home Minister",
+            "Defence Minister"
+        ],
+        "correct": 1,
+        "explanation": "As per the Disaster Management Act, 2005, the Prime Minister of India is the ex officio Chairperson of the National Disaster Management Authority (NDMA)."
+    },
+    {
+        "prompt": "In which year was the National Disaster Management Authority (NDMA) established?",
+        "answers": [
+            "2003",
+            "2005",
+            "2006",
+            "2009"
+        ],
+        "correct": 2,
+        "explanation": "NDMA was established in 2006 under the Disaster Management Act, 2005. It is the apex body for disaster management in India."
+    },
+    {
+        "prompt": "Which ministry is the nodal ministry for disaster management in India?",
+        "answers": [
+            "Ministry of Environment",
+            "Ministry of Home Affairs",
+            "Ministry of Defence",
+            "Ministry of Rural Development"
+        ],
+        "correct": 1,
+        "explanation": "The Ministry of Home Affairs (MHA) is the nodal ministry for disaster management in India. It coordinates with NDMA, NDRF, and state agencies."
+    },
+    {
+        "prompt": "When was the Bhopal Gas Tragedy?",
+        "answers": [
+            "1982",
+            "1984",
+            "1986",
+            "1988"
+        ],
+        "correct": 1,
+        "explanation": "The Bhopal Gas Tragedy occurred on 2–3 December 1984 at the Union Carbide India Limited plant in Bhopal. It is one of the world's worst industrial disasters."
+    },
+    {
+        "prompt": "Which body is responsible for tsunami early warning in India?",
+        "answers": [
+            "IMD",
+            "INCOIS",
+            "CWC",
+            "NRSC"
+        ],
+        "correct": 1,
+        "explanation": "Indian National Centre for Ocean Information Services (INCOIS), under the Ministry of Earth Sciences, operates the Indian Tsunami Early Warning Centre (ITEWC) at Hyderabad."
+    },
+    {
+        "prompt": "How many seismic zones is India divided into for earthquake risk?",
+        "answers": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+        ],
+        "correct": 2,
+        "explanation": "India is divided into four seismic zones (II to V) as per the Bureau of Indian Standards. Zone V is the most severe and Zone II the least."
+    },
+    {
+        "prompt": "The Sendai Framework for Disaster Risk Reduction covers which period?",
+        "answers": [
+            "2005–2015",
+            "2010–2020",
+            "2015–2030",
+            "2020–2030"
+        ],
+        "correct": 2,
+        "explanation": "The Sendai Framework for Disaster Risk Reduction was adopted in 2015 and covers the period 2015–2030. It succeeded the Hyogo Framework (2005–2015)."
+    },
+    {
+        "prompt": "National Disaster Response Force (NDRF) is under the administrative control of:",
+        "answers": [
+            "Ministry of Defence",
+            "Ministry of Home Affairs",
+            "NDMA",
+            "Ministry of Earth Sciences"
+        ],
+        "correct": 1,
+        "explanation": "NDRF is under the administrative control of the Ministry of Home Affairs. NDMA lays down policies and guidelines; MHA handles administration and deployment."
+    },
+    {
+        "prompt": "Which of the following is a climatological disaster?",
+        "answers": [
+            "Tsunami",
+            "Earthquake",
+            "Drought",
+            "Landslide"
+        ],
+        "correct": 2,
+        "explanation": "Drought is a climatological disaster, related to prolonged lack of rainfall. Tsunami and landslide are hydrological/geological; earthquake is geological."
+    },
+    {
+        "prompt": "The National Institute of Disaster Management (NIDM) is located at:",
+        "answers": [
+            "Mumbai",
+            "New Delhi",
+            "Hyderabad",
+            "Chennai"
+        ],
+        "correct": 1,
+        "explanation": "NIDM is located in New Delhi. It is an institute for training, research, and capacity building in disaster management."
+    },
+    {
+        "prompt": "Which fund is used for immediate relief in the wake of disasters?",
+        "answers": [
+            "National Disaster Mitigation Fund",
+            "State Disaster Response Fund",
+            "PMNRF only",
+            "Calamity Relief Fund"
+        ],
+        "correct": 1,
+        "explanation": "State Disaster Response Fund (SDRF) and National Disaster Response Fund (NDRF) are used for immediate relief. SDRF is the first tier; NDRF is used when state resources are insufficient."
+    },
+    {
+        "prompt": "GLOF stands for:",
+        "answers": [
+            "Global Landslide Overflow Flood",
+            "Glacial Lake Outburst Flood",
+            "General Lake Overflow Flood",
+            "Geological Landslide Overflow Flood"
+        ],
+        "correct": 1,
+        "explanation": "GLOF stands for Glacial Lake Outburst Flood. It occurs when water stored behind a glacial moraine or ice dam is released suddenly, common in the Himalayan region."
+    },
+    {
+        "prompt": "Which phase of the disaster management cycle focuses on reducing the impact before a disaster?",
+        "answers": [
+            "Response",
+            "Recovery",
+            "Mitigation",
+            "Rehabilitation"
+        ],
+        "correct": 2,
+        "explanation": "Mitigation involves measures to reduce or eliminate risk and impact before a disaster occurs (e.g., building codes, embankments, early warning systems)."
+    },
+    {
+        "prompt": "Cyclone warning in India is primarily issued by:",
+        "answers": [
+            "INCOIS",
+            "India Meteorological Department (IMD)",
+            "CWC",
+            "NRSC"
+        ],
+        "correct": 1,
+        "explanation": "The India Meteorological Department (IMD) is responsible for cyclone tracking and issuing cyclone warnings. It has regional specialised meteorological centres for this purpose."
+    },
+    {
+        "prompt": "National Policy on Disaster Management (NPDM) was approved in:",
+        "answers": [
+            "2005",
+            "2007",
+            "2009",
+            "2011"
+        ],
+        "correct": 2,
+        "explanation": "The National Policy on Disaster Management was approved in 2009. It outlines the framework and approach for disaster management in India."
+    },
+    {
+        "prompt": "Which of these is an example of a biological disaster?",
+        "answers": [
+            "Chemical spill",
+            "Pandemic",
+            "Dam collapse",
+            "Cyclone"
+        ],
+        "correct": 1,
+        "explanation": "A pandemic is a biological disaster (e.g., COVID-19). Chemical spill and dam collapse are human-induced; cyclone is meteorological."
+    },
+    {
+        "prompt": "District Disaster Management Authority (DDMA) is headed by:",
+        "answers": [
+            "District Magistrate only",
+            "District Magistrate and Chairperson of Zila Parishad",
+            "Zila Parishad Chairperson only",
+            "State Chief Secretary"
+        ],
+        "correct": 1,
+        "explanation": "DDMA is headed by the District Magistrate (District Collector) as Chairperson, and the Chairperson of the Zila Parishad as Co-Chairperson, as per the DM Act, 2005."
+    },
+    {
+        "prompt": "UNDRR stands for:",
+        "answers": [
+            "UN Disaster Relief and Recovery",
+            "UN Office for Disaster Risk Reduction",
+            "UN Department for Disaster Response",
+            "UN Agency for Disaster Rehabilitation"
+        ],
+        "correct": 1,
+        "explanation": "UNDRR is the United Nations Office for Disaster Risk Reduction. It supports implementation of the Sendai Framework and coordinates international DRR efforts."
+    },
+    {
+        "prompt": "The Gujarat Earthquake (Bhuj) occurred in:",
+        "answers": [
+            "1999",
+            "2000",
+            "2001",
+            "2002"
+        ],
+        "correct": 2,
+        "explanation": "The devastating Gujarat Earthquake (Bhuj earthquake) occurred on 26 January 2001. It had a magnitude of 7.7 and caused widespread damage and loss of life."
+    }
+]

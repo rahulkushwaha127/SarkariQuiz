@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "Under the Disaster Management Act, who heads the National Executive Committee (NEC)?",
+        "answers": [
+            "Prime Minister",
+            "Union Home Secretary",
+            "NDMA Vice-Chairperson",
+            "Defence Secretary"
+        ],
+        "correct": 1,
+        "explanation": "The National Executive Committee (NEC) is headed by the Union Home Secretary. It assists NDMA and coordinates the implementation of the national plan and policies."
+    },
+    {
+        "prompt": "Offences under the Disaster Management Act, 2005 can attract imprisonment up to:",
+        "answers": [
+            "1 year",
+            "2 years",
+            "3 years or more depending on the offence",
+            "Only fine, no imprisonment"
+        ],
+        "correct": 2,
+        "explanation": "The DM Act prescribes various penalties. For instance, obstructing relief or misappropriation of funds can attract imprisonment (e.g., up to two years or more) and fines."
+    },
+    {
+        "prompt": "State Disaster Mitigation Fund (SDMF) is used for:",
+        "answers": [
+            "Immediate relief only",
+            "State-level mitigation projects to reduce disaster risk",
+            "Only compensation",
+            "Only central projects"
+        ],
+        "correct": 1,
+        "explanation": "SDMF is used for funding state-level mitigation projects and measures that reduce disaster risk, analogous to NDMF at the national level."
+    },
+    {
+        "prompt": "Ex gratia for death in a natural disaster (central norms) is typically:",
+        "answers": [
+            "Same as state-only norm",
+            "Rs. 4 lakh per deceased (revised from time to time)",
+            "Only state decides",
+            "No ex gratia"
+        ],
+        "correct": 1,
+        "explanation": "The central government has norms for ex gratia assistance (e.g., Rs. 4 lakh per deceased in natural calamities). Amounts are revised from time to time; states may add to this."
+    },
+    {
+        "prompt": "Yokohama Strategy was related to:",
+        "answers": [
+            "Trade",
+            "Disaster risk reduction (pre-Sendai international framework)",
+            "Climate only",
+            "Health only"
+        ],
+        "correct": 1,
+        "explanation": "The Yokohama Strategy and Plan for a Safer World (1994) was an early international framework for disaster risk reduction, adopted at the first UN World Conference on Natural Disaster Reduction."
+    },
+    {
+        "prompt": "UNDRR was earlier known as:",
+        "answers": [
+            "WHO",
+            "UNISDR (UN International Strategy for Disaster Reduction)",
+            "UNICEF",
+            "UNEP"
+        ],
+        "correct": 1,
+        "explanation": "UNDRR was previously known as UNISDR (United Nations International Strategy for Disaster Reduction). It was renamed to UNDRR in 2019."
+    },
+    {
+        "prompt": "Reconstruction after a major disaster typically falls under:",
+        "answers": [
+            "Response",
+            "Recovery",
+            "Preparedness",
+            "Mitigation"
+        ],
+        "correct": 1,
+        "explanation": "Reconstruction of infrastructure, housing, and livelihoods is part of the Recovery phase, which follows the immediate Response phase."
+    },
+    {
+        "prompt": "National Building Code of India includes seismic design for:",
+        "answers": [
+            "Only Zone V",
+            "Different seismic zones (II to V) with zone-specific provisions",
+            "Only industrial buildings",
+            "Only government buildings"
+        ],
+        "correct": 1,
+        "explanation": "The NBC and Indian Standard codes (e.g., IS 1893) provide seismic design provisions for different seismic zones to ensure structures can resist earthquake forces."
+    },
+    {
+        "prompt": "NDRF personnel are trained in:",
+        "answers": [
+            "Only flood rescue",
+            "Collapsed structure search and rescue (CSSR), flood, chemical, and other disasters",
+            "Only medical aid",
+            "Only communication"
+        ],
+        "correct": 1,
+        "explanation": "NDRF is trained in multi-disaster response including collapsed structure search and rescue (CSSR), flood rescue, chemical/biological/radiological response, and other specialised skills."
+    },
+    {
+        "prompt": "NIDM was established in:",
+        "answers": [
+            "1995",
+            "2003",
+            "2006",
+            "2009"
+        ],
+        "correct": 1,
+        "explanation": "NIDM was established in 2003 (as National Centre for Disaster Management, later renamed). It was strengthened and given statutory recognition under the DM Act, 2005."
+    },
+    {
+        "prompt": "Disaster management finds mention in which List of the Indian Constitution?",
+        "answers": [
+            "Union List only",
+            "Concurrent List (both Centre and States can legislate)",
+            "State List only",
+            "Nowhere"
+        ],
+        "correct": 1,
+        "explanation": "Disaster management is a subject in the Concurrent List (Entry 23 in List III). Both Parliament and state legislatures can make laws on it; central law prevails in case of conflict."
+    },
+    {
+        "prompt": "Which body recommends the release of funds from the National Disaster Response Fund?",
+        "answers": [
+            "Only NDMA",
+            "High-Level Committee (HLC) of the central government",
+            "Only state government",
+            "Only Finance Commission"
+        ],
+        "correct": 1,
+        "explanation": "A High-Level Committee (HLC) of the central government, comprising key ministers, considers the state's request and recommends release of assistance from NDRF."
+    },
+    {
+        "prompt": "Finance Commission of India recommends:",
+        "answers": [
+            "Only state plan allocation",
+            "Allocation of funds for SDRF and disaster management",
+            "Only defence budget",
+            "Only central schemes"
+        ],
+        "correct": 1,
+        "explanation": "The Finance Commission recommends the allocation of funds for state disaster response (SDRF) and related disaster management needs for the award period."
+    },
+    {
+        "prompt": "Landslide mitigation can include:",
+        "answers": [
+            "Only evacuation",
+            "Slope stabilisation, drainage, afforestation, and land-use regulation",
+            "Only relief",
+            "Only warning"
+        ],
+        "correct": 1,
+        "explanation": "Landslide mitigation includes slope stabilisation (retaining walls, nets), proper drainage, afforestation, avoiding construction on unstable slopes, and land-use regulation."
+    },
+    {
+        "prompt": "Civil Defence volunteers are trained to assist in:",
+        "answers": [
+            "Only military operations",
+            "Disaster response, first aid, and community support during emergencies",
+            "Only fire fighting",
+            "Only traffic management"
+        ],
+        "correct": 1,
+        "explanation": "Civil Defence volunteers are trained to assist in disaster response, evacuation, first aid, and community support during natural and man-made emergencies."
+    },
+    {
+        "prompt": "The term 'Build Back Better' in Sendai Framework emphasises:",
+        "answers": [
+            "Only faster reconstruction",
+            "Reconstruction that reduces future disaster risk and improves resilience",
+            "Only cheaper construction",
+            "Only temporary shelters"
+        ],
+        "correct": 1,
+        "explanation": "Build Back Better means recovery and reconstruction should not only restore but also reduce future risk and increase resilience (e.g., better building codes, safer locations)."
+    },
+    {
+        "prompt": "Which of the following is a slow-onset disaster?",
+        "answers": [
+            "Tsunami",
+            "Drought",
+            "Earthquake",
+            "Cyclone"
+        ],
+        "correct": 1,
+        "explanation": "Drought is a slow-onset disaster that develops over weeks or months. Tsunami, earthquake, and cyclone are typically rapid-onset events."
+    },
+    {
+        "prompt": "District Disaster Management Plan is prepared by:",
+        "answers": [
+            "NDMA",
+            "District Disaster Management Authority (DDMA)",
+            "State government only",
+            "NIDM"
+        ],
+        "correct": 1,
+        "explanation": "Each District Disaster Management Authority (DDMA) is responsible for preparing the District Disaster Management Plan for that district."
+    },
+    {
+        "prompt": "National Disaster Response Reserve typically includes pre-positioned:",
+        "answers": [
+            "Only cash",
+            "Relief material, equipment, and essential supplies",
+            "Only medicines",
+            "Only food"
+        ],
+        "correct": 1,
+        "explanation": "NDRR includes pre-positioned relief material (tents, blankets, food packets), rescue equipment, and other essential supplies for quick mobilisation."
+    },
+    {
+        "prompt": "Risk in disaster context is often expressed as:",
+        "answers": [
+            "Hazard + Vulnerability",
+            "Hazard × Vulnerability / Capacity (conceptually)",
+            "Only Capacity",
+            "Only Vulnerability"
+        ],
+        "correct": 1,
+        "explanation": "Disaster risk is conceptually a function of hazard (threat), vulnerability (susceptibility), and capacity (ability to cope). Higher hazard and vulnerability increase risk; higher capacity reduces it."
+    }
+]

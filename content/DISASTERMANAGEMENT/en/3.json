@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "The Sendai Framework was adopted at a UN conference held in:",
+        "answers": [
+            "Geneva",
+            "Sendai, Japan",
+            "New York",
+            "Bangkok"
+        ],
+        "correct": 1,
+        "explanation": "The Sendai Framework for Disaster Risk Reduction 2015–2030 was adopted in March 2015 at the Third UN World Conference on Disaster Risk Reduction in Sendai, Japan."
+    },
+    {
+        "prompt": "Which organisation supports the implementation of the Sendai Framework globally?",
+        "answers": [
+            "WHO",
+            "UNDRR",
+            "UNICEF",
+            "World Bank"
+        ],
+        "correct": 1,
+        "explanation": "UNDRR (UN Office for Disaster Risk Reduction) supports countries in implementing the Sendai Framework and coordinates global disaster risk reduction efforts."
+    },
+    {
+        "prompt": "Regional cooperation for disaster management in South Asia is facilitated by:",
+        "answers": [
+            "ASEAN",
+            "SAARC and BIMSTEC",
+            "EU",
+            "NATO"
+        ],
+        "correct": 1,
+        "explanation": "SAARC (South Asian Association for Regional Cooperation) and BIMSTEC have mechanisms for regional cooperation on disaster management and response."
+    },
+    {
+        "prompt": "Climate change is expected to increase the risk of which of the following?",
+        "answers": [
+            "Only earthquakes",
+            "Extreme weather, floods, droughts, and sea-level rise",
+            "Only volcanic eruptions",
+            "None of these"
+        ],
+        "correct": 1,
+        "explanation": "Climate change increases risks of extreme weather events, floods, droughts, heat waves, cyclones, and sea-level rise. It does not directly cause earthquakes or volcanic eruptions."
+    },
+    {
+        "prompt": "Urban flooding is often worsened by:",
+        "answers": [
+            "Only heavy rainfall",
+            "Poor drainage, encroachment on water bodies, and concretisation",
+            "Only cyclones",
+            "Only earthquakes"
+        ],
+        "correct": 1,
+        "explanation": "Urban flooding is worsened by inadequate drainage, loss of wetlands and water bodies, concretisation reducing infiltration, and encroachment on natural flood plains."
+    },
+    {
+        "prompt": "GLOF (Glacial Lake Outburst Flood) is a significant risk in:",
+        "answers": [
+            "Rajasthan",
+            "Himalayan region",
+            "Kerala",
+            "Chhattisgarh"
+        ],
+        "correct": 1,
+        "explanation": "GLOF is a risk in the Himalayan region where glacial lakes can burst due to ice/rock collapse or heavy rainfall, causing sudden floods downstream."
+    },
+    {
+        "prompt": "GIS in disaster management is used for:",
+        "answers": [
+            "Only weather forecasting",
+            "Mapping hazards, vulnerability, and planning response",
+            "Only rescue operations",
+            "Only relief distribution"
+        ],
+        "correct": 1,
+        "explanation": "GIS (Geographic Information System) is used for hazard and vulnerability mapping, evacuation planning, damage assessment, and visualising affected areas for better decision-making."
+    },
+    {
+        "prompt": "Remote sensing in disaster management helps in:",
+        "answers": [
+            "Only communication",
+            "Damage assessment and monitoring from satellite imagery",
+            "Only rescue",
+            "Only fund collection"
+        ],
+        "correct": 1,
+        "explanation": "Remote sensing (satellite and aerial imagery) helps in pre- and post-disaster mapping, damage assessment, flood extent, and monitoring disaster-prone areas."
+    },
+    {
+        "prompt": "Social media can play a role in disaster response by:",
+        "answers": [
+            "Only entertainment",
+            "Disseminating warnings, coordinating relief, and locating missing persons",
+            "Only fundraising",
+            "Only reporting after the event"
+        ],
+        "correct": 1,
+        "explanation": "Social media can disseminate early warnings, coordinate rescue and relief, help locate missing persons, and share real-time information during disasters."
+    },
+    {
+        "prompt": "Coastal erosion can be exacerbated by:",
+        "answers": [
+            "Only earthquakes",
+            "Sea-level rise, cyclones, and human construction",
+            "Only drought",
+            "Only landslides"
+        ],
+        "correct": 1,
+        "explanation": "Coastal erosion is worsened by sea-level rise, storm surges from cyclones, and human activities such as construction and mining that alter coastal dynamics."
+    },
+    {
+        "prompt": "Desertification is primarily linked to:",
+        "answers": [
+            "Tsunamis",
+            "Land degradation, drought, and unsustainable land use",
+            "Cyclones",
+            "Earthquakes"
+        ],
+        "correct": 1,
+        "explanation": "Desertification is land degradation in arid areas due to drought, deforestation, overgrazing, and unsustainable agriculture, leading to loss of productivity."
+    },
+    {
+        "prompt": "Deforestation can increase the risk of:",
+        "answers": [
+            "Only tsunami",
+            "Landslides and floods",
+            "Only cyclone",
+            "Only earthquake"
+        ],
+        "correct": 1,
+        "explanation": "Deforestation removes vegetation that binds soil and absorbs water, increasing the risk of landslides and surface runoff leading to floods."
+    },
+    {
+        "prompt": "Which UN framework preceded the Sendai Framework?",
+        "answers": [
+            "Yokohama Strategy",
+            "Hyogo Framework for Action",
+            "Paris Agreement",
+            "Kyoto Protocol"
+        ],
+        "correct": 1,
+        "explanation": "The Hyogo Framework for Action (2005–2015) preceded the Sendai Framework. It focused on building resilience of nations and communities to disasters."
+    },
+    {
+        "prompt": "Wildfires are often classified as:",
+        "answers": [
+            "Hydrological",
+            "Climatological",
+            "Geological",
+            "Meteorological"
+        ],
+        "correct": 1,
+        "explanation": "Wildfires (forest fires) are often classified as climatological disasters, as they are influenced by dry conditions, temperature, and wind, though they can also be human-induced."
+    },
+    {
+        "prompt": "Satellite-based early warning can help in:",
+        "answers": [
+            "Only earthquake prediction",
+            "Cyclone tracking, flood extent, and drought monitoring",
+            "Only tsunami detection",
+            "Only landslide prediction"
+        ],
+        "correct": 1,
+        "explanation": "Satellites support cyclone tracking, flood mapping, drought and vegetation monitoring, and tsunami-related sea-level monitoring, among other applications."
+    },
+    {
+        "prompt": "Humanitarian aid in disasters is often coordinated internationally by:",
+        "answers": [
+            "WTO",
+            "OCHA and Red Cross/Red Crescent",
+            "IMF",
+            "WTO"
+        ],
+        "correct": 1,
+        "explanation": "OCHA (UN Office for the Coordination of Humanitarian Affairs) and the Red Cross/Red Crescent movement coordinate international humanitarian response to disasters."
+    },
+    {
+        "prompt": "INSARAG refers to:",
+        "answers": [
+            "A type of cyclone",
+            "International Search and Rescue Advisory Group",
+            "A flood forecasting system",
+            "A drought index"
+        ],
+        "correct": 1,
+        "explanation": "INSARAG (International Search and Rescue Advisory Group) is a UN-led network that sets standards and coordinates international urban search and rescue in disasters."
+    },
+    {
+        "prompt": "Mobile apps and helplines in disaster management are used for:",
+        "answers": [
+            "Only entertainment",
+            "Disseminating alerts and connecting people with emergency services",
+            "Only fundraising",
+            "Only post-disaster surveys"
+        ],
+        "correct": 1,
+        "explanation": "Mobile apps and helplines (e.g., disaster helplines) help disseminate alerts, report emergencies, and connect affected people with rescue and relief services."
+    },
+    {
+        "prompt": "Build Back Better is a principle associated with:",
+        "answers": [
+            "Only mitigation",
+            "Recovery and reconstruction that improves resilience",
+            "Only response",
+            "Only preparedness"
+        ],
+        "correct": 1,
+        "explanation": "Build Back Better means recovery and reconstruction should not just restore but improve resilience and reduce future disaster risk, as emphasised in Sendai Framework."
+    },
+    {
+        "prompt": "Multi-Hazard Early Warning System (MHEWS) aims to:",
+        "answers": [
+            "Address only one type of hazard",
+            "Address multiple hazards in an integrated manner",
+            "Replace all other warning systems",
+            "Function only at national level"
+        ],
+        "correct": 1,
+        "explanation": "MHEWS integrates early warning for multiple hazards (e.g., cyclone, flood, tsunami) in a coordinated way to improve preparedness and response."
+    }
+]

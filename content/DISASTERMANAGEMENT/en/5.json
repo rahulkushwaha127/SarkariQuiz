@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "NDRF battalions are located in how many regions across India?",
+        "answers": [
+            "8",
+            "10",
+            "12",
+            "16"
+        ],
+        "correct": 2,
+        "explanation": "NDRF has 12 battalions located across the country (e.g., Guwahati, Kolkata, Pune, Gandhinagar, Bhatinda, Vadodara, Chennai, etc.) for quick deployment."
+    },
+    {
+        "prompt": "Indian Tsunami Early Warning Centre (ITEWC) is located at:",
+        "answers": [
+            "New Delhi",
+            "Hyderabad (INCOIS)",
+            "Mumbai",
+            "Chennai"
+        ],
+        "correct": 1,
+        "explanation": "ITEWC is operated by INCOIS in Hyderabad. It provides tsunami bulletins and advisories to India and the Indian Ocean region."
+    },
+    {
+        "prompt": "Under the Disaster Management Act, 2005, false claim for relief can lead to:",
+        "answers": [
+            "Only warning",
+            "Imprisonment and/or fine",
+            "Only fine",
+            "No penalty"
+        ],
+        "correct": 1,
+        "explanation": "The DM Act prescribes penalties for offences such as obstructing relief, making false claims, and misappropriation of funds—including imprisonment and fines."
+    },
+    {
+        "prompt": "National Earthquake Risk Mitigation Project (NERMP) focuses on:",
+        "answers": [
+            "Only rescue equipment",
+            "Reducing earthquake risk in high-risk zones",
+            "Only tsunami warning",
+            "Only flood control"
+        ],
+        "correct": 1,
+        "explanation": "NERMP aims to strengthen structural and non-structural earthquake risk mitigation in high seismic zones, including capacity building and awareness."
+    },
+    {
+        "prompt": "SDRF is contributed by the Centre and the State in the ratio of:",
+        "answers": [
+            "50:50",
+            "75:25",
+            "90:10 for general category states",
+            "100% by Centre"
+        ],
+        "correct": 2,
+        "explanation": "For general category states, the Centre and State contribute to SDRF in the ratio 75:25. For NE and special category states, the ratio is 90:10."
+    },
+    {
+        "prompt": "Which body prepares the National Disaster Management Plan?",
+        "answers": [
+            "State governments only",
+            "National Disaster Management Authority (NDMA)",
+            "NIDM only",
+            "Ministry of Defence"
+        ],
+        "correct": 1,
+        "explanation": "NDMA prepares the National Disaster Management Plan (NDMP). It is a dynamic document updated from time to time."
+    },
+    {
+        "prompt": "IMD headquarters is located at:",
+        "answers": [
+            "Mumbai",
+            "New Delhi",
+            "Pune",
+            "Kolkata"
+        ],
+        "correct": 1,
+        "explanation": "India Meteorological Department (IMD) headquarters is in New Delhi. It has regional centres and is the principal agency for weather and cyclone forecasting."
+    },
+    {
+        "prompt": "National Remote Sensing Centre (NRSC) is under:",
+        "answers": [
+            "Ministry of Home Affairs",
+            "ISRO (Department of Space)",
+            "Ministry of Environment",
+            "Ministry of Defence"
+        ],
+        "correct": 1,
+        "explanation": "NRSC is part of ISRO (Indian Space Research Organisation) under the Department of Space. It provides satellite-based mapping and disaster support."
+    },
+    {
+        "prompt": "When is National Disaster Response Fund (NDRF) used?",
+        "answers": [
+            "Only for mitigation",
+            "When the state's SDRF is insufficient for severe calamities",
+            "Only for drought",
+            "Only for earthquakes"
+        ],
+        "correct": 1,
+        "explanation": "NDRF is used when a calamity is of such severity that the State Disaster Response Fund (SDRF) is insufficient. The state requests assistance from the Centre."
+    },
+    {
+        "prompt": "Which gas leaked in the Bhopal Gas Tragedy?",
+        "answers": [
+            "Chlorine",
+            "Methyl Isocyanate (MIC)",
+            "Ammonia",
+            "Carbon monoxide"
+        ],
+        "correct": 1,
+        "explanation": "Methyl Isocyanate (MIC) and other gases leaked from the Union Carbide plant in Bhopal in December 1984, causing thousands of deaths and injuries."
+    },
+    {
+        "prompt": "Coastal Regulation Zone (CRZ) notifications aim to:",
+        "answers": [
+            "Only promote tourism",
+            "Regulate development and protect coastal areas from erosion and disasters",
+            "Only allow industries",
+            "Only manage fisheries"
+        ],
+        "correct": 1,
+        "explanation": "CRZ notifications regulate human and industrial activity in coastal areas to protect the coast, ecosystems, and reduce vulnerability to cyclones and erosion."
+    },
+    {
+        "prompt": "Disaster Management Act, 2005 came into force on:",
+        "answers": [
+            "26 December 2005",
+            "23 December 2005",
+            "1 January 2006",
+            "12 January 2006"
+        ],
+        "correct": 1,
+        "explanation": "The Disaster Management Act, 2005 received presidential assent and was notified. The exact date of enforcement is 23 December 2005 (notification)."
+    },
+    {
+        "prompt": "Which force can be deployed for disaster response in India?",
+        "answers": [
+            "Only NDRF",
+            "NDRF, and armed forces when requisitioned",
+            "Only State Police",
+            "Only Civil Defence"
+        ],
+        "correct": 1,
+        "explanation": "NDRF is the dedicated force; additionally, armed forces can be requisitioned for disaster response when needed, under the Integrated Defence Staff framework."
+    },
+    {
+        "prompt": "School Safety Programme under NDMA focuses on:",
+        "answers": [
+            "Only building new schools",
+            "Making schools disaster-resilient and conducting mock drills",
+            "Only post-disaster relief",
+            "Only cyclone warning"
+        ],
+        "correct": 1,
+        "explanation": "The School Safety Programme aims to make schools safe from disasters through structural safety, non-structural measures, and regular mock drills and awareness."
+    },
+    {
+        "prompt": "Which state has the highest seismic zone (Zone V) area in India?",
+        "answers": [
+            "Rajasthan",
+            "Kerala",
+            "Jammu and Kashmir / Himalayan states and parts of Gujarat, Bihar",
+            "Karnataka"
+        ],
+        "correct": 2,
+        "explanation": "Zone V includes parts of Jammu & Kashmir, Himachal Pradesh, Uttarakhand, North Bihar, parts of Gujarat, and Andaman & Nicobar Islands."
+    },
+    {
+        "prompt": "National Disaster Management Authority has how many members (excluding Chairperson)?",
+        "answers": [
+            "Up to 5",
+            "Up to 9",
+            "Up to 12",
+            "Up to 15"
+        ],
+        "correct": 1,
+        "explanation": "NDMA may have up to nine members including the Vice-Chairperson, nominated by the Chairperson (PM). They are appointed by the President."
+    },
+    {
+        "prompt": "CWC (Central Water Commission) is under:",
+        "answers": [
+            "Ministry of Home Affairs",
+            "Ministry of Jal Shakti",
+            "Ministry of Environment",
+            "Ministry of Agriculture"
+        ],
+        "correct": 1,
+        "explanation": "Central Water Commission is under the Ministry of Jal Shakti. It is responsible for flood forecasting, reservoir operations, and water resources development."
+    },
+    {
+        "prompt": "Which of the following is a biological disaster?",
+        "answers": [
+            "Landslide",
+            "Pest attack on crops",
+            "Dam collapse",
+            "Chemical spill"
+        ],
+        "correct": 1,
+        "explanation": "Pest attack (locusts, crop diseases) is classified as a biological disaster. Landslide is geological; dam collapse and chemical spill are human-induced."
+    },
+    {
+        "prompt": "Hyogo Framework for Action covered the period:",
+        "answers": [
+            "1995–2005",
+            "2005–2015",
+            "2010–2020",
+            "2015–2030"
+        ],
+        "correct": 1,
+        "explanation": "The Hyogo Framework for Action (HFA) 2005–2015 was the predecessor to the Sendai Framework. It focused on building resilience to disasters."
+    },
+    {
+        "prompt": "State Disaster Management Plan is prepared by:",
+        "answers": [
+            "NDMA",
+            "State Disaster Management Authority (SDMA)",
+            "NIDM",
+            "Ministry of Home Affairs"
+        ],
+        "correct": 1,
+        "explanation": "Each State Disaster Management Authority (SDMA) is responsible for preparing the State Disaster Management Plan for that state."
+    }
+]
