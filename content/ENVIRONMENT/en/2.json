@@ -1,0 +1,222 @@
+[
+    {
+        "prompt": "UNFCCC stands for:",
+        "answers": [
+            "UN Framework for Conservation of Climate",
+            "United Nations Framework Convention on Climate Change",
+            "UN Fund for Climate Control",
+            "UN Forum on Carbon and Climate"
+        ],
+        "correct": 1,
+        "explanation": "UNFCCC (United Nations Framework Convention on Climate Change) was adopted in 1992. It is the parent treaty for the Kyoto Protocol and Paris Agreement."
+    },
+    {
+        "prompt": "IPCC stands for:",
+        "answers": [
+            "International Panel on Climate Control",
+            "Intergovernmental Panel on Climate Change",
+            "Indian Programme on Climate Change",
+            "International Protocol on Carbon Control"
+        ],
+        "correct": 1,
+        "explanation": "IPCC (Intergovernmental Panel on Climate Change) assesses scientific information on climate change. It does not conduct research but reviews and synthesises published literature."
+    },
+    {
+        "prompt": "Acid rain is mainly caused by emissions of:",
+        "answers": [
+            "Only CO2",
+            "Sulphur dioxide (SO2) and nitrogen oxides (NOx)",
+            "Only methane",
+            "Only CFCs"
+        ],
+        "correct": 1,
+        "explanation": "Acid rain is caused mainly by sulphur dioxide (SO2) and nitrogen oxides (NOx) from burning fossil fuels. They form sulphuric and nitric acid in the atmosphere."
+    },
+    {
+        "prompt": "Biosphere reserves aim to:",
+        "answers": [
+            "Only protect one species",
+            "Conserve biodiversity and promote sustainable development (core, buffer, transition zones)",
+            "Only allow tourism",
+            "Only conduct research"
+        ],
+        "correct": 1,
+        "explanation": "Biosphere reserves have a core zone (strict protection), buffer zone (limited activity), and transition zone (sustainable development). They integrate conservation with local development."
+    },
+    {
+        "prompt": "Water (Prevention and Control of Pollution) Act was enacted in:",
+        "answers": [
+            "1972",
+            "1974",
+            "1981",
+            "1986"
+        ],
+        "correct": 1,
+        "explanation": "The Water (Prevention and Control of Pollution) Act was enacted in 1974. It provided for the establishment of the Central and State Pollution Control Boards."
+    },
+    {
+        "prompt": "Air (Prevention and Control of Pollution) Act was enacted in:",
+        "answers": [
+            "1974",
+            "1981",
+            "1986",
+            "2002"
+        ],
+        "correct": 1,
+        "explanation": "The Air (Prevention and Control of Pollution) Act was enacted in 1981 to prevent and control air pollution and to maintain air quality."
+    },
+    {
+        "prompt": "Project Elephant was launched in:",
+        "answers": [
+            "1973",
+            "1992",
+            "1999",
+            "2003"
+        ],
+        "correct": 1,
+        "explanation": "Project Elephant was launched in 1992 by the Government of India to protect elephants, their habitat and corridors, and to address human-elephant conflict."
+    },
+    {
+        "prompt": "Energy flow in an ecosystem is:",
+        "answers": [
+            "Cyclic",
+            "Unidirectional (from sun to producers to consumers to decomposers)",
+            "Reversible",
+            "Random"
+        ],
+        "correct": 1,
+        "explanation": "Energy flows unidirectionally: from the sun to producers (plants), then to consumers (herbivores, carnivores), and to decomposers. A large part is lost as heat at each trophic level."
+    },
+    {
+        "prompt": "Coral bleaching is caused primarily by:",
+        "answers": [
+            "Only pollution",
+            "Rise in sea temperature (and other stressors) leading to expulsion of zooxanthellae",
+            "Only overfishing",
+            "Only salinity change"
+        ],
+        "correct": 1,
+        "explanation": "Coral bleaching occurs when corals expel their symbiotic algae (zooxanthellae) due to stress, often from elevated sea temperature linked to climate change."
+    },
+    {
+        "prompt": "Which is an example of ex-situ conservation?",
+        "answers": [
+            "National park",
+            "Seed bank or zoo",
+            "Wildlife sanctuary",
+            "Biosphere reserve"
+        ],
+        "correct": 1,
+        "explanation": "Ex-situ conservation is the conservation of species outside their natural habitat—e.g. zoos, botanical gardens, seed banks, and gene banks."
+    },
+    {
+        "prompt": "National Tiger Conservation Authority (NTCA) was set up in:",
+        "answers": [
+            "1973",
+            "2005",
+            "2010",
+            "2015"
+        ],
+        "correct": 1,
+        "explanation": "NTCA was established in 2005 following the recommendations of the Tiger Task Force. It oversees Project Tiger and management of tiger reserves."
+    },
+    {
+        "prompt": "Ecological succession refers to:",
+        "answers": [
+            "Migration of birds",
+            "Gradual change in species composition of a community over time",
+            "Food chain only",
+            "Seasonal change only"
+        ],
+        "correct": 1,
+        "explanation": "Ecological succession is the process by which the structure of a biological community changes over time (e.g. from bare rock to climax forest)."
+    },
+    {
+        "prompt": "Biomagnification means:",
+        "answers": [
+            "Increase in population",
+            "Increase in concentration of a substance (e.g. toxin) at higher trophic levels",
+            "Increase in biodiversity",
+            "Increase in biomass"
+        ],
+        "correct": 1,
+        "explanation": "Biomagnification is the increase in concentration of a pollutant (e.g. DDT, mercury) in tissues of organisms at higher trophic levels in a food chain."
+    },
+    {
+        "prompt": "India's first national park was:",
+        "answers": [
+            "Kaziranga",
+            "Jim Corbett (Hailey) National Park",
+            "Ranthambore",
+            "Bandipur"
+        ],
+        "correct": 1,
+        "explanation": "Jim Corbett National Park (established in 1936 as Hailey National Park) in Uttarakhand is India's first national park."
+    },
+    {
+        "prompt": "Ozone layer depletion is mainly caused by:",
+        "answers": [
+            "CO2",
+            "Chlorofluorocarbons (CFCs) and other ODS",
+            "Methane only",
+            "Nitrogen oxides only"
+        ],
+        "correct": 1,
+        "explanation": "Ozone layer depletion is mainly caused by chlorofluorocarbons (CFCs), halons, and other ozone-depleting substances (ODS), which release chlorine and bromine that destroy ozone."
+    },
+    {
+        "prompt": "Sustainable Development Goals (SDGs) were adopted in:",
+        "answers": [
+            "2000",
+            "2010",
+            "2015",
+            "2020"
+        ],
+        "correct": 2,
+        "explanation": "The 17 Sustainable Development Goals were adopted by the UN in 2015 as part of the 2030 Agenda for Sustainable Development."
+    },
+    {
+        "prompt": "EIA stands for:",
+        "answers": [
+            "Environmental Investment Agency",
+            "Environmental Impact Assessment",
+            "Ecosystem Integration Agreement",
+            "Environmental Index Assessment"
+        ],
+        "correct": 1,
+        "explanation": "Environmental Impact Assessment (EIA) is a process of evaluating the likely environmental impacts of a proposed project before a decision is taken."
+    },
+    {
+        "prompt": "Sunderbans is famous for:",
+        "answers": [
+            "Only desert",
+            "Largest mangrove forest and Royal Bengal Tiger habitat",
+            "Only coral reefs",
+            "Only grasslands"
+        ],
+        "correct": 1,
+        "explanation": "Sunderbans (India and Bangladesh) is the largest mangrove forest in the world and a critical habitat for the Royal Bengal Tiger. It is a UNESCO World Heritage Site and Ramsar site."
+    },
+    {
+        "prompt": "Which is a greenhouse gas?",
+        "answers": [
+            "Oxygen",
+            "Methane (CH4)",
+            "Nitrogen",
+            "Argon"
+        ],
+        "correct": 1,
+        "explanation": "Methane (CH4) is a potent greenhouse gas. Others include CO2, nitrous oxide (N2O), and water vapour. They trap heat in the atmosphere."
+    },
+    {
+        "prompt": "Wildlife Institute of India (WII) is located at:",
+        "answers": [
+            "Mumbai",
+            "Dehradun",
+            "Bengaluru",
+            "Chennai"
+        ],
+        "correct": 1,
+        "explanation": "Wildlife Institute of India (WII) is located in Dehradun, Uttarakhand. It is a premier institution for wildlife research and training."
+    }
+]
