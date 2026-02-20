@@ -1,0 +1,12 @@
+[
+    {"prompt": "Amir Khusrau was associated with which Sultan?", "answers": ["Only Alauddin", "Multiple (from Balban to Tughlaq period)", "Only Akbar", "Only Babur"], "correct": 1, "explanation": "Amir Khusrau served under several Sultans and was a disciple of Nizamuddin Auliya."},
+    {"prompt": "Nizamuddin Auliya was a?", "answers": ["Mughal noble", "Chishti Sufi saint", "Sultan", "Bhakti saint"], "correct": 1, "explanation": "Nizamuddin Auliya was a leading Chishti Sufi saint; his dargah is in Delhi."},
+    {"prompt": "Which empire had its capital at Hampi?", "answers": ["Mughal", "Vijayanagara", "Bahmani", "Delhi Sultanate"], "correct": 1, "explanation": "Vijayanagara's capital was the city of Vijayanagara (modern Hampi)."},
+    {"prompt": "Krishna Deva Raya was a contemporary of?", "answers": ["Akbar", "Babur (and Portuguese)", "Aurangzeb", "Sher Shah"], "correct": 1, "explanation": "Krishna Deva Raya (1509–1529) ruled when Babur was in India and the Portuguese had arrived."},
+    {"prompt": "Jizya was abolished by?", "answers": ["Aurangzeb", "Akbar", "Iltutmish", "Firoz Shah"], "correct": 1, "explanation": "Akbar abolished jizya; Aurangzeb reimposed it in 1679."},
+    {"prompt": "Third Battle of Panipat (1761) weakened?", "answers": ["Mughals only", "Marathas (and eased Afghan pressure)", "British", "Sikhs"], "correct": 1, "explanation": "Marathas were defeated by Ahmad Shah Abdali at Panipat in 1761; their expansion north was checked."},
+    {"prompt": "Chauth and Sardeshmukhi were associated with?", "answers": ["Mughal revenue", "Maratha revenue demands", "Vijayanagara", "Delhi Sultanate"], "correct": 1, "explanation": "Chauth (25%) and Sardeshmukhi (10%) were Maratha revenue claims on territory."},
+    {"prompt": "Ain-i-Akbari was written by?", "answers": ["Babur", "Abul Fazl", "Barani", "Amir Khusrau"], "correct": 1, "explanation": "Abul Fazl wrote Ain-i-Akbari (part of Akbarnama) describing Akbar's administration and empire."},
+    {"prompt": "Which ruler transferred the capital to Daulatabad?", "answers": ["Alauddin Khalji", "Muhammad bin Tughlaq", "Firoz Shah", "Akbar"], "correct": 1, "explanation": "Muhammad bin Tughlaq moved the capital from Delhi to Daulatabad (Devagiri); later reversed."},
+    {"prompt": "Razia Sultan was from which dynasty?", "answers": ["Khalji", "Slave (Mamluk)", "Tughlaq", "Lodi"], "correct": 1, "explanation": "Razia Sultan was from the Slave dynasty; she was the daughter of Iltutmish."}
+]

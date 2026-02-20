@@ -1,0 +1,11 @@
+[
+    {"prompt": "Mansab in the Mughal system meant?", "answers": ["A province", "Rank/position (indicating salary and military obligation)", "A tax only", "A temple"], "correct": 1, "explanation": "Mansab was a rank (zat and sawar) that determined status, pay, and number of troops to maintain."},
+    {"prompt": "Zat and Sawar in Mansabdari referred to?", "answers": ["Only salary", "Personal rank (zat) and cavalry rank (sawar)", "Only land", "Only title"], "correct": 1, "explanation": "Zat indicated personal rank and pay; sawar indicated number of horsemen to be maintained."},
+    {"prompt": "Jagir was?", "answers": ["A tax", "Revenue assignment given to a mansabdar (not hereditary)", "A province", "A fort"], "correct": 1, "explanation": "Jagir was land/revenue assigned to nobles in lieu of salary; it was transferable."},
+    {"prompt": "Khalisa land in Mughal administration was?", "answers": ["Noble's private land", "Crown land (revenue directly to emperor)", "Temple land", "Peasant land only"], "correct": 1, "explanation": "Khalisa was land whose revenue went directly to the royal treasury."},
+    {"prompt": "Subedar (Subahdar) was?", "answers": ["Revenue officer only", "Governor of a province (suba)", "Military commander only", "Judge only"], "correct": 1, "explanation": "Subedar was the governor of a suba (province)."},
+    {"prompt": "Mir Bakshi was in charge of?", "answers": ["Revenue only", "Military affairs and intelligence", "Justice only", "Religious affairs"], "correct": 1, "explanation": "Mir Bakshi was the head of military administration and intelligence."},
+    {"prompt": "Diwan-i-Ala was?", "answers": ["Military department", "Chief revenue minister", "Justice department", "Royal household"], "correct": 1, "explanation": "Diwan-i-Ala (Wazir) was the head of revenue and finance."},
+    {"prompt": "The Mughal empire was divided into?", "answers": ["Only districts", "Subas (provinces), sarkars, parganas", "Only villages", "Only jagirs"], "correct": 1, "explanation": "Administrative division was suba → sarkar → pargana → village."},
+    {"prompt": "Ain-i-Dahsala was a system of?", "answers": ["Army recruitment", "Revenue assessment (average of 10 years)", "Justice", "Trade"], "correct": 1, "explanation": "Ain-i-Dahsala was a revenue system based on average produce of 10 years."}
+]

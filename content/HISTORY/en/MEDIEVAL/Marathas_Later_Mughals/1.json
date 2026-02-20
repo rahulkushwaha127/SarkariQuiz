@@ -1,0 +1,11 @@
+[
+    {"prompt": "Shivaji was crowned Chhatrapati in?", "answers": ["1627", "1645", "1674", "1680"], "correct": 2, "explanation": "Shivaji had his coronation (rajyabhishek) in 1674 at Raigad."},
+    {"prompt": "Shivaji's council of eight ministers was called?", "answers": ["Navratna", "Ashta Pradhan", "Diwan", "Jagir"], "correct": 1, "explanation": "Ashta Pradhan was the council of eight ministers (Peshwa, Amatya, etc.)."},
+    {"prompt": "Chauth was?", "answers": ["A religious tax", "One-fourth of revenue claimed by Marathas from non-Maratha territory", "A land tax only in Maharashtra", "A trade tax"], "correct": 1, "explanation": "Chauth was 25% of revenue demanded from areas under Maratha protection or influence."},
+    {"prompt": "Sardeshmukhi was?", "answers": ["A title", "Additional 10% over chauth (claim as hereditary head of deshmukhs)", "Only in Maharashtra", "A military rank"], "correct": 1, "explanation": "Sardeshmukhi was an extra 10% levy; Shivaji claimed the right as Sardeshmukh."},
+    {"prompt": "Shivaji's revenue system was influenced by?", "answers": ["Only Mughal", "Mughal and Deccan practices; emphasis on assessment", "Only Vijayanagara", "Only British"], "correct": 1, "explanation": "Shivaji's administration drew on local and Sultanate/Mughal practices; he stressed fair assessment."},
+    {"prompt": "Peshwa under Shivaji was?", "answers": ["King", "Prime minister (chief of Ashta Pradhan)", "Military commander only", "Revenue officer only"], "correct": 1, "explanation": "Peshwa was the chief minister; later the Peshwas became the de facto heads of the Maratha confederacy."},
+    {"prompt": "Shivaji died in?", "answers": ["1674", "1680", "1707", "1761"], "correct": 1, "explanation": "Shivaji died in 1680; his son Sambhaji succeeded him."},
+    {"prompt": "Shivaji fought against which powers?", "answers": ["Only Mughals", "Bijapur Sultanate and Mughals", "Only British", "Only Portuguese"], "correct": 1, "explanation": "Shivaji fought the Adil Shahi sultanate of Bijapur and the Mughals (Aurangzeb)."},
+    {"prompt": "Raigad was?", "answers": ["A port", "Shivaji's capital and fort", "A temple town", "A Mughal city"], "correct": 1, "explanation": "Raigad was Shivaji's capital where he was crowned Chhatrapati."}
+]

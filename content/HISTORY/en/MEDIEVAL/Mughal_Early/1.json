@@ -1,0 +1,12 @@
+[
+    {"prompt": "Babur defeated Ibrahim Lodi in the First Battle of Panipat in?", "answers": ["1525", "1526", "1556", "1761"], "correct": 1, "explanation": "First Battle of Panipat was fought in 1526; Babur defeated Ibrahim Lodi."},
+    {"prompt": "Babur's memoirs are known as?", "answers": ["Ain-i-Akbari", "Tuzuk-i-Baburi (Baburnama)", "Tarikh-i-Firoz Shahi", "Akbarnama"], "correct": 1, "explanation": "Babur wrote Tuzuk-i-Baburi (Baburnama) in Chagatai Turkish; it was later translated to Persian."},
+    {"prompt": "Babur defeated Rana Sanga in the Battle of?", "answers": ["Panipat", "Khanwa (1527)", "Chanderi", "Ghaghra"], "correct": 1, "explanation": "Battle of Khanwa (1527) was fought between Babur and Rana Sanga of Mewar."},
+    {"prompt": "Babur was originally the ruler of?", "answers": ["Delhi", "Kabul (Afghanistan)", "Persia", "Samarkand only"], "correct": 1, "explanation": "Babur was from Ferghana; he lost and gained Samarkand, then established himself in Kabul before invading India."},
+    {"prompt": "Babur used which military tactic effectively at Panipat?", "answers": ["Only cavalry", "Tulughma (flanking) and artillery (cannons)", "Only elephants", "Only infantry"], "correct": 1, "explanation": "Babur used mobile cavalry (tulughma) and gunpowder artillery to defeat the Lodi army."},
+    {"prompt": "Babur died in?", "answers": ["1526", "1530", "1540", "1556"], "correct": 1, "explanation": "Babur died in 1530 in Agra; he was succeeded by Humayun."},
+    {"prompt": "Babur was a descendant of?", "answers": ["Only Genghis Khan", "Timur (Timurid) and Genghis Khan", "Only Turkish sultans", "Only Persian kings"], "correct": 1, "explanation": "Babur was a Timurid (from Timur) on his father's side and claimed descent from Genghis Khan on his mother's side."},
+    {"prompt": "Who succeeded Babur as Mughal emperor?", "answers": ["Akbar", "Humayun", "Sher Shah", "Kamran"], "correct": 1, "explanation": "Humayun succeeded Babur in 1530."},
+    {"prompt": "Battle of Chanderi (1528) was fought by Babur against?", "answers": ["Ibrahim Lodi", "Medini Rai (Rajput)", "Rana Sanga", "Sher Shah"], "correct": 1, "explanation": "After Khanwa, Babur defeated Medini Rai at Chanderi."},
+    {"prompt": "Baburnama was written in which language originally?", "answers": ["Persian", "Chagatai Turkish", "Arabic", "Hindi"], "correct": 1, "explanation": "Babur wrote his memoirs in Chagatai Turkish; Akbar had it translated to Persian."}
+]

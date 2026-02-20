@@ -1,0 +1,190 @@
+# MEDIEVAL INDIAN HISTORY – Topics and Subtopics
+# For UPSC, SSC, and other government exams.
+# Each folder contains JSONs named 1.json, 2.json, 3.json, ... (in order).
+# Base path: content/HISTORY/en/MEDIEVAL/
+
+================================================================================
+TOPIC 1: Early Medieval North India (c. 700–1200)
+================================================================================
+Folder: Early_Medieval_North_India
+
+Subtopics (detailed):
+- Sources: inscriptions (e.g. Gwalior, Hathigumpha), texts (Rajatarangini, Prithviraj Raso), foreign accounts.
+- Tripartite struggle: Palas (Bengal-Bihar), Pratiharas (North/Central India), Rashtrakutas (Deccan); struggle for Kannauj.
+- Pala dynasty: Gopala, Dharmapala, Devapala; Buddhism, Nalanda, Vikramashila.
+- Pratihara dynasty: Nagabhata, Bhoja I, Mihira Bhoja; defence against Arabs.
+- Rashtrakutas: Dantidurga, Krishna I (Kailash, Ellora), Amoghavarsha; Kannada literature.
+- Rajput dynasties: Chahamanas/Chauhans (Ajmer, Prithviraj III), Paramaras (Malwa, Bhoja), Chandelas (Khajuraho), Gahadavalas (Kannauj), Kalachuris, Tomaras (Delhi).
+- Arab conquest of Sind: Muhammad bin Qasim (712); Al-Hind.
+- Mahmud of Ghazni: raids (1000–1026), Somnath, wealth and destruction.
+- Muhammad Ghori: First and Second Battle of Tarain (1191, 1192), defeat of Prithviraj; Qutbuddin Aibak as commander.
+- Society and economy: feudalism debate, land grants, trade, temples.
+
+Files:
+1	Tripartite struggle, Palas, Pratiharas, Rashtrakutas
+2	Rajput dynasties (Chauhans, Paramaras, Chandelas, etc.)
+3	Arab and Turkic invasions (Sind, Mahmud, Ghori), Tarain
+
+================================================================================
+TOPIC 2: Delhi Sultanate – Slave and Khalji Dynasties (1206–1320)
+================================================================================
+Folder: Delhi_Sultanate_Slave_Khalji
+
+Subtopics:
+- Slave dynasty: Qutbuddin Aibak (1206–1210), construction of Qutb Minar; Iltutmish (1211–1236), consolidation, iqta; Razia Sultan (1236–1240); Balban (1266–1286), theory of kingship, blood and iron.
+- Khalji dynasty: Jalaluddin Khalji (1290–1296); Alauddin Khalji (1296–1316)—market reforms (control of prices, Diwan-i-Riyasat), Mongol raids, conquests (Gujarat, Ranthambore, Chittor, South India), Malik Kafur.
+- Administration: Sultan, wazir, iqta, army, revenue.
+- Architecture: Qutb complex, Alai Darwaza, early Indo-Islamic.
+
+Files:
+1	Slave dynasty (Aibak, Iltutmish, Razia, Balban)
+2	Alauddin Khalji (reforms, conquests, administration)
+
+================================================================================
+TOPIC 3: Delhi Sultanate – Tughlaq, Sayyid, Lodi (1320–1526)
+================================================================================
+Folder: Delhi_Sultanate_Tughlaq_Sayyid_Lodi
+
+Subtopics:
+- Tughlaq: Ghiyasuddin Tughlaq (1320–1325); Muhammad bin Tughlaq (1325–1351)—token currency, transfer of capital to Daulatabad, experiments, Barani’s account; Firoz Shah Tughlaq (1351–1388)—reforms, canals, slavery.
+- Timur’s invasion (1398), sack of Delhi.
+- Sayyid dynasty (1414–1451): Khizr Khan.
+- Lodi dynasty (1451–1526): Bahlul Lodi, Sikandar Lodi, Ibrahim Lodi; First Battle of Panipat (1526) with Babur.
+- Decline: provincial independence, rise of regional kingdoms.
+
+Files:
+1	Muhammad bin Tughlaq and Firoz Shah Tughlaq
+2	Timur, Sayyid, Lodi; Battle of Panipat 1526
+
+================================================================================
+TOPIC 4: Sultanate Administration, Society and Culture
+================================================================================
+Folder: Sultanate_Administration_Society
+
+Subtopics:
+- Administration: Sultan, nobility (Turks, Persians, Indian Muslims), iqta and iqtadar, revenue (kharaj, jizya), army (bandagan, ariz).
+- Society: Hindus under Sultanate, ulema, sufis, slaves, caste and conversion.
+- Economy: land revenue, trade (Delhi, ports), coinage.
+- Culture: Persian language, history writing (Barani, Amir Khusrau), architecture (slave and Khalji phase), music (Amir Khusrau).
+
+Files:
+1	Iqta, revenue, army; society and economy
+2	Culture: Persian, Amir Khusrau, architecture
+
+================================================================================
+TOPIC 5: Vijayanagara and Bahmani Kingdoms (Deccan)
+================================================================================
+Folder: Vijayanagara_Bahmani
+
+Subtopics:
+- Vijayanagara Empire: founding (Harihara and Bukka, 1336), Sangama, Saluva, Tuluva dynasties; Krishna Deva Raya (1509–1529), expansion, patronage; Battle of Talikota (1565), decline.
+- Administration: nayankara, amaram, revenue; capital Hampi.
+- Bahmani Sultanate (1347–1527): Alauddin Bahman Shah, Mahmud Gawan (minister); disintegration into five Deccan Sultanates (Bijapur, Golkonda, Ahmadnagar, Berar, Bidar).
+- Culture: Vitthala temple, Hazara Rama, literature (Telugu, Kannada, Sanskrit).
+
+Files:
+1	Vijayanagara (founding, Krishna Deva Raya, Talikota)
+2	Bahmani and Deccan Sultanates; administration and culture
+
+================================================================================
+TOPIC 6: Bhakti and Sufi Movements
+================================================================================
+Folder: Bhakti_Sufi
+
+Subtopics:
+- Bhakti in South India: Alvars and Nayanars (Tamil), Ramanuja (Vishishtadvaita), Basava (Virashaiva).
+- Bhakti in North India: Ramananda, Kabir, Guru Nanak (Sikhism), Chaitanya (Bengal), Mira Bai, Tulsidas (Ramcharitmanas), Surdas; Nirguna and Saguna bhakti.
+- Sufism: Chishti (Moinuddin Chishti, Nizamuddin Auliya), Suhrawardi, Qadiri; khanqah, silsila; impact on society and culture.
+- Interaction: Hindu-Muslim syncretism, criticism of ritual, vernacular literature.
+
+Files:
+1	Bhakti (South: Alvars, Nayanars, Ramanuja; North: Kabir, Nanak, Mira, Tulsidas)
+2	Sufi orders (Chishti, Suhrawardi); impact and syncretism
+
+================================================================================
+TOPIC 7: Mughal Empire – Early (Babur, Humayun, Sher Shah)
+================================================================================
+Folder: Mughal_Early
+
+Subtopics:
+- Babur (1526–1530): First Battle of Panipat (1526) vs Ibrahim Lodi, Battle of Khanwa (1527) vs Rana Sanga; Tuzuk-i-Baburi (Baburnama).
+- Humayun (1530–1540, 1555–1556): defeat by Sher Shah, exile, reconquest.
+- Sher Shah Suri (1540–1545): Sur Empire, administration (sarkar, pargana, land revenue), Grand Trunk Road, currency (rupaya), postal system.
+- Humayun’s return and early Mughal consolidation.
+
+Files:
+1	Babur (Panipat, Khanwa, Baburnama)
+2	Humayun, Sher Shah Suri (administration, Grand Trunk Road)
+
+================================================================================
+TOPIC 8: Mughal Empire – Akbar to Aurangzeb
+================================================================================
+Folder: Mughal_Akbar_To_Aurangzeb
+
+Subtopics:
+- Akbar (1556–1605): expansion (Gujarat, Bengal, Kashmir, Deccan), Rajput policy (marriage, mansab), Din-i-Ilahi, Ibadat Khana, Navratnas (Birbal, Tansen, Abul Fazl), Ain-i-Akbari; land revenue (Todar Mal, zabt).
+- Jahangir (1605–1627): Nur Jahan, Mughal painting, chain of justice.
+- Shah Jahan (1628–1658): Taj Mahal, Red Fort (Delhi), Jama Masjid, Peacock Throne; war of succession.
+- Aurangzeb (1658–1707): expansion in Deccan, conflict with Marathas, religious policies (jizya reimposed), decline.
+
+Files:
+1	Akbar (expansion, Rajput policy, Din-i-Ilahi, administration)
+2	Jahangir, Shah Jahan (Taj, Red Fort), Aurangzeb (Deccan, policies)
+
+================================================================================
+TOPIC 9: Mughal Administration and Culture
+================================================================================
+Folder: Mughal_Administration_Culture
+
+Subtopics:
+- Administration: Mansabdari (zat, sawar), jagirdari, subas, land revenue (zabt, ain-i-dahsala), mir bakshi, diwan.
+- Economy: trade, European companies, ports, coinage.
+- Culture: Mughal painting (miniature), architecture (Fatehpur Sikri, Agra Fort, Lahore), literature (Persian, Hindi), music (Tansen).
+
+Files:
+1	Mansab, jagir, land revenue; economy
+2	Mughal art, architecture, literature
+
+================================================================================
+TOPIC 10: Marathas and Later Mughals
+================================================================================
+Folder: Marathas_Later_Mughals
+
+Subtopics:
+- Shivaji (1627–1680): rise, administration (Ashta Pradhan), revenue (chauth, sardeshmukhi), conflict with Bijapur and Mughals; coronation (1674).
+- Maratha Confederacy: Peshwas (Balaji Vishwanath, Baji Rao I), expansion; Third Battle of Panipat (1761) vs Ahmad Shah Abdali.
+- Later Mughals: Bahadur Shah I to Bahadur Shah Zafar; Nadir Shah’s invasion (1739), Abdali’s raids.
+- Rise of regional states: Awadh, Bengal, Hyderabad, Mysore (Haider, Tipu), Sikhs, Jats.
+
+Files:
+1	Shivaji (administration, Ashta Pradhan, chauth)
+2	Peshwas, Panipat 1761; later Mughals, Nadir Shah, regional states
+
+================================================================================
+TOPIC 11: Mixed Revision (Chronology, Cross-topic)
+================================================================================
+Folder: Mixed_Revision
+
+Subtopics:
+- Chronology: major dynasties and battles (Tarain, Panipat 1526 and 1761, Talikota).
+- Comparative: Sultanate vs Mughal administration; Bhakti vs Sufi; North vs Deccan.
+- Sources: Barani, Abul Fazl, foreign travellers (Ibn Battuta, Bernier).
+- Revision questions across all medieval topics.
+
+Files:
+1–n	Mixed and revision (add JSONs as needed)
+
+================================================================================
+FOLDER LIST (for JSON placement)
+================================================================================
+Early_Medieval_North_India/     → 1.json, 2.json, 3.json
+Delhi_Sultanate_Slave_Khalji/   → 1.json, 2.json
+Delhi_Sultanate_Tughlaq_Sayyid_Lodi/ → 1.json, 2.json
+Sultanate_Administration_Society/    → 1.json, 2.json
+Vijayanagara_Bahmani/           → 1.json, 2.json
+Bhakti_Sufi/                    → 1.json, 2.json
+Mughal_Early/                   → 1.json, 2.json
+Mughal_Akbar_To_Aurangzeb/      → 1.json, 2.json
+Mughal_Administration_Culture/  → 1.json, 2.json
+Marathas_Later_Mughals/         → 1.json, 2.json
+Mixed_Revision/                 → 1.json, 2.json, ...
