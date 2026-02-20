@@ -1,32 +1,58 @@
-INDIAN ART & CULTURE - 30 TOPICS (Deep MCQs, ~200 per file)
+INDIAN ART & CULTURE – Subtopics
+Each folder contains JSONs named 1.json, 2.json, 3.json, ... (in order).
 
-1. Harappan Art and Architecture
-2. Buddhist Stupas and Symbolism
-3. Buddhist Chaityas and Viharas
-4. Temple Architecture – Nagara Style
-5. Temple Architecture – Dravida Style
-6. Temple Architecture – Vesara and Regional
-7. Mughal Forts and Palaces
-8. Mughal Tombs and Gardens
-9. Sultanate and Indo-Islamic Architecture
-10. Indo-Islamic Regional and Provincial
-11. Cave Architecture – Ajanta
-12. Cave Architecture – Ellora and Others
-13. Sculpture – Mathura School
-14. Sculpture – Gandhara and Amaravati
-15. Temple and Medieval Sculpture
-16. Mughal and Miniature Painting
-17. Rajput and Pahari Painting
-18. Deccan, Folk and Modern Painting
-19. Classical Dance – Bharatanatyam and Kathakali
-20. Classical Dance – Kathak, Kuchipudi, Odissi
-21. Classical Dance – Mohiniyattam, Sattriya, Manipuri
-22. Hindustani Music – History and Gharanas
-23. Carnatic Music and Instruments
-24. Sanskrit and Prakrit Literature
-25. Persian, Urdu and Islamic Literature
-26. Regional and Bhakti Literature
-27. UNESCO Heritage – North India
-28. UNESCO Heritage – Central and South India
-29. UNESCO Heritage – Natural and Mixed Sites
-30. Crafts, Textiles, Theatre and Performing Arts
+Harappan_Art/
+1	Harappan Art and Architecture
+
+Buddhist_Architecture/
+1	Buddhist Stupas and Symbolism
+2	Buddhist Chaityas and Viharas
+
+Temple_Architecture/
+1	Temple Architecture – Nagara Style
+2	Temple Architecture – Dravida Style
+3	Temple Architecture – Vesara and Regional
+
+Mughal_Architecture/
+1	Mughal Forts and Palaces
+2	Mughal Tombs and Gardens
+
+Indo_Islamic_Architecture/
+1	Sultanate and Indo-Islamic Architecture
+2	Indo-Islamic Regional and Provincial
+
+Cave_Architecture/
+1	Cave Architecture – Ajanta
+2	Cave Architecture – Ellora and Others
+
+Sculpture/
+1	Sculpture – Mathura School
+2	Sculpture – Gandhara and Amaravati
+3	Temple and Medieval Sculpture
+
+Painting/
+1	Mughal and Miniature Painting
+2	Rajput and Pahari Painting
+3	Deccan, Folk and Modern Painting
+
+Classical_Dance/
+1	Classical Dance – Bharatanatyam and Kathakali
+2	Classical Dance – Kathak, Kuchipudi, Odissi
+3	Classical Dance – Mohiniyattam, Sattriya, Manipuri
+
+Music/
+1	Hindustani Music – History and Gharanas
+2	Carnatic Music and Instruments
+
+Literature/
+1	Sanskrit and Prakrit Literature
+2	Persian, Urdu and Islamic Literature
+3	Regional and Bhakti Literature
+
+UNESCO_Heritage/
+1	UNESCO Heritage – North India
+2	UNESCO Heritage – Central and South India
+3	UNESCO Heritage – Natural and Mixed Sites
+
+Crafts_Textiles_Theatre/
+1	Crafts, Textiles, Theatre and Performing Arts
