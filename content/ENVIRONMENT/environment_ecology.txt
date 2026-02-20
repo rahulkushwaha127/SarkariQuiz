@@ -1,5 +1,52 @@
 ENVIRONMENT & ECOLOGY TOPICS - INDIAN GOVERNMENT EXAMS (UPSC, SSC, Banking)
 
+================================================================================
+MAIN TOPICS – content is in topic folders under content/ENVIRONMENT/en/
+See en/environment_topics.txt for folder names and labels.
+================================================================================
+1   Environment Policies, Acts & Governance (MoEFCC, EPA, Wildlife Act, Ramsar, Montreal, CPCB)
+2   Climate Change Framework (UNFCCC, IPCC, acid rain)
+3   Ecology, Forests & Climate Policy (FSI, keystone species, NAPCC)
+4   Ecosystems & Ecology (food chain, food web, succession, wetlands, mangroves)
+5   Biodiversity (genetic/species/ecosystem diversity, endemic, IUCN, in-situ/ex-situ)
+6   Protected Areas & Tiger Reserves (NP, Sanctuary, BRs, Ramsar, Kaziranga, Ranthambore)
+7   Climate Science (greenhouse effect, GHGs, global warming)
+8   Paris Agreement & Climate Policy (NDC, mitigation, adaptation, COP)
+9   Pollution – Air, Water, Noise (AQI, PM, BOD, Silent Valley, Chipko, soil)
+10  Waste Management (plastic, e-waste, hazardous, Swachh Bharat, Namami Gange)
+11  Pollution Control & EIA (NAAQS, EIA, Forest Conservation Act, public hearing)
+12  International Conventions & Bodies (CBD, Nagoya, Minamata, UNEP, IUCN, Ramsar, Rio)
+13  NGT, NAPCC & Biodiversity (NGT benches, NAPCC missions, Red List, CITES, ecological footprint)
+14  Biogeochemical Cycles & Forests (nitrogen, carbon, phosphorus, afforestation, desertification, coral)
+15  Protected Areas & Species (parks, reserves, rhino, gharial, dolphin, Nilgiri tahr, Sangai)
+16  Wetlands, SDGs & Forest Governance (Ramsar sites, SDGs, BD Act, Forest Rights, CAMPA)
+17  (Reserved / mixed)
+18  Threats to Biodiversity (invasive species, Red List, HIPPO, captive breeding, conventions)
+19  (Reserved / mixed)
+20  Wildlife Conservation & International (tiger census, Project Dolphin, Cheetah, GEF, UNESCO MAB)
+21  Environment Laws & Principles (Acts, NGT, liability, Article 21, Public Trust, Precautionary)
+22  (Reserved / mixed)
+23  (Reserved / mixed)
+24  (Reserved / mixed)
+25  Air & Water Pollution (primary/secondary pollutants, PM, AQI, BOD, COD, sewage, eutrophication)
+26  Land Use, Agriculture & Renewable Energy (soil, desertification, IPM, organic farming, solar, wind, BEE)
+27  (Reserved / mixed)
+28  (Reserved / mixed)
+29  (Reserved / mixed)
+30  Sustainability & Human Impact (ecological footprint, I=PAT, LCA, carbon neutral, greenwashing)
+31  (Reserved / mixed)
+32  (Reserved / mixed)
+33  (Reserved / mixed)
+34  (Reserved / mixed)
+35  (Reserved / mixed)
+36  (Reserved / mixed)
+37  (Reserved / mixed)
+38  (Reserved / mixed)
+39  (Reserved / mixed)
+40  Institutions & Conventions (WII, FSI, BSI, ZSI, NTCA, NBA, CPCB, MoEFCC, conventions)
+
+================================================================================
+
 ECOSYSTEMS
 - Ecosystem (Structure, Components, Types)
 - Biotic and Abiotic Components

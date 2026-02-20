@@ -1,0 +1,75 @@
+# ENVIRONMENT & ECOLOGY – Main Topics
+# Each folder contains JSONs named 1.json, 2.json, 3.json, ... (in order).
+# Base path: content/ENVIRONMENT/en/
+
+Environment_Policies_Governance/
+1	Environment Policies, Acts & Governance (MoEFCC, EPA, Wildlife Act, Ramsar, Montreal, CPCB)
+
+Climate_Change_Framework/
+1	Climate Change Framework (UNFCCC, IPCC, acid rain)
+
+Ecology_Forests_Climate_Policy/
+1	Ecology, Forests & Climate Policy (FSI, keystone species, NAPCC)
+
+Ecosystems_Ecology/
+1	Ecosystems & Ecology (food chain, food web, succession, wetlands, mangroves)
+
+Biodiversity/
+1	Biodiversity (genetic/species/ecosystem diversity, endemic, IUCN, in-situ/ex-situ)
+
+Protected_Areas_Tiger_Reserves/
+1	Protected Areas & Tiger Reserves (NP, Sanctuary, BRs, Ramsar, Kaziranga, Ranthambore)
+
+Climate_Science/
+1	Climate Science (greenhouse effect, GHGs, global warming)
+
+Paris_Agreement_Climate_Policy/
+1	Paris Agreement & Climate Policy (NDC, mitigation, adaptation, COP)
+
+Pollution_Air_Water_Noise/
+1	Pollution – Air, Water, Noise (AQI, PM, BOD, Silent Valley, Chipko, soil)
+
+Waste_Management/
+1	Waste Management (plastic, e-waste, hazardous, Swachh Bharat, Namami Gange)
+
+Pollution_Control_EIA/
+1	Pollution Control & EIA (NAAQS, EIA, Forest Conservation Act, public hearing)
+
+International_Conventions/
+1	International Conventions & Bodies (CBD, Nagoya, Minamata, UNEP, IUCN, Ramsar, Rio)
+
+NGT_NAPCC_Biodiversity/
+1	NGT, NAPCC & Biodiversity (NGT benches, NAPCC missions, Red List, CITES, ecological footprint)
+
+Biogeochemical_Cycles_Forests/
+1	Biogeochemical Cycles & Forests (nitrogen, carbon, phosphorus, afforestation, desertification, coral)
+
+Protected_Areas_Species/
+1	Protected Areas & Species (parks, reserves, rhino, gharial, dolphin, Nilgiri tahr, Sangai)
+
+Wetlands_SDGs_Forest_Governance/
+1	Wetlands, SDGs & Forest Governance (Ramsar sites, SDGs, BD Act, Forest Rights, CAMPA)
+
+Mixed_Revision/
+1–17	Mixed / revision (combined topics)
+
+Threats_Biodiversity/
+1	Threats to Biodiversity (invasive species, Red List, HIPPO, captive breeding, conventions)
+
+Wildlife_Conservation_International/
+1	Wildlife Conservation & International (tiger census, Project Dolphin, Cheetah, GEF, UNESCO MAB)
+
+Environment_Laws_Principles/
+1	Environment Laws & Principles (Acts, NGT, liability, Article 21, Public Trust, Precautionary)
+
+Air_Water_Pollution/
+1	Air & Water Pollution (primary/secondary pollutants, PM, AQI, BOD, COD, sewage, eutrophication)
+
+Land_Use_Agriculture_Energy/
+1	Land Use, Agriculture & Renewable Energy (soil, desertification, IPM, organic farming, solar, wind, BEE)
+
+Sustainability_Human_Impact/
+1	Sustainability & Human Impact (ecological footprint, I=PAT, LCA, carbon neutral, greenwashing)
+
+Institutions_Conventions/
+1	Institutions & Conventions (WII, FSI, BSI, ZSI, NTCA, NBA, CPCB, MoEFCC, conventions)
