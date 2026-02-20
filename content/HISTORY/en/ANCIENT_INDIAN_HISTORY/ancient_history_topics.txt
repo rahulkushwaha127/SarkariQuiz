@@ -1,0 +1,49 @@
+# ANCIENT INDIAN HISTORY – Subtopics
+# Each folder contains JSONs named 1.json, 2.json, 3.json, ... (in order).
+
+Prehistory/
+1	Prehistory (Stone Age, Chalcolithic, Megaliths)
+
+Indus_Valley_Harappan/
+1	Indus Valley / Harappan Civilization
+
+Vedic_Period/
+1	Early Vedic (Rig Vedic)
+2	Later Vedic (Brahmanas, Upanishads, Janapadas)
+
+Mahajanapadas_Magadha/
+1	Mahajanapadas and Rise of Magadha
+
+Buddhism/
+1	Buddhism (Buddha, Councils, Tripitaka)
+
+Jainism/
+1	Jainism (Mahavira, Tirthankaras)
+
+Mauryan_Empire/
+1	Mauryan Empire (Chandragupta, Ashoka, Arthashastra)
+
+Post_Mauryan/
+1	Post-Mauryan (Shunga, Kanva, Kushana, Satavahana, Indo-Greeks, Sakas)
+
+South_India_Sangam/
+1	Sangam Age (Tamilakam, Chola-Chera-Pandya, Literature)
+
+Gupta_Empire/
+1	Gupta Empire (Political)
+2	Gupta Art, Literature, Science
+
+Harsha_Post_Gupta/
+1	Harsha Vardhana and Post-Gupta (Tripartite Struggle)
+
+South_India_Cholas/
+1	South India – Cholas, Pandyas (Imperial Cholas, Brihadeeshwara)
+
+Deccan_Rashtrakutas/
+1	Deccan – Rashtrakutas (Ellora Kailash, Kavirajamarga)
+
+Art_Architecture/
+1	Art and Architecture (Stupa, Nagara, Dravida, Gandhara, Mathura, Ajanta)
+
+Mixed_Revision/
+1-24	Mixed / Revision (cross-topic, society, culture, revision)
