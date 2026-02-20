@@ -21,6 +21,7 @@ use App\Http\Controllers\Admin\StudentPlansController;
 use App\Http\Controllers\Admin\ContactSubmissionsController;
 use App\Http\Controllers\Admin\NotificationTemplatesController;
 use App\Http\Controllers\Admin\CreatorBioThemesController;
+use App\Http\Controllers\Admin\ContentController;
 use App\Http\Controllers\Admin\ProfileController as AdminProfileController;
 
 Route::middleware(['auth', 'role:super_admin'])
@@ -37,6 +38,8 @@ Route::middleware(['auth', 'role:super_admin'])
         Route::patch('/users/{user}', [UsersController::class, 'update'])->name('users.update');
         Route::get('/quizzes', [QuizModerationController::class, 'index'])->name('quizzes.index');
         Route::patch('/quizzes/{quiz}/approve', [QuizModerationController::class, 'approve'])->name('quizzes.approve');
+        Route::get('/content', [ContentController::class, 'index'])->name('content.index');
+        Route::get('/content/file', [ContentController::class, 'file'])->name('content.file');
         Route::get('questions/topics-by-subject', [QuestionsController::class, 'topicsBySubject'])->name('questions.topics_by_subject');
         Route::patch('questions/{question}/active', [QuestionsController::class, 'toggleActive'])->name('questions.toggle_active');
         Route::resource('questions', QuestionsController::class)->names('questions');

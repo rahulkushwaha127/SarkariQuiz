@@ -35,6 +35,12 @@
                     <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.questions.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
                     Questions
                 </a>
+                <a href="{{ route('admin.content.index') }}"
+                   class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
+                   {{ request()->routeIs('admin.content.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
+                    <span class="h-2 w-2 rounded-full {{ request()->routeIs('admin.content.*') ? 'bg-white' : 'bg-slate-300' }}"></span>
+                    Content
+                </a>
                 <a href="{{ route('admin.taxonomy.exams.index') }}"
                    class="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium
                    {{ request()->routeIs('admin.taxonomy.exams.*') ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-50' }}">
