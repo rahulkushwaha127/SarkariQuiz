@@ -6,7 +6,7 @@
 <div class="space-y-6">
     <div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <div>
-            <a href="{{ route('admin.content.index', ['subject' => $subject, 'language' => $language, 'topic' => $topic]) }}"
+            <a href="{{ route('admin.content.index', ['subject' => $subject, 'language' => $language, 'topic' => $topic ?? '', 'subtopic' => $subtopic ?? '']) }}"
                class="text-sm font-medium text-slate-600 hover:text-slate-900">&larr; Back to list</a>
             <h1 class="mt-1 text-xl font-semibold tracking-tight text-slate-900">{{ $filename }}</h1>
             <p class="mt-0.5 font-mono text-xs text-slate-500">{{ $relativePath }}</p>

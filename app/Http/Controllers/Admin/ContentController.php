@@ -21,10 +21,12 @@ class ContentController extends Controller
                 'subjects' => [],
                 'languages' => [],
                 'topics' => [],
+                'subtopics' => [],
                 'files' => [],
                 'subject' => null,
                 'language' => null,
                 'topic' => null,
+                'subtopic' => null,
                 'totalQuestions' => 0,
                 'error' => 'Content directory not found.',
             ]);
@@ -33,10 +35,12 @@ class ContentController extends Controller
         $subject = $request->string('subject')->toString();
         $language = $request->string('language')->toString();
         $topic = $request->string('topic')->toString();
+        $subtopic = $request->string('subtopic')->toString();
 
         $subjects = $this->listSubjects($basePath);
         $languages = [];
         $topics = [];
+        $subtopics = [];
         $files = [];
         $totalQuestions = 0;
 
@@ -44,11 +48,11 @@ class ContentController extends Controller
             $subjectPath = $basePath . DIRECTORY_SEPARATOR . $subject;
             if (is_dir($subjectPath)) {
                 $languages = $this->listLanguages($subjectPath);
-                // Reset language/topic if current language is not valid for this subject
                 $validLangCodes = array_column($languages, 'code');
                 if ($language !== '' && ! in_array($language, $validLangCodes, true)) {
                     $language = '';
                     $topic = '';
+                    $subtopic = '';
                 }
             }
         }
@@ -57,9 +61,20 @@ class ContentController extends Controller
             $langPath = $basePath . DIRECTORY_SEPARATOR . $subject . DIRECTORY_SEPARATOR . $language;
             if (is_dir($langPath)) {
                 $topics = $this->listTopics($langPath);
-                // Reset topic if current topic is not valid for this subject+language
                 if ($topic !== '' && ! in_array($topic, $topics, true)) {
                     $topic = '';
+                    $subtopic = '';
+                }
+            }
+        }
+
+        $topicPath = null;
+        if ($subject !== '' && $language !== '' && $topic !== '' && $this->pathSegmentSafe($topic)) {
+            $topicPath = $basePath . DIRECTORY_SEPARATOR . $subject . DIRECTORY_SEPARATOR . $language . DIRECTORY_SEPARATOR . $topic;
+            if (is_dir($topicPath)) {
+                $subtopics = $this->listSubtopics($topicPath);
+                if ($subtopic !== '' && ! in_array($subtopic, $subtopics, true)) {
+                    $subtopic = '';
                 }
             }
         }
@@ -69,6 +84,9 @@ class ContentController extends Controller
             if ($topic !== '') {
                 if ($this->pathSegmentSafe($topic)) {
                     $dirPath .= DIRECTORY_SEPARATOR . $topic;
+                    if ($subtopic !== '' && $this->pathSegmentSafe($subtopic)) {
+                        $dirPath .= DIRECTORY_SEPARATOR . $subtopic;
+                    }
                 }
             }
             if (is_dir($dirPath)) {
@@ -81,10 +99,12 @@ class ContentController extends Controller
             'subjects' => $subjects,
             'languages' => $languages,
             'topics' => $topics,
+            'subtopics' => $subtopics,
             'files' => $files,
             'subject' => $subject,
             'language' => $language,
             'topic' => $topic,
+            'subtopic' => $subtopic,
             'totalQuestions' => $totalQuestions,
             'error' => null,
         ]);
@@ -95,6 +115,7 @@ class ContentController extends Controller
         $subject = $request->string('subject')->toString();
         $language = $request->string('language')->toString();
         $topic = $request->string('topic')->toString();
+        $subtopic = $request->string('subtopic')->toString();
         $filename = $request->string('file')->toString();
 
         if ($subject === '' || $language === '' || $filename === '' || ! $this->pathSegmentSafe($subject) || ! $this->pathSegmentSafe($language) || ! $this->pathSegmentSafe($filename)) {
@@ -104,6 +125,9 @@ class ContentController extends Controller
         $path = base_path(self::CONTENT_PATH) . DIRECTORY_SEPARATOR . $subject . DIRECTORY_SEPARATOR . $language;
         if ($topic !== '' && $this->pathSegmentSafe($topic)) {
             $path .= DIRECTORY_SEPARATOR . $topic;
+            if ($subtopic !== '' && $this->pathSegmentSafe($subtopic)) {
+                $path .= DIRECTORY_SEPARATOR . $subtopic;
+            }
         }
         $path .= DIRECTORY_SEPARATOR . $filename;
 
@@ -122,8 +146,9 @@ class ContentController extends Controller
                 'subject' => $subject,
                 'language' => $language,
                 'topic' => $topic,
+                'subtopic' => $subtopic,
                 'filename' => $filename,
-                'relativePath' => str_replace('\\', '/', self::CONTENT_PATH . '/' . $subject . '/' . $language . ($topic !== '' ? '/' . $topic : '') . '/' . $filename),
+                'relativePath' => $this->contentRelativePath($subject, $language, $topic, $subtopic, $filename),
                 'questions' => [],
                 'error' => 'Invalid JSON or not an array.',
             ]);
@@ -138,11 +163,25 @@ class ContentController extends Controller
             'subject' => $subject,
             'language' => $language,
             'topic' => $topic,
+            'subtopic' => $subtopic,
             'filename' => $filename,
-            'relativePath' => str_replace('\\', '/', self::CONTENT_PATH . '/' . $subject . '/' . $language . ($topic !== '' ? '/' . $topic : '') . '/' . $filename),
+            'relativePath' => $this->contentRelativePath($subject, $language, $topic, $subtopic, $filename),
             'questions' => $questions,
             'error' => null,
         ]);
+    }
+
+    private function contentRelativePath(string $subject, string $language, string $topic, string $subtopic, string $filename): string
+    {
+        $parts = [self::CONTENT_PATH, $subject, $language];
+        if ($topic !== '') {
+            $parts[] = $topic;
+            if ($subtopic !== '') {
+                $parts[] = $subtopic;
+            }
+        }
+        $parts[] = $filename;
+        return str_replace('\\', '/', implode('/', $parts));
     }
 
     private function stripBom(string $raw): string
@@ -203,8 +242,19 @@ class ContentController extends Controller
 
     private function listTopics(string $langPath): array
     {
+        return $this->listDirNames($langPath);
+    }
+
+    /** List direct subdirectory names (subtopics) inside a topic folder. */
+    private function listSubtopics(string $topicPath): array
+    {
+        return $this->listDirNames($topicPath);
+    }
+
+    private function listDirNames(string $dirPath): array
+    {
         $out = [];
-        $dir = @opendir($langPath);
+        $dir = @opendir($dirPath);
         if (! $dir) {
             return $out;
         }
@@ -212,7 +262,7 @@ class ContentController extends Controller
             if ($entry === '.' || $entry === '..') {
                 continue;
             }
-            $full = $langPath . DIRECTORY_SEPARATOR . $entry;
+            $full = $dirPath . DIRECTORY_SEPARATOR . $entry;
             if (is_dir($full) && $this->pathSegmentSafe($entry)) {
                 $out[] = $entry;
             }

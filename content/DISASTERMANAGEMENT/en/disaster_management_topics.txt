@@ -1,0 +1,39 @@
+# DISASTER MANAGEMENT – Main Topics
+# Each folder contains JSONs named 1.json, 2.json, 3.json, ... (in order).
+# Same folder structure used for en/ and hi/.
+
+Act_NDMA_Institutional/
+1	Disaster Management Act 2005, NDMA, MHA, institutional framework
+
+Types_Disasters_Response/
+1	Types of disasters (hydrological, geological), disaster cycle, flood forecasting, CWC, response
+
+International_Sendai_Climate/
+1	Sendai Framework, UNDRR, SAARC/BIMSTEC, climate change and disaster risk, urban flooding
+
+Funds_Mitigation_SDMA/
+1	NDMF, PMNRF, SDMA, NCRMP, Aapda Mitra, mitigation schemes
+
+NDRF_Early_Warning/
+1	NDRF battalions, ITEWC, NERMP, SDRF, penalties under DM Act
+
+Sendai_Terminology/
+1	Sendai priorities and targets, capacity, hazard terminology, IMD
+
+Emergency_Events_Scales/
+1	Emergency number 112, Mercalli scale, Uttarakhand 2013, Odisha 1999 super cyclone
+
+NEC_Funds_Exgratia/
+1	NEC, offences under DM Act, SDMF, ex gratia norms
+
+Specific_Disasters_Regions/
+1	Kosi/Bihar floods, cyclone naming, moment magnitude, Chennai 2015 floods
+
+Sendai_Details/
+1	Sendai Priority 1, global targets, women/children, private sector in DRR
+
+Cyclones_NDRR/
+1	Saffir-Simpson, lightning, Cyclone Amphan, NDRR
+
+Guidelines_MHEWS/
+1	NDMA guidelines, Beaufort scale, multi-hazard early warning, DM Act bodies
