@@ -1,0 +1,178 @@
+# MODERN INDIAN HISTORY – Topics and Subtopics
+# For UPSC, SSC, and other government exams.
+# Each folder contains JSONs named 1.json, 2.json, 3.json, ... (in order).
+# Base path: content/HISTORY/en/MODERN/
+
+================================================================================
+TOPIC 1: British Expansion and Conquest (c. 1757–1856)
+================================================================================
+Folder: British_Expansion_Conquest
+
+Subtopics (detailed):
+- Bengal: Battle of Plassey (1757, Clive vs Siraj-ud-Daulah), Battle of Buxar (1764), Dual Government (1765–1772), Diwani of Bengal, Bihar, Orissa; Robert Clive, Warren Hastings.
+- Mysore: Anglo-Mysore Wars (I–IV), Haider Ali, Tipu Sultan, Treaty of Srirangapatnam (1792), Fall of Srirangapatnam (1799).
+- Marathas: Anglo-Maratha Wars (I–III), Treaty of Salbai (1782), Treaty of Bassein (1802), Peshwa Baji Rao II; Scindia, Holkar, Bhonsle; end of Peshwa (1818).
+- Punjab and Sind: Ranjit Singh, Anglo-Sikh Wars (1845–1846, 1848–1849), annexation of Punjab (1849); annexation of Sind (1843, Charles Napier).
+- Other: Subsidiary Alliance (Wellesley), Doctrine of Lapse (Dalhousie), annexation of Awadh (1856), Satara, Nagpur, Jhansi.
+- Key figures: Clive, Hastings, Cornwallis, Wellesley, Dalhousie, Bentinck.
+
+Files:
+1	Bengal (Plassey, Buxar, Dual Government, Diwani); Clive, Hastings
+2	Mysore (Haider, Tipu); Marathas (Anglo-Maratha Wars, Peshwa)
+3	Punjab, Sind; Subsidiary Alliance, Doctrine of Lapse; Dalhousie
+
+================================================================================
+TOPIC 2: British Administration and Economy (c. 1773–1858)
+================================================================================
+Folder: British_Administration_Economy
+
+Subtopics:
+- Constitutional: Regulating Act (1773), Pitt’s India Act (1784), Charter Acts (1793, 1813, 1833, 1853); Governor-General, Council, Supreme Court.
+- Revenue: Permanent Settlement (Bengal, 1793—Cornwallis, zamindari), Ryotwari (Madras, Bombay—Munro, Thomas Munro), Mahalwari (North India—Holt Mackenzie); land revenue systems and impact.
+- Civil services: Covenanted vs uncovenanted; Indian Civil Service (ICS), open competition (1853).
+- Army and police: British vs Indian troops; reorganization after 1857.
+- Education: Orientalist vs Anglicist; Macaulay’s Minute (1835), English education; Wood’s Despatch (1854).
+- Economy: Drain of wealth (Dadabhai Naoroji), deindustrialization, commercialization of agriculture, railways (Dalhousie), telegraph, post.
+- Social: Abolition of Sati (1829), Widow Remarriage Act (1856), suppression of thugi.
+
+Files:
+1	Regulating Act, Pitt’s India Act, Charter Acts; Governor-General
+2	Revenue: Permanent Settlement, Ryotwari, Mahalwari
+3	Education (Macaulay, Wood’s Despatch); economy (drain, railways); social reforms
+
+================================================================================
+TOPIC 3: Revolt of 1857
+================================================================================
+Folder: Revolt_1857
+
+Subtopics:
+- Causes: Political (Doctrine of Lapse, annexations), economic (revenue, land), military (greased cartridges, service conditions), social-religious (interference).
+- Outbreak: Meerut (May 1857), Delhi (Bahadur Shah Zafar II as nominal head), Kanpur (Nana Saheb, Tantia Tope), Lucknow (Begum Hazrat Mahal), Jhansi (Rani Lakshmibai), Central India.
+- Leaders: Bahadur Shah Zafar II, Nana Saheb, Rani Lakshmibai, Tantia Tope, Kunwar Singh, Begum Hazrat Mahal.
+- Suppression: British reconquest of Delhi, Lucknow, Jhansi; role of loyal princes and troops.
+- Consequences: End of Company rule, Government of India Act 1858, Queen’s Proclamation (1858), end of Mughal dynasty; army reorganization; policy changes.
+
+Files:
+1	Causes, outbreak (Meerut, Delhi, Kanpur, Lucknow, Jhansi)
+2	Leaders; suppression; consequences (1858 Act, Queen’s Proclamation)
+
+================================================================================
+TOPIC 4: Socio-Religious Reform Movements (c. 1820–1900)
+================================================================================
+Folder: Socio_Religious_Reforms
+
+Subtopics:
+- Bengal: Raja Rammohan Roy, Brahmo Samaj (1828), Brahmo Samaj of India (Keshub Chandra Sen), Sadharan Brahmo Samaj; Young Bengal (Derozio); Ramakrishna and Vivekananda (Ramakrishna Mission, 1897).
+- Maharashtra: Prarthana Samaj (1867—Ranade, Bhandarkar), Paramahansa Mandali; Jyotiba Phule (Satyashodhak Samaj, 1873), women’s education.
+- North India: Arya Samaj (1875—Dayanand Saraswati), Shuddhi, Gurukuls; Sir Syed Ahmad Khan (Aligarh Movement, MAO College 1875, Aligarh Muslim University).
+- Other: Theosophical Society (Blavatsky, Olcott; Annie Besant); Sikh reform (Singh Sabha); Parsi reform.
+- Themes: Caste, women (sati, widow remarriage, education), education, vernacular press, rationalism vs tradition.
+
+Files:
+1	Raja Rammohan Roy, Brahmo Samaj; Young Bengal; Ramakrishna, Vivekananda
+2	Prarthana Samaj; Jyotiba Phule; Arya Samaj; Sir Syed, Aligarh; Theosophical
+
+================================================================================
+TOPIC 5: Rise of Nationalism and Early Congress (c. 1885–1905)
+================================================================================
+Folder: Rise_Of_Nationalism_Early_Congress
+
+Subtopics:
+- Pre-Congress: Associations (Landholders’ Society, British India Association), provincial associations; Ilbert Bill (1883) controversy; Vernacular Press Act (1878).
+- Foundation of INC: Bombay (1885), A.O. Hume, W.C. Bonnerjee, first session; early aims (loyal, constitutional).
+- Moderates (1885–1905): Dadabhai Naoroji (drain of wealth, poverty and un-British rule), Gopal Krishna Gokhale, Surendranath Banerjea, Pherozeshah Mehta; methods (petitions, resolutions); economic critique.
+- Extremists: Emergence of Lal-Bal-Pal (Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal); Tilak (Ganesh Chaturthi, Shivaji festivals, Kesari); Swadeshi and Boycott (post-1905).
+- Partition of Bengal (1905): Curzon, anti-partition agitation, Swadeshi movement, Boycott; annulment (1911).
+
+Files:
+1	Pre-Congress associations; foundation of INC (1885); Moderates
+2	Extremists (Lal-Bal-Pal, Tilak); Partition of Bengal (1905), Swadeshi, Boycott
+
+================================================================================
+TOPIC 6: Gandhian Phase and Mass Movements (c. 1915–1947)
+================================================================================
+Folder: Gandhian_Phase_Mass_Movements
+
+Subtopics:
+- Gandhi’s entry: South Africa (satyagraha), return to India (1915); Champaran (1917), Kheda (1918), Ahmedabad Mill (1918).
+- Rowlatt Act (1919), Jallianwala Bagh (1919, General Dyer), Hunter Commission.
+- Non-Cooperation Movement (1920–1922): Khilafat (Ali brothers), Gandhi’s leadership; suspension after Chauri Chaura (1922).
+- Civil Disobedience (1930–1934): Salt Satyagraha (Dandi March 1930), Gandhi-Irwin Pact (1931), Round Table Conferences; Poona Pact (1932, Ambedkar—reserved seats).
+- Quit India Movement (1942): “Do or Die”; repression; INA and Subhas Chandra Bose (separate topic overlap).
+- Key themes: Satyagraha, non-violence, constructive program (khadi, Harijan, education), women’s participation.
+
+Files:
+1	Gandhi’s early satyagrahas; Rowlatt, Jallianwala Bagh; Non-Cooperation, Khilafat
+2	Civil Disobedience (Salt March, Gandhi-Irwin, RTC); Poona Pact
+3	Quit India (1942); constructive program; role of women
+
+================================================================================
+TOPIC 7: Revolutionary Movement and Subhas Chandra Bose
+================================================================================
+Folder: Revolutionary_Movement_Bose
+
+Subtopics:
+- Revolutionary terrorism: Bengal (Anushilan, Jugantar), Maharashtra (Savarkar—Abhinav Bharat), Punjab; Kakori Conspiracy (1925), Lahore conspiracy; Bhagat Singh, Sukhdev, Rajguru (1931); Chittagong Armoury Raid (1930, Surya Sen).
+- Subhas Chandra Bose: Congress leadership, Forward Bloc; escape (1941), Axis support, Azad Hind Fauj (INA), INA trials (Red Fort); “Give me blood, I will give you freedom.”
+- Impact: Inspirational role; INA trials and RIN revolt (1946) linked to final phase.
+
+Files:
+1	Revolutionary terrorism (Bengal, Maharashtra, Punjab); Bhagat Singh; Chittagong
+2	Subhas Chandra Bose, INA, Azad Hind; INA trials, RIN revolt
+
+================================================================================
+TOPIC 8: Constitutional Development and Communal Politics (c. 1909–1947)
+================================================================================
+Folder: Constitutional_Development_Communal
+
+Subtopics:
+- Reforms: Morley-Minto (1909)—separate electorates for Muslims; Montagu-Chelmsford (1919)—dyarchy, provincial councils; Government of India Act 1935—provincial autonomy, federation (not implemented), Sind, Orissa.
+- Communal: Muslim League (1906), Simla Deputation (1906); Lucknow Pact (1916); growth of communalism; Jinnah, Two-Nation Theory; Lahore Resolution (1940—“Pakistan”).
+- Congress and League: Negotiations (Cripps 1942, Wavell Plan, Cabinet Mission 1946); Direct Action Day (1946); Mountbatten Plan (1947), Partition, Independence (15 August 1947).
+
+Files:
+1	Morley-Minto, Montagu-Chelmsford, Government of India Act 1935
+2	Muslim League, separate electorates, Lucknow Pact; Lahore Resolution (1940)
+3	Cabinet Mission, Direct Action; Mountbatten Plan, Partition, Independence
+
+================================================================================
+TOPIC 9: Post-Independence Integration and Constitution (c. 1947–1950)
+================================================================================
+Folder: Post_Independence_Integration_Constitution
+
+Subtopics:
+- Integration: Accession of princely states (Sardar Patel), Junagadh, Hyderabad (Operation Polo), Kashmir (1947–1948); integration of states.
+- Constitution: Constituent Assembly (1946–1949), Dr B.R. Ambedkar (Chairman, Drafting Committee), Preamble, Fundamental Rights, Directive Principles; adoption (26 January 1950).
+- Early challenges: Refugees, rehabilitation; linguistic reorganization (later).
+
+Files:
+1	Integration of princely states (Patel); Junagadh, Hyderabad, Kashmir
+2	Constituent Assembly, Ambedkar; Constitution (1950); early challenges
+
+================================================================================
+TOPIC 10: Mixed Revision (Chronology, Cross-topic)
+================================================================================
+Folder: Mixed_Revision
+
+Subtopics:
+- Chronology: Plassey (1757), 1857 Revolt, INC (1885), Partition of Bengal (1905), Non-Cooperation (1920), Salt March (1930), Quit India (1942), Independence (1947).
+- Comparative: Moderates vs Extremists; Gandhian vs Revolutionary; British revenue systems.
+- Personalities: Governors-General, reformers, national leaders.
+- Revision questions across all modern topics.
+
+Files:
+1–n	Mixed and revision (add JSONs as needed)
+
+================================================================================
+FOLDER LIST (for JSON placement)
+================================================================================
+British_Expansion_Conquest/        → 1.json, 2.json, 3.json
+British_Administration_Economy/   → 1.json, 2.json, 3.json
+Revolt_1857/                       → 1.json, 2.json
+Socio_Religious_Reforms/           → 1.json, 2.json
+Rise_Of_Nationalism_Early_Congress/ → 1.json, 2.json
+Gandhian_Phase_Mass_Movements/     → 1.json, 2.json, 3.json
+Revolutionary_Movement_Bose/       → 1.json, 2.json
+Constitutional_Development_Communal/ → 1.json, 2.json, 3.json
+Post_Independence_Integration_Constitution/ → 1.json, 2.json
+Mixed_Revision/                    → 1.json, 2.json, ...

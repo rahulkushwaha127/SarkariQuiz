@@ -1,0 +1,3412 @@
+[
+{
+"prompt": "Macaulay's Minute on Education was in?",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured?",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in?",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended?",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about?",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured?",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured?",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant?",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in?",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for?",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute on Education was in? [10]",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured? [11]",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in? [12]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended? [13]",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about? [14]",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured? [15]",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured? [16]",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant? [17]",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in? [18]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for? [19]",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 20?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 21?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 22?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 23?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 24?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 25?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 26?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 27?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 28?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 29?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 30?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 31?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 32?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 33?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 34?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 35?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 36?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 37?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 38?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 39?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 40?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 41?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 42?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 43?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 44?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 45?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 46?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 47?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 48?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 49?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute on Education was in? [50]",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured? [51]",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in? [52]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended? [53]",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about? [54]",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured? [55]",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured? [56]",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant? [57]",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in? [58]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for? [59]",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 60?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 61?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 62?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 63?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 64?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 65?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 66?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 67?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 68?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 69?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 70?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 71?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 72?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 73?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 74?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 75?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 76?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 77?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 78?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 79?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 80?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 81?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 82?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 83?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 84?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 85?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 86?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 87?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 88?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 89?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute on Education was in? [90]",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured? [91]",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in? [92]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended? [93]",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about? [94]",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured? [95]",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured? [96]",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant? [97]",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in? [98]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for? [99]",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 100?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 101?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 102?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 103?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 104?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 105?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 106?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 107?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 108?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 109?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 110?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 111?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 112?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 113?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 114?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 115?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 116?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 117?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 118?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 119?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 120?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 121?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 122?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 123?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 124?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 125?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 126?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 127?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 128?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 129?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute on Education was in? [130]",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured? [131]",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in? [132]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended? [133]",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about? [134]",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured? [135]",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured? [136]",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant? [137]",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in? [138]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for? [139]",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 140?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 141?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 142?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 143?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 144?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 145?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 146?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 147?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 148?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 149?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 150?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 151?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 152?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 153?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 154?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 155?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 156?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 157?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 158?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 159?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 160?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 161?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 162?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 163?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 164?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 165?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 166?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 167?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 168?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 169?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute on Education was in? [170]",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured? [171]",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in? [172]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended? [173]",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about? [174]",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured? [175]",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured? [176]",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant? [177]",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in? [178]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for? [179]",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 180?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 181?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 182?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 183?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 184?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 185?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 186?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 187?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 188?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 189?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 190?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 191?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 192?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 193?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 194?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 195?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 196?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 197?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 198?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 199?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 200?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 201?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 202?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 203?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 204?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 205?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 206?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 207?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 208?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 209?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute on Education was in? [210]",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured? [211]",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in? [212]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended? [213]",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about? [214]",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured? [215]",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured? [216]",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant? [217]",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in? [218]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for? [219]",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 220?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 221?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 222?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 223?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 224?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 225?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 226?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 227?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 228?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 229?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 230?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 231?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 232?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 233?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 234?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 235?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 236?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 237?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 238?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 239?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 240?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 241?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 242?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 243?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 244?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 245?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 246?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 247?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 248?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 249?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute on Education was in? [250]",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured? [251]",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in? [252]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended? [253]",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about? [254]",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured? [255]",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured? [256]",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant? [257]",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in? [258]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for? [259]",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 260?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 261?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 262?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 263?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 264?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 265?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 266?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 267?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 268?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 269?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 270?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 271?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 272?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 273?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 274?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 275?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 276?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 277?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 278?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 279?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 280?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 281?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 282?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 283?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 284?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 285?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 286?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 287?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 288?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 289?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute on Education was in? [290]",
+"answers": [
+"1813",
+"1835",
+"1854",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Macaulay's Minute favoured? [291]",
+"answers": [
+"Oriental learning",
+"English education for Indians",
+"Vernacular only",
+"No state education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch on education was in? [292]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Wood's Despatch recommended? [293]",
+"answers": [
+"Only Oriental education",
+"Grants-in-aid; vernacular; universities",
+"English only",
+"Abolition of education dept"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalist-Anglicist controversy was about? [294]",
+"answers": [
+"Revenue",
+"Medium of education (Oriental vs English)",
+"Army",
+"Trade"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Orientalists favoured? [295]",
+"answers": [
+"English only",
+"Classical Indian languages (Sanskrit, Arabic, Persian)",
+"No state education",
+"Missionary control"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Anglicists favoured? [296]",
+"answers": [
+"Oriental learning",
+"English as medium of education",
+"Vernacular only",
+"No higher education"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Downward filtration theory meant? [297]",
+"answers": [
+"Filtering revenue",
+"Educate few in English; they filter knowledge to masses",
+"Filtering water",
+"No theory"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "First universities in India (Bombay, Madras, Calcutta) were established in? [298]",
+"answers": [
+"1835",
+"1854",
+"1857",
+"1858"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Charter Act 1813 allotted funds for? [299]",
+"answers": [
+"Army",
+"Education (one lakh rupees)",
+"Railways",
+"Telegraph"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 300?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 301?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 302?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 303?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 304?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 305?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 306?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 307?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 308?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Education question 309?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+}
+]

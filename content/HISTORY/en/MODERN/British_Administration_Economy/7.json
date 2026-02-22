@@ -1,0 +1,3412 @@
+[
+{
+"prompt": "Drain of wealth was propounded by?",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means?",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote?",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to?",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under?",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under?",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under?",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant?",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to?",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included?",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth was propounded by? (10)",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means? (11)",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote? (12)",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to? (13)",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under? (14)",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under? (15)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under? (16)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant? (17)",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to? (18)",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included? (19)",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 20?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 21?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 22?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 23?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 24?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 25?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 26?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 27?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 28?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 29?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 30?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 31?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 32?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 33?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 34?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 35?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 36?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 37?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 38?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 39?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 40?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 41?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 42?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 43?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 44?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 45?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 46?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 47?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 48?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 49?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth was propounded by? (50)",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means? (51)",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote? (52)",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to? (53)",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under? (54)",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under? (55)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under? (56)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant? (57)",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to? (58)",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included? (59)",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 60?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 61?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 62?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 63?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 64?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 65?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 66?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 67?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 68?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 69?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 70?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 71?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 72?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 73?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 74?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 75?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 76?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 77?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 78?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 79?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 80?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 81?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 82?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 83?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 84?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 85?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 86?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 87?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 88?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 89?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth was propounded by? (90)",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means? (91)",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote? (92)",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to? (93)",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under? (94)",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under? (95)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under? (96)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant? (97)",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to? (98)",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included? (99)",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 100?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 101?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 102?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 103?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 104?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 105?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 106?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 107?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 108?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 109?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 110?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 111?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 112?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 113?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 114?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 115?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 116?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 117?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 118?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 119?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 120?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 121?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 122?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 123?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 124?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 125?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 126?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 127?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 128?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 129?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth was propounded by? (130)",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means? (131)",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote? (132)",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to? (133)",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under? (134)",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under? (135)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under? (136)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant? (137)",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to? (138)",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included? (139)",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 140?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 141?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 142?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 143?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 144?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 145?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 146?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 147?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 148?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 149?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 150?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 151?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 152?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 153?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 154?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 155?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 156?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 157?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 158?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 159?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 160?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 161?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 162?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 163?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 164?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 165?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 166?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 167?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 168?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 169?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth was propounded by? (170)",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means? (171)",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote? (172)",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to? (173)",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under? (174)",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under? (175)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under? (176)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant? (177)",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to? (178)",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included? (179)",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 180?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 181?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 182?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 183?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 184?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 185?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 186?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 187?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 188?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 189?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 190?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 191?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 192?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 193?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 194?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 195?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 196?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 197?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 198?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 199?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 200?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 201?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 202?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 203?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 204?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 205?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 206?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 207?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 208?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 209?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth was propounded by? (210)",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means? (211)",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote? (212)",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to? (213)",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under? (214)",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under? (215)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under? (216)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant? (217)",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to? (218)",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included? (219)",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 220?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 221?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 222?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 223?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 224?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 225?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 226?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 227?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 228?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 229?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 230?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 231?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 232?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 233?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 234?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 235?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 236?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 237?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 238?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 239?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 240?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 241?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 242?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 243?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 244?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 245?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 246?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 247?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 248?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 249?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth was propounded by? (250)",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means? (251)",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote? (252)",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to? (253)",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under? (254)",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under? (255)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under? (256)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant? (257)",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to? (258)",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included? (259)",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 260?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 261?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 262?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 263?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 264?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 265?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 266?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 267?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 268?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 269?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 270?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 271?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 272?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 273?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 274?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 275?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 276?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 277?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 278?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 279?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 280?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 281?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 282?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 283?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 284?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 285?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 286?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 287?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 288?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 289?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth was propounded by? (290)",
+"answers": [
+"R.C. Dutt",
+"Dadabhai Naoroji",
+"M.G. Ranade",
+"Surendranath Banerjee"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth means? (291)",
+"answers": [
+"Wealth flowing into India",
+"Wealth flowing from India to Britain without equivalent return",
+"Trade surplus for India",
+"Revenue surplus in India"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Dadabhai Naoroji wrote? (292)",
+"answers": [
+"Discovery of India",
+"Poverty and Un-British Rule in India",
+"Hind Swaraj",
+"None"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Deindustrialization under British rule refers to? (293)",
+"answers": [
+"Growth of industry",
+"Decline of Indian handicrafts and industry",
+"Railway building",
+"Permanent Settlement"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Railways were introduced in India under? (294)",
+"answers": [
+"Bentinck",
+"Lord Dalhousie",
+"Cornwallis",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Telegraph in India was expanded under? (295)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Hastings"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Post office in India was reorganized under? (296)",
+"answers": [
+"Cornwallis",
+"Lord Dalhousie",
+"Bentinck",
+"Wellesley"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Commercialization of agriculture meant? (297)",
+"answers": [
+"Less cash crops",
+"More production for market (cash crops)",
+"No change",
+"Only food crops"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Home charges referred to? (298)",
+"answers": [
+"Indian expenses",
+"Expenses paid by India to Britain (administration, debt, etc.)",
+"Revenue collection",
+"Army in India only"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Drain of wealth included? (299)",
+"answers": [
+"Only trade",
+"Home charges; salaries; profits; remittances (to Britain)",
+"Only revenue",
+"Only gifts"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 300?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 301?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 302?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 303?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 304?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 305?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 306?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 2,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 307?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 3,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 308?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 0,
+"explanation": "Short."
+},
+{
+"prompt": "Economy question 309?",
+"answers": [
+"A",
+"B",
+"C",
+"D"
+],
+"correct": 1,
+"explanation": "Short."
+}
+]
