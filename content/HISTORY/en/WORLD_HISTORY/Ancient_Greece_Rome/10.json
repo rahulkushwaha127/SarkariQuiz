@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Alexander the Great was from?",
+    "answers": [
+      "Rome",
+      "Macedonia (Greece)",
+      "Egypt",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "Macedonia."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Alexander conquered up to?",
+    "answers": [
+      "Only Greece",
+      "Egypt, Persia, up to India",
+      "Only Italy",
+      "Only Spain"
+    ],
+    "correct": 1,
+    "explanation": "Egypt, Persia, India."
+  },
+  {
+    "prompt": "Sparta was known for?",
+    "answers": [
+      "Navy",
+      "Military discipline",
+      "Philosophy",
+      "Trade"
+    ],
+    "correct": 1,
+    "explanation": "Military discipline."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Hannibal was a general of?",
+    "answers": [
+      "Rome",
+      "Carthage",
+      "Greece",
+      "Egypt"
+    ],
+    "correct": 1,
+    "explanation": "Carthage."
+  },
+  {
+    "prompt": "Pax Romana means?",
+    "answers": [
+      "Roman war",
+      "Roman peace",
+      "Roman law",
+      "Roman religion"
+    ],
+    "correct": 1,
+    "explanation": "Roman peace."
+  },
+  {
+    "prompt": "Socrates was a?",
+    "answers": [
+      "Roman general",
+      "Greek philosopher",
+      "Egyptian priest",
+      "Chinese sage"
+    ],
+    "correct": 1,
+    "explanation": "Greek philosopher."
+  },
+  {
+    "prompt": "Athens is known for developing?",
+    "answers": [
+      "Oligarchy",
+      "Democracy",
+      "Monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Democracy (Cleisthenes, Pericles)."
+  },
+  {
+    "prompt": "Augustus was the first?",
+    "answers": [
+      "Greek king",
+      "Roman Emperor",
+      "Persian king",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Roman Emperor (27 BCE)."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  },
+  {
+    "prompt": "Punic Wars were between?",
+    "answers": [
+      "Greece and Persia",
+      "Rome and Carthage",
+      "Athens and Sparta",
+      "Rome and Greece"
+    ],
+    "correct": 1,
+    "explanation": "Rome and Carthage."
+  },
+  {
+    "prompt": "Julius Caesar was assassinated in?",
+    "answers": [
+      "44 BCE",
+      "27 BCE",
+      "14 CE",
+      "476 CE"
+    ],
+    "correct": 0,
+    "explanation": "44 BCE."
+  }
+]

@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Montesquieu advocated?",
+    "answers": [
+      "No government",
+      "Separation of powers",
+      "One religion",
+      "Colonialism"
+    ],
+    "correct": 1,
+    "explanation": "Separation of powers."
+  },
+  {
+    "prompt": "Enlightenment emphasized?",
+    "answers": [
+      "Only faith",
+      "Reason, liberty, progress",
+      "Feudalism",
+      "Divine right"
+    ],
+    "correct": 1,
+    "explanation": "Reason, liberty, progress."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "John Locke argued for?",
+    "answers": [
+      "Divine right",
+      "Natural rights and social contract",
+      "Absolute monarchy",
+      "Theocracy"
+    ],
+    "correct": 1,
+    "explanation": "Natural rights, social contract."
+  },
+  {
+    "prompt": "US Constitution was adopted in?",
+    "answers": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "correct": 1,
+    "explanation": "1787."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Declaration of Independence (USA) was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1783",
+      "1787"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "First US President was?",
+    "answers": [
+      "Jefferson",
+      "Washington",
+      "Franklin",
+      "Adams"
+    ],
+    "correct": 1,
+    "explanation": "Washington."
+  }
+]

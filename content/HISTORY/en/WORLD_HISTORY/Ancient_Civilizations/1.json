@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Code of Hammurabi is associated with?",
+    "answers": [
+      "Egypt",
+      "Babylon",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Babylon (Hammurabi)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Pyramids at Giza are in?",
+    "answers": [
+      "Mesopotamia",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correct": 1,
+    "explanation": "Egypt."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Pharaoh was the title of?",
+    "answers": [
+      "Greek king",
+      "Egyptian king",
+      "Roman emperor",
+      "Chinese emperor"
+    ],
+    "correct": 1,
+    "explanation": "Egyptian king."
+  },
+  {
+    "prompt": "Cuneiform was the writing of?",
+    "answers": [
+      "Egypt",
+      "Mesopotamia",
+      "China",
+      "Greece"
+    ],
+    "correct": 1,
+    "explanation": "Mesopotamia."
+  },
+  {
+    "prompt": "Cyrus the Great founded?",
+    "answers": [
+      "Roman Empire",
+      "Achaemenid (Persian) Empire",
+      "Greek empire",
+      "Chinese empire"
+    ],
+    "correct": 1,
+    "explanation": "Achaemenid Empire."
+  },
+  {
+    "prompt": "Great Wall of China was built under?",
+    "answers": [
+      "Han",
+      "Qin (Shi Huangdi)",
+      "Zhou",
+      "Shang"
+    ],
+    "correct": 1,
+    "explanation": "Qin dynasty (Shi Huangdi)."
+  },
+  {
+    "prompt": "Achaemenid Empire was?",
+    "answers": [
+      "Greek",
+      "Persian",
+      "Roman",
+      "Egyptian"
+    ],
+    "correct": 1,
+    "explanation": "Persian (Cyrus, Darius)."
+  },
+  {
+    "prompt": "Confucianism originated in?",
+    "answers": [
+      "India",
+      "China",
+      "Greece",
+      "Persia"
+    ],
+    "correct": 1,
+    "explanation": "China."
+  },
+  {
+    "prompt": "Mesopotamia is located in which region?",
+    "answers": [
+      "Egypt",
+      "Fertile Crescent / Iraq",
+      "Greece",
+      "India"
+    ],
+    "correct": 1,
+    "explanation": "Fertile Crescent (Iraq)."
+  },
+  {
+    "prompt": "Zoroastrianism was the religion of?",
+    "answers": [
+      "Egypt",
+      "Persia",
+      "Greece",
+      "China"
+    ],
+    "correct": 1,
+    "explanation": "Persia."
+  }
+]

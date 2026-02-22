@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Cuban Missile Crisis was in?",
+    "answers": [
+      "1960",
+      "1962",
+      "1965",
+      "1970"
+    ],
+    "correct": 1,
+    "explanation": "1962."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Warsaw Pact was the?",
+    "answers": [
+      "Western alliance",
+      "Soviet bloc military alliance",
+      "UN agency",
+      "Asian alliance"
+    ],
+    "correct": 1,
+    "explanation": "Soviet bloc military alliance (1955)."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Berlin Wall fell in?",
+    "answers": [
+      "1985",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "explanation": "1989."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "NATO was formed in?",
+    "answers": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "1949."
+  },
+  {
+    "prompt": "Korean War was in?",
+    "answers": [
+      "1945-48",
+      "1950-53",
+      "1960-63",
+      "1970-73"
+    ],
+    "correct": 1,
+    "explanation": "1950-53."
+  },
+  {
+    "prompt": "Gorbachev introduced?",
+    "answers": [
+      "Stalinism",
+      "Glasnost and perestroika",
+      "Brezhnev Doctrine",
+      "Cold War"
+    ],
+    "correct": 1,
+    "explanation": "Glasnost and perestroika."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correct": 2,
+    "explanation": "1991."
+  }
+]

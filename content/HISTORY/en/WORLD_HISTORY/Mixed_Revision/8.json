@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "UN was founded in?",
+    "answers": [
+      "1944",
+      "1945",
+      "1946",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1945."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWI started in?",
+    "answers": [
+      "1914",
+      "1917",
+      "1918",
+      "1939"
+    ],
+    "correct": 0,
+    "explanation": "1914."
+  },
+  {
+    "prompt": "French Revolution began in?",
+    "answers": [
+      "1776",
+      "1789",
+      "1799",
+      "1815"
+    ],
+    "correct": 1,
+    "explanation": "1789."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "American Declaration of Independence was in?",
+    "answers": [
+      "1775",
+      "1776",
+      "1787",
+      "1789"
+    ],
+    "correct": 1,
+    "explanation": "1776."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "Russian October Revolution was in?",
+    "answers": [
+      "1916",
+      "1917",
+      "1918",
+      "1921"
+    ],
+    "correct": 1,
+    "explanation": "1917."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  },
+  {
+    "prompt": "USSR collapsed in?",
+    "answers": [
+      "1989",
+      "1991",
+      "1992",
+      "1995"
+    ],
+    "correct": 1,
+    "explanation": "1991."
+  },
+  {
+    "prompt": "WWII started in Europe in?",
+    "answers": [
+      "1938",
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 1,
+    "explanation": "1939."
+  }
+]

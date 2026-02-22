@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Marx and Engels wrote?",
+    "answers": [
+      "Wealth of Nations",
+      "Communist Manifesto",
+      "Origin of Species",
+      "On Liberty"
+    ],
+    "correct": 1,
+    "explanation": "Communist Manifesto (1848)."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Steam engine was improved by?",
+    "answers": [
+      "Edison",
+      "James Watt",
+      "Ford",
+      "Bell"
+    ],
+    "correct": 1,
+    "explanation": "James Watt."
+  },
+  {
+    "prompt": "Industrial Revolution began in?",
+    "answers": [
+      "France",
+      "Britain",
+      "Germany",
+      "USA"
+    ],
+    "correct": 1,
+    "explanation": "Britain (18th century)."
+  },
+  {
+    "prompt": "Spinning jenny was used in?",
+    "answers": [
+      "Mining",
+      "Textiles",
+      "Transport",
+      "Agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Textiles."
+  }
+]

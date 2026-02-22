@@ -1,0 +1,224 @@
+# WORLD HISTORY – Topics and Subtopics
+# For UPSC, SSC, and other government exams.
+# Each folder contains JSONs named 1.json, 2.json, 3.json, ... (in order).
+# Base path: content/HISTORY/en/WORLD_HISTORY/
+
+================================================================================
+TOPIC 1: Ancient Civilizations (Mesopotamia, Egypt, China, Persia)
+================================================================================
+Folder: Ancient_Civilizations
+
+Subtopics:
+- Mesopotamia: Sumer, Akkad, Babylon (Hammurabi), Assyria; cuneiform; Code of Hammurabi.
+- Egypt: Old, Middle, New Kingdom; pyramids; pharaohs; hieroglyphics; Nile.
+- China: Shang, Zhou, Qin (Shi Huangdi, Great Wall), Han; Confucianism, Taoism; Silk Road.
+- Persia: Achaemenid Empire (Cyrus, Darius); Zoroastrianism; wars with Greece.
+
+Files: 1–10 (causes, chronology, personalities, culture, impact).
+
+================================================================================
+TOPIC 2: Ancient Greece and Rome
+================================================================================
+Folder: Ancient_Greece_Rome
+
+Subtopics:
+- Greece: City-states (Athens, Sparta); democracy (Cleisthenes, Pericles); Persian Wars; Peloponnesian War; Alexander the Great; Hellenistic period; philosophy (Socrates, Plato, Aristotle).
+- Rome: Republic (Senate, consuls); Punic Wars (Hannibal); Julius Caesar; Augustus; Roman Empire; Pax Romana; decline and fall; Christianity in Rome.
+
+Files: 1–10 (politics, wars, culture, legacy).
+
+================================================================================
+TOPIC 3: Medieval Europe (Feudalism, Church, Crusades)
+================================================================================
+Folder: Medieval_Europe
+
+Subtopics:
+- Feudalism: Manorial system; lords, vassals, serfs; knights.
+- Church: Papacy; monasticism; investiture controversy; Inquisition.
+- Crusades: First–Fourth Crusades; causes and effects; Saladin; fall of Constantinople (1204, 1453).
+- Late medieval: Black Death; Hundred Years' War; rise of monarchies.
+
+Files: 1–10 (feudalism, Church, Crusades, key events).
+
+================================================================================
+TOPIC 4: Renaissance and Reformation
+================================================================================
+Folder: Renaissance_Reformation
+
+Subtopics:
+- Renaissance: Italy (Florence, Venice); humanism; art (Leonardo, Michelangelo, Raphael); printing press (Gutenberg); spread to North Europe.
+- Reformation: Martin Luther (95 Theses, 1517); Lutheranism; Calvin and Calvinism; Henry VIII and Anglicanism; Counter-Reformation (Council of Trent, Jesuits); religious wars.
+
+Files: 1–10 (Renaissance figures, Reformation leaders, impact).
+
+================================================================================
+TOPIC 5: Age of Exploration and Colonialism
+================================================================================
+Folder: Age_Of_Exploration_Colonialism
+
+Subtopics:
+- Explorers: Vasco da Gama (India 1498); Columbus (Americas 1492); Magellan (circumnavigation); conquistadors (Cortes, Pizarro).
+- Colonial empires: Portuguese, Spanish, Dutch, British, French; Columbian Exchange; slave trade; mercantilism.
+- Impact: Decimation of indigenous peoples; spread of diseases; plantation economy.
+
+Files: 1–10 (explorers, routes, empires, impact).
+
+================================================================================
+TOPIC 6: Enlightenment and American Revolution
+================================================================================
+Folder: Enlightenment_American_Revolution
+
+Subtopics:
+- Enlightenment: Locke, Montesquieu, Rousseau, Voltaire; ideas (natural rights, separation of powers, social contract); impact on revolutions.
+- American Revolution: Causes (taxation, no representation); Declaration of Independence (1776); key figures (Washington, Jefferson, Franklin); War of Independence; Constitution (1787); Bill of Rights.
+
+Files: 1–10 (thinkers, ideas, American Revolution events).
+
+================================================================================
+TOPIC 7: French Revolution and Napoleon
+================================================================================
+Folder: French_Revolution_Napoleon
+
+Subtopics:
+- French Revolution: Causes (estates, financial crisis); Estates-General (1789); Fall of Bastille; Declaration of Rights of Man; Jacobins and Girondins; Reign of Terror (Robespierre); Directory.
+- Napoleon: Rise; Napoleonic Wars; Napoleonic Code; Continental System; Russian campaign; Waterloo (1815); Congress of Vienna (1815); legacy.
+
+Files: 1–10 (events, phases, Napoleon, Vienna).
+
+================================================================================
+TOPIC 8: Industrial Revolution
+================================================================================
+Folder: Industrial_Revolution
+
+Subtopics:
+- Britain first: Textiles (spinning jenny, steam engine—Watt); coal and iron; railways; factory system.
+- Spread: To Europe (Belgium, Germany, France) and USA; second industrial revolution (steel, electricity, chemicals).
+- Social impact: Urbanization; working class; socialism (Marx, Engels); trade unions; child labour; reforms.
+
+Files: 1–10 (inventions, spread, social impact).
+
+================================================================================
+TOPIC 9: Unification of Italy and Germany; Imperialism
+================================================================================
+Folder: Unification_Imperialism
+
+Subtopics:
+- Italy: Mazzini, Cavour, Garibaldi; unification (1861); Victor Emmanuel II.
+- Germany: Bismarck; wars (Danish, Austro-Prussian, Franco-Prussian); unification (1871); Wilhelm I.
+- Imperialism: Scramble for Africa (Berlin Conference 1884–85); British Empire; French colonies; imperialism in Asia; causes and effects.
+
+Files: 1–10 (unification, Bismarck, imperialism, colonies).
+
+================================================================================
+TOPIC 10: World War I
+================================================================================
+Folder: World_War_I
+
+Subtopics:
+- Causes: Alliances (Triple Entente vs Triple Alliance); nationalism; militarism; imperialism; immediate cause (assassination at Sarajevo 1914).
+- Course: Western Front (trench warfare); Eastern Front; USA entry (1917); Russia exit (1917 Revolution); Central Powers defeat.
+- Aftermath: Treaty of Versailles (1919); League of Nations; territorial changes; reparations; war guilt clause.
+
+Files: 1–10 (causes, battles, treaties, consequences).
+
+================================================================================
+TOPIC 11: Russian Revolution and USSR
+================================================================================
+Folder: Russian_Revolution_USSR
+
+Subtopics:
+- 1917: February Revolution; October Revolution (Bolsheviks, Lenin); Peace of Brest-Litovsk; Civil War (Reds vs Whites).
+- USSR: Lenin (NEP); Stalin (Five-Year Plans, collectivization, purges); totalitarianism.
+- Cold War context: Soviet bloc; ideology.
+
+Files: 1–10 (1917 events, Lenin, Stalin, policies).
+
+================================================================================
+TOPIC 12: Inter-War Period (Great Depression, Rise of Fascism)
+================================================================================
+Folder: Inter_War_Fascism
+
+Subtopics:
+- Great Depression: Wall Street crash (1929); global impact; New Deal (USA, Roosevelt).
+- Rise of fascism: Mussolini (Italy); Hitler (Germany—Nazi Party, Mein Kampf, 1933); militarism in Japan; Spanish Civil War; appeasement (Munich 1938).
+
+Files: 1–10 (Depression, Hitler, Mussolini, appeasement).
+
+================================================================================
+TOPIC 13: World War II
+================================================================================
+Folder: World_War_II
+
+Subtopics:
+- Causes: Hitler's expansion; invasion of Poland (1939); Axis vs Allies.
+- Course: Blitzkrieg; Fall of France; Battle of Britain; Operation Barbarossa (USSR); Pearl Harbor (1941); USA entry; Holocaust; D-Day (1944); atomic bombs (Hiroshima, Nagasaki 1945); surrender.
+- Aftermath: UN (1945); Nuremberg trials; division of Germany; Cold War beginnings.
+
+Files: 1–10 (battles, leaders, Holocaust, consequences).
+
+================================================================================
+TOPIC 14: Cold War
+================================================================================
+Folder: Cold_War
+
+Subtopics:
+- Division: USA vs USSR; NATO (1949) vs Warsaw Pact (1955); Iron Curtain; Truman Doctrine; Marshall Plan; Berlin Blockade and Airlift.
+- Crises and conflicts: Korean War (1950–53); Cuban Missile Crisis (1962); Vietnam War; Afghanistan (Soviet invasion); arms race; détente.
+- End: Gorbachev (glasnost, perestroika); fall of Berlin Wall (1989); collapse of USSR (1991).
+
+Files: 1–10 (alliances, crises, end of Cold War).
+
+================================================================================
+TOPIC 15: United Nations and International Organizations
+================================================================================
+Folder: UN_International_Organizations
+
+Subtopics:
+- UN: Charter (1945); General Assembly; Security Council (P5 veto); specialized agencies (WHO, UNESCO, UNICEF, FAO); peacekeeping; India's role.
+- Other: IMF; World Bank; WTO; regional organizations (EU, ASEAN, AU); non-aligned movement (NAM).
+
+Files: 1–10 (UN structure, agencies, global bodies).
+
+================================================================================
+TOPIC 16: Decolonization and Post-Colonial World
+================================================================================
+Folder: Decolonization_Post_Colonial
+
+Subtopics:
+- Decolonization: Asia (India 1947, Indonesia, Vietnam); Africa (Ghana, Algeria, Kenya, Angola); Suez Crisis (1956).
+- Post-colonial: Neocolonialism; development issues; ethnic conflicts; globalization; contemporary challenges.
+
+Files: 1–10 (independence movements, leaders, challenges).
+
+================================================================================
+TOPIC 17: Mixed Revision (Chronology, Cross-topic, Personalities)
+================================================================================
+Folder: Mixed_Revision
+
+Subtopics:
+- Chronology: Key dates (1776, 1789, 1914, 1917, 1939, 1945, 1991).
+- Comparative: Revolutions (American, French, Russian); wars; ideologies.
+- Personalities: World leaders, thinkers, explorers across topics.
+
+Files: 1–10 (mixed and revision).
+
+================================================================================
+FOLDER LIST (for JSON placement)
+================================================================================
+Ancient_Civilizations/
+Ancient_Greece_Rome/
+Medieval_Europe/
+Renaissance_Reformation/
+Age_Of_Exploration_Colonialism/
+Enlightenment_American_Revolution/
+French_Revolution_Napoleon/
+Industrial_Revolution/
+Unification_Imperialism/
+World_War_I/
+Russian_Revolution_USSR/
+Inter_War_Fascism/
+World_War_II/
+Cold_War/
+UN_International_Organizations/
+Decolonization_Post_Colonial/
+Mixed_Revision/
