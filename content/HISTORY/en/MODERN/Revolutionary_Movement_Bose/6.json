@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "1946 revolt linked to INA?",
+    "answers": [
+      "Quit India",
+      "RIN revolt",
+      "Non-Cooperation",
+      "Civil Disobedience"
+    ],
+    "correct": 1,
+    "explanation": "RIN revolt."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "1946 revolt linked to INA?",
+    "answers": [
+      "Quit India",
+      "RIN revolt",
+      "Non-Cooperation",
+      "Civil Disobedience"
+    ],
+    "correct": 1,
+    "explanation": "RIN revolt."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "1946 revolt linked to INA?",
+    "answers": [
+      "Quit India",
+      "RIN revolt",
+      "Non-Cooperation",
+      "Civil Disobedience"
+    ],
+    "correct": 1,
+    "explanation": "RIN revolt."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "1946 revolt linked to INA?",
+    "answers": [
+      "Quit India",
+      "RIN revolt",
+      "Non-Cooperation",
+      "Civil Disobedience"
+    ],
+    "correct": 1,
+    "explanation": "RIN revolt."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "1946 revolt linked to INA?",
+    "answers": [
+      "Quit India",
+      "RIN revolt",
+      "Non-Cooperation",
+      "Civil Disobedience"
+    ],
+    "correct": 1,
+    "explanation": "RIN revolt."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "1946 revolt linked to INA?",
+    "answers": [
+      "Quit India",
+      "RIN revolt",
+      "Non-Cooperation",
+      "Civil Disobedience"
+    ],
+    "correct": 1,
+    "explanation": "RIN revolt."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Forward Bloc founded by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Nehru",
+      "Patel"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose (1939)."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Give me blood, I will give you freedom said by?",
+    "answers": [
+      "Gandhi",
+      "Subhas Chandra Bose",
+      "Bhagat Singh",
+      "Tilak"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Bhagat Singh was executed in?",
+    "answers": [
+      "1929",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 2,
+    "explanation": "1931."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Subhas Chandra Bose escaped in?",
+    "answers": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correct": 2,
+    "explanation": "1941."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "HSRA associated with?",
+    "answers": [
+      "Savarkar",
+      "Bhagat Singh, Azad",
+      "Surya Sen",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh, Chandrashekhar Azad."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Kakori involved?",
+    "answers": [
+      "Bhagat Singh",
+      "Ram Prasad Bismil, Ashfaqulla Khan",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Bismil, Ashfaqulla Khan."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Kakori Conspiracy was in?",
+    "answers": [
+      "1922",
+      "1925",
+      "1928",
+      "1930"
+    ],
+    "correct": 1,
+    "explanation": "1925."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Chittagong Armoury Raid was led by?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Azad"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen (1930)."
+  },
+  {
+    "prompt": "Supreme commander of INA?",
+    "answers": [
+      "Rash Behari Bose",
+      "Subhas Chandra Bose",
+      "Mohan Singh",
+      "Shah Nawaz"
+    ],
+    "correct": 1,
+    "explanation": "Subhas Chandra Bose."
+  },
+  {
+    "prompt": "Masterda was?",
+    "answers": [
+      "Bhagat Singh",
+      "Surya Sen",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Surya Sen."
+  },
+  {
+    "prompt": "Which leader founded Abhinav Bharat?",
+    "answers": [
+      "Bhagat Singh",
+      "V.D. Savarkar",
+      "Surya Sen",
+      "Chandrashekhar Azad"
+    ],
+    "correct": 1,
+    "explanation": "V.D. Savarkar."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "Executed with Bhagat Singh?",
+    "answers": [
+      "Bose and Azad",
+      "Sukhdev and Rajguru",
+      "Surya Sen",
+      "Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Sukhdev and Rajguru."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "INA trials at?",
+    "answers": [
+      "Bombay",
+      "Calcutta",
+      "Red Fort Delhi",
+      "Lahore"
+    ],
+    "correct": 2,
+    "explanation": "Red Fort Delhi."
+  },
+  {
+    "prompt": "INA was formed with support of?",
+    "answers": [
+      "Britain",
+      "Japan",
+      "USA",
+      "USSR"
+    ],
+    "correct": 1,
+    "explanation": "Japan."
+  },
+  {
+    "prompt": "Chittagong Raid was in?",
+    "answers": [
+      "1925",
+      "1930",
+      "1931",
+      "1932"
+    ],
+    "correct": 1,
+    "explanation": "1930."
+  },
+  {
+    "prompt": "Anushilan Samiti was in?",
+    "answers": [
+      "Maharashtra",
+      "Bengal",
+      "Punjab",
+      "UP"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  },
+  {
+    "prompt": "1946 revolt linked to INA?",
+    "answers": [
+      "Quit India",
+      "RIN revolt",
+      "Non-Cooperation",
+      "Civil Disobedience"
+    ],
+    "correct": 1,
+    "explanation": "RIN revolt."
+  },
+  {
+    "prompt": "Lahore Conspiracy involved?",
+    "answers": [
+      "Surya Sen",
+      "Bhagat Singh",
+      "Savarkar",
+      "Bose"
+    ],
+    "correct": 1,
+    "explanation": "Bhagat Singh."
+  },
+  {
+    "prompt": "Jugantar was in?",
+    "answers": [
+      "Punjab",
+      "Bengal",
+      "Maharashtra",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "Abhinav Bharat was in?",
+    "answers": [
+      "Bengal",
+      "Maharashtra",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Maharashtra."
+  }
+]

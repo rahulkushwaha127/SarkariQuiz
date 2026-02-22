@@ -1,0 +1,3412 @@
+[
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Ahmedabad satyagraha was for?",
+"answers": [
+"Mill workers' wage increase/plague bonus",
+"Peasants",
+"Salt",
+"Swaraj"
+],
+"correct": 0,
+"explanation": "Workers' wage and bonus demands."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Gandhi attended which Round Table Conference?",
+"answers": [
+"First only",
+"Second (1931)",
+"Third only",
+"All three"
+],
+"correct": 1,
+"explanation": "Second Round Table Conference (1931)."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "The Hunter Commission report?",
+"answers": [
+"Condemned Dyer's action",
+"Supported Dyer",
+"Was inconclusive",
+"Was never published"
+],
+"correct": 0,
+"explanation": "Condemned Dyer's action."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Gandhi's ashrams included?",
+"answers": [
+"Sabarmati, Sevagram",
+"Only Sabarmati",
+"Only Wardha",
+"None"
+],
+"correct": 0,
+"explanation": "Sabarmati (Ahmedabad), Sevagram (Wardha)."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Gandhi broke the salt law at Dandi on?",
+"answers": [
+"6 April 1930",
+"12 March 1930",
+"26 January 1930",
+"15 August 1930"
+],
+"correct": 0,
+"explanation": "6 April 1930."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Kheda satyagraha was primarily about?",
+"answers": [
+"Revenue remission in famine",
+"Indigo",
+"Mill wages",
+"Salt"
+],
+"correct": 0,
+"explanation": "Suspension of revenue in famine year."
+},
+{
+"prompt": "Jallianwala Bagh is located in?",
+"answers": [
+"Delhi",
+"Amritsar",
+"Lahore",
+"Lucknow"
+],
+"correct": 1,
+"explanation": "Amritsar, Punjab."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Women participated in Gandhian movements by?",
+"answers": [
+"Picketing, spinning, protests, processions",
+"Only at home",
+"Only in cities",
+"Only as observers"
+],
+"correct": 0,
+"explanation": "Picketing, spinning, marches, protests."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Non-Cooperation Movement was launched in which year?",
+"answers": [
+"1919",
+"1920",
+"1921",
+"1922"
+],
+"correct": 1,
+"explanation": "1920 (approved at Congress, Sept 1920)."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Gandhi's first major satyagraha in India was in which region?",
+"answers": [
+"Champaran",
+"Kheda",
+"Ahmedabad",
+"Bardoli"
+],
+"correct": 0,
+"explanation": "Champaran (Bihar), 1917."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Poona Pact reserved seats for Depressed Classes in?",
+"answers": [
+"Provincial and central legislatures",
+"Only provincial",
+"Only central",
+"Only local"
+],
+"correct": 0,
+"explanation": "Provincial and central."
+},
+{
+"prompt": "Individual Satyagraha (1940–41) was launched because?",
+"answers": [
+"Congress wanted to protest without full movement",
+"Gandhi was arrested",
+"British offered dominion",
+"War started"
+],
+"correct": 0,
+"explanation": "Limited protest; anti-war stance."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Quit India resolution was passed at?",
+"answers": [
+"Congress session Bombay (August 1942)",
+"Lahore",
+"Tripuri",
+"Haripura"
+],
+"correct": 0,
+"explanation": "Bombay (Gowalia Tank), August 1942."
+},
+{
+"prompt": "Kheda is a district in?",
+"answers": [
+"Bihar",
+"Gujarat",
+"Rajasthan",
+"MP"
+],
+"correct": 1,
+"explanation": "Gujarat."
+},
+{
+"prompt": "Who led the Dandi March with Gandhi?",
+"answers": [
+"Selected satyagrahis (78 initially)",
+"Only Nehru",
+"Only Patel",
+"No one"
+],
+"correct": 0,
+"explanation": "78 satyagrahis from Sabarmati."
+},
+{
+"prompt": "Result of Champaran satyagraha included?",
+"answers": [
+"Champaran Agrarian Committee; relief for peasants",
+"Complete independence",
+"Abolition of zamindari",
+"None"
+],
+"correct": 0,
+"explanation": "Committee formed; some relief for peasants."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Champaran is in present-day?",
+"answers": [
+"Gujarat",
+"Bihar",
+"UP",
+"West Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "On which date did the Jallianwala Bagh massacre take place?",
+"answers": [
+"10 April 1919",
+"13 April 1919",
+"19 April 1919",
+"30 April 1919"
+],
+"correct": 1,
+"explanation": "13 April 1919."
+},
+{
+"prompt": "Salt Satyagraha saw participation of?",
+"answers": [
+"Women (e.g. Sarojini Naidu at Dharasana)",
+"Only men",
+"Only Gandhi",
+"Only Congress"
+],
+"correct": 0,
+"explanation": "Women; e.g. Sarojini Naidu, others."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Quit India was largely?",
+"answers": [
+"Suppressed by end of 1942–43",
+"Successful",
+"Unnoticed",
+"Only in Bombay"
+],
+"correct": 0,
+"explanation": "Violently suppressed; leaders in jail."
+},
+{
+"prompt": "Congress boycotted the Hunter Commission because?",
+"answers": [
+"It had no Indian control / was inadequate",
+"It supported Dyer",
+"Gandhi said so",
+"It was British only"
+],
+"correct": 0,
+"explanation": "Limited scope; Congress wanted fuller inquiry."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "'Do or Die' was the slogan of?",
+"answers": [
+"Non-Cooperation",
+"Civil Disobedience",
+"Quit India",
+"Khilafat"
+],
+"correct": 2,
+"explanation": "Quit India (Gandhi's call, 1942)."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Rowlatt Act was officially called?",
+"answers": [
+"Anarchical and Revolutionary Crimes Act",
+"Defence of India Act",
+"Salt Act",
+"Sedition Act"
+],
+"correct": 0,
+"explanation": "Anarchical and Revolutionary Crimes Act."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Ahmedabad Mill strike took place in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "The Hunter Commission report?",
+"answers": [
+"Condemned Dyer's action",
+"Supported Dyer",
+"Was inconclusive",
+"Was never published"
+],
+"correct": 0,
+"explanation": "Condemned Dyer's action."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Quit India Movement was launched in?",
+"answers": [
+"1940",
+"1941",
+"1942",
+"1943"
+],
+"correct": 2,
+"explanation": "August 1942."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Khilafat movement was about?",
+"answers": [
+"Restoring Turkish Caliphate (after WWI)",
+"Indian independence only",
+"Salt tax",
+"Hindu unity"
+],
+"correct": 0,
+"explanation": "Protecting/restoring Ottoman Caliphate."
+},
+{
+"prompt": "Non-Cooperation aimed at?",
+"answers": [
+"Achieving Swaraj through peaceful non-cooperation",
+"Armed revolt",
+"Only boycott of cloth",
+"Only resignations"
+],
+"correct": 0,
+"explanation": "Swaraj by boycotting British institutions."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "What did the Hunter Commission report recommend?",
+"answers": [
+"Censure of Dyer; no criminal trial in Britain",
+"Dyer's promotion",
+"Pardon for Dyer",
+"Nothing"
+],
+"correct": 0,
+"explanation": "Censure; Dyer not criminally tried in UK."
+},
+{
+"prompt": "Salt Satyagraha saw participation of?",
+"answers": [
+"Women (e.g. Sarojini Naidu at Dharasana)",
+"Only men",
+"Only Gandhi",
+"Only Congress"
+],
+"correct": 0,
+"explanation": "Women; e.g. Sarojini Naidu, others."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Gandhi attended which Round Table Conference?",
+"answers": [
+"First only",
+"Second (1931)",
+"Third only",
+"All three"
+],
+"correct": 1,
+"explanation": "Second Round Table Conference (1931)."
+},
+{
+"prompt": "'Quit India' demand was for?",
+"answers": [
+"British to leave India immediately",
+"Dominion status",
+"More reforms",
+"Round Table"
+],
+"correct": 0,
+"explanation": "Immediate British withdrawal."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "March 1931."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "The Rowlatt Act and Jallianwala Bagh led to?",
+"answers": [
+"Widespread anger and loss of faith in British justice",
+"Immediate independence",
+"Gandhi's arrest only",
+"Nothing"
+],
+"correct": 0,
+"explanation": "Anger; strengthened nationalist sentiment."
+},
+{
+"prompt": "Gandhi broke the salt law at Dandi on?",
+"answers": [
+"6 April 1930",
+"12 March 1930",
+"26 January 1930",
+"15 August 1930"
+],
+"correct": 0,
+"explanation": "6 April 1930."
+},
+{
+"prompt": "Gandhi's trial after Chauri Chaura was in?",
+"answers": [
+"Ahmedabad",
+"Delhi",
+"Bombay",
+"Allahabad"
+],
+"correct": 0,
+"explanation": "Ahmedabad (March 1922)."
+},
+{
+"prompt": "Dandi March began on?",
+"answers": [
+"12 March 1930",
+"6 April 1930",
+"26 Jan 1930",
+"15 Aug 1930"
+],
+"correct": 0,
+"explanation": "12 March 1930."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Who was the Viceroy during the Gandhi-Irwin Pact?",
+"answers": [
+"Lord Reading",
+"Lord Irwin",
+"Lord Willingdon",
+"Lord Linlithgow"
+],
+"correct": 1,
+"explanation": "Lord Irwin."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Individual Satyagraha (1940–41) was launched because?",
+"answers": [
+"Congress wanted to protest without full movement",
+"Gandhi was arrested",
+"British offered dominion",
+"War started"
+],
+"correct": 0,
+"explanation": "Limited protest; anti-war stance."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Hunter Commission was headed by?",
+"answers": [
+"Lord Hunter",
+"Lord Dyer",
+"Lord Irwin",
+"Lord Reading"
+],
+"correct": 0,
+"explanation": "Lord Hunter (Scottish judge)."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Gandhi's ashrams included?",
+"answers": [
+"Sabarmati, Sevagram",
+"Only Sabarmati",
+"Only Wardha",
+"None"
+],
+"correct": 0,
+"explanation": "Sabarmati (Ahmedabad), Sevagram (Wardha)."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Who ordered the firing at Jallianwala Bagh?",
+"answers": [
+"General Dyer",
+"Viceroy",
+"Hunter",
+"O'Dwyer"
+],
+"correct": 0,
+"explanation": "Brigadier-General Reginald Dyer."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Gandhi opposed separate electorate for Depressed Classes because?",
+"answers": [
+"He feared division of Hindu society",
+"He opposed reservation",
+"Ambedkar asked",
+"British insisted"
+],
+"correct": 0,
+"explanation": "Wanted unity; reserved seats instead."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Quit India Movement was launched in?",
+"answers": [
+"1940",
+"1941",
+"1942",
+"1943"
+],
+"correct": 2,
+"explanation": "August 1942."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "'Quit India' demand was for?",
+"answers": [
+"British to leave India immediately",
+"Dominion status",
+"More reforms",
+"Round Table"
+],
+"correct": 0,
+"explanation": "Immediate British withdrawal."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Kheda is a district in?",
+"answers": [
+"Bihar",
+"Gujarat",
+"Rajasthan",
+"MP"
+],
+"correct": 1,
+"explanation": "Gujarat."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Sardar Patel emerged as a key leader in?",
+"answers": [
+"Champaran",
+"Kheda",
+"Ahmedabad only",
+"Quit India only"
+],
+"correct": 1,
+"explanation": "Kheda satyagraha, 1918."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Gandhi arrived in India in 1915 at the invitation of?",
+"answers": [
+"Congress",
+"Gokhale",
+"Tilak",
+"Nehru"
+],
+"correct": 1,
+"explanation": "Gopal Krishna Gokhale invited him."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Third Round Table Conference was in?",
+"answers": [
+"1931",
+"1932",
+"1933",
+"1930"
+],
+"correct": 1,
+"explanation": "1932 (Congress did not attend)."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Non-Cooperation Movement was called off in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "1922, after Chauri Chaura."
+},
+{
+"prompt": "Salt law was broken by making salt at?",
+"answers": [
+"Dandi and many coastal places",
+"Only Dandi",
+"Only Bombay",
+"Only Gujarat"
+],
+"correct": 0,
+"explanation": "Dandi and elsewhere; symbolic defiance."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Ahmedabad Mill strike took place in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Gandhi broke the salt law at Dandi on?",
+"answers": [
+"6 April 1930",
+"12 March 1930",
+"26 January 1930",
+"15 August 1930"
+],
+"correct": 0,
+"explanation": "6 April 1930."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "After Chauri Chaura, Gandhi was?",
+"answers": [
+"Arrested and tried (1922)",
+"Released immediately",
+"Exiled",
+"Not arrested"
+],
+"correct": 0,
+"explanation": "Arrested; tried for sedition; 6 years."
+},
+{
+"prompt": "On which date did the Jallianwala Bagh massacre take place?",
+"answers": [
+"10 April 1919",
+"13 April 1919",
+"19 April 1919",
+"30 April 1919"
+],
+"correct": 1,
+"explanation": "13 April 1919."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Jallianwala Bagh massacre occurred in which year?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "13 April 1919."
+},
+{
+"prompt": "Which Congress session approved Non-Cooperation?",
+"answers": [
+"Calcutta 1920",
+"Nagpur 1920",
+"Both Calcutta and Nagpur 1920",
+"Lahore 1929"
+],
+"correct": 2,
+"explanation": "Calcutta (Sept) and Nagpur (Dec) 1920."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Quit India was largely?",
+"answers": [
+"Suppressed by end of 1942–43",
+"Successful",
+"Unnoticed",
+"Only in Bombay"
+],
+"correct": 0,
+"explanation": "Violently suppressed; leaders in jail."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "British response to Quit India included?",
+"answers": [
+"Arrest of Congress leaders; repression",
+"Negotiation",
+"Granting independence",
+"None"
+],
+"correct": 0,
+"explanation": "Mass arrests; suppression."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "The Rowlatt Act was criticised for?",
+"answers": [
+"Denying trial and civil liberties",
+"Salt tax",
+"Revenue",
+"Education"
+],
+"correct": 0,
+"explanation": "Arbitrary detention; no proper trial."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Dyer ordered firing without?",
+"answers": [
+"Warning to disperse",
+"Permission from Viceroy",
+"Presence of magistrates",
+"Any of these as required"
+],
+"correct": 0,
+"explanation": "No warning to disperse; closed exit."
+},
+{
+"prompt": "Before leading mass movements in India, Gandhi had experience in?",
+"answers": [
+"South African satyagraha",
+"British Parliament",
+"Only legal practice in India",
+"None"
+],
+"correct": 0,
+"explanation": "South Africa satyagraha (1906–1914)."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "In which year did the Rowlatt Act receive assent?",
+"answers": [
+"1919",
+"1920",
+"1918",
+"1921"
+],
+"correct": 0,
+"explanation": "1919."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "'Harijan' means?",
+"answers": [
+"Children of God (term for Depressed Classes)",
+"Peasants",
+"Workers",
+"Congress members"
+],
+"correct": 0,
+"explanation": "Gandhi's term for Depressed Classes."
+},
+{
+"prompt": "Before leading mass movements in India, Gandhi had experience in?",
+"answers": [
+"South African satyagraha",
+"British Parliament",
+"Only legal practice in India",
+"None"
+],
+"correct": 0,
+"explanation": "South Africa satyagraha (1906–1914)."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Civil Disobedience was resumed after?",
+"answers": [
+"Failure of Second Round Table",
+"Gandhi-Irwin Pact",
+"Poona Pact",
+"Quit India"
+],
+"correct": 0,
+"explanation": "After Second RTC; restarted 1932."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Non-Cooperation included boycott of?",
+"answers": [
+"Schools, courts, councils, foreign goods",
+"Only foreign cloth",
+"Only courts",
+"Only schools"
+],
+"correct": 0,
+"explanation": "Schools, courts, councils, foreign goods."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Rowlatt Act was based on the report of a committee headed by?",
+"answers": [
+"Hunter",
+"Rowlatt",
+"Dyer",
+"Irwin"
+],
+"correct": 1,
+"explanation": "Sir Sidney Rowlatt."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Champaran satyagraha was against?",
+"answers": [
+"British planters and indigo system",
+"Rowlatt Act",
+"Salt tax",
+"Khilafat"
+],
+"correct": 0,
+"explanation": "British indigo planters and tinkathia."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Gandhi suspended Non-Cooperation because?",
+"answers": [
+"He opposed violence; Chauri Chaura violated non-violence",
+"British offered concessions",
+"Congress asked him",
+"Khilafat ended"
+],
+"correct": 0,
+"explanation": "Principle of non-violence; Chauri Chaura violence."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "'Quit India' demand was for?",
+"answers": [
+"British to leave India immediately",
+"Dominion status",
+"More reforms",
+"Round Table"
+],
+"correct": 0,
+"explanation": "Immediate British withdrawal."
+},
+{
+"prompt": "Gandhi-Irwin Pact was signed in which year?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 1,
+"explanation": "1931."
+},
+{
+"prompt": "Kheda satyagraha was primarily about?",
+"answers": [
+"Revenue remission in famine",
+"Indigo",
+"Mill wages",
+"Salt"
+],
+"correct": 0,
+"explanation": "Suspension of revenue in famine year."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "Civil Disobedience Movement was launched in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930 (Salt Satyagraha, March 1930)."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Ambedkar signed the Poona Pact in?",
+"answers": [
+"1930",
+"1931",
+"1932",
+"1933"
+],
+"correct": 2,
+"explanation": "September 1932 (Yerwada)."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "When did Gandhi return to India from South Africa?",
+"answers": [
+"1914",
+"1915",
+"1916",
+"1917"
+],
+"correct": 1,
+"explanation": "1915."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Khilafat Committee was formed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919 (post-WWI)."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "What happened at Chauri Chaura in 1922?",
+"answers": [
+"Police station set on fire; policemen killed",
+"Salt march",
+"Dandi",
+"Hartal only"
+],
+"correct": 0,
+"explanation": "Crowd set fire to police station; 22 policemen died."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Quit India was largely?",
+"answers": [
+"Suppressed by end of 1942–43",
+"Successful",
+"Unnoticed",
+"Only in Bombay"
+],
+"correct": 0,
+"explanation": "Violently suppressed; leaders in jail."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Dandi March was in?",
+"answers": [
+"1929",
+"1930",
+"1931",
+"1932"
+],
+"correct": 1,
+"explanation": "1930."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "Rowlatt Act was passed in?",
+"answers": [
+"1918",
+"1919",
+"1920",
+"1921"
+],
+"correct": 1,
+"explanation": "1919."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Communal Award had proposed?",
+"answers": [
+"Separate electorate for Depressed Classes",
+"Joint electorate",
+"No reservation",
+"Only for Muslims"
+],
+"correct": 0,
+"explanation": "Separate electorate for Depressed Classes."
+},
+{
+"prompt": "Quit India resolution demanded?",
+"answers": [
+"Immediate end to British rule",
+"Dominion status",
+"More Indians in government",
+"Round Table"
+],
+"correct": 0,
+"explanation": "Immediate British withdrawal."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Kheda satyagraha was in which year?",
+"answers": [
+"1917",
+"1918",
+"1919",
+"1920"
+],
+"correct": 1,
+"explanation": "1918."
+},
+{
+"prompt": "Chauri Chaura incident occurred in?",
+"answers": [
+"1920",
+"1921",
+"1922",
+"1923"
+],
+"correct": 2,
+"explanation": "February 1922."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "'Do or Die' is associated with?",
+"answers": [
+"Civil Disobedience",
+"Quit India",
+"Non-Cooperation",
+"Khilafat"
+],
+"correct": 1,
+"explanation": "Quit India, 1942."
+},
+{
+"prompt": "Chauri Chaura is in which state?",
+"answers": [
+"Bihar",
+"UP",
+"Gujarat",
+"Punjab"
+],
+"correct": 1,
+"explanation": "Uttar Pradesh (Gorakhpur district)."
+},
+{
+"prompt": "Champaran is in which province/state?",
+"answers": [
+"UP",
+"Bihar",
+"Gujarat",
+"Bengal"
+],
+"correct": 1,
+"explanation": "Bihar."
+},
+{
+"prompt": "Who ordered the Jallianwala Bagh firing?",
+"answers": [
+"O'Dwyer",
+"General Dyer",
+"Hunter",
+"Irwin"
+],
+"correct": 1,
+"explanation": "General Dyer."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+},
+{
+"prompt": "Poona Pact was signed between Gandhi and?",
+"answers": [
+"Jinnah",
+"Ambedkar",
+"Nehru",
+"Patel"
+],
+"correct": 1,
+"explanation": "Ambedkar."
+}
+]

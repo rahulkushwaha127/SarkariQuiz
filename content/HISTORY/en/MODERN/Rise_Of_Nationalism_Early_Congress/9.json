@@ -1,0 +1,3302 @@
+[
+{
+"prompt": "Which year was Surat split established?",
+"answers": [
+"1905",
+"1907",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "'Kesari' was in which language?",
+"answers": [
+"English",
+"Marathi",
+"Hindi",
+"Bengali"
+],
+"correct": 1,
+"explanation": "Marathi."
+},
+{
+"prompt": "East India Association was founded in London in?",
+"answers": [
+"1851",
+"1866",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Pherozeshah Mehta was known as?",
+"answers": [
+"Lion of Punjab",
+"Uncrowned king of Bombay",
+"Lokmanya",
+"Deshbandhu"
+],
+"correct": 1,
+"explanation": "Uncrowned king of Bombay."
+},
+{
+"prompt": "Partition of Bengal was annulled in?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Partition of Bengal took effect in?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Swadeshi movement gained momentum after?",
+"answers": [
+"1885",
+"1905 Partition",
+"1919",
+"1930"
+],
+"correct": 1,
+"explanation": "1905 Partition."
+},
+{
+"prompt": "Who was associated with Kesari?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Lajpat Rai",
+"Pal"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Boycott in this context meant?",
+"answers": [
+"Boycott of British goods and institutions",
+"Only of British officials",
+"Only of courts",
+"Only of schools"
+],
+"correct": 0,
+"explanation": "Boycott of British goods and institutions."
+},
+{
+"prompt": "Curzon was Viceroy during?",
+"answers": [
+"Ilbert Bill",
+"Partition of Bengal",
+"Vernacular Press Act",
+"INC foundation"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Indian Association (Calcutta) was founded in?",
+"answers": [
+"1851",
+"1876",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "'Bande Mataram' became a slogan of which movement?",
+"answers": [
+"Ilbert Bill",
+"Swadeshi / anti-partition",
+"Only 1942",
+"Vernacular Press"
+],
+"correct": 1,
+"explanation": "Swadeshi / anti-partition."
+},
+{
+"prompt": "Official reason given for Partition of Bengal was?",
+"answers": [
+"Punish nationalists",
+"Administrative convenience (size of Bengal)",
+"Religious divide",
+"Economic only"
+],
+"correct": 1,
+"explanation": "Administrative convenience."
+},
+{
+"prompt": "Which year was Surat split established?",
+"answers": [
+"1905",
+"1907",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "After the Ilbert Bill compromise, Indian judges could try Europeans in?",
+"answers": [
+"All cases",
+"Only with European jury or in limited circumstances",
+"Never",
+"Only in presidency towns"
+],
+"correct": 1,
+"explanation": "Limited circumstances / European jury option."
+},
+{
+"prompt": "The Bombay Association was formed in?",
+"answers": [
+"1837",
+"1852",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1852."
+},
+{
+"prompt": "Annulment of Partition was seen as?",
+"answers": [
+"Defeat for nationalists",
+"Victory for popular agitation",
+"Only British convenience",
+"Religious move"
+],
+"correct": 1,
+"explanation": "Victory for popular agitation."
+},
+{
+"prompt": "In what year was the East India Association founded?",
+"answers": [
+"1851",
+"1866",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1866 in London."
+},
+{
+"prompt": "Which year was East India Association London established?",
+"answers": [
+"1851",
+"1866",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Congress in its early phase was dominated by?",
+"answers": [
+"Extremists",
+"Moderates",
+"Revolutionaries",
+"Peasants"
+],
+"correct": 1,
+"explanation": "Moderates."
+},
+{
+"prompt": "Which Viceroy passed the Vernacular Press Act?",
+"answers": [
+"Ripon",
+"Lytton",
+"Curzon",
+"Dufferin"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "How many delegates attended the first INC session (approximately)?",
+"answers": [
+"72",
+"About 72",
+"500",
+"1000"
+],
+"correct": 1,
+"explanation": "About 72 delegates."
+},
+{
+"prompt": "Which year was Surat split established?",
+"answers": [
+"1905",
+"1907",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Dadabhai Naoroji was Congress president in?",
+"answers": [
+"1885 only",
+"1886, 1893, 1906",
+"1905 only",
+"1911"
+],
+"correct": 1,
+"explanation": "1886, 1893, 1906."
+},
+{
+"prompt": "Congress in its early phase was dominated by?",
+"answers": [
+"Extremists",
+"Moderates",
+"Revolutionaries",
+"Peasants"
+],
+"correct": 1,
+"explanation": "Moderates."
+},
+{
+"prompt": "How many delegates attended the first INC session (approximately)?",
+"answers": [
+"72",
+"About 72",
+"500",
+"1000"
+],
+"correct": 1,
+"explanation": "About 72 delegates."
+},
+{
+"prompt": "Moderates believed in?",
+"answers": [
+"Armed revolt",
+"Constitutional methods, petitions, and persuasion",
+"Boycott only",
+"Terrorism"
+],
+"correct": 1,
+"explanation": "Constitutional methods and persuasion."
+},
+{
+"prompt": "Vernacular Press Act was enacted in?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Vernacular Press Act was repealed in?",
+"answers": [
+"1878",
+"1882",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1882 under Ripon."
+},
+{
+"prompt": "Indian Councils Act 1892 was partly a result of?",
+"answers": [
+"Boycott",
+"Moderate agitation and demands",
+"Extremist pressure only",
+"Partition"
+],
+"correct": 1,
+"explanation": "Moderate agitation and demands."
+},
+{
+"prompt": "Which year was Poona Sarvajanik Sabha established?",
+"answers": [
+"1851",
+"1870",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Congress was founded in the viceroyalty of?",
+"answers": [
+"Lytton",
+"Ripon",
+"Lord Dufferin",
+"Curzon"
+],
+"correct": 2,
+"explanation": "Lord Dufferin."
+},
+{
+"prompt": "W.C. Bonnerjee was from which community?",
+"answers": [
+"Parsi",
+"Bengali (Hindu)",
+"Muslim",
+"Sikh"
+],
+"correct": 1,
+"explanation": "Bengali; first president."
+},
+{
+"prompt": "Pherozeshah Mehta was a prominent Moderate from?",
+"answers": [
+"Bengal",
+"Bombay",
+"Madras",
+"Punjab"
+],
+"correct": 1,
+"explanation": "Bombay."
+},
+{
+"prompt": "After Surat, Extremists were readmitted to Congress in?",
+"answers": [
+"1908",
+"1916 (Lucknow)",
+"1920",
+"1947"
+],
+"correct": 1,
+"explanation": "1916 (Lucknow)."
+},
+{
+"prompt": "'Kesari' was in which language?",
+"answers": [
+"English",
+"Marathi",
+"Hindi",
+"Bengali"
+],
+"correct": 1,
+"explanation": "Marathi."
+},
+{
+"prompt": "'Prayer and petition' was the method of?",
+"answers": [
+"Extremists",
+"Moderates",
+"Revolutionaries",
+"Tilak"
+],
+"correct": 1,
+"explanation": "Moderates."
+},
+{
+"prompt": "New province 'East Bengal and Assam' had its capital at?",
+"answers": [
+"Calcutta",
+"Dacca (Dhaka)",
+"Chittagong",
+"Shillong"
+],
+"correct": 1,
+"explanation": "Dacca (Dhaka)."
+},
+{
+"prompt": "Who founded the Indian Association (Calcutta)?",
+"answers": [
+"Dadabhai Naoroji",
+"Surendranath Banerjea and Ananda Mohan Bose",
+"Tilak",
+"Gokhale"
+],
+"correct": 1,
+"explanation": "Surendranath Banerjea and Ananda Mohan Bose."
+},
+{
+"prompt": "Who introduced the Ilbert Bill?",
+"answers": [
+"Lord Ripon",
+"C.P. Ilbert (Law Member)",
+"Lord Curzon",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "C.P. Ilbert, Law Member."
+},
+{
+"prompt": "Which year was Partition of Bengal established?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Who was associated with Drain of wealth?",
+"answers": [
+"Tilak",
+"Gokhale",
+"Dadabhai Naoroji",
+"Pal"
+],
+"correct": 2,
+"explanation": "Person recall."
+},
+{
+"prompt": "Who founded the Indian Association (Calcutta)?",
+"answers": [
+"Dadabhai Naoroji",
+"Surendranath Banerjea and Ananda Mohan Bose",
+"Tilak",
+"Gokhale"
+],
+"correct": 1,
+"explanation": "Surendranath Banerjea and Ananda Mohan Bose."
+},
+{
+"prompt": "The Landholders' Society is often considered the first political association of what type in India?",
+"answers": [
+"Peasant",
+"Landlord / zamindar",
+"Worker",
+"Tribal"
+],
+"correct": 1,
+"explanation": "First political association of landlords."
+},
+{
+"prompt": "Who annulled the Partition of Bengal?",
+"answers": [
+"Curzon",
+"Hardinge",
+"Montagu",
+"Chelmsford"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "In what year was British India Association established?",
+"answers": [
+"1837",
+"1851",
+"1876",
+"1885"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Vernacular Press Act was enacted in?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Indian Councils Act 1892 was partly a result of?",
+"answers": [
+"Boycott",
+"Moderate agitation and demands",
+"Extremist pressure only",
+"Partition"
+],
+"correct": 1,
+"explanation": "Moderate agitation and demands."
+},
+{
+"prompt": "Vernacular Press Act targeted which press?",
+"answers": [
+"English-language only",
+"Indian language (vernacular) newspapers",
+"Both equally",
+"Foreign press only"
+],
+"correct": 1,
+"explanation": "Indian language (vernacular) newspapers."
+},
+{
+"prompt": "'Kesari' was in which language?",
+"answers": [
+"English",
+"Marathi",
+"Hindi",
+"Bengali"
+],
+"correct": 1,
+"explanation": "Marathi."
+},
+{
+"prompt": "Who had been called 'Lokmanya'?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Lajpat Rai",
+"Pal"
+],
+"correct": 1,
+"explanation": "Tilak."
+},
+{
+"prompt": "'Kesari' was in which language?",
+"answers": [
+"English",
+"Marathi",
+"Hindi",
+"Bengali"
+],
+"correct": 1,
+"explanation": "Marathi."
+},
+{
+"prompt": "Who is associated with Partition announced by?",
+"answers": [
+"Ripon",
+"Curzon",
+"Dufferin",
+"Lytton"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Partition of Bengal was announced by?",
+"answers": [
+"Lord Ripon",
+"Lord Curzon",
+"Lord Dufferin",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "Lord Curzon."
+},
+{
+"prompt": "Who was associated with Shivaji festival?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Pal",
+"Lajpat Rai"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "In what year was Partition of Bengal established?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Partition of Bengal was in?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "W.C. Bonnerjee was from which community?",
+"answers": [
+"Parsi",
+"Bengali (Hindu)",
+"Muslim",
+"Sikh"
+],
+"correct": 1,
+"explanation": "Bengali; first president."
+},
+{
+"prompt": "In what year did the INC hold its first session?",
+"answers": [
+"1883",
+"1885",
+"1905",
+"1911"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Moderates dominated Congress roughly until?",
+"answers": [
+"1890",
+"1905–1907 (split)",
+"1919",
+"1947"
+],
+"correct": 1,
+"explanation": "Until around 1905–1907."
+},
+{
+"prompt": "British India Association was formed in?",
+"answers": [
+"1837",
+"1851",
+"1876",
+"1885"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Extremists favoured?",
+"answers": [
+"Only petitions",
+"Self-reliance, Swadeshi, boycott, and assertive nationalism",
+"Only economic critique",
+"Loyalty only"
+],
+"correct": 1,
+"explanation": "Swadeshi, boycott, assertive nationalism."
+},
+{
+"prompt": "A.O. Hume was a British what?",
+"answers": [
+"Viceroy",
+"Civil servant",
+"Judge",
+"General"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Partition of Bengal was carried out by?",
+"answers": [
+"Ripon",
+"Curzon",
+"Dufferin",
+"Hardinge"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Dadabhai Naoroji wrote which book?",
+"answers": [
+"Poverty and Un-British Rule in India",
+"Gita Rahasya",
+"Hind Swaraj",
+"India Wins Freedom"
+],
+"correct": 0,
+"explanation": "Poverty and Un-British Rule in India."
+},
+{
+"prompt": "Anti-partition agitation was strongest in?",
+"answers": [
+"Punjab",
+"Bengal (especially Hindu middle class)",
+"Bombay",
+"Madras"
+],
+"correct": 1,
+"explanation": "Bengal (Hindu middle class)."
+},
+{
+"prompt": "Economic critique of British rule was advanced by?",
+"answers": [
+"Only Tilak",
+"Dadabhai Naoroji, R.C. Dutt, and others",
+"Only Gokhale",
+"Only Pal"
+],
+"correct": 1,
+"explanation": "Naoroji, R.C. Dutt, others."
+},
+{
+"prompt": "R.C. Dutt wrote on?",
+"answers": [
+"Only drain",
+"Economic history of India (e.g. Economic History of India)",
+"Gita only",
+"Shivaji only"
+],
+"correct": 1,
+"explanation": "Economic history of India."
+},
+{
+"prompt": "Who was associated with Partition announced by?",
+"answers": [
+"Ripon",
+"Curzon",
+"Dufferin",
+"Lytton"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "When was Ilbert Bill formed?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Economic critique of British rule was advanced by?",
+"answers": [
+"Only Tilak",
+"Dadabhai Naoroji, R.C. Dutt, and others",
+"Only Gokhale",
+"Only Pal"
+],
+"correct": 1,
+"explanation": "Naoroji, R.C. Dutt, others."
+},
+{
+"prompt": "Surat split (1907) was between?",
+"answers": [
+"Congress and League",
+"Moderates and Extremists",
+"Hindus and Muslims",
+"Bengal and Bombay"
+],
+"correct": 1,
+"explanation": "Moderates and Extremists."
+},
+{
+"prompt": "Who had been the first INC president?",
+"answers": [
+"Naoroji",
+"W.C. Bonnerjee",
+"Hume",
+"Surendranath Banerjea"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "East India Association was founded in London in?",
+"answers": [
+"1851",
+"1866",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Partition of Bengal was in?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Who had been the first INC president?",
+"answers": [
+"Naoroji",
+"W.C. Bonnerjee",
+"Hume",
+"Surendranath Banerjea"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Who introduced the Ilbert Bill?",
+"answers": [
+"Lord Ripon",
+"C.P. Ilbert (Law Member)",
+"Lord Curzon",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "C.P. Ilbert, Law Member."
+},
+{
+"prompt": "Who founded the Landholders' Society?",
+"answers": [
+"Dadabhai Naoroji",
+"Dwarkanath Tagore and others",
+"A.O. Hume",
+"W.C. Bonnerjee"
+],
+"correct": 1,
+"explanation": "Dwarkanath Tagore among founders."
+},
+{
+"prompt": "Madras Native Association was one of the early what?",
+"answers": [
+"Religious bodies",
+"Provincial political associations",
+"Trade unions",
+"Peasant fronts"
+],
+"correct": 1,
+"explanation": "Early provincial political association."
+},
+{
+"prompt": "Where was the first session of the INC held?",
+"answers": [
+"Calcutta",
+"Bombay",
+"Madras",
+"Delhi"
+],
+"correct": 1,
+"explanation": "Bombay (1885)."
+},
+{
+"prompt": "The Bombay Association was formed in?",
+"answers": [
+"1837",
+"1852",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1852."
+},
+{
+"prompt": "Congress split at Surat in?",
+"answers": [
+"1905",
+"1907",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "1907."
+},
+{
+"prompt": "Pherozeshah Mehta was known as?",
+"answers": [
+"Lion of Punjab",
+"Uncrowned king of Bombay",
+"Lokmanya",
+"Deshbandhu"
+],
+"correct": 1,
+"explanation": "Uncrowned king of Bombay."
+},
+{
+"prompt": "Surendranath Banerjea founded which paper?",
+"answers": [
+"Kesari",
+"The Bengalee",
+"Young India",
+"Harijan"
+],
+"correct": 1,
+"explanation": "The Bengalee."
+},
+{
+"prompt": "Partition of Bengal was announced by?",
+"answers": [
+"Lord Ripon",
+"Lord Curzon",
+"Lord Dufferin",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "Lord Curzon."
+},
+{
+"prompt": "Poona Sarvajanik Sabha was founded in?",
+"answers": [
+"1851",
+"1870",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "After Surat, Extremists were readmitted to Congress in?",
+"answers": [
+"1908",
+"1916 (Lucknow)",
+"1920",
+"1947"
+],
+"correct": 1,
+"explanation": "1916 (Lucknow)."
+},
+{
+"prompt": "The Act required vernacular publishers to submit what?",
+"answers": [
+"Nothing",
+"Bonds and proofs for approval",
+"Only annual reports",
+"Subscription lists"
+],
+"correct": 1,
+"explanation": "Bonds and proofs for approval."
+},
+{
+"prompt": "Who had been associated with Servants of India Society?",
+"answers": [
+"Tilak",
+"Gokhale",
+"Naoroji",
+"Pal"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Viceroy during the Ilbert Bill was?",
+"answers": [
+"Lytton",
+"Lord Ripon",
+"Curzon",
+"Dufferin"
+],
+"correct": 1,
+"explanation": "Lord Ripon."
+},
+{
+"prompt": "National Council of Education was set up during?",
+"answers": [
+"1885",
+"Swadeshi period (Bengal)",
+"1920",
+"1930"
+],
+"correct": 1,
+"explanation": "Swadeshi period in Bengal."
+},
+{
+"prompt": "Congress was founded in the viceroyalty of?",
+"answers": [
+"Lytton",
+"Ripon",
+"Lord Dufferin",
+"Curzon"
+],
+"correct": 2,
+"explanation": "Lord Dufferin."
+},
+{
+"prompt": "A.O. Hume is credited with what role in the INC?",
+"answers": [
+"First president",
+"Founding/organising the Congress (founder)",
+"First Indian member",
+"First extremist leader"
+],
+"correct": 1,
+"explanation": "Founding/organising the Congress."
+},
+{
+"prompt": "Early Congress demanded?",
+"answers": [
+"Complete independence",
+"More Indians in ICS, legislative councils, reduction of military expenditure",
+"Boycott",
+"Revolution"
+],
+"correct": 1,
+"explanation": "ICS, councils, reduction of expenditure."
+},
+{
+"prompt": "Poona Sarvajanik Sabha was founded in?",
+"answers": [
+"1851",
+"1870",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1870."
+},
+{
+"prompt": "Tilak's slogan 'Swaraj is my birthright' became famous when?",
+"answers": [
+"1885",
+"1890s–1900s",
+"1920",
+"1942"
+],
+"correct": 1,
+"explanation": "1890s–1900s (before 1916)."
+},
+{
+"prompt": "'Un-British rule' in Naoroji's usage meant?",
+"answers": [
+"Rule by non-British",
+"British rule that was unfair and drained India",
+"Rule before British",
+"Rule in Britain"
+],
+"correct": 1,
+"explanation": "British rule that was unfair and drained India."
+},
+{
+"prompt": "Dadabhai Naoroji is known for the theory of?",
+"answers": [
+"Swadeshi",
+"Drain of wealth",
+"Boycott",
+"Direct action"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Indian Councils Act 1892 was partly a result of?",
+"answers": [
+"Boycott",
+"Moderate agitation and demands",
+"Extremist pressure only",
+"Partition"
+],
+"correct": 1,
+"explanation": "Moderate agitation and demands."
+},
+{
+"prompt": "Gokhale was a?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Founding of INC was in?",
+"answers": [
+"1885",
+"1885 in Bombay",
+"1905",
+"1911"
+],
+"correct": 1,
+"explanation": "1885 in Bombay."
+},
+{
+"prompt": "INC foundation was associated with which year?",
+"answers": [
+"1883",
+"1885",
+"1905",
+"1911"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "When was Partition of Bengal formed?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Boycott of British goods was part of?",
+"answers": [
+"Only Moderate programme",
+"Anti-partition and Swadeshi movement",
+"Only post-1920",
+"Ilbert Bill"
+],
+"correct": 1,
+"explanation": "Anti-partition and Swadeshi movement."
+},
+{
+"prompt": "Bengal British India Society was formed in?",
+"answers": [
+"1837",
+"1843",
+"1851",
+"1885"
+],
+"correct": 1,
+"explanation": "1843."
+},
+{
+"prompt": "When was British India Association formed?",
+"answers": [
+"1837",
+"1851",
+"1876",
+"1885"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Who is associated with Shivaji festival?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Pal",
+"Lajpat Rai"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "The Bombay Association was formed in?",
+"answers": [
+"1837",
+"1852",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1852."
+},
+{
+"prompt": "Tilak was a leader of the?",
+"answers": [
+"Moderates",
+"Extremists",
+"Revolutionaries",
+"League"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Who had been the first president of the INC?",
+"answers": [
+"Naoroji",
+"W.C. Bonnerjee",
+"Hume",
+"Surendranath"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Gokhale was a?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "'Safety valve' theory suggests Congress was created to?",
+"answers": [
+"Fight British",
+"Channel discontent into moderate, safe outlets",
+"Partition Bengal",
+"Support extremists"
+],
+"correct": 1,
+"explanation": "Channel discontent into moderate outlets."
+},
+{
+"prompt": "R.C. Dutt wrote on?",
+"answers": [
+"Only drain",
+"Economic history of India (e.g. Economic History of India)",
+"Gita only",
+"Shivaji only"
+],
+"correct": 1,
+"explanation": "Economic history of India."
+},
+{
+"prompt": "'Drain of wealth' referred to?",
+"answers": [
+"Wealth flowing into India",
+"Resources transferred from India to Britain",
+"Bengal partition",
+"Ilbert Bill"
+],
+"correct": 1,
+"explanation": "Resources transferred from India to Britain."
+},
+{
+"prompt": "British India Association was associated with which year?",
+"answers": [
+"1837",
+"1851",
+"1876",
+"1885"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Gokhale founded the?",
+"answers": [
+"Congress",
+"Servants of India Society",
+"Home Rule League",
+"Swadeshi Sabha"
+],
+"correct": 1,
+"explanation": "Servants of India Society (1905)."
+},
+{
+"prompt": "Who was associated with Lal-Bal-Pal?",
+"answers": [
+"Three viceroys",
+"Lajpat Rai, Tilak, Pal",
+"Three Moderates",
+"Three Britons"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Curzon was Viceroy during?",
+"answers": [
+"Ilbert Bill",
+"Partition of Bengal",
+"Vernacular Press Act",
+"INC foundation"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "What did the Ilbert Bill propose?",
+"answers": [
+"Press censorship",
+"Let Indian magistrates try Europeans in certain cases",
+"Partition Bengal",
+"Ban vernacular press"
+],
+"correct": 1,
+"explanation": "Indian magistrates try Europeans in certain cases."
+},
+{
+"prompt": "Who introduced the Ilbert Bill?",
+"answers": [
+"Lord Ripon",
+"C.P. Ilbert (Law Member)",
+"Lord Curzon",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "C.P. Ilbert, Law Member."
+},
+{
+"prompt": "Capital was shifted to Delhi in?",
+"answers": [
+"1905",
+"1911",
+"1916",
+"1931"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "East India Association was founded in London by?",
+"answers": [
+"Gokhale",
+"Dadabhai Naoroji",
+"Tilak",
+"Surendranath Banerjea"
+],
+"correct": 1,
+"explanation": "Dadabhai Naoroji (1866)."
+},
+{
+"prompt": "Tilak was a leader of the?",
+"answers": [
+"Moderates",
+"Extremists",
+"Revolutionaries",
+"League"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Madras Native Association was one of the early what?",
+"answers": [
+"Religious bodies",
+"Provincial political associations",
+"Trade unions",
+"Peasant fronts"
+],
+"correct": 1,
+"explanation": "Early provincial political association."
+},
+{
+"prompt": "Vernacular Press Act was repealed in?",
+"answers": [
+"1878",
+"1882",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1882 under Ripon."
+},
+{
+"prompt": "Surat split was associated with which year?",
+"answers": [
+"1905",
+"1907",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "'Bande Mataram' became a slogan of which movement?",
+"answers": [
+"Ilbert Bill",
+"Swadeshi / anti-partition",
+"Only 1942",
+"Vernacular Press"
+],
+"correct": 1,
+"explanation": "Swadeshi / anti-partition."
+},
+{
+"prompt": "Tilak promoted which festival?",
+"answers": [
+"Diwali",
+"Ganesh Chaturthi",
+"Eid",
+"Holi"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Who had been called 'Lokmanya'?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Lajpat Rai",
+"Pal"
+],
+"correct": 1,
+"explanation": "Tilak."
+},
+{
+"prompt": "The Indian Association aimed to promote what?",
+"answers": [
+"Only zamindar interests",
+"Public interest and political awareness",
+"Religious reform only",
+"Trade only"
+],
+"correct": 1,
+"explanation": "Public interest and political awareness."
+},
+{
+"prompt": "Gopal Krishna Gokhale was a prominent?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Moderate leader."
+},
+{
+"prompt": "The British India Association merged interests of which two earlier bodies?",
+"answers": [
+"INC and Muslim League",
+"Landholders' Society and Bengal British India Society",
+"Congress and Sabha",
+"None"
+],
+"correct": 1,
+"explanation": "Landholders' Society and Bengal British India Society."
+},
+{
+"prompt": "Capital was shifted from Calcutta to Delhi in?",
+"answers": [
+"1905",
+"1911",
+"1916",
+"1931"
+],
+"correct": 1,
+"explanation": "1911 (alongside annulment)."
+},
+{
+"prompt": "National Council of Education was set up during?",
+"answers": [
+"1885",
+"Swadeshi period (Bengal)",
+"1920",
+"1930"
+],
+"correct": 1,
+"explanation": "Swadeshi period in Bengal."
+},
+{
+"prompt": "Partition of Bengal was annulled in?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "1911."
+},
+{
+"prompt": "The Ilbert Bill was introduced in which year?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "The Bombay Association was formed in?",
+"answers": [
+"1837",
+"1852",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1852."
+},
+{
+"prompt": "Moderates favoured?",
+"answers": [
+"Armed struggle",
+"Constitutional methods",
+"Boycott only",
+"Terrorism"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Bipin Chandra Pal advocated?",
+"answers": [
+"Only petitions",
+"Assertive nationalism and Swadeshi",
+"Only Ganesh festival",
+"Only economic drain"
+],
+"correct": 1,
+"explanation": "Assertive nationalism and Swadeshi."
+},
+{
+"prompt": "Boycott in this context meant?",
+"answers": [
+"Boycott of British goods and institutions",
+"Only of British officials",
+"Only of courts",
+"Only of schools"
+],
+"correct": 0,
+"explanation": "Boycott of British goods and institutions."
+},
+{
+"prompt": "Capital was shifted from Calcutta to Delhi in?",
+"answers": [
+"1905",
+"1911",
+"1916",
+"1931"
+],
+"correct": 1,
+"explanation": "1911 (alongside annulment)."
+},
+{
+"prompt": "After the Ilbert Bill compromise, Indian judges could try Europeans in?",
+"answers": [
+"All cases",
+"Only with European jury or in limited circumstances",
+"Never",
+"Only in presidency towns"
+],
+"correct": 1,
+"explanation": "Limited circumstances / European jury option."
+},
+{
+"prompt": "Who was associated with Ripon repealed?",
+"answers": [
+"Ilbert Bill",
+"Vernacular Press Act",
+"Partition",
+"Rowlatt Act"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Who proposed the name 'Indian National Congress'?",
+"answers": [
+"Hume",
+"Dadabhai Naoroji",
+"Suggested by participants",
+"British government"
+],
+"correct": 2,
+"explanation": "Suggested by participants (e.g. Dadabhai)."
+},
+{
+"prompt": "Partition of Bengal was associated with which year?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Extremists favoured?",
+"answers": [
+"Only petitions",
+"Self-reliance, Swadeshi, boycott, and assertive nationalism",
+"Only economic critique",
+"Loyalty only"
+],
+"correct": 1,
+"explanation": "Swadeshi, boycott, assertive nationalism."
+},
+{
+"prompt": "Who had been called 'Lokmanya'?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Lajpat Rai",
+"Pal"
+],
+"correct": 1,
+"explanation": "Tilak."
+},
+{
+"prompt": "Moderates favoured?",
+"answers": [
+"Armed struggle",
+"Constitutional methods",
+"Boycott only",
+"Terrorism"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Lal-Bal-Pal consisted of?",
+"answers": [
+"Three viceroys",
+"Lajpat Rai, Tilak, Pal",
+"Three Moderates",
+"Three Britons"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "The Ilbert Bill was introduced in?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1883."
+},
+{
+"prompt": "The London India Society was succeeded or paralleled by which body?",
+"answers": [
+"INC",
+"East India Association (Naoroji)",
+"Muslim League",
+"Home Rule League"
+],
+"correct": 1,
+"explanation": "East India Association in London."
+},
+{
+"prompt": "Who introduced the Ilbert Bill?",
+"answers": [
+"Lord Ripon",
+"C.P. Ilbert (Law Member)",
+"Lord Curzon",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "C.P. Ilbert, Law Member."
+},
+{
+"prompt": "Who was associated with Lion of Punjab?",
+"answers": [
+"Tilak",
+"Lala Lajpat Rai",
+"Pal",
+"Gokhale"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Gopal Krishna Gokhale was a prominent?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Moderate leader."
+},
+{
+"prompt": "Partition of Bengal was annulled in?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Partition of Bengal took effect in?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "1905."
+},
+{
+"prompt": "Partition of Bengal took effect in?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "1905."
+},
+{
+"prompt": "Servants of India Society was founded in?",
+"answers": [
+"1885",
+"1905",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "1905 by Gokhale."
+},
+{
+"prompt": "Swadeshi and Boycott became mass movements after?",
+"answers": [
+"1885",
+"Partition of Bengal (1905)",
+"1919",
+"1930"
+],
+"correct": 1,
+"explanation": "Partition of Bengal 1905."
+},
+{
+"prompt": "Vernacular Press Act targeted which press?",
+"answers": [
+"English-language only",
+"Indian language (vernacular) newspapers",
+"Both equally",
+"Foreign press only"
+],
+"correct": 1,
+"explanation": "Indian language (vernacular) newspapers."
+},
+{
+"prompt": "Bengal Partition was annulled in?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "The Landholders' Society was formed in which year?",
+"answers": [
+"1837",
+"1838",
+"1851",
+"1885"
+],
+"correct": 0,
+"explanation": "Formed in 1837."
+},
+{
+"prompt": "Which year was the Landholders' Society formed?",
+"answers": [
+"1837",
+"1851",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Curzon was Viceroy from?",
+"answers": [
+"1899–1905",
+"1905–1910",
+"1885–1890",
+"1911–1916"
+],
+"correct": 0,
+"explanation": "1899–1905."
+},
+{
+"prompt": "Dadabhai Naoroji is famous for his theory of?",
+"answers": [
+"Swadeshi",
+"Drain of wealth",
+"Boycott",
+"Direct action"
+],
+"correct": 1,
+"explanation": "Drain of wealth."
+},
+{
+"prompt": "The Indian Association aimed to promote what?",
+"answers": [
+"Only zamindar interests",
+"Public interest and political awareness",
+"Religious reform only",
+"Trade only"
+],
+"correct": 1,
+"explanation": "Public interest and political awareness."
+},
+{
+"prompt": "Who was associated with Ripon repealed?",
+"answers": [
+"Ilbert Bill",
+"Vernacular Press Act",
+"Partition",
+"Rowlatt Act"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Poona Sarvajanik Sabha was associated with which year?",
+"answers": [
+"1851",
+"1870",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Lytton's press law that targeted vernacular papers was?",
+"answers": [
+"Ilbert Bill",
+"Vernacular Press Act",
+"Rowlatt Act",
+"Press Act 1910"
+],
+"correct": 1,
+"explanation": "Vernacular Press Act 1878."
+},
+{
+"prompt": "Vernacular Press Act targeted which press?",
+"answers": [
+"English-language only",
+"Indian language (vernacular) newspapers",
+"Both equally",
+"Foreign press only"
+],
+"correct": 1,
+"explanation": "Indian language (vernacular) newspapers."
+},
+{
+"prompt": "In which year was British India Association established?",
+"answers": [
+"1837",
+"1851",
+"1876",
+"1885"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Dadabhai Naoroji is famous for his theory of?",
+"answers": [
+"Swadeshi",
+"Drain of wealth",
+"Boycott",
+"Direct action"
+],
+"correct": 1,
+"explanation": "Drain of wealth."
+},
+{
+"prompt": "Indian National Congress was founded in which year?",
+"answers": [
+"1883",
+"1885",
+"1905",
+"1911"
+],
+"correct": 1,
+"explanation": "1885."
+},
+{
+"prompt": "Vernacular Press Act was associated with which year?",
+"answers": [
+"1878",
+"1882",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Partition of Bengal was announced by?",
+"answers": [
+"Lord Ripon",
+"Lord Curzon",
+"Lord Dufferin",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "Lord Curzon."
+},
+{
+"prompt": "Partition of Bengal was annulled in?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Partition of Bengal was associated with which year?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Vernacular Press Act was passed in?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "1878."
+},
+{
+"prompt": "Poona Sarvajanik Sabha was founded in?",
+"answers": [
+"1851",
+"1870",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Pherozeshah Mehta was known as?",
+"answers": [
+"Lion of Punjab",
+"Uncrowned king of Bombay",
+"Lokmanya",
+"Deshbandhu"
+],
+"correct": 1,
+"explanation": "Uncrowned king of Bombay."
+},
+{
+"prompt": "Bengal Partition was annulled in?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Who founded the Landholders' Society?",
+"answers": [
+"Dadabhai Naoroji",
+"Dwarkanath Tagore and others",
+"A.O. Hume",
+"W.C. Bonnerjee"
+],
+"correct": 1,
+"explanation": "Dwarkanath Tagore among founders."
+},
+{
+"prompt": "Who was associated with Partition annulled by?",
+"answers": [
+"Curzon",
+"Hardinge",
+"Ripon",
+"Lytton"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Tilak's newspapers included?",
+"answers": [
+"The Bengalee",
+"Kesari (Marathi) and Mahratta (English)",
+"Young India",
+"Harijan"
+],
+"correct": 1,
+"explanation": "Kesari and Mahratta."
+},
+{
+"prompt": "Who had been associated with Shivaji festival?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Pal",
+"Lajpat Rai"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "English-language press in India was largely exempt from?",
+"answers": [
+"All laws",
+"Vernacular Press Act (which targeted vernacular press)",
+"Ilbert Bill",
+"Partition"
+],
+"correct": 1,
+"explanation": "Vernacular Press Act targeted vernacular only."
+},
+{
+"prompt": "Gopal Krishna Gokhale was a prominent?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Moderate leader."
+},
+{
+"prompt": "A.O. Hume was a British what?",
+"answers": [
+"Viceroy",
+"Civil servant",
+"Judge",
+"General"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Viceroy during the Ilbert Bill was?",
+"answers": [
+"Lytton",
+"Lord Ripon",
+"Curzon",
+"Dufferin"
+],
+"correct": 1,
+"explanation": "Lord Ripon."
+},
+{
+"prompt": "Annulment of Partition was associated with which year?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "The Landholders' Society was formed in which year?",
+"answers": [
+"1837",
+"1838",
+"1851",
+"1885"
+],
+"correct": 0,
+"explanation": "Formed in 1837."
+},
+{
+"prompt": "English-language press in India was largely exempt from?",
+"answers": [
+"All laws",
+"Vernacular Press Act (which targeted vernacular press)",
+"Ilbert Bill",
+"Partition"
+],
+"correct": 1,
+"explanation": "Vernacular Press Act targeted vernacular only."
+},
+{
+"prompt": "'Bande Mataram' became a slogan of which movement?",
+"answers": [
+"Ilbert Bill",
+"Swadeshi / anti-partition",
+"Only 1942",
+"Vernacular Press"
+],
+"correct": 1,
+"explanation": "Swadeshi / anti-partition."
+},
+{
+"prompt": "Gokhale was a?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Who founded the Indian Association (Calcutta)?",
+"answers": [
+"Dadabhai Naoroji",
+"Surendranath Banerjea and Ananda Mohan Bose",
+"Tilak",
+"Gokhale"
+],
+"correct": 1,
+"explanation": "Surendranath Banerjea and Ananda Mohan Bose."
+},
+{
+"prompt": "Who is associated with Ganesh Chaturthi festival?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Pal",
+"Naoroji"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Partition of Bengal was announced by?",
+"answers": [
+"Lord Ripon",
+"Lord Curzon",
+"Lord Dufferin",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "Lord Curzon."
+},
+{
+"prompt": "Partition of Bengal was annulled in?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "1911."
+},
+{
+"prompt": "When was Ilbert Bill formed?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "When was Vernacular Press Act repealed formed?",
+"answers": [
+"1878",
+"1882",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "East India Association London was associated with which year?",
+"answers": [
+"1851",
+"1866",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "When was Partition of Bengal formed?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "First session of Congress was in December?",
+"answers": [
+"1883",
+"1885",
+"1887",
+"1905"
+],
+"correct": 1,
+"explanation": "December 1885."
+},
+{
+"prompt": "First session of Congress was in December?",
+"answers": [
+"1883",
+"1885",
+"1887",
+"1905"
+],
+"correct": 1,
+"explanation": "December 1885."
+},
+{
+"prompt": "Who was associated with First INC president?",
+"answers": [
+"Naoroji",
+"W.C. Bonnerjee",
+"Hume",
+"Surendranath"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Madras Native Association was one of the early what?",
+"answers": [
+"Religious bodies",
+"Provincial political associations",
+"Trade unions",
+"Peasant fronts"
+],
+"correct": 1,
+"explanation": "Early provincial political association."
+},
+{
+"prompt": "Which year was Partition of Bengal established?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Indian National Congress was founded in which year?",
+"answers": [
+"1883",
+"1885",
+"1905",
+"1911"
+],
+"correct": 1,
+"explanation": "1885."
+},
+{
+"prompt": "Early Congress demanded?",
+"answers": [
+"Complete independence",
+"More Indians in ICS, legislative councils, reduction of military expenditure",
+"Boycott",
+"Revolution"
+],
+"correct": 1,
+"explanation": "ICS, councils, reduction of expenditure."
+},
+{
+"prompt": "When was the British India Association established?",
+"answers": [
+"1837",
+"1851",
+"1876",
+"1885"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Bal Gangadhar Tilak was from?",
+"answers": [
+"Bengal",
+"Punjab",
+"Maharashtra",
+"Madras"
+],
+"correct": 2,
+"explanation": "Maharashtra."
+},
+{
+"prompt": "Who annulled the Partition of Bengal?",
+"answers": [
+"Curzon",
+"Hardinge",
+"Montagu",
+"Chelmsford"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "After the Ilbert Bill compromise, Indian judges could try Europeans in?",
+"answers": [
+"All cases",
+"Only with European jury or in limited circumstances",
+"Never",
+"Only in presidency towns"
+],
+"correct": 1,
+"explanation": "Limited circumstances / European jury option."
+},
+{
+"prompt": "Pre-1885 political activity was largely what in method?",
+"answers": [
+"Revolutionary",
+"Constitutional and petition-based",
+"Boycott-based",
+"Militant"
+],
+"correct": 1,
+"explanation": "Constitutional and petition-based."
+},
+{
+"prompt": "Congress was founded in the viceroyalty of?",
+"answers": [
+"Lytton",
+"Ripon",
+"Lord Dufferin",
+"Curzon"
+],
+"correct": 2,
+"explanation": "Lord Dufferin."
+},
+{
+"prompt": "A.O. Hume was a British what?",
+"answers": [
+"Viceroy",
+"Civil servant",
+"Judge",
+"General"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Who had been the first president of the INC?",
+"answers": [
+"Naoroji",
+"W.C. Bonnerjee",
+"Hume",
+"Surendranath"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "The Landholders' Society is often considered the first political association of what type in India?",
+"answers": [
+"Peasant",
+"Landlord / zamindar",
+"Worker",
+"Tribal"
+],
+"correct": 1,
+"explanation": "First political association of landlords."
+},
+{
+"prompt": "Where was the British India Association based?",
+"answers": [
+"Bombay",
+"Calcutta",
+"Madras",
+"Delhi"
+],
+"correct": 1,
+"explanation": "Based in Calcutta."
+},
+{
+"prompt": "Lytton's press law that targeted vernacular papers was?",
+"answers": [
+"Ilbert Bill",
+"Vernacular Press Act",
+"Rowlatt Act",
+"Press Act 1910"
+],
+"correct": 1,
+"explanation": "Vernacular Press Act 1878."
+},
+{
+"prompt": "Vernacular Press Act targeted which press?",
+"answers": [
+"English-language only",
+"Indian language (vernacular) newspapers",
+"Both equally",
+"Foreign press only"
+],
+"correct": 1,
+"explanation": "Indian language (vernacular) newspapers."
+},
+{
+"prompt": "Gokhale was a?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Bipin Chandra Pal was from?",
+"answers": [
+"Bengal",
+"Punjab",
+"Maharashtra",
+"Bombay"
+],
+"correct": 0,
+"explanation": "Bengal."
+},
+{
+"prompt": "East India Association was founded in London by?",
+"answers": [
+"Gokhale",
+"Dadabhai Naoroji",
+"Tilak",
+"Surendranath Banerjea"
+],
+"correct": 1,
+"explanation": "Dadabhai Naoroji (1866)."
+},
+{
+"prompt": "Indian Association Calcutta was associated with which year?",
+"answers": [
+"1851",
+"1876",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Indian Association (Calcutta) was founded in?",
+"answers": [
+"1851",
+"1876",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Indian Association of Calcutta was founded in?",
+"answers": [
+"1851",
+"1876",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1876."
+},
+{
+"prompt": "Tilak promoted which festival?",
+"answers": [
+"Diwali",
+"Ganesh Chaturthi",
+"Eid",
+"Holi"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Lal-Bal-Pal referred to?",
+"answers": [
+"Three viceroys",
+"Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal",
+"Three Moderates",
+"Three British officials"
+],
+"correct": 1,
+"explanation": "Lajpat Rai, Tilak, Bipin Chandra Pal."
+},
+{
+"prompt": "Who was associated with Servants of India Society?",
+"answers": [
+"Tilak",
+"Gokhale",
+"Naoroji",
+"Pal"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Moderates believed in?",
+"answers": [
+"Armed revolt",
+"Constitutional methods, petitions, and persuasion",
+"Boycott only",
+"Terrorism"
+],
+"correct": 1,
+"explanation": "Constitutional methods and persuasion."
+},
+{
+"prompt": "Which year was Vernacular Press Act repealed established?",
+"answers": [
+"1878",
+"1882",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Which year was the Landholders' Society formed?",
+"answers": [
+"1837",
+"1851",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Gokhale founded the?",
+"answers": [
+"Congress",
+"Servants of India Society",
+"Home Rule League",
+"Swadeshi Sabha"
+],
+"correct": 1,
+"explanation": "Servants of India Society (1905)."
+},
+{
+"prompt": "Congress was founded in the viceroyalty of?",
+"answers": [
+"Lytton",
+"Ripon",
+"Lord Dufferin",
+"Curzon"
+],
+"correct": 2,
+"explanation": "Lord Dufferin."
+},
+{
+"prompt": "'Safety valve' theory suggests Congress was created to?",
+"answers": [
+"Fight British",
+"Channel discontent into moderate, safe outlets",
+"Partition Bengal",
+"Support extremists"
+],
+"correct": 1,
+"explanation": "Channel discontent into moderate outlets."
+},
+{
+"prompt": "Who was associated with Ganesh Chaturthi festival?",
+"answers": [
+"Gokhale",
+"Tilak",
+"Pal",
+"Naoroji"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Extremists favoured?",
+"answers": [
+"Only petitions",
+"Self-reliance, Swadeshi, boycott, and assertive nationalism",
+"Only economic critique",
+"Loyalty only"
+],
+"correct": 1,
+"explanation": "Swadeshi, boycott, assertive nationalism."
+},
+{
+"prompt": "Which year was Poona Sarvajanik Sabha established?",
+"answers": [
+"1851",
+"1870",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Moderates demanded?",
+"answers": [
+"Immediate independence",
+"More representation, jobs, and economic justice",
+"Partition of Bengal",
+"Boycott of British goods only"
+],
+"correct": 1,
+"explanation": "Representation, jobs, economic justice."
+},
+{
+"prompt": "The Ilbert Bill was introduced in which year?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "A.O. Hume is credited with what role in the INC?",
+"answers": [
+"First president",
+"Founding/organising the Congress (founder)",
+"First Indian member",
+"First extremist leader"
+],
+"correct": 1,
+"explanation": "Founding/organising the Congress."
+},
+{
+"prompt": "Lytton's press law that targeted vernacular papers was?",
+"answers": [
+"Ilbert Bill",
+"Vernacular Press Act",
+"Rowlatt Act",
+"Press Act 1910"
+],
+"correct": 1,
+"explanation": "Vernacular Press Act 1878."
+},
+{
+"prompt": "Tilak's newspapers included?",
+"answers": [
+"The Bengalee",
+"Kesari (Marathi) and Mahratta (English)",
+"Young India",
+"Harijan"
+],
+"correct": 1,
+"explanation": "Kesari and Mahratta."
+},
+{
+"prompt": "Who introduced the Ilbert Bill?",
+"answers": [
+"Lord Ripon",
+"C.P. Ilbert (Law Member)",
+"Lord Curzon",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "C.P. Ilbert, Law Member."
+},
+{
+"prompt": "English-language press in India was largely exempt from?",
+"answers": [
+"All laws",
+"Vernacular Press Act (which targeted vernacular press)",
+"Ilbert Bill",
+"Partition"
+],
+"correct": 1,
+"explanation": "Vernacular Press Act targeted vernacular only."
+},
+{
+"prompt": "Bengal British India Society was formed in?",
+"answers": [
+"1837",
+"1843",
+"1851",
+"1885"
+],
+"correct": 1,
+"explanation": "1843."
+},
+{
+"prompt": "The Bombay Association was formed in?",
+"answers": [
+"1837",
+"1852",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1852."
+},
+{
+"prompt": "National Council of Education was set up during?",
+"answers": [
+"1885",
+"Swadeshi period (Bengal)",
+"1920",
+"1930"
+],
+"correct": 1,
+"explanation": "Swadeshi period in Bengal."
+},
+{
+"prompt": "Who had been associated with Partition annulled by?",
+"answers": [
+"Curzon",
+"Hardinge",
+"Ripon",
+"Lytton"
+],
+"correct": 1,
+"explanation": "Person recall."
+},
+{
+"prompt": "Dadabhai Naoroji became Congress president in which year?",
+"answers": [
+"1885",
+"1886",
+"1893 (and 1906)",
+"1905"
+],
+"correct": 2,
+"explanation": "1886, 1893, 1906."
+},
+{
+"prompt": "Servants of India Society was founded in?",
+"answers": [
+"1885",
+"1905",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Gopal Krishna Gokhale was a prominent?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Moderate leader."
+},
+{
+"prompt": "Who founded the Indian Association (Calcutta)?",
+"answers": [
+"Dadabhai Naoroji",
+"Surendranath Banerjea and Ananda Mohan Bose",
+"Tilak",
+"Gokhale"
+],
+"correct": 1,
+"explanation": "Surendranath Banerjea and Ananda Mohan Bose."
+},
+{
+"prompt": "Who repealed the Vernacular Press Act?",
+"answers": [
+"Lytton",
+"Lord Ripon",
+"Curzon",
+"Dufferin"
+],
+"correct": 1,
+"explanation": "Lord Ripon (1882)."
+},
+{
+"prompt": "Moderates demanded?",
+"answers": [
+"Immediate independence",
+"More representation, jobs, and economic justice",
+"Partition of Bengal",
+"Boycott of British goods only"
+],
+"correct": 1,
+"explanation": "Representation, jobs, economic justice."
+},
+{
+"prompt": "New province 'East Bengal and Assam' had its capital at?",
+"answers": [
+"Calcutta",
+"Dacca (Dhaka)",
+"Chittagong",
+"Shillong"
+],
+"correct": 1,
+"explanation": "Dacca (Dhaka)."
+},
+{
+"prompt": "Bal Gangadhar Tilak was from?",
+"answers": [
+"Bengal",
+"Punjab",
+"Maharashtra",
+"Madras"
+],
+"correct": 2,
+"explanation": "Maharashtra."
+},
+{
+"prompt": "'Safety valve' theory suggests Congress was created to?",
+"answers": [
+"Fight British",
+"Channel discontent into moderate, safe outlets",
+"Partition Bengal",
+"Support extremists"
+],
+"correct": 1,
+"explanation": "Channel discontent into moderate outlets."
+},
+{
+"prompt": "Who had been called 'Lion of Punjab'?",
+"answers": [
+"Tilak",
+"Lala Lajpat Rai",
+"Pal",
+"Gokhale"
+],
+"correct": 1,
+"explanation": "Lala Lajpat Rai."
+},
+{
+"prompt": "Vernacular Press Act was enacted in?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "Factual recall."
+},
+{
+"prompt": "National Council of Education was set up during?",
+"answers": [
+"1885",
+"Swadeshi period (Bengal)",
+"1920",
+"1930"
+],
+"correct": 1,
+"explanation": "Swadeshi period in Bengal."
+},
+{
+"prompt": "Landholders' Society was associated with which year?",
+"answers": [
+"1837",
+"1851",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Indian Association of Calcutta was founded in?",
+"answers": [
+"1851",
+"1876",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "1876."
+},
+{
+"prompt": "Partition of Bengal was annulled in?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "When was Annulment of Partition formed?",
+"answers": [
+"1907",
+"1911",
+"1916",
+"1920"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Partition of Bengal was announced by?",
+"answers": [
+"Lord Ripon",
+"Lord Curzon",
+"Lord Dufferin",
+"Lord Lytton"
+],
+"correct": 1,
+"explanation": "Lord Curzon."
+},
+{
+"prompt": "Pherozeshah Mehta was a prominent Moderate from?",
+"answers": [
+"Bengal",
+"Bombay",
+"Madras",
+"Punjab"
+],
+"correct": 1,
+"explanation": "Bombay."
+},
+{
+"prompt": "Who passed the Vernacular Press Act?",
+"answers": [
+"Lord Ripon",
+"Lord Lytton",
+"Lord Curzon",
+"Lord Dufferin"
+],
+"correct": 1,
+"explanation": "Lord Lytton."
+},
+{
+"prompt": "The first session of the Indian National Congress was in?",
+"answers": [
+"Calcutta",
+"Bombay",
+"Madras",
+"Delhi"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Surendranath Banerjea was a leading figure in?",
+"answers": [
+"Extremist camp",
+"Moderate camp (Bengal)",
+"Revolutionary movement",
+"Muslim League"
+],
+"correct": 1,
+"explanation": "Moderate camp in Bengal."
+},
+{
+"prompt": "The Indian Association aimed to promote what?",
+"answers": [
+"Only zamindar interests",
+"Public interest and political awareness",
+"Religious reform only",
+"Trade only"
+],
+"correct": 1,
+"explanation": "Public interest and political awareness."
+},
+{
+"prompt": "Pherozeshah Mehta was a prominent Moderate from?",
+"answers": [
+"Bengal",
+"Bombay",
+"Madras",
+"Punjab"
+],
+"correct": 1,
+"explanation": "Bombay."
+},
+{
+"prompt": "Who had been the first president of the INC?",
+"answers": [
+"Naoroji",
+"W.C. Bonnerjee",
+"Hume",
+"Surendranath"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Boycott movement targeted?",
+"answers": [
+"Only cloth",
+"British goods and sometimes institutions",
+"Only schools",
+"Only courts"
+],
+"correct": 1,
+"explanation": "British goods and sometimes institutions."
+},
+{
+"prompt": "Founding of INC was in?",
+"answers": [
+"1885",
+"1885 in Bombay",
+"1905",
+"1911"
+],
+"correct": 1,
+"explanation": "1885 in Bombay."
+},
+{
+"prompt": "What did the Ilbert Bill propose?",
+"answers": [
+"Press censorship",
+"Let Indian magistrates try Europeans in certain cases",
+"Partition Bengal",
+"Ban vernacular press"
+],
+"correct": 1,
+"explanation": "Indian magistrates try Europeans in certain cases."
+},
+{
+"prompt": "Madras Native Association was one of the early what?",
+"answers": [
+"Religious bodies",
+"Provincial political associations",
+"Trade unions",
+"Peasant fronts"
+],
+"correct": 1,
+"explanation": "Early provincial political association."
+},
+{
+"prompt": "East India Association was founded in London in?",
+"answers": [
+"1851",
+"1866",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "The Act required vernacular publishers to submit what?",
+"answers": [
+"Nothing",
+"Bonds and proofs for approval",
+"Only annual reports",
+"Subscription lists"
+],
+"correct": 1,
+"explanation": "Bonds and proofs for approval."
+},
+{
+"prompt": "New province 'East Bengal and Assam' had its capital at?",
+"answers": [
+"Calcutta",
+"Dacca (Dhaka)",
+"Chittagong",
+"Shillong"
+],
+"correct": 1,
+"explanation": "Dacca (Dhaka)."
+},
+{
+"prompt": "Extremists favoured?",
+"answers": [
+"Only petitions",
+"Swadeshi and boycott",
+"Loyalty only",
+"No agitation"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "When was East India Association London formed?",
+"answers": [
+"1851",
+"1866",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Strong opposition to the Ilbert Bill came from?",
+"answers": [
+"Indian nationalists",
+"European (British) community in India",
+"Muslim League",
+"Congress"
+],
+"correct": 1,
+"explanation": "European community in India."
+},
+{
+"prompt": "Dadabhai Naoroji wrote which book?",
+"answers": [
+"Poverty and Un-British Rule in India",
+"Gita Rahasya",
+"Hind Swaraj",
+"India Wins Freedom"
+],
+"correct": 0,
+"explanation": "Poverty and Un-British Rule in India."
+},
+{
+"prompt": "Lytton's press law that targeted vernacular papers was?",
+"answers": [
+"Ilbert Bill",
+"Vernacular Press Act",
+"Rowlatt Act",
+"Press Act 1910"
+],
+"correct": 1,
+"explanation": "Vernacular Press Act 1878."
+},
+{
+"prompt": "Which year was Poona Sarvajanik Sabha established?",
+"answers": [
+"1851",
+"1870",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Who annulled the Partition of Bengal?",
+"answers": [
+"Curzon",
+"Hardinge",
+"Montagu",
+"Chelmsford"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "After the Ilbert Bill compromise, Indian judges could try Europeans in?",
+"answers": [
+"All cases",
+"Only with European jury or in limited circumstances",
+"Never",
+"Only in presidency towns"
+],
+"correct": 1,
+"explanation": "Limited circumstances / European jury option."
+},
+{
+"prompt": "Pherozeshah Mehta was a prominent Moderate from?",
+"answers": [
+"Bengal",
+"Bombay",
+"Madras",
+"Punjab"
+],
+"correct": 1,
+"explanation": "Bombay."
+},
+{
+"prompt": "In what year was Partition of Bengal established?",
+"answers": [
+"1903",
+"1905",
+"1911",
+"1916"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "Gokhale was a?",
+"answers": [
+"Extremist",
+"Moderate",
+"Revolutionary",
+"Communal leader"
+],
+"correct": 1,
+"explanation": "Topic recall."
+},
+{
+"prompt": "Who founded the Landholders' Society?",
+"answers": [
+"Dadabhai Naoroji",
+"Dwarkanath Tagore and others",
+"A.O. Hume",
+"W.C. Bonnerjee"
+],
+"correct": 1,
+"explanation": "Dwarkanath Tagore among founders."
+},
+{
+"prompt": "In what year was Landholders' Society established?",
+"answers": [
+"1837",
+"1851",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "Year/fact recall."
+},
+{
+"prompt": "A.O. Hume was a retired British?",
+"answers": [
+"Viceroy",
+"Civil servant (ICS)",
+"Judge",
+"General"
+],
+"correct": 1,
+"explanation": "British civil servant (ICS)."
+},
+{
+"prompt": "Capital was shifted from Calcutta to Delhi in?",
+"answers": [
+"1905",
+"1911",
+"1916",
+"1931"
+],
+"correct": 1,
+"explanation": "1911 (alongside annulment)."
+},
+{
+"prompt": "Tilak's Marathi paper was?",
+"answers": [
+"Bengalee",
+"Kesari",
+"Young India",
+"Harijan"
+],
+"correct": 1,
+"explanation": "Factual recall."
+},
+{
+"prompt": "Vernacular Press Act was passed in?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 0,
+"explanation": "1878."
+},
+{
+"prompt": "Second session of the INC was held at?",
+"answers": [
+"Bombay",
+"Calcutta",
+"Madras",
+"Allahabad"
+],
+"correct": 1,
+"explanation": "Calcutta (1886)."
+},
+{
+"prompt": "In what year was Ilbert Bill established?",
+"answers": [
+"1878",
+"1883",
+"1885",
+"1905"
+],
+"correct": 1,
+"explanation": "Year/fact recall."
+}
+]

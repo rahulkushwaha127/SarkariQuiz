@@ -1,0 +1,3302 @@
+[
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Junagadh acceded to?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Independent",
+      "Hyderabad"
+    ],
+    "correct": 0,
+    "explanation": "India."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Directive Principles in?",
+    "answers": [
+      "Part III",
+      "Part IV",
+      "Part V",
+      "Part II"
+    ],
+    "correct": 1,
+    "explanation": "Part IV."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Preamble declares India as?",
+    "answers": [
+      "British Dominion",
+      "Sovereign Socialist Secular Democratic Republic",
+      "Only Democratic",
+      "Only Republic"
+    ],
+    "correct": 1,
+    "explanation": "Sovereign Socialist Secular Democratic Republic."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Kashmir ruler at accession?",
+    "answers": [
+      "Patel",
+      "Hari Singh",
+      "Sheikh Abdullah",
+      "Jinnah"
+    ],
+    "correct": 1,
+    "explanation": "Maharaja Hari Singh."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Constitution came into force on?",
+    "answers": [
+      "15 Aug 1947",
+      "26 Nov 1949",
+      "26 January 1950",
+      "26 Jan 1949"
+    ],
+    "correct": 2,
+    "explanation": "26 January 1950."
+  },
+  {
+    "prompt": "Operation Polo was against?",
+    "answers": [
+      "Junagadh",
+      "Hyderabad",
+      "Kashmir",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Hyderabad."
+  },
+  {
+    "prompt": "Constituent Assembly set up in?",
+    "answers": [
+      "1945",
+      "1946",
+      "1947",
+      "1950"
+    ],
+    "correct": 1,
+    "explanation": "1946."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Hyderabad was integrated by?",
+    "answers": [
+      "Plebiscite",
+      "Operation Polo",
+      "Referendum",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "Operation Polo (1948)."
+  },
+  {
+    "prompt": "Fundamental Rights in?",
+    "answers": [
+      "Part II",
+      "Part III",
+      "Part IV",
+      "Part V"
+    ],
+    "correct": 1,
+    "explanation": "Part III."
+  },
+  {
+    "prompt": "Integration of princely states was led by?",
+    "answers": [
+      "Nehru",
+      "Sardar Patel",
+      "Ambedkar",
+      "Mountbatten"
+    ],
+    "correct": 1,
+    "explanation": "Sardar Patel."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Republic Day is?",
+    "answers": [
+      "15 August",
+      "26 January",
+      "26 November",
+      "2 October"
+    ],
+    "correct": 1,
+    "explanation": "26 January."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  },
+  {
+    "prompt": "Kashmir acceded to India in?",
+    "answers": [
+      "1947",
+      "1948",
+      "1950",
+      "1946"
+    ],
+    "correct": 0,
+    "explanation": "1947."
+  },
+  {
+    "prompt": "Chairman of Drafting Committee?",
+    "answers": [
+      "Nehru",
+      "Patel",
+      "Dr B.R. Ambedkar",
+      "Rajendra Prasad"
+    ],
+    "correct": 2,
+    "explanation": "Dr B.R. Ambedkar."
+  }
+]
