@@ -16,6 +16,7 @@ class Question extends Model
         'difficulty',
         'subject_id',
         'topic_id',
+        'subtopic_id',
         'language',
         'content_source_key',
         'is_active',
@@ -34,6 +35,11 @@ class Question extends Model
     public function topic()
     {
         return $this->belongsTo(Topic::class);
+    }
+
+    public function subtopic()
+    {
+        return $this->belongsTo(Subtopic::class);
     }
 
     public function quizzes()

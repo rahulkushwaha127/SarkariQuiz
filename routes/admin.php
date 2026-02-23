@@ -14,6 +14,7 @@ use App\Http\Controllers\Admin\QuizModerationController;
 use App\Http\Controllers\Admin\PyqQuestionsController;
 use App\Http\Controllers\Admin\Taxonomy\ExamsController;
 use App\Http\Controllers\Admin\Taxonomy\SubjectsController;
+use App\Http\Controllers\Admin\Taxonomy\SubtopicsController;
 use App\Http\Controllers\Admin\Taxonomy\TopicsController;
 use App\Http\Controllers\Admin\UsersController;
 use App\Http\Controllers\Admin\PlansController;
@@ -144,6 +145,14 @@ Route::middleware(['auth', 'role:super_admin'])
             Route::patch('/topics/{topic}', [TopicsController::class, 'update'])->name('topics.update');
             Route::patch('/topics/{topic}/active', [TopicsController::class, 'toggleActive'])->name('topics.toggle_active');
             Route::delete('/topics/{topic}', [TopicsController::class, 'destroy'])->name('topics.destroy');
+
+            Route::get('/subtopics', [SubtopicsController::class, 'index'])->name('subtopics.index');
+            Route::get('/subtopics/create', [SubtopicsController::class, 'create'])->name('subtopics.create');
+            Route::post('/subtopics', [SubtopicsController::class, 'store'])->name('subtopics.store');
+            Route::get('/subtopics/{subtopic}/edit', [SubtopicsController::class, 'edit'])->name('subtopics.edit');
+            Route::patch('/subtopics/{subtopic}', [SubtopicsController::class, 'update'])->name('subtopics.update');
+            Route::patch('/subtopics/{subtopic}/active', [SubtopicsController::class, 'toggleActive'])->name('subtopics.toggle_active');
+            Route::delete('/subtopics/{subtopic}', [SubtopicsController::class, 'destroy'])->name('subtopics.destroy');
         });
     });
 

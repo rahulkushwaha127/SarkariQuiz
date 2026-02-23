@@ -11,5 +11,9 @@
        class="rounded-xl px-3 py-2 text-sm font-semibold {{ request()->routeIs('admin.taxonomy.topics.*') ? 'bg-slate-900 text-white' : 'border border-slate-200 bg-white text-slate-700 hover:bg-slate-50' }}">
         Topics
     </a>
+    <a href="{{ route('admin.taxonomy.subtopics.index') }}"
+       class="rounded-xl px-3 py-2 text-sm font-semibold {{ request()->routeIs('admin.taxonomy.subtopics.*') ? 'bg-slate-900 text-white' : 'border border-slate-200 bg-white text-slate-700 hover:bg-slate-50' }}">
+        Subtopics
+    </a>
 </div>
 

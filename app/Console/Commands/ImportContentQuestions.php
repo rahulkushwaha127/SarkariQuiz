@@ -6,6 +6,7 @@ use App\Models\Answer;
 use App\Models\Exam;
 use App\Models\Question;
 use App\Models\Subject;
+use App\Models\Subtopic;
 use App\Models\Topic;
 use App\Support\Slug;
 use Illuminate\Console\Command;
@@ -20,7 +21,7 @@ class ImportContentQuestions extends Command
                             {--language=hi : Language code for imported questions (e.g. en, hi)}
                             {--flush-subject= : Before import, delete all questions for this subject slug (e.g. computer-awareness)}';
 
-    protected $description = 'Import questions from content/*.json into the question bank (Subject/Topic/Question/Answer).';
+    protected $description = 'Import questions from content/*.json into the question bank (Subject/Topic/Subtopic/Question/Answer).';
 
     /** @var array<string, string> folder name => display name */
     private static array $subjectNameMap = [
@@ -92,16 +93,22 @@ class ImportContentQuestions extends Command
             $defaultLanguage = $this->option('language') ?: 'hi';
 
             // Path patterns:
-            // SUBJECT/file.json           -> subject only, no topic, language = --language
-            // SUBJECT/TOPIC/file.json     -> subject + topic, language = --language
-            // SUBJECT/LANG/file.json      -> subject + language from folder, no topic
-            // SUBJECT/LANG/TOPIC/file.json -> subject + language from folder + topic
+            // SUBJECT/file.json                  -> subject only, no topic, language = --language
+            // SUBJECT/TOPIC/file.json            -> subject + topic, language = --language
+            // SUBJECT/LANG/file.json             -> subject + language from folder, no topic
+            // SUBJECT/LANG/TOPIC/file.json       -> subject + language from folder + topic
+            // SUBJECT/LANG/TOPIC/SUBPTOPIC/file.json -> subject + language + topic + subtopic
             $topicFolder = null;
+            $subtopicFolder = null;
             $fileLanguage = $defaultLanguage;
             $secondSegment = $segments[1] ?? null;
             $isLanguageSegment = $secondSegment && in_array(strtolower($secondSegment), self::$languageFolderCodes, true);
 
-            if (count($segments) >= 4 && $isLanguageSegment) {
+            if (count($segments) >= 5 && $isLanguageSegment) {
+                $fileLanguage = strtolower($secondSegment);
+                $topicFolder = $segments[2] ?? null;
+                $subtopicFolder = $segments[3] ?? null;
+            } elseif (count($segments) >= 4 && $isLanguageSegment) {
                 $fileLanguage = strtolower($secondSegment);
                 $topicFolder = $segments[2] ?? null;
             } elseif (count($segments) >= 3) {
@@ -114,13 +121,16 @@ class ImportContentQuestions extends Command
 
             $subjectName = self::$subjectNameMap[$subjectFolder] ?? Str::title(str_replace('_', ' ', $subjectFolder));
             $topicName = $topicFolder ? Str::title(str_replace(['_', '&'], [' ', ' & '], $topicFolder)) : null;
+            $subtopicName = $subtopicFolder ? Str::title(str_replace(['_', '&'], [' ', ' & '], $subtopicFolder)) : null;
 
             $subject = $this->getOrCreateSubject($subjectName, $dryRun);
             $topic = $topicName && $subject ? $this->getOrCreateTopic($subject, $topicName, $dryRun) : null;
+            $subtopic = $subtopicName && $topic ? $this->getOrCreateSubtopic($topic, $subtopicName, $dryRun) : null;
 
             $fileBasename = pathinfo($relativePath, PATHINFO_FILENAME);
             $subjectSlug = $subject ? Slug::make($subjectName) : 'unknown';
             $topicSlug = $topicName ? Slug::make($topicName) : '_';
+            $subtopicSlug = $subtopicName ? Slug::make($subtopicName) : '_';
 
             $count = 0;
             $skipped = 0;
@@ -129,9 +139,11 @@ class ImportContentQuestions extends Command
                     $skipped++;
                     continue;
                 }
-                $contentSourceKey = "{$subjectSlug}/{$topicSlug}/{$fileBasename}/{$index}";
+                $contentSourceKey = $subtopicName
+                    ? "{$subjectSlug}/{$topicSlug}/{$subtopicSlug}/{$fileBasename}/{$index}"
+                    : "{$subjectSlug}/{$topicSlug}/{$fileBasename}/{$index}";
                 if (! $dryRun && $subject) {
-                    $this->createQuestion($item, $subject, $topic?->id, $fileLanguage, $contentSourceKey);
+                    $this->createQuestion($item, $subject, $topic?->id, $subtopic?->id, $fileLanguage, $contentSourceKey);
                 }
                 $count++;
             }
@@ -196,6 +208,21 @@ class ImportContentQuestions extends Command
         }
         return Topic::firstOrCreate(
             ['subject_id' => $subject->id, 'slug' => $slug],
+            ['name' => $name, 'is_active' => true, 'position' => 0]
+        );
+    }
+
+    private function getOrCreateSubtopic(Topic $topic, string $name, bool $dryRun): ?Subtopic
+    {
+        $slug = Slug::make($name);
+        if ($dryRun) {
+            return Subtopic::query()->firstOrNew(
+                ['topic_id' => $topic->id, 'slug' => $slug],
+                ['name' => $name]
+            );
+        }
+        return Subtopic::firstOrCreate(
+            ['topic_id' => $topic->id, 'slug' => $slug],
             ['name' => $name, 'is_active' => true, 'position' => 0]
         );
     }
@@ -279,7 +306,7 @@ class ImportContentQuestions extends Command
         };
     }
 
-    private function createQuestion(array $item, Subject $subject, ?int $topicId, string $language = 'en', ?string $contentSourceKey = null): void
+    private function createQuestion(array $item, Subject $subject, ?int $topicId, ?int $subtopicId, string $language = 'en', ?string $contentSourceKey = null): void
     {
         $isNewFormat = isset($item['question']) && $item['question'] !== '' && is_array($item['answers'] ?? null)
             && isset($item['answers'][0]) && is_array($item['answers'][0]) && array_key_exists('is_correct', $item['answers'][0]);
@@ -307,6 +334,7 @@ class ImportContentQuestions extends Command
             'difficulty' => $difficulty,
             'subject_id' => $subject->id,
             'topic_id' => $topicId,
+            'subtopic_id' => $subtopicId,
             'language' => $language,
             'content_source_key' => $contentSourceKey,
         ]);

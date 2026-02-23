@@ -5,12 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Topic extends Model
+class Subtopic extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'subject_id',
+        'topic_id',
         'name',
         'slug',
         'is_active',
@@ -22,19 +22,13 @@ class Topic extends Model
         'position' => 'integer',
     ];
 
-    public function subject()
+    public function topic()
     {
-        return $this->belongsTo(Subject::class);
+        return $this->belongsTo(Topic::class);
     }
 
-    public function subtopics()
+    public function questions()
     {
-        return $this->hasMany(Subtopic::class);
-    }
-
-    public function quizzes()
-    {
-        return $this->hasMany(Quiz::class);
+        return $this->hasMany(Question::class);
     }
 }
-
