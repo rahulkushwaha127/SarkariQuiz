@@ -1,0 +1,1498 @@
+[
+  {
+    "prompt": "Which Governor-General is most associated with the policy of annexation that angered Indians?",
+    "answers": [
+      "Lord Wellesley",
+      "Lord Dalhousie",
+      "Lord Hastings",
+      "Lord Cornwallis"
+    ],
+    "correct": 1,
+    "explanation": "Dalhousie (1848–56); Doctrine of Lapse and Awadh."
+  },
+  {
+    "prompt": "Lord Dalhousie was Governor-General from?",
+    "answers": [
+      "1842–1848",
+      "1848–1856",
+      "1856–1862",
+      "1836–1842"
+    ],
+    "correct": 1,
+    "explanation": "1848 to 1856."
+  },
+  {
+    "prompt": "The Doctrine of Lapse was first applied to which state?",
+    "answers": [
+      "Jhansi",
+      "Satara (1848)",
+      "Nagpur",
+      "Awadh"
+    ],
+    "correct": 1,
+    "explanation": "Satara (1848) under Dalhousie."
+  },
+  {
+    "prompt": "Udaipur was annexed under Doctrine of Lapse in?",
+    "answers": [
+      "1848",
+      "1852",
+      "1854",
+      "1856"
+    ],
+    "correct": 1,
+    "explanation": "1852."
+  },
+  {
+    "prompt": "Which princely state was NOT annexed under Doctrine of Lapse?",
+    "answers": [
+      "Satara",
+      "Awadh (annexed on misgovernment)",
+      "Jhansi",
+      "Nagpur"
+    ],
+    "correct": 1,
+    "explanation": "Awadh was annexed on grounds of misgovernment (1856)."
+  },
+  {
+    "prompt": "Subsidiary Alliance was introduced by?",
+    "answers": [
+      "Dalhousie",
+      "Lord Wellesley",
+      "Hastings",
+      "Cornwallis"
+    ],
+    "correct": 1,
+    "explanation": "Wellesley (late 18th–early 19th century)."
+  },
+  {
+    "prompt": "Under Subsidiary Alliance, the British provided troops and the state paid for them; this led to?",
+    "answers": [
+      "Prosperity",
+      "Debt and loss of autonomy",
+      "Independence",
+      "Only defence"
+    ],
+    "correct": 1,
+    "explanation": "States went into debt; ceded territory."
+  },
+  {
+    "prompt": "Awadh had been under Subsidiary Alliance since?",
+    "answers": [
+      "1856",
+      "1801",
+      "1850",
+      "1820"
+    ],
+    "correct": 1,
+    "explanation": "1801 (Wellesley)."
+  },
+  {
+    "prompt": "The annexation of Awadh in 1856 affected many sepoys because?",
+    "answers": [
+      "They were from Bengal",
+      "A large number of Bengal Army sepoys were from Awadh",
+      "Only officers",
+      "Only cavalry"
+    ],
+    "correct": 1,
+    "explanation": "Awadh was a major recruiting ground for sepoys."
+  },
+  {
+    "prompt": "Pension of Nana Saheb (Peshwa's adopted son) was stopped in?",
+    "answers": [
+      "1856",
+      "1851",
+      "1853",
+      "1848"
+    ],
+    "correct": 1,
+    "explanation": "1851 (no heir recognised)."
+  },
+  {
+    "prompt": "Baji Rao II was the last?",
+    "answers": [
+      "Mughal",
+      "Peshwa of the Maratha Confederacy",
+      "Nawab of Awadh",
+      "Raja of Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Last Peshwa (died 1851)."
+  },
+  {
+    "prompt": "Heavy land revenue in North India was a cause of discontent among?",
+    "answers": [
+      "Only zamindars",
+      "Peasants and zamindars (taluqdars in Awadh)",
+      "Only British",
+      "Only merchants"
+    ],
+    "correct": 1,
+    "explanation": "Revenue demands; taluqdars lost land in Awadh."
+  },
+  {
+    "prompt": "In Awadh, after annexation, the British settled land revenue with?",
+    "answers": [
+      "Taluqdars",
+      "Village proprietors (weakening taluqdars)",
+      "Only peasants",
+      "Only Nawab"
+    ],
+    "correct": 1,
+    "explanation": "Settlement with village leaders; taluqdars lost power."
+  },
+  {
+    "prompt": "Destruction of Indian handicrafts and deindustrialisation caused?",
+    "answers": [
+      "Prosperity",
+      "Unemployment and poverty (weavers, artisans)",
+      "Only rural distress",
+      "Only urban"
+    ],
+    "correct": 1,
+    "explanation": "Artisans and weavers ruined; joined revolt."
+  },
+  {
+    "prompt": "The Enfield rifle was introduced in the Indian army in?",
+    "answers": [
+      "1855",
+      "1856–1857",
+      "1854",
+      "1858"
+    ],
+    "correct": 1,
+    "explanation": "1856–57; new cartridge caused rumour."
+  },
+  {
+    "prompt": "Sepoys had to bite the cartridge to load the Enfield rifle; the rumour was that the cartridge was greased with?",
+    "answers": [
+      "Wax",
+      "Beef and pork fat",
+      "Only oil",
+      "Only lard"
+    ],
+    "correct": 1,
+    "explanation": "Beef (Hindu) and pork (Muslim) fat."
+  },
+  {
+    "prompt": "Which religious group was offended by the cow fat rumour?",
+    "answers": [
+      "Only Muslims",
+      "Hindus (cow sacred)",
+      "Only Christians",
+      "Only Sikhs"
+    ],
+    "correct": 1,
+    "explanation": "Hindus (cow sacred)."
+  },
+  {
+    "prompt": "Which religious group was offended by the pig fat rumour?",
+    "answers": [
+      "Only Hindus",
+      "Muslims (pig unclean)",
+      "Only Sikhs",
+      "Only Christians"
+    ],
+    "correct": 1,
+    "explanation": "Muslims (pig unclean)."
+  },
+  {
+    "prompt": "The General Service Enlistment Act (1856) required new recruits to?",
+    "answers": [
+      "Serve only in India",
+      "Serve overseas if required",
+      "Only in Bengal",
+      "Only in cavalry"
+    ],
+    "correct": 1,
+    "explanation": "Serve abroad; crossed sea = loss of caste for many."
+  },
+  {
+    "prompt": "Sepoys from upper castes feared that serving overseas would?",
+    "answers": [
+      "Promote them",
+      "Make them lose caste (crossing 'black water')",
+      "Only delay promotion",
+      "Only reduce pay"
+    ],
+    "correct": 1,
+    "explanation": "Kala pani (black water); loss of caste."
+  },
+  {
+    "prompt": "Racial discrimination in the army included?",
+    "answers": [
+      "Equal pay",
+      "Indians could not become commissioned officers; lower pay",
+      "Only in Bengal",
+      "Only after 1857"
+    ],
+    "correct": 1,
+    "explanation": "No Indian could be commissioned officer; racial hierarchy."
+  },
+  {
+    "prompt": "Missionary activity and spread of Christianity were resented by?",
+    "answers": [
+      "Only British",
+      "Conservative Hindus and Muslims",
+      "Only peasants",
+      "Only princes"
+    ],
+    "correct": 1,
+    "explanation": "Fear of conversion; interference in religion."
+  },
+  {
+    "prompt": "Abolition of Sati (1829) was seen by some as?",
+    "answers": [
+      "Welcome",
+      "British interference in Hindu religion",
+      "Only in Bengal",
+      "Only legal"
+    ],
+    "correct": 1,
+    "explanation": "Conservative sections resented interference."
+  },
+  {
+    "prompt": "Widow Remarriage Act was passed in?",
+    "answers": [
+      "1829",
+      "1856",
+      "1857",
+      "1848"
+    ],
+    "correct": 1,
+    "explanation": "1856 (Ishwar Chandra Vidyasagar)."
+  },
+  {
+    "prompt": "The Bengal Army was recruited largely from?",
+    "answers": [
+      "Madras",
+      "Awadh, Bihar, and North India",
+      "Punjab",
+      "South India"
+    ],
+    "correct": 1,
+    "explanation": "Awadh and Bihari Brahmins and Rajputs."
+  },
+  {
+    "prompt": "How many soldiers of the Bengal Army rebelled or were disarmed?",
+    "answers": [
+      "About one-third",
+      "Over half (around 70,000+)",
+      "Only 1000",
+      "Only 10,000"
+    ],
+    "correct": 1,
+    "explanation": "Large proportion of Bengal Army mutinied."
+  },
+  {
+    "prompt": "The 34th Bengal Native Infantry was disbanded after?",
+    "answers": [
+      "Meerut",
+      "Barrackpore (refusal to use cartridges)",
+      "Delhi",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Refused cartridges at Barrackpore; disbanded."
+  },
+  {
+    "prompt": "At Barrackpore, who attacked Lieutenant Baugh?",
+    "answers": [
+      "British soldier",
+      "Mangal Pandey",
+      "Tantia Tope",
+      "Nana Saheb"
+    ],
+    "correct": 1,
+    "explanation": "Mangal Pandey (29 March 1857)."
+  },
+  {
+    "prompt": "Mangal Pandey belonged to which regiment?",
+    "answers": [
+      "34th BNI",
+      "19th Bengal Native Infantry",
+      "3rd Cavalry",
+      "11th BNI"
+    ],
+    "correct": 1,
+    "explanation": "19th BNI (Barrackpore)."
+  },
+  {
+    "prompt": "The rumour about greased cartridges spread from?",
+    "answers": [
+      "Bombay",
+      "Barrackpore/Dum Dum (Bengal)",
+      "Delhi",
+      "Meerut"
+    ],
+    "correct": 1,
+    "explanation": "Dum Dum arsenal; Barrackpore; spread to Meerut."
+  },
+  {
+    "prompt": "Dum Dum is near?",
+    "answers": [
+      "Delhi",
+      "Calcutta",
+      "Meerut",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Near Calcutta (arsenal)."
+  },
+  {
+    "prompt": "Economic drain of wealth from India was highlighted by?",
+    "answers": [
+      "British only",
+      "Dadabhai Naoroji (later); contemporaries felt exploitation",
+      "Only after 1857",
+      "Only Congress"
+    ],
+    "correct": 1,
+    "explanation": "Drain theory (later); revenue and trade drained India."
+  },
+  {
+    "prompt": "High revenue demand in Ryotwari and Mahalwari areas led to?",
+    "answers": [
+      "Prosperity",
+      "Peasant debt and loss of land",
+      "Only zamindar gain",
+      "Only British gain"
+    ],
+    "correct": 1,
+    "explanation": "Peasants lost land; moneylenders."
+  },
+  {
+    "prompt": "Dispossessed taluqdars in Awadh joined the revolt because?",
+    "answers": [
+      "They supported British",
+      "They had lost land and status after annexation",
+      "Only peasants asked",
+      "Only Nana asked"
+    ],
+    "correct": 1,
+    "explanation": "Land revenue settlement had reduced their power."
+  },
+  {
+    "prompt": "The revolt was not supported by?",
+    "answers": [
+      "Peasants",
+      "Most of the educated Bengali middle class",
+      "Sepoys",
+      "Dispossessed rulers"
+    ],
+    "correct": 1,
+    "explanation": "Bengal intelligentsia largely remained loyal."
+  },
+  {
+    "prompt": "Sind and Punjab did not revolt mainly because?",
+    "answers": [
+      "They were independent",
+      "Recently conquered; British had strong presence; Sikhs recruited",
+      "Only Sikhs",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "Recently annexed; British strength; Sikh troops loyal."
+  },
+  {
+    "prompt": "Madras and Bombay armies remained largely loyal because?",
+    "answers": [
+      "They had more British officers",
+      "Different composition; less affected by Awadh/Doctrine of Lapse",
+      "Only smaller",
+      "Only better paid"
+    ],
+    "correct": 1,
+    "explanation": "Different recruitment; less grievance."
+  },
+  {
+    "prompt": "The cartridge had to be bitten to?",
+    "answers": [
+      "Release powder",
+      "Open the cartridge and pour powder (before loading)",
+      "Only load",
+      "Only fire"
+    ],
+    "correct": 1,
+    "explanation": "Sepoys had to bite to open; grease touched lips."
+  },
+  {
+    "prompt": "Who was the Commander-in-Chief in India when the revolt broke out?",
+    "answers": [
+      "Nicholson",
+      "General George Anson (died May 1857)",
+      "Campbell",
+      "Havelock"
+    ],
+    "correct": 1,
+    "explanation": "Anson (died of cholera May 1857)."
+  },
+  {
+    "prompt": "The revolt has been described as both 'mutiny' and 'rebellion' because?",
+    "answers": [
+      "Only soldiers rebelled",
+      "It began as military mutiny but involved civilians and princes",
+      "Only princes",
+      "Only peasants"
+    ],
+    "correct": 1,
+    "explanation": "Mutiny (army) + popular/princely rebellion."
+  },
+  {
+    "prompt": "Political cause of the revolt included?",
+    "answers": [
+      "Only cartridges",
+      "Annexations (Doctrine of Lapse, Awadh), pension stopped (Nana)",
+      "Only revenue",
+      "Only army"
+    ],
+    "correct": 1,
+    "explanation": "Dispossession of princes and aristocracy."
+  },
+  {
+    "prompt": "Which of these was a military cause?",
+    "answers": [
+      "Doctrine of Lapse",
+      "Greased cartridges and service conditions",
+      "Only Awadh",
+      "Only revenue"
+    ],
+    "correct": 1,
+    "explanation": "Cartridges; GSEA; racial discrimination."
+  },
+  {
+    "prompt": "The British believed the revolt was primarily?",
+    "answers": [
+      "A national war",
+      "A mutiny fuelled by rumours and discontent",
+      "Only peasant",
+      "Only princely"
+    ],
+    "correct": 1,
+    "explanation": "Official view: mutiny; not national."
+  },
+  {
+    "prompt": "Indian nationalists later viewed the revolt as?",
+    "answers": [
+      "Only mutiny",
+      "First war of independence / national uprising",
+      "Only sepoy",
+      "Only British propaganda"
+    ],
+    "correct": 1,
+    "explanation": "First war of independence (Savarkar etc.)."
+  },
+  {
+    "prompt": "The number of Indian states annexed under Dalhousie was?",
+    "answers": [
+      "Two",
+      "Several (Satara, Jhansi, Nagpur, Sambalpur, Udaipur, etc.)",
+      "Only one",
+      "Only Awadh"
+    ],
+    "correct": 1,
+    "explanation": "Eight or more states/territories."
+  },
+  {
+    "prompt": "Berar was taken from the Nizam in?",
+    "answers": [
+      "1856",
+      "1853",
+      "1854",
+      "1857"
+    ],
+    "correct": 1,
+    "explanation": "1853 (debt; Nizam ceded Berar)."
+  },
+  {
+    "prompt": "The annexation of Jhansi (1853) deprived Rani Lakshmibai of?",
+    "answers": [
+      "Only title",
+      "Rights to rule; pension reduced; adopted son not recognised",
+      "Only son",
+      "Only army"
+    ],
+    "correct": 1,
+    "explanation": "Doctrine of Lapse; Damodar Rao not heir."
+  },
+  {
+    "prompt": "Rani Lakshmibai's husband was?",
+    "answers": [
+      "Raja of Gwalior",
+      "Raja Gangadhar Rao (Jhansi)",
+      "Nana Saheb",
+      "Tantia Tope"
+    ],
+    "correct": 1,
+    "explanation": "Gangadhar Rao (died 1853)."
+  },
+  {
+    "prompt": "The British introduced a new rifle pattern in the 1850s that required?",
+    "answers": [
+      "Only cleaning",
+      "Biting the cartridge (paper with grease)",
+      "Only loading",
+      "Only bayonet"
+    ],
+    "correct": 1,
+    "explanation": "Paper cartridge had to be bitten; grease rumour."
+  },
+  {
+    "prompt": "After Mangal Pandey's execution, unrest spread to?",
+    "answers": [
+      "Only Barrackpore",
+      "Meerut and other cantonments",
+      "Only Delhi",
+      "Only Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Meerut next; then Delhi and beyond."
+  },
+  {
+    "prompt": "The 7th Awadh Irregular Infantry refused cartridges at?",
+    "answers": [
+      "Delhi",
+      "Lucknow (May 1857)",
+      "Meerut",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Lucknow (3 May 1857); disarmed."
+  },
+  {
+    "prompt": "At Meerut, which regiments mutinied?",
+    "answers": [
+      "Only one",
+      "3rd Light Cavalry, 11th and 20th Native Infantry",
+      "Only cavalry",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "3rd Cavalry, 11th and 20th BNI."
+  },
+  {
+    "prompt": "The Meerut mutineers marched to Delhi covering the distance in?",
+    "answers": [
+      "Days",
+      "About a day (overnight)",
+      "A week",
+      "Hours only"
+    ],
+    "correct": 1,
+    "explanation": "Night of 10–11 May; reached Delhi next day."
+  },
+  {
+    "prompt": "Who was the Lieutenant-Governor of North-Western Provinces at the time of the revolt?",
+    "answers": [
+      "Canning",
+      "Colvin (at Agra)",
+      "Lawrence",
+      "Neill"
+    ],
+    "correct": 1,
+    "explanation": "John Russell Colvin (Agra)."
+  },
+  {
+    "prompt": "The revolt was at its peak in?",
+    "answers": [
+      "1858",
+      "1857 (May–December)",
+      "1859",
+      "1856"
+    ],
+    "correct": 1,
+    "explanation": "1857; spread through summer and monsoon."
+  },
+  {
+    "prompt": "No single central leadership meant?",
+    "answers": [
+      "British could not find rebels",
+      "Rebels had no unified command; local leaders",
+      "Only Delhi mattered",
+      "Only Nana mattered"
+    ],
+    "correct": 1,
+    "explanation": "No unified strategy; localised revolt."
+  },
+  {
+    "prompt": "Bahadur Shah Zafar was a?",
+    "answers": [
+      "Young ruler",
+      "Elderly poet-king; figurehead",
+      "Military leader",
+      "British ally"
+    ],
+    "correct": 1,
+    "explanation": "Elderly; symbolic head; not military leader."
+  },
+  {
+    "prompt": "The rebels at Delhi had weak?",
+    "answers": [
+      "Numbers",
+      "Organisation and artillery; British had better arms",
+      "Only cavalry",
+      "Only infantry"
+    ],
+    "correct": 1,
+    "explanation": "Less organised; British had siege train."
+  },
+  {
+    "prompt": "British received reinforcements from?",
+    "answers": [
+      "Only Bengal",
+      "Punjab (Sikh and British troops), England, Iran",
+      "Only England",
+      "Only Madras"
+    ],
+    "correct": 1,
+    "explanation": "Punjab crucial; siege train from Punjab."
+  },
+  {
+    "prompt": "The telegraph line was cut by rebels in many places, which?",
+    "answers": [
+      "Helped British",
+      "Delayed British coordination but also rebel coordination",
+      "Only helped rebels",
+      "Only delayed British"
+    ],
+    "correct": 1,
+    "explanation": "Both sides affected; British restored lines."
+  },
+  {
+    "prompt": "Railways and telegraph had been built by?",
+    "answers": [
+      "Indians",
+      "British (Dalhousie period); helped British move troops",
+      "Only after 1857",
+      "Only in South"
+    ],
+    "correct": 1,
+    "explanation": "Railways from 1853; helped British logistics."
+  },
+  {
+    "prompt": "Permanent Settlement (1793) had fixed revenue in?",
+    "answers": [
+      "North India",
+      "Bengal, Bihar, Orissa",
+      "Punjab",
+      "Awadh"
+    ],
+    "correct": 1,
+    "explanation": "Bengal; zamindars; high demand initially."
+  },
+  {
+    "prompt": "Ryotwari system was in?",
+    "answers": [
+      "Bengal",
+      "Madras and Bombay",
+      "Awadh",
+      "Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Madras, Bombay; revenue from ryots."
+  },
+  {
+    "prompt": "Mahalwari system was in?",
+    "answers": [
+      "Bengal",
+      "North-Western Provinces, Punjab",
+      "Madras",
+      "Bombay"
+    ],
+    "correct": 1,
+    "explanation": "North India; village/mahal basis."
+  },
+  {
+    "prompt": "Resumption of rent-free lands (lakhiraj) by British affected?",
+    "answers": [
+      "Only British",
+      "Hindu religious and charitable holders; created resentment",
+      "Only Muslims",
+      "Only peasants"
+    ],
+    "correct": 1,
+    "explanation": "Resumption of revenue-free grants."
+  },
+  {
+    "prompt": "The revolt was largely confined to the?",
+    "answers": [
+      "Coastal regions",
+      "Gangetic plain and Central India",
+      "South India",
+      "North-East"
+    ],
+    "correct": 1,
+    "explanation": "UP, Bihar, MP, Delhi, Rajasthan."
+  },
+  {
+    "prompt": "Scindia (Gwalior) and Holkar (Indore) initially?",
+    "answers": [
+      "Rebelled",
+      "Remained loyal to British (later Gwalior troops joined rebels)",
+      "Only Scindia rebelled",
+      "Only Holkar rebelled"
+    ],
+    "correct": 1,
+    "explanation": "Maratha rulers loyal; Gwalior troops later joined Rani."
+  },
+  {
+    "prompt": "The Kingdom of Nepal helped the British by?",
+    "answers": [
+      "Rebelling",
+      "Sending Gurkha troops to suppress revolt",
+      "Staying neutral",
+      "Only moral support"
+    ],
+    "correct": 1,
+    "explanation": "Gurkhas fought for British (e.g. Lucknow)."
+  },
+  {
+    "prompt": "Jang Bahadur of Nepal sent Gurkha forces to aid British in?",
+    "answers": [
+      "Delhi",
+      "Lucknow and North India",
+      "Kanpur only",
+      "Jhansi only"
+    ],
+    "correct": 1,
+    "explanation": "Gurkha contingent; Lucknow campaign."
+  },
+  {
+    "prompt": "The revolt lacked?",
+    "answers": [
+      "Soldiers",
+      "Unity, common programme, and modern weapons",
+      "Only leaders",
+      "Only peasants"
+    ],
+    "correct": 1,
+    "explanation": "No single aim; feudal and local leaders."
+  },
+  {
+    "prompt": "Rebel forces often fought with?",
+    "answers": [
+      "Modern rifles only",
+      "Mix of old muskets, swords, and captured arms",
+      "Only British arms",
+      "Only artillery"
+    ],
+    "correct": 1,
+    "explanation": "Limited modern arms; captured some."
+  },
+  {
+    "prompt": "The British had advantage in?",
+    "answers": [
+      "Numbers only",
+      "Discipline, telegraph, railways, reinforcements from Punjab",
+      "Only cavalry",
+      "Only Delhi"
+    ],
+    "correct": 1,
+    "explanation": "Technology, logistics, loyal troops."
+  },
+  {
+    "prompt": "Who was the Governor-General when the revolt broke out?",
+    "answers": [
+      "Dalhousie",
+      "Lord Canning",
+      "Lord Ellenborough",
+      "Lord Hardinge"
+    ],
+    "correct": 1,
+    "explanation": "Lord Canning (1856–1862)."
+  },
+  {
+    "prompt": "Lord Canning had succeeded?",
+    "answers": [
+      "Lord Hastings",
+      "Lord Dalhousie",
+      "Lord Wellesley",
+      "Lord Cornwallis"
+    ],
+    "correct": 1,
+    "explanation": "Succeeded Dalhousie in 1856."
+  },
+  {
+    "prompt": "The 'Whites' (British women and children) killed at Kanpur became?",
+    "answers": [
+      "Forgotten",
+      "Symbol of British revenge (Bibighar)",
+      "Only reported in India",
+      "Only in Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Bibighar massacre; used to justify harsh reprisals."
+  },
+  {
+    "prompt": "Colonel James Neill was known for?",
+    "answers": [
+      "Leniency",
+      "Harsh punishment at Allahabad and Kanpur",
+      "Only Delhi",
+      "Only Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Brutal reprisals; 'Neill's gallows'."
+  },
+  {
+    "prompt": "The siege of Delhi lasted roughly?",
+    "answers": [
+      "One week",
+      "About four months (June–September 1857)",
+      "One month",
+      "Six months"
+    ],
+    "correct": 1,
+    "explanation": "June to September 1857."
+  },
+  {
+    "prompt": "Kashmir did not revolt because?",
+    "answers": [
+      "It was independent",
+      "Maharaja of Kashmir supported British; distant",
+      "Only Muslims",
+      "Only Sikhs"
+    ],
+    "correct": 1,
+    "explanation": "Gulab Singh loyal; Kashmir quiet."
+  },
+  {
+    "prompt": "Rajputana (Rajasthan) saw?",
+    "answers": [
+      "Full revolt",
+      "Mixed; some states loyal (e.g. Jaipur), some rebels",
+      "No revolt",
+      "Only Marwar"
+    ],
+    "correct": 1,
+    "explanation": "Some princes loyal; local outbreaks."
+  },
+  {
+    "prompt": "The revolt in Bihar was led by?",
+    "answers": [
+      "Nana Saheb",
+      "Kunwar Singh (and Amar Singh)",
+      "Rani Lakshmibai",
+      "Tantia Tope"
+    ],
+    "correct": 1,
+    "explanation": "Kunwar Singh; Jagdishpur."
+  },
+  {
+    "prompt": "Kunwar Singh's brother was?",
+    "answers": [
+      "Tantia Tope",
+      "Amar Singh (also fought)",
+      "Nana Saheb",
+      "Bakht Khan"
+    ],
+    "correct": 1,
+    "explanation": "Amar Singh continued after Kunwar's death."
+  },
+  {
+    "prompt": "The British used 'flying columns' to?",
+    "answers": [
+      "Build railways",
+      "Move fast and suppress revolt in different areas",
+      "Only defend",
+      "Only in Delhi"
+    ],
+    "correct": 1,
+    "explanation": "Mobile forces; quick suppression."
+  },
+  {
+    "prompt": "Reward for loyalty: princes who helped British were?",
+    "answers": [
+      "Punished",
+      "Rewarded (land, titles, privileges)",
+      "Only thanked",
+      "Only given medals"
+    ],
+    "correct": 1,
+    "explanation": "Princes rewarded; policy after 1858."
+  },
+  {
+    "prompt": "The revolt strengthened British belief in?",
+    "answers": [
+      "Withdrawing",
+      "Divide and rule; favouring princes and 'martial races'",
+      "Only army",
+      "Only annexation"
+    ],
+    "correct": 1,
+    "explanation": "Divide and rule; loyal princes; martial races."
+  },
+  {
+    "prompt": "Resumption of lakhiraj (rent-free) lands affected?",
+    "answers": [
+      "Only British",
+      "Religious and charitable landholders",
+      "Only Muslims",
+      "Only peasants"
+    ],
+    "correct": 1,
+    "explanation": "Resumption of revenue-free grants."
+  },
+  {
+    "prompt": "Who was Governor-General when revolt broke out?",
+    "answers": [
+      "Dalhousie",
+      "Lord Canning",
+      "Hardinge",
+      "Ellenborough"
+    ],
+    "correct": 1,
+    "explanation": "Lord Canning (1856–62)."
+  },
+  {
+    "prompt": "Colonel Neill was known for?",
+    "answers": [
+      "Leniency",
+      "Harsh reprisals at Allahabad and Kanpur",
+      "Only Delhi",
+      "Only Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Brutal punishment; Neill's gallows."
+  },
+  {
+    "prompt": "Siege of Delhi lasted roughly?",
+    "answers": [
+      "One week",
+      "About four months (June–Sept 1857)",
+      "One month",
+      "Six months"
+    ],
+    "correct": 1,
+    "explanation": "June to September 1857."
+  },
+  {
+    "prompt": "Bibighar massacre became symbol of?",
+    "answers": [
+      "Rebel victory",
+      "British justification for harsh revenge",
+      "Only Kanpur",
+      "Only Nana"
+    ],
+    "correct": 1,
+    "explanation": "British used it to justify reprisals."
+  },
+  {
+    "prompt": "Rebels at Delhi had weak?",
+    "answers": [
+      "Numbers",
+      "Organisation and modern artillery",
+      "Only cavalry",
+      "Only infantry"
+    ],
+    "correct": 1,
+    "explanation": "Less organised; British had siege train."
+  },
+  {
+    "prompt": "The 1857 revolt is sometimes called the 'Great Rebellion' because?",
+    "answers": [
+      "Only soldiers rebelled",
+      "Scale and spread; not just military",
+      "Only British term",
+      "Only in India"
+    ],
+    "correct": 1,
+    "explanation": "Widespread; popular element."
+  },
+  {
+    "prompt": "Subsidiary Alliance had left many states?",
+    "answers": [
+      "Strong",
+      "In debt and dependent",
+      "Independent",
+      "Only allied"
+    ],
+    "correct": 1,
+    "explanation": "Heavy subsidy; loss of autonomy."
+  },
+  {
+    "prompt": "Awadh was a major recruiting ground for?",
+    "answers": [
+      "Madras Army",
+      "Bengal Army sepoys",
+      "Bombay Army",
+      "Sikh regiments"
+    ],
+    "correct": 1,
+    "explanation": "One-third or more of Bengal Army from Awadh."
+  },
+  {
+    "prompt": "After Awadh annexation, taluqdars lost?",
+    "answers": [
+      "Nothing",
+      "Land and status (revenue settlement)",
+      "Only title",
+      "Only troops"
+    ],
+    "correct": 1,
+    "explanation": "Village settlement bypassed them."
+  },
+  {
+    "prompt": "The Enfield rifle was introduced to?",
+    "answers": [
+      "Replace muskets",
+      "Replace old Brown Bess; better range",
+      "Only cavalry",
+      "Only artillery"
+    ],
+    "correct": 1,
+    "explanation": "New weapon; paper cartridge."
+  },
+  {
+    "prompt": "Dum Dum arsenal was near?",
+    "answers": [
+      "Delhi",
+      "Calcutta",
+      "Meerut",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Calcutta; cartridge rumour spread from here."
+  },
+  {
+    "prompt": "The rumour about cartridges was that biting would?",
+    "answers": [
+      "Improve aim",
+      "Defile caste and religion",
+      "Only hurt",
+      "Only taste bad"
+    ],
+    "correct": 1,
+    "explanation": "Loss of caste; sin for Hindus/Muslims."
+  },
+  {
+    "prompt": "General Service Enlistment Act was passed in?",
+    "answers": [
+      "1855",
+      "1856",
+      "1857",
+      "1854"
+    ],
+    "correct": 1,
+    "explanation": "1856; overseas service."
+  },
+  {
+    "prompt": "High-caste sepoys feared 'kala pani' meant?",
+    "answers": [
+      "Sea voyage",
+      "Crossing sea (loss of caste)",
+      "Only ship",
+      "Only prison"
+    ],
+    "correct": 1,
+    "explanation": "Black water; crossing ocean."
+  },
+  {
+    "prompt": "Jagirdars and zamindars who lost land due to revenue policies joined?",
+    "answers": [
+      "British",
+      "Rebels in some areas",
+      "Only stayed neutral",
+      "Only fled"
+    ],
+    "correct": 1,
+    "explanation": "Dispossessed landlords; Awadh, etc."
+  },
+  {
+    "prompt": "The revolt was not a full 'national' movement because?",
+    "answers": [
+      "No Indians joined",
+      "Limited to North/Central; no single leader or programme",
+      "Only peasants",
+      "Only soldiers"
+    ],
+    "correct": 1,
+    "explanation": "Regional; feudal; no modern nationalism."
+  },
+  {
+    "prompt": "Bengal's educated class largely?",
+    "answers": [
+      "Rebelled",
+      "Remained loyal or neutral",
+      "Only supported rebels",
+      "Only fled"
+    ],
+    "correct": 1,
+    "explanation": "Loyal; reformist; no revolt in Bengal."
+  },
+  {
+    "prompt": "The press in Britain reported the revolt as?",
+    "answers": [
+      "Freedom struggle",
+      "Mutiny and atrocities",
+      "Only war",
+      "Only rebellion"
+    ],
+    "correct": 1,
+    "explanation": "Mutiny; massacre of British."
+  },
+  {
+    "prompt": "Dalhousie's railway and telegraph projects helped British during revolt by?",
+    "answers": [
+      "Slowing them",
+      "Moving troops and messages fast",
+      "Only telegraph",
+      "Only railway"
+    ],
+    "correct": 1,
+    "explanation": "Logistics; coordination."
+  },
+  {
+    "prompt": "The revolt broke out in the 100th year after?",
+    "answers": [
+      "Plassey (1757)",
+      "Buxar (1764)",
+      "Pitt's Act (1784)",
+      "Cornwallis"
+    ],
+    "correct": 0,
+    "explanation": "Some saw 1857 as centenary of Plassey."
+  },
+  {
+    "prompt": "Chapatis and lotus were circulated before the revolt; they signalled?",
+    "answers": [
+      "Peace",
+      "Unrest and coordination (symbolic)",
+      "Only food",
+      "Only religion"
+    ],
+    "correct": 1,
+    "explanation": "Mysterious circulation; possible signal."
+  },
+  {
+    "prompt": "The Bengal Army had how many Indian soldiers roughly before revolt?",
+    "answers": [
+      "10,000",
+      "Over 130,000",
+      "50,000",
+      "200,000"
+    ],
+    "correct": 1,
+    "explanation": "Large force; many mutinied."
+  },
+  {
+    "prompt": "Oudh (Awadh) was annexed on grounds of?",
+    "answers": [
+      "Doctrine of Lapse",
+      "Misgovernment",
+      "Rebellion",
+      "Treaty breach"
+    ],
+    "correct": 1,
+    "explanation": "Misgovernment of Wajid Ali Shah."
+  },
+  {
+    "prompt": "Pension of Baji Rao II's successor was stopped because?",
+    "answers": [
+      "He rebelled",
+      "Adopted son not recognised (Nana)",
+      "Only debt",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "Doctrine of Lapse; Nana."
+  },
+  {
+    "prompt": "Weavers and artisans suffered due to?",
+    "answers": [
+      "British support",
+      "British imports; deindustrialisation",
+      "Only taxes",
+      "Only revolt"
+    ],
+    "correct": 1,
+    "explanation": "Cheap British goods; decline of handicrafts."
+  },
+  {
+    "prompt": "The revolt had no clear political programme like?",
+    "answers": [
+      "Violence",
+      "Independence or constitution (modern)",
+      "Only loyalty",
+      "Only religion"
+    ],
+    "correct": 1,
+    "explanation": "Feudal/religious; no modern nationalism."
+  },
+  {
+    "prompt": "Rebel proclamations appealed to?",
+    "answers": [
+      "Only British",
+      "Religion, king, land (traditional)",
+      "Only peasants",
+      "Only army"
+    ],
+    "correct": 1,
+    "explanation": "Bahadur Shah; faith; land."
+  },
+  {
+    "prompt": "The British had better?",
+    "answers": [
+      "Numbers",
+      "Weapons, discipline, logistics",
+      "Only cavalry",
+      "Only leaders"
+    ],
+    "correct": 1,
+    "explanation": "Technology; organisation."
+  },
+  {
+    "prompt": "Princely states that did not revolt included?",
+    "answers": [
+      "Only small",
+      "Hyderabad, Kashmir, Gwalior (initially), many Rajputs",
+      "Only South",
+      "Only East"
+    ],
+    "correct": 1,
+    "explanation": "Many stayed loyal."
+  },
+  {
+    "prompt": "The 1857 revolt is compared to?",
+    "answers": [
+      "Only mutinies",
+      "Other colonial rebellions (e.g. American Revolution)",
+      "Only civil war",
+      "Only riots"
+    ],
+    "correct": 1,
+    "explanation": "Anti-colonial resistance."
+  },
+  {
+    "prompt": "Revenue demand in North India was often?",
+    "answers": [
+      "Low",
+      "High; led to debt and sale of land",
+      "Stable",
+      "Only in Bengal"
+    ],
+    "correct": 1,
+    "explanation": "High demand; moneylenders."
+  },
+  {
+    "prompt": "The revolt weakened?",
+    "answers": [
+      "British only",
+      "Company rule; led to Crown takeover",
+      "Only army",
+      "Only Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Company lost trust; Crown took over."
+  },
+  {
+    "prompt": "Missionaries were active in?",
+    "answers": [
+      "Only Britain",
+      "India (education, conversion)",
+      "Only South",
+      "Only after 1857"
+    ],
+    "correct": 1,
+    "explanation": "Resented by orthodox Hindus/Muslims."
+  },
+  {
+    "prompt": "Satara was annexed in?",
+    "answers": [
+      "1848",
+      "1850",
+      "1852",
+      "1854"
+    ],
+    "correct": 0,
+    "explanation": "First under Dalhousie."
+  },
+  {
+    "prompt": "Jhansi was annexed in?",
+    "answers": [
+      "1850",
+      "1853",
+      "1854",
+      "1856"
+    ],
+    "correct": 1,
+    "explanation": "Doctrine of Lapse."
+  },
+  {
+    "prompt": "Nagpur was annexed in?",
+    "answers": [
+      "1852",
+      "1854",
+      "1856",
+      "1853"
+    ],
+    "correct": 1,
+    "explanation": "1854."
+  },
+  {
+    "prompt": "Udaipur (Mewar) was annexed in?",
+    "answers": [
+      "1848",
+      "1852",
+      "1854",
+      "1856"
+    ],
+    "correct": 1,
+    "explanation": "1852."
+  },
+  {
+    "prompt": "Berar was taken from Nizam in?",
+    "answers": [
+      "1852",
+      "1853",
+      "1854",
+      "1856"
+    ],
+    "correct": 1,
+    "explanation": "1853."
+  },
+  {
+    "prompt": "Dalhousie left India in?",
+    "answers": [
+      "1854",
+      "1856",
+      "1857",
+      "1855"
+    ],
+    "correct": 1,
+    "explanation": "1856."
+  },
+  {
+    "prompt": "Canning became Governor-General in?",
+    "answers": [
+      "1854",
+      "1856",
+      "1857",
+      "1855"
+    ],
+    "correct": 1,
+    "explanation": "1856."
+  },
+  {
+    "prompt": "The cartridge rumour started in?",
+    "answers": [
+      "1856",
+      "1857 (early)",
+      "1858",
+      "1855"
+    ],
+    "correct": 1,
+    "explanation": "Early 1857."
+  },
+  {
+    "prompt": "Barrackpore is in?",
+    "answers": [
+      "UP",
+      "Bengal (near Calcutta)",
+      "Punjab",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal."
+  },
+  {
+    "prompt": "The 19th BNI was stationed at?",
+    "answers": [
+      "Meerut",
+      "Barrackpore",
+      "Delhi",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Barrackpore."
+  },
+  {
+    "prompt": "Mangal Pandey attacked which officer?",
+    "answers": [
+      "Campbell",
+      "Lieutenant Baugh",
+      "Nicholson",
+      "Hewitt"
+    ],
+    "correct": 1,
+    "explanation": "Baugh (29 March 1857)."
+  },
+  {
+    "prompt": "The 34th BNI refused cartridges at?",
+    "answers": [
+      "Meerut",
+      "Barrackpore",
+      "Delhi",
+      "Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Barrackpore."
+  },
+  {
+    "prompt": "Meerut had a large?",
+    "answers": [
+      "Navy",
+      "Cantonment (British and Indian troops)",
+      "Only cavalry",
+      "Only infantry"
+    ],
+    "correct": 1,
+    "explanation": "Major cantonment."
+  },
+  {
+    "prompt": "The revolt spread to Rajasthan at?",
+    "answers": [
+      "Jaipur",
+      "Nasirabad",
+      "Udaipur",
+      "Jodhpur"
+    ],
+    "correct": 1,
+    "explanation": "Nasirabad (May 1857)."
+  },
+  {
+    "prompt": "Neemuch (Rajasthan) saw mutiny in?",
+    "answers": [
+      "May 1857",
+      "June 1857",
+      "July 1857",
+      "August 1857"
+    ],
+    "correct": 1,
+    "explanation": "June 1857."
+  },
+  {
+    "prompt": "Indore saw mutiny in?",
+    "answers": [
+      "May",
+      "July 1857",
+      "September",
+      "1858"
+    ],
+    "correct": 1,
+    "explanation": "July 1857."
+  },
+  {
+    "prompt": "Saugar (Sagar) cantonment was in?",
+    "answers": [
+      "Bengal",
+      "Central India",
+      "Punjab",
+      "Awadh"
+    ],
+    "correct": 1,
+    "explanation": "Central India."
+  },
+  {
+    "prompt": "The revolt in Assam was?",
+    "answers": [
+      "Major",
+      "Limited",
+      "None",
+      "Only civilian"
+    ],
+    "correct": 1,
+    "explanation": "Limited."
+  }
+]

@@ -1,0 +1,1223 @@
+[
+  {
+    "prompt": "At Meerut, the mutineers broke into the jail and released?",
+    "answers": [
+      "British prisoners",
+      "85 sepoys imprisoned for refusing cartridges",
+      "Only civilians",
+      "Only officers"
+    ],
+    "correct": 1,
+    "explanation": "85 troopers of 3rd Cavalry (and others)."
+  },
+  {
+    "prompt": "The officer in charge at Meerut when the revolt broke out was?",
+    "answers": [
+      "Nicholson",
+      "Major-General Hewitt",
+      "Havelock",
+      "Campbell"
+    ],
+    "correct": 1,
+    "explanation": "Hewitt; criticised for inaction."
+  },
+  {
+    "prompt": "Colonel Carmichael Smyth ordered the parade at Meerut that led to?",
+    "answers": [
+      "Peace",
+      "Refusal of 85 sepoys to use cartridges; court-martial",
+      "Only drill",
+      "Only inspection"
+    ],
+    "correct": 1,
+    "explanation": "85 of 3rd Cavalry refused; sentenced to jail."
+  },
+  {
+    "prompt": "Delhi was captured by rebels on?",
+    "answers": [
+      "10 May 1857",
+      "11 May 1857",
+      "12 May 1857",
+      "15 May 1857"
+    ],
+    "correct": 1,
+    "explanation": "11 May 1857; sepoys from Meerut entered."
+  },
+  {
+    "prompt": "At Delhi, the rebels killed many?",
+    "answers": [
+      "Indians",
+      "British civilians and officials",
+      "Only soldiers",
+      "Only officers"
+    ],
+    "correct": 1,
+    "explanation": "British men, women, children killed."
+  },
+  {
+    "prompt": "The Red Fort at Delhi became the seat of?",
+    "answers": [
+      "British",
+      "Bahadur Shah Zafar (nominal emperor)",
+      "Nana Saheb",
+      "Rani Lakshmibai"
+    ],
+    "correct": 1,
+    "explanation": "Rebel court; Bahadur Shah."
+  },
+  {
+    "prompt": "Bakht Khan arrived at Delhi from?",
+    "answers": [
+      "Kanpur",
+      "Bareilly",
+      "Lucknow",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Bareilly; became virtual commander at Delhi."
+  },
+  {
+    "prompt": "The British established a 'Delhi Field Force' under?",
+    "answers": [
+      "Havelock",
+      "Barnard then Nicholson; Wilson",
+      "Campbell",
+      "Rose"
+    ],
+    "correct": 1,
+    "explanation": "Barnard (died); Nicholson; Wilson took Delhi."
+  },
+  {
+    "prompt": "John Nicholson died of wounds during?",
+    "answers": [
+      "Lucknow assault",
+      "Assault on Delhi (September 1857)",
+      "Kanpur",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Assault on Kashmir Gate; died 23 September."
+  },
+  {
+    "prompt": "The Kashmir Gate at Delhi was blown up by?",
+    "answers": [
+      "Rebels",
+      "British (engineers; assault)",
+      "Only Nicholson",
+      "Only Wilson"
+    ],
+    "correct": 1,
+    "explanation": "British blew it for assault (14 September)."
+  },
+  {
+    "prompt": "After fall of Delhi, Bahadur Shah took shelter at?",
+    "answers": [
+      "Red Fort",
+      "Humayun's Tomb",
+      "Only fort",
+      "Agra"
+    ],
+    "correct": 1,
+    "explanation": "Humayun's Tomb; captured there."
+  },
+  {
+    "prompt": "Bahadur Shah's sons were killed by?",
+    "answers": [
+      "Rebels",
+      "British (Major Hodson at Humayun's Tomb)",
+      "Only one",
+      "Only in Red Fort"
+    ],
+    "correct": 1,
+    "explanation": "Hodson shot Mughal princes (September 1857)."
+  },
+  {
+    "prompt": "At Kanpur, General Wheeler's entrenchment was besieged by?",
+    "answers": [
+      "British",
+      "Nana Saheb's forces",
+      "Only Tantia",
+      "Only Rani"
+    ],
+    "correct": 1,
+    "explanation": "Nana's troops besieged Wheeler (June 1857)."
+  },
+  {
+    "prompt": "The Sati Chaura Ghat massacre at Kanpur was of?",
+    "answers": [
+      "Rebels",
+      "British leaving by boats (betrayed)",
+      "Only women",
+      "Only soldiers"
+    ],
+    "correct": 1,
+    "explanation": "British attacked at ghat when evacuating."
+  },
+  {
+    "prompt": "Bibighar was a building in Kanpur where?",
+    "answers": [
+      "Nana lived",
+      "British women and children were killed",
+      "Only soldiers stayed",
+      "Only meeting held"
+    ],
+    "correct": 1,
+    "explanation": "Women and children held then killed (July 1857)."
+  },
+  {
+    "prompt": "General Havelock recaptured Kanpur in?",
+    "answers": [
+      "June 1857",
+      "July 1857",
+      "August 1857",
+      "September 1857"
+    ],
+    "correct": 1,
+    "explanation": "July 1857 (first Kanpur recapture)."
+  },
+  {
+    "prompt": "Nana Saheb's forces reoccupied Kanpur after Havelock left for?",
+    "answers": [
+      "Delhi",
+      "Lucknow",
+      "Jhansi",
+      "Agra"
+    ],
+    "correct": 1,
+    "explanation": "Havelock went to Lucknow; Nana returned."
+  },
+  {
+    "prompt": "Kanpur was finally secured by the British under?",
+    "answers": [
+      "Havelock only",
+      "Campbell (December 1857)",
+      "Nicholson",
+      "Rose"
+    ],
+    "correct": 1,
+    "explanation": "Campbell; after second relief of Lucknow."
+  },
+  {
+    "prompt": "The Lucknow Residency was defended by?",
+    "answers": [
+      "Rebels",
+      "British (Henry Lawrence, then Innes, etc.)",
+      "Only Lawrence",
+      "Only civilians"
+    ],
+    "correct": 1,
+    "explanation": "British garrison; siege from June 1857."
+  },
+  {
+    "prompt": "Henry Lawrence died in the Residency from?",
+    "answers": [
+      "Rebel bullet",
+      "Shell explosion (2 July 1857)",
+      "Disease",
+      "Starvation"
+    ],
+    "correct": 1,
+    "explanation": "Mortar shell; 2 July 1857."
+  },
+  {
+    "prompt": "First relief of Lucknow (September 1857) was by?",
+    "answers": [
+      "Campbell",
+      "Havelock and Outram",
+      "Nicholson",
+      "Rose"
+    ],
+    "correct": 1,
+    "explanation": "Havelock and Outram; could not evacuate fully."
+  },
+  {
+    "prompt": "Second relief of Lucknow (November 1857) was by?",
+    "answers": [
+      "Havelock",
+      "Sir Colin Campbell",
+      "Nicholson",
+      "Neill"
+    ],
+    "correct": 1,
+    "explanation": "Campbell; evacuated Residency."
+  },
+  {
+    "prompt": "Lucknow was fully recaptured by British in?",
+    "answers": [
+      "September 1857",
+      "March 1858",
+      "November 1857",
+      "June 1858"
+    ],
+    "correct": 1,
+    "explanation": "March 1858 (Campbell)."
+  },
+  {
+    "prompt": "Begum Hazrat Mahal's son was?",
+    "answers": [
+      "Birjis Qadr",
+      "Wajid Ali Shah",
+      "Nana Saheb",
+      "None"
+    ],
+    "correct": 0,
+    "explanation": "Birjis Qadr (proclaimed ruler of Awadh)."
+  },
+  {
+    "prompt": "Rani Lakshmibai defended Jhansi against the British in?",
+    "answers": [
+      "March 1858",
+      "March–April 1858",
+      "May 1858",
+      "June 1858"
+    ],
+    "correct": 1,
+    "explanation": "Siege of Jhansi (March–April 1858)."
+  },
+  {
+    "prompt": "Sir Hugh Rose (Lord Strathnairn) besieged?",
+    "answers": [
+      "Delhi",
+      "Jhansi",
+      "Kanpur",
+      "Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Central India; Jhansi then Gwalior."
+  },
+  {
+    "prompt": "Rani Lakshmibai escaped from Jhansi on?",
+    "answers": [
+      "Horse (with son)",
+      "Horse; famous escape with Damodar Rao",
+      "Chariot",
+      "Foot"
+    ],
+    "correct": 1,
+    "explanation": "Rode with adopted son; night escape."
+  },
+  {
+    "prompt": "Tantia Tope captured Gwalior with?",
+    "answers": [
+      "British help",
+      "Rani Lakshmibai; Scindia's troops joined rebels",
+      "Only Rani",
+      "Only his army"
+    ],
+    "correct": 1,
+    "explanation": "June 1858; Scindia's soldiers joined."
+  },
+  {
+    "prompt": "Rani Lakshmibai died in battle at?",
+    "answers": [
+      "Jhansi",
+      "Kotah-ki-Serai (near Gwalior)",
+      "Kanpur",
+      "Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Kotah-ki-Serai (17–18 June 1858)."
+  },
+  {
+    "prompt": "Gwalior was recaptured by the British in?",
+    "answers": [
+      "May 1858",
+      "June 1858",
+      "July 1858",
+      "August 1858"
+    ],
+    "correct": 1,
+    "explanation": "20 June 1858 (Rose)."
+  },
+  {
+    "prompt": "Tantia Tope continued guerrilla warfare from?",
+    "answers": [
+      "Delhi",
+      "Central India and Rajasthan",
+      "Only Gwalior",
+      "Only Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Guerrilla after Gwalior fall; till April 1859."
+  },
+  {
+    "prompt": "Kunwar Singh was about how old when he led the revolt?",
+    "answers": [
+      "30",
+      "70 or 80 (elderly)",
+      "50",
+      "40"
+    ],
+    "correct": 1,
+    "explanation": "Elderly; led from Jagdishpur."
+  },
+  {
+    "prompt": "Arrah (Bihar) was besieged by?",
+    "answers": [
+      "British",
+      "Kunwar Singh's forces",
+      "Nana Saheb",
+      "Tantia Tope"
+    ],
+    "correct": 1,
+    "explanation": "Kunwar Singh; siege of Arrah."
+  },
+  {
+    "prompt": "Captain Dunbar's force was defeated near Arrah by?",
+    "answers": [
+      "British",
+      "Kunwar Singh",
+      "Nana Saheb",
+      "Maulvi Ahmadullah"
+    ],
+    "correct": 1,
+    "explanation": "Kunwar Singh; British relief failed initially."
+  },
+  {
+    "prompt": "Kunwar Singh died from?",
+    "answers": [
+      "Execution",
+      "Wounds (in battle)",
+      "Disease",
+      "Old age only"
+    ],
+    "correct": 1,
+    "explanation": "Wounds; April 1858."
+  },
+  {
+    "prompt": "Maulvi Ahmadullah Shah was killed at?",
+    "answers": [
+      "Delhi",
+      "Puwain (near Lucknow)",
+      "Kanpur",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Puwain; June 1858."
+  },
+  {
+    "prompt": "Khan Bahadur Khan ruled Bareilly as?",
+    "answers": [
+      "British ally",
+      "Nawab (rebel governor)",
+      "Only soldier",
+      "Only priest"
+    ],
+    "correct": 1,
+    "explanation": "Declared himself Nawab of Rohilkhand."
+  },
+  {
+    "prompt": "Bareilly was recaptured by British in?",
+    "answers": [
+      "1857",
+      "May 1858",
+      "1859",
+      "June 1858"
+    ],
+    "correct": 1,
+    "explanation": "May 1858."
+  },
+  {
+    "prompt": "Allahabad was a key British base for?",
+    "answers": [
+      "Rebels",
+      "British operations (Neill; supply)",
+      "Only civilians",
+      "Only Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Neill; rallying point; supplies."
+  },
+  {
+    "prompt": "Benares was secured by the British under?",
+    "answers": [
+      "Campbell",
+      "Colonel Neill",
+      "Havelock",
+      "Lawrence"
+    ],
+    "correct": 1,
+    "explanation": "Neill; harsh measures."
+  },
+  {
+    "prompt": "Agra was where many British fled to from?",
+    "answers": [
+      "South",
+      "Delhi and North (fort)",
+      "Only Lucknow",
+      "Only Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Agra Fort; refugees from Delhi area."
+  },
+  {
+    "prompt": "The revolt in Indore saw?",
+    "answers": [
+      "No incident",
+      "Holkar's troops mutinied; British agent killed",
+      "Only Holkar rebelled",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "July 1857; Holkar's soldiers."
+  },
+  {
+    "prompt": "Saugar (Sagar) in Central India saw revolt under?",
+    "answers": [
+      "Nana Saheb",
+      "Local rebels and soldiers",
+      "Rani only",
+      "Tantia only"
+    ],
+    "correct": 1,
+    "explanation": "Central India; military and civil."
+  },
+  {
+    "prompt": "The last major rebel leader to be captured was?",
+    "answers": [
+      "Nana Saheb",
+      "Tantia Tope (1859)",
+      "Kunwar Singh",
+      "Begum Hazrat Mahal"
+    ],
+    "correct": 1,
+    "explanation": "Tantia Tope (April 1859)."
+  },
+  {
+    "prompt": "Tantia Tope was betrayed by?",
+    "answers": [
+      "British spy only",
+      "Man Singh (Gwalior chief)",
+      "Nana Saheb",
+      "Rani's men"
+    ],
+    "correct": 1,
+    "explanation": "Man Singh; captured in sleep."
+  },
+  {
+    "prompt": "Nana Saheb was reported to have fled to?",
+    "answers": [
+      "Delhi",
+      "Nepal (fate uncertain)",
+      "Pakistan",
+      "Hyderabad"
+    ],
+    "correct": 1,
+    "explanation": "Possibly Nepal; no confirmed trace."
+  },
+  {
+    "prompt": "Azimullah Khan was an associate of?",
+    "answers": [
+      "Rani Lakshmibai",
+      "Nana Saheb",
+      "Kunwar Singh",
+      "Bahadur Shah"
+    ],
+    "correct": 1,
+    "explanation": "Nana's advisor; had been to England."
+  },
+  {
+    "prompt": "Rao Sahib (nephew of Nana) was captured and executed in?",
+    "answers": [
+      "1858",
+      "1862",
+      "1859",
+      "1860"
+    ],
+    "correct": 1,
+    "explanation": "1862 (after continued resistance)."
+  },
+  {
+    "prompt": "In Punjab, the British disarmed suspect regiments at?",
+    "answers": [
+      "Delhi",
+      "Lahore, Mian Mir, etc. (preventive)",
+      "Only Meerut",
+      "Only Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Preventive disarming; Punjab key for British."
+  },
+  {
+    "prompt": "John Lawrence was the Chief Commissioner of?",
+    "answers": [
+      "Delhi",
+      "Punjab",
+      "Awadh",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Punjab; sent troops to Delhi."
+  },
+  {
+    "prompt": "The 'siege train' (artillery) for Delhi came from?",
+    "answers": [
+      "Calcutta",
+      "Punjab",
+      "Bombay",
+      "Madras"
+    ],
+    "correct": 1,
+    "explanation": "Punjab; crucial for assault on Delhi."
+  },
+  {
+    "prompt": "Wheeler's entrenchment at Kanpur was at?",
+    "answers": [
+      "Residency",
+      "Open ground (inadequate)",
+      "Fort",
+      "Bibighar"
+    ],
+    "correct": 1,
+    "explanation": "Poor position; low ground; water shortage."
+  },
+  {
+    "prompt": "The massacre at Bibighar was ordered by?",
+    "answers": [
+      "British",
+      "Nana Saheb or his subordinates (disputed)",
+      "Tantia Tope only",
+      "Azimullah only"
+    ],
+    "correct": 1,
+    "explanation": "When British approached; who gave order disputed."
+  },
+  {
+    "prompt": "General Wheeler surrendered to Nana Saheb on promise of?",
+    "answers": [
+      "Trial",
+      "Safe passage to Allahabad",
+      "Only pardon",
+      "Only boats"
+    ],
+    "correct": 1,
+    "explanation": "Safe passage; Sati Chaura Ghat attack followed."
+  },
+  {
+    "prompt": "The revolt spread to Rajasthan in places like?",
+    "answers": [
+      "Only Jaipur",
+      "Nasirabad, Neemuch, etc.",
+      "Only Udaipur",
+      "Only Jodhpur"
+    ],
+    "correct": 1,
+    "explanation": "Nasirabad (May 1857); Neemuch."
+  },
+  {
+    "prompt": "In Mewar (Udaipur), the revolt was?",
+    "answers": [
+      "Led by ruler",
+      "Limited; ruler largely loyal",
+      "Major",
+      "Only in 1859"
+    ],
+    "correct": 1,
+    "explanation": "Udaipur stayed largely loyal."
+  },
+  {
+    "prompt": "The British used Sikh and Gurkha troops at?",
+    "answers": [
+      "Only Punjab",
+      "Delhi, Lucknow, and elsewhere",
+      "Only Lucknow",
+      "Only Delhi"
+    ],
+    "correct": 1,
+    "explanation": "Throughout; crucial for British."
+  },
+  {
+    "prompt": "The last stand of Nana Saheb's forces was near?",
+    "answers": [
+      "Delhi",
+      "Bithur (Kanpur area)",
+      "Gwalior",
+      "Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Bithur; Nana's base; later fled."
+  },
+  {
+    "prompt": "Firoz Shah was a rebel prince from?",
+    "answers": [
+      "Mughal family",
+      "Mughal (relative of Bahadur Shah)",
+      "Maratha",
+      "Awadh"
+    ],
+    "correct": 1,
+    "explanation": "Mughal prince; fought in Rohilkhand."
+  },
+  {
+    "prompt": "The revolt in Bengal proper (Calcutta, etc.) was?",
+    "answers": [
+      "Major",
+      "Minimal; Bengal quiet",
+      "Only Barrackpore",
+      "Only Dum Dum"
+    ],
+    "correct": 1,
+    "explanation": "Barrackpore/Dum Dum only; rest of Bengal quiet."
+  },
+  {
+    "prompt": "Cavalry played a key role in the revolt at?",
+    "answers": [
+      "Only Delhi",
+      "Meerut (3rd Cavalry), Delhi, elsewhere",
+      "Only Kanpur",
+      "Only Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Cavalry often led mutinies."
+  },
+  {
+    "prompt": "The 55th and 56th BNI mutinied at?",
+    "answers": [
+      "Meerut",
+      "Allahabad area",
+      "Delhi",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Allahabad; June 1857."
+  },
+  {
+    "prompt": "Chhotu Khan was a rebel leader in?",
+    "answers": [
+      "Delhi",
+      "Rajasthan (Nasirabad)",
+      "Bihar",
+      "Awadh"
+    ],
+    "correct": 1,
+    "explanation": "Rajasthan; Nasirabad revolt."
+  },
+  {
+    "prompt": "The 60th Rifles were a?",
+    "answers": [
+      "Rebel regiment",
+      "British regiment (at Delhi)",
+      "Sikh regiment",
+      "Gurkha regiment"
+    ],
+    "correct": 1,
+    "explanation": "British unit; Delhi assault."
+  },
+  {
+    "prompt": "The magazine at Delhi was blown up by?",
+    "answers": [
+      "Rebels",
+      "British (Lieutenant Willoughby) to prevent capture",
+      "Only Nicholson",
+      "Only Wilson"
+    ],
+    "correct": 1,
+    "explanation": "11 May 1857; Willoughby and others."
+  },
+  {
+    "prompt": "Kashmir Gate (Delhi) was blown by?",
+    "answers": [
+      "Rebels",
+      "British engineers (Lieutenant Home)",
+      "Only infantry",
+      "Only cavalry"
+    ],
+    "correct": 1,
+    "explanation": "14 September 1857; assault."
+  },
+  {
+    "prompt": "The Residency at Lucknow had how many defenders roughly?",
+    "answers": [
+      "100",
+      "About 1700 (soldiers, civilians)",
+      "5000",
+      "500"
+    ],
+    "correct": 1,
+    "explanation": "Garrison and civilians; long siege."
+  },
+  {
+    "prompt": "Nana Saheb declared himself?",
+    "answers": [
+      "Mughal",
+      "Peshwa (at Kanpur)",
+      "Only general",
+      "Only governor"
+    ],
+    "correct": 1,
+    "explanation": "Proclaimed Peshwa at Bithur/Kanpur."
+  },
+  {
+    "prompt": "Birjis Qadr was proclaimed ruler of?",
+    "answers": [
+      "Delhi",
+      "Awadh (by Begum Hazrat Mahal)",
+      "Kanpur",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Awadh; son of Wajid Ali Shah."
+  },
+  {
+    "prompt": "The Gwalior contingent joined the rebels under?",
+    "answers": [
+      "Scindia",
+      "Tantia Tope and Rani (Scindia's troops mutinied)",
+      "Only Rani",
+      "Only Tantia"
+    ],
+    "correct": 1,
+    "explanation": "Soldiers joined rebels; Scindia fled."
+  },
+  {
+    "prompt": "Jhansi was besieged by Rose in?",
+    "answers": [
+      "February 1858",
+      "March 1858",
+      "April 1858",
+      "May 1858"
+    ],
+    "correct": 1,
+    "explanation": "March 1858."
+  },
+  {
+    "prompt": "Rani Lakshmibai escaped from Jhansi on the night of?",
+    "answers": [
+      "3 April 1858",
+      "4 April 1858",
+      "5 April 1858",
+      "6 April 1858"
+    ],
+    "correct": 1,
+    "explanation": "Night of 4 April 1858."
+  },
+  {
+    "prompt": "The siege of Delhi was from June to?",
+    "answers": [
+      "August 1857",
+      "September 1857",
+      "October 1857",
+      "November 1857"
+    ],
+    "correct": 1,
+    "explanation": "September 1857; assault 14-20."
+  },
+  {
+    "prompt": "Campbell's relief of Lucknow (November 1857) allowed?",
+    "answers": [
+      "Rebels to win",
+      "Evacuation of Residency (soldiers and civilians)",
+      "Only soldiers",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "Evacuation; then Campbell left."
+  },
+  {
+    "prompt": "Lucknow was finally captured in March 1858 after?",
+    "answers": [
+      "Negotiation",
+      "Campbell's full assault",
+      "Rebel surrender",
+      "Only siege"
+    ],
+    "correct": 1,
+    "explanation": "Campbell returned; captured city."
+  },
+  {
+    "prompt": "Begum Hazrat Mahal escaped to Nepal with?",
+    "answers": [
+      "British help",
+      "Birjis Qadr and supporters",
+      "Only soldiers",
+      "Only family"
+    ],
+    "correct": 1,
+    "explanation": "Fled with son; Nepal gave asylum."
+  },
+  {
+    "prompt": "Rani Lakshmibai fought at Gwalior wearing?",
+    "answers": [
+      "Sari only",
+      "Male attire (soldier's dress)",
+      "Armour only",
+      "Royal dress"
+    ],
+    "correct": 1,
+    "explanation": "Dressed as soldier; rode into battle."
+  },
+  {
+    "prompt": "Tantia Tope's guerrilla campaign lasted till?",
+    "answers": [
+      "1857",
+      "April 1859",
+      "1860",
+      "1858"
+    ],
+    "correct": 1,
+    "explanation": "Captured April 1859."
+  },
+  {
+    "prompt": "The 71st Native Infantry mutinied at?",
+    "answers": [
+      "Meerut",
+      "Lucknow",
+      "Delhi",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Lucknow (May 1857)."
+  },
+  {
+    "prompt": "The revolt in Ajmer was?",
+    "answers": [
+      "Major",
+      "Limited (some troops)",
+      "None",
+      "Only civilian"
+    ],
+    "correct": 1,
+    "explanation": "Some unrest; quickly controlled."
+  },
+  {
+    "prompt": "Multan and Punjab remained under British control because?",
+    "answers": [
+      "No troops",
+      "Lawrence; loyal Sikh troops; recent conquest",
+      "Only Sikhs",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "Punjab key; troops sent to Delhi."
+  },
+  {
+    "prompt": "The 3rd Cavalry at Meerut had how many troopers refuse cartridges?",
+    "answers": [
+      "50",
+      "85 (court-martialled)",
+      "100",
+      "200"
+    ],
+    "correct": 1,
+    "explanation": "85; jailed; then freed by mutineers."
+  },
+  {
+    "prompt": "Meerut is in which present-day state?",
+    "answers": [
+      "Punjab",
+      "Uttar Pradesh",
+      "Haryana",
+      "Delhi"
+    ],
+    "correct": 1,
+    "explanation": "UP (then NWP)."
+  },
+  {
+    "prompt": "The rebels at Delhi declared Bahadur Shah as?",
+    "answers": [
+      "General",
+      "Emperor of India (Shah-en-Shah)",
+      "Only king",
+      "Only leader"
+    ],
+    "correct": 1,
+    "explanation": "Symbol of unity."
+  },
+  {
+    "prompt": "The British magazine at Delhi was defended by?",
+    "answers": [
+      "Rebels",
+      "Lieutenant Willoughby and others",
+      "Only civilians",
+      "Only Nicholson"
+    ],
+    "correct": 1,
+    "explanation": "Blown up to prevent capture."
+  },
+  {
+    "prompt": "Kanpur was on the river?",
+    "answers": [
+      "Yamuna",
+      "Ganges",
+      "Gomti",
+      "Betwa"
+    ],
+    "correct": 1,
+    "explanation": "Ganges."
+  },
+  {
+    "prompt": "Wheeler's entrenchment at Kanpur had inadequate?",
+    "answers": [
+      "Weapons",
+      "Water and defences",
+      "Only men",
+      "Only food"
+    ],
+    "correct": 1,
+    "explanation": "Low ground; water shortage."
+  },
+  {
+    "prompt": "The first relief of Lucknow could not?",
+    "answers": [
+      "Fight",
+      "Evacuate fully; joined garrison",
+      "Only enter",
+      "Only leave"
+    ],
+    "correct": 1,
+    "explanation": "Relievers became besieged too."
+  },
+  {
+    "prompt": "Jhansi was in the region of?",
+    "answers": [
+      "Bengal",
+      "Bundelkhand (Central India)",
+      "Punjab",
+      "Awadh"
+    ],
+    "correct": 1,
+    "explanation": "Bundelkhand."
+  },
+  {
+    "prompt": "Rose's campaign in Central India was called?",
+    "answers": [
+      "Delhi campaign",
+      "Central India campaign",
+      "Only Jhansi",
+      "Only Gwalior"
+    ],
+    "correct": 1,
+    "explanation": "Central India Field Force."
+  },
+  {
+    "prompt": "Tantia Tope was captured in?",
+    "answers": [
+      "Gwalior",
+      "Shivpuri area",
+      "Jhansi",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Shivpuri (April 1859)."
+  },
+  {
+    "prompt": "Meerut mutiny was on?",
+    "answers": [
+      "9 May",
+      "10 May 1857",
+      "11 May",
+      "12 May"
+    ],
+    "correct": 1,
+    "explanation": "10 May 1857."
+  },
+  {
+    "prompt": "Delhi fell to rebels on?",
+    "answers": [
+      "10 May",
+      "11 May 1857",
+      "12 May",
+      "13 May"
+    ],
+    "correct": 1,
+    "explanation": "11 May 1857."
+  },
+  {
+    "prompt": "Delhi was recaptured in?",
+    "answers": [
+      "August",
+      "September 1857",
+      "October",
+      "November"
+    ],
+    "correct": 1,
+    "explanation": "September 1857."
+  },
+  {
+    "prompt": "Kanpur siege of Wheeler was in?",
+    "answers": [
+      "May",
+      "June 1857",
+      "July",
+      "August"
+    ],
+    "correct": 1,
+    "explanation": "June 1857."
+  },
+  {
+    "prompt": "Bibighar massacre was in?",
+    "answers": [
+      "June",
+      "July 1857",
+      "August",
+      "September"
+    ],
+    "correct": 1,
+    "explanation": "July 1857."
+  },
+  {
+    "prompt": "Lucknow Residency siege began?",
+    "answers": [
+      "May",
+      "June 1857",
+      "July",
+      "August"
+    ],
+    "correct": 1,
+    "explanation": "June 1857."
+  },
+  {
+    "prompt": "First relief of Lucknow was in?",
+    "answers": [
+      "August",
+      "September 1857",
+      "October",
+      "November"
+    ],
+    "correct": 1,
+    "explanation": "September 1857."
+  },
+  {
+    "prompt": "Second relief of Lucknow was in?",
+    "answers": [
+      "October",
+      "November 1857",
+      "December",
+      "March 1858"
+    ],
+    "correct": 1,
+    "explanation": "November 1857."
+  },
+  {
+    "prompt": "Jhansi fell to Rose in?",
+    "answers": [
+      "February",
+      "April 1858",
+      "May",
+      "June"
+    ],
+    "correct": 1,
+    "explanation": "April 1858."
+  },
+  {
+    "prompt": "Gwalior fell to British in?",
+    "answers": [
+      "May",
+      "June 1858",
+      "July",
+      "August"
+    ],
+    "correct": 1,
+    "explanation": "June 1858."
+  },
+  {
+    "prompt": "Tantia Tope was executed in?",
+    "answers": [
+      "1858",
+      "April 1859",
+      "1860",
+      "1857"
+    ],
+    "correct": 1,
+    "explanation": "April 1859."
+  },
+  {
+    "prompt": "Bahadur Shah was captured in?",
+    "answers": [
+      "August",
+      "September 1857",
+      "October",
+      "November"
+    ],
+    "correct": 1,
+    "explanation": "September 1857."
+  },
+  {
+    "prompt": "Hodson killed Mughal princes in?",
+    "answers": [
+      "Red Fort",
+      "Humayun's Tomb",
+      "Delhi Gate",
+      "Agra"
+    ],
+    "correct": 1,
+    "explanation": "Humayun's Tomb."
+  },
+  {
+    "prompt": "The assault on Delhi had how many columns?",
+    "answers": [
+      "Two",
+      "Four (Nicholson etc.)",
+      "One",
+      "Six"
+    ],
+    "correct": 1,
+    "explanation": "Multiple columns."
+  },
+  {
+    "prompt": "Kashmir Gate was blown on?",
+    "answers": [
+      "13 Sept",
+      "14 September 1857",
+      "15 Sept",
+      "20 Sept"
+    ],
+    "correct": 1,
+    "explanation": "14 September 1857."
+  },
+  {
+    "prompt": "Wheeler surrendered at?",
+    "answers": [
+      "Residency",
+      "Sati Chaura Ghat (boats)",
+      "Bibighar",
+      "Fort"
+    ],
+    "correct": 1,
+    "explanation": "Promise of boats; then attack."
+  },
+  {
+    "prompt": "Nana Saheb's forces attacked British at?",
+    "answers": [
+      "Delhi",
+      "Sati Chaura Ghat",
+      "Lucknow",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Sati Chaura Ghat."
+  },
+  {
+    "prompt": "Henry Lawrence died on?",
+    "answers": [
+      "1 July",
+      "2 July 1857",
+      "3 July",
+      "4 July"
+    ],
+    "correct": 1,
+    "explanation": "2 July 1857."
+  },
+  {
+    "prompt": "Campbell evacuated Lucknow Residency in?",
+    "answers": [
+      "September",
+      "November 1857",
+      "December",
+      "January 1858"
+    ],
+    "correct": 1,
+    "explanation": "November 1857."
+  },
+  {
+    "prompt": "Rani died at Kotah-ki-Serai on?",
+    "answers": [
+      "16 June",
+      "17-18 June 1858",
+      "19 June",
+      "20 June"
+    ],
+    "correct": 1,
+    "explanation": "17 or 18 June 1858."
+  }
+]

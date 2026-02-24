@@ -1,0 +1,948 @@
+[
+  {
+    "prompt": "Bahadur Shah Zafar was a poet; his pen name was?",
+    "answers": [
+      "Ghalib",
+      "Zafar",
+      "Mir",
+      "None"
+    ],
+    "correct": 1,
+    "explanation": "Zafar (victory); wrote Urdu poetry."
+  },
+  {
+    "prompt": "Bahadur Shah's wife Zeenat Mahal favoured?",
+    "answers": [
+      "British",
+      "Her son as heir; influenced king",
+      "Only peace",
+      "Only rebels"
+    ],
+    "correct": 1,
+    "explanation": "Prince Jawan Bakht; court factions."
+  },
+  {
+    "prompt": "Mirza Mughal and Mirza Khizr Sultan were?",
+    "answers": [
+      "British officers",
+      "Sons of Bahadur Shah; rebel leaders at Delhi",
+      "Only poets",
+      "Only nobles"
+    ],
+    "correct": 1,
+    "explanation": "Mughal princes; active in Delhi defence."
+  },
+  {
+    "prompt": "William Hodson captured Bahadur Shah and killed his sons at?",
+    "answers": [
+      "Red Fort",
+      "Humayun's Tomb",
+      "Delhi Gate",
+      "Agra"
+    ],
+    "correct": 1,
+    "explanation": "Humayun's Tomb (September 1857)."
+  },
+  {
+    "prompt": "Nana Saheb's real name was?",
+    "answers": [
+      "Tantia Tope",
+      "Dhondu Pant (or Nana Govind Dhondu Pant)",
+      "Baji Rao",
+      "Azimullah"
+    ],
+    "correct": 1,
+    "explanation": "Dhondu Pant; adopted son of Baji Rao II."
+  },
+  {
+    "prompt": "Nana Saheb was denied pension by?",
+    "answers": [
+      "Congress",
+      "British (Lord Dalhousie)",
+      "Peshwa",
+      "Only court"
+    ],
+    "correct": 1,
+    "explanation": "Dalhousie; adopted son not heir."
+  },
+  {
+    "prompt": "Tantia Tope's full name was?",
+    "answers": [
+      "Nana Saheb",
+      "Ramachandra Pandurang Tope",
+      "Azimullah Khan",
+      "Rao Sahib"
+    ],
+    "correct": 1,
+    "explanation": "Ramachandra Pandurang; Tantia = nickname."
+  },
+  {
+    "prompt": "Rani Lakshmibai's original name was?",
+    "answers": [
+      "Laxmibai",
+      "Manikarnika (Manu)",
+      "Jhansi Ki Rani",
+      "Gangadhar"
+    ],
+    "correct": 1,
+    "explanation": "Manikarnika Tambe; married to Gangadhar Rao."
+  },
+  {
+    "prompt": "Rani Lakshmibai was born in?",
+    "answers": [
+      "Jhansi",
+      "Varanasi (Kashi)",
+      "Gwalior",
+      "Pune"
+    ],
+    "correct": 1,
+    "explanation": "Varanasi (1828)."
+  },
+  {
+    "prompt": "Begum Hazrat Mahal was the wife of?",
+    "answers": [
+      "Bahadur Shah",
+      "Wajid Ali Shah (deposed Nawab of Awadh)",
+      "Nana Saheb",
+      "None"
+    ],
+    "correct": 1,
+    "explanation": "Wajid Ali Shah; led Awadh revolt."
+  },
+  {
+    "prompt": "Kunwar Singh belonged to the family of?",
+    "answers": [
+      "Mughals",
+      "Rajput zamindars (Jagdishpur)",
+      "Marathas",
+      "Sikhs"
+    ],
+    "correct": 1,
+    "explanation": "Rajput; Jagdishpur estate (Bihar)."
+  },
+  {
+    "prompt": "Bakht Khan had been a?",
+    "answers": [
+      "King",
+      "Subedar in British artillery",
+      "Only rebel",
+      "Only maulvi"
+    ],
+    "correct": 1,
+    "explanation": "Subedar (officer) in East India Company army."
+  },
+  {
+    "prompt": "General Henry Havelock had served in?",
+    "answers": [
+      "Only India",
+      "Afghanistan, Persia, India",
+      "Only England",
+      "Only Burma"
+    ],
+    "correct": 1,
+    "explanation": "Experienced; First Afghan War etc."
+  },
+  {
+    "prompt": "James Outram was known as the 'Bayard of India' for?",
+    "answers": [
+      "Cruelty",
+      "Chivalry and integrity",
+      "Only military skill",
+      "Only Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Bayard = chivalrous knight."
+  },
+  {
+    "prompt": "Sir Colin Campbell later became?",
+    "answers": [
+      "Viceroy",
+      "Lord Clyde (Commander-in-Chief)",
+      "Governor-General",
+      "Secretary of State"
+    ],
+    "correct": 1,
+    "explanation": "Lord Clyde; C-in-C India."
+  },
+  {
+    "prompt": "John Nicholson was a?",
+    "answers": [
+      "Indian prince",
+      "British officer (frontier; charismatic)",
+      "Only civilian",
+      "Only engineer"
+    ],
+    "correct": 1,
+    "explanation": "British officer; idolised by some Punjab troops."
+  },
+  {
+    "prompt": "General George Anson died of?",
+    "answers": [
+      "Wounds",
+      "Cholera (at Karnal)",
+      "Battle",
+      "Only illness"
+    ],
+    "correct": 1,
+    "explanation": "Cholera May 1857; before Delhi."
+  },
+  {
+    "prompt": "Sir Hugh Rose had served in?",
+    "answers": [
+      "Only India",
+      "Crimean War; India",
+      "Only England",
+      "Only Africa"
+    ],
+    "correct": 1,
+    "explanation": "Crimean War; then Central India campaign."
+  },
+  {
+    "prompt": "Henry Lawrence had been Chief Commissioner of?",
+    "answers": [
+      "Punjab",
+      "Awadh (Oudh)",
+      "Delhi",
+      "Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Awadh; at Lucknow Residency."
+  },
+  {
+    "prompt": "Brigadier-General John Inglis defended Lucknow Residency after Lawrence's death until?",
+    "answers": [
+      "September 1857",
+      "First relief (Havelock, Outram)",
+      "November",
+      "March 1858"
+    ],
+    "correct": 1,
+    "explanation": "Held out till Havelock and Outram relieved."
+  },
+  {
+    "prompt": "General Wheeler had served in?",
+    "answers": [
+      "Only England",
+      "Afghanistan, Sikh wars, India",
+      "Only Bengal",
+      "Only Madras"
+    ],
+    "correct": 1,
+    "explanation": "Long service; Kanpur entrenchment."
+  },
+  {
+    "prompt": "Colonel James Neill was killed at?",
+    "answers": [
+      "Delhi",
+      "Lucknow (September 1857)",
+      "Kanpur",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Lucknow; during first relief."
+  },
+  {
+    "prompt": "Major-General Archdale Wilson commanded the final assault on?",
+    "answers": [
+      "Lucknow",
+      "Delhi",
+      "Kanpur",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Delhi (after Nicholson's death)."
+  },
+  {
+    "prompt": "The British executed rebels by 'blowing from guns' to?",
+    "answers": [
+      "Honour them",
+      "Terrify others (deterrent)",
+      "Only in Delhi",
+      "Only in Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Brutal; deterrent; used in Kanpur, Delhi area."
+  },
+  {
+    "prompt": "Bahadur Shah was tried by the British for?",
+    "answers": [
+      "Treason only",
+      "Rebellion; complicity in murder of British",
+      "Only conspiracy",
+      "Only escape"
+    ],
+    "correct": 1,
+    "explanation": "Trial (1858); exiled to Rangoon."
+  },
+  {
+    "prompt": "The trial of Bahadur Shah was held at?",
+    "answers": [
+      "Calcutta",
+      "Delhi (Red Fort)",
+      "Agra",
+      "Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Red Fort; January 1858."
+  },
+  {
+    "prompt": "Bahadur Shah died in exile in?",
+    "answers": [
+      "1860",
+      "1862",
+      "1865",
+      "1870"
+    ],
+    "correct": 1,
+    "explanation": "1862; Rangoon; buried there."
+  },
+  {
+    "prompt": "Rani Lakshmibai's adopted son Damodar Rao was given pension by British?",
+    "answers": [
+      "Yes, full",
+      "Yes, later (reduced)",
+      "No",
+      "Only after 1900"
+    ],
+    "correct": 1,
+    "explanation": "Later granted pension; lived to 1906."
+  },
+  {
+    "prompt": "Begum Hazrat Mahal died in?",
+    "answers": [
+      "India",
+      "Nepal (Kathmandu; 1879)",
+      "Pakistan",
+      "Burma"
+    ],
+    "correct": 1,
+    "explanation": "Kathmandu 1879; had refused to surrender."
+  },
+  {
+    "prompt": "Firoz Shah escaped to?",
+    "answers": [
+      "India",
+      "Nepal (later)",
+      "Pakistan",
+      "Burma"
+    ],
+    "correct": 1,
+    "explanation": "Fled; possibly Nepal; fate unclear."
+  },
+  {
+    "prompt": "Mangal Pandey is commemorated as?",
+    "answers": [
+      "British hero",
+      "First martyr of 1857 (in India)",
+      "Only sepoy",
+      "Only Barrackpore"
+    ],
+    "correct": 1,
+    "explanation": "Regarded as first martyr; Barrackpore."
+  },
+  {
+    "prompt": "The revolt had no single commander because?",
+    "answers": [
+      "British killed all",
+      "Multiple leaders; no unified structure",
+      "Only Bahadur Shah",
+      "Only Nana"
+    ],
+    "correct": 1,
+    "explanation": "Local leaders; feudal character."
+  },
+  {
+    "prompt": "British reprisals after recapture included?",
+    "answers": [
+      "Only fines",
+      "Executions, blowing from guns, hanging",
+      "Only imprisonment",
+      "Only exile"
+    ],
+    "correct": 1,
+    "explanation": "Harsh; mass executions in places."
+  },
+  {
+    "prompt": "The 'Devil's Wind' was a term for?",
+    "answers": [
+      "Storm",
+      "British revenge (reprisals; book title)",
+      "Only Kanpur",
+      "Only Delhi"
+    ],
+    "correct": 1,
+    "explanation": "Book/sentiment about British revenge."
+  },
+  {
+    "prompt": "Loyal Indian princes who helped British included?",
+    "answers": [
+      "Nana Saheb",
+      "Scindia (Gwalior), Holkar (Indore), many Rajputs",
+      "Only Sikhs",
+      "Only Gurkhas"
+    ],
+    "correct": 1,
+    "explanation": "Many princes remained loyal; rewarded."
+  },
+  {
+    "prompt": "The revolt is also called the 'Sepoy Mutiny' because?",
+    "answers": [
+      "Only peasants rebelled",
+      "It began as military mutiny (sepoys)",
+      "Only princes",
+      "Only British term"
+    ],
+    "correct": 1,
+    "explanation": "Began with soldiers' mutiny."
+  },
+  {
+    "prompt": "V.D. Savarkar's book on 1857 was published in?",
+    "answers": [
+      "1858",
+      "1909",
+      "1920",
+      "1947"
+    ],
+    "correct": 1,
+    "explanation": "1909 (The Indian War of Independence 1857)."
+  },
+  {
+    "prompt": "Karl Marx wrote that the revolt was?",
+    "answers": [
+      "Only mutiny",
+      "Result of British oppression; national character",
+      "Only sepoy",
+      "Only religious"
+    ],
+    "correct": 1,
+    "explanation": "Colonial oppression; saw popular element."
+  },
+  {
+    "prompt": "British historian John Kaye wrote?",
+    "answers": [
+      "Only fiction",
+      "History of the Sepoy War",
+      "Only mutiny",
+      "Only 1858"
+    ],
+    "correct": 1,
+    "explanation": "History of the Sepoy War in India."
+  },
+  {
+    "prompt": "The revolt led to the end of the?",
+    "answers": [
+      "British Raj",
+      "East India Company's rule; Mughal dynasty",
+      "Only Company trade",
+      "Only Governor-General"
+    ],
+    "correct": 1,
+    "explanation": "Company rule ended; Mughals ended."
+  },
+  {
+    "prompt": "Who was the Commander-in-Chief after Anson died?",
+    "answers": [
+      "Campbell",
+      "Sir Patrick Grant (temporary); then Campbell",
+      "Nicholson",
+      "Havelock"
+    ],
+    "correct": 1,
+    "explanation": "Grant; then Campbell from August 1857."
+  },
+  {
+    "prompt": "The Delhi Field Force was initially led by?",
+    "answers": [
+      "Nicholson",
+      "Major-General Barnard",
+      "Wilson",
+      "Hodson"
+    ],
+    "correct": 1,
+    "explanation": "Barnard (died July 1857); then others."
+  },
+  {
+    "prompt": "Hodson's Horse was?",
+    "answers": [
+      "Rebel cavalry",
+      "Irregular British cavalry (raised by Hodson)",
+      "Only Sikh",
+      "Only Gurkha"
+    ],
+    "correct": 1,
+    "explanation": "Hodson raised irregular cavalry."
+  },
+  {
+    "prompt": "The massacre of British at Kanpur was avenged by?",
+    "answers": [
+      "No one",
+      "Neill and Havelock (harsh reprisals)",
+      "Only Neill",
+      "Only Campbell"
+    ],
+    "correct": 1,
+    "explanation": "Severe punishment; 'Cawnpore' became symbol."
+  },
+  {
+    "prompt": "Rani Lakshmibai's horse was named?",
+    "answers": [
+      "Badal",
+      "Badal (or similar; various accounts)",
+      "Raja",
+      "None"
+    ],
+    "correct": 1,
+    "explanation": "Legends vary; Badal often mentioned."
+  },
+  {
+    "prompt": "Tantia Tope was tried by?",
+    "answers": [
+      "Indian court",
+      "British court-martial",
+      "Only military",
+      "Only civil"
+    ],
+    "correct": 1,
+    "explanation": "Court-martial; executed April 1859."
+  },
+  {
+    "prompt": "Nana Saheb's brother was?",
+    "answers": [
+      "Tantia Tope",
+      "Rao Saheb (Bala Rao)",
+      "Azimullah",
+      "None"
+    ],
+    "correct": 1,
+    "explanation": "Bala Rao / Rao Saheb (nephew in some accounts)."
+  },
+  {
+    "prompt": "The revolt saw participation of?",
+    "answers": [
+      "Only sepoys",
+      "Sepoys, peasants, zamindars, artisans, princes",
+      "Only princes",
+      "Only peasants"
+    ],
+    "correct": 1,
+    "explanation": "Wide social base in affected areas."
+  },
+  {
+    "prompt": "British women and children killed in the revolt became?",
+    "answers": [
+      "Forgotten",
+      "Symbol for British 'civilising mission' and revenge",
+      "Only in books",
+      "Only in Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Propaganda; justification for harsh measures."
+  },
+  {
+    "prompt": "Sir Colin Campbell was from?",
+    "answers": [
+      "India",
+      "Scotland (British Army)",
+      "Ireland",
+      "England only"
+    ],
+    "correct": 1,
+    "explanation": "Scottish; British Army."
+  },
+  {
+    "prompt": "Henry Havelock died of?",
+    "answers": [
+      "Battle wounds",
+      "Dysentery (Lucknow, November 1857)",
+      "Cholera",
+      "Only illness"
+    ],
+    "correct": 1,
+    "explanation": "Dysentery; soon after first relief."
+  },
+  {
+    "prompt": "James Outram allowed Havelock to lead the first relief of Lucknow to?",
+    "answers": [
+      "Take credit",
+      "Honour Havelock (Outram waived seniority)",
+      "Only follow",
+      "Only obey"
+    ],
+    "correct": 1,
+    "explanation": "Chivalry; Outram was senior."
+  },
+  {
+    "prompt": "Brigadier Inglis received which honour for defending Lucknow?",
+    "answers": [
+      "None",
+      "KCB (Knight Commander of the Bath)",
+      "Only thanks",
+      "Only medal"
+    ],
+    "correct": 1,
+    "explanation": "KCB; defended Residency."
+  },
+  {
+    "prompt": "The 'Lucknow Residency' is now a?",
+    "answers": [
+      "Palace",
+      "Ruined monument (protected)",
+      "Only fort",
+      "Only museum"
+    ],
+    "correct": 1,
+    "explanation": "Heritage site; bullet marks."
+  },
+  {
+    "prompt": "Bahadur Shah's court at Delhi included?",
+    "answers": [
+      "Only Hindus",
+      "Hindus and Muslims (old Mughal court)",
+      "Only British",
+      "Only soldiers"
+    ],
+    "correct": 1,
+    "explanation": "Mixed court; symbolic unity."
+  },
+  {
+    "prompt": "Nana Saheb had an advisor who had visited England; he was?",
+    "answers": [
+      "Tantia Tope",
+      "Azimullah Khan",
+      "Rao Sahib",
+      "Bala Rao"
+    ],
+    "correct": 1,
+    "explanation": "Azimullah Khan; had been to UK."
+  },
+  {
+    "prompt": "Kunwar Singh was wounded in the?",
+    "answers": [
+      "Leg",
+      "Arm (amputated; fought with one arm)",
+      "Chest",
+      "Head"
+    ],
+    "correct": 1,
+    "explanation": "Arm injury; continued fighting."
+  },
+  {
+    "prompt": "Maulvi Ahmadullah was known as?",
+    "answers": [
+      "Nawab",
+      "Lighthouse of Rebellion (in Awadh)",
+      "Only maulvi",
+      "Only Faizabad"
+    ],
+    "correct": 1,
+    "explanation": "Influential religious-rebel leader."
+  },
+  {
+    "prompt": "Bahadur Shah wrote poetry in?",
+    "answers": [
+      "Hindi",
+      "Urdu (and Persian)",
+      "Only Persian",
+      "Only Arabic"
+    ],
+    "correct": 1,
+    "explanation": "Urdu poet; Zafar."
+  },
+  {
+    "prompt": "Nana Saheb's capital was at?",
+    "answers": [
+      "Delhi",
+      "Bithur (near Kanpur)",
+      "Gwalior",
+      "Pune"
+    ],
+    "correct": 1,
+    "explanation": "Bithur; Peshwa's seat."
+  },
+  {
+    "prompt": "Rani Lakshmibai was married at age?",
+    "answers": [
+      "20",
+      "About 14",
+      "25",
+      "18"
+    ],
+    "correct": 1,
+    "explanation": "Teen; Gangadhar Rao."
+  },
+  {
+    "prompt": "Kunwar Singh's estate was at?",
+    "answers": [
+      "Lucknow",
+      "Jagdishpur (Bihar)",
+      "Delhi",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Jagdishpur; Arrah area."
+  },
+  {
+    "prompt": "Bakht Khan was a?",
+    "answers": [
+      "Prince",
+      "Subedar (native officer)",
+      "Only rebel",
+      "Only maulvi"
+    ],
+    "correct": 1,
+    "explanation": "Artillery subedar."
+  },
+  {
+    "prompt": "John Nicholson was idolised by some?",
+    "answers": [
+      "Indians",
+      "Sikh soldiers (nickname)",
+      "Only British",
+      "Only officers"
+    ],
+    "correct": 1,
+    "explanation": "Charismatic; frontier."
+  },
+  {
+    "prompt": "Henry Lawrence had served in?",
+    "answers": [
+      "Only India",
+      "Sikh wars; Punjab; Awadh",
+      "Only England",
+      "Only Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Sikh wars; Chief Commissioner."
+  },
+  {
+    "prompt": "General Wheeler was?",
+    "answers": [
+      "Young",
+      "Veteran (Afghan, Sikh wars)",
+      "Only British",
+      "Only at Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Long service; Kanpur."
+  },
+  {
+    "prompt": "The revolt saw women participants like?",
+    "answers": [
+      "None",
+      "Rani Lakshmibai, Begum Hazrat Mahal",
+      "Only British",
+      "Only nurses"
+    ],
+    "correct": 1,
+    "explanation": "Rani; Begum; others."
+  },
+  {
+    "prompt": "Tantia Tope was a?",
+    "answers": [
+      "British officer",
+      "Maratha (Brahmin); Nana's general",
+      "Sikh",
+      "Rajput"
+    ],
+    "correct": 1,
+    "explanation": "Maratha; from Maharashtra."
+  },
+  {
+    "prompt": "Bahadur Shah's father was?",
+    "answers": [
+      "Akbar II",
+      "Akbar II",
+      "Shah Alam",
+      "Bahadur Shah I"
+    ],
+    "correct": 0,
+    "explanation": "Akbar II."
+  },
+  {
+    "prompt": "Nana Saheb was?",
+    "answers": [
+      "Maratha",
+      "Maratha (Peshwa family)",
+      "Mughal",
+      "Rajput"
+    ],
+    "correct": 1,
+    "explanation": "Peshwa's adopted son."
+  },
+  {
+    "prompt": "Rani Lakshmibai was from?",
+    "answers": [
+      "Maratha",
+      "Maratha (Manikarnika)",
+      "Rajput",
+      "Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Maratha family."
+  },
+  {
+    "prompt": "Begum Hazrat Mahal was?",
+    "answers": [
+      "Hindu",
+      "Muslim (Awadh)",
+      "Sikh",
+      "Christian"
+    ],
+    "correct": 1,
+    "explanation": "Awadh royal."
+  },
+  {
+    "prompt": "Kunwar Singh was?",
+    "answers": [
+      "Young",
+      "Elderly (70s/80s)",
+      "Middle-aged",
+      "Child"
+    ],
+    "correct": 1,
+    "explanation": "Elderly Rajput."
+  },
+  {
+    "prompt": "Maulvi Ahmadullah was?",
+    "answers": [
+      "Hindu",
+      "Muslim cleric",
+      "Sikh",
+      "British"
+    ],
+    "correct": 1,
+    "explanation": "Muslim; Faizabad."
+  },
+  {
+    "prompt": "John Nicholson was?",
+    "answers": [
+      "Indian",
+      "British officer",
+      "Sikh",
+      "Gurkha"
+    ],
+    "correct": 1,
+    "explanation": "British; Punjab."
+  },
+  {
+    "prompt": "Henry Havelock was?",
+    "answers": [
+      "Indian",
+      "British general",
+      "Sikh",
+      "Civilian"
+    ],
+    "correct": 1,
+    "explanation": "British; relieved Kanpur/Lucknow."
+  },
+  {
+    "prompt": "Colin Campbell was?",
+    "answers": [
+      "Indian",
+      "British (Scottish)",
+      "French",
+      "Irish"
+    ],
+    "correct": 1,
+    "explanation": "Scottish; C-in-C."
+  },
+  {
+    "prompt": "Sir Hugh Rose was?",
+    "answers": [
+      "Indian",
+      "British (Central India)",
+      "Sikh",
+      "Gurkha"
+    ],
+    "correct": 1,
+    "explanation": "British; Jhansi, Gwalior."
+  },
+  {
+    "prompt": "James Neill was known for?",
+    "answers": [
+      "Mercy",
+      "Harsh reprisals",
+      "Only Lucknow",
+      "Only Delhi"
+    ],
+    "correct": 1,
+    "explanation": "Brutal; Allahabad, Kanpur."
+  },
+  {
+    "prompt": "William Hodson raised?",
+    "answers": [
+      "Rebel cavalry",
+      "Hodson's Horse",
+      "Only infantry",
+      "Only artillery"
+    ],
+    "correct": 1,
+    "explanation": "Irregular cavalry."
+  },
+  {
+    "prompt": "Rao Sahib was related to?",
+    "answers": [
+      "Rani",
+      "Nana Saheb",
+      "Bahadur Shah",
+      "Kunwar Singh"
+    ],
+    "correct": 1,
+    "explanation": "Nana's nephew."
+  },
+  {
+    "prompt": "Azimullah Khan had visited?",
+    "answers": [
+      "Delhi",
+      "England",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correct": 1,
+    "explanation": "England; Nana's advisor."
+  },
+  {
+    "prompt": "Birjis Qadr was son of?",
+    "answers": [
+      "Bahadur Shah",
+      "Wajid Ali Shah",
+      "Nana Saheb",
+      "None"
+    ],
+    "correct": 1,
+    "explanation": "Wajid Ali Shah."
+  },
+  {
+    "prompt": "Mirza Mughal was son of?",
+    "answers": [
+      "Nana",
+      "Bahadur Shah",
+      "Wajid Ali",
+      "Scindia"
+    ],
+    "correct": 1,
+    "explanation": "Bahadur Shah."
+  },
+  {
+    "prompt": "Damodar Rao was Rani's?",
+    "answers": [
+      "Husband",
+      "Adopted son",
+      "Brother",
+      "General"
+    ],
+    "correct": 1,
+    "explanation": "Adopted son."
+  },
+  {
+    "prompt": "Gangadhar Rao was Rani's?",
+    "answers": [
+      "Son",
+      "Husband (Raja of Jhansi)",
+      "Brother",
+      "General"
+    ],
+    "correct": 1,
+    "explanation": "Husband; died 1853."
+  }
+]

@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Setting;
+use App\Models\StudentPlan;
 use App\Services\CaptchaService;
+use App\Services\ReferralService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rules\File;
@@ -111,6 +113,10 @@ class SettingsController extends Controller
             $pwaValues[$pKey] = Setting::cachedGet($pKey, $pwaDefaults[$pKey] ?? '');
         }
 
+        $referralConversionsRequired = (string) Setting::cachedGet(ReferralService::SETTING_CONVERSIONS_REQUIRED, '1');
+        $referralRewardPlanId = (string) Setting::cachedGet(ReferralService::SETTING_REWARD_PLAN_ID, '');
+        $studentPlans = StudentPlan::query()->active()->ordered()->get();
+
         $values = [
             'site_name' => Setting::cachedGet('site_name', config('app.name', 'QuizWhiz')),
             'ads_enabled' => (string) Setting::cachedGet('ads_enabled', '0'),
@@ -124,6 +130,9 @@ class SettingsController extends Controller
             'payment' => $paymentValues,
             'captcha' => $captchaValues,
             'pwa' => $pwaValues,
+            'referral_conversions_required' => $referralConversionsRequired,
+            'referral_reward_plan_id' => $referralRewardPlanId,
+            'student_plans' => $studentPlans,
         ];
 
         return view('admin.settings.edit', compact('values'));
@@ -138,6 +147,8 @@ class SettingsController extends Controller
 
         $data = $request->validate(array_merge([
             'site_name' => ['required', 'string', 'max:60'],
+            'referral_conversions_required' => ['nullable', 'integer', 'min:1', 'max:50'],
+            'referral_reward_plan_id' => ['nullable', 'string', 'max:20'],
             'ads_enabled' => ['nullable', 'in:0,1'],
             'ads_banner_enabled' => ['nullable', 'in:0,1'],
             'ads_interstitial_enabled' => ['nullable', 'in:0,1'],
@@ -174,6 +185,8 @@ class SettingsController extends Controller
         ], $menuRules));
 
         Setting::set('site_name', $data['site_name']);
+        Setting::set(ReferralService::SETTING_CONVERSIONS_REQUIRED, (string) ((int) ($data['referral_conversions_required'] ?? 1)));
+        Setting::set(ReferralService::SETTING_REWARD_PLAN_ID, (string) ($data['referral_reward_plan_id'] ?? ''));
         Setting::set('ads_enabled', (string) ((int) ($data['ads_enabled'] ?? 0)));
         Setting::set('ads_banner_enabled', (string) ((int) ($data['ads_banner_enabled'] ?? 0)));
         Setting::set('ads_interstitial_enabled', (string) ((int) ($data['ads_interstitial_enabled'] ?? 0)));
@@ -238,6 +251,8 @@ class SettingsController extends Controller
 
         // Clear caches
         Setting::forget('site_name');
+        Setting::forget(ReferralService::SETTING_CONVERSIONS_REQUIRED);
+        Setting::forget(ReferralService::SETTING_REWARD_PLAN_ID);
         Setting::forget('ads_enabled');
         Setting::forget('ads_banner_enabled');
         Setting::forget('ads_interstitial_enabled');

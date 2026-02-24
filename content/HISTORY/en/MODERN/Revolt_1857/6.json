@@ -1,0 +1,838 @@
+[
+  {
+    "prompt": "The Government of India Act 1858 transferred power from?",
+    "answers": [
+      "Crown to Company",
+      "East India Company to British Crown",
+      "Viceroy to Governor-General",
+      "Parliament to Company"
+    ],
+    "correct": 1,
+    "explanation": "Company to Crown (Queen Victoria)."
+  },
+  {
+    "prompt": "Under the 1858 Act, who governed India in London?",
+    "answers": [
+      "Court of Directors",
+      "Secretary of State for India",
+      "Only Viceroy",
+      "Only Queen"
+    ],
+    "correct": 1,
+    "explanation": "Secretary of State for India (cabinet minister)."
+  },
+  {
+    "prompt": "The India Council in London had how many members initially?",
+    "answers": [
+      "5",
+      "15",
+      "25",
+      "10"
+    ],
+    "correct": 1,
+    "explanation": "15 members (1858)."
+  },
+  {
+    "prompt": "The Secretary of State for India was responsible to?",
+    "answers": [
+      "Viceroy",
+      "British Parliament",
+      "Queen only",
+      "Company"
+    ],
+    "correct": 1,
+    "explanation": "Parliament; Crown."
+  },
+  {
+    "prompt": "The Viceroy was appointed by?",
+    "answers": [
+      "Indian council",
+      "British Crown (on advice of PM)",
+      "Company",
+      "Parliament vote"
+    ],
+    "correct": 1,
+    "explanation": "Crown; on advice of British government."
+  },
+  {
+    "prompt": "Queen Victoria's Proclamation (1858) promised no more?",
+    "answers": [
+      "War",
+      "Territorial annexation (no Doctrine of Lapse)",
+      "Treaties",
+      "Alliances"
+    ],
+    "correct": 1,
+    "explanation": "No annexation of Indian states."
+  },
+  {
+    "prompt": "The Proclamation promised equality in?",
+    "answers": [
+      "Wealth",
+      "Public employment (race/religion)",
+      "Only army",
+      "Only civil service"
+    ],
+    "correct": 1,
+    "explanation": "Equal opportunity in government jobs."
+  },
+  {
+    "prompt": "The Proclamation assured Indian princes of?",
+    "answers": [
+      "Independence",
+      "Their rights and territories (under British paramountcy)",
+      "Only pension",
+      "Only titles"
+    ],
+    "correct": 1,
+    "explanation": "Respect for treaties; no lapse."
+  },
+  {
+    "prompt": "The Proclamation declared British would not interfere in?",
+    "answers": [
+      "Revenue",
+      "Religion and religious customs",
+      "Only army",
+      "Only law"
+    ],
+    "correct": 1,
+    "explanation": "Religious non-interference."
+  },
+  {
+    "prompt": "After 1858, recruitment to the army favoured?",
+    "answers": [
+      "Bengal only",
+      "'Martial races' (Punjab, Gurkhas, etc.)",
+      "Only Madras",
+      "Only Bombay"
+    ],
+    "correct": 1,
+    "explanation": "Martial race theory; Punjab, Nepal."
+  },
+  {
+    "prompt": "The proportion of British to Indian soldiers was?",
+    "answers": [
+      "Reduced",
+      "Increased (more British)",
+      "Unchanged",
+      "Only in Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Higher British ratio; prevent mutiny."
+  },
+  {
+    "prompt": "Artillery and sophisticated arms were kept with?",
+    "answers": [
+      "Indian troops",
+      "British only",
+      "Mixed",
+      "Only Bengal"
+    ],
+    "correct": 1,
+    "explanation": "British control of artillery."
+  },
+  {
+    "prompt": "Bengal Army recruitment from Awadh and Bihar was?",
+    "answers": [
+      "Increased",
+      "Reduced",
+      "Unchanged",
+      "Only stopped in 1857"
+    ],
+    "correct": 1,
+    "explanation": "Reduced; 'untrustworthy' areas."
+  },
+  {
+    "prompt": "The policy of 'divide and rule' was strengthened after 1857 by?",
+    "answers": [
+      "Uniting Indians",
+      "Favouring princes, castes, religions separately",
+      "Only army",
+      "Only provinces"
+    ],
+    "correct": 1,
+    "explanation": "Play off princes, communities."
+  },
+  {
+    "prompt": "The Indian High Courts Act (1861) created?",
+    "answers": [
+      "Only Supreme Court",
+      "High Courts in presidency towns",
+      "Only district courts",
+      "Only appeals"
+    ],
+    "correct": 1,
+    "explanation": "High Courts (Calcutta, Madras, Bombay)."
+  },
+  {
+    "prompt": "The Indian Civil Service (ICS) examination was held in London until?",
+    "answers": [
+      "1857",
+      "1922",
+      "1947",
+      "1900"
+    ],
+    "correct": 1,
+    "explanation": "London; Indianisation later."
+  },
+  {
+    "prompt": "The revolt failed partly because?",
+    "answers": [
+      "British had no troops",
+      "No unity, limited spread, British recovered",
+      "Only lack of arms",
+      "Only Delhi fell"
+    ],
+    "correct": 1,
+    "explanation": "Fragmented; regional; British strength."
+  },
+  {
+    "prompt": "Regions that did NOT revolt significantly included?",
+    "answers": [
+      "UP",
+      "Punjab, Bengal (east), South India",
+      "Bihar",
+      "Delhi"
+    ],
+    "correct": 1,
+    "explanation": "Punjab, Sind, Bengal, Madras, Bombay."
+  },
+  {
+    "prompt": "The revolt has been called 'First War of Independence' to?",
+    "answers": [
+      "Please British",
+      "Assert national character of the uprising",
+      "Only in Bengal",
+      "Only by Marx"
+    ],
+    "correct": 1,
+    "explanation": "Nationalist narrative (Savarkar)."
+  },
+  {
+    "prompt": "British called it 'Mutiny' to?",
+    "answers": [
+      "Honour rebels",
+      "Deny national character; military revolt only",
+      "Only describe",
+      "Only in India"
+    ],
+    "correct": 1,
+    "explanation": "Downplay popular/national element."
+  },
+  {
+    "prompt": "The revolt influenced later national movement by?",
+    "answers": [
+      "Nothing",
+      "Symbol of resistance; caution about army",
+      "Only British",
+      "Only princes"
+    ],
+    "correct": 1,
+    "explanation": "Martyrs; lesson in unity and organisation."
+  },
+  {
+    "prompt": "Mangal Pandey is honoured in India as?",
+    "answers": [
+      "Traitor",
+      "Freedom fighter (first martyr of 1857)",
+      "Only sepoy",
+      "Only Barrackpore"
+    ],
+    "correct": 1,
+    "explanation": "First martyr; Barrackpore."
+  },
+  {
+    "prompt": "Rani Lakshmibai is celebrated as?",
+    "answers": [
+      "British ally",
+      "Symbol of resistance and women's valour",
+      "Only queen",
+      "Only Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Icon of resistance; Jhansi Ki Rani."
+  },
+  {
+    "prompt": "The revolt lasted roughly?",
+    "answers": [
+      "One year",
+      "About 13–14 months (May 1857 to mid-1858)",
+      "Two years",
+      "Six months"
+    ],
+    "correct": 1,
+    "explanation": "May 1857–1858; last leaders 1859."
+  },
+  {
+    "prompt": "The British Parliament passed the Government of India Act 1858 in?",
+    "answers": [
+      "July 1858",
+      "August 1858",
+      "September 1858",
+      "November 1858"
+    ],
+    "correct": 1,
+    "explanation": "2 August 1858."
+  },
+  {
+    "prompt": "Lord Canning read the Queen's Proclamation at Allahabad on?",
+    "answers": [
+      "1 November 1858",
+      "15 August 1858",
+      "26 January 1859",
+      "2 August 1858"
+    ],
+    "correct": 0,
+    "explanation": "1 November 1858."
+  },
+  {
+    "prompt": "The Council of India (London) could?",
+    "answers": [
+      "Override Secretary of State",
+      "Advise; Secretary had final say on most matters",
+      "Only approve",
+      "Only veto"
+    ],
+    "correct": 1,
+    "explanation": "Advisory; Secretary of State in charge."
+  },
+  {
+    "prompt": "After 1858, the Governor-General was also called?",
+    "answers": [
+      "Only Governor-General",
+      "Viceroy and Governor-General of India",
+      "Only Viceroy",
+      "Only Crown rep"
+    ],
+    "correct": 1,
+    "explanation": "Viceroy (representing Crown)."
+  },
+  {
+    "prompt": "The revolt led to greater British?",
+    "answers": [
+      "Withdrawal",
+      "Control and distrust of Indians",
+      "Only army change",
+      "Only law change"
+    ],
+    "correct": 1,
+    "explanation": "Tightened control; racial attitudes."
+  },
+  {
+    "prompt": "Who was the first Secretary of State for India?",
+    "answers": [
+      "Lord Canning",
+      "Lord Stanley (Edward Stanley)",
+      "Lord Dalhousie",
+      "Lord Palmerston"
+    ],
+    "correct": 1,
+    "explanation": "Lord Stanley (1858)."
+  },
+  {
+    "prompt": "The Board of Control was abolished by?",
+    "answers": [
+      "GOI Act 1858",
+      "Charter Act",
+      "Regulating Act",
+      "Pitt's Act"
+    ],
+    "correct": 0,
+    "explanation": "1858 Act; replaced by Secretary of State."
+  },
+  {
+    "prompt": "Court of Directors lost political power under?",
+    "answers": [
+      "1773 Act",
+      "1858 Act",
+      "1919 Act",
+      "1935 Act"
+    ],
+    "correct": 1,
+    "explanation": "1858; Company ceased to govern."
+  },
+  {
+    "prompt": "Queen's Proclamation was read in Indian languages to?",
+    "answers": [
+      "Ignore Indians",
+      "Reach Indian public and troops",
+      "Only princes",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "Translated; wide circulation."
+  },
+  {
+    "prompt": "Policy of non-annexation of princely states after 1858 was called?",
+    "answers": [
+      "Doctrine of Lapse",
+      "Policy of subordinate union; respect for princes",
+      "Only alliance",
+      "Only treaty"
+    ],
+    "correct": 1,
+    "explanation": "Respect treaties; no lapse."
+  },
+  {
+    "prompt": "Indian princes who stayed loyal were given?",
+    "answers": [
+      "Punishment",
+      "Territories, titles, gun salutes",
+      "Only thanks",
+      "Only medals"
+    ],
+    "correct": 1,
+    "explanation": "Rewarded; land restored in some cases."
+  },
+  {
+    "prompt": "The revolt increased British spending on?",
+    "answers": [
+      "Education",
+      "Army and defence",
+      "Only railways",
+      "Only canals"
+    ],
+    "correct": 1,
+    "explanation": "Larger British troop presence."
+  },
+  {
+    "prompt": "Racial attitudes of British toward Indians?",
+    "answers": [
+      "Improved",
+      "Hardened (distrust; superiority)",
+      "Unchanged",
+      "Only in army"
+    ],
+    "correct": 1,
+    "explanation": "Distrust; racial hierarchy."
+  },
+  {
+    "prompt": "The revolt is studied today as?",
+    "answers": [
+      "Only mutiny",
+      "Complex event: mutiny, rebellion, resistance",
+      "Only British victory",
+      "Only sepoy"
+    ],
+    "correct": 1,
+    "explanation": "Multiple interpretations."
+  },
+  {
+    "prompt": "The 1858 Act created a new office in London called?",
+    "answers": [
+      "Viceroy",
+      "Secretary of State for India",
+      "Governor-General",
+      "Council of India only"
+    ],
+    "correct": 1,
+    "explanation": "Secretary of State for India."
+  },
+  {
+    "prompt": "The Crown took over the Company's Indian possessions under?",
+    "answers": [
+      "Charter",
+      "Government of India Act 1858",
+      "Only Proclamation",
+      "Only Parliament"
+    ],
+    "correct": 1,
+    "explanation": "1858 Act; legal transfer."
+  },
+  {
+    "prompt": "Indian princes were assured they could adopt heirs (no lapse) by?",
+    "answers": [
+      "Company",
+      "Queen's Proclamation",
+      "Only 1858 Act",
+      "Only Viceroy"
+    ],
+    "correct": 1,
+    "explanation": "Proclamation; no annexation on failure of heir."
+  },
+  {
+    "prompt": "After 1858, British policy favoured?",
+    "answers": [
+      "Annexation",
+      "Supporting princely states (buffer)",
+      "Only war",
+      "Only direct rule"
+    ],
+    "correct": 1,
+    "explanation": "Princes as allies; no lapse."
+  },
+  {
+    "prompt": "The revolt led to the Indian Councils Act (later) and?",
+    "answers": [
+      "Less Indian representation",
+      "Gradual inclusion of Indians in councils (later)",
+      "Only British",
+      "Only Viceroy"
+    ],
+    "correct": 1,
+    "explanation": "Later acts involved Indians in governance."
+  },
+  {
+    "prompt": "The revolt is a key topic in?",
+    "answers": [
+      "Only British history",
+      "Indian history; UPSC, state exams",
+      "Only military",
+      "Only 1858"
+    ],
+    "correct": 1,
+    "explanation": "Modern Indian history; competitive exams."
+  },
+  {
+    "prompt": "Jallianwala Bagh (1919) is sometimes compared to 1857 in?",
+    "answers": [
+      "British generosity",
+      "British use of force on Indians",
+      "Only Amritsar",
+      "Only Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Colonial violence; collective memory."
+  },
+  {
+    "prompt": "The revolt strengthened the British belief in?",
+    "answers": [
+      "Indian unity",
+      "Divide and rule; racial hierarchy",
+      "Only army",
+      "Only princes"
+    ],
+    "correct": 1,
+    "explanation": "Divide and rule; martial races."
+  },
+  {
+    "prompt": "Today 10 May is observed in India as?",
+    "answers": [
+      "Independence Day",
+      "Commemoration of 1857 revolt (in some places)",
+      "Only mutiny day",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "1857 outbreak; martyrdom."
+  },
+  {
+    "prompt": "The Secretary of State for India sat in?",
+    "answers": [
+      "India",
+      "British Cabinet (London)",
+      "Only Parliament",
+      "Only Council"
+    ],
+    "correct": 1,
+    "explanation": "UK cabinet minister."
+  },
+  {
+    "prompt": "The Viceroy was subordinate to?",
+    "answers": [
+      "Governor of Bombay",
+      "Secretary of State for India",
+      "Only Queen",
+      "Only Parliament"
+    ],
+    "correct": 1,
+    "explanation": "Secretary of State."
+  },
+  {
+    "prompt": "Queen's Proclamation was issued in?",
+    "answers": [
+      "Hindi",
+      "English (and translated)",
+      "Only Urdu",
+      "Only Persian"
+    ],
+    "correct": 1,
+    "explanation": "English; translations."
+  },
+  {
+    "prompt": "The term 'martial races' was used to?",
+    "answers": [
+      "Include all",
+      "Recruit from 'loyal' regions (Punjab, Nepal)",
+      "Only exclude Bengalis",
+      "Only Sikhs"
+    ],
+    "correct": 1,
+    "explanation": "Recruitment policy."
+  },
+  {
+    "prompt": "After 1858, the British increased?",
+    "answers": [
+      "Indian troops",
+      "British troops in India",
+      "Only officers",
+      "Only cavalry"
+    ],
+    "correct": 1,
+    "explanation": "Higher British ratio."
+  },
+  {
+    "prompt": "The revolt delayed?",
+    "answers": [
+      "British rule",
+      "Political reforms (distrust)",
+      "Only army",
+      "Only railways"
+    ],
+    "correct": 1,
+    "explanation": "Distrust; slower reform."
+  },
+  {
+    "prompt": "Indian nationalism later drew on 1857 as?",
+    "answers": [
+      "Nothing",
+      "Symbol of resistance",
+      "Only mutiny",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "First war of independence narrative."
+  },
+  {
+    "prompt": "The revolt led to the creation of?",
+    "answers": [
+      "More states",
+      "Secretary of State; Viceroy; Crown rule",
+      "Only army",
+      "Only council"
+    ],
+    "correct": 1,
+    "explanation": "New structure (1858)."
+  },
+  {
+    "prompt": "Princes who rebelled were?",
+    "answers": [
+      "Rewarded",
+      "Defeated; some deposed",
+      "Only pardoned",
+      "Only fined"
+    ],
+    "correct": 1,
+    "explanation": "Defeated; territories taken."
+  },
+  {
+    "prompt": "The revolt is part of?",
+    "answers": [
+      "Only British history",
+      "Indian and British history",
+      "Only military",
+      "Only 1858"
+    ],
+    "correct": 1,
+    "explanation": "Shared history; different views."
+  },
+  {
+    "prompt": "1858 Act was passed by?",
+    "answers": [
+      "Viceroy",
+      "British Parliament",
+      "Company",
+      "Queen only"
+    ],
+    "correct": 1,
+    "explanation": "Parliament."
+  },
+  {
+    "prompt": "Secretary of State for India was in?",
+    "answers": [
+      "India",
+      "London (UK Cabinet)",
+      "Calcutta",
+      "Delhi"
+    ],
+    "correct": 1,
+    "explanation": "London."
+  },
+  {
+    "prompt": "Council of India advised?",
+    "answers": [
+      "Viceroy",
+      "Secretary of State",
+      "Queen",
+      "Parliament"
+    ],
+    "correct": 1,
+    "explanation": "Secretary of State."
+  },
+  {
+    "prompt": "Viceroy was appointed by?",
+    "answers": [
+      "Parliament vote",
+      "Crown (on PM advice)",
+      "Company",
+      "India Council"
+    ],
+    "correct": 1,
+    "explanation": "Crown."
+  },
+  {
+    "prompt": "Queen's Proclamation promised?",
+    "answers": [
+      "More annexation",
+      "No annexation; equality; religious non-interference",
+      "Only war",
+      "Only army"
+    ],
+    "correct": 1,
+    "explanation": "Key promises."
+  },
+  {
+    "prompt": "Martial races included?",
+    "answers": [
+      "Bengalis",
+      "Punjabis, Gurkhas",
+      "Only Madras",
+      "Only Bombay"
+    ],
+    "correct": 1,
+    "explanation": "Punjab, Nepal."
+  },
+  {
+    "prompt": "British to Indian soldier ratio after 1858?",
+    "answers": [
+      "Decreased",
+      "Increased (more British)",
+      "Same",
+      "Only in Bengal"
+    ],
+    "correct": 1,
+    "explanation": "More British troops."
+  },
+  {
+    "prompt": "Artillery was kept with?",
+    "answers": [
+      "Indian troops",
+      "British only",
+      "Mixed",
+      "Only Bengal"
+    ],
+    "correct": 1,
+    "explanation": "British control."
+  },
+  {
+    "prompt": "Recruitment from Awadh after 1858?",
+    "answers": [
+      "Increased",
+      "Reduced",
+      "Same",
+      "Stopped only in 1857"
+    ],
+    "correct": 1,
+    "explanation": "Reduced."
+  },
+  {
+    "prompt": "Empress of India title was taken in?",
+    "answers": [
+      "1858",
+      "1877",
+      "1880",
+      "1900"
+    ],
+    "correct": 1,
+    "explanation": "1877 (Victoria)."
+  },
+  {
+    "prompt": "High Courts were created under?",
+    "answers": [
+      "1858 Act",
+      "1861 Act",
+      "1892 Act",
+      "1909 Act"
+    ],
+    "correct": 1,
+    "explanation": "Indian High Courts Act 1861."
+  },
+  {
+    "prompt": "ICS exam was in London until?",
+    "answers": [
+      "1857",
+      "1922",
+      "1947",
+      "1900"
+    ],
+    "correct": 1,
+    "explanation": "1922."
+  },
+  {
+    "prompt": "Divide and rule meant?",
+    "answers": [
+      "Unite Indians",
+      "Play off princes, castes, religions",
+      "Only army",
+      "Only provinces"
+    ],
+    "correct": 1,
+    "explanation": "Policy after 1857."
+  },
+  {
+    "prompt": "The revolt is called First War of Independence by?",
+    "answers": [
+      "British",
+      "Indian nationalists",
+      "Only Marx",
+      "Only Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Nationalists (Savarkar)."
+  },
+  {
+    "prompt": "British called it mutiny to?",
+    "answers": [
+      "Honour rebels",
+      "Deny national character",
+      "Only describe",
+      "Only in India"
+    ],
+    "correct": 1,
+    "explanation": "Downplay rebellion."
+  },
+  {
+    "prompt": "Company's political role ended in?",
+    "answers": [
+      "1857",
+      "1858",
+      "1859",
+      "1860"
+    ],
+    "correct": 1,
+    "explanation": "1858."
+  },
+  {
+    "prompt": "Mughal dynasty ended in?",
+    "answers": [
+      "1857",
+      "1858",
+      "1859",
+      "1860"
+    ],
+    "correct": 1,
+    "explanation": "Bahadur Shah exiled 1858."
+  },
+  {
+    "prompt": "Canning read Proclamation at?",
+    "answers": [
+      "Delhi",
+      "Allahabad",
+      "Calcutta",
+      "Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Allahabad."
+  },
+  {
+    "prompt": "Proclamation date was?",
+    "answers": [
+      "1 Nov 1858",
+      "2 Aug 1858",
+      "15 Aug 1857",
+      "26 Jan 1850"
+    ],
+    "correct": 0,
+    "explanation": "1 November 1858."
+  }
+]

@@ -64,6 +64,26 @@
                            placeholder="QuizWhiz">
                     @error('site_name') <div class="mt-1 text-sm text-red-600">{{ $message }}</div> @enderror
                 </div>
+                <div class="mt-6 border-t border-slate-200 pt-6">
+                    <h3 class="text-sm font-semibold text-slate-800">Referral reward</h3>
+                    <p class="mt-1 text-xs text-slate-600">When a referred user subscribes, the referrer can get a 1-month plan. One reward per referrer ever.</p>
+                    <div class="mt-3 grid gap-4 sm:grid-cols-2">
+                        <div>
+                            <label class="text-sm font-medium text-slate-700">Conversions required (M)</label>
+                            <input type="number" name="referral_conversions_required" min="1" value="{{ old('referral_conversions_required', $values['referral_conversions_required'] ?? '1') }}"
+                                   class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="text-sm font-medium text-slate-700">Reward plan (1 month given to referrer)</label>
+                            <select name="referral_reward_plan_id" class="mt-1 w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-slate-400 focus:outline-none">
+                                <option value="">— None (disable reward) —</option>
+                                @foreach($values['student_plans'] ?? [] as $sp)
+                                    <option value="{{ $sp->id }}" @selected((string)($values['referral_reward_plan_id'] ?? '') === (string)$sp->id)>{{ $sp->name }} ({{ $sp->durationLabel() }})</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {{-- Tab: Ads --}}

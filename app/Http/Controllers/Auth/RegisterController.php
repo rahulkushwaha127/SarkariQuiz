@@ -46,6 +46,21 @@ class RegisterController extends Controller
     }
 
     /**
+     * Show the registration form. Capture referral code from ?ref= or ?r= and store referrer in session.
+     */
+    public function showRegistrationForm(Request $request)
+    {
+        $ref = $request->query('ref') ?: $request->query('r');
+        if ($ref !== null && $ref !== '') {
+            $referrer = User::where('referral_code', $ref)->first();
+            if ($referrer) {
+                $request->session()->put('referral_referrer_id', $referrer->id);
+            }
+        }
+        return view('auth.register');
+    }
+
+    /**
      * Get a validator for an incoming registration request.
      *
      * @param  array  $data
@@ -80,11 +95,20 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $user = User::create([
+        $referredById = session('referral_referrer_id');
+        $attributes = [
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-        ]);
+        ];
+        if ($referredById) {
+            $attributes['referred_by_id'] = $referredById;
+        }
+        $user = User::create($attributes);
+
+        if ($referredById) {
+            session()->forget('referral_referrer_id');
+        }
 
         // Default role for all new users.
         $studentRole = Role::findOrCreate('student');

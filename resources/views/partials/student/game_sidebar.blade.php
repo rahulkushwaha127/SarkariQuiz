@@ -161,6 +161,15 @@
         </svg>
         Plans
     </a>
+    <a href="{{ route('student.referral') }}"
+       class="flex items-center gap-3 px-4 py-3 text-sm font-semibold {{ request()->routeIs('student.referral*') ? 'bg-sky-100 text-sky-800' : 'text-stone-700 hover:bg-stone-100' }}">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 opacity-80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Refer & earn
+    </a>
     @endif
 
     @if(($frontendMenu['profile'] ?? true) && $isStudent)

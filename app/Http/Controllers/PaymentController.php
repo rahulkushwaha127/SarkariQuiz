@@ -10,6 +10,7 @@ use App\Models\Plan;
 use App\Models\Setting;
 use App\Models\StudentPlan;
 use App\Services\Payment\PaymentGatewayFactory;
+use App\Services\ReferralService;
 use App\Services\Payment\RazorpayGateway;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -234,6 +235,9 @@ class PaymentController extends Controller
         if ($payment->purpose === 'student_plan_purchase' && $payment->purpose_id) {
             $user->student_plan_id = $payment->purpose_id;
             $user->save();
+
+            // Referral: if payer was referred, check if referrer qualifies for one-time reward
+            app(ReferralService::class)->processPaymentForReferral($payment);
         }
 
         // Legacy: creator plan purchase (plans table) — kept for backward compatibility

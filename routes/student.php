@@ -105,6 +105,11 @@ Route::middleware(['auth', 'require_student'])->group(function () {
         Route::patch('/my-profile/language', [\App\Http\Controllers\Student\ProfileCardController::class, 'updateLanguage'])->name('student.profile.update_language');
     });
 
+    // Refer & earn (students only)
+    Route::middleware(['auth', 'require_student'])->group(function () {
+        Route::get('/refer', [\App\Http\Controllers\Student\ReferralController::class, 'index'])->name('student.referral');
+    });
+
     // Subscription / Plans
     Route::middleware(['menu.enabled:subscription'])->group(function () {
         Route::get('/plans', [SubscriptionController::class, 'index'])->name('student.subscription');

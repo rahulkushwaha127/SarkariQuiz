@@ -14,7 +14,7 @@ class SubscriptionController extends Controller
     public function index()
     {
         $user = Auth::user();
-        $currentPlan = $user->studentPlan;
+        $currentPlan = $user->activeStudentPlan();
         $plans = StudentPlan::query()->active()->ordered()->get();
         $activeGateway = Setting::cachedGet('payment_active_gateway', 'razorpay');
 

@@ -57,6 +57,9 @@ class User extends Authenticatable
         'default_ai_provider',
         'plan_id',
         'student_plan_id',
+        'referred_by_id',
+        'referral_code',
+        'student_plan_ends_at',
     ];
 
     /**
@@ -85,6 +88,7 @@ class User extends Authenticatable
             'social_links' => 'array',
             'blocked_at' => 'datetime',
             'is_guest' => 'boolean',
+            'student_plan_ends_at' => 'datetime',
         ];
     }
 
@@ -128,6 +132,11 @@ class User extends Authenticatable
         return $this->hasMany(BatchStudent::class);
     }
 
+    public function payments()
+    {
+        return $this->hasMany(Payment::class);
+    }
+
     /* ------------------------------------------------------------------ */
     /*  Creator plan (limits: quizzes, batches, AI, etc.)                   */
     /* ------------------------------------------------------------------ */
@@ -156,10 +165,70 @@ class User extends Authenticatable
 
     /**
      * Student's current subscription plan (what they bought or were assigned).
+     * Returns null if plan has expired (student_plan_ends_at in the past).
      */
     public function activeStudentPlan(): ?StudentPlan
     {
+        if (! $this->student_plan_id) {
+            return null;
+        }
+        if ($this->student_plan_ends_at && $this->student_plan_ends_at->isPast()) {
+            return null;
+        }
         return $this->studentPlan;
+    }
+
+    /**
+     * Whether the user has an active student plan (not expired).
+     */
+    public function hasActiveStudentPlan(): bool
+    {
+        return $this->activeStudentPlan() !== null;
+    }
+
+    /* ------------------------------------------------------------------ */
+    /*  Referral                                                           */
+    /* ------------------------------------------------------------------ */
+
+    public function referrer()
+    {
+        return $this->belongsTo(User::class, 'referred_by_id');
+    }
+
+    public function referrals()
+    {
+        return $this->hasMany(User::class, 'referred_by_id');
+    }
+
+    /** The one referral reward this user has received (if any). One reward per user. */
+    public function referralRewardReceived()
+    {
+        return $this->hasOne(ReferralReward::class, 'referrer_id');
+    }
+
+    /**
+     * Ensure this user has a unique referral_code (generates and saves if missing).
+     */
+    public function ensureReferralCode(): string
+    {
+        if ($this->referral_code !== null && $this->referral_code !== '') {
+            return $this->referral_code;
+        }
+        $code = strtoupper(\Illuminate\Support\Str::random(8));
+        while (self::query()->where('referral_code', $code)->exists()) {
+            $code = strtoupper(\Illuminate\Support\Str::random(8));
+        }
+        $this->update(['referral_code' => $code]);
+        return $code;
+    }
+
+    /**
+     * Full referral link for this user (generates referral_code if needed).
+     */
+    public function getReferralLink(): string
+    {
+        $code = $this->ensureReferralCode();
+        return route('register', ['ref' => $code]);
     }
 
     /**

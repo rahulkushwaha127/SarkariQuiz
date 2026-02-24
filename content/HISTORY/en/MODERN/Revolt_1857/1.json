@@ -1,0 +1,717 @@
+[
+  {
+    "prompt": "The Revolt of 1857 broke out in?",
+    "answers": [
+      "March 1857",
+      "May 1857",
+      "July 1857",
+      "August 1857"
+    ],
+    "correct": 1,
+    "explanation": "May 1857 (Meerut, 10 May)."
+  },
+  {
+    "prompt": "The immediate cause of the Revolt of 1857 was?",
+    "answers": [
+      "Doctrine of Lapse",
+      "Greased cartridges (Enfield rifle) rumour",
+      "Annexation of Awadh",
+      "Heavy land revenue"
+    ],
+    "correct": 1,
+    "explanation": "Cartridges greased with cow/pig fat; offended Hindu and Muslim sepoys."
+  },
+  {
+    "prompt": "The Enfield rifle cartridges were rumoured to be greased with?",
+    "answers": [
+      "Only oil",
+      "Cow and pig fat (offensive to Hindus and Muslims)",
+      "Only wax",
+      "Only beef"
+    ],
+    "correct": 1,
+    "explanation": "Cow fat (Hindu) and pig fat (Muslim) rumour."
+  },
+  {
+    "prompt": "Where did the Revolt of 1857 first break out?",
+    "answers": [
+      "Delhi",
+      "Meerut",
+      "Kanpur",
+      "Barrackpore"
+    ],
+    "correct": 1,
+    "explanation": "Meerut (10 May 1857)—sepoys mutinied."
+  },
+  {
+    "prompt": "Mangal Pandey was a sepoy at?",
+    "answers": [
+      "Meerut",
+      "Barrackpore (Bengal)",
+      "Delhi",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Barrackpore (March 1857); attacked British officers."
+  },
+  {
+    "prompt": "Mangal Pandey was executed in?",
+    "answers": [
+      "May 1857",
+      "April 1857",
+      "March 1857",
+      "June 1857"
+    ],
+    "correct": 1,
+    "explanation": "April 1857 (before Meerut outbreak)."
+  },
+  {
+    "prompt": "After Meerut, the rebellious sepoys marched to?",
+    "answers": [
+      "Kanpur",
+      "Delhi",
+      "Lucknow",
+      "Calcutta"
+    ],
+    "correct": 1,
+    "explanation": "Delhi (11 May 1857); sought Mughal leadership."
+  },
+  {
+    "prompt": "Who was proclaimed the Emperor of India by the rebels at Delhi?",
+    "answers": [
+      "Nana Saheb",
+      "Bahadur Shah Zafar II",
+      "Rani Lakshmibai",
+      "Tantia Tope"
+    ],
+    "correct": 1,
+    "explanation": "Bahadur Shah Zafar II (last Mughal)."
+  },
+  {
+    "prompt": "Bahadur Shah Zafar II was the last?",
+    "answers": [
+      "Maratha Peshwa",
+      "Mughal Emperor",
+      "Nawab of Awadh",
+      "King of Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Last Mughal Emperor (1837–1858)."
+  },
+  {
+    "prompt": "Kanpur was a major centre of the revolt under?",
+    "answers": [
+      "Rani Lakshmibai",
+      "Nana Saheb",
+      "Kunwar Singh",
+      "Begum Hazrat Mahal"
+    ],
+    "correct": 1,
+    "explanation": "Nana Saheb (adopted son of Peshwa Baji Rao II)."
+  },
+  {
+    "prompt": "The massacre at Kanpur (Bibighar) was followed by?",
+    "answers": [
+      "British surrender",
+      "British recapture and retaliation",
+      "Peace",
+      "Treaty"
+    ],
+    "correct": 1,
+    "explanation": "British recaptured Kanpur; harsh retaliation."
+  },
+  {
+    "prompt": "Lucknow was the capital of?",
+    "answers": [
+      "Bengal",
+      "Awadh (Oudh)",
+      "Punjab",
+      "Central India"
+    ],
+    "correct": 1,
+    "explanation": "Awadh; Residency at Lucknow."
+  },
+  {
+    "prompt": "Who led the revolt in Lucknow?",
+    "answers": [
+      "Nana Saheb",
+      "Begum Hazrat Mahal",
+      "Rani Lakshmibai",
+      "Tantia Tope"
+    ],
+    "correct": 1,
+    "explanation": "Begum Hazrat Mahal (wife of deposed Wajid Ali Shah)."
+  },
+  {
+    "prompt": "The British Residency at Lucknow was besieged by?",
+    "answers": [
+      "British",
+      "Rebel forces",
+      "Nepal",
+      "Sikhs"
+    ],
+    "correct": 1,
+    "explanation": "Rebels besieged Residency (June 1857)."
+  },
+  {
+    "prompt": "Jhansi was ruled by?",
+    "answers": [
+      "Nana Saheb",
+      "Rani Lakshmibai",
+      "Tantia Tope",
+      "Kunwar Singh"
+    ],
+    "correct": 1,
+    "explanation": "Rani Lakshmibai (Laxmibai)."
+  },
+  {
+    "prompt": "Jhansi had been annexed by the British under?",
+    "answers": [
+      "Permanent Settlement",
+      "Doctrine of Lapse (no male heir)",
+      "Subsidiary Alliance",
+      "War"
+    ],
+    "correct": 1,
+    "explanation": "Doctrine of Lapse (1853); adopted son not recognised."
+  },
+  {
+    "prompt": "Rani Lakshmibai died fighting at?",
+    "answers": [
+      "Jhansi",
+      "Gwalior (June 1858)",
+      "Kanpur",
+      "Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Gwalior (17–18 June 1858); in battle."
+  },
+  {
+    "prompt": "Tantia Tope was associated with?",
+    "answers": [
+      "Delhi",
+      "Nana Saheb and Kanpur; later guerrilla in Central India",
+      "Only Jhansi",
+      "Only Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Nana Saheb's general; guerrilla warfare."
+  },
+  {
+    "prompt": "Kunwar Singh was a leader from?",
+    "answers": [
+      "Punjab",
+      "Bihar (Jagdishpur)",
+      "Maharashtra",
+      "Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Bihar; Jagdishpur; elderly Rajput chief."
+  },
+  {
+    "prompt": "Which Governor-General introduced the Doctrine of Lapse?",
+    "answers": [
+      "Wellesley",
+      "Lord Dalhousie",
+      "Hastings",
+      "Cornwallis"
+    ],
+    "correct": 1,
+    "explanation": "Lord Dalhousie (1848–1856)."
+  },
+  {
+    "prompt": "Doctrine of Lapse meant?",
+    "answers": [
+      "Annexation if ruler had no natural heir; adopted son not recognised",
+      "Only annexation after war",
+      "Only subsidy",
+      "Only alliance"
+    ],
+    "correct": 0,
+    "explanation": "No natural heir → state lapsed to Company; adopted son not recognised."
+  },
+  {
+    "prompt": "Under Dalhousie, which states were annexed under Doctrine of Lapse?",
+    "answers": [
+      "Only Awadh",
+      "Satara, Jhansi, Nagpur, Sambalpur, etc.",
+      "Only Punjab",
+      "Only Sind"
+    ],
+    "correct": 1,
+    "explanation": "Satara (1848), Jhansi (1853), Nagpur (1854), etc."
+  },
+  {
+    "prompt": "Awadh was annexed in?",
+    "answers": [
+      "1848",
+      "1856",
+      "1857",
+      "1854"
+    ],
+    "correct": 1,
+    "explanation": "1856 (Dalhousie); misgovernment as pretext."
+  },
+  {
+    "prompt": "Awadh was annexed on the pretext of?",
+    "answers": [
+      "Doctrine of Lapse",
+      "Misgovernment",
+      "War",
+      "Subsidiary Alliance breach"
+    ],
+    "correct": 1,
+    "explanation": "Misgovernment of the Nawab."
+  },
+  {
+    "prompt": "Economic causes of the Revolt included?",
+    "answers": [
+      "Only cartridges",
+      "Heavy land revenue, destruction of handicrafts, impoverishment",
+      "Only land revenue",
+      "Only trade"
+    ],
+    "correct": 1,
+    "explanation": "Revenue; deindustrialisation; poverty."
+  },
+  {
+    "prompt": "Military causes of the Revolt included?",
+    "answers": [
+      "Only cartridges",
+      "Greased cartridges, service conditions, racial discrimination, General Service Enlistment Act",
+      "Only pay",
+      "Only officers"
+    ],
+    "correct": 1,
+    "explanation": "Cartridges; conditions; overseas service (1856)."
+  },
+  {
+    "prompt": "General Service Enlistment Act (1856) required sepoys to?",
+    "answers": [
+      "Only serve in India",
+      "Serve overseas if required (against caste/religion)",
+      "Only in Bengal",
+      "Only in Madras"
+    ],
+    "correct": 1,
+    "explanation": "Serve abroad; offended caste and religion."
+  },
+  {
+    "prompt": "Social-religious causes of the Revolt included?",
+    "answers": [
+      "Only cartridges",
+      "Missionary activity, social reforms (e.g. abolition of Sati), interference in customs",
+      "Only Sati",
+      "Only missionaries"
+    ],
+    "correct": 1,
+    "explanation": "Reforms; missionary work; interference."
+  },
+  {
+    "prompt": "The revolt is also called?",
+    "answers": [
+      "First War of Independence",
+      "First War of Independence / Sepoy Mutiny / Great Rebellion",
+      "Only Sepoy Mutiny",
+      "Only Great Rebellion"
+    ],
+    "correct": 1,
+    "explanation": "Various names: mutiny, rebellion, first war of independence."
+  },
+  {
+    "prompt": "Which British regiment was at Meerut when the revolt broke out?",
+    "answers": [
+      "Only cavalry",
+      "Bengal Native Infantry (and cavalry); British troops also present",
+      "Only British",
+      "Only artillery"
+    ],
+    "correct": 1,
+    "explanation": "Bengal Army sepoys at Meerut mutinied."
+  },
+  {
+    "prompt": "The revolt spread to which regions?",
+    "answers": [
+      "Only North India",
+      "North and Central India (Delhi, UP, Bihar, MP, parts of Rajasthan)",
+      "Only Bengal",
+      "Only Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Delhi, UP, Bihar, MP, Rajasthan; not all of India."
+  },
+  {
+    "prompt": "Punjab and most of South India remained?",
+    "answers": [
+      "Rebel-held",
+      "Largely quiet or loyal to British",
+      "Only neutral",
+      "Only Punjab rebelled"
+    ],
+    "correct": 1,
+    "explanation": "Punjab, Sind, most of South India did not revolt."
+  },
+  {
+    "prompt": "The revolt did not spread to?",
+    "answers": [
+      "Delhi",
+      "Bengal (eastern), Punjab, South India (most)",
+      "UP",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Bengal proper, Punjab, South largely unaffected."
+  },
+  {
+    "prompt": "Nana Saheb was the adopted son of?",
+    "answers": [
+      "Bahadur Shah",
+      "Peshwa Baji Rao II",
+      "Rani Lakshmibai",
+      "Wajid Ali Shah"
+    ],
+    "correct": 1,
+    "explanation": "Peshwa Baji Rao II (pension stopped after 1851)."
+  },
+  {
+    "prompt": "Nana Saheb's pension was stopped by the British because?",
+    "answers": [
+      "He rebelled",
+      "He was adopted son; no heir recognised",
+      "He refused to pay",
+      "Only Dalhousie"
+    ],
+    "correct": 1,
+    "explanation": "Adopted son not recognised; pension stopped."
+  },
+  {
+    "prompt": "The siege of the Lucknow Residency was relieved by?",
+    "answers": [
+      "Rebels",
+      "British forces (Havelock, Outram, Campbell)",
+      "Nepal only",
+      "Sikhs only"
+    ],
+    "correct": 1,
+    "explanation": "British relief forces (1857–58)."
+  },
+  {
+    "prompt": "Central India saw revolt in?",
+    "answers": [
+      "Only Gwalior",
+      "Jhansi, Gwalior, and other areas",
+      "Only Jhansi",
+      "Only Indore"
+    ],
+    "correct": 1,
+    "explanation": "Jhansi, Gwalior, Central India."
+  },
+  {
+    "prompt": "Rani Lakshmibai escaped from Jhansi and joined forces with?",
+    "answers": [
+      "Nana Saheb",
+      "Tantia Tope (and occupied Gwalior)",
+      "Kunwar Singh",
+      "Bahadur Shah"
+    ],
+    "correct": 1,
+    "explanation": "Tantia Tope; Gwalior captured; died in battle."
+  },
+  {
+    "prompt": "Bareilly was a centre of revolt under?",
+    "answers": [
+      "Nana Saheb",
+      "Khan Bahadur Khan / Maulvi Ahmadullah",
+      "Rani Lakshmibai",
+      "Kunwar Singh"
+    ],
+    "correct": 1,
+    "explanation": "Khan Bahadur Khan (Rohilla); Bareilly."
+  },
+  {
+    "prompt": "Faizabad and Ayodhya saw revolt led by?",
+    "answers": [
+      "Nana Saheb",
+      "Maulvi Ahmadullah Shah",
+      "Rani Lakshmibai",
+      "Tantia Tope"
+    ],
+    "correct": 1,
+    "explanation": "Maulvi Ahmadullah (Faizabad)."
+  },
+  {
+    "prompt": "The revolt was mainly confined to the army of?",
+    "answers": [
+      "Madras Presidency",
+      "Bengal Presidency (Bengal Army)",
+      "Bombay Presidency",
+      "All presidencies equally"
+    ],
+    "correct": 1,
+    "explanation": "Bengal Army (sepoys from Awadh, Bihar, etc.)."
+  },
+  {
+    "prompt": "Which community's soldiers largely remained loyal to the British?",
+    "answers": [
+      "Bengal sepoys",
+      "Sikhs and Gurkhas (used to suppress revolt)",
+      "Only Gurkhas",
+      "Only Madras"
+    ],
+    "correct": 1,
+    "explanation": "Sikhs, Gurkhas; Madras and Bombay armies largely loyal."
+  },
+  {
+    "prompt": "The revolt had the character of?",
+    "answers": [
+      "Only sepoy mutiny",
+      "Sepoy mutiny + popular uprising (peasants, zamindars, princes)",
+      "Only peasant revolt",
+      "Only princely"
+    ],
+    "correct": 1,
+    "explanation": "Military + civil; peasants and dispossessed joined."
+  },
+  {
+    "prompt": "The cartridge incident at Barrackpore (March 1857) involved?",
+    "answers": [
+      "Only Meerut sepoys",
+      "Mangal Pandey attacking British officers; refusal to use cartridges",
+      "Only Delhi",
+      "Only Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Mangal Pandey; 29th BNI; cartridge refusal."
+  },
+  {
+    "prompt": "Which regiment was disbanded after the Barrackpore incident?",
+    "answers": [
+      "34th NI",
+      "19th Bengal Native Infantry",
+      "Only cavalry",
+      "Only artillery"
+    ],
+    "correct": 1,
+    "explanation": "19th BNI disbanded after Mangal Pandey."
+  },
+  {
+    "prompt": "The revolt began at Meerut on which date?",
+    "answers": [
+      "9 May 1857",
+      "10 May 1857",
+      "11 May 1857",
+      "15 May 1857"
+    ],
+    "correct": 1,
+    "explanation": "10 May 1857 (Sunday); sepoys broke open jail."
+  },
+  {
+    "prompt": "At Meerut, rebellious sepoys released?",
+    "answers": [
+      "Only civilians",
+      "Their imprisoned comrades (85 troopers)",
+      "Only British",
+      "Only officers"
+    ],
+    "correct": 1,
+    "explanation": "Released 85 sepoys imprisoned for refusing cartridges."
+  },
+  {
+    "prompt": "Delhi was recaptured by the British in?",
+    "answers": [
+      "June 1857",
+      "September 1857",
+      "November 1857",
+      "March 1858"
+    ],
+    "correct": 1,
+    "explanation": "20 September 1857 (after siege)."
+  },
+  {
+    "prompt": "The British siege of Delhi was led by?",
+    "answers": [
+      "Havelock",
+      "John Nicholson, Wilson; later Campbell",
+      "Outram only",
+      "Lawrence only"
+    ],
+    "correct": 1,
+    "explanation": "Nicholson (killed); Delhi Field Force."
+  },
+  {
+    "prompt": "Kanpur (Cawnpore) was recaptured by the British in?",
+    "answers": [
+      "June 1857",
+      "July 1857",
+      "September 1857",
+      "1858"
+    ],
+    "correct": 1,
+    "explanation": "July 1857 (Havelock)."
+  },
+  {
+    "prompt": "The Bibighar massacre at Kanpur was of?",
+    "answers": [
+      "Rebels",
+      "British women and children (held by Nana's forces)",
+      "Only soldiers",
+      "Only Nana Saheb"
+    ],
+    "correct": 1,
+    "explanation": "British women and children killed (July 1857)."
+  },
+  {
+    "prompt": "Henry Lawrence died during?",
+    "answers": [
+      "Siege of Delhi",
+      "Siege of Lucknow Residency",
+      "Kanpur",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Lucknow Residency (July 1857); Chief Commissioner."
+  },
+  {
+    "prompt": "James Outram and Henry Havelock were associated with?",
+    "answers": [
+      "Delhi",
+      "Relief of Lucknow Residency",
+      "Jhansi",
+      "Kanpur only"
+    ],
+    "correct": 1,
+    "explanation": "First relief of Lucknow (September 1857)."
+  },
+  {
+    "prompt": "Arrah (Bihar) saw resistance under?",
+    "answers": [
+      "Nana Saheb",
+      "Kunwar Singh",
+      "Rani Lakshmibai",
+      "Tantia Tope"
+    ],
+    "correct": 1,
+    "explanation": "Kunwar Singh; siege of Arrah."
+  },
+  {
+    "prompt": "Benares (Varanasi) and Allahabad saw?",
+    "answers": [
+      "No revolt",
+      "Revolt; Col. Neill's suppression at Allahabad",
+      "Only peace",
+      "Only British"
+    ],
+    "correct": 1,
+    "explanation": "Revolt; Neill's harsh action at Allahabad."
+  },
+  {
+    "prompt": "Satara was annexed under Doctrine of Lapse in?",
+    "answers": [
+      "1848",
+      "1849",
+      "1853",
+      "1856"
+    ],
+    "correct": 0,
+    "explanation": "1848 (first under Dalhousie)."
+  },
+  {
+    "prompt": "Sambalpur was annexed in?",
+    "answers": [
+      "1848",
+      "1850",
+      "1854",
+      "1856"
+    ],
+    "correct": 1,
+    "explanation": "1850 (Doctrine of Lapse)."
+  },
+  {
+    "prompt": "Nagpur was annexed under Doctrine of Lapse in?",
+    "answers": [
+      "1853",
+      "1854",
+      "1856",
+      "1857"
+    ],
+    "correct": 1,
+    "explanation": "1854 (no heir)."
+  },
+  {
+    "prompt": "Wajid Ali Shah was the last Nawab of?",
+    "answers": [
+      "Bengal",
+      "Awadh",
+      "Hyderabad",
+      "Carnatic"
+    ],
+    "correct": 1,
+    "explanation": "Awadh; deposed 1856."
+  },
+  {
+    "prompt": "Dalhousie's annexations created discontent among?",
+    "answers": [
+      "Only British",
+      "Dispossessed rulers, soldiers from Awadh, zamindars",
+      "Only peasants",
+      "Only merchants"
+    ],
+    "correct": 1,
+    "explanation": "Rulers, sepoys (Awadh), aristocracy."
+  },
+  {
+    "prompt": "The revolt did not get support from?",
+    "answers": [
+      "Peasants",
+      "Most educated middle class (Bengal etc.)",
+      "Sepoys",
+      "Dispossessed princes"
+    ],
+    "correct": 1,
+    "explanation": "Bengal intelligentsia largely loyal."
+  },
+  {
+    "prompt": "Rani Lakshmibai's adopted son was?",
+    "answers": [
+      "Damodar Rao",
+      "Anand Rao",
+      "Nana Saheb",
+      "Tantia Tope"
+    ],
+    "correct": 0,
+    "explanation": "Damodar Rao (not recognised by British)."
+  },
+  {
+    "prompt": "Gwalior was captured by rebels under?",
+    "answers": [
+      "Nana Saheb only",
+      "Rani Lakshmibai and Tantia Tope",
+      "Kunwar Singh",
+      "Bahadur Shah"
+    ],
+    "correct": 1,
+    "explanation": "June 1858; Scindia's troops joined rebels."
+  },
+  {
+    "prompt": "The revolt was confined largely to?",
+    "answers": [
+      "South India",
+      "North and Central India (UP, Bihar, MP, Delhi, Rajasthan)",
+      "Only Bengal",
+      "Only Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Gangetic plain, Central India."
+  },
+  {
+    "prompt": "Rao Sahib was?",
+    "answers": [
+      "Nawab of Awadh",
+      "Nephew of Nana Saheb; rebel leader",
+      "Rani's son",
+      "Mughal prince"
+    ],
+    "correct": 1,
+    "explanation": "Nana Saheb's nephew; fought with Tantia Tope."
+  }
+]

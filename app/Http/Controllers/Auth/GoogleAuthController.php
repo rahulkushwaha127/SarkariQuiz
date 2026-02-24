@@ -18,6 +18,13 @@ class GoogleAuthController extends Controller
         if ($next !== '') {
             $request->session()->put('url.intended', $next);
         }
+        $ref = $request->query('ref') ?: $request->query('r');
+        if ($ref !== null && $ref !== '') {
+            $referrer = User::query()->where('referral_code', $ref)->first();
+            if ($referrer) {
+                $request->session()->put('referral_referrer_id', $referrer->id);
+            }
+        }
 
         return Socialite::driver('google')->redirect();
     }
@@ -44,8 +51,8 @@ class GoogleAuthController extends Controller
         }
 
         if (! $user) {
-            // New user: create as student by default.
-            $user = User::query()->create([
+            $referredById = $request->session()->get('referral_referrer_id');
+            $attributes = [
                 'name' => $googleUser->getName() ?: ($googleUser->getNickname() ?: 'Student'),
                 'email' => $email,
                 'google_id' => $googleId,
@@ -53,7 +60,14 @@ class GoogleAuthController extends Controller
                 'password' => bcrypt(Str::random(32)), // not used for Google login
                 'email_verified_at' => now(),
                 'is_guest' => false,
-            ]);
+            ];
+            if ($referredById) {
+                $attributes['referred_by_id'] = $referredById;
+            }
+            $user = User::query()->create($attributes);
+            if ($referredById) {
+                $request->session()->forget('referral_referrer_id');
+            }
 
             $studentRole = Role::findOrCreate('student');
             $user->assignRole($studentRole);

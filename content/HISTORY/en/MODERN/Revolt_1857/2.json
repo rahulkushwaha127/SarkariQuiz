@@ -1,0 +1,717 @@
+[
+  {
+    "prompt": "Bahadur Shah Zafar II was exiled to?",
+    "answers": [
+      "Delhi",
+      "Rangoon (Burma)",
+      "Calcutta",
+      "London"
+    ],
+    "correct": 1,
+    "explanation": "Rangoon (1858); died there 1862."
+  },
+  {
+    "prompt": "What happened to the Mughal dynasty after the revolt?",
+    "answers": [
+      "It continued",
+      "Abolished; Bahadur Shah exiled; last Mughal",
+      "Only Delhi lost",
+      "Only pension stopped"
+    ],
+    "correct": 1,
+    "explanation": "Dynasty ended; last Mughal exiled."
+  },
+  {
+    "prompt": "Nana Saheb disappeared after?",
+    "answers": [
+      "Meerut",
+      "Fall of Kanpur; fate unknown (likely Nepal or died)",
+      "Delhi",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "After Kanpur recapture; fate uncertain."
+  },
+  {
+    "prompt": "Tantia Tope was captured and executed in?",
+    "answers": [
+      "1857",
+      "1859",
+      "1858",
+      "1860"
+    ],
+    "correct": 1,
+    "explanation": "1859 (captured; executed at Shivpuri)."
+  },
+  {
+    "prompt": "Begum Hazrat Mahal escaped to?",
+    "answers": [
+      "Delhi",
+      "Nepal",
+      "Pakistan",
+      "Hyderabad"
+    ],
+    "correct": 1,
+    "explanation": "Nepal (after Lucknow fell); died there."
+  },
+  {
+    "prompt": "Kunwar Singh was from which state?",
+    "answers": [
+      "UP",
+      "Bihar (Jagdishpur, Arrah)",
+      "Rajasthan",
+      "MP"
+    ],
+    "correct": 1,
+    "explanation": "Bihar; Jagdishpur; led revolt in Bihar."
+  },
+  {
+    "prompt": "Kunwar Singh died in?",
+    "answers": [
+      "1857",
+      "1858",
+      "1859",
+      "1860"
+    ],
+    "correct": 1,
+    "explanation": "April 1858 (from wounds)."
+  },
+  {
+    "prompt": "Who recaptured Delhi from the rebels?",
+    "answers": [
+      "Havelock",
+      "John Nicholson; British forces (September 1857)",
+      "Campbell",
+      "Outram"
+    ],
+    "correct": 1,
+    "explanation": "British recaptured Delhi September 1857."
+  },
+  {
+    "prompt": "John Nicholson was killed during?",
+    "answers": [
+      "Siege of Lucknow",
+      "Assault on Delhi",
+      "Kanpur",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Assault on Delhi (September 1857)."
+  },
+  {
+    "prompt": "Lucknow was finally recaptured by the British in?",
+    "answers": [
+      "1857",
+      "March 1858",
+      "1859",
+      "1860"
+    ],
+    "correct": 1,
+    "explanation": "March 1858 (Campbell)."
+  },
+  {
+    "prompt": "Colin Campbell (Lord Clyde) was associated with?",
+    "answers": [
+      "Delhi",
+      "Relief and recapture of Lucknow",
+      "Kanpur only",
+      "Jhansi only"
+    ],
+    "correct": 1,
+    "explanation": "Relief of Lucknow; Commander-in-Chief."
+  },
+  {
+    "prompt": "Henry Havelock relieved which city first?",
+    "answers": [
+      "Delhi",
+      "Kanpur (then marched to Lucknow)",
+      "Jhansi",
+      "Lucknow only"
+    ],
+    "correct": 1,
+    "explanation": "Kanpur; then first relief of Lucknow."
+  },
+  {
+    "prompt": "British suppression of the revolt was marked by?",
+    "answers": [
+      "Leniency",
+      "Harsh punishment; executions; reprisals",
+      "Only fines",
+      "Only imprisonment"
+    ],
+    "correct": 1,
+    "explanation": "Severe reprisals; blowing from guns; hangings."
+  },
+  {
+    "prompt": "Rebels were sometimes executed by being blown from guns, a method used to?",
+    "answers": [
+      "Honour them",
+      "Terrify others (deterrent)",
+      "Only in Delhi",
+      "Only in Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Brutal execution; deterrent."
+  },
+  {
+    "prompt": "The Government of India Act 1858 was passed by?",
+    "answers": [
+      "East India Company",
+      "British Parliament",
+      "Viceroy",
+      "Queen only"
+    ],
+    "correct": 1,
+    "explanation": "British Parliament (August 1858)."
+  },
+  {
+    "prompt": "The Government of India Act 1858 did what?",
+    "answers": [
+      "Extended Company rule",
+      "Transferred power from Company to Crown (British government)",
+      "Only changed Governor-General",
+      "Only created Viceroy"
+    ],
+    "correct": 1,
+    "explanation": "End of Company rule; Crown took over."
+  },
+  {
+    "prompt": "After 1858, the East India Company?",
+    "answers": [
+      "Continued to rule",
+      "Ceased to govern; Crown took over",
+      "Only traded",
+      "Only advised"
+    ],
+    "correct": 1,
+    "explanation": "Company's political role ended."
+  },
+  {
+    "prompt": "The title 'Viceroy' was used for the Governor-General from?",
+    "answers": [
+      "1773",
+      "1858 (after Crown took over)",
+      "1935",
+      "1947"
+    ],
+    "correct": 1,
+    "explanation": "1858; Viceroy and Governor-General of India."
+  },
+  {
+    "prompt": "Who was the first Viceroy of India?",
+    "answers": [
+      "Dalhousie",
+      "Lord Canning",
+      "Hastings",
+      "Wellesley"
+    ],
+    "correct": 1,
+    "explanation": "Lord Canning (1858–1862)."
+  },
+  {
+    "prompt": "The Queen's Proclamation was issued in?",
+    "answers": [
+      "1857",
+      "1 November 1858",
+      "1859",
+      "1860"
+    ],
+    "correct": 1,
+    "explanation": "1 November 1858."
+  },
+  {
+    "prompt": "The Queen's Proclamation was issued by?",
+    "answers": [
+      "Viceroy",
+      "Queen Victoria",
+      "British Parliament",
+      "Company"
+    ],
+    "correct": 1,
+    "explanation": "Queen Victoria (proclamation to India)."
+  },
+  {
+    "prompt": "The Queen's Proclamation promised?",
+    "answers": [
+      "Independence",
+      "No territorial expansion; respect for treaties; non-interference in religion; equality",
+      "Only peace",
+      "Only pardon"
+    ],
+    "correct": 1,
+    "explanation": "No annexation; respect for princes; religious non-interference; equality."
+  },
+  {
+    "prompt": "The Queen's Proclamation declared that the British would not?",
+    "answers": [
+      "Fight wars",
+      "Annex Indian states (no Doctrine of Lapse)",
+      "Make treaties",
+      "Employ Indians"
+    ],
+    "correct": 1,
+    "explanation": "No more annexation; respect for princely states."
+  },
+  {
+    "prompt": "Indian princes were assured of?",
+    "answers": [
+      "Independence",
+      "Their territories and rights (under British paramountcy)",
+      "Only pension",
+      "Only alliance"
+    ],
+    "correct": 1,
+    "explanation": "Territorial integrity; treaties honoured."
+  },
+  {
+    "prompt": "After 1858, the Secretary of State for India?",
+    "answers": [
+      "Did not exist",
+      "Headed the India Office in London",
+      "Was in India",
+      "Was only Viceroy"
+    ],
+    "correct": 1,
+    "explanation": "Secretary of State for India (British cabinet)."
+  },
+  {
+    "prompt": "The India Council (in London) advised?",
+    "answers": [
+      "Viceroy",
+      "Secretary of State for India",
+      "Queen",
+      "Parliament"
+    ],
+    "correct": 1,
+    "explanation": "Advised Secretary of State."
+  },
+  {
+    "prompt": "Army reorganisation after 1858 included?",
+    "answers": [
+      "More Indian troops in key roles",
+      "Fewer British troops in artillery; more British in army; ratio changed",
+      "Only disarmament",
+      "Only Sikhs"
+    ],
+    "correct": 1,
+    "explanation": "Artillery with British; proportion of British increased."
+  },
+  {
+    "prompt": "The proportion of British to Indian soldiers in the army was increased after 1858 to?",
+    "answers": [
+      "Reduce British",
+      "Ensure British dominance (prevent another revolt)",
+      "Only in Bengal",
+      "Only in Madras"
+    ],
+    "correct": 1,
+    "explanation": "More British soldiers; loyalty."
+  },
+  {
+    "prompt": "Bengal Army was reorganised; soldiers from Awadh and Bihar were?",
+    "answers": [
+      "Increased",
+      "Reduced (recruitment from 'martial races')",
+      "Only retained",
+      "Only disarmed"
+    ],
+    "correct": 1,
+    "explanation": "Recruitment shifted to Punjab, Gurkhas, etc."
+  },
+  {
+    "prompt": "'Martial races' theory was used to?",
+    "answers": [
+      "Include all Indians",
+      "Recruit from certain regions (e.g. Punjab, Gurkhas) considered loyal",
+      "Only exclude Bengalis",
+      "Only include British"
+    ],
+    "correct": 1,
+    "explanation": "Recruit from 'loyal' regions; avoid restive areas."
+  },
+  {
+    "prompt": "Policy toward Indian states after 1858?",
+    "answers": [
+      "More annexation",
+      "Respect for princes; no Doctrine of Lapse",
+      "Only war",
+      "Only subsidy"
+    ],
+    "correct": 1,
+    "explanation": "Support princes; no lapse policy."
+  },
+  {
+    "prompt": "The revolt has been called the 'First War of Independence' by?",
+    "answers": [
+      "British only",
+      "Indian nationalists (e.g. V.D. Savarkar)",
+      "Only Congress",
+      "Only Marx"
+    ],
+    "correct": 1,
+    "explanation": "Savarkar's book; nationalist view."
+  },
+  {
+    "prompt": "British historians often called the revolt?",
+    "answers": [
+      "First War of Independence",
+      "Sepoy Mutiny",
+      "Great Rebellion",
+      "Both B and C"
+    ],
+    "correct": 3,
+    "explanation": "Mutiny or rebellion (military revolt)."
+  },
+  {
+    "prompt": "The revolt failed because?",
+    "answers": [
+      "British had no resources",
+      "Limited spread; no unity; British recovered; loyal troops; no clear programme",
+      "Only lack of leaders",
+      "Only Delhi fell"
+    ],
+    "correct": 1,
+    "explanation": "Limited area; no single leadership; British strength."
+  },
+  {
+    "prompt": "Which major regions did NOT see revolt?",
+    "answers": [
+      "UP",
+      "Punjab, Bengal (east), South India (most)",
+      "Bihar",
+      "Delhi"
+    ],
+    "correct": 1,
+    "explanation": "Punjab, Sind, Bengal, Madras, Bombay largely quiet."
+  },
+  {
+    "prompt": "Rani Lakshmibai is also known as?",
+    "answers": [
+      "Begum of Awadh",
+      "Rani of Jhansi; Manu",
+      "Queen of Delhi",
+      "Peshwa"
+    ],
+    "correct": 1,
+    "explanation": "Rani of Jhansi; Manikarnika/Manu."
+  },
+  {
+    "prompt": "Tantia Tope's real name was?",
+    "answers": [
+      "Nana Saheb",
+      "Ramachandra Pandurang",
+      "Kunwar Singh",
+      "Ahmadullah"
+    ],
+    "correct": 1,
+    "explanation": "Ramachandra Pandurang (Tantia Tope)."
+  },
+  {
+    "prompt": "Maulvi Ahmadullah Shah was from?",
+    "answers": [
+      "Delhi",
+      "Faizabad (Awadh)",
+      "Kanpur",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Faizabad; fought in Awadh."
+  },
+  {
+    "prompt": "Bakht Khan was?",
+    "answers": [
+      "Rani's general",
+      "Rebel general at Delhi (from Bareilly)",
+      "Viceroy",
+      "British commander"
+    ],
+    "correct": 1,
+    "explanation": "Led rebel forces at Delhi; from Bareilly."
+  },
+  {
+    "prompt": "The revolt was largely over by?",
+    "answers": [
+      "1857",
+      "1858 (mid)",
+      "1859",
+      "1860"
+    ],
+    "correct": 1,
+    "explanation": "Main operations ended by mid-1858."
+  },
+  {
+    "prompt": "Lord Canning was Governor-General during?",
+    "answers": [
+      "Outbreak only",
+      "Revolt and its suppression (1856–1862)",
+      "Only 1858 Act",
+      "Only Proclamation"
+    ],
+    "correct": 1,
+    "explanation": "1856–1862; through revolt and aftermath."
+  },
+  {
+    "prompt": "The revolt strengthened the hold of?",
+    "answers": [
+      "Indian princes",
+      "British (Crown rule; reorganisation)",
+      "Company",
+      "Rebels"
+    ],
+    "correct": 1,
+    "explanation": "British Crown rule; centralised control."
+  },
+  {
+    "prompt": "Queen Victoria took the title 'Empress of India' in?",
+    "answers": [
+      "1858",
+      "1877",
+      "1857",
+      "1880"
+    ],
+    "correct": 1,
+    "explanation": "1877 (Durbar; Disraeli)."
+  },
+  {
+    "prompt": "The Indian High Courts Act was passed in?",
+    "answers": [
+      "1857",
+      "1861",
+      "1858",
+      "1865"
+    ],
+    "correct": 1,
+    "explanation": "1861 (reorganisation of judiciary post-revolt)."
+  },
+  {
+    "prompt": "The Council of India (in London) had how many members (initially)?",
+    "answers": [
+      "5",
+      "15",
+      "25",
+      "10"
+    ],
+    "correct": 1,
+    "explanation": "15 members (1858); advised Secretary of State."
+  },
+  {
+    "prompt": "After 1858, the Governor-General was responsible to?",
+    "answers": [
+      "Company",
+      "Secretary of State for India (and British Parliament)",
+      "Queen only",
+      "Viceroy only"
+    ],
+    "correct": 1,
+    "explanation": "Secretary of State; Crown."
+  },
+  {
+    "prompt": "The Queen's Proclamation promised equality in?",
+    "answers": [
+      "Wealth",
+      "Employment (no discrimination by race or religion)",
+      "Only army",
+      "Only civil service"
+    ],
+    "correct": 1,
+    "explanation": "Equal opportunity in public employment."
+  },
+  {
+    "prompt": "Indian Civil Service (ICS) examination was held in?",
+    "answers": [
+      "India only",
+      "London (until 1922)",
+      "Both India and London",
+      "Only Calcutta"
+    ],
+    "correct": 1,
+    "explanation": "London; Indians could sit from 1855."
+  },
+  {
+    "prompt": "The revolt led to the end of?",
+    "answers": [
+      "British rule",
+      "East India Company's political role; Mughal dynasty",
+      "Only Company trade",
+      "Only Governor-General"
+    ],
+    "correct": 1,
+    "explanation": "Company rule; Mughal dynasty."
+  },
+  {
+    "prompt": "Zeemat Mahal was?",
+    "answers": [
+      "Rani of Jhansi",
+      "Wife of Bahadur Shah Zafar; influential in Delhi",
+      "Begum of Awadh",
+      "Nana's wife"
+    ],
+    "correct": 1,
+    "explanation": "Queen Zeenat Mahal; influenced Bahadur Shah."
+  },
+  {
+    "prompt": "Sir Hugh Rose (Lord Strathnairn) was associated with?",
+    "answers": [
+      "Delhi",
+      "Central India campaign; recapture of Jhansi and Gwalior",
+      "Lucknow",
+      "Kanpur"
+    ],
+    "correct": 1,
+    "explanation": "Central India Field Force; Jhansi, Gwalior."
+  },
+  {
+    "prompt": "Rani Lakshmibai died on?",
+    "answers": [
+      "17 June 1858",
+      "18 June 1858",
+      "17–18 June 1858 (at Gwalior)",
+      "April 1858"
+    ],
+    "correct": 2,
+    "explanation": "17 or 18 June 1858; Gwalior."
+  },
+  {
+    "prompt": "Tantia Tope was executed at?",
+    "answers": [
+      "Kanpur",
+      "Shivpuri",
+      "Delhi",
+      "Jhansi"
+    ],
+    "correct": 1,
+    "explanation": "Shivpuri (April 1859)."
+  },
+  {
+    "prompt": "Nana Saheb's commander at Kanpur was?",
+    "answers": [
+      "Tantia Tope",
+      "Tantia Tope (and Azimullah)",
+      "Kunwar Singh",
+      "Bakht Khan"
+    ],
+    "correct": 1,
+    "explanation": "Tantia Tope; also Azimullah Khan."
+  },
+  {
+    "prompt": "The British used which tactic to execute many rebels?",
+    "answers": [
+      "Only hanging",
+      "Blowing from guns (cannon)",
+      "Only imprisonment",
+      "Only exile"
+    ],
+    "correct": 1,
+    "explanation": "Blowing from guns (deterrent)."
+  },
+  {
+    "prompt": "V.D. Savarkar wrote a book on the revolt titled?",
+    "answers": [
+      "First War of Independence",
+      "The Indian War of Independence 1857",
+      "Sepoy Mutiny",
+      "Rebellion"
+    ],
+    "correct": 1,
+    "explanation": "The Indian War of Independence 1857 (1909)."
+  },
+  {
+    "prompt": "Karl Marx wrote about the revolt in?",
+    "answers": [
+      "London only",
+      "New York Daily Tribune (articles)",
+      "Only British press",
+      "Only later"
+    ],
+    "correct": 1,
+    "explanation": "Articles in NYDT; colonial critique."
+  },
+  {
+    "prompt": "The revolt caused the British to?",
+    "answers": [
+      "Withdraw from India",
+      "Consolidate control; distrust Indian army; favour princes",
+      "Only punish",
+      "Only pardon"
+    ],
+    "correct": 1,
+    "explanation": "Consolidate; army reorganisation; princes as allies."
+  },
+  {
+    "prompt": "Recruitment to the Bengal Army from Awadh was?",
+    "answers": [
+      "Increased after 1858",
+      "Reduced; 'martial races' from Punjab, NWFP preferred",
+      "Unchanged",
+      "Only stopped in 1857"
+    ],
+    "correct": 1,
+    "explanation": "Shift to Punjab, Gurkhas, etc."
+  },
+  {
+    "prompt": "The Government of India Act 1858 abolished?",
+    "answers": [
+      "Viceroy",
+      "Board of Control and Court of Directors (Company's dual government)",
+      "Only Company",
+      "Only Secretary of State"
+    ],
+    "correct": 1,
+    "explanation": "Company's political machinery; Crown took over."
+  },
+  {
+    "prompt": "Lord Canning announced the transfer to Crown at?",
+    "answers": [
+      "Delhi",
+      "Allahabad (November 1858)",
+      "Calcutta",
+      "Lucknow"
+    ],
+    "correct": 1,
+    "explanation": "Allahabad; Queen's Proclamation read."
+  },
+  {
+    "prompt": "The revolt is sometimes dated from?",
+    "answers": [
+      "March 1857 (Mangal Pandey)",
+      "May 1857 (Meerut) to 1858",
+      "Only 1857",
+      "Only 1858"
+    ],
+    "correct": 1,
+    "explanation": "May 1857–1858; Mangal Pandey March 1857 as prelude."
+  },
+  {
+    "prompt": "Who called the revolt 'a national uprising'?",
+    "answers": [
+      "Only British",
+      "Indian nationalists and some historians",
+      "Only Marx",
+      "Only Savarkar"
+    ],
+    "correct": 1,
+    "explanation": "Nationalist interpretation."
+  },
+  {
+    "prompt": "The number of British troops in India was increased after 1858 to?",
+    "answers": [
+      "Reduce cost",
+      "Ensure British numerical strength in army",
+      "Only replace sepoys",
+      "Only in Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Higher ratio of British to Indian soldiers."
+  },
+  {
+    "prompt": "Artillery and ammunition were kept under?",
+    "answers": [
+      "Indian troops",
+      "British control only (after 1858)",
+      "Mixed",
+      "Only Bengal"
+    ],
+    "correct": 1,
+    "explanation": "British-only in key arms; prevent repeat."
+  }
+]
