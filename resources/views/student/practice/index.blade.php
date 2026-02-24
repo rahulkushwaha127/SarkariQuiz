@@ -45,6 +45,17 @@
                 </div>
 
                 <div>
+                    <label class="text-sm font-semibold text-stone-700">Subtopic</label>
+                    <select name="subtopic_id" id="practice_subtopic_id"
+                            class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
+                        <option value="">Select subtopic…</option>
+                        @foreach($subtopics ?? [] as $st)
+                            <option value="{{ $st->id }}" @selected(isset($subtopicId) && (int)$subtopicId === (int)$st->id)>{{ $st->name }}</option>
+                        @endforeach
+                    </select>
+                </div>
+
+                <div>
                     <label class="text-sm font-semibold text-stone-700">Difficulty</label>
                     <select name="difficulty" id="practice_difficulty"
                             class="student-select mt-1 w-full rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
@@ -64,6 +75,7 @@
             <form method="POST" action="{{ route('practice.start') }}" id="practice_start_form" class="mt-4 space-y-3">
                 @csrf
                 <input type="hidden" name="topic_id" id="practice_start_topic_id" value="{{ $topicId }}">
+                <input type="hidden" name="subtopic_id" id="practice_start_subtopic_id" value="{{ $subtopicId ?? '' }}">
                 <input type="hidden" name="difficulty" id="practice_start_difficulty" value="{{ $difficulty ?: '' }}">
 
                 <div>
@@ -86,16 +98,19 @@
         (function () {
             const subjectSelect = document.getElementById('practice_subject_id');
             const topicSelect = document.getElementById('practice_topic_id');
+            const subtopicSelect = document.getElementById('practice_subtopic_id');
             const difficultySelect = document.getElementById('practice_difficulty');
             const startTopicInput = document.getElementById('practice_start_topic_id');
+            const startSubtopicInput = document.getElementById('practice_start_subtopic_id');
             const startDifficultyInput = document.getElementById('practice_start_difficulty');
-            const startBtn = document.getElementById('practice_start_btn');
             const startHint = document.getElementById('practice_start_hint');
             const topicsBySubjectUrl = '{{ route("practice.topics_by_subject") }}';
+            const subtopicsByTopicUrl = '{{ route("practice.subtopics_by_topic") }}';
 
             function loadTopics(subjectId) {
                 topicSelect.innerHTML = '<option value="">Select topic…</option>';
                 topicSelect.disabled = true;
+                loadSubtopics(null);
                 if (!subjectId) {
                     updateStartState();
                     return;
@@ -121,19 +136,59 @@
                     });
             }
 
+            function loadSubtopics(topicId) {
+                subtopicSelect.innerHTML = '<option value="">Select subtopic…</option>';
+                subtopicSelect.disabled = true;
+                if (!topicId) {
+                    subtopicSelect.disabled = false;
+                    updateStartState();
+                    return;
+                }
+                fetch(subtopicsByTopicUrl + '?topic_id=' + encodeURIComponent(topicId), {
+                    headers: { 'Accept': 'application/json', 'X-Requested-With': 'XMLHttpRequest' }
+                })
+                    .then(function (r) { return r.json(); })
+                    .then(function (data) {
+                        subtopicSelect.innerHTML = '<option value="">Select subtopic…</option>';
+                        (data.subtopics || []).forEach(function (st) {
+                            const opt = document.createElement('option');
+                            opt.value = st.id;
+                            opt.textContent = st.name;
+                            subtopicSelect.appendChild(opt);
+                        });
+                        subtopicSelect.disabled = false;
+                        updateStartState();
+                    })
+                    .catch(function () {
+                        subtopicSelect.disabled = false;
+                        updateStartState();
+                    });
+            }
+
             function updateStartState() {
                 const topicId = topicSelect.value || '';
+                const subtopicId = subtopicSelect.value || '';
                 const difficulty = difficultySelect.value || '';
                 startTopicInput.value = topicId;
+                startSubtopicInput.value = subtopicId;
                 startDifficultyInput.value = difficulty;
-                startHint.textContent = topicId ? '' : 'Leave topic empty for random questions from any topic.';
+                if (subtopicId) {
+                    startHint.textContent = '';
+                } else if (topicId) {
+                    startHint.textContent = 'Questions from this topic. Optionally pick a subtopic to narrow down.';
+                } else {
+                    startHint.textContent = 'Leave topic empty for random questions from any topic.';
+                }
             }
 
             subjectSelect.addEventListener('change', function () {
                 loadTopics(this.value || null);
             });
 
-            topicSelect.addEventListener('change', updateStartState);
+            topicSelect.addEventListener('change', function () {
+                loadSubtopics(this.value || null);
+            });
+            subtopicSelect.addEventListener('change', updateStartState);
             difficultySelect.addEventListener('change', updateStartState);
         })();
     </script>

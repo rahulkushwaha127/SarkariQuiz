@@ -11,6 +11,7 @@ use App\Models\Question;
 use App\Models\QuestionBookmark;
 use App\Models\Quiz;
 use App\Models\Subject;
+use App\Models\Subtopic;
 use App\Models\Topic;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -25,6 +26,7 @@ class PracticeController extends Controller
 
         $subjectId = $request->integer('subject_id') ?: null;
         $topicId = $request->integer('topic_id') ?: null;
+        $subtopicId = $request->integer('subtopic_id') ?: null;
         $difficulty = $request->string('difficulty')->toString();
         if (!in_array($difficulty, ['', 'easy', 'medium', 'hard'], true)) {
             $difficulty = '';
@@ -41,6 +43,7 @@ class PracticeController extends Controller
         }
 
         $topics = collect();
+        $subtopics = collect();
         if ($subjectId) {
             $topics = Topic::query()
                 ->where('subject_id', $subjectId)
@@ -52,11 +55,25 @@ class PracticeController extends Controller
             if ($topicId && !$topics->firstWhere('id', $topicId)) {
                 $topicId = null;
             }
+            if ($topicId) {
+                $subtopics = Subtopic::query()
+                    ->where('topic_id', $topicId)
+                    ->where('is_active', true)
+                    ->orderBy('position')
+                    ->orderBy('name')
+                    ->get(['id', 'name']);
+                if ($subtopicId && !$subtopics->firstWhere('id', $subtopicId)) {
+                    $subtopicId = null;
+                }
+            } else {
+                $subtopicId = null;
+            }
         } else {
             $topicId = null;
+            $subtopicId = null;
         }
 
-        return view('student.practice.index', compact('subjects', 'topics', 'subjectId', 'topicId', 'difficulty'));
+        return view('student.practice.index', compact('subjects', 'topics', 'subtopics', 'subjectId', 'topicId', 'subtopicId', 'difficulty'));
     }
 
     public function topicsBySubject(Request $request)
@@ -78,16 +95,37 @@ class PracticeController extends Controller
         return response()->json(['topics' => $topics]);
     }
 
+    public function subtopicsByTopic(Request $request)
+    {
+        abort_unless(Auth::user()?->hasRole('student'), 403);
+
+        $topicId = $request->integer('topic_id');
+        if (!$topicId) {
+            return response()->json(['subtopics' => []]);
+        }
+
+        $subtopics = Subtopic::query()
+            ->where('topic_id', $topicId)
+            ->where('is_active', true)
+            ->orderBy('position')
+            ->orderBy('name')
+            ->get(['id', 'name']);
+
+        return response()->json(['subtopics' => $subtopics]);
+    }
+
     public function start(Request $request)
     {
         abort_unless(Auth::user()?->hasRole('student'), 403);
 
         $data = $request->validate([
             'topic_id' => ['nullable', 'integer', 'exists:topics,id'],
+            'subtopic_id' => ['nullable', 'integer', 'exists:subtopics,id'],
             'difficulty' => ['nullable', 'string', 'in:easy,medium,hard'],
         ]);
 
         $topicId = isset($data['topic_id']) && (int) $data['topic_id'] > 0 ? (int) $data['topic_id'] : null;
+        $subtopicId = isset($data['subtopic_id']) && (int) $data['subtopic_id'] > 0 ? (int) $data['subtopic_id'] : null;
         $difficulty = $data['difficulty'] ?? null;
 
         // Number of questions: empty or invalid => default 10; otherwise clamp to 5–25
@@ -114,7 +152,8 @@ class PracticeController extends Controller
                     ->from('answers')
                     ->whereColumn('answers.question_id', 'questions.id');
             })
-            ->when($topicId, fn ($q) => $q->where('topic_id', $topicId))
+            ->when($subtopicId, fn ($q) => $q->where('subtopic_id', $subtopicId))
+            ->when($topicId && ! $subtopicId, fn ($q) => $q->where('topic_id', $topicId))
             ->when(! is_null($difficultyInt), fn ($q) => $q->where('difficulty', $difficultyInt));
 
         $questionIds = $query->inRandomOrder()
@@ -125,8 +164,8 @@ class PracticeController extends Controller
         if (count($questionIds) === 0) {
             return redirect()
                 ->route('practice')
-                ->withErrors(['practice' => $topicId
-                    ? 'No questions found for this topic yet.'
+                ->withErrors(['practice' => ($subtopicId || $topicId)
+                    ? 'No questions found for this selection yet.'
                     : 'No questions in the question bank yet.']);
         }
 
