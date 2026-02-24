@@ -7,10 +7,14 @@
     $user = auth()->user();
     $isCurrentPlan = fn($plan) => $currentPlan && $currentPlan->id === $plan->id;
 @endphp
-<div class="space-y-5">
-    <div>
-        <h1 class="text-xl font-bold text-stone-800">Choose your plan</h1>
-        <p class="mt-1 text-sm text-stone-500">Unlock premium features with a subscription.</p>
+<div class="space-y-6">
+    <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-sky-500 via-sky-600 to-indigo-600 px-5 py-5 text-white shadow-lg">
+        <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20 backdrop-blur">
+            <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2l2.4 7.2H22l-6 4.5 2.3 7.3L12 16.5 5.7 21l2.3-7.3-6-4.5h7.6L12 2z"/></svg>
+        </div>
+        <h1 class="mt-3 text-xl font-bold tracking-tight">Plans</h1>
+        <p class="mt-1 text-sm text-sky-100">Unlock premium features with a subscription.</p>
+        <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-white/10"></div>
     </div>
 
     {{-- Current plan banner --}}

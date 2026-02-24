@@ -3,10 +3,14 @@
 @section('title', 'Revision')
 
 @section('content')
-    <div class="space-y-4">
-        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-            <div class="text-sm font-semibold text-stone-800">Revision</div>
-            <div class="mt-1 text-sm text-stone-600">Bookmarks and mistakes-based practice.</div>
+    <div class="space-y-6">
+        <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-sky-500 via-sky-600 to-indigo-600 px-5 py-5 text-white shadow-lg">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20 backdrop-blur">
+                <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg>
+            </div>
+            <h1 class="mt-3 text-xl font-bold tracking-tight">Revision</h1>
+            <p class="mt-1 text-sm text-sky-100">Bookmarks and mistakes-based practice.</p>
+            <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-white/10"></div>
         </div>
 
         @error('revision')
@@ -18,27 +22,27 @@
         <div class="rounded-2xl border border-stone-200 bg-white shadow-sm overflow-hidden">
             <div class="flex items-center gap-2 px-4 py-3">
                 <a href="{{ route('revision', ['tab' => 'bookmarks']) }}"
-                   class="rounded-xl px-3 py-2 text-sm font-semibold transition-colors {{ $tab === 'bookmarks' ? 'bg-stone-200 text-stone-800' : 'text-stone-600 hover:bg-stone-100' }}">
+                   class="rounded-xl px-3 py-2 text-sm font-semibold transition-colors {{ $tab === 'bookmarks' ? 'bg-sky-100 text-sky-800' : 'text-stone-600 hover:bg-stone-100' }}">
                     Bookmarks
                 </a>
                 <a href="{{ route('revision', ['tab' => 'mistakes']) }}"
-                   class="rounded-xl px-3 py-2 text-sm font-semibold transition-colors {{ $tab === 'mistakes' ? 'bg-stone-200 text-stone-800' : 'text-stone-600 hover:bg-stone-100' }}">
+                   class="rounded-xl px-3 py-2 text-sm font-semibold transition-colors {{ $tab === 'mistakes' ? 'bg-sky-100 text-sky-800' : 'text-stone-600 hover:bg-stone-100' }}">
                     Mistakes
                 </a>
             </div>
         </div>
 
-        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-            <form method="POST" action="{{ route('revision.start') }}" class="flex items-center gap-2">
+        <div class="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
+            <form method="POST" action="{{ route('revision.start') }}" class="flex flex-wrap items-center gap-3">
                 @csrf
                 <input type="hidden" name="source" value="{{ $tab }}">
                 <input type="number" min="5" max="25" name="count" value="10"
-                       class="w-20 rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm text-stone-800 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30">
-                <button class="flex-1 rounded-xl bg-indigo-500 px-4 py-3 text-sm font-semibold text-white hover:bg-indigo-400 transition-colors">
-                    Revise again ({{ $tab }})
+                       class="w-20 rounded-xl border border-stone-200 bg-white px-3 py-2.5 text-sm text-stone-800 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30">
+                <button class="flex-1 min-w-[140px] rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500 transition-colors">
+                    Revise ({{ $tab }})
                 </button>
             </form>
-            <div class="mt-2 text-xs text-stone-500">Starts a practice session from your {{ $tab }} questions.</div>
+            <p class="mt-2 text-xs text-stone-500">Starts a practice session from your {{ $tab }} questions.</p>
         </div>
 
         @if($tab === 'bookmarks')

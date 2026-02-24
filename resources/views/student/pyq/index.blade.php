@@ -3,10 +3,14 @@
 @section('title', 'PYQ Bank')
 
 @section('content')
-    <div class="space-y-4">
-        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-            <div class="text-sm font-semibold text-stone-800">PYQ Bank</div>
-            <div class="mt-1 text-sm text-stone-500">Practice previous year questions with timer.</div>
+    <div class="space-y-6">
+        <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-sky-500 via-sky-600 to-indigo-600 px-5 py-5 text-white shadow-lg">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20 backdrop-blur">
+                <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h1 class="mt-3 text-xl font-bold tracking-tight">PYQ Bank</h1>
+            <p class="mt-1 text-sm text-sky-100">Practice previous year questions with timer.</p>
+            <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-white/10"></div>
         </div>
 
         @error('pyq')
@@ -15,8 +19,9 @@
         </div>
         @enderror
 
-        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-            <form method="GET" action="{{ route('pyq.index') }}" class="space-y-3">
+        <div class="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
+            <h2 class="text-base font-bold text-stone-800">Filters</h2>
+            <form method="GET" action="{{ route('pyq.index') }}" class="mt-3 space-y-3">
                 <div>
                     <label class="text-sm font-semibold text-stone-700">Exam</label>
                     <select name="exam_id"
@@ -64,17 +69,17 @@
                     @endif
                 </div>
 
-                <button class="w-full rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm font-semibold text-stone-700 hover:bg-stone-50">
-                    Load filters
+                <button class="w-full rounded-xl border border-stone-200 bg-white px-4 py-3 text-sm font-semibold text-stone-700 hover:bg-stone-50 transition-colors">
+                    Apply filters
                 </button>
             </form>
         </div>
 
-        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-            <div class="text-sm font-semibold text-stone-800">Start PYQ Test</div>
-            <div class="mt-1 text-sm text-stone-500">Choose count + timer mode.</div>
+        <div class="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
+            <h2 class="text-base font-bold text-stone-800">Start PYQ test</h2>
+            <p class="mt-1 text-sm text-stone-500">Choose count and timer mode.</p>
 
-            <form method="POST" action="{{ route('pyq.start') }}" class="mt-3 space-y-3">
+            <form method="POST" action="{{ route('pyq.start') }}" class="mt-4 space-y-3">
                 @csrf
                 <input type="hidden" name="exam_id" value="{{ $examId }}">
                 <input type="hidden" name="subject_id" value="{{ $subjectId }}">
@@ -119,9 +124,9 @@
                 </div>
 
                 <button type="submit"
-                        class="w-full rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500 disabled:opacity-50"
+                        class="w-full rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500 disabled:opacity-50 transition-colors"
                         @disabled(!$examId)>
-                    START PYQ
+                    Start PYQ
                 </button>
 
                 @if(!$examId)

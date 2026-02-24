@@ -3,10 +3,14 @@
 @section('title', 'Practice')
 
 @section('content')
-    <div class="space-y-4">
-        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-            <div class="text-sm font-semibold text-stone-800">Practice</div>
-            <div class="mt-1 text-sm text-stone-500">Pick a topic and start practicing.</div>
+    <div class="space-y-6">
+        <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-sky-500 via-sky-600 to-indigo-600 px-5 py-5 text-white shadow-lg">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20 backdrop-blur">
+                <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+            </div>
+            <h1 class="mt-3 text-xl font-bold tracking-tight">Practice</h1>
+            <p class="mt-1 text-sm text-sky-100">Pick a topic and start practicing.</p>
+            <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-white/10"></div>
         </div>
 
         @error('practice')
@@ -15,8 +19,9 @@
         </div>
         @enderror
 
-        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-            <form method="GET" action="{{ route('practice') }}" class="space-y-3">
+        <div class="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
+            <h2 class="text-base font-bold text-stone-800">Filters</h2>
+            <form method="GET" action="{{ route('practice') }}" class="mt-3 space-y-3">
                 <div>
                     <label class="text-sm font-semibold text-stone-700">Subject</label>
                     <select name="subject_id" id="practice_subject_id"
@@ -52,11 +57,11 @@
             </form>
         </div>
 
-        <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-            <div class="text-sm font-semibold text-stone-800">Start</div>
-            <div class="mt-1 text-sm text-stone-500">Leave number empty for 10 questions.</div>
+        <div class="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
+            <h2 class="text-base font-bold text-stone-800">Start</h2>
+            <p class="mt-1 text-sm text-stone-500">Leave number empty for 10 questions.</p>
 
-            <form method="POST" action="{{ route('practice.start') }}" id="practice_start_form" class="mt-3 space-y-3">
+            <form method="POST" action="{{ route('practice.start') }}" id="practice_start_form" class="mt-4 space-y-3">
                 @csrf
                 <input type="hidden" name="topic_id" id="practice_start_topic_id" value="{{ $topicId }}">
                 <input type="hidden" name="difficulty" id="practice_start_difficulty" value="{{ $difficulty ?: '' }}">
@@ -68,8 +73,8 @@
                 </div>
 
                 <button type="submit" id="practice_start_btn"
-                        class="w-full rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500">
-                    START PRACTICE
+                        class="w-full rounded-xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white hover:bg-sky-500 transition-colors">
+                    Start practice
                 </button>
 
                 <div class="text-xs text-stone-500" id="practice_start_hint">Leave topic empty for random questions from any topic.</div>

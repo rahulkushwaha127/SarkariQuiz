@@ -10,13 +10,13 @@
     $userName = $me?->name ?? 'Guest';
     $frontendMenu = $frontendMenu ?? [];
 @endphp
-<div class="space-y-4">
-    <div class="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+<div class="space-y-6">
+    {{-- Welcome & stats hero --}}
+    <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-sky-500 via-sky-600 to-indigo-600 px-5 py-5 text-white shadow-lg">
         @if($isLoggedIn)
-            <div class="text-sm text-stone-500">Welcome back</div>
-            <div class="mt-1 text-xl font-semibold text-stone-800">{{ $userName }}</div>
+            <p class="text-sm font-medium text-sky-100">Welcome back</p>
+            <h1 class="mt-0.5 text-xl font-bold tracking-tight">{{ $userName }}</h1>
 
-            {{-- Streak & XP row --}}
             @php
                 $currentStreak = (int) ($streak?->current_streak ?? 0);
                 $bestStreak = (int) ($streak?->best_streak ?? 0);
@@ -29,72 +29,86 @@
             @endphp
 
             @if($streakAtRisk)
-                <div class="mt-2 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-center text-sm">
-                    <span class="font-semibold text-amber-800">Your {{ $currentStreak }}-day streak is at risk!</span>
-                    <span class="text-amber-700">Complete a quiz today to keep it alive.</span>
+                <div class="mt-3 rounded-xl border border-white/30 bg-white/15 px-3 py-2 text-center text-sm backdrop-blur">
+                    <span class="font-semibold">Your {{ $currentStreak }}-day streak is at risk!</span>
+                    <span class="text-sky-100">Complete a quiz today to keep it.</span>
                 </div>
             @endif
-            <div class="mt-3 grid grid-cols-3 gap-2 text-center">
-                <div class="rounded-xl border border-stone-200 bg-stone-50 p-2">
-                    <div class="text-lg font-bold text-amber-600">{{ $currentStreak }}</div>
-                    <div class="text-[10px] text-stone-500">Day streak</div>
+
+            <div class="mt-4 grid grid-cols-3 gap-2">
+                <div class="rounded-xl bg-white/15 backdrop-blur p-3 text-center">
+                    <div class="text-xl font-bold tabular-nums">{{ $currentStreak }}</div>
+                    <div class="mt-0.5 text-[10px] font-medium uppercase tracking-wider text-sky-100">Day streak</div>
                 </div>
-                <div class="rounded-xl border border-stone-200 bg-stone-50 p-2">
-                    <div class="text-lg font-bold text-sky-600">{{ number_format($totalXp) }}</div>
-                    <div class="text-[10px] text-stone-500">XP</div>
+                <div class="rounded-xl bg-white/15 backdrop-blur p-3 text-center">
+                    <div class="text-xl font-bold tabular-nums">{{ number_format($totalXp) }}</div>
+                    <div class="mt-0.5 text-[10px] font-medium uppercase tracking-wider text-sky-100">XP</div>
                 </div>
-                <div class="rounded-xl border border-stone-200 bg-stone-50 p-2">
-                    <div class="text-lg font-bold text-emerald-600">Lv {{ $level }}</div>
-                    <div class="text-[10px] text-stone-500">{{ $levelName }}</div>
+                <div class="rounded-xl bg-white/15 backdrop-blur p-3 text-center">
+                    <div class="text-xl font-bold tabular-nums">Lv {{ $level }}</div>
+                    <div class="mt-0.5 text-[10px] font-medium uppercase tracking-wider text-sky-100">{{ $levelName }}</div>
                 </div>
             </div>
-            {{-- XP progress bar --}}
-            <div class="mt-2">
-                <div class="flex items-center justify-between text-[10px] text-stone-500">
+
+            <div class="mt-3">
+                <div class="flex justify-between text-[10px] font-medium text-sky-100">
                     <span>Lv {{ $level }}</span>
                     <span>Lv {{ min($level + 1, 10) }}</span>
                 </div>
-                <div class="mt-0.5 h-1.5 w-full overflow-hidden rounded-full bg-stone-200">
-                    <div class="h-full rounded-full bg-sky-500 transition-all" style="width: {{ $xpProgress }}%"></div>
+                <div class="mt-1 h-2 w-full overflow-hidden rounded-full bg-white/25">
+                    <div class="h-full rounded-full bg-white transition-all duration-500" style="width: {{ $xpProgress }}%"></div>
                 </div>
             </div>
         @else
-            <div class="text-sm text-stone-500">Welcome to {{ $siteName ?? config('app.name', 'QuizWhiz') }}</div>
-            <div class="mt-1 text-base font-semibold text-stone-800">Practice quizzes, compete in contests, and track your progress.</div>
+            <p class="text-sm font-medium text-sky-100">Welcome to {{ $siteName ?? config('app.name', 'QuizWhiz') }}</p>
+            <h1 class="mt-1 text-lg font-bold tracking-tight">Practice quizzes, compete in contests, and track your progress.</h1>
         @endif
 
-        @if($isStudent && (($frontendMenu['join_contest'] ?? true) || ($frontendMenu['practice'] ?? true) || ($frontendMenu['daily_challenge'] ?? true)))
-            <div class="mt-3 flex flex-wrap gap-2">
-                @if($frontendMenu['join_contest'] ?? true)
-                    <a href="{{ route('contests.join') }}"
-                       class="rounded-xl bg-sky-600 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-500">
-                        Join contest
-                    </a>
-                @endif
-                @if($frontendMenu['practice'] ?? true)
-                    <a href="{{ route('practice') }}"
-                       class="rounded-xl border border-stone-200 bg-white px-4 py-2 text-sm font-semibold text-stone-700 hover:bg-stone-50">
-                        Practice
-                    </a>
-                @endif
-                @if($frontendMenu['daily_challenge'] ?? true)
-                    <a href="{{ route('public.daily') }}"
-                       class="rounded-xl border border-stone-200 bg-white px-4 py-2 text-sm font-semibold text-stone-700 hover:bg-stone-50">
-                        Daily challenge
-                    </a>
-                @endif
-            </div>
-        @endif
+        <div class="absolute -right-8 -top-8 h-28 w-28 rounded-full bg-white/10"></div>
+        <div class="absolute -bottom-6 -left-6 h-24 w-24 rounded-full bg-white/5"></div>
     </div>
 
+    @if($isStudent && (($frontendMenu['join_contest'] ?? true) || ($frontendMenu['practice'] ?? true) || ($frontendMenu['daily_challenge'] ?? true)))
+        <div class="flex flex-nowrap gap-2 overflow-x-auto pb-1">
+            @if($frontendMenu['join_contest'] ?? true)
+                <a href="{{ route('contests.join') }}"
+                   class="shrink-0 inline-flex items-center gap-2 rounded-xl bg-sky-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 transition-colors">
+                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                    </svg>
+                    Join contest
+                </a>
+            @endif
+            @if($frontendMenu['practice'] ?? true)
+                <a href="{{ route('practice') }}"
+                   class="shrink-0 inline-flex items-center gap-2 rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-sm font-semibold text-stone-700 shadow-sm hover:bg-stone-50 transition-colors">
+                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                    </svg>
+                    Practice
+                </a>
+            @endif
+            @if($frontendMenu['daily_challenge'] ?? true)
+                <a href="{{ route('public.daily') }}"
+                   class="shrink-0 inline-flex items-center gap-2 rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-sm font-semibold text-stone-700 shadow-sm hover:bg-stone-50 transition-colors">
+                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    Daily challenge
+                </a>
+            @endif
+        </div>
+    @endif
+
+    {{-- Quizzes section --}}
     <div class="space-y-3">
-        <div class="flex items-center gap-2 text-sm font-semibold text-stone-700">
-            <span class="inline-flex h-6 w-6 items-center justify-center rounded-lg bg-stone-200 text-stone-600">
-                <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2l2.5 7H22l-6 4.3 2.2 6.7L12 16.9 5.8 20 8 13.3 2 9h7.5L12 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        <div class="flex items-center gap-2">
+            <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-amber-100 text-amber-600">
+                <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2l2.5 7H22l-6 4.3 2.2 6.7L12 16.9 5.8 20 8 13.3 2 9h7.5L12 2z" stroke-linejoin="round"/>
                 </svg>
             </span>
-            <span>Quizzes</span>
+            <h2 class="text-base font-bold text-stone-800">Quizzes</h2>
         </div>
 
         <div id="dashboard-quiz-list" class="space-y-3">
@@ -110,7 +124,7 @@
                         id="dashboard-load-more-btn"
                         data-next-page="{{ $quizzes->currentPage() + 1 }}"
                         data-last-page="{{ $quizzes->lastPage() }}"
-                        class="dashboard-load-more-btn w-full rounded-xl border border-sky-200 bg-sky-50 px-4 py-3 text-sm font-semibold text-sky-700 shadow-sm transition hover:border-sky-300 hover:bg-sky-100 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-stone-50 disabled:opacity-60">
+                        class="dashboard-load-more-btn w-full rounded-xl border border-sky-200 bg-sky-50 px-4 py-3 text-sm font-semibold text-sky-700 transition hover:border-sky-300 hover:bg-sky-100 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 disabled:opacity-60">
                     <span class="btn-text">Load more quizzes</span>
                 </button>
             </div>
@@ -119,9 +133,14 @@
         @endif
 
         @if($quizzes->isEmpty())
-            <div class="rounded-2xl border border-stone-200 bg-white p-6 text-center shadow-sm">
-                <div class="text-sm font-semibold text-stone-800">No quizzes yet</div>
-                <div class="mt-1 text-sm text-stone-500">Public quizzes will appear here.</div>
+            <div class="rounded-2xl border border-stone-200 bg-white p-8 text-center shadow-sm">
+                <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-stone-100">
+                    <svg class="h-7 w-7 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+                    </svg>
+                </div>
+                <p class="mt-3 text-sm font-semibold text-stone-800">No quizzes yet</p>
+                <p class="mt-1 text-sm text-stone-500">Public quizzes will appear here.</p>
             </div>
         @endif
     </div>
