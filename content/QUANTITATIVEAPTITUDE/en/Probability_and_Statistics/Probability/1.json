@@ -1,0 +1,222 @@
+[
+  {
+    "question": "A coin is tossed. Probability of getting head?",
+    "answers": [
+      { "title": "1/2", "is_correct": true },
+      { "title": "1/4", "is_correct": false },
+      { "title": "1", "is_correct": false },
+      { "title": "0", "is_correct": false }
+    ],
+    "explanation": "P(H) = 1/2 (favorable = 1, total = 2)",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A die is thrown. Probability of getting number greater than 4?",
+    "answers": [
+      { "title": "1/3", "is_correct": true },
+      { "title": "2/3", "is_correct": false },
+      { "title": "1/2", "is_correct": false },
+      { "title": "1/6", "is_correct": false }
+    ],
+    "explanation": "Numbers > 4: {5, 6}. P = 2/6 = 1/3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two coins tossed. Probability of at least one head?",
+    "answers": [
+      { "title": "3/4", "is_correct": true },
+      { "title": "1/4", "is_correct": false },
+      { "title": "1/2", "is_correct": false },
+      { "title": "1", "is_correct": false }
+    ],
+    "explanation": "1 - P(no head) = 1 - 1/4 = 3/4",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A card drawn from deck of 52. Probability of getting a king?",
+    "answers": [
+      { "title": "1/13", "is_correct": true },
+      { "title": "1/52", "is_correct": false },
+      { "title": "4/13", "is_correct": false },
+      { "title": "1/4", "is_correct": false }
+    ],
+    "explanation": "4 kings in 52 cards. P = 4/52 = 1/13",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two dice thrown. Probability of sum = 7?",
+    "answers": [
+      { "title": "1/6", "is_correct": true },
+      { "title": "7/36", "is_correct": false },
+      { "title": "1/7", "is_correct": false },
+      { "title": "5/36", "is_correct": false }
+    ],
+    "explanation": "Favorable: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. P = 6/36 = 1/6",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Bag has 3 red, 5 blue balls. One drawn. P(red)?",
+    "answers": [
+      { "title": "3/8", "is_correct": true },
+      { "title": "5/8", "is_correct": false },
+      { "title": "3/5", "is_correct": false },
+      { "title": "1/2", "is_correct": false }
+    ],
+    "explanation": "P(red) = 3/8",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A card drawn from deck. Probability of not getting a spade?",
+    "answers": [
+      { "title": "3/4", "is_correct": true },
+      { "title": "1/4", "is_correct": false },
+      { "title": "1/2", "is_correct": false },
+      { "title": "13/52", "is_correct": false }
+    ],
+    "explanation": "P(not spade) = 1 - 13/52 = 39/52 = 3/4",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two dice thrown. Probability of getting doublet?",
+    "answers": [
+      { "title": "1/6", "is_correct": true },
+      { "title": "1/36", "is_correct": false },
+      { "title": "5/36", "is_correct": false },
+      { "title": "1/3", "is_correct": false }
+    ],
+    "explanation": "Doublets: (1,1),(2,2),...,(6,6) = 6. P = 6/36 = 1/6",
+    "difficulty": "easy"
+  },
+  {
+    "question": "3 coins tossed. Probability of exactly 2 heads?",
+    "answers": [
+      { "title": "3/8", "is_correct": true },
+      { "title": "1/8", "is_correct": false },
+      { "title": "1/2", "is_correct": false },
+      { "title": "1/4", "is_correct": false }
+    ],
+    "explanation": "HHT, HTH, THH = 3 outcomes. Total = 8. P = 3/8",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A card drawn. Probability of face card?",
+    "answers": [
+      { "title": "3/13", "is_correct": true },
+      { "title": "12/13", "is_correct": false },
+      { "title": "1/4", "is_correct": false },
+      { "title": "4/13", "is_correct": false }
+    ],
+    "explanation": "Face cards = 12 (J,Q,K × 4). P = 12/52 = 3/13",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A die thrown twice. Probability that sum > 10?",
+    "answers": [
+      { "title": "1/12", "is_correct": true },
+      { "title": "1/6", "is_correct": false },
+      { "title": "1/18", "is_correct": false },
+      { "title": "5/36", "is_correct": false }
+    ],
+    "explanation": "Sum > 10: (5,6),(6,5),(6,6) = 3. P = 3/36 = 1/12",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Bag: 4 white, 6 black. 2 balls drawn without replacement. P(both white)?",
+    "answers": [
+      { "title": "2/15", "is_correct": true },
+      { "title": "4/25", "is_correct": false },
+      { "title": "2/9", "is_correct": false },
+      { "title": "1/5", "is_correct": false }
+    ],
+    "explanation": "P = 4/10 × 3/9 = 12/90 = 2/15",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A card drawn. Probability of red king?",
+    "answers": [
+      { "title": "1/26", "is_correct": true },
+      { "title": "1/13", "is_correct": false },
+      { "title": "1/2", "is_correct": false },
+      { "title": "2/13", "is_correct": false }
+    ],
+    "explanation": "Red kings = 2. P = 2/52 = 1/26",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A number chosen from 1-100. Probability it's divisible by 5?",
+    "answers": [
+      { "title": "1/5", "is_correct": true },
+      { "title": "1/10", "is_correct": false },
+      { "title": "1/20", "is_correct": false },
+      { "title": "5/100", "is_correct": false }
+    ],
+    "explanation": "Numbers divisible by 5: 5,10,...,100 = 20. P = 20/100 = 1/5",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two dice thrown. Probability of sum = 1?",
+    "answers": [
+      { "title": "0", "is_correct": true },
+      { "title": "1/36", "is_correct": false },
+      { "title": "1/6", "is_correct": false },
+      { "title": "2/36", "is_correct": false }
+    ],
+    "explanation": "Minimum sum = 1+1 = 2. Sum = 1 is impossible. P = 0",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A card drawn. Probability of ace or king?",
+    "answers": [
+      { "title": "2/13", "is_correct": true },
+      { "title": "1/13", "is_correct": false },
+      { "title": "8/52", "is_correct": false },
+      { "title": "4/13", "is_correct": false }
+    ],
+    "explanation": "Aces = 4, Kings = 4. P = 8/52 = 2/13",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Bag has 5 red, 4 green, 3 blue. One drawn. P(not green)?",
+    "answers": [
+      { "title": "2/3", "is_correct": true },
+      { "title": "1/3", "is_correct": false },
+      { "title": "8/12", "is_correct": false },
+      { "title": "3/4", "is_correct": false }
+    ],
+    "explanation": "P(not green) = 1 - 4/12 = 8/12 = 2/3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two cards drawn from deck with replacement. P(both aces)?",
+    "answers": [
+      { "title": "1/169", "is_correct": true },
+      { "title": "1/221", "is_correct": false },
+      { "title": "4/52", "is_correct": false },
+      { "title": "1/13", "is_correct": false }
+    ],
+    "explanation": "P = 4/52 × 4/52 = 16/2704 = 1/169",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A letter chosen from MATHEMATICS. P(vowel)?",
+    "answers": [
+      { "title": "4/11", "is_correct": true },
+      { "title": "3/11", "is_correct": false },
+      { "title": "5/11", "is_correct": false },
+      { "title": "1/2", "is_correct": false }
+    ],
+    "explanation": "MATHEMATICS = 11 letters. Vowels: A, E, A, I = 4. P = 4/11",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A die thrown. P(prime number)?",
+    "answers": [
+      { "title": "1/2", "is_correct": true },
+      { "title": "2/3", "is_correct": false },
+      { "title": "1/3", "is_correct": false },
+      { "title": "1/6", "is_correct": false }
+    ],
+    "explanation": "Primes: 2, 3, 5. P = 3/6 = 1/2",
+    "difficulty": "easy"
+  }
+]

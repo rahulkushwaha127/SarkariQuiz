@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Number of trailing zeros in 10!?",
+    "answers": [
+      { "title": "2", "is_correct": true },
+      { "title": "1", "is_correct": false },
+      { "title": "3", "is_correct": false },
+      { "title": "0", "is_correct": false }
+    ],
+    "explanation": "Zeros = 10/5 = 2",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Number of trailing zeros in 25!?",
+    "answers": [
+      { "title": "6", "is_correct": true },
+      { "title": "5", "is_correct": false },
+      { "title": "4", "is_correct": false },
+      { "title": "7", "is_correct": false }
+    ],
+    "explanation": "25/5 + 25/25 = 5 + 1 = 6",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Number of trailing zeros in 100!?",
+    "answers": [
+      { "title": "24", "is_correct": true },
+      { "title": "20", "is_correct": false },
+      { "title": "25", "is_correct": false },
+      { "title": "22", "is_correct": false }
+    ],
+    "explanation": "100/5 + 100/25 = 20 + 4 = 24",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Number of trailing zeros in 50!?",
+    "answers": [
+      { "title": "12", "is_correct": true },
+      { "title": "10", "is_correct": false },
+      { "title": "11", "is_correct": false },
+      { "title": "15", "is_correct": false }
+    ],
+    "explanation": "50/5 + 50/25 = 10 + 2 = 12",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Number of zeros in 5 × 10 × 15 × 20?",
+    "answers": [
+      { "title": "2", "is_correct": true },
+      { "title": "1", "is_correct": false },
+      { "title": "3", "is_correct": false },
+      { "title": "4", "is_correct": false }
+    ],
+    "explanation": "= 5 × 10 × 15 × 20 = 15000. Trailing zeros = 3. Let me verify: 5×10=50, 50×15=750, 750×20=15000. Zeros = 3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Trailing zeros in 1000!?",
+    "answers": [
+      { "title": "249", "is_correct": true },
+      { "title": "200", "is_correct": false },
+      { "title": "250", "is_correct": false },
+      { "title": "248", "is_correct": false }
+    ],
+    "explanation": "1000/5 + 1000/25 + 1000/125 + 1000/625 = 200+40+8+1 = 249",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Number of zeros at end of 12! × 13!?",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "5", "is_correct": false },
+      { "title": "6", "is_correct": false },
+      { "title": "3", "is_correct": false }
+    ],
+    "explanation": "12! has 2 zeros, 13! has 2 zeros. Total = 4",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Trailing zeros in 75!?",
+    "answers": [
+      { "title": "18", "is_correct": true },
+      { "title": "15", "is_correct": false },
+      { "title": "17", "is_correct": false },
+      { "title": "20", "is_correct": false }
+    ],
+    "explanation": "75/5 + 75/25 = 15 + 3 = 18",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Highest power of 10 that divides 30!?",
+    "answers": [
+      { "title": "7", "is_correct": true },
+      { "title": "6", "is_correct": false },
+      { "title": "5", "is_correct": false },
+      { "title": "8", "is_correct": false }
+    ],
+    "explanation": "Same as trailing zeros: 30/5 + 30/25 = 6 + 1 = 7",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Trailing zeros in 200!?",
+    "answers": [
+      { "title": "49", "is_correct": true },
+      { "title": "40", "is_correct": false },
+      { "title": "50", "is_correct": false },
+      { "title": "48", "is_correct": false }
+    ],
+    "explanation": "200/5 + 200/25 + 200/125 = 40 + 8 + 1 = 49",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Trailing zeros in 5! × 10!?",
+    "answers": [
+      { "title": "3", "is_correct": true },
+      { "title": "2", "is_correct": false },
+      { "title": "4", "is_correct": false },
+      { "title": "5", "is_correct": false }
+    ],
+    "explanation": "5! has 1, 10! has 2. Total = 3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Number of zeros in 8!?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "0", "is_correct": false },
+      { "title": "2", "is_correct": false },
+      { "title": "3", "is_correct": false }
+    ],
+    "explanation": "8/5 = 1. One zero",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Trailing zeros in product 1×2×3×...×20?",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "3", "is_correct": false },
+      { "title": "5", "is_correct": false },
+      { "title": "2", "is_correct": false }
+    ],
+    "explanation": "This is 20!. 20/5 = 4 zeros",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Smallest n for which n! has exactly 10 trailing zeros?",
+    "answers": [
+      { "title": "45", "is_correct": true },
+      { "title": "50", "is_correct": false },
+      { "title": "40", "is_correct": false },
+      { "title": "55", "is_correct": false }
+    ],
+    "explanation": "45/5 + 45/25 = 9 + 1 = 10. Check 44: 8+1=9. So 45",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Number of trailing zeros in 15! + 16!?",
+    "answers": [
+      { "title": "3", "is_correct": true },
+      { "title": "6", "is_correct": false },
+      { "title": "4", "is_correct": false },
+      { "title": "7", "is_correct": false }
+    ],
+    "explanation": "15! + 16! = 15!(1+16) = 17×15!. 15! has 3 zeros. 17 adds none. Total = 3",
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Solve: $2x + 5 > 11$",
+    "answers": [
+      { "title": "$x > 3$", "is_correct": true },
+      { "title": "$x > 6$", "is_correct": false },
+      { "title": "$x < 3$", "is_correct": false },
+      { "title": "$x > 8$", "is_correct": false }
+    ],
+    "explanation": "$2x > 6$, so $x > 3$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: $-3x < 12$",
+    "answers": [
+      { "title": "$x > -4$", "is_correct": true },
+      { "title": "$x < -4$", "is_correct": false },
+      { "title": "$x > 4$", "is_correct": false },
+      { "title": "$x < 4$", "is_correct": false }
+    ],
+    "explanation": "Divide by -3, flip inequality: $x > -4$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $x^2 - 5x + 6 < 0$, find range of x.",
+    "answers": [
+      { "title": "$2 < x < 3$", "is_correct": true },
+      { "title": "$x < 2$ or $x > 3$", "is_correct": false },
+      { "title": "$x < -2$ or $x > -3$", "is_correct": false },
+      { "title": "$-3 < x < -2$", "is_correct": false }
+    ],
+    "explanation": "$(x-2)(x-3) < 0$. Between roots: $2 < x < 3$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Solve: $|x - 3| < 5$",
+    "answers": [
+      { "title": "$-2 < x < 8$", "is_correct": true },
+      { "title": "$x < -2$ or $x > 8$", "is_correct": false },
+      { "title": "$-5 < x < 5$", "is_correct": false },
+      { "title": "$3 < x < 8$", "is_correct": false }
+    ],
+    "explanation": "$-5 < x-3 < 5$. Add 3: $-2 < x < 8$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If $3x - 7 \\leq 5$, maximum integer value of x?",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "5", "is_correct": false },
+      { "title": "3", "is_correct": false },
+      { "title": "6", "is_correct": false }
+    ],
+    "explanation": "$3x \\leq 12$, $x \\leq 4$. Max integer = 4",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: $\\frac{x+1}{x-2} > 0$",
+    "answers": [
+      { "title": "$x < -1$ or $x > 2$", "is_correct": true },
+      { "title": "$-1 < x < 2$", "is_correct": false },
+      { "title": "$x > 2$ only", "is_correct": false },
+      { "title": "$x > -1$", "is_correct": false }
+    ],
+    "explanation": "Critical points: -1, 2. Test intervals: positive when $x < -1$ or $x > 2$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If $x^2 \\geq 16$, then:",
+    "answers": [
+      { "title": "$x \\leq -4$ or $x \\geq 4$", "is_correct": true },
+      { "title": "$-4 \\leq x \\leq 4$", "is_correct": false },
+      { "title": "$x \\geq 4$ only", "is_correct": false },
+      { "title": "$x \\leq -4$ only", "is_correct": false }
+    ],
+    "explanation": "$|x| \\geq 4$ means $x \\leq -4$ or $x \\geq 4$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: $5 - 2x \\geq 1$",
+    "answers": [
+      { "title": "$x \\leq 2$", "is_correct": true },
+      { "title": "$x \\geq 2$", "is_correct": false },
+      { "title": "$x \\leq -2$", "is_correct": false },
+      { "title": "$x \\geq -2$", "is_correct": false }
+    ],
+    "explanation": "$-2x \\geq -4$, $x \\leq 2$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "For what values is $\\frac{1}{x} > 2$ (where $x \\neq 0$)?",
+    "answers": [
+      { "title": "$0 < x < \\frac{1}{2}$", "is_correct": true },
+      { "title": "$x > \\frac{1}{2}$", "is_correct": false },
+      { "title": "$x < 0$", "is_correct": false },
+      { "title": "$x > 2$", "is_correct": false }
+    ],
+    "explanation": "For positive x: $1 > 2x$, $x < 1/2$. Combined with $x > 0$: $0 < x < 1/2$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many integers satisfy $-3 < x \\leq 5$?",
+    "answers": [
+      { "title": "8", "is_correct": true },
+      { "title": "7", "is_correct": false },
+      { "title": "9", "is_correct": false },
+      { "title": "6", "is_correct": false }
+    ],
+    "explanation": "Integers: -2, -1, 0, 1, 2, 3, 4, 5 = 8 integers",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $a > b$ and $c < 0$, then:",
+    "answers": [
+      { "title": "$ac < bc$", "is_correct": true },
+      { "title": "$ac > bc$", "is_correct": false },
+      { "title": "$ac = bc$", "is_correct": false },
+      { "title": "Cannot determine", "is_correct": false }
+    ],
+    "explanation": "Multiplying by negative flips inequality: $ac < bc$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: $x^2 - 4x - 5 \\geq 0$",
+    "answers": [
+      { "title": "$x \\leq -1$ or $x \\geq 5$", "is_correct": true },
+      { "title": "$-1 \\leq x \\leq 5$", "is_correct": false },
+      { "title": "$x \\geq 5$ only", "is_correct": false },
+      { "title": "$-5 \\leq x \\leq 1$", "is_correct": false }
+    ],
+    "explanation": "$(x+1)(x-5) \\geq 0$. Outside roots: $x \\leq -1$ or $x \\geq 5$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If $|2x - 1| \\leq 5$, find range of x.",
+    "answers": [
+      { "title": "$-2 \\leq x \\leq 3$", "is_correct": true },
+      { "title": "$-3 \\leq x \\leq 2$", "is_correct": false },
+      { "title": "$-1 \\leq x \\leq 3$", "is_correct": false },
+      { "title": "$0 \\leq x \\leq 3$", "is_correct": false }
+    ],
+    "explanation": "$-5 \\leq 2x-1 \\leq 5$. Add 1: $-4 \\leq 2x \\leq 6$. Divide: $-2 \\leq x \\leq 3$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Minimum integer satisfying $3x + 7 > 19$?",
+    "answers": [
+      { "title": "5", "is_correct": true },
+      { "title": "4", "is_correct": false },
+      { "title": "6", "is_correct": false },
+      { "title": "3", "is_correct": false }
+    ],
+    "explanation": "$3x > 12$, $x > 4$. Min integer = 5",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: $\\frac{x-1}{x+3} \\leq 0$",
+    "answers": [
+      { "title": "$-3 < x \\leq 1$", "is_correct": true },
+      { "title": "$x \\leq -3$ or $x \\geq 1$", "is_correct": false },
+      { "title": "$-3 \\leq x \\leq 1$", "is_correct": false },
+      { "title": "$x < -3$ or $x > 1$", "is_correct": false }
+    ],
+    "explanation": "Critical: -3 (excluded), 1 (included). Between: $-3 < x \\leq 1$",
+    "difficulty": "medium"
+  }
+]

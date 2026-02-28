@@ -1,0 +1,222 @@
+[
+  {
+    "question": "If A:B = 2:3 and B:C = 4:5, then A:B:C = ?",
+    "answers": [
+      { "title": "8:12:15", "is_correct": true },
+      { "title": "2:3:5", "is_correct": false },
+      { "title": "4:6:5", "is_correct": false },
+      { "title": "8:12:10", "is_correct": false }
+    ],
+    "explanation": "A:B = 8:12, B:C = 12:15. So A:B:C = 8:12:15",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The ratio of two numbers is 3:5 and their sum is 64. The larger number is?",
+    "answers": [
+      { "title": "40", "is_correct": true },
+      { "title": "24", "is_correct": false },
+      { "title": "36", "is_correct": false },
+      { "title": "48", "is_correct": false }
+    ],
+    "explanation": "Sum = 3x + 5x = 8x = 64. x = 8. Larger = 5×8 = 40",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If A:B = 5:7 and B:C = 6:11, then A:B:C = ?",
+    "answers": [
+      { "title": "30:42:77", "is_correct": true },
+      { "title": "5:7:11", "is_correct": false },
+      { "title": "30:42:66", "is_correct": false },
+      { "title": "35:42:77", "is_correct": false }
+    ],
+    "explanation": "A:B = 30:42, B:C = 42:77. So A:B:C = 30:42:77",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Find the fourth proportional to 3, 5, 21.",
+    "answers": [
+      { "title": "35", "is_correct": true },
+      { "title": "25", "is_correct": false },
+      { "title": "30", "is_correct": false },
+      { "title": "45", "is_correct": false }
+    ],
+    "explanation": "3:5 = 21:x → x = 5×21/3 = 35",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the mean proportional between 9 and 25.",
+    "answers": [
+      { "title": "15", "is_correct": true },
+      { "title": "17", "is_correct": false },
+      { "title": "12", "is_correct": false },
+      { "title": "20", "is_correct": false }
+    ],
+    "explanation": "Mean proportional = √(9×25) = √225 = 15",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Divide Rs. 1760 between A and B in ratio 5:6. Share of B is?",
+    "answers": [
+      { "title": "Rs. 960", "is_correct": true },
+      { "title": "Rs. 800", "is_correct": false },
+      { "title": "Rs. 880", "is_correct": false },
+      { "title": "Rs. 1000", "is_correct": false }
+    ],
+    "explanation": "B's share = 6/11 × 1760 = Rs. 960",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A sum of money is divided among A, B, C in ratio 2:3:5. If C gets Rs. 500 more than A, total sum is?",
+    "answers": [
+      { "title": "Rs. 1666.67", "is_correct": true },
+      { "title": "Rs. 1500", "is_correct": false },
+      { "title": "Rs. 2000", "is_correct": false },
+      { "title": "Rs. 1800", "is_correct": false }
+    ],
+    "explanation": "C - A = 3x = 500. x = 166.67. Total = 10x = Rs. 1666.67",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 2A = 3B = 4C, then A:B:C = ?",
+    "answers": [
+      { "title": "6:4:3", "is_correct": true },
+      { "title": "2:3:4", "is_correct": false },
+      { "title": "4:3:2", "is_correct": false },
+      { "title": "3:4:6", "is_correct": false }
+    ],
+    "explanation": "Let 2A = 3B = 4C = k. A = k/2, B = k/3, C = k/4. A:B:C = 6:4:3",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The ages of A and B are in ratio 5:3. After 6 years, ratio will be 7:5. Present age of A?",
+    "answers": [
+      { "title": "15 years", "is_correct": true },
+      { "title": "20 years", "is_correct": false },
+      { "title": "25 years", "is_correct": false },
+      { "title": "12 years", "is_correct": false }
+    ],
+    "explanation": "5x+6 : 3x+6 = 7:5 → 25x+30 = 21x+42 → x = 3. A = 15 years",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Find the third proportional to 12 and 18.",
+    "answers": [
+      { "title": "27", "is_correct": true },
+      { "title": "24", "is_correct": false },
+      { "title": "36", "is_correct": false },
+      { "title": "21", "is_correct": false }
+    ],
+    "explanation": "12:18 = 18:x → x = 18×18/12 = 27",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a mixture of 60 litres, milk:water = 2:1. How much water to add to make ratio 1:2?",
+    "answers": [
+      { "title": "60 litres", "is_correct": true },
+      { "title": "40 litres", "is_correct": false },
+      { "title": "50 litres", "is_correct": false },
+      { "title": "30 litres", "is_correct": false }
+    ],
+    "explanation": "Milk = 40L, Water = 20L. For 1:2, water = 80L. Add = 60L",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If a:b = 2:3 and b:c = 5:7, then a:c = ?",
+    "answers": [
+      { "title": "10:21", "is_correct": true },
+      { "title": "2:7", "is_correct": false },
+      { "title": "5:7", "is_correct": false },
+      { "title": "6:21", "is_correct": false }
+    ],
+    "explanation": "a:b = 2:3, b:c = 5:7. a:c = (a/b)×(b/c) = (2/3)×(5/7) = 10:21",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Rs. 5625 is divided among A, B, C such that A gets 2/3 of B gets and B gets 1/4 of C. A's share?",
+    "answers": [
+      { "title": "Rs. 750", "is_correct": true },
+      { "title": "Rs. 1125", "is_correct": false },
+      { "title": "Rs. 3750", "is_correct": false },
+      { "title": "Rs. 500", "is_correct": false }
+    ],
+    "explanation": "A:B:C = 2:3:12. A = 2/17 × 5625 = Rs. 750",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The salaries of A, B, C are in ratio 1:2:3. If salaries increase by 50%, 60%, 70% respectively, new ratio?",
+    "answers": [
+      { "title": "15:32:51", "is_correct": true },
+      { "title": "3:6:9", "is_correct": false },
+      { "title": "5:10:15", "is_correct": false },
+      { "title": "1:2:3", "is_correct": false }
+    ],
+    "explanation": "New = 1.5:3.2:5.1 = 15:32:51",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If x:y = 3:4, then (4x+5y):(5x+6y) = ?",
+    "answers": [
+      { "title": "32:39", "is_correct": true },
+      { "title": "4:5", "is_correct": false },
+      { "title": "7:11", "is_correct": false },
+      { "title": "12:15", "is_correct": false }
+    ],
+    "explanation": "Let x=3, y=4. (12+20):(15+24) = 32:39",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A and B together have Rs. 1210. If 4/15 of A = 2/5 of B, then A has?",
+    "answers": [
+      { "title": "Rs. 726", "is_correct": true },
+      { "title": "Rs. 484", "is_correct": false },
+      { "title": "Rs. 650", "is_correct": false },
+      { "title": "Rs. 560", "is_correct": false }
+    ],
+    "explanation": "4A/15 = 2B/5 → A/B = 6/4 = 3/2. A = 3/5 × 1210 = Rs. 726",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The ratio 5:20 expressed as percentage is?",
+    "answers": [
+      { "title": "25%", "is_correct": true },
+      { "title": "20%", "is_correct": false },
+      { "title": "15%", "is_correct": false },
+      { "title": "30%", "is_correct": false }
+    ],
+    "explanation": "5/20 × 100 = 25%",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If A:B = 6:7 and B:C = 8:9, then A:C = ?",
+    "answers": [
+      { "title": "16:21", "is_correct": true },
+      { "title": "6:9", "is_correct": false },
+      { "title": "48:63", "is_correct": false },
+      { "title": "2:3", "is_correct": false }
+    ],
+    "explanation": "A:C = (6/7) × (8/9) = 48/63 = 16:21",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If Rs. 782 is divided among A, B, C in ratio 1/2:2/3:3/4, then C gets?",
+    "answers": [
+      { "title": "Rs. 306", "is_correct": true },
+      { "title": "Rs. 272", "is_correct": false },
+      { "title": "Rs. 204", "is_correct": false },
+      { "title": "Rs. 350", "is_correct": false }
+    ],
+    "explanation": "Ratio = 6:8:9. C = 9/23 × 782 = Rs. 306",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Two numbers are in ratio 7:11. If 7 is added to each, ratio becomes 2:3. The numbers are?",
+    "answers": [
+      { "title": "49 and 77", "is_correct": true },
+      { "title": "35 and 55", "is_correct": false },
+      { "title": "42 and 66", "is_correct": false },
+      { "title": "56 and 88", "is_correct": false }
+    ],
+    "explanation": "(7x+7)/(11x+7) = 2/3 → 21x+21 = 22x+14 → x = 7. Numbers = 49, 77",
+    "difficulty": "medium"
+  }
+]

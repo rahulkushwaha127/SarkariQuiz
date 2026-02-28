@@ -1,81 +1,417 @@
-QUANTITATIVE APTITUDE TOPICS - INDIAN GOVERNMENT EXAMS (SSC, Banking, Railway)
+QUANTITATIVE APTITUDE - TOPICS & SUBTOPICS
+Indian Government Exams (SSC, Banking, Railway)
+=============================================
+Use this structure to create folders: TOPIC / SUBTOPIC (and sub-subtopics where needed)
+=============================================
 
-ARITHMETIC
-- Number System (Natural, Whole, Integer, Rational, Irrational)
-- Divisibility Rules
-- HCF and LCM
-- Simplification (BODMAS)
-- Fractions and Decimals
-- Percentage
-- Ratio and Proportion
-- Partnership
-- Profit and Loss
-- Simple Interest and Compound Interest
-- Time and Work
-- Pipes and Cisterns
-- Time, Speed and Distance
-- Boat and Stream
-- Train Problems
-- Average
-- Age Problems
-- Mixture and Alligation
-- Allegation
-- Partnership
+================================================================================
+1. ARITHMETIC
+================================================================================
 
-ALGEBRA
-- Linear Equations
-- Quadratic Equations
-- Polynomials
-- Indices and Surds
-- Logarithms
-- Sequences and Series (AP, GP)
-- Inequalities
+1.1 NUMBER SYSTEM
+    - Natural Numbers, Whole Numbers, Integers
+    - Rational and Irrational Numbers
+    - Prime and Composite Numbers
+    - Even and Odd Numbers
+    - Place Value and Face Value
+    - Types of Numbers (Perfect Square, Perfect Cube)
+    - Number Line and Operations on Number Line
 
-GEOMETRY
-- Lines and Angles
-- Triangles (Properties, Congruence, Similarity)
-- Quadrilaterals
-- Circle (Chord, Tangent, Sector)
-- Polygons
-- Mensuration (Area, Perimeter, Volume)
-- 2D Figures (Square, Rectangle, Triangle, Circle, Parallelogram, Trapezium)
-- 3D Figures (Cube, Cuboid, Cylinder, Cone, Sphere)
-- Coordinate Geometry (Basics)
-- Trigonometry (Ratios, Identities, Heights and Distances)
+1.2 DIVISIBILITY RULES
+    - Divisibility by 2, 3, 4, 5, 6, 8, 9, 10, 11
+    - Divisibility by 7 and Higher Numbers
+    - Application of Divisibility in Problem Solving
 
-NUMBER SERIES
-- Missing Number Series
-- Wrong Number Series
-- Pattern-Based Series
-- Arithmetic and Geometric Progressions
+1.3 HCF AND LCM
+    - Prime Factorization Method
+    - Division Method for HCF and LCM
+    - HCF and LCM of Fractions
+    - Relationship between HCF and LCM (Product of Two Numbers)
+    - Word Problems on HCF and LCM
 
-DATA INTERPRETATION
-- Tables
-- Bar Graphs
-- Line Graphs
-- Pie Charts
-- Mixed Graphs
-- Caselet DI
-- Data Sufficiency (Quantitative)
+1.4 SIMPLIFICATION (BODMAS)
+    - Order of Operations (Bracket, Of, Division, Multiplication, Addition, Subtraction)
+    - VBODMAS and Variations
+    - Simplification of Complex Expressions
+    - Surds in Simplification
 
-SIMPLIFICATION & APPROXIMATION
-- BODMAS
-- Square and Square Root
-- Cube and Cube Root
-- Approximation (Decimal, Percentage)
+1.5 FRACTIONS AND DECIMALS
+    - Types of Fractions (Proper, Improper, Mixed)
+    - Conversion (Fraction to Decimal and Vice Versa)
+    - Operations on Fractions (Addition, Subtraction, Multiplication, Division)
+    - Comparison of Fractions
+    - Recurring and Terminating Decimals
+    - Decimal Operations
 
-PROBABILITY & STATISTICS
-- Probability (Basic)
-- Mean, Median, Mode
-- Standard Deviation
-- Permutation and Combination
+1.6 PERCENTAGE
+    - Basic Percentage (Conversion, Fraction to Percentage)
+    - Percentage Increase and Decrease
+    - Successive Percentage Change
+    - Percentage of a Number, What Percent of
+    - Application in Profit Loss, Population, etc.
 
-MISCELANEOUS
-- Clock and Calendar
-- Number of Zeros
-- Remainder Theorem
-- Unit Digit
-- Last Two Digits
-- Divisibility
-- Surds and Indices
-- Simplification Tricks
+1.7 RATIO AND PROPORTION
+    - Ratio (Simplification, Comparison, Equivalent Ratios)
+    - Proportion (Direct, Inverse)
+    - Fourth Proportional, Third Proportional, Mean Proportional
+    - Componendo, Dividendo, Alternendo, Invertendo
+    - Ratio in Partnership and Mixture
+
+1.8 PARTNERSHIP
+    - Simple Partnership (Capital and Time)
+    - Compound Partnership
+    - Profit Sharing Ratio
+    - Working and Sleeping Partners
+
+1.9 PROFIT AND LOSS
+    - Cost Price, Selling Price, Marked Price
+    - Profit and Loss (Absolute and Percentage)
+    - Discount (Single and Successive)
+    - Faulty Weights and Dishonest Dealers
+    - Marked Price and List Price Problems
+
+1.10 SIMPLE INTEREST AND COMPOUND INTEREST
+    - Simple Interest (Formula, Principal, Rate, Time)
+    - Compound Interest (Annual, Half-Yearly, Quarterly)
+    - Difference between SI and CI
+    - Installments (SI and CI)
+    - Population and Depreciation
+
+1.11 TIME AND WORK
+    - Work and Efficiency
+    - Man-Days, Man-Hours
+    - Pipes and Cisterns (Inlet, Outlet, Combined)
+    - Work and Wages
+    - Alternate Day Work, Leave and Work
+
+1.12 TIME SPEED AND DISTANCE
+    - Basic Formula (Distance = Speed × Time)
+    - Relative Speed (Same Direction, Opposite Direction)
+    - Average Speed (When Distance Same, When Time Same)
+    - Meeting Point and Circular Tracks
+    - Train Problems (Train and Pole, Train and Platform, Two Trains)
+    - Boat and Stream (Upstream, Downstream, Still Water, Current)
+
+1.13 AVERAGE
+    - Simple Average (Mean)
+    - Average Speed, Average Age
+    - Weighted Average
+    - Average of Consecutive Numbers
+    - Problems on Replacement, Inclusion, Exclusion
+
+1.14 AGE PROBLEMS
+    - Present Age, Past Age, Future Age
+    - Ratio of Ages
+    - Linear Equations in Age Problems
+
+1.15 MIXTURE AND ALLIGATION
+    - Alligation Rule (Weighted Average)
+    - Alligation for Two Mixtures
+    - Mixture Replacement
+    - Milk and Water Problems
+    - Alligation in Profit Loss, Interest, Speed
+
+================================================================================
+2. ALGEBRA
+================================================================================
+
+2.1 LINEAR EQUATIONS
+    - Linear Equations in One Variable
+    - Linear Equations in Two Variables
+    - Word Problems (Age, Number, Money)
+    - System of Linear Equations (Elimination, Substitution)
+
+2.2 QUADRATIC EQUATIONS
+    - Standard Form ax² + bx + c = 0
+    - Roots (Nature of Roots, Sum and Product)
+    - Factorization Method
+    - Quadratic Formula
+    - Word Problems Leading to Quadratic Equations
+
+2.3 POLYNOMIALS
+    - Degree and Coefficients
+    - Zeroes of Polynomials
+    - Relationship between Zeroes and Coefficients (Quadratic, Cubic)
+    - Division of Polynomials
+    - Remainder Theorem and Factor Theorem
+
+2.4 INDICES AND SURDS
+    - Laws of Indices (Multiplication, Division, Power of Power)
+    - Negative and Fractional Indices
+    - Surds (Simplification, Rationalization)
+    - Comparison of Surds
+    - Equations involving Indices and Surds
+
+2.5 LOGARITHMS
+    - Definition and Properties
+    - Change of Base
+    - Logarithmic Equations
+    - Application in Simplification
+
+2.6 SEQUENCES AND SERIES
+    - Arithmetic Progression (AP): nth term, sum of n terms
+    - Geometric Progression (GP): nth term, sum of n terms, infinite GP
+    - Harmonic Progression (HP)
+    - Special Series (Sum of n natural numbers, squares, cubes)
+    - Finding Missing Terms in AP/GP
+
+2.7 INEQUALITIES
+    - Linear Inequalities
+    - Quadratic Inequalities
+    - Modulus Inequalities
+    - Number Line Representation
+
+================================================================================
+3. GEOMETRY
+================================================================================
+
+3.1 LINES AND ANGLES
+    - Types of Angles (Acute, Right, Obtuse, Straight, Reflex)
+    - Complementary and Supplementary Angles
+    - Parallel Lines and Transversal
+    - Vertically Opposite Angles, Corresponding, Alternate Interior
+    - Angle Sum Property
+
+3.2 TRIANGLES
+    - Types (Scalene, Isosceles, Equilateral, Right-Angled)
+    - Properties of Triangles (Angle Sum, Exterior Angle)
+    - Congruence of Triangles (SSS, SAS, ASA, RHS)
+    - Similarity of Triangles (AA, SSS, SAS)
+    - Pythagoras Theorem and Applications
+    - Basic Proportionality Theorem (Thales)
+    - Medians, Altitudes, Angle Bisectors
+    - Centroid, Orthocentre, Circumcentre, Incentre
+
+3.3 QUADRILATERALS
+    - Parallelogram (Properties, Area)
+    - Rectangle, Square, Rhombus
+    - Trapezium (Isosceles Trapezium)
+    - Kite
+    - Sum of Angles, Diagonals
+
+3.4 CIRCLE
+    - Chord (Length, Perpendicular from Centre)
+    - Tangent (Tangent from External Point, Tangent Length)
+    - Secant
+    - Arc, Sector, Segment
+    - Angle Subtended by Arc (Central Angle, Inscribed Angle)
+    - Cyclic Quadrilateral
+    - Theorems (Tangent-Chord, Alternate Segment)
+
+3.5 POLYGONS
+    - Regular and Irregular Polygons
+    - Sum of Interior and Exterior Angles
+    - Number of Diagonals
+    - Area of Regular Polygon
+
+3.6 MENSURATION - 2D FIGURES
+    - Square (Area, Perimeter)
+    - Rectangle (Area, Perimeter)
+    - Triangle (Area - Heron's Formula, Right Triangle)
+    - Circle (Area, Circumference)
+    - Parallelogram, Rhombus, Trapezium
+    - Composite Figures
+    - Path Around/Between Figures
+
+3.7 MENSURATION - 3D FIGURES
+    - Cube (Volume, Total Surface Area, Lateral Surface Area)
+    - Cuboid
+    - Cylinder (Right Circular)
+    - Cone (Right Circular)
+    - Sphere and Hemisphere
+    - Combination of Solids
+    - Conversion of Shapes (Melting, Recasting)
+
+3.8 COORDINATE GEOMETRY
+    - Distance Formula
+    - Section Formula (Internal, External Division)
+    - Midpoint Formula
+    - Area of Triangle (Coordinate Method)
+    - Slope of Line
+    - Equation of Line (Various Forms)
+
+3.9 TRIGONOMETRY
+    - Trigonometric Ratios (Sin, Cos, Tan, Cosec, Sec, Cot)
+    - Trigonometric Identities (Sin²θ + Cos²θ = 1, etc.)
+    - Complementary Angles
+    - Values at 0°, 30°, 45°, 60°, 90°
+    - Heights and Distances (Angle of Elevation, Depression)
+    - Application in Triangles and Real-Life Problems
+
+================================================================================
+4. NUMBER SERIES
+================================================================================
+
+4.1 MISSING NUMBER SERIES
+    - Find Missing Term (Arithmetic Pattern)
+    - Find Missing Term (Geometric Pattern)
+    - Find Missing Term (Mixed Pattern)
+    - Double and Triple Series
+
+4.2 WRONG NUMBER SERIES
+    - Identify Wrong Term in Given Series
+    - Replace with Correct Number
+
+4.3 PATTERN-BASED SERIES
+    - Prime Number Series
+    - Square and Cube Series
+    - Fibonacci Type
+    - Alternate Operations (+, −, ×, ÷)
+    - Difference Series (First Order, Second Order)
+
+4.4 ARITHMETIC AND GEOMETRIC SERIES
+    - AP Series (Find term, sum, number of terms)
+    - GP Series (Find term, sum)
+    - Hybrid Series (AP + GP combined)
+
+================================================================================
+5. DATA INTERPRETATION
+================================================================================
+
+5.1 TABLES
+    - Single Table
+    - Multiple Tables
+    - Comparison and Percentage from Table
+
+5.2 BAR GRAPHS
+    - Simple Bar Graph
+    - Grouped Bar Graph
+    - Stacked Bar Graph
+    - Horizontal and Vertical Bars
+
+5.3 LINE GRAPHS
+    - Single and Multiple Lines
+    - Trend Analysis
+    - Growth Rate
+
+5.4 PIE CHARTS
+    - Single Pie Chart
+    - Multiple Pie Charts
+    - Degree to Value Conversion
+    - Percentage from Pie Chart
+
+5.5 MIXED GRAPHS
+    - Table + Bar/Line/Pie
+    - Combination DI (Two or More Types)
+    - Caselet with Graph
+
+5.6 CASELET DI
+    - Paragraph-Based Data
+    - Extract Information and Solve
+    - Multiple Questions from One Caselet
+
+5.7 DATA SUFFICIENCY (QUANTITATIVE)
+    - Two Statements (Sufficient/Not Sufficient)
+    - Yes/No and Value Questions
+    - Strategy for DS
+
+================================================================================
+6. SIMPLIFICATION AND APPROXIMATION
+================================================================================
+
+6.1 BODMAS / VBODMAS
+    - Order of Operations
+    - Brackets (Vinculum, (), {}, [])
+    - Of as Multiplication
+    - Practice on Complex Expressions
+
+6.2 SQUARE AND SQUARE ROOT
+    - Perfect Squares (1–30, Shortcuts)
+    - Square Root (Prime Factorization, Division Method)
+    - Square Root of Non-Perfect Squares (Approximation)
+
+6.3 CUBE AND CUBE ROOT
+    - Perfect Cubes (1–20)
+    - Cube Root (Estimation and Calculation)
+
+6.4 APPROXIMATION
+    - Rounding Off (Decimal, Percentage)
+    - Approximate Calculation in Multiplication and Division
+    - Percentage Approximation
+    - Finding Approximate Value in Options
+
+================================================================================
+7. PROBABILITY AND STATISTICS
+================================================================================
+
+7.1 PROBABILITY
+    - Basic Definition (Experiment, Sample Space, Event)
+    - Probability = Favourable Outcomes / Total Outcomes
+    - Addition and Multiplication Theorems
+    - Complementary Events
+    - Dice, Coins, Cards
+    - Conditional Probability (Basic)
+
+7.2 MEAN, MEDIAN, MODE
+    - Mean (Arithmetic Mean, Direct Method, Assumed Mean)
+    - Median (Ungrouped and Grouped Data)
+    - Mode (Ungrouped and Grouped Data)
+    - Relationship between Mean, Median, Mode
+    - Range
+
+7.3 STANDARD DEVIATION AND VARIANCE
+    - Variance (Definition, Calculation)
+    - Standard Deviation
+    - Coefficient of Variation (Basic)
+
+7.4 PERMUTATION AND COMBINATION
+    - Fundamental Principle of Counting
+    - Factorial
+    - Permutation (nPr) - Arrangement, Linear, Circular
+    - Combination (nCr) - Selection
+    - Application (Formation of Numbers, Words, Committees)
+    - Permutation with Repetition, Restriction
+
+================================================================================
+8. MISCELLANEOUS (SHORTCUTS & SPECIAL TOPICS)
+================================================================================
+
+8.1 CLOCK AND CALENDAR
+    - Clock: Angle between Hands, Time when Coincide/Opposite
+    - Clock: Fast and Slow Clocks
+    - Calendar: Day of the Week (Odd Days)
+    - Leap Year, Ordinary Year
+    - Finding Date and Day
+
+8.2 NUMBER OF ZEROS
+    - Trailing Zeros in n! (Factorial)
+    - Number of Zeros in Product
+    - Zeros in Expressions
+
+8.3 REMAINDER THEOREM
+    - Remainder when Number Divided by 2, 3, 4, 5, 9, 10, 11
+    - Cyclicity of Remainders
+    - Fermat's Little Theorem (Basic)
+    - Euler's Theorem (Basic)
+    - Chinese Remainder Theorem (Simple Cases)
+
+8.4 UNIT DIGIT
+    - Cyclicity of Unit Digit (2, 3, 4, 7, 8, 9)
+    - Unit Digit of Sum, Product, Power
+    - Last Digit of Large Powers
+
+8.5 LAST TWO DIGITS
+    - Pattern for Last Two Digits
+    - Last Two Digits of Powers (2, 3, 7, 8, etc.)
+
+8.6 DIVISIBILITY (ADVANCED)
+    - Remainder Based Divisibility
+    - Divisibility in Algebraic Expressions
+    - Application in Number Theory
+
+8.7 SURDS AND INDICES (TRICKS)
+    - Quick Simplification
+    - Comparison without Calculation
+    - Common Patterns in Exams
+
+8.8 SIMPLIFICATION TRICKS
+    - Digital Sum
+    - Quick Multiplication and Division
+    - Percentage Shortcuts
+    - Ratio Shortcuts
+    - Fraction to Decimal (Recurring) Shortcuts
+
+================================================================================
+END OF TOPICS - Use this to create folder hierarchy: 1–8 as main topic folders,
+numbered subtopics (e.g. 1.1, 1.2) as subfolders, and bullet points as content areas.
+================================================================================

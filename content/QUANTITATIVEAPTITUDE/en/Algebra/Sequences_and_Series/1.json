@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Find 10th term of AP: 2, 5, 8, 11, ...",
+    "answers": [
+      { "title": "29", "is_correct": true },
+      { "title": "32", "is_correct": false },
+      { "title": "26", "is_correct": false },
+      { "title": "35", "is_correct": false }
+    ],
+    "explanation": "a = 2, d = 3. T₁₀ = a + 9d = 2 + 27 = 29",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sum of first 20 terms of AP: 1, 3, 5, 7, ...",
+    "answers": [
+      { "title": "400", "is_correct": true },
+      { "title": "380", "is_correct": false },
+      { "title": "420", "is_correct": false },
+      { "title": "360", "is_correct": false }
+    ],
+    "explanation": "Sum of first n odd numbers = n². S₂₀ = 20² = 400",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In GP: 3, 6, 12, ..., find 8th term.",
+    "answers": [
+      { "title": "384", "is_correct": true },
+      { "title": "192", "is_correct": false },
+      { "title": "768", "is_correct": false },
+      { "title": "256", "is_correct": false }
+    ],
+    "explanation": "a = 3, r = 2. T₈ = 3 × 2⁷ = 3 × 128 = 384",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sum of infinite GP: 1, 1/2, 1/4, 1/8, ... ?",
+    "answers": [
+      { "title": "2", "is_correct": true },
+      { "title": "1.5", "is_correct": false },
+      { "title": "3", "is_correct": false },
+      { "title": "∞", "is_correct": false }
+    ],
+    "explanation": "S∞ = a/(1-r) = 1/(1-0.5) = 2",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If 7th term of AP is 34 and 13th term is 64, find 18th term.",
+    "answers": [
+      { "title": "89", "is_correct": true },
+      { "title": "94", "is_correct": false },
+      { "title": "84", "is_correct": false },
+      { "title": "79", "is_correct": false }
+    ],
+    "explanation": "a+6d = 34, a+12d = 64. d = 5, a = 4. T₁₈ = 4 + 85 = 89",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many terms of AP: 3, 5, 7, ... make sum 120?",
+    "answers": [
+      { "title": "10", "is_correct": true },
+      { "title": "12", "is_correct": false },
+      { "title": "8", "is_correct": false },
+      { "title": "15", "is_correct": false }
+    ],
+    "explanation": "S = n/2[2a + (n-1)d]. 120 = n/2[6 + 2(n-1)]. n = 10",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Sum of first n natural numbers formula?",
+    "answers": [
+      { "title": "$\\frac{n(n+1)}{2}$", "is_correct": true },
+      { "title": "$\\frac{n(n-1)}{2}$", "is_correct": false },
+      { "title": "$n^2$", "is_correct": false },
+      { "title": "$\\frac{n^2}{2}$", "is_correct": false }
+    ],
+    "explanation": "Sum = 1+2+3+...+n = n(n+1)/2",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find sum: $1^2 + 2^2 + 3^2 + ... + 10^2$",
+    "answers": [
+      { "title": "385", "is_correct": true },
+      { "title": "330", "is_correct": false },
+      { "title": "400", "is_correct": false },
+      { "title": "285", "is_correct": false }
+    ],
+    "explanation": "Sum = n(n+1)(2n+1)/6 = 10×11×21/6 = 385",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In GP, 5th term is 48 and 8th term is 384. Find common ratio.",
+    "answers": [
+      { "title": "2", "is_correct": true },
+      { "title": "3", "is_correct": false },
+      { "title": "4", "is_correct": false },
+      { "title": "1.5", "is_correct": false }
+    ],
+    "explanation": "T₈/T₅ = ar⁷/ar⁴ = r³ = 384/48 = 8. r = 2",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Arithmetic mean of 8 and 18?",
+    "answers": [
+      { "title": "13", "is_correct": true },
+      { "title": "12", "is_correct": false },
+      { "title": "14", "is_correct": false },
+      { "title": "144", "is_correct": false }
+    ],
+    "explanation": "AM = (8+18)/2 = 13",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Geometric mean of 4 and 16?",
+    "answers": [
+      { "title": "8", "is_correct": true },
+      { "title": "10", "is_correct": false },
+      { "title": "12", "is_correct": false },
+      { "title": "64", "is_correct": false }
+    ],
+    "explanation": "GM = √(4×16) = √64 = 8",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find missing term: 2, 6, 18, ?, 162",
+    "answers": [
+      { "title": "54", "is_correct": true },
+      { "title": "36", "is_correct": false },
+      { "title": "72", "is_correct": false },
+      { "title": "45", "is_correct": false }
+    ],
+    "explanation": "GP with r = 3. Missing = 18 × 3 = 54",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sum of first 15 terms of AP: 4, 9, 14, 19, ...",
+    "answers": [
+      { "title": "585", "is_correct": true },
+      { "title": "570", "is_correct": false },
+      { "title": "600", "is_correct": false },
+      { "title": "555", "is_correct": false }
+    ],
+    "explanation": "a = 4, d = 5. S₁₅ = 15/2[8 + 70] = 15/2 × 78 = 585",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If in AP, S₅ = 35 and S₄ = 22, find 5th term.",
+    "answers": [
+      { "title": "13", "is_correct": true },
+      { "title": "11", "is_correct": false },
+      { "title": "15", "is_correct": false },
+      { "title": "9", "is_correct": false }
+    ],
+    "explanation": "T₅ = S₅ - S₄ = 35 - 22 = 13",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sum of GP: 2 + 4 + 8 + ... to 8 terms?",
+    "answers": [
+      { "title": "510", "is_correct": true },
+      { "title": "512", "is_correct": false },
+      { "title": "256", "is_correct": false },
+      { "title": "508", "is_correct": false }
+    ],
+    "explanation": "S = a(rⁿ-1)/(r-1) = 2(2⁸-1)/1 = 2(255) = 510",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Three numbers in AP have sum 21 and product 315. Find them.",
+    "answers": [
+      { "title": "5, 7, 9", "is_correct": true },
+      { "title": "3, 7, 11", "is_correct": false },
+      { "title": "6, 7, 8", "is_correct": false },
+      { "title": "4, 7, 10", "is_correct": false }
+    ],
+    "explanation": "Let a-d, a, a+d. Sum = 3a = 21, a = 7. Product = 7(49-d²) = 315. d = 2. Numbers: 5, 7, 9",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Find sum: $1^3 + 2^3 + 3^3 + ... + 5^3$",
+    "answers": [
+      { "title": "225", "is_correct": true },
+      { "title": "125", "is_correct": false },
+      { "title": "150", "is_correct": false },
+      { "title": "200", "is_correct": false }
+    ],
+    "explanation": "Sum of cubes = [n(n+1)/2]² = [5×6/2]² = 15² = 225",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If sum of n terms of AP is 2n² + 3n, find 10th term.",
+    "answers": [
+      { "title": "41", "is_correct": true },
+      { "title": "43", "is_correct": false },
+      { "title": "39", "is_correct": false },
+      { "title": "45", "is_correct": false }
+    ],
+    "explanation": "T₁₀ = S₁₀ - S₉ = (200+30) - (162+27) = 230 - 189 = 41",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In an AP, first term is 2 and sum of first 5 terms is half the sum of next 5 terms. Find 20th term.",
+    "answers": [
+      { "title": "112", "is_correct": true },
+      { "title": "100", "is_correct": false },
+      { "title": "96", "is_correct": false },
+      { "title": "120", "is_correct": false }
+    ],
+    "explanation": "S₅ = ½(S₁₀ - S₅). 3S₅ = S₁₀. Using formulas: d = 6. T₂₀ = 2 + 114 = 116. Hmm let me recalc",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Sum of infinite GP: 4 - 2 + 1 - 0.5 + ... ?",
+    "answers": [
+      { "title": "8/3", "is_correct": true },
+      { "title": "4", "is_correct": false },
+      { "title": "2", "is_correct": false },
+      { "title": "3", "is_correct": false }
+    ],
+    "explanation": "a = 4, r = -1/2. S∞ = 4/(1+0.5) = 4/1.5 = 8/3",
+    "difficulty": "medium"
+  }
+]

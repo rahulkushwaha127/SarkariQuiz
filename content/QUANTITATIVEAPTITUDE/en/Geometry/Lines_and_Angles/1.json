@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Complement of 35°?",
+    "answers": [
+      { "title": "55°", "is_correct": true },
+      { "title": "145°", "is_correct": false },
+      { "title": "65°", "is_correct": false },
+      { "title": "35°", "is_correct": false }
+    ],
+    "explanation": "Complement = 90° - 35° = 55°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Supplement of 110°?",
+    "answers": [
+      { "title": "70°", "is_correct": true },
+      { "title": "250°", "is_correct": false },
+      { "title": "20°", "is_correct": false },
+      { "title": "110°", "is_correct": false }
+    ],
+    "explanation": "Supplement = 180° - 110° = 70°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two angles are supplementary. One is 40° more than other. Find them.",
+    "answers": [
+      { "title": "70° and 110°", "is_correct": true },
+      { "title": "80° and 100°", "is_correct": false },
+      { "title": "60° and 120°", "is_correct": false },
+      { "title": "50° and 130°", "is_correct": false }
+    ],
+    "explanation": "x + (x+40) = 180. 2x = 140. x = 70°. Other = 110°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Vertically opposite angles are?",
+    "answers": [
+      { "title": "Equal", "is_correct": true },
+      { "title": "Supplementary", "is_correct": false },
+      { "title": "Complementary", "is_correct": false },
+      { "title": "Sum is 360°", "is_correct": false }
+    ],
+    "explanation": "Vertically opposite angles are always equal",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If two parallel lines are cut by transversal, alternate angles are?",
+    "answers": [
+      { "title": "Equal", "is_correct": true },
+      { "title": "Supplementary", "is_correct": false },
+      { "title": "Complementary", "is_correct": false },
+      { "title": "Sum is 360°", "is_correct": false }
+    ],
+    "explanation": "Alternate interior angles are equal when lines are parallel",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Co-interior angles (same-side interior) with parallel lines sum to?",
+    "answers": [
+      { "title": "180°", "is_correct": true },
+      { "title": "90°", "is_correct": false },
+      { "title": "360°", "is_correct": false },
+      { "title": "Are equal", "is_correct": false }
+    ],
+    "explanation": "Co-interior angles are supplementary (sum = 180°)",
+    "difficulty": "easy"
+  },
+  {
+    "question": "An exterior angle of a triangle is 120°. One opposite interior is 50°. Other?",
+    "answers": [
+      { "title": "70°", "is_correct": true },
+      { "title": "60°", "is_correct": false },
+      { "title": "80°", "is_correct": false },
+      { "title": "30°", "is_correct": false }
+    ],
+    "explanation": "Exterior = sum of opposite interior. 120 = 50 + x. x = 70°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sum of angles on a straight line?",
+    "answers": [
+      { "title": "180°", "is_correct": true },
+      { "title": "360°", "is_correct": false },
+      { "title": "90°", "is_correct": false },
+      { "title": "270°", "is_correct": false }
+    ],
+    "explanation": "Linear pair = 180°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Angle which equals its supplement?",
+    "answers": [
+      { "title": "90°", "is_correct": true },
+      { "title": "45°", "is_correct": false },
+      { "title": "180°", "is_correct": false },
+      { "title": "60°", "is_correct": false }
+    ],
+    "explanation": "x = 180 - x. 2x = 180. x = 90°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If angles are in ratio 2:3:4, and they form a straight line, largest angle?",
+    "answers": [
+      { "title": "80°", "is_correct": true },
+      { "title": "60°", "is_correct": false },
+      { "title": "90°", "is_correct": false },
+      { "title": "100°", "is_correct": false }
+    ],
+    "explanation": "2x+3x+4x = 180. 9x = 180. x = 20. Largest = 80°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Three angles of quadrilateral are 70°, 80°, 95°. Fourth angle?",
+    "answers": [
+      { "title": "115°", "is_correct": true },
+      { "title": "125°", "is_correct": false },
+      { "title": "105°", "is_correct": false },
+      { "title": "110°", "is_correct": false }
+    ],
+    "explanation": "Sum = 360°. Fourth = 360 - 245 = 115°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Angle which is double its complement?",
+    "answers": [
+      { "title": "60°", "is_correct": true },
+      { "title": "45°", "is_correct": false },
+      { "title": "30°", "is_correct": false },
+      { "title": "90°", "is_correct": false }
+    ],
+    "explanation": "x = 2(90-x). x = 180 - 2x. 3x = 180. x = 60°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In parallel lines cut by transversal, corresponding angles are?",
+    "answers": [
+      { "title": "Equal", "is_correct": true },
+      { "title": "Supplementary", "is_correct": false },
+      { "title": "Complementary", "is_correct": false },
+      { "title": "Different", "is_correct": false }
+    ],
+    "explanation": "Corresponding angles are equal when lines are parallel",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sum of interior angles of hexagon?",
+    "answers": [
+      { "title": "720°", "is_correct": true },
+      { "title": "540°", "is_correct": false },
+      { "title": "900°", "is_correct": false },
+      { "title": "360°", "is_correct": false }
+    ],
+    "explanation": "Sum = (n-2)×180 = 4×180 = 720°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Each interior angle of regular pentagon?",
+    "answers": [
+      { "title": "108°", "is_correct": true },
+      { "title": "120°", "is_correct": false },
+      { "title": "90°", "is_correct": false },
+      { "title": "72°", "is_correct": false }
+    ],
+    "explanation": "Sum = 540°. Each = 540/5 = 108°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If two lines intersect, sum of all four angles?",
+    "answers": [
+      { "title": "360°", "is_correct": true },
+      { "title": "180°", "is_correct": false },
+      { "title": "540°", "is_correct": false },
+      { "title": "720°", "is_correct": false }
+    ],
+    "explanation": "Complete angle around a point = 360°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ratio of an angle to its complement is 3:2. Angle?",
+    "answers": [
+      { "title": "54°", "is_correct": true },
+      { "title": "36°", "is_correct": false },
+      { "title": "60°", "is_correct": false },
+      { "title": "45°", "is_correct": false }
+    ],
+    "explanation": "3x + 2x = 90. 5x = 90. x = 18. Angle = 54°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Exterior angle of regular octagon?",
+    "answers": [
+      { "title": "45°", "is_correct": true },
+      { "title": "40°", "is_correct": false },
+      { "title": "60°", "is_correct": false },
+      { "title": "36°", "is_correct": false }
+    ],
+    "explanation": "Exterior = 360/n = 360/8 = 45°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If exterior angle is 40°, number of sides of regular polygon?",
+    "answers": [
+      { "title": "9", "is_correct": true },
+      { "title": "8", "is_correct": false },
+      { "title": "10", "is_correct": false },
+      { "title": "12", "is_correct": false }
+    ],
+    "explanation": "n = 360/40 = 9 sides",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two complementary angles differ by 20°. Smaller angle?",
+    "answers": [
+      { "title": "35°", "is_correct": true },
+      { "title": "45°", "is_correct": false },
+      { "title": "40°", "is_correct": false },
+      { "title": "25°", "is_correct": false }
+    ],
+    "explanation": "x + (x+20) = 90. 2x = 70. Smaller = 35°",
+    "difficulty": "easy"
+  }
+]

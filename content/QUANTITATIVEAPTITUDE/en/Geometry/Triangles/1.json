@@ -1,0 +1,222 @@
+[
+  {
+    "question": "In a triangle, if two angles are 45° and 75°, the third angle is?",
+    "answers": [
+      { "title": "60°", "is_correct": true },
+      { "title": "50°", "is_correct": false },
+      { "title": "70°", "is_correct": false },
+      { "title": "65°", "is_correct": false }
+    ],
+    "explanation": "Sum = 180°. Third = 180 - 45 - 75 = 60°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The sides of a triangle are 6 cm, 8 cm, and 10 cm. It is a?",
+    "answers": [
+      { "title": "Right angled triangle", "is_correct": true },
+      { "title": "Acute angled triangle", "is_correct": false },
+      { "title": "Obtuse angled triangle", "is_correct": false },
+      { "title": "Equilateral triangle", "is_correct": false }
+    ],
+    "explanation": "6² + 8² = 36 + 64 = 100 = 10². Pythagoras satisfied. Right angled",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Area of equilateral triangle with side 6 cm?",
+    "answers": [
+      { "title": "$9\\sqrt{3}$ cm²", "is_correct": true },
+      { "title": "$12\\sqrt{3}$ cm²", "is_correct": false },
+      { "title": "$6\\sqrt{3}$ cm²", "is_correct": false },
+      { "title": "18 cm²", "is_correct": false }
+    ],
+    "explanation": "Area = $\\frac{\\sqrt{3}}{4} \\times 6^2 = 9\\sqrt{3}$ cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a right triangle, the two shorter sides are 5 cm and 12 cm. Hypotenuse?",
+    "answers": [
+      { "title": "13 cm", "is_correct": true },
+      { "title": "15 cm", "is_correct": false },
+      { "title": "17 cm", "is_correct": false },
+      { "title": "11 cm", "is_correct": false }
+    ],
+    "explanation": "$\\sqrt{5^2 + 12^2} = \\sqrt{169} = 13$ cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two sides of triangle are 7 cm and 10 cm. Third side can be?",
+    "answers": [
+      { "title": "5 cm", "is_correct": true },
+      { "title": "2 cm", "is_correct": false },
+      { "title": "18 cm", "is_correct": false },
+      { "title": "17 cm", "is_correct": false }
+    ],
+    "explanation": "Third side must be > |10-7| = 3 and < 10+7 = 17. Only 5 satisfies",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The perimeter of an equilateral triangle is 36 cm. Its area?",
+    "answers": [
+      { "title": "$36\\sqrt{3}$ cm²", "is_correct": true },
+      { "title": "$24\\sqrt{3}$ cm²", "is_correct": false },
+      { "title": "$48\\sqrt{3}$ cm²", "is_correct": false },
+      { "title": "36 cm²", "is_correct": false }
+    ],
+    "explanation": "Side = 12 cm. Area = $\\frac{\\sqrt{3}}{4} \\times 144 = 36\\sqrt{3}$ cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In triangle ABC, angle A = 80°, angle B = 60°. Exterior angle at C?",
+    "answers": [
+      { "title": "140°", "is_correct": true },
+      { "title": "120°", "is_correct": false },
+      { "title": "100°", "is_correct": false },
+      { "title": "160°", "is_correct": false }
+    ],
+    "explanation": "Exterior angle = sum of opposite interior angles = 80 + 60 = 140°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sides of a triangle are 13, 14, 15 cm. Area by Heron's formula?",
+    "answers": [
+      { "title": "84 cm²", "is_correct": true },
+      { "title": "90 cm²", "is_correct": false },
+      { "title": "78 cm²", "is_correct": false },
+      { "title": "96 cm²", "is_correct": false }
+    ],
+    "explanation": "s = 21. Area = $\\sqrt{21 \\times 8 \\times 7 \\times 6} = \\sqrt{7056} = 84$ cm²",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In similar triangles, ratio of sides is 2:3. Ratio of areas?",
+    "answers": [
+      { "title": "4:9", "is_correct": true },
+      { "title": "2:3", "is_correct": false },
+      { "title": "8:27", "is_correct": false },
+      { "title": "6:9", "is_correct": false }
+    ],
+    "explanation": "Ratio of areas = (ratio of sides)² = 4:9",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The median of an equilateral triangle with side 12 cm is?",
+    "answers": [
+      { "title": "$6\\sqrt{3}$ cm", "is_correct": true },
+      { "title": "6 cm", "is_correct": false },
+      { "title": "$8\\sqrt{3}$ cm", "is_correct": false },
+      { "title": "9 cm", "is_correct": false }
+    ],
+    "explanation": "Median = $\\frac{\\sqrt{3}}{2} \\times 12 = 6\\sqrt{3}$ cm",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In a right triangle, legs are equal. If hypotenuse is 10 cm, each leg?",
+    "answers": [
+      { "title": "$5\\sqrt{2}$ cm", "is_correct": true },
+      { "title": "5 cm", "is_correct": false },
+      { "title": "7 cm", "is_correct": false },
+      { "title": "$10\\sqrt{2}$ cm", "is_correct": false }
+    ],
+    "explanation": "2a² = 100. a² = 50. a = $5\\sqrt{2}$ cm",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Centroid divides median in ratio?",
+    "answers": [
+      { "title": "2:1 from vertex", "is_correct": true },
+      { "title": "1:2 from vertex", "is_correct": false },
+      { "title": "1:1", "is_correct": false },
+      { "title": "3:1", "is_correct": false }
+    ],
+    "explanation": "Centroid divides median in 2:1 ratio from vertex",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In triangle PQR, if PQ = QR and angle Q = 40°, then angle P?",
+    "answers": [
+      { "title": "70°", "is_correct": true },
+      { "title": "40°", "is_correct": false },
+      { "title": "80°", "is_correct": false },
+      { "title": "60°", "is_correct": false }
+    ],
+    "explanation": "Isosceles: P = R. P + R = 180 - 40 = 140. P = 70°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Height of equilateral triangle with side 10 cm?",
+    "answers": [
+      { "title": "$5\\sqrt{3}$ cm", "is_correct": true },
+      { "title": "5 cm", "is_correct": false },
+      { "title": "$10\\sqrt{3}$ cm", "is_correct": false },
+      { "title": "8.66 cm", "is_correct": false }
+    ],
+    "explanation": "Height = $\\frac{\\sqrt{3}}{2} \\times 10 = 5\\sqrt{3}$ cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two triangles are similar. Sides of first are 3, 4, 5 cm. Longest side of second is 10 cm. Shortest side?",
+    "answers": [
+      { "title": "6 cm", "is_correct": true },
+      { "title": "8 cm", "is_correct": false },
+      { "title": "5 cm", "is_correct": false },
+      { "title": "4 cm", "is_correct": false }
+    ],
+    "explanation": "Scale factor = 10/5 = 2. Shortest = 3 × 2 = 6 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In right triangle ABC (right angled at B), AB = 6, BC = 8. Length of altitude from B to AC?",
+    "answers": [
+      { "title": "4.8 cm", "is_correct": true },
+      { "title": "5 cm", "is_correct": false },
+      { "title": "4 cm", "is_correct": false },
+      { "title": "6 cm", "is_correct": false }
+    ],
+    "explanation": "AC = 10. Area = ½×6×8 = 24. Also = ½×10×h. h = 4.8",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If angles of triangle are in ratio 1:2:3, the triangle is?",
+    "answers": [
+      { "title": "Right angled", "is_correct": true },
+      { "title": "Equilateral", "is_correct": false },
+      { "title": "Obtuse angled", "is_correct": false },
+      { "title": "Acute angled", "is_correct": false }
+    ],
+    "explanation": "Angles = 30°, 60°, 90°. Has 90°, so right angled",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In-radius of equilateral triangle with side 6 cm?",
+    "answers": [
+      { "title": "$\\sqrt{3}$ cm", "is_correct": true },
+      { "title": "$2\\sqrt{3}$ cm", "is_correct": false },
+      { "title": "3 cm", "is_correct": false },
+      { "title": "2 cm", "is_correct": false }
+    ],
+    "explanation": "r = $\\frac{a}{2\\sqrt{3}} = \\frac{6}{2\\sqrt{3}} = \\sqrt{3}$ cm",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A triangle has sides 5, 12, 13. Its area?",
+    "answers": [
+      { "title": "30 cm²", "is_correct": true },
+      { "title": "32.5 cm²", "is_correct": false },
+      { "title": "26 cm²", "is_correct": false },
+      { "title": "60 cm²", "is_correct": false }
+    ],
+    "explanation": "5² + 12² = 13² (right triangle). Area = ½×5×12 = 30 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Circumradius of equilateral triangle with side 6 cm?",
+    "answers": [
+      { "title": "$2\\sqrt{3}$ cm", "is_correct": true },
+      { "title": "$\\sqrt{3}$ cm", "is_correct": false },
+      { "title": "3 cm", "is_correct": false },
+      { "title": "4 cm", "is_correct": false }
+    ],
+    "explanation": "R = $\\frac{a}{\\sqrt{3}} = \\frac{6}{\\sqrt{3}} = 2\\sqrt{3}$ cm",
+    "difficulty": "medium"
+  }
+]

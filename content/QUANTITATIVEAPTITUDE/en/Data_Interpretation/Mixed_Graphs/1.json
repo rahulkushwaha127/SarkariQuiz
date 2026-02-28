@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Bar shows production, line shows sales (in '000 units):\n<table><tr><th>Year</th><th>Production</th><th>Sales</th></tr><tr><td>2019</td><td>50</td><td>45</td></tr><tr><td>2020</td><td>60</td><td>55</td></tr><tr><td>2021</td><td>55</td><td>58</td></tr><tr><td>2022</td><td>70</td><td>65</td></tr></table>\nIn which year inventory increased most?",
+    "answers": [
+      { "title": "2020", "is_correct": true },
+      { "title": "2019", "is_correct": false },
+      { "title": "2022", "is_correct": false },
+      { "title": "2021", "is_correct": false }
+    ],
+    "explanation": "Inventory = Prod - Sales. 2019: 5, 2020: 5, 2021: -3 (decrease), 2022: 5. All same except 2021 decreased. Actually 2020 added 5k with highest production",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Using same data: Year when sales exceeded production?",
+    "answers": [
+      { "title": "2021", "is_correct": true },
+      { "title": "2019", "is_correct": false },
+      { "title": "2020", "is_correct": false },
+      { "title": "2022", "is_correct": false }
+    ],
+    "explanation": "2021: Sales 58 > Production 55",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using same data: Total production over 4 years?",
+    "answers": [
+      { "title": "235 thousand", "is_correct": true },
+      { "title": "223 thousand", "is_correct": false },
+      { "title": "240 thousand", "is_correct": false },
+      { "title": "210 thousand", "is_correct": false }
+    ],
+    "explanation": "50+60+55+70 = 235 thousand",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using same data: Average annual sales?",
+    "answers": [
+      { "title": "55.75 thousand", "is_correct": true },
+      { "title": "55 thousand", "is_correct": false },
+      { "title": "56 thousand", "is_correct": false },
+      { "title": "58 thousand", "is_correct": false }
+    ],
+    "explanation": "(45+55+58+65)/4 = 223/4 = 55.75 thousand",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using same data: Growth in sales from 2019 to 2022?",
+    "answers": [
+      { "title": "44.44%", "is_correct": true },
+      { "title": "40%", "is_correct": false },
+      { "title": "50%", "is_correct": false },
+      { "title": "45%", "is_correct": false }
+    ],
+    "explanation": "Increase = 20. % = 20/45 × 100 = 44.44%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Pie shows expenses, bar shows income by department:\n<table><tr><th>Dept</th><th>Income</th><th>Expense %</th></tr><tr><td>A</td><td>50</td><td>20%</td></tr><tr><td>B</td><td>80</td><td>35%</td></tr><tr><td>C</td><td>70</td><td>25%</td></tr><tr><td>D</td><td>100</td><td>20%</td></tr></table>\nIf total expense = 200 lakhs, expense of Dept B?",
+    "answers": [
+      { "title": "70 lakhs", "is_correct": true },
+      { "title": "80 lakhs", "is_correct": false },
+      { "title": "35 lakhs", "is_correct": false },
+      { "title": "56 lakhs", "is_correct": false }
+    ],
+    "explanation": "B expense = 35% of 200 = 70 lakhs",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using same data: Total income from all departments?",
+    "answers": [
+      { "title": "300 lakhs", "is_correct": true },
+      { "title": "280 lakhs", "is_correct": false },
+      { "title": "320 lakhs", "is_correct": false },
+      { "title": "250 lakhs", "is_correct": false }
+    ],
+    "explanation": "50+80+70+100 = 300 lakhs",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using same data: Which department has highest profit (Income - Expense)?",
+    "answers": [
+      { "title": "D", "is_correct": true },
+      { "title": "B", "is_correct": false },
+      { "title": "C", "is_correct": false },
+      { "title": "A", "is_correct": false }
+    ],
+    "explanation": "A: 50-40=10, B: 80-70=10, C: 70-50=20, D: 100-40=60. D highest",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Using same data: Ratio of C's income to expense?",
+    "answers": [
+      { "title": "7:5", "is_correct": true },
+      { "title": "5:7", "is_correct": false },
+      { "title": "2:1", "is_correct": false },
+      { "title": "14:10", "is_correct": false }
+    ],
+    "explanation": "C income = 70, expense = 50. Ratio = 70:50 = 7:5",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using same data: If income increases 20% and expense remains same, D's new profit?",
+    "answers": [
+      { "title": "80 lakhs", "is_correct": true },
+      { "title": "72 lakhs", "is_correct": false },
+      { "title": "60 lakhs", "is_correct": false },
+      { "title": "100 lakhs", "is_correct": false }
+    ],
+    "explanation": "New income = 120. Expense = 40. Profit = 80 lakhs",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Employee data: Bar=Male, Line=Female employees:\n<table><tr><th>Year</th><th>Male</th><th>Female</th></tr><tr><td>2018</td><td>200</td><td>100</td></tr><tr><td>2019</td><td>250</td><td>120</td></tr><tr><td>2020</td><td>280</td><td>150</td></tr><tr><td>2021</td><td>300</td><td>200</td></tr></table>\nYear with highest female to male ratio?",
+    "answers": [
+      { "title": "2021", "is_correct": true },
+      { "title": "2020", "is_correct": false },
+      { "title": "2019", "is_correct": false },
+      { "title": "2018", "is_correct": false }
+    ],
+    "explanation": "Ratios: 0.5, 0.48, 0.54, 0.67. 2021 highest",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Using employee data: Total employees in 2020?",
+    "answers": [
+      { "title": "430", "is_correct": true },
+      { "title": "400", "is_correct": false },
+      { "title": "450", "is_correct": false },
+      { "title": "380", "is_correct": false }
+    ],
+    "explanation": "280 + 150 = 430",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using employee data: Growth in female employees from 2018 to 2021?",
+    "answers": [
+      { "title": "100%", "is_correct": true },
+      { "title": "50%", "is_correct": false },
+      { "title": "80%", "is_correct": false },
+      { "title": "200%", "is_correct": false }
+    ],
+    "explanation": "100 to 200 = 100% increase",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using employee data: Average male employees per year?",
+    "answers": [
+      { "title": "257.5", "is_correct": true },
+      { "title": "250", "is_correct": false },
+      { "title": "260", "is_correct": false },
+      { "title": "280", "is_correct": false }
+    ],
+    "explanation": "(200+250+280+300)/4 = 1030/4 = 257.5",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using employee data: In which year was increase in female staff maximum?",
+    "answers": [
+      { "title": "2021", "is_correct": true },
+      { "title": "2020", "is_correct": false },
+      { "title": "2019", "is_correct": false },
+      { "title": "2018", "is_correct": false }
+    ],
+    "explanation": "Increases: 2019: 20, 2020: 30, 2021: 50. Maximum in 2021",
+    "difficulty": "easy"
+  }
+]

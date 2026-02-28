@@ -1,0 +1,222 @@
+[
+  {
+    "question": "SI on Rs. 2000 at 5% for 3 years?",
+    "answers": [
+      { "title": "Rs. 300", "is_correct": true },
+      { "title": "Rs. 200", "is_correct": false },
+      { "title": "Rs. 350", "is_correct": false },
+      { "title": "Rs. 250", "is_correct": false }
+    ],
+    "explanation": "SI = PRT/100 = 2000×5×3/100 = Rs. 300",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Principal that yields SI of Rs. 600 in 4 years at 5%?",
+    "answers": [
+      { "title": "Rs. 3000", "is_correct": true },
+      { "title": "Rs. 2000", "is_correct": false },
+      { "title": "Rs. 4000", "is_correct": false },
+      { "title": "Rs. 3500", "is_correct": false }
+    ],
+    "explanation": "P = SI×100/(R×T) = 600×100/20 = Rs. 3000",
+    "difficulty": "easy"
+  },
+  {
+    "question": "CI on Rs. 10000 at 10% for 2 years?",
+    "answers": [
+      { "title": "Rs. 2100", "is_correct": true },
+      { "title": "Rs. 2000", "is_correct": false },
+      { "title": "Rs. 2200", "is_correct": false },
+      { "title": "Rs. 1900", "is_correct": false }
+    ],
+    "explanation": "A = 10000(1.1)² = 12100. CI = Rs. 2100",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Difference between CI and SI for Rs. 5000 at 10% for 2 years?",
+    "answers": [
+      { "title": "Rs. 50", "is_correct": true },
+      { "title": "Rs. 100", "is_correct": false },
+      { "title": "Rs. 25", "is_correct": false },
+      { "title": "Rs. 75", "is_correct": false }
+    ],
+    "explanation": "Diff = P(R/100)² = 5000×0.01 = Rs. 50",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In what time Rs. 8000 amounts to Rs. 9261 at 5% CI?",
+    "answers": [
+      { "title": "3 years", "is_correct": true },
+      { "title": "2 years", "is_correct": false },
+      { "title": "4 years", "is_correct": false },
+      { "title": "5 years", "is_correct": false }
+    ],
+    "explanation": "9261/8000 = (1.05)ⁿ = (21/20)³. n = 3 years",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A sum doubles in 5 years at SI. Rate of interest?",
+    "answers": [
+      { "title": "20%", "is_correct": true },
+      { "title": "10%", "is_correct": false },
+      { "title": "25%", "is_correct": false },
+      { "title": "15%", "is_correct": false }
+    ],
+    "explanation": "SI = P. P = P×R×5/100. R = 20%",
+    "difficulty": "easy"
+  },
+  {
+    "question": "At what rate will Rs. 1200 yield Rs. 216 as SI in 2 years?",
+    "answers": [
+      { "title": "9%", "is_correct": true },
+      { "title": "8%", "is_correct": false },
+      { "title": "10%", "is_correct": false },
+      { "title": "12%", "is_correct": false }
+    ],
+    "explanation": "R = SI×100/(P×T) = 216×100/2400 = 9%",
+    "difficulty": "easy"
+  },
+  {
+    "question": "CI on Rs. 16000 at 15% for 2 years compounded annually?",
+    "answers": [
+      { "title": "Rs. 5160", "is_correct": true },
+      { "title": "Rs. 4800", "is_correct": false },
+      { "title": "Rs. 5400", "is_correct": false },
+      { "title": "Rs. 4960", "is_correct": false }
+    ],
+    "explanation": "A = 16000×(1.15)² = 21160. CI = Rs. 5160",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Sum amounts to Rs. 6050 at 10% SI in 2.5 years. Principal?",
+    "answers": [
+      { "title": "Rs. 4840", "is_correct": true },
+      { "title": "Rs. 5000", "is_correct": false },
+      { "title": "Rs. 4500", "is_correct": false },
+      { "title": "Rs. 5500", "is_correct": false }
+    ],
+    "explanation": "A = P(1 + RT/100). 6050 = P(1.25). P = Rs. 4840",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Rs. 6000 at CI amounts to Rs. 7986 in 2 years. Rate?",
+    "answers": [
+      { "title": "15.5%", "is_correct": true },
+      { "title": "15%", "is_correct": false },
+      { "title": "16%", "is_correct": false },
+      { "title": "12%", "is_correct": false }
+    ],
+    "explanation": "7986/6000 = (1+r)². 1.331 = (1+r)². 1+r = 1.155. r ≈ 15.5%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Effective annual rate for 12% compounded half-yearly?",
+    "answers": [
+      { "title": "12.36%", "is_correct": true },
+      { "title": "12%", "is_correct": false },
+      { "title": "12.5%", "is_correct": false },
+      { "title": "12.25%", "is_correct": false }
+    ],
+    "explanation": "Effective = (1 + 0.06)² - 1 = 1.1236 - 1 = 12.36%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "SI on Rs. 500 for 4 years at 8% = CI on Rs. 500 at 8% for how many years?",
+    "answers": [
+      { "title": "Approximately 3.5 years", "is_correct": true },
+      { "title": "4 years", "is_correct": false },
+      { "title": "3 years", "is_correct": false },
+      { "title": "2 years", "is_correct": false }
+    ],
+    "explanation": "SI = 160. CI with n: 500[(1.08)ⁿ - 1] = 160. Solving numerically: n ≈ 3.5",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A sum triples in 8 years at CI. In how many years will it become 9 times?",
+    "answers": [
+      { "title": "16 years", "is_correct": true },
+      { "title": "24 years", "is_correct": false },
+      { "title": "12 years", "is_correct": false },
+      { "title": "32 years", "is_correct": false }
+    ],
+    "explanation": "Triple in 8 years. 9× = 3² means 2×8 = 16 years",
+    "difficulty": "medium"
+  },
+  {
+    "question": "CI on Rs. 5000 at 4% for 2 years compounded half-yearly?",
+    "answers": [
+      { "title": "Rs. 412.16", "is_correct": true },
+      { "title": "Rs. 400", "is_correct": false },
+      { "title": "Rs. 408", "is_correct": false },
+      { "title": "Rs. 420", "is_correct": false }
+    ],
+    "explanation": "A = 5000(1.02)⁴ = 5412.16. CI = Rs. 412.16",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The SI on a sum is 4/9 of the principal. Rate = 5%. Time?",
+    "answers": [
+      { "title": "8.89 years", "is_correct": true },
+      { "title": "9 years", "is_correct": false },
+      { "title": "8 years", "is_correct": false },
+      { "title": "10 years", "is_correct": false }
+    ],
+    "explanation": "4P/9 = P×5×T/100. T = 400/45 = 8.89 years",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Rs. 800 at SI becomes Rs. 920 in 3 years. Amount after 5 years?",
+    "answers": [
+      { "title": "Rs. 1000", "is_correct": true },
+      { "title": "Rs. 1080", "is_correct": false },
+      { "title": "Rs. 960", "is_correct": false },
+      { "title": "Rs. 1040", "is_correct": false }
+    ],
+    "explanation": "SI for 3 yrs = 120. Rate = 5%. SI for 5 yrs = 200. Amount = Rs. 1000",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Difference between CI and SI on Rs. 8000 at 5% for 3 years?",
+    "answers": [
+      { "title": "Rs. 61", "is_correct": true },
+      { "title": "Rs. 60", "is_correct": false },
+      { "title": "Rs. 50", "is_correct": false },
+      { "title": "Rs. 80", "is_correct": false }
+    ],
+    "explanation": "Diff = P×r²(3+r)/100³ = 8000×25×3.05/1000000 = 61",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A man invests Rs. 3000 at 10% and Rs. 2000 at 15% SI. Average rate on total?",
+    "answers": [
+      { "title": "12%", "is_correct": true },
+      { "title": "12.5%", "is_correct": false },
+      { "title": "11%", "is_correct": false },
+      { "title": "13%", "is_correct": false }
+    ],
+    "explanation": "Total SI = 300 + 300 = 600 on 5000. Rate = 600/5000 = 12%",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Present worth of Rs. 1331 due 3 years hence at 10% CI?",
+    "answers": [
+      { "title": "Rs. 1000", "is_correct": true },
+      { "title": "Rs. 1100", "is_correct": false },
+      { "title": "Rs. 900", "is_correct": false },
+      { "title": "Rs. 1210", "is_correct": false }
+    ],
+    "explanation": "PW = 1331/(1.1)³ = 1331/1.331 = Rs. 1000",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A sum becomes 4 times in 20 years at SI. In how many years will it become 6 times?",
+    "answers": [
+      { "title": "33.33 years", "is_correct": true },
+      { "title": "30 years", "is_correct": false },
+      { "title": "40 years", "is_correct": false },
+      { "title": "25 years", "is_correct": false }
+    ],
+    "explanation": "3P earned in 20 years. Rate = 15%. 5P at 15% takes 100/3 = 33.33 years",
+    "difficulty": "medium"
+  }
+]

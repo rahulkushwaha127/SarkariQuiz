@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Simplify: $2^3 \\times 2^5$",
+    "answers": [
+      { "title": "$2^8$", "is_correct": true },
+      { "title": "$2^{15}$", "is_correct": false },
+      { "title": "$4^8$", "is_correct": false },
+      { "title": "$2^2$", "is_correct": false }
+    ],
+    "explanation": "$a^m \\times a^n = a^{m+n}$. So $2^{3+5} = 2^8$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\frac{5^6}{5^4}$?",
+    "answers": [
+      { "title": "25", "is_correct": true },
+      { "title": "5", "is_correct": false },
+      { "title": "125", "is_correct": false },
+      { "title": "$5^{10}$", "is_correct": false }
+    ],
+    "explanation": "$a^m \\div a^n = a^{m-n} = 5^2 = 25$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: $(3^2)^4$",
+    "answers": [
+      { "title": "$3^8$", "is_correct": true },
+      { "title": "$3^6$", "is_correct": false },
+      { "title": "$9^4$", "is_correct": false },
+      { "title": "$3^2$", "is_correct": false }
+    ],
+    "explanation": "$(a^m)^n = a^{mn} = 3^8$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $27^{2/3}$?",
+    "answers": [
+      { "title": "9", "is_correct": true },
+      { "title": "3", "is_correct": false },
+      { "title": "27", "is_correct": false },
+      { "title": "18", "is_correct": false }
+    ],
+    "explanation": "$27^{2/3} = (3^3)^{2/3} = 3^2 = 9$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: $\\sqrt{50}$",
+    "answers": [
+      { "title": "$5\\sqrt{2}$", "is_correct": true },
+      { "title": "$2\\sqrt{5}$", "is_correct": false },
+      { "title": "$10\\sqrt{5}$", "is_correct": false },
+      { "title": "$25\\sqrt{2}$", "is_correct": false }
+    ],
+    "explanation": "$\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $16^{-3/4}$?",
+    "answers": [
+      { "title": "$\\frac{1}{8}$", "is_correct": true },
+      { "title": "8", "is_correct": false },
+      { "title": "$\\frac{1}{4}$", "is_correct": false },
+      { "title": "$\\frac{1}{2}$", "is_correct": false }
+    ],
+    "explanation": "$16^{-3/4} = \\frac{1}{16^{3/4}} = \\frac{1}{(2^4)^{3/4}} = \\frac{1}{2^3} = \\frac{1}{8}$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Rationalize: $\\frac{1}{\\sqrt{3}+\\sqrt{2}}$",
+    "answers": [
+      { "title": "$\\sqrt{3}-\\sqrt{2}$", "is_correct": true },
+      { "title": "$\\sqrt{3}+\\sqrt{2}$", "is_correct": false },
+      { "title": "$\\frac{\\sqrt{3}-\\sqrt{2}}{5}$", "is_correct": false },
+      { "title": "$\\sqrt{6}$", "is_correct": false }
+    ],
+    "explanation": "Multiply by $\\frac{\\sqrt{3}-\\sqrt{2}}{\\sqrt{3}-\\sqrt{2}} = \\frac{\\sqrt{3}-\\sqrt{2}}{3-2} = \\sqrt{3}-\\sqrt{2}$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Simplify: $\\sqrt{12} + \\sqrt{27} - \\sqrt{3}$",
+    "answers": [
+      { "title": "$4\\sqrt{3}$", "is_correct": true },
+      { "title": "$5\\sqrt{3}$", "is_correct": false },
+      { "title": "$6\\sqrt{3}$", "is_correct": false },
+      { "title": "$3\\sqrt{3}$", "is_correct": false }
+    ],
+    "explanation": "$2\\sqrt{3} + 3\\sqrt{3} - \\sqrt{3} = 4\\sqrt{3}$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $2^x = 32$, find x.",
+    "answers": [
+      { "title": "5", "is_correct": true },
+      { "title": "4", "is_correct": false },
+      { "title": "6", "is_correct": false },
+      { "title": "16", "is_correct": false }
+    ],
+    "explanation": "$32 = 2^5$. So x = 5",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\sqrt[3]{216}$?",
+    "answers": [
+      { "title": "6", "is_correct": true },
+      { "title": "36", "is_correct": false },
+      { "title": "8", "is_correct": false },
+      { "title": "72", "is_correct": false }
+    ],
+    "explanation": "$216 = 6^3$. Cube root = 6",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: $\\frac{\\sqrt{32}}{\\sqrt{2}}$",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "$4\\sqrt{2}$", "is_correct": false },
+      { "title": "$2\\sqrt{2}$", "is_correct": false },
+      { "title": "8", "is_correct": false }
+    ],
+    "explanation": "$\\sqrt{32/2} = \\sqrt{16} = 4$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $9^x \\times 3^y = 27$, which is possible?",
+    "answers": [
+      { "title": "x=1, y=1", "is_correct": true },
+      { "title": "x=2, y=1", "is_correct": false },
+      { "title": "x=1, y=2", "is_correct": false },
+      { "title": "x=0, y=3", "is_correct": false }
+    ],
+    "explanation": "$3^{2x} \\times 3^y = 3^3$. 2x+y = 3. x=1, y=1 satisfies",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Value of $(\\sqrt{5}+\\sqrt{3})(\\sqrt{5}-\\sqrt{3})$?",
+    "answers": [
+      { "title": "2", "is_correct": true },
+      { "title": "8", "is_correct": false },
+      { "title": "$\\sqrt{15}$", "is_correct": false },
+      { "title": "4", "is_correct": false }
+    ],
+    "explanation": "$(a+b)(a-b) = a^2 - b^2 = 5 - 3 = 2$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $5^{x-2} = 625$, find x.",
+    "answers": [
+      { "title": "6", "is_correct": true },
+      { "title": "4", "is_correct": false },
+      { "title": "5", "is_correct": false },
+      { "title": "8", "is_correct": false }
+    ],
+    "explanation": "$625 = 5^4$. x-2 = 4. x = 6",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: $\\sqrt{2} \\times \\sqrt{8}$",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "$4\\sqrt{2}$", "is_correct": false },
+      { "title": "$2\\sqrt{2}$", "is_correct": false },
+      { "title": "16", "is_correct": false }
+    ],
+    "explanation": "$\\sqrt{2 \\times 8} = \\sqrt{16} = 4$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $(81)^{0.25}$?",
+    "answers": [
+      { "title": "3", "is_correct": true },
+      { "title": "9", "is_correct": false },
+      { "title": "27", "is_correct": false },
+      { "title": "$3^4$", "is_correct": false }
+    ],
+    "explanation": "$81^{1/4} = (3^4)^{1/4} = 3$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $3^{a} = 5$ and $3^{b} = 25$, find b in terms of a.",
+    "answers": [
+      { "title": "2a", "is_correct": true },
+      { "title": "a²", "is_correct": false },
+      { "title": "5a", "is_correct": false },
+      { "title": "a+5", "is_correct": false }
+    ],
+    "explanation": "$3^b = 25 = 5^2 = (3^a)^2 = 3^{2a}$. So b = 2a",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Simplify: $\\frac{1}{\\sqrt{5}-2}$",
+    "answers": [
+      { "title": "$\\sqrt{5}+2$", "is_correct": true },
+      { "title": "$\\sqrt{5}-2$", "is_correct": false },
+      { "title": "$\\frac{\\sqrt{5}+2}{3}$", "is_correct": false },
+      { "title": "$2+\\sqrt{5}$", "is_correct": false }
+    ],
+    "explanation": "Rationalize: $\\frac{\\sqrt{5}+2}{5-4} = \\sqrt{5}+2$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Value of $\\frac{8^{2/3} \\times 16^{1/2}}{4^{3/2}}$?",
+    "answers": [
+      { "title": "2", "is_correct": true },
+      { "title": "4", "is_correct": false },
+      { "title": "8", "is_correct": false },
+      { "title": "1", "is_correct": false }
+    ],
+    "explanation": "$\\frac{4 \\times 4}{8} = \\frac{16}{8} = 2$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If $x = 3 + 2\\sqrt{2}$, find $x + \\frac{1}{x}$.",
+    "answers": [
+      { "title": "6", "is_correct": true },
+      { "title": "$6 + 4\\sqrt{2}$", "is_correct": false },
+      { "title": "$3\\sqrt{2}$", "is_correct": false },
+      { "title": "3", "is_correct": false }
+    ],
+    "explanation": "$\\frac{1}{x} = \\frac{1}{3+2\\sqrt{2}} = 3-2\\sqrt{2}$. Sum = 6",
+    "difficulty": "hard"
+  }
+]

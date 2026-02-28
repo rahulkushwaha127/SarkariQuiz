@@ -35,6 +35,9 @@ class ImportContentQuestions extends Command
         'INDIANECONOMY' => 'Indian Economy',
         'INDIANPOLITY' => 'Indian Polity',
         'STATICGK' => 'Static GK',
+        'QUANTITATIVEAPTITUDE' => 'Quantitative Aptitude',
+        'REASONING' => 'Reasoning',
+        'ENGLISHLANGUAGE' => 'English Language',
     ];
 
     /**

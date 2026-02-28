@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Simplify: 18 + 6 ÷ 3 × 2",
+    "answers": [
+      { "title": "22", "is_correct": true },
+      { "title": "16", "is_correct": false },
+      { "title": "8", "is_correct": false },
+      { "title": "24", "is_correct": false }
+    ],
+    "explanation": "18 + (6÷3)×2 = 18 + 2×2 = 18 + 4 = 22",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 24 ÷ 8 × 2 + 6 - 3",
+    "answers": [
+      { "title": "9", "is_correct": true },
+      { "title": "6", "is_correct": false },
+      { "title": "12", "is_correct": false },
+      { "title": "3", "is_correct": false }
+    ],
+    "explanation": "3 × 2 + 6 - 3 = 6 + 6 - 3 = 9",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: (8 + 4) × (6 - 2)",
+    "answers": [
+      { "title": "48", "is_correct": true },
+      { "title": "24", "is_correct": false },
+      { "title": "36", "is_correct": false },
+      { "title": "56", "is_correct": false }
+    ],
+    "explanation": "12 × 4 = 48",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 100 - 50 ÷ 5 × 2",
+    "answers": [
+      { "title": "80", "is_correct": true },
+      { "title": "20", "is_correct": false },
+      { "title": "90", "is_correct": false },
+      { "title": "10", "is_correct": false }
+    ],
+    "explanation": "100 - 10 × 2 = 100 - 20 = 80",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 3² + 4² - 5",
+    "answers": [
+      { "title": "20", "is_correct": true },
+      { "title": "14", "is_correct": false },
+      { "title": "25", "is_correct": false },
+      { "title": "19", "is_correct": false }
+    ],
+    "explanation": "9 + 16 - 5 = 20",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 15 - [8 - (4 + 2)]",
+    "answers": [
+      { "title": "13", "is_correct": true },
+      { "title": "1", "is_correct": false },
+      { "title": "9", "is_correct": false },
+      { "title": "7", "is_correct": false }
+    ],
+    "explanation": "15 - [8 - 6] = 15 - 2 = 13",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: $\\frac{1}{2}$ of 20 + 5 × 3",
+    "answers": [
+      { "title": "25", "is_correct": true },
+      { "title": "45", "is_correct": false },
+      { "title": "30", "is_correct": false },
+      { "title": "35", "is_correct": false }
+    ],
+    "explanation": "10 + 15 = 25",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 36 ÷ (12 - 6) × 2",
+    "answers": [
+      { "title": "12", "is_correct": true },
+      { "title": "6", "is_correct": false },
+      { "title": "3", "is_correct": false },
+      { "title": "24", "is_correct": false }
+    ],
+    "explanation": "36 ÷ 6 × 2 = 6 × 2 = 12",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 7 + 7 × 7 - 7 ÷ 7",
+    "answers": [
+      { "title": "55", "is_correct": true },
+      { "title": "56", "is_correct": false },
+      { "title": "48", "is_correct": false },
+      { "title": "49", "is_correct": false }
+    ],
+    "explanation": "7 + 49 - 1 = 55",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 25 - {10 - (6 - 3)}",
+    "answers": [
+      { "title": "18", "is_correct": true },
+      { "title": "12", "is_correct": false },
+      { "title": "22", "is_correct": false },
+      { "title": "8", "is_correct": false }
+    ],
+    "explanation": "25 - {10 - 3} = 25 - 7 = 18",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: (5 + 3)² - (5 - 3)²",
+    "answers": [
+      { "title": "60", "is_correct": true },
+      { "title": "32", "is_correct": false },
+      { "title": "16", "is_correct": false },
+      { "title": "64", "is_correct": false }
+    ],
+    "explanation": "64 - 4 = 60",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 144 ÷ 12 ÷ 3",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "36", "is_correct": false },
+      { "title": "12", "is_correct": false },
+      { "title": "3", "is_correct": false }
+    ],
+    "explanation": "Left to right: 12 ÷ 3 = 4",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 20 - 4 × 3 + 12 ÷ 4",
+    "answers": [
+      { "title": "11", "is_correct": true },
+      { "title": "16", "is_correct": false },
+      { "title": "5", "is_correct": false },
+      { "title": "8", "is_correct": false }
+    ],
+    "explanation": "20 - 12 + 3 = 11",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: √49 + √81 - √36",
+    "answers": [
+      { "title": "10", "is_correct": true },
+      { "title": "12", "is_correct": false },
+      { "title": "8", "is_correct": false },
+      { "title": "16", "is_correct": false }
+    ],
+    "explanation": "7 + 9 - 6 = 10",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 50 - [30 - {20 - (10 - 5)}]",
+    "answers": [
+      { "title": "35", "is_correct": true },
+      { "title": "25", "is_correct": false },
+      { "title": "45", "is_correct": false },
+      { "title": "15", "is_correct": false }
+    ],
+    "explanation": "50 - [30 - {20 - 5}] = 50 - [30 - 15] = 50 - 15 = 35",
+    "difficulty": "medium"
+  }
+]

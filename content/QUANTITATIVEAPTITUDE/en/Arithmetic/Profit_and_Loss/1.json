@@ -1,0 +1,222 @@
+[
+  {
+    "question": "A shopkeeper sells an article for Rs. 450 with 25% profit. The cost price is?",
+    "answers": [
+      { "title": "Rs. 360", "is_correct": true },
+      { "title": "Rs. 380", "is_correct": false },
+      { "title": "Rs. 400", "is_correct": false },
+      { "title": "Rs. 340", "is_correct": false }
+    ],
+    "explanation": "CP = SP/(1 + Profit%) = 450/1.25 = Rs. 360",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A man bought an article for Rs. 800 and sold it at a loss of 15%. Selling price is?",
+    "answers": [
+      { "title": "Rs. 680", "is_correct": true },
+      { "title": "Rs. 720", "is_correct": false },
+      { "title": "Rs. 650", "is_correct": false },
+      { "title": "Rs. 700", "is_correct": false }
+    ],
+    "explanation": "SP = CP × (1 - Loss%) = 800 × 0.85 = Rs. 680",
+    "difficulty": "easy"
+  },
+  {
+    "question": "By selling 33 meters of cloth, a person gains the cost price of 11 meters. Profit %?",
+    "answers": [
+      { "title": "30%", "is_correct": false },
+      { "title": "33.33%", "is_correct": true },
+      { "title": "25%", "is_correct": false },
+      { "title": "40%", "is_correct": false }
+    ],
+    "explanation": "Profit = 11m CP. Profit% = (11/33) × 100 = 33.33%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If selling price is doubled, profit triples. The profit % is?",
+    "answers": [
+      { "title": "100%", "is_correct": true },
+      { "title": "200%", "is_correct": false },
+      { "title": "50%", "is_correct": false },
+      { "title": "150%", "is_correct": false }
+    ],
+    "explanation": "Let CP = C, SP = S, Profit = P. 2S - C = 3P → 2S - C = 3(S-C) → S = 2C → P = C = 100%",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A trader marks his goods 40% above CP and allows 25% discount. His profit %?",
+    "answers": [
+      { "title": "5%", "is_correct": true },
+      { "title": "10%", "is_correct": false },
+      { "title": "15%", "is_correct": false },
+      { "title": "12%", "is_correct": false }
+    ],
+    "explanation": "Let CP = 100, MP = 140, SP = 140 × 0.75 = 105. Profit = 5%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "An article is sold at 10% profit. If CP and SP both are Rs. 50 less, profit would be 25%. CP is?",
+    "answers": [
+      { "title": "Rs. 200", "is_correct": true },
+      { "title": "Rs. 250", "is_correct": false },
+      { "title": "Rs. 150", "is_correct": false },
+      { "title": "Rs. 180", "is_correct": false }
+    ],
+    "explanation": "SP = 1.1C. New: (1.1C-50)/(C-50) = 1.25 → C = 200",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A man sells two articles for Rs. 990 each. On one he gains 10%, on other loses 10%. Net result?",
+    "answers": [
+      { "title": "1% loss", "is_correct": true },
+      { "title": "No profit no loss", "is_correct": false },
+      { "title": "1% profit", "is_correct": false },
+      { "title": "2% loss", "is_correct": false }
+    ],
+    "explanation": "When SP same and gain% = loss%, there's always loss = (common%)²/100 = 1%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Cost of 15 pens = Selling price of 12 pens. Profit %?",
+    "answers": [
+      { "title": "25%", "is_correct": true },
+      { "title": "20%", "is_correct": false },
+      { "title": "30%", "is_correct": false },
+      { "title": "15%", "is_correct": false }
+    ],
+    "explanation": "15×CP = 12×SP → SP/CP = 15/12 = 1.25 → Profit = 25%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A shopkeeper uses 900 gm weight instead of 1 kg. His profit %?",
+    "answers": [
+      { "title": "11.11%", "is_correct": true },
+      { "title": "10%", "is_correct": false },
+      { "title": "12%", "is_correct": false },
+      { "title": "9%", "is_correct": false }
+    ],
+    "explanation": "Profit% = (100/900) × 100 = 11.11%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A sells to B at 20% profit, B sells to C at 25% profit. If C pays Rs. 225, what did A pay?",
+    "answers": [
+      { "title": "Rs. 150", "is_correct": true },
+      { "title": "Rs. 160", "is_correct": false },
+      { "title": "Rs. 140", "is_correct": false },
+      { "title": "Rs. 175", "is_correct": false }
+    ],
+    "explanation": "A's CP = 225/(1.2 × 1.25) = 225/1.5 = Rs. 150",
+    "difficulty": "medium"
+  },
+  {
+    "question": "An article is sold for Rs. 540 at a profit of 20%. To make 30% profit, SP should be?",
+    "answers": [
+      { "title": "Rs. 585", "is_correct": true },
+      { "title": "Rs. 600", "is_correct": false },
+      { "title": "Rs. 560", "is_correct": false },
+      { "title": "Rs. 575", "is_correct": false }
+    ],
+    "explanation": "CP = 540/1.2 = 450. New SP = 450 × 1.3 = Rs. 585",
+    "difficulty": "easy"
+  },
+  {
+    "question": "By selling 144 hens, a man gains SP of 12 hens. His profit %?",
+    "answers": [
+      { "title": "9.09%", "is_correct": true },
+      { "title": "8.33%", "is_correct": false },
+      { "title": "10%", "is_correct": false },
+      { "title": "12%", "is_correct": false }
+    ],
+    "explanation": "SP of 144 = CP of 144 + SP of 12. So CP of 144 = SP of 132. Profit% = 12/132 × 100 = 9.09%",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A dealer sold an article at a loss of 5%. Had he sold for Rs. 100 more, he would gain 5%. CP?",
+    "answers": [
+      { "title": "Rs. 1000", "is_correct": true },
+      { "title": "Rs. 900", "is_correct": false },
+      { "title": "Rs. 1100", "is_correct": false },
+      { "title": "Rs. 800", "is_correct": false }
+    ],
+    "explanation": "1.05C - 0.95C = 100 → 0.1C = 100 → C = Rs. 1000",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Marked price of an article is Rs. 500. Shopkeeper allows 10% discount and still gains 12.5%. CP?",
+    "answers": [
+      { "title": "Rs. 400", "is_correct": true },
+      { "title": "Rs. 425", "is_correct": false },
+      { "title": "Rs. 450", "is_correct": false },
+      { "title": "Rs. 380", "is_correct": false }
+    ],
+    "explanation": "SP = 500 × 0.9 = 450. CP = 450/1.125 = Rs. 400",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A trader marks his goods 50% above CP but allows 20% discount. His profit %?",
+    "answers": [
+      { "title": "20%", "is_correct": true },
+      { "title": "25%", "is_correct": false },
+      { "title": "30%", "is_correct": false },
+      { "title": "15%", "is_correct": false }
+    ],
+    "explanation": "Let CP = 100, MP = 150, SP = 150 × 0.8 = 120. Profit = 20%",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Shopkeeper buys goods at 25% discount but sells at marked price. His profit %?",
+    "answers": [
+      { "title": "33.33%", "is_correct": true },
+      { "title": "25%", "is_correct": false },
+      { "title": "30%", "is_correct": false },
+      { "title": "20%", "is_correct": false }
+    ],
+    "explanation": "CP = 0.75 × MP, SP = MP. Profit = 0.25MP/0.75MP × 100 = 33.33%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Loss on selling 10 articles = CP of 3 articles. Loss %?",
+    "answers": [
+      { "title": "30%", "is_correct": true },
+      { "title": "25%", "is_correct": false },
+      { "title": "33.33%", "is_correct": false },
+      { "title": "23%", "is_correct": false }
+    ],
+    "explanation": "CP of 10 - SP of 10 = CP of 3. Loss% = 3/10 × 100 = 30%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "An article sold at Rs. 765 gives 15% profit. At what price should it be sold for 20% profit?",
+    "answers": [
+      { "title": "Rs. 798", "is_correct": true },
+      { "title": "Rs. 810", "is_correct": false },
+      { "title": "Rs. 780", "is_correct": false },
+      { "title": "Rs. 800", "is_correct": false }
+    ],
+    "explanation": "CP = 765/1.15 = 665.22. New SP = 665.22 × 1.2 ≈ Rs. 798",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A fruit seller sells mangoes at Rs. 9 each and earns 20% profit. To earn 50% profit, SP should be?",
+    "answers": [
+      { "title": "Rs. 11.25", "is_correct": true },
+      { "title": "Rs. 12", "is_correct": false },
+      { "title": "Rs. 10.50", "is_correct": false },
+      { "title": "Rs. 13.50", "is_correct": false }
+    ],
+    "explanation": "CP = 9/1.2 = 7.5. For 50% profit: SP = 7.5 × 1.5 = Rs. 11.25",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two successive discounts of 10% and 20% equal a single discount of?",
+    "answers": [
+      { "title": "28%", "is_correct": true },
+      { "title": "30%", "is_correct": false },
+      { "title": "25%", "is_correct": false },
+      { "title": "32%", "is_correct": false }
+    ],
+    "explanation": "Combined = 10 + 20 - (10×20)/100 = 30 - 2 = 28%",
+    "difficulty": "easy"
+  }
+]

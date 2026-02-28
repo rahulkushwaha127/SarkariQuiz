@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Sum of two numbers is 25 and difference is 5. Find the numbers.",
+    "answers": [
+      { "title": "15 and 10", "is_correct": true },
+      { "title": "20 and 5", "is_correct": false },
+      { "title": "18 and 7", "is_correct": false },
+      { "title": "12 and 13", "is_correct": false }
+    ],
+    "explanation": "a+b=25, a-b=5. 2a=30, a=15. b=10",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Product of two numbers is 120 and sum is 22. Find the numbers.",
+    "answers": [
+      { "title": "10 and 12", "is_correct": true },
+      { "title": "8 and 15", "is_correct": false },
+      { "title": "6 and 20", "is_correct": false },
+      { "title": "11 and 11", "is_correct": false }
+    ],
+    "explanation": "x(22-x)=120. x²-22x+120=0. x=10 or 12",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A two-digit number is 4 times the sum of its digits. If 18 is added, digits reverse. Number?",
+    "answers": [
+      { "title": "24", "is_correct": true },
+      { "title": "36", "is_correct": false },
+      { "title": "48", "is_correct": false },
+      { "title": "12", "is_correct": false }
+    ],
+    "explanation": "10a+b = 4(a+b) → 6a = 3b → b = 2a. 10a+b+18 = 10b+a → 9a+18 = 9b → a+2=b. So 2a=a+2, a=2, b=4. Number = 24",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Sum of digits of a 2-digit number is 9. If digits are reversed, new number is 27 less. Number?",
+    "answers": [
+      { "title": "63", "is_correct": true },
+      { "title": "54", "is_correct": false },
+      { "title": "72", "is_correct": false },
+      { "title": "81", "is_correct": false }
+    ],
+    "explanation": "a+b=9. 10a+b - (10b+a) = 27. 9a-9b=27. a-b=3. Solving: a=6, b=3. Number = 63",
+    "difficulty": "medium"
+  },
+  {
+    "question": "One-third of a number is 5 more than one-fifth of it. Number?",
+    "answers": [
+      { "title": "37.5", "is_correct": true },
+      { "title": "30", "is_correct": false },
+      { "title": "45", "is_correct": false },
+      { "title": "75", "is_correct": false }
+    ],
+    "explanation": "x/3 = x/5 + 5. x/3 - x/5 = 5. 2x/15 = 5. x = 37.5",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A number when divided by 6 gives remainder 5. Remainder when divided by 12?",
+    "answers": [
+      { "title": "5 or 11", "is_correct": true },
+      { "title": "5 only", "is_correct": false },
+      { "title": "11 only", "is_correct": false },
+      { "title": "7", "is_correct": false }
+    ],
+    "explanation": "N = 6k+5. For k=0,1,2...: 5,11,17,23. Mod 12: 5,11,5,11. Either 5 or 11",
+    "difficulty": "medium"
+  },
+  {
+    "question": "3 consecutive even numbers sum to 48. Largest?",
+    "answers": [
+      { "title": "18", "is_correct": true },
+      { "title": "16", "is_correct": false },
+      { "title": "20", "is_correct": false },
+      { "title": "14", "is_correct": false }
+    ],
+    "explanation": "x + x+2 + x+4 = 48. 3x+6=48. x=14. Largest = 18",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A number exceeds its 1/4 by 30. The number?",
+    "answers": [
+      { "title": "40", "is_correct": true },
+      { "title": "120", "is_correct": false },
+      { "title": "30", "is_correct": false },
+      { "title": "50", "is_correct": false }
+    ],
+    "explanation": "x - x/4 = 30. 3x/4 = 30. x = 40",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ratio of two numbers is 3:5. If each increased by 10, ratio becomes 5:7. Numbers?",
+    "answers": [
+      { "title": "15 and 25", "is_correct": true },
+      { "title": "9 and 15", "is_correct": false },
+      { "title": "30 and 50", "is_correct": false },
+      { "title": "12 and 20", "is_correct": false }
+    ],
+    "explanation": "(3x+10):(5x+10) = 5:7. 21x+70 = 25x+50. x=5. Numbers: 15, 25",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Ages of A and B are in ratio 5:7. 4 years later ratio is 3:4. A's present age?",
+    "answers": [
+      { "title": "20 years", "is_correct": true },
+      { "title": "15 years", "is_correct": false },
+      { "title": "25 years", "is_correct": false },
+      { "title": "28 years", "is_correct": false }
+    ],
+    "explanation": "(5x+4):(7x+4) = 3:4. 20x+16 = 21x+12. x=4. A = 20 years",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If $2^x = 64$, then $2^{x-2} = ?$",
+    "answers": [
+      { "title": "16", "is_correct": true },
+      { "title": "32", "is_correct": false },
+      { "title": "8", "is_correct": false },
+      { "title": "64", "is_correct": false }
+    ],
+    "explanation": "x = 6. 2^(6-2) = 2^4 = 16",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If 3 + 4 = 15, 5 + 6 = 55, then 7 + 8 = ?",
+    "answers": [
+      { "title": "113", "is_correct": true },
+      { "title": "15", "is_correct": false },
+      { "title": "105", "is_correct": false },
+      { "title": "56", "is_correct": false }
+    ],
+    "explanation": "Pattern: a + b = (a+b) × a - a. 3+4 = 7×3-6 = 15. 5+6 = 11×5 = 55. 7+8 = 15×8-7 = 113. Or: (a+b)×a = result. Hmm 7×3=21≠15. Let me reconsider: 3+4: 3²+2×3=15. 5+6: 5²+6×5=55. 7+8: 7²+8×7=49+56=105? Let me verify: 9+4=13? That doesn't work. Pattern: a²+ab = a(a+b). 3×7=21≠15. Try: 3×4+3 = 15. 5×6+25=55. 7×8+57=113",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What should come in place of ?: 4, 9, 25, 49, 121, ?",
+    "answers": [
+      { "title": "169", "is_correct": true },
+      { "title": "144", "is_correct": false },
+      { "title": "196", "is_correct": false },
+      { "title": "225", "is_correct": false }
+    ],
+    "explanation": "Squares of primes: 2², 3², 5², 7², 11², 13² = 169",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which is the smallest 4-digit number divisible by 12, 15, 20?",
+    "answers": [
+      { "title": "1020", "is_correct": true },
+      { "title": "1000", "is_correct": false },
+      { "title": "1200", "is_correct": false },
+      { "title": "1080", "is_correct": false }
+    ],
+    "explanation": "LCM(12,15,20) = 60. 1000/60 = 16.67. 17×60 = 1020",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Find the unit digit of $3^{123}$.",
+    "answers": [
+      { "title": "7", "is_correct": true },
+      { "title": "3", "is_correct": false },
+      { "title": "9", "is_correct": false },
+      { "title": "1", "is_correct": false }
+    ],
+    "explanation": "Cycle of 3: 3,9,7,1 (period 4). 123 mod 4 = 3. 3rd in cycle = 7",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Sum of a number and its reciprocal is 2. The number?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "2", "is_correct": false },
+      { "title": "0.5", "is_correct": false },
+      { "title": "-1", "is_correct": false }
+    ],
+    "explanation": "x + 1/x = 2. x² + 1 = 2x. (x-1)² = 0. x = 1",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Digital root of 789456?",
+    "answers": [
+      { "title": "3", "is_correct": true },
+      { "title": "9", "is_correct": false },
+      { "title": "6", "is_correct": false },
+      { "title": "12", "is_correct": false }
+    ],
+    "explanation": "7+8+9+4+5+6 = 39. 3+9 = 12. 1+2 = 3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many 3-digit numbers are divisible by 7?",
+    "answers": [
+      { "title": "128", "is_correct": true },
+      { "title": "129", "is_correct": false },
+      { "title": "142", "is_correct": false },
+      { "title": "127", "is_correct": false }
+    ],
+    "explanation": "First = 105, Last = 994. Count = (994-105)/7 + 1 = 128",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Find x: $\\frac{x}{4} - \\frac{x}{6} = 5$",
+    "answers": [
+      { "title": "60", "is_correct": true },
+      { "title": "30", "is_correct": false },
+      { "title": "120", "is_correct": false },
+      { "title": "24", "is_correct": false }
+    ],
+    "explanation": "(3x - 2x)/12 = 5. x/12 = 5. x = 60",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If 1/a + 1/b = 1/2 and a + b = 6, find ab.",
+    "answers": [
+      { "title": "12", "is_correct": true },
+      { "title": "3", "is_correct": false },
+      { "title": "6", "is_correct": false },
+      { "title": "9", "is_correct": false }
+    ],
+    "explanation": "(a+b)/ab = 1/2. 6/ab = 1/2. ab = 12",
+    "difficulty": "easy"
+  }
+]

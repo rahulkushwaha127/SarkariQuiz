@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Solve: 3x + 7 = 22",
+    "answers": [
+      { "title": "x = 5", "is_correct": true },
+      { "title": "x = 7", "is_correct": false },
+      { "title": "x = 4", "is_correct": false },
+      { "title": "x = 6", "is_correct": false }
+    ],
+    "explanation": "3x = 22 - 7 = 15. x = 5",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If 2x - 3 = 5x + 6, find x.",
+    "answers": [
+      { "title": "-3", "is_correct": true },
+      { "title": "3", "is_correct": false },
+      { "title": "-1", "is_correct": false },
+      { "title": "1", "is_correct": false }
+    ],
+    "explanation": "-3x = 9. x = -3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find x if $\\frac{x}{3} + \\frac{x}{4} = 7$",
+    "answers": [
+      { "title": "12", "is_correct": true },
+      { "title": "14", "is_correct": false },
+      { "title": "21", "is_correct": false },
+      { "title": "28", "is_correct": false }
+    ],
+    "explanation": "(4x + 3x)/12 = 7. 7x = 84. x = 12",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If 5(x - 3) = 2(x + 6), find x.",
+    "answers": [
+      { "title": "9", "is_correct": true },
+      { "title": "7", "is_correct": false },
+      { "title": "6", "is_correct": false },
+      { "title": "5", "is_correct": false }
+    ],
+    "explanation": "5x - 15 = 2x + 12. 3x = 27. x = 9",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: 3x + 2y = 12 and x + y = 5",
+    "answers": [
+      { "title": "x = 2, y = 3", "is_correct": true },
+      { "title": "x = 3, y = 2", "is_correct": false },
+      { "title": "x = 4, y = 1", "is_correct": false },
+      { "title": "x = 1, y = 4", "is_correct": false }
+    ],
+    "explanation": "From 2nd: y = 5-x. Sub: 3x + 2(5-x) = 12. x = 2, y = 3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sum of two numbers is 85 and difference is 15. Find the numbers.",
+    "answers": [
+      { "title": "50 and 35", "is_correct": true },
+      { "title": "55 and 30", "is_correct": false },
+      { "title": "60 and 25", "is_correct": false },
+      { "title": "45 and 40", "is_correct": false }
+    ],
+    "explanation": "x + y = 85, x - y = 15. 2x = 100, x = 50. y = 35",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If 4x + 5y = 23 and 2x + 3y = 13, find x.",
+    "answers": [
+      { "title": "2", "is_correct": true },
+      { "title": "3", "is_correct": false },
+      { "title": "4", "is_correct": false },
+      { "title": "5", "is_correct": false }
+    ],
+    "explanation": "Multiply 2nd by 2: 4x + 6y = 26. Subtract: y = 3. x = 2",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A number added to its half gives 36. The number is?",
+    "answers": [
+      { "title": "24", "is_correct": true },
+      { "title": "18", "is_correct": false },
+      { "title": "12", "is_correct": false },
+      { "title": "30", "is_correct": false }
+    ],
+    "explanation": "x + x/2 = 36. 3x/2 = 36. x = 24",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $\\frac{x+2}{3} = \\frac{x-1}{2}$, find x.",
+    "answers": [
+      { "title": "7", "is_correct": true },
+      { "title": "5", "is_correct": false },
+      { "title": "9", "is_correct": false },
+      { "title": "3", "is_correct": false }
+    ],
+    "explanation": "2(x+2) = 3(x-1). 2x+4 = 3x-3. x = 7",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Five years ago, age was 7 times son's. Ten years later, it will be twice. Father's present age?",
+    "answers": [
+      { "title": "40 years", "is_correct": true },
+      { "title": "35 years", "is_correct": false },
+      { "title": "45 years", "is_correct": false },
+      { "title": "50 years", "is_correct": false }
+    ],
+    "explanation": "F-5 = 7(S-5), F+10 = 2(S+10). F-5 = 7S-35, F = 7S-30. 7S-20 = 2S+20. S = 8. F = 40",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 7x - 3 = 2x + 17, find x.",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "5", "is_correct": false },
+      { "title": "3", "is_correct": false },
+      { "title": "6", "is_correct": false }
+    ],
+    "explanation": "5x = 20. x = 4",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A two-digit number is 4 times sum of digits. If 18 added, digits reverse. Number?",
+    "answers": [
+      { "title": "24", "is_correct": true },
+      { "title": "36", "is_correct": false },
+      { "title": "48", "is_correct": false },
+      { "title": "12", "is_correct": false }
+    ],
+    "explanation": "10a+b = 4(a+b), 10a+b+18 = 10b+a. 6a = 3b → a = b/2. 9a = 18 → a = 2. b = 4. Number = 24",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 2x + 3y = 17 and 3x + 2y = 18, then x + y = ?",
+    "answers": [
+      { "title": "7", "is_correct": true },
+      { "title": "8", "is_correct": false },
+      { "title": "6", "is_correct": false },
+      { "title": "9", "is_correct": false }
+    ],
+    "explanation": "Adding: 5x + 5y = 35. x + y = 7",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Cost of 3 pencils and 4 pens is Rs. 50. Cost of 4 pencils and 3 pens is Rs. 43. Cost of 1 pencil?",
+    "answers": [
+      { "title": "Rs. 2", "is_correct": true },
+      { "title": "Rs. 5", "is_correct": false },
+      { "title": "Rs. 11", "is_correct": false },
+      { "title": "Rs. 3", "is_correct": false }
+    ],
+    "explanation": "3p + 4q = 50, 4p + 3q = 43. Solving: p = 2, q = 11",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Fraction becomes 9/11 if 2 added to both. It becomes 5/6 if 3 added to both. The fraction?",
+    "answers": [
+      { "title": "7/9", "is_correct": true },
+      { "title": "5/7", "is_correct": false },
+      { "title": "6/8", "is_correct": false },
+      { "title": "4/6", "is_correct": false }
+    ],
+    "explanation": "(x+2)/(y+2) = 9/11 and (x+3)/(y+3) = 5/6. Solving: x = 7, y = 9",
+    "difficulty": "medium"
+  },
+  {
+    "question": "If 3x - 5y = -10 and 6x - 10y = -20, the system has?",
+    "answers": [
+      { "title": "Infinite solutions", "is_correct": true },
+      { "title": "No solution", "is_correct": false },
+      { "title": "Unique solution", "is_correct": false },
+      { "title": "Two solutions", "is_correct": false }
+    ],
+    "explanation": "Second equation = 2 × first. Lines coincide. Infinite solutions",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The numerator of a fraction is 4 less than denominator. If 1 added to both, fraction = 4/5. Fraction?",
+    "answers": [
+      { "title": "3/7", "is_correct": true },
+      { "title": "4/8", "is_correct": false },
+      { "title": "5/9", "is_correct": false },
+      { "title": "2/6", "is_correct": false }
+    ],
+    "explanation": "n = d-4. (n+1)/(d+1) = 4/5. (d-3)/(d+1) = 4/5. d = 7. n = 3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If x/2 + y/3 = 2 and x/3 + y/2 = 13/6, find x and y.",
+    "answers": [
+      { "title": "x = 2, y = 3", "is_correct": true },
+      { "title": "x = 3, y = 2", "is_correct": false },
+      { "title": "x = 1, y = 3", "is_correct": false },
+      { "title": "x = 4, y = 0", "is_correct": false }
+    ],
+    "explanation": "Multiply by 6: 3x + 2y = 12, 2x + 3y = 13. Adding: 5x + 5y = 25 → x + y = 5. Solving: x = 2, y = 3",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A number is 56 greater than average of its third, quarter, and one-twelfth. Number?",
+    "answers": [
+      { "title": "72", "is_correct": true },
+      { "title": "60", "is_correct": false },
+      { "title": "84", "is_correct": false },
+      { "title": "48", "is_correct": false }
+    ],
+    "explanation": "x = 56 + (x/3 + x/4 + x/12)/3. x = 56 + x/4.5. x - x/4.5 = 56. 3.5x/4.5 = 56. x = 72",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve: 0.4x + 0.3y = 1.7 and 0.7x - 0.2y = 0.8",
+    "answers": [
+      { "title": "x = 2, y = 3", "is_correct": true },
+      { "title": "x = 3, y = 2", "is_correct": false },
+      { "title": "x = 1, y = 4", "is_correct": false },
+      { "title": "x = 4, y = 1", "is_correct": false }
+    ],
+    "explanation": "Multiply by 10: 4x + 3y = 17, 7x - 2y = 8. Solving: x = 2, y = 3",
+    "difficulty": "medium"
+  }
+]

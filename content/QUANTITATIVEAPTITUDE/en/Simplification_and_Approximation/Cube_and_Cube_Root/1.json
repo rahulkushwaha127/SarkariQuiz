@@ -1,0 +1,167 @@
+[
+  {
+    "question": "$\\sqrt[3]{27} = ?$",
+    "answers": [
+      { "title": "3", "is_correct": true },
+      { "title": "9", "is_correct": false },
+      { "title": "81", "is_correct": false },
+      { "title": "6", "is_correct": false }
+    ],
+    "explanation": "$3^3 = 27$, so cube root = 3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$5^3 = ?$",
+    "answers": [
+      { "title": "125", "is_correct": true },
+      { "title": "15", "is_correct": false },
+      { "title": "25", "is_correct": false },
+      { "title": "75", "is_correct": false }
+    ],
+    "explanation": "$5 \\times 5 \\times 5 = 125$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$\\sqrt[3]{64} = ?$",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "8", "is_correct": false },
+      { "title": "16", "is_correct": false },
+      { "title": "2", "is_correct": false }
+    ],
+    "explanation": "$4^3 = 64$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$\\sqrt[3]{125} = ?$",
+    "answers": [
+      { "title": "5", "is_correct": true },
+      { "title": "25", "is_correct": false },
+      { "title": "15", "is_correct": false },
+      { "title": "625", "is_correct": false }
+    ],
+    "explanation": "$5^3 = 125$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$7^3 = ?$",
+    "answers": [
+      { "title": "343", "is_correct": true },
+      { "title": "49", "is_correct": false },
+      { "title": "21", "is_correct": false },
+      { "title": "147", "is_correct": false }
+    ],
+    "explanation": "$7 \\times 7 \\times 7 = 343$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$\\sqrt[3]{1000} = ?$",
+    "answers": [
+      { "title": "10", "is_correct": true },
+      { "title": "100", "is_correct": false },
+      { "title": "31.6", "is_correct": false },
+      { "title": "1000", "is_correct": false }
+    ],
+    "explanation": "$10^3 = 1000$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$\\sqrt[3]{-8} = ?$",
+    "answers": [
+      { "title": "-2", "is_correct": true },
+      { "title": "2", "is_correct": false },
+      { "title": "Undefined", "is_correct": false },
+      { "title": "-4", "is_correct": false }
+    ],
+    "explanation": "$(-2)^3 = -8$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$\\sqrt[3]{216} = ?$",
+    "answers": [
+      { "title": "6", "is_correct": true },
+      { "title": "36", "is_correct": false },
+      { "title": "8", "is_correct": false },
+      { "title": "14.7", "is_correct": false }
+    ],
+    "explanation": "$6^3 = 216$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$4^3 = ?$",
+    "answers": [
+      { "title": "64", "is_correct": true },
+      { "title": "12", "is_correct": false },
+      { "title": "16", "is_correct": false },
+      { "title": "48", "is_correct": false }
+    ],
+    "explanation": "$4 \\times 4 \\times 4 = 64$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which is a perfect cube: 64, 65, 66?",
+    "answers": [
+      { "title": "64", "is_correct": true },
+      { "title": "65", "is_correct": false },
+      { "title": "66", "is_correct": false },
+      { "title": "None", "is_correct": false }
+    ],
+    "explanation": "$64 = 4^3$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$\\sqrt[3]{0.008} = ?$",
+    "answers": [
+      { "title": "0.2", "is_correct": true },
+      { "title": "0.02", "is_correct": false },
+      { "title": "0.8", "is_correct": false },
+      { "title": "2", "is_correct": false }
+    ],
+    "explanation": "$0.2^3 = 0.008$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$9^3 = ?$",
+    "answers": [
+      { "title": "729", "is_correct": true },
+      { "title": "81", "is_correct": false },
+      { "title": "27", "is_correct": false },
+      { "title": "243", "is_correct": false }
+    ],
+    "explanation": "$9 \\times 9 \\times 9 = 729$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$\\sqrt[3]{512} = ?$",
+    "answers": [
+      { "title": "8", "is_correct": true },
+      { "title": "64", "is_correct": false },
+      { "title": "16", "is_correct": false },
+      { "title": "256", "is_correct": false }
+    ],
+    "explanation": "$8^3 = 512$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Cube of 11?",
+    "answers": [
+      { "title": "1331", "is_correct": true },
+      { "title": "121", "is_correct": false },
+      { "title": "1221", "is_correct": false },
+      { "title": "1111", "is_correct": false }
+    ],
+    "explanation": "$11^3 = 1331$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "$\\sqrt[3]{\\frac{8}{27}} = ?$",
+    "answers": [
+      { "title": "$\\frac{2}{3}$", "is_correct": true },
+      { "title": "$\\frac{8}{27}$", "is_correct": false },
+      { "title": "$\\frac{4}{9}$", "is_correct": false },
+      { "title": "$\\frac{3}{2}$", "is_correct": false }
+    ],
+    "explanation": "$\\frac{\\sqrt[3]{8}}{\\sqrt[3]{27}} = \\frac{2}{3}$",
+    "difficulty": "easy"
+  }
+]

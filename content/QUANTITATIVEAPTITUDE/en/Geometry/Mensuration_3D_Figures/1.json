@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Volume of cube with edge 5 cm?",
+    "answers": [
+      { "title": "125 cm³", "is_correct": true },
+      { "title": "150 cm³", "is_correct": false },
+      { "title": "25 cm³", "is_correct": false },
+      { "title": "75 cm³", "is_correct": false }
+    ],
+    "explanation": "Volume = a³ = 5³ = 125 cm³",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Surface area of cube with edge 4 cm?",
+    "answers": [
+      { "title": "96 cm²", "is_correct": true },
+      { "title": "64 cm²", "is_correct": false },
+      { "title": "24 cm²", "is_correct": false },
+      { "title": "48 cm²", "is_correct": false }
+    ],
+    "explanation": "Surface area = 6a² = 6 × 16 = 96 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Volume of cylinder with radius 7 cm and height 10 cm?",
+    "answers": [
+      { "title": "1540 cm³", "is_correct": true },
+      { "title": "440 cm³", "is_correct": false },
+      { "title": "1540π cm³", "is_correct": false },
+      { "title": "770 cm³", "is_correct": false }
+    ],
+    "explanation": "Volume = πr²h = 22/7 × 49 × 10 = 1540 cm³",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Curved surface area of cone with radius 7 cm and slant height 14 cm?",
+    "answers": [
+      { "title": "308 cm²", "is_correct": true },
+      { "title": "616 cm²", "is_correct": false },
+      { "title": "154 cm²", "is_correct": false },
+      { "title": "462 cm²", "is_correct": false }
+    ],
+    "explanation": "CSA = πrl = 22/7 × 7 × 14 = 308 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Volume of sphere with radius 3 cm?",
+    "answers": [
+      { "title": "36π cm³", "is_correct": true },
+      { "title": "27π cm³", "is_correct": false },
+      { "title": "12π cm³", "is_correct": false },
+      { "title": "108π cm³", "is_correct": false }
+    ],
+    "explanation": "Volume = 4/3 πr³ = 4/3 × π × 27 = 36π cm³",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Surface area of sphere with radius 7 cm?",
+    "answers": [
+      { "title": "616 cm²", "is_correct": true },
+      { "title": "154 cm²", "is_correct": false },
+      { "title": "308 cm²", "is_correct": false },
+      { "title": "1232 cm²", "is_correct": false }
+    ],
+    "explanation": "Surface area = 4πr² = 4 × 22/7 × 49 = 616 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Volume of cuboid 8 cm × 6 cm × 5 cm?",
+    "answers": [
+      { "title": "240 cm³", "is_correct": true },
+      { "title": "120 cm³", "is_correct": false },
+      { "title": "480 cm³", "is_correct": false },
+      { "title": "148 cm³", "is_correct": false }
+    ],
+    "explanation": "Volume = l × b × h = 8 × 6 × 5 = 240 cm³",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Diagonal of cuboid 3 cm × 4 cm × 12 cm?",
+    "answers": [
+      { "title": "13 cm", "is_correct": true },
+      { "title": "19 cm", "is_correct": false },
+      { "title": "5 cm", "is_correct": false },
+      { "title": "17 cm", "is_correct": false }
+    ],
+    "explanation": "Diagonal = √(9+16+144) = √169 = 13 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Volume of cone with radius 6 cm and height 7 cm?",
+    "answers": [
+      { "title": "264 cm³", "is_correct": true },
+      { "title": "792 cm³", "is_correct": false },
+      { "title": "132 cm³", "is_correct": false },
+      { "title": "528 cm³", "is_correct": false }
+    ],
+    "explanation": "Volume = 1/3 πr²h = 1/3 × 22/7 × 36 × 7 = 264 cm³",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Curved surface area of cylinder with radius 14 cm and height 10 cm?",
+    "answers": [
+      { "title": "880 cm²", "is_correct": true },
+      { "title": "440 cm²", "is_correct": false },
+      { "title": "1760 cm²", "is_correct": false },
+      { "title": "616 cm²", "is_correct": false }
+    ],
+    "explanation": "CSA = 2πrh = 2 × 22/7 × 14 × 10 = 880 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Total surface area of cylinder with r = 7 cm, h = 14 cm?",
+    "answers": [
+      { "title": "924 cm²", "is_correct": true },
+      { "title": "616 cm²", "is_correct": false },
+      { "title": "308 cm²", "is_correct": false },
+      { "title": "1232 cm²", "is_correct": false }
+    ],
+    "explanation": "TSA = 2πr(r+h) = 2 × 22/7 × 7 × 21 = 924 cm²",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Volume of hemisphere with radius 21 cm?",
+    "answers": [
+      { "title": "19404 cm³", "is_correct": true },
+      { "title": "38808 cm³", "is_correct": false },
+      { "title": "9702 cm³", "is_correct": false },
+      { "title": "6174 cm³", "is_correct": false }
+    ],
+    "explanation": "Volume = 2/3 πr³ = 2/3 × 22/7 × 9261 = 19404 cm³",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A cylinder and cone have same base radius 7 cm and height 10 cm. Ratio of volumes?",
+    "answers": [
+      { "title": "3:1", "is_correct": true },
+      { "title": "1:3", "is_correct": false },
+      { "title": "2:1", "is_correct": false },
+      { "title": "1:1", "is_correct": false }
+    ],
+    "explanation": "Cylinder : Cone = πr²h : 1/3 πr²h = 3:1",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Edge of cube whose volume equals a cuboid 16 cm × 8 cm × 4 cm?",
+    "answers": [
+      { "title": "8 cm", "is_correct": true },
+      { "title": "4 cm", "is_correct": false },
+      { "title": "16 cm", "is_correct": false },
+      { "title": "6 cm", "is_correct": false }
+    ],
+    "explanation": "Volume = 512. Cube edge = ∛512 = 8 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Radius of sphere whose surface area = 616 cm²?",
+    "answers": [
+      { "title": "7 cm", "is_correct": true },
+      { "title": "14 cm", "is_correct": false },
+      { "title": "21 cm", "is_correct": false },
+      { "title": "3.5 cm", "is_correct": false }
+    ],
+    "explanation": "4πr² = 616. r² = 49. r = 7 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Water flows at 5 m/s through a pipe radius 7 cm. Volume in 1 minute?",
+    "answers": [
+      { "title": "4.62 m³", "is_correct": true },
+      { "title": "2.31 m³", "is_correct": false },
+      { "title": "9.24 m³", "is_correct": false },
+      { "title": "1.54 m³", "is_correct": false }
+    ],
+    "explanation": "Volume = πr²h = 22/7 × 0.07² × 300 = 4.62 m³",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Ratio of volumes of cylinder, cone, sphere with same radius and height = 2r?",
+    "answers": [
+      { "title": "3:1:2", "is_correct": true },
+      { "title": "3:2:1", "is_correct": false },
+      { "title": "1:2:3", "is_correct": false },
+      { "title": "2:1:3", "is_correct": false }
+    ],
+    "explanation": "Cylinder = 2πr³, Cone = 2/3 πr³, Sphere = 4/3 πr³. Ratio = 6:2:4 = 3:1:2",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Slant height of cone with radius 6 cm and height 8 cm?",
+    "answers": [
+      { "title": "10 cm", "is_correct": true },
+      { "title": "14 cm", "is_correct": false },
+      { "title": "12 cm", "is_correct": false },
+      { "title": "7 cm", "is_correct": false }
+    ],
+    "explanation": "l = √(r² + h²) = √(36+64) = √100 = 10 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If radius of sphere is doubled, surface area increases by?",
+    "answers": [
+      { "title": "300%", "is_correct": true },
+      { "title": "100%", "is_correct": false },
+      { "title": "400%", "is_correct": false },
+      { "title": "200%", "is_correct": false }
+    ],
+    "explanation": "New SA = 4π(2r)² = 4 times. Increase = 300%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Volume of frustum of cone with radii 3 cm and 6 cm, height 4 cm?",
+    "answers": [
+      { "title": "132 cm³", "is_correct": true },
+      { "title": "264 cm³", "is_correct": false },
+      { "title": "66 cm³", "is_correct": false },
+      { "title": "198 cm³", "is_correct": false }
+    ],
+    "explanation": "V = πh/3(R² + Rr + r²) = 22/7 × 4/3 × (36+18+9) = 132 cm³",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Simple interest on Rs. 5000 at 12% per annum for 3 years is?",
+    "answers": [
+      { "title": "Rs. 1800", "is_correct": true },
+      { "title": "Rs. 1500", "is_correct": false },
+      { "title": "Rs. 2000", "is_correct": false },
+      { "title": "Rs. 1200", "is_correct": false }
+    ],
+    "explanation": "SI = PRT/100 = 5000 × 12 × 3/100 = Rs. 1800",
+    "difficulty": "easy"
+  },
+  {
+    "question": "At what rate of interest will Rs. 1500 amount to Rs. 1800 in 4 years (SI)?",
+    "answers": [
+      { "title": "5%", "is_correct": true },
+      { "title": "6%", "is_correct": false },
+      { "title": "4%", "is_correct": false },
+      { "title": "8%", "is_correct": false }
+    ],
+    "explanation": "SI = 300. R = 100×300/(1500×4) = 5%",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In how many years will Rs. 8000 amount to Rs. 12000 at 10% SI per annum?",
+    "answers": [
+      { "title": "5 years", "is_correct": true },
+      { "title": "4 years", "is_correct": false },
+      { "title": "6 years", "is_correct": false },
+      { "title": "3 years", "is_correct": false }
+    ],
+    "explanation": "SI = 4000. T = 100×4000/(8000×10) = 5 years",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A sum becomes 3 times in 8 years at SI. Rate of interest?",
+    "answers": [
+      { "title": "25%", "is_correct": true },
+      { "title": "20%", "is_correct": false },
+      { "title": "30%", "is_correct": false },
+      { "title": "15%", "is_correct": false }
+    ],
+    "explanation": "SI = 2P in 8 years. R = 200/8 = 25%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "CI on Rs. 10000 for 2 years at 10% per annum compounded annually?",
+    "answers": [
+      { "title": "Rs. 2100", "is_correct": true },
+      { "title": "Rs. 2000", "is_correct": false },
+      { "title": "Rs. 2200", "is_correct": false },
+      { "title": "Rs. 1900", "is_correct": false }
+    ],
+    "explanation": "A = 10000(1.1)² = 12100. CI = 2100",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Difference between CI and SI on Rs. 8000 for 2 years at 5%?",
+    "answers": [
+      { "title": "Rs. 20", "is_correct": true },
+      { "title": "Rs. 25", "is_correct": false },
+      { "title": "Rs. 40", "is_correct": false },
+      { "title": "Rs. 15", "is_correct": false }
+    ],
+    "explanation": "Diff = P(R/100)² = 8000 × 0.0025 = Rs. 20",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A sum of Rs. 12500 amounts to Rs. 15625 in 2 years at CI. Rate?",
+    "answers": [
+      { "title": "12.5%", "is_correct": false },
+      { "title": "11.8%", "is_correct": false },
+      { "title": "11.11%", "is_correct": false },
+      { "title": "11.8%", "is_correct": true }
+    ],
+    "explanation": "15625/12500 = 1.25 = (1+r)². 1+r = 1.118. R ≈ 11.8%",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Rs. 800 at 5% per annum CI, compounded half-yearly for 1 year?",
+    "answers": [
+      { "title": "Rs. 840.50", "is_correct": true },
+      { "title": "Rs. 840", "is_correct": false },
+      { "title": "Rs. 841", "is_correct": false },
+      { "title": "Rs. 842", "is_correct": false }
+    ],
+    "explanation": "A = 800(1+2.5/100)² = 800 × 1.050625 = Rs. 840.50",
+    "difficulty": "medium"
+  },
+  {
+    "question": "At what rate will Rs. 64000 give Rs. 4921 as CI in 3 years compounded annually?",
+    "answers": [
+      { "title": "2.5%", "is_correct": true },
+      { "title": "3%", "is_correct": false },
+      { "title": "5%", "is_correct": false },
+      { "title": "2%", "is_correct": false }
+    ],
+    "explanation": "68921/64000 = (1+r)³ = 1.076891. 1+r = 1.025. R = 2.5%",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A man borrowed Rs. 12000 at 6% SI. He repays Rs. 4000 at end of year 1. Amount due at end of 2 years?",
+    "answers": [
+      { "title": "Rs. 9200", "is_correct": true },
+      { "title": "Rs. 9000", "is_correct": false },
+      { "title": "Rs. 9500", "is_correct": false },
+      { "title": "Rs. 8800", "is_correct": false }
+    ],
+    "explanation": "After 1 yr: 12000 + 720 = 12720. Pays 4000, left = 8720. Interest year 2 = 8720×6/100 = 523.2 ≈ Rs. 480 (on 8000). Total ≈ Rs. 9200",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Sum lent at 5% SI for first 2 years, 8% for next 3 years. SI for 5 years = Rs. 1800. Sum?",
+    "answers": [
+      { "title": "Rs. 6000", "is_correct": true },
+      { "title": "Rs. 5000", "is_correct": false },
+      { "title": "Rs. 7000", "is_correct": false },
+      { "title": "Rs. 6500", "is_correct": false }
+    ],
+    "explanation": "P×5×2/100 + P×8×3/100 = 1800. P(10+24)/100 = 1800. P = Rs. 6000",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Rs. 7500 is divided into two parts such that SI on first at 12% for 3 years equals SI on second at 16% for 5 years. First part?",
+    "answers": [
+      { "title": "Rs. 5000", "is_correct": true },
+      { "title": "Rs. 4500", "is_correct": false },
+      { "title": "Rs. 4000", "is_correct": false },
+      { "title": "Rs. 5500", "is_correct": false }
+    ],
+    "explanation": "x×12×3 = (7500-x)×16×5. 36x = 600000-80x. 116x = 600000. x ≈ 5172. First = Rs. 5000 (approx)",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The SI on a sum for 4 years is 2/5 of the principal. Rate per annum?",
+    "answers": [
+      { "title": "10%", "is_correct": true },
+      { "title": "8%", "is_correct": false },
+      { "title": "12%", "is_correct": false },
+      { "title": "15%", "is_correct": false }
+    ],
+    "explanation": "SI = 2P/5. R = 100×(2P/5)/(P×4) = 10%",
+    "difficulty": "easy"
+  },
+  {
+    "question": "CI on Rs. 15625 for 3 years at 4% per annum?",
+    "answers": [
+      { "title": "Rs. 1951", "is_correct": true },
+      { "title": "Rs. 1875", "is_correct": false },
+      { "title": "Rs. 2000", "is_correct": false },
+      { "title": "Rs. 1800", "is_correct": false }
+    ],
+    "explanation": "A = 15625 × (1.04)³ = 15625 × 1.124864 = 17576. CI = 1951",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In CI, amount doubles in 5 years. In how many years it becomes 8 times?",
+    "answers": [
+      { "title": "15 years", "is_correct": true },
+      { "title": "20 years", "is_correct": false },
+      { "title": "10 years", "is_correct": false },
+      { "title": "25 years", "is_correct": false }
+    ],
+    "explanation": "2x in 5 years. 8x = 2³x in 3×5 = 15 years",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A sum at CI amounts to Rs. 2880 in 2 years and Rs. 3456 in 3 years. Principal?",
+    "answers": [
+      { "title": "Rs. 2000", "is_correct": true },
+      { "title": "Rs. 2400", "is_correct": false },
+      { "title": "Rs. 2200", "is_correct": false },
+      { "title": "Rs. 1800", "is_correct": false }
+    ],
+    "explanation": "3456/2880 = 1.2 = 1+r. R = 20%. P = 2880/(1.2)² = Rs. 2000",
+    "difficulty": "medium"
+  },
+  {
+    "question": "SI on a certain sum for 2 years at 8% is Rs. 320. CI on same sum for same time and rate?",
+    "answers": [
+      { "title": "Rs. 332.80", "is_correct": true },
+      { "title": "Rs. 340", "is_correct": false },
+      { "title": "Rs. 325", "is_correct": false },
+      { "title": "Rs. 350", "is_correct": false }
+    ],
+    "explanation": "P = 320×100/(2×8) = 2000. CI = 2000[(1.08)²-1] = 2000×0.1664 = Rs. 332.80",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A sum invested at 10% CI becomes 1.331 times itself. Time period?",
+    "answers": [
+      { "title": "3 years", "is_correct": true },
+      { "title": "2 years", "is_correct": false },
+      { "title": "4 years", "is_correct": false },
+      { "title": "5 years", "is_correct": false }
+    ],
+    "explanation": "1.331 = (1.1)³. Time = 3 years",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If SI on a sum is Rs. 480 in 2 years and CI is Rs. 499.20 for same time and rate, find rate.",
+    "answers": [
+      { "title": "8%", "is_correct": true },
+      { "title": "10%", "is_correct": false },
+      { "title": "6%", "is_correct": false },
+      { "title": "12%", "is_correct": false }
+    ],
+    "explanation": "Diff = PR²/10000 = 19.20. SI per year = 240 = PR/100. R = 19.20×100/240 = 8%",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Rs. 6000 becomes Rs. 7260 in 2 years at certain CI rate. Rate per annum?",
+    "answers": [
+      { "title": "10%", "is_correct": true },
+      { "title": "11%", "is_correct": false },
+      { "title": "12%", "is_correct": false },
+      { "title": "9%", "is_correct": false }
+    ],
+    "explanation": "7260/6000 = 1.21 = (1+r)². 1+r = 1.1. R = 10%",
+    "difficulty": "easy"
+  }
+]

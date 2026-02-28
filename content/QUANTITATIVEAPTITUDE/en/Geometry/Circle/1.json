@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Area of circle with radius 7 cm?",
+    "answers": [
+      { "title": "154 cm²", "is_correct": true },
+      { "title": "44 cm²", "is_correct": false },
+      { "title": "308 cm²", "is_correct": false },
+      { "title": "77 cm²", "is_correct": false }
+    ],
+    "explanation": "Area = πr² = 22/7 × 49 = 154 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Circumference of circle with diameter 14 cm?",
+    "answers": [
+      { "title": "44 cm", "is_correct": true },
+      { "title": "22 cm", "is_correct": false },
+      { "title": "88 cm", "is_correct": false },
+      { "title": "154 cm", "is_correct": false }
+    ],
+    "explanation": "C = πd = 22/7 × 14 = 44 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A chord is at distance 4 cm from center of circle with radius 5 cm. Length of chord?",
+    "answers": [
+      { "title": "6 cm", "is_correct": true },
+      { "title": "8 cm", "is_correct": false },
+      { "title": "3 cm", "is_correct": false },
+      { "title": "10 cm", "is_correct": false }
+    ],
+    "explanation": "Half chord = √(5² - 4²) = 3. Full chord = 6 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Length of arc subtending 60° at center of circle with radius 21 cm?",
+    "answers": [
+      { "title": "22 cm", "is_correct": true },
+      { "title": "11 cm", "is_correct": false },
+      { "title": "44 cm", "is_correct": false },
+      { "title": "33 cm", "is_correct": false }
+    ],
+    "explanation": "Arc = θ/360 × 2πr = 60/360 × 2 × 22/7 × 21 = 22 cm",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Area of sector with central angle 90° and radius 14 cm?",
+    "answers": [
+      { "title": "154 cm²", "is_correct": true },
+      { "title": "308 cm²", "is_correct": false },
+      { "title": "616 cm²", "is_correct": false },
+      { "title": "77 cm²", "is_correct": false }
+    ],
+    "explanation": "Area = θ/360 × πr² = 90/360 × 22/7 × 196 = 154 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two concentric circles have radii 5 cm and 3 cm. Area of ring (annulus)?",
+    "answers": [
+      { "title": "16π cm²", "is_correct": true },
+      { "title": "8π cm²", "is_correct": false },
+      { "title": "25π cm²", "is_correct": false },
+      { "title": "9π cm²", "is_correct": false }
+    ],
+    "explanation": "Area = π(R² - r²) = π(25-9) = 16π cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Angle inscribed in a semicircle is?",
+    "answers": [
+      { "title": "90°", "is_correct": true },
+      { "title": "180°", "is_correct": false },
+      { "title": "45°", "is_correct": false },
+      { "title": "60°", "is_correct": false }
+    ],
+    "explanation": "Angle in semicircle is always 90° (Thales theorem)",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Length of tangent from external point 13 cm from center to circle with radius 5 cm?",
+    "answers": [
+      { "title": "12 cm", "is_correct": true },
+      { "title": "8 cm", "is_correct": false },
+      { "title": "10 cm", "is_correct": false },
+      { "title": "18 cm", "is_correct": false }
+    ],
+    "explanation": "Tangent = √(13² - 5²) = √144 = 12 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If two chords intersect inside circle, PA × PB = PC × PD. If PA=4, PB=9, PC=6, find PD.",
+    "answers": [
+      { "title": "6", "is_correct": true },
+      { "title": "8", "is_correct": false },
+      { "title": "5", "is_correct": false },
+      { "title": "7", "is_correct": false }
+    ],
+    "explanation": "4 × 9 = 6 × PD. PD = 6",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Circumference of circle is 88 cm. Find area.",
+    "answers": [
+      { "title": "616 cm²", "is_correct": true },
+      { "title": "308 cm²", "is_correct": false },
+      { "title": "154 cm²", "is_correct": false },
+      { "title": "484 cm²", "is_correct": false }
+    ],
+    "explanation": "2πr = 88. r = 14. Area = πr² = 616 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Diameter of circle whose area is equal to sum of areas of two circles of radii 24 cm and 7 cm?",
+    "answers": [
+      { "title": "50 cm", "is_correct": true },
+      { "title": "31 cm", "is_correct": false },
+      { "title": "25 cm", "is_correct": false },
+      { "title": "62 cm", "is_correct": false }
+    ],
+    "explanation": "πR² = π(576+49). R² = 625. R = 25. D = 50 cm",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In cyclic quadrilateral, opposite angles are?",
+    "answers": [
+      { "title": "Supplementary (sum = 180°)", "is_correct": true },
+      { "title": "Equal", "is_correct": false },
+      { "title": "Complementary (sum = 90°)", "is_correct": false },
+      { "title": "Sum = 360°", "is_correct": false }
+    ],
+    "explanation": "In cyclic quadrilateral, opposite angles are supplementary",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A wheel makes 500 revolutions covering 1.1 km. Radius of wheel?",
+    "answers": [
+      { "title": "35 cm", "is_correct": true },
+      { "title": "70 cm", "is_correct": false },
+      { "title": "22 cm", "is_correct": false },
+      { "title": "44 cm", "is_correct": false }
+    ],
+    "explanation": "500 × 2πr = 110000 cm. r = 110000/(1000×22/7) = 35 cm",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Perimeter of semicircle with diameter 14 cm?",
+    "answers": [
+      { "title": "36 cm", "is_correct": true },
+      { "title": "22 cm", "is_correct": false },
+      { "title": "44 cm", "is_correct": false },
+      { "title": "58 cm", "is_correct": false }
+    ],
+    "explanation": "Perimeter = πr + 2r = (22/7 × 7) + 14 = 22 + 14 = 36 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Central angle is double the inscribed angle on same arc. If central angle is 80°, inscribed angle?",
+    "answers": [
+      { "title": "40°", "is_correct": true },
+      { "title": "160°", "is_correct": false },
+      { "title": "80°", "is_correct": false },
+      { "title": "20°", "is_correct": false }
+    ],
+    "explanation": "Inscribed angle = Central angle / 2 = 40°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Area of largest circle inscribed in square of side 8 cm?",
+    "answers": [
+      { "title": "16π cm²", "is_correct": true },
+      { "title": "64π cm²", "is_correct": false },
+      { "title": "32π cm²", "is_correct": false },
+      { "title": "8π cm²", "is_correct": false }
+    ],
+    "explanation": "Radius = 4 cm. Area = 16π cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Area of smallest circle that can contain a square of side 4 cm?",
+    "answers": [
+      { "title": "8π cm²", "is_correct": true },
+      { "title": "16π cm²", "is_correct": false },
+      { "title": "4π cm²", "is_correct": false },
+      { "title": "32π cm²", "is_correct": false }
+    ],
+    "explanation": "Diagonal = 4√2. Radius = 2√2. Area = π×8 = 8π cm²",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Tangent from point P to circle makes 30° with line from P to center. If tangent length is 6√3 cm, radius?",
+    "answers": [
+      { "title": "6 cm", "is_correct": true },
+      { "title": "3 cm", "is_correct": false },
+      { "title": "12 cm", "is_correct": false },
+      { "title": "6√3 cm", "is_correct": false }
+    ],
+    "explanation": "tan 30° = r/(6√3). 1/√3 = r/(6√3). r = 6 cm",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Ratio of areas of two circles is 4:9. Ratio of circumferences?",
+    "answers": [
+      { "title": "2:3", "is_correct": true },
+      { "title": "4:9", "is_correct": false },
+      { "title": "16:81", "is_correct": false },
+      { "title": "8:27", "is_correct": false }
+    ],
+    "explanation": "Ratio of radii = 2:3 (square root of area ratio). Circumference ratio = 2:3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Two circles touch externally. Sum of radii is 12 cm and distance between centers is?",
+    "answers": [
+      { "title": "12 cm", "is_correct": true },
+      { "title": "24 cm", "is_correct": false },
+      { "title": "6 cm", "is_correct": false },
+      { "title": "0 cm", "is_correct": false }
+    ],
+    "explanation": "For external touch, distance = R + r = 12 cm",
+    "difficulty": "easy"
+  }
+]

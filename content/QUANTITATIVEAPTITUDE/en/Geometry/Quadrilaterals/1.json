@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Sum of angles of a quadrilateral?",
+    "answers": [
+      { "title": "360°", "is_correct": true },
+      { "title": "180°", "is_correct": false },
+      { "title": "540°", "is_correct": false },
+      { "title": "720°", "is_correct": false }
+    ],
+    "explanation": "Sum of interior angles = (n-2)×180 = 2×180 = 360°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a parallelogram, opposite angles are:",
+    "answers": [
+      { "title": "Equal", "is_correct": true },
+      { "title": "Supplementary", "is_correct": false },
+      { "title": "Complementary", "is_correct": false },
+      { "title": "90° each", "is_correct": false }
+    ],
+    "explanation": "In parallelogram, opposite angles are equal",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Diagonals of which quadrilateral bisect each other at right angles?",
+    "answers": [
+      { "title": "Rhombus", "is_correct": true },
+      { "title": "Parallelogram", "is_correct": false },
+      { "title": "Trapezium", "is_correct": false },
+      { "title": "Rectangle", "is_correct": false }
+    ],
+    "explanation": "In rhombus (and square), diagonals bisect at 90°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Area of rhombus with diagonals 10 cm and 24 cm?",
+    "answers": [
+      { "title": "120 cm²", "is_correct": true },
+      { "title": "240 cm²", "is_correct": false },
+      { "title": "60 cm²", "is_correct": false },
+      { "title": "34 cm²", "is_correct": false }
+    ],
+    "explanation": "Area = ½ × d₁ × d₂ = ½ × 10 × 24 = 120 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Each angle of a rectangle?",
+    "answers": [
+      { "title": "90°", "is_correct": true },
+      { "title": "60°", "is_correct": false },
+      { "title": "120°", "is_correct": false },
+      { "title": "45°", "is_correct": false }
+    ],
+    "explanation": "All angles of rectangle are 90°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If three angles of quadrilateral are 70°, 80°, 110°, find fourth.",
+    "answers": [
+      { "title": "100°", "is_correct": true },
+      { "title": "90°", "is_correct": false },
+      { "title": "120°", "is_correct": false },
+      { "title": "80°", "is_correct": false }
+    ],
+    "explanation": "Fourth = 360 - (70+80+110) = 100°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In square of side 7 cm, diagonal length?",
+    "answers": [
+      { "title": "$7\\sqrt{2}$ cm", "is_correct": true },
+      { "title": "14 cm", "is_correct": false },
+      { "title": "7 cm", "is_correct": false },
+      { "title": "49 cm", "is_correct": false }
+    ],
+    "explanation": "Diagonal = a√2 = 7√2 cm",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Area of trapezium with parallel sides 8 cm, 12 cm and height 7 cm?",
+    "answers": [
+      { "title": "70 cm²", "is_correct": true },
+      { "title": "140 cm²", "is_correct": false },
+      { "title": "84 cm²", "is_correct": false },
+      { "title": "56 cm²", "is_correct": false }
+    ],
+    "explanation": "Area = ½(a+b)h = ½ × 20 × 7 = 70 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which quadrilateral has all sides equal but angles not 90°?",
+    "answers": [
+      { "title": "Rhombus", "is_correct": true },
+      { "title": "Square", "is_correct": false },
+      { "title": "Rectangle", "is_correct": false },
+      { "title": "Parallelogram", "is_correct": false }
+    ],
+    "explanation": "Rhombus has equal sides but angles aren't necessarily 90°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Diagonals of rectangle are:",
+    "answers": [
+      { "title": "Equal and bisect each other", "is_correct": true },
+      { "title": "Equal and perpendicular", "is_correct": false },
+      { "title": "Unequal", "is_correct": false },
+      { "title": "Perpendicular only", "is_correct": false }
+    ],
+    "explanation": "Rectangle diagonals are equal and bisect each other",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Perimeter of rhombus with diagonal 16 cm and 12 cm?",
+    "answers": [
+      { "title": "40 cm", "is_correct": true },
+      { "title": "56 cm", "is_correct": false },
+      { "title": "28 cm", "is_correct": false },
+      { "title": "32 cm", "is_correct": false }
+    ],
+    "explanation": "Side = √(8² + 6²) = 10. Perimeter = 40 cm",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In parallelogram ABCD, ∠A = 65°. Find ∠B.",
+    "answers": [
+      { "title": "115°", "is_correct": true },
+      { "title": "65°", "is_correct": false },
+      { "title": "90°", "is_correct": false },
+      { "title": "130°", "is_correct": false }
+    ],
+    "explanation": "Adjacent angles are supplementary. B = 180 - 65 = 115°",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Area of square with diagonal 10 cm?",
+    "answers": [
+      { "title": "50 cm²", "is_correct": true },
+      { "title": "100 cm²", "is_correct": false },
+      { "title": "25 cm²", "is_correct": false },
+      { "title": "20 cm²", "is_correct": false }
+    ],
+    "explanation": "Area = d²/2 = 100/2 = 50 cm²",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Quadrilateral with one pair of parallel sides?",
+    "answers": [
+      { "title": "Trapezium", "is_correct": true },
+      { "title": "Parallelogram", "is_correct": false },
+      { "title": "Rhombus", "is_correct": false },
+      { "title": "Rectangle", "is_correct": false }
+    ],
+    "explanation": "Trapezium has exactly one pair of parallel sides",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In isosceles trapezium, non-parallel sides are:",
+    "answers": [
+      { "title": "Equal", "is_correct": true },
+      { "title": "Unequal", "is_correct": false },
+      { "title": "Perpendicular", "is_correct": false },
+      { "title": "Parallel", "is_correct": false }
+    ],
+    "explanation": "In isosceles trapezium, legs (non-parallel sides) are equal",
+    "difficulty": "easy"
+  }
+]

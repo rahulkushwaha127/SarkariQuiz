@@ -29,6 +29,15 @@
 
     @vite(['resources/css/app.css', 'resources/js/student.js'])
 
+    {{-- MathJax for mathematical formulas --}}
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
+            options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
     <style>
         /* Light theme: soft scrollbar for student app */
         .phone-scroll {
@@ -62,6 +71,27 @@
         .student-select option {
             background-color: #fff;
             color: rgb(41 37 36);
+        }
+
+        /* Tables in question content */
+        .math-content table {
+            border-collapse: collapse;
+            margin: 0.5rem 0;
+            font-size: 0.875rem;
+            width: 100%;
+        }
+        .math-content th,
+        .math-content td {
+            border: 1px solid #d6d3d1;
+            padding: 0.375rem 0.5rem;
+            text-align: left;
+        }
+        .math-content th {
+            background-color: #f5f5f4;
+            font-weight: 600;
+        }
+        .math-content tr:nth-child(even) td {
+            background-color: #fafaf9;
         }
     </style>
 </head>

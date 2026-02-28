@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Value of $\\sin 30°$?",
+    "answers": [
+      { "title": "$\\frac{1}{2}$", "is_correct": true },
+      { "title": "$\\frac{\\sqrt{3}}{2}$", "is_correct": false },
+      { "title": "1", "is_correct": false },
+      { "title": "$\\frac{1}{\\sqrt{2}}$", "is_correct": false }
+    ],
+    "explanation": "$\\sin 30° = \\frac{1}{2}$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\cos 60°$?",
+    "answers": [
+      { "title": "$\\frac{1}{2}$", "is_correct": true },
+      { "title": "$\\frac{\\sqrt{3}}{2}$", "is_correct": false },
+      { "title": "1", "is_correct": false },
+      { "title": "0", "is_correct": false }
+    ],
+    "explanation": "$\\cos 60° = \\frac{1}{2}$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\tan 45°$?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "0", "is_correct": false },
+      { "title": "$\\sqrt{3}$", "is_correct": false },
+      { "title": "$\\frac{1}{\\sqrt{3}}$", "is_correct": false }
+    ],
+    "explanation": "$\\tan 45° = 1$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Height of tower if angle of elevation is 60° from point 50m away?",
+    "answers": [
+      { "title": "$50\\sqrt{3}$ m", "is_correct": true },
+      { "title": "50 m", "is_correct": false },
+      { "title": "$\\frac{50}{\\sqrt{3}}$ m", "is_correct": false },
+      { "title": "100 m", "is_correct": false }
+    ],
+    "explanation": "$\\tan 60° = h/50$. $h = 50\\sqrt{3}$ m",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\sin^2 30° + \\cos^2 30°$?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "0", "is_correct": false },
+      { "title": "$\\frac{1}{2}$", "is_correct": false },
+      { "title": "2", "is_correct": false }
+    ],
+    "explanation": "$\\sin^2 \\theta + \\cos^2 \\theta = 1$ (identity)",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $\\sin \\theta = \\frac{3}{5}$, find $\\cos \\theta$.",
+    "answers": [
+      { "title": "$\\frac{4}{5}$", "is_correct": true },
+      { "title": "$\\frac{3}{4}$", "is_correct": false },
+      { "title": "$\\frac{5}{3}$", "is_correct": false },
+      { "title": "$\\frac{5}{4}$", "is_correct": false }
+    ],
+    "explanation": "$\\cos \\theta = \\sqrt{1 - 9/25} = 4/5$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\tan 60° - \\tan 30°$?",
+    "answers": [
+      { "title": "$\\frac{2}{\\sqrt{3}}$", "is_correct": true },
+      { "title": "$\\sqrt{3}$", "is_correct": false },
+      { "title": "1", "is_correct": false },
+      { "title": "2", "is_correct": false }
+    ],
+    "explanation": "$\\sqrt{3} - \\frac{1}{\\sqrt{3}} = \\frac{3-1}{\\sqrt{3}} = \\frac{2}{\\sqrt{3}}$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A ladder 10m long leans against wall at 60°. Height on wall?",
+    "answers": [
+      { "title": "$5\\sqrt{3}$ m", "is_correct": true },
+      { "title": "5 m", "is_correct": false },
+      { "title": "10 m", "is_correct": false },
+      { "title": "$10\\sqrt{3}$ m", "is_correct": false }
+    ],
+    "explanation": "$\\sin 60° = h/10$. $h = 10 × \\frac{\\sqrt{3}}{2} = 5\\sqrt{3}$ m",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\sec 0°$?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "0", "is_correct": false },
+      { "title": "∞", "is_correct": false },
+      { "title": "-1", "is_correct": false }
+    ],
+    "explanation": "$\\sec 0° = 1/\\cos 0° = 1/1 = 1$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\cot 45°$?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "0", "is_correct": false },
+      { "title": "$\\sqrt{3}$", "is_correct": false },
+      { "title": "∞", "is_correct": false }
+    ],
+    "explanation": "$\\cot 45° = 1/\\tan 45° = 1$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Shadow of pole 15m high is $5\\sqrt{3}$m. Sun's angle of elevation?",
+    "answers": [
+      { "title": "60°", "is_correct": true },
+      { "title": "30°", "is_correct": false },
+      { "title": "45°", "is_correct": false },
+      { "title": "75°", "is_correct": false }
+    ],
+    "explanation": "$\\tan \\theta = 15/(5\\sqrt{3}) = \\sqrt{3}$. $\\theta = 60°$",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Value of $\\sin 90°$?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "0", "is_correct": false },
+      { "title": "-1", "is_correct": false },
+      { "title": "∞", "is_correct": false }
+    ],
+    "explanation": "$\\sin 90° = 1$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $2\\sin 45° \\times \\cos 45°$?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "$\\frac{1}{2}$", "is_correct": false },
+      { "title": "$\\sqrt{2}$", "is_correct": false },
+      { "title": "2", "is_correct": false }
+    ],
+    "explanation": "$2 × \\frac{1}{\\sqrt{2}} × \\frac{1}{\\sqrt{2}} = 2 × \\frac{1}{2} = 1$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If $\\tan \\theta = \\frac{5}{12}$, find $\\sin \\theta$.",
+    "answers": [
+      { "title": "$\\frac{5}{13}$", "is_correct": true },
+      { "title": "$\\frac{12}{13}$", "is_correct": false },
+      { "title": "$\\frac{5}{12}$", "is_correct": false },
+      { "title": "$\\frac{13}{5}$", "is_correct": false }
+    ],
+    "explanation": "Hyp = 13 (5-12-13 triangle). $\\sin \\theta = 5/13$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\cos 0° + \\sin 90° + \\tan 45°$?",
+    "answers": [
+      { "title": "3", "is_correct": true },
+      { "title": "2", "is_correct": false },
+      { "title": "1", "is_correct": false },
+      { "title": "0", "is_correct": false }
+    ],
+    "explanation": "1 + 1 + 1 = 3",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Angle of depression from 100m building to car 100m away?",
+    "answers": [
+      { "title": "45°", "is_correct": true },
+      { "title": "30°", "is_correct": false },
+      { "title": "60°", "is_correct": false },
+      { "title": "90°", "is_correct": false }
+    ],
+    "explanation": "$\\tan \\theta = 100/100 = 1$. $\\theta = 45°$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $\\frac{\\sin 30°}{\\cos 60°}$?",
+    "answers": [
+      { "title": "1", "is_correct": true },
+      { "title": "2", "is_correct": false },
+      { "title": "$\\frac{1}{2}$", "is_correct": false },
+      { "title": "$\\sqrt{3}$", "is_correct": false }
+    ],
+    "explanation": "$\\frac{1/2}{1/2} = 1$",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Value of $1 + \\tan^2 60°$?",
+    "answers": [
+      { "title": "4", "is_correct": true },
+      { "title": "3", "is_correct": false },
+      { "title": "2", "is_correct": false },
+      { "title": "$1 + \\sqrt{3}$", "is_correct": false }
+    ],
+    "explanation": "$1 + (\\sqrt{3})^2 = 1 + 3 = 4$ (also $= \\sec^2 60° = 4$)",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Distance from foot of tower to point where angle of elevation is 30° and tower is 50m?",
+    "answers": [
+      { "title": "$50\\sqrt{3}$ m", "is_correct": true },
+      { "title": "50 m", "is_correct": false },
+      { "title": "$\\frac{50}{\\sqrt{3}}$ m", "is_correct": false },
+      { "title": "100 m", "is_correct": false }
+    ],
+    "explanation": "$\\tan 30° = 50/d$. $d = 50/\\tan 30° = 50\\sqrt{3}$ m",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Value of $\\cosec 30°$?",
+    "answers": [
+      { "title": "2", "is_correct": true },
+      { "title": "$\\frac{1}{2}$", "is_correct": false },
+      { "title": "$\\sqrt{2}$", "is_correct": false },
+      { "title": "$\\frac{2}{\\sqrt{3}}$", "is_correct": false }
+    ],
+    "explanation": "$\\cosec 30° = 1/\\sin 30° = 1/(1/2) = 2$",
+    "difficulty": "easy"
+  }
+]

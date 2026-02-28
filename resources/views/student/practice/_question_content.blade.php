@@ -15,9 +15,10 @@
             </a>
         </div>
     </div>
-    <div class="mt-3 text-base font-semibold text-stone-800" data-question-prompt>
-        {!! nl2br(e($question->prompt)) !!}
+    <div class="mt-3 text-base font-semibold text-stone-800 math-content" data-question-prompt>
+        {!! \App\Support\QuestionRenderer::render($question->prompt) !!}
     </div>
+    <script>if(window.MathJax && MathJax.typeset) MathJax.typeset();</script>
     @if($question->image_path)
         <div class="mt-3">
             <img src="{{ asset('storage/' . $question->image_path) }}" alt="Question image" class="max-h-64 rounded-lg">
@@ -37,8 +38,8 @@
             <label class="flex cursor-pointer items-start gap-3 border-b border-stone-200 px-4 py-3 last:border-b-0 hover:bg-stone-50 transition-colors">
                 <input type="radio" name="answer_id" value="{{ $ans->id }}"
                        class="mt-1 h-4 w-4 border-stone-300 text-indigo-600 focus:ring-indigo-500" {{ $checked ? 'checked' : '' }}>
-                <div class="text-sm text-stone-800">
-                    <span data-answer-label>{{ $ans->title }}</span>
+                <div class="text-sm text-stone-800 math-content">
+                    <span data-answer-label>{!! \App\Support\QuestionRenderer::render($ans->title) !!}</span>
                     @if($ans->image_path)
                         <img src="{{ asset('storage/' . $ans->image_path) }}" alt="Option image" class="mt-1 max-h-24 rounded">
                     @endif
