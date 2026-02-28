@@ -1,159 +1,159 @@
 [
-  {
-    "question": "A number is divisible by 3 if:",
-    "answers": [
-      { "title": "Sum of digits is divisible by 3", "is_correct": true },
-      { "title": "Last digit is 3", "is_correct": false },
-      { "title": "Number ends in 0", "is_correct": false },
-      { "title": "Last two digits divisible by 3", "is_correct": false }
-    ],
-    "explanation": "Divisibility by 3: sum of all digits must be divisible by 3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Is 2478 divisible by 9?",
-    "answers": [
-      { "title": "Yes", "is_correct": true },
-      { "title": "No", "is_correct": false }
-    ],
-    "explanation": "Sum = 2+4+7+8 = 21, not divisible by 9. Wait: 21/9 = 2.33. Actually No. Let me recalc: 2+4+7+8=21. 21 is not divisible by 9. Answer should be No",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A number divisible by 4 if:",
-    "answers": [
-      { "title": "Last two digits form number divisible by 4", "is_correct": true },
-      { "title": "Last digit is 4 or 8", "is_correct": false },
-      { "title": "Sum of digits divisible by 4", "is_correct": false },
-      { "title": "Number is even", "is_correct": false }
-    ],
-    "explanation": "For 4: check if last two digits form a number divisible by 4",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Is 7356 divisible by 6?",
-    "answers": [
-      { "title": "Yes", "is_correct": true },
-      { "title": "No", "is_correct": false }
-    ],
-    "explanation": "Even (divisible by 2). Sum = 21 (divisible by 3). So divisible by 6",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Divisibility rule for 8:",
-    "answers": [
-      { "title": "Last three digits divisible by 8", "is_correct": true },
-      { "title": "Last two digits divisible by 8", "is_correct": false },
-      { "title": "Sum of digits divisible by 8", "is_correct": false },
-      { "title": "Number is even", "is_correct": false }
-    ],
-    "explanation": "For 8: last three digits must form number divisible by 8",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which is divisible by 11: 1089 or 1098?",
-    "answers": [
-      { "title": "1089", "is_correct": true },
-      { "title": "1098", "is_correct": false },
-      { "title": "Both", "is_correct": false },
-      { "title": "Neither", "is_correct": false }
-    ],
-    "explanation": "1089: (1+8)-(0+9) = 0. Divisible. 1098: (1+9)-(0+8) = 2. Not divisible",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find digit x if 52x8 is divisible by 3:",
-    "answers": [
-      { "title": "0, 3, 6, 9", "is_correct": true },
-      { "title": "1, 4, 7", "is_correct": false },
-      { "title": "2, 5, 8", "is_correct": false },
-      { "title": "Only 0", "is_correct": false }
-    ],
-    "explanation": "5+2+x+8 = 15+x. For div by 3: x = 0, 3, 6, 9",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A number divisible by 5 if:",
-    "answers": [
-      { "title": "Ends in 0 or 5", "is_correct": true },
-      { "title": "Sum of digits divisible by 5", "is_correct": false },
-      { "title": "Last two digits divisible by 5", "is_correct": false },
-      { "title": "Ends in 5 only", "is_correct": false }
-    ],
-    "explanation": "Number divisible by 5 if last digit is 0 or 5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Is 123456 divisible by 8?",
-    "answers": [
-      { "title": "Yes", "is_correct": true },
-      { "title": "No", "is_correct": false }
-    ],
-    "explanation": "Last 3 digits: 456. 456/8 = 57. Divisible",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Divisibility rule for 7: 343 is divisible by 7?",
-    "answers": [
-      { "title": "Yes", "is_correct": true },
-      { "title": "No", "is_correct": false }
-    ],
-    "explanation": "$343 = 7^3$. Yes, divisible",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Number 4xy2 is divisible by 9. Sum of x and y?",
-    "answers": [
-      { "title": "12", "is_correct": true },
-      { "title": "9", "is_correct": false },
-      { "title": "15", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "4+x+y+2 = 6+x+y must be divisible by 9. So x+y = 3 or 12. Max single digits: 12",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What value of * makes 7*4 divisible by 12?",
-    "answers": [
-      { "title": "4", "is_correct": true },
-      { "title": "2", "is_correct": false },
-      { "title": "8", "is_correct": false },
-      { "title": "0", "is_correct": false }
-    ],
-    "explanation": "Need div by 3 and 4. Last 2 digits *4 div by 4: * = 2, 6. Sum 7+*+4 div by 3: * = 1, 4, 7. Common: * = 4. Verify: 744/4=186 ✓, 744/3=248 ✓",
-    "difficulty": "medium"
-  },
-  {
-    "question": "2^10 is divisible by:",
-    "answers": [
-      { "title": "16", "is_correct": true },
-      { "title": "3", "is_correct": false },
-      { "title": "5", "is_correct": false },
-      { "title": "7", "is_correct": false }
-    ],
-    "explanation": "$2^{10} = 1024$. Divisible by $2^4 = 16$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If N is divisible by both 4 and 5, it's divisible by:",
-    "answers": [
-      { "title": "20", "is_correct": true },
-      { "title": "9", "is_correct": false },
-      { "title": "45", "is_correct": false },
-      { "title": "10", "is_correct": false }
-    ],
-    "explanation": "LCM(4,5) = 20. So N is divisible by 20",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which number is divisible by 12?",
-    "answers": [
-      { "title": "8436", "is_correct": true },
-      { "title": "7536", "is_correct": false },
-      { "title": "5765", "is_correct": false },
-      { "title": "3124", "is_correct": false }
-    ],
-    "explanation": "8436: Sum=21 (div by 3), last 2=36 (div by 4). So div by 12",
-    "difficulty": "medium"
-  }
+    {
+        "prompt": "A number is divisible by 3 if:",
+        "answers": [
+            "Number ends in 0",
+            "Last two digits divisible by 3",
+            "Last digit is 3",
+            "Sum of digits is divisible by 3"
+        ],
+        "correct": 3,
+        "explanation": "Divisibility by 3: sum of all digits must be divisible by 3"
+    },
+    {
+        "prompt": "Is 2478 divisible by 9?",
+        "answers": [
+            "No",
+            "Yes"
+        ],
+        "correct": 1,
+        "explanation": "Sum = 2+4+7+8 = 21, not divisible by 9. Wait: 21\/9 = 2.33. Actually No. Let me recalc: 2+4+7+8=21. 21 is not divisible by 9. Answer should be No"
+    },
+    {
+        "prompt": "A number divisible by 4 if:",
+        "answers": [
+            "Number is even",
+            "Sum of digits divisible by 4",
+            "Last digit is 4 or 8",
+            "Last two digits form number divisible by 4"
+        ],
+        "correct": 3,
+        "explanation": "For 4: check if last two digits form a number divisible by 4"
+    },
+    {
+        "prompt": "Is 7356 divisible by 6?",
+        "answers": [
+            "Yes",
+            "No"
+        ],
+        "correct": 0,
+        "explanation": "Even (divisible by 2). Sum = 21 (divisible by 3). So divisible by 6"
+    },
+    {
+        "prompt": "Divisibility rule for 8:",
+        "answers": [
+            "Sum of digits divisible by 8",
+            "Number is even",
+            "Last two digits divisible by 8",
+            "Last three digits divisible by 8"
+        ],
+        "correct": 3,
+        "explanation": "For 8: last three digits must form number divisible by 8"
+    },
+    {
+        "prompt": "Which is divisible by 11: 1089 or 1098?",
+        "answers": [
+            "1089",
+            "Both",
+            "1098",
+            "Neither"
+        ],
+        "correct": 0,
+        "explanation": "1089: (1+8)-(0+9) = 0. Divisible. 1098: (1+9)-(0+8) = 2. Not divisible"
+    },
+    {
+        "prompt": "Find digit x if 52x8 is divisible by 3:",
+        "answers": [
+            "2, 5, 8",
+            "1, 4, 7",
+            "0, 3, 6, 9",
+            "Only 0"
+        ],
+        "correct": 2,
+        "explanation": "5+2+x+8 = 15+x. For div by 3: x = 0, 3, 6, 9"
+    },
+    {
+        "prompt": "A number divisible by 5 if:",
+        "answers": [
+            "Ends in 5 only",
+            "Sum of digits divisible by 5",
+            "Last two digits divisible by 5",
+            "Ends in 0 or 5"
+        ],
+        "correct": 3,
+        "explanation": "Number divisible by 5 if last digit is 0 or 5"
+    },
+    {
+        "prompt": "Is 123456 divisible by 8?",
+        "answers": [
+            "Yes",
+            "No"
+        ],
+        "correct": 0,
+        "explanation": "Last 3 digits: 456. 456\/8 = 57. Divisible"
+    },
+    {
+        "prompt": "Divisibility rule for 7: 343 is divisible by 7?",
+        "answers": [
+            "No",
+            "Yes"
+        ],
+        "correct": 1,
+        "explanation": "$343 = 7^3$. Yes, divisible"
+    },
+    {
+        "prompt": "Number 4xy2 is divisible by 9. Sum of x and y?",
+        "answers": [
+            "15",
+            "9",
+            "12",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "4+x+y+2 = 6+x+y must be divisible by 9. So x+y = 3 or 12. Max single digits: 12"
+    },
+    {
+        "prompt": "What value of * makes 7*4 divisible by 12?",
+        "answers": [
+            "8",
+            "4",
+            "0",
+            "2"
+        ],
+        "correct": 1,
+        "explanation": "Need div by 3 and 4. Last 2 digits *4 div by 4: * = 2, 6. Sum 7+*+4 div by 3: * = 1, 4, 7. Common: * = 4. Verify: 744\/4=186 ✓, 744\/3=248 ✓"
+    },
+    {
+        "prompt": "2^10 is divisible by:",
+        "answers": [
+            "16",
+            "3",
+            "5",
+            "7"
+        ],
+        "correct": 0,
+        "explanation": "$2^{10} = 1024$. Divisible by $2^4 = 16$"
+    },
+    {
+        "prompt": "If N is divisible by both 4 and 5, it's divisible by:",
+        "answers": [
+            "20",
+            "45",
+            "10",
+            "9"
+        ],
+        "correct": 0,
+        "explanation": "LCM(4,5) = 20. So N is divisible by 20"
+    },
+    {
+        "prompt": "Which number is divisible by 12?",
+        "answers": [
+            "5765",
+            "8436",
+            "7536",
+            "3124"
+        ],
+        "correct": 1,
+        "explanation": "8436: Sum=21 (div by 3), last 2=36 (div by 4). So div by 12"
+    }
 ]

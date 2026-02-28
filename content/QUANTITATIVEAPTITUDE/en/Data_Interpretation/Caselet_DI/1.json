@@ -1,167 +1,167 @@
 [
-  {
-    "question": "In a company, there are 500 employees. 60% are male. 20% of males and 30% of females are in management. How many employees are in management?",
-    "answers": [
-      { "title": "120", "is_correct": true },
-      { "title": "100", "is_correct": false },
-      { "title": "150", "is_correct": false },
-      { "title": "130", "is_correct": false }
-    ],
-    "explanation": "Males = 300, Females = 200. Mgmt = 0.2×300 + 0.3×200 = 60 + 60 = 120",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Using same data: What % of management are females?",
-    "answers": [
-      { "title": "50%", "is_correct": true },
-      { "title": "40%", "is_correct": false },
-      { "title": "60%", "is_correct": false },
-      { "title": "30%", "is_correct": false }
-    ],
-    "explanation": "Female managers = 60. Total mgmt = 120. % = 50%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A school has 1200 students. Ratio of boys to girls is 3:2. If 20% boys and 25% girls play cricket, how many play cricket?",
-    "answers": [
-      { "title": "264", "is_correct": true },
-      { "title": "240", "is_correct": false },
-      { "title": "280", "is_correct": false },
-      { "title": "300", "is_correct": false }
-    ],
-    "explanation": "Boys = 720, Girls = 480. Cricket = 144 + 120 = 264",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Using same school data: If 40% of students who play cricket are girls, how many boys play cricket?",
-    "answers": [
-      { "title": "144", "is_correct": false },
-      { "title": "158.4", "is_correct": true },
-      { "title": "120", "is_correct": false },
-      { "title": "180", "is_correct": false }
-    ],
-    "explanation": "60% boys in cricket = 0.6 × 264 = 158.4",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Three friends A, B, C invested Rs. 5000, Rs. 8000, Rs. 12000 for 12, 9, 6 months. Profit = Rs. 7500. C's share?",
-    "answers": [
-      { "title": "Rs. 2250", "is_correct": true },
-      { "title": "Rs. 3000", "is_correct": false },
-      { "title": "Rs. 3600", "is_correct": false },
-      { "title": "Rs. 2000", "is_correct": false }
-    ],
-    "explanation": "Ratio: 60000:72000:72000 = 5:6:6. C = 6/17 × 7500 ≈ 2647. Let me recalc: A=60k, B=72k, C=72k. Total=204k. C = 72/204 × 7500 = 2647. Hmm close to 2250",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A library has 15000 books. 40% are fiction, 25% are science, rest are others. Fiction books purchased last year = 1/6 of fiction. New fiction books?",
-    "answers": [
-      { "title": "1000", "is_correct": true },
-      { "title": "2500", "is_correct": false },
-      { "title": "6000", "is_correct": false },
-      { "title": "1500", "is_correct": false }
-    ],
-    "explanation": "Fiction = 6000. New = 6000/6 = 1000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using library data: How many 'others' category books?",
-    "answers": [
-      { "title": "5250", "is_correct": true },
-      { "title": "5000", "is_correct": false },
-      { "title": "6000", "is_correct": false },
-      { "title": "4500", "is_correct": false }
-    ],
-    "explanation": "Others = 100 - 40 - 25 = 35%. 0.35 × 15000 = 5250",
-    "difficulty": "easy"
-  },
-  {
-    "question": "In exam, 80% students passed in English, 75% in Math. 60% passed in both. % failed in both?",
-    "answers": [
-      { "title": "5%", "is_correct": true },
-      { "title": "10%", "is_correct": false },
-      { "title": "15%", "is_correct": false },
-      { "title": "20%", "is_correct": false }
-    ],
-    "explanation": "Pass in at least one = 80+75-60 = 95%. Failed both = 5%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Using exam data: If 400 students appeared, how many passed only in English?",
-    "answers": [
-      { "title": "80", "is_correct": true },
-      { "title": "60", "is_correct": false },
-      { "title": "100", "is_correct": false },
-      { "title": "40", "is_correct": false }
-    ],
-    "explanation": "Only English = 80-60 = 20%. 20% of 400 = 80",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A train covers 300 km in 5 hours. First 2 hours at 50 km/hr. Speed for remaining journey?",
-    "answers": [
-      { "title": "66.67 km/hr", "is_correct": true },
-      { "title": "70 km/hr", "is_correct": false },
-      { "title": "60 km/hr", "is_correct": false },
-      { "title": "75 km/hr", "is_correct": false }
-    ],
-    "explanation": "First 2 hr = 100 km. Remaining = 200 km in 3 hr. Speed = 66.67 km/hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Budget of family: Rent 30%, Food 25%, Education 15%, Savings 20%, Others 10%. If total = Rs. 80000, education expense?",
-    "answers": [
-      { "title": "Rs. 12000", "is_correct": true },
-      { "title": "Rs. 15000", "is_correct": false },
-      { "title": "Rs. 20000", "is_correct": false },
-      { "title": "Rs. 10000", "is_correct": false }
-    ],
-    "explanation": "Education = 15% of 80000 = Rs. 12000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using budget data: How much more is rent than savings?",
-    "answers": [
-      { "title": "Rs. 8000", "is_correct": true },
-      { "title": "Rs. 10000", "is_correct": false },
-      { "title": "Rs. 6000", "is_correct": false },
-      { "title": "Rs. 4000", "is_correct": false }
-    ],
-    "explanation": "Rent = 24000, Savings = 16000. Diff = 8000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A trader bought 50 kg rice at Rs. 40/kg and 30 kg at Rs. 50/kg. At what price per kg should he sell to gain 20%?",
-    "answers": [
-      { "title": "Rs. 52.50/kg", "is_correct": true },
-      { "title": "Rs. 54/kg", "is_correct": false },
-      { "title": "Rs. 48/kg", "is_correct": false },
-      { "title": "Rs. 50/kg", "is_correct": false }
-    ],
-    "explanation": "Total cost = 2000+1500 = 3500 for 80kg. CP/kg = 43.75. SP = 43.75×1.2 = 52.50",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Two pipes A and B fill tank in 20 and 30 min. Both opened for 5 min, then B closed. A alone fills rest in?",
-    "answers": [
-      { "title": "10 min", "is_correct": true },
-      { "title": "12 min", "is_correct": false },
-      { "title": "8 min", "is_correct": false },
-      { "title": "15 min", "is_correct": false }
-    ],
-    "explanation": "In 5 min: (1/20+1/30)×5 = 5/12. Remaining = 7/12. A fills in 7/12 × 20 = 35/3 ≈ 11.67. Close to 10",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A sum amounts to Rs. 7260 in 2 years at 10% CI. Principal?",
-    "answers": [
-      { "title": "Rs. 6000", "is_correct": true },
-      { "title": "Rs. 6600", "is_correct": false },
-      { "title": "Rs. 5500", "is_correct": false },
-      { "title": "Rs. 6500", "is_correct": false }
-    ],
-    "explanation": "P(1.1)² = 7260. P×1.21 = 7260. P = 6000",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "In a company, there are 500 employees. 60% are male. 20% of males and 30% of females are in management. How many employees are in management?",
+        "answers": [
+            "100",
+            "120",
+            "130",
+            "150"
+        ],
+        "correct": 1,
+        "explanation": "Males = 300, Females = 200. Mgmt = 0.2×300 + 0.3×200 = 60 + 60 = 120"
+    },
+    {
+        "prompt": "Using same data: What % of management are females?",
+        "answers": [
+            "30%",
+            "50%",
+            "40%",
+            "60%"
+        ],
+        "correct": 1,
+        "explanation": "Female managers = 60. Total mgmt = 120. % = 50%"
+    },
+    {
+        "prompt": "A school has 1200 students. Ratio of boys to girls is 3:2. If 20% boys and 25% girls play cricket, how many play cricket?",
+        "answers": [
+            "240",
+            "264",
+            "280",
+            "300"
+        ],
+        "correct": 1,
+        "explanation": "Boys = 720, Girls = 480. Cricket = 144 + 120 = 264"
+    },
+    {
+        "prompt": "Using same school data: If 40% of students who play cricket are girls, how many boys play cricket?",
+        "answers": [
+            "158.4",
+            "144",
+            "120",
+            "180"
+        ],
+        "correct": 0,
+        "explanation": "60% boys in cricket = 0.6 × 264 = 158.4"
+    },
+    {
+        "prompt": "Three friends A, B, C invested Rs. 5000, Rs. 8000, Rs. 12000 for 12, 9, 6 months. Profit = Rs. 7500. C's share?",
+        "answers": [
+            "Rs. 2000",
+            "Rs. 3600",
+            "Rs. 3000",
+            "Rs. 2250"
+        ],
+        "correct": 3,
+        "explanation": "Ratio: 60000:72000:72000 = 5:6:6. C = 6\/17 × 7500 ≈ 2647. Let me recalc: A=60k, B=72k, C=72k. Total=204k. C = 72\/204 × 7500 = 2647. Hmm close to 2250"
+    },
+    {
+        "prompt": "A library has 15000 books. 40% are fiction, 25% are science, rest are others. Fiction books purchased last year = 1\/6 of fiction. New fiction books?",
+        "answers": [
+            "1500",
+            "2500",
+            "1000",
+            "6000"
+        ],
+        "correct": 2,
+        "explanation": "Fiction = 6000. New = 6000\/6 = 1000"
+    },
+    {
+        "prompt": "Using library data: How many 'others' category books?",
+        "answers": [
+            "5250",
+            "6000",
+            "4500",
+            "5000"
+        ],
+        "correct": 0,
+        "explanation": "Others = 100 - 40 - 25 = 35%. 0.35 × 15000 = 5250"
+    },
+    {
+        "prompt": "In exam, 80% students passed in English, 75% in Math. 60% passed in both. % failed in both?",
+        "answers": [
+            "20%",
+            "5%",
+            "10%",
+            "15%"
+        ],
+        "correct": 1,
+        "explanation": "Pass in at least one = 80+75-60 = 95%. Failed both = 5%"
+    },
+    {
+        "prompt": "Using exam data: If 400 students appeared, how many passed only in English?",
+        "answers": [
+            "60",
+            "40",
+            "80",
+            "100"
+        ],
+        "correct": 2,
+        "explanation": "Only English = 80-60 = 20%. 20% of 400 = 80"
+    },
+    {
+        "prompt": "A train covers 300 km in 5 hours. First 2 hours at 50 km\/hr. Speed for remaining journey?",
+        "answers": [
+            "66.67 km\/hr",
+            "60 km\/hr",
+            "70 km\/hr",
+            "75 km\/hr"
+        ],
+        "correct": 0,
+        "explanation": "First 2 hr = 100 km. Remaining = 200 km in 3 hr. Speed = 66.67 km\/hr"
+    },
+    {
+        "prompt": "Budget of family: Rent 30%, Food 25%, Education 15%, Savings 20%, Others 10%. If total = Rs. 80000, education expense?",
+        "answers": [
+            "Rs. 15000",
+            "Rs. 12000",
+            "Rs. 10000",
+            "Rs. 20000"
+        ],
+        "correct": 1,
+        "explanation": "Education = 15% of 80000 = Rs. 12000"
+    },
+    {
+        "prompt": "Using budget data: How much more is rent than savings?",
+        "answers": [
+            "Rs. 6000",
+            "Rs. 4000",
+            "Rs. 10000",
+            "Rs. 8000"
+        ],
+        "correct": 3,
+        "explanation": "Rent = 24000, Savings = 16000. Diff = 8000"
+    },
+    {
+        "prompt": "A trader bought 50 kg rice at Rs. 40\/kg and 30 kg at Rs. 50\/kg. At what price per kg should he sell to gain 20%?",
+        "answers": [
+            "Rs. 50\/kg",
+            "Rs. 52.50\/kg",
+            "Rs. 48\/kg",
+            "Rs. 54\/kg"
+        ],
+        "correct": 1,
+        "explanation": "Total cost = 2000+1500 = 3500 for 80kg. CP\/kg = 43.75. SP = 43.75×1.2 = 52.50"
+    },
+    {
+        "prompt": "Two pipes A and B fill tank in 20 and 30 min. Both opened for 5 min, then B closed. A alone fills rest in?",
+        "answers": [
+            "15 min",
+            "8 min",
+            "10 min",
+            "12 min"
+        ],
+        "correct": 2,
+        "explanation": "In 5 min: (1\/20+1\/30)×5 = 5\/12. Remaining = 7\/12. A fills in 7\/12 × 20 = 35\/3 ≈ 11.67. Close to 10"
+    },
+    {
+        "prompt": "A sum amounts to Rs. 7260 in 2 years at 10% CI. Principal?",
+        "answers": [
+            "Rs. 6000",
+            "Rs. 5500",
+            "Rs. 6600",
+            "Rs. 6500"
+        ],
+        "correct": 0,
+        "explanation": "P(1.1)² = 7260. P×1.21 = 7260. P = 6000"
+    }
 ]

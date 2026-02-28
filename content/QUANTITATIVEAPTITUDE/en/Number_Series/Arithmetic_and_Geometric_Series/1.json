@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Find next term: 2, 5, 8, 11, ?",
-    "answers": [
-      { "title": "14", "is_correct": true },
-      { "title": "13", "is_correct": false },
-      { "title": "15", "is_correct": false },
-      { "title": "12", "is_correct": false }
-    ],
-    "explanation": "AP with d = 3. Next = 11 + 3 = 14",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Find next term: 3, 6, 12, 24, ?",
-    "answers": [
-      { "title": "48", "is_correct": true },
-      { "title": "36", "is_correct": false },
-      { "title": "30", "is_correct": false },
-      { "title": "72", "is_correct": false }
-    ],
-    "explanation": "GP with r = 2. Next = 24 × 2 = 48",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Sum of first 10 terms of AP: 5, 10, 15, 20, ...?",
-    "answers": [
-      { "title": "275", "is_correct": true },
-      { "title": "250", "is_correct": false },
-      { "title": "300", "is_correct": false },
-      { "title": "225", "is_correct": false }
-    ],
-    "explanation": "$S_n = \\frac{n}{2}(2a + (n-1)d) = 5(10 + 45) = 275$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "5th term of AP with a = 3, d = 4?",
-    "answers": [
-      { "title": "19", "is_correct": true },
-      { "title": "15", "is_correct": false },
-      { "title": "23", "is_correct": false },
-      { "title": "20", "is_correct": false }
-    ],
-    "explanation": "$a_n = a + (n-1)d = 3 + 4(4) = 19$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "GP: 2, 6, 18, 54. Common ratio?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "6", "is_correct": false },
-      { "title": "2", "is_correct": false }
-    ],
-    "explanation": "r = 6/2 = 3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Sum of infinite GP: 1, 1/2, 1/4, 1/8, ...?",
-    "answers": [
-      { "title": "2", "is_correct": true },
-      { "title": "1", "is_correct": false },
-      { "title": "4", "is_correct": false },
-      { "title": "Infinite", "is_correct": false }
-    ],
-    "explanation": "$S = \\frac{a}{1-r} = \\frac{1}{1-0.5} = 2$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "8th term of GP: 5, 10, 20, ...?",
-    "answers": [
-      { "title": "640", "is_correct": true },
-      { "title": "320", "is_correct": false },
-      { "title": "1280", "is_correct": false },
-      { "title": "160", "is_correct": false }
-    ],
-    "explanation": "$a_n = ar^{n-1} = 5 \\times 2^7 = 640$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If 7th term of AP is 25 and d = 3, find first term.",
-    "answers": [
-      { "title": "7", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "10", "is_correct": false },
-      { "title": "1", "is_correct": false }
-    ],
-    "explanation": "$a + 6d = 25$. $a + 18 = 25$. $a = 7$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Sum of first 20 natural numbers?",
-    "answers": [
-      { "title": "210", "is_correct": true },
-      { "title": "200", "is_correct": false },
-      { "title": "190", "is_correct": false },
-      { "title": "220", "is_correct": false }
-    ],
-    "explanation": "$S = \\frac{n(n+1)}{2} = \\frac{20 \\times 21}{2} = 210$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "AP: 10, 7, 4, 1, ... 20th term?",
-    "answers": [
-      { "title": "-47", "is_correct": true },
-      { "title": "-50", "is_correct": false },
-      { "title": "-44", "is_correct": false },
-      { "title": "-53", "is_correct": false }
-    ],
-    "explanation": "d = -3. $a_{20} = 10 + 19(-3) = 10 - 57 = -47$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "GM of 4 and 16?",
-    "answers": [
-      { "title": "8", "is_correct": true },
-      { "title": "10", "is_correct": false },
-      { "title": "20", "is_correct": false },
-      { "title": "64", "is_correct": false }
-    ],
-    "explanation": "GM = $\\sqrt{4 \\times 16} = \\sqrt{64} = 8$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "AM of 10 and 30?",
-    "answers": [
-      { "title": "20", "is_correct": true },
-      { "title": "15", "is_correct": false },
-      { "title": "40", "is_correct": false },
-      { "title": "300", "is_correct": false }
-    ],
-    "explanation": "AM = (10 + 30)/2 = 20",
-    "difficulty": "easy"
-  },
-  {
-    "question": "How many terms in AP 7, 13, 19, ... 205?",
-    "answers": [
-      { "title": "34", "is_correct": true },
-      { "title": "33", "is_correct": false },
-      { "title": "35", "is_correct": false },
-      { "title": "32", "is_correct": false }
-    ],
-    "explanation": "$205 = 7 + (n-1)6$. $198 = 6(n-1)$. $n-1 = 33$. $n = 34$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Sum of first 5 terms of GP: 3, 9, 27, ...?",
-    "answers": [
-      { "title": "363", "is_correct": true },
-      { "title": "243", "is_correct": false },
-      { "title": "729", "is_correct": false },
-      { "title": "120", "is_correct": false }
-    ],
-    "explanation": "$S_n = \\frac{a(r^n - 1)}{r-1} = \\frac{3(243-1)}{2} = 363$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If a, b, c are in AP, then:",
-    "answers": [
-      { "title": "$2b = a + c$", "is_correct": true },
-      { "title": "$b^2 = ac$", "is_correct": false },
-      { "title": "$a + b = c$", "is_correct": false },
-      { "title": "$b = a + c$", "is_correct": false }
-    ],
-    "explanation": "In AP, middle term = average of other two: $b = (a+c)/2$",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Find next term: 2, 5, 8, 11, ?",
+        "answers": [
+            "15",
+            "12",
+            "14",
+            "13"
+        ],
+        "correct": 2,
+        "explanation": "AP with d = 3. Next = 11 + 3 = 14"
+    },
+    {
+        "prompt": "Find next term: 3, 6, 12, 24, ?",
+        "answers": [
+            "72",
+            "30",
+            "36",
+            "48"
+        ],
+        "correct": 3,
+        "explanation": "GP with r = 2. Next = 24 × 2 = 48"
+    },
+    {
+        "prompt": "Sum of first 10 terms of AP: 5, 10, 15, 20, ...?",
+        "answers": [
+            "250",
+            "225",
+            "275",
+            "300"
+        ],
+        "correct": 2,
+        "explanation": "$S_n = \\frac{n}{2}(2a + (n-1)d) = 5(10 + 45) = 275$"
+    },
+    {
+        "prompt": "5th term of AP with a = 3, d = 4?",
+        "answers": [
+            "23",
+            "20",
+            "15",
+            "19"
+        ],
+        "correct": 3,
+        "explanation": "$a_n = a + (n-1)d = 3 + 4(4) = 19$"
+    },
+    {
+        "prompt": "GP: 2, 6, 18, 54. Common ratio?",
+        "answers": [
+            "6",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct": 2,
+        "explanation": "r = 6\/2 = 3"
+    },
+    {
+        "prompt": "Sum of infinite GP: 1, 1\/2, 1\/4, 1\/8, ...?",
+        "answers": [
+            "4",
+            "Infinite",
+            "2",
+            "1"
+        ],
+        "correct": 2,
+        "explanation": "$S = \\frac{a}{1-r} = \\frac{1}{1-0.5} = 2$"
+    },
+    {
+        "prompt": "8th term of GP: 5, 10, 20, ...?",
+        "answers": [
+            "640",
+            "1280",
+            "160",
+            "320"
+        ],
+        "correct": 0,
+        "explanation": "$a_n = ar^{n-1} = 5 \\times 2^7 = 640$"
+    },
+    {
+        "prompt": "If 7th term of AP is 25 and d = 3, find first term.",
+        "answers": [
+            "10",
+            "7",
+            "4",
+            "1"
+        ],
+        "correct": 1,
+        "explanation": "$a + 6d = 25$. $a + 18 = 25$. $a = 7$"
+    },
+    {
+        "prompt": "Sum of first 20 natural numbers?",
+        "answers": [
+            "200",
+            "210",
+            "220",
+            "190"
+        ],
+        "correct": 1,
+        "explanation": "$S = \\frac{n(n+1)}{2} = \\frac{20 \\times 21}{2} = 210$"
+    },
+    {
+        "prompt": "AP: 10, 7, 4, 1, ... 20th term?",
+        "answers": [
+            "-50",
+            "-44",
+            "-53",
+            "-47"
+        ],
+        "correct": 3,
+        "explanation": "d = -3. $a_{20} = 10 + 19(-3) = 10 - 57 = -47$"
+    },
+    {
+        "prompt": "GM of 4 and 16?",
+        "answers": [
+            "10",
+            "20",
+            "8",
+            "64"
+        ],
+        "correct": 2,
+        "explanation": "GM = $\\sqrt{4 \\times 16} = \\sqrt{64} = 8$"
+    },
+    {
+        "prompt": "AM of 10 and 30?",
+        "answers": [
+            "40",
+            "20",
+            "15",
+            "300"
+        ],
+        "correct": 1,
+        "explanation": "AM = (10 + 30)\/2 = 20"
+    },
+    {
+        "prompt": "How many terms in AP 7, 13, 19, ... 205?",
+        "answers": [
+            "32",
+            "35",
+            "34",
+            "33"
+        ],
+        "correct": 2,
+        "explanation": "$205 = 7 + (n-1)6$. $198 = 6(n-1)$. $n-1 = 33$. $n = 34$"
+    },
+    {
+        "prompt": "Sum of first 5 terms of GP: 3, 9, 27, ...?",
+        "answers": [
+            "120",
+            "243",
+            "729",
+            "363"
+        ],
+        "correct": 3,
+        "explanation": "$S_n = \\frac{a(r^n - 1)}{r-1} = \\frac{3(243-1)}{2} = 363$"
+    },
+    {
+        "prompt": "If a, b, c are in AP, then:",
+        "answers": [
+            "$b = a + c$",
+            "$b^2 = ac$",
+            "$a + b = c$",
+            "$2b = a + c$"
+        ],
+        "correct": 3,
+        "explanation": "In AP, middle term = average of other two: $b = (a+c)\/2$"
+    }
 ]

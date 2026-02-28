@@ -1,222 +1,222 @@
 [
-  {
-    "question": "Find wrong number: 2, 5, 10, 17, 26, 37, 52",
-    "answers": [
-      { "title": "52", "is_correct": true },
-      { "title": "37", "is_correct": false },
-      { "title": "26", "is_correct": false },
-      { "title": "17", "is_correct": false }
-    ],
-    "explanation": "Pattern: n² + 1 (2,5,10,17,26,37,50). 52 should be 50",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 3, 7, 15, 31, 63, 125",
-    "answers": [
-      { "title": "125", "is_correct": true },
-      { "title": "63", "is_correct": false },
-      { "title": "31", "is_correct": false },
-      { "title": "15", "is_correct": false }
-    ],
-    "explanation": "Pattern: 2n-1. Series: 3,7,15,31,63,127. Wrong = 125 (should be 127)",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 2, 3, 6, 15, 45, 156.5",
-    "answers": [
-      { "title": "156.5", "is_correct": true },
-      { "title": "45", "is_correct": false },
-      { "title": "15", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "×1.5, ×2, ×2.5, ×3, ×3.5. 45×3.5 = 157.5, not 156.5",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 5, 6, 14, 45, 182, 915",
-    "answers": [
-      { "title": "182", "is_correct": true },
-      { "title": "14", "is_correct": false },
-      { "title": "45", "is_correct": false },
-      { "title": "915", "is_correct": false }
-    ],
-    "explanation": "×1+1, ×2+2, ×3+3, ×4+4, ×5+5. 45×4+4 = 184, not 182",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Find wrong number: 1, 2, 6, 24, 96, 720",
-    "answers": [
-      { "title": "96", "is_correct": true },
-      { "title": "720", "is_correct": false },
-      { "title": "24", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "Factorial: 1!, 2!, 3!, 4!, 5!, 6!. 5! = 120, not 96",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Find wrong number: 3, 9, 27, 81, 245, 729",
-    "answers": [
-      { "title": "245", "is_correct": true },
-      { "title": "81", "is_correct": false },
-      { "title": "27", "is_correct": false },
-      { "title": "729", "is_correct": false }
-    ],
-    "explanation": "Powers of 3: 3¹, 3², 3³, 3⁴, 3⁵, 3⁶. 3⁵ = 243, not 245",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Find wrong number: 2, 5, 11, 23, 48, 95",
-    "answers": [
-      { "title": "48", "is_correct": true },
-      { "title": "23", "is_correct": false },
-      { "title": "11", "is_correct": false },
-      { "title": "95", "is_correct": false }
-    ],
-    "explanation": "×2+1 pattern: 2,5,11,23,47,95. 48 should be 47",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 8, 27, 64, 100, 216, 343",
-    "answers": [
-      { "title": "100", "is_correct": true },
-      { "title": "64", "is_correct": false },
-      { "title": "216", "is_correct": false },
-      { "title": "27", "is_correct": false }
-    ],
-    "explanation": "Perfect cubes: 2³,3³,4³,5³,6³,7³. 5³ = 125, not 100",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Find wrong number: 7, 8, 18, 57, 232, 1165",
-    "answers": [
-      { "title": "232", "is_correct": true },
-      { "title": "57", "is_correct": false },
-      { "title": "18", "is_correct": false },
-      { "title": "1165", "is_correct": false }
-    ],
-    "explanation": "×1+1, ×2+2, ×3+3, ×4+4, ×5+5. 57×4+4 = 232. Actually let me verify: 7×1+1=8, 8×2+2=18, 18×3+3=57, 57×4+4=232, 232×5+5=1165. Series is correct! Let me reconsider.",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Find wrong number: 2, 6, 12, 72, 360, 2160",
-    "answers": [
-      { "title": "12", "is_correct": true },
-      { "title": "6", "is_correct": false },
-      { "title": "72", "is_correct": false },
-      { "title": "360", "is_correct": false }
-    ],
-    "explanation": "×3, ×4, ×5, ×6. 2×3=6, 6×4=24 (not 12), 24×5=120. 12 is wrong",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 1, 4, 9, 16, 24, 36",
-    "answers": [
-      { "title": "24", "is_correct": true },
-      { "title": "16", "is_correct": false },
-      { "title": "9", "is_correct": false },
-      { "title": "36", "is_correct": false }
-    ],
-    "explanation": "Perfect squares: 1,4,9,16,25,36. 24 should be 25",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Find wrong number: 11, 13, 17, 19, 25, 29",
-    "answers": [
-      { "title": "25", "is_correct": true },
-      { "title": "19", "is_correct": false },
-      { "title": "17", "is_correct": false },
-      { "title": "29", "is_correct": false }
-    ],
-    "explanation": "Prime numbers. 25 = 5×5 is not prime. Should be 23",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Find wrong number: 1, 5, 13, 25, 41, 61, 83",
-    "answers": [
-      { "title": "83", "is_correct": true },
-      { "title": "61", "is_correct": false },
-      { "title": "41", "is_correct": false },
-      { "title": "25", "is_correct": false }
-    ],
-    "explanation": "Differences: 4,8,12,16,20,24. Last diff should be 24: 61+24=85, not 83",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 6, 12, 36, 144, 720, 4320",
-    "answers": [
-      { "title": "720", "is_correct": true },
-      { "title": "144", "is_correct": false },
-      { "title": "36", "is_correct": false },
-      { "title": "4320", "is_correct": false }
-    ],
-    "explanation": "×2, ×3, ×4, ×5, ×6. 144×5 = 720. Actually correct! Let me verify: 6×2=12, 12×3=36, 36×4=144, 144×5=720, 720×6=4320. Series is correct",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 7, 28, 63, 124, 215, 342",
-    "answers": [
-      { "title": "28", "is_correct": true },
-      { "title": "63", "is_correct": false },
-      { "title": "124", "is_correct": false },
-      { "title": "215", "is_correct": false }
-    ],
-    "explanation": "Pattern: n³-1. 2³-1=7, 3³-1=26, 4³-1=63. 28 should be 26",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 4, 9, 19, 39, 79, 159, 318",
-    "answers": [
-      { "title": "318", "is_correct": true },
-      { "title": "159", "is_correct": false },
-      { "title": "79", "is_correct": false },
-      { "title": "39", "is_correct": false }
-    ],
-    "explanation": "×2+1: 4,9,19,39,79,159,319. Wrong = 318 (should be 319)",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Find wrong number: 50, 49, 46, 41, 33, 24",
-    "answers": [
-      { "title": "33", "is_correct": true },
-      { "title": "41", "is_correct": false },
-      { "title": "24", "is_correct": false },
-      { "title": "46", "is_correct": false }
-    ],
-    "explanation": "Differences: -1,-3,-5,-7,-9. 41-7=34, not 33",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Find wrong number: 2, 10, 30, 68, 125, 222",
-    "answers": [
-      { "title": "125", "is_correct": true },
-      { "title": "68", "is_correct": false },
-      { "title": "30", "is_correct": false },
-      { "title": "222", "is_correct": false }
-    ],
-    "explanation": "Pattern: n³+1. 1+1=2, 8+2=10, 27+3=30, 64+4=68, 125+5=130, 216+6=222. Wrong = 125 (should be 130)",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Find wrong number: 5, 7, 11, 13, 17, 23, 25",
-    "answers": [
-      { "title": "25", "is_correct": true },
-      { "title": "23", "is_correct": false },
-      { "title": "17", "is_correct": false },
-      { "title": "13", "is_correct": false }
-    ],
-    "explanation": "Prime numbers. 25 = 5×5 is not prime",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Find wrong number: 4, 6, 10, 14, 22, 26, 34",
-    "answers": [
-      { "title": "26", "is_correct": true },
-      { "title": "22", "is_correct": false },
-      { "title": "14", "is_correct": false },
-      { "title": "34", "is_correct": false }
-    ],
-    "explanation": "Twin prime differences pattern: +2,+4,+4,+8,+8. After 22 should come 30, not 26",
-    "difficulty": "hard"
-  }
+    {
+        "prompt": "Find wrong number: 2, 5, 10, 17, 26, 37, 52",
+        "answers": [
+            "17",
+            "37",
+            "26",
+            "52"
+        ],
+        "correct": 3,
+        "explanation": "Pattern: n² + 1 (2,5,10,17,26,37,50). 52 should be 50"
+    },
+    {
+        "prompt": "Find wrong number: 3, 7, 15, 31, 63, 125",
+        "answers": [
+            "63",
+            "15",
+            "31",
+            "125"
+        ],
+        "correct": 3,
+        "explanation": "Pattern: 2n-1. Series: 3,7,15,31,63,127. Wrong = 125 (should be 127)"
+    },
+    {
+        "prompt": "Find wrong number: 2, 3, 6, 15, 45, 156.5",
+        "answers": [
+            "15",
+            "45",
+            "6",
+            "156.5"
+        ],
+        "correct": 3,
+        "explanation": "×1.5, ×2, ×2.5, ×3, ×3.5. 45×3.5 = 157.5, not 156.5"
+    },
+    {
+        "prompt": "Find wrong number: 5, 6, 14, 45, 182, 915",
+        "answers": [
+            "45",
+            "182",
+            "915",
+            "14"
+        ],
+        "correct": 1,
+        "explanation": "×1+1, ×2+2, ×3+3, ×4+4, ×5+5. 45×4+4 = 184, not 182"
+    },
+    {
+        "prompt": "Find wrong number: 1, 2, 6, 24, 96, 720",
+        "answers": [
+            "720",
+            "96",
+            "6",
+            "24"
+        ],
+        "correct": 1,
+        "explanation": "Factorial: 1!, 2!, 3!, 4!, 5!, 6!. 5! = 120, not 96"
+    },
+    {
+        "prompt": "Find wrong number: 3, 9, 27, 81, 245, 729",
+        "answers": [
+            "81",
+            "27",
+            "729",
+            "245"
+        ],
+        "correct": 3,
+        "explanation": "Powers of 3: 3¹, 3², 3³, 3⁴, 3⁵, 3⁶. 3⁵ = 243, not 245"
+    },
+    {
+        "prompt": "Find wrong number: 2, 5, 11, 23, 48, 95",
+        "answers": [
+            "95",
+            "23",
+            "48",
+            "11"
+        ],
+        "correct": 2,
+        "explanation": "×2+1 pattern: 2,5,11,23,47,95. 48 should be 47"
+    },
+    {
+        "prompt": "Find wrong number: 8, 27, 64, 100, 216, 343",
+        "answers": [
+            "216",
+            "27",
+            "64",
+            "100"
+        ],
+        "correct": 3,
+        "explanation": "Perfect cubes: 2³,3³,4³,5³,6³,7³. 5³ = 125, not 100"
+    },
+    {
+        "prompt": "Find wrong number: 7, 8, 18, 57, 232, 1165",
+        "answers": [
+            "1165",
+            "232",
+            "57",
+            "18"
+        ],
+        "correct": 1,
+        "explanation": "×1+1, ×2+2, ×3+3, ×4+4, ×5+5. 57×4+4 = 232. Actually let me verify: 7×1+1=8, 8×2+2=18, 18×3+3=57, 57×4+4=232, 232×5+5=1165. Series is correct! Let me reconsider."
+    },
+    {
+        "prompt": "Find wrong number: 2, 6, 12, 72, 360, 2160",
+        "answers": [
+            "12",
+            "72",
+            "6",
+            "360"
+        ],
+        "correct": 0,
+        "explanation": "×3, ×4, ×5, ×6. 2×3=6, 6×4=24 (not 12), 24×5=120. 12 is wrong"
+    },
+    {
+        "prompt": "Find wrong number: 1, 4, 9, 16, 24, 36",
+        "answers": [
+            "16",
+            "9",
+            "24",
+            "36"
+        ],
+        "correct": 2,
+        "explanation": "Perfect squares: 1,4,9,16,25,36. 24 should be 25"
+    },
+    {
+        "prompt": "Find wrong number: 11, 13, 17, 19, 25, 29",
+        "answers": [
+            "19",
+            "29",
+            "25",
+            "17"
+        ],
+        "correct": 2,
+        "explanation": "Prime numbers. 25 = 5×5 is not prime. Should be 23"
+    },
+    {
+        "prompt": "Find wrong number: 1, 5, 13, 25, 41, 61, 83",
+        "answers": [
+            "25",
+            "83",
+            "41",
+            "61"
+        ],
+        "correct": 1,
+        "explanation": "Differences: 4,8,12,16,20,24. Last diff should be 24: 61+24=85, not 83"
+    },
+    {
+        "prompt": "Find wrong number: 6, 12, 36, 144, 720, 4320",
+        "answers": [
+            "36",
+            "144",
+            "720",
+            "4320"
+        ],
+        "correct": 2,
+        "explanation": "×2, ×3, ×4, ×5, ×6. 144×5 = 720. Actually correct! Let me verify: 6×2=12, 12×3=36, 36×4=144, 144×5=720, 720×6=4320. Series is correct"
+    },
+    {
+        "prompt": "Find wrong number: 7, 28, 63, 124, 215, 342",
+        "answers": [
+            "63",
+            "28",
+            "215",
+            "124"
+        ],
+        "correct": 1,
+        "explanation": "Pattern: n³-1. 2³-1=7, 3³-1=26, 4³-1=63. 28 should be 26"
+    },
+    {
+        "prompt": "Find wrong number: 4, 9, 19, 39, 79, 159, 318",
+        "answers": [
+            "159",
+            "318",
+            "79",
+            "39"
+        ],
+        "correct": 1,
+        "explanation": "×2+1: 4,9,19,39,79,159,319. Wrong = 318 (should be 319)"
+    },
+    {
+        "prompt": "Find wrong number: 50, 49, 46, 41, 33, 24",
+        "answers": [
+            "33",
+            "41",
+            "46",
+            "24"
+        ],
+        "correct": 0,
+        "explanation": "Differences: -1,-3,-5,-7,-9. 41-7=34, not 33"
+    },
+    {
+        "prompt": "Find wrong number: 2, 10, 30, 68, 125, 222",
+        "answers": [
+            "125",
+            "222",
+            "30",
+            "68"
+        ],
+        "correct": 0,
+        "explanation": "Pattern: n³+1. 1+1=2, 8+2=10, 27+3=30, 64+4=68, 125+5=130, 216+6=222. Wrong = 125 (should be 130)"
+    },
+    {
+        "prompt": "Find wrong number: 5, 7, 11, 13, 17, 23, 25",
+        "answers": [
+            "17",
+            "25",
+            "13",
+            "23"
+        ],
+        "correct": 1,
+        "explanation": "Prime numbers. 25 = 5×5 is not prime"
+    },
+    {
+        "prompt": "Find wrong number: 4, 6, 10, 14, 22, 26, 34",
+        "answers": [
+            "22",
+            "34",
+            "14",
+            "26"
+        ],
+        "correct": 3,
+        "explanation": "Twin prime differences pattern: +2,+4,+4,+8,+8. After 22 should come 30, not 26"
+    }
 ]

@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Last two digits of $7^2$?",
-    "answers": [
-      { "title": "49", "is_correct": true },
-      { "title": "07", "is_correct": false },
-      { "title": "43", "is_correct": false },
-      { "title": "01", "is_correct": false }
-    ],
-    "explanation": "$7^2 = 49$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $2^{10}$?",
-    "answers": [
-      { "title": "24", "is_correct": true },
-      { "title": "04", "is_correct": false },
-      { "title": "76", "is_correct": false },
-      { "title": "56", "is_correct": false }
-    ],
-    "explanation": "$2^{10} = 1024$. Last two = 24",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $3^4$?",
-    "answers": [
-      { "title": "81", "is_correct": true },
-      { "title": "27", "is_correct": false },
-      { "title": "43", "is_correct": false },
-      { "title": "01", "is_correct": false }
-    ],
-    "explanation": "$3^4 = 81$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $7^4$?",
-    "answers": [
-      { "title": "01", "is_correct": true },
-      { "title": "49", "is_correct": false },
-      { "title": "43", "is_correct": false },
-      { "title": "07", "is_correct": false }
-    ],
-    "explanation": "$7^4 = 2401$. Last two = 01",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $13^2$?",
-    "answers": [
-      { "title": "69", "is_correct": true },
-      { "title": "13", "is_correct": false },
-      { "title": "39", "is_correct": false },
-      { "title": "91", "is_correct": false }
-    ],
-    "explanation": "$13^2 = 169$. Last two = 69",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $25^3$?",
-    "answers": [
-      { "title": "25", "is_correct": true },
-      { "title": "75", "is_correct": false },
-      { "title": "00", "is_correct": false },
-      { "title": "50", "is_correct": false }
-    ],
-    "explanation": "Any power of 25 ends in 25 (except $25^1$ which is 25)",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $76^{100}$?",
-    "answers": [
-      { "title": "76", "is_correct": true },
-      { "title": "26", "is_correct": false },
-      { "title": "56", "is_correct": false },
-      { "title": "00", "is_correct": false }
-    ],
-    "explanation": "76 raised to any power ends in 76",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Last two digits of $11^{10}$?",
-    "answers": [
-      { "title": "01", "is_correct": true },
-      { "title": "21", "is_correct": false },
-      { "title": "31", "is_correct": false },
-      { "title": "11", "is_correct": false }
-    ],
-    "explanation": "Cycle: 11,21,31,41,51,61,71,81,91,01. $11^{10}$ ends in 01",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Last two digits of $99^2$?",
-    "answers": [
-      { "title": "01", "is_correct": true },
-      { "title": "99", "is_correct": false },
-      { "title": "81", "is_correct": false },
-      { "title": "19", "is_correct": false }
-    ],
-    "explanation": "$99^2 = 9801$. Last two = 01",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $17^4$?",
-    "answers": [
-      { "title": "21", "is_correct": true },
-      { "title": "01", "is_correct": false },
-      { "title": "61", "is_correct": false },
-      { "title": "41", "is_correct": false }
-    ],
-    "explanation": "$17^2 = 289$. $17^4 = 289^2 = 83521$. Last two = 21",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Last two digits of $49 \\times 51$?",
-    "answers": [
-      { "title": "99", "is_correct": true },
-      { "title": "49", "is_correct": false },
-      { "title": "01", "is_correct": false },
-      { "title": "00", "is_correct": false }
-    ],
-    "explanation": "$(50-1)(50+1) = 2500-1 = 2499$. Last two = 99",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $5^{20}$?",
-    "answers": [
-      { "title": "25", "is_correct": true },
-      { "title": "05", "is_correct": false },
-      { "title": "75", "is_correct": false },
-      { "title": "00", "is_correct": false }
-    ],
-    "explanation": "$5^2$ and higher powers end in 25",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $123 \\times 456$?",
-    "answers": [
-      { "title": "88", "is_correct": true },
-      { "title": "18", "is_correct": false },
-      { "title": "38", "is_correct": false },
-      { "title": "68", "is_correct": false }
-    ],
-    "explanation": "23 × 56 = 1288. Last two = 88",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Last two digits of $4^{10}$?",
-    "answers": [
-      { "title": "76", "is_correct": true },
-      { "title": "24", "is_correct": false },
-      { "title": "56", "is_correct": false },
-      { "title": "04", "is_correct": false }
-    ],
-    "explanation": "$4^{10} = 2^{20}$. $2^{20} = 1048576$. Last two = 76",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Last two digits of $37^2$?",
-    "answers": [
-      { "title": "69", "is_correct": true },
-      { "title": "37", "is_correct": false },
-      { "title": "49", "is_correct": false },
-      { "title": "89", "is_correct": false }
-    ],
-    "explanation": "$37^2 = 1369$. Last two = 69",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Last two digits of $7^2$?",
+        "answers": [
+            "49",
+            "07",
+            "43",
+            "01"
+        ],
+        "correct": 0,
+        "explanation": "$7^2 = 49$"
+    },
+    {
+        "prompt": "Last two digits of $2^{10}$?",
+        "answers": [
+            "24",
+            "04",
+            "76",
+            "56"
+        ],
+        "correct": 0,
+        "explanation": "$2^{10} = 1024$. Last two = 24"
+    },
+    {
+        "prompt": "Last two digits of $3^4$?",
+        "answers": [
+            "01",
+            "81",
+            "43",
+            "27"
+        ],
+        "correct": 1,
+        "explanation": "$3^4 = 81$"
+    },
+    {
+        "prompt": "Last two digits of $7^4$?",
+        "answers": [
+            "43",
+            "01",
+            "07",
+            "49"
+        ],
+        "correct": 1,
+        "explanation": "$7^4 = 2401$. Last two = 01"
+    },
+    {
+        "prompt": "Last two digits of $13^2$?",
+        "answers": [
+            "91",
+            "69",
+            "13",
+            "39"
+        ],
+        "correct": 1,
+        "explanation": "$13^2 = 169$. Last two = 69"
+    },
+    {
+        "prompt": "Last two digits of $25^3$?",
+        "answers": [
+            "50",
+            "00",
+            "25",
+            "75"
+        ],
+        "correct": 2,
+        "explanation": "Any power of 25 ends in 25 (except $25^1$ which is 25)"
+    },
+    {
+        "prompt": "Last two digits of $76^{100}$?",
+        "answers": [
+            "76",
+            "56",
+            "26",
+            "00"
+        ],
+        "correct": 0,
+        "explanation": "76 raised to any power ends in 76"
+    },
+    {
+        "prompt": "Last two digits of $11^{10}$?",
+        "answers": [
+            "21",
+            "11",
+            "31",
+            "01"
+        ],
+        "correct": 3,
+        "explanation": "Cycle: 11,21,31,41,51,61,71,81,91,01. $11^{10}$ ends in 01"
+    },
+    {
+        "prompt": "Last two digits of $99^2$?",
+        "answers": [
+            "81",
+            "99",
+            "01",
+            "19"
+        ],
+        "correct": 2,
+        "explanation": "$99^2 = 9801$. Last two = 01"
+    },
+    {
+        "prompt": "Last two digits of $17^4$?",
+        "answers": [
+            "41",
+            "01",
+            "21",
+            "61"
+        ],
+        "correct": 2,
+        "explanation": "$17^2 = 289$. $17^4 = 289^2 = 83521$. Last two = 21"
+    },
+    {
+        "prompt": "Last two digits of $49 \\times 51$?",
+        "answers": [
+            "00",
+            "49",
+            "99",
+            "01"
+        ],
+        "correct": 2,
+        "explanation": "$(50-1)(50+1) = 2500-1 = 2499$. Last two = 99"
+    },
+    {
+        "prompt": "Last two digits of $5^{20}$?",
+        "answers": [
+            "75",
+            "05",
+            "00",
+            "25"
+        ],
+        "correct": 3,
+        "explanation": "$5^2$ and higher powers end in 25"
+    },
+    {
+        "prompt": "Last two digits of $123 \\times 456$?",
+        "answers": [
+            "38",
+            "68",
+            "18",
+            "88"
+        ],
+        "correct": 3,
+        "explanation": "23 × 56 = 1288. Last two = 88"
+    },
+    {
+        "prompt": "Last two digits of $4^{10}$?",
+        "answers": [
+            "76",
+            "56",
+            "24",
+            "04"
+        ],
+        "correct": 0,
+        "explanation": "$4^{10} = 2^{20}$. $2^{20} = 1048576$. Last two = 76"
+    },
+    {
+        "prompt": "Last two digits of $37^2$?",
+        "answers": [
+            "69",
+            "49",
+            "37",
+            "89"
+        ],
+        "correct": 0,
+        "explanation": "$37^2 = 1369$. Last two = 69"
+    }
 ]

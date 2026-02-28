@@ -1,222 +1,222 @@
 [
-  {
-    "question": "Average of first 5 multiples of 3 is?",
-    "answers": [
-      { "title": "9", "is_correct": true },
-      { "title": "12", "is_correct": false },
-      { "title": "6", "is_correct": false },
-      { "title": "15", "is_correct": false }
-    ],
-    "explanation": "Multiples: 3,6,9,12,15. Sum = 45. Avg = 45/5 = 9",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 20 numbers is 35. If each number is increased by 5, new average?",
-    "answers": [
-      { "title": "40", "is_correct": true },
-      { "title": "45", "is_correct": false },
-      { "title": "35", "is_correct": false },
-      { "title": "30", "is_correct": false }
-    ],
-    "explanation": "New average = Old average + 5 = 40",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average weight of A, B, C is 45 kg. If average of A and B is 40 kg, weight of C?",
-    "answers": [
-      { "title": "55 kg", "is_correct": true },
-      { "title": "50 kg", "is_correct": false },
-      { "title": "45 kg", "is_correct": false },
-      { "title": "60 kg", "is_correct": false }
-    ],
-    "explanation": "A+B+C = 135. A+B = 80. C = 55 kg",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 10 numbers is 7. If each number is multiplied by 12, new average?",
-    "answers": [
-      { "title": "84", "is_correct": true },
-      { "title": "72", "is_correct": false },
-      { "title": "7", "is_correct": false },
-      { "title": "120", "is_correct": false }
-    ],
-    "explanation": "New average = 7 × 12 = 84",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 9 observations is 35. Average of first 5 is 32, last 5 is 40. Fifth observation?",
-    "answers": [
-      { "title": "45", "is_correct": true },
-      { "title": "40", "is_correct": false },
-      { "title": "50", "is_correct": false },
-      { "title": "35", "is_correct": false }
-    ],
-    "explanation": "Sum of all = 315. First 5 = 160. Last 5 = 200. 5th counted twice = 160+200-315 = 45",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average age of 8 persons increases by 2 years when a person aged 24 is replaced. Age of new person?",
-    "answers": [
-      { "title": "40 years", "is_correct": true },
-      { "title": "36 years", "is_correct": false },
-      { "title": "32 years", "is_correct": false },
-      { "title": "44 years", "is_correct": false }
-    ],
-    "explanation": "Total increase = 8 × 2 = 16. New person = 24 + 16 = 40 years",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of all prime numbers between 30 and 50?",
-    "answers": [
-      { "title": "39.8", "is_correct": true },
-      { "title": "40.2", "is_correct": false },
-      { "title": "41", "is_correct": false },
-      { "title": "38.5", "is_correct": false }
-    ],
-    "explanation": "Primes: 31,37,41,43,47. Sum = 199. Avg = 199/5 = 39.8",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A batsman has average of 60 in 46 innings. To increase average to 62, runs needed in 47th innings?",
-    "answers": [
-      { "title": "154", "is_correct": true },
-      { "title": "140", "is_correct": false },
-      { "title": "160", "is_correct": false },
-      { "title": "148", "is_correct": false }
-    ],
-    "explanation": "Total needed = 62 × 47 = 2914. Has 60 × 46 = 2760. Need = 154",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of 11 results is 50. First 6 avg is 49, last 6 avg is 52. Sixth result?",
-    "answers": [
-      { "title": "56", "is_correct": true },
-      { "title": "50", "is_correct": false },
-      { "title": "54", "is_correct": false },
-      { "title": "60", "is_correct": false }
-    ],
-    "explanation": "Total = 550. First 6 = 294. Last 6 = 312. 6th = 294+312-550 = 56",
-    "difficulty": "medium"
-  },
-  {
-    "question": "In a class average age is 15.8 years. Average of boys is 16.4, of girls is 15.4. Ratio of boys to girls?",
-    "answers": [
-      { "title": "2:3", "is_correct": true },
-      { "title": "3:2", "is_correct": false },
-      { "title": "1:2", "is_correct": false },
-      { "title": "4:5", "is_correct": false }
-    ],
-    "explanation": "Using alligation: Boys:Girls = (15.8-15.4):(16.4-15.8) = 0.4:0.6 = 2:3",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of first 50 natural numbers?",
-    "answers": [
-      { "title": "25.5", "is_correct": true },
-      { "title": "25", "is_correct": false },
-      { "title": "26", "is_correct": false },
-      { "title": "50", "is_correct": false }
-    ],
-    "explanation": "Sum = 50×51/2 = 1275. Avg = 1275/50 = 25.5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average marks of 3 subjects is 40. Average of first 2 is 35. Marks in third subject?",
-    "answers": [
-      { "title": "50", "is_correct": true },
-      { "title": "45", "is_correct": false },
-      { "title": "55", "is_correct": false },
-      { "title": "40", "is_correct": false }
-    ],
-    "explanation": "Total = 120. First 2 = 70. Third = 50",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A car travels 60 km at 20 km/h and next 60 km at 30 km/h. Average speed?",
-    "answers": [
-      { "title": "24 km/h", "is_correct": true },
-      { "title": "25 km/h", "is_correct": false },
-      { "title": "22 km/h", "is_correct": false },
-      { "title": "26 km/h", "is_correct": false }
-    ],
-    "explanation": "Avg speed = 2×20×30/(20+30) = 1200/50 = 24 km/h",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of 5 consecutive odd numbers is 61. Largest number?",
-    "answers": [
-      { "title": "65", "is_correct": true },
-      { "title": "63", "is_correct": false },
-      { "title": "67", "is_correct": false },
-      { "title": "69", "is_correct": false }
-    ],
-    "explanation": "Middle = 61. Numbers: 57,59,61,63,65. Largest = 65",
-    "difficulty": "easy"
-  },
-  {
-    "question": "3 years ago, family average was 17. A baby born, present average is same. Baby's age?",
-    "answers": [
-      { "title": "2 years", "is_correct": true },
-      { "title": "1 year", "is_correct": false },
-      { "title": "3 years", "is_correct": false },
-      { "title": "4 years", "is_correct": false }
-    ],
-    "explanation": "Let family members = n. 3 yrs ago sum = 17n. Now sum = 17n + 3n + baby = 17(n+1). So baby = 17-3n+3n = 17-3×5 = 2 (for 5 members)",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Average of n numbers is a. If sum of first (n-1) is k, nth number is?",
-    "answers": [
-      { "title": "na - k", "is_correct": true },
-      { "title": "a - k", "is_correct": false },
-      { "title": "k - na", "is_correct": false },
-      { "title": "(n-1)a - k", "is_correct": false }
-    ],
-    "explanation": "Total = na. nth = na - k",
-    "difficulty": "easy"
-  },
-  {
-    "question": "There are two sections A and B. Average of A is 40, of B is 35. Average of both is 38. If A has 30 students, students in B?",
-    "answers": [
-      { "title": "20", "is_correct": true },
-      { "title": "25", "is_correct": false },
-      { "title": "18", "is_correct": false },
-      { "title": "15", "is_correct": false }
-    ],
-    "explanation": "30×40 + x×35 = (30+x)×38. 1200+35x = 1140+38x. 60 = 3x. x = 20",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of 8 numbers is 27. Average of first 2 is 23, next 3 is 29, last 3 is?",
-    "answers": [
-      { "title": "28", "is_correct": true },
-      { "title": "30", "is_correct": false },
-      { "title": "26", "is_correct": false },
-      { "title": "32", "is_correct": false }
-    ],
-    "explanation": "Total = 216. First 2 = 46. Next 3 = 87. Last 3 = 216-46-87 = 83. Avg = 83/3 ≈ 28",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of 6 numbers is 30. If one number is excluded, average becomes 29. Excluded number?",
-    "answers": [
-      { "title": "35", "is_correct": true },
-      { "title": "30", "is_correct": false },
-      { "title": "32", "is_correct": false },
-      { "title": "36", "is_correct": false }
-    ],
-    "explanation": "Total = 180. New total = 145. Excluded = 180-145 = 35",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of first 10 even numbers?",
-    "answers": [
-      { "title": "11", "is_correct": true },
-      { "title": "10", "is_correct": false },
-      { "title": "12", "is_correct": false },
-      { "title": "20", "is_correct": false }
-    ],
-    "explanation": "First 10 even: 2,4,6,...,20. Sum = 110. Avg = 11",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Average of first 5 multiples of 3 is?",
+        "answers": [
+            "9",
+            "12",
+            "15",
+            "6"
+        ],
+        "correct": 0,
+        "explanation": "Multiples: 3,6,9,12,15. Sum = 45. Avg = 45\/5 = 9"
+    },
+    {
+        "prompt": "Average of 20 numbers is 35. If each number is increased by 5, new average?",
+        "answers": [
+            "35",
+            "40",
+            "45",
+            "30"
+        ],
+        "correct": 1,
+        "explanation": "New average = Old average + 5 = 40"
+    },
+    {
+        "prompt": "Average weight of A, B, C is 45 kg. If average of A and B is 40 kg, weight of C?",
+        "answers": [
+            "55 kg",
+            "50 kg",
+            "60 kg",
+            "45 kg"
+        ],
+        "correct": 0,
+        "explanation": "A+B+C = 135. A+B = 80. C = 55 kg"
+    },
+    {
+        "prompt": "Average of 10 numbers is 7. If each number is multiplied by 12, new average?",
+        "answers": [
+            "7",
+            "120",
+            "84",
+            "72"
+        ],
+        "correct": 2,
+        "explanation": "New average = 7 × 12 = 84"
+    },
+    {
+        "prompt": "Average of 9 observations is 35. Average of first 5 is 32, last 5 is 40. Fifth observation?",
+        "answers": [
+            "40",
+            "50",
+            "35",
+            "45"
+        ],
+        "correct": 3,
+        "explanation": "Sum of all = 315. First 5 = 160. Last 5 = 200. 5th counted twice = 160+200-315 = 45"
+    },
+    {
+        "prompt": "Average age of 8 persons increases by 2 years when a person aged 24 is replaced. Age of new person?",
+        "answers": [
+            "36 years",
+            "44 years",
+            "32 years",
+            "40 years"
+        ],
+        "correct": 3,
+        "explanation": "Total increase = 8 × 2 = 16. New person = 24 + 16 = 40 years"
+    },
+    {
+        "prompt": "Average of all prime numbers between 30 and 50?",
+        "answers": [
+            "40.2",
+            "39.8",
+            "41",
+            "38.5"
+        ],
+        "correct": 1,
+        "explanation": "Primes: 31,37,41,43,47. Sum = 199. Avg = 199\/5 = 39.8"
+    },
+    {
+        "prompt": "A batsman has average of 60 in 46 innings. To increase average to 62, runs needed in 47th innings?",
+        "answers": [
+            "140",
+            "148",
+            "160",
+            "154"
+        ],
+        "correct": 3,
+        "explanation": "Total needed = 62 × 47 = 2914. Has 60 × 46 = 2760. Need = 154"
+    },
+    {
+        "prompt": "Average of 11 results is 50. First 6 avg is 49, last 6 avg is 52. Sixth result?",
+        "answers": [
+            "56",
+            "60",
+            "54",
+            "50"
+        ],
+        "correct": 0,
+        "explanation": "Total = 550. First 6 = 294. Last 6 = 312. 6th = 294+312-550 = 56"
+    },
+    {
+        "prompt": "In a class average age is 15.8 years. Average of boys is 16.4, of girls is 15.4. Ratio of boys to girls?",
+        "answers": [
+            "2:3",
+            "4:5",
+            "3:2",
+            "1:2"
+        ],
+        "correct": 0,
+        "explanation": "Using alligation: Boys:Girls = (15.8-15.4):(16.4-15.8) = 0.4:0.6 = 2:3"
+    },
+    {
+        "prompt": "Average of first 50 natural numbers?",
+        "answers": [
+            "25",
+            "25.5",
+            "26",
+            "50"
+        ],
+        "correct": 1,
+        "explanation": "Sum = 50×51\/2 = 1275. Avg = 1275\/50 = 25.5"
+    },
+    {
+        "prompt": "Average marks of 3 subjects is 40. Average of first 2 is 35. Marks in third subject?",
+        "answers": [
+            "40",
+            "50",
+            "55",
+            "45"
+        ],
+        "correct": 1,
+        "explanation": "Total = 120. First 2 = 70. Third = 50"
+    },
+    {
+        "prompt": "A car travels 60 km at 20 km\/h and next 60 km at 30 km\/h. Average speed?",
+        "answers": [
+            "22 km\/h",
+            "24 km\/h",
+            "26 km\/h",
+            "25 km\/h"
+        ],
+        "correct": 1,
+        "explanation": "Avg speed = 2×20×30\/(20+30) = 1200\/50 = 24 km\/h"
+    },
+    {
+        "prompt": "Average of 5 consecutive odd numbers is 61. Largest number?",
+        "answers": [
+            "65",
+            "69",
+            "67",
+            "63"
+        ],
+        "correct": 0,
+        "explanation": "Middle = 61. Numbers: 57,59,61,63,65. Largest = 65"
+    },
+    {
+        "prompt": "3 years ago, family average was 17. A baby born, present average is same. Baby's age?",
+        "answers": [
+            "1 year",
+            "4 years",
+            "2 years",
+            "3 years"
+        ],
+        "correct": 2,
+        "explanation": "Let family members = n. 3 yrs ago sum = 17n. Now sum = 17n + 3n + baby = 17(n+1). So baby = 17-3n+3n = 17-3×5 = 2 (for 5 members)"
+    },
+    {
+        "prompt": "Average of n numbers is a. If sum of first (n-1) is k, nth number is?",
+        "answers": [
+            "(n-1)a - k",
+            "a - k",
+            "na - k",
+            "k - na"
+        ],
+        "correct": 2,
+        "explanation": "Total = na. nth = na - k"
+    },
+    {
+        "prompt": "There are two sections A and B. Average of A is 40, of B is 35. Average of both is 38. If A has 30 students, students in B?",
+        "answers": [
+            "25",
+            "15",
+            "20",
+            "18"
+        ],
+        "correct": 2,
+        "explanation": "30×40 + x×35 = (30+x)×38. 1200+35x = 1140+38x. 60 = 3x. x = 20"
+    },
+    {
+        "prompt": "Average of 8 numbers is 27. Average of first 2 is 23, next 3 is 29, last 3 is?",
+        "answers": [
+            "32",
+            "30",
+            "26",
+            "28"
+        ],
+        "correct": 3,
+        "explanation": "Total = 216. First 2 = 46. Next 3 = 87. Last 3 = 216-46-87 = 83. Avg = 83\/3 ≈ 28"
+    },
+    {
+        "prompt": "Average of 6 numbers is 30. If one number is excluded, average becomes 29. Excluded number?",
+        "answers": [
+            "30",
+            "35",
+            "32",
+            "36"
+        ],
+        "correct": 1,
+        "explanation": "Total = 180. New total = 145. Excluded = 180-145 = 35"
+    },
+    {
+        "prompt": "Average of first 10 even numbers?",
+        "answers": [
+            "20",
+            "10",
+            "11",
+            "12"
+        ],
+        "correct": 2,
+        "explanation": "First 10 even: 2,4,6,...,20. Sum = 110. Avg = 11"
+    }
 ]

@@ -1,167 +1,167 @@
 [
-  {
-    "question": "$\\sqrt{144} = ?$",
-    "answers": [
-      { "title": "12", "is_correct": true },
-      { "title": "14", "is_correct": false },
-      { "title": "11", "is_correct": false },
-      { "title": "13", "is_correct": false }
-    ],
-    "explanation": "$12^2 = 144$, so $\\sqrt{144} = 12$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$15^2 = ?$",
-    "answers": [
-      { "title": "225", "is_correct": true },
-      { "title": "215", "is_correct": false },
-      { "title": "235", "is_correct": false },
-      { "title": "245", "is_correct": false }
-    ],
-    "explanation": "$15 \\times 15 = 225$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt{196} = ?$",
-    "answers": [
-      { "title": "14", "is_correct": true },
-      { "title": "13", "is_correct": false },
-      { "title": "15", "is_correct": false },
-      { "title": "16", "is_correct": false }
-    ],
-    "explanation": "$14^2 = 196$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt{0.04} = ?$",
-    "answers": [
-      { "title": "0.2", "is_correct": true },
-      { "title": "0.02", "is_correct": false },
-      { "title": "0.4", "is_correct": false },
-      { "title": "2", "is_correct": false }
-    ],
-    "explanation": "$0.2^2 = 0.04$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which is a perfect square: 169, 168, 170?",
-    "answers": [
-      { "title": "169", "is_correct": true },
-      { "title": "168", "is_correct": false },
-      { "title": "170", "is_correct": false },
-      { "title": "None", "is_correct": false }
-    ],
-    "explanation": "$169 = 13^2$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt{625} = ?$",
-    "answers": [
-      { "title": "25", "is_correct": true },
-      { "title": "15", "is_correct": false },
-      { "title": "35", "is_correct": false },
-      { "title": "20", "is_correct": false }
-    ],
-    "explanation": "$25^2 = 625$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Square of 25?",
-    "answers": [
-      { "title": "625", "is_correct": true },
-      { "title": "525", "is_correct": false },
-      { "title": "725", "is_correct": false },
-      { "title": "575", "is_correct": false }
-    ],
-    "explanation": "$25^2 = 625$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt{1.21} = ?$",
-    "answers": [
-      { "title": "1.1", "is_correct": true },
-      { "title": "1.21", "is_correct": false },
-      { "title": "11", "is_correct": false },
-      { "title": "0.11", "is_correct": false }
-    ],
-    "explanation": "$1.1^2 = 1.21$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt{324} = ?$",
-    "answers": [
-      { "title": "18", "is_correct": true },
-      { "title": "16", "is_correct": false },
-      { "title": "17", "is_correct": false },
-      { "title": "19", "is_correct": false }
-    ],
-    "explanation": "$18^2 = 324$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate value of $\\sqrt{50}$?",
-    "answers": [
-      { "title": "7.07", "is_correct": true },
-      { "title": "7.5", "is_correct": false },
-      { "title": "6.5", "is_correct": false },
-      { "title": "8", "is_correct": false }
-    ],
-    "explanation": "$\\sqrt{50} = 5\\sqrt{2} \\approx 7.07$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$17^2 = ?$",
-    "answers": [
-      { "title": "289", "is_correct": true },
-      { "title": "279", "is_correct": false },
-      { "title": "299", "is_correct": false },
-      { "title": "269", "is_correct": false }
-    ],
-    "explanation": "$17 \\times 17 = 289$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt{\\frac{49}{64}} = ?$",
-    "answers": [
-      { "title": "$\\frac{7}{8}$", "is_correct": true },
-      { "title": "$\\frac{8}{7}$", "is_correct": false },
-      { "title": "$\\frac{49}{64}$", "is_correct": false },
-      { "title": "$\\frac{7}{64}$", "is_correct": false }
-    ],
-    "explanation": "$\\sqrt{49}/\\sqrt{64} = 7/8$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If $x^2 = 81$, x = ?",
-    "answers": [
-      { "title": "±9", "is_correct": true },
-      { "title": "9 only", "is_correct": false },
-      { "title": "-9 only", "is_correct": false },
-      { "title": "81", "is_correct": false }
-    ],
-    "explanation": "$x = \\pm\\sqrt{81} = \\pm 9$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Smallest number to multiply 48 to get perfect square?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "2", "is_correct": false },
-      { "title": "4", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "$48 = 2^4 \\times 3$. Need 3 to make $2^4 \\times 3^2 = 144$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "$\\sqrt{10000} = ?$",
-    "answers": [
-      { "title": "100", "is_correct": true },
-      { "title": "1000", "is_correct": false },
-      { "title": "10", "is_correct": false },
-      { "title": "500", "is_correct": false }
-    ],
-    "explanation": "$100^2 = 10000$",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "$\\sqrt{144} = ?$",
+        "answers": [
+            "12",
+            "11",
+            "13",
+            "14"
+        ],
+        "correct": 0,
+        "explanation": "$12^2 = 144$, so $\\sqrt{144} = 12$"
+    },
+    {
+        "prompt": "$15^2 = ?$",
+        "answers": [
+            "225",
+            "235",
+            "245",
+            "215"
+        ],
+        "correct": 0,
+        "explanation": "$15 \\times 15 = 225$"
+    },
+    {
+        "prompt": "$\\sqrt{196} = ?$",
+        "answers": [
+            "15",
+            "14",
+            "16",
+            "13"
+        ],
+        "correct": 1,
+        "explanation": "$14^2 = 196$"
+    },
+    {
+        "prompt": "$\\sqrt{0.04} = ?$",
+        "answers": [
+            "2",
+            "0.02",
+            "0.2",
+            "0.4"
+        ],
+        "correct": 2,
+        "explanation": "$0.2^2 = 0.04$"
+    },
+    {
+        "prompt": "Which is a perfect square: 169, 168, 170?",
+        "answers": [
+            "None",
+            "169",
+            "168",
+            "170"
+        ],
+        "correct": 1,
+        "explanation": "$169 = 13^2$"
+    },
+    {
+        "prompt": "$\\sqrt{625} = ?$",
+        "answers": [
+            "35",
+            "15",
+            "20",
+            "25"
+        ],
+        "correct": 3,
+        "explanation": "$25^2 = 625$"
+    },
+    {
+        "prompt": "Square of 25?",
+        "answers": [
+            "525",
+            "575",
+            "725",
+            "625"
+        ],
+        "correct": 3,
+        "explanation": "$25^2 = 625$"
+    },
+    {
+        "prompt": "$\\sqrt{1.21} = ?$",
+        "answers": [
+            "0.11",
+            "11",
+            "1.1",
+            "1.21"
+        ],
+        "correct": 2,
+        "explanation": "$1.1^2 = 1.21$"
+    },
+    {
+        "prompt": "$\\sqrt{324} = ?$",
+        "answers": [
+            "16",
+            "18",
+            "19",
+            "17"
+        ],
+        "correct": 1,
+        "explanation": "$18^2 = 324$"
+    },
+    {
+        "prompt": "Approximate value of $\\sqrt{50}$?",
+        "answers": [
+            "7.07",
+            "6.5",
+            "8",
+            "7.5"
+        ],
+        "correct": 0,
+        "explanation": "$\\sqrt{50} = 5\\sqrt{2} \\approx 7.07$"
+    },
+    {
+        "prompt": "$17^2 = ?$",
+        "answers": [
+            "289",
+            "299",
+            "279",
+            "269"
+        ],
+        "correct": 0,
+        "explanation": "$17 \\times 17 = 289$"
+    },
+    {
+        "prompt": "$\\sqrt{\\frac{49}{64}} = ?$",
+        "answers": [
+            "$\\frac{49}{64}$",
+            "$\\frac{8}{7}$",
+            "$\\frac{7}{64}$",
+            "$\\frac{7}{8}$"
+        ],
+        "correct": 3,
+        "explanation": "$\\sqrt{49}\/\\sqrt{64} = 7\/8$"
+    },
+    {
+        "prompt": "If $x^2 = 81$, x = ?",
+        "answers": [
+            "-9 only",
+            "81",
+            "±9",
+            "9 only"
+        ],
+        "correct": 2,
+        "explanation": "$x = \\pm\\sqrt{81} = \\pm 9$"
+    },
+    {
+        "prompt": "Smallest number to multiply 48 to get perfect square?",
+        "answers": [
+            "4",
+            "6",
+            "2",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "$48 = 2^4 \\times 3$. Need 3 to make $2^4 \\times 3^2 = 144$"
+    },
+    {
+        "prompt": "$\\sqrt{10000} = ?$",
+        "answers": [
+            "500",
+            "1000",
+            "10",
+            "100"
+        ],
+        "correct": 3,
+        "explanation": "$100^2 = 10000$"
+    }
 ]

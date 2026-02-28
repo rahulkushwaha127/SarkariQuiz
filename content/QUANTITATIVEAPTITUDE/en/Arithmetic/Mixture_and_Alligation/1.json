@@ -1,222 +1,222 @@
 [
-  {
-    "question": "In what ratio must rice at Rs. 30/kg be mixed with rice at Rs. 45/kg to get mixture at Rs. 36/kg?",
-    "answers": [
-      { "title": "3:2", "is_correct": true },
-      { "title": "2:3", "is_correct": false },
-      { "title": "3:1", "is_correct": false },
-      { "title": "1:2", "is_correct": false }
-    ],
-    "explanation": "By alligation: (45-36):(36-30) = 9:6 = 3:2",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A milk vendor mixes milk and water in ratio 3:1. To make 20% profit by selling at cost price of milk, actual profit %?",
-    "answers": [
-      { "title": "50%", "is_correct": true },
-      { "title": "33.33%", "is_correct": false },
-      { "title": "25%", "is_correct": false },
-      { "title": "20%", "is_correct": false }
-    ],
-    "explanation": "He sells 4 parts as 3 parts milk price. Profit = 1/2 = 50% (if water is free)",
-    "difficulty": "medium"
-  },
-  {
-    "question": "8 litres of mixture contains milk and water in ratio 5:3. How much water to add for ratio 3:5?",
-    "answers": [
-      { "title": "4 litres", "is_correct": true },
-      { "title": "3 litres", "is_correct": false },
-      { "title": "5 litres", "is_correct": false },
-      { "title": "2 litres", "is_correct": false }
-    ],
-    "explanation": "Milk = 5L, Water = 3L. For 3:5, 5/water = 3/5. Water needed = 25/3. Add = 25/3 - 3 = 16/3 ≈ 5.33. Let me recalc: Milk = 5L fixed. 5:W = 3:5. W = 25/3 = 8.33. Add = 8.33-3 = 5.33L. Hmm, closest is 5. But if we check 4L: 5:(3+4) = 5:7 ≠ 3:5. Let me verify ratio formula",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A vessel contains 60L of milk. 6L is drawn out and replaced with water. This is done twice. Milk remaining?",
-    "answers": [
-      { "title": "48.6 L", "is_correct": true },
-      { "title": "54 L", "is_correct": false },
-      { "title": "45 L", "is_correct": false },
-      { "title": "50 L", "is_correct": false }
-    ],
-    "explanation": "Milk = 60 × (1 - 6/60)² = 60 × (0.9)² = 48.6 L",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Two alloys have gold and silver in ratio 5:3 and 5:11. Ratio to mix them for new alloy with equal gold and silver?",
-    "answers": [
-      { "title": "3:5", "is_correct": true },
-      { "title": "5:3", "is_correct": false },
-      { "title": "1:1", "is_correct": false },
-      { "title": "2:3", "is_correct": false }
-    ],
-    "explanation": "Gold in alloy 1 = 5/8, in alloy 2 = 5/16. For 1:1, gold = 1/2. By alligation: (1/2 - 5/16):(5/8 - 1/2) = 3/16:1/8 = 3:2. Wait let me recalc",
-    "difficulty": "hard"
-  },
-  {
-    "question": "A container has 80L of pure milk. 8L removed and replaced with water. Done 3 times. Water in mixture?",
-    "answers": [
-      { "title": "21.52 L", "is_correct": true },
-      { "title": "24 L", "is_correct": false },
-      { "title": "18 L", "is_correct": false },
-      { "title": "16 L", "is_correct": false }
-    ],
-    "explanation": "Milk = 80 × (0.9)³ = 58.32L. Water = 80 - 58.32 = 21.68 ≈ 21.52L",
-    "difficulty": "medium"
-  },
-  {
-    "question": "In what ratio must water be mixed with milk costing Rs. 60/L to get mixture worth Rs. 45/L?",
-    "answers": [
-      { "title": "1:3", "is_correct": true },
-      { "title": "3:1", "is_correct": false },
-      { "title": "1:2", "is_correct": false },
-      { "title": "2:1", "is_correct": false }
-    ],
-    "explanation": "Water cost = 0. (60-45):(45-0) = 15:45 = 1:3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "40L mixture has milk:water = 3:1. To reverse the ratio, how much water to add?",
-    "answers": [
-      { "title": "40 L", "is_correct": true },
-      { "title": "30 L", "is_correct": false },
-      { "title": "50 L", "is_correct": false },
-      { "title": "20 L", "is_correct": false }
-    ],
-    "explanation": "Milk = 30L, Water = 10L. For 1:3, 30:(10+x) = 1:3. 10+x = 90. x = 80. Hmm wait: 30:W = 1:3 means W = 90. Add = 90-10 = 80. Let me check options. Closest interpretation: reverse to 1:3 needs 80L. But if just swapping 3:1 to 1:3, then milk/water = 1/3, so water = 3×milk = 90. Add 80. Options don't match. Let me reread - maybe question means ratio water:milk = 3:1. Then W = 30. Add = 30-10 = 20",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average age of class of 40 students is 15 years. Average of 15 new students is 12 years. New average?",
-    "answers": [
-      { "title": "14.18 years", "is_correct": true },
-      { "title": "13.5 years", "is_correct": false },
-      { "title": "14.5 years", "is_correct": false },
-      { "title": "13 years", "is_correct": false }
-    ],
-    "explanation": "Total = 40×15 + 15×12 = 600 + 180 = 780. Avg = 780/55 = 14.18",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A sum of Rs. 41 was divided among 50 boys and girls. Each boy got 90p, each girl 65p. Number of boys?",
-    "answers": [
-      { "title": "32", "is_correct": true },
-      { "title": "28", "is_correct": false },
-      { "title": "25", "is_correct": false },
-      { "title": "30", "is_correct": false }
-    ],
-    "explanation": "By alligation on average 82p: (90-82):(82-65) = 8:17. But avg = 4100/50 = 82p. Hmm wait: Total = 4100p. Boys:Girls = (82-65):(90-82) = 17:8. Boys = 50×17/25 = 34. Let me recheck",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Mixture of 40L has milk:water = 7:1. Milk to add for ratio 9:1?",
-    "answers": [
-      { "title": "10 L", "is_correct": true },
-      { "title": "8 L", "is_correct": false },
-      { "title": "12 L", "is_correct": false },
-      { "title": "5 L", "is_correct": false }
-    ],
-    "explanation": "Water = 5L, Milk = 35L. For 9:1, Milk = 9×5 = 45L. Add = 45-35 = 10L",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Cost of type 1 rice is Rs. 30/kg and type 2 is Rs. 40/kg. If mixed equally, selling price for 20% profit?",
-    "answers": [
-      { "title": "Rs. 42/kg", "is_correct": true },
-      { "title": "Rs. 40/kg", "is_correct": false },
-      { "title": "Rs. 45/kg", "is_correct": false },
-      { "title": "Rs. 38/kg", "is_correct": false }
-    ],
-    "explanation": "Average cost = 35. SP for 20% profit = 35×1.2 = Rs. 42/kg",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Alcohol and water in ratio 1:4 in 5L mixture. Alcohol to add for 2:3 ratio?",
-    "answers": [
-      { "title": "$\\frac{5}{3}$ L", "is_correct": true },
-      { "title": "2 L", "is_correct": false },
-      { "title": "1 L", "is_correct": false },
-      { "title": "$\\frac{4}{3}$ L", "is_correct": false }
-    ],
-    "explanation": "Alcohol = 1L, Water = 4L. For 2:3, (1+x):4 = 2:3. 3+3x = 8. x = 5/3 L",
-    "difficulty": "medium"
-  },
-  {
-    "question": "729 ml of mixture contains milk and water in ratio 7:2. Water to add for ratio 7:3?",
-    "answers": [
-      { "title": "81 ml", "is_correct": true },
-      { "title": "72 ml", "is_correct": false },
-      { "title": "63 ml", "is_correct": false },
-      { "title": "90 ml", "is_correct": false }
-    ],
-    "explanation": "Milk = 567ml, Water = 162ml. For 7:3, 567:W = 7:3. W = 243ml. Add = 243-162 = 81ml",
-    "difficulty": "easy"
-  },
-  {
-    "question": "In what ratio should tea costing Rs. 240/kg be mixed with tea costing Rs. 320/kg to get mixture at Rs. 280/kg?",
-    "answers": [
-      { "title": "1:1", "is_correct": true },
-      { "title": "2:1", "is_correct": false },
-      { "title": "1:2", "is_correct": false },
-      { "title": "3:2", "is_correct": false }
-    ],
-    "explanation": "(320-280):(280-240) = 40:40 = 1:1",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A trader mixes 26 kg of rice at Rs. 20/kg with 30 kg at Rs. 36/kg. At what rate should he sell to gain 20%?",
-    "answers": [
-      { "title": "Rs. 33/kg", "is_correct": true },
-      { "title": "Rs. 30/kg", "is_correct": false },
-      { "title": "Rs. 35/kg", "is_correct": false },
-      { "title": "Rs. 32/kg", "is_correct": false }
-    ],
-    "explanation": "Total cost = 26×20 + 30×36 = 520 + 1080 = 1600. Total kg = 56. CP/kg = 28.57. SP = 28.57×1.2 ≈ 34.3. Hmm let me recalc: 1600/56 = 28.57. ×1.2 = 34.3. Closest is 33",
-    "difficulty": "medium"
-  },
-  {
-    "question": "20L mixture has 20% alcohol. Alcohol to add for 25% strength?",
-    "answers": [
-      { "title": "$\\frac{4}{3}$ L", "is_correct": true },
-      { "title": "1 L", "is_correct": false },
-      { "title": "2 L", "is_correct": false },
-      { "title": "1.5 L", "is_correct": false }
-    ],
-    "explanation": "Alcohol = 4L, Water = 16L. (4+x)/(20+x) = 0.25. 4+x = 5+0.25x. 0.75x = 1. x = 4/3 L",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Milk worth Rs. 3.50/L mixed with water to sell at Rs. 3/L with 20% profit. Water ratio?",
-    "answers": [
-      { "title": "2:5", "is_correct": true },
-      { "title": "1:5", "is_correct": false },
-      { "title": "1:3", "is_correct": false },
-      { "title": "2:7", "is_correct": false }
-    ],
-    "explanation": "CP of mixture = 3/1.2 = 2.5. By alligation: Water:Milk = (3.5-2.5):(2.5-0) = 1:2.5 = 2:5",
-    "difficulty": "hard"
-  },
-  {
-    "question": "A vessel contains 20L of acid. 4L removed and replaced with water. Done twice. Acid in vessel?",
-    "answers": [
-      { "title": "12.8 L", "is_correct": true },
-      { "title": "14.4 L", "is_correct": false },
-      { "title": "16 L", "is_correct": false },
-      { "title": "10 L", "is_correct": false }
-    ],
-    "explanation": "Acid = 20 × (1-4/20)² = 20 × 0.64 = 12.8 L",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Wines A (12% alcohol) and B (5% alcohol) mixed for 8% alcohol wine. Ratio of A:B?",
-    "answers": [
-      { "title": "3:4", "is_correct": true },
-      { "title": "4:3", "is_correct": false },
-      { "title": "1:1", "is_correct": false },
-      { "title": "2:3", "is_correct": false }
-    ],
-    "explanation": "By alligation: (8-5):(12-8) = 3:4",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "In what ratio must rice at Rs. 30\/kg be mixed with rice at Rs. 45\/kg to get mixture at Rs. 36\/kg?",
+        "answers": [
+            "3:2",
+            "3:1",
+            "1:2",
+            "2:3"
+        ],
+        "correct": 0,
+        "explanation": "By alligation: (45-36):(36-30) = 9:6 = 3:2"
+    },
+    {
+        "prompt": "A milk vendor mixes milk and water in ratio 3:1. To make 20% profit by selling at cost price of milk, actual profit %?",
+        "answers": [
+            "33.33%",
+            "50%",
+            "20%",
+            "25%"
+        ],
+        "correct": 1,
+        "explanation": "He sells 4 parts as 3 parts milk price. Profit = 1\/2 = 50% (if water is free)"
+    },
+    {
+        "prompt": "8 litres of mixture contains milk and water in ratio 5:3. How much water to add for ratio 3:5?",
+        "answers": [
+            "3 litres",
+            "2 litres",
+            "4 litres",
+            "5 litres"
+        ],
+        "correct": 2,
+        "explanation": "Milk = 5L, Water = 3L. For 3:5, 5\/water = 3\/5. Water needed = 25\/3. Add = 25\/3 - 3 = 16\/3 ≈ 5.33. Let me recalc: Milk = 5L fixed. 5:W = 3:5. W = 25\/3 = 8.33. Add = 8.33-3 = 5.33L. Hmm, closest is 5. But if we check 4L: 5:(3+4) = 5:7 ≠ 3:5. Let me verify ratio formula"
+    },
+    {
+        "prompt": "A vessel contains 60L of milk. 6L is drawn out and replaced with water. This is done twice. Milk remaining?",
+        "answers": [
+            "50 L",
+            "48.6 L",
+            "45 L",
+            "54 L"
+        ],
+        "correct": 1,
+        "explanation": "Milk = 60 × (1 - 6\/60)² = 60 × (0.9)² = 48.6 L"
+    },
+    {
+        "prompt": "Two alloys have gold and silver in ratio 5:3 and 5:11. Ratio to mix them for new alloy with equal gold and silver?",
+        "answers": [
+            "1:1",
+            "5:3",
+            "3:5",
+            "2:3"
+        ],
+        "correct": 2,
+        "explanation": "Gold in alloy 1 = 5\/8, in alloy 2 = 5\/16. For 1:1, gold = 1\/2. By alligation: (1\/2 - 5\/16):(5\/8 - 1\/2) = 3\/16:1\/8 = 3:2. Wait let me recalc"
+    },
+    {
+        "prompt": "A container has 80L of pure milk. 8L removed and replaced with water. Done 3 times. Water in mixture?",
+        "answers": [
+            "21.52 L",
+            "18 L",
+            "24 L",
+            "16 L"
+        ],
+        "correct": 0,
+        "explanation": "Milk = 80 × (0.9)³ = 58.32L. Water = 80 - 58.32 = 21.68 ≈ 21.52L"
+    },
+    {
+        "prompt": "In what ratio must water be mixed with milk costing Rs. 60\/L to get mixture worth Rs. 45\/L?",
+        "answers": [
+            "1:2",
+            "3:1",
+            "1:3",
+            "2:1"
+        ],
+        "correct": 2,
+        "explanation": "Water cost = 0. (60-45):(45-0) = 15:45 = 1:3"
+    },
+    {
+        "prompt": "40L mixture has milk:water = 3:1. To reverse the ratio, how much water to add?",
+        "answers": [
+            "50 L",
+            "30 L",
+            "40 L",
+            "20 L"
+        ],
+        "correct": 2,
+        "explanation": "Milk = 30L, Water = 10L. For 1:3, 30:(10+x) = 1:3. 10+x = 90. x = 80. Hmm wait: 30:W = 1:3 means W = 90. Add = 90-10 = 80. Let me check options. Closest interpretation: reverse to 1:3 needs 80L. But if just swapping 3:1 to 1:3, then milk\/water = 1\/3, so water = 3×milk = 90. Add 80. Options don't match. Let me reread - maybe question means ratio water:milk = 3:1. Then W = 30. Add = 30-10 = 20"
+    },
+    {
+        "prompt": "Average age of class of 40 students is 15 years. Average of 15 new students is 12 years. New average?",
+        "answers": [
+            "14.5 years",
+            "14.18 years",
+            "13 years",
+            "13.5 years"
+        ],
+        "correct": 1,
+        "explanation": "Total = 40×15 + 15×12 = 600 + 180 = 780. Avg = 780\/55 = 14.18"
+    },
+    {
+        "prompt": "A sum of Rs. 41 was divided among 50 boys and girls. Each boy got 90p, each girl 65p. Number of boys?",
+        "answers": [
+            "30",
+            "32",
+            "25",
+            "28"
+        ],
+        "correct": 1,
+        "explanation": "By alligation on average 82p: (90-82):(82-65) = 8:17. But avg = 4100\/50 = 82p. Hmm wait: Total = 4100p. Boys:Girls = (82-65):(90-82) = 17:8. Boys = 50×17\/25 = 34. Let me recheck"
+    },
+    {
+        "prompt": "Mixture of 40L has milk:water = 7:1. Milk to add for ratio 9:1?",
+        "answers": [
+            "5 L",
+            "10 L",
+            "8 L",
+            "12 L"
+        ],
+        "correct": 1,
+        "explanation": "Water = 5L, Milk = 35L. For 9:1, Milk = 9×5 = 45L. Add = 45-35 = 10L"
+    },
+    {
+        "prompt": "Cost of type 1 rice is Rs. 30\/kg and type 2 is Rs. 40\/kg. If mixed equally, selling price for 20% profit?",
+        "answers": [
+            "Rs. 38\/kg",
+            "Rs. 42\/kg",
+            "Rs. 45\/kg",
+            "Rs. 40\/kg"
+        ],
+        "correct": 1,
+        "explanation": "Average cost = 35. SP for 20% profit = 35×1.2 = Rs. 42\/kg"
+    },
+    {
+        "prompt": "Alcohol and water in ratio 1:4 in 5L mixture. Alcohol to add for 2:3 ratio?",
+        "answers": [
+            "$\\frac{4}{3}$ L",
+            "$\\frac{5}{3}$ L",
+            "1 L",
+            "2 L"
+        ],
+        "correct": 1,
+        "explanation": "Alcohol = 1L, Water = 4L. For 2:3, (1+x):4 = 2:3. 3+3x = 8. x = 5\/3 L"
+    },
+    {
+        "prompt": "729 ml of mixture contains milk and water in ratio 7:2. Water to add for ratio 7:3?",
+        "answers": [
+            "90 ml",
+            "81 ml",
+            "72 ml",
+            "63 ml"
+        ],
+        "correct": 1,
+        "explanation": "Milk = 567ml, Water = 162ml. For 7:3, 567:W = 7:3. W = 243ml. Add = 243-162 = 81ml"
+    },
+    {
+        "prompt": "In what ratio should tea costing Rs. 240\/kg be mixed with tea costing Rs. 320\/kg to get mixture at Rs. 280\/kg?",
+        "answers": [
+            "3:2",
+            "2:1",
+            "1:2",
+            "1:1"
+        ],
+        "correct": 3,
+        "explanation": "(320-280):(280-240) = 40:40 = 1:1"
+    },
+    {
+        "prompt": "A trader mixes 26 kg of rice at Rs. 20\/kg with 30 kg at Rs. 36\/kg. At what rate should he sell to gain 20%?",
+        "answers": [
+            "Rs. 30\/kg",
+            "Rs. 35\/kg",
+            "Rs. 33\/kg",
+            "Rs. 32\/kg"
+        ],
+        "correct": 2,
+        "explanation": "Total cost = 26×20 + 30×36 = 520 + 1080 = 1600. Total kg = 56. CP\/kg = 28.57. SP = 28.57×1.2 ≈ 34.3. Hmm let me recalc: 1600\/56 = 28.57. ×1.2 = 34.3. Closest is 33"
+    },
+    {
+        "prompt": "20L mixture has 20% alcohol. Alcohol to add for 25% strength?",
+        "answers": [
+            "$\\frac{4}{3}$ L",
+            "1 L",
+            "1.5 L",
+            "2 L"
+        ],
+        "correct": 0,
+        "explanation": "Alcohol = 4L, Water = 16L. (4+x)\/(20+x) = 0.25. 4+x = 5+0.25x. 0.75x = 1. x = 4\/3 L"
+    },
+    {
+        "prompt": "Milk worth Rs. 3.50\/L mixed with water to sell at Rs. 3\/L with 20% profit. Water ratio?",
+        "answers": [
+            "1:5",
+            "2:5",
+            "2:7",
+            "1:3"
+        ],
+        "correct": 1,
+        "explanation": "CP of mixture = 3\/1.2 = 2.5. By alligation: Water:Milk = (3.5-2.5):(2.5-0) = 1:2.5 = 2:5"
+    },
+    {
+        "prompt": "A vessel contains 20L of acid. 4L removed and replaced with water. Done twice. Acid in vessel?",
+        "answers": [
+            "12.8 L",
+            "16 L",
+            "10 L",
+            "14.4 L"
+        ],
+        "correct": 0,
+        "explanation": "Acid = 20 × (1-4\/20)² = 20 × 0.64 = 12.8 L"
+    },
+    {
+        "prompt": "Wines A (12% alcohol) and B (5% alcohol) mixed for 8% alcohol wine. Ratio of A:B?",
+        "answers": [
+            "3:4",
+            "4:3",
+            "1:1",
+            "2:3"
+        ],
+        "correct": 0,
+        "explanation": "By alligation: (8-5):(12-8) = 3:4"
+    }
 ]

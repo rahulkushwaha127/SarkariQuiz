@@ -1,222 +1,222 @@
 [
-  {
-    "question": "If 40% of a number is 200, what is the number?",
-    "answers": [
-      { "title": "400", "is_correct": false },
-      { "title": "500", "is_correct": true },
-      { "title": "600", "is_correct": false },
-      { "title": "800", "is_correct": false }
-    ],
-    "explanation": "Let x be the number. 40% of x = 200 → x = 200/0.4 = 500",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A number is increased by 25% and then decreased by 20%. What is the net percentage change?",
-    "answers": [
-      { "title": "5% increase", "is_correct": false },
-      { "title": "No change", "is_correct": true },
-      { "title": "5% decrease", "is_correct": false },
-      { "title": "10% increase", "is_correct": false }
-    ],
-    "explanation": "Net = 25 - 20 - (25×20)/100 = 25 - 20 - 5 = 0%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "In an election, one candidate got 55% of valid votes. 20% votes were invalid. Total votes = 7500. Valid votes for the other candidate?",
-    "answers": [
-      { "title": "2700", "is_correct": true },
-      { "title": "2900", "is_correct": false },
-      { "title": "3000", "is_correct": false },
-      { "title": "3100", "is_correct": false }
-    ],
-    "explanation": "Valid = 80% of 7500 = 6000. Other = 45% of 6000 = 2700",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If price increases by 20%, by what % must consumption decrease to keep expenditure same?",
-    "answers": [
-      { "title": "$16\\frac{2}{3}\\%$", "is_correct": true },
-      { "title": "20%", "is_correct": false },
-      { "title": "15%", "is_correct": false },
-      { "title": "25%", "is_correct": false }
-    ],
-    "explanation": "Reduction = (20/120) × 100 = 16.67%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Two numbers are 20% and 50% more than a third number. Their ratio is:",
-    "answers": [
-      { "title": "2:5", "is_correct": false },
-      { "title": "3:5", "is_correct": false },
-      { "title": "4:5", "is_correct": true },
-      { "title": "5:4", "is_correct": false }
-    ],
-    "explanation": "If third = 100, first = 120, second = 150. Ratio = 120:150 = 4:5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is 15% of 15% of 1500?",
-    "answers": [
-      { "title": "33.75", "is_correct": true },
-      { "title": "22.50", "is_correct": false },
-      { "title": "45.00", "is_correct": false },
-      { "title": "37.50", "is_correct": false }
-    ],
-    "explanation": "15% of 1500 = 225. 15% of 225 = 33.75",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A's salary is 20% less than B's. By what % is B's salary more than A's?",
-    "answers": [
-      { "title": "20%", "is_correct": false },
-      { "title": "25%", "is_correct": true },
-      { "title": "30%", "is_correct": false },
-      { "title": "22%", "is_correct": false }
-    ],
-    "explanation": "If B = 100, A = 80. B is more by (20/80)×100 = 25%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "The population of a town increases by 10% annually. If present population is 22000, what was it 2 years ago?",
-    "answers": [
-      { "title": "18000", "is_correct": false },
-      { "title": "18150", "is_correct": false },
-      { "title": "18181", "is_correct": true },
-      { "title": "19000", "is_correct": false }
-    ],
-    "explanation": "P = 22000/(1.1)² = 22000/1.21 = 18181 (approx)",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If 60% of A = 40% of B, then A:B = ?",
-    "answers": [
-      { "title": "2:3", "is_correct": true },
-      { "title": "3:2", "is_correct": false },
-      { "title": "4:5", "is_correct": false },
-      { "title": "5:4", "is_correct": false }
-    ],
-    "explanation": "0.6A = 0.4B → A/B = 0.4/0.6 = 2/3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A student scores 60% marks and fails by 20 marks. Pass marks = 50%. Total marks?",
-    "answers": [
-      { "title": "200", "is_correct": true },
-      { "title": "250", "is_correct": false },
-      { "title": "300", "is_correct": false },
-      { "title": "180", "is_correct": false }
-    ],
-    "explanation": "60% - 50% = 10% = 20 marks. Total = 200",
-    "difficulty": "medium"
-  },
-  {
-    "question": "30% of x = 25% of y. If x + y = 110, find x.",
-    "answers": [
-      { "title": "50", "is_correct": true },
-      { "title": "55", "is_correct": false },
-      { "title": "60", "is_correct": false },
-      { "title": "45", "is_correct": false }
-    ],
-    "explanation": "0.3x = 0.25y → y = 1.2x. x + 1.2x = 110 → x = 50",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If A is 20% more than B, B is 25% less than C. A is what % of C?",
-    "answers": [
-      { "title": "90%", "is_correct": true },
-      { "title": "95%", "is_correct": false },
-      { "title": "85%", "is_correct": false },
-      { "title": "100%", "is_correct": false }
-    ],
-    "explanation": "B = 0.75C, A = 1.2B = 1.2×0.75C = 0.9C = 90%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Price of sugar decreases by 25%. How much more sugar can be bought for Rs. 100?",
-    "answers": [
-      { "title": "25% more", "is_correct": false },
-      { "title": "33.33% more", "is_correct": true },
-      { "title": "30% more", "is_correct": false },
-      { "title": "20% more", "is_correct": false }
-    ],
-    "explanation": "More quantity = 25/(100-25) × 100 = 33.33%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "In exam, 35% students failed in Hindi, 45% in English, 20% in both. What % passed in both?",
-    "answers": [
-      { "title": "40%", "is_correct": true },
-      { "title": "50%", "is_correct": false },
-      { "title": "60%", "is_correct": false },
-      { "title": "35%", "is_correct": false }
-    ],
-    "explanation": "Failed in at least one = 35 + 45 - 20 = 60%. Passed = 40%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A man spends 75% of income. Income increases by 20%, expenses by 10%. Savings increase by?",
-    "answers": [
-      { "title": "50%", "is_correct": true },
-      { "title": "40%", "is_correct": false },
-      { "title": "25%", "is_correct": false },
-      { "title": "35%", "is_correct": false }
-    ],
-    "explanation": "Let income = 100, expense = 75, savings = 25. New: income = 120, expense = 82.5, savings = 37.5. Increase = 50%",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What % of 1/7 is 1/35?",
-    "answers": [
-      { "title": "20%", "is_correct": true },
-      { "title": "25%", "is_correct": false },
-      { "title": "14.28%", "is_correct": false },
-      { "title": "35%", "is_correct": false }
-    ],
-    "explanation": "(1/35)/(1/7) × 100 = 7/35 × 100 = 20%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If 75% of a number is added to 75, the result is the number itself. The number is?",
-    "answers": [
-      { "title": "300", "is_correct": true },
-      { "title": "250", "is_correct": false },
-      { "title": "400", "is_correct": false },
-      { "title": "350", "is_correct": false }
-    ],
-    "explanation": "0.75x + 75 = x → 0.25x = 75 → x = 300",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Two successive discounts of 20% and 10% are equivalent to a single discount of?",
-    "answers": [
-      { "title": "28%", "is_correct": true },
-      { "title": "30%", "is_correct": false },
-      { "title": "25%", "is_correct": false },
-      { "title": "32%", "is_correct": false }
-    ],
-    "explanation": "Equivalent = 20 + 10 - (20×10)/100 = 28%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A number when increased by 20% becomes 300. The original number is?",
-    "answers": [
-      { "title": "250", "is_correct": true },
-      { "title": "240", "is_correct": false },
-      { "title": "260", "is_correct": false },
-      { "title": "280", "is_correct": false }
-    ],
-    "explanation": "x × 1.2 = 300 → x = 250",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Fresh grapes contain 80% water. Dry grapes contain 10% water. How much dry grapes from 20 kg fresh?",
-    "answers": [
-      { "title": "4.44 kg", "is_correct": true },
-      { "title": "5 kg", "is_correct": false },
-      { "title": "4 kg", "is_correct": false },
-      { "title": "6 kg", "is_correct": false }
-    ],
-    "explanation": "Dry matter = 20% of 20 = 4 kg = 90% of dry grapes. Dry = 4/0.9 = 4.44 kg",
-    "difficulty": "hard"
-  }
+    {
+        "prompt": "If 40% of a number is 200, what is the number?",
+        "answers": [
+            "600",
+            "800",
+            "400",
+            "500"
+        ],
+        "correct": 3,
+        "explanation": "Let x be the number. 40% of x = 200 → x = 200\/0.4 = 500"
+    },
+    {
+        "prompt": "A number is increased by 25% and then decreased by 20%. What is the net percentage change?",
+        "answers": [
+            "No change",
+            "5% increase",
+            "10% increase",
+            "5% decrease"
+        ],
+        "correct": 0,
+        "explanation": "Net = 25 - 20 - (25×20)\/100 = 25 - 20 - 5 = 0%"
+    },
+    {
+        "prompt": "In an election, one candidate got 55% of valid votes. 20% votes were invalid. Total votes = 7500. Valid votes for the other candidate?",
+        "answers": [
+            "3100",
+            "2700",
+            "3000",
+            "2900"
+        ],
+        "correct": 1,
+        "explanation": "Valid = 80% of 7500 = 6000. Other = 45% of 6000 = 2700"
+    },
+    {
+        "prompt": "If price increases by 20%, by what % must consumption decrease to keep expenditure same?",
+        "answers": [
+            "25%",
+            "$16\\frac{2}{3}\\%$",
+            "15%",
+            "20%"
+        ],
+        "correct": 1,
+        "explanation": "Reduction = (20\/120) × 100 = 16.67%"
+    },
+    {
+        "prompt": "Two numbers are 20% and 50% more than a third number. Their ratio is:",
+        "answers": [
+            "4:5",
+            "3:5",
+            "5:4",
+            "2:5"
+        ],
+        "correct": 0,
+        "explanation": "If third = 100, first = 120, second = 150. Ratio = 120:150 = 4:5"
+    },
+    {
+        "prompt": "What is 15% of 15% of 1500?",
+        "answers": [
+            "33.75",
+            "37.50",
+            "45.00",
+            "22.50"
+        ],
+        "correct": 0,
+        "explanation": "15% of 1500 = 225. 15% of 225 = 33.75"
+    },
+    {
+        "prompt": "A's salary is 20% less than B's. By what % is B's salary more than A's?",
+        "answers": [
+            "30%",
+            "25%",
+            "20%",
+            "22%"
+        ],
+        "correct": 1,
+        "explanation": "If B = 100, A = 80. B is more by (20\/80)×100 = 25%"
+    },
+    {
+        "prompt": "The population of a town increases by 10% annually. If present population is 22000, what was it 2 years ago?",
+        "answers": [
+            "18181",
+            "18000",
+            "19000",
+            "18150"
+        ],
+        "correct": 0,
+        "explanation": "P = 22000\/(1.1)² = 22000\/1.21 = 18181 (approx)"
+    },
+    {
+        "prompt": "If 60% of A = 40% of B, then A:B = ?",
+        "answers": [
+            "3:2",
+            "4:5",
+            "2:3",
+            "5:4"
+        ],
+        "correct": 2,
+        "explanation": "0.6A = 0.4B → A\/B = 0.4\/0.6 = 2\/3"
+    },
+    {
+        "prompt": "A student scores 60% marks and fails by 20 marks. Pass marks = 50%. Total marks?",
+        "answers": [
+            "180",
+            "200",
+            "250",
+            "300"
+        ],
+        "correct": 1,
+        "explanation": "60% - 50% = 10% = 20 marks. Total = 200"
+    },
+    {
+        "prompt": "30% of x = 25% of y. If x + y = 110, find x.",
+        "answers": [
+            "60",
+            "45",
+            "50",
+            "55"
+        ],
+        "correct": 2,
+        "explanation": "0.3x = 0.25y → y = 1.2x. x + 1.2x = 110 → x = 50"
+    },
+    {
+        "prompt": "If A is 20% more than B, B is 25% less than C. A is what % of C?",
+        "answers": [
+            "95%",
+            "85%",
+            "100%",
+            "90%"
+        ],
+        "correct": 3,
+        "explanation": "B = 0.75C, A = 1.2B = 1.2×0.75C = 0.9C = 90%"
+    },
+    {
+        "prompt": "Price of sugar decreases by 25%. How much more sugar can be bought for Rs. 100?",
+        "answers": [
+            "20% more",
+            "33.33% more",
+            "25% more",
+            "30% more"
+        ],
+        "correct": 1,
+        "explanation": "More quantity = 25\/(100-25) × 100 = 33.33%"
+    },
+    {
+        "prompt": "In exam, 35% students failed in Hindi, 45% in English, 20% in both. What % passed in both?",
+        "answers": [
+            "35%",
+            "40%",
+            "50%",
+            "60%"
+        ],
+        "correct": 1,
+        "explanation": "Failed in at least one = 35 + 45 - 20 = 60%. Passed = 40%"
+    },
+    {
+        "prompt": "A man spends 75% of income. Income increases by 20%, expenses by 10%. Savings increase by?",
+        "answers": [
+            "50%",
+            "35%",
+            "25%",
+            "40%"
+        ],
+        "correct": 0,
+        "explanation": "Let income = 100, expense = 75, savings = 25. New: income = 120, expense = 82.5, savings = 37.5. Increase = 50%"
+    },
+    {
+        "prompt": "What % of 1\/7 is 1\/35?",
+        "answers": [
+            "25%",
+            "14.28%",
+            "20%",
+            "35%"
+        ],
+        "correct": 2,
+        "explanation": "(1\/35)\/(1\/7) × 100 = 7\/35 × 100 = 20%"
+    },
+    {
+        "prompt": "If 75% of a number is added to 75, the result is the number itself. The number is?",
+        "answers": [
+            "250",
+            "400",
+            "300",
+            "350"
+        ],
+        "correct": 2,
+        "explanation": "0.75x + 75 = x → 0.25x = 75 → x = 300"
+    },
+    {
+        "prompt": "Two successive discounts of 20% and 10% are equivalent to a single discount of?",
+        "answers": [
+            "32%",
+            "28%",
+            "30%",
+            "25%"
+        ],
+        "correct": 1,
+        "explanation": "Equivalent = 20 + 10 - (20×10)\/100 = 28%"
+    },
+    {
+        "prompt": "A number when increased by 20% becomes 300. The original number is?",
+        "answers": [
+            "240",
+            "250",
+            "280",
+            "260"
+        ],
+        "correct": 1,
+        "explanation": "x × 1.2 = 300 → x = 250"
+    },
+    {
+        "prompt": "Fresh grapes contain 80% water. Dry grapes contain 10% water. How much dry grapes from 20 kg fresh?",
+        "answers": [
+            "5 kg",
+            "4.44 kg",
+            "4 kg",
+            "6 kg"
+        ],
+        "correct": 1,
+        "explanation": "Dry matter = 20% of 20 = 4 kg = 90% of dry grapes. Dry = 4\/0.9 = 4.44 kg"
+    }
 ]

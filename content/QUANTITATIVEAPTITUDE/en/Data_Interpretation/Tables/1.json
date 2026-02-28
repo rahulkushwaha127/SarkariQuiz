@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Study the table:\n<table><tr><th>Year</th><th>Sales (Cr)</th><th>Profit (Cr)</th></tr><tr><td>2018</td><td>450</td><td>45</td></tr><tr><td>2019</td><td>500</td><td>60</td></tr><tr><td>2020</td><td>420</td><td>42</td></tr><tr><td>2021</td><td>550</td><td>77</td></tr><tr><td>2022</td><td>600</td><td>90</td></tr></table>\n\nIn which year was the profit percentage highest?",
-    "answers": [
-      { "title": "2021", "is_correct": true },
-      { "title": "2022", "is_correct": false },
-      { "title": "2019", "is_correct": false },
-      { "title": "2018", "is_correct": false }
-    ],
-    "explanation": "2018: 10%, 2019: 12%, 2020: 10%, 2021: 14%, 2022: 15%. Highest = 2022. Wait: 77/550 = 14%, 90/600 = 15%. Answer should be 2022",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Year</th><th>Sales (Cr)</th><th>Profit (Cr)</th></tr><tr><td>2018</td><td>450</td><td>45</td></tr><tr><td>2019</td><td>500</td><td>60</td></tr><tr><td>2020</td><td>420</td><td>42</td></tr><tr><td>2021</td><td>550</td><td>77</td></tr><tr><td>2022</td><td>600</td><td>90</td></tr></table>\n\nWhat is the average profit over all years?",
-    "answers": [
-      { "title": "Rs. 62.8 Cr", "is_correct": true },
-      { "title": "Rs. 65 Cr", "is_correct": false },
-      { "title": "Rs. 70 Cr", "is_correct": false },
-      { "title": "Rs. 58 Cr", "is_correct": false }
-    ],
-    "explanation": "Total profit = 45+60+42+77+90 = 314. Avg = 314/5 = 62.8 Cr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Year</th><th>Sales (Cr)</th><th>Profit (Cr)</th></tr><tr><td>2018</td><td>450</td><td>45</td></tr><tr><td>2019</td><td>500</td><td>60</td></tr><tr><td>2020</td><td>420</td><td>42</td></tr><tr><td>2021</td><td>550</td><td>77</td></tr><tr><td>2022</td><td>600</td><td>90</td></tr></table>\n\nWhat is the percentage increase in sales from 2018 to 2022?",
-    "answers": [
-      { "title": "33.33%", "is_correct": true },
-      { "title": "25%", "is_correct": false },
-      { "title": "40%", "is_correct": false },
-      { "title": "50%", "is_correct": false }
-    ],
-    "explanation": "Increase = (600-450)/450 × 100 = 33.33%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Product</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr><tr><td>A</td><td>120</td><td>150</td><td>180</td><td>200</td></tr><tr><td>B</td><td>80</td><td>100</td><td>90</td><td>130</td></tr><tr><td>C</td><td>200</td><td>180</td><td>220</td><td>240</td></tr></table>\n\nWhich product showed consistent growth across all quarters?",
-    "answers": [
-      { "title": "A", "is_correct": true },
-      { "title": "B", "is_correct": false },
-      { "title": "C", "is_correct": false },
-      { "title": "None", "is_correct": false }
-    ],
-    "explanation": "A: 120→150→180→200 (↑↑↑). B: 80→100→90→130 (↑↓↑). C: 200→180→220→240 (↓↑↑). Only A shows consistent growth",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Product</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr><tr><td>A</td><td>120</td><td>150</td><td>180</td><td>200</td></tr><tr><td>B</td><td>80</td><td>100</td><td>90</td><td>130</td></tr><tr><td>C</td><td>200</td><td>180</td><td>220</td><td>240</td></tr></table>\n\nTotal sales of all products in Q3?",
-    "answers": [
-      { "title": "490", "is_correct": true },
-      { "title": "480", "is_correct": false },
-      { "title": "500", "is_correct": false },
-      { "title": "470", "is_correct": false }
-    ],
-    "explanation": "Q3: 180 + 90 + 220 = 490",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>City</th><th>Population (lakhs)</th><th>Literacy Rate (%)</th></tr><tr><td>Delhi</td><td>190</td><td>86</td></tr><tr><td>Mumbai</td><td>210</td><td>89</td></tr><tr><td>Kolkata</td><td>145</td><td>87</td></tr><tr><td>Chennai</td><td>110</td><td>90</td></tr><tr><td>Bangalore</td><td>125</td><td>88</td></tr></table>\n\nWhich city has highest number of literate people?",
-    "answers": [
-      { "title": "Mumbai", "is_correct": true },
-      { "title": "Delhi", "is_correct": false },
-      { "title": "Chennai", "is_correct": false },
-      { "title": "Bangalore", "is_correct": false }
-    ],
-    "explanation": "Delhi: 163.4L, Mumbai: 186.9L, Kolkata: 126.15L, Chennai: 99L, Bangalore: 110L. Mumbai highest",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>City</th><th>Population (lakhs)</th><th>Literacy Rate (%)</th></tr><tr><td>Delhi</td><td>190</td><td>86</td></tr><tr><td>Mumbai</td><td>210</td><td>89</td></tr><tr><td>Kolkata</td><td>145</td><td>87</td></tr><tr><td>Chennai</td><td>110</td><td>90</td></tr><tr><td>Bangalore</td><td>125</td><td>88</td></tr></table>\n\nWhat is the average literacy rate across all cities?",
-    "answers": [
-      { "title": "88%", "is_correct": true },
-      { "title": "87%", "is_correct": false },
-      { "title": "89%", "is_correct": false },
-      { "title": "86%", "is_correct": false }
-    ],
-    "explanation": "Sum = 86+89+87+90+88 = 440. Avg = 88%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Month</th><th>Rainfall (mm)</th></tr><tr><td>Jan</td><td>15</td></tr><tr><td>Feb</td><td>12</td></tr><tr><td>Mar</td><td>8</td></tr><tr><td>Apr</td><td>5</td></tr><tr><td>May</td><td>18</td></tr><tr><td>Jun</td><td>250</td></tr></table>\n\nRainfall in June is what % of first 5 months combined?",
-    "answers": [
-      { "title": "431%", "is_correct": true },
-      { "title": "350%", "is_correct": false },
-      { "title": "500%", "is_correct": false },
-      { "title": "400%", "is_correct": false }
-    ],
-    "explanation": "First 5 = 15+12+8+5+18 = 58. June% = 250/58 × 100 = 431%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Subject</th><th>Max Marks</th><th>Marks Obtained</th></tr><tr><td>Maths</td><td>100</td><td>85</td></tr><tr><td>Science</td><td>100</td><td>78</td></tr><tr><td>English</td><td>100</td><td>92</td></tr><tr><td>Hindi</td><td>100</td><td>88</td></tr><tr><td>SST</td><td>100</td><td>75</td></tr></table>\n\nOverall percentage?",
-    "answers": [
-      { "title": "83.6%", "is_correct": true },
-      { "title": "85%", "is_correct": false },
-      { "title": "80%", "is_correct": false },
-      { "title": "82%", "is_correct": false }
-    ],
-    "explanation": "Total = 85+78+92+88+75 = 418. % = 418/500 × 100 = 83.6%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Item</th><th>2020 Price</th><th>2021 Price</th></tr><tr><td>Rice</td><td>40</td><td>45</td></tr><tr><td>Wheat</td><td>30</td><td>36</td></tr><tr><td>Dal</td><td>80</td><td>88</td></tr><tr><td>Sugar</td><td>35</td><td>42</td></tr></table>\n\nWhich item showed highest % price increase?",
-    "answers": [
-      { "title": "Wheat", "is_correct": true },
-      { "title": "Sugar", "is_correct": false },
-      { "title": "Rice", "is_correct": false },
-      { "title": "Dal", "is_correct": false }
-    ],
-    "explanation": "Rice: 12.5%, Wheat: 20%, Dal: 10%, Sugar: 20%. Both Wheat and Sugar = 20%. Wheat comes first",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Company</th><th>Revenue (Cr)</th><th>Employees</th></tr><tr><td>A</td><td>500</td><td>1000</td></tr><tr><td>B</td><td>450</td><td>750</td></tr><tr><td>C</td><td>600</td><td>1500</td></tr><tr><td>D</td><td>800</td><td>2000</td></tr></table>\n\nWhich company has highest revenue per employee?",
-    "answers": [
-      { "title": "B", "is_correct": true },
-      { "title": "A", "is_correct": false },
-      { "title": "C", "is_correct": false },
-      { "title": "D", "is_correct": false }
-    ],
-    "explanation": "A: 0.5 Cr, B: 0.6 Cr, C: 0.4 Cr, D: 0.4 Cr. B highest",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Year</th><th>Import</th><th>Export</th></tr><tr><td>2018</td><td>350</td><td>280</td></tr><tr><td>2019</td><td>400</td><td>350</td></tr><tr><td>2020</td><td>380</td><td>320</td></tr><tr><td>2021</td><td>450</td><td>420</td></tr></table>\n\nIn which year was trade deficit minimum?",
-    "answers": [
-      { "title": "2021", "is_correct": true },
-      { "title": "2019", "is_correct": false },
-      { "title": "2020", "is_correct": false },
-      { "title": "2018", "is_correct": false }
-    ],
-    "explanation": "Deficit = Import - Export. 2018: 70, 2019: 50, 2020: 60, 2021: 30. Minimum in 2021",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Year</th><th>Import</th><th>Export</th></tr><tr><td>2018</td><td>350</td><td>280</td></tr><tr><td>2019</td><td>400</td><td>350</td></tr><tr><td>2020</td><td>380</td><td>320</td></tr><tr><td>2021</td><td>450</td><td>420</td></tr></table>\n\nAverage export over all years?",
-    "answers": [
-      { "title": "342.5", "is_correct": true },
-      { "title": "350", "is_correct": false },
-      { "title": "340", "is_correct": false },
-      { "title": "330", "is_correct": false }
-    ],
-    "explanation": "Export sum = 280+350+320+420 = 1370. Avg = 342.5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Student</th><th>Maths</th><th>Physics</th><th>Chemistry</th></tr><tr><td>A</td><td>85</td><td>78</td><td>82</td></tr><tr><td>B</td><td>90</td><td>88</td><td>85</td></tr><tr><td>C</td><td>75</td><td>80</td><td>78</td></tr><tr><td>D</td><td>92</td><td>75</td><td>88</td></tr></table>\n\nWho has highest total marks?",
-    "answers": [
-      { "title": "B", "is_correct": true },
-      { "title": "D", "is_correct": false },
-      { "title": "A", "is_correct": false },
-      { "title": "C", "is_correct": false }
-    ],
-    "explanation": "A: 245, B: 263, C: 233, D: 255. B highest",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the table:\n<table><tr><th>Shop</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th></tr><tr><td>A</td><td>150</td><td>180</td><td>200</td><td>170</td><td>220</td></tr><tr><td>B</td><td>200</td><td>210</td><td>180</td><td>230</td><td>250</td></tr></table>\n\nOn which day was combined sale highest?",
-    "answers": [
-      { "title": "Friday", "is_correct": true },
-      { "title": "Thursday", "is_correct": false },
-      { "title": "Tuesday", "is_correct": false },
-      { "title": "Wednesday", "is_correct": false }
-    ],
-    "explanation": "Mon: 350, Tue: 390, Wed: 380, Thu: 400, Fri: 470. Friday highest",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Study the table:\n<table><tr><th>Year<\/th><th>Sales (Cr)<\/th><th>Profit (Cr)<\/th><\/tr><tr><td>2018<\/td><td>450<\/td><td>45<\/td><\/tr><tr><td>2019<\/td><td>500<\/td><td>60<\/td><\/tr><tr><td>2020<\/td><td>420<\/td><td>42<\/td><\/tr><tr><td>2021<\/td><td>550<\/td><td>77<\/td><\/tr><tr><td>2022<\/td><td>600<\/td><td>90<\/td><\/tr><\/table>\n\nIn which year was the profit percentage highest?",
+        "answers": [
+            "2019",
+            "2018",
+            "2021",
+            "2022"
+        ],
+        "correct": 2,
+        "explanation": "2018: 10%, 2019: 12%, 2020: 10%, 2021: 14%, 2022: 15%. Highest = 2022. Wait: 77\/550 = 14%, 90\/600 = 15%. Answer should be 2022"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Year<\/th><th>Sales (Cr)<\/th><th>Profit (Cr)<\/th><\/tr><tr><td>2018<\/td><td>450<\/td><td>45<\/td><\/tr><tr><td>2019<\/td><td>500<\/td><td>60<\/td><\/tr><tr><td>2020<\/td><td>420<\/td><td>42<\/td><\/tr><tr><td>2021<\/td><td>550<\/td><td>77<\/td><\/tr><tr><td>2022<\/td><td>600<\/td><td>90<\/td><\/tr><\/table>\n\nWhat is the average profit over all years?",
+        "answers": [
+            "Rs. 58 Cr",
+            "Rs. 62.8 Cr",
+            "Rs. 65 Cr",
+            "Rs. 70 Cr"
+        ],
+        "correct": 1,
+        "explanation": "Total profit = 45+60+42+77+90 = 314. Avg = 314\/5 = 62.8 Cr"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Year<\/th><th>Sales (Cr)<\/th><th>Profit (Cr)<\/th><\/tr><tr><td>2018<\/td><td>450<\/td><td>45<\/td><\/tr><tr><td>2019<\/td><td>500<\/td><td>60<\/td><\/tr><tr><td>2020<\/td><td>420<\/td><td>42<\/td><\/tr><tr><td>2021<\/td><td>550<\/td><td>77<\/td><\/tr><tr><td>2022<\/td><td>600<\/td><td>90<\/td><\/tr><\/table>\n\nWhat is the percentage increase in sales from 2018 to 2022?",
+        "answers": [
+            "33.33%",
+            "25%",
+            "40%",
+            "50%"
+        ],
+        "correct": 0,
+        "explanation": "Increase = (600-450)\/450 × 100 = 33.33%"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Product<\/th><th>Q1<\/th><th>Q2<\/th><th>Q3<\/th><th>Q4<\/th><\/tr><tr><td>A<\/td><td>120<\/td><td>150<\/td><td>180<\/td><td>200<\/td><\/tr><tr><td>B<\/td><td>80<\/td><td>100<\/td><td>90<\/td><td>130<\/td><\/tr><tr><td>C<\/td><td>200<\/td><td>180<\/td><td>220<\/td><td>240<\/td><\/tr><\/table>\n\nWhich product showed consistent growth across all quarters?",
+        "answers": [
+            "None",
+            "A",
+            "B",
+            "C"
+        ],
+        "correct": 1,
+        "explanation": "A: 120→150→180→200 (↑↑↑). B: 80→100→90→130 (↑↓↑). C: 200→180→220→240 (↓↑↑). Only A shows consistent growth"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Product<\/th><th>Q1<\/th><th>Q2<\/th><th>Q3<\/th><th>Q4<\/th><\/tr><tr><td>A<\/td><td>120<\/td><td>150<\/td><td>180<\/td><td>200<\/td><\/tr><tr><td>B<\/td><td>80<\/td><td>100<\/td><td>90<\/td><td>130<\/td><\/tr><tr><td>C<\/td><td>200<\/td><td>180<\/td><td>220<\/td><td>240<\/td><\/tr><\/table>\n\nTotal sales of all products in Q3?",
+        "answers": [
+            "480",
+            "500",
+            "490",
+            "470"
+        ],
+        "correct": 2,
+        "explanation": "Q3: 180 + 90 + 220 = 490"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>City<\/th><th>Population (lakhs)<\/th><th>Literacy Rate (%)<\/th><\/tr><tr><td>Delhi<\/td><td>190<\/td><td>86<\/td><\/tr><tr><td>Mumbai<\/td><td>210<\/td><td>89<\/td><\/tr><tr><td>Kolkata<\/td><td>145<\/td><td>87<\/td><\/tr><tr><td>Chennai<\/td><td>110<\/td><td>90<\/td><\/tr><tr><td>Bangalore<\/td><td>125<\/td><td>88<\/td><\/tr><\/table>\n\nWhich city has highest number of literate people?",
+        "answers": [
+            "Bangalore",
+            "Mumbai",
+            "Chennai",
+            "Delhi"
+        ],
+        "correct": 1,
+        "explanation": "Delhi: 163.4L, Mumbai: 186.9L, Kolkata: 126.15L, Chennai: 99L, Bangalore: 110L. Mumbai highest"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>City<\/th><th>Population (lakhs)<\/th><th>Literacy Rate (%)<\/th><\/tr><tr><td>Delhi<\/td><td>190<\/td><td>86<\/td><\/tr><tr><td>Mumbai<\/td><td>210<\/td><td>89<\/td><\/tr><tr><td>Kolkata<\/td><td>145<\/td><td>87<\/td><\/tr><tr><td>Chennai<\/td><td>110<\/td><td>90<\/td><\/tr><tr><td>Bangalore<\/td><td>125<\/td><td>88<\/td><\/tr><\/table>\n\nWhat is the average literacy rate across all cities?",
+        "answers": [
+            "89%",
+            "88%",
+            "86%",
+            "87%"
+        ],
+        "correct": 1,
+        "explanation": "Sum = 86+89+87+90+88 = 440. Avg = 88%"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Month<\/th><th>Rainfall (mm)<\/th><\/tr><tr><td>Jan<\/td><td>15<\/td><\/tr><tr><td>Feb<\/td><td>12<\/td><\/tr><tr><td>Mar<\/td><td>8<\/td><\/tr><tr><td>Apr<\/td><td>5<\/td><\/tr><tr><td>May<\/td><td>18<\/td><\/tr><tr><td>Jun<\/td><td>250<\/td><\/tr><\/table>\n\nRainfall in June is what % of first 5 months combined?",
+        "answers": [
+            "400%",
+            "350%",
+            "500%",
+            "431%"
+        ],
+        "correct": 3,
+        "explanation": "First 5 = 15+12+8+5+18 = 58. June% = 250\/58 × 100 = 431%"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Subject<\/th><th>Max Marks<\/th><th>Marks Obtained<\/th><\/tr><tr><td>Maths<\/td><td>100<\/td><td>85<\/td><\/tr><tr><td>Science<\/td><td>100<\/td><td>78<\/td><\/tr><tr><td>English<\/td><td>100<\/td><td>92<\/td><\/tr><tr><td>Hindi<\/td><td>100<\/td><td>88<\/td><\/tr><tr><td>SST<\/td><td>100<\/td><td>75<\/td><\/tr><\/table>\n\nOverall percentage?",
+        "answers": [
+            "85%",
+            "82%",
+            "83.6%",
+            "80%"
+        ],
+        "correct": 2,
+        "explanation": "Total = 85+78+92+88+75 = 418. % = 418\/500 × 100 = 83.6%"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Item<\/th><th>2020 Price<\/th><th>2021 Price<\/th><\/tr><tr><td>Rice<\/td><td>40<\/td><td>45<\/td><\/tr><tr><td>Wheat<\/td><td>30<\/td><td>36<\/td><\/tr><tr><td>Dal<\/td><td>80<\/td><td>88<\/td><\/tr><tr><td>Sugar<\/td><td>35<\/td><td>42<\/td><\/tr><\/table>\n\nWhich item showed highest % price increase?",
+        "answers": [
+            "Sugar",
+            "Dal",
+            "Wheat",
+            "Rice"
+        ],
+        "correct": 2,
+        "explanation": "Rice: 12.5%, Wheat: 20%, Dal: 10%, Sugar: 20%. Both Wheat and Sugar = 20%. Wheat comes first"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Company<\/th><th>Revenue (Cr)<\/th><th>Employees<\/th><\/tr><tr><td>A<\/td><td>500<\/td><td>1000<\/td><\/tr><tr><td>B<\/td><td>450<\/td><td>750<\/td><\/tr><tr><td>C<\/td><td>600<\/td><td>1500<\/td><\/tr><tr><td>D<\/td><td>800<\/td><td>2000<\/td><\/tr><\/table>\n\nWhich company has highest revenue per employee?",
+        "answers": [
+            "D",
+            "B",
+            "A",
+            "C"
+        ],
+        "correct": 1,
+        "explanation": "A: 0.5 Cr, B: 0.6 Cr, C: 0.4 Cr, D: 0.4 Cr. B highest"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Year<\/th><th>Import<\/th><th>Export<\/th><\/tr><tr><td>2018<\/td><td>350<\/td><td>280<\/td><\/tr><tr><td>2019<\/td><td>400<\/td><td>350<\/td><\/tr><tr><td>2020<\/td><td>380<\/td><td>320<\/td><\/tr><tr><td>2021<\/td><td>450<\/td><td>420<\/td><\/tr><\/table>\n\nIn which year was trade deficit minimum?",
+        "answers": [
+            "2018",
+            "2019",
+            "2020",
+            "2021"
+        ],
+        "correct": 3,
+        "explanation": "Deficit = Import - Export. 2018: 70, 2019: 50, 2020: 60, 2021: 30. Minimum in 2021"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Year<\/th><th>Import<\/th><th>Export<\/th><\/tr><tr><td>2018<\/td><td>350<\/td><td>280<\/td><\/tr><tr><td>2019<\/td><td>400<\/td><td>350<\/td><\/tr><tr><td>2020<\/td><td>380<\/td><td>320<\/td><\/tr><tr><td>2021<\/td><td>450<\/td><td>420<\/td><\/tr><\/table>\n\nAverage export over all years?",
+        "answers": [
+            "342.5",
+            "330",
+            "340",
+            "350"
+        ],
+        "correct": 0,
+        "explanation": "Export sum = 280+350+320+420 = 1370. Avg = 342.5"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Student<\/th><th>Maths<\/th><th>Physics<\/th><th>Chemistry<\/th><\/tr><tr><td>A<\/td><td>85<\/td><td>78<\/td><td>82<\/td><\/tr><tr><td>B<\/td><td>90<\/td><td>88<\/td><td>85<\/td><\/tr><tr><td>C<\/td><td>75<\/td><td>80<\/td><td>78<\/td><\/tr><tr><td>D<\/td><td>92<\/td><td>75<\/td><td>88<\/td><\/tr><\/table>\n\nWho has highest total marks?",
+        "answers": [
+            "C",
+            "D",
+            "B",
+            "A"
+        ],
+        "correct": 2,
+        "explanation": "A: 245, B: 263, C: 233, D: 255. B highest"
+    },
+    {
+        "prompt": "Study the table:\n<table><tr><th>Shop<\/th><th>Mon<\/th><th>Tue<\/th><th>Wed<\/th><th>Thu<\/th><th>Fri<\/th><\/tr><tr><td>A<\/td><td>150<\/td><td>180<\/td><td>200<\/td><td>170<\/td><td>220<\/td><\/tr><tr><td>B<\/td><td>200<\/td><td>210<\/td><td>180<\/td><td>230<\/td><td>250<\/td><\/tr><\/table>\n\nOn which day was combined sale highest?",
+        "answers": [
+            "Tuesday",
+            "Friday",
+            "Thursday",
+            "Wednesday"
+        ],
+        "correct": 1,
+        "explanation": "Mon: 350, Tue: 390, Wed: 380, Thu: 400, Fri: 470. Friday highest"
+    }
 ]

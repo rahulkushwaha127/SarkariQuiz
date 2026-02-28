@@ -1,167 +1,167 @@
 [
-  {
-    "question": "$(a+b)^2 - (a-b)^2 = ?$",
-    "answers": [
-      { "title": "$4ab$", "is_correct": true },
-      { "title": "$2ab$", "is_correct": false },
-      { "title": "$2(a^2+b^2)$", "is_correct": false },
-      { "title": "$a^2-b^2$", "is_correct": false }
-    ],
-    "explanation": "$(a+b)^2 - (a-b)^2 = 4ab$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$(a+b)^2 + (a-b)^2 = ?$",
-    "answers": [
-      { "title": "$2(a^2+b^2)$", "is_correct": true },
-      { "title": "$4ab$", "is_correct": false },
-      { "title": "$2(a^2-b^2)$", "is_correct": false },
-      { "title": "$a^2+b^2$", "is_correct": false }
-    ],
-    "explanation": "$(a+b)^2 + (a-b)^2 = 2(a^2+b^2)$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$999 \\times 1001 = ?$",
-    "answers": [
-      { "title": "999999", "is_correct": true },
-      { "title": "1000000", "is_correct": false },
-      { "title": "1000999", "is_correct": false },
-      { "title": "998999", "is_correct": false }
-    ],
-    "explanation": "$(1000-1)(1000+1) = 1000000 - 1 = 999999$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$47^2 - 43^2 = ?$",
-    "answers": [
-      { "title": "360", "is_correct": true },
-      { "title": "400", "is_correct": false },
-      { "title": "320", "is_correct": false },
-      { "title": "180", "is_correct": false }
-    ],
-    "explanation": "$(47+43)(47-43) = 90 \\times 4 = 360$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If $a + \\frac{1}{a} = 4$, find $a^2 + \\frac{1}{a^2}$",
-    "answers": [
-      { "title": "14", "is_correct": true },
-      { "title": "16", "is_correct": false },
-      { "title": "12", "is_correct": false },
-      { "title": "18", "is_correct": false }
-    ],
-    "explanation": "$(a + 1/a)^2 = a^2 + 2 + 1/a^2$. $16 = a^2 + 1/a^2 + 2$. So $a^2 + 1/a^2 = 14$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "$75^2 = ?$ (using $(a-b)^2$ trick)",
-    "answers": [
-      { "title": "5625", "is_correct": true },
-      { "title": "5525", "is_correct": false },
-      { "title": "5725", "is_correct": false },
-      { "title": "5650", "is_correct": false }
-    ],
-    "explanation": "Numbers ending in 5: $n5^2 = n(n+1)$ followed by 25. $75^2 = 7×8 = 56$, append 25 = 5625",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\frac{a^3 + b^3}{a + b} = ?$ (when $a \\neq -b$)",
-    "answers": [
-      { "title": "$a^2 - ab + b^2$", "is_correct": true },
-      { "title": "$a^2 + ab + b^2$", "is_correct": false },
-      { "title": "$a^2 + b^2$", "is_correct": false },
-      { "title": "$(a+b)^2$", "is_correct": false }
-    ],
-    "explanation": "$a^3 + b^3 = (a+b)(a^2-ab+b^2)$. Divide by $(a+b)$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "$102 \\times 98 = ?$",
-    "answers": [
-      { "title": "9996", "is_correct": true },
-      { "title": "10000", "is_correct": false },
-      { "title": "9996", "is_correct": false },
-      { "title": "10004", "is_correct": false }
-    ],
-    "explanation": "$(100+2)(100-2) = 10000 - 4 = 9996$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If $x - \\frac{1}{x} = 3$, find $x^2 + \\frac{1}{x^2}$",
-    "answers": [
-      { "title": "11", "is_correct": true },
-      { "title": "9", "is_correct": false },
-      { "title": "7", "is_correct": false },
-      { "title": "13", "is_correct": false }
-    ],
-    "explanation": "$(x - 1/x)^2 = x^2 - 2 + 1/x^2$. $9 = x^2 + 1/x^2 - 2$. So $x^2 + 1/x^2 = 11$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Simplify: $\\frac{1}{2+\\sqrt{3}}$",
-    "answers": [
-      { "title": "$2 - \\sqrt{3}$", "is_correct": true },
-      { "title": "$2 + \\sqrt{3}$", "is_correct": false },
-      { "title": "$\\frac{1}{2} - \\sqrt{3}$", "is_correct": false },
-      { "title": "$\\sqrt{3} - 2$", "is_correct": false }
-    ],
-    "explanation": "Rationalize: $\\frac{2-\\sqrt{3}}{(2+\\sqrt{3})(2-\\sqrt{3})} = \\frac{2-\\sqrt{3}}{1} = 2-\\sqrt{3}$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "$34^2 + 2 \\times 34 \\times 6 + 6^2 = ?$",
-    "answers": [
-      { "title": "1600", "is_correct": true },
-      { "title": "1156", "is_correct": false },
-      { "title": "1296", "is_correct": false },
-      { "title": "1444", "is_correct": false }
-    ],
-    "explanation": "$(34+6)^2 = 40^2 = 1600$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt{(a+b)^2} = ?$ (for real a, b)",
-    "answers": [
-      { "title": "$|a+b|$", "is_correct": true },
-      { "title": "$a+b$", "is_correct": false },
-      { "title": "$-(a+b)$", "is_correct": false },
-      { "title": "$a^2+b^2$", "is_correct": false }
-    ],
-    "explanation": "$\\sqrt{x^2} = |x|$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Simplify: $\\frac{x^3 - y^3}{x^2 + xy + y^2}$",
-    "answers": [
-      { "title": "$x - y$", "is_correct": true },
-      { "title": "$x + y$", "is_correct": false },
-      { "title": "$x^2 - y^2$", "is_correct": false },
-      { "title": "$(x-y)^2$", "is_correct": false }
-    ],
-    "explanation": "$x^3 - y^3 = (x-y)(x^2+xy+y^2)$. Divide = $x-y$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "$1^3 + 2^3 + 3^3 + 4^3 = ?$",
-    "answers": [
-      { "title": "100", "is_correct": true },
-      { "title": "64", "is_correct": false },
-      { "title": "36", "is_correct": false },
-      { "title": "81", "is_correct": false }
-    ],
-    "explanation": "Sum of cubes = $(1+2+3+4)^2 = 10^2 = 100$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\frac{1}{\\sqrt{5}+\\sqrt{3}} = ?$",
-    "answers": [
-      { "title": "$\\frac{\\sqrt{5}-\\sqrt{3}}{2}$", "is_correct": true },
-      { "title": "$\\sqrt{5}-\\sqrt{3}$", "is_correct": false },
-      { "title": "$\\frac{1}{\\sqrt{2}}$", "is_correct": false },
-      { "title": "$\\sqrt{5}+\\sqrt{3}$", "is_correct": false }
-    ],
-    "explanation": "Rationalize: $\\frac{\\sqrt{5}-\\sqrt{3}}{5-3} = \\frac{\\sqrt{5}-\\sqrt{3}}{2}$",
-    "difficulty": "medium"
-  }
+    {
+        "prompt": "$(a+b)^2 - (a-b)^2 = ?$",
+        "answers": [
+            "$2ab$",
+            "$4ab$",
+            "$2(a^2+b^2)$",
+            "$a^2-b^2$"
+        ],
+        "correct": 1,
+        "explanation": "$(a+b)^2 - (a-b)^2 = 4ab$"
+    },
+    {
+        "prompt": "$(a+b)^2 + (a-b)^2 = ?$",
+        "answers": [
+            "$a^2+b^2$",
+            "$2(a^2+b^2)$",
+            "$2(a^2-b^2)$",
+            "$4ab$"
+        ],
+        "correct": 1,
+        "explanation": "$(a+b)^2 + (a-b)^2 = 2(a^2+b^2)$"
+    },
+    {
+        "prompt": "$999 \\times 1001 = ?$",
+        "answers": [
+            "1000999",
+            "998999",
+            "1000000",
+            "999999"
+        ],
+        "correct": 3,
+        "explanation": "$(1000-1)(1000+1) = 1000000 - 1 = 999999$"
+    },
+    {
+        "prompt": "$47^2 - 43^2 = ?$",
+        "answers": [
+            "180",
+            "320",
+            "360",
+            "400"
+        ],
+        "correct": 2,
+        "explanation": "$(47+43)(47-43) = 90 \\times 4 = 360$"
+    },
+    {
+        "prompt": "If $a + \\frac{1}{a} = 4$, find $a^2 + \\frac{1}{a^2}$",
+        "answers": [
+            "12",
+            "14",
+            "16",
+            "18"
+        ],
+        "correct": 1,
+        "explanation": "$(a + 1\/a)^2 = a^2 + 2 + 1\/a^2$. $16 = a^2 + 1\/a^2 + 2$. So $a^2 + 1\/a^2 = 14$"
+    },
+    {
+        "prompt": "$75^2 = ?$ (using $(a-b)^2$ trick)",
+        "answers": [
+            "5650",
+            "5625",
+            "5725",
+            "5525"
+        ],
+        "correct": 1,
+        "explanation": "Numbers ending in 5: $n5^2 = n(n+1)$ followed by 25. $75^2 = 7×8 = 56$, append 25 = 5625"
+    },
+    {
+        "prompt": "$\\frac{a^3 + b^3}{a + b} = ?$ (when $a \\neq -b$)",
+        "answers": [
+            "$a^2 + b^2$",
+            "$(a+b)^2$",
+            "$a^2 + ab + b^2$",
+            "$a^2 - ab + b^2$"
+        ],
+        "correct": 3,
+        "explanation": "$a^3 + b^3 = (a+b)(a^2-ab+b^2)$. Divide by $(a+b)$"
+    },
+    {
+        "prompt": "$102 \\times 98 = ?$",
+        "answers": [
+            "10004",
+            "9996",
+            "9996",
+            "10000"
+        ],
+        "correct": 1,
+        "explanation": "$(100+2)(100-2) = 10000 - 4 = 9996$"
+    },
+    {
+        "prompt": "If $x - \\frac{1}{x} = 3$, find $x^2 + \\frac{1}{x^2}$",
+        "answers": [
+            "9",
+            "7",
+            "13",
+            "11"
+        ],
+        "correct": 3,
+        "explanation": "$(x - 1\/x)^2 = x^2 - 2 + 1\/x^2$. $9 = x^2 + 1\/x^2 - 2$. So $x^2 + 1\/x^2 = 11$"
+    },
+    {
+        "prompt": "Simplify: $\\frac{1}{2+\\sqrt{3}}$",
+        "answers": [
+            "$2 + \\sqrt{3}$",
+            "$2 - \\sqrt{3}$",
+            "$\\frac{1}{2} - \\sqrt{3}$",
+            "$\\sqrt{3} - 2$"
+        ],
+        "correct": 1,
+        "explanation": "Rationalize: $\\frac{2-\\sqrt{3}}{(2+\\sqrt{3})(2-\\sqrt{3})} = \\frac{2-\\sqrt{3}}{1} = 2-\\sqrt{3}$"
+    },
+    {
+        "prompt": "$34^2 + 2 \\times 34 \\times 6 + 6^2 = ?$",
+        "answers": [
+            "1156",
+            "1444",
+            "1296",
+            "1600"
+        ],
+        "correct": 3,
+        "explanation": "$(34+6)^2 = 40^2 = 1600$"
+    },
+    {
+        "prompt": "$\\sqrt{(a+b)^2} = ?$ (for real a, b)",
+        "answers": [
+            "$a+b$",
+            "$-(a+b)$",
+            "$a^2+b^2$",
+            "$|a+b|$"
+        ],
+        "correct": 3,
+        "explanation": "$\\sqrt{x^2} = |x|$"
+    },
+    {
+        "prompt": "Simplify: $\\frac{x^3 - y^3}{x^2 + xy + y^2}$",
+        "answers": [
+            "$(x-y)^2$",
+            "$x - y$",
+            "$x + y$",
+            "$x^2 - y^2$"
+        ],
+        "correct": 1,
+        "explanation": "$x^3 - y^3 = (x-y)(x^2+xy+y^2)$. Divide = $x-y$"
+    },
+    {
+        "prompt": "$1^3 + 2^3 + 3^3 + 4^3 = ?$",
+        "answers": [
+            "100",
+            "64",
+            "36",
+            "81"
+        ],
+        "correct": 0,
+        "explanation": "Sum of cubes = $(1+2+3+4)^2 = 10^2 = 100$"
+    },
+    {
+        "prompt": "$\\frac{1}{\\sqrt{5}+\\sqrt{3}} = ?$",
+        "answers": [
+            "$\\frac{\\sqrt{5}-\\sqrt{3}}{2}$",
+            "$\\sqrt{5}-\\sqrt{3}$",
+            "$\\frac{1}{\\sqrt{2}}$",
+            "$\\sqrt{5}+\\sqrt{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Rationalize: $\\frac{\\sqrt{5}-\\sqrt{3}}{5-3} = \\frac{\\sqrt{5}-\\sqrt{3}}{2}$"
+    }
 ]

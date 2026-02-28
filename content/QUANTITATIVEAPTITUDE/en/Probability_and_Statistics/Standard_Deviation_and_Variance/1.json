@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Variance of data: 2, 4, 6, 8, 10?",
-    "answers": [
-      { "title": "8", "is_correct": true },
-      { "title": "6", "is_correct": false },
-      { "title": "10", "is_correct": false },
-      { "title": "4", "is_correct": false }
-    ],
-    "explanation": "Mean = 6. Variance = [(4+4+0+4+16)/5] = 8",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If variance = 16, standard deviation = ?",
-    "answers": [
-      { "title": "4", "is_correct": true },
-      { "title": "8", "is_correct": false },
-      { "title": "256", "is_correct": false },
-      { "title": "2", "is_correct": false }
-    ],
-    "explanation": "SD = √Variance = √16 = 4",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Standard deviation of constant data 5, 5, 5, 5?",
-    "answers": [
-      { "title": "0", "is_correct": true },
-      { "title": "5", "is_correct": false },
-      { "title": "1", "is_correct": false },
-      { "title": "25", "is_correct": false }
-    ],
-    "explanation": "No variation in data, SD = 0",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Variance is always:",
-    "answers": [
-      { "title": "Non-negative", "is_correct": true },
-      { "title": "Positive", "is_correct": false },
-      { "title": "Negative", "is_correct": false },
-      { "title": "Zero", "is_correct": false }
-    ],
-    "explanation": "Variance ≥ 0 (sum of squares)",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If each value is multiplied by 3, variance becomes:",
-    "answers": [
-      { "title": "9 times", "is_correct": true },
-      { "title": "3 times", "is_correct": false },
-      { "title": "Unchanged", "is_correct": false },
-      { "title": "27 times", "is_correct": false }
-    ],
-    "explanation": "Variance scales by square of constant: 3² = 9 times",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If 5 is added to each observation, variance:",
-    "answers": [
-      { "title": "Remains same", "is_correct": true },
-      { "title": "Increases by 5", "is_correct": false },
-      { "title": "Increases by 25", "is_correct": false },
-      { "title": "Doubles", "is_correct": false }
-    ],
-    "explanation": "Adding constant doesn't change variance",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Variance of 1, 2, 3?",
-    "answers": [
-      { "title": "2/3", "is_correct": true },
-      { "title": "1", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "1/3", "is_correct": false }
-    ],
-    "explanation": "Mean = 2. Var = [(1+0+1)/3] = 2/3",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Standard deviation of first 5 natural numbers?",
-    "answers": [
-      { "title": "$\\sqrt{2}$", "is_correct": true },
-      { "title": "2", "is_correct": false },
-      { "title": "1.5", "is_correct": false },
-      { "title": "$\\sqrt{3}$", "is_correct": false }
-    ],
-    "explanation": "For 1,2,3,4,5: Mean=3, Var=2, SD=√2",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Coefficient of variation = ?",
-    "answers": [
-      { "title": "(SD/Mean) × 100", "is_correct": true },
-      { "title": "SD × Mean", "is_correct": false },
-      { "title": "Mean/SD", "is_correct": false },
-      { "title": "SD + Mean", "is_correct": false }
-    ],
-    "explanation": "CV = (Standard Deviation / Mean) × 100",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If SD = 3 and Mean = 15, CV = ?",
-    "answers": [
-      { "title": "20%", "is_correct": true },
-      { "title": "5%", "is_correct": false },
-      { "title": "45%", "is_correct": false },
-      { "title": "0.2%", "is_correct": false }
-    ],
-    "explanation": "CV = (3/15) × 100 = 20%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Standard deviation is measured in:",
-    "answers": [
-      { "title": "Same units as data", "is_correct": true },
-      { "title": "Square of data units", "is_correct": false },
-      { "title": "No units", "is_correct": false },
-      { "title": "Percentage", "is_correct": false }
-    ],
-    "explanation": "SD has same units as original data",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Variance of 0, 0, 0, 0, 0?",
-    "answers": [
-      { "title": "0", "is_correct": true },
-      { "title": "1", "is_correct": false },
-      { "title": "Undefined", "is_correct": false },
-      { "title": "5", "is_correct": false }
-    ],
-    "explanation": "All same values, variance = 0",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which measures spread of data?",
-    "answers": [
-      { "title": "Standard deviation", "is_correct": true },
-      { "title": "Mean", "is_correct": false },
-      { "title": "Median", "is_correct": false },
-      { "title": "Mode", "is_correct": false }
-    ],
-    "explanation": "SD measures how spread out data is from mean",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If variance of x is 9, variance of (2x + 5) is:",
-    "answers": [
-      { "title": "36", "is_correct": true },
-      { "title": "18", "is_correct": false },
-      { "title": "23", "is_correct": false },
-      { "title": "9", "is_correct": false }
-    ],
-    "explanation": "Var(ax+b) = a²Var(x) = 4×9 = 36",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Range of 3, 7, 2, 9, 5?",
-    "answers": [
-      { "title": "7", "is_correct": true },
-      { "title": "9", "is_correct": false },
-      { "title": "5", "is_correct": false },
-      { "title": "2", "is_correct": false }
-    ],
-    "explanation": "Range = Max - Min = 9 - 2 = 7",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Variance of data: 2, 4, 6, 8, 10?",
+        "answers": [
+            "4",
+            "6",
+            "8",
+            "10"
+        ],
+        "correct": 2,
+        "explanation": "Mean = 6. Variance = [(4+4+0+4+16)\/5] = 8"
+    },
+    {
+        "prompt": "If variance = 16, standard deviation = ?",
+        "answers": [
+            "2",
+            "256",
+            "4",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "SD = √Variance = √16 = 4"
+    },
+    {
+        "prompt": "Standard deviation of constant data 5, 5, 5, 5?",
+        "answers": [
+            "0",
+            "1",
+            "25",
+            "5"
+        ],
+        "correct": 0,
+        "explanation": "No variation in data, SD = 0"
+    },
+    {
+        "prompt": "Variance is always:",
+        "answers": [
+            "Negative",
+            "Zero",
+            "Non-negative",
+            "Positive"
+        ],
+        "correct": 2,
+        "explanation": "Variance ≥ 0 (sum of squares)"
+    },
+    {
+        "prompt": "If each value is multiplied by 3, variance becomes:",
+        "answers": [
+            "9 times",
+            "27 times",
+            "3 times",
+            "Unchanged"
+        ],
+        "correct": 0,
+        "explanation": "Variance scales by square of constant: 3² = 9 times"
+    },
+    {
+        "prompt": "If 5 is added to each observation, variance:",
+        "answers": [
+            "Increases by 25",
+            "Remains same",
+            "Doubles",
+            "Increases by 5"
+        ],
+        "correct": 1,
+        "explanation": "Adding constant doesn't change variance"
+    },
+    {
+        "prompt": "Variance of 1, 2, 3?",
+        "answers": [
+            "2\/3",
+            "2",
+            "1",
+            "1\/3"
+        ],
+        "correct": 0,
+        "explanation": "Mean = 2. Var = [(1+0+1)\/3] = 2\/3"
+    },
+    {
+        "prompt": "Standard deviation of first 5 natural numbers?",
+        "answers": [
+            "$\\sqrt{3}$",
+            "1.5",
+            "2",
+            "$\\sqrt{2}$"
+        ],
+        "correct": 3,
+        "explanation": "For 1,2,3,4,5: Mean=3, Var=2, SD=√2"
+    },
+    {
+        "prompt": "Coefficient of variation = ?",
+        "answers": [
+            "(SD\/Mean) × 100",
+            "Mean\/SD",
+            "SD + Mean",
+            "SD × Mean"
+        ],
+        "correct": 0,
+        "explanation": "CV = (Standard Deviation \/ Mean) × 100"
+    },
+    {
+        "prompt": "If SD = 3 and Mean = 15, CV = ?",
+        "answers": [
+            "0.2%",
+            "5%",
+            "45%",
+            "20%"
+        ],
+        "correct": 3,
+        "explanation": "CV = (3\/15) × 100 = 20%"
+    },
+    {
+        "prompt": "Standard deviation is measured in:",
+        "answers": [
+            "Same units as data",
+            "Square of data units",
+            "Percentage",
+            "No units"
+        ],
+        "correct": 0,
+        "explanation": "SD has same units as original data"
+    },
+    {
+        "prompt": "Variance of 0, 0, 0, 0, 0?",
+        "answers": [
+            "0",
+            "1",
+            "Undefined",
+            "5"
+        ],
+        "correct": 0,
+        "explanation": "All same values, variance = 0"
+    },
+    {
+        "prompt": "Which measures spread of data?",
+        "answers": [
+            "Mode",
+            "Mean",
+            "Median",
+            "Standard deviation"
+        ],
+        "correct": 3,
+        "explanation": "SD measures how spread out data is from mean"
+    },
+    {
+        "prompt": "If variance of x is 9, variance of (2x + 5) is:",
+        "answers": [
+            "18",
+            "9",
+            "23",
+            "36"
+        ],
+        "correct": 3,
+        "explanation": "Var(ax+b) = a²Var(x) = 4×9 = 36"
+    },
+    {
+        "prompt": "Range of 3, 7, 2, 9, 5?",
+        "answers": [
+            "9",
+            "7",
+            "2",
+            "5"
+        ],
+        "correct": 1,
+        "explanation": "Range = Max - Min = 9 - 2 = 7"
+    }
 ]

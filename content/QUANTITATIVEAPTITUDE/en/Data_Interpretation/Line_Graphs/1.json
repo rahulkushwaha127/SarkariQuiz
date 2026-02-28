@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Line graph shows temperature over 5 days:\n<table><tr><th>Day</th><th>Temp (°C)</th></tr><tr><td>Mon</td><td>25</td></tr><tr><td>Tue</td><td>28</td></tr><tr><td>Wed</td><td>30</td></tr><tr><td>Thu</td><td>27</td></tr><tr><td>Fri</td><td>32</td></tr></table>\nHighest temperature on which day?",
-    "answers": [
-      { "title": "Friday", "is_correct": true },
-      { "title": "Wednesday", "is_correct": false },
-      { "title": "Tuesday", "is_correct": false },
-      { "title": "Thursday", "is_correct": false }
-    ],
-    "explanation": "Friday has highest temp at 32°C",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data: Average temperature for the week?",
-    "answers": [
-      { "title": "28.4°C", "is_correct": true },
-      { "title": "28°C", "is_correct": false },
-      { "title": "30°C", "is_correct": false },
-      { "title": "27°C", "is_correct": false }
-    ],
-    "explanation": "Sum = 142. Average = 142/5 = 28.4°C",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data: Temperature increase from Mon to Wed?",
-    "answers": [
-      { "title": "5°C", "is_correct": true },
-      { "title": "3°C", "is_correct": false },
-      { "title": "7°C", "is_correct": false },
-      { "title": "2°C", "is_correct": false }
-    ],
-    "explanation": "30 - 25 = 5°C",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data: On which day was there a decrease compared to previous day?",
-    "answers": [
-      { "title": "Thursday", "is_correct": true },
-      { "title": "Tuesday", "is_correct": false },
-      { "title": "Wednesday", "is_correct": false },
-      { "title": "Friday", "is_correct": false }
-    ],
-    "explanation": "Thu (27) < Wed (30). Decrease of 3°C",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data: Percentage increase from Monday to Friday?",
-    "answers": [
-      { "title": "28%", "is_correct": true },
-      { "title": "32%", "is_correct": false },
-      { "title": "25%", "is_correct": false },
-      { "title": "20%", "is_correct": false }
-    ],
-    "explanation": "Increase = 7. % = 7/25 × 100 = 28%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Sales data (in lakhs):\n<table><tr><th>Month</th><th>Sales</th></tr><tr><td>Jan</td><td>40</td></tr><tr><td>Feb</td><td>45</td></tr><tr><td>Mar</td><td>50</td></tr><tr><td>Apr</td><td>42</td></tr><tr><td>May</td><td>55</td></tr></table>\nTotal sales over 5 months?",
-    "answers": [
-      { "title": "232 lakhs", "is_correct": true },
-      { "title": "230 lakhs", "is_correct": false },
-      { "title": "240 lakhs", "is_correct": false },
-      { "title": "225 lakhs", "is_correct": false }
-    ],
-    "explanation": "40+45+50+42+55 = 232 lakhs",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same sales data: Month with lowest sales?",
-    "answers": [
-      { "title": "January", "is_correct": true },
-      { "title": "April", "is_correct": false },
-      { "title": "February", "is_correct": false },
-      { "title": "March", "is_correct": false }
-    ],
-    "explanation": "January has lowest at 40 lakhs",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same sales data: Growth from Jan to May?",
-    "answers": [
-      { "title": "37.5%", "is_correct": true },
-      { "title": "40%", "is_correct": false },
-      { "title": "25%", "is_correct": false },
-      { "title": "55%", "is_correct": false }
-    ],
-    "explanation": "Increase = 15. % = 15/40 × 100 = 37.5%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Using same sales data: Average monthly sales?",
-    "answers": [
-      { "title": "46.4 lakhs", "is_correct": true },
-      { "title": "45 lakhs", "is_correct": false },
-      { "title": "50 lakhs", "is_correct": false },
-      { "title": "48 lakhs", "is_correct": false }
-    ],
-    "explanation": "232/5 = 46.4 lakhs",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same sales data: In how many months was sales above average?",
-    "answers": [
-      { "title": "2", "is_correct": true },
-      { "title": "3", "is_correct": false },
-      { "title": "1", "is_correct": false },
-      { "title": "4", "is_correct": false }
-    ],
-    "explanation": "Average = 46.4. Above: Mar (50), May (55) = 2 months",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Production data:\n<table><tr><th>Year</th><th>Units</th></tr><tr><td>2019</td><td>100</td></tr><tr><td>2020</td><td>120</td></tr><tr><td>2021</td><td>90</td></tr><tr><td>2022</td><td>150</td></tr></table>\nYear with maximum growth over previous year?",
-    "answers": [
-      { "title": "2022", "is_correct": true },
-      { "title": "2020", "is_correct": false },
-      { "title": "2021", "is_correct": false },
-      { "title": "2019", "is_correct": false }
-    ],
-    "explanation": "2020: +20. 2022: +60. Maximum growth in 2022",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same production data: CAGR from 2019 to 2022 (approx)?",
-    "answers": [
-      { "title": "14.5%", "is_correct": true },
-      { "title": "50%", "is_correct": false },
-      { "title": "25%", "is_correct": false },
-      { "title": "10%", "is_correct": false }
-    ],
-    "explanation": "CAGR = $(150/100)^{1/3} - 1 \\approx 14.5%$",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Using same production data: Ratio of 2019 to 2022 production?",
-    "answers": [
-      { "title": "2:3", "is_correct": true },
-      { "title": "3:2", "is_correct": false },
-      { "title": "1:2", "is_correct": false },
-      { "title": "4:5", "is_correct": false }
-    ],
-    "explanation": "100:150 = 2:3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same production data: Total production over 4 years?",
-    "answers": [
-      { "title": "460 units", "is_correct": true },
-      { "title": "450 units", "is_correct": false },
-      { "title": "500 units", "is_correct": false },
-      { "title": "420 units", "is_correct": false }
-    ],
-    "explanation": "100+120+90+150 = 460 units",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same production data: Percentage decline in 2021?",
-    "answers": [
-      { "title": "25%", "is_correct": true },
-      { "title": "30%", "is_correct": false },
-      { "title": "20%", "is_correct": false },
-      { "title": "10%", "is_correct": false }
-    ],
-    "explanation": "Decline = 30. % = 30/120 × 100 = 25%",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Line graph shows temperature over 5 days:\n<table><tr><th>Day<\/th><th>Temp (°C)<\/th><\/tr><tr><td>Mon<\/td><td>25<\/td><\/tr><tr><td>Tue<\/td><td>28<\/td><\/tr><tr><td>Wed<\/td><td>30<\/td><\/tr><tr><td>Thu<\/td><td>27<\/td><\/tr><tr><td>Fri<\/td><td>32<\/td><\/tr><\/table>\nHighest temperature on which day?",
+        "answers": [
+            "Friday",
+            "Tuesday",
+            "Thursday",
+            "Wednesday"
+        ],
+        "correct": 0,
+        "explanation": "Friday has highest temp at 32°C"
+    },
+    {
+        "prompt": "Using same data: Average temperature for the week?",
+        "answers": [
+            "28.4°C",
+            "27°C",
+            "30°C",
+            "28°C"
+        ],
+        "correct": 0,
+        "explanation": "Sum = 142. Average = 142\/5 = 28.4°C"
+    },
+    {
+        "prompt": "Using same data: Temperature increase from Mon to Wed?",
+        "answers": [
+            "7°C",
+            "5°C",
+            "2°C",
+            "3°C"
+        ],
+        "correct": 1,
+        "explanation": "30 - 25 = 5°C"
+    },
+    {
+        "prompt": "Using same data: On which day was there a decrease compared to previous day?",
+        "answers": [
+            "Wednesday",
+            "Thursday",
+            "Tuesday",
+            "Friday"
+        ],
+        "correct": 1,
+        "explanation": "Thu (27) < Wed (30). Decrease of 3°C"
+    },
+    {
+        "prompt": "Using same data: Percentage increase from Monday to Friday?",
+        "answers": [
+            "32%",
+            "20%",
+            "28%",
+            "25%"
+        ],
+        "correct": 2,
+        "explanation": "Increase = 7. % = 7\/25 × 100 = 28%"
+    },
+    {
+        "prompt": "Sales data (in lakhs):\n<table><tr><th>Month<\/th><th>Sales<\/th><\/tr><tr><td>Jan<\/td><td>40<\/td><\/tr><tr><td>Feb<\/td><td>45<\/td><\/tr><tr><td>Mar<\/td><td>50<\/td><\/tr><tr><td>Apr<\/td><td>42<\/td><\/tr><tr><td>May<\/td><td>55<\/td><\/tr><\/table>\nTotal sales over 5 months?",
+        "answers": [
+            "232 lakhs",
+            "240 lakhs",
+            "230 lakhs",
+            "225 lakhs"
+        ],
+        "correct": 0,
+        "explanation": "40+45+50+42+55 = 232 lakhs"
+    },
+    {
+        "prompt": "Using same sales data: Month with lowest sales?",
+        "answers": [
+            "April",
+            "February",
+            "January",
+            "March"
+        ],
+        "correct": 2,
+        "explanation": "January has lowest at 40 lakhs"
+    },
+    {
+        "prompt": "Using same sales data: Growth from Jan to May?",
+        "answers": [
+            "25%",
+            "40%",
+            "37.5%",
+            "55%"
+        ],
+        "correct": 2,
+        "explanation": "Increase = 15. % = 15\/40 × 100 = 37.5%"
+    },
+    {
+        "prompt": "Using same sales data: Average monthly sales?",
+        "answers": [
+            "46.4 lakhs",
+            "48 lakhs",
+            "50 lakhs",
+            "45 lakhs"
+        ],
+        "correct": 0,
+        "explanation": "232\/5 = 46.4 lakhs"
+    },
+    {
+        "prompt": "Using same sales data: In how many months was sales above average?",
+        "answers": [
+            "2",
+            "1",
+            "4",
+            "3"
+        ],
+        "correct": 0,
+        "explanation": "Average = 46.4. Above: Mar (50), May (55) = 2 months"
+    },
+    {
+        "prompt": "Production data:\n<table><tr><th>Year<\/th><th>Units<\/th><\/tr><tr><td>2019<\/td><td>100<\/td><\/tr><tr><td>2020<\/td><td>120<\/td><\/tr><tr><td>2021<\/td><td>90<\/td><\/tr><tr><td>2022<\/td><td>150<\/td><\/tr><\/table>\nYear with maximum growth over previous year?",
+        "answers": [
+            "2022",
+            "2020",
+            "2019",
+            "2021"
+        ],
+        "correct": 0,
+        "explanation": "2020: +20. 2022: +60. Maximum growth in 2022"
+    },
+    {
+        "prompt": "Using same production data: CAGR from 2019 to 2022 (approx)?",
+        "answers": [
+            "50%",
+            "25%",
+            "14.5%",
+            "10%"
+        ],
+        "correct": 2,
+        "explanation": "CAGR = $(150\/100)^{1\/3} - 1 \\approx 14.5%$"
+    },
+    {
+        "prompt": "Using same production data: Ratio of 2019 to 2022 production?",
+        "answers": [
+            "3:2",
+            "4:5",
+            "2:3",
+            "1:2"
+        ],
+        "correct": 2,
+        "explanation": "100:150 = 2:3"
+    },
+    {
+        "prompt": "Using same production data: Total production over 4 years?",
+        "answers": [
+            "420 units",
+            "460 units",
+            "500 units",
+            "450 units"
+        ],
+        "correct": 1,
+        "explanation": "100+120+90+150 = 460 units"
+    },
+    {
+        "prompt": "Using same production data: Percentage decline in 2021?",
+        "answers": [
+            "30%",
+            "20%",
+            "10%",
+            "25%"
+        ],
+        "correct": 3,
+        "explanation": "Decline = 30. % = 30\/120 × 100 = 25%"
+    }
 ]

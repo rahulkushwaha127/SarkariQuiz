@@ -1,222 +1,222 @@
 [
-  {
-    "question": "Find roots of $x^2 - 5x + 6 = 0$",
-    "answers": [
-      { "title": "2 and 3", "is_correct": true },
-      { "title": "1 and 6", "is_correct": false },
-      { "title": "-2 and -3", "is_correct": false },
-      { "title": "2 and -3", "is_correct": false }
-    ],
-    "explanation": "(x-2)(x-3) = 0. Roots = 2, 3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Sum of roots of $2x^2 - 5x + 3 = 0$ is?",
-    "answers": [
-      { "title": "2.5", "is_correct": true },
-      { "title": "1.5", "is_correct": false },
-      { "title": "3", "is_correct": false },
-      { "title": "5", "is_correct": false }
-    ],
-    "explanation": "Sum = -b/a = 5/2 = 2.5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Product of roots of $3x^2 + 7x - 6 = 0$ is?",
-    "answers": [
-      { "title": "-2", "is_correct": true },
-      { "title": "2", "is_correct": false },
-      { "title": "-7/3", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "Product = c/a = -6/3 = -2",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Nature of roots of $x^2 - 4x + 4 = 0$?",
-    "answers": [
-      { "title": "Real and equal", "is_correct": true },
-      { "title": "Real and unequal", "is_correct": false },
-      { "title": "Imaginary", "is_correct": false },
-      { "title": "No roots", "is_correct": false }
-    ],
-    "explanation": "D = 16 - 16 = 0. Real and equal roots",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If one root of $x^2 - 9x + k = 0$ is 5, find k.",
-    "answers": [
-      { "title": "20", "is_correct": true },
-      { "title": "15", "is_correct": false },
-      { "title": "25", "is_correct": false },
-      { "title": "10", "is_correct": false }
-    ],
-    "explanation": "25 - 45 + k = 0. k = 20",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Solve: $x^2 + x - 12 = 0$",
-    "answers": [
-      { "title": "3 and -4", "is_correct": true },
-      { "title": "4 and -3", "is_correct": false },
-      { "title": "2 and -6", "is_correct": false },
-      { "title": "6 and -2", "is_correct": false }
-    ],
-    "explanation": "(x+4)(x-3) = 0. x = 3, -4",
-    "difficulty": "easy"
-  },
-  {
-    "question": "For what value of k, $x^2 + kx + 9 = 0$ has equal roots?",
-    "answers": [
-      { "title": "±6", "is_correct": true },
-      { "title": "±3", "is_correct": false },
-      { "title": "±9", "is_correct": false },
-      { "title": "±12", "is_correct": false }
-    ],
-    "explanation": "D = k² - 36 = 0. k = ±6",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If roots of $x^2 - px + q = 0$ are 2 and 3, then p and q are?",
-    "answers": [
-      { "title": "p=5, q=6", "is_correct": true },
-      { "title": "p=6, q=5", "is_correct": false },
-      { "title": "p=5, q=-6", "is_correct": false },
-      { "title": "p=-5, q=6", "is_correct": false }
-    ],
-    "explanation": "Sum = p = 5. Product = q = 6",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Roots of $x^2 - 2x - 15 = 0$ are?",
-    "answers": [
-      { "title": "5 and -3", "is_correct": true },
-      { "title": "-5 and 3", "is_correct": false },
-      { "title": "5 and 3", "is_correct": false },
-      { "title": "-5 and -3", "is_correct": false }
-    ],
-    "explanation": "(x-5)(x+3) = 0. x = 5, -3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If $\\alpha$ and $\\beta$ are roots of $x^2 - 7x + 10 = 0$, find $\\alpha^2 + \\beta^2$.",
-    "answers": [
-      { "title": "29", "is_correct": true },
-      { "title": "49", "is_correct": false },
-      { "title": "39", "is_correct": false },
-      { "title": "19", "is_correct": false }
-    ],
-    "explanation": "α+β = 7, αβ = 10. α²+β² = (α+β)² - 2αβ = 49 - 20 = 29",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Discriminant of $2x^2 - 7x + 3 = 0$ is?",
-    "answers": [
-      { "title": "25", "is_correct": true },
-      { "title": "49", "is_correct": false },
-      { "title": "-25", "is_correct": false },
-      { "title": "1", "is_correct": false }
-    ],
-    "explanation": "D = b² - 4ac = 49 - 24 = 25",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If sum of roots = 3 and product = -10, the equation is?",
-    "answers": [
-      { "title": "$x^2 - 3x - 10 = 0$", "is_correct": true },
-      { "title": "$x^2 + 3x - 10 = 0$", "is_correct": false },
-      { "title": "$x^2 - 3x + 10 = 0$", "is_correct": false },
-      { "title": "$x^2 + 3x + 10 = 0$", "is_correct": false }
-    ],
-    "explanation": "Equation: x² - (sum)x + (product) = 0",
-    "difficulty": "easy"
-  },
-  {
-    "question": "One root of $x^2 + px + 12 = 0$ is 4. Other root and p are?",
-    "answers": [
-      { "title": "3, p = -7", "is_correct": true },
-      { "title": "-3, p = 7", "is_correct": false },
-      { "title": "3, p = 7", "is_correct": false },
-      { "title": "-3, p = -1", "is_correct": false }
-    ],
-    "explanation": "Product = 12 = 4 × other. Other = 3. Sum = 7 = -p. p = -7",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If roots of $x^2 - 6x + k = 0$ are equal, find k.",
-    "answers": [
-      { "title": "9", "is_correct": true },
-      { "title": "6", "is_correct": false },
-      { "title": "12", "is_correct": false },
-      { "title": "3", "is_correct": false }
-    ],
-    "explanation": "D = 36 - 4k = 0. k = 9",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Solve: $x^2 - 7x + 12 = 0$",
-    "answers": [
-      { "title": "3 and 4", "is_correct": true },
-      { "title": "2 and 6", "is_correct": false },
-      { "title": "1 and 12", "is_correct": false },
-      { "title": "-3 and -4", "is_correct": false }
-    ],
-    "explanation": "(x-3)(x-4) = 0. x = 3, 4",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If $\\alpha$, $\\beta$ are roots of $x^2 - 5x + 6 = 0$, find $1/\\alpha + 1/\\beta$.",
-    "answers": [
-      { "title": "5/6", "is_correct": true },
-      { "title": "6/5", "is_correct": false },
-      { "title": "5", "is_correct": false },
-      { "title": "1", "is_correct": false }
-    ],
-    "explanation": "1/α + 1/β = (α+β)/αβ = 5/6",
-    "difficulty": "medium"
-  },
-  {
-    "question": "For what value of p, $x^2 + px + 4 = 0$ has no real roots?",
-    "answers": [
-      { "title": "$-4 < p < 4$", "is_correct": true },
-      { "title": "$p > 4$", "is_correct": false },
-      { "title": "$p < -4$", "is_correct": false },
-      { "title": "p = 4", "is_correct": false }
-    ],
-    "explanation": "D < 0 → p² - 16 < 0 → -4 < p < 4",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Difference of roots of $x^2 - 8x + 15 = 0$ is?",
-    "answers": [
-      { "title": "2", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "8", "is_correct": false },
-      { "title": "1", "is_correct": false }
-    ],
-    "explanation": "Roots = 5, 3. Difference = 2",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If one root of $x^2 - 5x + k = 0$ is double the other, find k.",
-    "answers": [
-      { "title": "50/9", "is_correct": true },
-      { "title": "25/4", "is_correct": false },
-      { "title": "10/3", "is_correct": false },
-      { "title": "25/9", "is_correct": false }
-    ],
-    "explanation": "Let roots be r, 2r. Sum = 3r = 5 → r = 5/3. Product = k = 2r² = 50/9",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Roots of $6x^2 - x - 2 = 0$ are?",
-    "answers": [
-      { "title": "2/3 and -1/2", "is_correct": true },
-      { "title": "1/2 and -2/3", "is_correct": false },
-      { "title": "3/2 and -1/3", "is_correct": false },
-      { "title": "1/3 and -2", "is_correct": false }
-    ],
-    "explanation": "(3x-2)(2x+1) = 0. x = 2/3, -1/2",
-    "difficulty": "medium"
-  }
+    {
+        "prompt": "Find roots of $x^2 - 5x + 6 = 0$",
+        "answers": [
+            "2 and 3",
+            "2 and -3",
+            "1 and 6",
+            "-2 and -3"
+        ],
+        "correct": 0,
+        "explanation": "(x-2)(x-3) = 0. Roots = 2, 3"
+    },
+    {
+        "prompt": "Sum of roots of $2x^2 - 5x + 3 = 0$ is?",
+        "answers": [
+            "1.5",
+            "2.5",
+            "3",
+            "5"
+        ],
+        "correct": 1,
+        "explanation": "Sum = -b\/a = 5\/2 = 2.5"
+    },
+    {
+        "prompt": "Product of roots of $3x^2 + 7x - 6 = 0$ is?",
+        "answers": [
+            "-7\/3",
+            "2",
+            "6",
+            "-2"
+        ],
+        "correct": 3,
+        "explanation": "Product = c\/a = -6\/3 = -2"
+    },
+    {
+        "prompt": "Nature of roots of $x^2 - 4x + 4 = 0$?",
+        "answers": [
+            "Real and equal",
+            "Imaginary",
+            "No roots",
+            "Real and unequal"
+        ],
+        "correct": 0,
+        "explanation": "D = 16 - 16 = 0. Real and equal roots"
+    },
+    {
+        "prompt": "If one root of $x^2 - 9x + k = 0$ is 5, find k.",
+        "answers": [
+            "15",
+            "20",
+            "10",
+            "25"
+        ],
+        "correct": 1,
+        "explanation": "25 - 45 + k = 0. k = 20"
+    },
+    {
+        "prompt": "Solve: $x^2 + x - 12 = 0$",
+        "answers": [
+            "3 and -4",
+            "4 and -3",
+            "6 and -2",
+            "2 and -6"
+        ],
+        "correct": 0,
+        "explanation": "(x+4)(x-3) = 0. x = 3, -4"
+    },
+    {
+        "prompt": "For what value of k, $x^2 + kx + 9 = 0$ has equal roots?",
+        "answers": [
+            "±12",
+            "±9",
+            "±6",
+            "±3"
+        ],
+        "correct": 2,
+        "explanation": "D = k² - 36 = 0. k = ±6"
+    },
+    {
+        "prompt": "If roots of $x^2 - px + q = 0$ are 2 and 3, then p and q are?",
+        "answers": [
+            "p=5, q=-6",
+            "p=5, q=6",
+            "p=-5, q=6",
+            "p=6, q=5"
+        ],
+        "correct": 1,
+        "explanation": "Sum = p = 5. Product = q = 6"
+    },
+    {
+        "prompt": "Roots of $x^2 - 2x - 15 = 0$ are?",
+        "answers": [
+            "-5 and -3",
+            "5 and 3",
+            "-5 and 3",
+            "5 and -3"
+        ],
+        "correct": 3,
+        "explanation": "(x-5)(x+3) = 0. x = 5, -3"
+    },
+    {
+        "prompt": "If $\\alpha$ and $\\beta$ are roots of $x^2 - 7x + 10 = 0$, find $\\alpha^2 + \\beta^2$.",
+        "answers": [
+            "29",
+            "19",
+            "39",
+            "49"
+        ],
+        "correct": 0,
+        "explanation": "α+β = 7, αβ = 10. α²+β² = (α+β)² - 2αβ = 49 - 20 = 29"
+    },
+    {
+        "prompt": "Discriminant of $2x^2 - 7x + 3 = 0$ is?",
+        "answers": [
+            "1",
+            "49",
+            "-25",
+            "25"
+        ],
+        "correct": 3,
+        "explanation": "D = b² - 4ac = 49 - 24 = 25"
+    },
+    {
+        "prompt": "If sum of roots = 3 and product = -10, the equation is?",
+        "answers": [
+            "$x^2 - 3x + 10 = 0$",
+            "$x^2 + 3x - 10 = 0$",
+            "$x^2 + 3x + 10 = 0$",
+            "$x^2 - 3x - 10 = 0$"
+        ],
+        "correct": 3,
+        "explanation": "Equation: x² - (sum)x + (product) = 0"
+    },
+    {
+        "prompt": "One root of $x^2 + px + 12 = 0$ is 4. Other root and p are?",
+        "answers": [
+            "-3, p = 7",
+            "-3, p = -1",
+            "3, p = -7",
+            "3, p = 7"
+        ],
+        "correct": 2,
+        "explanation": "Product = 12 = 4 × other. Other = 3. Sum = 7 = -p. p = -7"
+    },
+    {
+        "prompt": "If roots of $x^2 - 6x + k = 0$ are equal, find k.",
+        "answers": [
+            "3",
+            "6",
+            "12",
+            "9"
+        ],
+        "correct": 3,
+        "explanation": "D = 36 - 4k = 0. k = 9"
+    },
+    {
+        "prompt": "Solve: $x^2 - 7x + 12 = 0$",
+        "answers": [
+            "2 and 6",
+            "1 and 12",
+            "3 and 4",
+            "-3 and -4"
+        ],
+        "correct": 2,
+        "explanation": "(x-3)(x-4) = 0. x = 3, 4"
+    },
+    {
+        "prompt": "If $\\alpha$, $\\beta$ are roots of $x^2 - 5x + 6 = 0$, find $1\/\\alpha + 1\/\\beta$.",
+        "answers": [
+            "1",
+            "5\/6",
+            "6\/5",
+            "5"
+        ],
+        "correct": 1,
+        "explanation": "1\/α + 1\/β = (α+β)\/αβ = 5\/6"
+    },
+    {
+        "prompt": "For what value of p, $x^2 + px + 4 = 0$ has no real roots?",
+        "answers": [
+            "$p < -4$",
+            "$p > 4$",
+            "p = 4",
+            "$-4 < p < 4$"
+        ],
+        "correct": 3,
+        "explanation": "D < 0 → p² - 16 < 0 → -4 < p < 4"
+    },
+    {
+        "prompt": "Difference of roots of $x^2 - 8x + 15 = 0$ is?",
+        "answers": [
+            "4",
+            "1",
+            "2",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "Roots = 5, 3. Difference = 2"
+    },
+    {
+        "prompt": "If one root of $x^2 - 5x + k = 0$ is double the other, find k.",
+        "answers": [
+            "50\/9",
+            "25\/9",
+            "10\/3",
+            "25\/4"
+        ],
+        "correct": 0,
+        "explanation": "Let roots be r, 2r. Sum = 3r = 5 → r = 5\/3. Product = k = 2r² = 50\/9"
+    },
+    {
+        "prompt": "Roots of $6x^2 - x - 2 = 0$ are?",
+        "answers": [
+            "1\/3 and -2",
+            "1\/2 and -2\/3",
+            "3\/2 and -1\/3",
+            "2\/3 and -1\/2"
+        ],
+        "correct": 3,
+        "explanation": "(3x-2)(2x+1) = 0. x = 2\/3, -1\/2"
+    }
 ]

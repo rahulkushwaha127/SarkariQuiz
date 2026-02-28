@@ -1,167 +1,167 @@
 [
-  {
-    "question": "A pie chart shows budget allocation: Education 90°, Health 60°, Defense 120°, Others 90°. What % is Education?",
-    "answers": [
-      { "title": "25%", "is_correct": true },
-      { "title": "20%", "is_correct": false },
-      { "title": "30%", "is_correct": false },
-      { "title": "15%", "is_correct": false }
-    ],
-    "explanation": "Education = 90/360 × 100 = 25%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Total budget is Rs. 72 crores. Using same data (Education 90°), Education budget?",
-    "answers": [
-      { "title": "Rs. 18 crores", "is_correct": true },
-      { "title": "Rs. 20 crores", "is_correct": false },
-      { "title": "Rs. 15 crores", "is_correct": false },
-      { "title": "Rs. 12 crores", "is_correct": false }
-    ],
-    "explanation": "Education = 90/360 × 72 = Rs. 18 crores",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data (Defense 120°, Health 60°), Defense is how much % more than Health?",
-    "answers": [
-      { "title": "100%", "is_correct": true },
-      { "title": "50%", "is_correct": false },
-      { "title": "200%", "is_correct": false },
-      { "title": "60%", "is_correct": false }
-    ],
-    "explanation": "Defense = 120°, Health = 60°. More = 60/60 × 100 = 100%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If Others (90°) is Rs. 18 lakhs, what is total budget?",
-    "answers": [
-      { "title": "Rs. 72 lakhs", "is_correct": true },
-      { "title": "Rs. 90 lakhs", "is_correct": false },
-      { "title": "Rs. 54 lakhs", "is_correct": false },
-      { "title": "Rs. 36 lakhs", "is_correct": false }
-    ],
-    "explanation": "90° represents 18 lakhs. 360° = 18 × 4 = Rs. 72 lakhs",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Central angle for a sector representing 15%?",
-    "answers": [
-      { "title": "54°", "is_correct": true },
-      { "title": "45°", "is_correct": false },
-      { "title": "60°", "is_correct": false },
-      { "title": "36°", "is_correct": false }
-    ],
-    "explanation": "Angle = 15/100 × 360 = 54°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Pie chart for monthly expenses: Rent 108°, Food 72°, Transport 54°, Savings 72°, Others 54°. Highest expense?",
-    "answers": [
-      { "title": "Rent", "is_correct": true },
-      { "title": "Food", "is_correct": false },
-      { "title": "Savings", "is_correct": false },
-      { "title": "Transport", "is_correct": false }
-    ],
-    "explanation": "Rent has highest angle (108°)",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same expense data. If total expense is Rs. 50000, what is Food expense?",
-    "answers": [
-      { "title": "Rs. 10000", "is_correct": true },
-      { "title": "Rs. 15000", "is_correct": false },
-      { "title": "Rs. 12000", "is_correct": false },
-      { "title": "Rs. 8000", "is_correct": false }
-    ],
-    "explanation": "Food = 72/360 × 50000 = Rs. 10000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data. Ratio of Transport to Others?",
-    "answers": [
-      { "title": "1:1", "is_correct": true },
-      { "title": "2:1", "is_correct": false },
-      { "title": "1:2", "is_correct": false },
-      { "title": "3:2", "is_correct": false }
-    ],
-    "explanation": "Both are 54°. Ratio = 1:1",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data. Savings is what % of total?",
-    "answers": [
-      { "title": "20%", "is_correct": true },
-      { "title": "25%", "is_correct": false },
-      { "title": "15%", "is_correct": false },
-      { "title": "18%", "is_correct": false }
-    ],
-    "explanation": "Savings = 72/360 × 100 = 20%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data. If Rent is Rs. 15000, total monthly expense?",
-    "answers": [
-      { "title": "Rs. 50000", "is_correct": true },
-      { "title": "Rs. 45000", "is_correct": false },
-      { "title": "Rs. 60000", "is_correct": false },
-      { "title": "Rs. 55000", "is_correct": false }
-    ],
-    "explanation": "108° = 15000. 360° = 15000 × 360/108 = Rs. 50000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Company revenue sources: Product A 40%, Product B 25%, Product C 20%, Others 15%. If Product A = Rs. 80 lakh, total revenue?",
-    "answers": [
-      { "title": "Rs. 200 lakh", "is_correct": true },
-      { "title": "Rs. 180 lakh", "is_correct": false },
-      { "title": "Rs. 160 lakh", "is_correct": false },
-      { "title": "Rs. 240 lakh", "is_correct": false }
-    ],
-    "explanation": "40% = 80. Total = 80/0.4 = Rs. 200 lakh",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data. Central angle for Product B?",
-    "answers": [
-      { "title": "90°", "is_correct": true },
-      { "title": "72°", "is_correct": false },
-      { "title": "100°", "is_correct": false },
-      { "title": "60°", "is_correct": false }
-    ],
-    "explanation": "Angle = 25/100 × 360 = 90°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data. Product A is how much more than Product C?",
-    "answers": [
-      { "title": "100%", "is_correct": true },
-      { "title": "50%", "is_correct": false },
-      { "title": "20%", "is_correct": false },
-      { "title": "80%", "is_correct": false }
-    ],
-    "explanation": "A = 40%, C = 20%. More = 20/20 × 100 = 100%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data. Ratio of Product B to Others?",
-    "answers": [
-      { "title": "5:3", "is_correct": true },
-      { "title": "3:5", "is_correct": false },
-      { "title": "2:1", "is_correct": false },
-      { "title": "5:4", "is_correct": false }
-    ],
-    "explanation": "B:Others = 25:15 = 5:3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same data. If Others = Rs. 30 lakh, what is Product C?",
-    "answers": [
-      { "title": "Rs. 40 lakh", "is_correct": true },
-      { "title": "Rs. 50 lakh", "is_correct": false },
-      { "title": "Rs. 30 lakh", "is_correct": false },
-      { "title": "Rs. 45 lakh", "is_correct": false }
-    ],
-    "explanation": "15% = 30. 1% = 2. C = 20% = Rs. 40 lakh",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "A pie chart shows budget allocation: Education 90°, Health 60°, Defense 120°, Others 90°. What % is Education?",
+        "answers": [
+            "15%",
+            "25%",
+            "30%",
+            "20%"
+        ],
+        "correct": 1,
+        "explanation": "Education = 90\/360 × 100 = 25%"
+    },
+    {
+        "prompt": "Total budget is Rs. 72 crores. Using same data (Education 90°), Education budget?",
+        "answers": [
+            "Rs. 12 crores",
+            "Rs. 15 crores",
+            "Rs. 20 crores",
+            "Rs. 18 crores"
+        ],
+        "correct": 3,
+        "explanation": "Education = 90\/360 × 72 = Rs. 18 crores"
+    },
+    {
+        "prompt": "Using same data (Defense 120°, Health 60°), Defense is how much % more than Health?",
+        "answers": [
+            "60%",
+            "50%",
+            "100%",
+            "200%"
+        ],
+        "correct": 2,
+        "explanation": "Defense = 120°, Health = 60°. More = 60\/60 × 100 = 100%"
+    },
+    {
+        "prompt": "If Others (90°) is Rs. 18 lakhs, what is total budget?",
+        "answers": [
+            "Rs. 72 lakhs",
+            "Rs. 54 lakhs",
+            "Rs. 90 lakhs",
+            "Rs. 36 lakhs"
+        ],
+        "correct": 0,
+        "explanation": "90° represents 18 lakhs. 360° = 18 × 4 = Rs. 72 lakhs"
+    },
+    {
+        "prompt": "Central angle for a sector representing 15%?",
+        "answers": [
+            "54°",
+            "36°",
+            "60°",
+            "45°"
+        ],
+        "correct": 0,
+        "explanation": "Angle = 15\/100 × 360 = 54°"
+    },
+    {
+        "prompt": "Pie chart for monthly expenses: Rent 108°, Food 72°, Transport 54°, Savings 72°, Others 54°. Highest expense?",
+        "answers": [
+            "Transport",
+            "Food",
+            "Savings",
+            "Rent"
+        ],
+        "correct": 3,
+        "explanation": "Rent has highest angle (108°)"
+    },
+    {
+        "prompt": "Using same expense data. If total expense is Rs. 50000, what is Food expense?",
+        "answers": [
+            "Rs. 8000",
+            "Rs. 10000",
+            "Rs. 15000",
+            "Rs. 12000"
+        ],
+        "correct": 1,
+        "explanation": "Food = 72\/360 × 50000 = Rs. 10000"
+    },
+    {
+        "prompt": "Using same data. Ratio of Transport to Others?",
+        "answers": [
+            "3:2",
+            "1:1",
+            "1:2",
+            "2:1"
+        ],
+        "correct": 1,
+        "explanation": "Both are 54°. Ratio = 1:1"
+    },
+    {
+        "prompt": "Using same data. Savings is what % of total?",
+        "answers": [
+            "25%",
+            "18%",
+            "20%",
+            "15%"
+        ],
+        "correct": 2,
+        "explanation": "Savings = 72\/360 × 100 = 20%"
+    },
+    {
+        "prompt": "Using same data. If Rent is Rs. 15000, total monthly expense?",
+        "answers": [
+            "Rs. 50000",
+            "Rs. 45000",
+            "Rs. 55000",
+            "Rs. 60000"
+        ],
+        "correct": 0,
+        "explanation": "108° = 15000. 360° = 15000 × 360\/108 = Rs. 50000"
+    },
+    {
+        "prompt": "Company revenue sources: Product A 40%, Product B 25%, Product C 20%, Others 15%. If Product A = Rs. 80 lakh, total revenue?",
+        "answers": [
+            "Rs. 200 lakh",
+            "Rs. 240 lakh",
+            "Rs. 180 lakh",
+            "Rs. 160 lakh"
+        ],
+        "correct": 0,
+        "explanation": "40% = 80. Total = 80\/0.4 = Rs. 200 lakh"
+    },
+    {
+        "prompt": "Using same data. Central angle for Product B?",
+        "answers": [
+            "72°",
+            "60°",
+            "100°",
+            "90°"
+        ],
+        "correct": 3,
+        "explanation": "Angle = 25\/100 × 360 = 90°"
+    },
+    {
+        "prompt": "Using same data. Product A is how much more than Product C?",
+        "answers": [
+            "100%",
+            "50%",
+            "20%",
+            "80%"
+        ],
+        "correct": 0,
+        "explanation": "A = 40%, C = 20%. More = 20\/20 × 100 = 100%"
+    },
+    {
+        "prompt": "Using same data. Ratio of Product B to Others?",
+        "answers": [
+            "3:5",
+            "2:1",
+            "5:4",
+            "5:3"
+        ],
+        "correct": 3,
+        "explanation": "B:Others = 25:15 = 5:3"
+    },
+    {
+        "prompt": "Using same data. If Others = Rs. 30 lakh, what is Product C?",
+        "answers": [
+            "Rs. 45 lakh",
+            "Rs. 30 lakh",
+            "Rs. 50 lakh",
+            "Rs. 40 lakh"
+        ],
+        "correct": 3,
+        "explanation": "15% = 30. 1% = 2. C = 20% = Rs. 40 lakh"
+    }
 ]

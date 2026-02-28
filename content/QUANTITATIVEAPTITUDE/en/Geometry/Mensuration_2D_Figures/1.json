@@ -1,222 +1,222 @@
 [
-  {
-    "question": "Area of rectangle with length 15 cm and breadth 8 cm?",
-    "answers": [
-      { "title": "120 cm²", "is_correct": true },
-      { "title": "46 cm²", "is_correct": false },
-      { "title": "92 cm²", "is_correct": false },
-      { "title": "240 cm²", "is_correct": false }
-    ],
-    "explanation": "Area = l × b = 15 × 8 = 120 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Perimeter of square with area 196 cm²?",
-    "answers": [
-      { "title": "56 cm", "is_correct": true },
-      { "title": "28 cm", "is_correct": false },
-      { "title": "49 cm", "is_correct": false },
-      { "title": "14 cm", "is_correct": false }
-    ],
-    "explanation": "Side = √196 = 14 cm. Perimeter = 4 × 14 = 56 cm",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Area of parallelogram with base 12 cm and height 8 cm?",
-    "answers": [
-      { "title": "96 cm²", "is_correct": true },
-      { "title": "40 cm²", "is_correct": false },
-      { "title": "48 cm²", "is_correct": false },
-      { "title": "192 cm²", "is_correct": false }
-    ],
-    "explanation": "Area = base × height = 12 × 8 = 96 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Area of rhombus with diagonals 16 cm and 12 cm?",
-    "answers": [
-      { "title": "96 cm²", "is_correct": true },
-      { "title": "48 cm²", "is_correct": false },
-      { "title": "192 cm²", "is_correct": false },
-      { "title": "28 cm²", "is_correct": false }
-    ],
-    "explanation": "Area = ½ × d₁ × d₂ = ½ × 16 × 12 = 96 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Area of trapezium with parallel sides 10 cm and 14 cm, height 8 cm?",
-    "answers": [
-      { "title": "96 cm²", "is_correct": true },
-      { "title": "112 cm²", "is_correct": false },
-      { "title": "80 cm²", "is_correct": false },
-      { "title": "192 cm²", "is_correct": false }
-    ],
-    "explanation": "Area = ½(a+b)h = ½ × 24 × 8 = 96 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Diagonal of rectangle with sides 6 cm and 8 cm?",
-    "answers": [
-      { "title": "10 cm", "is_correct": true },
-      { "title": "14 cm", "is_correct": false },
-      { "title": "7 cm", "is_correct": false },
-      { "title": "12 cm", "is_correct": false }
-    ],
-    "explanation": "Diagonal = √(6² + 8²) = √100 = 10 cm",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If perimeter of square equals circumference of circle, and perimeter = 44 cm, ratio of areas?",
-    "answers": [
-      { "title": "14:11", "is_correct": true },
-      { "title": "11:14", "is_correct": false },
-      { "title": "7:11", "is_correct": false },
-      { "title": "22:7", "is_correct": false }
-    ],
-    "explanation": "Square side = 11, area = 121. Circle r = 7, area = 154. Ratio = 121:154 = 11:14. Wait, 44 = 2πr → r = 7. Area = 154. Square: 44/4 = 11. Area = 121. Ratio = 121:154 = 11:14",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A path 2m wide runs inside a rectangular garden 30m × 20m. Area of path?",
-    "answers": [
-      { "title": "184 m²", "is_correct": true },
-      { "title": "200 m²", "is_correct": false },
-      { "title": "176 m²", "is_correct": false },
-      { "title": "192 m²", "is_correct": false }
-    ],
-    "explanation": "Inner = 26×16. Path = 30×20 - 26×16 = 600 - 416 = 184 m²",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Side of rhombus is 10 cm. One diagonal is 16 cm. Find other diagonal.",
-    "answers": [
-      { "title": "12 cm", "is_correct": true },
-      { "title": "8 cm", "is_correct": false },
-      { "title": "6 cm", "is_correct": false },
-      { "title": "14 cm", "is_correct": false }
-    ],
-    "explanation": "Half diagonals: 8 and d/2. 8² + (d/2)² = 10². d/2 = 6. d = 12 cm",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Area of triangle with sides 5, 12, 13 cm?",
-    "answers": [
-      { "title": "30 cm²", "is_correct": true },
-      { "title": "65 cm²", "is_correct": false },
-      { "title": "26 cm²", "is_correct": false },
-      { "title": "60 cm²", "is_correct": false }
-    ],
-    "explanation": "Right triangle (5² + 12² = 13²). Area = ½ × 5 × 12 = 30 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Length of rectangle is twice its breadth. If perimeter is 72 cm, area?",
-    "answers": [
-      { "title": "288 cm²", "is_correct": true },
-      { "title": "144 cm²", "is_correct": false },
-      { "title": "576 cm²", "is_correct": false },
-      { "title": "216 cm²", "is_correct": false }
-    ],
-    "explanation": "2(2b + b) = 72. b = 12, l = 24. Area = 288 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Diagonal of square is 8√2 cm. Find area.",
-    "answers": [
-      { "title": "64 cm²", "is_correct": true },
-      { "title": "128 cm²", "is_correct": false },
-      { "title": "32 cm²", "is_correct": false },
-      { "title": "256 cm²", "is_correct": false }
-    ],
-    "explanation": "d = a√2. 8√2 = a√2. a = 8. Area = 64 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A wire is bent into square of side 22 cm. Same wire bent into circle. Area of circle?",
-    "answers": [
-      { "title": "616 cm²", "is_correct": true },
-      { "title": "484 cm²", "is_correct": false },
-      { "title": "154 cm²", "is_correct": false },
-      { "title": "308 cm²", "is_correct": false }
-    ],
-    "explanation": "Wire = 88 cm = 2πr. r = 14. Area = 616 cm²",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Area of equilateral triangle with perimeter 36 cm?",
-    "answers": [
-      { "title": "$36\\sqrt{3}$ cm²", "is_correct": true },
-      { "title": "$12\\sqrt{3}$ cm²", "is_correct": false },
-      { "title": "$108\\sqrt{3}$ cm²", "is_correct": false },
-      { "title": "108 cm²", "is_correct": false }
-    ],
-    "explanation": "Side = 12. Area = √3/4 × 144 = 36√3 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Ratio of areas of incircle and circumcircle of a square?",
-    "answers": [
-      { "title": "1:2", "is_correct": true },
-      { "title": "1:4", "is_correct": false },
-      { "title": "2:1", "is_correct": false },
-      { "title": "1:√2", "is_correct": false }
-    ],
-    "explanation": "Incircle r = a/2. Circumcircle R = a/√2. Ratio = (a/2)²:(a/√2)² = 1/4:1/2 = 1:2",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Area of quadrilateral with diagonals 10 cm and 12 cm intersecting at right angles?",
-    "answers": [
-      { "title": "60 cm²", "is_correct": true },
-      { "title": "120 cm²", "is_correct": false },
-      { "title": "30 cm²", "is_correct": false },
-      { "title": "22 cm²", "is_correct": false }
-    ],
-    "explanation": "Area = ½ × d₁ × d₂ = ½ × 10 × 12 = 60 cm²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If length increased by 20% and breadth decreased by 20%, area changes by?",
-    "answers": [
-      { "title": "4% decrease", "is_correct": true },
-      { "title": "No change", "is_correct": false },
-      { "title": "4% increase", "is_correct": false },
-      { "title": "10% decrease", "is_correct": false }
-    ],
-    "explanation": "New area = 1.2 × 0.8 = 0.96 = 4% decrease",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A room 8m × 6m is to be carpeted leaving 0.5m margin. Area of carpet needed?",
-    "answers": [
-      { "title": "35 m²", "is_correct": true },
-      { "title": "48 m²", "is_correct": false },
-      { "title": "42 m²", "is_correct": false },
-      { "title": "40 m²", "is_correct": false }
-    ],
-    "explanation": "Carpet area = (8-1) × (6-1) = 7 × 5 = 35 m²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Perimeter of rhombus is 52 cm and one diagonal is 10 cm. Area?",
-    "answers": [
-      { "title": "120 cm²", "is_correct": true },
-      { "title": "130 cm²", "is_correct": false },
-      { "title": "60 cm²", "is_correct": false },
-      { "title": "100 cm²", "is_correct": false }
-    ],
-    "explanation": "Side = 13. Half diagonals: 5 and √(169-25) = 12. Other diagonal = 24. Area = ½×10×24 = 120 cm²",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Square and rectangle have equal perimeter 40 cm. Rectangle is 12 cm × 8 cm. Which has more area?",
-    "answers": [
-      { "title": "Square", "is_correct": true },
-      { "title": "Rectangle", "is_correct": false },
-      { "title": "Both equal", "is_correct": false },
-      { "title": "Cannot determine", "is_correct": false }
-    ],
-    "explanation": "Square: side = 10, area = 100. Rectangle: 96. Square has more",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Area of rectangle with length 15 cm and breadth 8 cm?",
+        "answers": [
+            "240 cm²",
+            "46 cm²",
+            "92 cm²",
+            "120 cm²"
+        ],
+        "correct": 3,
+        "explanation": "Area = l × b = 15 × 8 = 120 cm²"
+    },
+    {
+        "prompt": "Perimeter of square with area 196 cm²?",
+        "answers": [
+            "28 cm",
+            "49 cm",
+            "56 cm",
+            "14 cm"
+        ],
+        "correct": 2,
+        "explanation": "Side = √196 = 14 cm. Perimeter = 4 × 14 = 56 cm"
+    },
+    {
+        "prompt": "Area of parallelogram with base 12 cm and height 8 cm?",
+        "answers": [
+            "40 cm²",
+            "192 cm²",
+            "48 cm²",
+            "96 cm²"
+        ],
+        "correct": 3,
+        "explanation": "Area = base × height = 12 × 8 = 96 cm²"
+    },
+    {
+        "prompt": "Area of rhombus with diagonals 16 cm and 12 cm?",
+        "answers": [
+            "48 cm²",
+            "28 cm²",
+            "192 cm²",
+            "96 cm²"
+        ],
+        "correct": 3,
+        "explanation": "Area = ½ × d₁ × d₂ = ½ × 16 × 12 = 96 cm²"
+    },
+    {
+        "prompt": "Area of trapezium with parallel sides 10 cm and 14 cm, height 8 cm?",
+        "answers": [
+            "112 cm²",
+            "80 cm²",
+            "96 cm²",
+            "192 cm²"
+        ],
+        "correct": 2,
+        "explanation": "Area = ½(a+b)h = ½ × 24 × 8 = 96 cm²"
+    },
+    {
+        "prompt": "Diagonal of rectangle with sides 6 cm and 8 cm?",
+        "answers": [
+            "12 cm",
+            "14 cm",
+            "7 cm",
+            "10 cm"
+        ],
+        "correct": 3,
+        "explanation": "Diagonal = √(6² + 8²) = √100 = 10 cm"
+    },
+    {
+        "prompt": "If perimeter of square equals circumference of circle, and perimeter = 44 cm, ratio of areas?",
+        "answers": [
+            "11:14",
+            "7:11",
+            "14:11",
+            "22:7"
+        ],
+        "correct": 2,
+        "explanation": "Square side = 11, area = 121. Circle r = 7, area = 154. Ratio = 121:154 = 11:14. Wait, 44 = 2πr → r = 7. Area = 154. Square: 44\/4 = 11. Area = 121. Ratio = 121:154 = 11:14"
+    },
+    {
+        "prompt": "A path 2m wide runs inside a rectangular garden 30m × 20m. Area of path?",
+        "answers": [
+            "184 m²",
+            "192 m²",
+            "200 m²",
+            "176 m²"
+        ],
+        "correct": 0,
+        "explanation": "Inner = 26×16. Path = 30×20 - 26×16 = 600 - 416 = 184 m²"
+    },
+    {
+        "prompt": "Side of rhombus is 10 cm. One diagonal is 16 cm. Find other diagonal.",
+        "answers": [
+            "8 cm",
+            "14 cm",
+            "6 cm",
+            "12 cm"
+        ],
+        "correct": 3,
+        "explanation": "Half diagonals: 8 and d\/2. 8² + (d\/2)² = 10². d\/2 = 6. d = 12 cm"
+    },
+    {
+        "prompt": "Area of triangle with sides 5, 12, 13 cm?",
+        "answers": [
+            "60 cm²",
+            "65 cm²",
+            "30 cm²",
+            "26 cm²"
+        ],
+        "correct": 2,
+        "explanation": "Right triangle (5² + 12² = 13²). Area = ½ × 5 × 12 = 30 cm²"
+    },
+    {
+        "prompt": "Length of rectangle is twice its breadth. If perimeter is 72 cm, area?",
+        "answers": [
+            "144 cm²",
+            "216 cm²",
+            "288 cm²",
+            "576 cm²"
+        ],
+        "correct": 2,
+        "explanation": "2(2b + b) = 72. b = 12, l = 24. Area = 288 cm²"
+    },
+    {
+        "prompt": "Diagonal of square is 8√2 cm. Find area.",
+        "answers": [
+            "32 cm²",
+            "128 cm²",
+            "64 cm²",
+            "256 cm²"
+        ],
+        "correct": 2,
+        "explanation": "d = a√2. 8√2 = a√2. a = 8. Area = 64 cm²"
+    },
+    {
+        "prompt": "A wire is bent into square of side 22 cm. Same wire bent into circle. Area of circle?",
+        "answers": [
+            "308 cm²",
+            "154 cm²",
+            "484 cm²",
+            "616 cm²"
+        ],
+        "correct": 3,
+        "explanation": "Wire = 88 cm = 2πr. r = 14. Area = 616 cm²"
+    },
+    {
+        "prompt": "Area of equilateral triangle with perimeter 36 cm?",
+        "answers": [
+            "$108\\sqrt{3}$ cm²",
+            "$12\\sqrt{3}$ cm²",
+            "$36\\sqrt{3}$ cm²",
+            "108 cm²"
+        ],
+        "correct": 2,
+        "explanation": "Side = 12. Area = √3\/4 × 144 = 36√3 cm²"
+    },
+    {
+        "prompt": "Ratio of areas of incircle and circumcircle of a square?",
+        "answers": [
+            "2:1",
+            "1:√2",
+            "1:2",
+            "1:4"
+        ],
+        "correct": 2,
+        "explanation": "Incircle r = a\/2. Circumcircle R = a\/√2. Ratio = (a\/2)²:(a\/√2)² = 1\/4:1\/2 = 1:2"
+    },
+    {
+        "prompt": "Area of quadrilateral with diagonals 10 cm and 12 cm intersecting at right angles?",
+        "answers": [
+            "60 cm²",
+            "120 cm²",
+            "30 cm²",
+            "22 cm²"
+        ],
+        "correct": 0,
+        "explanation": "Area = ½ × d₁ × d₂ = ½ × 10 × 12 = 60 cm²"
+    },
+    {
+        "prompt": "If length increased by 20% and breadth decreased by 20%, area changes by?",
+        "answers": [
+            "No change",
+            "4% increase",
+            "10% decrease",
+            "4% decrease"
+        ],
+        "correct": 3,
+        "explanation": "New area = 1.2 × 0.8 = 0.96 = 4% decrease"
+    },
+    {
+        "prompt": "A room 8m × 6m is to be carpeted leaving 0.5m margin. Area of carpet needed?",
+        "answers": [
+            "42 m²",
+            "40 m²",
+            "35 m²",
+            "48 m²"
+        ],
+        "correct": 2,
+        "explanation": "Carpet area = (8-1) × (6-1) = 7 × 5 = 35 m²"
+    },
+    {
+        "prompt": "Perimeter of rhombus is 52 cm and one diagonal is 10 cm. Area?",
+        "answers": [
+            "120 cm²",
+            "60 cm²",
+            "130 cm²",
+            "100 cm²"
+        ],
+        "correct": 0,
+        "explanation": "Side = 13. Half diagonals: 5 and √(169-25) = 12. Other diagonal = 24. Area = ½×10×24 = 120 cm²"
+    },
+    {
+        "prompt": "Square and rectangle have equal perimeter 40 cm. Rectangle is 12 cm × 8 cm. Which has more area?",
+        "answers": [
+            "Both equal",
+            "Square",
+            "Cannot determine",
+            "Rectangle"
+        ],
+        "correct": 1,
+        "explanation": "Square: side = 10, area = 100. Rectangle: 96. Square has more"
+    }
 ]

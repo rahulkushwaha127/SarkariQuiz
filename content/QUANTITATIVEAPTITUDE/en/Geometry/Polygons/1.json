@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Sum of interior angles of a hexagon?",
-    "answers": [
-      { "title": "720°", "is_correct": true },
-      { "title": "540°", "is_correct": false },
-      { "title": "900°", "is_correct": false },
-      { "title": "360°", "is_correct": false }
-    ],
-    "explanation": "Sum = (n-2)×180 = 4×180 = 720°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Each interior angle of regular pentagon?",
-    "answers": [
-      { "title": "108°", "is_correct": true },
-      { "title": "120°", "is_correct": false },
-      { "title": "72°", "is_correct": false },
-      { "title": "90°", "is_correct": false }
-    ],
-    "explanation": "Sum = 540°. Each = 540/5 = 108°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Sum of exterior angles of any polygon?",
-    "answers": [
-      { "title": "360°", "is_correct": true },
-      { "title": "180°", "is_correct": false },
-      { "title": "540°", "is_correct": false },
-      { "title": "Depends on n", "is_correct": false }
-    ],
-    "explanation": "Sum of exterior angles = 360° for all polygons",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Number of diagonals in an octagon?",
-    "answers": [
-      { "title": "20", "is_correct": true },
-      { "title": "8", "is_correct": false },
-      { "title": "16", "is_correct": false },
-      { "title": "24", "is_correct": false }
-    ],
-    "explanation": "Diagonals = n(n-3)/2 = 8×5/2 = 20",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Each exterior angle of regular decagon?",
-    "answers": [
-      { "title": "36°", "is_correct": true },
-      { "title": "144°", "is_correct": false },
-      { "title": "45°", "is_correct": false },
-      { "title": "30°", "is_correct": false }
-    ],
-    "explanation": "Exterior = 360/n = 360/10 = 36°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Polygon with 9 sides is called?",
-    "answers": [
-      { "title": "Nonagon", "is_correct": true },
-      { "title": "Octagon", "is_correct": false },
-      { "title": "Decagon", "is_correct": false },
-      { "title": "Heptagon", "is_correct": false }
-    ],
-    "explanation": "9-sided polygon is nonagon",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If each interior angle is 140°, number of sides?",
-    "answers": [
-      { "title": "9", "is_correct": true },
-      { "title": "7", "is_correct": false },
-      { "title": "10", "is_correct": false },
-      { "title": "8", "is_correct": false }
-    ],
-    "explanation": "Exterior = 180-140 = 40°. n = 360/40 = 9",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Number of sides if each exterior angle is 40°?",
-    "answers": [
-      { "title": "9", "is_correct": true },
-      { "title": "8", "is_correct": false },
-      { "title": "10", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "n = 360/40 = 9 sides",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Sum of interior angles of a 12-sided polygon?",
-    "answers": [
-      { "title": "1800°", "is_correct": true },
-      { "title": "2160°", "is_correct": false },
-      { "title": "1440°", "is_correct": false },
-      { "title": "1620°", "is_correct": false }
-    ],
-    "explanation": "Sum = (12-2)×180 = 10×180 = 1800°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Regular hexagon can be divided into how many equilateral triangles?",
-    "answers": [
-      { "title": "6", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "8", "is_correct": false },
-      { "title": "3", "is_correct": false }
-    ],
-    "explanation": "Regular hexagon = 6 equilateral triangles from center",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If polygon has 35 diagonals, number of sides?",
-    "answers": [
-      { "title": "10", "is_correct": true },
-      { "title": "8", "is_correct": false },
-      { "title": "9", "is_correct": false },
-      { "title": "12", "is_correct": false }
-    ],
-    "explanation": "n(n-3)/2 = 35. n² - 3n = 70. n = 10",
-    "difficulty": "medium"
-  },
-  {
-    "question": "In regular polygon, ratio of interior to exterior angle is 5:1. Number of sides?",
-    "answers": [
-      { "title": "12", "is_correct": true },
-      { "title": "10", "is_correct": false },
-      { "title": "8", "is_correct": false },
-      { "title": "15", "is_correct": false }
-    ],
-    "explanation": "Interior + Exterior = 180. So 5x + x = 180. x = 30°. n = 360/30 = 12",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Each interior angle of regular 15-sided polygon?",
-    "answers": [
-      { "title": "156°", "is_correct": true },
-      { "title": "150°", "is_correct": false },
-      { "title": "160°", "is_correct": false },
-      { "title": "144°", "is_correct": false }
-    ],
-    "explanation": "Exterior = 360/15 = 24°. Interior = 180-24 = 156°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A convex polygon has maximum how many obtuse angles?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "No limit", "is_correct": false }
-    ],
-    "explanation": "A convex polygon can have at most 3 acute angles (exterior > 90°). So most interior angles can be obtuse except 3",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is a 7-sided polygon called?",
-    "answers": [
-      { "title": "Heptagon", "is_correct": true },
-      { "title": "Hexagon", "is_correct": false },
-      { "title": "Octagon", "is_correct": false },
-      { "title": "Septagon", "is_correct": false }
-    ],
-    "explanation": "7-sided polygon is heptagon (or septagon)",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Sum of interior angles of a hexagon?",
+        "answers": [
+            "900°",
+            "720°",
+            "540°",
+            "360°"
+        ],
+        "correct": 1,
+        "explanation": "Sum = (n-2)×180 = 4×180 = 720°"
+    },
+    {
+        "prompt": "Each interior angle of regular pentagon?",
+        "answers": [
+            "120°",
+            "72°",
+            "108°",
+            "90°"
+        ],
+        "correct": 2,
+        "explanation": "Sum = 540°. Each = 540\/5 = 108°"
+    },
+    {
+        "prompt": "Sum of exterior angles of any polygon?",
+        "answers": [
+            "Depends on n",
+            "540°",
+            "180°",
+            "360°"
+        ],
+        "correct": 3,
+        "explanation": "Sum of exterior angles = 360° for all polygons"
+    },
+    {
+        "prompt": "Number of diagonals in an octagon?",
+        "answers": [
+            "24",
+            "8",
+            "20",
+            "16"
+        ],
+        "correct": 2,
+        "explanation": "Diagonals = n(n-3)\/2 = 8×5\/2 = 20"
+    },
+    {
+        "prompt": "Each exterior angle of regular decagon?",
+        "answers": [
+            "36°",
+            "45°",
+            "144°",
+            "30°"
+        ],
+        "correct": 0,
+        "explanation": "Exterior = 360\/n = 360\/10 = 36°"
+    },
+    {
+        "prompt": "Polygon with 9 sides is called?",
+        "answers": [
+            "Octagon",
+            "Nonagon",
+            "Heptagon",
+            "Decagon"
+        ],
+        "correct": 1,
+        "explanation": "9-sided polygon is nonagon"
+    },
+    {
+        "prompt": "If each interior angle is 140°, number of sides?",
+        "answers": [
+            "9",
+            "7",
+            "10",
+            "8"
+        ],
+        "correct": 0,
+        "explanation": "Exterior = 180-140 = 40°. n = 360\/40 = 9"
+    },
+    {
+        "prompt": "Number of sides if each exterior angle is 40°?",
+        "answers": [
+            "9",
+            "8",
+            "10",
+            "6"
+        ],
+        "correct": 0,
+        "explanation": "n = 360\/40 = 9 sides"
+    },
+    {
+        "prompt": "Sum of interior angles of a 12-sided polygon?",
+        "answers": [
+            "1620°",
+            "1440°",
+            "1800°",
+            "2160°"
+        ],
+        "correct": 2,
+        "explanation": "Sum = (12-2)×180 = 10×180 = 1800°"
+    },
+    {
+        "prompt": "Regular hexagon can be divided into how many equilateral triangles?",
+        "answers": [
+            "4",
+            "8",
+            "3",
+            "6"
+        ],
+        "correct": 3,
+        "explanation": "Regular hexagon = 6 equilateral triangles from center"
+    },
+    {
+        "prompt": "If polygon has 35 diagonals, number of sides?",
+        "answers": [
+            "10",
+            "9",
+            "8",
+            "12"
+        ],
+        "correct": 0,
+        "explanation": "n(n-3)\/2 = 35. n² - 3n = 70. n = 10"
+    },
+    {
+        "prompt": "In regular polygon, ratio of interior to exterior angle is 5:1. Number of sides?",
+        "answers": [
+            "15",
+            "12",
+            "10",
+            "8"
+        ],
+        "correct": 1,
+        "explanation": "Interior + Exterior = 180. So 5x + x = 180. x = 30°. n = 360\/30 = 12"
+    },
+    {
+        "prompt": "Each interior angle of regular 15-sided polygon?",
+        "answers": [
+            "160°",
+            "156°",
+            "144°",
+            "150°"
+        ],
+        "correct": 1,
+        "explanation": "Exterior = 360\/15 = 24°. Interior = 180-24 = 156°"
+    },
+    {
+        "prompt": "A convex polygon has maximum how many obtuse angles?",
+        "answers": [
+            "4",
+            "2",
+            "3",
+            "No limit"
+        ],
+        "correct": 2,
+        "explanation": "A convex polygon can have at most 3 acute angles (exterior > 90°). So most interior angles can be obtuse except 3"
+    },
+    {
+        "prompt": "What is a 7-sided polygon called?",
+        "answers": [
+            "Octagon",
+            "Septagon",
+            "Heptagon",
+            "Hexagon"
+        ],
+        "correct": 2,
+        "explanation": "7-sided polygon is heptagon (or septagon)"
+    }
 ]

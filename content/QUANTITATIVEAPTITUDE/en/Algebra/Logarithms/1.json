@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Value of $\\log_2 8$?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "8", "is_correct": false }
-    ],
-    "explanation": "$2^3 = 8$, so $\\log_2 8 = 3$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Value of $\\log_{10} 1000$?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "1000", "is_correct": false }
-    ],
-    "explanation": "$10^3 = 1000$, so $\\log_{10} 1000 = 3$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Value of $\\log_5 1$?",
-    "answers": [
-      { "title": "0", "is_correct": true },
-      { "title": "1", "is_correct": false },
-      { "title": "5", "is_correct": false },
-      { "title": "-1", "is_correct": false }
-    ],
-    "explanation": "$5^0 = 1$, so $\\log_5 1 = 0$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Simplify: $\\log a + \\log b$",
-    "answers": [
-      { "title": "$\\log(ab)$", "is_correct": true },
-      { "title": "$\\log(a+b)$", "is_correct": false },
-      { "title": "$\\log a \\cdot \\log b$", "is_correct": false },
-      { "title": "$\\log(a/b)$", "is_correct": false }
-    ],
-    "explanation": "Product rule: $\\log a + \\log b = \\log(ab)$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Simplify: $\\log a - \\log b$",
-    "answers": [
-      { "title": "$\\log(a/b)$", "is_correct": true },
-      { "title": "$\\log(a-b)$", "is_correct": false },
-      { "title": "$\\log a / \\log b$", "is_correct": false },
-      { "title": "$\\log(ab)$", "is_correct": false }
-    ],
-    "explanation": "Quotient rule: $\\log a - \\log b = \\log(a/b)$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Value of $2\\log_3 9$?",
-    "answers": [
-      { "title": "4", "is_correct": true },
-      { "title": "6", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "18", "is_correct": false }
-    ],
-    "explanation": "$\\log_3 9 = 2$. So $2 \\times 2 = 4$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If $\\log_x 64 = 3$, find x.",
-    "answers": [
-      { "title": "4", "is_correct": true },
-      { "title": "8", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "16", "is_correct": false }
-    ],
-    "explanation": "$x^3 = 64$. $x = 4$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Value of $\\log_2 32 - \\log_2 4$?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "8", "is_correct": false },
-      { "title": "5", "is_correct": false },
-      { "title": "28", "is_correct": false }
-    ],
-    "explanation": "$\\log_2(32/4) = \\log_2 8 = 3$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Value of $\\log_{10} 0.01$?",
-    "answers": [
-      { "title": "-2", "is_correct": true },
-      { "title": "2", "is_correct": false },
-      { "title": "-1", "is_correct": false },
-      { "title": "0.01", "is_correct": false }
-    ],
-    "explanation": "$0.01 = 10^{-2}$, so $\\log = -2$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If $\\log 2 = 0.301$, find $\\log 8$.",
-    "answers": [
-      { "title": "0.903", "is_correct": true },
-      { "title": "0.602", "is_correct": false },
-      { "title": "2.408", "is_correct": false },
-      { "title": "0.301", "is_correct": false }
-    ],
-    "explanation": "$\\log 8 = \\log 2^3 = 3 \\log 2 = 0.903$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Value of $\\log_a a$?",
-    "answers": [
-      { "title": "1", "is_correct": true },
-      { "title": "0", "is_correct": false },
-      { "title": "a", "is_correct": false },
-      { "title": "-1", "is_correct": false }
-    ],
-    "explanation": "$a^1 = a$, so $\\log_a a = 1$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Simplify: $\\log_3 27 + \\log_3 9$",
-    "answers": [
-      { "title": "5", "is_correct": true },
-      { "title": "6", "is_correct": false },
-      { "title": "4", "is_correct": false },
-      { "title": "243", "is_correct": false }
-    ],
-    "explanation": "$3 + 2 = 5$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Value of $\\log_4 16 \\times \\log_{16} 64$?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "$\\log_4 16 = 2$. $\\log_{16} 64 = \\log_{16} 4^3 = 3/2$. Product = 3",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If $\\log 3 = 0.477$, find $\\log 27$.",
-    "answers": [
-      { "title": "1.431", "is_correct": true },
-      { "title": "0.954", "is_correct": false },
-      { "title": "2.385", "is_correct": false },
-      { "title": "0.477", "is_correct": false }
-    ],
-    "explanation": "$\\log 27 = 3 \\log 3 = 1.431$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Value of $10^{\\log_{10} 5}$?",
-    "answers": [
-      { "title": "5", "is_correct": true },
-      { "title": "10", "is_correct": false },
-      { "title": "50", "is_correct": false },
-      { "title": "1", "is_correct": false }
-    ],
-    "explanation": "$a^{\\log_a x} = x$. So $10^{\\log_{10} 5} = 5$",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Value of $\\log_2 8$?",
+        "answers": [
+            "3",
+            "2",
+            "8",
+            "4"
+        ],
+        "correct": 0,
+        "explanation": "$2^3 = 8$, so $\\log_2 8 = 3$"
+    },
+    {
+        "prompt": "Value of $\\log_{10} 1000$?",
+        "answers": [
+            "3",
+            "2",
+            "1000",
+            "4"
+        ],
+        "correct": 0,
+        "explanation": "$10^3 = 1000$, so $\\log_{10} 1000 = 3$"
+    },
+    {
+        "prompt": "Value of $\\log_5 1$?",
+        "answers": [
+            "5",
+            "0",
+            "1",
+            "-1"
+        ],
+        "correct": 1,
+        "explanation": "$5^0 = 1$, so $\\log_5 1 = 0$"
+    },
+    {
+        "prompt": "Simplify: $\\log a + \\log b$",
+        "answers": [
+            "$\\log a \\cdot \\log b$",
+            "$\\log(ab)$",
+            "$\\log(a+b)$",
+            "$\\log(a\/b)$"
+        ],
+        "correct": 1,
+        "explanation": "Product rule: $\\log a + \\log b = \\log(ab)$"
+    },
+    {
+        "prompt": "Simplify: $\\log a - \\log b$",
+        "answers": [
+            "$\\log(ab)$",
+            "$\\log a \/ \\log b$",
+            "$\\log(a-b)$",
+            "$\\log(a\/b)$"
+        ],
+        "correct": 3,
+        "explanation": "Quotient rule: $\\log a - \\log b = \\log(a\/b)$"
+    },
+    {
+        "prompt": "Value of $2\\log_3 9$?",
+        "answers": [
+            "18",
+            "2",
+            "4",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "$\\log_3 9 = 2$. So $2 \\times 2 = 4$"
+    },
+    {
+        "prompt": "If $\\log_x 64 = 3$, find x.",
+        "answers": [
+            "16",
+            "2",
+            "4",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "$x^3 = 64$. $x = 4$"
+    },
+    {
+        "prompt": "Value of $\\log_2 32 - \\log_2 4$?",
+        "answers": [
+            "3",
+            "28",
+            "5",
+            "8"
+        ],
+        "correct": 0,
+        "explanation": "$\\log_2(32\/4) = \\log_2 8 = 3$"
+    },
+    {
+        "prompt": "Value of $\\log_{10} 0.01$?",
+        "answers": [
+            "0.01",
+            "-1",
+            "-2",
+            "2"
+        ],
+        "correct": 2,
+        "explanation": "$0.01 = 10^{-2}$, so $\\log = -2$"
+    },
+    {
+        "prompt": "If $\\log 2 = 0.301$, find $\\log 8$.",
+        "answers": [
+            "0.903",
+            "0.301",
+            "2.408",
+            "0.602"
+        ],
+        "correct": 0,
+        "explanation": "$\\log 8 = \\log 2^3 = 3 \\log 2 = 0.903$"
+    },
+    {
+        "prompt": "Value of $\\log_a a$?",
+        "answers": [
+            "1",
+            "a",
+            "-1",
+            "0"
+        ],
+        "correct": 0,
+        "explanation": "$a^1 = a$, so $\\log_a a = 1$"
+    },
+    {
+        "prompt": "Simplify: $\\log_3 27 + \\log_3 9$",
+        "answers": [
+            "243",
+            "5",
+            "6",
+            "4"
+        ],
+        "correct": 1,
+        "explanation": "$3 + 2 = 5$"
+    },
+    {
+        "prompt": "Value of $\\log_4 16 \\times \\log_{16} 64$?",
+        "answers": [
+            "4",
+            "2",
+            "3",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "$\\log_4 16 = 2$. $\\log_{16} 64 = \\log_{16} 4^3 = 3\/2$. Product = 3"
+    },
+    {
+        "prompt": "If $\\log 3 = 0.477$, find $\\log 27$.",
+        "answers": [
+            "0.477",
+            "2.385",
+            "0.954",
+            "1.431"
+        ],
+        "correct": 3,
+        "explanation": "$\\log 27 = 3 \\log 3 = 1.431$"
+    },
+    {
+        "prompt": "Value of $10^{\\log_{10} 5}$?",
+        "answers": [
+            "50",
+            "1",
+            "10",
+            "5"
+        ],
+        "correct": 3,
+        "explanation": "$a^{\\log_a x} = x$. So $10^{\\log_{10} 5} = 5$"
+    }
 ]

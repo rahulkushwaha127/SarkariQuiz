@@ -1,222 +1,222 @@
 [
-  {
-    "question": "Average of 5 consecutive even numbers starting from 4?",
-    "answers": [
-      { "title": "8", "is_correct": true },
-      { "title": "10", "is_correct": false },
-      { "title": "6", "is_correct": false },
-      { "title": "12", "is_correct": false }
-    ],
-    "explanation": "Numbers: 4,6,8,10,12. Middle number = Average = 8",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of first 100 natural numbers?",
-    "answers": [
-      { "title": "50.5", "is_correct": true },
-      { "title": "50", "is_correct": false },
-      { "title": "51", "is_correct": false },
-      { "title": "49.5", "is_correct": false }
-    ],
-    "explanation": "Sum = 5050. Average = 5050/100 = 50.5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average age of 30 students is 15 years. Teacher's age added makes average 16. Teacher's age?",
-    "answers": [
-      { "title": "46 years", "is_correct": true },
-      { "title": "31 years", "is_correct": false },
-      { "title": "45 years", "is_correct": false },
-      { "title": "36 years", "is_correct": false }
-    ],
-    "explanation": "Total now = 31×16 = 496. Earlier = 450. Teacher = 46 years",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 3 numbers is 44. If two are 30 and 52, third?",
-    "answers": [
-      { "title": "50", "is_correct": true },
-      { "title": "44", "is_correct": false },
-      { "title": "48", "is_correct": false },
-      { "title": "54", "is_correct": false }
-    ],
-    "explanation": "Sum = 132. Third = 132 - 82 = 50",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average monthly salary of 40 employees is Rs. 8000. If manager's salary included, average rises by Rs. 400. Manager's salary?",
-    "answers": [
-      { "title": "Rs. 24400", "is_correct": true },
-      { "title": "Rs. 16400", "is_correct": false },
-      { "title": "Rs. 8400", "is_correct": false },
-      { "title": "Rs. 20000", "is_correct": false }
-    ],
-    "explanation": "New total = 41×8400 = 344400. Old = 320000. Manager = 24400",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of 20 numbers is 35. If each increased by 5, new average?",
-    "answers": [
-      { "title": "40", "is_correct": true },
-      { "title": "35", "is_correct": false },
-      { "title": "100", "is_correct": false },
-      { "title": "45", "is_correct": false }
-    ],
-    "explanation": "New average = 35 + 5 = 40",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 50 numbers is 38. Two numbers 45 and 55 are discarded. New average?",
-    "answers": [
-      { "title": "37.5", "is_correct": true },
-      { "title": "36", "is_correct": false },
-      { "title": "38", "is_correct": false },
-      { "title": "39", "is_correct": false }
-    ],
-    "explanation": "Sum = 1900. New sum = 1800. Average = 1800/48 = 37.5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 11 observations is 60. Average of first 6 is 58 and last 6 is 63. 6th observation?",
-    "answers": [
-      { "title": "66", "is_correct": true },
-      { "title": "60", "is_correct": false },
-      { "title": "63", "is_correct": false },
-      { "title": "58", "is_correct": false }
-    ],
-    "explanation": "First 6 sum = 348. Last 6 sum = 378. Total = 660. 6th counted twice = 348+378-660 = 66",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A cricketer's average after 16 innings is 36. How many runs to increase average to 40 after 17th?",
-    "answers": [
-      { "title": "104", "is_correct": true },
-      { "title": "40", "is_correct": false },
-      { "title": "76", "is_correct": false },
-      { "title": "68", "is_correct": false }
-    ],
-    "explanation": "Current = 576. Need = 680. Runs = 104",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 9 numbers is 28. Average of first 5 is 25 and next 3 is 29. 9th number?",
-    "answers": [
-      { "title": "40", "is_correct": true },
-      { "title": "35", "is_correct": false },
-      { "title": "28", "is_correct": false },
-      { "title": "32", "is_correct": false }
-    ],
-    "explanation": "Total = 252. First 5 = 125. Next 3 = 87. 9th = 252-212 = 40",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average weight of 8 persons = 65 kg. New person replaces one of 70 kg. New average = 64 kg. New person's weight?",
-    "answers": [
-      { "title": "62 kg", "is_correct": true },
-      { "title": "64 kg", "is_correct": false },
-      { "title": "58 kg", "is_correct": false },
-      { "title": "60 kg", "is_correct": false }
-    ],
-    "explanation": "Old total = 520. New = 512. Reduction = 8. New person = 70-8 = 62 kg",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of x and y is 40. Average of y and z is 35. Average of x and z is 45. Find y.",
-    "answers": [
-      { "title": "30", "is_correct": true },
-      { "title": "40", "is_correct": false },
-      { "title": "35", "is_correct": false },
-      { "title": "50", "is_correct": false }
-    ],
-    "explanation": "x+y=80, y+z=70, x+z=90. 2(x+y+z)=240. x+y+z=120. y=120-90=30",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average marks of 30 boys is 62 and 20 girls is 67. Class average?",
-    "answers": [
-      { "title": "64", "is_correct": true },
-      { "title": "64.5", "is_correct": false },
-      { "title": "63", "is_correct": false },
-      { "title": "65", "is_correct": false }
-    ],
-    "explanation": "Total = 1860 + 1340 = 3200. Average = 3200/50 = 64",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 5 consecutive odd numbers is 25. Largest?",
-    "answers": [
-      { "title": "29", "is_correct": true },
-      { "title": "27", "is_correct": false },
-      { "title": "31", "is_correct": false },
-      { "title": "25", "is_correct": false }
-    ],
-    "explanation": "Middle = 25. Numbers: 21,23,25,27,29. Largest = 29",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average temperature for Mon-Thu was 48°C. Average for Tue-Fri was 46°C. Monday = 42°C. Friday?",
-    "answers": [
-      { "title": "34°C", "is_correct": true },
-      { "title": "40°C", "is_correct": false },
-      { "title": "38°C", "is_correct": false },
-      { "title": "46°C", "is_correct": false }
-    ],
-    "explanation": "M+T+W+Th = 192. T+W+Th+F = 184. M-F = 8. F = 42-8 = 34",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average salary of all workers is Rs. 5000. Average of 10 officers is Rs. 8000 and 30 laborers is Rs. 4000. Officers + laborers = all?",
-    "answers": [
-      { "title": "Yes, total is 40", "is_correct": true },
-      { "title": "No", "is_correct": false },
-      { "title": "Cannot say", "is_correct": false },
-      { "title": "Total is 50", "is_correct": false }
-    ],
-    "explanation": "Total = (80000+120000)/40 = 200000/40 = 5000. Verified!",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of first n natural numbers?",
-    "answers": [
-      { "title": "(n+1)/2", "is_correct": true },
-      { "title": "n/2", "is_correct": false },
-      { "title": "n", "is_correct": false },
-      { "title": "(n-1)/2", "is_correct": false }
-    ],
-    "explanation": "Sum = n(n+1)/2. Average = (n+1)/2",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A car covers first 60 km at 30 km/hr and next 60 km at 60 km/hr. Average speed?",
-    "answers": [
-      { "title": "40 km/hr", "is_correct": true },
-      { "title": "45 km/hr", "is_correct": false },
-      { "title": "50 km/hr", "is_correct": false },
-      { "title": "48 km/hr", "is_correct": false }
-    ],
-    "explanation": "Time = 2 + 1 = 3 hr. Dist = 120 km. Speed = 40 km/hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "10 results average 25. First 6 average 22. Last 7 average?",
-    "answers": [
-      { "title": "Cannot be determined", "is_correct": false },
-      { "title": "28", "is_correct": true },
-      { "title": "30", "is_correct": false },
-      { "title": "26", "is_correct": false }
-    ],
-    "explanation": "Wait, 6+7=13≠10. Question seems to have overlap or typo. Assuming first 6 + some overlap with last 7: Total=250. First 6=132. If last 7 share 3 with first 6, need more info. If 6+4=10 intended and last 4 avg needed: last 4 = (250-132)/4 = 29.5. Options don't match. Answer as 28 if there's overlap of 3 numbers",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Average of squares of first 5 natural numbers?",
-    "answers": [
-      { "title": "11", "is_correct": true },
-      { "title": "15", "is_correct": false },
-      { "title": "10", "is_correct": false },
-      { "title": "9", "is_correct": false }
-    ],
-    "explanation": "1+4+9+16+25 = 55. Average = 11",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Average of 5 consecutive even numbers starting from 4?",
+        "answers": [
+            "12",
+            "8",
+            "6",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "Numbers: 4,6,8,10,12. Middle number = Average = 8"
+    },
+    {
+        "prompt": "Average of first 100 natural numbers?",
+        "answers": [
+            "50.5",
+            "49.5",
+            "50",
+            "51"
+        ],
+        "correct": 0,
+        "explanation": "Sum = 5050. Average = 5050\/100 = 50.5"
+    },
+    {
+        "prompt": "Average age of 30 students is 15 years. Teacher's age added makes average 16. Teacher's age?",
+        "answers": [
+            "31 years",
+            "36 years",
+            "46 years",
+            "45 years"
+        ],
+        "correct": 2,
+        "explanation": "Total now = 31×16 = 496. Earlier = 450. Teacher = 46 years"
+    },
+    {
+        "prompt": "Average of 3 numbers is 44. If two are 30 and 52, third?",
+        "answers": [
+            "54",
+            "44",
+            "48",
+            "50"
+        ],
+        "correct": 3,
+        "explanation": "Sum = 132. Third = 132 - 82 = 50"
+    },
+    {
+        "prompt": "Average monthly salary of 40 employees is Rs. 8000. If manager's salary included, average rises by Rs. 400. Manager's salary?",
+        "answers": [
+            "Rs. 16400",
+            "Rs. 20000",
+            "Rs. 24400",
+            "Rs. 8400"
+        ],
+        "correct": 2,
+        "explanation": "New total = 41×8400 = 344400. Old = 320000. Manager = 24400"
+    },
+    {
+        "prompt": "Average of 20 numbers is 35. If each increased by 5, new average?",
+        "answers": [
+            "40",
+            "45",
+            "35",
+            "100"
+        ],
+        "correct": 0,
+        "explanation": "New average = 35 + 5 = 40"
+    },
+    {
+        "prompt": "Average of 50 numbers is 38. Two numbers 45 and 55 are discarded. New average?",
+        "answers": [
+            "36",
+            "37.5",
+            "39",
+            "38"
+        ],
+        "correct": 1,
+        "explanation": "Sum = 1900. New sum = 1800. Average = 1800\/48 = 37.5"
+    },
+    {
+        "prompt": "Average of 11 observations is 60. Average of first 6 is 58 and last 6 is 63. 6th observation?",
+        "answers": [
+            "63",
+            "66",
+            "58",
+            "60"
+        ],
+        "correct": 1,
+        "explanation": "First 6 sum = 348. Last 6 sum = 378. Total = 660. 6th counted twice = 348+378-660 = 66"
+    },
+    {
+        "prompt": "A cricketer's average after 16 innings is 36. How many runs to increase average to 40 after 17th?",
+        "answers": [
+            "40",
+            "76",
+            "68",
+            "104"
+        ],
+        "correct": 3,
+        "explanation": "Current = 576. Need = 680. Runs = 104"
+    },
+    {
+        "prompt": "Average of 9 numbers is 28. Average of first 5 is 25 and next 3 is 29. 9th number?",
+        "answers": [
+            "40",
+            "32",
+            "28",
+            "35"
+        ],
+        "correct": 0,
+        "explanation": "Total = 252. First 5 = 125. Next 3 = 87. 9th = 252-212 = 40"
+    },
+    {
+        "prompt": "Average weight of 8 persons = 65 kg. New person replaces one of 70 kg. New average = 64 kg. New person's weight?",
+        "answers": [
+            "60 kg",
+            "58 kg",
+            "64 kg",
+            "62 kg"
+        ],
+        "correct": 3,
+        "explanation": "Old total = 520. New = 512. Reduction = 8. New person = 70-8 = 62 kg"
+    },
+    {
+        "prompt": "Average of x and y is 40. Average of y and z is 35. Average of x and z is 45. Find y.",
+        "answers": [
+            "30",
+            "35",
+            "50",
+            "40"
+        ],
+        "correct": 0,
+        "explanation": "x+y=80, y+z=70, x+z=90. 2(x+y+z)=240. x+y+z=120. y=120-90=30"
+    },
+    {
+        "prompt": "Average marks of 30 boys is 62 and 20 girls is 67. Class average?",
+        "answers": [
+            "64.5",
+            "65",
+            "64",
+            "63"
+        ],
+        "correct": 2,
+        "explanation": "Total = 1860 + 1340 = 3200. Average = 3200\/50 = 64"
+    },
+    {
+        "prompt": "Average of 5 consecutive odd numbers is 25. Largest?",
+        "answers": [
+            "25",
+            "31",
+            "27",
+            "29"
+        ],
+        "correct": 3,
+        "explanation": "Middle = 25. Numbers: 21,23,25,27,29. Largest = 29"
+    },
+    {
+        "prompt": "Average temperature for Mon-Thu was 48°C. Average for Tue-Fri was 46°C. Monday = 42°C. Friday?",
+        "answers": [
+            "38°C",
+            "46°C",
+            "40°C",
+            "34°C"
+        ],
+        "correct": 3,
+        "explanation": "M+T+W+Th = 192. T+W+Th+F = 184. M-F = 8. F = 42-8 = 34"
+    },
+    {
+        "prompt": "Average salary of all workers is Rs. 5000. Average of 10 officers is Rs. 8000 and 30 laborers is Rs. 4000. Officers + laborers = all?",
+        "answers": [
+            "Total is 50",
+            "No",
+            "Cannot say",
+            "Yes, total is 40"
+        ],
+        "correct": 3,
+        "explanation": "Total = (80000+120000)\/40 = 200000\/40 = 5000. Verified!"
+    },
+    {
+        "prompt": "Average of first n natural numbers?",
+        "answers": [
+            "(n+1)\/2",
+            "n\/2",
+            "(n-1)\/2",
+            "n"
+        ],
+        "correct": 0,
+        "explanation": "Sum = n(n+1)\/2. Average = (n+1)\/2"
+    },
+    {
+        "prompt": "A car covers first 60 km at 30 km\/hr and next 60 km at 60 km\/hr. Average speed?",
+        "answers": [
+            "45 km\/hr",
+            "48 km\/hr",
+            "40 km\/hr",
+            "50 km\/hr"
+        ],
+        "correct": 2,
+        "explanation": "Time = 2 + 1 = 3 hr. Dist = 120 km. Speed = 40 km\/hr"
+    },
+    {
+        "prompt": "10 results average 25. First 6 average 22. Last 7 average?",
+        "answers": [
+            "28",
+            "26",
+            "30",
+            "Cannot be determined"
+        ],
+        "correct": 0,
+        "explanation": "Wait, 6+7=13≠10. Question seems to have overlap or typo. Assuming first 6 + some overlap with last 7: Total=250. First 6=132. If last 7 share 3 with first 6, need more info. If 6+4=10 intended and last 4 avg needed: last 4 = (250-132)\/4 = 29.5. Options don't match. Answer as 28 if there's overlap of 3 numbers"
+    },
+    {
+        "prompt": "Average of squares of first 5 natural numbers?",
+        "answers": [
+            "15",
+            "9",
+            "11",
+            "10"
+        ],
+        "correct": 2,
+        "explanation": "1+4+9+16+25 = 55. Average = 11"
+    }
 ]

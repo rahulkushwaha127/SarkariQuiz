@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Unit digit of $7^{23}$?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "7", "is_correct": false },
-      { "title": "9", "is_correct": false },
-      { "title": "1", "is_correct": false }
-    ],
-    "explanation": "Cycle of 7: 7,9,3,1 (period 4). 23 mod 4 = 3. Third = 3",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Unit digit of $2^{100}$?",
-    "answers": [
-      { "title": "6", "is_correct": true },
-      { "title": "2", "is_correct": false },
-      { "title": "4", "is_correct": false },
-      { "title": "8", "is_correct": false }
-    ],
-    "explanation": "Cycle of 2: 2,4,8,6 (period 4). 100 mod 4 = 0. Fourth = 6",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of $3^{45}$?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "9", "is_correct": false },
-      { "title": "7", "is_correct": false },
-      { "title": "1", "is_correct": false }
-    ],
-    "explanation": "Cycle of 3: 3,9,7,1. 45 mod 4 = 1. First = 3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of $9^{99}$?",
-    "answers": [
-      { "title": "9", "is_correct": true },
-      { "title": "1", "is_correct": false },
-      { "title": "3", "is_correct": false },
-      { "title": "7", "is_correct": false }
-    ],
-    "explanation": "Cycle of 9: 9,1 (period 2). 99 is odd. Unit = 9",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of $4^{50}$?",
-    "answers": [
-      { "title": "6", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "8", "is_correct": false }
-    ],
-    "explanation": "Cycle of 4: 4,6 (period 2). 50 is even. Unit = 6",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of $13^{15} \\times 17^{18}$?",
-    "answers": [
-      { "title": "1", "is_correct": true },
-      { "title": "3", "is_correct": false },
-      { "title": "7", "is_correct": false },
-      { "title": "9", "is_correct": false }
-    ],
-    "explanation": "Unit of 13^15 = 3^15 = 7. Unit of 17^18 = 7^18 = 9. 7×9 = 63. Unit = 3. Hmm let me recalc: 3^15: 15 mod 4 = 3, cycle 3,9,7,1, third = 7. 7^18: 18 mod 4 = 2, cycle 7,9,3,1, second = 9. 7×9 = 63, unit = 3",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Unit digit of $5^{1000}$?",
-    "answers": [
-      { "title": "5", "is_correct": true },
-      { "title": "0", "is_correct": false },
-      { "title": "1", "is_correct": false },
-      { "title": "25", "is_correct": false }
-    ],
-    "explanation": "5 raised to any positive power ends in 5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of $6^{200}$?",
-    "answers": [
-      { "title": "6", "is_correct": true },
-      { "title": "0", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "4", "is_correct": false }
-    ],
-    "explanation": "6 raised to any positive power ends in 6",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of $8^{75}$?",
-    "answers": [
-      { "title": "2", "is_correct": true },
-      { "title": "8", "is_correct": false },
-      { "title": "4", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "Cycle of 8: 8,4,2,6. 75 mod 4 = 3. Third = 2",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of 123 × 456?",
-    "answers": [
-      { "title": "8", "is_correct": true },
-      { "title": "6", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "4", "is_correct": false }
-    ],
-    "explanation": "Unit = 3 × 6 = 18. Unit = 8",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of $2^{2^{10}}$?",
-    "answers": [
-      { "title": "6", "is_correct": true },
-      { "title": "2", "is_correct": false },
-      { "title": "4", "is_correct": false },
-      { "title": "8", "is_correct": false }
-    ],
-    "explanation": "$2^{10}$ = 1024 is divisible by 4. So unit = 6",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Unit digit of 234 + 567 + 891?",
-    "answers": [
-      { "title": "2", "is_correct": true },
-      { "title": "12", "is_correct": false },
-      { "title": "0", "is_correct": false },
-      { "title": "8", "is_correct": false }
-    ],
-    "explanation": "Unit = 4 + 7 + 1 = 12. Unit = 2",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Unit digit of $17^{17} + 13^{13}$?",
-    "answers": [
-      { "title": "0", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "6", "is_correct": false },
-      { "title": "2", "is_correct": false }
-    ],
-    "explanation": "17^17: 7^17, 17 mod 4 = 1, unit = 7. 13^13: 3^13, 13 mod 4 = 1, unit = 3. Sum = 10. Unit = 0",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Unit digit of $1! + 2! + 3! + ... + 10!$?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "0", "is_correct": false },
-      { "title": "7", "is_correct": false },
-      { "title": "1", "is_correct": false }
-    ],
-    "explanation": "5! onwards have unit 0. 1!+2!+3!+4! = 1+2+6+24 = 33. Unit = 3",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Unit digit of $11^{11} \\times 12^{12}$?",
-    "answers": [
-      { "title": "6", "is_correct": true },
-      { "title": "2", "is_correct": false },
-      { "title": "1", "is_correct": false },
-      { "title": "4", "is_correct": false }
-    ],
-    "explanation": "11^11 unit = 1. 12^12 unit = 2^12 = 6. Product unit = 6",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Unit digit of $7^{23}$?",
+        "answers": [
+            "9",
+            "1",
+            "7",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "Cycle of 7: 7,9,3,1 (period 4). 23 mod 4 = 3. Third = 3"
+    },
+    {
+        "prompt": "Unit digit of $2^{100}$?",
+        "answers": [
+            "2",
+            "8",
+            "6",
+            "4"
+        ],
+        "correct": 2,
+        "explanation": "Cycle of 2: 2,4,8,6 (period 4). 100 mod 4 = 0. Fourth = 6"
+    },
+    {
+        "prompt": "Unit digit of $3^{45}$?",
+        "answers": [
+            "1",
+            "9",
+            "7",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "Cycle of 3: 3,9,7,1. 45 mod 4 = 1. First = 3"
+    },
+    {
+        "prompt": "Unit digit of $9^{99}$?",
+        "answers": [
+            "9",
+            "7",
+            "1",
+            "3"
+        ],
+        "correct": 0,
+        "explanation": "Cycle of 9: 9,1 (period 2). 99 is odd. Unit = 9"
+    },
+    {
+        "prompt": "Unit digit of $4^{50}$?",
+        "answers": [
+            "6",
+            "8",
+            "4",
+            "2"
+        ],
+        "correct": 0,
+        "explanation": "Cycle of 4: 4,6 (period 2). 50 is even. Unit = 6"
+    },
+    {
+        "prompt": "Unit digit of $13^{15} \\times 17^{18}$?",
+        "answers": [
+            "7",
+            "9",
+            "1",
+            "3"
+        ],
+        "correct": 2,
+        "explanation": "Unit of 13^15 = 3^15 = 7. Unit of 17^18 = 7^18 = 9. 7×9 = 63. Unit = 3. Hmm let me recalc: 3^15: 15 mod 4 = 3, cycle 3,9,7,1, third = 7. 7^18: 18 mod 4 = 2, cycle 7,9,3,1, second = 9. 7×9 = 63, unit = 3"
+    },
+    {
+        "prompt": "Unit digit of $5^{1000}$?",
+        "answers": [
+            "5",
+            "0",
+            "25",
+            "1"
+        ],
+        "correct": 0,
+        "explanation": "5 raised to any positive power ends in 5"
+    },
+    {
+        "prompt": "Unit digit of $6^{200}$?",
+        "answers": [
+            "2",
+            "0",
+            "4",
+            "6"
+        ],
+        "correct": 3,
+        "explanation": "6 raised to any positive power ends in 6"
+    },
+    {
+        "prompt": "Unit digit of $8^{75}$?",
+        "answers": [
+            "6",
+            "2",
+            "4",
+            "8"
+        ],
+        "correct": 1,
+        "explanation": "Cycle of 8: 8,4,2,6. 75 mod 4 = 3. Third = 2"
+    },
+    {
+        "prompt": "Unit digit of 123 × 456?",
+        "answers": [
+            "4",
+            "6",
+            "8",
+            "2"
+        ],
+        "correct": 2,
+        "explanation": "Unit = 3 × 6 = 18. Unit = 8"
+    },
+    {
+        "prompt": "Unit digit of $2^{2^{10}}$?",
+        "answers": [
+            "6",
+            "2",
+            "4",
+            "8"
+        ],
+        "correct": 0,
+        "explanation": "$2^{10}$ = 1024 is divisible by 4. So unit = 6"
+    },
+    {
+        "prompt": "Unit digit of 234 + 567 + 891?",
+        "answers": [
+            "12",
+            "2",
+            "8",
+            "0"
+        ],
+        "correct": 1,
+        "explanation": "Unit = 4 + 7 + 1 = 12. Unit = 2"
+    },
+    {
+        "prompt": "Unit digit of $17^{17} + 13^{13}$?",
+        "answers": [
+            "0",
+            "6",
+            "2",
+            "4"
+        ],
+        "correct": 0,
+        "explanation": "17^17: 7^17, 17 mod 4 = 1, unit = 7. 13^13: 3^13, 13 mod 4 = 1, unit = 3. Sum = 10. Unit = 0"
+    },
+    {
+        "prompt": "Unit digit of $1! + 2! + 3! + ... + 10!$?",
+        "answers": [
+            "0",
+            "3",
+            "1",
+            "7"
+        ],
+        "correct": 1,
+        "explanation": "5! onwards have unit 0. 1!+2!+3!+4! = 1+2+6+24 = 33. Unit = 3"
+    },
+    {
+        "prompt": "Unit digit of $11^{11} \\times 12^{12}$?",
+        "answers": [
+            "1",
+            "4",
+            "6",
+            "2"
+        ],
+        "correct": 2,
+        "explanation": "11^11 unit = 1. 12^12 unit = 2^12 = 6. Product unit = 6"
+    }
 ]

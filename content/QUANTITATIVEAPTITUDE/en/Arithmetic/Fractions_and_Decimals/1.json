@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Simplify: $\\frac{3}{4} + \\frac{1}{6}$",
-    "answers": [
-      { "title": "$\\frac{11}{12}$", "is_correct": true },
-      { "title": "$\\frac{4}{10}$", "is_correct": false },
-      { "title": "$\\frac{7}{12}$", "is_correct": false },
-      { "title": "$\\frac{5}{6}$", "is_correct": false }
-    ],
-    "explanation": "LCM = 12. $\\frac{9}{12} + \\frac{2}{12} = \\frac{11}{12}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Convert 0.375 to fraction:",
-    "answers": [
-      { "title": "$\\frac{3}{8}$", "is_correct": true },
-      { "title": "$\\frac{3}{4}$", "is_correct": false },
-      { "title": "$\\frac{5}{8}$", "is_correct": false },
-      { "title": "$\\frac{1}{3}$", "is_correct": false }
-    ],
-    "explanation": "$0.375 = \\frac{375}{1000} = \\frac{3}{8}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Simplify: $\\frac{2}{3} \\times \\frac{9}{14}$",
-    "answers": [
-      { "title": "$\\frac{3}{7}$", "is_correct": true },
-      { "title": "$\\frac{18}{42}$", "is_correct": false },
-      { "title": "$\\frac{6}{7}$", "is_correct": false },
-      { "title": "$\\frac{2}{7}$", "is_correct": false }
-    ],
-    "explanation": "$\\frac{2 \\times 9}{3 \\times 14} = \\frac{18}{42} = \\frac{3}{7}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Divide: $\\frac{5}{6} \\div \\frac{10}{9}$",
-    "answers": [
-      { "title": "$\\frac{3}{4}$", "is_correct": true },
-      { "title": "$\\frac{50}{54}$", "is_correct": false },
-      { "title": "$\\frac{4}{3}$", "is_correct": false },
-      { "title": "$\\frac{5}{4}$", "is_correct": false }
-    ],
-    "explanation": "$\\frac{5}{6} \\times \\frac{9}{10} = \\frac{45}{60} = \\frac{3}{4}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which is greater: $\\frac{5}{7}$ or $\\frac{7}{9}$?",
-    "answers": [
-      { "title": "$\\frac{7}{9}$", "is_correct": true },
-      { "title": "$\\frac{5}{7}$", "is_correct": false },
-      { "title": "Equal", "is_correct": false },
-      { "title": "Cannot compare", "is_correct": false }
-    ],
-    "explanation": "Cross multiply: 5×9 = 45, 7×7 = 49. Since 49 > 45, $\\frac{7}{9}$ is greater",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Express $2.\\overline{3}$ as fraction:",
-    "answers": [
-      { "title": "$\\frac{7}{3}$", "is_correct": true },
-      { "title": "$\\frac{23}{10}$", "is_correct": false },
-      { "title": "$\\frac{2}{3}$", "is_correct": false },
-      { "title": "$\\frac{7}{9}$", "is_correct": false }
-    ],
-    "explanation": "$2.\\overline{3} = 2 + 0.\\overline{3} = 2 + \\frac{1}{3} = \\frac{7}{3}$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Simplify: $1\\frac{2}{3} + 2\\frac{3}{4}$",
-    "answers": [
-      { "title": "$4\\frac{5}{12}$", "is_correct": true },
-      { "title": "$3\\frac{5}{7}$", "is_correct": false },
-      { "title": "$4\\frac{1}{7}$", "is_correct": false },
-      { "title": "$3\\frac{5}{12}$", "is_correct": false }
-    ],
-    "explanation": "$\\frac{5}{3} + \\frac{11}{4} = \\frac{20+33}{12} = \\frac{53}{12} = 4\\frac{5}{12}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "0.125 × 8 = ?",
-    "answers": [
-      { "title": "1", "is_correct": true },
-      { "title": "10", "is_correct": false },
-      { "title": "0.1", "is_correct": false },
-      { "title": "100", "is_correct": false }
-    ],
-    "explanation": "$0.125 = \\frac{1}{8}$. $\\frac{1}{8} \\times 8 = 1$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What fraction of 2 hours is 45 minutes?",
-    "answers": [
-      { "title": "$\\frac{3}{8}$", "is_correct": true },
-      { "title": "$\\frac{3}{4}$", "is_correct": false },
-      { "title": "$\\frac{45}{100}$", "is_correct": false },
-      { "title": "$\\frac{1}{3}$", "is_correct": false }
-    ],
-    "explanation": "2 hours = 120 min. Fraction = $\\frac{45}{120} = \\frac{3}{8}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Express $0.\\overline{27}$ as fraction:",
-    "answers": [
-      { "title": "$\\frac{3}{11}$", "is_correct": true },
-      { "title": "$\\frac{27}{100}$", "is_correct": false },
-      { "title": "$\\frac{27}{99}$", "is_correct": false },
-      { "title": "$\\frac{9}{33}$", "is_correct": false }
-    ],
-    "explanation": "$0.\\overline{27} = \\frac{27}{99} = \\frac{3}{11}$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Arrange in ascending: $\\frac{3}{5}, \\frac{7}{10}, \\frac{2}{3}$",
-    "answers": [
-      { "title": "$\\frac{3}{5}, \\frac{2}{3}, \\frac{7}{10}$", "is_correct": true },
-      { "title": "$\\frac{2}{3}, \\frac{3}{5}, \\frac{7}{10}$", "is_correct": false },
-      { "title": "$\\frac{7}{10}, \\frac{2}{3}, \\frac{3}{5}$", "is_correct": false },
-      { "title": "$\\frac{3}{5}, \\frac{7}{10}, \\frac{2}{3}$", "is_correct": false }
-    ],
-    "explanation": "Convert to decimals: 0.6, 0.7, 0.667. Order: 0.6, 0.667, 0.7",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Reciprocal of $2\\frac{1}{3}$?",
-    "answers": [
-      { "title": "$\\frac{3}{7}$", "is_correct": true },
-      { "title": "$\\frac{7}{3}$", "is_correct": false },
-      { "title": "$\\frac{1}{3}$", "is_correct": false },
-      { "title": "$3\\frac{1}{2}$", "is_correct": false }
-    ],
-    "explanation": "$2\\frac{1}{3} = \\frac{7}{3}$. Reciprocal = $\\frac{3}{7}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "0.06 ÷ 0.002 = ?",
-    "answers": [
-      { "title": "30", "is_correct": true },
-      { "title": "3", "is_correct": false },
-      { "title": "300", "is_correct": false },
-      { "title": "0.03", "is_correct": false }
-    ],
-    "explanation": "$\\frac{0.06}{0.002} = \\frac{60}{2} = 30$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Simplify: $\\frac{7}{8} - \\frac{3}{4} + \\frac{1}{2}$",
-    "answers": [
-      { "title": "$\\frac{5}{8}$", "is_correct": true },
-      { "title": "$\\frac{3}{8}$", "is_correct": false },
-      { "title": "$\\frac{7}{8}$", "is_correct": false },
-      { "title": "$\\frac{1}{4}$", "is_correct": false }
-    ],
-    "explanation": "$\\frac{7}{8} - \\frac{6}{8} + \\frac{4}{8} = \\frac{5}{8}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What decimal is equivalent to $\\frac{7}{8}$?",
-    "answers": [
-      { "title": "0.875", "is_correct": true },
-      { "title": "0.78", "is_correct": false },
-      { "title": "0.7", "is_correct": false },
-      { "title": "0.825", "is_correct": false }
-    ],
-    "explanation": "$7 \\div 8 = 0.875$",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Simplify: $\\frac{3}{4} + \\frac{1}{6}$",
+        "answers": [
+            "$\\frac{11}{12}$",
+            "$\\frac{7}{12}$",
+            "$\\frac{4}{10}$",
+            "$\\frac{5}{6}$"
+        ],
+        "correct": 0,
+        "explanation": "LCM = 12. $\\frac{9}{12} + \\frac{2}{12} = \\frac{11}{12}$"
+    },
+    {
+        "prompt": "Convert 0.375 to fraction:",
+        "answers": [
+            "$\\frac{3}{4}$",
+            "$\\frac{1}{3}$",
+            "$\\frac{5}{8}$",
+            "$\\frac{3}{8}$"
+        ],
+        "correct": 3,
+        "explanation": "$0.375 = \\frac{375}{1000} = \\frac{3}{8}$"
+    },
+    {
+        "prompt": "Simplify: $\\frac{2}{3} \\times \\frac{9}{14}$",
+        "answers": [
+            "$\\frac{6}{7}$",
+            "$\\frac{18}{42}$",
+            "$\\frac{2}{7}$",
+            "$\\frac{3}{7}$"
+        ],
+        "correct": 3,
+        "explanation": "$\\frac{2 \\times 9}{3 \\times 14} = \\frac{18}{42} = \\frac{3}{7}$"
+    },
+    {
+        "prompt": "Divide: $\\frac{5}{6} \\div \\frac{10}{9}$",
+        "answers": [
+            "$\\frac{3}{4}$",
+            "$\\frac{50}{54}$",
+            "$\\frac{4}{3}$",
+            "$\\frac{5}{4}$"
+        ],
+        "correct": 0,
+        "explanation": "$\\frac{5}{6} \\times \\frac{9}{10} = \\frac{45}{60} = \\frac{3}{4}$"
+    },
+    {
+        "prompt": "Which is greater: $\\frac{5}{7}$ or $\\frac{7}{9}$?",
+        "answers": [
+            "$\\frac{7}{9}$",
+            "Equal",
+            "Cannot compare",
+            "$\\frac{5}{7}$"
+        ],
+        "correct": 0,
+        "explanation": "Cross multiply: 5×9 = 45, 7×7 = 49. Since 49 > 45, $\\frac{7}{9}$ is greater"
+    },
+    {
+        "prompt": "Express $2.\\overline{3}$ as fraction:",
+        "answers": [
+            "$\\frac{7}{3}$",
+            "$\\frac{7}{9}$",
+            "$\\frac{23}{10}$",
+            "$\\frac{2}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "$2.\\overline{3} = 2 + 0.\\overline{3} = 2 + \\frac{1}{3} = \\frac{7}{3}$"
+    },
+    {
+        "prompt": "Simplify: $1\\frac{2}{3} + 2\\frac{3}{4}$",
+        "answers": [
+            "$3\\frac{5}{7}$",
+            "$3\\frac{5}{12}$",
+            "$4\\frac{1}{7}$",
+            "$4\\frac{5}{12}$"
+        ],
+        "correct": 3,
+        "explanation": "$\\frac{5}{3} + \\frac{11}{4} = \\frac{20+33}{12} = \\frac{53}{12} = 4\\frac{5}{12}$"
+    },
+    {
+        "prompt": "0.125 × 8 = ?",
+        "answers": [
+            "0.1",
+            "100",
+            "10",
+            "1"
+        ],
+        "correct": 3,
+        "explanation": "$0.125 = \\frac{1}{8}$. $\\frac{1}{8} \\times 8 = 1$"
+    },
+    {
+        "prompt": "What fraction of 2 hours is 45 minutes?",
+        "answers": [
+            "$\\frac{3}{8}$",
+            "$\\frac{3}{4}$",
+            "$\\frac{1}{3}$",
+            "$\\frac{45}{100}$"
+        ],
+        "correct": 0,
+        "explanation": "2 hours = 120 min. Fraction = $\\frac{45}{120} = \\frac{3}{8}$"
+    },
+    {
+        "prompt": "Express $0.\\overline{27}$ as fraction:",
+        "answers": [
+            "$\\frac{3}{11}$",
+            "$\\frac{27}{100}$",
+            "$\\frac{9}{33}$",
+            "$\\frac{27}{99}$"
+        ],
+        "correct": 0,
+        "explanation": "$0.\\overline{27} = \\frac{27}{99} = \\frac{3}{11}$"
+    },
+    {
+        "prompt": "Arrange in ascending: $\\frac{3}{5}, \\frac{7}{10}, \\frac{2}{3}$",
+        "answers": [
+            "$\\frac{3}{5}, \\frac{2}{3}, \\frac{7}{10}$",
+            "$\\frac{3}{5}, \\frac{7}{10}, \\frac{2}{3}$",
+            "$\\frac{7}{10}, \\frac{2}{3}, \\frac{3}{5}$",
+            "$\\frac{2}{3}, \\frac{3}{5}, \\frac{7}{10}$"
+        ],
+        "correct": 0,
+        "explanation": "Convert to decimals: 0.6, 0.7, 0.667. Order: 0.6, 0.667, 0.7"
+    },
+    {
+        "prompt": "Reciprocal of $2\\frac{1}{3}$?",
+        "answers": [
+            "$3\\frac{1}{2}$",
+            "$\\frac{7}{3}$",
+            "$\\frac{3}{7}$",
+            "$\\frac{1}{3}$"
+        ],
+        "correct": 2,
+        "explanation": "$2\\frac{1}{3} = \\frac{7}{3}$. Reciprocal = $\\frac{3}{7}$"
+    },
+    {
+        "prompt": "0.06 ÷ 0.002 = ?",
+        "answers": [
+            "30",
+            "0.03",
+            "300",
+            "3"
+        ],
+        "correct": 0,
+        "explanation": "$\\frac{0.06}{0.002} = \\frac{60}{2} = 30$"
+    },
+    {
+        "prompt": "Simplify: $\\frac{7}{8} - \\frac{3}{4} + \\frac{1}{2}$",
+        "answers": [
+            "$\\frac{7}{8}$",
+            "$\\frac{5}{8}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{3}{8}$"
+        ],
+        "correct": 1,
+        "explanation": "$\\frac{7}{8} - \\frac{6}{8} + \\frac{4}{8} = \\frac{5}{8}$"
+    },
+    {
+        "prompt": "What decimal is equivalent to $\\frac{7}{8}$?",
+        "answers": [
+            "0.7",
+            "0.825",
+            "0.78",
+            "0.875"
+        ],
+        "correct": 3,
+        "explanation": "$7 \\div 8 = 0.875$"
+    }
 ]

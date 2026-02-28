@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Approximate: 4999 + 3001 + 2998?",
-    "answers": [
-      { "title": "11000", "is_correct": true },
-      { "title": "10998", "is_correct": false },
-      { "title": "10900", "is_correct": false },
-      { "title": "11100", "is_correct": false }
-    ],
-    "explanation": "≈ 5000 + 3000 + 3000 = 11000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 29.8 × 10.2?",
-    "answers": [
-      { "title": "300", "is_correct": true },
-      { "title": "304", "is_correct": false },
-      { "title": "290", "is_correct": false },
-      { "title": "310", "is_correct": false }
-    ],
-    "explanation": "≈ 30 × 10 = 300",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 7896 ÷ 39.8?",
-    "answers": [
-      { "title": "200", "is_correct": true },
-      { "title": "198", "is_correct": false },
-      { "title": "190", "is_correct": false },
-      { "title": "210", "is_correct": false }
-    ],
-    "explanation": "≈ 8000 ÷ 40 = 200",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: $\\sqrt{99.8}$?",
-    "answers": [
-      { "title": "10", "is_correct": true },
-      { "title": "9.99", "is_correct": false },
-      { "title": "11", "is_correct": false },
-      { "title": "9.5", "is_correct": false }
-    ],
-    "explanation": "≈ √100 = 10",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 124.7% of 399?",
-    "answers": [
-      { "title": "500", "is_correct": true },
-      { "title": "498", "is_correct": false },
-      { "title": "520", "is_correct": false },
-      { "title": "480", "is_correct": false }
-    ],
-    "explanation": "≈ 125% of 400 = 500",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 3.9² + 4.1²?",
-    "answers": [
-      { "title": "32", "is_correct": true },
-      { "title": "33", "is_correct": false },
-      { "title": "30", "is_correct": false },
-      { "title": "34", "is_correct": false }
-    ],
-    "explanation": "≈ 16 + 16 = 32",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 5999 × 7?",
-    "answers": [
-      { "title": "42000", "is_correct": true },
-      { "title": "41993", "is_correct": false },
-      { "title": "40000", "is_correct": false },
-      { "title": "43000", "is_correct": false }
-    ],
-    "explanation": "≈ 6000 × 7 = 42000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 18.7% of 5020?",
-    "answers": [
-      { "title": "1000", "is_correct": true },
-      { "title": "900", "is_correct": false },
-      { "title": "940", "is_correct": false },
-      { "title": "1100", "is_correct": false }
-    ],
-    "explanation": "≈ 20% of 5000 = 1000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: $\\sqrt{48} + \\sqrt{51}$?",
-    "answers": [
-      { "title": "14", "is_correct": true },
-      { "title": "15", "is_correct": false },
-      { "title": "13", "is_correct": false },
-      { "title": "16", "is_correct": false }
-    ],
-    "explanation": "≈ 7 + 7 = 14",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 699 × 1.5?",
-    "answers": [
-      { "title": "1050", "is_correct": true },
-      { "title": "1000", "is_correct": false },
-      { "title": "1049", "is_correct": false },
-      { "title": "1100", "is_correct": false }
-    ],
-    "explanation": "≈ 700 × 1.5 = 1050",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 249.8 ÷ 5.02?",
-    "answers": [
-      { "title": "50", "is_correct": true },
-      { "title": "49.7", "is_correct": false },
-      { "title": "48", "is_correct": false },
-      { "title": "52", "is_correct": false }
-    ],
-    "explanation": "≈ 250 ÷ 5 = 50",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 19.9³?",
-    "answers": [
-      { "title": "8000", "is_correct": true },
-      { "title": "7880", "is_correct": false },
-      { "title": "7900", "is_correct": false },
-      { "title": "8100", "is_correct": false }
-    ],
-    "explanation": "≈ 20³ = 8000",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 35% of 199 + 65% of 201?",
-    "answers": [
-      { "title": "200", "is_correct": true },
-      { "title": "199", "is_correct": false },
-      { "title": "210", "is_correct": false },
-      { "title": "190", "is_correct": false }
-    ],
-    "explanation": "≈ 35% of 200 + 65% of 200 = 70 + 130 = 200",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: 9876 - 5124?",
-    "answers": [
-      { "title": "4750", "is_correct": true },
-      { "title": "4752", "is_correct": false },
-      { "title": "4800", "is_correct": false },
-      { "title": "4700", "is_correct": false }
-    ],
-    "explanation": "≈ 10000 - 5000 = 5000, actual closer to 4750",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Approximate: $\\frac{399 \\times 51}{201}$?",
-    "answers": [
-      { "title": "100", "is_correct": true },
-      { "title": "101", "is_correct": false },
-      { "title": "102", "is_correct": false },
-      { "title": "99", "is_correct": false }
-    ],
-    "explanation": "≈ (400 × 50) / 200 = 100",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "Approximate: 4999 + 3001 + 2998?",
+        "answers": [
+            "10900",
+            "10998",
+            "11000",
+            "11100"
+        ],
+        "correct": 2,
+        "explanation": "≈ 5000 + 3000 + 3000 = 11000"
+    },
+    {
+        "prompt": "Approximate: 29.8 × 10.2?",
+        "answers": [
+            "290",
+            "304",
+            "310",
+            "300"
+        ],
+        "correct": 3,
+        "explanation": "≈ 30 × 10 = 300"
+    },
+    {
+        "prompt": "Approximate: 7896 ÷ 39.8?",
+        "answers": [
+            "200",
+            "198",
+            "210",
+            "190"
+        ],
+        "correct": 0,
+        "explanation": "≈ 8000 ÷ 40 = 200"
+    },
+    {
+        "prompt": "Approximate: $\\sqrt{99.8}$?",
+        "answers": [
+            "9.5",
+            "9.99",
+            "10",
+            "11"
+        ],
+        "correct": 2,
+        "explanation": "≈ √100 = 10"
+    },
+    {
+        "prompt": "Approximate: 124.7% of 399?",
+        "answers": [
+            "520",
+            "498",
+            "480",
+            "500"
+        ],
+        "correct": 3,
+        "explanation": "≈ 125% of 400 = 500"
+    },
+    {
+        "prompt": "Approximate: 3.9² + 4.1²?",
+        "answers": [
+            "33",
+            "34",
+            "32",
+            "30"
+        ],
+        "correct": 2,
+        "explanation": "≈ 16 + 16 = 32"
+    },
+    {
+        "prompt": "Approximate: 5999 × 7?",
+        "answers": [
+            "40000",
+            "42000",
+            "43000",
+            "41993"
+        ],
+        "correct": 1,
+        "explanation": "≈ 6000 × 7 = 42000"
+    },
+    {
+        "prompt": "Approximate: 18.7% of 5020?",
+        "answers": [
+            "1100",
+            "900",
+            "1000",
+            "940"
+        ],
+        "correct": 2,
+        "explanation": "≈ 20% of 5000 = 1000"
+    },
+    {
+        "prompt": "Approximate: $\\sqrt{48} + \\sqrt{51}$?",
+        "answers": [
+            "15",
+            "13",
+            "16",
+            "14"
+        ],
+        "correct": 3,
+        "explanation": "≈ 7 + 7 = 14"
+    },
+    {
+        "prompt": "Approximate: 699 × 1.5?",
+        "answers": [
+            "1049",
+            "1050",
+            "1100",
+            "1000"
+        ],
+        "correct": 1,
+        "explanation": "≈ 700 × 1.5 = 1050"
+    },
+    {
+        "prompt": "Approximate: 249.8 ÷ 5.02?",
+        "answers": [
+            "50",
+            "52",
+            "49.7",
+            "48"
+        ],
+        "correct": 0,
+        "explanation": "≈ 250 ÷ 5 = 50"
+    },
+    {
+        "prompt": "Approximate: 19.9³?",
+        "answers": [
+            "8100",
+            "8000",
+            "7900",
+            "7880"
+        ],
+        "correct": 1,
+        "explanation": "≈ 20³ = 8000"
+    },
+    {
+        "prompt": "Approximate: 35% of 199 + 65% of 201?",
+        "answers": [
+            "199",
+            "210",
+            "190",
+            "200"
+        ],
+        "correct": 3,
+        "explanation": "≈ 35% of 200 + 65% of 200 = 70 + 130 = 200"
+    },
+    {
+        "prompt": "Approximate: 9876 - 5124?",
+        "answers": [
+            "4800",
+            "4752",
+            "4700",
+            "4750"
+        ],
+        "correct": 3,
+        "explanation": "≈ 10000 - 5000 = 5000, actual closer to 4750"
+    },
+    {
+        "prompt": "Approximate: $\\frac{399 \\times 51}{201}$?",
+        "answers": [
+            "99",
+            "102",
+            "101",
+            "100"
+        ],
+        "correct": 3,
+        "explanation": "≈ (400 × 50) \/ 200 = 100"
+    }
 ]

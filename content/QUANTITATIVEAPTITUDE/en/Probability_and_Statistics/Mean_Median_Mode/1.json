@@ -1,222 +1,222 @@
 [
-  {
-    "question": "Mean of 5, 10, 15, 20, 25?",
-    "answers": [
-      { "title": "15", "is_correct": true },
-      { "title": "12", "is_correct": false },
-      { "title": "18", "is_correct": false },
-      { "title": "20", "is_correct": false }
-    ],
-    "explanation": "Mean = (5+10+15+20+25)/5 = 75/5 = 15",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Median of 3, 7, 2, 9, 5, 11, 4?",
-    "answers": [
-      { "title": "5", "is_correct": true },
-      { "title": "7", "is_correct": false },
-      { "title": "4", "is_correct": false },
-      { "title": "9", "is_correct": false }
-    ],
-    "explanation": "Sorted: 2,3,4,5,7,9,11. Middle (4th) = 5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Mode of 2, 3, 3, 4, 4, 4, 5, 5?",
-    "answers": [
-      { "title": "4", "is_correct": true },
-      { "title": "3", "is_correct": false },
-      { "title": "5", "is_correct": false },
-      { "title": "2", "is_correct": false }
-    ],
-    "explanation": "4 appears 3 times (most frequent)",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Mean of first 10 natural numbers?",
-    "answers": [
-      { "title": "5.5", "is_correct": true },
-      { "title": "5", "is_correct": false },
-      { "title": "6", "is_correct": false },
-      { "title": "10", "is_correct": false }
-    ],
-    "explanation": "Sum = 55. Mean = 55/10 = 5.5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Median of 4, 8, 12, 16?",
-    "answers": [
-      { "title": "10", "is_correct": true },
-      { "title": "8", "is_correct": false },
-      { "title": "12", "is_correct": false },
-      { "title": "9", "is_correct": false }
-    ],
-    "explanation": "Even count: median = (8+12)/2 = 10",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 5 numbers is 20. If one number is excluded, average becomes 15. Excluded number?",
-    "answers": [
-      { "title": "40", "is_correct": true },
-      { "title": "35", "is_correct": false },
-      { "title": "25", "is_correct": false },
-      { "title": "20", "is_correct": false }
-    ],
-    "explanation": "Sum = 100. New sum = 60. Excluded = 40",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average of 10 numbers is 15. Average of 6 of them is 12. Average of remaining?",
-    "answers": [
-      { "title": "19.5", "is_correct": true },
-      { "title": "18", "is_correct": false },
-      { "title": "20", "is_correct": false },
-      { "title": "21", "is_correct": false }
-    ],
-    "explanation": "Total = 150. Sum of 6 = 72. Remaining = 78/4 = 19.5",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Mean of 12, 15, 18, x, 24 is 18. Find x.",
-    "answers": [
-      { "title": "21", "is_correct": true },
-      { "title": "18", "is_correct": false },
-      { "title": "20", "is_correct": false },
-      { "title": "22", "is_correct": false }
-    ],
-    "explanation": "(12+15+18+x+24)/5 = 18. 69+x = 90. x = 21",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Range of 5, 12, 3, 18, 7, 14?",
-    "answers": [
-      { "title": "15", "is_correct": true },
-      { "title": "18", "is_correct": false },
-      { "title": "13", "is_correct": false },
-      { "title": "12", "is_correct": false }
-    ],
-    "explanation": "Range = Max - Min = 18 - 3 = 15",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Average weight of 8 persons increases by 2.5 kg when new person replaces one weighing 65 kg. New person's weight?",
-    "answers": [
-      { "title": "85 kg", "is_correct": true },
-      { "title": "67.5 kg", "is_correct": false },
-      { "title": "75 kg", "is_correct": false },
-      { "title": "90 kg", "is_correct": false }
-    ],
-    "explanation": "Total increase = 8 × 2.5 = 20. New = 65 + 20 = 85 kg",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Weighted mean: 3 subjects with marks 70, 80, 90 and weights 2, 3, 5?",
-    "answers": [
-      { "title": "83", "is_correct": true },
-      { "title": "80", "is_correct": false },
-      { "title": "85", "is_correct": false },
-      { "title": "78", "is_correct": false }
-    ],
-    "explanation": "WM = (70×2 + 80×3 + 90×5)/(2+3+5) = 830/10 = 83",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Mean of 20 observations is 45. If each observation is increased by 5, new mean?",
-    "answers": [
-      { "title": "50", "is_correct": true },
-      { "title": "45", "is_correct": false },
-      { "title": "100", "is_correct": false },
-      { "title": "40", "is_correct": false }
-    ],
-    "explanation": "Each increased by 5 → mean increases by 5 = 50",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Mean of 50 observations is 36. If two observations 32 and 40 are deleted, new mean?",
-    "answers": [
-      { "title": "36", "is_correct": true },
-      { "title": "35", "is_correct": false },
-      { "title": "37", "is_correct": false },
-      { "title": "34", "is_correct": false }
-    ],
-    "explanation": "Sum = 1800. New sum = 1800-72 = 1728. Mean = 1728/48 = 36",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Harmonic mean of 2 and 4?",
-    "answers": [
-      { "title": "8/3", "is_correct": true },
-      { "title": "3", "is_correct": false },
-      { "title": "4", "is_correct": false },
-      { "title": "2.5", "is_correct": false }
-    ],
-    "explanation": "HM = 2/(1/2 + 1/4) = 2/(3/4) = 8/3",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Average of first 5 multiples of 7?",
-    "answers": [
-      { "title": "21", "is_correct": true },
-      { "title": "14", "is_correct": false },
-      { "title": "28", "is_correct": false },
-      { "title": "35", "is_correct": false }
-    ],
-    "explanation": "7+14+21+28+35 = 105. Avg = 21. Or simply 7×3 = 21",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A batsman's average after 20 innings is 35. Runs needed in 21st to raise average to 38?",
-    "answers": [
-      { "title": "98", "is_correct": true },
-      { "title": "88", "is_correct": false },
-      { "title": "78", "is_correct": false },
-      { "title": "108", "is_correct": false }
-    ],
-    "explanation": "Current = 700. New total = 38×21 = 798. Runs = 98",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Standard deviation is 0 when?",
-    "answers": [
-      { "title": "All values are same", "is_correct": true },
-      { "title": "All values are 0", "is_correct": false },
-      { "title": "Mean is 0", "is_correct": false },
-      { "title": "Sum is 0", "is_correct": false }
-    ],
-    "explanation": "SD = 0 means no deviation from mean, so all values are identical",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Mean of 5 numbers is 27. If one number is 35, mean of other 4?",
-    "answers": [
-      { "title": "25", "is_correct": true },
-      { "title": "27", "is_correct": false },
-      { "title": "23", "is_correct": false },
-      { "title": "29", "is_correct": false }
-    ],
-    "explanation": "Sum = 135. Other 4 = 135-35 = 100. Mean = 25",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If variance is 16, standard deviation is?",
-    "answers": [
-      { "title": "4", "is_correct": true },
-      { "title": "256", "is_correct": false },
-      { "title": "8", "is_correct": false },
-      { "title": "2", "is_correct": false }
-    ],
-    "explanation": "SD = √Variance = √16 = 4",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Geometric mean of 4, 8, 16?",
-    "answers": [
-      { "title": "8", "is_correct": true },
-      { "title": "9.33", "is_correct": false },
-      { "title": "10", "is_correct": false },
-      { "title": "6", "is_correct": false }
-    ],
-    "explanation": "GM = ∛(4×8×16) = ∛512 = 8",
-    "difficulty": "medium"
-  }
+    {
+        "prompt": "Mean of 5, 10, 15, 20, 25?",
+        "answers": [
+            "12",
+            "18",
+            "15",
+            "20"
+        ],
+        "correct": 2,
+        "explanation": "Mean = (5+10+15+20+25)\/5 = 75\/5 = 15"
+    },
+    {
+        "prompt": "Median of 3, 7, 2, 9, 5, 11, 4?",
+        "answers": [
+            "7",
+            "5",
+            "4",
+            "9"
+        ],
+        "correct": 1,
+        "explanation": "Sorted: 2,3,4,5,7,9,11. Middle (4th) = 5"
+    },
+    {
+        "prompt": "Mode of 2, 3, 3, 4, 4, 4, 5, 5?",
+        "answers": [
+            "4",
+            "2",
+            "3",
+            "5"
+        ],
+        "correct": 0,
+        "explanation": "4 appears 3 times (most frequent)"
+    },
+    {
+        "prompt": "Mean of first 10 natural numbers?",
+        "answers": [
+            "5",
+            "5.5",
+            "6",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "Sum = 55. Mean = 55\/10 = 5.5"
+    },
+    {
+        "prompt": "Median of 4, 8, 12, 16?",
+        "answers": [
+            "10",
+            "12",
+            "8",
+            "9"
+        ],
+        "correct": 0,
+        "explanation": "Even count: median = (8+12)\/2 = 10"
+    },
+    {
+        "prompt": "Average of 5 numbers is 20. If one number is excluded, average becomes 15. Excluded number?",
+        "answers": [
+            "20",
+            "40",
+            "35",
+            "25"
+        ],
+        "correct": 1,
+        "explanation": "Sum = 100. New sum = 60. Excluded = 40"
+    },
+    {
+        "prompt": "Average of 10 numbers is 15. Average of 6 of them is 12. Average of remaining?",
+        "answers": [
+            "18",
+            "19.5",
+            "21",
+            "20"
+        ],
+        "correct": 1,
+        "explanation": "Total = 150. Sum of 6 = 72. Remaining = 78\/4 = 19.5"
+    },
+    {
+        "prompt": "Mean of 12, 15, 18, x, 24 is 18. Find x.",
+        "answers": [
+            "20",
+            "22",
+            "18",
+            "21"
+        ],
+        "correct": 3,
+        "explanation": "(12+15+18+x+24)\/5 = 18. 69+x = 90. x = 21"
+    },
+    {
+        "prompt": "Range of 5, 12, 3, 18, 7, 14?",
+        "answers": [
+            "15",
+            "18",
+            "12",
+            "13"
+        ],
+        "correct": 0,
+        "explanation": "Range = Max - Min = 18 - 3 = 15"
+    },
+    {
+        "prompt": "Average weight of 8 persons increases by 2.5 kg when new person replaces one weighing 65 kg. New person's weight?",
+        "answers": [
+            "67.5 kg",
+            "90 kg",
+            "85 kg",
+            "75 kg"
+        ],
+        "correct": 2,
+        "explanation": "Total increase = 8 × 2.5 = 20. New = 65 + 20 = 85 kg"
+    },
+    {
+        "prompt": "Weighted mean: 3 subjects with marks 70, 80, 90 and weights 2, 3, 5?",
+        "answers": [
+            "80",
+            "78",
+            "85",
+            "83"
+        ],
+        "correct": 3,
+        "explanation": "WM = (70×2 + 80×3 + 90×5)\/(2+3+5) = 830\/10 = 83"
+    },
+    {
+        "prompt": "Mean of 20 observations is 45. If each observation is increased by 5, new mean?",
+        "answers": [
+            "100",
+            "50",
+            "45",
+            "40"
+        ],
+        "correct": 1,
+        "explanation": "Each increased by 5 → mean increases by 5 = 50"
+    },
+    {
+        "prompt": "Mean of 50 observations is 36. If two observations 32 and 40 are deleted, new mean?",
+        "answers": [
+            "35",
+            "37",
+            "34",
+            "36"
+        ],
+        "correct": 3,
+        "explanation": "Sum = 1800. New sum = 1800-72 = 1728. Mean = 1728\/48 = 36"
+    },
+    {
+        "prompt": "Harmonic mean of 2 and 4?",
+        "answers": [
+            "8\/3",
+            "2.5",
+            "3",
+            "4"
+        ],
+        "correct": 0,
+        "explanation": "HM = 2\/(1\/2 + 1\/4) = 2\/(3\/4) = 8\/3"
+    },
+    {
+        "prompt": "Average of first 5 multiples of 7?",
+        "answers": [
+            "21",
+            "28",
+            "14",
+            "35"
+        ],
+        "correct": 0,
+        "explanation": "7+14+21+28+35 = 105. Avg = 21. Or simply 7×3 = 21"
+    },
+    {
+        "prompt": "A batsman's average after 20 innings is 35. Runs needed in 21st to raise average to 38?",
+        "answers": [
+            "108",
+            "88",
+            "98",
+            "78"
+        ],
+        "correct": 2,
+        "explanation": "Current = 700. New total = 38×21 = 798. Runs = 98"
+    },
+    {
+        "prompt": "Standard deviation is 0 when?",
+        "answers": [
+            "Sum is 0",
+            "Mean is 0",
+            "All values are 0",
+            "All values are same"
+        ],
+        "correct": 3,
+        "explanation": "SD = 0 means no deviation from mean, so all values are identical"
+    },
+    {
+        "prompt": "Mean of 5 numbers is 27. If one number is 35, mean of other 4?",
+        "answers": [
+            "29",
+            "25",
+            "23",
+            "27"
+        ],
+        "correct": 1,
+        "explanation": "Sum = 135. Other 4 = 135-35 = 100. Mean = 25"
+    },
+    {
+        "prompt": "If variance is 16, standard deviation is?",
+        "answers": [
+            "4",
+            "8",
+            "2",
+            "256"
+        ],
+        "correct": 0,
+        "explanation": "SD = √Variance = √16 = 4"
+    },
+    {
+        "prompt": "Geometric mean of 4, 8, 16?",
+        "answers": [
+            "10",
+            "8",
+            "6",
+            "9.33"
+        ],
+        "correct": 1,
+        "explanation": "GM = ∛(4×8×16) = ∛512 = 8"
+    }
 ]

@@ -1,167 +1,167 @@
 [
-  {
-    "question": "Study the bar chart showing sales (in thousands) of Company A over years.\n<table><tr><th>Year</th><th>Sales</th></tr><tr><td>2018</td><td>40</td></tr><tr><td>2019</td><td>55</td></tr><tr><td>2020</td><td>45</td></tr><tr><td>2021</td><td>60</td></tr><tr><td>2022</td><td>75</td></tr></table>\nWhat is the total sales over all years?",
-    "answers": [
-      { "title": "275 thousand", "is_correct": true },
-      { "title": "250 thousand", "is_correct": false },
-      { "title": "300 thousand", "is_correct": false },
-      { "title": "280 thousand", "is_correct": false }
-    ],
-    "explanation": "Total = 40 + 55 + 45 + 60 + 75 = 275 thousand",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using the same data:\n<table><tr><th>Year</th><th>Sales</th></tr><tr><td>2018</td><td>40</td></tr><tr><td>2019</td><td>55</td></tr><tr><td>2020</td><td>45</td></tr><tr><td>2021</td><td>60</td></tr><tr><td>2022</td><td>75</td></tr></table>\nAverage sales per year?",
-    "answers": [
-      { "title": "55 thousand", "is_correct": true },
-      { "title": "50 thousand", "is_correct": false },
-      { "title": "60 thousand", "is_correct": false },
-      { "title": "45 thousand", "is_correct": false }
-    ],
-    "explanation": "Average = 275/5 = 55 thousand",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using the same data:\n<table><tr><th>Year</th><th>Sales</th></tr><tr><td>2018</td><td>40</td></tr><tr><td>2019</td><td>55</td></tr><tr><td>2020</td><td>45</td></tr><tr><td>2021</td><td>60</td></tr><tr><td>2022</td><td>75</td></tr></table>\nPercentage increase from 2018 to 2022?",
-    "answers": [
-      { "title": "87.5%", "is_correct": true },
-      { "title": "75%", "is_correct": false },
-      { "title": "100%", "is_correct": false },
-      { "title": "50%", "is_correct": false }
-    ],
-    "explanation": "Increase = 35. % = 35/40 × 100 = 87.5%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Using the same data:\n<table><tr><th>Year</th><th>Sales</th></tr><tr><td>2018</td><td>40</td></tr><tr><td>2019</td><td>55</td></tr><tr><td>2020</td><td>45</td></tr><tr><td>2021</td><td>60</td></tr><tr><td>2022</td><td>75</td></tr></table>\nIn which year was there a decline in sales compared to previous year?",
-    "answers": [
-      { "title": "2020", "is_correct": true },
-      { "title": "2019", "is_correct": false },
-      { "title": "2021", "is_correct": false },
-      { "title": "No decline", "is_correct": false }
-    ],
-    "explanation": "2020 (45) < 2019 (55). Decline of 10 thousand",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using the same data:\n<table><tr><th>Year</th><th>Sales</th></tr><tr><td>2018</td><td>40</td></tr><tr><td>2019</td><td>55</td></tr><tr><td>2020</td><td>45</td></tr><tr><td>2021</td><td>60</td></tr><tr><td>2022</td><td>75</td></tr></table>\nRatio of sales in 2021 to 2018?",
-    "answers": [
-      { "title": "3:2", "is_correct": true },
-      { "title": "2:3", "is_correct": false },
-      { "title": "5:4", "is_correct": false },
-      { "title": "4:3", "is_correct": false }
-    ],
-    "explanation": "60:40 = 3:2",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Study the bar chart showing production (in units) of two companies.\n<table><tr><th>Month</th><th>Company X</th><th>Company Y</th></tr><tr><td>Jan</td><td>200</td><td>150</td></tr><tr><td>Feb</td><td>180</td><td>220</td></tr><tr><td>Mar</td><td>250</td><td>200</td></tr><tr><td>Apr</td><td>300</td><td>280</td></tr></table>\nTotal production of Company X?",
-    "answers": [
-      { "title": "930 units", "is_correct": true },
-      { "title": "850 units", "is_correct": false },
-      { "title": "1000 units", "is_correct": false },
-      { "title": "780 units", "is_correct": false }
-    ],
-    "explanation": "Total X = 200 + 180 + 250 + 300 = 930 units",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using the same data:\n<table><tr><th>Month</th><th>Company X</th><th>Company Y</th></tr><tr><td>Jan</td><td>200</td><td>150</td></tr><tr><td>Feb</td><td>180</td><td>220</td></tr><tr><td>Mar</td><td>250</td><td>200</td></tr><tr><td>Apr</td><td>300</td><td>280</td></tr></table>\nIn which month was combined production highest?",
-    "answers": [
-      { "title": "April", "is_correct": true },
-      { "title": "March", "is_correct": false },
-      { "title": "February", "is_correct": false },
-      { "title": "January", "is_correct": false }
-    ],
-    "explanation": "Jan=350, Feb=400, Mar=450, Apr=580. April highest",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using the same data:\n<table><tr><th>Month</th><th>Company X</th><th>Company Y</th></tr><tr><td>Jan</td><td>200</td><td>150</td></tr><tr><td>Feb</td><td>180</td><td>220</td></tr><tr><td>Mar</td><td>250</td><td>200</td></tr><tr><td>Apr</td><td>300</td><td>280</td></tr></table>\nDifference between total production of X and Y?",
-    "answers": [
-      { "title": "80 units", "is_correct": true },
-      { "title": "100 units", "is_correct": false },
-      { "title": "50 units", "is_correct": false },
-      { "title": "120 units", "is_correct": false }
-    ],
-    "explanation": "X = 930, Y = 850. Difference = 80 units",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using the same data:\n<table><tr><th>Month</th><th>Company X</th><th>Company Y</th></tr><tr><td>Jan</td><td>200</td><td>150</td></tr><tr><td>Feb</td><td>180</td><td>220</td></tr><tr><td>Mar</td><td>250</td><td>200</td></tr><tr><td>Apr</td><td>300</td><td>280</td></tr></table>\nIn which month Y's production exceeded X's?",
-    "answers": [
-      { "title": "February", "is_correct": true },
-      { "title": "January", "is_correct": false },
-      { "title": "March", "is_correct": false },
-      { "title": "April", "is_correct": false }
-    ],
-    "explanation": "Only Feb: Y(220) > X(180)",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using the same data:\n<table><tr><th>Month</th><th>Company X</th><th>Company Y</th></tr><tr><td>Jan</td><td>200</td><td>150</td></tr><tr><td>Feb</td><td>180</td><td>220</td></tr><tr><td>Mar</td><td>250</td><td>200</td></tr><tr><td>Apr</td><td>300</td><td>280</td></tr></table>\nPercentage by which X's April production exceeds January?",
-    "answers": [
-      { "title": "50%", "is_correct": true },
-      { "title": "100%", "is_correct": false },
-      { "title": "33%", "is_correct": false },
-      { "title": "25%", "is_correct": false }
-    ],
-    "explanation": "Increase = 100. % = 100/200 × 100 = 50%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Exports data (in crores):\n<table><tr><th>Year</th><th>Exports</th></tr><tr><td>2017</td><td>120</td></tr><tr><td>2018</td><td>150</td></tr><tr><td>2019</td><td>180</td></tr><tr><td>2020</td><td>135</td></tr><tr><td>2021</td><td>200</td></tr></table>\nSimple average growth rate per year?",
-    "answers": [
-      { "title": "20 crores", "is_correct": true },
-      { "title": "25 crores", "is_correct": false },
-      { "title": "15 crores", "is_correct": false },
-      { "title": "30 crores", "is_correct": false }
-    ],
-    "explanation": "Total growth = 200-120 = 80. Over 4 years = 20 cr/year",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Using same exports data:\n<table><tr><th>Year</th><th>Exports</th></tr><tr><td>2017</td><td>120</td></tr><tr><td>2018</td><td>150</td></tr><tr><td>2019</td><td>180</td></tr><tr><td>2020</td><td>135</td></tr><tr><td>2021</td><td>200</td></tr></table>\nPercentage drop in 2020 compared to 2019?",
-    "answers": [
-      { "title": "25%", "is_correct": true },
-      { "title": "33%", "is_correct": false },
-      { "title": "20%", "is_correct": false },
-      { "title": "30%", "is_correct": false }
-    ],
-    "explanation": "Drop = 45. % = 45/180 × 100 = 25%",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same exports data:\n<table><tr><th>Year</th><th>Exports</th></tr><tr><td>2017</td><td>120</td></tr><tr><td>2018</td><td>150</td></tr><tr><td>2019</td><td>180</td></tr><tr><td>2020</td><td>135</td></tr><tr><td>2021</td><td>200</td></tr></table>\nRatio of exports in 2017 to 2021?",
-    "answers": [
-      { "title": "3:5", "is_correct": true },
-      { "title": "2:3", "is_correct": false },
-      { "title": "5:3", "is_correct": false },
-      { "title": "4:5", "is_correct": false }
-    ],
-    "explanation": "120:200 = 3:5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same exports data:\n<table><tr><th>Year</th><th>Exports</th></tr><tr><td>2017</td><td>120</td></tr><tr><td>2018</td><td>150</td></tr><tr><td>2019</td><td>180</td></tr><tr><td>2020</td><td>135</td></tr><tr><td>2021</td><td>200</td></tr></table>\nHow many years show positive growth over previous year?",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "2", "is_correct": false },
-      { "title": "5", "is_correct": false }
-    ],
-    "explanation": "2018 (up), 2019 (up), 2020 (down), 2021 (up). 3 years positive",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Using same exports data:\n<table><tr><th>Year</th><th>Exports</th></tr><tr><td>2017</td><td>120</td></tr><tr><td>2018</td><td>150</td></tr><tr><td>2019</td><td>180</td></tr><tr><td>2020</td><td>135</td></tr><tr><td>2021</td><td>200</td></tr></table>\nPercentage recovery in 2021 from 2020?",
-    "answers": [
-      { "title": "48.15%", "is_correct": true },
-      { "title": "50%", "is_correct": false },
-      { "title": "65%", "is_correct": false },
-      { "title": "40%", "is_correct": false }
-    ],
-    "explanation": "Increase = 65. % = 65/135 × 100 ≈ 48.15%",
-    "difficulty": "medium"
-  }
+    {
+        "prompt": "Study the bar chart showing sales (in thousands) of Company A over years.\n<table><tr><th>Year<\/th><th>Sales<\/th><\/tr><tr><td>2018<\/td><td>40<\/td><\/tr><tr><td>2019<\/td><td>55<\/td><\/tr><tr><td>2020<\/td><td>45<\/td><\/tr><tr><td>2021<\/td><td>60<\/td><\/tr><tr><td>2022<\/td><td>75<\/td><\/tr><\/table>\nWhat is the total sales over all years?",
+        "answers": [
+            "280 thousand",
+            "275 thousand",
+            "300 thousand",
+            "250 thousand"
+        ],
+        "correct": 1,
+        "explanation": "Total = 40 + 55 + 45 + 60 + 75 = 275 thousand"
+    },
+    {
+        "prompt": "Using the same data:\n<table><tr><th>Year<\/th><th>Sales<\/th><\/tr><tr><td>2018<\/td><td>40<\/td><\/tr><tr><td>2019<\/td><td>55<\/td><\/tr><tr><td>2020<\/td><td>45<\/td><\/tr><tr><td>2021<\/td><td>60<\/td><\/tr><tr><td>2022<\/td><td>75<\/td><\/tr><\/table>\nAverage sales per year?",
+        "answers": [
+            "45 thousand",
+            "60 thousand",
+            "55 thousand",
+            "50 thousand"
+        ],
+        "correct": 2,
+        "explanation": "Average = 275\/5 = 55 thousand"
+    },
+    {
+        "prompt": "Using the same data:\n<table><tr><th>Year<\/th><th>Sales<\/th><\/tr><tr><td>2018<\/td><td>40<\/td><\/tr><tr><td>2019<\/td><td>55<\/td><\/tr><tr><td>2020<\/td><td>45<\/td><\/tr><tr><td>2021<\/td><td>60<\/td><\/tr><tr><td>2022<\/td><td>75<\/td><\/tr><\/table>\nPercentage increase from 2018 to 2022?",
+        "answers": [
+            "75%",
+            "50%",
+            "100%",
+            "87.5%"
+        ],
+        "correct": 3,
+        "explanation": "Increase = 35. % = 35\/40 × 100 = 87.5%"
+    },
+    {
+        "prompt": "Using the same data:\n<table><tr><th>Year<\/th><th>Sales<\/th><\/tr><tr><td>2018<\/td><td>40<\/td><\/tr><tr><td>2019<\/td><td>55<\/td><\/tr><tr><td>2020<\/td><td>45<\/td><\/tr><tr><td>2021<\/td><td>60<\/td><\/tr><tr><td>2022<\/td><td>75<\/td><\/tr><\/table>\nIn which year was there a decline in sales compared to previous year?",
+        "answers": [
+            "No decline",
+            "2020",
+            "2019",
+            "2021"
+        ],
+        "correct": 1,
+        "explanation": "2020 (45) < 2019 (55). Decline of 10 thousand"
+    },
+    {
+        "prompt": "Using the same data:\n<table><tr><th>Year<\/th><th>Sales<\/th><\/tr><tr><td>2018<\/td><td>40<\/td><\/tr><tr><td>2019<\/td><td>55<\/td><\/tr><tr><td>2020<\/td><td>45<\/td><\/tr><tr><td>2021<\/td><td>60<\/td><\/tr><tr><td>2022<\/td><td>75<\/td><\/tr><\/table>\nRatio of sales in 2021 to 2018?",
+        "answers": [
+            "2:3",
+            "3:2",
+            "4:3",
+            "5:4"
+        ],
+        "correct": 1,
+        "explanation": "60:40 = 3:2"
+    },
+    {
+        "prompt": "Study the bar chart showing production (in units) of two companies.\n<table><tr><th>Month<\/th><th>Company X<\/th><th>Company Y<\/th><\/tr><tr><td>Jan<\/td><td>200<\/td><td>150<\/td><\/tr><tr><td>Feb<\/td><td>180<\/td><td>220<\/td><\/tr><tr><td>Mar<\/td><td>250<\/td><td>200<\/td><\/tr><tr><td>Apr<\/td><td>300<\/td><td>280<\/td><\/tr><\/table>\nTotal production of Company X?",
+        "answers": [
+            "930 units",
+            "780 units",
+            "1000 units",
+            "850 units"
+        ],
+        "correct": 0,
+        "explanation": "Total X = 200 + 180 + 250 + 300 = 930 units"
+    },
+    {
+        "prompt": "Using the same data:\n<table><tr><th>Month<\/th><th>Company X<\/th><th>Company Y<\/th><\/tr><tr><td>Jan<\/td><td>200<\/td><td>150<\/td><\/tr><tr><td>Feb<\/td><td>180<\/td><td>220<\/td><\/tr><tr><td>Mar<\/td><td>250<\/td><td>200<\/td><\/tr><tr><td>Apr<\/td><td>300<\/td><td>280<\/td><\/tr><\/table>\nIn which month was combined production highest?",
+        "answers": [
+            "April",
+            "February",
+            "January",
+            "March"
+        ],
+        "correct": 0,
+        "explanation": "Jan=350, Feb=400, Mar=450, Apr=580. April highest"
+    },
+    {
+        "prompt": "Using the same data:\n<table><tr><th>Month<\/th><th>Company X<\/th><th>Company Y<\/th><\/tr><tr><td>Jan<\/td><td>200<\/td><td>150<\/td><\/tr><tr><td>Feb<\/td><td>180<\/td><td>220<\/td><\/tr><tr><td>Mar<\/td><td>250<\/td><td>200<\/td><\/tr><tr><td>Apr<\/td><td>300<\/td><td>280<\/td><\/tr><\/table>\nDifference between total production of X and Y?",
+        "answers": [
+            "120 units",
+            "80 units",
+            "100 units",
+            "50 units"
+        ],
+        "correct": 1,
+        "explanation": "X = 930, Y = 850. Difference = 80 units"
+    },
+    {
+        "prompt": "Using the same data:\n<table><tr><th>Month<\/th><th>Company X<\/th><th>Company Y<\/th><\/tr><tr><td>Jan<\/td><td>200<\/td><td>150<\/td><\/tr><tr><td>Feb<\/td><td>180<\/td><td>220<\/td><\/tr><tr><td>Mar<\/td><td>250<\/td><td>200<\/td><\/tr><tr><td>Apr<\/td><td>300<\/td><td>280<\/td><\/tr><\/table>\nIn which month Y's production exceeded X's?",
+        "answers": [
+            "January",
+            "March",
+            "April",
+            "February"
+        ],
+        "correct": 3,
+        "explanation": "Only Feb: Y(220) > X(180)"
+    },
+    {
+        "prompt": "Using the same data:\n<table><tr><th>Month<\/th><th>Company X<\/th><th>Company Y<\/th><\/tr><tr><td>Jan<\/td><td>200<\/td><td>150<\/td><\/tr><tr><td>Feb<\/td><td>180<\/td><td>220<\/td><\/tr><tr><td>Mar<\/td><td>250<\/td><td>200<\/td><\/tr><tr><td>Apr<\/td><td>300<\/td><td>280<\/td><\/tr><\/table>\nPercentage by which X's April production exceeds January?",
+        "answers": [
+            "100%",
+            "33%",
+            "50%",
+            "25%"
+        ],
+        "correct": 2,
+        "explanation": "Increase = 100. % = 100\/200 × 100 = 50%"
+    },
+    {
+        "prompt": "Exports data (in crores):\n<table><tr><th>Year<\/th><th>Exports<\/th><\/tr><tr><td>2017<\/td><td>120<\/td><\/tr><tr><td>2018<\/td><td>150<\/td><\/tr><tr><td>2019<\/td><td>180<\/td><\/tr><tr><td>2020<\/td><td>135<\/td><\/tr><tr><td>2021<\/td><td>200<\/td><\/tr><\/table>\nSimple average growth rate per year?",
+        "answers": [
+            "30 crores",
+            "20 crores",
+            "25 crores",
+            "15 crores"
+        ],
+        "correct": 1,
+        "explanation": "Total growth = 200-120 = 80. Over 4 years = 20 cr\/year"
+    },
+    {
+        "prompt": "Using same exports data:\n<table><tr><th>Year<\/th><th>Exports<\/th><\/tr><tr><td>2017<\/td><td>120<\/td><\/tr><tr><td>2018<\/td><td>150<\/td><\/tr><tr><td>2019<\/td><td>180<\/td><\/tr><tr><td>2020<\/td><td>135<\/td><\/tr><tr><td>2021<\/td><td>200<\/td><\/tr><\/table>\nPercentage drop in 2020 compared to 2019?",
+        "answers": [
+            "20%",
+            "25%",
+            "30%",
+            "33%"
+        ],
+        "correct": 1,
+        "explanation": "Drop = 45. % = 45\/180 × 100 = 25%"
+    },
+    {
+        "prompt": "Using same exports data:\n<table><tr><th>Year<\/th><th>Exports<\/th><\/tr><tr><td>2017<\/td><td>120<\/td><\/tr><tr><td>2018<\/td><td>150<\/td><\/tr><tr><td>2019<\/td><td>180<\/td><\/tr><tr><td>2020<\/td><td>135<\/td><\/tr><tr><td>2021<\/td><td>200<\/td><\/tr><\/table>\nRatio of exports in 2017 to 2021?",
+        "answers": [
+            "3:5",
+            "4:5",
+            "5:3",
+            "2:3"
+        ],
+        "correct": 0,
+        "explanation": "120:200 = 3:5"
+    },
+    {
+        "prompt": "Using same exports data:\n<table><tr><th>Year<\/th><th>Exports<\/th><\/tr><tr><td>2017<\/td><td>120<\/td><\/tr><tr><td>2018<\/td><td>150<\/td><\/tr><tr><td>2019<\/td><td>180<\/td><\/tr><tr><td>2020<\/td><td>135<\/td><\/tr><tr><td>2021<\/td><td>200<\/td><\/tr><\/table>\nHow many years show positive growth over previous year?",
+        "answers": [
+            "2",
+            "4",
+            "5",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "2018 (up), 2019 (up), 2020 (down), 2021 (up). 3 years positive"
+    },
+    {
+        "prompt": "Using same exports data:\n<table><tr><th>Year<\/th><th>Exports<\/th><\/tr><tr><td>2017<\/td><td>120<\/td><\/tr><tr><td>2018<\/td><td>150<\/td><\/tr><tr><td>2019<\/td><td>180<\/td><\/tr><tr><td>2020<\/td><td>135<\/td><\/tr><tr><td>2021<\/td><td>200<\/td><\/tr><\/table>\nPercentage recovery in 2021 from 2020?",
+        "answers": [
+            "50%",
+            "65%",
+            "48.15%",
+            "40%"
+        ],
+        "correct": 2,
+        "explanation": "Increase = 65. % = 65\/135 × 100 ≈ 48.15%"
+    }
 ]

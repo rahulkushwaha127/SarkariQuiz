@@ -1,222 +1,222 @@
 [
-  {
-    "question": "A can do a work in 10 days and B in 15 days. Together they will complete it in?",
-    "answers": [
-      { "title": "6 days", "is_correct": true },
-      { "title": "5 days", "is_correct": false },
-      { "title": "7 days", "is_correct": false },
-      { "title": "8 days", "is_correct": false }
-    ],
-    "explanation": "Combined = 1/10 + 1/15 = 5/30 = 1/6. Time = 6 days",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A can finish a work in 18 days and B can do it in 15 days. B worked for 10 days, rest done by A in?",
-    "answers": [
-      { "title": "6 days", "is_correct": true },
-      { "title": "5 days", "is_correct": false },
-      { "title": "8 days", "is_correct": false },
-      { "title": "4 days", "is_correct": false }
-    ],
-    "explanation": "B did 10/15 = 2/3. Remaining = 1/3. A takes (1/3)×18 = 6 days",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A is twice as good as B. Together they finish work in 12 days. A alone will finish in?",
-    "answers": [
-      { "title": "18 days", "is_correct": true },
-      { "title": "24 days", "is_correct": false },
-      { "title": "36 days", "is_correct": false },
-      { "title": "20 days", "is_correct": false }
-    ],
-    "explanation": "A:B efficiency = 2:1. Combined = 3 units. A does 2/3 work. A alone = 12×3/2 = 18 days",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A does 4/5 of work in 20 days. He finishes remaining with B in 3 days. B alone can do it in?",
-    "answers": [
-      { "title": "37.5 days", "is_correct": true },
-      { "title": "30 days", "is_correct": false },
-      { "title": "40 days", "is_correct": false },
-      { "title": "35 days", "is_correct": false }
-    ],
-    "explanation": "A's rate = 4/5 ÷ 20 = 1/25. In 3 days: A does 3/25. Remaining 1/5 = B's 3 days work = 3/25. No wait: A does 1/5 in 5 days, so 4/5 in 20 days means A's total = 25 days. A+B do 1/5 in 3 days. A does 3/25 in 3 days. B does 1/5 - 3/25 = 2/25 in 3 days. B alone = 25×3/2 = 37.5 days",
-    "difficulty": "hard"
-  },
-  {
-    "question": "10 men can complete a work in 7 days. How many men are required to complete the work in 5 days?",
-    "answers": [
-      { "title": "14", "is_correct": true },
-      { "title": "12", "is_correct": false },
-      { "title": "15", "is_correct": false },
-      { "title": "10", "is_correct": false }
-    ],
-    "explanation": "Men × Days = constant. 10×7 = x×5 → x = 14",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A can do a piece of work in 4 hours; B and C together in 3 hours; A and C together in 2 hours. How long will B alone take?",
-    "answers": [
-      { "title": "12 hours", "is_correct": true },
-      { "title": "8 hours", "is_correct": false },
-      { "title": "10 hours", "is_correct": false },
-      { "title": "6 hours", "is_correct": false }
-    ],
-    "explanation": "A = 1/4, B+C = 1/3, A+C = 1/2. C = 1/2 - 1/4 = 1/4. B = 1/3 - 1/4 = 1/12. B alone = 12 hours",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A and B can do work in 12 and 18 days. They work together for 4 days, then A leaves. B finishes rest in?",
-    "answers": [
-      { "title": "9 days", "is_correct": true },
-      { "title": "8 days", "is_correct": false },
-      { "title": "10 days", "is_correct": false },
-      { "title": "6 days", "is_correct": false }
-    ],
-    "explanation": "(1/12 + 1/18)×4 = 5/18. Remaining = 13/18 - wait, let me recalc: (3+2)/36 × 4 = 20/36 = 5/9. Remaining = 4/9. B = (4/9)×18 = 8 days. Hmm, let me redo: A+B per day = 1/12 + 1/18 = (3+2)/36 = 5/36. In 4 days = 20/36 = 5/9. Left = 4/9. B per day = 1/18. B takes 4/9 × 18 = 8 days. Actually answer should be 8 days.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A can complete work in 20 days working 8 hours/day. B takes 16 days at 10 hours/day. Working 8 hours/day together?",
-    "answers": [
-      { "title": "80/9 days", "is_correct": true },
-      { "title": "9 days", "is_correct": false },
-      { "title": "10 days", "is_correct": false },
-      { "title": "8 days", "is_correct": false }
-    ],
-    "explanation": "A's total = 160 hrs, B's total = 160 hrs. Together per 8hr day = 8/160 + 8/160 = 1/10. Days = 80/9 ≈ 8.89 days",
-    "difficulty": "hard"
-  },
-  {
-    "question": "If 6 men and 8 boys can do work in 10 days and 26 men and 48 boys in 2 days, 15 men and 20 boys in?",
-    "answers": [
-      { "title": "4 days", "is_correct": true },
-      { "title": "5 days", "is_correct": false },
-      { "title": "6 days", "is_correct": false },
-      { "title": "3 days", "is_correct": false }
-    ],
-    "explanation": "(6M+8B)×10 = (26M+48B)×2. 60M+80B = 52M+96B. 8M = 16B. M = 2B. Work = (6×2+8)×10 = 200B-days. 15M+20B = 30B+20B = 50B. Days = 200/50 = 4",
-    "difficulty": "hard"
-  },
-  {
-    "question": "A works twice as fast as B. If B can complete work in 12 days alone, A and B together?",
-    "answers": [
-      { "title": "4 days", "is_correct": true },
-      { "title": "6 days", "is_correct": false },
-      { "title": "8 days", "is_correct": false },
-      { "title": "3 days", "is_correct": false }
-    ],
-    "explanation": "A = 6 days. Together = 1/6 + 1/12 = 3/12 = 1/4. Time = 4 days",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A alone can do work in 6 days and B alone in 8 days. A and B undertook to do it for Rs. 3200. With C's help, they finished in 3 days. C's share?",
-    "answers": [
-      { "title": "Rs. 400", "is_correct": true },
-      { "title": "Rs. 600", "is_correct": false },
-      { "title": "Rs. 800", "is_correct": false },
-      { "title": "Rs. 500", "is_correct": false }
-    ],
-    "explanation": "A+B in 3 days = 3/6 + 3/8 = 7/8. C did 1/8. C's share = 1/8 × 3200 = Rs. 400",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Pipe A fills tank in 12 min, Pipe B in 15 min. Both open for 4 min then B closed. Time to fill remaining?",
-    "answers": [
-      { "title": "5 min", "is_correct": true },
-      { "title": "6 min", "is_correct": false },
-      { "title": "4 min", "is_correct": false },
-      { "title": "7 min", "is_correct": false }
-    ],
-    "explanation": "In 4 min: 4/12 + 4/15 = 1/3 + 4/15 = 9/15 = 3/5. Remaining = 2/5. A fills in 2/5 × 12 = 24/5 ≈ 5 min",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A tap fills tank in 6 hours, leak empties in 12 hours. If tap opened with leak, tank fills in?",
-    "answers": [
-      { "title": "12 hours", "is_correct": true },
-      { "title": "8 hours", "is_correct": false },
-      { "title": "10 hours", "is_correct": false },
-      { "title": "9 hours", "is_correct": false }
-    ],
-    "explanation": "Net = 1/6 - 1/12 = 1/12. Time = 12 hours",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A pipe fills tank in 2 hours. Due to leak it takes 7/3 hours. Leak empties full tank in?",
-    "answers": [
-      { "title": "14 hours", "is_correct": true },
-      { "title": "10 hours", "is_correct": false },
-      { "title": "12 hours", "is_correct": false },
-      { "title": "7 hours", "is_correct": false }
-    ],
-    "explanation": "Leak rate = 1/2 - 3/7 = 7/14 - 6/14 = 1/14. Leak empties in 14 hours",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Two pipes fill a tank in 20 and 30 minutes. A drain pipe empties in 60 min. All open, tank fills in?",
-    "answers": [
-      { "title": "15 min", "is_correct": true },
-      { "title": "20 min", "is_correct": false },
-      { "title": "12 min", "is_correct": false },
-      { "title": "18 min", "is_correct": false }
-    ],
-    "explanation": "Net = 1/20 + 1/30 - 1/60 = 3/60 + 2/60 - 1/60 = 4/60 = 1/15. Time = 15 min",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A does work in 10 days, B in 12 days, C in 15 days. All work first 2 days, then A leaves. Remaining?",
-    "answers": [
-      { "title": "3 days", "is_correct": true },
-      { "title": "4 days", "is_correct": false },
-      { "title": "5 days", "is_correct": false },
-      { "title": "2.5 days", "is_correct": false }
-    ],
-    "explanation": "In 2 days: 2(1/10+1/12+1/15) = 2(6+5+4)/60 = 30/60 = 1/2. B+C = 1/12+1/15 = 9/60 = 3/20 per day. 1/2 ÷ 3/20 = 10/3 ≈ 3.33 days. Approximately 3 days",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If 15 men take 21 days to dig 45m deep, how many men needed to dig 63m in 27 days?",
-    "answers": [
-      { "title": "18 men", "is_correct": false },
-      { "title": "16 men", "is_correct": true },
-      { "title": "20 men", "is_correct": false },
-      { "title": "14 men", "is_correct": false }
-    ],
-    "explanation": "M₁D₁/W₁ = M₂D₂/W₂. 15×21/45 = x×27/63. x = 15×21×63/(45×27) ≈ 16",
-    "difficulty": "hard"
-  },
-  {
-    "question": "A and B together do work in 7 days. A alone does in 10 days. B alone?",
-    "answers": [
-      { "title": "23.33 days", "is_correct": true },
-      { "title": "20 days", "is_correct": false },
-      { "title": "25 days", "is_correct": false },
-      { "title": "17 days", "is_correct": false }
-    ],
-    "explanation": "B = 1/7 - 1/10 = 3/70. B alone = 70/3 = 23.33 days",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A is 30% more efficient than B. If B takes 23 days, A takes?",
-    "answers": [
-      { "title": "17.69 days", "is_correct": true },
-      { "title": "20 days", "is_correct": false },
-      { "title": "16 days", "is_correct": false },
-      { "title": "18 days", "is_correct": false }
-    ],
-    "explanation": "A's time = 23/1.3 = 17.69 days",
-    "difficulty": "easy"
-  },
-  {
-    "question": "12 men finish work in 18 days. 6 men work first 6 days, then 6 more join. Remaining work?",
-    "answers": [
-      { "title": "9 days", "is_correct": true },
-      { "title": "10 days", "is_correct": false },
-      { "title": "8 days", "is_correct": false },
-      { "title": "12 days", "is_correct": false }
-    ],
-    "explanation": "Total = 12×18 = 216 man-days. 6 men × 6 days = 36. Remaining = 180. 12 men need 180/12 = 15 days. Wait, let me recalc: 6 men in 6 days = 36 man-days. Left = 216-36 = 180. 12 men = 180/12 = 15 days. Hmm answer seems 15. Let me check if question says 9 days - maybe I misread",
-    "difficulty": "medium"
-  }
+    {
+        "prompt": "A can do a work in 10 days and B in 15 days. Together they will complete it in?",
+        "answers": [
+            "6 days",
+            "5 days",
+            "8 days",
+            "7 days"
+        ],
+        "correct": 0,
+        "explanation": "Combined = 1\/10 + 1\/15 = 5\/30 = 1\/6. Time = 6 days"
+    },
+    {
+        "prompt": "A can finish a work in 18 days and B can do it in 15 days. B worked for 10 days, rest done by A in?",
+        "answers": [
+            "5 days",
+            "4 days",
+            "8 days",
+            "6 days"
+        ],
+        "correct": 3,
+        "explanation": "B did 10\/15 = 2\/3. Remaining = 1\/3. A takes (1\/3)×18 = 6 days"
+    },
+    {
+        "prompt": "A is twice as good as B. Together they finish work in 12 days. A alone will finish in?",
+        "answers": [
+            "36 days",
+            "24 days",
+            "18 days",
+            "20 days"
+        ],
+        "correct": 2,
+        "explanation": "A:B efficiency = 2:1. Combined = 3 units. A does 2\/3 work. A alone = 12×3\/2 = 18 days"
+    },
+    {
+        "prompt": "A does 4\/5 of work in 20 days. He finishes remaining with B in 3 days. B alone can do it in?",
+        "answers": [
+            "35 days",
+            "37.5 days",
+            "40 days",
+            "30 days"
+        ],
+        "correct": 1,
+        "explanation": "A's rate = 4\/5 ÷ 20 = 1\/25. In 3 days: A does 3\/25. Remaining 1\/5 = B's 3 days work = 3\/25. No wait: A does 1\/5 in 5 days, so 4\/5 in 20 days means A's total = 25 days. A+B do 1\/5 in 3 days. A does 3\/25 in 3 days. B does 1\/5 - 3\/25 = 2\/25 in 3 days. B alone = 25×3\/2 = 37.5 days"
+    },
+    {
+        "prompt": "10 men can complete a work in 7 days. How many men are required to complete the work in 5 days?",
+        "answers": [
+            "12",
+            "14",
+            "10",
+            "15"
+        ],
+        "correct": 1,
+        "explanation": "Men × Days = constant. 10×7 = x×5 → x = 14"
+    },
+    {
+        "prompt": "A can do a piece of work in 4 hours; B and C together in 3 hours; A and C together in 2 hours. How long will B alone take?",
+        "answers": [
+            "10 hours",
+            "8 hours",
+            "12 hours",
+            "6 hours"
+        ],
+        "correct": 2,
+        "explanation": "A = 1\/4, B+C = 1\/3, A+C = 1\/2. C = 1\/2 - 1\/4 = 1\/4. B = 1\/3 - 1\/4 = 1\/12. B alone = 12 hours"
+    },
+    {
+        "prompt": "A and B can do work in 12 and 18 days. They work together for 4 days, then A leaves. B finishes rest in?",
+        "answers": [
+            "9 days",
+            "10 days",
+            "8 days",
+            "6 days"
+        ],
+        "correct": 0,
+        "explanation": "(1\/12 + 1\/18)×4 = 5\/18. Remaining = 13\/18 - wait, let me recalc: (3+2)\/36 × 4 = 20\/36 = 5\/9. Remaining = 4\/9. B = (4\/9)×18 = 8 days. Hmm, let me redo: A+B per day = 1\/12 + 1\/18 = (3+2)\/36 = 5\/36. In 4 days = 20\/36 = 5\/9. Left = 4\/9. B per day = 1\/18. B takes 4\/9 × 18 = 8 days. Actually answer should be 8 days."
+    },
+    {
+        "prompt": "A can complete work in 20 days working 8 hours\/day. B takes 16 days at 10 hours\/day. Working 8 hours\/day together?",
+        "answers": [
+            "8 days",
+            "80\/9 days",
+            "9 days",
+            "10 days"
+        ],
+        "correct": 1,
+        "explanation": "A's total = 160 hrs, B's total = 160 hrs. Together per 8hr day = 8\/160 + 8\/160 = 1\/10. Days = 80\/9 ≈ 8.89 days"
+    },
+    {
+        "prompt": "If 6 men and 8 boys can do work in 10 days and 26 men and 48 boys in 2 days, 15 men and 20 boys in?",
+        "answers": [
+            "5 days",
+            "4 days",
+            "3 days",
+            "6 days"
+        ],
+        "correct": 1,
+        "explanation": "(6M+8B)×10 = (26M+48B)×2. 60M+80B = 52M+96B. 8M = 16B. M = 2B. Work = (6×2+8)×10 = 200B-days. 15M+20B = 30B+20B = 50B. Days = 200\/50 = 4"
+    },
+    {
+        "prompt": "A works twice as fast as B. If B can complete work in 12 days alone, A and B together?",
+        "answers": [
+            "6 days",
+            "4 days",
+            "8 days",
+            "3 days"
+        ],
+        "correct": 1,
+        "explanation": "A = 6 days. Together = 1\/6 + 1\/12 = 3\/12 = 1\/4. Time = 4 days"
+    },
+    {
+        "prompt": "A alone can do work in 6 days and B alone in 8 days. A and B undertook to do it for Rs. 3200. With C's help, they finished in 3 days. C's share?",
+        "answers": [
+            "Rs. 500",
+            "Rs. 400",
+            "Rs. 800",
+            "Rs. 600"
+        ],
+        "correct": 1,
+        "explanation": "A+B in 3 days = 3\/6 + 3\/8 = 7\/8. C did 1\/8. C's share = 1\/8 × 3200 = Rs. 400"
+    },
+    {
+        "prompt": "Pipe A fills tank in 12 min, Pipe B in 15 min. Both open for 4 min then B closed. Time to fill remaining?",
+        "answers": [
+            "7 min",
+            "5 min",
+            "6 min",
+            "4 min"
+        ],
+        "correct": 1,
+        "explanation": "In 4 min: 4\/12 + 4\/15 = 1\/3 + 4\/15 = 9\/15 = 3\/5. Remaining = 2\/5. A fills in 2\/5 × 12 = 24\/5 ≈ 5 min"
+    },
+    {
+        "prompt": "A tap fills tank in 6 hours, leak empties in 12 hours. If tap opened with leak, tank fills in?",
+        "answers": [
+            "9 hours",
+            "8 hours",
+            "12 hours",
+            "10 hours"
+        ],
+        "correct": 2,
+        "explanation": "Net = 1\/6 - 1\/12 = 1\/12. Time = 12 hours"
+    },
+    {
+        "prompt": "A pipe fills tank in 2 hours. Due to leak it takes 7\/3 hours. Leak empties full tank in?",
+        "answers": [
+            "12 hours",
+            "10 hours",
+            "7 hours",
+            "14 hours"
+        ],
+        "correct": 3,
+        "explanation": "Leak rate = 1\/2 - 3\/7 = 7\/14 - 6\/14 = 1\/14. Leak empties in 14 hours"
+    },
+    {
+        "prompt": "Two pipes fill a tank in 20 and 30 minutes. A drain pipe empties in 60 min. All open, tank fills in?",
+        "answers": [
+            "18 min",
+            "20 min",
+            "15 min",
+            "12 min"
+        ],
+        "correct": 2,
+        "explanation": "Net = 1\/20 + 1\/30 - 1\/60 = 3\/60 + 2\/60 - 1\/60 = 4\/60 = 1\/15. Time = 15 min"
+    },
+    {
+        "prompt": "A does work in 10 days, B in 12 days, C in 15 days. All work first 2 days, then A leaves. Remaining?",
+        "answers": [
+            "4 days",
+            "2.5 days",
+            "5 days",
+            "3 days"
+        ],
+        "correct": 3,
+        "explanation": "In 2 days: 2(1\/10+1\/12+1\/15) = 2(6+5+4)\/60 = 30\/60 = 1\/2. B+C = 1\/12+1\/15 = 9\/60 = 3\/20 per day. 1\/2 ÷ 3\/20 = 10\/3 ≈ 3.33 days. Approximately 3 days"
+    },
+    {
+        "prompt": "If 15 men take 21 days to dig 45m deep, how many men needed to dig 63m in 27 days?",
+        "answers": [
+            "14 men",
+            "20 men",
+            "16 men",
+            "18 men"
+        ],
+        "correct": 2,
+        "explanation": "M₁D₁\/W₁ = M₂D₂\/W₂. 15×21\/45 = x×27\/63. x = 15×21×63\/(45×27) ≈ 16"
+    },
+    {
+        "prompt": "A and B together do work in 7 days. A alone does in 10 days. B alone?",
+        "answers": [
+            "20 days",
+            "17 days",
+            "25 days",
+            "23.33 days"
+        ],
+        "correct": 3,
+        "explanation": "B = 1\/7 - 1\/10 = 3\/70. B alone = 70\/3 = 23.33 days"
+    },
+    {
+        "prompt": "A is 30% more efficient than B. If B takes 23 days, A takes?",
+        "answers": [
+            "20 days",
+            "16 days",
+            "17.69 days",
+            "18 days"
+        ],
+        "correct": 2,
+        "explanation": "A's time = 23\/1.3 = 17.69 days"
+    },
+    {
+        "prompt": "12 men finish work in 18 days. 6 men work first 6 days, then 6 more join. Remaining work?",
+        "answers": [
+            "9 days",
+            "8 days",
+            "10 days",
+            "12 days"
+        ],
+        "correct": 0,
+        "explanation": "Total = 12×18 = 216 man-days. 6 men × 6 days = 36. Remaining = 180. 12 men need 180\/12 = 15 days. Wait, let me recalc: 6 men in 6 days = 36 man-days. Left = 216-36 = 180. 12 men = 180\/12 = 15 days. Hmm answer seems 15. Let me check if question says 9 days - maybe I misread"
+    }
 ]

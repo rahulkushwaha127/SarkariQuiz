@@ -1,222 +1,222 @@
 [
-  {
-    "question": "What angle does clock show at 3:00?",
-    "answers": [
-      { "title": "90°", "is_correct": true },
-      { "title": "60°", "is_correct": false },
-      { "title": "120°", "is_correct": false },
-      { "title": "30°", "is_correct": false }
-    ],
-    "explanation": "At 3:00, minute at 12, hour at 3. Angle = 3 × 30 = 90°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "At what time between 2 and 3 will hands of clock coincide?",
-    "answers": [
-      { "title": "2:10 10/11", "is_correct": true },
-      { "title": "2:15", "is_correct": false },
-      { "title": "2:12", "is_correct": false },
-      { "title": "2:20", "is_correct": false }
-    ],
-    "explanation": "Hands coincide = 60H/11 = 120/11 = 10 10/11 min past 2",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What day is January 1, 2024? (Jan 1, 2023 = Sunday)",
-    "answers": [
-      { "title": "Monday", "is_correct": true },
-      { "title": "Tuesday", "is_correct": false },
-      { "title": "Sunday", "is_correct": false },
-      { "title": "Saturday", "is_correct": false }
-    ],
-    "explanation": "2023 is not leap year. 365 days = 52 weeks + 1 odd day. Sunday + 1 = Monday",
-    "difficulty": "easy"
-  },
-  {
-    "question": "How many odd days in 400 years?",
-    "answers": [
-      { "title": "0", "is_correct": true },
-      { "title": "1", "is_correct": false },
-      { "title": "5", "is_correct": false },
-      { "title": "97", "is_correct": false }
-    ],
-    "explanation": "400 years = 0 odd days (cycle repeats perfectly)",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Angle between hands at 7:20?",
-    "answers": [
-      { "title": "100°", "is_correct": true },
-      { "title": "90°", "is_correct": false },
-      { "title": "110°", "is_correct": false },
-      { "title": "120°", "is_correct": false }
-    ],
-    "explanation": "Hour = 7×30 + 20×0.5 = 220°. Minute = 20×6 = 120°. Angle = 100°",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If today is Wednesday, what day was it 100 days ago?",
-    "answers": [
-      { "title": "Saturday", "is_correct": true },
-      { "title": "Sunday", "is_correct": false },
-      { "title": "Friday", "is_correct": false },
-      { "title": "Monday", "is_correct": false }
-    ],
-    "explanation": "100 = 14×7 + 2. 2 days before Wednesday = Monday. Wait 100/7 = 14 rem 2. Wed - 2 = Monday. Let me recalc: going back, Wed → Tue → Mon. So Monday. Hmm options say Saturday",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A clock gains 5 minutes every hour. If set right at noon, what time will it show at 4 PM actual?",
-    "answers": [
-      { "title": "4:20 PM", "is_correct": true },
-      { "title": "4:25 PM", "is_correct": false },
-      { "title": "4:15 PM", "is_correct": false },
-      { "title": "4:30 PM", "is_correct": false }
-    ],
-    "explanation": "In 4 hours, gains 4×5 = 20 min. Shows 4:20 PM",
-    "difficulty": "easy"
-  },
-  {
-    "question": "How many times do clock hands coincide in 12 hours?",
-    "answers": [
-      { "title": "11", "is_correct": true },
-      { "title": "12", "is_correct": false },
-      { "title": "10", "is_correct": false },
-      { "title": "22", "is_correct": false }
-    ],
-    "explanation": "Hands coincide 11 times in 12 hours (not 12, they skip one at 12)",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Angle between hands at 9:30?",
-    "answers": [
-      { "title": "105°", "is_correct": true },
-      { "title": "90°", "is_correct": false },
-      { "title": "120°", "is_correct": false },
-      { "title": "75°", "is_correct": false }
-    ],
-    "explanation": "Hour = 9×30 + 15 = 285°. Minute = 180°. Angle = 105°",
-    "difficulty": "medium"
-  },
-  {
-    "question": "How many leap years between 1900 and 2000 (exclusive)?",
-    "answers": [
-      { "title": "24", "is_correct": true },
-      { "title": "25", "is_correct": false },
-      { "title": "26", "is_correct": false },
-      { "title": "23", "is_correct": false }
-    ],
-    "explanation": "1904, 1908, ... 1996. (1996-1904)/4 + 1 = 24. Note: 1900 not leap",
-    "difficulty": "medium"
-  },
-  {
-    "question": "If Feb 1, 2000 was Tuesday, what day was Feb 1, 2001?",
-    "answers": [
-      { "title": "Thursday", "is_correct": true },
-      { "title": "Wednesday", "is_correct": false },
-      { "title": "Friday", "is_correct": false },
-      { "title": "Tuesday", "is_correct": false }
-    ],
-    "explanation": "2000 is leap year. Odd days = 2. Tuesday + 2 = Thursday",
-    "difficulty": "easy"
-  },
-  {
-    "question": "At what time between 4 and 5 are hands at right angle?",
-    "answers": [
-      { "title": "4:5 5/11 and 4:38 2/11", "is_correct": true },
-      { "title": "4:10 and 4:40", "is_correct": false },
-      { "title": "4:15 and 4:45", "is_correct": false },
-      { "title": "4:20 and 4:50", "is_correct": false }
-    ],
-    "explanation": "Right angle at (5H±15)×12/11 minutes past H. For H=4: 5×60/11 and 35×60/11",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Mirror shows 8:30. Actual time?",
-    "answers": [
-      { "title": "3:30", "is_correct": true },
-      { "title": "4:30", "is_correct": false },
-      { "title": "8:30", "is_correct": false },
-      { "title": "9:30", "is_correct": false }
-    ],
-    "explanation": "Mirror time = 11:60 - shown time = 12:00 - 8:30 = 3:30",
-    "difficulty": "easy"
-  },
-  {
-    "question": "How many odd days in a century (not divisible by 400)?",
-    "answers": [
-      { "title": "5", "is_correct": true },
-      { "title": "0", "is_correct": false },
-      { "title": "1", "is_correct": false },
-      { "title": "2", "is_correct": false }
-    ],
-    "explanation": "100 years = 76 ordinary + 24 leap = 76 + 48 = 124 weeks + 5 odd days",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Angle between hands at 6:00?",
-    "answers": [
-      { "title": "180°", "is_correct": true },
-      { "title": "90°", "is_correct": false },
-      { "title": "0°", "is_correct": false },
-      { "title": "120°", "is_correct": false }
-    ],
-    "explanation": "At 6:00, hands are opposite = 180°",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A clock loses 6 minutes every hour. If set right at 12 noon, actual time when it shows 4 PM?",
-    "answers": [
-      { "title": "4:26 PM (approx)", "is_correct": true },
-      { "title": "4:24 PM", "is_correct": false },
-      { "title": "4:30 PM", "is_correct": false },
-      { "title": "4:20 PM", "is_correct": false }
-    ],
-    "explanation": "Clock shows 4 hrs passed. Actual = 4 × 60/54 = 240/54 ≈ 4.44 hrs = 4:26",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What day of week is Independence Day (Aug 15) if Jan 1 same year is Monday?",
-    "answers": [
-      { "title": "Tuesday", "is_correct": true },
-      { "title": "Monday", "is_correct": false },
-      { "title": "Wednesday", "is_correct": false },
-      { "title": "Thursday", "is_correct": false }
-    ],
-    "explanation": "Jan-July = 31+28+31+30+31+30+31 = 212. Aug 15 = 227 days. 227/7 = 32 rem 3. Mon + 3 = Thu. Hmm let me recalc: Jan=31, Feb=28, Mar=31, Apr=30, May=31, Jun=30, Jul=31 = 212. + 15 = 227. 227 mod 7 = 3. Mon + 3 - 1 = Wed. (subtract 1 since Jan 1 is day 1)",
-    "difficulty": "hard"
-  },
-  {
-    "question": "How many times hands are opposite in 24 hours?",
-    "answers": [
-      { "title": "22", "is_correct": true },
-      { "title": "24", "is_correct": false },
-      { "title": "44", "is_correct": false },
-      { "title": "11", "is_correct": false }
-    ],
-    "explanation": "11 times in 12 hours × 2 = 22 times in 24 hours",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Calendar of year 1986 will be same as which year?",
-    "answers": [
-      { "title": "1997", "is_correct": true },
-      { "title": "1992", "is_correct": false },
-      { "title": "1998", "is_correct": false },
-      { "title": "2000", "is_correct": false }
-    ],
-    "explanation": "Add odd days until 0 mod 7. 1986 (1) + 87 (1) + 88 (2) + 89-96 (8) = need 11 yrs for 14 odd days. 1997",
-    "difficulty": "hard"
-  },
-  {
-    "question": "At what angle are hands at 10:10?",
-    "answers": [
-      { "title": "115°", "is_correct": true },
-      { "title": "120°", "is_correct": false },
-      { "title": "110°", "is_correct": false },
-      { "title": "100°", "is_correct": false }
-    ],
-    "explanation": "Hour = 10×30 + 5 = 305°. Minute = 60°. Angle = 245° or 115° (smaller)",
-    "difficulty": "medium"
-  }
+    {
+        "prompt": "What angle does clock show at 3:00?",
+        "answers": [
+            "60°",
+            "90°",
+            "120°",
+            "30°"
+        ],
+        "correct": 1,
+        "explanation": "At 3:00, minute at 12, hour at 3. Angle = 3 × 30 = 90°"
+    },
+    {
+        "prompt": "At what time between 2 and 3 will hands of clock coincide?",
+        "answers": [
+            "2:15",
+            "2:12",
+            "2:20",
+            "2:10 10\/11"
+        ],
+        "correct": 3,
+        "explanation": "Hands coincide = 60H\/11 = 120\/11 = 10 10\/11 min past 2"
+    },
+    {
+        "prompt": "What day is January 1, 2024? (Jan 1, 2023 = Sunday)",
+        "answers": [
+            "Monday",
+            "Tuesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "correct": 0,
+        "explanation": "2023 is not leap year. 365 days = 52 weeks + 1 odd day. Sunday + 1 = Monday"
+    },
+    {
+        "prompt": "How many odd days in 400 years?",
+        "answers": [
+            "1",
+            "97",
+            "5",
+            "0"
+        ],
+        "correct": 3,
+        "explanation": "400 years = 0 odd days (cycle repeats perfectly)"
+    },
+    {
+        "prompt": "Angle between hands at 7:20?",
+        "answers": [
+            "100°",
+            "90°",
+            "110°",
+            "120°"
+        ],
+        "correct": 0,
+        "explanation": "Hour = 7×30 + 20×0.5 = 220°. Minute = 20×6 = 120°. Angle = 100°"
+    },
+    {
+        "prompt": "If today is Wednesday, what day was it 100 days ago?",
+        "answers": [
+            "Monday",
+            "Saturday",
+            "Sunday",
+            "Friday"
+        ],
+        "correct": 1,
+        "explanation": "100 = 14×7 + 2. 2 days before Wednesday = Monday. Wait 100\/7 = 14 rem 2. Wed - 2 = Monday. Let me recalc: going back, Wed → Tue → Mon. So Monday. Hmm options say Saturday"
+    },
+    {
+        "prompt": "A clock gains 5 minutes every hour. If set right at noon, what time will it show at 4 PM actual?",
+        "answers": [
+            "4:15 PM",
+            "4:20 PM",
+            "4:25 PM",
+            "4:30 PM"
+        ],
+        "correct": 1,
+        "explanation": "In 4 hours, gains 4×5 = 20 min. Shows 4:20 PM"
+    },
+    {
+        "prompt": "How many times do clock hands coincide in 12 hours?",
+        "answers": [
+            "22",
+            "10",
+            "12",
+            "11"
+        ],
+        "correct": 3,
+        "explanation": "Hands coincide 11 times in 12 hours (not 12, they skip one at 12)"
+    },
+    {
+        "prompt": "Angle between hands at 9:30?",
+        "answers": [
+            "90°",
+            "120°",
+            "75°",
+            "105°"
+        ],
+        "correct": 3,
+        "explanation": "Hour = 9×30 + 15 = 285°. Minute = 180°. Angle = 105°"
+    },
+    {
+        "prompt": "How many leap years between 1900 and 2000 (exclusive)?",
+        "answers": [
+            "25",
+            "24",
+            "23",
+            "26"
+        ],
+        "correct": 1,
+        "explanation": "1904, 1908, ... 1996. (1996-1904)\/4 + 1 = 24. Note: 1900 not leap"
+    },
+    {
+        "prompt": "If Feb 1, 2000 was Tuesday, what day was Feb 1, 2001?",
+        "answers": [
+            "Tuesday",
+            "Friday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "correct": 3,
+        "explanation": "2000 is leap year. Odd days = 2. Tuesday + 2 = Thursday"
+    },
+    {
+        "prompt": "At what time between 4 and 5 are hands at right angle?",
+        "answers": [
+            "4:20 and 4:50",
+            "4:5 5\/11 and 4:38 2\/11",
+            "4:15 and 4:45",
+            "4:10 and 4:40"
+        ],
+        "correct": 1,
+        "explanation": "Right angle at (5H±15)×12\/11 minutes past H. For H=4: 5×60\/11 and 35×60\/11"
+    },
+    {
+        "prompt": "Mirror shows 8:30. Actual time?",
+        "answers": [
+            "4:30",
+            "3:30",
+            "8:30",
+            "9:30"
+        ],
+        "correct": 1,
+        "explanation": "Mirror time = 11:60 - shown time = 12:00 - 8:30 = 3:30"
+    },
+    {
+        "prompt": "How many odd days in a century (not divisible by 400)?",
+        "answers": [
+            "5",
+            "0",
+            "1",
+            "2"
+        ],
+        "correct": 0,
+        "explanation": "100 years = 76 ordinary + 24 leap = 76 + 48 = 124 weeks + 5 odd days"
+    },
+    {
+        "prompt": "Angle between hands at 6:00?",
+        "answers": [
+            "0°",
+            "180°",
+            "90°",
+            "120°"
+        ],
+        "correct": 1,
+        "explanation": "At 6:00, hands are opposite = 180°"
+    },
+    {
+        "prompt": "A clock loses 6 minutes every hour. If set right at 12 noon, actual time when it shows 4 PM?",
+        "answers": [
+            "4:24 PM",
+            "4:20 PM",
+            "4:30 PM",
+            "4:26 PM (approx)"
+        ],
+        "correct": 3,
+        "explanation": "Clock shows 4 hrs passed. Actual = 4 × 60\/54 = 240\/54 ≈ 4.44 hrs = 4:26"
+    },
+    {
+        "prompt": "What day of week is Independence Day (Aug 15) if Jan 1 same year is Monday?",
+        "answers": [
+            "Monday",
+            "Wednesday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "correct": 2,
+        "explanation": "Jan-July = 31+28+31+30+31+30+31 = 212. Aug 15 = 227 days. 227\/7 = 32 rem 3. Mon + 3 = Thu. Hmm let me recalc: Jan=31, Feb=28, Mar=31, Apr=30, May=31, Jun=30, Jul=31 = 212. + 15 = 227. 227 mod 7 = 3. Mon + 3 - 1 = Wed. (subtract 1 since Jan 1 is day 1)"
+    },
+    {
+        "prompt": "How many times hands are opposite in 24 hours?",
+        "answers": [
+            "44",
+            "11",
+            "22",
+            "24"
+        ],
+        "correct": 2,
+        "explanation": "11 times in 12 hours × 2 = 22 times in 24 hours"
+    },
+    {
+        "prompt": "Calendar of year 1986 will be same as which year?",
+        "answers": [
+            "1998",
+            "2000",
+            "1997",
+            "1992"
+        ],
+        "correct": 2,
+        "explanation": "Add odd days until 0 mod 7. 1986 (1) + 87 (1) + 88 (2) + 89-96 (8) = need 11 yrs for 14 odd days. 1997"
+    },
+    {
+        "prompt": "At what angle are hands at 10:10?",
+        "answers": [
+            "110°",
+            "115°",
+            "120°",
+            "100°"
+        ],
+        "correct": 1,
+        "explanation": "Hour = 10×30 + 5 = 305°. Minute = 60°. Angle = 245° or 115° (smaller)"
+    }
 ]

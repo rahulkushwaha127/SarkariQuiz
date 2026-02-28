@@ -1,222 +1,222 @@
 [
-  {
-    "question": "A car covers 150 km in 3 hours. Speed in m/s?",
-    "answers": [
-      { "title": "13.89 m/s", "is_correct": true },
-      { "title": "50 m/s", "is_correct": false },
-      { "title": "15 m/s", "is_correct": false },
-      { "title": "45 m/s", "is_correct": false }
-    ],
-    "explanation": "Speed = 50 km/hr = 50 × 5/18 = 13.89 m/s",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A train 200m long passes a pole in 10 sec. Speed?",
-    "answers": [
-      { "title": "72 km/hr", "is_correct": true },
-      { "title": "20 km/hr", "is_correct": false },
-      { "title": "36 km/hr", "is_correct": false },
-      { "title": "54 km/hr", "is_correct": false }
-    ],
-    "explanation": "Speed = 200/10 = 20 m/s = 72 km/hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A train 150m long crosses a platform 250m long in 20 sec. Speed?",
-    "answers": [
-      { "title": "72 km/hr", "is_correct": true },
-      { "title": "54 km/hr", "is_correct": false },
-      { "title": "90 km/hr", "is_correct": false },
-      { "title": "45 km/hr", "is_correct": false }
-    ],
-    "explanation": "Total = 400m. Speed = 400/20 = 20 m/s = 72 km/hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Two trains 100m and 150m long approach at 60 km/hr and 40 km/hr. Time to cross?",
-    "answers": [
-      { "title": "9 sec", "is_correct": true },
-      { "title": "10 sec", "is_correct": false },
-      { "title": "12 sec", "is_correct": false },
-      { "title": "15 sec", "is_correct": false }
-    ],
-    "explanation": "Relative speed = 100 km/hr = 250/9 m/s. Distance = 250m. Time = 250 × 9/250 = 9 sec",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A person walks at 5 km/hr. He covers a distance in 3 hr 20 min. Distance?",
-    "answers": [
-      { "title": "16.67 km", "is_correct": true },
-      { "title": "15 km", "is_correct": false },
-      { "title": "20 km", "is_correct": false },
-      { "title": "18 km", "is_correct": false }
-    ],
-    "explanation": "Time = 3 1/3 hr = 10/3 hr. Distance = 5 × 10/3 = 50/3 = 16.67 km",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A boat's speed in still water is 10 km/hr, stream is 2 km/hr. Downstream speed?",
-    "answers": [
-      { "title": "12 km/hr", "is_correct": true },
-      { "title": "8 km/hr", "is_correct": false },
-      { "title": "5 km/hr", "is_correct": false },
-      { "title": "20 km/hr", "is_correct": false }
-    ],
-    "explanation": "Downstream = boat + stream = 10 + 2 = 12 km/hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Upstream speed 8 km/hr, downstream 12 km/hr. Speed in still water?",
-    "answers": [
-      { "title": "10 km/hr", "is_correct": true },
-      { "title": "4 km/hr", "is_correct": false },
-      { "title": "20 km/hr", "is_correct": false },
-      { "title": "2 km/hr", "is_correct": false }
-    ],
-    "explanation": "Still water = (12+8)/2 = 10 km/hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A train running at 54 km/hr crosses a man in 9 sec. Length of train?",
-    "answers": [
-      { "title": "135 m", "is_correct": true },
-      { "title": "150 m", "is_correct": false },
-      { "title": "120 m", "is_correct": false },
-      { "title": "162 m", "is_correct": false }
-    ],
-    "explanation": "Speed = 15 m/s. Length = 15 × 9 = 135 m",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A person travels 80 km at 40 km/hr and 100 km at 50 km/hr. Average speed?",
-    "answers": [
-      { "title": "45 km/hr", "is_correct": true },
-      { "title": "44 km/hr", "is_correct": false },
-      { "title": "46 km/hr", "is_correct": false },
-      { "title": "48 km/hr", "is_correct": false }
-    ],
-    "explanation": "Time = 2 + 2 = 4 hr. Distance = 180 km. Avg = 45 km/hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Walking at 5/6 of usual speed, a man is 15 min late. Usual time?",
-    "answers": [
-      { "title": "75 min", "is_correct": true },
-      { "title": "60 min", "is_correct": false },
-      { "title": "90 min", "is_correct": false },
-      { "title": "45 min", "is_correct": false }
-    ],
-    "explanation": "New time = 6/5 of usual. Extra = 1/5 of usual = 15 min. Usual = 75 min",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Two trains start from A and B towards each other at 40 and 60 km/hr. Distance = 200 km. When do they meet?",
-    "answers": [
-      { "title": "2 hours", "is_correct": true },
-      { "title": "2.5 hours", "is_correct": false },
-      { "title": "3 hours", "is_correct": false },
-      { "title": "1.5 hours", "is_correct": false }
-    ],
-    "explanation": "Relative speed = 100 km/hr. Time = 200/100 = 2 hours",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A car traveling at 72 km/hr stops in 10 sec. Deceleration?",
-    "answers": [
-      { "title": "2 m/s²", "is_correct": true },
-      { "title": "7.2 m/s²", "is_correct": false },
-      { "title": "20 m/s²", "is_correct": false },
-      { "title": "0.2 m/s²", "is_correct": false }
-    ],
-    "explanation": "72 km/hr = 20 m/s. Deceleration = 20/10 = 2 m/s²",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Boat takes 4 hr downstream and 6 hr upstream for same distance. Ratio of boat speed to stream speed?",
-    "answers": [
-      { "title": "5:1", "is_correct": true },
-      { "title": "3:1", "is_correct": false },
-      { "title": "4:1", "is_correct": false },
-      { "title": "2:1", "is_correct": false }
-    ],
-    "explanation": "(B+S)×4 = (B-S)×6. 4B+4S = 6B-6S. 10S = 2B. B:S = 5:1",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A thief starts running at 8 km/hr. Police starts 10 min later at 10 km/hr. When caught?",
-    "answers": [
-      { "title": "40 min after police start", "is_correct": true },
-      { "title": "30 min", "is_correct": false },
-      { "title": "50 min", "is_correct": false },
-      { "title": "1 hour", "is_correct": false }
-    ],
-    "explanation": "Gap = 8 × 1/6 = 4/3 km. Relative = 2 km/hr. Time = 4/3 ÷ 2 = 2/3 hr = 40 min",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A man rows 10 km in 2 hr with stream and 4 km in 2 hr against. Speed in still water?",
-    "answers": [
-      { "title": "3.5 km/hr", "is_correct": true },
-      { "title": "4 km/hr", "is_correct": false },
-      { "title": "3 km/hr", "is_correct": false },
-      { "title": "5 km/hr", "is_correct": false }
-    ],
-    "explanation": "Downstream = 5 km/hr, Upstream = 2 km/hr. Still = (5+2)/2 = 3.5 km/hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "A 180m train passes 320m bridge in 25 sec. Speed?",
-    "answers": [
-      { "title": "72 km/hr", "is_correct": true },
-      { "title": "64 km/hr", "is_correct": false },
-      { "title": "80 km/hr", "is_correct": false },
-      { "title": "54 km/hr", "is_correct": false }
-    ],
-    "explanation": "Total = 500m. Speed = 500/25 = 20 m/s = 72 km/hr",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If speed increases by 20%, time to cover same distance decreases by?",
-    "answers": [
-      { "title": "16.67%", "is_correct": true },
-      { "title": "20%", "is_correct": false },
-      { "title": "25%", "is_correct": false },
-      { "title": "15%", "is_correct": false }
-    ],
-    "explanation": "New time = 100/120 = 5/6. Decrease = 1/6 = 16.67%",
-    "difficulty": "medium"
-  },
-  {
-    "question": "A train passes two persons walking at 3 and 6 km/hr in same direction in 12 and 15 sec. Length?",
-    "answers": [
-      { "title": "50 m", "is_correct": true },
-      { "title": "60 m", "is_correct": false },
-      { "title": "45 m", "is_correct": false },
-      { "title": "75 m", "is_correct": false }
-    ],
-    "explanation": "Let train speed = S, length = L. L = (S-3)×5/18×12 = (S-6)×5/18×15. Solving: S = 18 km/hr. L = 15×5/18×12 = 50m",
-    "difficulty": "hard"
-  },
-  {
-    "question": "A cyclist covers 24 km at 8 km/hr. At what speed must he return to average 12 km/hr for whole trip?",
-    "answers": [
-      { "title": "24 km/hr", "is_correct": true },
-      { "title": "16 km/hr", "is_correct": false },
-      { "title": "20 km/hr", "is_correct": false },
-      { "title": "18 km/hr", "is_correct": false }
-    ],
-    "explanation": "Total 48 km at avg 12 = 4 hr. Outward = 3 hr. Return = 1 hr. Speed = 24 km/hr",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Distance between A and B is 330 km. Train starts from A at 8:00 at 60 km/hr. Another from B at 9:00 at 75 km/hr. When do they meet?",
-    "answers": [
-      { "title": "11:00 AM", "is_correct": true },
-      { "title": "11:30 AM", "is_correct": false },
-      { "title": "10:30 AM", "is_correct": false },
-      { "title": "12:00 PM", "is_correct": false }
-    ],
-    "explanation": "At 9:00, first traveled 60 km. Gap = 270 km. Relative = 135 km/hr. Time = 2 hr. Meet at 11:00",
-    "difficulty": "medium"
-  }
+    {
+        "prompt": "A car covers 150 km in 3 hours. Speed in m\/s?",
+        "answers": [
+            "50 m\/s",
+            "15 m\/s",
+            "13.89 m\/s",
+            "45 m\/s"
+        ],
+        "correct": 2,
+        "explanation": "Speed = 50 km\/hr = 50 × 5\/18 = 13.89 m\/s"
+    },
+    {
+        "prompt": "A train 200m long passes a pole in 10 sec. Speed?",
+        "answers": [
+            "36 km\/hr",
+            "54 km\/hr",
+            "20 km\/hr",
+            "72 km\/hr"
+        ],
+        "correct": 3,
+        "explanation": "Speed = 200\/10 = 20 m\/s = 72 km\/hr"
+    },
+    {
+        "prompt": "A train 150m long crosses a platform 250m long in 20 sec. Speed?",
+        "answers": [
+            "72 km\/hr",
+            "54 km\/hr",
+            "90 km\/hr",
+            "45 km\/hr"
+        ],
+        "correct": 0,
+        "explanation": "Total = 400m. Speed = 400\/20 = 20 m\/s = 72 km\/hr"
+    },
+    {
+        "prompt": "Two trains 100m and 150m long approach at 60 km\/hr and 40 km\/hr. Time to cross?",
+        "answers": [
+            "9 sec",
+            "12 sec",
+            "10 sec",
+            "15 sec"
+        ],
+        "correct": 0,
+        "explanation": "Relative speed = 100 km\/hr = 250\/9 m\/s. Distance = 250m. Time = 250 × 9\/250 = 9 sec"
+    },
+    {
+        "prompt": "A person walks at 5 km\/hr. He covers a distance in 3 hr 20 min. Distance?",
+        "answers": [
+            "20 km",
+            "18 km",
+            "15 km",
+            "16.67 km"
+        ],
+        "correct": 3,
+        "explanation": "Time = 3 1\/3 hr = 10\/3 hr. Distance = 5 × 10\/3 = 50\/3 = 16.67 km"
+    },
+    {
+        "prompt": "A boat's speed in still water is 10 km\/hr, stream is 2 km\/hr. Downstream speed?",
+        "answers": [
+            "5 km\/hr",
+            "8 km\/hr",
+            "20 km\/hr",
+            "12 km\/hr"
+        ],
+        "correct": 3,
+        "explanation": "Downstream = boat + stream = 10 + 2 = 12 km\/hr"
+    },
+    {
+        "prompt": "Upstream speed 8 km\/hr, downstream 12 km\/hr. Speed in still water?",
+        "answers": [
+            "4 km\/hr",
+            "2 km\/hr",
+            "10 km\/hr",
+            "20 km\/hr"
+        ],
+        "correct": 2,
+        "explanation": "Still water = (12+8)\/2 = 10 km\/hr"
+    },
+    {
+        "prompt": "A train running at 54 km\/hr crosses a man in 9 sec. Length of train?",
+        "answers": [
+            "150 m",
+            "120 m",
+            "135 m",
+            "162 m"
+        ],
+        "correct": 2,
+        "explanation": "Speed = 15 m\/s. Length = 15 × 9 = 135 m"
+    },
+    {
+        "prompt": "A person travels 80 km at 40 km\/hr and 100 km at 50 km\/hr. Average speed?",
+        "answers": [
+            "45 km\/hr",
+            "48 km\/hr",
+            "46 km\/hr",
+            "44 km\/hr"
+        ],
+        "correct": 0,
+        "explanation": "Time = 2 + 2 = 4 hr. Distance = 180 km. Avg = 45 km\/hr"
+    },
+    {
+        "prompt": "Walking at 5\/6 of usual speed, a man is 15 min late. Usual time?",
+        "answers": [
+            "75 min",
+            "90 min",
+            "45 min",
+            "60 min"
+        ],
+        "correct": 0,
+        "explanation": "New time = 6\/5 of usual. Extra = 1\/5 of usual = 15 min. Usual = 75 min"
+    },
+    {
+        "prompt": "Two trains start from A and B towards each other at 40 and 60 km\/hr. Distance = 200 km. When do they meet?",
+        "answers": [
+            "2 hours",
+            "2.5 hours",
+            "3 hours",
+            "1.5 hours"
+        ],
+        "correct": 0,
+        "explanation": "Relative speed = 100 km\/hr. Time = 200\/100 = 2 hours"
+    },
+    {
+        "prompt": "A car traveling at 72 km\/hr stops in 10 sec. Deceleration?",
+        "answers": [
+            "7.2 m\/s²",
+            "0.2 m\/s²",
+            "20 m\/s²",
+            "2 m\/s²"
+        ],
+        "correct": 3,
+        "explanation": "72 km\/hr = 20 m\/s. Deceleration = 20\/10 = 2 m\/s²"
+    },
+    {
+        "prompt": "Boat takes 4 hr downstream and 6 hr upstream for same distance. Ratio of boat speed to stream speed?",
+        "answers": [
+            "5:1",
+            "3:1",
+            "2:1",
+            "4:1"
+        ],
+        "correct": 0,
+        "explanation": "(B+S)×4 = (B-S)×6. 4B+4S = 6B-6S. 10S = 2B. B:S = 5:1"
+    },
+    {
+        "prompt": "A thief starts running at 8 km\/hr. Police starts 10 min later at 10 km\/hr. When caught?",
+        "answers": [
+            "40 min after police start",
+            "30 min",
+            "1 hour",
+            "50 min"
+        ],
+        "correct": 0,
+        "explanation": "Gap = 8 × 1\/6 = 4\/3 km. Relative = 2 km\/hr. Time = 4\/3 ÷ 2 = 2\/3 hr = 40 min"
+    },
+    {
+        "prompt": "A man rows 10 km in 2 hr with stream and 4 km in 2 hr against. Speed in still water?",
+        "answers": [
+            "5 km\/hr",
+            "3.5 km\/hr",
+            "4 km\/hr",
+            "3 km\/hr"
+        ],
+        "correct": 1,
+        "explanation": "Downstream = 5 km\/hr, Upstream = 2 km\/hr. Still = (5+2)\/2 = 3.5 km\/hr"
+    },
+    {
+        "prompt": "A 180m train passes 320m bridge in 25 sec. Speed?",
+        "answers": [
+            "72 km\/hr",
+            "64 km\/hr",
+            "54 km\/hr",
+            "80 km\/hr"
+        ],
+        "correct": 0,
+        "explanation": "Total = 500m. Speed = 500\/25 = 20 m\/s = 72 km\/hr"
+    },
+    {
+        "prompt": "If speed increases by 20%, time to cover same distance decreases by?",
+        "answers": [
+            "25%",
+            "15%",
+            "16.67%",
+            "20%"
+        ],
+        "correct": 2,
+        "explanation": "New time = 100\/120 = 5\/6. Decrease = 1\/6 = 16.67%"
+    },
+    {
+        "prompt": "A train passes two persons walking at 3 and 6 km\/hr in same direction in 12 and 15 sec. Length?",
+        "answers": [
+            "45 m",
+            "75 m",
+            "50 m",
+            "60 m"
+        ],
+        "correct": 2,
+        "explanation": "Let train speed = S, length = L. L = (S-3)×5\/18×12 = (S-6)×5\/18×15. Solving: S = 18 km\/hr. L = 15×5\/18×12 = 50m"
+    },
+    {
+        "prompt": "A cyclist covers 24 km at 8 km\/hr. At what speed must he return to average 12 km\/hr for whole trip?",
+        "answers": [
+            "20 km\/hr",
+            "24 km\/hr",
+            "16 km\/hr",
+            "18 km\/hr"
+        ],
+        "correct": 1,
+        "explanation": "Total 48 km at avg 12 = 4 hr. Outward = 3 hr. Return = 1 hr. Speed = 24 km\/hr"
+    },
+    {
+        "prompt": "Distance between A and B is 330 km. Train starts from A at 8:00 at 60 km\/hr. Another from B at 9:00 at 75 km\/hr. When do they meet?",
+        "answers": [
+            "10:30 AM",
+            "12:00 PM",
+            "11:00 AM",
+            "11:30 AM"
+        ],
+        "correct": 2,
+        "explanation": "At 9:00, first traveled 60 km. Gap = 270 km. Relative = 135 km\/hr. Time = 2 hr. Meet at 11:00"
+    }
 ]

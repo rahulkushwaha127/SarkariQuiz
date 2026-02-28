@@ -1,167 +1,167 @@
 [
-  {
-    "question": "$\\sqrt{50} = ?$",
-    "answers": [
-      { "title": "$5\\sqrt{2}$", "is_correct": true },
-      { "title": "$2\\sqrt{5}$", "is_correct": false },
-      { "title": "$10\\sqrt{5}$", "is_correct": false },
-      { "title": "$\\sqrt{25}$", "is_correct": false }
-    ],
-    "explanation": "$\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Simplify: $\\sqrt{12} + \\sqrt{27}$",
-    "answers": [
-      { "title": "$5\\sqrt{3}$", "is_correct": true },
-      { "title": "$\\sqrt{39}$", "is_correct": false },
-      { "title": "$6\\sqrt{3}$", "is_correct": false },
-      { "title": "$3\\sqrt{5}$", "is_correct": false }
-    ],
-    "explanation": "$2\\sqrt{3} + 3\\sqrt{3} = 5\\sqrt{3}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$2^3 \\times 2^5 = ?$",
-    "answers": [
-      { "title": "$2^8$", "is_correct": true },
-      { "title": "$2^{15}$", "is_correct": false },
-      { "title": "$4^8$", "is_correct": false },
-      { "title": "$2^2$", "is_correct": false }
-    ],
-    "explanation": "$a^m \\times a^n = a^{m+n}$. $2^{3+5} = 2^8$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\frac{3^7}{3^4} = ?$",
-    "answers": [
-      { "title": "$27$", "is_correct": true },
-      { "title": "$81$", "is_correct": false },
-      { "title": "$3$", "is_correct": false },
-      { "title": "$9$", "is_correct": false }
-    ],
-    "explanation": "$3^{7-4} = 3^3 = 27$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$(2^3)^4 = ?$",
-    "answers": [
-      { "title": "$4096$", "is_correct": true },
-      { "title": "$128$", "is_correct": false },
-      { "title": "$512$", "is_correct": false },
-      { "title": "$2048$", "is_correct": false }
-    ],
-    "explanation": "$2^{12} = 4096$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt[3]{27} = ?$",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "9", "is_correct": false },
-      { "title": "81", "is_correct": false },
-      { "title": "$\\sqrt{27}$", "is_correct": false }
-    ],
-    "explanation": "$27 = 3^3$. Cube root = 3",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$5^0 = ?$",
-    "answers": [
-      { "title": "1", "is_correct": true },
-      { "title": "0", "is_correct": false },
-      { "title": "5", "is_correct": false },
-      { "title": "Undefined", "is_correct": false }
-    ],
-    "explanation": "Any non-zero number raised to 0 = 1",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$4^{-2} = ?$",
-    "answers": [
-      { "title": "$\\frac{1}{16}$", "is_correct": true },
-      { "title": "$-16$", "is_correct": false },
-      { "title": "$\\frac{1}{8}$", "is_correct": false },
-      { "title": "$16$", "is_correct": false }
-    ],
-    "explanation": "$4^{-2} = \\frac{1}{4^2} = \\frac{1}{16}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\sqrt{\\sqrt{81}} = ?$",
-    "answers": [
-      { "title": "3", "is_correct": true },
-      { "title": "9", "is_correct": false },
-      { "title": "27", "is_correct": false },
-      { "title": "$\\sqrt{3}$", "is_correct": false }
-    ],
-    "explanation": "$\\sqrt{81} = 9$. $\\sqrt{9} = 3$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$16^{3/4} = ?$",
-    "answers": [
-      { "title": "8", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "12", "is_correct": false },
-      { "title": "64", "is_correct": false }
-    ],
-    "explanation": "$16^{3/4} = (2^4)^{3/4} = 2^3 = 8$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Simplify: $\\sqrt{72} - \\sqrt{32}$",
-    "answers": [
-      { "title": "$2\\sqrt{2}$", "is_correct": true },
-      { "title": "$4\\sqrt{2}$", "is_correct": false },
-      { "title": "$\\sqrt{40}$", "is_correct": false },
-      { "title": "$6\\sqrt{2}$", "is_correct": false }
-    ],
-    "explanation": "$6\\sqrt{2} - 4\\sqrt{2} = 2\\sqrt{2}$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$27^{2/3} = ?$",
-    "answers": [
-      { "title": "9", "is_correct": true },
-      { "title": "18", "is_correct": false },
-      { "title": "3", "is_correct": false },
-      { "title": "81", "is_correct": false }
-    ],
-    "explanation": "$27^{2/3} = (3^3)^{2/3} = 3^2 = 9$",
-    "difficulty": "medium"
-  },
-  {
-    "question": "$\\sqrt{5} \\times \\sqrt{20} = ?$",
-    "answers": [
-      { "title": "10", "is_correct": true },
-      { "title": "$\\sqrt{100}$", "is_correct": false },
-      { "title": "$\\sqrt{25}$", "is_correct": false },
-      { "title": "5", "is_correct": false }
-    ],
-    "explanation": "$\\sqrt{5 \\times 20} = \\sqrt{100} = 10$",
-    "difficulty": "easy"
-  },
-  {
-    "question": "If $2^x = 32$, find x.",
-    "answers": [
-      { "title": "5", "is_correct": true },
-      { "title": "4", "is_correct": false },
-      { "title": "6", "is_correct": false },
-      { "title": "16", "is_correct": false }
-    ],
-    "explanation": "$32 = 2^5$. So x = 5",
-    "difficulty": "easy"
-  },
-  {
-    "question": "$\\frac{\\sqrt{48}}{\\sqrt{3}} = ?$",
-    "answers": [
-      { "title": "4", "is_correct": true },
-      { "title": "$\\sqrt{16}$", "is_correct": false },
-      { "title": "16", "is_correct": false },
-      { "title": "$4\\sqrt{3}$", "is_correct": false }
-    ],
-    "explanation": "$\\sqrt{48/3} = \\sqrt{16} = 4$",
-    "difficulty": "easy"
-  }
+    {
+        "prompt": "$\\sqrt{50} = ?$",
+        "answers": [
+            "$2\\sqrt{5}$",
+            "$10\\sqrt{5}$",
+            "$\\sqrt{25}$",
+            "$5\\sqrt{2}$"
+        ],
+        "correct": 3,
+        "explanation": "$\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$"
+    },
+    {
+        "prompt": "Simplify: $\\sqrt{12} + \\sqrt{27}$",
+        "answers": [
+            "$5\\sqrt{3}$",
+            "$\\sqrt{39}$",
+            "$3\\sqrt{5}$",
+            "$6\\sqrt{3}$"
+        ],
+        "correct": 0,
+        "explanation": "$2\\sqrt{3} + 3\\sqrt{3} = 5\\sqrt{3}$"
+    },
+    {
+        "prompt": "$2^3 \\times 2^5 = ?$",
+        "answers": [
+            "$2^8$",
+            "$2^{15}$",
+            "$2^2$",
+            "$4^8$"
+        ],
+        "correct": 0,
+        "explanation": "$a^m \\times a^n = a^{m+n}$. $2^{3+5} = 2^8$"
+    },
+    {
+        "prompt": "$\\frac{3^7}{3^4} = ?$",
+        "answers": [
+            "$81$",
+            "$3$",
+            "$27$",
+            "$9$"
+        ],
+        "correct": 2,
+        "explanation": "$3^{7-4} = 3^3 = 27$"
+    },
+    {
+        "prompt": "$(2^3)^4 = ?$",
+        "answers": [
+            "$512$",
+            "$2048$",
+            "$4096$",
+            "$128$"
+        ],
+        "correct": 2,
+        "explanation": "$2^{12} = 4096$"
+    },
+    {
+        "prompt": "$\\sqrt[3]{27} = ?$",
+        "answers": [
+            "$\\sqrt{27}$",
+            "81",
+            "9",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "$27 = 3^3$. Cube root = 3"
+    },
+    {
+        "prompt": "$5^0 = ?$",
+        "answers": [
+            "1",
+            "5",
+            "Undefined",
+            "0"
+        ],
+        "correct": 0,
+        "explanation": "Any non-zero number raised to 0 = 1"
+    },
+    {
+        "prompt": "$4^{-2} = ?$",
+        "answers": [
+            "$\\frac{1}{8}$",
+            "$16$",
+            "$\\frac{1}{16}$",
+            "$-16$"
+        ],
+        "correct": 2,
+        "explanation": "$4^{-2} = \\frac{1}{4^2} = \\frac{1}{16}$"
+    },
+    {
+        "prompt": "$\\sqrt{\\sqrt{81}} = ?$",
+        "answers": [
+            "3",
+            "9",
+            "$\\sqrt{3}$",
+            "27"
+        ],
+        "correct": 0,
+        "explanation": "$\\sqrt{81} = 9$. $\\sqrt{9} = 3$"
+    },
+    {
+        "prompt": "$16^{3\/4} = ?$",
+        "answers": [
+            "4",
+            "8",
+            "12",
+            "64"
+        ],
+        "correct": 1,
+        "explanation": "$16^{3\/4} = (2^4)^{3\/4} = 2^3 = 8$"
+    },
+    {
+        "prompt": "Simplify: $\\sqrt{72} - \\sqrt{32}$",
+        "answers": [
+            "$2\\sqrt{2}$",
+            "$6\\sqrt{2}$",
+            "$4\\sqrt{2}$",
+            "$\\sqrt{40}$"
+        ],
+        "correct": 0,
+        "explanation": "$6\\sqrt{2} - 4\\sqrt{2} = 2\\sqrt{2}$"
+    },
+    {
+        "prompt": "$27^{2\/3} = ?$",
+        "answers": [
+            "81",
+            "9",
+            "18",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "$27^{2\/3} = (3^3)^{2\/3} = 3^2 = 9$"
+    },
+    {
+        "prompt": "$\\sqrt{5} \\times \\sqrt{20} = ?$",
+        "answers": [
+            "5",
+            "$\\sqrt{25}$",
+            "10",
+            "$\\sqrt{100}$"
+        ],
+        "correct": 2,
+        "explanation": "$\\sqrt{5 \\times 20} = \\sqrt{100} = 10$"
+    },
+    {
+        "prompt": "If $2^x = 32$, find x.",
+        "answers": [
+            "5",
+            "4",
+            "6",
+            "16"
+        ],
+        "correct": 0,
+        "explanation": "$32 = 2^5$. So x = 5"
+    },
+    {
+        "prompt": "$\\frac{\\sqrt{48}}{\\sqrt{3}} = ?$",
+        "answers": [
+            "$\\sqrt{16}$",
+            "$4\\sqrt{3}$",
+            "4",
+            "16"
+        ],
+        "correct": 2,
+        "explanation": "$\\sqrt{48\/3} = \\sqrt{16} = 4$"
+    }
 ]
