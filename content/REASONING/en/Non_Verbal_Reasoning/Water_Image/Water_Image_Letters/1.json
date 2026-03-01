@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "What is water image of 'A' (reflection below)?",
+        "answers": [
+            "Upside-down A (∀)",
+            "A (same)",
+            "V",
+            "Inverted A"
+        ],
+        "correct": 0,
+        "explanation": "Water image flips vertically (upside down)."
+    },
+    {
+        "prompt": "Water image of 'M' (water below)?",
+        "answers": [
+            "W",
+            "3",
+            "M (same)",
+            "Inverted M"
+        ],
+        "correct": 0,
+        "explanation": "M flipped vertically becomes W."
+    },
+    {
+        "prompt": "Water image of 'W'?",
+        "answers": [
+            "W (same)",
+            "Inverted W",
+            "M",
+            "3"
+        ],
+        "correct": 2,
+        "explanation": "W flipped vertically becomes M."
+    },
+    {
+        "prompt": "Which letter looks same in water reflection: H, A, M, B?",
+        "answers": [
+            "None",
+            "All",
+            "A, M",
+            "H, B"
+        ],
+        "correct": 3,
+        "explanation": "H and B have horizontal symmetry, look same in water."
+    },
+    {
+        "prompt": "Water image of 'b' (lowercase)?",
+        "answers": [
+            "q",
+            "b (same)",
+            "p",
+            "d"
+        ],
+        "correct": 2,
+        "explanation": "b flipped vertically becomes p."
+    },
+    {
+        "prompt": "Water image of 'd' (lowercase)?",
+        "answers": [
+            "d (same)",
+            "q",
+            "b",
+            "p"
+        ],
+        "correct": 1,
+        "explanation": "d flipped vertically becomes q."
+    },
+    {
+        "prompt": "What is water image of 'T'?",
+        "answers": [
+            "L",
+            "I",
+            "Upside-down T (⊥)",
+            "T (same)"
+        ],
+        "correct": 2,
+        "explanation": "T flipped becomes ⊥ (perpendicular symbol)."
+    },
+    {
+        "prompt": "Water image of 'C'?",
+        "answers": [
+            "D",
+            "Upside-down C (⊂-like)",
+            "U",
+            "C (same)"
+        ],
+        "correct": 1,
+        "explanation": "C flipped vertically."
+    },
+    {
+        "prompt": "Which capital letter remains same in water image?",
+        "answers": [
+            "B, C, D, E, H, I, K, O, X",
+            "None",
+            "All",
+            "A, M, W"
+        ],
+        "correct": 0,
+        "explanation": "Horizontally symmetric letters remain same."
+    },
+    {
+        "prompt": "Water image of 'V'?",
+        "answers": [
+            "U",
+            "A",
+            "Inverted V (Λ)",
+            "V (same)"
+        ],
+        "correct": 2,
+        "explanation": "V flipped becomes Λ (like inverted V)."
+    },
+    {
+        "prompt": "What is water image of 'n' (lowercase)?",
+        "answers": [
+            "m",
+            "n (same)",
+            "c",
+            "u"
+        ],
+        "correct": 3,
+        "explanation": "n flipped vertically becomes u."
+    },
+    {
+        "prompt": "Water image of 'u' (lowercase)?",
+        "answers": [
+            "v",
+            "u (same)",
+            "c",
+            "n"
+        ],
+        "correct": 3,
+        "explanation": "u flipped vertically becomes n."
+    },
+    {
+        "prompt": "Water image of 'E'?",
+        "answers": [
+            "3",
+            "Flipped E (Ǝ rotated)",
+            "E (same)",
+            "W"
+        ],
+        "correct": 2,
+        "explanation": "E has horizontal axis symmetry, looks same."
+    },
+    {
+        "prompt": "What is water image of 'R'?",
+        "answers": [
+            "R (same)",
+            "Upside-down R",
+            "Я",
+            "P"
+        ],
+        "correct": 1,
+        "explanation": "R flipped vertically (different from mirror)."
+    },
+    {
+        "prompt": "Water image of 'Z'?",
+        "answers": [
+            "Z (same)",
+            "Flipped Z",
+            "N",
+            "S"
+        ],
+        "correct": 1,
+        "explanation": "Z is not horizontally symmetric."
+    }
+]

@@ -1,59 +1,377 @@
-REASONING TOPICS - INDIAN GOVERNMENT EXAMS (SSC, Banking, Railway)
+REASONING - Complete Topics & Subtopics for Government Exams (SSC, Banking, Railway, UPSC)
 
-VERBAL REASONING
-- Analogy (Letter, Number, Word, Mixed)
-- Classification (Odd One Out)
-- Coding-Decoding (Letter, Number, Mixed, Symbol)
-- Series (Letter, Number, Alphanumeric, Figure)
-- Blood Relations
-- Direction and Distance
-- Syllogism
-- Statement and Conclusions/Inferences
-- Statement and Assumptions
-- Statement and Arguments
-- Cause and Effect
-- Course of Action
-- Assertion and Reason
-- Puzzles (Linear, Circular, Floor, Box, Day/Month)
-- Seating Arrangement
-- Order and Ranking
-- Inequality
-- Data Sufficiency
-- Input-Output
-- Mathematical Operations
-- Venn Diagram
-- Logical Alphabet and Number Sequence
-- Clock and Calendar
+================================================================================
+1. VERBAL REASONING
+================================================================================
+
+1.1 Analogy (Similarity)
+    - Word Analogy
+    - Letter Analogy
+    - Number Analogy
+    - Mixed Analogy
+    - Meaningful Word Formation
+
+1.2 Classification (Odd One Out)
+    - Word Classification
+    - Letter Classification
+    - Number Classification
+    - Mixed Classification
+    - Meaningful/Meaningless Classification
+
+1.3 Series
+    - Number Series (Missing/Wrong)
+    - Alphabet Series
+    - Alpha-Numeric Series
+    - Mixed Series
+    - Continuous Pattern Series
+
+1.4 Coding-Decoding
+    - Letter Coding
+    - Number Coding
+    - Mixed Letter-Number Coding
+    - Substitution Coding
+    - Conditional Coding
+    - Symbolic Coding
+    - Decoding Messages
+
+1.5 Blood Relations
+    - Direct Blood Relations
+    - Coded Blood Relations
+    - Mixed Blood Relations
+    - Family Tree Problems
+    - Pointing to a Person
+
+1.6 Direction and Distance
+    - Simple Direction Problems
+    - Shadow-Based Direction
+    - Distance Calculation
+    - Shortest Distance
+    - Displacement Problems
+    - Clock-wise/Anti-clockwise Rotation
+
+1.7 Order and Ranking
+    - Linear Arrangement Ranking
+    - Position from Left/Right/Top/Bottom
+    - Interchanging Positions
+    - Comparison-Based Ranking
+    - Age-Based Ranking
+
+1.8 Alphabet and Number Test
+    - Position of Letters
+    - Letters at Equal Distance
+    - Word Formation from Given Letters
+    - Arranging Words in Dictionary Order
+    - Number of Letters Between Two Letters
+
+1.9 Mathematical Operations
+    - Symbol Substitution
+    - Balancing Equations
+    - Interchanging Signs and Numbers
+    - BODMAS with Symbols
+    - Greater/Smaller Comparisons
+
+1.10 Verbal Logical Reasoning
+    - Statement and Conclusions
+    - Statement and Assumptions
+    - Statement and Arguments
+    - Statement and Course of Action
+    - Cause and Effect
+    - Assertion and Reason
+
+1.11 Syllogism
+    - Two Statement Syllogism
+    - Three Statement Syllogism
+    - Four Statement Syllogism
+    - Possibility-Based Syllogism
+    - Either-Or Cases
+    - Complementary Pairs
+
+1.12 Input-Output (Machine Input)
+    - Word Rearrangement
+    - Number Rearrangement
+    - Mixed Rearrangement
+    - Reverse Operations
+    - Step-Based Problems
+
+1.13 Sitting Arrangement
+    - Linear Arrangement (Single Row)
+    - Linear Arrangement (Double Row - Facing)
+    - Circular Arrangement (Facing Center)
+    - Circular Arrangement (Facing Outside)
+    - Rectangular/Square Arrangement
+    - Mixed Arrangement (Linear + Circular)
+    - Complex Multi-Variable Arrangement
+
+1.14 Puzzle
+    - Floor-Based Puzzle
+    - Day/Month-Based Puzzle
+    - Box-Based Puzzle
+    - Comparison-Based Puzzle
+    - Scheduling Puzzle
+    - Multi-Parameter Puzzle
+    - Unknown Variable Puzzle
+
+1.15 Data Sufficiency
+    - Quantity Comparison
+    - Statement Sufficiency (I, II, Both, Neither)
+    - Conditional Sufficiency
+    - Mixed Data Problems
+
+1.16 Inequality
+    - Direct Inequality (>, <, =, ≥, ≤)
+    - Coded Inequality
+    - Filler Inequality
+    - Mixed Inequality
+
+================================================================================
+2. NON-VERBAL REASONING
+================================================================================
+
+2.1 Figure Series
+    - Pattern Completion
+    - Figure Analogy
+    - Figure Classification
+    - What Comes Next
+    - Rotation-Based Series
+
+2.2 Mirror Image
+    - Mirror Image of Letters
+    - Mirror Image of Numbers
+    - Mirror Image of Figures
+    - Mirror Image of Words
+    - Combined Mirror Image
+
+2.3 Water Image
+    - Water Image of Letters
+    - Water Image of Numbers
+    - Water Image of Figures
+    - Water Image of Words
+    - Combined Water Image
+
+2.4 Paper Folding and Cutting
+    - Simple Fold and Punch
+    - Multiple Folds
+    - Transparent Paper Folding
+    - Pattern After Unfolding
+    - Hole Punch Problems
+
+2.5 Paper Folding (Figure Formation)
+    - Folding into 3D Shapes
+    - Identifying Correct Fold
+    - Open Figure from Folded
+    - Dice Formation from Paper
+
+2.6 Embedded Figures
+    - Finding Hidden Figure
+    - Figure Within Figure
+    - Complex Embedded Patterns
+    - Counting Embedded Shapes
+
+2.7 Figure Completion
+    - Complete the Pattern
+    - Missing Part of Figure
+    - Symmetric Completion
+    - Matrix Completion
+
+2.8 Counting Figures
+    - Counting Triangles
+    - Counting Squares/Rectangles
+    - Counting Circles
+    - Counting Lines
+    - Counting Mixed Figures
+    - Counting Cubes in 3D
+
+2.9 Dice and Cube
+    - Standard Dice Problems
+    - Opposite Face Problems
+    - Adjacent Face Problems
+    - Dice Rotation
+    - Multiple Dice Problems
+    - Cube Painting Problems
+    - Cube Cutting Problems
+
+2.10 Dot Situation
+    - Dot Inside/Outside Region
+    - Dot Position Analysis
+    - Multiple Shape Dot Problems
+    - Logical Dot Placement
+
+2.11 Figure Matrix
+    - 3x3 Figure Matrix
+    - Pattern Recognition in Matrix
+    - Row/Column Pattern
+    - Missing Figure in Matrix
+
+2.12 Visual Reasoning
+    - Shape Transformation
+    - Rotation and Reflection
+    - Scaling and Proportion
+    - Pattern Recognition
+    - Visual Analogy
+
+================================================================================
+3. LOGICAL REASONING (ANALYTICAL)
+================================================================================
+
+3.1 Venn Diagram
+    - Two Set Venn Diagram
+    - Three Set Venn Diagram
+    - Logical Venn Diagram (Word Representation)
+    - Venn Diagram with Numbers
+    - Region Identification
+
+3.2 Logical Sequence of Words
+    - Arranging in Logical Order
+    - Process Sequencing
+    - Size/Age/Time-Based Ordering
+    - Dictionary Order
+    - Category-Based Ordering
+
+3.3 Critical Reasoning
+    - Strengthening Arguments
+    - Weakening Arguments
+    - Finding Assumptions
+    - Drawing Inferences
+    - Identifying Flaws
+
+3.4 Decision Making
+    - Selecting Candidates
+    - Policy-Based Decisions
+    - Priority-Based Selection
+    - Multi-Criteria Decision
+    - Administrative Decision
+
+================================================================================
+4. ADVANCED REASONING (BANKING/IBPS SPECIFIC)
+================================================================================
+
+4.1 Complex Puzzles
+    - Multi-Floor Apartment Puzzle
+    - Circular + Linear Combined
+    - Scheduling with Multiple Parameters
+    - Box Arrangement with Order
+    - Designation-Department-Floor Combined
+
+4.2 Complex Coding-Decoding
+    - Sentence Coding (New Pattern)
+    - Condition-Based Coding
+    - Symbol-Operation Coding
+    - Fictitious Language Coding
+
+4.3 Complex Blood Relations
+    - Coded Blood Relations with Symbols
+    - Blood Relation + Sitting Arrangement
+    - Family Tree with Unknown Genders
+    - Multiple Generation Problems
+
+4.4 Advanced Syllogism
+    - Reverse Syllogism
+    - Coded Syllogism
+    - Possibility Cases (Advanced)
+    - Negative Statement Syllogism
+
+4.5 Advanced Inequality
+    - Expression-Based Inequality
+    - Quantity Comparison (Banking)
+    - Mixed Coded Inequality
+    - Range-Based Inequality
+
+4.6 Alphabet/Number Arrangement
+    - Word/Number Rearrangement
+    - Left-Right Positioning
+    - Conditional Arrangement
+    - Multiple Step Arrangement
+
+================================================================================
+5. MISCELLANEOUS REASONING
+================================================================================
+
+5.1 Calendar
+    - Day Calculation
+    - Leap Year Problems
+    - Date and Day Relationship
+    - Odd Days Concept
+    - Future/Past Day Finding
+
+5.2 Clock
+    - Angle Between Hands
+    - Time When Hands Overlap
+    - Time When Hands Opposite
+    - Time When Hands at Right Angle
+    - Faulty Clock Problems
+    - Mirror Time Problems
+
+5.3 Age Problems (Reasoning Type)
+    - Present Age from Conditions
+    - Age Comparison
+    - Coded Age Problems
+    - Ratio-Based Age
+
+5.4 Alphabet Coding
+    - Forward/Backward Counting
+    - Skip Patterns
+    - Position Multiplication
+    - Reverse Alphabet
+
+5.5 Arithmetical Reasoning
+    - Number-Based Logic
+    - Pattern in Numbers
+    - Mathematical Puzzles
+    - Logical Calculation
+
+5.6 Situation Reaction Test
+    - Appropriate Response
+    - Priority Action
+    - Emergency Response
+    - Ethical Decision
+
+================================================================================
+EXAM-WISE FOCUS AREAS
+================================================================================
+
+SSC (CGL, CHSL, MTS, CPO):
+- Analogy, Classification, Series
+- Coding-Decoding, Blood Relations
+- Direction, Ranking, Venn Diagram
+- Mirror/Water Image, Paper Folding
+- Dice, Counting Figures, Embedded Figures
+- Statement-Conclusion, Syllogism
+
+Banking (IBPS PO/Clerk, SBI, RBI):
+- Complex Puzzles (Floor, Circular, Box)
+- Sitting Arrangement (All Types)
+- Syllogism (Advanced)
+- Inequality (Coded)
+- Input-Output, Coding-Decoding
+- Blood Relations, Data Sufficiency
+- Statement-Assumption/Conclusion
+
+Railway (RRB NTPC, Group D, ALP):
+- Analogy, Classification, Series
+- Coding-Decoding, Blood Relations
+- Direction, Ranking, Calendar, Clock
+- Mirror/Water Image, Paper Cutting
+- Dice, Venn Diagram, Syllogism
+- Statement-Conclusion
+
+UPSC (CSAT):
+- Analytical Reasoning
+- Logical Reasoning
 - Decision Making
+- Statement-Argument
 - Critical Reasoning
+- Data Sufficiency
 
-NON-VERBAL REASONING
-- Figure Series (Sequence)
-- Figure Analogy
-- Figure Classification
-- Figure Completion
-- Mirror Image
-- Water Image
-- Paper Folding and Cutting
-- Embedded Figures
-- Figure Matrix
-- Grouping of Figures
-- Cube and Dice
-- Dot Situation
-- Construction of Squares and Triangles
-- Counting of Figures
-- Figure Formation
+================================================================================
+TOTAL STRUCTURE SUMMARY
+================================================================================
 
-ANALYTICAL REASONING
-- Logic and Deduction
-- Problem Solving
-- Judgment and Decision Making
-- Analytical Ability
-- Critical Thinking
-- Pattern Recognition
-- Relationship Concepts
-- Spatial Orientation
-- Visualization
-- Discrimination
-- Observation
-- Visual Memory
+Main Categories: 5
+- Verbal Reasoning (16 Topics)
+- Non-Verbal Reasoning (12 Topics)
+- Logical/Analytical Reasoning (4 Topics)
+- Advanced Reasoning - Banking (6 Topics)
+- Miscellaneous Reasoning (6 Topics)
+
+Total Topics: 44
+Total Subtopics: 180+

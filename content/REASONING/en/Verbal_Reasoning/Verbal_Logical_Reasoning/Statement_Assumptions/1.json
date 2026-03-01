@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Statement: 'Buy our soap for clear skin' - An advertisement. Assumptions: I. Clear skin is desirable. II. The soap provides clear skin.",
+        "answers": [
+            "Neither",
+            "Only II",
+            "Only I",
+            "Both"
+        ],
+        "correct": 3,
+        "explanation": "Ad assumes people want clear skin (I) and soap delivers it (II). Both are assumed."
+    },
+    {
+        "prompt": "Statement: Please switch off fans when leaving the room. Assumptions: I. Fans consume electricity. II. Electricity should be conserved.",
+        "answers": [
+            "Both",
+            "Neither",
+            "Only II",
+            "Only I"
+        ],
+        "correct": 0,
+        "explanation": "Request assumes fans use electricity (I) and conservation is important (II)."
+    },
+    {
+        "prompt": "Statement: Join our coaching for guaranteed success. Assumptions: I. Success can be guaranteed. II. Coaching helps in success.",
+        "answers": [
+            "Only I",
+            "Only II",
+            "Neither",
+            "Both"
+        ],
+        "correct": 3,
+        "explanation": "Statement assumes success can be guaranteed (I) and coaching contributes to it (II)."
+    },
+    {
+        "prompt": "Statement: Apply early as seats are limited. Assumptions: I. Many people will apply. II. Applications will be processed in order.",
+        "answers": [
+            "Neither",
+            "Both",
+            "Only I",
+            "Only II"
+        ],
+        "correct": 1,
+        "explanation": "Warning implies high demand (I) and first-come-first-served (II)."
+    },
+    {
+        "prompt": "Statement: Read the manual before operating the machine. Assumptions: I. Manual contains operating instructions. II. Machine is complex to operate.",
+        "answers": [
+            "Only I",
+            "Neither",
+            "Only II",
+            "Both"
+        ],
+        "correct": 0,
+        "explanation": "Assumes manual has instructions (I). Complexity not necessarily assumed (II uncertain)."
+    },
+    {
+        "prompt": "Statement: Drink boiled water to prevent diseases. Assumptions: I. Boiling kills germs. II. Unboiled water may cause diseases.",
+        "answers": [
+            "Both",
+            "Only I",
+            "Only II",
+            "Neither"
+        ],
+        "correct": 0,
+        "explanation": "Statement assumes boiling purifies (I) and unboiled water is risky (II)."
+    },
+    {
+        "prompt": "Statement: Work hard and you will succeed. Assumptions: I. Success is achievable through hard work. II. Hard work is under one's control.",
+        "answers": [
+            "Only II",
+            "Only I",
+            "Neither",
+            "Both"
+        ],
+        "correct": 3,
+        "explanation": "Assumes hard work leads to success (I) and people can choose to work hard (II)."
+    },
+    {
+        "prompt": "Statement: Medicines should be kept away from children. Assumptions: I. Children may consume medicines accidentally. II. Medicines can be harmful if misused.",
+        "answers": [
+            "Only I",
+            "Neither",
+            "Only II",
+            "Both"
+        ],
+        "correct": 3,
+        "explanation": "Warning assumes children might access medicines (I) and misuse is dangerous (II)."
+    },
+    {
+        "prompt": "Statement: Wear helmet while riding two-wheeler. Assumptions: I. Helmet provides safety. II. Accidents can happen.",
+        "answers": [
+            "Only II",
+            "Both",
+            "Only I",
+            "Neither"
+        ],
+        "correct": 1,
+        "explanation": "Assumes helmet protects (I) and accidents are possible (II)."
+    },
+    {
+        "prompt": "Statement: All employees must carry ID cards. Assumptions: I. ID cards help in identification. II. Some people without ID may enter.",
+        "answers": [
+            "Both",
+            "Only I",
+            "Only II",
+            "Neither"
+        ],
+        "correct": 0,
+        "explanation": "Rule assumes ID helps identify (I) and prevents unauthorized entry (II)."
+    },
+    {
+        "prompt": "Statement: Do not use mobile while driving. Assumptions: I. Mobile use distracts drivers. II. Distraction can cause accidents.",
+        "answers": [
+            "Neither",
+            "Both",
+            "Only I",
+            "Only II"
+        ],
+        "correct": 1,
+        "explanation": "Warning assumes mobile distracts (I) and distraction is dangerous (II)."
+    },
+    {
+        "prompt": "Statement: Attend the seminar for career growth. Assumptions: I. Seminar provides useful knowledge. II. Career growth is desirable.",
+        "answers": [
+            "Only I",
+            "Only II",
+            "Neither",
+            "Both"
+        ],
+        "correct": 3,
+        "explanation": "Statement assumes seminar is beneficial (I) and people want career growth (II)."
+    },
+    {
+        "prompt": "Statement: Register before the deadline to avoid penalty. Assumptions: I. Late registration incurs penalty. II. People don't want to pay penalty.",
+        "answers": [
+            "Only II",
+            "Neither",
+            "Only I",
+            "Both"
+        ],
+        "correct": 3,
+        "explanation": "Assumes penalty for late registration (I) and people prefer to avoid it (II)."
+    },
+    {
+        "prompt": "Statement: Bring original documents for verification. Assumptions: I. Verification requires original documents. II. Photocopies may not be accepted.",
+        "answers": [
+            "Only II",
+            "Only I",
+            "Both",
+            "Neither"
+        ],
+        "correct": 2,
+        "explanation": "Assumes originals needed for verification (I) and copies might not suffice (II)."
+    },
+    {
+        "prompt": "Statement: Practice daily for better results. Assumptions: I. Practice improves performance. II. Better results are desired.",
+        "answers": [
+            "Only II",
+            "Both",
+            "Neither",
+            "Only I"
+        ],
+        "correct": 1,
+        "explanation": "Assumes practice helps (I) and people want better results (II)."
+    }
+]

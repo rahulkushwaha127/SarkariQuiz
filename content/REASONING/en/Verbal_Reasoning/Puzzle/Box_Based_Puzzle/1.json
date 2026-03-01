@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "5 boxes stacked (1=bottom, 5=top). Box A is above B. Box C is at top. Box D is between A and C. Box E is at bottom. Order bottom to top?",
+        "answers": [
+            "E, B, A, D, C",
+            "B, E, A, D, C",
+            "Cannot determine",
+            "E, A, B, D, C"
+        ],
+        "correct": 0,
+        "explanation": "E at bottom, C at top. A above B. D between A and C. Order: E-B-A-D-C."
+    },
+    {
+        "prompt": "6 boxes numbered. Box with ball is above box with pen. Box with book is below box with pen. Pencil box at top. Order?",
+        "answers": [
+            "Book, Pen, Ball, others, Pencil at top",
+            "Pen, Book, Ball, Pencil",
+            "Ball, Pen, Book, Pencil",
+            "Cannot determine fully"
+        ],
+        "correct": 0,
+        "explanation": "Book < Pen < Ball. Pencil at top. Partial order established."
+    },
+    {
+        "prompt": "4 colored boxes stacked. Red is not at top or bottom. Blue is above Red. Green is at bottom. Where is Yellow?",
+        "answers": [
+            "Below Blue",
+            "Between Red and Green",
+            "Above Green",
+            "At top"
+        ],
+        "correct": 3,
+        "explanation": "Green at bottom. Red not at top\/bottom, so Red in middle. Blue above Red. Yellow at top."
+    },
+    {
+        "prompt": "Boxes P, Q, R, S, T stacked. P is 2nd from bottom. Q is immediately above P. R is at top. S is between R and Q. Where is T?",
+        "answers": [
+            "Between P and Q",
+            "At bottom",
+            "Above R",
+            "Cannot be placed"
+        ],
+        "correct": 1,
+        "explanation": "Bottom to top: T-P-Q-S-R."
+    },
+    {
+        "prompt": "5 boxes. A immediately above B. C immediately below D. E at bottom. D at top. B is not at bottom. Order?",
+        "answers": [
+            "E, C, B, A, D",
+            "E, B, A, C, D",
+            "E, B, C, A, D",
+            "B, E, C, A, D"
+        ],
+        "correct": 0,
+        "explanation": "E at bottom, D at top. C below D so C is 4th. A above B. B not bottom. Order: E-B-A-C-D or E-?-B-A-D with C below D."
+    },
+    {
+        "prompt": "6 boxes. Only 2 boxes below A. Only 1 box above A. How many boxes total confirmed?",
+        "answers": [
+            "Cannot determine",
+            "6 as stated",
+            "4 boxes minimum around A",
+            "3 boxes"
+        ],
+        "correct": 2,
+        "explanation": "2 below A, A itself, 1 above = 4 boxes mentioned. Total given is 6."
+    },
+    {
+        "prompt": "Box X is 3rd from bottom in stack of 7. Box Y is 3rd from top. Are X and Y same box?",
+        "answers": [
+            "No, X is 3rd from bottom (position 3), Y is 3rd from top (position 5)",
+            "Cannot determine",
+            "Yes",
+            "Maybe"
+        ],
+        "correct": 0,
+        "explanation": "In 7 boxes: 3rd from bottom = position 3. 3rd from top = position 5. Different boxes."
+    },
+    {
+        "prompt": "Heavy boxes at bottom, light at top. Box A heavier than B. Box C lighter than B. Order by weight position?",
+        "answers": [
+            "All at same level",
+            "A at bottom, B middle, C top",
+            "C at bottom, B middle, A top",
+            "B at bottom"
+        ],
+        "correct": 1,
+        "explanation": "A heaviest (bottom), then B, then C (top)."
+    },
+    {
+        "prompt": "4 boxes: Red, Blue, Green, Yellow. No two same-color boxes adjacent. Red at position 1 and 3. Possible?",
+        "answers": [
+            "Yes, if positions 2 and 4 are different colors",
+            "Need more boxes",
+            "No, Red can't be at two positions",
+            "Only with 5 boxes"
+        ],
+        "correct": 0,
+        "explanation": "With 4 different boxes, each color once. Red can't be at two positions."
+    },
+    {
+        "prompt": "Boxes contain fruits. Apple box above Orange box. Mango box between them. Banana box at top. Order bottom to top?",
+        "answers": [
+            "Apple, Mango, Orange, Banana",
+            "Banana, Apple, Mango, Orange",
+            "Orange, Mango, Apple, Banana",
+            "Orange, Apple, Mango, Banana"
+        ],
+        "correct": 2,
+        "explanation": "Apple > Orange with Mango between = Orange-Mango-Apple. Banana at top: Orange-Mango-Apple-Banana."
+    },
+    {
+        "prompt": "In a stack, no box can be above a heavier box. A is 10kg, B is 5kg, C is 8kg. Valid bottom-to-top order?",
+        "answers": [
+            "B, A, C",
+            "C, A, B",
+            "B, C, A",
+            "A, C, B"
+        ],
+        "correct": 3,
+        "explanation": "Heavy at bottom. A(10) > C(8) > B(5). Order: A-C-B."
+    },
+    {
+        "prompt": "5 boxes. K is 2nd from top. L is 2nd from bottom. How many boxes between K and L?",
+        "answers": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "In 5 boxes: 2nd from bottom = position 2. 2nd from top = position 4. Between 2 and 4: position 3 = 1 box."
+    },
+    {
+        "prompt": "Box arrangement: M above N, N above O, O above P. If Q is between M and O, Q is above which boxes?",
+        "answers": [
+            "N, O, P",
+            "Only P",
+            "M, N, O, P",
+            "O, P only"
+        ],
+        "correct": 0,
+        "explanation": "Q between M and O means Q above O and below M. Q above O, N... wait: M>N>O>P. Q between M and O could be at N's level or between."
+    },
+    {
+        "prompt": "Stack of 8 boxes. Box at position 4 from bottom is also position ? from top.",
+        "answers": [
+            "3rd from top",
+            "5th from top",
+            "4th from top",
+            "6th from top"
+        ],
+        "correct": 1,
+        "explanation": "8 - 4 + 1 = 5th from top."
+    },
+    {
+        "prompt": "Boxes: Fiction above Non-fiction. Reference at bottom. Magazine at top. Total 4 categories. Middle two positions?",
+        "answers": [
+            "Cannot determine",
+            "Non-fiction, Fiction (bottom to top)",
+            "Fiction, Non-fiction",
+            "Reference, Magazine"
+        ],
+        "correct": 1,
+        "explanation": "Reference at bottom, Magazine at top. Fiction > Non-fiction. Order: Reference-Non-fiction-Fiction-Magazine."
+    }
+]

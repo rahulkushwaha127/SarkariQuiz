@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "What is the mirror image of 'E' (with mirror on the right)?",
+        "answers": [
+            "3",
+            "E (same)",
+            "W",
+            "Ǝ (reversed E)"
+        ],
+        "correct": 3,
+        "explanation": "Mirror image reverses left-right. E becomes Ǝ (horizontal flip)."
+    },
+    {
+        "prompt": "What is the mirror image of 'A' with vertical mirror on right?",
+        "answers": [
+            "Reversed A",
+            "∀",
+            "A (same)",
+            "V"
+        ],
+        "correct": 2,
+        "explanation": "A is symmetrical vertically, so mirror image appears same."
+    },
+    {
+        "prompt": "Mirror image of 'Z' (mirror on right side)?",
+        "answers": [
+            "2",
+            "Z (same)",
+            "Reversed Z (S-like)",
+            "N"
+        ],
+        "correct": 2,
+        "explanation": "Z flipped horizontally appears reversed."
+    },
+    {
+        "prompt": "What is mirror image of 'N' with mirror on right?",
+        "answers": [
+            "N (same)",
+            "U",
+            "Z",
+            "Reversed N (И)"
+        ],
+        "correct": 3,
+        "explanation": "N horizontally flipped becomes И-like shape."
+    },
+    {
+        "prompt": "Which letter looks same in mirror (vertical mirror)?",
+        "answers": [
+            "P, Q, R",
+            "B, C, D",
+            "F, G, J",
+            "A, H, I, M, O, T, U, V, W, X, Y"
+        ],
+        "correct": 3,
+        "explanation": "Vertically symmetric letters look same in mirror."
+    },
+    {
+        "prompt": "Mirror image of 'R' (mirror on right)?",
+        "answers": [
+            "P",
+            "R (same)",
+            "Reversed R (Я)",
+            "D"
+        ],
+        "correct": 2,
+        "explanation": "R flipped becomes Я-like."
+    },
+    {
+        "prompt": "What is mirror image of 'B' with mirror below?",
+        "answers": [
+            "P",
+            "B (same)",
+            "D",
+            "B flipped vertically"
+        ],
+        "correct": 3,
+        "explanation": "Mirror below creates vertical flip of B."
+    },
+    {
+        "prompt": "Which letter remains same with mirror on the right: A, B, C, D?",
+        "answers": [
+            "B",
+            "A",
+            "C",
+            "D"
+        ],
+        "correct": 1,
+        "explanation": "A is vertically symmetric, looks same in right-side mirror."
+    },
+    {
+        "prompt": "Mirror image of 'S' (vertical mirror)?",
+        "answers": [
+            "2",
+            "S (same)",
+            "5",
+            "Reversed S"
+        ],
+        "correct": 3,
+        "explanation": "S is not symmetric, appears reversed in mirror."
+    },
+    {
+        "prompt": "What is mirror image of 'K' with mirror on right?",
+        "answers": [
+            "Y",
+            "Reversed K",
+            "X",
+            "K (same)"
+        ],
+        "correct": 1,
+        "explanation": "K flipped horizontally."
+    },
+    {
+        "prompt": "Mirror image of 'M' (mirror on right)?",
+        "answers": [
+            "3",
+            "M (same)",
+            "W",
+            "Reversed M"
+        ],
+        "correct": 1,
+        "explanation": "M is vertically symmetric, appears same."
+    },
+    {
+        "prompt": "Which letter's mirror image looks like '3'?",
+        "answers": [
+            "B",
+            "E",
+            "W",
+            "M"
+        ],
+        "correct": 1,
+        "explanation": "E's mirror image can resemble 3."
+    },
+    {
+        "prompt": "Mirror image of 'L' with mirror on right?",
+        "answers": [
+            "J",
+            "L (same)",
+            "7",
+            "Reversed L (⌐)"
+        ],
+        "correct": 3,
+        "explanation": "L reversed horizontally."
+    },
+    {
+        "prompt": "What looks same in mirror: H or J?",
+        "answers": [
+            "Neither",
+            "Both",
+            "J",
+            "H"
+        ],
+        "correct": 3,
+        "explanation": "H is symmetric, J is not."
+    },
+    {
+        "prompt": "Mirror image of 'G' (vertical mirror)?",
+        "answers": [
+            "C",
+            "Reversed G",
+            "G (same)",
+            "O"
+        ],
+        "correct": 1,
+        "explanation": "G is not symmetric, appears reversed."
+    }
+]

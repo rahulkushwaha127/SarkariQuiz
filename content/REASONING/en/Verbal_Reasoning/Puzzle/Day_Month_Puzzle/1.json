@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "5 friends born on 5 consecutive days Mon-Fri. A born before B. C born on Wednesday. D born after B. E born on Friday. On which day was B born?",
+        "answers": [
+            "Wednesday",
+            "Tuesday",
+            "Monday",
+            "Thursday"
+        ],
+        "correct": 1,
+        "explanation": "C=Wed, E=Fri. A before B, D after B. Remaining: Mon, Tue, Thu. If B=Tue, A=Mon, D=Thu. Works."
+    },
+    {
+        "prompt": "7 meetings scheduled Mon-Sun. Meeting A on Tuesday. Meeting B 2 days after A. Meeting C the day before A. What day is C?",
+        "answers": [
+            "Wednesday",
+            "Monday",
+            "Sunday",
+            "Thursday"
+        ],
+        "correct": 1,
+        "explanation": "A=Tuesday. C day before A = Monday."
+    },
+    {
+        "prompt": "4 events in Jan, Mar, Jun, Sep. Event P not in Jan or Sep. Event Q in month just after P. Event R in Sep. When is P?",
+        "answers": [
+            "September",
+            "March",
+            "June",
+            "January"
+        ],
+        "correct": 1,
+        "explanation": "R=Sep. P not in Jan or Sep. Q just after P. If P=Mar, Q could be Jun. If P=Jun, Q=Sep but R is in Sep. So P=Mar, Q=Jun."
+    },
+    {
+        "prompt": "5 exams on 5 weekdays. Math on day after Science. English on Thursday. History on day before English. Science on Tuesday. Which day is Math?",
+        "answers": [
+            "Thursday",
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "correct": 2,
+        "explanation": "Science=Tue. Math day after Science = Wed. English=Thu. History day before English = Wed. Conflict: Math and History both Wed? Check: if valid, Math=Wed."
+    },
+    {
+        "prompt": "6 tasks scheduled Mon-Sat. Task A on Monday. Task B 3 days after A. Task C the day before B. Task D on Saturday. What day is C?",
+        "answers": [
+            "Friday",
+            "Wednesday",
+            "Thursday",
+            "Tuesday"
+        ],
+        "correct": 1,
+        "explanation": "A=Mon. B 3 days after Mon = Thu. C day before B = Wed."
+    },
+    {
+        "prompt": "4 months: Jan, Apr, Jul, Oct. P's birthday in month before Q's. R's in Oct. S's in month after P's. Q's birthday in Jul. When is P's birthday?",
+        "answers": [
+            "January",
+            "July",
+            "October",
+            "April"
+        ],
+        "correct": 3,
+        "explanation": "Q=Jul. P before Q, so P=Jan or Apr. S after P. R=Oct. If P=Apr, S=Jul (Q is there) or later. Check: P=Apr works if S is different month."
+    },
+    {
+        "prompt": "7 days schedule. A on Mon. G on Sun. B day after A. F day before G. C between B and F. Where are D and E?",
+        "answers": [
+            "Tue and Sat",
+            "Cannot determine",
+            "Wed and Thu, or Thu and Wed",
+            "Mon and Sun"
+        ],
+        "correct": 2,
+        "explanation": "A=Mon, B=Tue. G=Sun, F=Sat. C between B and F = Wed, Thu, or Fri. D and E in remaining positions."
+    },
+    {
+        "prompt": "5 lectures Mon-Fri. Physics on Wed. Chemistry before Physics. Biology after Physics. Math on Mon. When is Chemistry?",
+        "answers": [
+            "Monday",
+            "Tuesday",
+            "Thursday",
+            "Friday"
+        ],
+        "correct": 1,
+        "explanation": "Math=Mon, Physics=Wed. Chemistry before Wed: Mon or Tue. Mon taken by Math. So Chemistry=Tue."
+    },
+    {
+        "prompt": "4 trips in 4 consecutive months. Trip A in June. Trip B 2 months after A. Trip C the month before A. What months are covered?",
+        "answers": [
+            "Jun-Sep",
+            "May-Aug",
+            "Apr-Jul",
+            "Mar-Jun"
+        ],
+        "correct": 1,
+        "explanation": "A=Jun. B 2 months after = Aug. C month before A = May. So May, Jun, Jul?, Aug. Trip D in Jul."
+    },
+    {
+        "prompt": "6 activities Mon-Sat. Swimming on Tue. Running on day after swimming. Cycling on Sat. Yoga 2 days before cycling. When is Yoga?",
+        "answers": [
+            "Friday",
+            "Wednesday",
+            "Thursday",
+            "Monday"
+        ],
+        "correct": 2,
+        "explanation": "Swimming=Tue, Running=Wed. Cycling=Sat. Yoga 2 days before Sat = Thu."
+    },
+    {
+        "prompt": "5 appointments Jan-May. A in Feb. B after A but before D. D in May. C before A. E not in Mar. When is E?",
+        "answers": [
+            "May",
+            "April",
+            "January",
+            "March"
+        ],
+        "correct": 1,
+        "explanation": "A=Feb, D=May. B between Feb and May = Mar or Apr. C before Feb = Jan. E not Mar. Remaining Apr for E or B. If B=Mar, E=Apr."
+    },
+    {
+        "prompt": "Week schedule. Meeting on Mon. Report on Fri. Training between Meeting and Report. Presentation day after Training. When is Presentation?",
+        "answers": [
+            "Tuesday",
+            "Saturday",
+            "Wed\/Thu",
+            "Friday"
+        ],
+        "correct": 2,
+        "explanation": "Meeting=Mon, Report=Fri. Training between = Tue, Wed, or Thu. Presentation day after Training."
+    },
+    {
+        "prompt": "4 seasons: Spring, Summer, Autumn, Winter. Event A in season before B. Event C in Winter. Event D not in Summer. B in Autumn. When is D?",
+        "answers": [
+            "Summer",
+            "Winter",
+            "Autumn",
+            "Spring"
+        ],
+        "correct": 3,
+        "explanation": "B=Autumn, A before Autumn = Summer or Spring. C=Winter. D not Summer. If A=Summer, D=Spring."
+    },
+    {
+        "prompt": "7 days Mon-Sun. A on Tue. B 4 days after A. C the day before A. D on Sun. When is B?",
+        "answers": [
+            "Saturday",
+            "Friday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "correct": 0,
+        "explanation": "A=Tue. B 4 days after Tue = Sat. C day before Tue = Mon. D=Sun."
+    },
+    {
+        "prompt": "5 holidays in 5 different months. Diwali in Oct. Christmas in Dec. Holi before Diwali. Eid after Christmas. Easter in Apr. When is Holi?",
+        "answers": [
+            "January",
+            "March",
+            "February",
+            "May"
+        ],
+        "correct": 1,
+        "explanation": "Easter=Apr, Diwali=Oct, Christmas=Dec. Holi before Oct. Eid after Dec = next year. Holi traditionally in Mar."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A dot is inside a triangle but outside a circle. The triangle and circle overlap. Where is the dot?",
+        "answers": [
+            "In circle only",
+            "In the overlap",
+            "Outside both",
+            "In triangle-only region (not in circle)"
+        ],
+        "correct": 3,
+        "explanation": "Inside triangle but outside circle = triangle-only area."
+    },
+    {
+        "prompt": "Three shapes: square, circle, triangle all overlap at center. Dot is in all three. Where is it?",
+        "answers": [
+            "In two shapes only",
+            "Outside all",
+            "In square only",
+            "In the center where all overlap"
+        ],
+        "correct": 3,
+        "explanation": "Dot in all three = central overlap region."
+    },
+    {
+        "prompt": "Dot is outside square but inside circle. Square is completely inside circle. Is this possible?",
+        "answers": [
+            "Yes, in circular region outside square",
+            "Only if dot is at center",
+            "Need more info",
+            "No, impossible"
+        ],
+        "correct": 0,
+        "explanation": "Circle has area outside the inner square. Dot can be there."
+    },
+    {
+        "prompt": "Triangle contains a circle. Dot is inside circle. The dot is also inside?",
+        "answers": [
+            "Triangle (since circle is inside triangle)",
+            "Outside triangle",
+            "Only circle",
+            "Neither"
+        ],
+        "correct": 0,
+        "explanation": "If circle is inside triangle, anything inside circle is also inside triangle."
+    },
+    {
+        "prompt": "Rectangle and ellipse don't overlap. Dot is in rectangle. Is dot in ellipse?",
+        "answers": [
+            "Need more info",
+            "No",
+            "Maybe",
+            "Yes"
+        ],
+        "correct": 1,
+        "explanation": "No overlap means separate regions. Rectangle dot ≠ ellipse dot."
+    },
+    {
+        "prompt": "Dot satisfies: inside square, inside circle, outside triangle. How many conditions?",
+        "answers": [
+            "3 conditions",
+            "2 conditions",
+            "0 conditions",
+            "1 condition"
+        ],
+        "correct": 0,
+        "explanation": "Three position requirements stated."
+    },
+    {
+        "prompt": "Pentagon inside hexagon. Dot in pentagon. Is dot in hexagon?",
+        "answers": [
+            "Not necessarily",
+            "Yes",
+            "Depends on dot position",
+            "No"
+        ],
+        "correct": 1,
+        "explanation": "Pentagon ⊂ hexagon. Dot in pentagon ⟹ dot in hexagon."
+    },
+    {
+        "prompt": "Two circles don't touch. Dot is equidistant from both centers. Where is it?",
+        "answers": [
+            "On the perpendicular bisector of line joining centers",
+            "In circle 1",
+            "Inside both",
+            "In circle 2"
+        ],
+        "correct": 0,
+        "explanation": "Equidistant point lies on perpendicular bisector."
+    },
+    {
+        "prompt": "Square inside circle. Dot is at corner of square. Is dot on circle?",
+        "answers": [
+            "Always outside circle",
+            "Maybe",
+            "Yes, if square is inscribed",
+            "No"
+        ],
+        "correct": 2,
+        "explanation": "Inscribed square has corners touching the circle."
+    },
+    {
+        "prompt": "Three non-overlapping shapes: A, B, C. Dot is in B. How many shapes contain the dot?",
+        "answers": [
+            "0",
+            "1 (only B)",
+            "3",
+            "2"
+        ],
+        "correct": 1,
+        "explanation": "Non-overlapping and dot in B = only B contains it."
+    },
+    {
+        "prompt": "Dot inside rectangle. Rectangle inside square. Square inside circle. Dot is in how many shapes?",
+        "answers": [
+            "0",
+            "3 (all of them)",
+            "1",
+            "2"
+        ],
+        "correct": 1,
+        "explanation": "Nested shapes: dot in innermost is in all outer shapes too."
+    },
+    {
+        "prompt": "Concentric circles. Dot between inner and outer circle (in ring). How many circles contain the dot?",
+        "answers": [
+            "0",
+            "2",
+            "1 (outer circle only)",
+            "Both circles"
+        ],
+        "correct": 2,
+        "explanation": "Dot in ring is inside outer circle but outside inner circle."
+    },
+    {
+        "prompt": "Venn diagram with 2 overlapping circles. Dot in overlap. It represents?",
+        "answers": [
+            "Universal set",
+            "Elements in both sets",
+            "Elements in neither",
+            "Elements in one set only"
+        ],
+        "correct": 1,
+        "explanation": "Overlap = intersection = both sets."
+    },
+    {
+        "prompt": "Three shapes form regions: only A, only B, only C, A∩B, B∩C, A∩C, A∩B∩C, outside all. How many distinct regions?",
+        "answers": [
+            "8",
+            "3",
+            "6",
+            "7"
+        ],
+        "correct": 0,
+        "explanation": "Three overlapping shapes create 8 regions (2³)."
+    },
+    {
+        "prompt": "Dot outside all shapes in a figure. This represents?",
+        "answers": [
+            "Error in placement",
+            "All categories",
+            "Universal membership",
+            "Elements not in any category"
+        ],
+        "correct": 3,
+        "explanation": "Outside all = not belonging to any set\/category."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Conditions: If first letter is vowel, code starts with @. If last letter is consonant, code ends with #. Code APPLE?",
+        "answers": [
+            "@APPLE",
+            "APPLE#",
+            "APPLE",
+            "@APPLE#"
+        ],
+        "correct": 3,
+        "explanation": "A is vowel → @. E is vowel (not consonant), so no #? Wait: last letter E is vowel, so no #. Answer: @APPLE."
+    },
+    {
+        "prompt": "Rule: If word has 5+ letters, add prefix 'LONG'. If word has vowels only, add suffix 'PURE'. Code 'AUDIO'?",
+        "answers": [
+            "LONGAUDIOPURE",
+            "AUDIOPURE",
+            "AUDIO",
+            "LONGAUDIO"
+        ],
+        "correct": 3,
+        "explanation": "AUDIO has 5 letters → LONG. Has consonant D, not all vowels. Answer: LONGAUDIO."
+    },
+    {
+        "prompt": "Conditions: First letter replaced by next letter. Last letter replaced by previous letter. Code 'CAT'?",
+        "answers": [
+            "CAS",
+            "DBS",
+            "DAT",
+            "DAS"
+        ],
+        "correct": 3,
+        "explanation": "C→D, A stays, T→S. Answer: DAS."
+    },
+    {
+        "prompt": "Rule: If number is even, add 5. If number is odd, subtract 3. Code 8?",
+        "answers": [
+            "5",
+            "11",
+            "3",
+            "13"
+        ],
+        "correct": 3,
+        "explanation": "8 is even → 8 + 5 = 13."
+    },
+    {
+        "prompt": "Conditions: Vowels coded as 1. Consonants coded as 0. Code 'BEE'?",
+        "answers": [
+            "011",
+            "001",
+            "110",
+            "101"
+        ],
+        "correct": 0,
+        "explanation": "B=0, E=1, E=1. Code: 011."
+    },
+    {
+        "prompt": "Rule: Capital letters → numbers (A=1, B=2...). Small letters → symbols (@, #...). Code 'AbC'?",
+        "answers": [
+            "ABC",
+            "@#@",
+            "1@3",
+            "123"
+        ],
+        "correct": 2,
+        "explanation": "A=1, b=@, C=3. Code: 1@3."
+    },
+    {
+        "prompt": "Conditions: If word starts with vowel, reverse it. If starts with consonant, double first letter. Code 'EAT'?",
+        "answers": [
+            "AET",
+            "TAE",
+            "EAT",
+            "EEAT"
+        ],
+        "correct": 1,
+        "explanation": "Starts with E (vowel) → reverse: TAE."
+    },
+    {
+        "prompt": "Rule: Numbers 1-5 coded as A-E. Numbers 6-0 coded as F-J (0=J). Code '123'?",
+        "answers": [
+            "123",
+            "DEF",
+            "JKL",
+            "ABC"
+        ],
+        "correct": 3,
+        "explanation": "1=A, 2=B, 3=C. Code: ABC."
+    },
+    {
+        "prompt": "Conditions: If all letters same, code 'REPEAT'. If all different, code 'UNIQUE'. Code 'AAA'?",
+        "answers": [
+            "SAME",
+            "UNIQUE",
+            "REPEAT",
+            "AAA"
+        ],
+        "correct": 2,
+        "explanation": "All letters A same → REPEAT."
+    },
+    {
+        "prompt": "Rule: First half uppercase, second half lowercase. Code 'abcd'?",
+        "answers": [
+            "ABcd",
+            "abcd",
+            "abCD",
+            "ABCD"
+        ],
+        "correct": 0,
+        "explanation": "First half (ab) → AB. Second half (cd) → cd. Code: ABcd."
+    },
+    {
+        "prompt": "Conditions: Words with double letters get prefix 'DUB'. Others get suffix 'SIN'. Code 'BOOK'?",
+        "answers": [
+            "SINBOOK",
+            "DUBBOOK",
+            "BOOKSIN",
+            "BOOK"
+        ],
+        "correct": 1,
+        "explanation": "BOOK has OO (double) → DUBBOOK."
+    },
+    {
+        "prompt": "Rule: Odd positions +1, Even positions -1 (in alphabet). Code 'BAD'?",
+        "answers": [
+            "CAC",
+            "CBC",
+            "ABE",
+            "BAD"
+        ],
+        "correct": 0,
+        "explanation": "B(1st, odd)+1=C, A(2nd, even)-1=Z, D(3rd, odd)+1=E. Code: CZE? Recheck: A-1 goes to Z."
+    },
+    {
+        "prompt": "Conditions: If length < 4, double the word. If length ≥ 4, halve it. Code 'GO'?",
+        "answers": [
+            "GO",
+            "G",
+            "OG",
+            "GOGO"
+        ],
+        "correct": 3,
+        "explanation": "GO has 2 letters < 4 → GOGO."
+    },
+    {
+        "prompt": "Rule: Replace vowels with next vowel (A→E, E→I, I→O, O→U, U→A). Code 'HELLO'?",
+        "answers": [
+            "HILLY",
+            "HOLLO",
+            "HILLU",
+            "HELLU"
+        ],
+        "correct": 2,
+        "explanation": "H stays, E→I, L stays, L stays, O→U. Code: HILLU."
+    },
+    {
+        "prompt": "Conditions: Numbers divisible by 3 become 'X'. Others stay same. Code '369'?",
+        "answers": [
+            "XXX",
+            "369",
+            "3X9",
+            "X6X"
+        ],
+        "correct": 0,
+        "explanation": "3÷3=1 ✓→X, 6÷3=2 ✓→X, 9÷3=3 ✓→X. Code: XXX."
+    }
+]

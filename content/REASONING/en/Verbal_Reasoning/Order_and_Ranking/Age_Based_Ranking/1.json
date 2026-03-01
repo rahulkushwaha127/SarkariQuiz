@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A is older than B by 5 years. B is older than C by 3 years. If C is 20, how old is A?",
+        "answers": [
+            "23",
+            "30",
+            "25",
+            "28"
+        ],
+        "correct": 3,
+        "explanation": "C=20, B=23, A=28."
+    },
+    {
+        "prompt": "P is younger than Q. R is older than Q. S is younger than P. Who is youngest?",
+        "answers": [
+            "P",
+            "S",
+            "Q",
+            "R"
+        ],
+        "correct": 1,
+        "explanation": "R > Q > P > S. S youngest."
+    },
+    {
+        "prompt": "Ram is twice as old as Shyam. Shyam is 5 years older than Mohan. Mohan is 10. Ram's age?",
+        "answers": [
+            "30",
+            "25",
+            "20",
+            "35"
+        ],
+        "correct": 0,
+        "explanation": "Mohan=10, Shyam=15, Ram=30."
+    },
+    {
+        "prompt": "A > B > C in age. D is between A and B. Oldest?",
+        "answers": [
+            "A",
+            "D",
+            "B",
+            "C"
+        ],
+        "correct": 0,
+        "explanation": "A > D > B > C. A is oldest."
+    },
+    {
+        "prompt": "Father is 4 times son's age. If son is 10, father's age?",
+        "answers": [
+            "36",
+            "44",
+            "50",
+            "40"
+        ],
+        "correct": 3,
+        "explanation": "Father = 4 × 10 = 40."
+    },
+    {
+        "prompt": "M is 3 years younger than N. O is 2 years older than N. If M is 25, O's age?",
+        "answers": [
+            "32",
+            "27",
+            "30",
+            "28"
+        ],
+        "correct": 2,
+        "explanation": "M=25, N=28, O=30."
+    },
+    {
+        "prompt": "In a family: Grandfather > Father > Son. If Son is 20 and each gap is 25 years, Grandfather's age?",
+        "answers": [
+            "75",
+            "65",
+            "60",
+            "70"
+        ],
+        "correct": 3,
+        "explanation": "Son=20, Father=45, Grandfather=70."
+    },
+    {
+        "prompt": "X's age is half of Y's. Z is 10 years older than X. Y is 40. Z's age?",
+        "answers": [
+            "35",
+            "25",
+            "40",
+            "30"
+        ],
+        "correct": 3,
+        "explanation": "Y=40, X=20, Z=30."
+    },
+    {
+        "prompt": "Among A, B, C, D: A is eldest, D is youngest. B is older than C. 3rd oldest?",
+        "answers": [
+            "C",
+            "A",
+            "B",
+            "D"
+        ],
+        "correct": 0,
+        "explanation": "A > B > C > D. 3rd is C."
+    },
+    {
+        "prompt": "P is 5 years senior to Q. R is 3 years junior to Q. Gap between P and R?",
+        "answers": [
+            "3 years",
+            "2 years",
+            "5 years",
+            "8 years"
+        ],
+        "correct": 3,
+        "explanation": "P is 5+3 = 8 years senior to R."
+    },
+    {
+        "prompt": "Mother is 25 years older than daughter. Sum of ages is 45. Daughter's age?",
+        "answers": [
+            "20",
+            "5",
+            "10",
+            "15"
+        ],
+        "correct": 2,
+        "explanation": "D + D + 25 = 45. 2D = 20. D = 10."
+    },
+    {
+        "prompt": "A, B, C born in consecutive years. C is youngest. If A is 15, C's age?",
+        "answers": [
+            "12",
+            "13",
+            "14",
+            "16"
+        ],
+        "correct": 1,
+        "explanation": "A=15, B=14, C=13."
+    },
+    {
+        "prompt": "X is 8 years older than Y. Y is 5 years older than Z. X is 25. Z's age?",
+        "answers": [
+            "20",
+            "17",
+            "12",
+            "10"
+        ],
+        "correct": 2,
+        "explanation": "X=25, Y=17, Z=12."
+    },
+    {
+        "prompt": "In 5 friends, A is oldest, E is youngest. B > C > D. D's rank in age?",
+        "answers": [
+            "4th",
+            "3rd",
+            "2nd",
+            "5th"
+        ],
+        "correct": 0,
+        "explanation": "A > B > C > D > E. D is 4th."
+    },
+    {
+        "prompt": "Average age of 3 people is 20. If youngest is 15, what could oldest be if middle is 18?",
+        "answers": [
+            "25",
+            "30",
+            "27",
+            "22"
+        ],
+        "correct": 2,
+        "explanation": "Sum = 60. 15 + 18 + oldest = 60. Oldest = 27."
+    }
+]

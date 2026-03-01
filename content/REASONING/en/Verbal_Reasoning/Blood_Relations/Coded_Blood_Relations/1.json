@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If A + B = A is father of B, A - B = A is mother of B, A × B = A is brother of B. Then P + Q × R means?",
+        "answers": [
+            "P is uncle of R",
+            "P is father of Q who is brother of R",
+            "Q is brother of R, P is father of Q",
+            "P is grandfather of R"
+        ],
+        "correct": 2,
+        "explanation": "P + Q: P is father of Q. Q × R: Q is brother of R."
+    },
+    {
+        "prompt": "If A $ B = A is wife of B, A # B = A is brother of B, A @ B = A is daughter of B. Then P @ Q $ R means?",
+        "answers": [
+            "P is R's daughter-in-law",
+            "Q is wife of R, P is daughter of Q",
+            "P is daughter of Q's wife R",
+            "P is R's granddaughter"
+        ],
+        "correct": 1,
+        "explanation": "Q $ R: Q is wife of R. P @ Q: P is daughter of Q."
+    },
+    {
+        "prompt": "If P ÷ Q = P is father of Q, P × Q = P is sister of Q, P + Q = P is mother of Q. Then A ÷ B × C means?",
+        "answers": [
+            "C is A's nephew",
+            "B is daughter of A",
+            "A is father of B who is sister of C",
+            "A is uncle of C"
+        ],
+        "correct": 2,
+        "explanation": "A ÷ B: A is father of B. B × C: B is sister of C."
+    },
+    {
+        "prompt": "If A * B = A is son of B, A $ B = A is father of B, A # B = A is sister of B. Then P * Q $ R means?",
+        "answers": [
+            "P is uncle of R",
+            "R is P's nephew",
+            "P is son of Q who is father of R",
+            "P is brother of R"
+        ],
+        "correct": 2,
+        "explanation": "P * Q: P is son of Q. Q $ R: Q is father of R. So P and R are siblings."
+    },
+    {
+        "prompt": "If + = mother, - = father, × = brother, ÷ = sister. Then A - B × C means?",
+        "answers": [
+            "A is father of B, B is brother of C",
+            "B is A's brother",
+            "C is A's grandson",
+            "A is uncle of C"
+        ],
+        "correct": 0,
+        "explanation": "A - B: A is father of B. B × C: B is brother of C."
+    },
+    {
+        "prompt": "If M @ N = M is daughter of N, M # N = M is husband of N. Then P @ Q # R means?",
+        "answers": [
+            "P is R's daughter-in-law",
+            "P is daughter of Q who is husband of R",
+            "Q is P's mother",
+            "P is son-in-law of R"
+        ],
+        "correct": 1,
+        "explanation": "P @ Q: P is daughter of Q. Q # R: Q is husband of R."
+    },
+    {
+        "prompt": "If A → B = A is mother of B, A ← B = A is son of B. Then X → Y ← Z means?",
+        "answers": [
+            "Z is X's husband",
+            "X is grandmother of Z",
+            "Y is Z's son",
+            "X is mother of Y, Y is son of Z"
+        ],
+        "correct": 3,
+        "explanation": "X → Y: X is mother of Y. Y ← Z: Y is son of Z."
+    },
+    {
+        "prompt": "If + = husband, - = wife, * = son, \/ = daughter. Then A + B * C means?",
+        "answers": [
+            "A and B are C's parents",
+            "C is A's son",
+            "A is husband of B, B has son C",
+            "A is father of C"
+        ],
+        "correct": 2,
+        "explanation": "A + B: A is husband of B. B * C: B has son C (C is B's son)."
+    },
+    {
+        "prompt": "If P % Q = P is father of Q, P & Q = P is wife of Q. Then A % B & C means?",
+        "answers": [
+            "C is A's son-in-law",
+            "A is father-in-law of C",
+            "B is C's wife",
+            "A is father of B, B is wife of C"
+        ],
+        "correct": 3,
+        "explanation": "A % B: A is father of B. B & C: B is wife of C. So C is A's son-in-law."
+    },
+    {
+        "prompt": "If $ = son, # = daughter, @ = husband, % = wife. Then A @ B $ C # D means?",
+        "answers": [
+            "A is father of C and D",
+            "C is D's brother",
+            "D is granddaughter of A",
+            "A is B's husband, C is B's son, D is B's daughter"
+        ],
+        "correct": 3,
+        "explanation": "A @ B: A is husband of B. B $ C: C is B's son. C # D: D is C's daughter."
+    },
+    {
+        "prompt": "If A + B = A is mother of B, A - B = A is sister of B, A * B = A is father of B. Then P * Q - R + S means?",
+        "answers": [
+            "S is P's granddaughter",
+            "P is father of Q, Q is sister of R, R is mother of S",
+            "Q is aunt of S",
+            "P is grandfather of S"
+        ],
+        "correct": 1,
+        "explanation": "P * Q: P is father of Q. Q - R: Q is sister of R. R + S: R is mother of S."
+    },
+    {
+        "prompt": "If × = brother, + = father, - = mother, ÷ = sister. Then A + B ÷ C means?",
+        "answers": [
+            "B is C's sister",
+            "C is A's daughter",
+            "A is father of B, B is sister of C",
+            "A is uncle of C"
+        ],
+        "correct": 2,
+        "explanation": "A + B: A is father of B. B ÷ C: B is sister of C."
+    },
+    {
+        "prompt": "If A $ B = A is brother of B, A @ B = A is daughter of B, A * B = A is mother of B. Then P @ Q $ R means?",
+        "answers": [
+            "P is daughter of Q, Q is brother of R",
+            "P is niece of R",
+            "R is P's uncle",
+            "Q is R's brother"
+        ],
+        "correct": 0,
+        "explanation": "P @ Q: P is daughter of Q. Q $ R: Q is brother of R. So R is P's uncle."
+    },
+    {
+        "prompt": "If P → Q = P is son of Q, P ← Q = P is wife of Q. Then A ← B → C means?",
+        "answers": [
+            "A is daughter-in-law of C",
+            "B is C's son",
+            "C is A's father-in-law",
+            "A is wife of B, B is son of C"
+        ],
+        "correct": 3,
+        "explanation": "A ← B: A is wife of B. B → C: B is son of C. So C is A's father-in-law."
+    },
+    {
+        "prompt": "If # = mother, @ = father, $ = sister, % = brother. Then A # B $ C % D means?",
+        "answers": [
+            "A is mother of B, B is sister of C, C is brother of D",
+            "A is grandmother of D",
+            "D is A's grandchild",
+            "B, C, D are siblings"
+        ],
+        "correct": 0,
+        "explanation": "A # B: A is mother of B. B $ C: B is sister of C. C % D: C is brother of D."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Criteria for job: Age 21-30, Graduate, 2 years experience. Candidate: Age 25, Graduate, 1 year experience. Decision?",
+        "answers": [
+            "Refer to manager",
+            "Reject - insufficient experience",
+            "Select",
+            "Need more info"
+        ],
+        "correct": 1,
+        "explanation": "Candidate has only 1 year experience, needs 2 years. Reject."
+    },
+    {
+        "prompt": "Criteria: Height min 170cm, Age 18-25. Candidate: Height 175cm, Age 27. Decision?",
+        "answers": [
+            "Height OK, age issue",
+            "Reject - overage",
+            "Select",
+            "Refer"
+        ],
+        "correct": 1,
+        "explanation": "Age 27 exceeds maximum 25. Reject."
+    },
+    {
+        "prompt": "Criteria: Score ≥60%, Interview passed. Candidate: Score 75%, Interview failed. Decision?",
+        "answers": [
+            "Reject - failed interview",
+            "Select",
+            "Qualified",
+            "Consider for retest"
+        ],
+        "correct": 0,
+        "explanation": "Must pass interview. Failed interview = Reject."
+    },
+    {
+        "prompt": "Loan criteria: Income ≥30K, Employment ≥2 years, No loan default. Applicant: Income 35K, Employed 3 years, 1 default. Decision?",
+        "answers": [
+            "Reject - has default",
+            "Approve",
+            "Refer to higher authority",
+            "Partial approval"
+        ],
+        "correct": 0,
+        "explanation": "Has loan default history. Reject."
+    },
+    {
+        "prompt": "Admission: 10th marks ≥70%, 12th marks ≥65%, Entrance ≥50%. Student: 10th=72%, 12th=63%, Entrance=55%. Decision?",
+        "answers": [
+            "Conditional admit",
+            "Reject - 12th below minimum",
+            "Waitlist",
+            "Admit"
+        ],
+        "correct": 1,
+        "explanation": "12th marks 63% < required 65%. Reject."
+    },
+    {
+        "prompt": "Scholarship: Family income <3L, Marks ≥80%. Student: Income 2.5L, Marks 82%. Decision?",
+        "answers": [
+            "Grant scholarship",
+            "Reject",
+            "Partial scholarship",
+            "Need verification"
+        ],
+        "correct": 0,
+        "explanation": "Both criteria met. Grant scholarship."
+    },
+    {
+        "prompt": "Driver license: Age ≥18, Vision test passed, Written test ≥70%. Applicant: Age 19, Vision passed, Written 65%. Decision?",
+        "answers": [
+            "Reject - written test failed",
+            "Retest",
+            "Issue license",
+            "Provisional license"
+        ],
+        "correct": 0,
+        "explanation": "Written test 65% < required 70%. Reject."
+    },
+    {
+        "prompt": "Membership: Age ≥21, Indian citizen, Annual fee paid. Applicant: Age 22, NRI, Fee paid. Decision?",
+        "answers": [
+            "Partial membership",
+            "Reject - not Indian citizen",
+            "Accept",
+            "Refer"
+        ],
+        "correct": 1,
+        "explanation": "NRI may not qualify as Indian citizen depending on rules. Check."
+    },
+    {
+        "prompt": "Criteria: Engineering graduate, GATE score ≥500, Experience ≥1 year. Candidate: B.Tech, GATE 520, Fresher. Decision?",
+        "answers": [
+            "Waitlist",
+            "Conditional offer",
+            "Select",
+            "Reject - no experience"
+        ],
+        "correct": 3,
+        "explanation": "Fresher with 0 experience < required 1 year. Reject."
+    },
+    {
+        "prompt": "Insurance: Age 25-60, No chronic illness, Non-smoker. Applicant: Age 45, Diabetic, Non-smoker. Decision?",
+        "answers": [
+            "Higher premium",
+            "Approve",
+            "Medical review",
+            "Reject - chronic illness"
+        ],
+        "correct": 3,
+        "explanation": "Has chronic illness (diabetes). Reject or special terms."
+    },
+    {
+        "prompt": "Criteria: MBA graduate, Work exp ≥3 years, Age <35. Candidate: MBA, 5 years exp, Age 36. Decision?",
+        "answers": [
+            "Conditional",
+            "Reject - overage",
+            "Consider exception",
+            "Select"
+        ],
+        "correct": 1,
+        "explanation": "Age 36 > max 35. Reject."
+    },
+    {
+        "prompt": "All criteria met for loan except one optional document. Decision?",
+        "answers": [
+            "Approve with condition to submit later",
+            "Reject",
+            "Cannot process",
+            "Pending"
+        ],
+        "correct": 0,
+        "explanation": "If document is optional and all mandatory criteria met, approve conditionally."
+    },
+    {
+        "prompt": "Job requires: Degree in CS, 3 years exp, Location: Delhi. Candidate: CS degree, 4 years, willing to relocate to Delhi. Decision?",
+        "answers": [
+            "Select",
+            "Cannot decide",
+            "Interview first",
+            "Reject"
+        ],
+        "correct": 0,
+        "explanation": "All criteria met including willingness to relocate. Select."
+    },
+    {
+        "prompt": "Criteria: No criminal record, Age 18-35, 10th pass. Candidate: Age 25, 12th pass, Traffic violation. Decision?",
+        "answers": [
+            "Consider - traffic violation minor",
+            "Reject",
+            "Select",
+            "Clear record needed"
+        ],
+        "correct": 0,
+        "explanation": "Traffic violation may not count as criminal record. Consider selecting."
+    },
+    {
+        "prompt": "Multiple candidates meet criteria. Prioritize based on?",
+        "answers": [
+            "First come first serve",
+            "Additional qualifications, experience, merit",
+            "Age",
+            "Random selection"
+        ],
+        "correct": 1,
+        "explanation": "When all meet criteria, rank by additional merit\/qualifications."
+    }
+]

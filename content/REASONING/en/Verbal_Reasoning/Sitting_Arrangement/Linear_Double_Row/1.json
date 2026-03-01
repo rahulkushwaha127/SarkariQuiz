@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "8 people in 2 rows (4 each), facing each other. A sits opposite B. C is to left of A. Who is opposite C?",
+        "answers": [
+            "B",
+            "Person to right of B",
+            "Cannot determine without more info",
+            "A"
+        ],
+        "correct": 1,
+        "explanation": "If A opposite B, and C left of A, person opposite C is to right of B."
+    },
+    {
+        "prompt": "Two rows: Row 1 faces South, Row 2 faces North. P in Row 1, Q opposite P in Row 2. If R is right of P, R faces?",
+        "answers": [
+            "West",
+            "East",
+            "North",
+            "South"
+        ],
+        "correct": 3,
+        "explanation": "R is in same row as P (Row 1), facing South."
+    },
+    {
+        "prompt": "6 people in 2 rows of 3 facing each other. A at one end of Row 1. B opposite A. C is neighbor of both A and someone in Row 1. Where is C?",
+        "answers": [
+            "At other end",
+            "Cannot determine",
+            "In Row 2",
+            "In Row 1, next to A"
+        ],
+        "correct": 3,
+        "explanation": "C is neighbor of A and in Row 1 (both neighbors in same row). C is next to A."
+    },
+    {
+        "prompt": "Two rows facing each other: M opposite N, P left of M, Q right of N. P opposite Q?",
+        "answers": [
+            "Yes always",
+            "Only if rows equal",
+            "No never",
+            "Not necessarily, depends on positions"
+        ],
+        "correct": 3,
+        "explanation": "Left in one row corresponds to right in opposite row (mirror). P (left of M) opposite Q (right of N) - they could align."
+    },
+    {
+        "prompt": "Row 1 (North facing): A, B, C, D (left to right). Row 2 (South facing): E, F, G, H (left to right). Who is opposite B?",
+        "answers": [
+            "F",
+            "E",
+            "G",
+            "H"
+        ],
+        "correct": 2,
+        "explanation": "When rows face each other: Row 1's left-to-right maps to Row 2's right-to-left. B (2nd from left) opposite G (2nd from right)."
+    },
+    {
+        "prompt": "8 people, 2 rows. X at left end of Row 1. Y opposite X. Z at right end of Row 2. Is Y same as Z?",
+        "answers": [
+            "Maybe",
+            "No, Y is at left end of Row 2",
+            "Cannot determine",
+            "Yes"
+        ],
+        "correct": 1,
+        "explanation": "X at left end Row 1. Opposite position in Row 2 is also left end (facing). Z is right end. Y ≠ Z."
+    },
+    {
+        "prompt": "Two parallel rows: A, B, C in Row 1. D, E, F in Row 2 (all facing each other). A opposite D. If B moves to end, who is now opposite B?",
+        "answers": [
+            "D always",
+            "E",
+            "F or D depending on which end",
+            "No one"
+        ],
+        "correct": 2,
+        "explanation": "Depends on which end B moves to."
+    },
+    {
+        "prompt": "In double row seating: Everyone in Row 1 faces North. Row 2 people face which direction?",
+        "answers": [
+            "West",
+            "East",
+            "North",
+            "South"
+        ],
+        "correct": 3,
+        "explanation": "Facing each other means opposite directions. Row 1 North → Row 2 South."
+    },
+    {
+        "prompt": "P, Q, R in Row 1 (facing South). S, T, U in Row 2 (facing North). P at left end. Who is at P's opposite position?",
+        "answers": [
+            "U (right end of Row 2)",
+            "T",
+            "Cannot tell",
+            "S"
+        ],
+        "correct": 0,
+        "explanation": "P at left end Row 1. Opposite is right end of Row 2 (facing positions mirror)."
+    },
+    {
+        "prompt": "Double row: 4 people each. A is 2nd from left in Row 1. B is opposite A. B is which position in Row 2?",
+        "answers": [
+            "1st from right",
+            "2nd from left",
+            "3rd from right",
+            "2nd from right"
+        ],
+        "correct": 3,
+        "explanation": "In facing rows, positions mirror. 2nd from left ↔ 2nd from right."
+    },
+    {
+        "prompt": "Row 1: W, X, Y, Z. Row 2: A, B, C, D. Both rows face each other. W opposite A. X opposite?",
+        "answers": [
+            "A",
+            "C",
+            "D",
+            "B"
+        ],
+        "correct": 3,
+        "explanation": "Sequential arrangement. W-A, X-B, Y-C, Z-D."
+    },
+    {
+        "prompt": "Two rows, people face each other. M is 3rd from left in Row 1. N is opposite M. N is 3rd from which side in Row 2?",
+        "answers": [
+            "2nd from left",
+            "3rd from right",
+            "4th from right",
+            "3rd from left"
+        ],
+        "correct": 1,
+        "explanation": "Facing positions mirror: left ↔ right."
+    },
+    {
+        "prompt": "In arrangement: Row 1 has A at right end. Row 2 has B at left end. Do A and B face each other?",
+        "answers": [
+            "Only sometimes",
+            "No",
+            "Need more info",
+            "Yes (right end Row 1 faces left end Row 2)"
+        ],
+        "correct": 3,
+        "explanation": "In facing rows, right end of one faces left end of other."
+    },
+    {
+        "prompt": "J, K, L sit in Row 1. M, N, O sit opposite in Row 2. J not opposite M or O. J opposite?",
+        "answers": [
+            "O",
+            "N",
+            "Cannot be determined",
+            "M"
+        ],
+        "correct": 1,
+        "explanation": "If not M or O, then N."
+    },
+    {
+        "prompt": "Double row arrangement with 5 people per row. Person in middle of Row 1 is opposite to person in middle of Row 2?",
+        "answers": [
+            "Sometimes",
+            "Yes",
+            "No",
+            "Depends on facing direction"
+        ],
+        "correct": 1,
+        "explanation": "Middle person (3rd of 5) is opposite middle of other row."
+    }
+]

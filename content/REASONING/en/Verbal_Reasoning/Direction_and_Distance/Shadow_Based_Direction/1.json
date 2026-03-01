@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "In the morning, if a man's shadow falls to his left, which direction is he facing?",
+        "answers": [
+            "South",
+            "West",
+            "North",
+            "East"
+        ],
+        "correct": 0,
+        "explanation": "Morning sun in East, shadow to West. If shadow on left, he faces South."
+    },
+    {
+        "prompt": "At noon, where is a person's shadow (in India)?",
+        "answers": [
+            "East",
+            "South",
+            "North",
+            "No shadow or very small"
+        ],
+        "correct": 3,
+        "explanation": "At noon, sun is overhead, shadow is directly below (very small)."
+    },
+    {
+        "prompt": "In the evening, a girl's shadow falls in front of her. Which direction is she facing?",
+        "answers": [
+            "South",
+            "North",
+            "West",
+            "East"
+        ],
+        "correct": 3,
+        "explanation": "Evening sun in West, shadow to East. If shadow in front, she faces East."
+    },
+    {
+        "prompt": "A man faces the sun in the morning. His shadow will be towards?",
+        "answers": [
+            "East",
+            "West",
+            "North",
+            "Behind him"
+        ],
+        "correct": 3,
+        "explanation": "Shadow is always opposite to sun. Morning sun in East, shadow to West (behind)."
+    },
+    {
+        "prompt": "If at 4 PM, shadow falls to the right of a person, which direction is he facing?",
+        "answers": [
+            "South",
+            "North",
+            "West",
+            "East"
+        ],
+        "correct": 1,
+        "explanation": "4 PM sun in West. Shadow to East. If on right, facing North."
+    },
+    {
+        "prompt": "Early morning, Ram's shadow is behind him and to his right. Which direction is he facing?",
+        "answers": [
+            "North-East",
+            "South-West",
+            "South-East",
+            "North-West"
+        ],
+        "correct": 2,
+        "explanation": "Morning sun in East. Shadow to West (behind + right). Facing South-East."
+    },
+    {
+        "prompt": "At sunrise, if a tree's shadow points towards West, where is the sun?",
+        "answers": [
+            "North",
+            "East",
+            "South",
+            "West"
+        ],
+        "correct": 1,
+        "explanation": "Shadow opposite to sun. Shadow in West means sun in East."
+    },
+    {
+        "prompt": "In evening, a man walks towards his shadow. Which direction is he walking?",
+        "answers": [
+            "South",
+            "West",
+            "North",
+            "East"
+        ],
+        "correct": 3,
+        "explanation": "Evening shadow to East (sun in West). Walking towards shadow = East."
+    },
+    {
+        "prompt": "At 6 AM, a boy stands facing the sun. His shadow will be on his?",
+        "answers": [
+            "Back",
+            "Right",
+            "Front",
+            "Left"
+        ],
+        "correct": 0,
+        "explanation": "Facing sun, shadow is behind = back."
+    },
+    {
+        "prompt": "If shadow of a pole is towards North-East at 7 AM, where is the sun?",
+        "answers": [
+            "South-East",
+            "North-East",
+            "South-West",
+            "North-West"
+        ],
+        "correct": 2,
+        "explanation": "Shadow and sun are opposite. NE shadow = SW sun."
+    },
+    {
+        "prompt": "A man sees his shadow to his right at 5 PM. Which direction is he facing?",
+        "answers": [
+            "East",
+            "South",
+            "North",
+            "West"
+        ],
+        "correct": 2,
+        "explanation": "5 PM sun in West. Shadow to East. Shadow on right means facing North."
+    },
+    {
+        "prompt": "In morning, two men stand back to back. One faces his shadow. Which direction does the other face?",
+        "answers": [
+            "West",
+            "East",
+            "South",
+            "North"
+        ],
+        "correct": 1,
+        "explanation": "Morning shadow to West. One faces West. Back to back, other faces East."
+    },
+    {
+        "prompt": "At 3 PM, a pole's shadow is 5m towards East. Where is the sun?",
+        "answers": [
+            "West",
+            "North",
+            "East",
+            "South"
+        ],
+        "correct": 0,
+        "explanation": "Shadow to East means sun to West (afternoon position)."
+    },
+    {
+        "prompt": "Early morning, a girl's shadow falls to her right. She is facing?",
+        "answers": [
+            "East",
+            "West",
+            "North",
+            "South"
+        ],
+        "correct": 2,
+        "explanation": "Morning shadow to West. If on right, facing North."
+    },
+    {
+        "prompt": "If at noon a man walks North, his shadow will be towards?",
+        "answers": [
+            "South",
+            "East",
+            "North",
+            "Directly below"
+        ],
+        "correct": 3,
+        "explanation": "At noon, sun overhead, shadow directly below feet."
+    }
+]

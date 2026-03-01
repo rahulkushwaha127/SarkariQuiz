@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Argument: Coffee causes insomnia. Which weakens this?",
+        "answers": [
+            "Many regular coffee drinkers sleep well without issues",
+            "Caffeine is a stimulant",
+            "Coffee shops are popular",
+            "Coffee contains caffeine"
+        ],
+        "correct": 0,
+        "explanation": "Contradictory evidence (coffee drinkers sleeping well) weakens the claim."
+    },
+    {
+        "prompt": "Claim: Video games cause violence. Weakening statement?",
+        "answers": [
+            "Games are popular among youth",
+            "Some games are violent",
+            "Games are addictive",
+            "Countries with high game usage have low violence rates"
+        ],
+        "correct": 3,
+        "explanation": "Contradictory cross-country data weakens the causation claim."
+    },
+    {
+        "prompt": "Argument: Sugar taxes reduce obesity. Which weakens?",
+        "answers": [
+            "Cities with sugar taxes saw no change in obesity rates",
+            "Taxes generate revenue",
+            "Sugar is unhealthy",
+            "Sugary drinks are popular"
+        ],
+        "correct": 0,
+        "explanation": "Lack of change despite taxes weakens the effectiveness claim."
+    },
+    {
+        "prompt": "Claim: Remote work reduces productivity. Weakening evidence?",
+        "answers": [
+            "Managers worry about supervision",
+            "Some prefer office",
+            "Studies show remote workers complete 15% more tasks",
+            "Remote work is convenient"
+        ],
+        "correct": 2,
+        "explanation": "Higher task completion contradicts the reduced productivity claim."
+    },
+    {
+        "prompt": "Argument: Organic food is healthier. Which weakens?",
+        "answers": [
+            "Pesticides are used in conventional farming",
+            "Organic is more expensive",
+            "Organic farming is labor-intensive",
+            "Nutritional content of organic and conventional food is nearly identical"
+        ],
+        "correct": 3,
+        "explanation": "Similar nutritional content weakens the 'healthier' claim."
+    },
+    {
+        "prompt": "Claim: Social media causes depression. Weakening?",
+        "answers": [
+            "Many use social media daily",
+            "Screen time has increased",
+            "Depressed individuals tend to use social media more, not vice versa",
+            "Social media is addictive"
+        ],
+        "correct": 2,
+        "explanation": "Reversed causation (depression leads to use) weakens the original claim."
+    },
+    {
+        "prompt": "Argument: Homework improves grades. Which weakens?",
+        "answers": [
+            "Homework takes time",
+            "Teachers assign homework",
+            "Countries with less homework have higher test scores",
+            "Students dislike homework"
+        ],
+        "correct": 2,
+        "explanation": "Counter-example (less homework, better scores) weakens the argument."
+    },
+    {
+        "prompt": "Claim: Death penalty deters crime. Weakening evidence?",
+        "answers": [
+            "Some support it",
+            "Death penalty is controversial",
+            "Legal processes are lengthy",
+            "States with death penalty have similar or higher murder rates"
+        ],
+        "correct": 3,
+        "explanation": "Similar\/higher crime rates despite death penalty weaken deterrence claim."
+    },
+    {
+        "prompt": "Argument: Vitamin supplements improve health. Which weakens?",
+        "answers": [
+            "Supplements are popular",
+            "Studies show no health difference between supplement users and non-users",
+            "Some vitamins are essential",
+            "Pharmacies sell many supplements"
+        ],
+        "correct": 1,
+        "explanation": "No difference in health outcomes weakens the improvement claim."
+    },
+    {
+        "prompt": "Claim: Strict parenting produces successful children. Weakening?",
+        "answers": [
+            "Some successful people had strict parents",
+            "Strict parenting is common in some cultures",
+            "Children of permissive parents show equal success rates",
+            "Discipline is important"
+        ],
+        "correct": 2,
+        "explanation": "Equal success with different parenting weakens strict parenting necessity."
+    },
+    {
+        "prompt": "Argument: Minimum wage increases cause unemployment. Which weakens?",
+        "answers": [
+            "Businesses worry about costs",
+            "Costs increase with wages",
+            "Cities that raised minimum wage saw no increase in unemployment",
+            "Some workers want higher wages"
+        ],
+        "correct": 2,
+        "explanation": "No unemployment increase despite wage hikes weakens the causation claim."
+    },
+    {
+        "prompt": "Claim: Early school start times are fine. Weakening evidence?",
+        "answers": [
+            "Students perform better academically when school starts later",
+            "Teachers prefer early start",
+            "Schools have always started early",
+            "Buses run in morning"
+        ],
+        "correct": 0,
+        "explanation": "Better academic performance with later starts weakens early start claim."
+    },
+    {
+        "prompt": "Argument: Experienced workers are more productive. Which weakens?",
+        "answers": [
+            "New hires often bring innovative ideas and outperform veterans",
+            "Experience is valued",
+            "Experienced workers cost more",
+            "Training takes time"
+        ],
+        "correct": 0,
+        "explanation": "New hires outperforming weakens the experience = productivity argument."
+    },
+    {
+        "prompt": "Claim: Advertising increases sales. Weakening?",
+        "answers": [
+            "Consumers notice ads",
+            "Advertising is everywhere",
+            "Companies spend on advertising",
+            "Product sales remained flat despite doubled advertising budget"
+        ],
+        "correct": 3,
+        "explanation": "No sales increase despite more advertising weakens the claim."
+    },
+    {
+        "prompt": "Argument: Technology in classrooms improves learning. Which weakens?",
+        "answers": [
+            "Schools with technology show same test scores as those without",
+            "Technology is expensive",
+            "Teachers need training",
+            "Students like technology"
+        ],
+        "correct": 0,
+        "explanation": "Same test scores with\/without tech weakens improvement claim."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "What is the angle between clock hands at 3:00?",
+        "answers": [
+            "120°",
+            "180°",
+            "90°",
+            "60°"
+        ],
+        "correct": 2,
+        "explanation": "At 3:00, hour hand at 3, minute at 12. Angle = 3 × 30° = 90°."
+    },
+    {
+        "prompt": "What is the angle between hands at 6:00?",
+        "answers": [
+            "120°",
+            "180°",
+            "0°",
+            "90°"
+        ],
+        "correct": 1,
+        "explanation": "At 6:00, hour at 6, minute at 12. Angle = 6 × 30° = 180°."
+    },
+    {
+        "prompt": "At what time is the angle between hands 0°?",
+        "answers": [
+            "9:00",
+            "3:00",
+            "6:00",
+            "12:00"
+        ],
+        "correct": 3,
+        "explanation": "At 12:00, both hands overlap. Angle = 0°."
+    },
+    {
+        "prompt": "Formula for angle at H hours M minutes?",
+        "answers": [
+            "|30H - 5.5M|",
+            "|30H - 6M|",
+            "|60H - 5.5M|",
+            "|30H - M|"
+        ],
+        "correct": 0,
+        "explanation": "Angle = |30H - 5.5M| or 360° - this if > 180°."
+    },
+    {
+        "prompt": "Angle between hands at 4:20?",
+        "answers": [
+            "30°",
+            "10°",
+            "0°",
+            "20°"
+        ],
+        "correct": 1,
+        "explanation": "|30×4 - 5.5×20| = |120 - 110| = 10°."
+    },
+    {
+        "prompt": "At 9:30, what is the angle between hands?",
+        "answers": [
+            "90°",
+            "120°",
+            "135°",
+            "105°"
+        ],
+        "correct": 3,
+        "explanation": "|30×9 - 5.5×30| = |270 - 165| = 105°."
+    },
+    {
+        "prompt": "How many times do clock hands overlap in 12 hours?",
+        "answers": [
+            "22",
+            "12",
+            "11",
+            "10"
+        ],
+        "correct": 2,
+        "explanation": "Hands overlap 11 times in 12 hours (not 12, as they skip between 11 and 1)."
+    },
+    {
+        "prompt": "At what time after 3:00 will hands overlap?",
+        "answers": [
+            "3:16 4\/11 min",
+            "3:30",
+            "3:15",
+            "3:20"
+        ],
+        "correct": 0,
+        "explanation": "Hands overlap at 3 + 180\/11 = 3:16 4\/11 minutes."
+    },
+    {
+        "prompt": "Angle between hands at 7:45?",
+        "answers": [
+            "52.5°",
+            "45°",
+            "30°",
+            "37.5°"
+        ],
+        "correct": 3,
+        "explanation": "|30×7 - 5.5×45| = |210 - 247.5| = 37.5°."
+    },
+    {
+        "prompt": "How many degrees does hour hand move in 1 hour?",
+        "answers": [
+            "12°",
+            "15°",
+            "60°",
+            "30°"
+        ],
+        "correct": 3,
+        "explanation": "360° \/ 12 hours = 30° per hour."
+    },
+    {
+        "prompt": "How many degrees does minute hand move in 1 minute?",
+        "answers": [
+            "6°",
+            "12°",
+            "1°",
+            "0.5°"
+        ],
+        "correct": 0,
+        "explanation": "360° \/ 60 minutes = 6° per minute."
+    },
+    {
+        "prompt": "At 2:30, angle between hands?",
+        "answers": [
+            "90°",
+            "105°",
+            "120°",
+            "75°"
+        ],
+        "correct": 1,
+        "explanation": "|30×2 - 5.5×30| = |60 - 165| = 105°."
+    },
+    {
+        "prompt": "When do hands make a right angle (90°) after 12:00?",
+        "answers": [
+            "12:30 only",
+            "12:16 4\/11 and 12:49 1\/11",
+            "12:15 and 12:45",
+            "12:20 and 12:40"
+        ],
+        "correct": 1,
+        "explanation": "Hands at 90° at 12 + 180\/11 ÷ 2 times. First at ~12:16."
+    },
+    {
+        "prompt": "Angle between hands at 5:30?",
+        "answers": [
+            "30°",
+            "15°",
+            "45°",
+            "0°"
+        ],
+        "correct": 1,
+        "explanation": "|30×5 - 5.5×30| = |150 - 165| = 15°."
+    },
+    {
+        "prompt": "How often are clock hands at 180° (opposite) in 12 hours?",
+        "answers": [
+            "10 times",
+            "12 times",
+            "6 times",
+            "11 times"
+        ],
+        "correct": 3,
+        "explanation": "Similar to overlap, hands are opposite 11 times in 12 hours."
+    }
+]

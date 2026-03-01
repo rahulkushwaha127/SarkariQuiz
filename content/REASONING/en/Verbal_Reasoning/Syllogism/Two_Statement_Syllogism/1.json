@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Statements: All dogs are animals. All animals are living beings. Conclusions: I. All dogs are living beings. II. Some living beings are dogs.",
+        "answers": [
+            "Neither follows",
+            "Both follow",
+            "Only II follows",
+            "Only I follows"
+        ],
+        "correct": 1,
+        "explanation": "Dogs ⊂ Animals ⊂ Living beings. So all dogs are living beings (I). And some living beings are dogs (II). Both follow."
+    },
+    {
+        "prompt": "Statements: All roses are flowers. Some flowers are red. Conclusions: I. Some roses are red. II. All flowers are roses.",
+        "answers": [
+            "Both follow",
+            "Only II follows",
+            "Neither follows",
+            "Only I follows"
+        ],
+        "correct": 2,
+        "explanation": "Roses ⊂ Flowers. Some flowers red. But red flowers may not be roses. Neither conclusion necessarily follows."
+    },
+    {
+        "prompt": "Statements: No pen is pencil. All pencils are erasers. Conclusions: I. No pen is eraser. II. Some erasers are pencils.",
+        "answers": [
+            "Only II follows",
+            "Only I follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "Pencils ⊂ Erasers, so some erasers are pencils (II true). But pen-eraser relation uncertain (I not definite)."
+    },
+    {
+        "prompt": "Statements: Some cats are dogs. All dogs are animals. Conclusions: I. Some cats are animals. II. All animals are cats.",
+        "answers": [
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Only I follows"
+        ],
+        "correct": 3,
+        "explanation": "Some cats = dogs. Dogs ⊂ Animals. So those cats are animals (I true). II is clearly false."
+    },
+    {
+        "prompt": "Statements: All books are papers. No paper is plastic. Conclusions: I. No book is plastic. II. Some papers are books.",
+        "answers": [
+            "Only I follows",
+            "Neither follows",
+            "Only II follows",
+            "Both follow"
+        ],
+        "correct": 3,
+        "explanation": "Books ⊂ Papers. No paper is plastic → No book is plastic (I). Books ⊂ Papers → Some papers are books (II). Both follow."
+    },
+    {
+        "prompt": "Statements: All chairs are tables. All tables are furniture. Conclusions: I. All chairs are furniture. II. All furniture are chairs.",
+        "answers": [
+            "Only I follows",
+            "Only II follows",
+            "Neither follows",
+            "Both follow"
+        ],
+        "correct": 0,
+        "explanation": "Chairs ⊂ Tables ⊂ Furniture. I is true. II is false (not all furniture are chairs)."
+    },
+    {
+        "prompt": "Statements: Some apples are oranges. Some oranges are bananas. Conclusions: I. Some apples are bananas. II. Some bananas are oranges.",
+        "answers": [
+            "Only II follows",
+            "Only I follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "Some oranges are bananas → Some bananas are oranges (II true). But apple-banana link not definite (I uncertain)."
+    },
+    {
+        "prompt": "Statements: No man is woman. All women are humans. Conclusions: I. No man is human. II. Some humans are women.",
+        "answers": [
+            "Neither follows",
+            "Only I follows",
+            "Only II follows",
+            "Both follow"
+        ],
+        "correct": 2,
+        "explanation": "Women ⊂ Humans → Some humans are women (II). Man-human relation not given (I not necessarily true)."
+    },
+    {
+        "prompt": "Statements: All pens are black. Some blacks are whites. Conclusions: I. Some pens are whites. II. Some whites are black.",
+        "answers": [
+            "Both follow",
+            "Only II follows",
+            "Only I follows",
+            "Neither follows"
+        ],
+        "correct": 1,
+        "explanation": "Some blacks are whites → Some whites are black (II). But pen-white link uncertain (I not definite)."
+    },
+    {
+        "prompt": "Statements: All cars are vehicles. All buses are vehicles. Conclusions: I. Some vehicles are cars. II. Some buses are cars.",
+        "answers": [
+            "Only I follows",
+            "Both follow",
+            "Only II follows",
+            "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "Cars ⊂ Vehicles → Some vehicles are cars (I). Cars and buses may or may not overlap (II uncertain)."
+    },
+    {
+        "prompt": "Statements: All kings are rulers. No ruler is poor. Conclusions: I. No king is poor. II. All rulers are kings.",
+        "answers": [
+            "Both follow",
+            "Neither follows",
+            "Only I follows",
+            "Only II follows"
+        ],
+        "correct": 2,
+        "explanation": "Kings ⊂ Rulers. No ruler poor → No king poor (I true). Not all rulers are kings (II false)."
+    },
+    {
+        "prompt": "Statements: Some stars are planets. All planets are celestial. Conclusions: I. Some stars are celestial. II. All celestial are planets.",
+        "answers": [
+            "Only I follows",
+            "Neither follows",
+            "Both follow",
+            "Only II follows"
+        ],
+        "correct": 0,
+        "explanation": "Some stars = planets. Planets ⊂ celestial → Those stars are celestial (I). II is false."
+    },
+    {
+        "prompt": "Statements: No fish is bird. All birds can fly. Conclusions: I. No fish can fly. II. Some flying things are birds.",
+        "answers": [
+            "Only II follows",
+            "Only I follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "Birds ⊂ flying → Some flying are birds (II). But fish-flying relation unknown (I uncertain)."
+    },
+    {
+        "prompt": "Statements: All squares are rectangles. All rectangles are polygons. Conclusions: I. All squares are polygons. II. Some polygons are squares.",
+        "answers": [
+            "Only II follows",
+            "Neither follows",
+            "Both follow",
+            "Only I follows"
+        ],
+        "correct": 2,
+        "explanation": "Squares ⊂ Rectangles ⊂ Polygons → I true. Squares ⊂ Polygons → Some polygons are squares (II). Both follow."
+    },
+    {
+        "prompt": "Statements: Some teachers are doctors. All doctors are learned. Conclusions: I. Some teachers are learned. II. All learned are teachers.",
+        "answers": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "Some teachers = doctors. Doctors ⊂ learned → Those teachers are learned (I). II clearly false."
+    }
+]

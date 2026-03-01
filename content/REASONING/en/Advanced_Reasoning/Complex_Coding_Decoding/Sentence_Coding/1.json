@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If 'go home now' = 'ka la ma', 'now is good' = 'ma pa ra', then 'now' = ?",
+        "answers": [
+            "ka",
+            "ma",
+            "la",
+            "pa"
+        ],
+        "correct": 1,
+        "explanation": "'now' appears in both phrases. Common code is 'ma'."
+    },
+    {
+        "prompt": "Given: 'red is nice' = '4 5 6', 'nice day red' = '6 7 4'. What is code for 'nice'?",
+        "answers": [
+            "4",
+            "6",
+            "7",
+            "5"
+        ],
+        "correct": 1,
+        "explanation": "Common words: red and nice. Common codes: 4 and 6. 'red' appears as 4 (consistent). 'nice' = 6."
+    },
+    {
+        "prompt": "'sky is blue' = 'pa qa ra', 'blue sea green' = 'ra sa ta'. Code for 'blue'?",
+        "answers": [
+            "qa",
+            "pa",
+            "ra",
+            "sa"
+        ],
+        "correct": 2,
+        "explanation": "'blue' is common. Common code is 'ra'."
+    },
+    {
+        "prompt": "If 'come back home' = 'ab cd ef', 'home is sweet' = 'ef gh ij', then 'home' = ?",
+        "answers": [
+            "ab",
+            "cd",
+            "ef",
+            "gh"
+        ],
+        "correct": 2,
+        "explanation": "'home' appears in both. Common code: ef."
+    },
+    {
+        "prompt": "'cat and dog' = '1 2 3', 'dog is big' = '3 4 5', 'big cat sleeps' = '5 1 6'. Code for 'cat'?",
+        "answers": [
+            "3",
+            "2",
+            "5",
+            "1"
+        ],
+        "correct": 3,
+        "explanation": "'cat' in phrases 1 and 3. Common: 1."
+    },
+    {
+        "prompt": "'happy new year' = 'pa qa ra', 'new day starts' = 'qa sa ta'. What is 'new'?",
+        "answers": [
+            "qa",
+            "pa",
+            "ra",
+            "sa"
+        ],
+        "correct": 0,
+        "explanation": "'new' common in both. Common code: qa."
+    },
+    {
+        "prompt": "'run fast now' = '@#$', 'walk fast here' = '#%^'. Code for 'fast'?",
+        "answers": [
+            "$",
+            "%",
+            "@",
+            "#"
+        ],
+        "correct": 3,
+        "explanation": "'fast' common. Common symbol: #."
+    },
+    {
+        "prompt": "If 'mango is sweet' = 'x y z', 'banana is yellow' = 'y a b'. What represents 'is'?",
+        "answers": [
+            "a",
+            "y",
+            "z",
+            "x"
+        ],
+        "correct": 1,
+        "explanation": "'is' common. Common code: y."
+    },
+    {
+        "prompt": "'pen on table' = 'm n o', 'book on shelf' = 'n p q'. Code for 'on'?",
+        "answers": [
+            "o",
+            "n",
+            "m",
+            "p"
+        ],
+        "correct": 1,
+        "explanation": "'on' common. Common: n."
+    },
+    {
+        "prompt": "'sun rises east' = '1 2 3', 'moon rises west' = '4 2 5'. Code for 'rises'?",
+        "answers": [
+            "3",
+            "4",
+            "1",
+            "2"
+        ],
+        "correct": 3,
+        "explanation": "'rises' common. Common: 2."
+    },
+    {
+        "prompt": "'tea is hot' = 'ab cd ef', 'coffee is cold' = 'gh cd ij'. 'is' coded as?",
+        "answers": [
+            "ef",
+            "gh",
+            "ab",
+            "cd"
+        ],
+        "correct": 3,
+        "explanation": "'is' common. Common code: cd."
+    },
+    {
+        "prompt": "'he plays well' = '@ # $', 'she sings well' = '% ^ $'. Code for 'well'?",
+        "answers": [
+            "#",
+            "$",
+            "@",
+            "%"
+        ],
+        "correct": 1,
+        "explanation": "'well' common. Common: $."
+    },
+    {
+        "prompt": "'king has crown' = 'p q r', 'queen has throne' = 's q t'. What is 'has'?",
+        "answers": [
+            "s",
+            "r",
+            "p",
+            "q"
+        ],
+        "correct": 3,
+        "explanation": "'has' common. Common: q."
+    },
+    {
+        "prompt": "Three sentences: 'eat fresh fruits' = '1 2 3', 'buy fresh vegetables' = '4 2 5', 'eat healthy food' = '1 6 7'. Code for 'eat'?",
+        "answers": [
+            "3",
+            "1",
+            "2",
+            "6"
+        ],
+        "correct": 1,
+        "explanation": "'eat' in sentences 1 and 3. Common: 1."
+    },
+    {
+        "prompt": "'winter is cold' = 'xy yz zx', 'summer is hot' = 'ab yz cd'. What is code for 'winter'?",
+        "answers": [
+            "yz",
+            "xy or zx",
+            "cd",
+            "ab"
+        ],
+        "correct": 1,
+        "explanation": "'is' = yz (common). 'winter' is one of remaining in first: xy or zx."
+    }
+]

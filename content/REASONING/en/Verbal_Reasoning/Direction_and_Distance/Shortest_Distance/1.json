@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A walks 30m North, 40m East. Shortest way back?",
+        "answers": [
+            "70m",
+            "50m",
+            "60m",
+            "35m"
+        ],
+        "correct": 1,
+        "explanation": "√(30² + 40²) = √2500 = 50m."
+    },
+    {
+        "prompt": "From point A, B is 6km North. C is 8km East of B. Shortest A to C?",
+        "answers": [
+            "12km",
+            "10km",
+            "8km",
+            "14km"
+        ],
+        "correct": 1,
+        "explanation": "√(6² + 8²) = √100 = 10km."
+    },
+    {
+        "prompt": "P is 5km South of Q. R is 12km West of Q. Shortest distance P to R?",
+        "answers": [
+            "15km",
+            "13km",
+            "7km",
+            "17km"
+        ],
+        "correct": 1,
+        "explanation": "√(5² + 12²) = √169 = 13km."
+    },
+    {
+        "prompt": "A man walks 9m North, 12m West. Shortest return route?",
+        "answers": [
+            "18m",
+            "15m",
+            "21m",
+            "3m"
+        ],
+        "correct": 1,
+        "explanation": "√(9² + 12²) = √225 = 15m."
+    },
+    {
+        "prompt": "X is 7km East of Y. Z is 24km North of Y. X to Z shortest distance?",
+        "answers": [
+            "25km",
+            "17km",
+            "28km",
+            "31km"
+        ],
+        "correct": 0,
+        "explanation": "√(7² + 24²) = √625 = 25km."
+    },
+    {
+        "prompt": "A starts from B, walks 20m West, 15m South. Shortest distance to B?",
+        "answers": [
+            "5m",
+            "30m",
+            "35m",
+            "25m"
+        ],
+        "correct": 3,
+        "explanation": "√(20² + 15²) = √625 = 25m."
+    },
+    {
+        "prompt": "P walks 8km North, 6km East, 4km North. Shortest distance to start?",
+        "answers": [
+            "14km",
+            "18km",
+            "10km",
+            "√180km"
+        ],
+        "correct": 3,
+        "explanation": "Total: 12km N, 6km E. √(144+36) = √180km."
+    },
+    {
+        "prompt": "From home, Ram walks 16m East, 12m North. Shortest way home?",
+        "answers": [
+            "28m",
+            "4m",
+            "20m",
+            "24m"
+        ],
+        "correct": 2,
+        "explanation": "√(16² + 12²) = √400 = 20m."
+    },
+    {
+        "prompt": "A is 15km South of B. C is 20km West of B. A to C shortest?",
+        "answers": [
+            "30m",
+            "5km",
+            "35km",
+            "25km"
+        ],
+        "correct": 3,
+        "explanation": "√(15² + 20²) = √625 = 25km."
+    },
+    {
+        "prompt": "Walk 11m East, then 60m North. Shortest return?",
+        "answers": [
+            "71m",
+            "61m",
+            "55m",
+            "49m"
+        ],
+        "correct": 1,
+        "explanation": "√(11² + 60²) = √3721 = 61m."
+    },
+    {
+        "prompt": "X walks 9km South, 40km West. Shortest distance to start?",
+        "answers": [
+            "45km",
+            "41km",
+            "31km",
+            "49km"
+        ],
+        "correct": 1,
+        "explanation": "√(9² + 40²) = √1681 = 41km."
+    },
+    {
+        "prompt": "A is 36m West of B. C is 15m South of A. B to C shortest?",
+        "answers": [
+            "39m",
+            "51m",
+            "21m",
+            "45m"
+        ],
+        "correct": 0,
+        "explanation": "√(36² + 15²) = √1521 = 39m."
+    },
+    {
+        "prompt": "From office, walk 24m North, 7m East. Shortest distance to office?",
+        "answers": [
+            "31m",
+            "25m",
+            "17m",
+            "28m"
+        ],
+        "correct": 1,
+        "explanation": "√(24² + 7²) = √625 = 25m."
+    },
+    {
+        "prompt": "P walks 18m South, 24m East. Return shortest route?",
+        "answers": [
+            "30m",
+            "42m",
+            "6m",
+            "36m"
+        ],
+        "correct": 0,
+        "explanation": "√(18² + 24²) = √900 = 30m."
+    },
+    {
+        "prompt": "X is 10m North of Y. Z is 10m East of X. Y to Z distance?",
+        "answers": [
+            "15m",
+            "10m",
+            "10√2m",
+            "20m"
+        ],
+        "correct": 2,
+        "explanation": "√(10² + 10²) = √200 = 10√2m ≈ 14.14m."
+    }
+]

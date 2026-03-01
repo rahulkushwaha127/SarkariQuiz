@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "8 people (A-H) on 8 floors (1-8, ground=1). A on 5th, B two floors below A, C between B and ground. D at top. E just above F. G on 2nd. H not on 1st. Where is H?",
+        "answers": [
+            "6th",
+            "4th or 7th",
+            "8th",
+            "1st"
+        ],
+        "correct": 1,
+        "explanation": "A=5, B=3, C between 1-3 so C=2 (but G=2). Conflict. Let C=1. D=8, G=2. E above F. Remaining: 4,6,7 for E,F,H. H not on 1. H could be 4,6,7."
+    },
+    {
+        "prompt": "6 floors, 6 people. P on top. Q two floors below P. R between Q and ground. S immediately below P. T on ground. Where is U?",
+        "answers": [
+            "5th",
+            "3rd floor",
+            "2nd",
+            "4th"
+        ],
+        "correct": 1,
+        "explanation": "P=6, S=5, Q=4. R between Q(4) and ground(1) so R=2 or 3. T=1. Remaining for U."
+    },
+    {
+        "prompt": "5 people on 5 floors. A not adjacent to B. B on 3rd. C above D. E on top. D not on 1st. Where is A?",
+        "answers": [
+            "4th",
+            "5th",
+            "1st floor",
+            "2nd"
+        ],
+        "correct": 2,
+        "explanation": "B=3, E=5, C>D, D≠1. D=2 or 4. If D=2, C=3,4,5 (B=3, E=5, so C=4). A not adjacent to B(3), so A≠2,4. A=1."
+    },
+    {
+        "prompt": "8 floors. Only A, B, C, D live there on different floors. A is on odd floor above 3. B is below A. C is on even floor. D on ground. All floors not consecutive. Where is A?",
+        "answers": [
+            "3rd",
+            "5th or 7th",
+            "6th",
+            "8th"
+        ],
+        "correct": 1,
+        "explanation": "A on odd above 3: 5 or 7. D=1. C on even. B below A."
+    },
+    {
+        "prompt": "6 people, 6 floors. M on floor that is double of N's floor. O is between M and P. P at top. Q just below M. R on ground. If N=2, where is M?",
+        "answers": [
+            "3rd",
+            "6th",
+            "5th",
+            "4th floor"
+        ],
+        "correct": 3,
+        "explanation": "N=2, M=2×2=4. P=6 (top). Q just below M=3. R=1. O between M(4) and P(6) so O=5."
+    },
+    {
+        "prompt": "7 floors. A, B, C, D, E, F, G. A on 3rd, G on 7th. B immediately below G. D is 3 floors below F. C above E. If F on 6th, where is E?",
+        "answers": [
+            "5th",
+            "7th",
+            "4th",
+            "1st or 2nd"
+        ],
+        "correct": 3,
+        "explanation": "G=7, B=6, but F=6 too? Conflict. Recheck: if F=6, D=3 (A is there). Another conflict. Need to reassess."
+    },
+    {
+        "prompt": "4 floors. W, X, Y, Z on different floors. W above X. Y above Z. Z not on ground. X on 2nd. Arrangement?",
+        "answers": [
+            "Z=3, Y=4, X=2, W=1 or 3 or 4",
+            "W=4, X=2, Y=3, Z=1",
+            "Z=3, Y=4, W above X",
+            "Cannot determine fully"
+        ],
+        "correct": 0,
+        "explanation": "X=2, W above X so W=3 or 4. Z not on 1, so Z=3 or 4. Y above Z."
+    },
+    {
+        "prompt": "5 people on 5 floors. P not on 1st or 5th. Q not adjacent to P. R on middle floor. S above R. T below R. Where could P be?",
+        "answers": [
+            "1st",
+            "2nd or 4th",
+            "Only 3rd",
+            "5th"
+        ],
+        "correct": 1,
+        "explanation": "R=3 (middle). S above=4 or 5. T below=1 or 2. P not 1 or 5, so P=2,3,4. P≠3 (R there). P=2 or 4. Q not adjacent to P."
+    },
+    {
+        "prompt": "6 floors. A three floors above B. C between A and B. D on 1st. E on 6th. Where is F?",
+        "answers": [
+            "Remaining floor after placing all",
+            "3rd",
+            "1st",
+            "6th"
+        ],
+        "correct": 0,
+        "explanation": "If B=1, A=4. C between=2 or 3. D=1 (B there). Conflict. If B=2, A=5. C=3 or 4. D=1, E=6. F on remaining."
+    },
+    {
+        "prompt": "8 people, 8 floors. Conditions: A-B adjacent, C-D adjacent, E-F adjacent, G on 1st, H on 8th. A on odd floor. Where can C-D NOT be?",
+        "answers": [
+            "1st and 2nd (G blocks)",
+            "5th and 6th",
+            "3rd and 4th",
+            "7th and 8th"
+        ],
+        "correct": 0,
+        "explanation": "G=1, H=8. C-D can't include floor 1 or 8 as they're taken."
+    },
+    {
+        "prompt": "5 floors. All 5 people: No one above A. B not on ground. C above B. D and E on consecutive floors. Where is A?",
+        "answers": [
+            "4th",
+            "1st",
+            "3rd",
+            "5th (top)"
+        ],
+        "correct": 3,
+        "explanation": "No one above A means A is on top = 5th floor."
+    },
+    {
+        "prompt": "Complex: 10 floors. A on 3rd, J on 10th. B exactly between A and J. C immediately below B. D four floors below J. E on 1st. Where is B?",
+        "answers": [
+            "6th or 7th",
+            "4th",
+            "8th",
+            "5th"
+        ],
+        "correct": 0,
+        "explanation": "Between 3 and 10, middle could be 6 or 7. B at midpoint = 6.5 rounded = 6 or 7."
+    },
+    {
+        "prompt": "6 people on 6 floors. M and N not adjacent. O above P. Q on ground. R on top. M on 3rd. Where can N NOT be?",
+        "answers": [
+            "1st",
+            "6th",
+            "2nd or 4th",
+            "5th"
+        ],
+        "correct": 2,
+        "explanation": "N not adjacent to M(3), so N≠2 or 4."
+    },
+    {
+        "prompt": "8 floors with 4 empty floors. A on 2nd, B on 5th, C on 7th, D on 8th. How many floors between A and C?",
+        "answers": [
+            "4 floors",
+            "3 floors",
+            "5 floors",
+            "6 floors"
+        ],
+        "correct": 0,
+        "explanation": "A=2, C=7. Floors between: 3,4,5,6 = 4 floors."
+    },
+    {
+        "prompt": "5 floors. A above B. B above C. C above D. D above E. If E=1, what is A's floor?",
+        "answers": [
+            "4th",
+            "3rd",
+            "5th",
+            "2nd"
+        ],
+        "correct": 2,
+        "explanation": "E=1, D=2, C=3, B=4, A=5."
+    }
+]

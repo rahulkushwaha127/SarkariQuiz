@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If A + B = 10 and A - B = 4, which is true: A > B or B > A?",
+        "answers": [
+            "A > B",
+            "A = B",
+            "Cannot determine",
+            "B > A"
+        ],
+        "correct": 0,
+        "explanation": "A - B = 4 > 0, so A > B."
+    },
+    {
+        "prompt": "Given: P × Q > 0. What can we conclude?",
+        "answers": [
+            "P > Q",
+            "P < Q",
+            "P and Q have same sign (both + or both -)",
+            "One is zero"
+        ],
+        "correct": 2,
+        "explanation": "Product positive = same signs."
+    },
+    {
+        "prompt": "If X² < Y², then?",
+        "answers": [
+            "X > Y",
+            "|X| < |Y|",
+            "X < Y",
+            "X = Y"
+        ],
+        "correct": 1,
+        "explanation": "Square comparison gives absolute value comparison."
+    },
+    {
+        "prompt": "A\/B > 0 and A > 0. What about B?",
+        "answers": [
+            "B < 0",
+            "Cannot determine",
+            "B = 0",
+            "B > 0"
+        ],
+        "correct": 3,
+        "explanation": "Positive ÷ positive = positive. So B > 0."
+    },
+    {
+        "prompt": "If M + N > M + P, then?",
+        "answers": [
+            "N = P",
+            "N > P",
+            "N < P",
+            "Cannot compare"
+        ],
+        "correct": 1,
+        "explanation": "Cancel M: N > P."
+    },
+    {
+        "prompt": "Given: 2X > 3Y and X = 6. Find range of Y.",
+        "answers": [
+            "Y < 4",
+            "Y > 6",
+            "Y = 4",
+            "Y > 4"
+        ],
+        "correct": 0,
+        "explanation": "2(6) > 3Y → 12 > 3Y → Y < 4."
+    },
+    {
+        "prompt": "If A > B and C > D, then A + C ? B + D",
+        "answers": [
+            "A + C > B + D",
+            "A + C < B + D",
+            "Cannot determine",
+            "A + C = B + D"
+        ],
+        "correct": 0,
+        "explanation": "Adding inequalities: A + C > B + D."
+    },
+    {
+        "prompt": "If X > 0 and Y < 0, then X - Y?",
+        "answers": [
+            "Always positive",
+            "Always negative",
+            "Zero",
+            "Could be either"
+        ],
+        "correct": 0,
+        "explanation": "Positive - negative = positive + positive = positive."
+    },
+    {
+        "prompt": "Given P ≥ Q and Q > R. What about P and R?",
+        "answers": [
+            "P = R",
+            "Cannot compare",
+            "P < R",
+            "P > R"
+        ],
+        "correct": 3,
+        "explanation": "P ≥ Q > R means P > R."
+    },
+    {
+        "prompt": "If A² = B² and A, B are real, then?",
+        "answers": [
+            "A = B only",
+            "A < B",
+            "A = B or A = -B",
+            "A > B"
+        ],
+        "correct": 2,
+        "explanation": "Square equality means same absolute value: A = ±B."
+    },
+    {
+        "prompt": "M\/N < 0. What must be true?",
+        "answers": [
+            "Both negative",
+            "Both positive",
+            "M and N have opposite signs",
+            "One is zero"
+        ],
+        "correct": 2,
+        "explanation": "Negative quotient = opposite signs."
+    },
+    {
+        "prompt": "If 3A - 5 > 10, then A?",
+        "answers": [
+            "A = 5",
+            "A < 5",
+            "A > 5",
+            "A > 15"
+        ],
+        "correct": 2,
+        "explanation": "3A > 15 → A > 5."
+    },
+    {
+        "prompt": "X + Y = 20, X > 12. Minimum value of Y?",
+        "answers": [
+            "Y > 8",
+            "Y = 12",
+            "Y < 8",
+            "Y = 8"
+        ],
+        "correct": 2,
+        "explanation": "If X > 12, then Y = 20 - X < 8."
+    },
+    {
+        "prompt": "If |A| > |B|, then?",
+        "answers": [
+            "A² > B²",
+            "A > B",
+            "A < B",
+            "A = B"
+        ],
+        "correct": 0,
+        "explanation": "Absolute value larger means square larger."
+    },
+    {
+        "prompt": "P > Q > 0. Compare P² and Q².",
+        "answers": [
+            "P² = Q²",
+            "Cannot compare",
+            "P² < Q²",
+            "P² > Q²"
+        ],
+        "correct": 3,
+        "explanation": "Both positive, larger number has larger square."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Find next: A, C, E, G, ?",
+        "answers": [
+            "K",
+            "J",
+            "H",
+            "I"
+        ],
+        "correct": 3,
+        "explanation": "+2 pattern. G → I."
+    },
+    {
+        "prompt": "Find next: Z, X, V, T, ?",
+        "answers": [
+            "P",
+            "S",
+            "Q",
+            "R"
+        ],
+        "correct": 3,
+        "explanation": "-2 pattern. T → R."
+    },
+    {
+        "prompt": "Find next: B, D, G, K, ?",
+        "answers": [
+            "P",
+            "N",
+            "M",
+            "O"
+        ],
+        "correct": 0,
+        "explanation": "+2, +3, +4, +5. K → P."
+    },
+    {
+        "prompt": "Find next: A, B, D, G, ?",
+        "answers": [
+            "K",
+            "J",
+            "L",
+            "I"
+        ],
+        "correct": 0,
+        "explanation": "+1, +2, +3, +4. G → K."
+    },
+    {
+        "prompt": "Find next: M, N, O, P, ?",
+        "answers": [
+            "S",
+            "T",
+            "Q",
+            "R"
+        ],
+        "correct": 2,
+        "explanation": "+1 pattern. P → Q."
+    },
+    {
+        "prompt": "Find next: A, Z, B, Y, C, ?",
+        "answers": [
+            "V",
+            "W",
+            "X",
+            "D"
+        ],
+        "correct": 2,
+        "explanation": "Alternating: Forward A,B,C and Backward Z,Y,X."
+    },
+    {
+        "prompt": "Find next: C, F, I, L, ?",
+        "answers": [
+            "O",
+            "M",
+            "N",
+            "P"
+        ],
+        "correct": 0,
+        "explanation": "+3 pattern. L → O."
+    },
+    {
+        "prompt": "Find next: J, K, M, P, ?",
+        "answers": [
+            "S",
+            "T",
+            "U",
+            "R"
+        ],
+        "correct": 1,
+        "explanation": "+1, +2, +3, +4. P → T."
+    },
+    {
+        "prompt": "Find next: A, E, I, M, ?",
+        "answers": [
+            "O",
+            "R",
+            "Q",
+            "P"
+        ],
+        "correct": 2,
+        "explanation": "+4 pattern. M → Q."
+    },
+    {
+        "prompt": "Find next: D, H, L, P, ?",
+        "answers": [
+            "U",
+            "S",
+            "R",
+            "T"
+        ],
+        "correct": 3,
+        "explanation": "+4 pattern. P → T."
+    },
+    {
+        "prompt": "Find next: Y, W, U, S, ?",
+        "answers": [
+            "R",
+            "O",
+            "Q",
+            "P"
+        ],
+        "correct": 2,
+        "explanation": "-2 pattern. S → Q."
+    },
+    {
+        "prompt": "Find next: B, E, H, K, ?",
+        "answers": [
+            "L",
+            "M",
+            "N",
+            "O"
+        ],
+        "correct": 2,
+        "explanation": "+3 pattern. K → N."
+    },
+    {
+        "prompt": "Find next: A, D, G, J, ?",
+        "answers": [
+            "K",
+            "L",
+            "N",
+            "M"
+        ],
+        "correct": 3,
+        "explanation": "+3 pattern. J → M."
+    },
+    {
+        "prompt": "Find next: Z, Y, W, T, ?",
+        "answers": [
+            "R",
+            "Q",
+            "P",
+            "S"
+        ],
+        "correct": 2,
+        "explanation": "-1, -2, -3, -4. T → P."
+    },
+    {
+        "prompt": "Find next: P, R, T, V, ?",
+        "answers": [
+            "W",
+            "X",
+            "Y",
+            "Z"
+        ],
+        "correct": 1,
+        "explanation": "+2 pattern. V → X."
+    }
+]

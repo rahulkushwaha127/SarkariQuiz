@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If 'sky' means 'sea', 'sea' means 'land', 'land' means 'road'. Where do fish live?",
+        "answers": [
+            "Sea",
+            "Sky",
+            "Road",
+            "Land"
+        ],
+        "correct": 3,
+        "explanation": "Fish live in sea. Sea is called land. Answer: Land."
+    },
+    {
+        "prompt": "If 'red' is called 'blue', 'blue' is called 'green', 'green' is called 'white'. What is the color of grass?",
+        "answers": [
+            "Green",
+            "Red",
+            "White",
+            "Blue"
+        ],
+        "correct": 2,
+        "explanation": "Grass is green. Green is called white. Answer: White."
+    },
+    {
+        "prompt": "If 'table' is called 'chair', 'chair' is called 'book', 'book' is called 'pen'. What do we sit on?",
+        "answers": [
+            "Chair",
+            "Pen",
+            "Table",
+            "Book"
+        ],
+        "correct": 3,
+        "explanation": "We sit on chair. Chair is called book. Answer: Book."
+    },
+    {
+        "prompt": "If 'dog' is called 'cat', 'cat' is called 'rat', 'rat' is called 'cow'. What barks?",
+        "answers": [
+            "Rat",
+            "Cow",
+            "Cat",
+            "Dog"
+        ],
+        "correct": 2,
+        "explanation": "Dog barks. Dog is called cat. Answer: Cat."
+    },
+    {
+        "prompt": "If 'morning' is called 'evening', 'evening' is called 'night', 'night' is called 'day'. When do we have breakfast?",
+        "answers": [
+            "Day",
+            "Evening",
+            "Night",
+            "Morning"
+        ],
+        "correct": 1,
+        "explanation": "Breakfast in morning. Morning is called evening."
+    },
+    {
+        "prompt": "If 'water' is called 'milk', 'milk' is called 'juice', 'juice' is called 'tea'. What comes from cow?",
+        "answers": [
+            "Milk",
+            "Juice",
+            "Tea",
+            "Water"
+        ],
+        "correct": 1,
+        "explanation": "Milk comes from cow. Milk is called juice."
+    },
+    {
+        "prompt": "If 'pen' is called 'eraser', 'eraser' is called 'pencil', 'pencil' is called 'sharpener'. What removes pencil marks?",
+        "answers": [
+            "Pen",
+            "Pencil",
+            "Sharpener",
+            "Eraser"
+        ],
+        "correct": 1,
+        "explanation": "Eraser removes marks. Eraser is called pencil."
+    },
+    {
+        "prompt": "If 'sun' is called 'moon', 'moon' is called 'star', 'star' is called 'planet'. What gives us light in day?",
+        "answers": [
+            "Planet",
+            "Moon",
+            "Star",
+            "Sun"
+        ],
+        "correct": 1,
+        "explanation": "Sun gives daylight. Sun is called moon."
+    },
+    {
+        "prompt": "If 'doctor' is called 'teacher', 'teacher' is called 'engineer'. Who treats patients?",
+        "answers": [
+            "Nurse",
+            "Teacher",
+            "Doctor",
+            "Engineer"
+        ],
+        "correct": 1,
+        "explanation": "Doctor treats patients. Doctor is called teacher."
+    },
+    {
+        "prompt": "If 'walk' is called 'run', 'run' is called 'swim', 'swim' is called 'fly'. What do fish do?",
+        "answers": [
+            "Fly",
+            "Swim",
+            "Walk",
+            "Run"
+        ],
+        "correct": 0,
+        "explanation": "Fish swim. Swim is called fly."
+    },
+    {
+        "prompt": "If 'hot' is called 'cold', 'cold' is called 'warm', 'warm' is called 'cool'. What is ice?",
+        "answers": [
+            "Warm",
+            "Cool",
+            "Cold",
+            "Hot"
+        ],
+        "correct": 0,
+        "explanation": "Ice is cold. Cold is called warm."
+    },
+    {
+        "prompt": "If 'book' is called 'copy', 'copy' is called 'pen', 'pen' is called 'pencil'. What do we read?",
+        "answers": [
+            "Copy",
+            "Pencil",
+            "Pen",
+            "Book"
+        ],
+        "correct": 0,
+        "explanation": "We read book. Book is called copy."
+    },
+    {
+        "prompt": "If 'father' is called 'mother', 'mother' is called 'sister', 'sister' is called 'brother'. Who is mother's husband?",
+        "answers": [
+            "Mother",
+            "Father",
+            "Brother",
+            "Sister"
+        ],
+        "correct": 0,
+        "explanation": "Father is husband. Father is called mother."
+    },
+    {
+        "prompt": "If 'sweet' is called 'sour', 'sour' is called 'bitter', 'bitter' is called 'salty'. How is sugar?",
+        "answers": [
+            "Salty",
+            "Sour",
+            "Sweet",
+            "Bitter"
+        ],
+        "correct": 1,
+        "explanation": "Sugar is sweet. Sweet is called sour."
+    },
+    {
+        "prompt": "If 'up' is called 'down', 'down' is called 'left', 'left' is called 'right'. Where is sky?",
+        "answers": [
+            "Up",
+            "Right",
+            "Down",
+            "Left"
+        ],
+        "correct": 2,
+        "explanation": "Sky is up. Up is called down."
+    }
+]

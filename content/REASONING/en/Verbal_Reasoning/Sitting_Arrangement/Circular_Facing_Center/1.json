@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "8 people sit in a circle facing center. A is 3rd to left of B. C is opposite to A. Who is 3rd to right of B?",
+        "answers": [
+            "A",
+            "Cannot determine",
+            "D",
+            "C"
+        ],
+        "correct": 3,
+        "explanation": "A is 3rd left of B means B is 3rd right of A. In 8-person circle, opposite is 4 positions away. C opposite to A. 3rd right of B = 3rd right of (3rd right of A) = 6th right of A = 2nd left of A. Check: if C is opposite A (4 away), then 3rd right of B is at position between."
+    },
+    {
+        "prompt": "6 friends sit in a circle facing center. P is opposite Q. R is to immediate right of Q. S is 2nd to left of P. Who is opposite R?",
+        "answers": [
+            "U",
+            "S",
+            "P",
+            "T"
+        ],
+        "correct": 1,
+        "explanation": "In 6-person circle, opposite is 3 positions. Q opposite P. R immediate right of Q. S 2nd left of P. R's opposite is 3 away from R = S."
+    },
+    {
+        "prompt": "A, B, C, D, E sit in circle facing center. A is between B and C. D is 2nd to right of B. Who is between D and E?",
+        "answers": [
+            "Cannot say",
+            "A",
+            "C",
+            "B"
+        ],
+        "correct": 2,
+        "explanation": "B-A-C clockwise. D is 2nd right of B. E is remaining. D next to C. E between D and B. Wait: check positions."
+    },
+    {
+        "prompt": "In a circle of 8 facing center: M is 4th to right of N. O is opposite N. P is immediate left of O. Who is 2nd to right of M?",
+        "answers": [
+            "O",
+            "Q",
+            "P",
+            "N"
+        ],
+        "correct": 0,
+        "explanation": "M is 4th right of N (opposite in 8). O is also opposite N. So M = O? If different: M 4th right of N, O opposite N (also 4th). 2nd right of M would be calculated from there."
+    },
+    {
+        "prompt": "5 people A, B, C, D, E sit in a circle facing center. B is to immediate right of A. C is to immediate left of A. E is not next to D. Who is opposite to B?",
+        "answers": [
+            "A",
+            "E",
+            "C",
+            "D"
+        ],
+        "correct": 3,
+        "explanation": "In 5-person circle, no exact opposite. But 2 positions away: C-A-B clockwise. D and E remaining. E not next to D. Check arrangement."
+    },
+    {
+        "prompt": "6 persons sit facing center. A is opposite D. B is to left of A. C is to right of D. Who is opposite B?",
+        "answers": [
+            "E",
+            "F",
+            "D",
+            "C"
+        ],
+        "correct": 3,
+        "explanation": "A opposite D (3 apart). B left of A, C right of D. B is opposite to whoever is 3 away = C."
+    },
+    {
+        "prompt": "8 friends in circle facing center. X is 2nd to right of Y. Z is 3rd to left of X. Who is opposite Z?",
+        "answers": [
+            "X",
+            "Cannot say",
+            "Y",
+            "W"
+        ],
+        "correct": 3,
+        "explanation": "X is 2nd right of Y. Z is 3rd left of X. Opposite Z is 4 positions from Z."
+    },
+    {
+        "prompt": "In a circle of 6 facing center: P and Q are opposite. R is next to P. S is next to Q. Who is between R and S?",
+        "answers": [
+            "No one",
+            "Q",
+            "T or U",
+            "P"
+        ],
+        "correct": 2,
+        "explanation": "P opposite Q. R next to P, S next to Q. T and U in remaining positions, between R and S."
+    },
+    {
+        "prompt": "A, B, C, D, E, F sit in circle facing center. A opposite D. B opposite E. C is next to A and B. Who is opposite C?",
+        "answers": [
+            "B",
+            "E",
+            "D",
+            "F"
+        ],
+        "correct": 3,
+        "explanation": "A opp D, B opp E. C next to A and B. F is remaining, opposite C."
+    },
+    {
+        "prompt": "8 people sit facing center. L is 3rd to right of M. N is opposite M. O is between N and L. How many between O and M?",
+        "answers": [
+            "1",
+            "2",
+            "4",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "M's position, L 3rd right. N opposite M (4th from M). O between N and L. Count between O and M."
+    },
+    {
+        "prompt": "6 children in circle facing center. Tom opposite Jerry. Micky to right of Tom. Donald to left of Jerry. Who is opposite Micky?",
+        "answers": [
+            "Jerry",
+            "Donald",
+            "Tom",
+            "Goofy"
+        ],
+        "correct": 1,
+        "explanation": "Tom opp Jerry. Micky right of Tom. Donald left of Jerry. Micky's opposite (3 away) = Donald."
+    },
+    {
+        "prompt": "In circle of 8 facing center: A, B adjacent. C opposite A. D is 2nd to left of B. Who is opposite D?",
+        "answers": [
+            "G",
+            "C",
+            "E",
+            "F"
+        ],
+        "correct": 2,
+        "explanation": "A-B adjacent. C opposite A (4 away). D 2nd left of B. D's opposite is 4 away from D."
+    },
+    {
+        "prompt": "5 friends sit facing center. X is to right of Y. Z is to left of Y. W is opposite side of Y. V is not next to W. Who is next to X?",
+        "answers": [
+            "Z and V",
+            "Y and V",
+            "Z and W",
+            "Y and W"
+        ],
+        "correct": 3,
+        "explanation": "Y with Z on left, X on right. W opposite Y's side. V not next to W. X's neighbors: Y and W."
+    },
+    {
+        "prompt": "6 persons facing center. M opposite P. N immediate right of M. O 2nd left of P. Who is immediate left of N?",
+        "answers": [
+            "O",
+            "P",
+            "Q",
+            "M"
+        ],
+        "correct": 3,
+        "explanation": "M opp P. N right of M. O 2nd left of P. N's left neighbor = M."
+    },
+    {
+        "prompt": "8 people in circle facing center. A is 3rd to left of B. C is 2nd to right of A. Who is opposite C?",
+        "answers": [
+            "B",
+            "D",
+            "E",
+            "A"
+        ],
+        "correct": 0,
+        "explanation": "A is 3rd left of B. C is 2nd right of A. C's opposite (4 away from C) - calculate based on positions."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Using letters P, A, R, T, make a meaningful word.",
+        "answers": [
+            "TARP",
+            "All of these",
+            "PART",
+            "TRAP"
+        ],
+        "correct": 1,
+        "explanation": "TRAP, PART, and TARP are all meaningful words using P, A, R, T."
+    },
+    {
+        "prompt": "From E, A, T, form meaningful words.",
+        "answers": [
+            "Only ATE",
+            "EAT, ATE, TEA",
+            "Only TEA",
+            "Only EAT"
+        ],
+        "correct": 1,
+        "explanation": "EAT, ATE, and TEA are all valid words."
+    },
+    {
+        "prompt": "Letters: O, N, I, T - which word cannot be formed?",
+        "answers": [
+            "TONI",
+            "INTO",
+            "All can form words",
+            "TION"
+        ],
+        "correct": 3,
+        "explanation": "INTO is valid. TONI could be a name. TION is suffix, not standalone word."
+    },
+    {
+        "prompt": "Using S, T, A, R - which is NOT a meaningful word?",
+        "answers": [
+            "RATS",
+            "RAST",
+            "STAR",
+            "ARTS"
+        ],
+        "correct": 1,
+        "explanation": "RAST is not a word. RATS, STAR, ARTS are valid."
+    },
+    {
+        "prompt": "From letters L, E, A, P - form a meaningful word.",
+        "answers": [
+            "PLEA",
+            "LEAP",
+            "All of these",
+            "PALE"
+        ],
+        "correct": 2,
+        "explanation": "LEAP, PALE, PLEA are all valid words."
+    },
+    {
+        "prompt": "Letters M, E, A, T can form?",
+        "answers": [
+            "Only MEAT",
+            "Only TEAM",
+            "None",
+            "MEAT, MATE, TEAM, TAME"
+        ],
+        "correct": 3,
+        "explanation": "All four words use these letters."
+    },
+    {
+        "prompt": "Which meaningful word uses R, O, W, D?",
+        "answers": [
+            "DROW",
+            "ROWDY (needs Y)",
+            "WORD",
+            "WROD"
+        ],
+        "correct": 2,
+        "explanation": "WORD uses R, O, W, D."
+    },
+    {
+        "prompt": "From S, P, O, T - words possible?",
+        "answers": [
+            "Only STOP",
+            "SPOT, TOPS, POTS, POST, STOP",
+            "Only SPOT",
+            "No words"
+        ],
+        "correct": 1,
+        "explanation": "Multiple valid words: SPOT, TOPS, POTS, POST, STOP."
+    },
+    {
+        "prompt": "Letters A, C, E, R form which word?",
+        "answers": [
+            "Only CARE",
+            "Only RACE",
+            "RACE, CARE, ACRE",
+            "None"
+        ],
+        "correct": 2,
+        "explanation": "RACE, CARE, and ACRE are all valid."
+    },
+    {
+        "prompt": "Using T, R, I, P - meaningful word?",
+        "answers": [
+            "PIRT",
+            "RITP",
+            "TRIP",
+            "TPIR"
+        ],
+        "correct": 2,
+        "explanation": "TRIP is the meaningful word."
+    },
+    {
+        "prompt": "From L, I, V, E - words formed?",
+        "answers": [
+            "Only EVIL",
+            "LIVE, VILE, EVIL",
+            "No words",
+            "Only LIVE"
+        ],
+        "correct": 1,
+        "explanation": "LIVE, VILE, and EVIL are valid."
+    },
+    {
+        "prompt": "Letters D, A, E, R form?",
+        "answers": [
+            "None",
+            "Only DEAR",
+            "READ, DEAR, DARE",
+            "Only READ"
+        ],
+        "correct": 2,
+        "explanation": "READ, DEAR, and DARE are valid words."
+    },
+    {
+        "prompt": "Using B, A, T, E - meaningful words?",
+        "answers": [
+            "BEAT, BATE",
+            "Only BATE",
+            "TABE",
+            "Only BEAT"
+        ],
+        "correct": 0,
+        "explanation": "BEAT and BATE are valid words."
+    },
+    {
+        "prompt": "From N, A, E, M - form word.",
+        "answers": [
+            "NAME, MEAN, MANE",
+            "Only MEAN",
+            "Only NAME",
+            "NEMA"
+        ],
+        "correct": 0,
+        "explanation": "NAME, MEAN, and MANE use these letters."
+    },
+    {
+        "prompt": "Letters G, O, L, D - words?",
+        "answers": [
+            "LODG",
+            "DOGL",
+            "GOLD",
+            "None"
+        ],
+        "correct": 2,
+        "explanation": "GOLD is the meaningful word."
+    }
+]

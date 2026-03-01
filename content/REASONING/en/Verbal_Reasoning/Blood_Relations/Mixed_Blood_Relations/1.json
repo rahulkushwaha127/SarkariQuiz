@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A is B's brother. C is D's father. E is B's mother. A is C's son. How is E related to D?",
+        "answers": [
+            "Sister",
+            "Aunt",
+            "Grandmother",
+            "Mother"
+        ],
+        "correct": 3,
+        "explanation": "A is C's son, so C is A's father. A is B's brother, so C is B's father too. E is B's mother. C and E are B's parents. D is C's child. So E is D's mother."
+    },
+    {
+        "prompt": "P is Q's mother. Q is R's sister. S is R's father. T is Q's daughter. How is T related to S?",
+        "answers": [
+            "Daughter",
+            "Sister",
+            "Granddaughter",
+            "Niece"
+        ],
+        "correct": 2,
+        "explanation": "S is R's father. R is Q's sibling. So S is Q's father too. T is Q's daughter. T is S's granddaughter."
+    },
+    {
+        "prompt": "X is Y's son. Z is X's sister. W is Z's mother. V is W's husband. How is Y related to V?",
+        "answers": [
+            "Brother",
+            "Son",
+            "Father",
+            "Same person"
+        ],
+        "correct": 3,
+        "explanation": "W is Z's mother. Z is X's sister. So W is X's mother. V is W's husband = X's father. X is Y's son, so Y is X's parent. If Y is X's father, Y = V."
+    },
+    {
+        "prompt": "A and B are brothers. C is A's daughter. D is B's son. How are C and D related?",
+        "answers": [
+            "Cousins",
+            "Aunt-Nephew",
+            "Uncle-Niece",
+            "Siblings"
+        ],
+        "correct": 0,
+        "explanation": "A and B are brothers. C is A's daughter, D is B's son. C and D are cousins."
+    },
+    {
+        "prompt": "M is N's grandmother. O is N's father. P is O's brother. How is P related to M?",
+        "answers": [
+            "Father",
+            "Grandson",
+            "Brother",
+            "Son"
+        ],
+        "correct": 3,
+        "explanation": "M is N's grandmother. O is N's father. M is O's mother. P is O's brother. So P is M's son."
+    },
+    {
+        "prompt": "J is K's wife. L is M's son. K is L's father. How is J related to M?",
+        "answers": [
+            "Daughter-in-law",
+            "Cannot determine",
+            "Co-mother-in-law or Same person",
+            "Sister"
+        ],
+        "correct": 2,
+        "explanation": "K is L's father. J is K's wife. So J is L's mother. M has son L. If M is L's other parent (mother), J and M are same. If M is L's grandmother, different relation."
+    },
+    {
+        "prompt": "A is B's father. C is B's son. D is C's mother. How is D related to A?",
+        "answers": [
+            "Daughter-in-law",
+            "Mother",
+            "Daughter",
+            "Wife"
+        ],
+        "correct": 0,
+        "explanation": "C is B's son. D is C's mother. So D is B's wife. A is B's father. D is A's daughter-in-law."
+    },
+    {
+        "prompt": "P's mother is Q's daughter. R is Q's husband. How is P related to R?",
+        "answers": [
+            "Son",
+            "Nephew",
+            "Daughter",
+            "Grandchild"
+        ],
+        "correct": 3,
+        "explanation": "Q's daughter is P's mother. R is Q's husband = Q's daughter's father. P's mother's father = P's grandfather. R is P's grandfather. P is R's grandchild."
+    },
+    {
+        "prompt": "X is Y's sister. Y is Z's mother. W is X's husband. How is W related to Z?",
+        "answers": [
+            "Brother",
+            "Father",
+            "Uncle",
+            "Grandfather"
+        ],
+        "correct": 2,
+        "explanation": "X is Y's sister. Y is Z's mother. So X is Z's aunt. W is X's husband = Z's uncle."
+    },
+    {
+        "prompt": "A, B, C are siblings. D is A's son. E is B's daughter. F is C's son. How are D, E, F related?",
+        "answers": [
+            "No relation",
+            "Siblings",
+            "Cousins",
+            "Aunt-Uncle"
+        ],
+        "correct": 2,
+        "explanation": "Children of siblings are cousins."
+    },
+    {
+        "prompt": "M is N's son. O is N's daughter. P is M's son. Q is O's daughter. How are P and Q related?",
+        "answers": [
+            "Cousins",
+            "No relation",
+            "Siblings",
+            "Uncle-Niece"
+        ],
+        "correct": 0,
+        "explanation": "M and O are siblings (both N's children). P is M's son, Q is O's daughter. P and Q are cousins."
+    },
+    {
+        "prompt": "G's father is H's brother. I is H's son. How is G related to I?",
+        "answers": [
+            "Uncle",
+            "Brother",
+            "Nephew",
+            "Cousin"
+        ],
+        "correct": 3,
+        "explanation": "H is G's father's brother = G's uncle. I is H's son = G's cousin."
+    },
+    {
+        "prompt": "A is B's mother-in-law. C is B's husband. D is A's daughter. How is D related to B?",
+        "answers": [
+            "Cousin",
+            "Sister-in-law",
+            "Daughter",
+            "Mother"
+        ],
+        "correct": 1,
+        "explanation": "A is B's mother-in-law = C's mother. D is A's daughter = C's sister. D is B's sister-in-law."
+    },
+    {
+        "prompt": "P married Q. R is P's brother. S is Q's sister. T is R's wife. How is T related to S?",
+        "answers": [
+            "Sister",
+            "Cousin",
+            "No direct blood relation (co-in-laws)",
+            "Aunt"
+        ],
+        "correct": 2,
+        "explanation": "T married R (P's brother). S is Q's sister. P and Q married. T and S are in-laws but no direct blood relation."
+    },
+    {
+        "prompt": "X is Y's only brother's only sister. How is X related to Y?",
+        "answers": [
+            "Daughter",
+            "Sister",
+            "Mother",
+            "Brother"
+        ],
+        "correct": 1,
+        "explanation": "Y's only brother's only sister is Y (if Y is female) or X is Y's sister if Y is male with only one brother."
+    }
+]

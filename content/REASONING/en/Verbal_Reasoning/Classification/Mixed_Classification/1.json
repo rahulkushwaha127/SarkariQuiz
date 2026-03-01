@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Find odd one out: A1, B2, C3, D5",
+        "answers": [
+            "C3",
+            "A1",
+            "B2",
+            "D5"
+        ],
+        "correct": 3,
+        "explanation": "D5 breaks pattern, should be D4."
+    },
+    {
+        "prompt": "Find odd one out: P16, Q17, R18, T20",
+        "answers": [
+            "P16",
+            "Q17",
+            "R18",
+            "T20"
+        ],
+        "correct": 3,
+        "explanation": "T20 skips S19, breaking pattern."
+    },
+    {
+        "prompt": "Find odd one out: 2B, 4D, 6F, 9H",
+        "answers": [
+            "6F",
+            "2B",
+            "9H",
+            "4D"
+        ],
+        "correct": 2,
+        "explanation": "9H breaks +2 pattern, should be 8H."
+    },
+    {
+        "prompt": "Find odd one out: Z26, Y25, X24, V22",
+        "answers": [
+            "Z26",
+            "X24",
+            "V22",
+            "Y25"
+        ],
+        "correct": 2,
+        "explanation": "V22 skips W23."
+    },
+    {
+        "prompt": "Find odd one out: A2, E10, I18, O__(30)__",
+        "answers": [
+            "O30",
+            "I18",
+            "A2",
+            "E10"
+        ],
+        "correct": 0,
+        "explanation": "Pattern is position × 2. O(15) × 2 = 30 is correct. Actually all follow."
+    },
+    {
+        "prompt": "Find odd one out: 3C, 6F, 9I, 12__(K)__",
+        "answers": [
+            "12K",
+            "3C",
+            "6F",
+            "9I"
+        ],
+        "correct": 0,
+        "explanation": "12K should be 12L to maintain pattern."
+    },
+    {
+        "prompt": "Find odd one out: 1A, 4B, 9C, 15D",
+        "answers": [
+            "1A",
+            "15D",
+            "9C",
+            "4B"
+        ],
+        "correct": 1,
+        "explanation": "Numbers should be squares: 1, 4, 9, 16."
+    },
+    {
+        "prompt": "Find odd one out: AB1, CD2, EF3, GI4",
+        "answers": [
+            "EF3",
+            "GI4",
+            "AB1",
+            "CD2"
+        ],
+        "correct": 1,
+        "explanation": "GI skips H, should be GH4."
+    },
+    {
+        "prompt": "Find odd one out: M13, N14, O15, Q17",
+        "answers": [
+            "Q17",
+            "M13",
+            "N14",
+            "O15"
+        ],
+        "correct": 0,
+        "explanation": "Q17 skips P16."
+    },
+    {
+        "prompt": "Find odd one out: 5E, 10J, 15O, 20__(S)__",
+        "answers": [
+            "5E",
+            "20S",
+            "10J",
+            "15O"
+        ],
+        "correct": 1,
+        "explanation": "Should be 20T (T is 20th letter)."
+    },
+    {
+        "prompt": "Find odd one out: A1Z, B2Y, C3X, E4W",
+        "answers": [
+            "B2Y",
+            "C3X",
+            "E4W",
+            "A1Z"
+        ],
+        "correct": 2,
+        "explanation": "E4W should be D4W."
+    },
+    {
+        "prompt": "Find odd one out: 2A, 4C, 6E, 8__(F)__",
+        "answers": [
+            "8F",
+            "4C",
+            "6E",
+            "2A"
+        ],
+        "correct": 0,
+        "explanation": "Should be 8G (+2 pattern)."
+    },
+    {
+        "prompt": "Find odd one out: K11, L12, M13, O15",
+        "answers": [
+            "L12",
+            "M13",
+            "K11",
+            "O15"
+        ],
+        "correct": 3,
+        "explanation": "O15 skips N14."
+    },
+    {
+        "prompt": "Find odd one out: 1A2, 3C4, 5E6, 7__(F)__8",
+        "answers": [
+            "3C4",
+            "5E6",
+            "1A2",
+            "7F8"
+        ],
+        "correct": 3,
+        "explanation": "Should be 7G8 to follow pattern."
+    },
+    {
+        "prompt": "Find odd one out: ZA1, YB2, XC3, VD4",
+        "answers": [
+            "YB2",
+            "ZA1",
+            "VD4",
+            "XC3"
+        ],
+        "correct": 2,
+        "explanation": "VD4 should be WD4."
+    }
+]

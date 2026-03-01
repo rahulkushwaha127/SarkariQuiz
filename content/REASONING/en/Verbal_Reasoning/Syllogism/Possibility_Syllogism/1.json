@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Statements: All A are B. Some B are C. Conclusions: I. Some A are C is a possibility. II. All C are A is a possibility.",
+        "answers": [
+            "Neither follows",
+            "Only I follows",
+            "Both follow",
+            "Only II follows"
+        ],
+        "correct": 2,
+        "explanation": "A ⊂ B, Some B are C. It's possible some A are C. It's also possible all C are A. Both possibilities exist."
+    },
+    {
+        "prompt": "Statements: No X is Y. All Y are Z. Conclusions: I. Some Z are not X is a possibility. II. No X is Z is a possibility.",
+        "answers": [
+            "Only I follows",
+            "Only II follows",
+            "Neither follows",
+            "Both follow"
+        ],
+        "correct": 3,
+        "explanation": "Y ⊂ Z, No X is Y. Some Z (that are Y) are not X - definite. No X is Z - possible. Both follow."
+    },
+    {
+        "prompt": "Statements: Some cats are dogs. All dogs are animals. Conclusions: I. All cats being animals is a possibility. II. All animals being cats is a possibility.",
+        "answers": [
+            "Neither follows",
+            "Both follow",
+            "Only II follows",
+            "Only I follows"
+        ],
+        "correct": 1,
+        "explanation": "Some cats = dogs ⊂ animals. All cats can possibly be animals. All animals being cats is also possible. Both."
+    },
+    {
+        "prompt": "Statements: All roses are flowers. No flower is thorn. Conclusions: I. Some roses being thorns is a possibility. II. No rose is thorn.",
+        "answers": [
+            "Both follow",
+            "Neither follows",
+            "Only II follows",
+            "Only I follows"
+        ],
+        "correct": 2,
+        "explanation": "Roses ⊂ Flowers, No flower is thorn → No rose is thorn (II definite). I is impossible, not just possibility."
+    },
+    {
+        "prompt": "Statements: Some pens are pencils. Some pencils are erasers. Conclusions: I. All pens being erasers is a possibility. II. No pen is eraser.",
+        "answers": [
+            "Only I follows",
+            "Both follow",
+            "Only II follows",
+            "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "With 'some' connections, all pens being erasers is possible (I). No pen is eraser is not definite (II uncertain)."
+    },
+    {
+        "prompt": "Statements: All birds can fly. Some flying things are insects. Conclusions: I. Some birds are insects is a possibility. II. All insects being birds is a possibility.",
+        "answers": [
+            "Only II follows",
+            "Neither follows",
+            "Only I follows",
+            "Both follow"
+        ],
+        "correct": 3,
+        "explanation": "Birds ⊂ Flying. Some flying are insects. Overlap possible both ways."
+    },
+    {
+        "prompt": "Statements: No red is blue. All blue are green. Conclusions: I. Some red being green is a possibility. II. No red is green.",
+        "answers": [
+            "Neither follows",
+            "Both follow",
+            "Only I follows",
+            "Only II follows"
+        ],
+        "correct": 2,
+        "explanation": "Red-green relation not determined. Some red being green is possible (I). No red is green not definite (II wrong)."
+    },
+    {
+        "prompt": "Statements: All P are Q. All Q are R. Conclusions: I. All R being P is a possibility. II. All P are R.",
+        "answers": [
+            "Only I follows",
+            "Neither follows",
+            "Both follow",
+            "Only II follows"
+        ],
+        "correct": 2,
+        "explanation": "P ⊂ Q ⊂ R → All P are R (II definite). All R being P - possible if R = Q = P."
+    },
+    {
+        "prompt": "Statements: Some men are doctors. All doctors are educated. Conclusions: I. All men being educated is a possibility. II. All educated being men is a possibility.",
+        "answers": [
+            "Only I follows",
+            "Neither follows",
+            "Both follow",
+            "Only II follows"
+        ],
+        "correct": 2,
+        "explanation": "Some men = doctors ⊂ educated. All men can possibly be educated. All educated can possibly be men."
+    },
+    {
+        "prompt": "Statements: No car is bus. Some buses are trucks. Conclusions: I. Some cars being trucks is a possibility. II. No car is truck.",
+        "answers": [
+            "Only I follows",
+            "Only II follows",
+            "Neither follows",
+            "Both follow"
+        ],
+        "correct": 0,
+        "explanation": "Car-truck relation not given. Some cars being trucks is possible. No car is truck not definite."
+    },
+    {
+        "prompt": "Statements: All circles are squares. No square is triangle. Conclusions: I. No circle being triangle is a possibility. II. No circle is triangle.",
+        "answers": [
+            "Only I follows",
+            "Both follow",
+            "Neither follows",
+            "Only II follows"
+        ],
+        "correct": 3,
+        "explanation": "Circles ⊂ Squares, No square is triangle → No circle is triangle (II definite, not just possibility)."
+    },
+    {
+        "prompt": "Statements: Some A are B. No B is C. Conclusions: I. Some A are C is a possibility. II. No A is C.",
+        "answers": [
+            "Only II follows",
+            "Neither follows",
+            "Both follow",
+            "Only I follows"
+        ],
+        "correct": 3,
+        "explanation": "Some A are B, No B is C. A not B can be C. So some A being C is possible (I). No A is C not definite."
+    },
+    {
+        "prompt": "Statements: All books are papers. Some papers are white. Conclusions: I. All books being white is a possibility. II. All white being books is a possibility.",
+        "answers": [
+            "Only I follows",
+            "Neither follows",
+            "Only II follows",
+            "Both follow"
+        ],
+        "correct": 3,
+        "explanation": "Books ⊂ Papers. Some papers white. Possible both ways."
+    },
+    {
+        "prompt": "Statements: No pen is pencil. All pencils are wood. Conclusions: I. Some pens being wood is a possibility. II. No pen is wood.",
+        "answers": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "Pen-wood relation not given. Some pens can possibly be wood. No pen is wood not definite."
+    },
+    {
+        "prompt": "Statements: All roses are red. All red are colors. Conclusions: I. All roses are colors. II. All colors being roses is a possibility.",
+        "answers": [
+            "Only I follows",
+            "Both follow",
+            "Only II follows",
+            "Neither follows"
+        ],
+        "correct": 1,
+        "explanation": "Roses ⊂ Red ⊂ Colors → I definite. If colors = red = roses, II possible."
+    }
+]

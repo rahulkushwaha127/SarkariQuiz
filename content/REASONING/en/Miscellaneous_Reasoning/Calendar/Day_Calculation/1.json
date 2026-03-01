@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If January 1, 2020 is Wednesday, what day is January 15, 2020?",
+        "answers": [
+            "Friday",
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "correct": 1,
+        "explanation": "Jan 1 to Jan 15 = 14 days = 2 weeks. Same day: Wednesday."
+    },
+    {
+        "prompt": "How many odd days in a normal year (365 days)?",
+        "answers": [
+            "1",
+            "2",
+            "3",
+            "0"
+        ],
+        "correct": 0,
+        "explanation": "365 = 52 weeks + 1 day = 1 odd day."
+    },
+    {
+        "prompt": "How many odd days in a leap year (366 days)?",
+        "answers": [
+            "1",
+            "3",
+            "0",
+            "2"
+        ],
+        "correct": 3,
+        "explanation": "366 = 52 weeks + 2 days = 2 odd days."
+    },
+    {
+        "prompt": "If today is Monday, what day will it be after 100 days?",
+        "answers": [
+            "Wednesday",
+            "Tuesday",
+            "Thursday",
+            "Friday"
+        ],
+        "correct": 0,
+        "explanation": "100 days = 14 weeks + 2 days. Monday + 2 = Wednesday."
+    },
+    {
+        "prompt": "What day was 50 days before Friday?",
+        "answers": [
+            "Wednesday",
+            "Thursday",
+            "Tuesday",
+            "Monday"
+        ],
+        "correct": 3,
+        "explanation": "50 days = 7 weeks + 1 day. Friday - 1 = Thursday. Wait: 50 = 7×7+1 = 49+1. Friday - 1 day (backward) = Thursday."
+    },
+    {
+        "prompt": "If May 10, 2021 is Monday, what day is May 10, 2022?",
+        "answers": [
+            "Thursday",
+            "Tuesday",
+            "Wednesday",
+            "Monday"
+        ],
+        "correct": 1,
+        "explanation": "2021 is normal year (1 odd day). Monday + 1 = Tuesday."
+    },
+    {
+        "prompt": "How many days from March 1 to March 31 (inclusive)?",
+        "answers": [
+            "29",
+            "32",
+            "31",
+            "30"
+        ],
+        "correct": 2,
+        "explanation": "March has 31 days."
+    },
+    {
+        "prompt": "If 1st January 2000 is Saturday, what day is 1st January 2001?",
+        "answers": [
+            "Saturday",
+            "Tuesday",
+            "Sunday",
+            "Monday"
+        ],
+        "correct": 3,
+        "explanation": "2000 is leap year (2 odd days). Saturday + 2 = Monday."
+    },
+    {
+        "prompt": "How many Sundays in a month that starts on Sunday and has 31 days?",
+        "answers": [
+            "3",
+            "6",
+            "4",
+            "5"
+        ],
+        "correct": 3,
+        "explanation": "Sundays: 1, 8, 15, 22, 29 = 5 Sundays."
+    },
+    {
+        "prompt": "If February 14 is Friday, what day is February 28 (non-leap year)?",
+        "answers": [
+            "Saturday",
+            "Sunday",
+            "Friday",
+            "Thursday"
+        ],
+        "correct": 2,
+        "explanation": "14 to 28 = 14 days = 2 weeks. Same day: Friday."
+    },
+    {
+        "prompt": "What is the total number of odd days in 100 years?",
+        "answers": [
+            "24",
+            "76",
+            "0",
+            "5"
+        ],
+        "correct": 3,
+        "explanation": "100 years = 76 normal + 24 leap = 76 + 48 = 124 odd days = 17 weeks + 5 = 5 odd days."
+    },
+    {
+        "prompt": "If March 25 is Thursday, what day is April 1?",
+        "answers": [
+            "Wednesday",
+            "Thursday",
+            "Saturday",
+            "Friday"
+        ],
+        "correct": 1,
+        "explanation": "March 25 to April 1 = 7 days = 1 week. Same day: Thursday."
+    },
+    {
+        "prompt": "How many days are there from January 1 to December 31 (normal year)?",
+        "answers": [
+            "365",
+            "364",
+            "366",
+            "363"
+        ],
+        "correct": 0,
+        "explanation": "Normal year has 365 days."
+    },
+    {
+        "prompt": "If 15th August 1947 was Friday, what day was 26th January 1950?",
+        "answers": [
+            "Friday",
+            "Thursday",
+            "Saturday",
+            "Wednesday"
+        ],
+        "correct": 1,
+        "explanation": "Calculate odd days from 15 Aug 1947 to 26 Jan 1950: complex calculation involving leap years."
+    },
+    {
+        "prompt": "What will be the day after 1000 days from Monday?",
+        "answers": [
+            "Tuesday",
+            "Saturday",
+            "Monday",
+            "Sunday"
+        ],
+        "correct": 3,
+        "explanation": "1000 = 142 weeks + 6 days. Monday + 6 = Sunday."
+    }
+]

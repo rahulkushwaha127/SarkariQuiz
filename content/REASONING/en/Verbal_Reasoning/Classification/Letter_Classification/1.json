@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Find odd one out: A, E, I, B",
+        "answers": [
+            "E",
+            "A",
+            "B",
+            "I"
+        ],
+        "correct": 2,
+        "explanation": "B is consonant, others are vowels."
+    },
+    {
+        "prompt": "Find odd one out: BD, FH, JL, MO",
+        "answers": [
+            "FH",
+            "BD",
+            "JL",
+            "MO"
+        ],
+        "correct": 3,
+        "explanation": "MO has gap of 1, others have gap of 1 but pattern break."
+    },
+    {
+        "prompt": "Find odd one out: ABC, DEF, GHI, JLM",
+        "answers": [
+            "ABC",
+            "JLM",
+            "GHI",
+            "DEF"
+        ],
+        "correct": 1,
+        "explanation": "JLM skips K, others are consecutive."
+    },
+    {
+        "prompt": "Find odd one out: AZ, BY, CX, EW",
+        "answers": [
+            "BY",
+            "CX",
+            "EW",
+            "AZ"
+        ],
+        "correct": 2,
+        "explanation": "EW breaks pattern, should be DW."
+    },
+    {
+        "prompt": "Find odd one out: P, R, T, U",
+        "answers": [
+            "T",
+            "P",
+            "U",
+            "R"
+        ],
+        "correct": 2,
+        "explanation": "U breaks +2 pattern (P, R, T, V)."
+    },
+    {
+        "prompt": "Find odd one out: BCD, FGH, JKL, NPQ",
+        "answers": [
+            "FGH",
+            "NPQ",
+            "BCD",
+            "JKL"
+        ],
+        "correct": 1,
+        "explanation": "NPQ breaks +4 pattern, should be NOP."
+    },
+    {
+        "prompt": "Find odd one out: ACE, BDF, CEG, DFH",
+        "answers": [
+            "CEG",
+            "ACE",
+            "BDF",
+            "DFH"
+        ],
+        "correct": 2,
+        "explanation": "BDF doesn't follow odd letter pattern."
+    },
+    {
+        "prompt": "Find odd one out: XYZ, UVW, RST, OPR",
+        "answers": [
+            "UVW",
+            "XYZ",
+            "RST",
+            "OPR"
+        ],
+        "correct": 3,
+        "explanation": "OPR skips Q, should be OPQ."
+    },
+    {
+        "prompt": "Find odd one out: AA, BB, CD, DD",
+        "answers": [
+            "AA",
+            "DD",
+            "CD",
+            "BB"
+        ],
+        "correct": 2,
+        "explanation": "CD has different letters, others have same letters."
+    },
+    {
+        "prompt": "Find odd one out: AEIOU, BCDFG, HJKLM, NPQRS",
+        "answers": [
+            "AEIOU",
+            "BCDFG",
+            "HJKLM",
+            "NPQRS"
+        ],
+        "correct": 0,
+        "explanation": "AEIOU are vowels, others are consonants."
+    },
+    {
+        "prompt": "Find odd one out: MN, PQ, ST, WX",
+        "answers": [
+            "WX",
+            "MN",
+            "ST",
+            "PQ"
+        ],
+        "correct": 0,
+        "explanation": "Gap of 3 letters between pairs, WX doesn't fit."
+    },
+    {
+        "prompt": "Find odd one out: AB, EF, IJ, OP",
+        "answers": [
+            "IJ",
+            "EF",
+            "AB",
+            "OP"
+        ],
+        "correct": 3,
+        "explanation": "OP doesn't follow +4 starting pattern."
+    },
+    {
+        "prompt": "Find odd one out: ACD, EGH, IKL, MOP",
+        "answers": [
+            "EGH",
+            "ACD",
+            "MOP",
+            "IKL"
+        ],
+        "correct": 0,
+        "explanation": "EGH skips F, breaking pattern."
+    },
+    {
+        "prompt": "Find odd one out: ZY, WV, TS, QO",
+        "answers": [
+            "WV",
+            "ZY",
+            "QO",
+            "TS"
+        ],
+        "correct": 2,
+        "explanation": "QO skips P, should be QP."
+    },
+    {
+        "prompt": "Find odd one out: B, D, F, G",
+        "answers": [
+            "B",
+            "F",
+            "D",
+            "G"
+        ],
+        "correct": 3,
+        "explanation": "G breaks +2 pattern (B, D, F, H)."
+    }
+]

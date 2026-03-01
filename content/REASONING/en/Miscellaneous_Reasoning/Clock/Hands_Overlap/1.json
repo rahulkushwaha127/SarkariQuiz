@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "How many times do clock hands overlap in 12 hours?",
+        "answers": [
+            "11 times",
+            "12 times",
+            "24 times",
+            "10 times"
+        ],
+        "correct": 0,
+        "explanation": "Hands overlap 11 times in 12 hours (not 12, skip between 11 and 12)."
+    },
+    {
+        "prompt": "How many times do clock hands overlap in 24 hours?",
+        "answers": [
+            "11 times",
+            "24 times",
+            "22 times",
+            "12 times"
+        ],
+        "correct": 2,
+        "explanation": "11 times per 12 hours × 2 = 22 times in 24 hours."
+    },
+    {
+        "prompt": "At what time after 3:00 do hands first overlap?",
+        "answers": [
+            "Approximately 3:16",
+            "3:20",
+            "3:00",
+            "3:15"
+        ],
+        "correct": 0,
+        "explanation": "Formula: 30H × 12\/11 minutes past H. At 3: 3×60×12\/11 ÷ 12 = 16.36 min ≈ 3:16."
+    },
+    {
+        "prompt": "Between 2:00 and 3:00, when do hands overlap?",
+        "answers": [
+            "2:00",
+            "2:30",
+            "2:15",
+            "About 2:10:54"
+        ],
+        "correct": 3,
+        "explanation": "Overlap at approximately 10 minutes 54 seconds past 2."
+    },
+    {
+        "prompt": "Do hands overlap between 11:00 and 12:00?",
+        "answers": [
+            "No",
+            "At exactly 11:30",
+            "Yes, just before 12:00",
+            "At 11:00"
+        ],
+        "correct": 2,
+        "explanation": "Hands overlap at approximately 11:59+ (very close to 12:00)."
+    },
+    {
+        "prompt": "At 12:00, are the hands overlapping?",
+        "answers": [
+            "Depends on clock",
+            "Only minute hand visible",
+            "Yes",
+            "No"
+        ],
+        "correct": 2,
+        "explanation": "At 12:00, both hands point to 12 = overlap."
+    },
+    {
+        "prompt": "Time between consecutive overlaps is approximately?",
+        "answers": [
+            "65 5\/11 minutes",
+            "70 minutes",
+            "60 minutes",
+            "55 minutes"
+        ],
+        "correct": 0,
+        "explanation": "12 hours \/ 11 overlaps = 65.45 minutes between overlaps."
+    },
+    {
+        "prompt": "Between 4:00 and 5:00, at what time do hands overlap?",
+        "answers": [
+            "4:15",
+            "4:20",
+            "About 4:21:49",
+            "4:25"
+        ],
+        "correct": 2,
+        "explanation": "Approximately 21 minutes 49 seconds past 4."
+    },
+    {
+        "prompt": "Why don't hands overlap 12 times in 12 hours?",
+        "answers": [
+            "They do overlap 12 times",
+            "Minute hand skips",
+            "Hour hand moves too fast",
+            "Minute hand 'catches up' only 11 times due to hour hand movement"
+        ],
+        "correct": 3,
+        "explanation": "Hour hand also moves, so minute hand catches up fewer times."
+    },
+    {
+        "prompt": "First overlap after midnight (12:00)?",
+        "answers": [
+            "1:00",
+            "1:15",
+            "1:30",
+            "Approximately 1:05:27"
+        ],
+        "correct": 3,
+        "explanation": "First overlap at about 5 minutes 27 seconds past 1."
+    },
+    {
+        "prompt": "At what time between 6:00 and 7:00 do hands overlap?",
+        "answers": [
+            "6:35",
+            "6:30",
+            "About 6:32:43",
+            "6:25"
+        ],
+        "correct": 2,
+        "explanation": "Approximately 32 minutes 43 seconds past 6."
+    },
+    {
+        "prompt": "Between 9:00 and 10:00, hands overlap at?",
+        "answers": [
+            "9:55",
+            "About 9:49:05",
+            "9:45",
+            "9:50"
+        ],
+        "correct": 1,
+        "explanation": "Approximately 49 minutes 5 seconds past 9."
+    },
+    {
+        "prompt": "If a clock runs fast (gains time), overlaps occur?",
+        "answers": [
+            "More frequently than normal",
+            "Same frequency",
+            "Less frequently",
+            "Never"
+        ],
+        "correct": 0,
+        "explanation": "Fast clock completes cycles quicker, more overlaps per real hour."
+    },
+    {
+        "prompt": "In a day, hands overlap at exactly the same position (e.g., 12:00) how many times?",
+        "answers": [
+            "12 times",
+            "1 time",
+            "24 times",
+            "2 times (12:00 AM and 12:00 PM)"
+        ],
+        "correct": 3,
+        "explanation": "Exactly at 12 o'clock position: twice (noon and midnight)."
+    },
+    {
+        "prompt": "Between 7:00 and 8:00, when do hands overlap?",
+        "answers": [
+            "About 7:38:11",
+            "7:40",
+            "7:30",
+            "7:35"
+        ],
+        "correct": 0,
+        "explanation": "Approximately 38 minutes 11 seconds past 7."
+    }
+]

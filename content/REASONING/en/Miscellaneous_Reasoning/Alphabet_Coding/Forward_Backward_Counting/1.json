@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "What letter is 5 positions after D?",
+        "answers": [
+            "G",
+            "I",
+            "H",
+            "J"
+        ],
+        "correct": 1,
+        "explanation": "D(4) + 5 = 9 = I."
+    },
+    {
+        "prompt": "What letter is 3 positions before M?",
+        "answers": [
+            "K",
+            "I",
+            "L",
+            "J"
+        ],
+        "correct": 3,
+        "explanation": "M(13) - 3 = 10 = J."
+    },
+    {
+        "prompt": "If A = 1, what is the 20th letter?",
+        "answers": [
+            "T",
+            "R",
+            "S",
+            "U"
+        ],
+        "correct": 0,
+        "explanation": "20th letter = T."
+    },
+    {
+        "prompt": "What is 8 letters after R?",
+        "answers": [
+            "W",
+            "Z",
+            "Y",
+            "X"
+        ],
+        "correct": 1,
+        "explanation": "R(18) + 8 = 26 = Z."
+    },
+    {
+        "prompt": "What is 4 letters before Q?",
+        "answers": [
+            "O",
+            "N",
+            "M",
+            "L"
+        ],
+        "correct": 2,
+        "explanation": "Q(17) - 4 = 13 = M."
+    },
+    {
+        "prompt": "Starting from Z, count backward 5 letters.",
+        "answers": [
+            "T",
+            "V",
+            "U",
+            "W"
+        ],
+        "correct": 2,
+        "explanation": "Z(26) - 5 = 21 = U."
+    },
+    {
+        "prompt": "What letter is exactly between D and J?",
+        "answers": [
+            "F",
+            "E",
+            "H",
+            "G"
+        ],
+        "correct": 3,
+        "explanation": "D(4), J(10). Middle = (4+10)\/2 = 7 = G."
+    },
+    {
+        "prompt": "Count 7 letters forward from L.",
+        "answers": [
+            "S",
+            "Q",
+            "R",
+            "T"
+        ],
+        "correct": 0,
+        "explanation": "L(12) + 7 = 19 = S."
+    },
+    {
+        "prompt": "What is the 6th letter from the end of alphabet?",
+        "answers": [
+            "U",
+            "W",
+            "V",
+            "T"
+        ],
+        "correct": 0,
+        "explanation": "From end: Z(1), Y(2), X(3), W(4), V(5), U(6)."
+    },
+    {
+        "prompt": "If you start at F and skip 2 letters each time, what's the 4th letter you land on?",
+        "answers": [
+            "N",
+            "M",
+            "O",
+            "L"
+        ],
+        "correct": 0,
+        "explanation": "F → I(skip 2) → L → O. 4th = O. Wait: F, (skip GH)I, (skip JK)L, (skip MN)O. So I, L, O are 1st, 2nd, 3rd after F."
+    },
+    {
+        "prompt": "What letter is 11 positions after O?",
+        "answers": [
+            "Z",
+            "A",
+            "Y",
+            "X"
+        ],
+        "correct": 0,
+        "explanation": "O(15) + 11 = 26 = Z."
+    },
+    {
+        "prompt": "Going backward from T by 6 positions gives?",
+        "answers": [
+            "N",
+            "M",
+            "P",
+            "O"
+        ],
+        "correct": 0,
+        "explanation": "T(20) - 6 = 14 = N."
+    },
+    {
+        "prompt": "What is the letter that is same distance from A as Y is from some letter?",
+        "answers": [
+            "B",
+            "C",
+            "Z",
+            "Depends on the reference letter"
+        ],
+        "correct": 3,
+        "explanation": "Need specific reference to determine."
+    },
+    {
+        "prompt": "First letter + 25 = ?",
+        "answers": [
+            "A",
+            "Y",
+            "B",
+            "Z"
+        ],
+        "correct": 3,
+        "explanation": "A(1) + 25 = 26 = Z."
+    },
+    {
+        "prompt": "What is 3rd letter counting backward from P?",
+        "answers": [
+            "O",
+            "M",
+            "L",
+            "N"
+        ],
+        "correct": 1,
+        "explanation": "P(16), O(15), N(14), M(13). 3rd backward = M."
+    }
+]

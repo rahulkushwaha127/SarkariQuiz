@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "5 persons A, B, C, D, E sit in a row facing North. C is to immediate left of A. B is at extreme right. E is between D and C. Who is in the middle?",
+        "answers": [
+            "E",
+            "A",
+            "C",
+            "D"
+        ],
+        "correct": 0,
+        "explanation": "Order: D-E-C-A-B. E is in the middle (3rd position)."
+    },
+    {
+        "prompt": "In a row of 6 facing North: P at left end, S at right end. Q is 2nd from left, R is 2nd from right. Where is T if U is between Q and R?",
+        "answers": [
+            "Cannot determine",
+            "Between U and R",
+            "At one end",
+            "Between Q and U"
+        ],
+        "correct": 0,
+        "explanation": "P-Q-_-_-R-S. U between Q and R. T must be in remaining spot with U, but position uncertain."
+    },
+    {
+        "prompt": "A sits 3rd from left. B sits 2nd from right in a row of 6. How many sit between A and B?",
+        "answers": [
+            "2",
+            "0",
+            "3",
+            "1"
+        ],
+        "correct": 1,
+        "explanation": "In row of 6: Position 3 from left = 3rd. Position 2 from right = 5th. Between 3 and 5: position 4 only. So 1 person between them."
+    },
+    {
+        "prompt": "6 friends sit in a row facing North. M is to the right of L. N is at extreme left. O is between L and P. P is 2nd from right. Who is at extreme right?",
+        "answers": [
+            "Q",
+            "M",
+            "O",
+            "L"
+        ],
+        "correct": 0,
+        "explanation": "P is 2nd from right. Someone at extreme right. M is right of L. Arrangement: N-_-L-O-P-Q (Q at right)."
+    },
+    {
+        "prompt": "In a row: A is 4th from left, D is 4th from right. Total 10 people. How many between A and D?",
+        "answers": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ],
+        "correct": 1,
+        "explanation": "A at position 4. D at position 10-4+1=7 from left. Between 4 and 7: positions 5,6 = 2 people."
+    },
+    {
+        "prompt": "P, Q, R, S, T sit facing South. P at left end. T at right end. S is next to both Q and R. Who is in the middle?",
+        "answers": [
+            "Q",
+            "Cannot say",
+            "S",
+            "R"
+        ],
+        "correct": 2,
+        "explanation": "P-Q-S-R-T or P-R-S-Q-T. S is in middle in both cases."
+    },
+    {
+        "prompt": "8 people in a row facing North. A is 3rd from left. B is 3rd from right. How many between them?",
+        "answers": [
+            "1",
+            "0",
+            "2",
+            "3"
+        ],
+        "correct": 2,
+        "explanation": "A at 3, B at 8-3+1=6. Between 3 and 6: 4,5 = 2 people."
+    },
+    {
+        "prompt": "6 persons sit in a row. X is not at end. Y is immediate left of X. Z is 2nd from right. W is at one end. If V is between W and Y, who is at left end?",
+        "answers": [
+            "Y",
+            "Cannot say",
+            "W",
+            "V"
+        ],
+        "correct": 2,
+        "explanation": "W at one end. V between W and Y. Y immediate left of X. W could be at left end."
+    },
+    {
+        "prompt": "In a row of 7 facing North: A at left end, G at right end. C is exactly in middle. B is between A and C. Where could D be?",
+        "answers": [
+            "At left end",
+            "Between C and G",
+            "Between A and B",
+            "At right end"
+        ],
+        "correct": 1,
+        "explanation": "A-B-_-C-_-_-G. D, E, F in positions 3, 5, 6. D likely between C and G."
+    },
+    {
+        "prompt": "5 children sit in a row facing East. Raj is between Simran and Tara. Usha is at one end. Vikram is next to Usha. If Tara is at other end, Raj's position?",
+        "answers": [
+            "3rd (middle)",
+            "4th from left",
+            "Cannot determine",
+            "2nd from left"
+        ],
+        "correct": 0,
+        "explanation": "Usha-Vikram at one end. Tara at other. Raj between Simran and Tara. Tara-Simran-Raj or Raj in middle."
+    },
+    {
+        "prompt": "A, B, C, D, E in a row. A is not at end. B is right of A. E is left of A. D is at right end. C's position?",
+        "answers": [
+            "Left end",
+            "Middle",
+            "2nd from left",
+            "2nd from right"
+        ],
+        "correct": 0,
+        "explanation": "D at right end. A not at end, E left of A, B right of A. Order: C-E-A-B-D. C at left end."
+    },
+    {
+        "prompt": "6 persons facing North: F at left end, A at right end. D is 3rd from left. C is between D and A. Who is 2nd from left?",
+        "answers": [
+            "Cannot determine",
+            "D",
+            "E",
+            "B"
+        ],
+        "correct": 0,
+        "explanation": "F-?-D-?-C-A. B and E in positions 2 and 4. Cannot determine which is 2nd."
+    },
+    {
+        "prompt": "In row of 5: M sits at one end. N sits 2nd from right end. O is between M and N. L is at right end. Who is in position 2?",
+        "answers": [
+            "Cannot say",
+            "N",
+            "O",
+            "P"
+        ],
+        "correct": 2,
+        "explanation": "L at right end. N is 2nd from right = position 4. M at left end. O between M and N. M-O-_-N-L. O at position 2."
+    },
+    {
+        "prompt": "7 people sit facing South. X is 4th from left. Y is 4th from right. What is Y's position from left?",
+        "answers": [
+            "4th",
+            "6th",
+            "5th",
+            "3rd"
+        ],
+        "correct": 0,
+        "explanation": "In row of 7: 4th from right = 7-4+1 = 4th from left. So Y is also 4th from left = same as X. They're same person or adjacent."
+    },
+    {
+        "prompt": "A sits 2nd from left. B sits 3rd from right in a row of 7. Positions between A and B?",
+        "answers": [
+            "2",
+            "3",
+            "1",
+            "4"
+        ],
+        "correct": 0,
+        "explanation": "A at 2. B at 7-3+1=5. Between 2 and 5: 3,4 = 2 positions."
+    }
+]

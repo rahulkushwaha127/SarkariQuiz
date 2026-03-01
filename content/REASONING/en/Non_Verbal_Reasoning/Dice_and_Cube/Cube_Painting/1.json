@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A cube is painted red on all faces, then cut into 27 smaller cubes. How many small cubes have 3 faces painted?",
+        "answers": [
+            "12",
+            "1",
+            "8",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "Corner cubes have 3 painted faces. Cube has 8 corners."
+    },
+    {
+        "prompt": "Same cube (3×3×3) cut. How many small cubes have exactly 2 faces painted?",
+        "answers": [
+            "8",
+            "12",
+            "6",
+            "24"
+        ],
+        "correct": 1,
+        "explanation": "Edge cubes (not corners) have 2 painted faces. 12 edges × 1 cube each = 12."
+    },
+    {
+        "prompt": "3×3×3 painted cube. How many small cubes have exactly 1 face painted?",
+        "answers": [
+            "12",
+            "6",
+            "8",
+            "24"
+        ],
+        "correct": 1,
+        "explanation": "Center of each face. 6 faces × 1 center cube = 6."
+    },
+    {
+        "prompt": "3×3×3 painted cube. How many small cubes have 0 faces painted?",
+        "answers": [
+            "0",
+            "6",
+            "8",
+            "1"
+        ],
+        "correct": 3,
+        "explanation": "Only the center cube (completely inside) has no paint."
+    },
+    {
+        "prompt": "A 4×4×4 cube painted and cut. Cubes with 3 painted faces?",
+        "answers": [
+            "12",
+            "16",
+            "8",
+            "24"
+        ],
+        "correct": 2,
+        "explanation": "Still 8 corners, regardless of cube size."
+    },
+    {
+        "prompt": "4×4×4 painted cube. Cubes with 2 painted faces?",
+        "answers": [
+            "24",
+            "36",
+            "12",
+            "48"
+        ],
+        "correct": 0,
+        "explanation": "12 edges × 2 cubes per edge = 24."
+    },
+    {
+        "prompt": "4×4×4 painted cube. Cubes with 1 painted face?",
+        "answers": [
+            "24",
+            "36",
+            "16",
+            "6"
+        ],
+        "correct": 0,
+        "explanation": "6 faces × 4 center cubes per face = 24."
+    },
+    {
+        "prompt": "4×4×4 painted cube. Cubes with no paint?",
+        "answers": [
+            "12",
+            "1",
+            "8",
+            "16"
+        ],
+        "correct": 2,
+        "explanation": "Inner cube of 2×2×2 = 8 unpainted cubes."
+    },
+    {
+        "prompt": "2×2×2 cube painted. Cubes with 3 painted faces?",
+        "answers": [
+            "6",
+            "4",
+            "8",
+            "0"
+        ],
+        "correct": 2,
+        "explanation": "All 8 small cubes are corners, each with 3 faces painted."
+    },
+    {
+        "prompt": "Cube painted only on top and bottom, cut 3×3×3. How many with 2 painted faces?",
+        "answers": [
+            "18",
+            "12",
+            "0 (top-bottom edges not shared)",
+            "9"
+        ],
+        "correct": 2,
+        "explanation": "Top and bottom don't share edges. Check: corners have 2 faces? No, only 1 each (top or bottom). Actually 0 have 2 faces from just top+bottom painting."
+    },
+    {
+        "prompt": "Cube painted on 4 sides (not top\/bottom), cut 3×3×3. Cubes with 0 painted faces?",
+        "answers": [
+            "9",
+            "6",
+            "1",
+            "3 (top and bottom middle columns)"
+        ],
+        "correct": 3,
+        "explanation": "Top and bottom face centers are unpainted. That's 2 + inner = 3."
+    },
+    {
+        "prompt": "5×5×5 painted cube. Corner cubes?",
+        "answers": [
+            "8",
+            "125",
+            "12",
+            "20"
+        ],
+        "correct": 0,
+        "explanation": "Any cube has exactly 8 corners."
+    },
+    {
+        "prompt": "5×5×5 cube. Cubes with exactly 2 faces painted?",
+        "answers": [
+            "12",
+            "48",
+            "24",
+            "36"
+        ],
+        "correct": 3,
+        "explanation": "12 edges × 3 cubes per edge = 36."
+    },
+    {
+        "prompt": "For n×n×n cube: formula for 3-face painted cubes?",
+        "answers": [
+            "Always 8",
+            "n³",
+            "6n²",
+            "12n"
+        ],
+        "correct": 0,
+        "explanation": "Corners = 8, constant for any n ≥ 2."
+    },
+    {
+        "prompt": "For n×n×n cube: formula for 2-face painted cubes?",
+        "answers": [
+            "6(n-2)²",
+            "12(n-2)",
+            "12n",
+            "8"
+        ],
+        "correct": 1,
+        "explanation": "12 edges, each has (n-2) non-corner cubes."
+    }
+]

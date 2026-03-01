@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Fill: ab_ab_ab_ab",
+        "answers": [
+            "abba",
+            "aabb",
+            "baba",
+            "abab"
+        ],
+        "correct": 3,
+        "explanation": "Pattern: ab repeats. Fill: ab[a]ab[a]ab[a]ab = abab abab abab."
+    },
+    {
+        "prompt": "Complete: aab_aab_aa",
+        "answers": [
+            "baba",
+            "aabb",
+            "baab",
+            "abba"
+        ],
+        "correct": 2,
+        "explanation": "Pattern: aabb repeats. aab[b]aab[b]aa = aabb aabb aa..."
+    },
+    {
+        "prompt": "Fill blanks: _bc_bc_bcabc",
+        "answers": [
+            "abc",
+            "aaa",
+            "cab",
+            "bca"
+        ],
+        "correct": 1,
+        "explanation": "Pattern: abc repeats. [a]bc[a]bc[a]bcabc."
+    },
+    {
+        "prompt": "Complete: ab_cab_abcab_",
+        "answers": [
+            "caba",
+            "bcab",
+            "abca",
+            "cabc"
+        ],
+        "correct": 3,
+        "explanation": "Pattern: abc repeats. ab[c]cab[c]abcab[c]."
+    },
+    {
+        "prompt": "Fill: _aba_aba_aba",
+        "answers": [
+            "bbb",
+            "aaa",
+            "bab",
+            "aba"
+        ],
+        "correct": 1,
+        "explanation": "Pattern: aba repeats. [a]aba[a]aba[a]aba = aaba aaba aaba."
+    },
+    {
+        "prompt": "Complete: aab_baa_aabba",
+        "answers": [
+            "bbaa",
+            "abba",
+            "aabb",
+            "baab"
+        ],
+        "correct": 3,
+        "explanation": "Check pattern for consistent series."
+    },
+    {
+        "prompt": "Fill blanks: _bc_ca_ab",
+        "answers": [
+            "bca",
+            "aaa",
+            "abcabc",
+            "abc"
+        ],
+        "correct": 2,
+        "explanation": "Pattern appears to be abc abc abc. Fill: [a]bc[a]ca[b]ab... or variation."
+    },
+    {
+        "prompt": "Complete: ab_d_bcd_bc_abcd",
+        "answers": [
+            "cdab",
+            "caad",
+            "dcba",
+            "abcd"
+        ],
+        "correct": 1,
+        "explanation": "Pattern: abcd repeats. ab[c]d[a]bcd[a]bc[d]abcd."
+    },
+    {
+        "prompt": "Fill: aa_a_a_aaa",
+        "answers": [
+            "aab",
+            "aba",
+            "aaa",
+            "bbb"
+        ],
+        "correct": 2,
+        "explanation": "All a's: aa[a]a[a]a[a]aaa."
+    },
+    {
+        "prompt": "Complete: _b_abb_bba",
+        "answers": [
+            "aaab",
+            "abba",
+            "aaba",
+            "bbab"
+        ],
+        "correct": 2,
+        "explanation": "Pattern analysis needed. [a]b[a]abb[a]bba."
+    },
+    {
+        "prompt": "Fill blanks: ab__abab__ab",
+        "answers": [
+            "baba",
+            "aabb",
+            "baab",
+            "abab"
+        ],
+        "correct": 3,
+        "explanation": "Pattern: abab repeats. ab[ab]abab[ab]ab."
+    },
+    {
+        "prompt": "Complete: _bc_bc_bcabc",
+        "answers": [
+            "abc",
+            "cba",
+            "bac",
+            "aaa"
+        ],
+        "correct": 3,
+        "explanation": "[a]bc[a]bc[a]bcabc = abc repeated."
+    },
+    {
+        "prompt": "Fill: a_ba_ba_bab",
+        "answers": [
+            "bab",
+            "aba",
+            "bbb",
+            "aaa"
+        ],
+        "correct": 2,
+        "explanation": "a[b]ba[b]ba[b]bab = ab repeated."
+    },
+    {
+        "prompt": "Complete: aa_bb_aa_bb",
+        "answers": [
+            "abab",
+            "aabb",
+            "bbaa",
+            "baba"
+        ],
+        "correct": 0,
+        "explanation": "aa[a]bb[b]aa[a]bb = aaa bbb aaa bbb or aabb repeating."
+    },
+    {
+        "prompt": "Fill: __bc__bcabcabc",
+        "answers": [
+            "aaaa",
+            "bcab",
+            "abca",
+            "abab"
+        ],
+        "correct": 3,
+        "explanation": "[ab]bc[ab]bcabcabc = abc pattern."
+    }
+]

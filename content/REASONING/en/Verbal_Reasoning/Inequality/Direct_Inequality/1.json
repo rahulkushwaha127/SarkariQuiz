@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "P > Q > R > S. Which is true?",
+        "answers": [
+            "P > S",
+            "R > P",
+            "S > P",
+            "P = S"
+        ],
+        "correct": 0,
+        "explanation": "P > Q > R > S means P is greatest. P > S is true."
+    },
+    {
+        "prompt": "A ≥ B = C > D. Which is definitely true?",
+        "answers": [
+            "A = D",
+            "B < A",
+            "A > D",
+            "C ≥ D"
+        ],
+        "correct": 2,
+        "explanation": "A ≥ B = C > D. So A ≥ C > D. Thus A > D definitely."
+    },
+    {
+        "prompt": "M < N ≤ O = P. Which is true?",
+        "answers": [
+            "M = P",
+            "P < N",
+            "O < M",
+            "M < P"
+        ],
+        "correct": 3,
+        "explanation": "M < N ≤ O = P. So M < N ≤ P. Thus M < P."
+    },
+    {
+        "prompt": "X ≥ Y > Z, Z ≥ W. Which is true?",
+        "answers": [
+            "X = W",
+            "X > W",
+            "W > X",
+            "Y < W"
+        ],
+        "correct": 1,
+        "explanation": "X ≥ Y > Z ≥ W. So X > W."
+    },
+    {
+        "prompt": "A > B, B ≥ C, C = D. Conclusions: I. A > D II. B ≥ D",
+        "answers": [
+            "Both",
+            "Neither",
+            "Only I",
+            "Only II"
+        ],
+        "correct": 0,
+        "explanation": "A > B ≥ C = D. So A > D and B ≥ D. Both true."
+    },
+    {
+        "prompt": "P ≤ Q < R, R ≤ S. Which is false?",
+        "answers": [
+            "P < S",
+            "P ≤ S",
+            "S < P",
+            "Q < S"
+        ],
+        "correct": 2,
+        "explanation": "P ≤ Q < R ≤ S. So P < S. S < P is false."
+    },
+    {
+        "prompt": "L > M = N < O. Conclusions: I. L > N II. O > M",
+        "answers": [
+            "Both",
+            "Only II",
+            "Only I",
+            "Neither"
+        ],
+        "correct": 0,
+        "explanation": "L > M = N. So L > N (I). N < O, M = N, so O > M (II). Both true."
+    },
+    {
+        "prompt": "A ≥ B > C, D ≥ C. Conclusions: I. A > D II. D ≤ B",
+        "answers": [
+            "Neither",
+            "Both",
+            "Only I",
+            "Only II"
+        ],
+        "correct": 0,
+        "explanation": "A-D and B-D relations not determined. Neither definite."
+    },
+    {
+        "prompt": "J < K ≤ L > M. Which is true?",
+        "answers": [
+            "L < J",
+            "J > M",
+            "J < L",
+            "M > K"
+        ],
+        "correct": 2,
+        "explanation": "J < K ≤ L. So J < L is definite."
+    },
+    {
+        "prompt": "P = Q ≥ R > S. Conclusions: I. P > S II. Q ≥ S",
+        "answers": [
+            "Only I",
+            "Both",
+            "Neither",
+            "Only II"
+        ],
+        "correct": 1,
+        "explanation": "P = Q ≥ R > S. So P > S (I) and Q > S (II). Both true."
+    },
+    {
+        "prompt": "A < B ≤ C < D. Which is definitely true?",
+        "answers": [
+            "D ≤ B",
+            "C > A",
+            "B = D",
+            "A < D"
+        ],
+        "correct": 3,
+        "explanation": "A < B ≤ C < D. Chain shows A < D."
+    },
+    {
+        "prompt": "M ≥ N > O = P ≤ Q. Conclusions: I. M > P II. N ≥ Q",
+        "answers": [
+            "Only II",
+            "Only I",
+            "Neither",
+            "Both"
+        ],
+        "correct": 1,
+        "explanation": "M ≥ N > O = P. So M > P (I). N and Q not directly comparable (II uncertain)."
+    },
+    {
+        "prompt": "X ≤ Y = Z ≥ W. Which is true?",
+        "answers": [
+            "W > Y",
+            "X ≤ Z",
+            "X > W",
+            "Z < X"
+        ],
+        "correct": 1,
+        "explanation": "X ≤ Y = Z. So X ≤ Z."
+    },
+    {
+        "prompt": "A > B ≥ C > D, E < D. Conclusions: I. A > E II. C > E",
+        "answers": [
+            "Both",
+            "Neither",
+            "Only I",
+            "Only II"
+        ],
+        "correct": 0,
+        "explanation": "A > B ≥ C > D > E. So A > E and C > E. Both true."
+    },
+    {
+        "prompt": "P ≥ Q, Q > R, R ≥ S. Which is true?",
+        "answers": [
+            "P > S",
+            "P = S",
+            "S ≥ P",
+            "R > P"
+        ],
+        "correct": 0,
+        "explanation": "P ≥ Q > R ≥ S. So P > S."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A square paper is folded once horizontally, and a hole is punched in center. When unfolded, how many holes?",
+        "answers": [
+            "3",
+            "4",
+            "1",
+            "2"
+        ],
+        "correct": 3,
+        "explanation": "One fold creates 2 layers. One punch through both = 2 holes when unfolded."
+    },
+    {
+        "prompt": "A paper is folded twice (both horizontal), then one hole punched. Holes when unfolded?",
+        "answers": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "correct": 3,
+        "explanation": "2 folds = 4 layers. One punch = 4 holes."
+    },
+    {
+        "prompt": "Square paper folded diagonally once, corner cut off. Shape when unfolded?",
+        "answers": [
+            "Rhombus\/diamond shape hole",
+            "Triangle hole",
+            "Circle",
+            "Square hole"
+        ],
+        "correct": 0,
+        "explanation": "Diagonal fold + corner cut creates diamond\/rhombus shape when unfolded."
+    },
+    {
+        "prompt": "Paper folded once vertically, once horizontally. Punch in center. How many holes?",
+        "answers": [
+            "2",
+            "4",
+            "1",
+            "8"
+        ],
+        "correct": 1,
+        "explanation": "2 perpendicular folds = 4 layers. One punch = 4 holes."
+    },
+    {
+        "prompt": "Circular paper folded in half. Semicircle cut at folded edge. Shape when unfolded?",
+        "answers": [
+            "Full circle cut out",
+            "No cut",
+            "Crescent",
+            "Semicircle"
+        ],
+        "correct": 0,
+        "explanation": "Cutting at fold line creates symmetric cut - full circle when unfolded."
+    },
+    {
+        "prompt": "Square folded into quarter (2 folds). Corner opposite to folded corner is cut. How many corners cut when unfolded?",
+        "answers": [
+            "0",
+            "1",
+            "4",
+            "2"
+        ],
+        "correct": 1,
+        "explanation": "Corner opposite to multiple folds = only 1 corner cut (the actual corner)."
+    },
+    {
+        "prompt": "Paper folded once. Two holes punched. Holes when unfolded?",
+        "answers": [
+            "4",
+            "6",
+            "3",
+            "2"
+        ],
+        "correct": 0,
+        "explanation": "1 fold = 2 layers. 2 punches × 2 layers = 4 holes."
+    },
+    {
+        "prompt": "Rectangle folded lengthwise (hotdog fold). Hole at one end. Pattern when unfolded?",
+        "answers": [
+            "4 holes",
+            "2 holes at opposite ends",
+            "1 hole",
+            "2 holes at same end, mirrored"
+        ],
+        "correct": 3,
+        "explanation": "Fold creates mirror. Hole at end appears on both sides when unfolded."
+    },
+    {
+        "prompt": "Square paper, 3 folds (into 1\/8th). One punch. Maximum possible holes?",
+        "answers": [
+            "4",
+            "3",
+            "8",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "3 folds = 8 layers (if proper folding). 1 punch through all = 8 holes."
+    },
+    {
+        "prompt": "Paper folded, triangular piece cut from middle of folded edge. Shape of cutout when unfolded?",
+        "answers": [
+            "Triangle",
+            "Rectangle",
+            "Diamond\/rhombus",
+            "Square"
+        ],
+        "correct": 2,
+        "explanation": "Cut at fold creates symmetric shape - diamond when unfolded."
+    },
+    {
+        "prompt": "Fold paper twice into quarter. Cut corner where all folds meet. What happens?",
+        "answers": [
+            "No change",
+            "Corner removed",
+            "Paper falls apart",
+            "Hole in center of paper"
+        ],
+        "correct": 3,
+        "explanation": "Corner with all folds = center of original paper. Cutting creates center hole."
+    },
+    {
+        "prompt": "Paper folded once. Punch near the fold. Where do holes appear when unfolded?",
+        "answers": [
+            "Same spot",
+            "Far apart",
+            "Close together, mirrored across fold line",
+            "Only one hole"
+        ],
+        "correct": 2,
+        "explanation": "Punch near fold creates two holes close together, symmetric to fold line."
+    },
+    {
+        "prompt": "Square paper folded diagonally twice. Shape is now?",
+        "answers": [
+            "Rectangle",
+            "Parallelogram",
+            "Right triangle",
+            "Square"
+        ],
+        "correct": 2,
+        "explanation": "Two diagonal folds of square = smaller right triangle."
+    },
+    {
+        "prompt": "Paper folded, then unfolded without cutting. Visible marks?",
+        "answers": [
+            "Holes",
+            "Fold crease lines",
+            "Tears",
+            "Nothing"
+        ],
+        "correct": 1,
+        "explanation": "Folding leaves crease marks."
+    },
+    {
+        "prompt": "Rectangular paper folded hamburger style (short edge to short edge). What shape?",
+        "answers": [
+            "Pentagon",
+            "Triangle",
+            "Square",
+            "Smaller rectangle"
+        ],
+        "correct": 3,
+        "explanation": "Folding short edge to short edge gives smaller rectangle."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Find odd one out: Apple, Mango, Banana, Potato",
+        "answers": [
+            "Mango",
+            "Apple",
+            "Banana",
+            "Potato"
+        ],
+        "correct": 3,
+        "explanation": "Potato is vegetable, others are fruits."
+    },
+    {
+        "prompt": "Find odd one out: Car, Bus, Train, Bicycle",
+        "answers": [
+            "Bicycle",
+            "Bus",
+            "Car",
+            "Train"
+        ],
+        "correct": 0,
+        "explanation": "Bicycle has no engine, others have engines."
+    },
+    {
+        "prompt": "Find odd one out: Rose, Lotus, Jasmine, Cactus",
+        "answers": [
+            "Jasmine",
+            "Cactus",
+            "Lotus",
+            "Rose"
+        ],
+        "correct": 1,
+        "explanation": "Cactus is not a flower, others are flowers."
+    },
+    {
+        "prompt": "Find odd one out: Mercury, Venus, Moon, Mars",
+        "answers": [
+            "Mercury",
+            "Mars",
+            "Venus",
+            "Moon"
+        ],
+        "correct": 3,
+        "explanation": "Moon is a satellite, others are planets."
+    },
+    {
+        "prompt": "Find odd one out: January, March, April, July",
+        "answers": [
+            "January",
+            "July",
+            "April",
+            "March"
+        ],
+        "correct": 2,
+        "explanation": "April has 30 days, others have 31 days."
+    },
+    {
+        "prompt": "Find odd one out: Pen, Pencil, Eraser, Book",
+        "answers": [
+            "Book",
+            "Pen",
+            "Pencil",
+            "Eraser"
+        ],
+        "correct": 0,
+        "explanation": "Book is for reading, others are writing tools."
+    },
+    {
+        "prompt": "Find odd one out: Cow, Goat, Lion, Sheep",
+        "answers": [
+            "Goat",
+            "Cow",
+            "Lion",
+            "Sheep"
+        ],
+        "correct": 2,
+        "explanation": "Lion is carnivore, others are herbivores."
+    },
+    {
+        "prompt": "Find odd one out: Delhi, Mumbai, Paris, Chennai",
+        "answers": [
+            "Delhi",
+            "Paris",
+            "Chennai",
+            "Mumbai"
+        ],
+        "correct": 1,
+        "explanation": "Paris is not in India, others are Indian cities."
+    },
+    {
+        "prompt": "Find odd one out: Walk, Run, Sit, Jump",
+        "answers": [
+            "Jump",
+            "Sit",
+            "Walk",
+            "Run"
+        ],
+        "correct": 1,
+        "explanation": "Sit is stationary, others involve movement."
+    },
+    {
+        "prompt": "Find odd one out: Carrot, Radish, Onion, Cabbage",
+        "answers": [
+            "Carrot",
+            "Onion",
+            "Cabbage",
+            "Radish"
+        ],
+        "correct": 2,
+        "explanation": "Cabbage grows above ground, others grow underground."
+    },
+    {
+        "prompt": "Find odd one out: Hockey, Cricket, Football, Chess",
+        "answers": [
+            "Football",
+            "Hockey",
+            "Cricket",
+            "Chess"
+        ],
+        "correct": 3,
+        "explanation": "Chess is indoor, others are outdoor games."
+    },
+    {
+        "prompt": "Find odd one out: Eagle, Crow, Bat, Sparrow",
+        "answers": [
+            "Eagle",
+            "Crow",
+            "Bat",
+            "Sparrow"
+        ],
+        "correct": 2,
+        "explanation": "Bat is mammal, others are birds."
+    },
+    {
+        "prompt": "Find odd one out: Iron, Gold, Copper, Diamond",
+        "answers": [
+            "Copper",
+            "Iron",
+            "Gold",
+            "Diamond"
+        ],
+        "correct": 3,
+        "explanation": "Diamond is non-metal, others are metals."
+    },
+    {
+        "prompt": "Find odd one out: Ocean, River, Lake, Mountain",
+        "answers": [
+            "Mountain",
+            "Lake",
+            "Ocean",
+            "River"
+        ],
+        "correct": 0,
+        "explanation": "Mountain is land form, others are water bodies."
+    },
+    {
+        "prompt": "Find odd one out: Doctor, Teacher, Engineer, Hospital",
+        "answers": [
+            "Doctor",
+            "Hospital",
+            "Teacher",
+            "Engineer"
+        ],
+        "correct": 1,
+        "explanation": "Hospital is place, others are professions."
+    }
+]

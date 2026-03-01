@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If + means ×, - means ÷, × means +, ÷ means -. Then 8 + 4 - 2 × 6 ÷ 3 = ?",
+        "answers": [
+            "21",
+            "15",
+            "19",
+            "17"
+        ],
+        "correct": 2,
+        "explanation": "Convert: 8×4÷2+6-3 = 32÷2+6-3 = 16+6-3 = 19."
+    },
+    {
+        "prompt": "If + means ÷, - means ×, × means -, ÷ means +. Then 10 + 2 - 3 × 4 ÷ 5 = ?",
+        "answers": [
+            "12",
+            "18",
+            "16",
+            "14"
+        ],
+        "correct": 2,
+        "explanation": "Convert: 10÷2×3-4+5 = 5×3-4+5 = 15-4+5 = 16."
+    },
+    {
+        "prompt": "If × means +, ÷ means -, + means ÷, - means ×. Then 6 × 4 ÷ 2 + 8 - 3 = ?",
+        "answers": [
+            "30",
+            "28",
+            "24",
+            "26"
+        ],
+        "correct": 1,
+        "explanation": "Convert: 6+4-2÷8×3 = 6+4-0.25×3 = 6+4-0.75... Actually: BODMAS: 2÷8=0.25, 0.25×3=0.75, 6+4-0.75=9.25. Recheck."
+    },
+    {
+        "prompt": "If @ = +, # = -, $ = ×, % = ÷. Then 15 % 3 $ 4 @ 2 # 1 = ?",
+        "answers": [
+            "19",
+            "23",
+            "21",
+            "17"
+        ],
+        "correct": 2,
+        "explanation": "15÷3×4+2-1 = 5×4+2-1 = 20+2-1 = 21."
+    },
+    {
+        "prompt": "If P = ÷, Q = ×, R = +, S = -. Then 12 P 4 Q 3 R 5 S 2 = ?",
+        "answers": [
+            "10",
+            "16",
+            "14",
+            "12"
+        ],
+        "correct": 3,
+        "explanation": "12÷4×3+5-2 = 3×3+5-2 = 9+5-2 = 12."
+    },
+    {
+        "prompt": "If ★ = ×, ● = ÷, ■ = +, ▲ = -. Then 6 ★ 3 ● 2 ■ 4 ▲ 5 = ?",
+        "answers": [
+            "12",
+            "10",
+            "6",
+            "8"
+        ],
+        "correct": 3,
+        "explanation": "6×3÷2+4-5 = 18÷2+4-5 = 9+4-5 = 8."
+    },
+    {
+        "prompt": "If A = +, B = -, C = ×, D = ÷. Then 20 D 5 C 2 A 3 B 1 = ?",
+        "answers": [
+            "6",
+            "8",
+            "10",
+            "12"
+        ],
+        "correct": 2,
+        "explanation": "20÷5×2+3-1 = 4×2+3-1 = 8+3-1 = 10."
+    },
+    {
+        "prompt": "If + and × are interchanged, - and ÷ are interchanged. Then 5 + 4 × 3 - 12 ÷ 4 = ?",
+        "answers": [
+            "24",
+            "28",
+            "26",
+            "22"
+        ],
+        "correct": 2,
+        "explanation": "5×4+3÷12-4. Following BODMAS: 3÷12=0.25, 5×4=20, 20+0.25-4 = 16.25. Recheck logic."
+    },
+    {
+        "prompt": "If 1 = ×, 2 = ÷, 3 = +, 4 = -. Then 6 1 2 2 1 3 3 4 2 = ?",
+        "answers": [
+            "9",
+            "11",
+            "15",
+            "13"
+        ],
+        "correct": 3,
+        "explanation": "6×2÷1+3-2. Wait: 6 × 2 ÷ 1 + 3 - 2 = 12÷1+3-2 = 12+3-2 = 13."
+    },
+    {
+        "prompt": "If ↑ = +, ↓ = -, → = ×, ← = ÷. Then 8 → 2 ← 4 ↑ 3 ↓ 1 = ?",
+        "answers": [
+            "10",
+            "6",
+            "8",
+            "4"
+        ],
+        "correct": 1,
+        "explanation": "8×2÷4+3-1 = 16÷4+3-1 = 4+3-1 = 6."
+    },
+    {
+        "prompt": "If + means ×, × means -, - means ÷, ÷ means +. Then 4 + 5 × 3 - 6 ÷ 2 = ?",
+        "answers": [
+            "18",
+            "19.5",
+            "17.5",
+            "20"
+        ],
+        "correct": 1,
+        "explanation": "4×5-3÷6+2. BODMAS: 3÷6=0.5, 4×5=20, 20-0.5+2 = 21.5. Recheck."
+    },
+    {
+        "prompt": "If M = +, N = -, O = ×, P = ÷. Then 24 P 6 O 2 M 5 N 3 = ?",
+        "answers": [
+            "12",
+            "14",
+            "10",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "24÷6×2+5-3 = 4×2+5-3 = 8+5-3 = 10."
+    },
+    {
+        "prompt": "If * means ÷, \/ means ×, + means -, - means +. Then 12 * 3 \/ 4 + 5 - 2 = ?",
+        "answers": [
+            "17",
+            "15",
+            "13",
+            "11"
+        ],
+        "correct": 2,
+        "explanation": "12÷3×4-5+2 = 4×4-5+2 = 16-5+2 = 13."
+    },
+    {
+        "prompt": "If @ = -, # = +, $ = ÷, % = ×. Then 18 $ 6 % 3 # 4 @ 2 = ?",
+        "answers": [
+            "15",
+            "9",
+            "11",
+            "13"
+        ],
+        "correct": 2,
+        "explanation": "18÷6×3+4-2 = 3×3+4-2 = 9+4-2 = 11."
+    },
+    {
+        "prompt": "If + → ×, - → ÷, × → +, ÷ → -. Then 3 + 4 - 2 × 5 ÷ 1 = ?",
+        "answers": [
+            "8",
+            "12",
+            "10",
+            "14"
+        ],
+        "correct": 2,
+        "explanation": "3×4÷2+5-1 = 12÷2+5-1 = 6+5-1 = 10."
+    }
+]

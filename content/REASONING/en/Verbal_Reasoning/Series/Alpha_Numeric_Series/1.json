@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Find next: A1, B2, C3, D4, ?",
+        "answers": [
+            "E5",
+            "E4",
+            "F6",
+            "D5"
+        ],
+        "correct": 0,
+        "explanation": "Letter +1, Number +1. D4 → E5."
+    },
+    {
+        "prompt": "Find next: Z1, Y2, X3, W4, ?",
+        "answers": [
+            "V4",
+            "U5",
+            "V5",
+            "W5"
+        ],
+        "correct": 2,
+        "explanation": "Letter -1, Number +1. W4 → V5."
+    },
+    {
+        "prompt": "Find next: A2, C4, E6, G8, ?",
+        "answers": [
+            "J10",
+            "I9",
+            "H10",
+            "I10"
+        ],
+        "correct": 3,
+        "explanation": "Letter +2, Number +2. G8 → I10."
+    },
+    {
+        "prompt": "Find next: 1A, 2B, 3C, 4D, ?",
+        "answers": [
+            "6F",
+            "5D",
+            "5E",
+            "4E"
+        ],
+        "correct": 2,
+        "explanation": "Number +1, Letter +1. 4D → 5E."
+    },
+    {
+        "prompt": "Find next: P16, Q17, R18, S19, ?",
+        "answers": [
+            "S20",
+            "T20",
+            "T19",
+            "U21"
+        ],
+        "correct": 1,
+        "explanation": "Position numbers. S19 → T20."
+    },
+    {
+        "prompt": "Find next: B4, D8, F12, H16, ?",
+        "answers": [
+            "K20",
+            "J20",
+            "J18",
+            "I20"
+        ],
+        "correct": 1,
+        "explanation": "Letter +2, Number +4. H16 → J20."
+    },
+    {
+        "prompt": "Find next: 3C, 6F, 9I, 12L, ?",
+        "answers": [
+            "15O",
+            "15N",
+            "18O",
+            "15P"
+        ],
+        "correct": 0,
+        "explanation": "Number +3, Letter +3. 12L → 15O."
+    },
+    {
+        "prompt": "Find next: A1Z, B2Y, C3X, D4W, ?",
+        "answers": [
+            "E5V",
+            "F6U",
+            "E4V",
+            "D5W"
+        ],
+        "correct": 0,
+        "explanation": "First +1, Middle +1, Last -1."
+    },
+    {
+        "prompt": "Find next: M1, N2, O4, P8, ?",
+        "answers": [
+            "P16",
+            "R16",
+            "Q15",
+            "Q16"
+        ],
+        "correct": 3,
+        "explanation": "Letter +1, Number ×2. P8 → Q16."
+    },
+    {
+        "prompt": "Find next: 2B, 4D, 8H, 16P, ?",
+        "answers": [
+            "30X",
+            "32Z",
+            "24T",
+            "32F"
+        ],
+        "correct": 3,
+        "explanation": "Number ×2, Letter position ×2."
+    },
+    {
+        "prompt": "Find next: K11, L12, M13, N14, ?",
+        "answers": [
+            "N15",
+            "O15",
+            "O14",
+            "P16"
+        ],
+        "correct": 1,
+        "explanation": "Both +1. N14 → O15."
+    },
+    {
+        "prompt": "Find next: 5E, 10J, 15O, 20T, ?",
+        "answers": [
+            "25Z",
+            "25X",
+            "25Y",
+            "30Y"
+        ],
+        "correct": 2,
+        "explanation": "Number +5, Letter +5. 20T → 25Y."
+    },
+    {
+        "prompt": "Find next: AB1, CD2, EF3, GH4, ?",
+        "answers": [
+            "HI5",
+            "JK5",
+            "IJ5",
+            "IJ4"
+        ],
+        "correct": 2,
+        "explanation": "Letters +2 each, Number +1."
+    },
+    {
+        "prompt": "Find next: Z26, X24, V22, T20, ?",
+        "answers": [
+            "R18",
+            "R20",
+            "Q17",
+            "S19"
+        ],
+        "correct": 0,
+        "explanation": "Letter -2, Number -2."
+    },
+    {
+        "prompt": "Find next: 1A1, 2B4, 3C9, 4D16, ?",
+        "answers": [
+            "5E24",
+            "5E25",
+            "6F36",
+            "4E25"
+        ],
+        "correct": 1,
+        "explanation": "Pattern: n, nth letter, n². 4D16 → 5E25."
+    }
+]

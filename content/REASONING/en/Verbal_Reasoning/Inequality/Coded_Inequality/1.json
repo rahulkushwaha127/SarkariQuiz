@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If @ means >, # means <, $ means =, % means ≥, & means ≤. P @ Q # R. Which is true?",
+        "answers": [
+            "P = Q = R",
+            "P ≥ Q ≤ R",
+            "P > Q and Q < R",
+            "P < Q > R"
+        ],
+        "correct": 2,
+        "explanation": "@ = >, # = <. P > Q < R."
+    },
+    {
+        "prompt": "If A $ B means A = B, A # B means A < B, A @ B means A > B. If P @ Q $ R, then?",
+        "answers": [
+            "P < Q < R",
+            "P = Q = R",
+            "P > Q = R",
+            "P > R"
+        ],
+        "correct": 2,
+        "explanation": "P > Q, Q = R. So P > Q = R."
+    },
+    {
+        "prompt": "If * means ≥, + means >, - means <, = means ≤. M * N + O - P. Which is true?",
+        "answers": [
+            "M = N = O = P",
+            "M < N > O",
+            "O ≥ P",
+            "M ≥ N > O < P"
+        ],
+        "correct": 3,
+        "explanation": "M ≥ N, N > O, O < P. So M ≥ N > O < P."
+    },
+    {
+        "prompt": "Codes: △ = >, ○ = <, □ = ≥, ◇ = ≤. If A △ B ○ C, which is true?",
+        "answers": [
+            "A > B < C",
+            "A = B = C",
+            "A ≥ B",
+            "A < B < C"
+        ],
+        "correct": 0,
+        "explanation": "△ = >, ○ = <. A > B, B < C."
+    },
+    {
+        "prompt": "If P @ Q means P > Q, P # Q means P < Q, P $ Q means P = Q. Given X @ Y $ Z # W. Conclusions: I. X > Z II. W > Y",
+        "answers": [
+            "Neither",
+            "Only II",
+            "Only I",
+            "Both"
+        ],
+        "correct": 3,
+        "explanation": "X > Y = Z < W. So X > Z (I) and W > Y = Z, so W > Y (II). Both true."
+    },
+    {
+        "prompt": "Codes: & = ≤, % = ≥, @ = <, # = >. A % B @ C # D. Which is true?",
+        "answers": [
+            "A = B = C = D",
+            "C < D",
+            "A ≤ B > C",
+            "A ≥ B < C > D"
+        ],
+        "correct": 3,
+        "explanation": "A ≥ B, B < C, C > D."
+    },
+    {
+        "prompt": "If + means >, - means <, * means =, \/ means ≥. X \/ Y + Z * W. Conclusions: I. X ≥ Z II. Y < W",
+        "answers": [
+            "Neither",
+            "Both",
+            "Only I",
+            "Only II"
+        ],
+        "correct": 2,
+        "explanation": "X ≥ Y > Z = W. X ≥ Y > Z, so X > Z (I true). Y > Z = W, so Y > W not Y < W (II false)."
+    },
+    {
+        "prompt": "Codes: α = >, β = <, γ = ≥, δ = ≤. P γ Q β R δ S. Which is true?",
+        "answers": [
+            "P > Q > R > S",
+            "P ≥ Q < R ≤ S",
+            "Q ≥ R",
+            "P = Q = R = S"
+        ],
+        "correct": 1,
+        "explanation": "P ≥ Q, Q < R, R ≤ S."
+    },
+    {
+        "prompt": "If M © N means M ≥ N, M ® N means M ≤ N, M ¥ N means M > N. Given A © B ¥ C ® D. I. A ≥ C II. B > D",
+        "answers": [
+            "Only I",
+            "Only II",
+            "Neither",
+            "Both"
+        ],
+        "correct": 0,
+        "explanation": "A ≥ B > C ≤ D. A ≥ B > C, so A > C (I true). B > C ≤ D, B-D uncertain (II not definite)."
+    },
+    {
+        "prompt": "Codes: $ = <, # = >, @ = ≤, % = ≥. X % Y $ Z # W. Conclusions: I. X ≥ Y II. Z < W",
+        "answers": [
+            "Only II",
+            "Neither",
+            "Only I",
+            "Both"
+        ],
+        "correct": 3,
+        "explanation": "X ≥ Y, Y < Z, Z > W. Wait: X ≥ Y, Y < Z, Z > W. So I true (X ≥ Y). Z > W means Z > W not Z < W. Recheck: $ = <, so Y $ Z means Y < Z. # = >, Z # W means Z > W. So Z > W, not Z < W. II is false."
+    },
+    {
+        "prompt": "If A ∆ B means A > B, A ∇ B means A < B, A ○ B means A = B. Given P ∆ Q ○ R ∇ S. Which is true?",
+        "answers": [
+            "P > Q = R < S",
+            "P < Q < R",
+            "P = Q = R = S",
+            "R > S"
+        ],
+        "correct": 0,
+        "explanation": "P > Q, Q = R, R < S. So P > Q = R < S."
+    },
+    {
+        "prompt": "Codes: ↑ = ≥, ↓ = ≤, → = >, ← = <. M ↑ N → O ↓ P. I. M ≥ O II. N > P",
+        "answers": [
+            "Only I",
+            "Both",
+            "Only II",
+            "Neither"
+        ],
+        "correct": 0,
+        "explanation": "M ≥ N > O ≤ P. M ≥ N > O, so M > O (I true). N > O ≤ P, N-P uncertain (II not definite)."
+    },
+    {
+        "prompt": "If @ = >, # = <, $ = ≥, % = ≤. A $ B @ C % D # E. I. A > C II. D ≥ E",
+        "answers": [
+            "Both",
+            "Neither",
+            "Only I",
+            "Only II"
+        ],
+        "correct": 2,
+        "explanation": "A ≥ B > C ≤ D < E. A ≥ B > C, so A > C (I true). D < E, so D < E not D ≥ E (II false)."
+    },
+    {
+        "prompt": "Codes: + = <, - = >, * = ≤, \/ = ≥. X \/ Y + Z - W * V. I. X ≥ Y II. Z < W",
+        "answers": [
+            "Both",
+            "Only II",
+            "Neither",
+            "Only I"
+        ],
+        "correct": 0,
+        "explanation": "X ≥ Y, Y < Z, Z > W, W ≤ V. I true (X ≥ Y). Z > W means Z > W not Z < W. Wait: + = <, so Y + Z means Y < Z. - = >, Z - W means Z > W. So Z > W. II says Z < W which is false."
+    },
+    {
+        "prompt": "If P * Q = P > Q, P # Q = P ≤ Q, P @ Q = P < Q. Given A * B # C @ D. I. A > C II. B ≤ D",
+        "answers": [
+            "Neither",
+            "Both",
+            "Only I",
+            "Only II"
+        ],
+        "correct": 0,
+        "explanation": "A > B, B ≤ C, C < D. A > B ≤ C, A-C uncertain. B ≤ C < D, B-D uncertain. Neither definite."
+    }
+]

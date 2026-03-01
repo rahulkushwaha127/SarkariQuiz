@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Question: What is John's age? Statement I: John is twice as old as Mary. Statement II: Mary is 15 years old.",
+        "answers": [
+            "Both I and II together are needed",
+            "Neither is sufficient",
+            "Only II is sufficient",
+            "Only I is sufficient"
+        ],
+        "correct": 0,
+        "explanation": "I gives relation, II gives Mary's age. Together: John = 2 × 15 = 30."
+    },
+    {
+        "prompt": "Question: Is X greater than Y? Statement I: X > 10. Statement II: Y < 5.",
+        "answers": [
+            "Both together are sufficient",
+            "Only II sufficient",
+            "Only I sufficient",
+            "Either alone is sufficient"
+        ],
+        "correct": 0,
+        "explanation": "X > 10 and Y < 5 means X > 10 > 5 > Y. Together sufficient."
+    },
+    {
+        "prompt": "Question: What is the area of rectangle? Statement I: Length is 10m. Statement II: Breadth is 5m.",
+        "answers": [
+            "Only I sufficient",
+            "Only II sufficient",
+            "Neither sufficient",
+            "Both together are needed"
+        ],
+        "correct": 3,
+        "explanation": "Area = L × B. Need both values."
+    },
+    {
+        "prompt": "Question: Is N an even number? Statement I: N is divisible by 4. Statement II: N is divisible by 3.",
+        "answers": [
+            "Both needed",
+            "Either alone sufficient",
+            "Only II is sufficient",
+            "Only I is sufficient"
+        ],
+        "correct": 3,
+        "explanation": "Divisible by 4 means even. Statement I alone sufficient."
+    },
+    {
+        "prompt": "Question: What is A's salary? Statement I: A's salary is 20% more than B's. Statement II: B's salary is Rs. 50000.",
+        "answers": [
+            "Only I sufficient",
+            "Only II sufficient",
+            "Neither sufficient",
+            "Both together needed"
+        ],
+        "correct": 3,
+        "explanation": "I gives relation, II gives B's salary. A = 1.2 × 50000 = 60000."
+    },
+    {
+        "prompt": "Question: How many students passed? Statement I: 80% of students passed. Statement II: 200 students took the exam.",
+        "answers": [
+            "Both together needed",
+            "Only II sufficient",
+            "Only I sufficient",
+            "Neither sufficient"
+        ],
+        "correct": 0,
+        "explanation": "Need percentage and total. 80% of 200 = 160 passed."
+    },
+    {
+        "prompt": "Question: What day was it on January 1, 2020? Statement I: January 1, 2021 was Friday. Statement II: 2020 was a leap year.",
+        "answers": [
+            "Either alone sufficient",
+            "Both together needed",
+            "Only II sufficient",
+            "Only I sufficient"
+        ],
+        "correct": 1,
+        "explanation": "If Jan 1, 2021 = Friday, and 2020 leap year (366 days = 52w+2d), Jan 1, 2020 = Friday - 2 = Wednesday."
+    },
+    {
+        "prompt": "Question: Who is tallest among A, B, C? Statement I: A is taller than B. Statement II: C is shorter than B.",
+        "answers": [
+            "Both together are sufficient",
+            "Only II sufficient",
+            "Neither sufficient",
+            "Only I sufficient"
+        ],
+        "correct": 0,
+        "explanation": "A > B > C. A is tallest. Both needed."
+    },
+    {
+        "prompt": "Question: What is X? Statement I: X + Y = 10. Statement II: X - Y = 2.",
+        "answers": [
+            "Only I sufficient",
+            "Both together needed",
+            "Only II sufficient",
+            "Neither sufficient"
+        ],
+        "correct": 1,
+        "explanation": "Two equations, two unknowns. Add: 2X = 12, X = 6."
+    },
+    {
+        "prompt": "Question: Is the number prime? Statement I: Number is between 10 and 20. Statement II: Number is odd.",
+        "answers": [
+            "Only I sufficient",
+            "Neither sufficient alone or together",
+            "Only II sufficient",
+            "Both together sufficient"
+        ],
+        "correct": 1,
+        "explanation": "Odd numbers 11-19: 11, 13, 15, 17, 19. 15 not prime, others are. Can't determine."
+    },
+    {
+        "prompt": "Question: In which direction is A from B? Statement I: A is north of C. Statement II: C is north of B.",
+        "answers": [
+            "Only I sufficient",
+            "Neither sufficient",
+            "Only II sufficient",
+            "Both together are sufficient"
+        ],
+        "correct": 3,
+        "explanation": "A north of C, C north of B. So A is north of B."
+    },
+    {
+        "prompt": "Question: What is average of 5 numbers? Statement I: Sum of numbers is 100. Statement II: Smallest number is 10.",
+        "answers": [
+            "Neither sufficient",
+            "Only I is sufficient",
+            "Both needed",
+            "Only II sufficient"
+        ],
+        "correct": 1,
+        "explanation": "Average = Sum\/Count = 100\/5 = 20. Only I needed."
+    },
+    {
+        "prompt": "Question: Is X positive? Statement I: X² > 0. Statement II: X³ > 0.",
+        "answers": [
+            "Both needed",
+            "Either alone sufficient",
+            "Only II is sufficient",
+            "Only I sufficient"
+        ],
+        "correct": 2,
+        "explanation": "X² > 0 for any X ≠ 0 (positive or negative). X³ > 0 only if X > 0. II sufficient."
+    },
+    {
+        "prompt": "Question: What is perimeter of square? Statement I: Diagonal is 10√2 cm. Statement II: Area is 100 sq cm.",
+        "answers": [
+            "Only I sufficient",
+            "Only II sufficient",
+            "Both needed",
+            "Either alone is sufficient"
+        ],
+        "correct": 3,
+        "explanation": "From I: side = 10, perimeter = 40. From II: side = 10, perimeter = 40. Either works."
+    },
+    {
+        "prompt": "Question: How many children does Mr. X have? Statement I: All children are boys. Statement II: Eldest child is 10 years old.",
+        "answers": [
+            "Neither sufficient",
+            "Only I sufficient",
+            "Only II sufficient",
+            "Both together sufficient"
+        ],
+        "correct": 0,
+        "explanation": "Neither statement gives the count of children."
+    }
+]

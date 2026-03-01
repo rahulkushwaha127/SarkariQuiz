@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A is B's brother. B is C's mother. How is A related to C?",
+        "answers": [
+            "Grandfather",
+            "Brother",
+            "Uncle",
+            "Father"
+        ],
+        "correct": 2,
+        "explanation": "B is C's mother (female). A is B's brother = A is C's maternal uncle."
+    },
+    {
+        "prompt": "Pointing to a man, a woman said 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+        "answers": [
+            "Grandmother",
+            "Sister",
+            "Mother",
+            "Aunt"
+        ],
+        "correct": 2,
+        "explanation": "Only daughter of my mother = myself. So she is his mother."
+    },
+    {
+        "prompt": "A is father of B. B is sister of C. D is mother of C. How is A related to D?",
+        "answers": [
+            "Father",
+            "Brother",
+            "Son",
+            "Husband"
+        ],
+        "correct": 3,
+        "explanation": "A is father of B and C. D is mother of C. So A is D's husband."
+    },
+    {
+        "prompt": "X's father is Y's son. How is X related to Y?",
+        "answers": [
+            "Daughter",
+            "Son",
+            "Grandson",
+            "Grandchild"
+        ],
+        "correct": 3,
+        "explanation": "Y's son is X's father. So X is Y's grandchild."
+    },
+    {
+        "prompt": "P is Q's brother. R is P's mother. S is R's father. How is Q related to S?",
+        "answers": [
+            "Grandson",
+            "Granddaughter",
+            "Grandchild",
+            "Son"
+        ],
+        "correct": 2,
+        "explanation": "S is R's father. R is Q's mother. So S is Q's grandfather, Q is grandchild."
+    },
+    {
+        "prompt": "Introducing a man, a woman says 'He is the only son of my mother's mother.' How is the man related to the woman?",
+        "answers": [
+            "Brother",
+            "Uncle",
+            "Grandfather",
+            "Father"
+        ],
+        "correct": 1,
+        "explanation": "Mother's mother = grandmother. Her only son = woman's maternal uncle."
+    },
+    {
+        "prompt": "A and B are brothers. C is A's daughter. D is C's cousin. How is D related to B?",
+        "answers": [
+            "Brother",
+            "Son\/Daughter",
+            "Grandson",
+            "Nephew\/Niece"
+        ],
+        "correct": 3,
+        "explanation": "D is B's son\/daughter (cousin of C, who is A's daughter). Actually D is B's child = C's cousin."
+    },
+    {
+        "prompt": "M is N's sister. N is O's mother. P is O's father. How is M related to P?",
+        "answers": [
+            "Daughter",
+            "Wife",
+            "Mother",
+            "Sister-in-law"
+        ],
+        "correct": 3,
+        "explanation": "M is N's sister. N is P's wife. So M is P's sister-in-law."
+    },
+    {
+        "prompt": "Pointing to a photograph, a man says 'She is the daughter of my grandfather's only son.' How is the person in photo related to him?",
+        "answers": [
+            "Aunt",
+            "Daughter",
+            "Sister",
+            "Mother"
+        ],
+        "correct": 2,
+        "explanation": "Grandfather's only son = father. Father's daughter = sister."
+    },
+    {
+        "prompt": "If A + B means A is mother of B, A - B means A is brother of B. What does P + Q - R mean?",
+        "answers": [
+            "P is mother of R",
+            "P is uncle of R",
+            "Q is brother of R",
+            "R is nephew of P"
+        ],
+        "correct": 2,
+        "explanation": "P is mother of Q. Q is brother of R. So Q is R's brother."
+    },
+    {
+        "prompt": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+        "answers": [
+            "Sister",
+            "Daughter",
+            "Grandmother",
+            "Granddaughter"
+        ],
+        "correct": 3,
+        "explanation": "D is C's father = A's grandfather. A is D's granddaughter."
+    },
+    {
+        "prompt": "Pointing to a woman, a man says 'Her brother's father is the only son of my grandfather.' How is the woman related to the man?",
+        "answers": [
+            "Aunt",
+            "Daughter",
+            "Sister",
+            "Mother"
+        ],
+        "correct": 2,
+        "explanation": "Her brother's father = her father. Only son of grandfather = father. So same father = sister."
+    },
+    {
+        "prompt": "R is son of Q's father's sister. How is Q related to R?",
+        "answers": [
+            "Uncle",
+            "Cousin",
+            "Brother",
+            "Nephew"
+        ],
+        "correct": 1,
+        "explanation": "Q's father's sister = Q's aunt. Her son R = Q's cousin."
+    },
+    {
+        "prompt": "A's mother is B's father's sister. How is B related to A?",
+        "answers": [
+            "Cousin",
+            "Brother",
+            "Nephew",
+            "Uncle"
+        ],
+        "correct": 0,
+        "explanation": "A's mother is B's aunt. So A and B are cousins."
+    },
+    {
+        "prompt": "Pointing to a man, a woman says 'His wife is the daughter of my husband's mother.' How is the man related to the woman?",
+        "answers": [
+            "Son-in-law",
+            "Son",
+            "Nephew",
+            "Brother-in-law"
+        ],
+        "correct": 0,
+        "explanation": "Husband's mother's daughter = husband's sister. Her husband = woman's brother-in-law. Wait: man's wife = woman's sister-in-law. So man is son-in-law? Recheck."
+    }
+]

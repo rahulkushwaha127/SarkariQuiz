@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Statement I: Heavy rains occurred. Statement II: Floods damaged crops. Which is cause and effect?",
+        "answers": [
+            "I is cause, II is effect",
+            "Both are effects",
+            "Both are causes",
+            "II is cause, I is effect"
+        ],
+        "correct": 0,
+        "explanation": "Heavy rains cause floods which damage crops."
+    },
+    {
+        "prompt": "Statement I: Price of petrol increased. Statement II: Inflation rose. Relationship?",
+        "answers": [
+            "Both independent",
+            "II causes I",
+            "I causes II",
+            "No relationship"
+        ],
+        "correct": 2,
+        "explanation": "Petrol price increase contributes to inflation."
+    },
+    {
+        "prompt": "Statement I: Traffic jam on highway. Statement II: Accident occurred. Which came first?",
+        "answers": [
+            "II is cause, I is effect",
+            "I is cause, II is effect",
+            "Independent events",
+            "Cannot determine"
+        ],
+        "correct": 0,
+        "explanation": "Accident causes traffic jam (usually)."
+    },
+    {
+        "prompt": "Statement I: Students studied hard. Statement II: Pass percentage increased. Relationship?",
+        "answers": [
+            "No connection",
+            "II is cause, I is effect",
+            "I is cause, II is effect",
+            "Both effects"
+        ],
+        "correct": 2,
+        "explanation": "Hard study leads to better results."
+    },
+    {
+        "prompt": "Statement I: Company declared losses. Statement II: Employees were laid off. Relationship?",
+        "answers": [
+            "II is cause, I is effect",
+            "Independent",
+            "Both causes",
+            "I is cause, II is effect"
+        ],
+        "correct": 3,
+        "explanation": "Losses lead to layoffs."
+    },
+    {
+        "prompt": "Statement I: Water shortage in city. Statement II: Dam reservoir dried up. Which is cause?",
+        "answers": [
+            "II is cause, I is effect",
+            "I is cause, II is effect",
+            "Both effects of third cause",
+            "Both independent"
+        ],
+        "correct": 0,
+        "explanation": "Dried reservoir causes water shortage."
+    },
+    {
+        "prompt": "Statement I: Flight delayed. Statement II: Bad weather conditions. Relationship?",
+        "answers": [
+            "Independent",
+            "Both effects",
+            "II is cause, I is effect",
+            "I is cause, II is effect"
+        ],
+        "correct": 2,
+        "explanation": "Bad weather causes flight delays."
+    },
+    {
+        "prompt": "Statement I: Stock market crashed. Statement II: Investors lost money. Relationship?",
+        "answers": [
+            "Both independent",
+            "II is cause, I is effect",
+            "I is cause, II is effect",
+            "No relationship"
+        ],
+        "correct": 2,
+        "explanation": "Market crash causes investor losses."
+    },
+    {
+        "prompt": "Statement I: Sales increased. Statement II: New advertisement campaign launched. Which is cause?",
+        "answers": [
+            "II is cause, I is effect",
+            "Both effects",
+            "Independent",
+            "I is cause, II is effect"
+        ],
+        "correct": 0,
+        "explanation": "Advertisement leads to increased sales."
+    },
+    {
+        "prompt": "Statement I: Power cut in city. Statement II: Transformer exploded. Relationship?",
+        "answers": [
+            "II is cause, I is effect",
+            "Both causes",
+            "I is cause, II is effect",
+            "Independent"
+        ],
+        "correct": 0,
+        "explanation": "Transformer explosion causes power cut."
+    },
+    {
+        "prompt": "Statement I: Employee got promotion. Statement II: Employee worked overtime for months. Relationship?",
+        "answers": [
+            "I is cause, II is effect",
+            "No relationship",
+            "Both effects",
+            "II is cause, I is effect"
+        ],
+        "correct": 3,
+        "explanation": "Hard work (overtime) leads to promotion."
+    },
+    {
+        "prompt": "Statement I: Deforestation increased. Statement II: Global warming accelerated. Relationship?",
+        "answers": [
+            "Independent",
+            "Both effects of third cause",
+            "II is cause, I is effect",
+            "I is cause, II is effect"
+        ],
+        "correct": 3,
+        "explanation": "Deforestation contributes to global warming."
+    },
+    {
+        "prompt": "Statement I: Factory pollution increased. Statement II: Many residents fell sick. Relationship?",
+        "answers": [
+            "II is cause, I is effect",
+            "No connection",
+            "Both independent",
+            "I is cause, II is effect"
+        ],
+        "correct": 3,
+        "explanation": "Pollution causes health issues."
+    },
+    {
+        "prompt": "Statement I: Team won the match. Statement II: Captain scored century. Relationship?",
+        "answers": [
+            "Both effects",
+            "I is cause, II is effect",
+            "Independent",
+            "II is cause, I is effect"
+        ],
+        "correct": 3,
+        "explanation": "Captain's performance contributed to victory."
+    },
+    {
+        "prompt": "Statement I: Currency value depreciated. Statement II: Imports became expensive. Relationship?",
+        "answers": [
+            "II is cause, I is effect",
+            "I is cause, II is effect",
+            "Both effects",
+            "Independent"
+        ],
+        "correct": 1,
+        "explanation": "Currency depreciation makes imports costlier."
+    }
+]

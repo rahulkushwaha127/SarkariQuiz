@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A is taller than B. C is shorter than B. Who is shortest?",
+        "answers": [
+            "A",
+            "Cannot determine",
+            "C",
+            "B"
+        ],
+        "correct": 2,
+        "explanation": "A > B > C. C is shortest."
+    },
+    {
+        "prompt": "Ram is heavier than Shyam. Mohan is heavier than Ram. Who is heaviest?",
+        "answers": [
+            "Shyam",
+            "Mohan",
+            "All equal",
+            "Ram"
+        ],
+        "correct": 1,
+        "explanation": "Mohan > Ram > Shyam. Mohan is heaviest."
+    },
+    {
+        "prompt": "P is older than Q but younger than R. S is older than R. Oldest?",
+        "answers": [
+            "R",
+            "S",
+            "P",
+            "Q"
+        ],
+        "correct": 1,
+        "explanation": "S > R > P > Q. S is oldest."
+    },
+    {
+        "prompt": "A > B, C > A, D > C. Smallest?",
+        "answers": [
+            "D",
+            "B",
+            "A",
+            "C"
+        ],
+        "correct": 1,
+        "explanation": "D > C > A > B. B is smallest."
+    },
+    {
+        "prompt": "X runs faster than Y. Z runs slower than Y. Who is slowest?",
+        "answers": [
+            "Y",
+            "X",
+            "Z",
+            "Cannot say"
+        ],
+        "correct": 2,
+        "explanation": "X > Y > Z in speed. Z is slowest."
+    },
+    {
+        "prompt": "M earns more than N. O earns less than N. Who earns least?",
+        "answers": [
+            "O",
+            "Equal",
+            "M",
+            "N"
+        ],
+        "correct": 0,
+        "explanation": "M > N > O. O earns least."
+    },
+    {
+        "prompt": "A is shorter than B but taller than C. D is taller than B. Rank by height.",
+        "answers": [
+            "D>B>A>C",
+            "D>A>B>C",
+            "B>D>A>C",
+            "A>B>C>D"
+        ],
+        "correct": 0,
+        "explanation": "D > B > A > C."
+    },
+    {
+        "prompt": "P < Q, Q < R, R < S. Who is largest?",
+        "answers": [
+            "Q",
+            "S",
+            "P",
+            "R"
+        ],
+        "correct": 1,
+        "explanation": "P < Q < R < S. S is largest."
+    },
+    {
+        "prompt": "Tom is older than Dick. Harry is younger than Tom but older than Dick. Oldest?",
+        "answers": [
+            "Cannot tell",
+            "Tom",
+            "Dick",
+            "Harry"
+        ],
+        "correct": 1,
+        "explanation": "Tom > Harry > Dick. Tom is oldest."
+    },
+    {
+        "prompt": "A scores more than B, less than C. D scores less than B. Lowest scorer?",
+        "answers": [
+            "B",
+            "C",
+            "D",
+            "A"
+        ],
+        "correct": 2,
+        "explanation": "C > A > B > D. D lowest."
+    },
+    {
+        "prompt": "In weight: P > Q, R > P, S < Q. Heaviest?",
+        "answers": [
+            "Q",
+            "R",
+            "S",
+            "P"
+        ],
+        "correct": 1,
+        "explanation": "R > P > Q > S. R heaviest."
+    },
+    {
+        "prompt": "X ≥ Y, Y > Z, Z ≥ W. Who can be smallest?",
+        "answers": [
+            "X",
+            "Z",
+            "W",
+            "Y"
+        ],
+        "correct": 2,
+        "explanation": "W is smallest or equal to Z."
+    },
+    {
+        "prompt": "A is 5th tallest and 5th shortest. How many people total?",
+        "answers": [
+            "10",
+            "11",
+            "8",
+            "9"
+        ],
+        "correct": 3,
+        "explanation": "5th tallest = 5th from top. 5th shortest = 5th from bottom. Total = 5 + 5 - 1 = 9."
+    },
+    {
+        "prompt": "In a class, A ranks 6th from top and 20th from bottom. Class strength?",
+        "answers": [
+            "24",
+            "27",
+            "26",
+            "25"
+        ],
+        "correct": 3,
+        "explanation": "Total = 6 + 20 - 1 = 25."
+    },
+    {
+        "prompt": "B is heavier than A, lighter than C, heavier than D. Order heavy to light?",
+        "answers": [
+            "C>B>A>D",
+            "C>B>D>A",
+            "A>B>C>D",
+            "B>C>A>D"
+        ],
+        "correct": 0,
+        "explanation": "C > B, B > A, B > D. But A vs D unknown. If A > D: C>B>A>D."
+    }
+]

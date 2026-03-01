@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Statement: All employees must attend the meeting. Conclusions: I. Meeting is mandatory. II. Only employees can attend.",
+        "answers": [
+            "Only I follows",
+            "Neither follows",
+            "Only II follows",
+            "Both follow"
+        ],
+        "correct": 0,
+        "explanation": "Statement says employees 'must' attend = mandatory (I). It doesn't say 'only' employees (II not implied)."
+    },
+    {
+        "prompt": "Statement: Some books are expensive. Conclusions: I. All books are not expensive. II. Some books are cheap.",
+        "answers": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 0,
+        "explanation": "'Some books expensive' implies not all are expensive (I). But 'cheap' not mentioned, just 'not expensive' (II not direct)."
+    },
+    {
+        "prompt": "Statement: Students who work hard succeed. Conclusions: I. Hard work leads to success. II. Lazy students fail.",
+        "answers": [
+            "Neither follows",
+            "Only II follows",
+            "Both follow",
+            "Only I follows"
+        ],
+        "correct": 3,
+        "explanation": "Statement directly implies hard work → success (I). Nothing stated about lazy students (II not implied)."
+    },
+    {
+        "prompt": "Statement: Smoking is injurious to health. Conclusions: I. One should not smoke. II. Smokers are unhealthy.",
+        "answers": [
+            "Neither follows",
+            "Only I follows",
+            "Only II follows",
+            "Both follow"
+        ],
+        "correct": 1,
+        "explanation": "If smoking is injurious, one shouldn't smoke (I follows). Not all smokers are necessarily unhealthy yet (II not definite)."
+    },
+    {
+        "prompt": "Statement: Regular exercise improves fitness. Conclusions: I. People who exercise are fit. II. Non-exercisers are unfit.",
+        "answers": [
+            "Only II follows",
+            "Only I follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 1,
+        "explanation": "Exercise improves fitness, so exercisers tend to be fit (I). But non-exercisers may have other fitness sources (II not definite)."
+    },
+    {
+        "prompt": "Statement: All politicians are liars. Conclusions: I. Some liars are politicians. II. All liars are politicians.",
+        "answers": [
+            "Neither follows",
+            "Both follow",
+            "Only I follows",
+            "Only II follows"
+        ],
+        "correct": 2,
+        "explanation": "If all politicians are liars, then some liars are politicians (I). But not all liars need to be politicians (II false)."
+    },
+    {
+        "prompt": "Statement: Water is essential for survival. Conclusions: I. Without water, life cannot exist. II. Water is the only essential thing.",
+        "answers": [
+            "Only II follows",
+            "Both follow",
+            "Only I follows",
+            "Neither follows"
+        ],
+        "correct": 2,
+        "explanation": "Essential for survival = life cannot exist without it (I). Other things may also be essential (II false)."
+    },
+    {
+        "prompt": "Statement: Honesty is the best policy. Conclusions: I. One should be honest. II. Dishonest people fail.",
+        "answers": [
+            "Both follow",
+            "Only I follows",
+            "Only II follows",
+            "Neither follows"
+        ],
+        "correct": 1,
+        "explanation": "If honesty is best, one should be honest (I). Dishonest failing is not directly stated (II uncertain)."
+    },
+    {
+        "prompt": "Statement: The library is closed on Sundays. Conclusions: I. Library opens on other days. II. No one visits library on Sundays.",
+        "answers": [
+            "Neither follows",
+            "Both follow",
+            "Only II follows",
+            "Only I follows"
+        ],
+        "correct": 3,
+        "explanation": "Closed on Sunday implies open other days (I likely). People can't visit if closed (II follows too). Actually I follows, II also follows."
+    },
+    {
+        "prompt": "Statement: All roses are flowers. Conclusions: I. Some flowers are roses. II. All flowers are roses.",
+        "answers": [
+            "Only II follows",
+            "Neither follows",
+            "Both follow",
+            "Only I follows"
+        ],
+        "correct": 3,
+        "explanation": "Roses ⊂ Flowers → Some flowers are roses (I). Not all flowers are roses (II false)."
+    },
+    {
+        "prompt": "Statement: Reading enhances knowledge. Conclusions: I. One should read books. II. Non-readers have no knowledge.",
+        "answers": [
+            "Only I follows",
+            "Neither follows",
+            "Both follow",
+            "Only II follows"
+        ],
+        "correct": 0,
+        "explanation": "If reading enhances knowledge, reading is advisable (I). Non-readers may have knowledge from other sources (II false)."
+    },
+    {
+        "prompt": "Statement: Prevention is better than cure. Conclusions: I. We should prevent diseases. II. There is no need for doctors.",
+        "answers": [
+            "Only I follows",
+            "Both follow",
+            "Neither follows",
+            "Only II follows"
+        ],
+        "correct": 0,
+        "explanation": "Prevention being better implies we should prevent (I). Cure still needed, doctors still needed (II false)."
+    },
+    {
+        "prompt": "Statement: All students passed the exam. Conclusions: I. No student failed. II. The exam was easy.",
+        "answers": [
+            "Neither follows",
+            "Both follow",
+            "Only II follows",
+            "Only I follows"
+        ],
+        "correct": 3,
+        "explanation": "All passed = none failed (I). Reason for passing not stated (II not implied)."
+    },
+    {
+        "prompt": "Statement: Mobile phones distract students. Conclusions: I. Students shouldn't use mobiles. II. All mobile users are distracted.",
+        "answers": [
+            "Neither follows",
+            "Both follow",
+            "Only I follows",
+            "Only II follows"
+        ],
+        "correct": 2,
+        "explanation": "If mobiles distract students, students shouldn't use them (I). Not all users distracted (II overgeneralized)."
+    },
+    {
+        "prompt": "Statement: Cleanliness is next to godliness. Conclusions: I. We should keep clean. II. Clean people are god-like.",
+        "answers": [
+            "Only II follows",
+            "Only I follows",
+            "Neither follows",
+            "Both follow"
+        ],
+        "correct": 1,
+        "explanation": "If cleanliness valued highly, we should be clean (I). 'God-like' is metaphorical, not literal (II exaggerated)."
+    }
+]

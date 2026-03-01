@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A man faces North. He turns 90° clockwise. Which direction is he facing?",
+        "answers": [
+            "North-East",
+            "East",
+            "West",
+            "South"
+        ],
+        "correct": 1,
+        "explanation": "North + 90° clockwise = East."
+    },
+    {
+        "prompt": "A girl faces South. She turns 180°. Which direction is she facing now?",
+        "answers": [
+            "South-West",
+            "West",
+            "North",
+            "East"
+        ],
+        "correct": 2,
+        "explanation": "South + 180° = North."
+    },
+    {
+        "prompt": "Ram is facing West. He turns 90° anti-clockwise. Which direction is he facing?",
+        "answers": [
+            "North",
+            "South-West",
+            "South",
+            "East"
+        ],
+        "correct": 2,
+        "explanation": "West + 90° anti-clockwise = South."
+    },
+    {
+        "prompt": "A person faces East. He turns 270° clockwise. Which direction is he facing?",
+        "answers": [
+            "North",
+            "West",
+            "East",
+            "South"
+        ],
+        "correct": 0,
+        "explanation": "270° clockwise = 90° anti-clockwise. East + 90° anti-clockwise = North."
+    },
+    {
+        "prompt": "Facing North, I turn right. Then I turn right again. Which direction am I facing?",
+        "answers": [
+            "South",
+            "West",
+            "North",
+            "East"
+        ],
+        "correct": 0,
+        "explanation": "North → Right = East → Right = South."
+    },
+    {
+        "prompt": "If South-East becomes North, what will North-East become?",
+        "answers": [
+            "North-West",
+            "West",
+            "South",
+            "South-West"
+        ],
+        "correct": 1,
+        "explanation": "SE→N means 135° anti-clockwise rotation. NE + 135° anti-clockwise = West."
+    },
+    {
+        "prompt": "A man walks 5 km North, then turns left. Which direction is he walking now?",
+        "answers": [
+            "North",
+            "South",
+            "West",
+            "East"
+        ],
+        "correct": 2,
+        "explanation": "North + Left turn = West."
+    },
+    {
+        "prompt": "If you are facing North-East and turn 135° clockwise, which direction will you face?",
+        "answers": [
+            "South-East",
+            "East",
+            "South-West",
+            "South"
+        ],
+        "correct": 3,
+        "explanation": "NE + 135° clockwise = South."
+    },
+    {
+        "prompt": "A boy faces East and turns 45° anti-clockwise. Which direction is he facing?",
+        "answers": [
+            "South-East",
+            "North-East",
+            "North",
+            "East"
+        ],
+        "correct": 1,
+        "explanation": "East - 45° = North-East."
+    },
+    {
+        "prompt": "Facing West, Ram turns left, then left again, then left again. Which direction is he facing?",
+        "answers": [
+            "West",
+            "South",
+            "East",
+            "North"
+        ],
+        "correct": 3,
+        "explanation": "West → S → E → N. Three left turns = North."
+    },
+    {
+        "prompt": "If North-West is called East, what will South be called?",
+        "answers": [
+            "West",
+            "North-West",
+            "South-West",
+            "North-East"
+        ],
+        "correct": 3,
+        "explanation": "NW→E means 135° clockwise shift. S + 135° clockwise = NE."
+    },
+    {
+        "prompt": "A person walks East, turns right, walks, turns right again. Which direction is he walking?",
+        "answers": [
+            "North",
+            "East",
+            "South",
+            "West"
+        ],
+        "correct": 3,
+        "explanation": "East → Right = South → Right = West."
+    },
+    {
+        "prompt": "Early morning, a man is facing the sun. He turns 90° left. Which direction is he facing?",
+        "answers": [
+            "West",
+            "East",
+            "South",
+            "North"
+        ],
+        "correct": 3,
+        "explanation": "Morning sun is in East. Left turn = North."
+    },
+    {
+        "prompt": "At sunset, Ravi faces the sun. His shadow falls to his right. Which direction is the shadow?",
+        "answers": [
+            "East",
+            "West",
+            "South",
+            "North"
+        ],
+        "correct": 3,
+        "explanation": "Sunset = West. Shadow opposite = East. Right of West-facing = North."
+    },
+    {
+        "prompt": "A man faces South-West and turns 315° clockwise. Which direction is he facing?",
+        "answers": [
+            "East",
+            "North",
+            "South",
+            "West"
+        ],
+        "correct": 2,
+        "explanation": "SW + 315° = SW + 315° = S (going full circle minus 45°)."
+    }
+]

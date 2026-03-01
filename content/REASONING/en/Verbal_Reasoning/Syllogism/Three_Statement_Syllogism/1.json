@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Statements: All A are B. All B are C. All C are D. Conclusions: I. All A are D. II. Some D are A.",
+        "answers": [
+            "Only I follows",
+            "Both follow",
+            "Neither follows",
+            "Only II follows"
+        ],
+        "correct": 1,
+        "explanation": "A ⊂ B ⊂ C ⊂ D. So A ⊂ D (I true). A ⊂ D → Some D are A (II true). Both follow."
+    },
+    {
+        "prompt": "Statements: Some P are Q. All Q are R. No R is S. Conclusions: I. Some P are R. II. No Q is S.",
+        "answers": [
+            "Only II follows",
+            "Both follow",
+            "Neither follows",
+            "Only I follows"
+        ],
+        "correct": 1,
+        "explanation": "Some P = Q. Q ⊂ R → Some P are R (I). Q ⊂ R, no R is S → No Q is S (II). Both follow."
+    },
+    {
+        "prompt": "Statements: All cats are dogs. All dogs are animals. Some animals are wild. Conclusions: I. All cats are animals. II. Some cats are wild.",
+        "answers": [
+            "Both follow",
+            "Only II follows",
+            "Only I follows",
+            "Neither follows"
+        ],
+        "correct": 2,
+        "explanation": "Cats ⊂ Dogs ⊂ Animals → I true. But wild animals may not include cats → II uncertain."
+    },
+    {
+        "prompt": "Statements: No X is Y. Some Y is Z. All Z is W. Conclusions: I. Some W is Y. II. No X is Z.",
+        "answers": [
+            "Only I follows",
+            "Neither follows",
+            "Only II follows",
+            "Both follow"
+        ],
+        "correct": 0,
+        "explanation": "Y ∩ Z ≠ φ, Z ⊂ W → Some Y are W → Some W are Y (I). X-Z relation uncertain (II not definite)."
+    },
+    {
+        "prompt": "Statements: All trees are plants. All plants are living. No living is non-living. Conclusions: I. All trees are living. II. No tree is non-living.",
+        "answers": [
+            "Both follow",
+            "Neither follows",
+            "Only I follows",
+            "Only II follows"
+        ],
+        "correct": 0,
+        "explanation": "Trees ⊂ Plants ⊂ Living → I. Living ∩ Non-living = φ → No tree is non-living (II). Both follow."
+    },
+    {
+        "prompt": "Statements: Some birds are parrots. All parrots are green. Some green things are leaves. Conclusions: I. Some birds are green. II. Some leaves are parrots.",
+        "answers": [
+            "Only II follows",
+            "Both follow",
+            "Only I follows",
+            "Neither follows"
+        ],
+        "correct": 2,
+        "explanation": "Some birds = parrots. Parrots ⊂ green → Some birds are green (I). Parrot-leaf connection not definite (II uncertain)."
+    },
+    {
+        "prompt": "Statements: All M are N. Some N are O. All O are P. Conclusions: I. Some M are P. II. Some N are P.",
+        "answers": [
+            "Neither follows",
+            "Only I follows",
+            "Only II follows",
+            "Both follow"
+        ],
+        "correct": 2,
+        "explanation": "N ∩ O ≠ φ, O ⊂ P → Some N are P (II). But M may not overlap with O (I uncertain)."
+    },
+    {
+        "prompt": "Statements: No red is blue. All blue is green. Some green is yellow. Conclusions: I. No red is green. II. Some yellow is green.",
+        "answers": [
+            "Only II follows",
+            "Only I follows",
+            "Neither follows",
+            "Both follow"
+        ],
+        "correct": 0,
+        "explanation": "Some green is yellow → Some yellow is green (II). Red-green relation uncertain (I not definite)."
+    },
+    {
+        "prompt": "Statements: All roses are flowers. All flowers are beautiful. No beautiful thing is ugly. Conclusions: I. All roses are beautiful. II. No rose is ugly.",
+        "answers": [
+            "Neither follows",
+            "Both follow",
+            "Only II follows",
+            "Only I follows"
+        ],
+        "correct": 1,
+        "explanation": "Roses ⊂ Flowers ⊂ Beautiful → I. Beautiful ∩ Ugly = φ → No rose is ugly (II). Both follow."
+    },
+    {
+        "prompt": "Statements: Some A are B. Some B are C. Some C are D. Conclusions: I. Some A are D. II. Some B are D.",
+        "answers": [
+            "Only I follows",
+            "Only II follows",
+            "Neither follows",
+            "Both follow"
+        ],
+        "correct": 2,
+        "explanation": "All connections are 'some' so no definite chain. Neither conclusion necessarily follows."
+    },
+    {
+        "prompt": "Statements: All pens are pencils. No pencil is eraser. All erasers are rubbers. Conclusions: I. No pen is eraser. II. Some rubbers are erasers.",
+        "answers": [
+            "Neither follows",
+            "Only I follows",
+            "Only II follows",
+            "Both follow"
+        ],
+        "correct": 3,
+        "explanation": "Pens ⊂ Pencils, No pencil is eraser → No pen is eraser (I). Erasers ⊂ Rubbers → Some rubbers are erasers (II). Both follow."
+    },
+    {
+        "prompt": "Statements: All kings are rulers. All rulers are men. Some men are honest. Conclusions: I. All kings are men. II. Some kings are honest.",
+        "answers": [
+            "Only II follows",
+            "Only I follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 1,
+        "explanation": "Kings ⊂ Rulers ⊂ Men → I true. But honest men may not include kings (II uncertain)."
+    },
+    {
+        "prompt": "Statements: Some teachers are singers. All singers are dancers. No dancer is actor. Conclusions: I. Some teachers are dancers. II. No singer is actor.",
+        "answers": [
+            "Only II follows",
+            "Only I follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 2,
+        "explanation": "Some teachers = singers. Singers ⊂ Dancers → Some teachers are dancers (I). Dancers ∩ Actors = φ → No singer is actor (II). Both follow."
+    },
+    {
+        "prompt": "Statements: All cars are buses. Some buses are trucks. All trucks are vehicles. Conclusions: I. Some cars are trucks. II. Some buses are vehicles.",
+        "answers": [
+            "Only I follows",
+            "Only II follows",
+            "Both follow",
+            "Neither follows"
+        ],
+        "correct": 1,
+        "explanation": "Buses ∩ Trucks ≠ φ, Trucks ⊂ Vehicles → Some buses are vehicles (II). Cars may not be trucks (I uncertain)."
+    },
+    {
+        "prompt": "Statements: No apple is banana. All bananas are fruits. Some fruits are sweet. Conclusions: I. No apple is fruit. II. Some bananas are sweet.",
+        "answers": [
+            "Both follow",
+            "Neither follows",
+            "Only I follows",
+            "Only II follows"
+        ],
+        "correct": 1,
+        "explanation": "Apple-fruit relation unknown (I uncertain). Sweet fruits may not be bananas (II uncertain). Neither definite."
+    }
+]

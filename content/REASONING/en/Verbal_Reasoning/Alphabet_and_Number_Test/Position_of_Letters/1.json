@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "What is the position of M from the left in English alphabet?",
+        "answers": [
+            "11",
+            "14",
+            "13",
+            "12"
+        ],
+        "correct": 2,
+        "explanation": "A=1, B=2... M=13."
+    },
+    {
+        "prompt": "Which letter is 7th from right in English alphabet?",
+        "answers": [
+            "V",
+            "U",
+            "T",
+            "S"
+        ],
+        "correct": 2,
+        "explanation": "Right side: Z=1, Y=2, X=3, W=4, V=5, U=6, T=7."
+    },
+    {
+        "prompt": "If A=1, Z=26, what is the position of R?",
+        "answers": [
+            "19",
+            "17",
+            "18",
+            "16"
+        ],
+        "correct": 2,
+        "explanation": "R is the 18th letter."
+    },
+    {
+        "prompt": "Which letter is exactly in the middle of English alphabet?",
+        "answers": [
+            "N",
+            "L",
+            "M",
+            "M and N"
+        ],
+        "correct": 3,
+        "explanation": "26 letters, no single middle. M(13) and N(14) are in middle."
+    },
+    {
+        "prompt": "What is the position of K from right in alphabet?",
+        "answers": [
+            "16",
+            "14",
+            "15",
+            "17"
+        ],
+        "correct": 0,
+        "explanation": "K is 11th from left. From right: 26-11+1 = 16."
+    },
+    {
+        "prompt": "Which letter is 5th to the right of J?",
+        "answers": [
+            "M",
+            "P",
+            "N",
+            "O"
+        ],
+        "correct": 3,
+        "explanation": "J=10. J+5 = 15 = O."
+    },
+    {
+        "prompt": "Which letter is 4th to the left of S?",
+        "answers": [
+            "Q",
+            "P",
+            "N",
+            "O"
+        ],
+        "correct": 3,
+        "explanation": "S=19. S-4 = 15 = O."
+    },
+    {
+        "prompt": "How many letters are between M and T?",
+        "answers": [
+            "5",
+            "6",
+            "8",
+            "7"
+        ],
+        "correct": 1,
+        "explanation": "M=13, T=20. Between: N,O,P,Q,R,S = 6 letters."
+    },
+    {
+        "prompt": "If letters are numbered A=26, B=25... Z=1, what is value of P?",
+        "answers": [
+            "11",
+            "15",
+            "16",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "P is 16th from A. In reverse: 26-16+1 = 11."
+    },
+    {
+        "prompt": "Which letter is midway between G and M?",
+        "answers": [
+            "J",
+            "K",
+            "L",
+            "I"
+        ],
+        "correct": 0,
+        "explanation": "G=7, M=13. Midway: (7+13)\/2 = 10 = J."
+    },
+    {
+        "prompt": "What is the 20th letter from left in English alphabet?",
+        "answers": [
+            "U",
+            "T",
+            "R",
+            "S"
+        ],
+        "correct": 1,
+        "explanation": "20th letter = T."
+    },
+    {
+        "prompt": "Which letter is 3rd to the right of the 8th letter from left?",
+        "answers": [
+            "I",
+            "L",
+            "J",
+            "K"
+        ],
+        "correct": 3,
+        "explanation": "8th letter = H. H+3 = K."
+    },
+    {
+        "prompt": "How many letters are there between D and J?",
+        "answers": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "D=4, J=10. Between: E,F,G,H,I = 5 letters."
+    },
+    {
+        "prompt": "Which letter is 10th from right in alphabet?",
+        "answers": [
+            "P",
+            "S",
+            "R",
+            "Q"
+        ],
+        "correct": 3,
+        "explanation": "From right: 10th = 26-10+1 = 17th from left = Q."
+    },
+    {
+        "prompt": "If first half of alphabet is reversed, which letter is 5th from left?",
+        "answers": [
+            "I",
+            "M",
+            "N",
+            "L"
+        ],
+        "correct": 1,
+        "explanation": "First half reversed: M,L,K,J,I,H,G,F,E,D,C,B,A,N,O... 5th = I."
+    }
+]

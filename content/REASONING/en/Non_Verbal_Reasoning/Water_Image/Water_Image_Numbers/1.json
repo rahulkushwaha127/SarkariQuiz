@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "What is water image of '6'?",
+        "answers": [
+            "9",
+            "Upside-down 6",
+            "6 (same)",
+            "9 (rotated) or inverted 6"
+        ],
+        "correct": 3,
+        "explanation": "6 flipped vertically appears inverted (similar to 9 but flipped)."
+    },
+    {
+        "prompt": "Water image of '9'?",
+        "answers": [
+            "9 (same)",
+            "Upside-down 9",
+            "Inverted 9 (like 6 flipped)",
+            "6"
+        ],
+        "correct": 2,
+        "explanation": "9 flipped vertically."
+    },
+    {
+        "prompt": "Which number looks same in water image: 0, 3, 6, 8?",
+        "answers": [
+            "None",
+            "All",
+            "3 and 6",
+            "0 and 8"
+        ],
+        "correct": 3,
+        "explanation": "0 and 8 have horizontal axis symmetry."
+    },
+    {
+        "prompt": "Water image of '3'?",
+        "answers": [
+            "Upside-down 3",
+            "ε",
+            "3 (same)",
+            "E"
+        ],
+        "correct": 0,
+        "explanation": "3 flipped vertically."
+    },
+    {
+        "prompt": "What is water image of '1'?",
+        "answers": [
+            "Upside-down 1",
+            "1 (same)",
+            "I",
+            "!"
+        ],
+        "correct": 1,
+        "explanation": "1 is horizontally symmetric (if simple line), appears same."
+    },
+    {
+        "prompt": "Water image of '8'?",
+        "answers": [
+            "∞",
+            "8 (same)",
+            "0",
+            "Upside-down 8"
+        ],
+        "correct": 1,
+        "explanation": "8 has both symmetries, appears same."
+    },
+    {
+        "prompt": "What is water image of '7'?",
+        "answers": [
+            "Upside-down 7 (L-like)",
+            "L",
+            "Γ",
+            "7 (same)"
+        ],
+        "correct": 0,
+        "explanation": "7 flipped vertically."
+    },
+    {
+        "prompt": "Water image of '2'?",
+        "answers": [
+            "Upside-down 2",
+            "2 (same)",
+            "S",
+            "Z"
+        ],
+        "correct": 0,
+        "explanation": "2 flipped vertically."
+    },
+    {
+        "prompt": "Which number remains same in water reflection?",
+        "answers": [
+            "0, 1 (simple form), 8",
+            "2, 5",
+            "3, 6, 9",
+            "All"
+        ],
+        "correct": 0,
+        "explanation": "0, 1, 8 have horizontal symmetry."
+    },
+    {
+        "prompt": "Water image of '5'?",
+        "answers": [
+            "5 (same)",
+            "Upside-down 5",
+            "2",
+            "S"
+        ],
+        "correct": 1,
+        "explanation": "5 flipped vertically."
+    },
+    {
+        "prompt": "What is water image of '12'?",
+        "answers": [
+            "21",
+            "IS",
+            "12 (same)",
+            "Upside-down 12 (₁₂ flipped)"
+        ],
+        "correct": 3,
+        "explanation": "Each digit flipped but order stays: upside-down 12."
+    },
+    {
+        "prompt": "Water image of '69'?",
+        "answers": [
+            "Upside-down 69",
+            "Inverted 69",
+            "96",
+            "69 (same)"
+        ],
+        "correct": 0,
+        "explanation": "69 flipped vertically, each digit inverted."
+    },
+    {
+        "prompt": "What is water image of '88'?",
+        "answers": [
+            "88 (same)",
+            "∞∞",
+            "Upside-down 88",
+            "BB"
+        ],
+        "correct": 0,
+        "explanation": "Both 8s are symmetric."
+    },
+    {
+        "prompt": "Water image of '4'?",
+        "answers": [
+            "A",
+            "4 (same)",
+            "h",
+            "Upside-down 4"
+        ],
+        "correct": 3,
+        "explanation": "4 is not horizontally symmetric."
+    },
+    {
+        "prompt": "What is water image of '00'?",
+        "answers": [
+            "∞",
+            "OO",
+            "00 (same)",
+            "Upside-down 00"
+        ],
+        "correct": 2,
+        "explanation": "0 is symmetric, 00 remains 00."
+    }
+]

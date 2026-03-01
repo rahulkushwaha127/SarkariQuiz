@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A1 : B2 :: C3 : ?",
+        "answers": [
+            "E5",
+            "D4",
+            "D3",
+            "C4"
+        ],
+        "correct": 1,
+        "explanation": "Letter +1, Number +1. C3 → D4."
+    },
+    {
+        "prompt": "Z26 : Y25 :: X24 : ?",
+        "answers": [
+            "W23",
+            "V22",
+            "X23",
+            "W24"
+        ],
+        "correct": 0,
+        "explanation": "Letter -1, Number -1. X24 → W23."
+    },
+    {
+        "prompt": "B4 : D8 :: F12 : ?",
+        "answers": [
+            "G14",
+            "H14",
+            "I18",
+            "H16"
+        ],
+        "correct": 3,
+        "explanation": "Letter +2, Number +4. F12 → H16."
+    },
+    {
+        "prompt": "P16 : Q17 :: R18 : ?",
+        "answers": [
+            "S18",
+            "S19",
+            "T20",
+            "R19"
+        ],
+        "correct": 1,
+        "explanation": "Letter +1, Number +1. R18 → S19."
+    },
+    {
+        "prompt": "A2Z : B4Y :: C6X : ?",
+        "answers": [
+            "D8X",
+            "E8V",
+            "D6W",
+            "D8W"
+        ],
+        "correct": 3,
+        "explanation": "First +1, Middle +2, Last -1."
+    },
+    {
+        "prompt": "M13 : N14 :: O15 : ?",
+        "answers": [
+            "O16",
+            "Q17",
+            "P15",
+            "P16"
+        ],
+        "correct": 3,
+        "explanation": "Letter +1, Number +1. O15 → P16."
+    },
+    {
+        "prompt": "3C : 6F :: 9I : ?",
+        "answers": [
+            "12K",
+            "11L",
+            "12L",
+            "12M"
+        ],
+        "correct": 2,
+        "explanation": "Number +3, Letter +3. 9I → 12L."
+    },
+    {
+        "prompt": "E5 : J10 :: O15 : ?",
+        "answers": [
+            "S19",
+            "T20",
+            "U21",
+            "T19"
+        ],
+        "correct": 1,
+        "explanation": "Letter +5, Number +5. O15 → T20."
+    },
+    {
+        "prompt": "2B : 4D :: 6F : ?",
+        "answers": [
+            "8H",
+            "8G",
+            "6H",
+            "10H"
+        ],
+        "correct": 0,
+        "explanation": "Number +2, Letter +2. 6F → 8H."
+    },
+    {
+        "prompt": "A1B : C3D :: E5F : ?",
+        "answers": [
+            "H8I",
+            "G7H",
+            "F6G",
+            "G6H"
+        ],
+        "correct": 1,
+        "explanation": "Each element +2. E5F → G7H."
+    },
+    {
+        "prompt": "K11 : L12 :: M13 : ?",
+        "answers": [
+            "M14",
+            "N14",
+            "O15",
+            "N13"
+        ],
+        "correct": 1,
+        "explanation": "Both +1. M13 → N14."
+    },
+    {
+        "prompt": "Z1 : Y2 :: X3 : ?",
+        "answers": [
+            "W3",
+            "X4",
+            "W4",
+            "V5"
+        ],
+        "correct": 2,
+        "explanation": "Letter -1, Number +1. X3 → W4."
+    },
+    {
+        "prompt": "5E : 10J :: 15O : ?",
+        "answers": [
+            "25T",
+            "20S",
+            "20U",
+            "20T"
+        ],
+        "correct": 3,
+        "explanation": "Number +5, Letter +5. 15O → 20T."
+    },
+    {
+        "prompt": "B2C : D4E :: F6G : ?",
+        "answers": [
+            "I9J",
+            "H8I",
+            "H8J",
+            "G7H"
+        ],
+        "correct": 1,
+        "explanation": "Each +2. F6G → H8I."
+    },
+    {
+        "prompt": "1A2 : 3C4 :: 5E6 : ?",
+        "answers": [
+            "7G8",
+            "8H9",
+            "6F7",
+            "7F8"
+        ],
+        "correct": 0,
+        "explanation": "Each element +2. 5E6 → 7G8."
+    }
+]

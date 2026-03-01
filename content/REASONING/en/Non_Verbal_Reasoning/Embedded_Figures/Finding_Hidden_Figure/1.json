@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A complex figure contains a triangle hidden inside. To find it, look for?",
+        "answers": [
+            "Three connected lines forming enclosed shape",
+            "Four sides",
+            "Parallel lines only",
+            "Curved lines"
+        ],
+        "correct": 0,
+        "explanation": "Triangle = 3 sides forming closed figure."
+    },
+    {
+        "prompt": "Which is easier to find embedded: simple or complex shape?",
+        "answers": [
+            "Complex shape",
+            "Neither",
+            "Both equal",
+            "Simple shape"
+        ],
+        "correct": 3,
+        "explanation": "Simple shapes with fewer lines are easier to identify when embedded."
+    },
+    {
+        "prompt": "A figure with many overlapping lines. How to find embedded square?",
+        "answers": [
+            "Find circles first",
+            "Look for 4 equal sides at right angles",
+            "Look for any 4 lines",
+            "Random search"
+        ],
+        "correct": 1,
+        "explanation": "Square has specific properties: 4 equal sides, 90° angles."
+    },
+    {
+        "prompt": "Embedded figure problems test which skill?",
+        "answers": [
+            "Mathematical calculation",
+            "Verbal reasoning",
+            "Memory",
+            "Visual perception and pattern recognition"
+        ],
+        "correct": 3,
+        "explanation": "These test ability to perceive hidden patterns within complex figures."
+    },
+    {
+        "prompt": "In a complex design, a pentagon is hidden. Pentagon has how many sides?",
+        "answers": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "correct": 1,
+        "explanation": "Pentagon = 5-sided polygon."
+    },
+    {
+        "prompt": "When finding embedded figure, which lines to focus on?",
+        "answers": [
+            "Only dotted lines",
+            "Only curved lines",
+            "Lines that could form the hidden shape",
+            "All lines equally"
+        ],
+        "correct": 2,
+        "explanation": "Focus on lines that match the shape you're looking for."
+    },
+    {
+        "prompt": "A star is hidden in complex figure. Star typically has how many points?",
+        "answers": [
+            "4",
+            "3",
+            "8",
+            "5 or 6 commonly"
+        ],
+        "correct": 3,
+        "explanation": "Common stars have 5 or 6 points."
+    },
+    {
+        "prompt": "To verify embedded figure, you should?",
+        "answers": [
+            "Trace the shape to ensure all sides connect properly",
+            "Ignore some parts",
+            "Only look at one line",
+            "Guess randomly"
+        ],
+        "correct": 0,
+        "explanation": "Trace the shape to confirm it forms the required figure."
+    },
+    {
+        "prompt": "Embedded figure may be rotated or flipped. True or False?",
+        "answers": [
+            "True",
+            "False",
+            "Only flipped",
+            "Only rotated"
+        ],
+        "correct": 0,
+        "explanation": "The hidden figure may appear in different orientations."
+    },
+    {
+        "prompt": "A rectangle is embedded. It has how many right angles?",
+        "answers": [
+            "3",
+            "2",
+            "0",
+            "4"
+        ],
+        "correct": 3,
+        "explanation": "Rectangle has 4 right angles (90° each corner)."
+    },
+    {
+        "prompt": "Complex figure has many triangles. To count distinct triangles, you should?",
+        "answers": [
+            "Guess a number",
+            "Count only obvious ones",
+            "Ignore overlapping ones",
+            "Systematically identify each combination of lines forming triangles"
+        ],
+        "correct": 3,
+        "explanation": "Systematic counting ensures all triangles are found."
+    },
+    {
+        "prompt": "The given shape is an 'L'. In complex figure, L can appear how?",
+        "answers": [
+            "Inverted only",
+            "Only upright",
+            "Only one way",
+            "In any of 4 rotations"
+        ],
+        "correct": 3,
+        "explanation": "L shape can be rotated to appear in 4 different orientations."
+    },
+    {
+        "prompt": "Hexagon is embedded in design. Properties to look for?",
+        "answers": [
+            "4 sides",
+            "Curved edges",
+            "6 sides, possibly regular",
+            "5 sides"
+        ],
+        "correct": 2,
+        "explanation": "Hexagon = 6-sided polygon."
+    },
+    {
+        "prompt": "When embedded figure overlaps with multiple other shapes?",
+        "answers": [
+            "Focus on the specific lines forming target shape",
+            "Ignore the problem",
+            "Give up",
+            "Count all shapes"
+        ],
+        "correct": 0,
+        "explanation": "Mentally isolate the lines forming the target figure."
+    },
+    {
+        "prompt": "Arrow shape hidden in figure. Key feature to identify arrow?",
+        "answers": [
+            "No distinct shape",
+            "All curves",
+            "Four equal sides",
+            "Pointed head with shaft"
+        ],
+        "correct": 3,
+        "explanation": "Arrow has distinctive pointed head\/tip and a shaft."
+    }
+]

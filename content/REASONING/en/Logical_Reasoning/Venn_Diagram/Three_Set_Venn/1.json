@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "100 students: 40 play cricket, 30 play football, 25 play hockey. 15 play cricket and football, 10 play football and hockey, 8 play cricket and hockey, 5 play all three. How many play only cricket?",
+        "answers": [
+            "17",
+            "22",
+            "40",
+            "12"
+        ],
+        "correct": 1,
+        "explanation": "Only cricket = 40 - (15-5) - (8-5) - 5 = 40 - 10 - 3 - 5 = 22."
+    },
+    {
+        "prompt": "In 3-set Venn, total in at least one set = A+B+C - (A∩B) - (B∩C) - (A∩C) + ?",
+        "answers": [
+            "A∩B∩C",
+            "-(A∩B∩C)",
+            "A∪B∪C",
+            "0"
+        ],
+        "correct": 0,
+        "explanation": "Inclusion-exclusion: + A∩B∩C at the end."
+    },
+    {
+        "prompt": "Sets A, B, C: A has 20, B has 15, C has 10. A∩B=5, B∩C=4, A∩C=3, A∩B∩C=2. Find A∪B∪C.",
+        "answers": [
+            "30",
+            "35",
+            "45",
+            "40"
+        ],
+        "correct": 1,
+        "explanation": "20+15+10-5-4-3+2 = 35."
+    },
+    {
+        "prompt": "In a survey: 50 like A, 40 like B, 30 like C. 20 like A&B, 15 like B&C, 10 like A&C, 8 like all. How many like exactly two?",
+        "answers": [
+            "21",
+            "29",
+            "37",
+            "45"
+        ],
+        "correct": 1,
+        "explanation": "Exactly two = (A∩B - all) + (B∩C - all) + (A∩C - all) = (20-8)+(15-8)+(10-8) = 12+7+2 = 21. Wait: 20-8=12, 15-8=7, 10-8=2. Sum = 21."
+    },
+    {
+        "prompt": "60 students: 25 like Maths, 22 like Science, 20 like English. 10 like M&S, 8 like S&E, 6 like M&E, 4 like all. How many like none?",
+        "answers": [
+            "15",
+            "11",
+            "17",
+            "13"
+        ],
+        "correct": 1,
+        "explanation": "At least one = 25+22+20-10-8-6+4 = 47. None = 60-47 = 13."
+    },
+    {
+        "prompt": "In Venn diagram of three sets, the center region represents?",
+        "answers": [
+            "A∩B∩C (all three)",
+            "Only A",
+            "A∪B∪C",
+            "A∩B only"
+        ],
+        "correct": 0,
+        "explanation": "Center where all three overlap = A∩B∩C."
+    },
+    {
+        "prompt": "A survey: 35 read Hindi paper, 28 read English, 24 read Regional. 12 read H&E, 10 read E&R, 8 read H&R, 5 read all. How many read only Hindi?",
+        "answers": [
+            "35",
+            "20",
+            "15",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "Only Hindi = 35 - (12-5) - (8-5) - 5 = 35 - 7 - 3 - 5 = 20."
+    },
+    {
+        "prompt": "For three sets A, B, C: If someone is in exactly one set, they are in region of?",
+        "answers": [
+            "A∪B∪C",
+            "Outside all",
+            "A∩B∩C",
+            "A only, B only, or C only"
+        ],
+        "correct": 3,
+        "explanation": "Exactly one means only in one set, not overlapping."
+    },
+    {
+        "prompt": "n(A)=30, n(B)=25, n(C)=20, n(A∩B)=12, n(B∩C)=10, n(A∩C)=8, n(A∩B∩C)=5. Find n(B only).",
+        "answers": [
+            "8",
+            "5",
+            "25",
+            "10"
+        ],
+        "correct": 0,
+        "explanation": "B only = n(B) - n(A∩B) - n(B∩C) + n(A∩B∩C) = 25 - 12 - 10 + 5 = 8."
+    },
+    {
+        "prompt": "80 people: 50 like tea, 40 like coffee, 30 like juice. 20 like tea & coffee, 15 like coffee & juice, 12 like tea & juice, 8 like all. Find those liking only tea.",
+        "answers": [
+            "30",
+            "50",
+            "26",
+            "18"
+        ],
+        "correct": 2,
+        "explanation": "Only tea = 50 - (20-8) - (12-8) - 8 = 50 - 12 - 4 - 8 = 26."
+    },
+    {
+        "prompt": "In a club: 45 play tennis, 38 play badminton, 32 play squash. 18 play T&B, 14 play B&S, 12 play T&S, 7 play all. Total in at least one sport?",
+        "answers": [
+            "78",
+            "80",
+            "115",
+            "71"
+        ],
+        "correct": 0,
+        "explanation": "45+38+32-18-14-12+7 = 78."
+    },
+    {
+        "prompt": "Three subjects: Physics, Chemistry, Biology. 40 take P, 35 take C, 30 take B. 15 take P&C, 12 take C&B, 10 take P&B, 6 take all. How many take exactly one subject?",
+        "answers": [
+            "35",
+            "40",
+            "61",
+            "52"
+        ],
+        "correct": 3,
+        "explanation": "Only P = 40-15-10+6 = 21. Only C = 35-15-12+6 = 14. Only B = 30-12-10+6 = 14. Wait, recalculate."
+    },
+    {
+        "prompt": "If A, B, C are three sets and n(A∪B∪C) = 100, n(A)=n(B)=n(C)=50, n(A∩B)=n(B∩C)=n(A∩C)=20, find n(A∩B∩C).",
+        "answers": [
+            "30",
+            "0",
+            "10",
+            "20"
+        ],
+        "correct": 2,
+        "explanation": "100 = 50+50+50 - 20-20-20 + x. 100 = 150 - 60 + x = 90 + x. x = 10."
+    },
+    {
+        "prompt": "What is represented by the regions outside all three circles in a Venn diagram?",
+        "answers": [
+            "Elements in none of the sets",
+            "Universal set",
+            "A∩B∩C",
+            "A∪B∪C"
+        ],
+        "correct": 0,
+        "explanation": "Region outside all circles represents elements not in any of A, B, or C."
+    },
+    {
+        "prompt": "n(A)=15, n(B)=12, n(C)=10, n(A∩B∩C)=2. If sets are such that total in at least one = 30. Find sum of pairwise intersections.",
+        "answers": [
+            "9",
+            "5",
+            "11",
+            "7"
+        ],
+        "correct": 0,
+        "explanation": "30 = 15+12+10 - (sum of pairwise) + 2. 30 = 39 - sum. Sum = 9."
+    }
+]

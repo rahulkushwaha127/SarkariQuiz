@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Ram ranks 7th in class. What is his rank from bottom if class has 30 students?",
+        "answers": [
+            "22nd",
+            "23rd",
+            "24th",
+            "25th"
+        ],
+        "correct": 2,
+        "explanation": "From bottom = 30 - 7 + 1 = 24th."
+    },
+    {
+        "prompt": "A is 3 ranks above B. B is rank 12. A's rank?",
+        "answers": [
+            "15th",
+            "10th",
+            "8th",
+            "9th"
+        ],
+        "correct": 3,
+        "explanation": "3 ranks above = higher rank = 12 - 3 = 9th."
+    },
+    {
+        "prompt": "P scored highest, Q lowest among 5 friends. R scored more than S but less than T. Rank of R?",
+        "answers": [
+            "2nd",
+            "3rd",
+            "5th",
+            "4th"
+        ],
+        "correct": 1,
+        "explanation": "P > T > R > S > Q. R is 3rd."
+    },
+    {
+        "prompt": "In a test, A got more marks than B. C got less than D but more than A. Highest?",
+        "answers": [
+            "A",
+            "C",
+            "D",
+            "B"
+        ],
+        "correct": 2,
+        "explanation": "D > C > A > B. D highest."
+    },
+    {
+        "prompt": "X's rank improved from 20th to 12th. How many students did X surpass?",
+        "answers": [
+            "9",
+            "6",
+            "8",
+            "7"
+        ],
+        "correct": 2,
+        "explanation": "Surpassed = 20 - 12 = 8 students."
+    },
+    {
+        "prompt": "5 people: A>B>C>D>E in height. Who is 3rd tallest?",
+        "answers": [
+            "D",
+            "C",
+            "A",
+            "B"
+        ],
+        "correct": 1,
+        "explanation": "1st A, 2nd B, 3rd C."
+    },
+    {
+        "prompt": "M, N, O, P, Q in increasing order of age. Who is 2nd oldest?",
+        "answers": [
+            "N",
+            "M",
+            "O",
+            "P"
+        ],
+        "correct": 3,
+        "explanation": "Oldest is Q, 2nd oldest is P."
+    },
+    {
+        "prompt": "Ram is 5th from top. He is 3 ranks above Shyam. Shyam's rank?",
+        "answers": [
+            "2nd",
+            "9th",
+            "7th",
+            "8th"
+        ],
+        "correct": 3,
+        "explanation": "3 ranks below 5th = 8th."
+    },
+    {
+        "prompt": "In 40 students, A failed by 5 ranks. He is 25th now. Pass rank was?",
+        "answers": [
+            "20th",
+            "19th",
+            "21st",
+            "30th"
+        ],
+        "correct": 0,
+        "explanation": "To pass needed 5 higher rank = 25 - 5 = 20th."
+    },
+    {
+        "prompt": "B's rank in class is equal from both ends. Class has 25 students. B's rank?",
+        "answers": [
+            "12th",
+            "14th",
+            "13th",
+            "11th"
+        ],
+        "correct": 2,
+        "explanation": "Middle = (25+1)\/2 = 13th."
+    },
+    {
+        "prompt": "A is 4th from top, B is 4th from bottom. 15 students total. Between A and B?",
+        "answers": [
+            "8",
+            "5",
+            "6",
+            "7"
+        ],
+        "correct": 3,
+        "explanation": "B from top = 15 - 4 + 1 = 12th. Between 4 and 12 = 12 - 4 - 1 = 7."
+    },
+    {
+        "prompt": "Ram improved 8 places and became 15th. Earlier rank?",
+        "answers": [
+            "7th",
+            "24th",
+            "22nd",
+            "23rd"
+        ],
+        "correct": 3,
+        "explanation": "Earlier = 15 + 8 = 23rd."
+    },
+    {
+        "prompt": "In marks: P = Q > R = S > T. How many have same marks as P?",
+        "answers": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "P = Q. One person (Q) has same marks as P."
+    },
+    {
+        "prompt": "A is 11th from front. B is 5 places behind A. B's position from front?",
+        "answers": [
+            "16th",
+            "15th",
+            "17th",
+            "6th"
+        ],
+        "correct": 0,
+        "explanation": "B = 11 + 5 = 16th."
+    },
+    {
+        "prompt": "Class of 50. X is 30th from bottom. Position from top?",
+        "answers": [
+            "21st",
+            "22nd",
+            "20th",
+            "19th"
+        ],
+        "correct": 0,
+        "explanation": "From top = 50 - 30 + 1 = 21st."
+    }
+]

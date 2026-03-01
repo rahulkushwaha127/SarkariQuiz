@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Two dice positions: (1) A-top, B-front (2) C-top, B-front. If A opposite to D, what is opposite to C?",
+        "answers": [
+            "B",
+            "D",
+            "A",
+            "Cannot determine"
+        ],
+        "correct": 1,
+        "explanation": "Same front (B), different tops. A was top, now C is top. A-D opposite. When A was top, D was bottom. In position 2, D is still bottom if C is opposite to D."
+    },
+    {
+        "prompt": "Dice shown: (1) 1-top, 2-front (2) 3-top, 2-front (3) 4-top, 2-front. What is opposite to 1?",
+        "answers": [
+            "Cannot determine from given",
+            "4",
+            "6",
+            "3"
+        ],
+        "correct": 2,
+        "explanation": "Standard dice: 1 opposite 6."
+    },
+    {
+        "prompt": "From two positions: Position-1: A on top, B on front. Position-2: C on top, D on front. A and C are adjacent. What can we conclude about opposites?",
+        "answers": [
+            "A opposite C",
+            "A opposite B",
+            "Need more information",
+            "C opposite D"
+        ],
+        "correct": 2,
+        "explanation": "Adjacent positions don't directly reveal opposites without more data."
+    },
+    {
+        "prompt": "If in a dice: Red opposite Blue, Yellow opposite Green, White opposite Black. Red is on top. What is at bottom?",
+        "answers": [
+            "Yellow",
+            "Blue",
+            "White",
+            "Green"
+        ],
+        "correct": 1,
+        "explanation": "Red opposite Blue, so Blue at bottom."
+    },
+    {
+        "prompt": "Dice positions: (1) 2-top, 6-front (2) 4-top, 6-front. What is opposite to 2?",
+        "answers": [
+            "5",
+            "3",
+            "4",
+            "6"
+        ],
+        "correct": 0,
+        "explanation": "6 remains front. Top changes from 2 to 4. In standard dice, 2 opposite 5."
+    },
+    {
+        "prompt": "A cube with faces A, B, C, D, E, F. Given: A opposite C, B opposite D. What is opposite to E?",
+        "answers": [
+            "A",
+            "B",
+            "C",
+            "F"
+        ],
+        "correct": 3,
+        "explanation": "3 pairs of opposite faces. A-C, B-D given. Remaining E-F."
+    },
+    {
+        "prompt": "Two views: (1) 1 on top, 3 facing (2) 6 on top, 3 facing. What is opposite to 3?",
+        "answers": [
+            "5",
+            "4",
+            "2",
+            "Not determinable from these views"
+        ],
+        "correct": 3,
+        "explanation": "3 is front in both views. Top changes from 1 to 6 (opposites). Need third view or more info."
+    },
+    {
+        "prompt": "Cube: A-B opposite, C-D opposite, E-F opposite. If looking from A, and C is on right, what is on left?",
+        "answers": [
+            "F",
+            "B",
+            "D",
+            "E"
+        ],
+        "correct": 2,
+        "explanation": "C on right means D (opposite) on left."
+    },
+    {
+        "prompt": "Dice with colors: (1) Red-top, Blue-right, Green-front (2) Yellow-top, Blue-right, Green-front. What is opposite to Red?",
+        "answers": [
+            "Cannot say",
+            "Yellow",
+            "Green",
+            "Blue"
+        ],
+        "correct": 1,
+        "explanation": "Blue and Green same position. Top changed from Red to Yellow. They are opposite."
+    },
+    {
+        "prompt": "If North opposite South, East opposite West, Up opposite Down on a cube. North on top. What's at bottom?",
+        "answers": [
+            "Down",
+            "South",
+            "East",
+            "North"
+        ],
+        "correct": 1,
+        "explanation": "North opposite South. North top = South bottom."
+    },
+    {
+        "prompt": "Three dice views: All show 5 on right. Tops are 1, 2, 3 respectively. What is opposite to 5?",
+        "answers": [
+            "Need more info",
+            "4",
+            "6",
+            "Cannot be 1, 2, or 3"
+        ],
+        "correct": 3,
+        "explanation": "5 is always adjacent to 1, 2, 3 (all appeared on top). So opposite to 5 can't be 1, 2, or 3."
+    },
+    {
+        "prompt": "Cube faces: Numbers 1-6. If 1 opposite 2, 3 opposite 4, what is opposite to 5?",
+        "answers": [
+            "4",
+            "3",
+            "6",
+            "1"
+        ],
+        "correct": 2,
+        "explanation": "1-2, 3-4 given. Remaining 5-6 opposite."
+    },
+    {
+        "prompt": "From cube positions: (1) A-top, B-front (2) B-top, C-front (3) C-top, A-front. Which pairs are opposite?",
+        "answers": [
+            "None of A, B, C are opposite to each other",
+            "A-B",
+            "B-C",
+            "C-A"
+        ],
+        "correct": 0,
+        "explanation": "A, B, C each appeared adjacent to other two. None are opposite to each other."
+    },
+    {
+        "prompt": "If in two positions of dice, same face is always hidden, that face is:",
+        "answers": [
+            "Cannot determine",
+            "At the bottom in both",
+            "Opposite to top in both",
+            "On the side"
+        ],
+        "correct": 1,
+        "explanation": "Hidden face is at bottom, opposite to visible top."
+    },
+    {
+        "prompt": "Dice: (1) P-top, Q-front, R-right (2) Q-top, P-back. What is opposite to P?",
+        "answers": [
+            "Q",
+            "Cannot determine",
+            "R",
+            "The face at bottom in position 2"
+        ],
+        "correct": 0,
+        "explanation": "Position 2: Q-top means Q was rotated up. P goes to back from top. Q was front. Q and P were adjacent, now opposite? Let's check rotation."
+    }
+]

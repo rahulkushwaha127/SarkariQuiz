@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A man walks 10m East, then 10m West. His displacement is?",
+        "answers": [
+            "5m",
+            "0m",
+            "10m",
+            "20m"
+        ],
+        "correct": 1,
+        "explanation": "He returns to starting point. Displacement = 0."
+    },
+    {
+        "prompt": "Walk 5km North, 5km South, 5km East. Displacement?",
+        "answers": [
+            "0km",
+            "5km East",
+            "10km",
+            "15km"
+        ],
+        "correct": 1,
+        "explanation": "N-S cancel. Only 5km East remains."
+    },
+    {
+        "prompt": "Move 6m East, 8m North. Displacement from start?",
+        "answers": [
+            "10m",
+            "2m",
+            "7m",
+            "14m"
+        ],
+        "correct": 0,
+        "explanation": "√(6² + 8²) = √100 = 10m."
+    },
+    {
+        "prompt": "Walk in a square path (10m each side). Displacement after completing square?",
+        "answers": [
+            "10m",
+            "0m",
+            "20m",
+            "40m"
+        ],
+        "correct": 1,
+        "explanation": "Returns to start. Displacement = 0."
+    },
+    {
+        "prompt": "A runs 3km East, 4km North, 3km West. Displacement?",
+        "answers": [
+            "0km",
+            "10km",
+            "4km North",
+            "6km"
+        ],
+        "correct": 2,
+        "explanation": "E-W cancel. Only 4km North remains."
+    },
+    {
+        "prompt": "Walk: 7m South, 4m East, 7m North, 4m West. Displacement?",
+        "answers": [
+            "7m",
+            "22m",
+            "0m",
+            "11m"
+        ],
+        "correct": 2,
+        "explanation": "All movements cancel. Back to start. Displacement = 0."
+    },
+    {
+        "prompt": "Move 12m North, 5m East. Magnitude of displacement?",
+        "answers": [
+            "7m",
+            "17m",
+            "12m",
+            "13m"
+        ],
+        "correct": 3,
+        "explanation": "√(12² + 5²) = √169 = 13m."
+    },
+    {
+        "prompt": "Displacement vs Distance: 4km East, 3km North. Distance walked?",
+        "answers": [
+            "7km",
+            "5km",
+            "1km",
+            "12km"
+        ],
+        "correct": 0,
+        "explanation": "Total distance = 4 + 3 = 7km. (Displacement would be 5km)"
+    },
+    {
+        "prompt": "Circular track of 400m. After running one complete lap, displacement?",
+        "answers": [
+            "100m",
+            "200m",
+            "400m",
+            "0m"
+        ],
+        "correct": 3,
+        "explanation": "Complete circle brings you back to start. Displacement = 0."
+    },
+    {
+        "prompt": "A walks 20m in one direction, turns around, walks 15m back. Displacement?",
+        "answers": [
+            "20m",
+            "35m",
+            "5m",
+            "15m"
+        ],
+        "correct": 2,
+        "explanation": "Net movement = 20 - 15 = 5m in original direction."
+    },
+    {
+        "prompt": "Move 8m West, 6m South. Displacement magnitude and direction?",
+        "answers": [
+            "10m South-West",
+            "14m",
+            "10m North-East",
+            "2m East"
+        ],
+        "correct": 0,
+        "explanation": "√(64+36) = 10m. Direction: South-West."
+    },
+    {
+        "prompt": "Walk 100m, turn 180°, walk 100m. Displacement?",
+        "answers": [
+            "0m",
+            "200m",
+            "50m",
+            "100m"
+        ],
+        "correct": 0,
+        "explanation": "Walk and return same path. Displacement = 0."
+    },
+    {
+        "prompt": "Path: 5m N, 5m E, 5m S, 5m E. Final displacement from start?",
+        "answers": [
+            "5m",
+            "20m",
+            "15m",
+            "10m East"
+        ],
+        "correct": 3,
+        "explanation": "N-S cancel. 5m E + 5m E = 10m East."
+    },
+    {
+        "prompt": "Triangle path: 3m, 4m, 5m (right triangle). Start to end displacement if started and ended at same vertex?",
+        "answers": [
+            "5m",
+            "12m",
+            "0m",
+            "7m"
+        ],
+        "correct": 2,
+        "explanation": "If complete triangle (back to start), displacement = 0."
+    },
+    {
+        "prompt": "Difference between distance and displacement?",
+        "answers": [
+            "Distance is total path; Displacement is straight line start to end",
+            "Displacement is longer",
+            "Distance is shorter",
+            "They are same"
+        ],
+        "correct": 0,
+        "explanation": "Distance = actual path traveled. Displacement = straight line from start to finish."
+    }
+]

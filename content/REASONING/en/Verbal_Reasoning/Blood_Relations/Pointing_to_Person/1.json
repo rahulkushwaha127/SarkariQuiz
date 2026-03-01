@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Pointing to a photograph, Ram said 'She is the daughter of my grandfather's only son.' Who is in the photograph?",
+        "answers": [
+            "Ram's aunt",
+            "Ram's daughter",
+            "Ram's sister",
+            "Ram's mother"
+        ],
+        "correct": 2,
+        "explanation": "Grandfather's only son = Ram's father. Father's daughter = Ram's sister."
+    },
+    {
+        "prompt": "Pointing to a man, Sita said 'He is the son of my mother's only daughter.' Who is the man?",
+        "answers": [
+            "Sita's father",
+            "Sita's son",
+            "Sita's brother",
+            "Sita's nephew"
+        ],
+        "correct": 1,
+        "explanation": "Mother's only daughter = Sita herself. Her son = the man."
+    },
+    {
+        "prompt": "Pointing to a lady, Mohan said 'She is the wife of my father's only brother.' Who is the lady?",
+        "answers": [
+            "Mohan's aunt",
+            "Mohan's mother",
+            "Mohan's grandmother",
+            "Mohan's sister"
+        ],
+        "correct": 0,
+        "explanation": "Father's only brother = uncle. Uncle's wife = aunt."
+    },
+    {
+        "prompt": "Pointing to a boy, a man said 'He is the son of my wife's brother.' Who is the boy to the man?",
+        "answers": [
+            "Cousin",
+            "Nephew",
+            "Brother",
+            "Son"
+        ],
+        "correct": 1,
+        "explanation": "Wife's brother = brother-in-law. His son = man's nephew."
+    },
+    {
+        "prompt": "Pointing to a woman, a girl said 'She is the sister of my father's mother.' Who is the woman?",
+        "answers": [
+            "Grand aunt",
+            "Aunt",
+            "Grandmother",
+            "Mother"
+        ],
+        "correct": 0,
+        "explanation": "Father's mother = grandmother. Her sister = grand aunt."
+    },
+    {
+        "prompt": "A man pointing to a photograph says 'The lady in the photograph is my nephew's maternal grandmother.' How is the lady related to the man's sister?",
+        "answers": [
+            "Grandmother",
+            "Mother",
+            "Mother-in-law",
+            "Aunt"
+        ],
+        "correct": 1,
+        "explanation": "Nephew's maternal grandmother = sister's mother-in-law or man's mother. If nephew is sister's son, then maternal grandmother = sister's mother = man's mother."
+    },
+    {
+        "prompt": "Pointing to a man, a woman says 'His mother is the daughter of my mother.' How is the woman related to the man?",
+        "answers": [
+            "Aunt",
+            "Sister",
+            "Mother",
+            "Grandmother"
+        ],
+        "correct": 0,
+        "explanation": "Daughter of my mother = my sister or myself. His mother = woman's sister. So woman is man's aunt."
+    },
+    {
+        "prompt": "Looking at a portrait, a man said 'That man's father is my father's son.' Who is in the portrait?",
+        "answers": [
+            "The man himself",
+            "The man's father",
+            "The man's son",
+            "The man's brother"
+        ],
+        "correct": 2,
+        "explanation": "My father's son = myself or brother. If that's the portrait's father, then portrait is man's son."
+    },
+    {
+        "prompt": "Pointing to a lady, a man said 'She is the daughter of the only child of my grandmother.' Who is the lady?",
+        "answers": [
+            "Man's sister",
+            "Man's daughter",
+            "Man's mother",
+            "Man's aunt"
+        ],
+        "correct": 0,
+        "explanation": "Only child of grandmother = man's parent. Daughter of parent = man's sister."
+    },
+    {
+        "prompt": "A girl pointing to a photograph says 'He is the husband of my mother's mother.' Who is in the photograph?",
+        "answers": [
+            "Uncle",
+            "Grandfather",
+            "Father",
+            "Brother"
+        ],
+        "correct": 1,
+        "explanation": "Mother's mother = grandmother. Her husband = grandfather."
+    },
+    {
+        "prompt": "Pointing to a woman, Raj says 'She is the mother of my father's only grandchild.' Who is the woman?",
+        "answers": [
+            "Raj's mother",
+            "Raj's sister",
+            "Raj's wife",
+            "Raj's daughter"
+        ],
+        "correct": 2,
+        "explanation": "Father's only grandchild = Raj's child. Mother of that child = Raj's wife."
+    },
+    {
+        "prompt": "Pointing to a boy, Anita said 'He is the son of the only son of my grandfather.' Who is the boy?",
+        "answers": [
+            "Anita's cousin",
+            "Anita's son",
+            "Anita's nephew",
+            "Anita's brother"
+        ],
+        "correct": 3,
+        "explanation": "Only son of grandfather = Anita's father. His son = Anita's brother."
+    },
+    {
+        "prompt": "A man pointing to a lady says 'She is the wife of the only son of my mother.' Who is the lady?",
+        "answers": [
+            "Man's sister",
+            "Man's daughter",
+            "Man's wife",
+            "Man's mother"
+        ],
+        "correct": 2,
+        "explanation": "Only son of mother = the man himself. His wife = the lady."
+    },
+    {
+        "prompt": "Pointing to a photograph, Rekha says 'He is the father of my daughter's brother.' Who is in the photograph?",
+        "answers": [
+            "Rekha's brother",
+            "Rekha's husband",
+            "Rekha's father",
+            "Rekha's son"
+        ],
+        "correct": 1,
+        "explanation": "Daughter's brother = Rekha's son. His father = Rekha's husband."
+    },
+    {
+        "prompt": "A man pointing to a woman says 'Her only brother is the father of my son's grandfather.' Who is the woman?",
+        "answers": [
+            "Man's grandmother",
+            "Man's great-aunt",
+            "Man's aunt",
+            "Man's mother"
+        ],
+        "correct": 1,
+        "explanation": "Son's grandfather = man's father. His father = man's grandfather. Woman's brother = great-grandfather. Woman is great-aunt."
+    }
+]

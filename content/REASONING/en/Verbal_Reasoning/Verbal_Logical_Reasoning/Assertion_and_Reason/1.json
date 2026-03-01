@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Assertion (A): Ice floats on water. Reason (R): Ice is less dense than water.",
+        "answers": [
+            "Both true but R doesn't explain A",
+            "A true, R false",
+            "A false, R true",
+            "Both A and R are true, R explains A"
+        ],
+        "correct": 3,
+        "explanation": "Ice floats because of lower density. R correctly explains A."
+    },
+    {
+        "prompt": "Assertion (A): Plants are green. Reason (R): Plants contain chlorophyll.",
+        "answers": [
+            "Both true, R doesn't explain A",
+            "A false, R true",
+            "A true, R false",
+            "Both true, R explains A"
+        ],
+        "correct": 3,
+        "explanation": "Chlorophyll gives green color. R explains A."
+    },
+    {
+        "prompt": "Assertion (A): Sound cannot travel in vacuum. Reason (R): Sound needs a medium to travel.",
+        "answers": [
+            "Both true, R explains A",
+            "A true, R false",
+            "A false, R true",
+            "Both true, R doesn't explain A"
+        ],
+        "correct": 0,
+        "explanation": "Sound requires medium. Vacuum has no medium. R explains A."
+    },
+    {
+        "prompt": "Assertion (A): Earth is round. Reason (R): Sun rises in the east.",
+        "answers": [
+            "Both true, R doesn't explain A",
+            "A true, R false",
+            "A false, R true",
+            "Both true, R explains A"
+        ],
+        "correct": 0,
+        "explanation": "Both facts are true but sun rising doesn't explain Earth's shape."
+    },
+    {
+        "prompt": "Assertion (A): Metals conduct electricity. Reason (R): Metals have free electrons.",
+        "answers": [
+            "Both true, R explains A",
+            "A false, R true",
+            "A true, R false",
+            "Both true, R doesn't explain A"
+        ],
+        "correct": 0,
+        "explanation": "Free electrons enable conductivity. R explains A."
+    },
+    {
+        "prompt": "Assertion (A): We sweat in summer. Reason (R): Body temperature increases in summer.",
+        "answers": [
+            "Both true, R explains A",
+            "A true, R false",
+            "Both true, R doesn't explain A",
+            "A false, R true"
+        ],
+        "correct": 0,
+        "explanation": "Sweating is body's cooling mechanism when temperature rises. R explains A."
+    },
+    {
+        "prompt": "Assertion (A): Birds can fly. Reason (R): Birds have feathers.",
+        "answers": [
+            "Both true, R doesn't explain A completely",
+            "A false, R true",
+            "Both true, R fully explains A",
+            "A true, R false"
+        ],
+        "correct": 0,
+        "explanation": "Feathers help but wings, hollow bones etc. are main reasons. Partial explanation."
+    },
+    {
+        "prompt": "Assertion (A): Democracy is best form of government. Reason (R): India is a democracy.",
+        "answers": [
+            "Both true, R explains A",
+            "A debatable, R true",
+            "Both true, R doesn't explain A",
+            "A true, R false"
+        ],
+        "correct": 1,
+        "explanation": "A is opinion\/debatable. R is fact but doesn't explain A."
+    },
+    {
+        "prompt": "Assertion (A): Iron rusts. Reason (R): Iron reacts with oxygen and moisture.",
+        "answers": [
+            "Both true, R explains A",
+            "Both true, R doesn't explain A",
+            "A false, R true",
+            "A true, R false"
+        ],
+        "correct": 0,
+        "explanation": "Oxidation process explained by R."
+    },
+    {
+        "prompt": "Assertion (A): Night is dark. Reason (R): Earth rotates on its axis.",
+        "answers": [
+            "Both true, R explains A",
+            "A true, R false",
+            "Both true, R doesn't explain A",
+            "A false, R true"
+        ],
+        "correct": 0,
+        "explanation": "Rotation causes day-night cycle. R explains A."
+    },
+    {
+        "prompt": "Assertion (A): Fish can breathe underwater. Reason (R): Fish have gills.",
+        "answers": [
+            "A false, R true",
+            "Both true, R explains A",
+            "A true, R false",
+            "Both true, R doesn't explain A"
+        ],
+        "correct": 1,
+        "explanation": "Gills extract oxygen from water. R explains A."
+    },
+    {
+        "prompt": "Assertion (A): Rainbows appear after rain. Reason (R): Light disperses through water droplets.",
+        "answers": [
+            "A true, R false",
+            "Both true, R explains A",
+            "A false, R true",
+            "Both true, R doesn't explain A"
+        ],
+        "correct": 1,
+        "explanation": "Dispersion of light creates rainbow. R explains A."
+    },
+    {
+        "prompt": "Assertion (A): Moon has no atmosphere. Reason (R): Moon is made of cheese.",
+        "answers": [
+            "Both false",
+            "Both true, R explains A",
+            "A false, R true",
+            "A true, R false"
+        ],
+        "correct": 3,
+        "explanation": "Moon has no atmosphere (true). Moon is not cheese (false). A true, R false."
+    },
+    {
+        "prompt": "Assertion (A): Earthquakes occur. Reason (R): Tectonic plates shift.",
+        "answers": [
+            "Both true, R explains A",
+            "A false, R true",
+            "A true, R false",
+            "Both true, R doesn't explain A"
+        ],
+        "correct": 0,
+        "explanation": "Plate tectonics cause earthquakes. R explains A."
+    },
+    {
+        "prompt": "Assertion (A): Sun appears red at sunset. Reason (R): Earth is closer to sun at evening.",
+        "answers": [
+            "A true, R false",
+            "A false, R true",
+            "Both true, R explains A",
+            "Both false"
+        ],
+        "correct": 0,
+        "explanation": "Scattering of light causes red appearance, not distance. A true, R false."
+    }
+]

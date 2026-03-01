@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "What is mirror image of '3' (mirror on right)?",
+        "answers": [
+            "Reversed 3 (looks like E)",
+            "E",
+            "8",
+            "3 (same)"
+        ],
+        "correct": 0,
+        "explanation": "3 reversed horizontally looks like Ɛ."
+    },
+    {
+        "prompt": "Mirror image of '8' (vertical mirror)?",
+        "answers": [
+            "0",
+            "8 (same)",
+            "Reversed 8",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "8 is symmetric, looks same in mirror."
+    },
+    {
+        "prompt": "What is mirror image of '5' (mirror on right)?",
+        "answers": [
+            "Reversed 5 (like S)",
+            "S",
+            "2",
+            "5 (same)"
+        ],
+        "correct": 0,
+        "explanation": "5 reversed horizontally."
+    },
+    {
+        "prompt": "Which number looks same in mirror: 0, 1, 3, 5?",
+        "answers": [
+            "0 and 1",
+            "None",
+            "3 and 5",
+            "All"
+        ],
+        "correct": 0,
+        "explanation": "0 and 1 are symmetric vertically."
+    },
+    {
+        "prompt": "Mirror image of '2' with mirror on right?",
+        "answers": [
+            "5",
+            "Reversed 2 (like S)",
+            "Z",
+            "2 (same)"
+        ],
+        "correct": 1,
+        "explanation": "2 reversed horizontally."
+    },
+    {
+        "prompt": "What is mirror image of '7' (vertical mirror)?",
+        "answers": [
+            "7 (same)",
+            "L",
+            "Reversed 7",
+            "1"
+        ],
+        "correct": 2,
+        "explanation": "7 flipped horizontally."
+    },
+    {
+        "prompt": "Mirror image of '11' (mirror on right)?",
+        "answers": [
+            "77",
+            "II",
+            "11 (same)",
+            "Reversed 11"
+        ],
+        "correct": 2,
+        "explanation": "11 with two 1s remains same as each 1 is symmetric."
+    },
+    {
+        "prompt": "What is mirror image of '69' with mirror on right?",
+        "answers": [
+            "6 and 9 swap",
+            "Reversed order: 96",
+            "69 (same)",
+            "96 but reversed"
+        ],
+        "correct": 1,
+        "explanation": "Numbers reverse order and each digit flips."
+    },
+    {
+        "prompt": "Mirror image of '4' (vertical mirror)?",
+        "answers": [
+            "A",
+            "4 (same)",
+            "Reversed 4",
+            "7"
+        ],
+        "correct": 2,
+        "explanation": "4 flipped horizontally."
+    },
+    {
+        "prompt": "Which number is same as its mirror: 0, 1, 8, or 9?",
+        "answers": [
+            "0, 1, 8",
+            "9",
+            "None",
+            "All"
+        ],
+        "correct": 0,
+        "explanation": "0, 1, 8 are vertically symmetric."
+    },
+    {
+        "prompt": "Mirror image of '12' (mirror on right)?",
+        "answers": [
+            "12 (same)",
+            "21 reversed",
+            "SI",
+            "51"
+        ],
+        "correct": 1,
+        "explanation": "Order reverses and digits flip: becomes reversed 21."
+    },
+    {
+        "prompt": "What is mirror image of '88' (vertical mirror)?",
+        "answers": [
+            "Reversed 88",
+            "88 (same)",
+            "BB",
+            "∞"
+        ],
+        "correct": 1,
+        "explanation": "Both 8s are symmetric, order stays same."
+    },
+    {
+        "prompt": "Mirror image of '6' (mirror on right)?",
+        "answers": [
+            "Reversed 6",
+            "6 (same)",
+            "d",
+            "9"
+        ],
+        "correct": 0,
+        "explanation": "6 flipped horizontally (different from rotation)."
+    },
+    {
+        "prompt": "What is mirror of '101' with mirror on right?",
+        "answers": [
+            "Reversed 101",
+            "101 (same)",
+            "10I",
+            "IOI"
+        ],
+        "correct": 1,
+        "explanation": "1, 0, 1 are symmetric, and sequence is palindrome."
+    },
+    {
+        "prompt": "Mirror image of '25' (vertical mirror)?",
+        "answers": [
+            "Reversed 52",
+            "52",
+            "SZ",
+            "25 (same)"
+        ],
+        "correct": 0,
+        "explanation": "Order reverses: 52, but each digit also flips."
+    }
+]

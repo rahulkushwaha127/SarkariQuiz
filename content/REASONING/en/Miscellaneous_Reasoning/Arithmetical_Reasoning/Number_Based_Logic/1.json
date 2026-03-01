@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If 2 + 3 = 10, 3 + 4 = 21, then 4 + 5 = ?",
+        "answers": [
+            "36",
+            "45",
+            "30",
+            "20"
+        ],
+        "correct": 0,
+        "explanation": "Pattern: (a + b) × a = result. (2+3)×2=10, (3+4)×3=21, (4+5)×4=36."
+    },
+    {
+        "prompt": "If 1 = 3, 2 = 3, 3 = 5, 4 = 4, 5 = 4, then 6 = ?",
+        "answers": [
+            "4",
+            "6",
+            "5",
+            "3"
+        ],
+        "correct": 3,
+        "explanation": "Count of letters: ONE=3, TWO=3, THREE=5, FOUR=4, FIVE=4, SIX=3."
+    },
+    {
+        "prompt": "If 8 × 8 = 16, 6 × 6 = 12, then 4 × 4 = ?",
+        "answers": [
+            "8",
+            "4",
+            "12",
+            "16"
+        ],
+        "correct": 0,
+        "explanation": "Pattern: result = 2 × first number. 8×8=16, 6×6=12, 4×4=8."
+    },
+    {
+        "prompt": "If 12 = 6, 15 = 9, 18 = 12, then 21 = ?",
+        "answers": [
+            "15",
+            "12",
+            "18",
+            "21"
+        ],
+        "correct": 0,
+        "explanation": "Pattern: result = number - 6. 12-6=6, 15-6=9, 18-6=12, 21-6=15."
+    },
+    {
+        "prompt": "If 2 + 2 = 8, 3 + 3 = 18, then 4 + 4 = ?",
+        "answers": [
+            "16",
+            "64",
+            "24",
+            "32"
+        ],
+        "correct": 3,
+        "explanation": "Pattern: (a + a) × a = 2a × a = 2a². 4+4=8, 8×4=32."
+    },
+    {
+        "prompt": "If 5 × 3 = 16, 7 × 4 = 29, then 9 × 5 = ?",
+        "answers": [
+            "46",
+            "50",
+            "45",
+            "44"
+        ],
+        "correct": 0,
+        "explanation": "Pattern: a × b + 1 = result? 5×3+1=16, 7×4+1=29, 9×5+1=46."
+    },
+    {
+        "prompt": "If 11 + 11 = 4, 22 + 22 = 16, then 33 + 33 = ?",
+        "answers": [
+            "18",
+            "24",
+            "66",
+            "36"
+        ],
+        "correct": 3,
+        "explanation": "Sum of digits: (1+1)² = 4, (2+2+2+2)² = 16? Or (1+1)²=4, (4)²=16, (6)²=36."
+    },
+    {
+        "prompt": "If A = 1, B = 2... then CAT = ?",
+        "answers": [
+            "24",
+            "22",
+            "25",
+            "23"
+        ],
+        "correct": 0,
+        "explanation": "C=3, A=1, T=20. Sum = 24."
+    },
+    {
+        "prompt": "If 100 ÷ 25 = 16, 60 ÷ 12 = 20, then 80 ÷ 16 = ?",
+        "answers": [
+            "5",
+            "20",
+            "10",
+            "25"
+        ],
+        "correct": 1,
+        "explanation": "Pattern: a ÷ b = a - b + b? Check: 100÷25: 100-25=75≠16. Try: 100\/25=4, 4×4=16. 60\/12=5, 5×4=20. 80\/16=5, 5×4=20."
+    },
+    {
+        "prompt": "If 7 + 3 = 410, 5 + 2 = 37, then 8 + 4 = ?",
+        "answers": [
+            "412",
+            "48",
+            "312",
+            "512"
+        ],
+        "correct": 0,
+        "explanation": "Pattern: (a-b)(a+b). 7-3=4, 7+3=10 → 410. 5-2=3, 5+2=7 → 37. 8-4=4, 8+4=12 → 412."
+    },
+    {
+        "prompt": "If 1² = 1, 11² = 121, then 111² = ?",
+        "answers": [
+            "12321",
+            "11111",
+            "111111",
+            "111"
+        ],
+        "correct": 0,
+        "explanation": "111² = 12321 (palindrome pattern)."
+    },
+    {
+        "prompt": "If 6 + 4 = 210, 9 + 3 = 612, then 8 + 2 = ?",
+        "answers": [
+            "16",
+            "610",
+            "106",
+            "410"
+        ],
+        "correct": 1,
+        "explanation": "Pattern: (a-b)(a+b). 6-4=2, 6+4=10 → 210. 9-3=6, 9+3=12 → 612. 8-2=6, 8+2=10 → 610."
+    },
+    {
+        "prompt": "If 3 × 4 = 7, 5 × 6 = 11, then 7 × 8 = ?",
+        "answers": [
+            "56",
+            "15",
+            "16",
+            "14"
+        ],
+        "correct": 1,
+        "explanation": "Pattern: a + b. 3+4=7, 5+6=11, 7+8=15."
+    },
+    {
+        "prompt": "If 12 = 3, 1234 = 10, then 12345 = ?",
+        "answers": [
+            "5",
+            "12",
+            "15",
+            "20"
+        ],
+        "correct": 2,
+        "explanation": "Sum of digits: 1+2=3, 1+2+3+4=10, 1+2+3+4+5=15."
+    },
+    {
+        "prompt": "If 9 = 81, 8 = 64, then 7 = ?",
+        "answers": [
+            "56",
+            "42",
+            "49",
+            "63"
+        ],
+        "correct": 2,
+        "explanation": "Pattern: n² = result. 9²=81, 8²=64, 7²=49."
+    }
+]

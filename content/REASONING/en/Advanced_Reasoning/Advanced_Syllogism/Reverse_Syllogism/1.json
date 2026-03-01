@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Conclusion: Some A are B. Which statements can give this conclusion?",
+        "answers": [
+            "All A are not B",
+            "All A are B OR Some B are A OR All B are A",
+            "None of these",
+            "No A is B"
+        ],
+        "correct": 1,
+        "explanation": "Various statements can lead to 'Some A are B'."
+    },
+    {
+        "prompt": "Conclusion: No P is Q. What must be true?",
+        "answers": [
+            "P and Q have no common elements",
+            "P equals Q",
+            "All P are Q",
+            "Some P are Q"
+        ],
+        "correct": 0,
+        "explanation": "'No P is Q' means zero overlap."
+    },
+    {
+        "prompt": "Given conclusion: All X are Y. Which statement set is possible?",
+        "answers": [
+            "X and Y are separate",
+            "Some X are Y",
+            "No X is Y",
+            "All X are Z, All Z are Y"
+        ],
+        "correct": 3,
+        "explanation": "Transitive relation: X ⊂ Z ⊂ Y gives All X are Y."
+    },
+    {
+        "prompt": "Conclusion needed: Some M are not N. Possible statement?",
+        "answers": [
+            "M equals N",
+            "Some N are M",
+            "All M are N",
+            "All M are O, No O is N"
+        ],
+        "correct": 3,
+        "explanation": "If M ⊂ O and O ∩ N = φ, then M ∩ N = φ, so all M are not N."
+    },
+    {
+        "prompt": "To conclude 'Some A are C', given 'All A are B'. What else is needed?",
+        "answers": [
+            "Some B are C or All B are C",
+            "No B is C",
+            "Some A are not B",
+            "None of these"
+        ],
+        "correct": 0,
+        "explanation": "If A ⊂ B and some\/all B are C, then some A are C."
+    },
+    {
+        "prompt": "Conclusion: All cats are animals. Working backward, what's a valid premise pair?",
+        "answers": [
+            "No cat is animal",
+            "Cats and animals unrelated",
+            "All cats are mammals, All mammals are animals",
+            "Some cats are animals"
+        ],
+        "correct": 2,
+        "explanation": "Transitive chain: cats ⊂ mammals ⊂ animals."
+    },
+    {
+        "prompt": "To prove: Some doctors are rich. Minimum statements needed?",
+        "answers": [
+            "None needed",
+            "Cannot prove",
+            "One statement: Some doctors are rich OR All doctors are rich",
+            "At least three"
+        ],
+        "correct": 2,
+        "explanation": "Direct statement or stronger version suffices."
+    },
+    {
+        "prompt": "Conclusion: No student failed. Reverse engineer the statement.",
+        "answers": [
+            "All failed",
+            "All students passed or None are failures",
+            "Most failed",
+            "Some students failed"
+        ],
+        "correct": 1,
+        "explanation": "No failures = all passed."
+    },
+    {
+        "prompt": "Given: Some X are Y follows. Which does NOT lead to this?",
+        "answers": [
+            "All X are Y",
+            "Some Y are X",
+            "All Y are X",
+            "No X is Y"
+        ],
+        "correct": 3,
+        "explanation": "'No X is Y' contradicts 'Some X are Y'."
+    },
+    {
+        "prompt": "Conclusion: At least one A is B. This follows from?",
+        "answers": [
+            "Cannot be concluded",
+            "Some A are B or All A are B",
+            "Only if given directly",
+            "No A is B"
+        ],
+        "correct": 1,
+        "explanation": "'At least one' = 'Some', which follows from Some or All."
+    },
+    {
+        "prompt": "To get: All roses are red. Backward reasoning suggests?",
+        "answers": [
+            "Some roses not red",
+            "No rose is red",
+            "Roses ⊂ flowers, flowers ⊂ red things",
+            "Roses independent of color"
+        ],
+        "correct": 2,
+        "explanation": "Subset chain leads to conclusion."
+    },
+    {
+        "prompt": "Conclusion: M is taller than N. Requires?",
+        "answers": [
+            "Unrelated heights",
+            "M=N",
+            "N>M",
+            "Direct comparison or chain: M>X, X>N"
+        ],
+        "correct": 3,
+        "explanation": "Direct or transitive comparison needed."
+    },
+    {
+        "prompt": "Given conclusion: P and Q have no relationship. This means?",
+        "answers": [
+            "P⊂Q",
+            "All P are Q",
+            "Cannot deduce anything connecting P and Q from premises",
+            "P=Q"
+        ],
+        "correct": 2,
+        "explanation": "No deduction possible when unrelated."
+    },
+    {
+        "prompt": "To conclude: Either A or B (but not both). Statements needed?",
+        "answers": [
+            "Both A and B true",
+            "A and B are mutually exclusive and exhaustive options",
+            "A implies B",
+            "Neither A nor B"
+        ],
+        "correct": 1,
+        "explanation": "Mutual exclusivity required."
+    },
+    {
+        "prompt": "Reverse syllogism: 'Some birds can fly' follows from?",
+        "answers": [
+            "All flying things are not birds",
+            "Birds have no wings",
+            "Specific examples like 'All eagles are birds and can fly'",
+            "No birds can fly"
+        ],
+        "correct": 2,
+        "explanation": "Specific subset that can fly proves 'some'."
+    }
+]

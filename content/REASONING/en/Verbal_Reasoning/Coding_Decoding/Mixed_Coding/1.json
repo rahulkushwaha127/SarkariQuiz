@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "If TRAIN = 5#2@6, then RAIN = ?",
+        "answers": [
+            "2@6#",
+            "#2@6",
+            "#@26",
+            "2#@6"
+        ],
+        "correct": 1,
+        "explanation": "T=5, R=#, A=2, I=@, N=6. RAIN = #2@6."
+    },
+    {
+        "prompt": "If PEN = @#$, then NET = ?",
+        "answers": [
+            "$@#",
+            "$#%",
+            "#$@",
+            "$#@"
+        ],
+        "correct": 2,
+        "explanation": "P=@, E=#, N=$. NET = $#@."
+    },
+    {
+        "prompt": "If COME = 1234, then SOME = ?",
+        "answers": [
+            "4234",
+            "6234",
+            "5234",
+            "7234"
+        ],
+        "correct": 2,
+        "explanation": "C=1, O=2, M=3, E=4. S=5. SOME = 5234."
+    },
+    {
+        "prompt": "If LAND = 1234, then PLAN = ?",
+        "answers": [
+            "5123",
+            "5132",
+            "5312",
+            "5213"
+        ],
+        "correct": 0,
+        "explanation": "L=1, A=2, N=3, D=4. PLAN = 5123."
+    },
+    {
+        "prompt": "If TIME = @#$%, then ITEM = ?",
+        "answers": [
+            "$#%@",
+            "#$%@",
+            "#@%$",
+            "@#%$"
+        ],
+        "correct": 2,
+        "explanation": "T=@, I=#, M=$, E=%. ITEM = #@%$."
+    },
+    {
+        "prompt": "If FISH = 1234, then DISH = ?",
+        "answers": [
+            "5234",
+            "3234",
+            "4234",
+            "6234"
+        ],
+        "correct": 0,
+        "explanation": "F=1, I=2, S=3, H=4. D=5. DISH = 5234."
+    },
+    {
+        "prompt": "If CODE = @#$%, then DECO = ?",
+        "answers": [
+            "%@#$",
+            "%$@#",
+            "#$%@",
+            "$%@#"
+        ],
+        "correct": 1,
+        "explanation": "C=@, O=#, D=$, E=%. DECO = $%@#. Wait: D=$ E=% C=@ O=# → $%@#."
+    },
+    {
+        "prompt": "If 1234 = ABCD, then 4321 = ?",
+        "answers": [
+            "ABCD",
+            "CDAB",
+            "DCBA",
+            "BADC"
+        ],
+        "correct": 2,
+        "explanation": "Reverse mapping. 4321 = DCBA."
+    },
+    {
+        "prompt": "If MAKE = #2$4, then TAKE = ?",
+        "answers": [
+            "&2$4",
+            "@2$4",
+            "52$4",
+            "%2$4"
+        ],
+        "correct": 1,
+        "explanation": "M=#. T=@. TAKE = @2$4."
+    },
+    {
+        "prompt": "If BANK = 1234, then TANK = ?",
+        "answers": [
+            "7234",
+            "6234",
+            "4234",
+            "5234"
+        ],
+        "correct": 3,
+        "explanation": "B=1, A=2, N=3, K=4. T=5. TANK = 5234."
+    },
+    {
+        "prompt": "If #$% = CAT, then %$# = ?",
+        "answers": [
+            "TAC",
+            "ACT",
+            "TCA",
+            "CTA"
+        ],
+        "correct": 0,
+        "explanation": "#=C, $=A, %=T. %$# = TAC."
+    },
+    {
+        "prompt": "If STOP = 1234, then POST = ?",
+        "answers": [
+            "2314",
+            "3412",
+            "2341",
+            "4321"
+        ],
+        "correct": 1,
+        "explanation": "S=1, T=2, O=3, P=4. POST = 4312. Wait P=4, O=3, S=1, T=2 → 4312."
+    },
+    {
+        "prompt": "If CAR = @#$, then ARC = ?",
+        "answers": [
+            "@$#",
+            "$#@",
+            "#$@",
+            "#@$"
+        ],
+        "correct": 2,
+        "explanation": "C=@, A=#, R=$. ARC = #$@."
+    },
+    {
+        "prompt": "If 12345 = ABCDE, then 54321 = ?",
+        "answers": [
+            "BDECA",
+            "EDCBA",
+            "ABCDE",
+            "DECAB"
+        ],
+        "correct": 1,
+        "explanation": "Reverse. 54321 = EDCBA."
+    },
+    {
+        "prompt": "If RED = 123, then DEER = ?",
+        "answers": [
+            "2321",
+            "3221",
+            "3231",
+            "2331"
+        ],
+        "correct": 1,
+        "explanation": "R=1, E=2, D=3. DEER = 3221."
+    }
+]

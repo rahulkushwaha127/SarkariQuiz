@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A square rotates 45°. What shape does it appear as?",
+        "answers": [
+            "Diamond\/Rhombus orientation",
+            "Triangle",
+            "Circle",
+            "Rectangle"
+        ],
+        "correct": 0,
+        "explanation": "Rotated square appears as diamond shape."
+    },
+    {
+        "prompt": "Circle is stretched horizontally. It becomes?",
+        "answers": [
+            "Triangle",
+            "Ellipse\/Oval",
+            "Square",
+            "Pentagon"
+        ],
+        "correct": 1,
+        "explanation": "Stretched circle = ellipse."
+    },
+    {
+        "prompt": "Triangle reflected across vertical axis. Change?",
+        "answers": [
+            "Becomes square",
+            "Horizontal flip (mirror image)",
+            "Rotated 180°",
+            "No change"
+        ],
+        "correct": 1,
+        "explanation": "Vertical axis reflection = horizontal flip."
+    },
+    {
+        "prompt": "Rectangle with aspect ratio 2:1 rotated 90°. New ratio?",
+        "answers": [
+            "1:2",
+            "2:1 (same)",
+            "3:1",
+            "1:1"
+        ],
+        "correct": 0,
+        "explanation": "Width and height swap. 2:1 becomes 1:2."
+    },
+    {
+        "prompt": "Shape shrinks to half size. Angles change by?",
+        "answers": [
+            "Doubled",
+            "No change in angles",
+            "Halved",
+            "Become right angles"
+        ],
+        "correct": 1,
+        "explanation": "Scaling doesn't affect angles."
+    },
+    {
+        "prompt": "Pentagon rotated 72°. It looks?",
+        "answers": [
+            "Like square",
+            "Same as original (identical appearance)",
+            "Different",
+            "Like hexagon"
+        ],
+        "correct": 1,
+        "explanation": "Regular pentagon has 72° rotational symmetry."
+    },
+    {
+        "prompt": "Trapezoid reflected across its parallel side. Result?",
+        "answers": [
+            "Mirror image trapezoid",
+            "Rectangle",
+            "Triangle",
+            "No change"
+        ],
+        "correct": 0,
+        "explanation": "Reflection creates mirror image."
+    },
+    {
+        "prompt": "Circle is compressed into ellipse. What's preserved?",
+        "answers": [
+            "Nothing",
+            "Center point",
+            "Radius",
+            "Circumference"
+        ],
+        "correct": 1,
+        "explanation": "Center remains same position."
+    },
+    {
+        "prompt": "Right triangle rotated 90° clockwise. Right angle now faces?",
+        "answers": [
+            "Splits into two angles",
+            "Different direction",
+            "Same direction",
+            "Disappears"
+        ],
+        "correct": 1,
+        "explanation": "Right angle rotates to new position."
+    },
+    {
+        "prompt": "Hexagon scaled by factor of 3. Perimeter changes by?",
+        "answers": [
+            "No change",
+            "6 times",
+            "3 times",
+            "9 times"
+        ],
+        "correct": 2,
+        "explanation": "Perimeter scales linearly with scale factor."
+    },
+    {
+        "prompt": "Square scaled by factor of 2. Area changes by?",
+        "answers": [
+            "No change",
+            "8 times",
+            "2 times",
+            "4 times"
+        ],
+        "correct": 3,
+        "explanation": "Area scales as square of scale factor: 2² = 4."
+    },
+    {
+        "prompt": "Parallelogram sheared. What's preserved?",
+        "answers": [
+            "Area",
+            "Angles",
+            "Side lengths",
+            "Nothing"
+        ],
+        "correct": 0,
+        "explanation": "Shear transformation preserves area."
+    },
+    {
+        "prompt": "Arrow pointing up, rotated 180°. Now points?",
+        "answers": [
+            "Down",
+            "Right",
+            "Left",
+            "Up"
+        ],
+        "correct": 0,
+        "explanation": "180° rotation reverses direction."
+    },
+    {
+        "prompt": "Star with 5 points. Rotational symmetry angle?",
+        "answers": [
+            "72°",
+            "60°",
+            "90°",
+            "36°"
+        ],
+        "correct": 0,
+        "explanation": "360° \/ 5 = 72° rotational symmetry."
+    },
+    {
+        "prompt": "3D cube viewed from corner. 2D projection shows?",
+        "answers": [
+            "Triangle",
+            "Hexagon-like shape",
+            "Square",
+            "Circle"
+        ],
+        "correct": 1,
+        "explanation": "Corner view of cube shows hexagonal projection."
+    }
+]

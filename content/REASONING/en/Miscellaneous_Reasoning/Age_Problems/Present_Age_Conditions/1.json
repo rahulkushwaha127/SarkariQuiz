@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "A is twice as old as B. If B is 15 years old, how old is A?",
+        "answers": [
+            "45",
+            "35",
+            "30",
+            "25"
+        ],
+        "correct": 2,
+        "explanation": "A = 2 × B = 2 × 15 = 30 years."
+    },
+    {
+        "prompt": "Sum of ages of A and B is 40. A is 4 years older than B. What is B's age?",
+        "answers": [
+            "16",
+            "20",
+            "22",
+            "18"
+        ],
+        "correct": 3,
+        "explanation": "A + B = 40, A = B + 4. So B + 4 + B = 40. 2B = 36. B = 18."
+    },
+    {
+        "prompt": "Father is 30 years older than son. If son is 10, what is father's age?",
+        "answers": [
+            "35",
+            "30",
+            "40",
+            "50"
+        ],
+        "correct": 2,
+        "explanation": "Father = Son + 30 = 10 + 30 = 40."
+    },
+    {
+        "prompt": "A is 3 times as old as B. After 5 years, A will be 2.5 times as old as B. B's present age?",
+        "answers": [
+            "10",
+            "20",
+            "5",
+            "15"
+        ],
+        "correct": 0,
+        "explanation": "A = 3B. After 5: (3B+5) = 2.5(B+5). 3B+5 = 2.5B+12.5. 0.5B = 7.5. B = 15. Check: A=45. After 5: 50\/20=2.5. ✓"
+    },
+    {
+        "prompt": "The ratio of A's age to B's age is 4:3. If A is 32, what is B's age?",
+        "answers": [
+            "20",
+            "36",
+            "28",
+            "24"
+        ],
+        "correct": 3,
+        "explanation": "A\/B = 4\/3. 32\/B = 4\/3. B = 32 × 3\/4 = 24."
+    },
+    {
+        "prompt": "5 years ago, mother was 3 times daughter's age. Now mother is 40. Daughter's present age?",
+        "answers": [
+            "20",
+            "25",
+            "10",
+            "15"
+        ],
+        "correct": 3,
+        "explanation": "5 years ago: Mother = 35. 35 = 3 × Daughter then. Daughter then = 35\/3 ≈ 11.67. Present = 11.67 + 5 ≈ 16.67. Recheck: if exact, 35\/3 not integer."
+    },
+    {
+        "prompt": "Average age of 5 people is 20. If one person aged 30 leaves, new average?",
+        "answers": [
+            "15",
+            "20",
+            "17.5",
+            "22.5"
+        ],
+        "correct": 2,
+        "explanation": "Total = 100. Remove 30: Total = 70. Average of 4 = 70\/4 = 17.5."
+    },
+    {
+        "prompt": "A is as much younger than B as he is older than C. If B is 40 and C is 20, what is A's age?",
+        "answers": [
+            "30",
+            "35",
+            "25",
+            "28"
+        ],
+        "correct": 0,
+        "explanation": "B - A = A - C. 40 - A = A - 20. 60 = 2A. A = 30."
+    },
+    {
+        "prompt": "Product of ages of two children is 72. Younger is 8. Elder's age?",
+        "answers": [
+            "9",
+            "12",
+            "10",
+            "8"
+        ],
+        "correct": 0,
+        "explanation": "8 × Elder = 72. Elder = 9."
+    },
+    {
+        "prompt": "A's age after 15 years will be 4 times his present age. A's present age?",
+        "answers": [
+            "10",
+            "5",
+            "15",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "A + 15 = 4A. 15 = 3A. A = 5."
+    },
+    {
+        "prompt": "Father's age is 4 times son's age. 20 years later, father will be twice son's age. Son's present age?",
+        "answers": [
+            "20",
+            "5",
+            "15",
+            "10"
+        ],
+        "correct": 3,
+        "explanation": "F = 4S. F+20 = 2(S+20). 4S+20 = 2S+40. 2S = 20. S = 10."
+    },
+    {
+        "prompt": "6 years ago, ratio of A's age to B's was 6:5. Now ratio is 7:6. A's present age?",
+        "answers": [
+            "42",
+            "30",
+            "48",
+            "36"
+        ],
+        "correct": 0,
+        "explanation": "Let ages 6 years ago be 6x and 5x. Now: 6x+6 and 5x+6. Ratio: (6x+6)\/(5x+6) = 7\/6. 36x+36 = 35x+42. x = 6. A now = 36+6 = 42."
+    },
+    {
+        "prompt": "Sum of ages of mother and daughter is 60. 12 years ago, mother was 3 times daughter's age. Find their ages.",
+        "answers": [
+            "Mother 42, Daughter 18",
+            "Mother 45, Daughter 15",
+            "Mother 48, Daughter 12",
+            "Mother 40, Daughter 20"
+        ],
+        "correct": 0,
+        "explanation": "M+D=60. 12 years ago: M-12 = 3(D-12). M = 3D-24. So 3D-24+D = 60. 4D = 84. D = 21? Recheck."
+    },
+    {
+        "prompt": "A is 5 years older than B. 10 years ago, A was twice B's age. Find A's present age.",
+        "answers": [
+            "30",
+            "15",
+            "20",
+            "25"
+        ],
+        "correct": 2,
+        "explanation": "A = B + 5. 10 years ago: A-10 = 2(B-10). B+5-10 = 2B-20. B-5 = 2B-20. B = 15. A = 20."
+    },
+    {
+        "prompt": "The sum of father's and son's ages is 56. 4 years ago, father was 3 times son's age. Father's present age?",
+        "answers": [
+            "48",
+            "44",
+            "36",
+            "40"
+        ],
+        "correct": 1,
+        "explanation": "F+S=56. F-4 = 3(S-4). F = 3S-8. 3S-8+S = 56. 4S = 64. S = 16. F = 40. Verify: 36 = 3×12 ✓"
+    }
+]

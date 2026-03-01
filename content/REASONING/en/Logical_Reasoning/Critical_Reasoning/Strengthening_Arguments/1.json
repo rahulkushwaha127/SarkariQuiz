@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Argument: Regular exercise reduces heart disease risk. Which strengthens this?",
+        "answers": [
+            "Exercise requires time",
+            "Some athletes have heart problems",
+            "Gyms are expensive",
+            "Studies show 50% less heart attacks in people who exercise daily"
+        ],
+        "correct": 3,
+        "explanation": "Statistical evidence supporting the claim strengthens the argument."
+    },
+    {
+        "prompt": "Claim: Online learning is as effective as classroom learning. Strengthening statement?",
+        "answers": [
+            "Many prefer physical classrooms",
+            "Internet is not available everywhere",
+            "Students in online courses score equally on standardized tests",
+            "Teachers prefer physical classes"
+        ],
+        "correct": 2,
+        "explanation": "Equal test scores support the claim of equal effectiveness."
+    },
+    {
+        "prompt": "Argument: Recycling reduces landfill waste. Which strengthens?",
+        "answers": [
+            "Recycling requires sorting",
+            "Cities with recycling programs have 30% less landfill usage",
+            "Not all materials are recyclable",
+            "Some people don't recycle"
+        ],
+        "correct": 1,
+        "explanation": "Evidence of reduced landfill usage supports the argument."
+    },
+    {
+        "prompt": "Claim: Vaccination prevents diseases. Strengthening evidence?",
+        "answers": [
+            "Disease rates dropped 90% after vaccination programs started",
+            "Vaccines have side effects",
+            "Not all diseases have vaccines",
+            "Some people refuse vaccines"
+        ],
+        "correct": 0,
+        "explanation": "Historical evidence of disease reduction strengthens the claim."
+    },
+    {
+        "prompt": "Argument: Higher education leads to better jobs. Which supports this?",
+        "answers": [
+            "Jobs are competitive",
+            "Some successful people didn't attend college",
+            "College graduates have 40% higher employment rates",
+            "College is expensive"
+        ],
+        "correct": 2,
+        "explanation": "Employment statistics support the argument."
+    },
+    {
+        "prompt": "Claim: Reading improves vocabulary. Strengthening?",
+        "answers": [
+            "Audiobooks exist",
+            "TV is more popular",
+            "Some people don't enjoy reading",
+            "Children who read daily know 50% more words"
+        ],
+        "correct": 3,
+        "explanation": "Evidence of expanded vocabulary supports the claim."
+    },
+    {
+        "prompt": "Argument: Seat belts save lives. Which strengthens?",
+        "answers": [
+            "Fatality rates are 60% lower for belted passengers",
+            "Airbags also exist",
+            "Not all cars have seat belts",
+            "Some find seat belts uncomfortable"
+        ],
+        "correct": 0,
+        "explanation": "Lower fatality statistics strengthen the life-saving claim."
+    },
+    {
+        "prompt": "Claim: Meditation reduces stress. Strengthening evidence?",
+        "answers": [
+            "Not everyone can meditate",
+            "Some prefer exercise for stress relief",
+            "Brain scans show reduced stress hormones after meditation",
+            "Meditation takes time"
+        ],
+        "correct": 2,
+        "explanation": "Biological evidence supports stress reduction."
+    },
+    {
+        "prompt": "Argument: Early intervention helps learning disabilities. Support?",
+        "answers": [
+            "Some children don't need help",
+            "Children with early support show 70% improvement in reading",
+            "Diagnosis is difficult",
+            "Resources are limited"
+        ],
+        "correct": 1,
+        "explanation": "Improvement statistics support early intervention."
+    },
+    {
+        "prompt": "Claim: Handwashing prevents illness. Which strengthens?",
+        "answers": [
+            "Hand sanitizers exist",
+            "Not everyone has access to soap",
+            "Soap can dry skin",
+            "Hospitals with strict hand hygiene have 50% fewer infections"
+        ],
+        "correct": 3,
+        "explanation": "Reduced infection rates support the prevention claim."
+    },
+    {
+        "prompt": "Argument: Music training improves math skills. Strengthening?",
+        "answers": [
+            "Students with music lessons score 15% higher in math",
+            "Math and music seem unrelated",
+            "Music lessons are time-consuming",
+            "Not everyone likes music"
+        ],
+        "correct": 0,
+        "explanation": "Higher math scores support the connection."
+    },
+    {
+        "prompt": "Claim: Green spaces improve mental health. Support?",
+        "answers": [
+            "Urban areas have less space",
+            "People living near parks report 30% less depression",
+            "Parks require maintenance",
+            "Some prefer indoor activities"
+        ],
+        "correct": 1,
+        "explanation": "Mental health statistics support the claim."
+    },
+    {
+        "prompt": "Argument: Sleep improves memory. Strengthening evidence?",
+        "answers": [
+            "Sleep schedules vary",
+            "Test subjects who slept after learning remembered 40% more",
+            "Memory techniques exist",
+            "Some need less sleep"
+        ],
+        "correct": 1,
+        "explanation": "Memory retention data supports the sleep-memory link."
+    },
+    {
+        "prompt": "Claim: Diverse teams are more innovative. Which strengthens?",
+        "answers": [
+            "Diversity training is costly",
+            "Not all companies prioritize innovation",
+            "Homogeneous teams are easier to manage",
+            "Companies with diverse teams file 25% more patents"
+        ],
+        "correct": 3,
+        "explanation": "Patent data supports innovation claim."
+    },
+    {
+        "prompt": "Argument: Plant-based diet is healthier. Strengthening?",
+        "answers": [
+            "Protein sources vary",
+            "Vegetarians have 20% lower rates of heart disease",
+            "Meat is tasty",
+            "Some cultures eat mostly meat"
+        ],
+        "correct": 1,
+        "explanation": "Health statistics support the healthier diet claim."
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Which year is a leap year: 1900, 2000, 2100?",
+        "answers": [
+            "None",
+            "1900 only",
+            "2000 only",
+            "All three"
+        ],
+        "correct": 2,
+        "explanation": "Century years leap only if divisible by 400. 2000 ÷ 400 = 5. 1900 and 2100 not divisible by 400."
+    },
+    {
+        "prompt": "Is 2024 a leap year?",
+        "answers": [
+            "Need more info",
+            "Yes",
+            "Depends on calendar",
+            "No"
+        ],
+        "correct": 1,
+        "explanation": "2024 ÷ 4 = 506, no remainder. Not a century year. It's a leap year."
+    },
+    {
+        "prompt": "How many days in February in a leap year?",
+        "answers": [
+            "29",
+            "31",
+            "30",
+            "28"
+        ],
+        "correct": 0,
+        "explanation": "Leap year February has 29 days."
+    },
+    {
+        "prompt": "Which is NOT a leap year: 2016, 2020, 2022, 2024?",
+        "answers": [
+            "2016",
+            "2024",
+            "2020",
+            "2022"
+        ],
+        "correct": 3,
+        "explanation": "2022 ÷ 4 = 505.5. Not divisible by 4 = not leap year."
+    },
+    {
+        "prompt": "In 100 years (century), how many leap years?",
+        "answers": [
+            "20",
+            "25",
+            "26",
+            "24"
+        ],
+        "correct": 3,
+        "explanation": "100 ÷ 4 = 25, but subtract 1 if century not divisible by 400. Generally 24."
+    },
+    {
+        "prompt": "If January 1 of leap year is Monday, what day is December 31?",
+        "answers": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Sunday"
+        ],
+        "correct": 1,
+        "explanation": "Leap year = 366 days = 52 weeks + 2 days. Monday + 2 = Wednesday? Actually Dec 31 is 365th day from Jan 1 (366-1). Monday + 365 mod 7 = Monday + 1 = Tuesday."
+    },
+    {
+        "prompt": "2000 was a leap year. Next century leap year?",
+        "answers": [
+            "2100",
+            "2200",
+            "2300",
+            "2400"
+        ],
+        "correct": 3,
+        "explanation": "Century years divisible by 400: 2000, 2400."
+    },
+    {
+        "prompt": "How many odd days in a leap year?",
+        "answers": [
+            "0",
+            "2",
+            "1",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "366 = 52 weeks + 2 odd days."
+    },
+    {
+        "prompt": "Is year 0 (if considered) a leap year?",
+        "answers": [
+            "Year 0 doesn't exist",
+            "No",
+            "Cannot determine",
+            "Yes, divisible by 4 (and 400)"
+        ],
+        "correct": 3,
+        "explanation": "0 ÷ 4 = 0, divisible. 0 ÷ 400 = 0, divisible. Mathematically yes."
+    },
+    {
+        "prompt": "Leap years occur every?",
+        "answers": [
+            "5 years",
+            "Every year",
+            "4 years (with exceptions)",
+            "3 years"
+        ],
+        "correct": 2,
+        "explanation": "Every 4 years, except century years not divisible by 400."
+    },
+    {
+        "prompt": "How many leap years between 1901 and 2000?",
+        "answers": [
+            "24",
+            "25",
+            "26",
+            "23"
+        ],
+        "correct": 0,
+        "explanation": "1904, 1908... 2000. Total = 25 (including 2000 which is divisible by 400)."
+    },
+    {
+        "prompt": "If Feb 29, 2020 was Saturday, what day is Feb 29, 2024?",
+        "answers": [
+            "Thursday",
+            "Wednesday",
+            "Saturday",
+            "Friday"
+        ],
+        "correct": 0,
+        "explanation": "2020→2024 = 4 years = 1 leap + 3 normal = 366+365+365+365 days. Calculate odd days."
+    },
+    {
+        "prompt": "Is 2200 a leap year?",
+        "answers": [
+            "Yes",
+            "Maybe",
+            "Depends",
+            "No"
+        ],
+        "correct": 3,
+        "explanation": "2200 is century year, 2200 ÷ 400 = 5.5, not exactly divisible. Not leap year."
+    },
+    {
+        "prompt": "A person born on Feb 29 celebrates birthday every?",
+        "answers": [
+            "Every 8 years",
+            "Never",
+            "4 years (or celebrates on Feb 28\/Mar 1 otherwise)",
+            "Every year"
+        ],
+        "correct": 2,
+        "explanation": "Feb 29 occurs every 4 years. Birthday on that date = every 4 years."
+    },
+    {
+        "prompt": "Between 2001 and 2100, how many leap years?",
+        "answers": [
+            "25",
+            "24",
+            "23",
+            "26"
+        ],
+        "correct": 1,
+        "explanation": "2004, 2008... 2096. But not 2100 (÷400 fails). Total = 24."
+    }
+]

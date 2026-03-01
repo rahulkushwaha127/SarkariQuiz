@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "Find next: 1, A, 2, B, 3, C, 4, ?",
+        "answers": [
+            "E",
+            "5",
+            "D",
+            "4"
+        ],
+        "correct": 2,
+        "explanation": "Alternating numbers and letters. After 4 comes D."
+    },
+    {
+        "prompt": "Find next: A, 1, B, 4, C, 9, D, ?",
+        "answers": [
+            "25",
+            "10",
+            "E",
+            "16"
+        ],
+        "correct": 3,
+        "explanation": "Letters alternate with squares. D, 16."
+    },
+    {
+        "prompt": "Find next: 2, Z, 4, Y, 6, X, 8, ?",
+        "answers": [
+            "9",
+            "W",
+            "V",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "Even numbers up, letters down. 8 → W."
+    },
+    {
+        "prompt": "Find next: A, 2, C, 4, E, 6, G, ?",
+        "answers": [
+            "7",
+            "I",
+            "H",
+            "8"
+        ],
+        "correct": 3,
+        "explanation": "Odd letters, even numbers. G → 8."
+    },
+    {
+        "prompt": "Find next: 1, B, 3, D, 5, F, 7, ?",
+        "answers": [
+            "I",
+            "G",
+            "H",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "Odd numbers, even letters. 7 → H."
+    },
+    {
+        "prompt": "Find next: Z, 1, Y, 2, X, 3, W, ?",
+        "answers": [
+            "5",
+            "U",
+            "4",
+            "V"
+        ],
+        "correct": 2,
+        "explanation": "Backward letters, forward numbers."
+    },
+    {
+        "prompt": "Find next: A, 1, C, 3, E, 5, G, ?",
+        "answers": [
+            "7",
+            "H",
+            "9",
+            "I"
+        ],
+        "correct": 0,
+        "explanation": "Odd letters, odd numbers. G → 7."
+    },
+    {
+        "prompt": "Find next: 1, A, 4, D, 9, I, 16, ?",
+        "answers": [
+            "P",
+            "Q",
+            "25",
+            "O"
+        ],
+        "correct": 0,
+        "explanation": "Squares alternate with nth letters."
+    },
+    {
+        "prompt": "Find next: B, 2, D, 4, F, 6, H, ?",
+        "answers": [
+            "J",
+            "8",
+            "I",
+            "10"
+        ],
+        "correct": 1,
+        "explanation": "Even letters with even numbers."
+    },
+    {
+        "prompt": "Find next: 3, C, 6, F, 9, I, 12, ?",
+        "answers": [
+            "M",
+            "L",
+            "15",
+            "K"
+        ],
+        "correct": 1,
+        "explanation": "Multiples of 3 with 3rd, 6th, 9th letters."
+    },
+    {
+        "prompt": "Find next: A, Z, 1, B, Y, 2, C, X, ?",
+        "answers": [
+            "4",
+            "D",
+            "3",
+            "W"
+        ],
+        "correct": 2,
+        "explanation": "Forward, backward, number pattern."
+    },
+    {
+        "prompt": "Find next: 5, E, 10, J, 15, O, 20, ?",
+        "answers": [
+            "T",
+            "S",
+            "U",
+            "25"
+        ],
+        "correct": 0,
+        "explanation": "Multiples of 5 with 5th, 10th, 15th, 20th letters."
+    },
+    {
+        "prompt": "Find next: M, 13, N, 14, O, 15, P, ?",
+        "answers": [
+            "17",
+            "16",
+            "Q",
+            "R"
+        ],
+        "correct": 1,
+        "explanation": "Letter with position number."
+    },
+    {
+        "prompt": "Find next: 1, Z, 4, W, 9, T, 16, ?",
+        "answers": [
+            "R",
+            "Q",
+            "P",
+            "25"
+        ],
+        "correct": 1,
+        "explanation": "Squares, letters going back by 3."
+    },
+    {
+        "prompt": "Find next: A, 2, D, 5, G, 8, J, ?",
+        "answers": [
+            "K",
+            "11",
+            "M",
+            "12"
+        ],
+        "correct": 1,
+        "explanation": "Letters +3, numbers +3."
+    }
+]

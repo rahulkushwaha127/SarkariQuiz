@@ -1,0 +1,167 @@
+[
+    {
+        "prompt": "You see a child crying alone in a mall. What do you do?",
+        "answers": [
+            "Take the child to mall security and stay until parents are found",
+            "Shout at the child",
+            "Ignore and walk away",
+            "Give candy and leave"
+        ],
+        "correct": 0,
+        "explanation": "Responsible action is to help through official channels while ensuring child's safety."
+    },
+    {
+        "prompt": "You find a wallet with money and ID on the street. Best action?",
+        "answers": [
+            "Try to contact the owner using ID details or turn it to police",
+            "Keep the money",
+            "Leave it there",
+            "Take only the money, leave wallet"
+        ],
+        "correct": 0,
+        "explanation": "Ethical action is to return it to owner or authorities."
+    },
+    {
+        "prompt": "Your colleague is being bullied by seniors. You should?",
+        "answers": [
+            "Join the bullying",
+            "Support your colleague and report to HR\/management",
+            "Tell the colleague to quit",
+            "Ignore it completely"
+        ],
+        "correct": 1,
+        "explanation": "Standing against bullying and using official channels is correct."
+    },
+    {
+        "prompt": "You witness a minor accident with no injuries. What do you do?",
+        "answers": [
+            "Offer help, exchange information if needed, move vehicles if blocking traffic",
+            "Run away",
+            "Blame one driver",
+            "Start filming for social media"
+        ],
+        "correct": 0,
+        "explanation": "Helpful and responsible behavior benefits all parties."
+    },
+    {
+        "prompt": "During an exam, you see someone cheating. You should?",
+        "answers": [
+            "Ignore and focus on your paper",
+            "Help them cheat",
+            "Loudly announce it",
+            "Inform the invigilator discreetly"
+        ],
+        "correct": 0,
+        "explanation": "Focus on your own exam; informing is optional but focusing on self is reasonable."
+    },
+    {
+        "prompt": "A stranger asks for directions but you don't know the way. You should?",
+        "answers": [
+            "Politely say you don't know and suggest asking someone else",
+            "Give wrong directions",
+            "Ignore them",
+            "Walk away without responding"
+        ],
+        "correct": 0,
+        "explanation": "Polite honesty is the best response."
+    },
+    {
+        "prompt": "You receive extra change from a shopkeeper. What do you do?",
+        "answers": [
+            "Argue about prices",
+            "Return the extra money",
+            "Demand more",
+            "Keep it silently"
+        ],
+        "correct": 1,
+        "explanation": "Honesty requires returning excess money."
+    },
+    {
+        "prompt": "Your friend asks you to lie to cover for them. You should?",
+        "answers": [
+            "Tell their parents immediately",
+            "Politely decline and explain why you can't lie",
+            "Lie for them happily",
+            "End the friendship"
+        ],
+        "correct": 1,
+        "explanation": "Maintaining honesty while being a good friend."
+    },
+    {
+        "prompt": "You smell gas in your apartment building. What should you do?",
+        "answers": [
+            "Ignore it",
+            "Immediately evacuate, don't use electrical switches, call gas company",
+            "Open all windows only",
+            "Light a match to check"
+        ],
+        "correct": 1,
+        "explanation": "Safety protocol for gas leaks: evacuate and alert authorities."
+    },
+    {
+        "prompt": "A elderly person needs help crossing a busy road. You should?",
+        "answers": [
+            "Tell them to use a different road",
+            "Honk if you're driving",
+            "Ignore and walk past",
+            "Offer to help them cross safely"
+        ],
+        "correct": 3,
+        "explanation": "Helping vulnerable people is the right thing to do."
+    },
+    {
+        "prompt": "You receive a suspicious email asking for bank details. Action?",
+        "answers": [
+            "Forward to friends",
+            "Delete the email and never share personal details",
+            "Reply with your details",
+            "Click all links to check"
+        ],
+        "correct": 1,
+        "explanation": "Protect yourself from phishing by ignoring suspicious emails."
+    },
+    {
+        "prompt": "Your team member takes credit for your work in front of boss. You should?",
+        "answers": [
+            "Speak to the team member privately first, then escalate if needed",
+            "Quit immediately",
+            "Say nothing ever",
+            "Start a fight in office"
+        ],
+        "correct": 0,
+        "explanation": "Address professionally: private conversation first."
+    },
+    {
+        "prompt": "You find a injured bird on your balcony. What do you do?",
+        "answers": [
+            "Throw it away",
+            "Keep it safe, offer water, and contact wildlife rescue",
+            "Try to feed it bread",
+            "Ignore it"
+        ],
+        "correct": 1,
+        "explanation": "Compassionate action involves basic care and proper help."
+    },
+    {
+        "prompt": "A friend shares a rumor about another friend. You should?",
+        "answers": [
+            "Tell everyone immediately",
+            "Confront the person the rumor is about",
+            "Not spread it further and verify facts before believing",
+            "Make up more rumors"
+        ],
+        "correct": 2,
+        "explanation": "Don't spread unverified information."
+    },
+    {
+        "prompt": "You're stuck in traffic and will be late for an important meeting. Best action?",
+        "answers": [
+            "Drive rashly to save time",
+            "Panic and do nothing",
+            "Call ahead to inform about the delay",
+            "Turn back and go home"
+        ],
+        "correct": 2,
+        "explanation": "Communicate proactively about delays."
+    }
+]
