@@ -9,6 +9,15 @@ use App\Support\Slug;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
+/**
+ * Seeds Exam → Subject → Topic taxonomy.
+ *
+ * Duplicate prevention:
+ * - Exam: unique by slug (updateOrCreate).
+ * - Subject: globally unique by slug (updateOrCreate); shared across exams via pivot.
+ * - exam_subject: unique (exam_id, subject_id); upsert used so re-runs update position, no duplicate links.
+ * - Topic: unique per subject by (subject_id, slug) (updateOrCreate).
+ */
 class DemoTaxonomySeeder extends Seeder
 {
     public function run(): void
@@ -68,12 +77,18 @@ class DemoTaxonomySeeder extends Seeder
                     ]
                 );
 
-                // Link subject to exam via pivot (ignore if already linked)
-                DB::table('exam_subject')->insertOrIgnore([
-                    'exam_id' => $exam->id,
-                    'subject_id' => $subject->id,
-                    'position' => (int) ($subjectRow['position'] ?? 0),
-                ]);
+                // Link subject to exam via pivot; upsert = no duplicate (exam_id, subject_id), position updated on re-run
+                DB::table('exam_subject')->upsert(
+                    [
+                        [
+                            'exam_id' => $exam->id,
+                            'subject_id' => $subject->id,
+                            'position' => (int) ($subjectRow['position'] ?? 0),
+                        ],
+                    ],
+                    ['exam_id', 'subject_id'],
+                    ['position']
+                );
 
                 foreach ($subjectRow['topics'] as $idx => $topicName) {
                     Topic::query()->updateOrCreate(

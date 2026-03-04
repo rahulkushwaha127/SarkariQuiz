@@ -22,10 +22,11 @@ class DemoQuizzesSeeder extends Seeder
         }
 
         $ssc = Exam::query()->where('slug', 'ssc')->first();
-        $gk = $ssc ? Subject::query()->where('exam_id', $ssc->id)->where('slug', 'general-knowledge')->first() : null;
+        // Subjects are linked to exam via exam_subject pivot (not subject.exam_id)
+        $gk = $ssc ? $ssc->subjects()->where('slug', 'general-knowledge')->first() : null;
         $ca = $gk ? Topic::query()->where('subject_id', $gk->id)->where('slug', 'current-affairs')->first() : null;
 
-        $reasoning = $ssc ? Subject::query()->where('exam_id', $ssc->id)->where('slug', 'reasoning')->first() : null;
+        $reasoning = $ssc ? $ssc->subjects()->where('slug', 'reasoning')->first() : null;
         $series = $reasoning ? Topic::query()->where('subject_id', $reasoning->id)->where('slug', 'series')->first() : null;
 
         $quizRows = [

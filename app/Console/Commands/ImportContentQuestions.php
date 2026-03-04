@@ -77,6 +77,8 @@ class ImportContentQuestions extends Command
         $totalQuestions = 0;
         $totalSkipped = 0;
         $errors = [];
+        /** @var array<int, array{path: string, index: int, reason: string}> */
+        $skippedDetails = [];
 
         foreach ($files as $relativePath) {
             $fullPath = $basePath . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $relativePath);
@@ -85,9 +87,11 @@ class ImportContentQuestions extends Command
                 $errors[] = "Read failed: {$relativePath}";
                 continue;
             }
+            $content = $this->stripBom($content);
             $decoded = json_decode($content, true);
             if (! is_array($decoded)) {
-                $errors[] = "Invalid JSON or empty: {$relativePath}";
+                $errMsg = json_last_error_msg();
+                $errors[] = "Invalid JSON or empty: {$relativePath}" . ($errMsg ? " ({$errMsg})" : '');
                 continue;
             }
 
@@ -95,12 +99,14 @@ class ImportContentQuestions extends Command
             $subjectFolder = $segments[0] ?? '';
             $defaultLanguage = $this->option('language') ?: 'hi';
 
-            // Path patterns:
-            // SUBJECT/file.json                  -> subject only, no topic, language = --language
-            // SUBJECT/TOPIC/file.json            -> subject + topic, language = --language
-            // SUBJECT/LANG/file.json             -> subject + language from folder, no topic
-            // SUBJECT/LANG/TOPIC/file.json       -> subject + language from folder + topic
-            // SUBJECT/LANG/TOPIC/SUBPTOPIC/file.json -> subject + language + topic + subtopic
+            // Path patterns (language = LANG when 2nd segment is a language code):
+            // SUBJECT/file.json                           -> subject only, no topic
+            // SUBJECT/TOPIC/file.json                     -> subject + topic
+            // SUBJECT/LANG/file.json                      -> subject + language, no topic
+            // SUBJECT/LANG/TOPIC/file.json                -> subject + language + topic
+            // SUBJECT/LANG/TOPIC/SUBPTOPIC/file.json      -> subject + language + topic + subtopic
+            // SUBJECT/LANG/TOPIC/SUBPTOPIC/FOLDER/.../file.json -> same: topic + subtopic from [2],[3];
+            //   any folders under subtopic are ignored for taxonomy — all questions go to that subtopic only
             $topicFolder = null;
             $subtopicFolder = null;
             $fileLanguage = $defaultLanguage;
@@ -111,6 +117,7 @@ class ImportContentQuestions extends Command
                 $fileLanguage = strtolower($secondSegment);
                 $topicFolder = $segments[2] ?? null;
                 $subtopicFolder = $segments[3] ?? null;
+                // For 6+ segments, segments[4]… are subfolders under subtopic; taxonomy stays topic + subtopic only
             } elseif (count($segments) >= 4 && $isLanguageSegment) {
                 $fileLanguage = strtolower($secondSegment);
                 $topicFolder = $segments[2] ?? null;
@@ -134,19 +141,27 @@ class ImportContentQuestions extends Command
             $subjectSlug = $subject ? Slug::make($subjectName) : 'unknown';
             $topicSlug = $topicName ? Slug::make($topicName) : '_';
             $subtopicSlug = $subtopicName ? Slug::make($subtopicName) : '_';
+            // Include path under subtopic (subfolders) so files in different subfolders get unique content_source_key
+            $pathUnderSubtopic = $this->pathUnderSubtopicForContentKey($segments, $isLanguageSegment);
 
             $count = 0;
             $skipped = 0;
             foreach ($decoded as $index => $item) {
                 if (! $this->isValidQuestionItem($item)) {
                     $skipped++;
+                    $reason = $this->getInvalidItemReason($item) ?: 'invalid format';
+                    $skippedDetails[] = [
+                        'path' => $relativePath,
+                        'index' => $index,
+                        'reason' => $reason,
+                    ];
                     continue;
                 }
                 $contentSourceKey = $subtopicName
-                    ? "{$subjectSlug}/{$topicSlug}/{$subtopicSlug}/{$fileBasename}/{$index}"
-                    : "{$subjectSlug}/{$topicSlug}/{$fileBasename}/{$index}";
+                    ? "{$subjectSlug}/{$topicSlug}/{$subtopicSlug}/{$pathUnderSubtopic}/{$index}"
+                    : ($topicName ? "{$subjectSlug}/{$topicSlug}/{$pathUnderSubtopic}/{$index}" : "{$subjectSlug}/{$pathUnderSubtopic}/{$index}");
                 if (! $dryRun && $subject) {
-                    $this->createQuestion($item, $subject, $topic?->id, $subtopic?->id, $fileLanguage, $contentSourceKey);
+                    $this->createQuestionIfNotExists($item, $subject, $topic?->id, $subtopic?->id, $fileLanguage, $contentSourceKey);
                 }
                 $count++;
             }
@@ -164,9 +179,27 @@ class ImportContentQuestions extends Command
         $this->info('Total questions imported: ' . $totalQuestions);
         if ($totalSkipped) {
             $this->warn("Total skipped (invalid format): {$totalSkipped}");
+            foreach ($skippedDetails as $s) {
+                $this->line("  - {$s['path']} [index {$s['index']}]: {$s['reason']}");
+            }
         }
 
         return self::SUCCESS;
+    }
+
+    /**
+     * Strip UTF-8 BOM (and other common BOMs) so json_decode does not fail.
+     */
+    private function stripBom(string $content): string
+    {
+        $bom = "\xEF\xBB\xBF";
+        if (str_starts_with($content, $bom)) {
+            return substr($content, strlen($bom));
+        }
+        if (str_starts_with($content, "\xFF\xFE") || str_starts_with($content, "\xFE\xFF")) {
+            return substr($content, 2);
+        }
+        return $content;
     }
 
     private function collectJsonFiles(string $basePath): array
@@ -188,6 +221,24 @@ class ImportContentQuestions extends Command
         return $files;
     }
 
+    /**
+     * Path segment for content_source_key: when there are subfolders under subtopic,
+     * include them so files in different subfolders get unique keys; otherwise just file basename.
+     */
+    private function pathUnderSubtopicForContentKey(array $segments, bool $isLanguageSegment): string
+    {
+        $last = $segments[count($segments) - 1] ?? '';
+        $fileBasename = pathinfo($last, PATHINFO_FILENAME);
+        if (count($segments) >= 5 && $isLanguageSegment) {
+            $rest = array_slice($segments, 4, -1);
+            return $rest === [] ? $fileBasename : implode('/', $rest) . '/' . $fileBasename;
+        }
+        return $fileBasename;
+    }
+
+    /**
+     * Get or create Subject. No duplicate: unique by slug (global).
+     */
     private function getOrCreateSubject(string $name, bool $dryRun): ?Subject
     {
         $slug = Slug::make($name);
@@ -200,6 +251,9 @@ class ImportContentQuestions extends Command
         );
     }
 
+    /**
+     * Get or create Topic. No duplicate: unique by (subject_id, slug).
+     */
     private function getOrCreateTopic(Subject $subject, string $name, bool $dryRun): ?Topic
     {
         $slug = Slug::make($name);
@@ -215,6 +269,9 @@ class ImportContentQuestions extends Command
         );
     }
 
+    /**
+     * Get or create Subtopic. No duplicate: unique by (topic_id, slug).
+     */
     private function getOrCreateSubtopic(Topic $topic, string $name, bool $dryRun): ?Subtopic
     {
         $slug = Slug::make($name);
@@ -242,7 +299,7 @@ class ImportContentQuestions extends Command
             if (! $examId) {
                 continue;
             }
-            // Insert-ignore: don't fail on duplicate
+            // No duplicate: (exam_id, subject_id) is primary key; insertOrIgnore skips if already linked
             DB::table('exam_subject')->insertOrIgnore([
                 'exam_id' => $examId,
                 'subject_id' => $subject->id,
@@ -294,6 +351,57 @@ class ImportContentQuestions extends Command
     }
 
     /**
+     * Return a short reason why the item is invalid, or empty string if valid.
+     */
+    private function getInvalidItemReason(mixed $item): string
+    {
+        if (! is_array($item)) {
+            return 'not an array';
+        }
+        $prompt = $item['prompt'] ?? null;
+        $question = $item['question'] ?? null;
+        $answers = $item['answers'] ?? null;
+        if (! is_array($answers)) {
+            return 'answers missing or not array';
+        }
+        if (count($answers) < 2) {
+            return 'answers need at least 2 options';
+        }
+        if (count($answers) > 10) {
+            return 'answers exceed 10 options';
+        }
+        if ($question !== null && $question !== '') {
+            $correctCount = 0;
+            foreach ($answers as $a) {
+                if (! is_array($a) || ! isset($a['title']) || $a['title'] === '' || $a['title'] === null) {
+                    return 'new format: each answer must have title';
+                }
+                if (! empty($a['is_correct'])) {
+                    $correctCount++;
+                }
+            }
+            if ($correctCount !== 1) {
+                return 'new format: exactly one answer must have is_correct true';
+            }
+            return '';
+        }
+        if ($prompt === null || $prompt === '') {
+            return 'prompt/question empty';
+        }
+        foreach ($answers as $a) {
+            if (! is_string($a)) {
+                return 'old format: answers must be strings';
+            }
+        }
+        $correct = $item['correct'] ?? null;
+        $idx = (int) $correct;
+        if ($idx < 0 || $idx >= count($answers)) {
+            return 'correct index out of range (0-' . (count($answers) - 1) . ')';
+        }
+        return '';
+    }
+
+    /**
      * Parse difficulty from JSON item.
      * Accepts: "easy"|"medium"|"hard" or 0|1|2. Defaults to 0 (easy).
      */
@@ -307,6 +415,17 @@ class ImportContentQuestions extends Command
             'hard' => 2,
             default => 0,
         };
+    }
+
+    /**
+     * Create question and answers only if no question with this content_source_key exists (avoids duplicates on re-run).
+     */
+    private function createQuestionIfNotExists(array $item, Subject $subject, ?int $topicId, ?int $subtopicId, string $language = 'en', ?string $contentSourceKey = null): void
+    {
+        if ($contentSourceKey !== null && $contentSourceKey !== '' && Question::query()->where('content_source_key', $contentSourceKey)->exists()) {
+            return;
+        }
+        $this->createQuestion($item, $subject, $topicId, $subtopicId, $language, $contentSourceKey);
     }
 
     private function createQuestion(array $item, Subject $subject, ?int $topicId, ?int $subtopicId, string $language = 'en', ?string $contentSourceKey = null): void

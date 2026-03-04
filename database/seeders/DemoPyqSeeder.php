@@ -19,7 +19,8 @@ class DemoPyqSeeder extends Seeder
         $ssc = Exam::query()->where('slug', 'ssc')->first();
         if (! $ssc) return;
 
-        $gk = Subject::query()->where('exam_id', $ssc->id)->where('slug', 'general-knowledge')->first();
+        // Subjects are linked to exam via exam_subject pivot (not subject.exam_id)
+        $gk = $ssc->subjects()->where('slug', 'general-knowledge')->first();
         $ca = $gk ? Topic::query()->where('subject_id', $gk->id)->where('slug', 'current-affairs')->first() : null;
 
         $rows = [
